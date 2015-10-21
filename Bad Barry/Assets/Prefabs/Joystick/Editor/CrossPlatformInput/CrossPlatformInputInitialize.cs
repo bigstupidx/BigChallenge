@@ -7,6 +7,7 @@ namespace UnityStandardAssets.CrossPlatformInput.Inspector
     [InitializeOnLoad]
     public class CrossPlatformInitialize
     {
+
         // Custom compiler defines:
         //
         // CROSS_PLATFORM_INPUT : denotes that cross platform input package exists, so that other packages can use their CrossPlatformInput functions.

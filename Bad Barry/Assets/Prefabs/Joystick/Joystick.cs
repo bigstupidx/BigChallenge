@@ -20,7 +20,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public string verticalAxisName = "Vertical"; // The name given to the vertical axis for the cross platform input
 
 		float x,y;
-		int direction = -1;
+		int direction;
 
 		Vector3 m_StartPos;
 		bool m_UseX; // Toggle for using the x axis
