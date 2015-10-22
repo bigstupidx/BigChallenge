@@ -7,8 +7,11 @@ public class Player : MonoBehaviour {
 	public int life = 100;
 	public int maxLife = 100;
 	public int armor = 0;
-	public int speed = 1;
+	public float speed = 0.5f;
 	public int baseDamage = 0;
+	public int direction = -1;
+	public int shootDirection = 1;
+	public GameObject weapon;
 
 
 	// Use this for initialization
@@ -20,34 +23,26 @@ public class Player : MonoBehaviour {
 	void Update () {
 
 		Move ();
+		Shoot ();
+
 	}
 
-	/*
-	//test function with keyboard movement
-	void test(){
+	void Shoot(){
 
-		if (Input.GetKey (KeyCode.W)) {
+		bool isShooting = CrossPlatformInputManager.GetButton("Shoot");
+
+		if (isShooting) {
+
+			print("pew pew");
+
+			weapon.GetComponent<Weapon>().Shoot(shootDirection, baseDamage);
 		
-			Move (0);
-		} else {
-			if (Input.GetKey (KeyCode.D)) {
-				
-				Move(1);
-			}else {
-				if (Input.GetKey (KeyCode.S)) {
-					
-					Move(2);
-				}else {
-					if (Input.GetKey (KeyCode.A)) {
-						
-						Move(3);
-					}
-				}
-			}
+
+
 		}
 
 	}
-*/
+
 
 	//heal function heal parameter is amount to be healed
 	void Heal(int heal){
@@ -62,7 +57,9 @@ public class Player : MonoBehaviour {
 	}
 
 	//take damage function damage is the damage taken wich will be affected by armor
-	void TakeDamage(int damage){
+	public void TakeDamage(int damage){
+
+		print("ouch");
 	
 		int trueDamage = damage - armor;
 
@@ -91,44 +88,58 @@ public class Player : MonoBehaviour {
 
 	//move function  moves and animates function
 	void Move(){
-		int direction = -1;
+
 		float x = CrossPlatformInputManager.GetAxis ("Horizontal");
 		float y = CrossPlatformInputManager.GetAxis ("Vertical");
 
-		if (x > 0 && y > 0) { // primeiro quadrante
-			
-			if ((x - y) < 0) {
+		//horizontal move
+		if ((x * x) > (y * y)) {
+
+			//looking right
+			if(x > 0){
+				
+				direction = 1;
+				
+			}
+
+
+			//looking left
+			if(x < 0){
+				
+				direction = 3;
+				
+			}
+
+		} 
+		//vertical move
+		else {
+			//looking up
+			if(y > 0){
+
 				direction = 0;
-			} else {
-				direction = 1;
+
 			}
-		} else if (x > 0 && y < 0) { //segundo quadrante
-			
-			if ((x + y) < 0) {
+
+			//looking down
+			if(y < 0){
+				
 				direction = 2;
-			} else {
-				direction = 1;
+				
 			}
-			
-			
-		} else if (x < 0 && y < 0) { //teceiro quadrante
-			
-			if ((x - y) < 0) {
-				direction = 3;
-			} else {
-				direction = 2;
+
+
+			//standing still
+			if(x == 0 && y == 0){
+				direction = -1;
 			}
-		} else {				// quarto quadrante
-			if((x + y) < 0 ){
-				direction = 3;
-			}
-			else{
-				if  (x!= 0 && y != 0)
-					direction = 0;
-			}
+
 		}
 
 
+		if (direction != -1) {
+
+			shootDirection = direction;
+		}
 
 		//move up
 		if (direction == 0) {

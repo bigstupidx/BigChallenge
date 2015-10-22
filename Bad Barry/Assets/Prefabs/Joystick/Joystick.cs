@@ -19,8 +19,6 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public string horizontalAxisName = "Horizontal"; // The name given to the horizontal axis for the cross platform input
 		public string verticalAxisName = "Vertical"; // The name given to the vertical axis for the cross platform input
 
-		float x,y;
-		int direction;
 
 		Vector3 m_StartPos;
 		bool m_UseX; // Toggle for using the x axis
@@ -97,40 +95,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 			//LOGICA PARA VER QUAL DIRECAO ESTA O JOYSTICK
 
-			x = transform.position.x - m_StartPos.x;
-			y = transform.position.y - m_StartPos.y;
 
-			if (x >= 0 && y >= 0) { // primeiro quadrante
-
-				if ((x - y) < 0) {
-					direction = 0;
-				} else {
-					direction = 1;
-				}
-			} else if (x >= 0 && y < 0) { //segundo quadrante
-						
-				if ((x + y) < 0) {
-					direction = 2;
-				} else {
-					direction = 1;
-				}
-						
-
-			} else if (x < 0 && y < 0) { //teceiro quadrante
-					
-				if ((x - y) < 0) {
-					direction = 3;
-				} else {
-					direction = 2;
-				}
-			} else {				// quarto quadrante
-				if((x + y) < 0 ){
-					direction = 3;
-				}
-				else{
-					direction = 0;
-				}
-			}
 
 			//print (direction);
 
