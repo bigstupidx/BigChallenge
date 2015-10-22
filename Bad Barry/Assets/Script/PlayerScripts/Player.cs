@@ -13,6 +13,9 @@ public class Player : MonoBehaviour {
 	public int shootDirection = 1;
 	public GameObject weapon;
 
+	public float fireRate = 1f;
+	private float time;
+
 
 	// Use this for initialization
 	void Start () {
@@ -25,17 +28,23 @@ public class Player : MonoBehaviour {
 		Move ();
 		Shoot ();
 
+		time = time + Time.deltaTime;
+
 	}
 
 	void Shoot(){
+		fireRate = weapon.GetComponent<Weapon> ().fireRate;
 
 		bool isShooting = CrossPlatformInputManager.GetButton("Fire");
 
 		if (isShooting) {
 
-			print("pew pew");
 
-			weapon.GetComponent<Weapon>().Shoot(shootDirection, baseDamage);
+			if(time > fireRate)
+			{
+				time = 0;
+				weapon.GetComponent<Weapon>().Shoot(shootDirection, baseDamage);
+			}
 		
 
 

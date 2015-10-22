@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour {
 	public int minDamage = 10;
 	public int maxDamage = 20;
 	public int bulletSpeed = 20;
+	public float fireRate = 0;
 	//public LayerMask notToHit;
 
 	//float timeToFire = 0;
@@ -26,6 +27,7 @@ public class Weapon : MonoBehaviour {
 
 	public void Shoot(int direction, int baseDamage){
 		Transform bullet =  Instantiate(bulletPrefab, firePoint.position, firePoint.rotation) as Transform;
+		//Handheld.Vibrate ();
 		if (bullet == null) {
 		
 			print ("null found");

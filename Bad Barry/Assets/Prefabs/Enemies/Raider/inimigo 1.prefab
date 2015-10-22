@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.82018542, y: -.831285596, z: 0}
+  m_LocalPosition: {x: .133864149, y: -.57184118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,9 +58,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -.00184874237, y: -.0444157124}
   serializedVersion: 2
-  m_Size: {x: .219999999, y: .439999998}
+  m_Size: {x: .147069439, y: .321168542}
 --- !u!114 &11408748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 100
+  life: 30
   baseDamage: 0
 --- !u!114 &11468270
 MonoBehaviour:
@@ -87,6 +87,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: .25
   rangeMax: 100
+  minError: .00499999989
+  maxError: 1
 --- !u!212 &21216386
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -119,7 +121,31 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: maxError
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.x
+      value: .203340799
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.y
+      value: .383363098
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Offset.y
+      value: -.0133184204
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Offset.x
+      value: -.00332957506
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: life
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 103726}
