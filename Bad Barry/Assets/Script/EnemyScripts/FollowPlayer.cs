@@ -15,8 +15,8 @@ public class FollowPlayer : MonoBehaviour {
 	//private float x_position = 3f;
 
 	//distance error
-	private float minError = 0.005f;
-	private float maxError = 0.5f;
+	public float minError = 0.005f;
+	public float maxError = 0.5f;
 
 
 	public 

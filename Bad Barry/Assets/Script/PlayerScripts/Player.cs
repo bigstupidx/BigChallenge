@@ -29,7 +29,7 @@ public class Player : MonoBehaviour {
 
 	void Shoot(){
 
-		bool isShooting = CrossPlatformInputManager.GetButton("Shoot");
+		bool isShooting = CrossPlatformInputManager.GetButton("Fire");
 
 		if (isShooting) {
 
