@@ -13,12 +13,15 @@ public class Player : MonoBehaviour {
 	public int shootDirection = 1;
 	public GameObject weapon;
 
+	private Animator animator;
+
 	public float fireRate = 1f;
 	private float time;
 
 
 	// Use this for initialization
 	void Start () {
+		animator = transform.GetComponent<Animator> ();
 	
 	}
 	
@@ -40,14 +43,17 @@ public class Player : MonoBehaviour {
 		if (isShooting) {
 
 
-			if(time > fireRate)
-			{
+			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon>().Shoot(shootDirection, baseDamage);
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage);
 			}
-		
+			animator.SetBool("Shooting",true);
 
 
+
+		} else {
+
+			animator.SetBool("Shooting",false);
 		}
 
 	}
@@ -90,8 +96,8 @@ public class Player : MonoBehaviour {
 	//death animation function
 	void Die(){
 
-		print("die");
-
+		animator.SetBool ("dead", true);
+		animator.SetInteger("direction",direction);
 
 	}
 
@@ -148,6 +154,12 @@ public class Player : MonoBehaviour {
 		if (direction != -1) {
 
 			shootDirection = direction;
+			animator.SetBool ("IsRunning", true); 
+			animator.SetInteger ("Direction", direction);
+		} else {
+		
+			animator.SetBool ("IsRunning", false); 
+
 		}
 
 		//move up
