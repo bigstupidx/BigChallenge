@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 
@@ -13,7 +13,9 @@ public class Player : MonoBehaviour {
 	public int shootDirection = 1;
 	public GameObject weapon;
 
-	private Animator animator;
+	private Animator bothAnimator;
+	private Animator torsoAnimator;
+	private Animator legAnimator;
 
 	public float fireRate = 1f;
 	private float time;
@@ -21,8 +23,11 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		animator = transform.GetComponent<Animator> ();
-	
+
+		bothAnimator = transform.GetComponent<Animator> ();
+		legAnimator = transform.Find("Legs").GetComponent<Animator>();
+		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();
+
 	}
 	
 	// Update is called once per frame
@@ -47,13 +52,13 @@ public class Player : MonoBehaviour {
 				time = 0;
 				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage);
 			}
-			animator.SetBool("Shooting",true);
+			torsoAnimator.SetBool("Shooting",true);
 
 
 
 		} else {
 
-			animator.SetBool("Shooting",false);
+			torsoAnimator.SetBool("Shooting",false);
 		}
 
 	}
@@ -95,9 +100,9 @@ public class Player : MonoBehaviour {
 
 	//death animation function
 	void Die(){
+		bothAnimator.SetInteger("direction",direction);
+		bothAnimator.SetBool ("dead", true);
 
-		animator.SetBool ("dead", true);
-		animator.SetInteger("direction",direction);
 
 	}
 
@@ -154,11 +159,14 @@ public class Player : MonoBehaviour {
 		if (direction != -1) {
 
 			shootDirection = direction;
-			animator.SetBool ("IsRunning", true); 
-			animator.SetInteger ("Direction", direction);
+			legAnimator.SetBool ("IsRunning", true); 
+			torsoAnimator.SetInteger ("Direction", direction);
+			legAnimator.SetInteger ("Direction", direction);
+
+
 		} else {
 		
-			animator.SetBool ("IsRunning", false); 
+			legAnimator.SetBool ("IsRunning", false); 
 
 		}
 
