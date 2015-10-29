@@ -4,19 +4,27 @@ using System.Collections;
 public class FollowPlayer : MonoBehaviour {
 
 	public	float speed;
-	private  float rangeMin = 0; 
-	public float rangeMax; 
+	public  float rangeMin = 2; 
+	public float rangeMax = 100; 
+	private int direction = 2;
+
 	private Transform player;
-	private float distance;
+
+
+	private Animator bothAnimator;
+	private Animator torsoAnimator;
+	private Animator legAnimator;
+
+	private float delay = 0;
+
+
+	public float distanceY;
+	public float distanceX;
 	
-	//public Transform mytranform;
-	//private Animator animator;
-	//private float timer_search;
-	//private float x_position = 3f;
+
 
 	//distance error
-	public float minError = 0.005f;
-	public float maxError = 0.5f;
+	private float maxError = 0.01f;
 
 
 	public 
@@ -26,117 +34,120 @@ public class FollowPlayer : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	void Start(){
-		//part of animation
-		//animator = mytranform.GetComponent<Animator> ();
+		bothAnimator = transform.GetComponent<Animator> ();
+		legAnimator = transform.Find("Legs").GetComponent<Animator>();
+		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();
 	}
 	
 	void Update (){
+		delay = delay - Time.deltaTime;
 
-		//pega a distancia entre o player e o inimigo
-		distance = Vector3.Distance(player.transform.position,transform.position);
-		
-		if (rangeMin < distance && distance < rangeMax) {
-			
-			float distanceY = Mathf.Abs(player.transform.position.y - transform.position.y);
-			float distanceX = Mathf.Abs(player.transform.position.x - transform.position.x);
+		if (!gameObject.GetComponent<Enemy> ().dead && delay < 0) {
 
-			if(distanceX < distanceY){
+			//gets distance between enemy and player axis
+			 distanceY = Mathf.Abs (player.transform.position.y - transform.position.y);
+			 distanceX = Mathf.Abs (player.transform.position.x - transform.position.x);
 
-				//se alinha em Y com o personagem
-				if(distanceY > maxError){
+			//is in range
+			if(distanceX < rangeMax || distanceY < rangeMax){
 
-					if(player.transform.position.y < transform.position.y){
+				//should move
+				if((distanceX > rangeMin || distanceY > rangeMin) || (distanceY > maxError && distanceX > maxError) )
+				{
+					gameObject.GetComponent<Enemy> ().isShooting = false;
 
-						//animacao personagem para baixo
+					//check wich one is closer to move in that direction
+					if(distanceX < distanceY || distanceY < rangeMin){
+						//move in x axis
+						//check if left or right
+						if(player.transform.position.x > transform.position.x)
+						{
+							//move right
+							transform.Translate(Vector3.right * speed * Time.deltaTime);
+							direction = 1;
 
-
-						transform.Translate (Vector3.down * speed * Time.deltaTime);
-					}else{
-
-						//animacao personagem para cima
-
-						transform.Translate (Vector3.up * speed * Time.deltaTime);
-					}
-					
-				}else{
-					
-					
-					//se alinha em X com personagem
-					if(distanceX>minError){
-
-						if(player.transform.position.x < transform.position.x){
-
-							//animacao personagem para esquerda
-
-							transform.Translate (Vector3.left * speed * Time.deltaTime);
-						}else{
-
-							//animacao personagem para direita
-
-							transform.Translate (Vector3.right * speed * Time.deltaTime);
 						}
-					}
-				}
-			}else{
-				//se alinha em X com personagem
-				if(distanceX>maxError){
-					if(player.transform.position.x < transform.position.x){
+						if(player.transform.position.x < transform.position.x)
+						{
+							//move left
+							transform.Translate(Vector3.left * speed * Time.deltaTime);
+							direction = 3;
 
-						//animacao personagem para esquerda
 
-						transform.Translate (Vector3.left * speed * Time.deltaTime);
+						}
+
+
 					}else{
+						//move in y axis
+						//check if up or down
+						if(player.transform.position.y > transform.position.y)
+						{
+							//move up
+							transform.Translate(Vector3.up * speed * Time.deltaTime);
+							direction = 0;
 
-						//animacao personagem para direita
+						}
+						if(player.transform.position.y < transform.position.y)
+						{
+							//move down
+							transform.Translate(Vector3.down * speed * Time.deltaTime);
+							direction = 2;
 
-						transform.Translate (Vector3.right * speed * Time.deltaTime);
-					}
-				}else{
-					//se alinha em Y com o personagem
-					if(distanceY > minError){
-						
-						if(player.transform.position.y < transform.position.y){
-
-							//animacao personagem para baixo
-
-							transform.Translate (Vector3.down * speed * Time.deltaTime);
-						}else{
-
-							//animacao personagem para cima
-
-							transform.Translate (Vector3.up * speed * Time.deltaTime);
 						}
 						
+
 					}
 
+
+
+
+					legAnimator.SetBool("IsRunning", true);
+				}else{
+				//should only look to player
+					legAnimator.SetBool("IsRunning", false);
+
+
+					if(distanceX < distanceY){
+					//same x should check y
+						if(player.transform.position.y > transform.position.y)
+						{
+							//look up
+							direction = 0;
+						}
+						if(player.transform.position.y < transform.position.y)
+						{
+							//look down
+							direction = 2;
+						}
+					}else{
+						//same y should check x
+						if(player.transform.position.x > transform.position.x)
+						{
+							//look right
+							direction = 1;
+						}
+						if(player.transform.position.x < transform.position.x)
+						{
+							//look left
+				 			direction = 3;
+						}
+
+					}
+					gameObject.GetComponent<Enemy> ().isShooting = true;
+					delay = 1;
+
 				}
+				gameObject.GetComponent<Enemy> ().shootDirection = direction;
+				bothAnimator.SetInteger ("direction", direction);
+				torsoAnimator.SetInteger ("Direction", direction);
+				legAnimator.SetInteger ("Direction", direction);
+
+
 			}
+
+
 		
-//		//fica patrulhando
-//		if(distance > rangeMax) {
-//			Vector3 nova = new Vector3();
-//			nova.x = transform.position.x + x_position;
-//			timer_search+=Time.deltaTime;
-//			if(timer_search >= 2f)
-//			{
-//				x_position = x_position - 2*x_position;
-//				timer_search = 0;
-//			}
-//			nova.y = transform.position.y;
-//			nova.z = transform.position.z;
-//			
-//			if (nova.x < transform.position.x) {
-//				
-//				transform.Translate ((nova - transform.position) * speed * Time.deltaTime);
-//				//animator.SetTrigger ("Run");
-//
-//			} else {
-//				transform.position = Vector2.Lerp (transform.position, nova, speed * Time.deltaTime);
-//				//animator.SetTrigger ("Run");
-//			}
-//			
 		}
-		
 	}
 
 }

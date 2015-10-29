@@ -17,6 +17,8 @@ public class Player : MonoBehaviour {
 	private Animator torsoAnimator;
 	private Animator legAnimator;
 
+	public bool dead = false;
+
 	public float fireRate = 1f;
 	private float time;
 
@@ -33,8 +35,10 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Move ();
-		Shoot ();
+		if (!dead) {
+			Move ();
+			Shoot ();
+		}
 
 		time = time + Time.deltaTime;
 
@@ -100,8 +104,13 @@ public class Player : MonoBehaviour {
 
 	//death animation function
 	void Die(){
-		bothAnimator.SetInteger("direction",direction);
+		dead = true;
 		bothAnimator.SetBool ("dead", true);
+		legAnimator.SetBool ("IsDead", true);
+		torsoAnimator.SetBool ("IsDead", true);
+
+
+
 
 
 	}
@@ -162,7 +171,7 @@ public class Player : MonoBehaviour {
 			legAnimator.SetBool ("IsRunning", true); 
 			torsoAnimator.SetInteger ("Direction", direction);
 			legAnimator.SetInteger ("Direction", direction);
-
+			bothAnimator.SetInteger("direction",direction);
 
 		} else {
 		
