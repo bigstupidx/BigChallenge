@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Score
+  - Retry
   layers:
   - Default
   - TransparentFX
