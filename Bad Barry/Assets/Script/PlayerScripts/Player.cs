@@ -90,7 +90,8 @@ public class Player : MonoBehaviour {
 		if (life <= trueDamage) {
 		
 			life = 0;
-			Die();
+			StartCoroutine(Die());
+			
 
 			
 		} else {
@@ -103,12 +104,18 @@ public class Player : MonoBehaviour {
 
 
 	//death animation function
-	void Die(){
+	IEnumerator Die(){
+
 		dead = true;
 		bothAnimator.SetBool ("dead", true);
 		legAnimator.SetBool ("IsDead", true);
 		torsoAnimator.SetBool ("IsDead", true);
 
+
+		Transform retry = GameObject.FindWithTag("Retry").transform;
+		retry.GetComponent<Retry> ().activate();
+		yield return new WaitForSeconds (6);
+		Time.timeScale = 0;
 
 
 
