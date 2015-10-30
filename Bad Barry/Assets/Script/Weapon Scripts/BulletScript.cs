@@ -89,7 +89,6 @@ public class BulletScript : MonoBehaviour {
 
 		minDamage = minDamage + baseDamage;
 
-		print (origin);
 		if (col.gameObject.tag == "Player" && col.gameObject != origin) {
 
 			col.gameObject.GetComponent<Player>().TakeDamage(Random.Range(minDamage,maxDamage));
@@ -99,9 +98,28 @@ public class BulletScript : MonoBehaviour {
 		if (col.gameObject.tag == "Enemy" && col.gameObject != origin) {
 
 			col.gameObject.GetComponent<Enemy>().TakeDamage(Random.Range(minDamage,maxDamage));
-			Destroy (this.gameObject);
 
+			Destroy (this.gameObject);
 		}
+
+
+
+		if (col.gameObject.tag == "Wall") {
+		
+			Destroy(this.gameObject);
+		}
+
+		if (col.gameObject.tag == "Destructable") {
+
+			col.gameObject.GetComponent<Appear>().AppearThing();
+
+			Destroy(col.gameObject);
+			Destroy(this.gameObject);
+
+			
+		}
+
+
 
 
 
