@@ -222,7 +222,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Death up
-  m_Speed: .100000001
+  m_Speed: .400000006
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110186450}
@@ -269,7 +269,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Death down
-  m_Speed: .100000001
+  m_Speed: .400000006
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110191618}
@@ -320,7 +320,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Death side
-  m_Speed: .100000001
+  m_Speed: .400000006
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110185862}
