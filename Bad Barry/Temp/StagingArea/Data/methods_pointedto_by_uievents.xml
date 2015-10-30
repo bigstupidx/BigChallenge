@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Retry">
+			<method name="retry"/>
+		</type>
+		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+		</type>
+	</assembly>
+</linker>
