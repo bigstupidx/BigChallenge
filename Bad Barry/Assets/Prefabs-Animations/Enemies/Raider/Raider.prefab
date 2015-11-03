@@ -260,7 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: .400000006
   rangeMin: 2
-  rangeMax: 100
+  rangeMax: 10
   distanceY: 0
   distanceX: 0
 --- !u!114 &11482300
@@ -394,7 +394,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: rangeMax
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed
