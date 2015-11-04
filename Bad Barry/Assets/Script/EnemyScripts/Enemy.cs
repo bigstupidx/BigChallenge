@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour {
 	public int baseDamage = 0;
 	public int shootDirection = 0;
 	public GameObject weapon;
+
+	public float experience = 0;
 	
 	private Animator bothAnimator;
 	private Animator torsoAnimator;
@@ -64,6 +66,8 @@ public class Enemy : MonoBehaviour {
 
 		score = GameObject.FindWithTag("Score").transform;
 		score.GetComponent<Score> ().inc();
+		var player = GameObject.FindGameObjectWithTag("Player");
+		player.GetComponent<Player> ().IncrementXp (experience);
 
 	}
 
@@ -71,9 +75,6 @@ public class Enemy : MonoBehaviour {
 	
 	void Shoot(){
 		fireRate = weapon.GetComponent<Weapon> ().fireRate;
-		
-
-		
 		if (isShooting) {
 			
 			

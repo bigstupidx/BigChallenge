@@ -9,6 +9,7 @@ TagManager:
   - Retry
   - Destructable
   - Wall
+  - Behaviour
   layers:
   - Default
   - TransparentFX

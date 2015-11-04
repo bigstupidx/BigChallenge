@@ -22,6 +22,11 @@ public class Player : MonoBehaviour {
 	public float fireRate = 1f;
 	private float time;
 
+	//normally will receive its base experience on load
+	public float experience = 0;
+	public float neededExperience = 100;
+	public int lvl = 0;
+
 
 	// Use this for initialization
 	void Start () {
@@ -100,6 +105,39 @@ public class Player : MonoBehaviour {
 
 	}
 
+	//receive xp function, the received experience is divided by players lvl
+	//so it is harder to level up on easier enemies or easier quests
+	public void IncrementXp(float receivedXp){
+
+			experience = experience + (receivedXp / (lvl + 1));
+
+		
+
+
+		if (experience >= neededExperience) {
+
+			experience = neededExperience - experience;
+			LevelUp();
+		}
+
+	}
+
+	//screen representation to level up and hud representation
+	public void LevelUp(){
+
+		var behaviour = GameObject.FindGameObjectWithTag("Behaviour");
+		behaviour.GetComponent<GameBehavior> ().LeveledUp ();
+		neededExperience = neededExperience * 1.3f;
+		lvl++;
+		print("Level Up");
+
+
+
+	}
+
+
+
+
 
 
 
@@ -121,6 +159,13 @@ public class Player : MonoBehaviour {
 
 
 	}
+
+
+
+
+
+
+
 
 	//move function  moves and animates function
 	void Move(){

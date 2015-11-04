@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\EnemyScripts\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyScripts\FollowPlayer.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Respawn.cs" />
+     <Compile Include="Assets\Script\GameBehavior.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />

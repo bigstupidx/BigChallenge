@@ -278,6 +278,7 @@ MonoBehaviour:
   baseDamage: 0
   shootDirection: 1
   weapon: {fileID: 111560}
+  experience: 50
   isShooting: 0
   dead: 0
   fireRate: .200000003
@@ -415,6 +416,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: experience
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
