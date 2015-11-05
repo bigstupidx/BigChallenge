@@ -10,6 +10,7 @@ TagManager:
   - Destructable
   - Wall
   - Behaviour
+  - Points
   layers:
   - Default
   - TransparentFX

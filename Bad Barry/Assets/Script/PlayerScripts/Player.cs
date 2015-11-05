@@ -28,6 +28,10 @@ public class Player : MonoBehaviour {
 	public int lvl = 0;
 
 
+
+
+
+
 	// Use this for initialization
 	void Start () {
 
@@ -124,11 +128,10 @@ public class Player : MonoBehaviour {
 
 	//screen representation to level up and hud representation
 	public void LevelUp(){
-
-		var behaviour = GameObject.FindGameObjectWithTag("Behaviour");
-		behaviour.GetComponent<GameBehavior> ().LeveledUp ();
-		neededExperience = neededExperience * 1.3f;
 		lvl++;
+		var behaviour = GameObject.FindGameObjectWithTag("Behaviour");
+		behaviour.GetComponent<GameBehavior> ().LeveledUp(lvl);
+		neededExperience = neededExperience * 1.3f;
 		print("Level Up");
 
 
