@@ -61,6 +61,7 @@
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Script\AnimationScripts\deathrotate.cs" />
      <Compile Include="Assets\Script\AnimationScripts\rotate.cs" />
+     <Compile Include="Assets\Script\AtributeScreen.cs" />
      <Compile Include="Assets\Script\Camera Script\CameraFollow.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyScripts\FollowPlayer.cs" />

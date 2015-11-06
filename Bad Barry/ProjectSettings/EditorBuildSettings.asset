@@ -10,6 +10,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Protype Scene and prefabs/Prototype.unity
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/AtributeScreen.unity
   - enabled: 1
     path: Assets/Scenes/lucasScene/lucasScene.unity
+=======
+    path: Assets/Scenes/Atribute Scene/AtributeScreen.unity
+>>>>>>> dd6dc4d7e50262030e06ad4eb1fcacce057aabcf
