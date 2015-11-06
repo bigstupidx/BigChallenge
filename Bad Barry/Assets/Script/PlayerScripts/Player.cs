@@ -27,9 +27,19 @@ public class Player : MonoBehaviour {
 	public float neededExperience = 100;
 	public int lvl = 0;
 
+	private HUDGame hudGame;
+	private GameObject HUD;
+
 
 	// Use this for initialization
 	void Start () {
+
+		HUD = GameObject.FindGameObjectWithTag ("HUD");
+
+		//HUD
+		hudGame = HUD.GetComponent<HUDGame> ();
+		hudGame.initLife (this);
+
 
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
@@ -87,22 +97,26 @@ public class Player : MonoBehaviour {
 
 	//take damage function damage is the damage taken wich will be affected by armor
 	public void TakeDamage(int damage){
-
-		print("ouch");
-	
-		int trueDamage = damage - armor;
-
-		if (life <= trueDamage) {
 		
+		print("ouch");
+		
+		int trueDamage = damage - armor;
+		
+		if (life <= trueDamage) {
+			
 			life = 0;
 			StartCoroutine(Die());
 			
-
+			hudGame.playerDead(this);
 			
 		} else {
+			
 			life = life - trueDamage;	
+			
+			hudGame.takeDamage(this);
+			
 		}
-
+		
 	}
 
 	//receive xp function, the received experience is divided by players lvl

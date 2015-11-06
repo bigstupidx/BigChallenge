@@ -43,5 +43,10 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
+	public void Play(){
+		print ("entrou");
+		Application.LoadLevel("lucasScene");
+	}
+
 
 }

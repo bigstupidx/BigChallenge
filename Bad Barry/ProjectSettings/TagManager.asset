@@ -10,6 +10,7 @@ TagManager:
   - Destructable
   - Wall
   - Behaviour
+  - HUD
   layers:
   - Default
   - TransparentFX
