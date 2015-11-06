@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-  - Score
-  - Retry
-  - Destructable
-  - Wall
-  - Behaviour
-<<<<<<< HEAD
-  - HUD
-=======
-  - Points
->>>>>>> dd6dc4d7e50262030e06ad4eb1fcacce057aabcf
+  tags: []
   layers:
   - Default
   - TransparentFX

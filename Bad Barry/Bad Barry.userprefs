@@ -1,29 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/AtributeScreen.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/HUDScripts/HUDGame.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/Script/GameBehavior.cs" Line="46" Column="21" />
-      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="98" Column="2" />
-      <File FileName="Assets/Script/HUDScripts/HUDGame.cs" Line="9" Column="33" />
-=======
-      <File FileName="Assets/Script/GameBehavior.cs" Line="62" Column="28" />
-      <File FileName="Assets/Script/AtributeScreen.cs" Line="55" Column="3" />
-      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="1" Column="1" />
->>>>>>> dd6dc4d7e50262030e06ad4eb1fcacce057aabcf
+      <File FileName="Assets/Script/AtributeScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="41" Column="1" />
+      <File FileName="Assets/Script/HUDScripts/HUDGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameBehavior.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Script" expanded="True">
-              <Node name="PlayerScripts" expanded="True" />
-              <Node name="AtributeScreen.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

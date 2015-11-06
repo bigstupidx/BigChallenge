@@ -74,7 +74,9 @@ public class GameBehavior : MonoBehaviour {
 
 	public void Play(){
 		print ("entrou");
-		Application.LoadLevel("lucasScene");
+		DontDestroyOnLoad (gameObject);
+
+		Application.LoadLevel("Prototype");
 	}
 
 
