@@ -18,6 +18,8 @@ public class Player : MonoBehaviour {
 	private Animator legAnimator;
 
 	public bool dead = false;
+	private bool isShooting = false;
+
 
 	public float fireRate = 1f;
 	private float time;
@@ -30,6 +32,11 @@ public class Player : MonoBehaviour {
 	private HUDGame hudGame;
 	private GameObject HUD;
 
+	public int strength = 0;
+	public int agility = 0;
+	public int inteligence = 0;
+	public int vitality = 0;
+
 
 
 
@@ -37,6 +44,16 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		CrossPlatformInputManager.SetButtonUp("Fire");
+		print(CrossPlatformInputManager.GetButton("Fire"));
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		strength = behave.getStrength();
+		agility = behave.getAgility();
+		inteligence = behave.getInteligence();
+		vitality = behave.getVitality();
+		isShooting = false;
+
 
 		HUD = GameObject.FindGameObjectWithTag ("HUD");
 
@@ -66,7 +83,7 @@ public class Player : MonoBehaviour {
 	void Shoot(){
 		fireRate = weapon.GetComponent<Weapon> ().fireRate;
 
-		bool isShooting = CrossPlatformInputManager.GetButton("Fire");
+		isShooting = CrossPlatformInputManager.GetButton("Fire");
 
 		if (isShooting) {
 

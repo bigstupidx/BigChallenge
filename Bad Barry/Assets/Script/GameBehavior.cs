@@ -12,10 +12,10 @@ public class GameBehavior : MonoBehaviour {
 	//attributes points
 	public int expendPoints = 0;
 
-	private int strength = 0;
-	private int agility = 0;
-	private int inteligence = 0;
-	private int vitality = 0;
+	private int strength = 10;
+	private int agility = 10;
+	private int inteligence = 10;
+	private int vitality = 10;
 
 	private int previousScene = 0;
 
@@ -25,7 +25,7 @@ public class GameBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		//on start get selected character points
 	
 	}
 	
