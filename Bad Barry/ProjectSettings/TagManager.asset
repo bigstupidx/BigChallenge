@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - New Tag
+  - Retry
+  - Score
+  - Destructable
+  - HUD
+  - Wall
+  - Enemy
+  - Points
+  - strPoints
+  - agiPoints
+  - intPoints
+  - vitPoints
   layers:
   - Default
   - TransparentFX

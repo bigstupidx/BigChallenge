@@ -34,9 +34,6 @@ public class AtributeScreen : MonoBehaviour {
 		script.levelingUp = false;
 		UpdatePoints();
 
-
-
-		
 	}
 	
 	public void incrementInteligence(){
@@ -64,6 +61,22 @@ public class AtributeScreen : MonoBehaviour {
 
 		var text = GameObject.FindGameObjectWithTag("Points");
 		text.GetComponent<Text>().text = script.expendPoints.ToString();
+
+
+
+		text = GameObject.FindGameObjectWithTag("strPoints");
+		text.GetComponent<Text>().text = script.getStrength().ToString();
+
+		text = GameObject.FindGameObjectWithTag("agiPoints");
+		text.GetComponent<Text>().text = script.getAgility().ToString();
+
+		text = GameObject.FindGameObjectWithTag("intPoints");
+		text.GetComponent<Text>().text = script.getInteligence().ToString();
+
+		text = GameObject.FindGameObjectWithTag("vitPoints");
+		text.GetComponent<Text>().text = script.getVitality().ToString();
+
+
 
 
 	}
