@@ -68,12 +68,9 @@
      <None Include="Assets\Tiled2Unity\Imported\MapaTile.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
-<<<<<<< HEAD
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
-=======
->>>>>>> b09fa29c182286eadcd4facb057f141aead3b0a9
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -88,15 +85,12 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
-<<<<<<< HEAD
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
-=======
->>>>>>> b09fa29c182286eadcd4facb057f141aead3b0a9
+ <HintPath>/Users/babugia/Desktop/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
