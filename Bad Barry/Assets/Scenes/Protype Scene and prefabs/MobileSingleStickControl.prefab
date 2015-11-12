@@ -1283,6 +1283,7 @@ MonoBehaviour:
   currentMenu: {fileID: 11400334}
   healthSlider: {fileID: 11431820}
   xpSlider: {fileID: 11448562}
+  lvlUp: {fileID: 165692}
 --- !u!114 &11435528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2454,11 +2455,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 0}
-=======
-  m_AnchoredPosition: {x: 7.58166504, y: -2}
->>>>>>> 50154c30fe5afe15000ea55fff191b2e2efc1f05
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22422632
@@ -2709,10 +2706,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22492174}
   m_RootOrder: 6
-  m_AnchorMin: {x: .0271736067, y: .760204136}
-  m_AnchorMax: {x: .360695869, y: .887449026}
-  m_AnchoredPosition: {x: -266, y: -1.52587891e-05}
-  m_SizeDelta: {x: -2.79999924, y: -2.39999962}
+  m_AnchorMin: {x: .0271736067, y: .801102102}
+  m_AnchorMax: {x: .362130582, y: .887449026}
+  m_AnchoredPosition: {x: -262.700012, y: .899990022}
+  m_SizeDelta: {x: -1.00003052, y: -1.79999924}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22461930
 RectTransform:

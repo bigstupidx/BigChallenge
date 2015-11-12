@@ -166,6 +166,7 @@ public class Player : MonoBehaviour {
 		behaviour.GetComponent<GameBehavior> ().LeveledUp(lvl);
 		neededExperience = neededExperience * 1.3f;
 		print("Level Up");
+		hudGame.levelUp();
 
 
 

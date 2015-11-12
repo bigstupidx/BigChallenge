@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
 	private Transform player;		// transform of player to get its position
 
 
-	void Awake ()
+	void Start ()
 	{
 		// gets players transform
 		player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -15,7 +15,14 @@ public class CameraFollow : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		TrackPlayer();
+		if(player)
+		{
+			TrackPlayer();
+		}else
+		{
+			player = GameObject.FindGameObjectWithTag("Player").transform;
+			TrackPlayer();
+		}
 	}
 		
 	void TrackPlayer ()

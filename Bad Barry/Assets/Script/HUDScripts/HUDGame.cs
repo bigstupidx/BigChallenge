@@ -11,6 +11,9 @@ public class HUDGame: MonoBehaviour {
 	public Slider xpSlider;
 	private Image healthSliderImage;
 	private Image xpSliderImage;
+	public GameObject lvlUp;
+	public static bool isPaused = false;
+
 
 	
 	
@@ -61,5 +64,14 @@ public class HUDGame: MonoBehaviour {
 	public void showMenu(){
 		//pausar o jogo e tirar a nitidez do fundo
 		currentMenu.IsOpen = !currentMenu.IsOpen;
+		Time.timeScale = (isPaused) ? 1 : 0;
+		isPaused = !isPaused;
 	}
+
+	public void levelUp(){
+
+		lvlUp.GetComponent<Animator>().SetTrigger("level");
+
+	}
+
 }

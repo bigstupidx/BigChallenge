@@ -9,6 +9,8 @@ public class GameBehavior : MonoBehaviour {
 
 
 
+
+
 	//attributes points
 	public int expendPoints = 0;
 
@@ -40,8 +42,7 @@ public class GameBehavior : MonoBehaviour {
 
 		levelsUp++;
 		expendPoints = expendPoints + currentLvl;
-		//remove this line after use
-		GoToAtributesScreen ();
+
 	}
 
 	//go to scene states
