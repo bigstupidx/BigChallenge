@@ -4,11 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Score
+  - New Tag
   - Retry
+  - Score
   - Destructable
+  - HUD
   - Wall
+  - Enemy
+  - Points
+  - strPoints
+  - agiPoints
+  - intPoints
+  - vitPoints
+  - Behaviour
   layers:
   - Default
   - TransparentFX
@@ -18,8 +26,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - UI2
+  - UI3
   - 
   - 
   - 

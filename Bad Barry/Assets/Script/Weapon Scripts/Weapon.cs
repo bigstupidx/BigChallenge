@@ -8,6 +8,15 @@ public class Weapon : MonoBehaviour {
 	public int maxDamage = 20;
 	public int bulletSpeed = 20;
 	public float fireRate = 0;
+	public float xValueUp = 0.10f;
+	public float yValueUp = 0.40f;
+	public float xValueRight = 0.50f;
+	public float yValueRight = 0;
+	public float xValueLeft = -0.50f;
+	public float yValueLeft = 0;
+	public float xValueDown = 0.05f;
+	public float yValueDown = -0.40f;
+
 	//public LayerMask notToHit;
 
 	//float timeToFire = 0;
@@ -26,7 +35,23 @@ public class Weapon : MonoBehaviour {
 	}
 
 	public void Shoot(int direction, int baseDamage){
-		Transform bullet =  Instantiate(bulletPrefab, firePoint.position, firePoint.rotation) as Transform;
+		float xValue = 0f;
+		float yValue = 0f;
+		if (direction == 0) {
+			yValue = yValueUp;
+			xValue = xValueUp;
+		} else if (direction == 1) {
+			xValue = xValueRight;
+		} else if (direction == 2) {
+			yValue = yValueDown;
+			xValue = xValueDown;
+		} else if (direction == 3) {
+			xValue = xValueLeft;
+		}
+
+		Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
+		print ("firePoint" + firePoint.position);
+		print ("transform" + transform.position);
 		//Handheld.Vibrate ();
 		if (bullet == null) {
 		
@@ -38,7 +63,7 @@ public class Weapon : MonoBehaviour {
 			bullet.GetComponent<BulletScript> ().minDamage = minDamage;
 			bullet.GetComponent<BulletScript> ().maxDamage = maxDamage;
 			bullet.GetComponent<BulletScript> ().speed = bulletSpeed;
-			bullet.GetComponent<BulletScript>().origin = transform.parent.gameObject;
+			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
 		}
 
 
