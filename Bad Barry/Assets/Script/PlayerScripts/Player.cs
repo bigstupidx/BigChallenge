@@ -144,9 +144,8 @@ public class Player : MonoBehaviour {
 	//so it is harder to level up on easier enemies or easier quests
 	public void IncrementXp(float receivedXp){
 
-			experience = experience + (receivedXp / (lvl + 1));
+		experience = experience + (receivedXp / (lvl + 1));
 
-		
 
 
 		if (experience >= neededExperience) {
@@ -154,6 +153,9 @@ public class Player : MonoBehaviour {
 			experience = neededExperience - experience;
 			LevelUp();
 		}
+
+		hudGame.incrementXp (this);
+
 
 	}
 
@@ -164,6 +166,8 @@ public class Player : MonoBehaviour {
 		behaviour.GetComponent<GameBehavior> ().LeveledUp(lvl);
 		neededExperience = neededExperience * 1.3f;
 		print("Level Up");
+
+
 
 
 
