@@ -83,16 +83,13 @@ public class Inventory : MonoBehaviour {
 			for (int i=0; i< items.Count; i++) {
 				if (items [i].ID == id) {
 					ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
-					
+				data.amount--;
+				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
+
 				if(data.amount == 0)
 					RemoveItem(id);
-
-				if(data.amount > 0)
-					data.amount--;
 				//CHAMAR FUNCAO PARA AUMENTAR A VIDA IN GAME
 
-
-				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
 					break;
 				}
 			}
