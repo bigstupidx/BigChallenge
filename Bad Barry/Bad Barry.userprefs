@@ -1,9 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerScripts/Player.cs">
     <Files>
       <File FileName="Assets/Script/GameBehavior.cs" Line="182" Column="4" />
       <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="48" Column="54" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Weapon Scripts/Weapon.cs">
+    <Files>
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="261" Column="1" />
+      <File FileName="Assets/Script/Weapon Scripts/Weapon.cs" Line="61" Column="11" />
+>>>>>>> 461904fb2215333cf1ad8dbeeff557126ca7f8b6
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -9,11 +9,10 @@ public class BulletScript : MonoBehaviour {
 	public int direction = 0;
 	public GameObject origin;
 
-
 	// Use this for initialization
 	void Start () {
 
-		Destroy (gameObject, 1);
+		//Destroy (gameObject, 1);
 		//shoot up
 		if (direction == 0) {
 			

@@ -259,6 +259,7 @@ public class Player : MonoBehaviour {
 			legAnimator.SetInteger ("Direction", direction);
 			bothAnimator.SetInteger("direction",direction);
 
+
 		} else {
 		
 			legAnimator.SetBool ("IsRunning", false); 
