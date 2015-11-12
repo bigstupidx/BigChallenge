@@ -61,6 +61,7 @@
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\Mapa2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
@@ -86,8 +87,13 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+=======
+ <Reference Include="LitJson">
+ <HintPath>/Users/Hyago1/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+>>>>>>> b15fbcd24c0008e68edade8a0f795ace1c09b933
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

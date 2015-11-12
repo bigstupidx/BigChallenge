@@ -64,12 +64,19 @@
      <Compile Include="Assets\Script\AnimationScripts\deathrotate.cs" />
      <Compile Include="Assets\Script\AnimationScripts\rotate.cs" />
      <Compile Include="Assets\Script\AtributeScreen.cs" />
+     <Compile Include="Assets\Script\Button.cs" />
      <Compile Include="Assets\Script\Camera Script\CameraFollow.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyScripts\FollowPlayer.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Respawn.cs" />
      <Compile Include="Assets\Script\GameBehavior.cs" />
      <Compile Include="Assets\Script\HUDScripts\HUDGame.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\Inventory.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\ItemData.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\ItemDatabase.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\Options.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\Slot.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\Tooltip.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
@@ -80,6 +87,7 @@
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\Mapa2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
@@ -96,8 +104,13 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+=======
+ <Reference Include="LitJson">
+ <HintPath>/Users/Hyago1/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+>>>>>>> b15fbcd24c0008e68edade8a0f795ace1c09b933
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
