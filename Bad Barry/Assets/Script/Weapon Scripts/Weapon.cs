@@ -16,6 +16,7 @@ public class Weapon : MonoBehaviour {
 	public float yValueLeft = 0;
 	public float xValueDown = 0.05f;
 	public float yValueDown = -0.40f;
+
 	//public LayerMask notToHit;
 
 	//float timeToFire = 0;
@@ -48,7 +49,6 @@ public class Weapon : MonoBehaviour {
 			xValue = xValueLeft;
 		}
 
-		//Transform bullet =  Instantiate(bulletPrefab, firePoint.position, transform.rotation) as Transform;
 		Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
 		print ("firePoint" + firePoint.position);
 		print ("transform" + transform.position);
@@ -63,7 +63,7 @@ public class Weapon : MonoBehaviour {
 			bullet.GetComponent<BulletScript> ().minDamage = minDamage;
 			bullet.GetComponent<BulletScript> ().maxDamage = maxDamage;
 			bullet.GetComponent<BulletScript> ().speed = bulletSpeed;
-			bullet.GetComponent<BulletScript>().origin = transform.parent.gameObject;
+			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
 		}
 
 
