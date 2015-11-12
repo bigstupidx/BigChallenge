@@ -3,9 +3,12 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class HUDGame: MonoBehaviour {
+
+	public Menu currentMenu;
 	
 	//HUD life
 	public Slider healthSlider;
+	public Slider xpSlider;
 	private Image sliderBackground;
 	
 	
@@ -20,6 +23,8 @@ public class HUDGame: MonoBehaviour {
 	public void initLife(Player player){
 		healthSlider.maxValue = player.maxLife;
 		healthSlider.value = player.maxLife;
+
+
 		sliderBackground.gameObject.SetActive (true);
 		
 	}
@@ -31,5 +36,10 @@ public class HUDGame: MonoBehaviour {
 	public void playerDead(Player player){
 		sliderBackground.gameObject.SetActive (false);
 		
+	}
+
+	public void showMenu(){
+		//pausar o jogo e tirar a nitidez do fundo
+		currentMenu.IsOpen = !currentMenu.IsOpen;
 	}
 }

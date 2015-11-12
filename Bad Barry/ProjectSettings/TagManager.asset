@@ -16,6 +16,7 @@ TagManager:
   - agiPoints
   - intPoints
   - vitPoints
+  - Behaviour
   layers:
   - Default
   - TransparentFX
@@ -25,8 +26,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - UI2
+  - UI3
   - 
   - 
   - 
