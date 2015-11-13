@@ -23,7 +23,8 @@ public class GameBehavior : MonoBehaviour {
 	private int inteligence = 10;
 	private int vitality = 10;
 
-	private int previousScene = 0;
+	public int previousScene;
+	private int previous;
 
 
 
@@ -55,7 +56,10 @@ public class GameBehavior : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
+		previous = previousScene;
+		print(previous);
 		Application.LoadLevel("AtributeScreen");
+
 
 	}
 
@@ -65,6 +69,7 @@ public class GameBehavior : MonoBehaviour {
 		
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
+		previous = previousScene;
 		Application.LoadLevel("InventoryScene");
 
 
@@ -73,9 +78,8 @@ public class GameBehavior : MonoBehaviour {
 	//go to last scene
 	public void GoToLastScene(){
 
-		var x = previousScene;
-		//previousScene = Application.loadedLevel;
-		Application.LoadLevel(x);
+		previousScene = previous;
+		Application.LoadLevel(previousScene);
 		
 
 	}
