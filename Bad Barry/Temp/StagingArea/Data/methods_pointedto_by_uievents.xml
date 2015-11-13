@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameBehavior">
+			<method name="Play"/>
+			<method name="GoToInventoryScene"/>
+			<method name="GoToAtributesScreen"/>
+			<method name="GoToLastScene"/>
+		</type>
+		<type fullname="Retry">
+			<method name="retry"/>
+		</type>
+		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+		</type>
+		<type fullname="HUDGame">
+			<method name="showMenu"/>
+		</type>
+		<type fullname="Options">
+			<method name="EquipButtonClicked"/>
+		</type>
+		<type fullname="AtributeScreen">
+			<method name="goBack"/>
+			<method name="incrementInteligence"/>
+			<method name="incrementVitality"/>
+			<method name="incrementAgility"/>
+			<method name="incrementStrength"/>
+		</type>
+	</assembly>
+</linker>
