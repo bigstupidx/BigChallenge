@@ -50,6 +50,8 @@ public class HUDGame: MonoBehaviour {
 
 		xpSliderImage.gameObject.SetActive (true);
 		xpSlider.value = player.experience;
+		xpSlider.maxValue = player.neededExperience;
+
 
 		if (xpSlider.value == 0) {
 			xpSliderImage.gameObject.SetActive (false);

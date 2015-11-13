@@ -79,7 +79,7 @@ public class Player : MonoBehaviour {
 		hudGame.takeDamage(this);
 		hudGame.incrementXp (this);
 
-
+		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
 	}
 	
@@ -94,6 +94,15 @@ public class Player : MonoBehaviour {
 		time = time + Time.deltaTime;
 
 	}
+
+	public void ChangeWeapon(){
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
+
+	}
+
 
 	void Shoot(){
 		fireRate = weapon.GetComponent<Weapon> ().fireRate;

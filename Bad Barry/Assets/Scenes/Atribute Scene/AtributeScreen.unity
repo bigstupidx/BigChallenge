@@ -320,6 +320,30 @@ Prefab:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 11417134, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11406124, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_MaxSize
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471618, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441638, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441338, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493526, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 600c9e207d0b145e2a5ed45d7e145770, type: 2}
   m_IsPrefabParent: 0

@@ -253,7 +253,7 @@ MonoBehaviour:
   yValueLeft: 0
   xValueDown: .0500000007
   yValueDown: -.400000006
-  bulletPrefab: {fileID: 474954, guid: 8c0fa5bb3d7714c8e9f16f6ecaa4ff91, type: 2}
+  bulletPrefab: {fileID: 422682, guid: c3883c3b54c7241429c68a28a741721b, type: 2}
 --- !u!114 &11494160
 MonoBehaviour:
   m_ObjectHideFlags: 1

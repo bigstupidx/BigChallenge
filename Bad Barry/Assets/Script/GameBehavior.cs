@@ -26,6 +26,7 @@ public class GameBehavior : MonoBehaviour {
 	public int previousScene;
 	private int previous;
 
+	public int selectedWeapon = 0;
 
 
 
@@ -40,6 +41,7 @@ public class GameBehavior : MonoBehaviour {
 	void Update () {
 	
 	}
+
 
 	public void LeveledUp(int currentLvl){
 
@@ -78,7 +80,7 @@ public class GameBehavior : MonoBehaviour {
 	//go to last scene
 	public void GoToLastScene(){
 
-		previousScene = previous;
+		previousScene = 1;
 		Application.LoadLevel(previousScene);
 		
 
