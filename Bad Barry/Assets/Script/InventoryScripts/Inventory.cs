@@ -86,9 +86,17 @@ public class Inventory : MonoBehaviour {
 				data.amount--;
 				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
 
-				if(data.amount == 0)
+				if(data.amount == 0){
 					RemoveItem(id);
-				//CHAMAR FUNCAO PARA AUMENTAR A VIDA IN GAME
+
+
+				}
+				var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+				behave.life = behave.life + 20;
+				if(behave.life > behave.maxLife){
+
+					behave.life = behave.maxLife;
+				}
 
 					break;
 				}

@@ -63,9 +63,10 @@ public class HUDGame: MonoBehaviour {
 
 	public void showMenu(){
 		//pausar o jogo e tirar a nitidez do fundo
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		if(behave.life > 0)
 		currentMenu.IsOpen = !currentMenu.IsOpen;
-		Time.timeScale = (isPaused) ? 1 : 0;
-		isPaused = !isPaused;
+
 	}
 
 	public void levelUp(){

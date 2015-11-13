@@ -87,13 +87,11 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
-<<<<<<< HEAD
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-=======
+ </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/Hyago1/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
->>>>>>> b15fbcd24c0008e68edade8a0f795ace1c09b933
+ <HintPath>/Users/Neves/Desktop/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

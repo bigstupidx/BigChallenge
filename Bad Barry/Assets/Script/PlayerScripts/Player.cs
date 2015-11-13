@@ -44,6 +44,7 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Time.timeScale = 1;
 		CrossPlatformInputManager.SetButtonUp("Fire");
 		print(CrossPlatformInputManager.GetButton("Fire"));
 
@@ -53,6 +54,16 @@ public class Player : MonoBehaviour {
 		inteligence = behave.getInteligence();
 		vitality = behave.getVitality();
 		isShooting = false;
+
+		experience = behave.experience;
+		life = behave.life;
+		if(life <= 0){
+			life = maxLife;
+			behave.life = life;
+		}
+		neededExperience = behave.neededExperience;
+		maxLife = behave.maxLife;
+
 
 
 		HUD = GameObject.FindGameObjectWithTag ("HUD");
@@ -65,6 +76,10 @@ public class Player : MonoBehaviour {
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
 		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();
+		hudGame.takeDamage(this);
+		hudGame.incrementXp (this);
+
+
 
 	}
 	
@@ -137,6 +152,8 @@ public class Player : MonoBehaviour {
 			hudGame.takeDamage(this);
 			
 		}
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.life = life;
 		
 	}
 
@@ -150,11 +167,16 @@ public class Player : MonoBehaviour {
 
 		if (experience >= neededExperience) {
 
-			experience = neededExperience - experience;
+			experience = experience - neededExperience;
+			neededExperience = neededExperience * 1.3f;
 			LevelUp();
 		}
 
 		hudGame.incrementXp (this);
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.experience = experience;
+		behave.neededExperience = neededExperience;
 
 
 	}
@@ -164,8 +186,7 @@ public class Player : MonoBehaviour {
 		lvl++;
 		var behaviour = GameObject.FindGameObjectWithTag("Behaviour");
 		behaviour.GetComponent<GameBehavior> ().LeveledUp(lvl);
-		neededExperience = neededExperience * 1.3f;
-		print("Level Up");
+		//print("Level Up");
 		hudGame.levelUp();
 
 

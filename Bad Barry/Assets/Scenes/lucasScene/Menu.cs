@@ -32,6 +32,7 @@ public class Menu : MonoBehaviour {
 
 			canvasGroup.blocksRaycasts = canvasGroup.interactable = false;
 
+
 		}
 
 		 

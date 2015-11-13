@@ -50,8 +50,8 @@ public class Weapon : MonoBehaviour {
 		}
 
 		Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
-		print ("firePoint" + firePoint.position);
-		print ("transform" + transform.position);
+//		print ("firePoint" + firePoint.position);
+//		print ("transform" + transform.position);
 		//Handheld.Vibrate ();
 		if (bullet == null) {
 		

@@ -5,13 +5,13 @@ public class Retry : MonoBehaviour {
 
 	public Button retryButton;
 	public Text text;
+	public bool click = false;
 
 
 	// Use this for initialization
 	void Start () {
-		retryButton.enabled = false;
 
-
+		click = false;
 	}
 	
 	// Update is called once per frame
@@ -20,14 +20,17 @@ public class Retry : MonoBehaviour {
 	}
 
 	public void activate()
-	{
-		retryButton.enabled = true;
+	{	
+		click = true;
 		text.text = "RETRY";
 	}
 
 	public void retry()
 	{
-		Application.LoadLevel (Application.loadedLevel);
+		if(click){
+			Application.LoadLevel (Application.loadedLevel);
+
+		}
 
 	}
 }

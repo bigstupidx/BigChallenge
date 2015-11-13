@@ -9,6 +9,10 @@ public class GameBehavior : MonoBehaviour {
 
 
 
+	public float experience = 0;
+	public float neededExperience = 100;
+	public int life = 100;
+	public int maxLife = 100;
 
 
 	//attributes points
@@ -55,11 +59,22 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
+
+	public void GoToInventoryScene(){
+		SaveCurrentSceneState ();
+		
+		DontDestroyOnLoad (gameObject);
+		previousScene = Application.loadedLevel;
+		Application.LoadLevel("InventoryScene");
+
+
+	}
+
 	//go to last scene
 	public void GoToLastScene(){
 
 		var x = previousScene;
-		previousScene = Application.loadedLevel;
+		//previousScene = Application.loadedLevel;
 		Application.LoadLevel(x);
 		
 
