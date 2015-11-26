@@ -8,7 +8,7 @@ public class BulletScript : MonoBehaviour {
 	public int baseDamage = 0;
 	public int direction = 0;
 	public GameObject origin;
-
+	public int tag = 0;
 	// Use this for initialization
 	void Start () {
 
@@ -102,25 +102,16 @@ public class BulletScript : MonoBehaviour {
 		}
 
 
-
-		if (col.gameObject.tag == "Wall") {
-		
+		if (col.gameObject.tag == "Parede") {
 			Destroy(this.gameObject);
 		}
 
-		if (col.gameObject.tag == "Destructable") {
-
-			col.gameObject.GetComponent<Appear>().AppearThing();
-
+		if (col.gameObject.tag == "Destructable" && tag == 2) {
+			Destroy(this.gameObject);
+			Destroy(GameObject.FindGameObjectsWithTag("ParedeSecondMap")[0]);
 			Destroy(col.gameObject);
-			Destroy(this.gameObject);
-
-			
+			col.gameObject.GetComponent<Appear>().AppearThing();
 		}
-
-
-
-
 
 	}
 }

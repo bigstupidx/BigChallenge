@@ -34,7 +34,7 @@ public class Weapon : MonoBehaviour {
 
 	}
 
-	public void Shoot(int direction, int baseDamage){
+	public void Shoot(int direction, int baseDamage,int tag){
 		float xValue = 0f;
 		float yValue = 0f;
 		if (direction == 0) {
@@ -64,6 +64,7 @@ public class Weapon : MonoBehaviour {
 			bullet.GetComponent<BulletScript> ().maxDamage = maxDamage;
 			bullet.GetComponent<BulletScript> ().speed = bulletSpeed;
 			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
+			bullet.GetComponent<BulletScript> ().tag = tag;
 		}
 
 

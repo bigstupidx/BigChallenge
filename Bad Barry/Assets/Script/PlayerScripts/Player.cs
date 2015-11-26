@@ -114,7 +114,7 @@ public class Player : MonoBehaviour {
 
 			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage);
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,2);
 			}
 			torsoAnimator.SetBool("Shooting",true);
 

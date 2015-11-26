@@ -98,7 +98,7 @@ public class GameBehavior : MonoBehaviour {
 		print ("entrou");
 		DontDestroyOnLoad (gameObject);
 
-		Application.LoadLevel("Prototype");
+		Application.LoadLevel("NewPrototype");
 	}
 
 
