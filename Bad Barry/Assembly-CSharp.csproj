@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Appear.cs" />
+     <Compile Include="Assets\AtributeIconManager.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\ButtonHandler.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Joystick.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\Retry.cs" />
+     <Compile Include="Assets\Scenes\lucasScene\InventoryInMission.cs" />
      <Compile Include="Assets\Scenes\lucasScene\Menu.cs" />
      <Compile Include="Assets\Scenes\lucasScene\MenuManager.cs" />
      <Compile Include="Assets\Score.cs" />
@@ -103,7 +105,11 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
+<<<<<<< HEAD
  <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+=======
+ <HintPath>/Users/Lucas/Desktop/BigChallange/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+>>>>>>> 4627ee76f221a7cea49109becb507ad275b25a37
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
