@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.KeySizes
-struct  KeySizes_t759  : public Object_t
+struct  KeySizes_t1_567  : public Object_t
 {
 	// System.Int32 System.Security.Cryptography.KeySizes::_maxSize
 	int32_t ____maxSize_0;

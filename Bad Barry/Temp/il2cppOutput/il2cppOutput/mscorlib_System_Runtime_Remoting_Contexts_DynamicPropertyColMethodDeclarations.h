@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
-struct DynamicPropertyReg_t1440;
+struct DynamicPropertyReg_t1_418;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg::.ctor()
-extern "C" void DynamicPropertyReg__ctor_m8739 (DynamicPropertyReg_t1440 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DynamicPropertyReg__ctor_m1_3151 (DynamicPropertyReg_t1_418 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

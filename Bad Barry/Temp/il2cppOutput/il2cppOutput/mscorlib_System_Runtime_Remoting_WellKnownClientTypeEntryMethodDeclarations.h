@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.WellKnownClientTypeEntry
-struct WellKnownClientTypeEntry_t1517;
+struct WellKnownClientTypeEntry_t1_497;
 // System.String
 struct String_t;
 // System.Type
@@ -22,12 +22,12 @@ struct Type_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.WellKnownClientTypeEntry::.ctor(System.String,System.String,System.String)
-extern "C" void WellKnownClientTypeEntry__ctor_m9103 (WellKnownClientTypeEntry_t1517 * __this, String_t* ___typeName, String_t* ___assemblyName, String_t* ___objectUrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WellKnownClientTypeEntry__ctor_m1_3515 (WellKnownClientTypeEntry_t1_497 * __this, String_t* ___typeName, String_t* ___assemblyName, String_t* ___objectUrl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.WellKnownClientTypeEntry::get_ApplicationUrl()
-extern "C" String_t* WellKnownClientTypeEntry_get_ApplicationUrl_m9104 (WellKnownClientTypeEntry_t1517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WellKnownClientTypeEntry_get_ApplicationUrl_m1_3516 (WellKnownClientTypeEntry_t1_497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.WellKnownClientTypeEntry::get_ObjectType()
-extern "C" Type_t * WellKnownClientTypeEntry_get_ObjectType_m9105 (WellKnownClientTypeEntry_t1517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * WellKnownClientTypeEntry_get_ObjectType_m1_3517 (WellKnownClientTypeEntry_t1_497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.WellKnownClientTypeEntry::get_ObjectUrl()
-extern "C" String_t* WellKnownClientTypeEntry_get_ObjectUrl_m9106 (WellKnownClientTypeEntry_t1517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WellKnownClientTypeEntry_get_ObjectUrl_m1_3518 (WellKnownClientTypeEntry_t1_497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.WellKnownClientTypeEntry::ToString()
-extern "C" String_t* WellKnownClientTypeEntry_ToString_m9107 (WellKnownClientTypeEntry_t1517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WellKnownClientTypeEntry_ToString_m1_3519 (WellKnownClientTypeEntry_t1_497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-struct CullStateChangedEvent_t243;
+struct CullStateChangedEvent_t7_101;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.MaskableGraphic/CullStateChangedEvent::.ctor()
-extern "C" void CullStateChangedEvent__ctor_m1244 (CullStateChangedEvent_t243 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullStateChangedEvent__ctor_m7_762 (CullStateChangedEvent_t7_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

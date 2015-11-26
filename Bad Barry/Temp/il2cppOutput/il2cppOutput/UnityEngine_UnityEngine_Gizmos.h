@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Gizmos
-struct  Gizmos_t468  : public Object_t
+struct  Gizmos_t6_46  : public Object_t
 {
 };

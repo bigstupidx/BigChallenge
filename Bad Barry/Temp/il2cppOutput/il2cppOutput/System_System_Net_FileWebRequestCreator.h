@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Net.FileWebRequestCreator
-struct  FileWebRequestCreator_t970  : public Object_t
+struct  FileWebRequestCreator_t2_25  : public Object_t
 {
 };

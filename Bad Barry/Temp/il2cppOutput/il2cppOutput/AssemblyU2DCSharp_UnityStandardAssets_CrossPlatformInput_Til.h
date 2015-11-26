@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Til.h"
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput/AxisOptions
-struct  AxisOptions_t18 
+struct  AxisOptions_t8_15 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.TiltInput/AxisOptions::value__
 	int32_t ___value___1;

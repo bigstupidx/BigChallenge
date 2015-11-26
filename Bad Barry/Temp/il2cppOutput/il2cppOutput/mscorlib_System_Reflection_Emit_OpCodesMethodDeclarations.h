@@ -16,4 +16,4 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.Emit.OpCodes::.cctor()
-extern "C" void OpCodes__cctor_m8196 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OpCodes__cctor_m1_2607 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

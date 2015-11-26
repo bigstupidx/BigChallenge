@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Threading.Timer/Scheduler
-struct Scheduler_t1658;
+struct Scheduler_t1_672;
 // System.Threading.TimerCallback
-struct TimerCallback_t1659;
+struct TimerCallback_t1_673;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MarshalByRefObject.h"
 
 // System.Threading.Timer
-struct  Timer_t1450  : public MarshalByRefObject_t986
+struct  Timer_t1_428  : public MarshalByRefObject_t1_56
 {
 	// System.Threading.TimerCallback System.Threading.Timer::callback
-	TimerCallback_t1659 * ___callback_2;
+	TimerCallback_t1_673 * ___callback_2;
 	// System.Object System.Threading.Timer::state
 	Object_t * ___state_3;
 	// System.Int64 System.Threading.Timer::due_time_ms
@@ -35,7 +35,7 @@ struct  Timer_t1450  : public MarshalByRefObject_t986
 	// System.Boolean System.Threading.Timer::disposed
 	bool ___disposed_7;
 };
-struct Timer_t1450_StaticFields{
+struct Timer_t1_428_StaticFields{
 	// System.Threading.Timer/Scheduler System.Threading.Timer::scheduler
-	Scheduler_t1658 * ___scheduler_1;
+	Scheduler_t1_672 * ___scheduler_1;
 };

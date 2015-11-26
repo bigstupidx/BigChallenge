@@ -15,10 +15,10 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.GradientColorKey
-struct  GradientColorKey_t464 
+struct  GradientColorKey_t6_39 
 {
 	// UnityEngine.Color UnityEngine.GradientColorKey::color
-	Color_t101  ___color_0;
+	Color_t6_40  ___color_0;
 	// System.Single UnityEngine.GradientColorKey::time
 	float ___time_1;
 };

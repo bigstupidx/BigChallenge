@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Activator
-struct  Activator_t1662  : public Object_t
+struct  Activator_t1_676  : public Object_t
 {
 };

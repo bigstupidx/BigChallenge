@@ -15,7 +15,7 @@
 #include "mscorlib_System_StringSplitOptions.h"
 
 // System.StringSplitOptions
-struct  StringSplitOptions_t1725 
+struct  StringSplitOptions_t1_756 
 {
 	// System.Int32 System.StringSplitOptions::value__
 	int32_t ___value___1;

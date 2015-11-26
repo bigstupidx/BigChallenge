@@ -13,26 +13,26 @@
 #include <exception>
 
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t35;
+struct CanvasGroup_t6_152;
 // UnityEngine.Camera
-struct Camera_t155;
+struct Camera_t6_83;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Single UnityEngine.CanvasGroup::get_alpha()
-extern "C" float CanvasGroup_get_alpha_m2106 (CanvasGroup_t35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float CanvasGroup_get_alpha_m6_1043 (CanvasGroup_t6_152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)
-extern "C" void CanvasGroup_set_alpha_m2110 (CanvasGroup_t35 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasGroup_set_alpha_m6_1044 (CanvasGroup_t6_152 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_interactable()
-extern "C" bool CanvasGroup_get_interactable_m2358 (CanvasGroup_t35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_interactable_m6_1045 (CanvasGroup_t6_152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasGroup::set_interactable(System.Boolean)
-extern "C" void CanvasGroup_set_interactable_m385 (CanvasGroup_t35 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasGroup_set_interactable_m6_1046 (CanvasGroup_t6_152 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_blocksRaycasts()
-extern "C" bool CanvasGroup_get_blocksRaycasts_m3162 (CanvasGroup_t35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_blocksRaycasts_m6_1047 (CanvasGroup_t6_152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasGroup::set_blocksRaycasts(System.Boolean)
-extern "C" void CanvasGroup_set_blocksRaycasts_m386 (CanvasGroup_t35 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasGroup_set_blocksRaycasts_m6_1048 (CanvasGroup_t6_152 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::get_ignoreParentGroups()
-extern "C" bool CanvasGroup_get_ignoreParentGroups_m2143 (CanvasGroup_t35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_get_ignoreParentGroups_m6_1049 (CanvasGroup_t6_152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.CanvasGroup::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" bool CanvasGroup_IsRaycastLocationValid_m3163 (CanvasGroup_t35 * __this, Vector2_t25  ___sp, Camera_t155 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CanvasGroup_IsRaycastLocationValid_m6_1050 (CanvasGroup_t6_152 * __this, Vector2_t6_48  ___sp, Camera_t6_83 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;

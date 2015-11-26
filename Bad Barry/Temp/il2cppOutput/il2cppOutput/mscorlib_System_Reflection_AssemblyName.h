@@ -13,13 +13,13 @@
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t638;
+struct CultureInfo_t1_161;
 // System.Reflection.StrongNameKeyPair
-struct StrongNameKeyPair_t1341;
+struct StrongNameKeyPair_t1_315;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Reflection_AssemblyNameFlags.h"
@@ -28,7 +28,7 @@ struct Version_t976;
 #include "mscorlib_System_Reflection_ProcessorArchitecture.h"
 
 // System.Reflection.AssemblyName
-struct  AssemblyName_t1340  : public Object_t
+struct  AssemblyName_t1_314  : public Object_t
 {
 	// System.String System.Reflection.AssemblyName::name
 	String_t* ___name_0;
@@ -43,21 +43,21 @@ struct  AssemblyName_t1340  : public Object_t
 	// System.Int32 System.Reflection.AssemblyName::revision
 	int32_t ___revision_5;
 	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
-	CultureInfo_t638 * ___cultureinfo_6;
+	CultureInfo_t1_161 * ___cultureinfo_6;
 	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
 	int32_t ___flags_7;
 	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
 	int32_t ___hashalg_8;
 	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
-	StrongNameKeyPair_t1341 * ___keypair_9;
+	StrongNameKeyPair_t1_315 * ___keypair_9;
 	// System.Byte[] System.Reflection.AssemblyName::publicKey
-	ByteU5BU5D_t740* ___publicKey_10;
+	ByteU5BU5D_t1_70* ___publicKey_10;
 	// System.Byte[] System.Reflection.AssemblyName::keyToken
-	ByteU5BU5D_t740* ___keyToken_11;
+	ByteU5BU5D_t1_70* ___keyToken_11;
 	// System.Configuration.Assemblies.AssemblyVersionCompatibility System.Reflection.AssemblyName::versioncompat
 	int32_t ___versioncompat_12;
 	// System.Version System.Reflection.AssemblyName::version
-	Version_t976 * ___version_13;
+	Version_t1_316 * ___version_13;
 	// System.Reflection.ProcessorArchitecture System.Reflection.AssemblyName::processor_architecture
 	int32_t ___processor_architecture_14;
 };

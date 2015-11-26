@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Int32[]
-struct Int32U5BU5D_t425;
+// UnityEngine.UI.Text[]
+struct TextU5BU5D_t7_216;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t318  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Text>
+struct  List_1_t1_965  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Int32>::_items
-	Int32U5BU5D_t425* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	TextU5BU5D_t7_216* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t318_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Int32>::EmptyArray
-	Int32U5BU5D_t425* ___EmptyArray_4;
+struct List_1_t1_965_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	TextU5BU5D_t7_216* ___EmptyArray_4;
 };

@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // System.Reflection.AssemblyFileVersionAttribute
-struct  AssemblyFileVersionAttribute_t1337  : public Attribute_t476
+struct  AssemblyFileVersionAttribute_t1_311  : public Attribute_t1_2
 {
 	// System.String System.Reflection.AssemblyFileVersionAttribute::name
 	String_t* ___name_0;

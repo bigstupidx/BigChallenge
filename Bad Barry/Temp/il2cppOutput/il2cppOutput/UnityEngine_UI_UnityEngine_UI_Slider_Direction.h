@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_Slider_Direction.h"
 
 // UnityEngine.UI.Slider/Direction
-struct  Direction_t273 
+struct  Direction_t7_122 
 {
 	// System.Int32 UnityEngine.UI.Slider/Direction::value__
 	int32_t ___value___1;

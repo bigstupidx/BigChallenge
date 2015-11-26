@@ -19,23 +19,23 @@ struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_90.h"
-#include "mscorlib_System_Reflection_Emit_ILGenerator_LabelData.h"
+#include "UnityEngine_UnityEngine_Vector3.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m18859_gshared (InternalEnumerator_1_t2463 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m18859(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2463 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m18859_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m18860_gshared (InternalEnumerator_1_t2463 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m18860(__this, method) (( void (*) (InternalEnumerator_1_t2463 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m18860_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18861_gshared (InternalEnumerator_1_t2463 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18861(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2463 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18861_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m18862_gshared (InternalEnumerator_1_t2463 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m18862(__this, method) (( void (*) (InternalEnumerator_1_t2463 *, const MethodInfo*))InternalEnumerator_1_Dispose_m18862_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m18863_gshared (InternalEnumerator_1_t2463 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m18863(__this, method) (( bool (*) (InternalEnumerator_1_t2463 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m18863_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelData>::get_Current()
-extern "C" LabelData_t1308  InternalEnumerator_1_get_Current_m18864_gshared (InternalEnumerator_1_t2463 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m18864(__this, method) (( LabelData_t1308  (*) (InternalEnumerator_1_t2463 *, const MethodInfo*))InternalEnumerator_1_get_Current_m18864_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.Vector3>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m1_9029_gshared (InternalEnumerator_1_t1_1289 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_9029(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1289 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_9029_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.Vector3>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_9030_gshared (InternalEnumerator_1_t1_1289 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_9030(__this, method) (( void (*) (InternalEnumerator_1_t1_1289 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_9030_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.Vector3>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_9031_gshared (InternalEnumerator_1_t1_1289 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_9031(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1289 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_9031_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.Vector3>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m1_9032_gshared (InternalEnumerator_1_t1_1289 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_9032(__this, method) (( void (*) (InternalEnumerator_1_t1_1289 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_9032_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Vector3>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m1_9033_gshared (InternalEnumerator_1_t1_1289 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_9033(__this, method) (( bool (*) (InternalEnumerator_1_t1_1289 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_9033_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.Vector3>::get_Current()
+extern "C" Vector3_t6_49  InternalEnumerator_1_get_Current_m1_9034_gshared (InternalEnumerator_1_t1_1289 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_9034(__this, method) (( Vector3_t6_49  (*) (InternalEnumerator_1_t1_1289 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_9034_gshared)(__this, method)

@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // Tiled2Unity.TileAnimator/Frame
-struct  Frame_t66  : public Object_t
+struct  Frame_t8_48  : public Object_t
 {
 	// System.Int32 Tiled2Unity.TileAnimator/Frame::DurationMs
 	int32_t ___DurationMs_0;

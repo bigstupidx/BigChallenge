@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Physics
-struct  Physics_t507  : public Object_t
+struct  Physics_t6_109  : public Object_t
 {
 };

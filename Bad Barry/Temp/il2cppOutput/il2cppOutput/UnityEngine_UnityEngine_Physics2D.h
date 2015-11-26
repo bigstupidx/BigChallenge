@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t508;
+struct List_1_t1_909;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Physics2D
-struct  Physics2D_t368  : public Object_t
+struct  Physics2D_t6_111  : public Object_t
 {
 };
-struct Physics2D_t368_StaticFields{
+struct Physics2D_t6_111_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> UnityEngine.Physics2D::m_LastDisabledRigidbody2D
-	List_1_t508 * ___m_LastDisabledRigidbody2D_0;
+	List_1_t1_909 * ___m_LastDisabledRigidbody2D_0;
 };

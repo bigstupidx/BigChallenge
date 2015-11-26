@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Runtime.Serialization.SerializationException
-struct  SerializationException_t1099  : public SystemException_t1104
+struct  SerializationException_t1_533  : public SystemException_t1_147
 {
 };

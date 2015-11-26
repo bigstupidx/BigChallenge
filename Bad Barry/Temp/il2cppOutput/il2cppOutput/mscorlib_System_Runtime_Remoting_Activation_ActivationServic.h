@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1422;
+struct IActivator_t1_399;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Activation.ActivationServices
-struct  ActivationServices_t1421  : public Object_t
+struct  ActivationServices_t1_398  : public Object_t
 {
 };
-struct ActivationServices_t1421_StaticFields{
+struct ActivationServices_t1_398_StaticFields{
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Activation.ActivationServices::_constructionActivator
 	Object_t * ____constructionActivator_0;
 };

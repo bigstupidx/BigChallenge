@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.EventHandler
-struct EventHandler_t1292;
+struct EventHandler_t1_264;
 
 #include "mscorlib_System_IO_Stream.h"
 #include "mscorlib_System_IO_FileAccess.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.IO.UnmanagedMemoryStream
-struct  UnmanagedMemoryStream_t1291  : public Stream_t851
+struct  UnmanagedMemoryStream_t1_263  : public Stream_t1_217
 {
 	// System.Int64 System.IO.UnmanagedMemoryStream::length
 	int64_t ___length_1;
@@ -35,5 +35,5 @@ struct  UnmanagedMemoryStream_t1291  : public Stream_t851
 	// System.Int64 System.IO.UnmanagedMemoryStream::current_position
 	int64_t ___current_position_7;
 	// System.EventHandler System.IO.UnmanagedMemoryStream::Closed
-	EventHandler_t1292 * ___Closed_8;
+	EventHandler_t1_264 * ___Closed_8;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Text.EncoderFallbackBuffer
-struct  EncoderFallbackBuffer_t1630  : public Object_t
+struct  EncoderFallbackBuffer_t1_644  : public Object_t
 {
 };

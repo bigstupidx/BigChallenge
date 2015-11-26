@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Color32[]
-struct Color32U5BU5D_t423;
+// UnityEngine.UI.Dropdown/OptionData[]
+struct OptionDataU5BU5D_t7_212;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct  List_1_t315  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
+struct  List_1_t1_940  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Color32>::_items
-	Color32U5BU5D_t423* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Color32>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	OptionDataU5BU5D_t7_212* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Color32>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t315_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Color32>::EmptyArray
-	Color32U5BU5D_t423* ___EmptyArray_4;
+struct List_1_t1_940_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	OptionDataU5BU5D_t7_212* ___EmptyArray_4;
 };

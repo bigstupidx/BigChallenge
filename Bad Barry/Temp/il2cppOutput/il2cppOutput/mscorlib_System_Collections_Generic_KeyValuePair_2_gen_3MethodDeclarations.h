@@ -12,19 +12,29 @@
 #include <assert.h>
 #include <exception>
 
+// System.Object
+struct Object_t;
+// System.String
+struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m11199(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1861 *, String_t*, VirtualButton_t7 *, const MethodInfo*))KeyValuePair_2__ctor_m11017_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Key()
-#define KeyValuePair_2_get_Key_m11200(__this, method) (( String_t* (*) (KeyValuePair_2_t1861 *, const MethodInfo*))KeyValuePair_2_get_Key_m11018_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m11201(__this, ___value, method) (( void (*) (KeyValuePair_2_t1861 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m11019_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::get_Value()
-#define KeyValuePair_2_get_Value_m11202(__this, method) (( VirtualButton_t7 * (*) (KeyValuePair_2_t1861 *, const MethodInfo*))KeyValuePair_2_get_Value_m11020_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m11203(__this, ___value, method) (( void (*) (KeyValuePair_2_t1861 *, VirtualButton_t7 *, const MethodInfo*))KeyValuePair_2_set_Value_m11021_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::ToString()
-#define KeyValuePair_2_ToString_m11204(__this, method) (( String_t* (*) (KeyValuePair_2_t1861 *, const MethodInfo*))KeyValuePair_2_ToString_m11022_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::.ctor(TKey,TValue)
+extern "C" void KeyValuePair_2__ctor_m1_6296_gshared (KeyValuePair_2_t1_1050 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m1_6296(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_1050 *, Object_t *, Object_t *, const MethodInfo*))KeyValuePair_2__ctor_m1_6296_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
+extern "C" Object_t * KeyValuePair_2_get_Key_m1_6297_gshared (KeyValuePair_2_t1_1050 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m1_6297(__this, method) (( Object_t * (*) (KeyValuePair_2_t1_1050 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_6297_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::set_Key(TKey)
+extern "C" void KeyValuePair_2_set_Key_m1_6298_gshared (KeyValuePair_2_t1_1050 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m1_6298(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1050 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_6298_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
+extern "C" Object_t * KeyValuePair_2_get_Value_m1_6299_gshared (KeyValuePair_2_t1_1050 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m1_6299(__this, method) (( Object_t * (*) (KeyValuePair_2_t1_1050 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_6299_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::set_Value(TValue)
+extern "C" void KeyValuePair_2_set_Value_m1_6300_gshared (KeyValuePair_2_t1_1050 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m1_6300(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1050 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Value_m1_6300_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::ToString()
+extern "C" String_t* KeyValuePair_2_ToString_m1_6301_gshared (KeyValuePair_2_t1_1050 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m1_6301(__this, method) (( String_t* (*) (KeyValuePair_2_t1_1050 *, const MethodInfo*))KeyValuePair_2_ToString_m1_6301_gshared)(__this, method)

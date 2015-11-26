@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.Emit.OpCodeNames
-struct  OpCodeNames_t1320  : public Object_t
+struct  OpCodeNames_t1_294  : public Object_t
 {
 };
-struct OpCodeNames_t1320_StaticFields{
+struct OpCodeNames_t1_294_StaticFields{
 	// System.String[] System.Reflection.Emit.OpCodeNames::names
-	StringU5BU5D_t573* ___names_0;
+	StringU5BU5D_t1_198* ___names_0;
 };

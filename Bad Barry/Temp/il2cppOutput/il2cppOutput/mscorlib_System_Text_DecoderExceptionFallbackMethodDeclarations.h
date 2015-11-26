@@ -13,19 +13,19 @@
 #include <exception>
 
 // System.Text.DecoderExceptionFallback
-struct DecoderExceptionFallback_t1622;
+struct DecoderExceptionFallback_t1_635;
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t1621;
+struct DecoderFallbackBuffer_t1_634;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.DecoderExceptionFallback::.ctor()
-extern "C" void DecoderExceptionFallback__ctor_m9710 (DecoderExceptionFallback_t1622 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderExceptionFallback__ctor_m1_4193 (DecoderExceptionFallback_t1_635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.DecoderFallbackBuffer System.Text.DecoderExceptionFallback::CreateFallbackBuffer()
-extern "C" DecoderFallbackBuffer_t1621 * DecoderExceptionFallback_CreateFallbackBuffer_m9711 (DecoderExceptionFallback_t1622 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DecoderFallbackBuffer_t1_634 * DecoderExceptionFallback_CreateFallbackBuffer_m1_4194 (DecoderExceptionFallback_t1_635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.DecoderExceptionFallback::Equals(System.Object)
-extern "C" bool DecoderExceptionFallback_Equals_m9712 (DecoderExceptionFallback_t1622 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DecoderExceptionFallback_Equals_m1_4195 (DecoderExceptionFallback_t1_635 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.DecoderExceptionFallback::GetHashCode()
-extern "C" int32_t DecoderExceptionFallback_GetHashCode_m9713 (DecoderExceptionFallback_t1622 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DecoderExceptionFallback_GetHashCode_m1_4196 (DecoderExceptionFallback_t1_635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

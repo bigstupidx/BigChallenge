@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.UInt64[]
-struct UInt64U5BU5D_t1585;
+struct UInt64U5BU5D_t1_597;
 
 #include "mscorlib_System_Security_Cryptography_SHA384.h"
 
 // System.Security.Cryptography.SHA384Managed
-struct  SHA384Managed_t1584  : public SHA384_t1583
+struct  SHA384Managed_t1_596  : public SHA384_t1_595
 {
 	// System.Byte[] System.Security.Cryptography.SHA384Managed::xBuf
-	ByteU5BU5D_t740* ___xBuf_4;
+	ByteU5BU5D_t1_70* ___xBuf_4;
 	// System.Int32 System.Security.Cryptography.SHA384Managed::xBufOff
 	int32_t ___xBufOff_5;
 	// System.UInt64 System.Security.Cryptography.SHA384Managed::byteCount1
@@ -45,7 +45,7 @@ struct  SHA384Managed_t1584  : public SHA384_t1583
 	// System.UInt64 System.Security.Cryptography.SHA384Managed::H8
 	uint64_t ___H8_15;
 	// System.UInt64[] System.Security.Cryptography.SHA384Managed::W
-	UInt64U5BU5D_t1585* ___W_16;
+	UInt64U5BU5D_t1_597* ___W_16;
 	// System.Int32 System.Security.Cryptography.SHA384Managed::wOff
 	int32_t ___wOff_17;
 };

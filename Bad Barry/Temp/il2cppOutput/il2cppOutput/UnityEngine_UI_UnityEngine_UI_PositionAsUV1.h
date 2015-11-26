@@ -14,6 +14,6 @@
 #include "UnityEngine_UI_UnityEngine_UI_BaseMeshEffect.h"
 
 // UnityEngine.UI.PositionAsUV1
-struct  PositionAsUV1_t324  : public BaseMeshEffect_t321
+struct  PositionAsUV1_t7_158  : public BaseMeshEffect_t7_155
 {
 };

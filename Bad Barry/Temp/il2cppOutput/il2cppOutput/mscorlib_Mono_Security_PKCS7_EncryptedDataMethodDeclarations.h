@@ -13,21 +13,21 @@
 #include <exception>
 
 // Mono.Security.PKCS7/EncryptedData
-struct EncryptedData_t1202;
+struct EncryptedData_t1_135;
 // Mono.Security.ASN1
-struct ASN1_t1190;
+struct ASN1_t1_120;
 // Mono.Security.PKCS7/ContentInfo
-struct ContentInfo_t1201;
+struct ContentInfo_t1_134;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.PKCS7/EncryptedData::.ctor()
-extern "C" void EncryptedData__ctor_m7086 (EncryptedData_t1202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncryptedData__ctor_m1_1454 (EncryptedData_t1_135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.PKCS7/EncryptedData::.ctor(Mono.Security.ASN1)
-extern "C" void EncryptedData__ctor_m7087 (EncryptedData_t1202 * __this, ASN1_t1190 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncryptedData__ctor_m1_1455 (EncryptedData_t1_135 * __this, ASN1_t1_120 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::get_EncryptionAlgorithm()
-extern "C" ContentInfo_t1201 * EncryptedData_get_EncryptionAlgorithm_m7088 (EncryptedData_t1202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ContentInfo_t1_134 * EncryptedData_get_EncryptionAlgorithm_m1_1456 (EncryptedData_t1_135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.PKCS7/EncryptedData::get_EncryptedContent()
-extern "C" ByteU5BU5D_t740* EncryptedData_get_EncryptedContent_m7089 (EncryptedData_t1202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* EncryptedData_get_EncryptedContent_m1_1457 (EncryptedData_t1_135 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,4 +16,4 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Net.HttpVersion::.cctor()
-extern "C" void HttpVersion__cctor_m4899 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpVersion__cctor_m2_107 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,14 +10,13 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
-struct Dictionary_2_t1967;
 
-#include "mscorlib_System_Object.h"
+#include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__2.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
-struct  ValueCollection_t1971  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
+struct  Enumerator_t1_1053 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>::dictionary
-	Dictionary_2_t1967 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
+	Enumerator_t1_1054  ___host_enumerator_0;
 };

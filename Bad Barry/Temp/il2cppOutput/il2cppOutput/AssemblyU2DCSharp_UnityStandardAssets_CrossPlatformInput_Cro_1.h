@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton
-struct  VirtualButton_t7  : public Object_t
+struct  VirtualButton_t8_5  : public Object_t
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::m_LastPressedFrame
 	int32_t ___m_LastPressedFrame_0;

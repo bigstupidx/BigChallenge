@@ -15,7 +15,7 @@
 #include "mscorlib_System_Runtime_Serialization_Formatters_FormatterAs.h"
 
 // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
-struct  FormatterAssemblyStyle_t1532 
+struct  FormatterAssemblyStyle_t1_513 
 {
 	// System.Int32 System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::value__
 	int32_t ___value___1;

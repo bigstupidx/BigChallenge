@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t240;
+struct Dictionary_2_t1_76;
 
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary.h"
 
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
-struct  ConstructionCallDictionary_t1463  : public MethodDictionary_t1464
+struct  ConstructionCallDictionary_t1_442  : public MethodDictionary_t1_443
 {
 };
-struct ConstructionCallDictionary_t1463_StaticFields{
+struct ConstructionCallDictionary_t1_442_StaticFields{
 	// System.String[] System.Runtime.Remoting.Messaging.ConstructionCallDictionary::InternalKeys
-	StringU5BU5D_t573* ___InternalKeys_6;
+	StringU5BU5D_t1_198* ___InternalKeys_6;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCallDictionary::<>f__switch$map23
-	Dictionary_2_t240 * ___U3CU3Ef__switchU24map23_7;
+	Dictionary_2_t1_76 * ___U3CU3Ef__switchU24map23_7;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCallDictionary::<>f__switch$map24
-	Dictionary_2_t240 * ___U3CU3Ef__switchU24map24_8;
+	Dictionary_2_t1_76 * ___U3CU3Ef__switchU24map24_8;
 };

@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_CameraClearFlags.h"
 
 // UnityEngine.CameraClearFlags
-struct  CameraClearFlags_t563 
+struct  CameraClearFlags_t6_185 
 {
 	// System.Int32 UnityEngine.CameraClearFlags::value__
 	int32_t ___value___1;

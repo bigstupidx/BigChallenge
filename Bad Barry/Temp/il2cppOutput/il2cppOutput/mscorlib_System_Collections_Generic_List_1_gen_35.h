@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Events.BaseInvokableCall[]
-struct BaseInvokableCallU5BU5D_t2289;
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t7_224;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct  List_1_t600  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct  List_1_t1_951  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_items
-	BaseInvokableCallU5BU5D_t2289* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	ToggleU5BU5D_t7_224* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t600_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::EmptyArray
-	BaseInvokableCallU5BU5D_t2289* ___EmptyArray_4;
+struct List_1_t1_951_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ToggleU5BU5D_t7_224* ___EmptyArray_4;
 };

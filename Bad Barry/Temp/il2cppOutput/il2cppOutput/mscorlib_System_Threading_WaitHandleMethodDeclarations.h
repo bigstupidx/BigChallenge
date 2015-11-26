@@ -13,30 +13,30 @@
 #include <exception>
 
 // System.Threading.WaitHandle
-struct WaitHandle_t902;
+struct WaitHandle_t1_434;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.WaitHandle::.ctor()
-extern "C" void WaitHandle__ctor_m10022 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle__ctor_m1_4534 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::.cctor()
-extern "C" void WaitHandle__cctor_m10023 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle__cctor_m1_4535 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::System.IDisposable.Dispose()
-extern "C" void WaitHandle_System_IDisposable_Dispose_m10024 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle_System_IDisposable_Dispose_m1_4536 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Threading.WaitHandle::get_Handle()
-extern "C" IntPtr_t WaitHandle_get_Handle_m10025 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t WaitHandle_get_Handle_m1_4537 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::set_Handle(System.IntPtr)
-extern "C" void WaitHandle_set_Handle_m10026 (WaitHandle_t902 * __this, IntPtr_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle_set_Handle_m1_4538 (WaitHandle_t1_434 * __this, IntPtr_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.WaitHandle::WaitOne_internal(System.IntPtr,System.Int32,System.Boolean)
-extern "C" bool WaitHandle_WaitOne_internal_m10027 (WaitHandle_t902 * __this, IntPtr_t ___handle, int32_t ___ms, bool ___exitContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WaitHandle_WaitOne_internal_m1_4539 (WaitHandle_t1_434 * __this, IntPtr_t ___handle, int32_t ___ms, bool ___exitContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::Dispose(System.Boolean)
-extern "C" void WaitHandle_Dispose_m10028 (WaitHandle_t902 * __this, bool ___explicitDisposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle_Dispose_m1_4540 (WaitHandle_t1_434 * __this, bool ___explicitDisposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.WaitHandle::WaitOne()
-extern "C" bool WaitHandle_WaitOne_m10029 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WaitHandle_WaitOne_m1_4541 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.WaitHandle::WaitOne(System.Int32,System.Boolean)
-extern "C" bool WaitHandle_WaitOne_m10030 (WaitHandle_t902 * __this, int32_t ___millisecondsTimeout, bool ___exitContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WaitHandle_WaitOne_m1_4542 (WaitHandle_t1_434 * __this, int32_t ___millisecondsTimeout, bool ___exitContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::CheckDisposed()
-extern "C" void WaitHandle_CheckDisposed_m10031 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle_CheckDisposed_m1_4543 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.WaitHandle::Finalize()
-extern "C" void WaitHandle_Finalize_m10032 (WaitHandle_t902 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitHandle_Finalize_m1_4544 (WaitHandle_t1_434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

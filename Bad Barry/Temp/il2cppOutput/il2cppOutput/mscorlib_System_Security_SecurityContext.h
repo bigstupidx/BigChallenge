@@ -11,20 +11,20 @@
 #include <stdint.h>
 
 // System.Threading.CompressedStack
-struct CompressedStack_t1608;
+struct CompressedStack_t1_620;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Security.SecurityContext
-struct  SecurityContext_t1607  : public Object_t
+struct  SecurityContext_t1_619  : public Object_t
 {
 	// System.Boolean System.Security.SecurityContext::_capture
 	bool ____capture_0;
 	// System.IntPtr System.Security.SecurityContext::_winid
 	IntPtr_t ____winid_1;
 	// System.Threading.CompressedStack System.Security.SecurityContext::_stack
-	CompressedStack_t1608 * ____stack_2;
+	CompressedStack_t1_620 * ____stack_2;
 	// System.Boolean System.Security.SecurityContext::_suppressFlow
 	bool ____suppressFlow_3;
 };

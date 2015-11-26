@@ -13,12 +13,12 @@
 // System.String
 struct String_t;
 // UnityEngine.Sprite
-struct Sprite_t59;
+struct Sprite_t6_75;
 
 #include "mscorlib_System_Object.h"
 
 // Item
-struct  Item_t55  : public Object_t
+struct  Item_t8_39  : public Object_t
 {
 	// System.Int32 Item::<ID>k__BackingField
 	int32_t ___U3CIDU3Ek__BackingField_0;
@@ -39,5 +39,5 @@ struct  Item_t55  : public Object_t
 	// System.String Item::<Slug>k__BackingField
 	String_t* ___U3CSlugU3Ek__BackingField_8;
 	// UnityEngine.Sprite Item::<Sprite>k__BackingField
-	Sprite_t59 * ___U3CSpriteU3Ek__BackingField_9;
+	Sprite_t6_75 * ___U3CSpriteU3Ek__BackingField_9;
 };

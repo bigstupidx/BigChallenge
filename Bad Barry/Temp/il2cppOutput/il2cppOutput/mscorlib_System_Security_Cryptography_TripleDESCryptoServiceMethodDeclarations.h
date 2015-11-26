@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Security.Cryptography.TripleDESCryptoServiceProvider
-struct TripleDESCryptoServiceProvider_t1593;
+struct TripleDESCryptoServiceProvider_t1_605;
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t751;
+struct ICryptoTransform_t1_101;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::.ctor()
-extern "C" void TripleDESCryptoServiceProvider__ctor_m9579 (TripleDESCryptoServiceProvider_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDESCryptoServiceProvider__ctor_m1_4062 (TripleDESCryptoServiceProvider_t1_605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::GenerateIV()
-extern "C" void TripleDESCryptoServiceProvider_GenerateIV_m9580 (TripleDESCryptoServiceProvider_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDESCryptoServiceProvider_GenerateIV_m1_4063 (TripleDESCryptoServiceProvider_t1_605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.TripleDESCryptoServiceProvider::GenerateKey()
-extern "C" void TripleDESCryptoServiceProvider_GenerateKey_m9581 (TripleDESCryptoServiceProvider_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDESCryptoServiceProvider_GenerateKey_m1_4064 (TripleDESCryptoServiceProvider_t1_605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.TripleDESCryptoServiceProvider::CreateDecryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * TripleDESCryptoServiceProvider_CreateDecryptor_m9582 (TripleDESCryptoServiceProvider_t1593 * __this, ByteU5BU5D_t740* ___rgbKey, ByteU5BU5D_t740* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TripleDESCryptoServiceProvider_CreateDecryptor_m1_4065 (TripleDESCryptoServiceProvider_t1_605 * __this, ByteU5BU5D_t1_70* ___rgbKey, ByteU5BU5D_t1_70* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.TripleDESCryptoServiceProvider::CreateEncryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * TripleDESCryptoServiceProvider_CreateEncryptor_m9583 (TripleDESCryptoServiceProvider_t1593 * __this, ByteU5BU5D_t740* ___rgbKey, ByteU5BU5D_t740* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TripleDESCryptoServiceProvider_CreateEncryptor_m1_4066 (TripleDESCryptoServiceProvider_t1_605 * __this, ByteU5BU5D_t1_70* ___rgbKey, ByteU5BU5D_t1_70* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;

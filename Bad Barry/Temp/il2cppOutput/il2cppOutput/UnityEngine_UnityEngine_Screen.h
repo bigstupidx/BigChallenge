@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Screen
-struct  Screen_t456  : public Object_t
+struct  Screen_t6_28  : public Object_t
 {
 };

@@ -11,20 +11,20 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t542;
+struct GUIStyle_t6_162;
 // UnityEngine.Texture2D
-struct Texture2D_t201;
+struct Texture2D_t6_33;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.GUIStyleState
-struct  GUIStyleState_t541  : public Object_t
+struct  GUIStyleState_t6_161  : public Object_t
 {
 	// System.IntPtr UnityEngine.GUIStyleState::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// UnityEngine.GUIStyle UnityEngine.GUIStyleState::m_SourceStyle
-	GUIStyle_t542 * ___m_SourceStyle_1;
+	GUIStyle_t6_162 * ___m_SourceStyle_1;
 	// UnityEngine.Texture2D UnityEngine.GUIStyleState::m_Background
-	Texture2D_t201 * ___m_Background_2;
+	Texture2D_t6_33 * ___m_Background_2;
 };

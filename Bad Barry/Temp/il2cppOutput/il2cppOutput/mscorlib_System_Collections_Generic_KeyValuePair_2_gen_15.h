@@ -12,15 +12,16 @@
 
 // System.Type
 struct Type_t;
+// LitJson.ImporterFunc
+struct ImporterFunc_t5_10;
 
 #include "mscorlib_System_ValueType.h"
-#include "LitJson_LitJson_ArrayMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>
-struct  KeyValuePair_2_t2344 
+// System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>
+struct  KeyValuePair_2_t1_1249 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::key
+	// TKey System.Collections.Generic.KeyValuePair`2::key
 	Type_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::value
-	ArrayMetadata_t665  ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ImporterFunc_t5_10 * ___value_1;
 };

@@ -15,7 +15,7 @@
 #include "System_System_Text_RegularExpressions_Position.h"
 
 // System.Text.RegularExpressions.Position
-struct  Position_t1036 
+struct  Position_t2_99 
 {
 	// System.UInt16 System.Text.RegularExpressions.Position::value__
 	uint16_t ___value___1;

@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.InteropServices.GuidAttribute
-struct GuidAttribute_t1125;
+struct GuidAttribute_t1_43;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.GuidAttribute::.ctor(System.String)
-extern "C" void GuidAttribute__ctor_m6604 (GuidAttribute_t1125 * __this, String_t* ___guid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GuidAttribute__ctor_m1_968 (GuidAttribute_t1_43 * __this, String_t* ___guid, const MethodInfo* method) IL2CPP_METHOD_ATTR;

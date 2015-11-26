@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Reflection.AssemblyDelaySignAttribute
-struct  AssemblyDelaySignAttribute_t1335  : public Attribute_t476
+struct  AssemblyDelaySignAttribute_t1_309  : public Attribute_t1_2
 {
 	// System.Boolean System.Reflection.AssemblyDelaySignAttribute::delay
 	bool ___delay_0;

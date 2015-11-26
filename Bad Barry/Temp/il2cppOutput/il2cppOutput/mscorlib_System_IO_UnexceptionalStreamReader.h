@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Boolean[]
-struct BooleanU5BU5D_t983;
+struct BooleanU5BU5D_t1_261;
 
 #include "mscorlib_System_IO_StreamReader.h"
 
 // System.IO.UnexceptionalStreamReader
-struct  UnexceptionalStreamReader_t1289  : public StreamReader_t1283
+struct  UnexceptionalStreamReader_t1_260  : public StreamReader_t1_250
 {
 };
-struct UnexceptionalStreamReader_t1289_StaticFields{
+struct UnexceptionalStreamReader_t1_260_StaticFields{
 	// System.Boolean[] System.IO.UnexceptionalStreamReader::newline
-	BooleanU5BU5D_t983* ___newline_14;
+	BooleanU5BU5D_t1_261* ___newline_14;
 	// System.Char System.IO.UnexceptionalStreamReader::newlineChar
 	uint16_t ___newlineChar_15;
 };

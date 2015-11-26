@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Globalization.CCMath
-struct  CCMath_t1243  : public Object_t
+struct  CCMath_t1_199  : public Object_t
 {
 };

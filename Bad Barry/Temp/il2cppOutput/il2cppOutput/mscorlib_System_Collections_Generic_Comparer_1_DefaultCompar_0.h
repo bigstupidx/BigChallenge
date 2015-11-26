@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_0.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
-struct  DefaultComparer_t1943  : public Comparer_1_t1942
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
+struct  DefaultComparer_t1_1085  : public Comparer_1_t1_1084
 {
 };

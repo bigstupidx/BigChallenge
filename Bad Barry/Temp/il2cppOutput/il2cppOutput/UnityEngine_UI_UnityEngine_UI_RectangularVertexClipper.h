@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t99;
+struct Vector3U5BU5D_t6_156;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.RectangularVertexClipper
-struct  RectangularVertexClipper_t252  : public Object_t
+struct  RectangularVertexClipper_t7_108  : public Object_t
 {
 	// UnityEngine.Vector3[] UnityEngine.UI.RectangularVertexClipper::m_WorldCorners
-	Vector3U5BU5D_t99* ___m_WorldCorners_0;
+	Vector3U5BU5D_t6_156* ___m_WorldCorners_0;
 	// UnityEngine.Vector3[] UnityEngine.UI.RectangularVertexClipper::m_CanvasCorners
-	Vector3U5BU5D_t99* ___m_CanvasCorners_1;
+	Vector3U5BU5D_t6_156* ___m_CanvasCorners_1;
 };

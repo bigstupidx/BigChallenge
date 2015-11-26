@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.ServerIdentity
-struct ServerIdentity_t1138;
+struct ServerIdentity_t1_57;
 
 #include "mscorlib_System_Object.h"
 
 // System.MarshalByRefObject
-struct  MarshalByRefObject_t986  : public Object_t
+struct  MarshalByRefObject_t1_56  : public Object_t
 {
 	// System.Runtime.Remoting.ServerIdentity System.MarshalByRefObject::_identity
-	ServerIdentity_t1138 * ____identity_0;
+	ServerIdentity_t1_57 * ____identity_0;
 };

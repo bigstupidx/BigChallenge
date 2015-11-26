@@ -10,18 +10,16 @@
 
 #include <stdint.h>
 
-// System.String
-struct String_t;
-// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton
-struct VirtualButton_t7;
+// System.Object
+struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
-struct  KeyValuePair_2_t1861 
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+struct  KeyValuePair_2_t1_1050 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::key
-	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::value
-	VirtualButton_t7 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Object_t * ___value_1;
 };

@@ -13,11 +13,11 @@
 #include <exception>
 
 // Button
-struct Button_t31;
+struct Button_t8_23;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Button::.ctor()
-extern "C" void Button__ctor_m169 (Button_t31 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button__ctor_m8_169 (Button_t8_23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Button::ButtonClicked()
-extern "C" void Button_ButtonClicked_m170 (Button_t31 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button_ButtonClicked_m8_170 (Button_t8_23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

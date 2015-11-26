@@ -12,16 +12,14 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.GenericComparer`1<System.Object>
-struct GenericComparer_1_t2453;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.GenericComparer`1<System.Int32>
+struct GenericComparer_1_t1_1157;
 
 #include "codegen/il2cpp-codegen.h"
 
-// System.Void System.Collections.Generic.GenericComparer`1<System.Object>::.ctor()
-extern "C" void GenericComparer_1__ctor_m18806_gshared (GenericComparer_1_t2453 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m18806(__this, method) (( void (*) (GenericComparer_1_t2453 *, const MethodInfo*))GenericComparer_1__ctor_m18806_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.GenericComparer`1<System.Object>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m18807_gshared (GenericComparer_1_t2453 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m18807(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t2453 *, Object_t *, Object_t *, const MethodInfo*))GenericComparer_1_Compare_m18807_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.GenericComparer`1<System.Int32>::.ctor()
+extern "C" void GenericComparer_1__ctor_m1_7308_gshared (GenericComparer_1_t1_1157 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m1_7308(__this, method) (( void (*) (GenericComparer_1_t1_1157 *, const MethodInfo*))GenericComparer_1__ctor_m1_7308_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.Int32>::Compare(T,T)
+extern "C" int32_t GenericComparer_1_Compare_m1_7309_gshared (GenericComparer_1_t1_1157 * __this, int32_t ___x, int32_t ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m1_7309(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t1_1157 *, int32_t, int32_t, const MethodInfo*))GenericComparer_1_Compare_m1_7309_gshared)(__this, ___x, ___y, method)

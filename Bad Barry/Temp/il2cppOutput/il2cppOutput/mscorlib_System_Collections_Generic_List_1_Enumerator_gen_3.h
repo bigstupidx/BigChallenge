@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<Item>
-struct List_1_t52;
-// Item
-struct Item_t55;
+// System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
+struct List_1_t1_1079;
 
 #include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
-// System.Collections.Generic.List`1/Enumerator<Item>
-struct  Enumerator_t1884 
+// System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>
+struct  Enumerator_t1_1080 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Item>::l
-	List_1_t52 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Item>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_1079 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Item>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Item>::current
-	Item_t55 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	CustomAttributeTypedArgument_t1_329  ___current_3;
 };

@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct List_1_t451;
+struct List_1_t1_908;
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t452;
+struct GcLeaderboard_t6_21;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Enumerator_t630 
+struct  Enumerator_t1_925 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::l
-	List_1_t451 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_908 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>::current
-	GcLeaderboard_t452 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	GcLeaderboard_t6_21 * ___current_3;
 };

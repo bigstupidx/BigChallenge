@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
-struct Dictionary_2_t982;
+// System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
+struct Dictionary_2_t1_975;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Boolean>
-struct  ValueCollection_t2429  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
+struct  ValueCollection_t1_1555  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Boolean>::dictionary
-	Dictionary_2_t982 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_975 * ___dictionary_0;
 };

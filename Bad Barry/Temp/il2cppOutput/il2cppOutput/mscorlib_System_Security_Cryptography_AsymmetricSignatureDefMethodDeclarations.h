@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.Cryptography.AsymmetricSignatureDeformatter
-struct AsymmetricSignatureDeformatter_t855;
+struct AsymmetricSignatureDeformatter_t1_542;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.AsymmetricSignatureDeformatter::.ctor()
-extern "C" void AsymmetricSignatureDeformatter__ctor_m4768 (AsymmetricSignatureDeformatter_t855 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricSignatureDeformatter__ctor_m1_3697 (AsymmetricSignatureDeformatter_t1_542 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

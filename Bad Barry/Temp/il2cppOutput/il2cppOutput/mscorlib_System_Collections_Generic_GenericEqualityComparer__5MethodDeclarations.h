@@ -12,19 +12,17 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.GenericEqualityComparer`1<System.Object>
-struct GenericEqualityComparer_1_t2454;
-// System.Object
-struct Object_t;
+// System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>
+struct GenericEqualityComparer_1_t1_1147;
 
 #include "codegen/il2cpp-codegen.h"
 
-// System.Void System.Collections.Generic.GenericEqualityComparer`1<System.Object>::.ctor()
-extern "C" void GenericEqualityComparer_1__ctor_m18808_gshared (GenericEqualityComparer_1_t2454 * __this, const MethodInfo* method);
-#define GenericEqualityComparer_1__ctor_m18808(__this, method) (( void (*) (GenericEqualityComparer_1_t2454 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m18808_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.GenericEqualityComparer`1<System.Object>::GetHashCode(T)
-extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m18809_gshared (GenericEqualityComparer_1_t2454 * __this, Object_t * ___obj, const MethodInfo* method);
-#define GenericEqualityComparer_1_GetHashCode_m18809(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t2454 *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m18809_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.GenericEqualityComparer`1<System.Object>::Equals(T,T)
-extern "C" bool GenericEqualityComparer_1_Equals_m18810_gshared (GenericEqualityComparer_1_t2454 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define GenericEqualityComparer_1_Equals_m18810(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t2454 *, Object_t *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_Equals_m18810_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>::.ctor()
+extern "C" void GenericEqualityComparer_1__ctor_m1_7236_gshared (GenericEqualityComparer_1_t1_1147 * __this, const MethodInfo* method);
+#define GenericEqualityComparer_1__ctor_m1_7236(__this, method) (( void (*) (GenericEqualityComparer_1_t1_1147 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m1_7236_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>::GetHashCode(T)
+extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m1_7237_gshared (GenericEqualityComparer_1_t1_1147 * __this, bool ___obj, const MethodInfo* method);
+#define GenericEqualityComparer_1_GetHashCode_m1_7237(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t1_1147 *, bool, const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m1_7237_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>::Equals(T,T)
+extern "C" bool GenericEqualityComparer_1_Equals_m1_7238_gshared (GenericEqualityComparer_1_t1_1147 * __this, bool ___x, bool ___y, const MethodInfo* method);
+#define GenericEqualityComparer_1_Equals_m1_7238(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t1_1147 *, bool, bool, const MethodInfo*))GenericEqualityComparer_1_Equals_m1_7238_gshared)(__this, ___x, ___y, method)

@@ -15,7 +15,7 @@
 #include "mscorlib_System_Reflection_EventAttributes.h"
 
 // System.Reflection.EventAttributes
-struct  EventAttributes_t1354 
+struct  EventAttributes_t1_330 
 {
 	// System.Int32 System.Reflection.EventAttributes::value__
 	int32_t ___value___1;

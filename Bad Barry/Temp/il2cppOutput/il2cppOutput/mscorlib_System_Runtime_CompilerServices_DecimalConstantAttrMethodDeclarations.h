@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.DecimalConstantAttribute
-struct DecimalConstantAttribute_t1133;
+struct DecimalConstantAttribute_t1_51;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.DecimalConstantAttribute::.ctor(System.Byte,System.Byte,System.UInt32,System.UInt32,System.UInt32)
-extern "C" void DecimalConstantAttribute__ctor_m6614 (DecimalConstantAttribute_t1133 * __this, uint8_t ___scale, uint8_t ___sign, uint32_t ___hi, uint32_t ___mid, uint32_t ___low, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecimalConstantAttribute__ctor_m1_978 (DecimalConstantAttribute_t1_51 * __this, uint8_t ___scale, uint8_t ___sign, uint32_t ___hi, uint32_t ___mid, uint32_t ___low, const MethodInfo* method) IL2CPP_METHOD_ATTR;

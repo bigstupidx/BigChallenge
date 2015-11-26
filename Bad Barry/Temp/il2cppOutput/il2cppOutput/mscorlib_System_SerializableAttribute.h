@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.SerializableAttribute
-struct  SerializableAttribute_t1108  : public Attribute_t476
+struct  SerializableAttribute_t1_4  : public Attribute_t1_2
 {
 };

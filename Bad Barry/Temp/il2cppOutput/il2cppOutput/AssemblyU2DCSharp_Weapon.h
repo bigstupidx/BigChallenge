@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // UnityEngine.Transform
-struct Transform_t44;
+struct Transform_t6_66;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Weapon
-struct  Weapon_t64  : public MonoBehaviour_t2
+struct  Weapon_t8_45  : public MonoBehaviour_t6_88
 {
 	// System.Int32 Weapon::minDamage
 	int32_t ___minDamage_2;
@@ -43,7 +43,7 @@ struct  Weapon_t64  : public MonoBehaviour_t2
 	// System.Single Weapon::yValueDown
 	float ___yValueDown_13;
 	// UnityEngine.Transform Weapon::firePoint
-	Transform_t44 * ___firePoint_14;
+	Transform_t6_66 * ___firePoint_14;
 	// UnityEngine.Transform Weapon::bulletPrefab
-	Transform_t44 * ___bulletPrefab_15;
+	Transform_t6_66 * ___bulletPrefab_15;
 };

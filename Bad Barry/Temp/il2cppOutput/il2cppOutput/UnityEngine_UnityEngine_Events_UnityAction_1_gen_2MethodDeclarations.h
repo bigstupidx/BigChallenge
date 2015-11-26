@@ -13,26 +13,26 @@
 #include <exception>
 
 // UnityEngine.Events.UnityAction`1<System.Boolean>
-struct UnityAction_1_t375;
+struct UnityAction_1_t6_271;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m2083_gshared (UnityAction_1_t375 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m2083(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t375 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m2083_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_1__ctor_m6_1369_gshared (UnityAction_1_t6_271 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_1__ctor_m6_1369(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t6_271 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m6_1369_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::Invoke(T0)
-extern "C" void UnityAction_1_Invoke_m13520_gshared (UnityAction_1_t375 * __this, bool ___arg0, const MethodInfo* method);
-#define UnityAction_1_Invoke_m13520(__this, ___arg0, method) (( void (*) (UnityAction_1_t375 *, bool, const MethodInfo*))UnityAction_1_Invoke_m13520_gshared)(__this, ___arg0, method)
+extern "C" void UnityAction_1_Invoke_m6_1506_gshared (UnityAction_1_t6_271 * __this, bool ___arg0, const MethodInfo* method);
+#define UnityAction_1_Invoke_m6_1506(__this, ___arg0, method) (( void (*) (UnityAction_1_t6_271 *, bool, const MethodInfo*))UnityAction_1_Invoke_m6_1506_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Boolean>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_1_BeginInvoke_m13521_gshared (UnityAction_1_t375 * __this, bool ___arg0, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAction_1_BeginInvoke_m13521(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t375 *, bool, AsyncCallback_t229 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m13521_gshared)(__this, ___arg0, ___callback, ___object, method)
+extern "C" Object_t * UnityAction_1_BeginInvoke_m6_1507_gshared (UnityAction_1_t6_271 * __this, bool ___arg0, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define UnityAction_1_BeginInvoke_m6_1507(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t6_271 *, bool, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m6_1507_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_1_EndInvoke_m13522_gshared (UnityAction_1_t375 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAction_1_EndInvoke_m13522(__this, ___result, method) (( void (*) (UnityAction_1_t375 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m13522_gshared)(__this, ___result, method)
+extern "C" void UnityAction_1_EndInvoke_m6_1508_gshared (UnityAction_1_t6_271 * __this, Object_t * ___result, const MethodInfo* method);
+#define UnityAction_1_EndInvoke_m6_1508(__this, ___result, method) (( void (*) (UnityAction_1_t6_271 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m6_1508_gshared)(__this, ___result, method)

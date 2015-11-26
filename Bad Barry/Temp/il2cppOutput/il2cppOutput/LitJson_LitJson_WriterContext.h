@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // LitJson.WriterContext
-struct  WriterContext_t687  : public Object_t
+struct  WriterContext_t5_18  : public Object_t
 {
 	// System.Int32 LitJson.WriterContext::Count
 	int32_t ___Count_0;

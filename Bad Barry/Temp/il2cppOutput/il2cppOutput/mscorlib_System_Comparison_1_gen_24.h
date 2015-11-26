@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t276;
+// UnityEngine.Events.BaseInvokableCall
+struct BaseInvokableCall_t6_218;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Comparison_1_t2115  : public MulticastDelegate_t227
+// System.Comparison`1<UnityEngine.Events.BaseInvokableCall>
+struct  Comparison_1_t1_1403  : public MulticastDelegate_t1_21
 {
 };

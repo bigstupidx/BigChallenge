@@ -15,7 +15,7 @@
 #include "System_System_Text_RegularExpressions_OpFlags.h"
 
 // System.Text.RegularExpressions.OpFlags
-struct  OpFlags_t1035 
+struct  OpFlags_t2_98 
 {
 	// System.UInt16 System.Text.RegularExpressions.OpFlags::value__
 	uint16_t ___value___1;

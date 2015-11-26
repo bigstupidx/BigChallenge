@@ -16,7 +16,7 @@ struct String_t;
 #include "System_System_Text_RegularExpressions_Syntax_Reference.h"
 
 // System.Text.RegularExpressions.Syntax.BackslashNumber
-struct  BackslashNumber_t1078  : public Reference_t1077
+struct  BackslashNumber_t2_140  : public Reference_t2_139
 {
 	// System.String System.Text.RegularExpressions.Syntax.BackslashNumber::literal
 	String_t* ___literal_2;

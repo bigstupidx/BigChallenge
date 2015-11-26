@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.CompilerServices.ExtensionAttribute
-struct  ExtensionAttribute_t734  : public Attribute_t476
+struct  ExtensionAttribute_t4_1  : public Attribute_t1_2
 {
 };

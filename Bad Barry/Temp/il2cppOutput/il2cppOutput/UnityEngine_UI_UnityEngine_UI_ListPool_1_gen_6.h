@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct ObjectPool_1_t2212;
+struct ObjectPool_1_t7_232;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.UIVertex>>
-struct UnityAction_1_t2213;
+struct UnityAction_1_t6_319;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.ListPool`1<UnityEngine.UIVertex>
-struct  ListPool_1_t426  : public Object_t
+struct  ListPool_1_t7_197  : public Object_t
 {
 };
-struct ListPool_1_t426_StaticFields{
-	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<UnityEngine.UIVertex>::s_ListPool
-	ObjectPool_1_t2212 * ___s_ListPool_0;
-	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<UnityEngine.UIVertex>::<>f__am$cache1
-	UnityAction_1_t2213 * ___U3CU3Ef__amU24cache1_1;
+struct ListPool_1_t7_197_StaticFields{
+	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1::s_ListPool
+	ObjectPool_1_t7_232 * ___s_ListPool_0;
+	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1::<>f__am$cache1
+	UnityAction_1_t6_319 * ___U3CU3Ef__amU24cache1_1;
 };

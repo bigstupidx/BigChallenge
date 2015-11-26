@@ -12,15 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector3>
-struct DefaultComparer_t2149;
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTime>
+struct DefaultComparer_t1_1119;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_Vector3.h"
+#include "mscorlib_System_DateTime.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector3>::.ctor()
-extern "C" void DefaultComparer__ctor_m15283_gshared (DefaultComparer_t2149 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m15283(__this, method) (( void (*) (DefaultComparer_t2149 *, const MethodInfo*))DefaultComparer__ctor_m15283_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector3>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m15284_gshared (DefaultComparer_t2149 * __this, Vector3_t12  ___x, Vector3_t12  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m15284(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2149 *, Vector3_t12 , Vector3_t12 , const MethodInfo*))DefaultComparer_Compare_m15284_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTime>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_6976_gshared (DefaultComparer_t1_1119 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_6976(__this, method) (( void (*) (DefaultComparer_t1_1119 *, const MethodInfo*))DefaultComparer__ctor_m1_6976_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTime>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_6977_gshared (DefaultComparer_t1_1119 * __this, DateTime_t1_126  ___x, DateTime_t1_126  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_6977(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1119 *, DateTime_t1_126 , DateTime_t1_126 , const MethodInfo*))DefaultComparer_Compare_m1_6977_gshared)(__this, ___x, ___y, method)

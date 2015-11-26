@@ -10,20 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.IClipper
-struct IClipper_t355;
-// System.IAsyncResult
-struct IAsyncResult_t228;
-// System.AsyncCallback
-struct AsyncCallback_t229;
 // System.Object
 struct Object_t;
+// System.IAsyncResult
+struct IAsyncResult_t1_27;
+// System.AsyncCallback
+struct AsyncCallback_t1_28;
 
 #include "mscorlib_System_MulticastDelegate.h"
-#include "mscorlib_System_Collections_DictionaryEntry.h"
-#include "mscorlib_System_Int32.h"
+#include "LitJson_LitJson_ObjectMetadata.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.IClipper,System.Int32,System.Collections.DictionaryEntry>
-struct  Transform_1_t2125  : public MulticastDelegate_t227
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,LitJson.ObjectMetadata,LitJson.ObjectMetadata>
+struct  Transform_1_t1_1225  : public MulticastDelegate_t1_21
 {
 };

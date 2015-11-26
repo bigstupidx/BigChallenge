@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Runtime.Serialization.ArrayFixupRecord
-struct ArrayFixupRecord_t1539;
+struct ArrayFixupRecord_t1_520;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1537;
+struct ObjectRecord_t1_518;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t1531;
+struct ObjectManager_t1_512;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.ArrayFixupRecord::.ctor(System.Runtime.Serialization.ObjectRecord,System.Int32,System.Runtime.Serialization.ObjectRecord)
-extern "C" void ArrayFixupRecord__ctor_m9184 (ArrayFixupRecord_t1539 * __this, ObjectRecord_t1537 * ___objectToBeFixed, int32_t ___index, ObjectRecord_t1537 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayFixupRecord__ctor_m1_3596 (ArrayFixupRecord_t1_520 * __this, ObjectRecord_t1_518 * ___objectToBeFixed, int32_t ___index, ObjectRecord_t1_518 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ArrayFixupRecord::FixupImpl(System.Runtime.Serialization.ObjectManager)
-extern "C" void ArrayFixupRecord_FixupImpl_m9185 (ArrayFixupRecord_t1539 * __this, ObjectManager_t1531 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayFixupRecord_FixupImpl_m1_3597 (ArrayFixupRecord_t1_520 * __this, ObjectManager_t1_512 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;

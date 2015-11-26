@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.InteropServices.ComImportAttribute
-struct  ComImportAttribute_t1126  : public Attribute_t476
+struct  ComImportAttribute_t1_44  : public Attribute_t1_2
 {
 };

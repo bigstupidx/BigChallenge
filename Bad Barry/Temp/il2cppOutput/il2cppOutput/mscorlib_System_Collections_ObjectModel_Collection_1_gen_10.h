@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>
-struct IList_1_t1350;
+// System.Collections.Generic.IList`1<UnityEngine.UILineInfo>
+struct IList_1_t1_924;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>
-struct  Collection_1_t2473  : public Object_t
+// System.Collections.ObjectModel.Collection`1<UnityEngine.UILineInfo>
+struct  Collection_1_t1_1380  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
 	Object_t* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::syncRoot
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
 	Object_t * ___syncRoot_1;
 };

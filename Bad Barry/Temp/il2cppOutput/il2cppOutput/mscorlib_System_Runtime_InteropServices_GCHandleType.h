@@ -15,7 +15,7 @@
 #include "mscorlib_System_Runtime_InteropServices_GCHandleType.h"
 
 // System.Runtime.InteropServices.GCHandleType
-struct  GCHandleType_t1413 
+struct  GCHandleType_t1_390 
 {
 	// System.Int32 System.Runtime.InteropServices.GCHandleType::value__
 	int32_t ___value___1;

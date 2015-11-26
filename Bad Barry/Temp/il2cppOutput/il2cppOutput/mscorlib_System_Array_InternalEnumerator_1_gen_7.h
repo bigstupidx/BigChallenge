@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.Touch>
-struct  InternalEnumerator_1_t1865 
+// System.Array/InternalEnumerator`1<System.Delegate>
+struct  InternalEnumerator_1_t1_1000 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.Touch>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.Touch>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.SelectionBaseAttribute
-struct  SelectionBaseAttribute_t588  : public Attribute_t476
+struct  SelectionBaseAttribute_t6_211  : public Attribute_t1_2
 {
 };

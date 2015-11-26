@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // UnityEngine.UI.ClipperRegistry
-struct ClipperRegistry_t285;
+struct ClipperRegistry_t7_131;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper>
-struct IndexedSet_1_t286;
+struct IndexedSet_1_t7_132;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.ClipperRegistry
-struct  ClipperRegistry_t285  : public Object_t
+struct  ClipperRegistry_t7_131  : public Object_t
 {
 	// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> UnityEngine.UI.ClipperRegistry::m_Clippers
-	IndexedSet_1_t286 * ___m_Clippers_1;
+	IndexedSet_1_t7_132 * ___m_Clippers_1;
 };
-struct ClipperRegistry_t285_StaticFields{
+struct ClipperRegistry_t7_131_StaticFields{
 	// UnityEngine.UI.ClipperRegistry UnityEngine.UI.ClipperRegistry::s_Instance
-	ClipperRegistry_t285 * ___s_Instance_0;
+	ClipperRegistry_t7_131 * ___s_Instance_0;
 };

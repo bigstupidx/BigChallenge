@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Vector4[]
-struct Vector4U5BU5D_t424;
+// UnityEngine.Canvas[]
+struct CanvasU5BU5D_t6_307;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct  List_1_t317  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Canvas>
+struct  List_1_t1_964  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Vector4>::_items
-	Vector4U5BU5D_t424* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector4>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	CanvasU5BU5D_t6_307* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector4>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t317_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Vector4>::EmptyArray
-	Vector4U5BU5D_t424* ___EmptyArray_4;
+struct List_1_t1_964_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	CanvasU5BU5D_t6_307* ___EmptyArray_4;
 };

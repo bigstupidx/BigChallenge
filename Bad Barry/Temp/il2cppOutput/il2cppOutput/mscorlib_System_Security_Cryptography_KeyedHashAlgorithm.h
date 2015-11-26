@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 
 // System.Security.Cryptography.KeyedHashAlgorithm
-struct  KeyedHashAlgorithm_t820  : public HashAlgorithm_t782
+struct  KeyedHashAlgorithm_t1_559  : public HashAlgorithm_t1_560
 {
 	// System.Byte[] System.Security.Cryptography.KeyedHashAlgorithm::KeyValue
-	ByteU5BU5D_t740* ___KeyValue_4;
+	ByteU5BU5D_t1_70* ___KeyValue_4;
 };

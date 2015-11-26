@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 
 // System.Runtime.Serialization.DelayedFixupRecord
-struct  DelayedFixupRecord_t1542  : public BaseFixupRecord_t1538
+struct  DelayedFixupRecord_t1_523  : public BaseFixupRecord_t1_519
 {
 	// System.String System.Runtime.Serialization.DelayedFixupRecord::_memberName
 	String_t* ____memberName_4;

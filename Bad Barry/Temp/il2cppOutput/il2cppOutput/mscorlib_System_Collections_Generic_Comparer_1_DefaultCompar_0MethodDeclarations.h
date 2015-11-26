@@ -12,15 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
-struct DefaultComparer_t1943;
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
+struct DefaultComparer_t1_1085;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
+#include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>::.ctor()
-extern "C" void DefaultComparer__ctor_m12294_gshared (DefaultComparer_t1943 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m12294(__this, method) (( void (*) (DefaultComparer_t1943 *, const MethodInfo*))DefaultComparer__ctor_m12294_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m12295_gshared (DefaultComparer_t1943 * __this, RaycastResult_t140  ___x, RaycastResult_t140  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m12295(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1943 *, RaycastResult_t140 , RaycastResult_t140 , const MethodInfo*))DefaultComparer_Compare_m12295_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_6610_gshared (DefaultComparer_t1_1085 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_6610(__this, method) (( void (*) (DefaultComparer_t1_1085 *, const MethodInfo*))DefaultComparer__ctor_m1_6610_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_6611_gshared (DefaultComparer_t1_1085 * __this, CustomAttributeTypedArgument_t1_329  ___x, CustomAttributeTypedArgument_t1_329  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_6611(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1085 *, CustomAttributeTypedArgument_t1_329 , CustomAttributeTypedArgument_t1_329 , const MethodInfo*))DefaultComparer_Compare_m1_6611_gshared)(__this, ___x, ___y, method)

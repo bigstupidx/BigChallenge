@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>
-struct  InternalEnumerator_1_t2242 
+// System.Array/InternalEnumerator`1<System.Reflection.Emit.ILTokenInfo>
+struct  InternalEnumerator_1_t1_1067 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

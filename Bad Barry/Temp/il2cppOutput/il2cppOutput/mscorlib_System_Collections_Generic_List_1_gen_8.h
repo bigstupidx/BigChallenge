@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Transform[]
-struct TransformU5BU5D_t1959;
+// System.Int32[]
+struct Int32U5BU5D_t1_159;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Transform>
-struct  List_1_t135  : public Object_t
+// System.Collections.Generic.List`1<System.Int32>
+struct  List_1_t1_920  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::_items
-	TransformU5BU5D_t1959* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	Int32U5BU5D_t1_159* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Transform>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t135_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Transform>::EmptyArray
-	TransformU5BU5D_t1959* ___EmptyArray_4;
+struct List_1_t1_920_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Int32U5BU5D_t1_159* ___EmptyArray_4;
 };

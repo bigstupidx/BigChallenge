@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Specialized.HybridDictionary
-struct HybridDictionary_t947;
+struct HybridDictionary_t2_3;
 // System.Net.IWebProxy
-struct IWebProxy_t969;
+struct IWebProxy_t2_24;
 // System.Object
 struct Object_t;
 
@@ -21,14 +21,14 @@ struct Object_t;
 #include "System_System_Net_Security_AuthenticationLevel.h"
 
 // System.Net.WebRequest
-struct  WebRequest_t933  : public MarshalByRefObject_t986
+struct  WebRequest_t2_21  : public MarshalByRefObject_t1_56
 {
 	// System.Net.Security.AuthenticationLevel System.Net.WebRequest::authentication_level
 	int32_t ___authentication_level_4;
 };
-struct WebRequest_t933_StaticFields{
+struct WebRequest_t2_21_StaticFields{
 	// System.Collections.Specialized.HybridDictionary System.Net.WebRequest::prefixes
-	HybridDictionary_t947 * ___prefixes_1;
+	HybridDictionary_t2_3 * ___prefixes_1;
 	// System.Boolean System.Net.WebRequest::isDefaultWebProxySet
 	bool ___isDefaultWebProxySet_2;
 	// System.Net.IWebProxy System.Net.WebRequest::defaultWebProxy

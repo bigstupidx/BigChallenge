@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Reflection.Binder
-struct Binder_t636;
+struct Binder_t1_322;
 
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.Binder
-struct  Binder_t636  : public Object_t
+struct  Binder_t1_322  : public Object_t
 {
 };
-struct Binder_t636_StaticFields{
+struct Binder_t1_322_StaticFields{
 	// System.Reflection.Binder System.Reflection.Binder::default_binder
-	Binder_t636 * ___default_binder_0;
+	Binder_t1_322 * ___default_binder_0;
 };

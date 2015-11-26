@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Threading.SynchronizationLockException
-struct  SynchronizationLockException_t1650  : public SystemException_t1104
+struct  SynchronizationLockException_t1_664  : public SystemException_t1_147
 {
 };

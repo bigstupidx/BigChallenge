@@ -14,6 +14,6 @@
 #include "mscorlib_System_ArgumentException.h"
 
 // System.ArgumentNullException
-struct  ArgumentNullException_t77  : public ArgumentException_t409
+struct  ArgumentNullException_t1_685  : public ArgumentException_t1_638
 {
 };

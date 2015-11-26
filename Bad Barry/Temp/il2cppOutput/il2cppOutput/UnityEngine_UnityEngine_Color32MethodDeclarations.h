@@ -20,10 +20,10 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Color32::.ctor(System.Byte,System.Byte,System.Byte,System.Byte)
-extern "C" void Color32__ctor_m2022 (Color32_t350 * __this, uint8_t ___r, uint8_t ___g, uint8_t ___b, uint8_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Color32__ctor_m6_273 (Color32_t6_50 * __this, uint8_t ___r, uint8_t ___g, uint8_t ___b, uint8_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Color32::ToString()
-extern "C" String_t* Color32_ToString_m2659 (Color32_t350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Color32_ToString_m6_274 (Color32_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color32 UnityEngine.Color32::op_Implicit(UnityEngine.Color)
-extern "C" Color32_t350  Color32_op_Implicit_m2140 (Object_t * __this /* static, unused */, Color_t101  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color32_t6_50  Color32_op_Implicit_m6_275 (Object_t * __this /* static, unused */, Color_t6_40  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color32::op_Implicit(UnityEngine.Color32)
-extern "C" Color_t101  Color32_op_Implicit_m2023 (Object_t * __this /* static, unused */, Color32_t350  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t6_40  Color32_op_Implicit_m6_276 (Object_t * __this /* static, unused */, Color32_t6_50  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;

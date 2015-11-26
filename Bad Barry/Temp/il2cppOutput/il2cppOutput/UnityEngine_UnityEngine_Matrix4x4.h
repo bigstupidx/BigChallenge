@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Matrix4x4
-struct  Matrix4x4_t400 
+struct  Matrix4x4_t6_53 
 {
 	// System.Single UnityEngine.Matrix4x4::m00
 	float ___m00_0;

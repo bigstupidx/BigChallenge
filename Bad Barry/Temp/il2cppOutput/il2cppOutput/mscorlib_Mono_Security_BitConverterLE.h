@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.BitConverterLE
-struct  BitConverterLE_t1200  : public Object_t
+struct  BitConverterLE_t1_133  : public Object_t
 {
 };

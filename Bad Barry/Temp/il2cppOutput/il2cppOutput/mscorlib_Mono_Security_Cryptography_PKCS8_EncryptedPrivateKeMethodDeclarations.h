@@ -13,25 +13,25 @@
 #include <exception>
 
 // Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo
-struct EncryptedPrivateKeyInfo_t1184;
+struct EncryptedPrivateKeyInfo_t1_113;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor()
-extern "C" void EncryptedPrivateKeyInfo__ctor_m6915 (EncryptedPrivateKeyInfo_t1184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncryptedPrivateKeyInfo__ctor_m1_1283 (EncryptedPrivateKeyInfo_t1_113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::.ctor(System.Byte[])
-extern "C" void EncryptedPrivateKeyInfo__ctor_m6916 (EncryptedPrivateKeyInfo_t1184 * __this, ByteU5BU5D_t740* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncryptedPrivateKeyInfo__ctor_m1_1284 (EncryptedPrivateKeyInfo_t1_113 * __this, ByteU5BU5D_t1_70* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Algorithm()
-extern "C" String_t* EncryptedPrivateKeyInfo_get_Algorithm_m6917 (EncryptedPrivateKeyInfo_t1184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* EncryptedPrivateKeyInfo_get_Algorithm_m1_1285 (EncryptedPrivateKeyInfo_t1_113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_EncryptedData()
-extern "C" ByteU5BU5D_t740* EncryptedPrivateKeyInfo_get_EncryptedData_m6918 (EncryptedPrivateKeyInfo_t1184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* EncryptedPrivateKeyInfo_get_EncryptedData_m1_1286 (EncryptedPrivateKeyInfo_t1_113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_Salt()
-extern "C" ByteU5BU5D_t740* EncryptedPrivateKeyInfo_get_Salt_m6919 (EncryptedPrivateKeyInfo_t1184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* EncryptedPrivateKeyInfo_get_Salt_m1_1287 (EncryptedPrivateKeyInfo_t1_113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::get_IterationCount()
-extern "C" int32_t EncryptedPrivateKeyInfo_get_IterationCount_m6920 (EncryptedPrivateKeyInfo_t1184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EncryptedPrivateKeyInfo_get_IterationCount_m1_1288 (EncryptedPrivateKeyInfo_t1_113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::Decode(System.Byte[])
-extern "C" void EncryptedPrivateKeyInfo_Decode_m6921 (EncryptedPrivateKeyInfo_t1184 * __this, ByteU5BU5D_t740* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncryptedPrivateKeyInfo_Decode_m1_1289 (EncryptedPrivateKeyInfo_t1_113 * __this, ByteU5BU5D_t1_70* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

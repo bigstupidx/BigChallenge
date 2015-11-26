@@ -15,7 +15,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_HashAlgorithmType.h"
 
 // Mono.Security.Protocol.Tls.HashAlgorithmType
-struct  HashAlgorithmType_t844 
+struct  HashAlgorithmType_t3_76 
 {
 	// System.Int32 Mono.Security.Protocol.Tls.HashAlgorithmType::value__
 	int32_t ___value___1;

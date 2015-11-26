@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Threading.ThreadInterruptedException
-struct ThreadInterruptedException_t1653;
+struct ThreadInterruptedException_t1_667;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadInterruptedException::.ctor()
-extern "C" void ThreadInterruptedException__ctor_m10002 (ThreadInterruptedException_t1653 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m1_4514 (ThreadInterruptedException_t1_667 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadInterruptedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadInterruptedException__ctor_m10003 (ThreadInterruptedException_t1653 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m1_4515 (ThreadInterruptedException_t1_667 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

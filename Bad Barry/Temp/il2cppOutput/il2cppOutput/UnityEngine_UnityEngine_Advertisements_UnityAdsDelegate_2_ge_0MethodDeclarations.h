@@ -13,26 +13,26 @@
 #include <exception>
 
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>
-struct UnityAdsDelegate_2_t2234;
+struct UnityAdsDelegate_2_t6_277;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAdsDelegate_2__ctor_m16201_gshared (UnityAdsDelegate_2_t2234 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAdsDelegate_2__ctor_m16201(__this, ___object, ___method, method) (( void (*) (UnityAdsDelegate_2_t2234 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAdsDelegate_2__ctor_m16201_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAdsDelegate_2__ctor_m6_1442_gshared (UnityAdsDelegate_2_t6_277 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAdsDelegate_2__ctor_m6_1442(__this, ___object, ___method, method) (( void (*) (UnityAdsDelegate_2_t6_277 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAdsDelegate_2__ctor_m6_1442_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>::Invoke(T1,T2)
-extern "C" void UnityAdsDelegate_2_Invoke_m16202_gshared (UnityAdsDelegate_2_t2234 * __this, Object_t * ___p1, bool ___p2, const MethodInfo* method);
-#define UnityAdsDelegate_2_Invoke_m16202(__this, ___p1, ___p2, method) (( void (*) (UnityAdsDelegate_2_t2234 *, Object_t *, bool, const MethodInfo*))UnityAdsDelegate_2_Invoke_m16202_gshared)(__this, ___p1, ___p2, method)
+extern "C" void UnityAdsDelegate_2_Invoke_m6_1443_gshared (UnityAdsDelegate_2_t6_277 * __this, Object_t * ___p1, bool ___p2, const MethodInfo* method);
+#define UnityAdsDelegate_2_Invoke_m6_1443(__this, ___p1, ___p2, method) (( void (*) (UnityAdsDelegate_2_t6_277 *, Object_t *, bool, const MethodInfo*))UnityAdsDelegate_2_Invoke_m6_1443_gshared)(__this, ___p1, ___p2, method)
 // System.IAsyncResult UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAdsDelegate_2_BeginInvoke_m16204_gshared (UnityAdsDelegate_2_t2234 * __this, Object_t * ___p1, bool ___p2, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAdsDelegate_2_BeginInvoke_m16204(__this, ___p1, ___p2, ___callback, ___object, method) (( Object_t * (*) (UnityAdsDelegate_2_t2234 *, Object_t *, bool, AsyncCallback_t229 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_BeginInvoke_m16204_gshared)(__this, ___p1, ___p2, ___callback, ___object, method)
+extern "C" Object_t * UnityAdsDelegate_2_BeginInvoke_m6_1445_gshared (UnityAdsDelegate_2_t6_277 * __this, Object_t * ___p1, bool ___p2, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define UnityAdsDelegate_2_BeginInvoke_m6_1445(__this, ___p1, ___p2, ___callback, ___object, method) (( Object_t * (*) (UnityAdsDelegate_2_t6_277 *, Object_t *, bool, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_BeginInvoke_m6_1445_gshared)(__this, ___p1, ___p2, ___callback, ___object, method)
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAdsDelegate_2_EndInvoke_m16206_gshared (UnityAdsDelegate_2_t2234 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAdsDelegate_2_EndInvoke_m16206(__this, ___result, method) (( void (*) (UnityAdsDelegate_2_t2234 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_EndInvoke_m16206_gshared)(__this, ___result, method)
+extern "C" void UnityAdsDelegate_2_EndInvoke_m6_1447_gshared (UnityAdsDelegate_2_t6_277 * __this, Object_t * ___result, const MethodInfo* method);
+#define UnityAdsDelegate_2_EndInvoke_m6_1447(__this, ___result, method) (( void (*) (UnityAdsDelegate_2_t6_277 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_EndInvoke_m6_1447_gshared)(__this, ___result, method)

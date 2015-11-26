@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.OrdinalComparer
-struct OrdinalComparer_t1723;
+struct OrdinalComparer_t1_754;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.OrdinalComparer::.ctor(System.Boolean)
-extern "C" void OrdinalComparer__ctor_m10726 (OrdinalComparer_t1723 * __this, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OrdinalComparer__ctor_m1_5316 (OrdinalComparer_t1_754 * __this, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.OrdinalComparer::Compare(System.String,System.String)
-extern "C" int32_t OrdinalComparer_Compare_m10727 (OrdinalComparer_t1723 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OrdinalComparer_Compare_m1_5317 (OrdinalComparer_t1_754 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.OrdinalComparer::Equals(System.String,System.String)
-extern "C" bool OrdinalComparer_Equals_m10728 (OrdinalComparer_t1723 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool OrdinalComparer_Equals_m1_5318 (OrdinalComparer_t1_754 * __this, String_t* ___x, String_t* ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.OrdinalComparer::GetHashCode(System.String)
-extern "C" int32_t OrdinalComparer_GetHashCode_m10729 (OrdinalComparer_t1723 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OrdinalComparer_GetHashCode_m1_5319 (OrdinalComparer_t1_754 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -15,11 +15,11 @@
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Reflection.Module
-struct Module_t1312;
+struct Module_t1_286;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.MemberInfo::.ctor()
-extern "C" void MemberInfo__ctor_m6575 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberInfo__ctor_m1_933 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Module System.Reflection.MemberInfo::get_Module()
-extern "C" Module_t1312 * MemberInfo_get_Module_m6576 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Module_t1_286 * MemberInfo_get_Module_m1_934 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

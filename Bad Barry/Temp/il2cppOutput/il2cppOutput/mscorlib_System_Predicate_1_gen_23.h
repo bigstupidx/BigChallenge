@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Selectable
-struct Selectable_t170;
+// UnityEngine.EventSystems.IEventSystemHandler
+struct IEventSystemHandler_t7_200;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Predicate`1<UnityEngine.UI.Selectable>
-struct  Predicate_1_t2101  : public MulticastDelegate_t227
+// System.Predicate`1<UnityEngine.EventSystems.IEventSystemHandler>
+struct  Predicate_1_t1_1411  : public MulticastDelegate_t1_21
 {
 };

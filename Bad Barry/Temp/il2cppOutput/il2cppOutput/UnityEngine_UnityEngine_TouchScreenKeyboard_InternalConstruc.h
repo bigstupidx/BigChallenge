@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
-struct  TouchScreenKeyboard_InternalConstructorHelperArguments_t467 
+struct  TouchScreenKeyboard_InternalConstructorHelperArguments_t6_43 
 {
 	// System.UInt32 UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments::keyboardType
 	uint32_t ___keyboardType_0;

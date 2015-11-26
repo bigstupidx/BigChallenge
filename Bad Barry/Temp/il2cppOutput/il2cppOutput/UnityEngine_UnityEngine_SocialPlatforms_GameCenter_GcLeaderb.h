@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // UnityEngine.SocialPlatforms.Impl.Leaderboard
-struct Leaderboard_t453;
+struct Leaderboard_t6_22;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct  GcLeaderboard_t452  : public Object_t
+struct  GcLeaderboard_t6_21  : public Object_t
 {
 	// System.IntPtr UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::m_InternalLeaderboard
 	IntPtr_t ___m_InternalLeaderboard_0;
 	// UnityEngine.SocialPlatforms.Impl.Leaderboard UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::m_GenericLeaderboard
-	Leaderboard_t453 * ___m_GenericLeaderboard_1;
+	Leaderboard_t6_22 * ___m_GenericLeaderboard_1;
 };

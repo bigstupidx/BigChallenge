@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator
-struct X509ChainElementEnumerator_t1006;
+struct X509ChainElementEnumerator_t2_65;
 // System.Collections.IEnumerable
-struct IEnumerable_t708;
+struct IEnumerable_t1_826;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509ChainElement
-struct X509ChainElement_t1003;
+struct X509ChainElement_t2_62;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::.ctor(System.Collections.IEnumerable)
-extern "C" void X509ChainElementEnumerator__ctor_m5116 (X509ChainElementEnumerator_t1006 * __this, Object_t * ___enumerable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementEnumerator__ctor_m2_339 (X509ChainElementEnumerator_t2_65 * __this, Object_t * ___enumerable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * X509ChainElementEnumerator_System_Collections_IEnumerator_get_Current_m5117 (X509ChainElementEnumerator_t1006 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ChainElementEnumerator_System_Collections_IEnumerator_get_Current_m2_340 (X509ChainElementEnumerator_t2_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainElement System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::get_Current()
-extern "C" X509ChainElement_t1003 * X509ChainElementEnumerator_get_Current_m5118 (X509ChainElementEnumerator_t1006 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ChainElement_t2_62 * X509ChainElementEnumerator_get_Current_m2_341 (X509ChainElementEnumerator_t2_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::MoveNext()
-extern "C" bool X509ChainElementEnumerator_MoveNext_m5119 (X509ChainElementEnumerator_t1006 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509ChainElementEnumerator_MoveNext_m2_342 (X509ChainElementEnumerator_t2_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator::Reset()
-extern "C" void X509ChainElementEnumerator_Reset_m5120 (X509ChainElementEnumerator_t1006 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElementEnumerator_Reset_m2_343 (X509ChainElementEnumerator_t2_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

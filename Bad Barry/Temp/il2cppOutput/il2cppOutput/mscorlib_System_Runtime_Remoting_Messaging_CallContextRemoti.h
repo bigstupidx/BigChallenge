@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct  CallContextRemotingData_t1468  : public Object_t
+struct  CallContextRemotingData_t1_447  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Messaging.CallContextRemotingData::_logicalCallID
 	String_t* ____logicalCallID_0;

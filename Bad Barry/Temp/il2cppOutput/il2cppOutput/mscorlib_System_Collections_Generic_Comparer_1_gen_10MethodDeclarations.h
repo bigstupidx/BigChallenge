@@ -12,22 +12,22 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1<System.Reflection.CustomAttributeTypedArgument>
-struct Comparer_1_t2479;
+// System.Collections.Generic.Comparer`1<UnityEngine.Vector2>
+struct Comparer_1_t1_1320;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
-// System.Void System.Collections.Generic.Comparer`1<System.Reflection.CustomAttributeTypedArgument>::.ctor()
-extern "C" void Comparer_1__ctor_m19053_gshared (Comparer_1_t2479 * __this, const MethodInfo* method);
-#define Comparer_1__ctor_m19053(__this, method) (( void (*) (Comparer_1_t2479 *, const MethodInfo*))Comparer_1__ctor_m19053_gshared)(__this, method)
-// System.Void System.Collections.Generic.Comparer`1<System.Reflection.CustomAttributeTypedArgument>::.cctor()
-extern "C" void Comparer_1__cctor_m19054_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1__cctor_m19054(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m19054_gshared)(__this /* static, unused */, method)
-// System.Int32 System.Collections.Generic.Comparer`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IComparer.Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m19055_gshared (Comparer_1_t2479 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define Comparer_1_System_Collections_IComparer_Compare_m19055(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t2479 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m19055_gshared)(__this, ___x, ___y, method)
-// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<System.Reflection.CustomAttributeTypedArgument>::get_Default()
-extern "C" Comparer_1_t2479 * Comparer_1_get_Default_m19056_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1_get_Default_m19056(__this /* static, unused */, method) (( Comparer_1_t2479 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m19056_gshared)(__this /* static, unused */, method)
+// System.Void System.Collections.Generic.Comparer`1<UnityEngine.Vector2>::.ctor()
+extern "C" void Comparer_1__ctor_m1_9472_gshared (Comparer_1_t1_1320 * __this, const MethodInfo* method);
+#define Comparer_1__ctor_m1_9472(__this, method) (( void (*) (Comparer_1_t1_1320 *, const MethodInfo*))Comparer_1__ctor_m1_9472_gshared)(__this, method)
+// System.Void System.Collections.Generic.Comparer`1<UnityEngine.Vector2>::.cctor()
+extern "C" void Comparer_1__cctor_m1_9473_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1__cctor_m1_9473(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m1_9473_gshared)(__this /* static, unused */, method)
+// System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.Vector2>::System.Collections.IComparer.Compare(System.Object,System.Object)
+extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m1_9474_gshared (Comparer_1_t1_1320 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define Comparer_1_System_Collections_IComparer_Compare_m1_9474(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t1_1320 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m1_9474_gshared)(__this, ___x, ___y, method)
+// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.Vector2>::get_Default()
+extern "C" Comparer_1_t1_1320 * Comparer_1_get_Default_m1_9475_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1_get_Default_m1_9475(__this /* static, unused */, method) (( Comparer_1_t1_1320 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m1_9475_gshared)(__this /* static, unused */, method)

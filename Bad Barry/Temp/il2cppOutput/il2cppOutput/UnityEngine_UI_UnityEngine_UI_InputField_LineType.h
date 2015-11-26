@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_InputField_LineType.h"
 
 // UnityEngine.UI.InputField/LineType
-struct  LineType_t221 
+struct  LineType_t7_92 
 {
 	// System.Int32 UnityEngine.UI.InputField/LineType::value__
 	int32_t ___value___1;

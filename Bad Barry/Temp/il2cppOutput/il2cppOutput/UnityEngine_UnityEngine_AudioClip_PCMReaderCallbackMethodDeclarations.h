@@ -13,15 +13,15 @@
 #include <exception>
 
 // UnityEngine.AudioClip/PCMReaderCallback
-struct PCMReaderCallback_t515;
+struct PCMReaderCallback_t6_121;
 // System.Object
 struct Object_t;
 // System.Single[]
-struct SingleU5BU5D_t516;
+struct SingleU5BU5D_t1_853;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
@@ -29,11 +29,11 @@ struct AsyncCallback_t229;
 #include "mscorlib_System_Single.h"
 
 // System.Void UnityEngine.AudioClip/PCMReaderCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void PCMReaderCallback__ctor_m3002 (PCMReaderCallback_t515 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PCMReaderCallback__ctor_m6_837 (PCMReaderCallback_t6_121 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioClip/PCMReaderCallback::Invoke(System.Single[])
-extern "C" void PCMReaderCallback_Invoke_m3003 (PCMReaderCallback_t515 * __this, SingleU5BU5D_t516* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_PCMReaderCallback_t515(Il2CppObject* delegate, SingleU5BU5D_t516* ___data);
+extern "C" void PCMReaderCallback_Invoke_m6_838 (PCMReaderCallback_t6_121 * __this, SingleU5BU5D_t1_853* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_PCMReaderCallback_t6_121(Il2CppObject* delegate, SingleU5BU5D_t1_853* ___data);
 // System.IAsyncResult UnityEngine.AudioClip/PCMReaderCallback::BeginInvoke(System.Single[],System.AsyncCallback,System.Object)
-extern "C" Object_t * PCMReaderCallback_BeginInvoke_m3004 (PCMReaderCallback_t515 * __this, SingleU5BU5D_t516* ___data, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PCMReaderCallback_BeginInvoke_m6_839 (PCMReaderCallback_t6_121 * __this, SingleU5BU5D_t1_853* ___data, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioClip/PCMReaderCallback::EndInvoke(System.IAsyncResult)
-extern "C" void PCMReaderCallback_EndInvoke_m3005 (PCMReaderCallback_t515 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PCMReaderCallback_EndInvoke_m6_840 (PCMReaderCallback_t6_121 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

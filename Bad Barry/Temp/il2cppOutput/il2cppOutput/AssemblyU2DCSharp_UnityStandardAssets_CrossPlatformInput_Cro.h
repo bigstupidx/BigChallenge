@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Cro.h"
 
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/ActiveInputMethod
-struct  ActiveInputMethod_t5 
+struct  ActiveInputMethod_t8_3 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/ActiveInputMethod::value__
 	int32_t ___value___1;

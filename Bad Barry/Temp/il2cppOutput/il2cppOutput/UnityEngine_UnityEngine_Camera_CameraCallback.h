@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t155;
+struct Camera_t6_83;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Camera/CameraCallback
-struct  CameraCallback_t486  : public MulticastDelegate_t227
+struct  CameraCallback_t6_82  : public MulticastDelegate_t1_21
 {
 };

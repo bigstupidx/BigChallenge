@@ -10,16 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.IClipper
-struct IClipper_t355;
+// System.Type
+struct Type_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "LitJson_LitJson_ObjectMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>
-struct  KeyValuePair_2_t2129 
+// System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ObjectMetadata>
+struct  KeyValuePair_2_t1_1230 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ObjectMetadata_t5_7  ___value_1;
 };

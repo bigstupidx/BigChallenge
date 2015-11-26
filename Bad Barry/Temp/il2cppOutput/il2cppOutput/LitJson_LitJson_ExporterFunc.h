@@ -13,16 +13,16 @@
 // System.Object
 struct Object_t;
 // LitJson.JsonWriter
-struct JsonWriter_t669;
+struct JsonWriter_t5_9;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Void.h"
 
 // LitJson.ExporterFunc
-struct  ExporterFunc_t668  : public MulticastDelegate_t227
+struct  ExporterFunc_t5_8  : public MulticastDelegate_t1_21
 {
 };

@@ -11,51 +11,51 @@
 #include <stdint.h>
 
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 // UnityEngine.UI.Text
-struct Text_t32;
+struct Text_t7_63;
 // UnityEngine.UI.Image
-struct Image_t26;
+struct Image_t7_64;
 // UnityEngine.UI.Dropdown/OptionDataList
-struct OptionDataList_t182;
+struct OptionDataList_t7_67;
 // UnityEngine.UI.Dropdown/DropdownEvent
-struct DropdownEvent_t184;
+struct DropdownEvent_t7_68;
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct List_1_t189;
+struct List_1_t1_941;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween>
-struct TweenRunner_1_t190;
+struct TweenRunner_1_t7_72;
 
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 
 // UnityEngine.UI.Dropdown
-struct  Dropdown_t187  : public Selectable_t170
+struct  Dropdown_t7_70  : public Selectable_t7_55
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Dropdown::m_Template
-	RectTransform_t179 * ___m_Template_16;
+	RectTransform_t6_65 * ___m_Template_16;
 	// UnityEngine.UI.Text UnityEngine.UI.Dropdown::m_CaptionText
-	Text_t32 * ___m_CaptionText_17;
+	Text_t7_63 * ___m_CaptionText_17;
 	// UnityEngine.UI.Image UnityEngine.UI.Dropdown::m_CaptionImage
-	Image_t26 * ___m_CaptionImage_18;
+	Image_t7_64 * ___m_CaptionImage_18;
 	// UnityEngine.UI.Text UnityEngine.UI.Dropdown::m_ItemText
-	Text_t32 * ___m_ItemText_19;
+	Text_t7_63 * ___m_ItemText_19;
 	// UnityEngine.UI.Image UnityEngine.UI.Dropdown::m_ItemImage
-	Image_t26 * ___m_ItemImage_20;
+	Image_t7_64 * ___m_ItemImage_20;
 	// System.Int32 UnityEngine.UI.Dropdown::m_Value
 	int32_t ___m_Value_21;
 	// UnityEngine.UI.Dropdown/OptionDataList UnityEngine.UI.Dropdown::m_Options
-	OptionDataList_t182 * ___m_Options_22;
+	OptionDataList_t7_67 * ___m_Options_22;
 	// UnityEngine.UI.Dropdown/DropdownEvent UnityEngine.UI.Dropdown::m_OnValueChanged
-	DropdownEvent_t184 * ___m_OnValueChanged_23;
+	DropdownEvent_t7_68 * ___m_OnValueChanged_23;
 	// UnityEngine.GameObject UnityEngine.UI.Dropdown::m_Dropdown
-	GameObject_t3 * ___m_Dropdown_24;
+	GameObject_t6_94 * ___m_Dropdown_24;
 	// UnityEngine.GameObject UnityEngine.UI.Dropdown::m_Blocker
-	GameObject_t3 * ___m_Blocker_25;
+	GameObject_t6_94 * ___m_Blocker_25;
 	// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem> UnityEngine.UI.Dropdown::m_Items
-	List_1_t189 * ___m_Items_26;
+	List_1_t1_941 * ___m_Items_26;
 	// UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> UnityEngine.UI.Dropdown::m_AlphaTweenRunner
-	TweenRunner_1_t190 * ___m_AlphaTweenRunner_27;
+	TweenRunner_1_t7_72 * ___m_AlphaTweenRunner_27;
 	// System.Boolean UnityEngine.UI.Dropdown::validTemplate
 	bool ___validTemplate_28;
 };

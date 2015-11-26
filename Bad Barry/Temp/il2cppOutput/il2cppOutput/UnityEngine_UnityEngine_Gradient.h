@@ -15,13 +15,13 @@
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.Gradient
-struct  Gradient_t466  : public Object_t
+struct  Gradient_t6_42  : public Object_t
 {
 	// System.IntPtr UnityEngine.Gradient::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
 // Native definition for marshalling of: UnityEngine.Gradient
-struct Gradient_t466_marshaled
+struct Gradient_t6_42_marshaled
 {
 	intptr_t ___m_Ptr_0;
 };

@@ -13,18 +13,18 @@
 #include <exception>
 
 // System.Threading.SynchronizationLockException
-struct SynchronizationLockException_t1650;
+struct SynchronizationLockException_t1_664;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.SynchronizationLockException::.ctor()
-extern "C" void SynchronizationLockException__ctor_m9966 (SynchronizationLockException_t1650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m1_4478 (SynchronizationLockException_t1_664 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.String)
-extern "C" void SynchronizationLockException__ctor_m9967 (SynchronizationLockException_t1650 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m1_4479 (SynchronizationLockException_t1_664 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SynchronizationLockException__ctor_m9968 (SynchronizationLockException_t1650 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m1_4480 (SynchronizationLockException_t1_664 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

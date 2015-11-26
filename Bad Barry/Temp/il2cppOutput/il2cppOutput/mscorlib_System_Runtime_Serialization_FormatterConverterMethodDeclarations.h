@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Serialization.FormatterConverter
-struct FormatterConverter_t1535;
+struct FormatterConverter_t1_516;
 // System.Object
 struct Object_t;
 // System.Type
@@ -24,16 +24,16 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.FormatterConverter::.ctor()
-extern "C" void FormatterConverter__ctor_m9159 (FormatterConverter_t1535 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatterConverter__ctor_m1_3571 (FormatterConverter_t1_516 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.FormatterConverter::Convert(System.Object,System.Type)
-extern "C" Object_t * FormatterConverter_Convert_m9160 (FormatterConverter_t1535 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FormatterConverter_Convert_m1_3572 (FormatterConverter_t1_516 * __this, Object_t * ___value, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.FormatterConverter::ToBoolean(System.Object)
-extern "C" bool FormatterConverter_ToBoolean_m9161 (FormatterConverter_t1535 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FormatterConverter_ToBoolean_m1_3573 (FormatterConverter_t1_516 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Runtime.Serialization.FormatterConverter::ToInt16(System.Object)
-extern "C" int16_t FormatterConverter_ToInt16_m9162 (FormatterConverter_t1535 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t FormatterConverter_ToInt16_m1_3574 (FormatterConverter_t1_516 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Serialization.FormatterConverter::ToInt32(System.Object)
-extern "C" int32_t FormatterConverter_ToInt32_m9163 (FormatterConverter_t1535 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FormatterConverter_ToInt32_m1_3575 (FormatterConverter_t1_516 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Runtime.Serialization.FormatterConverter::ToInt64(System.Object)
-extern "C" int64_t FormatterConverter_ToInt64_m9164 (FormatterConverter_t1535 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t FormatterConverter_ToInt64_m1_3576 (FormatterConverter_t1_516 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Serialization.FormatterConverter::ToString(System.Object)
-extern "C" String_t* FormatterConverter_ToString_m9165 (FormatterConverter_t1535 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FormatterConverter_ToString_m1_3577 (FormatterConverter_t1_516 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.Behaviour
-struct  Behaviour_t417  : public Component_t103
+struct  Behaviour_t6_30  : public Component_t6_24
 {
 };

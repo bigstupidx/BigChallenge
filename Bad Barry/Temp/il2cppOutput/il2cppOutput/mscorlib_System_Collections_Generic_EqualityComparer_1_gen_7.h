@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
-struct EqualityComparer_1_t2249;
+// System.Collections.Generic.EqualityComparer`1<System.Boolean>
+struct EqualityComparer_1_t1_1146;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
-struct  EqualityComparer_1_t2249  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<System.Boolean>
+struct  EqualityComparer_1_t1_1146  : public Object_t
 {
 };
-struct EqualityComparer_1_t2249_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::_default
-	EqualityComparer_1_t2249 * ____default_0;
+struct EqualityComparer_1_t1_1146_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1_1146 * ____default_0;
 };

@@ -14,17 +14,17 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_4MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m18282(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2393 *, int32_t, Object_t*, const MethodInfo*))KeyValuePair_2__ctor_m12731_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::get_Key()
-#define KeyValuePair_2_get_Key_m18283(__this, method) (( int32_t (*) (KeyValuePair_2_t2393 *, const MethodInfo*))KeyValuePair_2_get_Key_m12732_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m18284(__this, ___value, method) (( void (*) (KeyValuePair_2_t2393 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m12733_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::get_Value()
-#define KeyValuePair_2_get_Value_m18285(__this, method) (( Object_t* (*) (KeyValuePair_2_t2393 *, const MethodInfo*))KeyValuePair_2_get_Value_m12734_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m18286(__this, ___value, method) (( void (*) (KeyValuePair_2_t2393 *, Object_t*, const MethodInfo*))KeyValuePair_2_set_Value_m12735_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::ToString()
-#define KeyValuePair_2_ToString_m18287(__this, method) (( String_t* (*) (KeyValuePair_2_t2393 *, const MethodInfo*))KeyValuePair_2_ToString_m12736_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(TKey,TValue)
+#define KeyValuePair_2__ctor_m1_12427(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_1496 *, Object_t *, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m1_6100_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::get_Key()
+#define KeyValuePair_2_get_Key_m1_12428(__this, method) (( Object_t * (*) (KeyValuePair_2_t1_1496 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_6101_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m1_12429(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1496 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_6102_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::get_Value()
+#define KeyValuePair_2_get_Value_m1_12430(__this, method) (( int32_t (*) (KeyValuePair_2_t1_1496 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_6103_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m1_12431(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1496 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m1_6104_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::ToString()
+#define KeyValuePair_2_ToString_m1_12432(__this, method) (( String_t* (*) (KeyValuePair_2_t1_1496 *, const MethodInfo*))KeyValuePair_2_ToString_m1_6105_gshared)(__this, method)

@@ -14,7 +14,7 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // GameBehavior
-struct  GameBehavior_t42  : public MonoBehaviour_t2
+struct  GameBehavior_t8_30  : public MonoBehaviour_t6_88
 {
 	// System.Boolean GameBehavior::levelingUp
 	bool ___levelingUp_2;

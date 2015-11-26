@@ -16,12 +16,12 @@
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Globalization.DaylightTime
-struct  DaylightTime_t1250  : public Object_t
+struct  DaylightTime_t1_208  : public Object_t
 {
 	// System.DateTime System.Globalization.DaylightTime::m_start
-	DateTime_t569  ___m_start_0;
+	DateTime_t1_126  ___m_start_0;
 	// System.DateTime System.Globalization.DaylightTime::m_end
-	DateTime_t569  ___m_end_1;
+	DateTime_t1_126  ___m_end_1;
 	// System.TimeSpan System.Globalization.DaylightTime::m_delta
-	TimeSpan_t1008  ___m_delta_2;
+	TimeSpan_t1_209  ___m_delta_2;
 };

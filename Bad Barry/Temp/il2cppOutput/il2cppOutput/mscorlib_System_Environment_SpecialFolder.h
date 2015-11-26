@@ -15,7 +15,7 @@
 #include "mscorlib_System_Environment_SpecialFolder.h"
 
 // System.Environment/SpecialFolder
-struct  SpecialFolder_t1691 
+struct  SpecialFolder_t1_713 
 {
 	// System.Int32 System.Environment/SpecialFolder::value__
 	int32_t ___value___1;

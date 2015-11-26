@@ -15,7 +15,7 @@
 #include "LitJson_LitJson_Condition.h"
 
 // LitJson.Condition
-struct  Condition_t686 
+struct  Condition_t5_17 
 {
 	// System.Int32 LitJson.Condition::value__
 	int32_t ___value___1;

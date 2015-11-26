@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t508;
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_t509;
+// System.Collections.Generic.List`1<UnityEngine.UI.Text>
+struct List_1_t1_965;
+// UnityEngine.UI.Text
+struct Text_t7_63;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>
-struct  Enumerator_t2240 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>
+struct  Enumerator_t1_1478 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::l
-	List_1_t508 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_965 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::current
-	Rigidbody2D_t509 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Text_t7_63 * ___current_3;
 };

@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
-struct Dictionary_2_t28;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t1_1048;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
-struct  Enumerator_t1863 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+struct  Enumerator_t1_1054 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::dictionary
-	Dictionary_2_t28 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
+	Dictionary_2_t1_1048 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::current
-	KeyValuePair_2_t1861  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
+	KeyValuePair_2_t1_1050  ___current_3;
 };

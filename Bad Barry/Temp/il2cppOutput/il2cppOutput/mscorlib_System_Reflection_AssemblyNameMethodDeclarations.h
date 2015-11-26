@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Reflection.AssemblyName
-struct AssemblyName_t1340;
+struct AssemblyName_t1_314;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 // System.String
 struct String_t;
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.Object
 struct Object_t;
 
@@ -30,34 +30,34 @@ struct Object_t;
 #include "mscorlib_System_Reflection_AssemblyNameFlags.h"
 
 // System.Void System.Reflection.AssemblyName::.ctor()
-extern "C" void AssemblyName__ctor_m8301 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName__ctor_m1_2712 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void AssemblyName__ctor_m8302 (AssemblyName_t1340 * __this, SerializationInfo_t621 * ___si, StreamingContext_t622  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName__ctor_m1_2713 (AssemblyName_t1_314 * __this, SerializationInfo_t1_176 * ___si, StreamingContext_t1_506  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.AssemblyName::get_Name()
-extern "C" String_t* AssemblyName_get_Name_m8303 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AssemblyName_get_Name_m1_2714 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::get_Flags()
-extern "C" int32_t AssemblyName_get_Flags_m8304 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AssemblyName_get_Flags_m1_2715 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.AssemblyName::get_FullName()
-extern "C" String_t* AssemblyName_get_FullName_m8305 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AssemblyName_get_FullName_m1_2716 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Version System.Reflection.AssemblyName::get_Version()
-extern "C" Version_t976 * AssemblyName_get_Version_m8306 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Version_t1_316 * AssemblyName_get_Version_m1_2717 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::set_Version(System.Version)
-extern "C" void AssemblyName_set_Version_m8307 (AssemblyName_t1340 * __this, Version_t976 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName_set_Version_m1_2718 (AssemblyName_t1_314 * __this, Version_t1_316 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.AssemblyName::ToString()
-extern "C" String_t* AssemblyName_ToString_m8308 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AssemblyName_ToString_m1_2719 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.AssemblyName::get_IsPublicKeyValid()
-extern "C" bool AssemblyName_get_IsPublicKeyValid_m8309 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AssemblyName_get_IsPublicKeyValid_m1_2720 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Reflection.AssemblyName::InternalGetPublicKeyToken()
-extern "C" ByteU5BU5D_t740* AssemblyName_InternalGetPublicKeyToken_m8310 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* AssemblyName_InternalGetPublicKeyToken_m1_2721 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Reflection.AssemblyName::ComputePublicKeyToken()
-extern "C" ByteU5BU5D_t740* AssemblyName_ComputePublicKeyToken_m8311 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* AssemblyName_ComputePublicKeyToken_m1_2722 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::SetPublicKey(System.Byte[])
-extern "C" void AssemblyName_SetPublicKey_m8312 (AssemblyName_t1340 * __this, ByteU5BU5D_t740* ___publicKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName_SetPublicKey_m1_2723 (AssemblyName_t1_314 * __this, ByteU5BU5D_t1_70* ___publicKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::SetPublicKeyToken(System.Byte[])
-extern "C" void AssemblyName_SetPublicKeyToken_m8313 (AssemblyName_t1340 * __this, ByteU5BU5D_t740* ___publicKeyToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName_SetPublicKeyToken_m1_2724 (AssemblyName_t1_314 * __this, ByteU5BU5D_t1_70* ___publicKeyToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void AssemblyName_GetObjectData_m8314 (AssemblyName_t1340 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName_GetObjectData_m1_2725 (AssemblyName_t1_314 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.AssemblyName::Clone()
-extern "C" Object_t * AssemblyName_Clone_m8315 (AssemblyName_t1340 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * AssemblyName_Clone_m1_2726 (AssemblyName_t1_314 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AssemblyName::OnDeserialization(System.Object)
-extern "C" void AssemblyName_OnDeserialization_m8316 (AssemblyName_t1340 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyName_OnDeserialization_m1_2727 (AssemblyName_t1_314 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;

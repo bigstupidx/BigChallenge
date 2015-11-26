@@ -10,10 +10,14 @@
 
 #include <stdint.h>
 
+// System.Collections.IEnumerator
+struct IEnumerator_t1_129;
 
-#include "System_System_Security_Cryptography_X509Certificates_X509Cer.h"
+#include "mscorlib_System_Object.h"
 
-// System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct  X509Certificate2Collection_t998  : public X509CertificateCollection_t870
+// System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
+struct  X509Certificate2Enumerator_t2_56  : public Object_t
 {
+	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::enumerator
+	Object_t * ___enumerator_0;
 };

@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // System.ActivationContext
-struct  ActivationContext_t1661  : public Object_t
+struct  ActivationContext_t1_675  : public Object_t
 {
 	// System.Boolean System.ActivationContext::_disposed
 	bool ____disposed_0;

@@ -17,28 +17,28 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 // System.Reflection.Binder
-struct Binder_t636;
+struct Binder_t1_322;
 // System.Globalization.CultureInfo
-struct CultureInfo_t638;
+struct CultureInfo_t1_161;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
 // System.Object System.Activator::CreateInstance(System.Type)
-extern "C" Object_t * Activator_CreateInstance_m10039 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstance_m1_4551 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Activator::CreateInstance(System.Type,System.Object[])
-extern "C" Object_t * Activator_CreateInstance_m10040 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t102* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstance_m1_4552 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t1_156* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Activator::CreateInstance(System.Type,System.Object[],System.Object[])
-extern "C" Object_t * Activator_CreateInstance_m10041 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t102* ___args, ObjectU5BU5D_t102* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstance_m1_4553 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t1_156* ___args, ObjectU5BU5D_t1_156* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Activator::CreateInstance(System.Type,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])
-extern "C" Object_t * Activator_CreateInstance_m10042 (Object_t * __this /* static, unused */, Type_t * ___type, int32_t ___bindingAttr, Binder_t636 * ___binder, ObjectU5BU5D_t102* ___args, CultureInfo_t638 * ___culture, ObjectU5BU5D_t102* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstance_m1_4554 (Object_t * __this /* static, unused */, Type_t * ___type, int32_t ___bindingAttr, Binder_t1_322 * ___binder, ObjectU5BU5D_t1_156* ___args, CultureInfo_t1_161 * ___culture, ObjectU5BU5D_t1_156* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Activator::CreateInstance(System.Type,System.Boolean)
-extern "C" Object_t * Activator_CreateInstance_m5712 (Object_t * __this /* static, unused */, Type_t * ___type, bool ___nonPublic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstance_m1_4555 (Object_t * __this /* static, unused */, Type_t * ___type, bool ___nonPublic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Activator::CheckType(System.Type)
-extern "C" void Activator_CheckType_m10043 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Activator_CheckType_m1_4556 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Activator::CheckAbstractType(System.Type)
-extern "C" void Activator_CheckAbstractType_m10044 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Activator_CheckAbstractType_m1_4557 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Activator::CreateInstanceInternal(System.Type)
-extern "C" Object_t * Activator_CreateInstanceInternal_m10045 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Activator_CreateInstanceInternal_m1_4558 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Security.Cryptography.SHA1
-struct SHA1_t914;
+struct SHA1_t1_589;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.SHA1::.ctor()
-extern "C" void SHA1__ctor_m9484 (SHA1_t914 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1__ctor_m1_3953 (SHA1_t1_589 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA1 System.Security.Cryptography.SHA1::Create()
-extern "C" SHA1_t914 * SHA1_Create_m4709 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA1_t1_589 * SHA1_Create_m1_3954 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.SHA1 System.Security.Cryptography.SHA1::Create(System.String)
-extern "C" SHA1_t914 * SHA1_Create_m9485 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SHA1_t1_589 * SHA1_Create_m1_3955 (Object_t * __this /* static, unused */, String_t* ___hashName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

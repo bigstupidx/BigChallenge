@@ -13,14 +13,14 @@
 // System.String
 struct String_t;
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
-struct VirtualAxis_t6;
+struct VirtualAxis_t8_4;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Joy.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityStandardAssets.CrossPlatformInput.Joystick
-struct  Joystick_t11  : public MonoBehaviour_t2
+struct  Joystick_t8_9  : public MonoBehaviour_t6_88
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.Joystick::MovementRange
 	int32_t ___MovementRange_2;
@@ -31,13 +31,13 @@ struct  Joystick_t11  : public MonoBehaviour_t2
 	// System.String UnityStandardAssets.CrossPlatformInput.Joystick::verticalAxisName
 	String_t* ___verticalAxisName_5;
 	// UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.Joystick::m_StartPos
-	Vector3_t12  ___m_StartPos_6;
+	Vector3_t6_49  ___m_StartPos_6;
 	// System.Boolean UnityStandardAssets.CrossPlatformInput.Joystick::m_UseX
 	bool ___m_UseX_7;
 	// System.Boolean UnityStandardAssets.CrossPlatformInput.Joystick::m_UseY
 	bool ___m_UseY_8;
 	// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.Joystick::m_HorizontalVirtualAxis
-	VirtualAxis_t6 * ___m_HorizontalVirtualAxis_9;
+	VirtualAxis_t8_4 * ___m_HorizontalVirtualAxis_9;
 	// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.Joystick::m_VerticalVirtualAxis
-	VirtualAxis_t6 * ___m_VerticalVirtualAxis_10;
+	VirtualAxis_t8_4 * ___m_VerticalVirtualAxis_10;
 };

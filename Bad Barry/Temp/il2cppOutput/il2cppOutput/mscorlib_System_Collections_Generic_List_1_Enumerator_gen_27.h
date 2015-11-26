@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct List_1_t314;
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct List_1_t1_934;
+// UnityEngine.GameObject
+struct GameObject_t6_94;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_Vector3.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>
-struct  Enumerator_t2141 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
+struct  Enumerator_t1_1444 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::l
-	List_1_t314 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_934 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>::current
-	Vector3_t12  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	GameObject_t6_94 * ___current_3;
 };

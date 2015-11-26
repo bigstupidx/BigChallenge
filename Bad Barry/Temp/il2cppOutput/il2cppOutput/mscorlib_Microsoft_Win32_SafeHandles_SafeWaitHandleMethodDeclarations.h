@@ -13,12 +13,12 @@
 #include <exception>
 
 // Microsoft.Win32.SafeHandles.SafeWaitHandle
-struct SafeWaitHandle_t1145;
+struct SafeWaitHandle_t1_64;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Microsoft.Win32.SafeHandles.SafeWaitHandle::.ctor(System.IntPtr,System.Boolean)
-extern "C" void SafeWaitHandle__ctor_m6632 (SafeWaitHandle_t1145 * __this, IntPtr_t ___existingHandle, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeWaitHandle__ctor_m1_1000 (SafeWaitHandle_t1_64 * __this, IntPtr_t ___existingHandle, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Microsoft.Win32.SafeHandles.SafeWaitHandle::ReleaseHandle()
-extern "C" bool SafeWaitHandle_ReleaseHandle_m6633 (SafeWaitHandle_t1145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SafeWaitHandle_ReleaseHandle_m1_1001 (SafeWaitHandle_t1_64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

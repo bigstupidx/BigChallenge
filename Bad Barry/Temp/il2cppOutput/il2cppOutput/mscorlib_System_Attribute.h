@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Attribute
-struct  Attribute_t476  : public Object_t
+struct  Attribute_t1_2  : public Object_t
 {
 };

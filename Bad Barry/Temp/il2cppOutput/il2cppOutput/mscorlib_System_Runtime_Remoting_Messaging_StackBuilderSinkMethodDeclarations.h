@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.StackBuilderSink
-struct StackBuilderSink_t1480;
+struct StackBuilderSink_t1_460;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t986;
+struct MarshalByRefObject_t1_56;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.StackBuilderSink::.ctor(System.MarshalByRefObject,System.Boolean)
-extern "C" void StackBuilderSink__ctor_m8914 (StackBuilderSink_t1480 * __this, MarshalByRefObject_t986 * ___obj, bool ___forceInternalExecute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackBuilderSink__ctor_m1_3326 (StackBuilderSink_t1_460 * __this, MarshalByRefObject_t1_56 * ___obj, bool ___forceInternalExecute, const MethodInfo* method) IL2CPP_METHOD_ATTR;

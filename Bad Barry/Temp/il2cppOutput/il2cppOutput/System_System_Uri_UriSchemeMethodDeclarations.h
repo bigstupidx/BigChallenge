@@ -19,7 +19,7 @@ struct String_t;
 #include "System_System_Uri_UriScheme.h"
 
 // System.Void System.Uri/UriScheme::.ctor(System.String,System.String,System.Int32)
-extern "C" void UriScheme__ctor_m5606 (UriScheme_t1085 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void UriScheme_t1085_marshal(const UriScheme_t1085& unmarshaled, UriScheme_t1085_marshaled& marshaled);
-extern "C" void UriScheme_t1085_marshal_back(const UriScheme_t1085_marshaled& marshaled, UriScheme_t1085& unmarshaled);
-extern "C" void UriScheme_t1085_marshal_cleanup(UriScheme_t1085_marshaled& marshaled);
+extern "C" void UriScheme__ctor_m2_835 (UriScheme_t2_146 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriScheme_t2_146_marshal(const UriScheme_t2_146& unmarshaled, UriScheme_t2_146_marshaled& marshaled);
+extern "C" void UriScheme_t2_146_marshal_back(const UriScheme_t2_146_marshaled& marshaled, UriScheme_t2_146& unmarshaled);
+extern "C" void UriScheme_t2_146_marshal_cleanup(UriScheme_t2_146_marshaled& marshaled);

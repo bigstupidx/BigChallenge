@@ -19,10 +19,10 @@
 #include "UnityEngine_UnityEngine_Ray.h"
 
 // System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Plane__ctor_m2243 (Plane_t392 * __this, Vector3_t12  ___inNormal, Vector3_t12  ___inPoint, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Plane__ctor_m6_405 (Plane_t6_57 * __this, Vector3_t6_49  ___inNormal, Vector3_t6_49  ___inPoint, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Plane::get_normal()
-extern "C" Vector3_t12  Plane_get_normal_m2744 (Plane_t392 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t6_49  Plane_get_normal_m6_406 (Plane_t6_57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Plane::get_distance()
-extern "C" float Plane_get_distance_m2745 (Plane_t392 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Plane_get_distance_m6_407 (Plane_t6_57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Plane::Raycast(UnityEngine.Ray,System.Single&)
-extern "C" bool Plane_Raycast_m2244 (Plane_t392 * __this, Ray_t365  ___ray, float* ___enter, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Plane_Raycast_m6_408 (Plane_t6_57 * __this, Ray_t6_56  ___ray, float* ___enter, const MethodInfo* method) IL2CPP_METHOD_ATTR;

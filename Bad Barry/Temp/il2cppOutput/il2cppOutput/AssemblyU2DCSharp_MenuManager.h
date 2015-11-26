@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // MenuManager
-struct  MenuManager_t36  : public MonoBehaviour_t2
+struct  MenuManager_t8_25  : public MonoBehaviour_t6_88
 {
 };

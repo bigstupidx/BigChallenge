@@ -10,18 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.Font
-struct Font_t192;
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t377;
+// System.Object
+struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "LitJson_LitJson_PropertyMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  KeyValuePair_2_t2042 
+// System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>
+struct  KeyValuePair_2_t1_1189 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::key
-	Font_t192 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::value
-	List_1_t377 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	PropertyMetadata_t5_5  ___value_1;
 };

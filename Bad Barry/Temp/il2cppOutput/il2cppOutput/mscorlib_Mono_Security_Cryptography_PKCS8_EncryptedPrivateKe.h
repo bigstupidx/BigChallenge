@@ -13,19 +13,19 @@
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo
-struct  EncryptedPrivateKeyInfo_t1184  : public Object_t
+struct  EncryptedPrivateKeyInfo_t1_113  : public Object_t
 {
 	// System.String Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::_algorithm
 	String_t* ____algorithm_0;
 	// System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::_salt
-	ByteU5BU5D_t740* ____salt_1;
+	ByteU5BU5D_t1_70* ____salt_1;
 	// System.Int32 Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::_iterations
 	int32_t ____iterations_2;
 	// System.Byte[] Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::_data
-	ByteU5BU5D_t740* ____data_3;
+	ByteU5BU5D_t1_70* ____data_3;
 };

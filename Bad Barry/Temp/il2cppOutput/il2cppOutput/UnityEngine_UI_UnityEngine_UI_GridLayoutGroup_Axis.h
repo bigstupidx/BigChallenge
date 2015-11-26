@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Axis.h"
 
 // UnityEngine.UI.GridLayoutGroup/Axis
-struct  Axis_t297 
+struct  Axis_t7_143 
 {
 	// System.Int32 UnityEngine.UI.GridLayoutGroup/Axis::value__
 	int32_t ___value___1;

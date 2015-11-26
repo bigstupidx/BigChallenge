@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_FontStyle.h"
 
 // UnityEngine.FontStyle
-struct  FontStyle_t543 
+struct  FontStyle_t6_164 
 {
 	// System.Int32 UnityEngine.FontStyle::value__
 	int32_t ___value___1;

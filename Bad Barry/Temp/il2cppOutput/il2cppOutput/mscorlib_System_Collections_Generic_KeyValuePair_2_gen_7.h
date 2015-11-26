@@ -10,18 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.Canvas
-struct Canvas_t198;
-// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t387;
+// System.Object
+struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "LitJson_LitJson_ArrayMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  KeyValuePair_2_t2066 
+// System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ArrayMetadata>
+struct  KeyValuePair_2_t1_1191 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::key
-	Canvas_t198 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::value
-	IndexedSet_1_t387 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ArrayMetadata_t5_6  ___value_1;
 };

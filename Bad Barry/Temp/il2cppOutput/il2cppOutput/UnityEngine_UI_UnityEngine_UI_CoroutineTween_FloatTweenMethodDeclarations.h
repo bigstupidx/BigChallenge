@@ -13,34 +13,34 @@
 #include <exception>
 
 // UnityEngine.Events.UnityAction`1<System.Single>
-struct UnityAction_1_t346;
+struct UnityAction_1_t6_270;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_FloatTween.h"
 
 // System.Single UnityEngine.UI.CoroutineTween.FloatTween::get_startValue()
-extern "C" float FloatTween_get_startValue_m778 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float FloatTween_get_startValue_m7_295 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::set_startValue(System.Single)
-extern "C" void FloatTween_set_startValue_m779 (FloatTween_t164 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_set_startValue_m7_296 (FloatTween_t7_50 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CoroutineTween.FloatTween::get_targetValue()
-extern "C" float FloatTween_get_targetValue_m780 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float FloatTween_get_targetValue_m7_297 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::set_targetValue(System.Single)
-extern "C" void FloatTween_set_targetValue_m781 (FloatTween_t164 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_set_targetValue_m7_298 (FloatTween_t7_50 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CoroutineTween.FloatTween::get_duration()
-extern "C" float FloatTween_get_duration_m782 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float FloatTween_get_duration_m7_299 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::set_duration(System.Single)
-extern "C" void FloatTween_set_duration_m783 (FloatTween_t164 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_set_duration_m7_300 (FloatTween_t7_50 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.CoroutineTween.FloatTween::get_ignoreTimeScale()
-extern "C" bool FloatTween_get_ignoreTimeScale_m784 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FloatTween_get_ignoreTimeScale_m7_301 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::set_ignoreTimeScale(System.Boolean)
-extern "C" void FloatTween_set_ignoreTimeScale_m785 (FloatTween_t164 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_set_ignoreTimeScale_m7_302 (FloatTween_t7_50 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::TweenValue(System.Single)
-extern "C" void FloatTween_TweenValue_m786 (FloatTween_t164 * __this, float ___floatPercentage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_TweenValue_m7_303 (FloatTween_t7_50 * __this, float ___floatPercentage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single>)
-extern "C" void FloatTween_AddOnChangedCallback_m787 (FloatTween_t164 * __this, UnityAction_1_t346 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_AddOnChangedCallback_m7_304 (FloatTween_t7_50 * __this, UnityAction_1_t6_270 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.CoroutineTween.FloatTween::GetIgnoreTimescale()
-extern "C" bool FloatTween_GetIgnoreTimescale_m788 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FloatTween_GetIgnoreTimescale_m7_305 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CoroutineTween.FloatTween::GetDuration()
-extern "C" float FloatTween_GetDuration_m789 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float FloatTween_GetDuration_m7_306 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.CoroutineTween.FloatTween::ValidTarget()
-extern "C" bool FloatTween_ValidTarget_m790 (FloatTween_t164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FloatTween_ValidTarget_m7_307 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

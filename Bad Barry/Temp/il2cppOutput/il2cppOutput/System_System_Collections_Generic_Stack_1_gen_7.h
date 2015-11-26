@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.UI.LayoutRebuilder[]
-struct LayoutRebuilderU5BU5D_t2139;
+struct LayoutRebuilderU5BU5D_t7_226;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Stack`1<UnityEngine.UI.LayoutRebuilder>
-struct  Stack_1_t2138  : public Object_t
+struct  Stack_1_t2_171  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<UnityEngine.UI.LayoutRebuilder>::_array
-	LayoutRebuilderU5BU5D_t2139* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<UnityEngine.UI.LayoutRebuilder>::_size
+	// T[] System.Collections.Generic.Stack`1::_array
+	LayoutRebuilderU5BU5D_t7_226* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<UnityEngine.UI.LayoutRebuilder>::_version
+	// System.Int32 System.Collections.Generic.Stack`1::_version
 	int32_t ____version_2;
 };

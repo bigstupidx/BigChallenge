@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // GameBehavior
-struct GameBehavior_t42;
+struct GameBehavior_t8_30;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // AtributeScreen
-struct  AtributeScreen_t41  : public MonoBehaviour_t2
+struct  AtributeScreen_t8_29  : public MonoBehaviour_t6_88
 {
 	// GameBehavior AtributeScreen::script
-	GameBehavior_t42 * ___script_2;
+	GameBehavior_t8_30 * ___script_2;
 };

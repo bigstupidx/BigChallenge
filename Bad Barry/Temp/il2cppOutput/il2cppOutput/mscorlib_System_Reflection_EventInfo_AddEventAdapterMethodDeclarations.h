@@ -13,25 +13,25 @@
 #include <exception>
 
 // System.Reflection.EventInfo/AddEventAdapter
-struct AddEventAdapter_t1355;
+struct AddEventAdapter_t1_331;
 // System.Object
 struct Object_t;
 // System.Delegate
-struct Delegate_t383;
+struct Delegate_t1_22;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.EventInfo/AddEventAdapter::.ctor(System.Object,System.IntPtr)
-extern "C" void AddEventAdapter__ctor_m8361 (AddEventAdapter_t1355 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AddEventAdapter__ctor_m1_2773 (AddEventAdapter_t1_331 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.EventInfo/AddEventAdapter::Invoke(System.Object,System.Delegate)
-extern "C" void AddEventAdapter_Invoke_m8362 (AddEventAdapter_t1355 * __this, Object_t * ____this, Delegate_t383 * ___dele, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_AddEventAdapter_t1355(Il2CppObject* delegate, Object_t * ____this, Delegate_t383 * ___dele);
+extern "C" void AddEventAdapter_Invoke_m1_2774 (AddEventAdapter_t1_331 * __this, Object_t * ____this, Delegate_t1_22 * ___dele, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_AddEventAdapter_t1_331(Il2CppObject* delegate, Object_t * ____this, Delegate_t1_22 * ___dele);
 // System.IAsyncResult System.Reflection.EventInfo/AddEventAdapter::BeginInvoke(System.Object,System.Delegate,System.AsyncCallback,System.Object)
-extern "C" Object_t * AddEventAdapter_BeginInvoke_m8363 (AddEventAdapter_t1355 * __this, Object_t * ____this, Delegate_t383 * ___dele, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * AddEventAdapter_BeginInvoke_m1_2775 (AddEventAdapter_t1_331 * __this, Object_t * ____this, Delegate_t1_22 * ___dele, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.EventInfo/AddEventAdapter::EndInvoke(System.IAsyncResult)
-extern "C" void AddEventAdapter_EndInvoke_m8364 (AddEventAdapter_t1355 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AddEventAdapter_EndInvoke_m1_2776 (AddEventAdapter_t1_331 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

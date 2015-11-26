@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_11.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>
-struct  DefaultComparer_t2491  : public Comparer_1_t2490
+// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Color32>
+struct  DefaultComparer_t1_1331  : public Comparer_1_t1_1330
 {
 };

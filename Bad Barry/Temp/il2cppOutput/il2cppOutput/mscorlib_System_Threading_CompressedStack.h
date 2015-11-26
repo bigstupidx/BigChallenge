@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "mscorlib_System_Object.h"
 
 // System.Threading.CompressedStack
-struct  CompressedStack_t1608  : public Object_t
+struct  CompressedStack_t1_620  : public Object_t
 {
 	// System.Collections.ArrayList System.Threading.CompressedStack::_list
-	ArrayList_t771 * ____list_0;
+	ArrayList_t1_112 * ____list_0;
 };

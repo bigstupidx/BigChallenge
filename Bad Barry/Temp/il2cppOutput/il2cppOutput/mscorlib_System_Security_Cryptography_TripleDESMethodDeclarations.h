@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.TripleDES
-struct TripleDES_t925;
+struct TripleDES_t1_569;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.TripleDES::.ctor()
-extern "C" void TripleDES__ctor_m9574 (TripleDES_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES__ctor_m1_4056 (TripleDES_t1_569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.TripleDES::get_Key()
-extern "C" ByteU5BU5D_t740* TripleDES_get_Key_m9575 (TripleDES_t925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* TripleDES_get_Key_m1_4057 (TripleDES_t1_569 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.TripleDES::set_Key(System.Byte[])
-extern "C" void TripleDES_set_Key_m9576 (TripleDES_t925 * __this, ByteU5BU5D_t740* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TripleDES_set_Key_m1_4058 (TripleDES_t1_569 * __this, ByteU5BU5D_t1_70* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.TripleDES::IsWeakKey(System.Byte[])
-extern "C" bool TripleDES_IsWeakKey_m9577 (Object_t * __this /* static, unused */, ByteU5BU5D_t740* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TripleDES_IsWeakKey_m1_4059 (Object_t * __this /* static, unused */, ByteU5BU5D_t1_70* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create()
-extern "C" TripleDES_t925 * TripleDES_Create_m4738 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t1_569 * TripleDES_Create_m1_4060 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.TripleDES System.Security.Cryptography.TripleDES::Create(System.String)
-extern "C" TripleDES_t925 * TripleDES_Create_m9578 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TripleDES_t1_569 * TripleDES_Create_m1_4061 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method) IL2CPP_METHOD_ATTR;

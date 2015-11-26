@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard
-struct GcLeaderboard_t452;
+// UnityEngine.UI.Dropdown/DropdownItem
+struct DropdownItem_t7_62;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Comparison_1_t2226  : public MulticastDelegate_t227
+// System.Comparison`1<UnityEngine.UI.Dropdown/DropdownItem>
+struct  Comparison_1_t1_1465  : public MulticastDelegate_t1_21
 {
 };

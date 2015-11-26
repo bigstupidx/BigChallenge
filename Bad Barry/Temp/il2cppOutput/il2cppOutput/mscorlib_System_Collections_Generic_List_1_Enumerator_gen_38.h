@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct List_1_t712;
+// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct List_1_t1_950;
+// UnityEngine.UI.StencilMaterial/MatEntry
+struct MatEntry_t7_126;
 
 #include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  Enumerator_t2317 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  Enumerator_t1_1523 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::l
-	List_1_t712 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_950 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::current
-	KeyValuePair_2_t704  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	MatEntry_t7_126 * ___current_3;
 };

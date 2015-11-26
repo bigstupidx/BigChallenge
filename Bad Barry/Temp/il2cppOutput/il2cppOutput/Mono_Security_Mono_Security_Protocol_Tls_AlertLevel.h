@@ -15,7 +15,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertLevel.h"
 
 // Mono.Security.Protocol.Tls.AlertLevel
-struct  AlertLevel_t822 
+struct  AlertLevel_t3_55 
 {
 	// System.Byte Mono.Security.Protocol.Tls.AlertLevel::value__
 	uint8_t ___value___1;

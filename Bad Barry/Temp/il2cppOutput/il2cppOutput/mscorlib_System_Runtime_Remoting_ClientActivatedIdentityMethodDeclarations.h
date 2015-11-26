@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.ClientActivatedIdentity
-struct ClientActivatedIdentity_t1511;
+struct ClientActivatedIdentity_t1_491;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t986;
+struct MarshalByRefObject_t1_56;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.MarshalByRefObject System.Runtime.Remoting.ClientActivatedIdentity::GetServerObject()
-extern "C" MarshalByRefObject_t986 * ClientActivatedIdentity_GetServerObject_m9076 (ClientActivatedIdentity_t1511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t1_56 * ClientActivatedIdentity_GetServerObject_m1_3488 (ClientActivatedIdentity_t1_491 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

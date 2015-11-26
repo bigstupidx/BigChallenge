@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct List_1_t149;
+struct List_1_t1_936;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.EventSystems.PointerInputModule/MouseState
-struct  MouseState_t148  : public Object_t
+struct  MouseState_t7_39  : public Object_t
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState> UnityEngine.EventSystems.PointerInputModule/MouseState::m_TrackedButtons
-	List_1_t149 * ___m_TrackedButtons_0;
+	List_1_t1_936 * ___m_TrackedButtons_0;
 };

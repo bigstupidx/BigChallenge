@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.MonoDocumentationNoteAttribute
-struct MonoDocumentationNoteAttribute_t1142;
+struct MonoDocumentationNoteAttribute_t1_61;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MonoDocumentationNoteAttribute::.ctor(System.String)
-extern "C" void MonoDocumentationNoteAttribute__ctor_m6629 (MonoDocumentationNoteAttribute_t1142 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoDocumentationNoteAttribute__ctor_m1_997 (MonoDocumentationNoteAttribute_t1_61 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

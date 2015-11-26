@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Collections_Hashtable.h"
 
 // System.Collections.Hashtable/SyncHashtable
-struct  SyncHashtable_t1227  : public Hashtable_t836
+struct  SyncHashtable_t1_174  : public Hashtable_t1_171
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/SyncHashtable::host
-	Hashtable_t836 * ___host_14;
+	Hashtable_t1_171 * ___host_14;
 };

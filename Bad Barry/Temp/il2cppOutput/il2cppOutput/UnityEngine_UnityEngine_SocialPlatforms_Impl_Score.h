@@ -17,10 +17,10 @@ struct String_t;
 #include "mscorlib_System_DateTime.h"
 
 // UnityEngine.SocialPlatforms.Impl.Score
-struct  Score_t571  : public Object_t
+struct  Score_t6_195  : public Object_t
 {
 	// System.DateTime UnityEngine.SocialPlatforms.Impl.Score::m_Date
-	DateTime_t569  ___m_Date_0;
+	DateTime_t1_126  ___m_Date_0;
 	// System.String UnityEngine.SocialPlatforms.Impl.Score::m_FormattedValue
 	String_t* ___m_FormattedValue_1;
 	// System.String UnityEngine.SocialPlatforms.Impl.Score::m_UserID

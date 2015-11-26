@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.SetPropertyUtility
-struct  SetPropertyUtility_t272  : public Object_t
+struct  SetPropertyUtility_t7_121  : public Object_t
 {
 };

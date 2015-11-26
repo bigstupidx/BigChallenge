@@ -13,26 +13,26 @@
 #include <exception>
 
 // System.Func`2<System.Object,System.Boolean>
-struct Func_2_t428;
+struct Func_2_t4_16;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m14856_gshared (Func_2_t428 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m14856(__this, ___object, ___method, method) (( void (*) (Func_2_t428 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m14856_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m4_52_gshared (Func_2_t4_16 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m4_52(__this, ___object, ___method, method) (( void (*) (Func_2_t4_16 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m4_52_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,System.Boolean>::Invoke(T)
-extern "C" bool Func_2_Invoke_m14858_gshared (Func_2_t428 * __this, Object_t * ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m14858(__this, ___arg1, method) (( bool (*) (Func_2_t428 *, Object_t *, const MethodInfo*))Func_2_Invoke_m14858_gshared)(__this, ___arg1, method)
+extern "C" bool Func_2_Invoke_m4_53_gshared (Func_2_t4_16 * __this, Object_t * ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m4_53(__this, ___arg1, method) (( bool (*) (Func_2_t4_16 *, Object_t *, const MethodInfo*))Func_2_Invoke_m4_53_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Object,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m14860_gshared (Func_2_t428 * __this, Object_t * ___arg1, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m14860(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t428 *, Object_t *, AsyncCallback_t229 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m14860_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m4_54_gshared (Func_2_t4_16 * __this, Object_t * ___arg1, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m4_54(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t4_16 *, Object_t *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m4_54_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Object,System.Boolean>::EndInvoke(System.IAsyncResult)
-extern "C" bool Func_2_EndInvoke_m14862_gshared (Func_2_t428 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m14862(__this, ___result, method) (( bool (*) (Func_2_t428 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m14862_gshared)(__this, ___result, method)
+extern "C" bool Func_2_EndInvoke_m4_55_gshared (Func_2_t4_16 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m4_55(__this, ___result, method) (( bool (*) (Func_2_t4_16 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m4_55_gshared)(__this, ___result, method)

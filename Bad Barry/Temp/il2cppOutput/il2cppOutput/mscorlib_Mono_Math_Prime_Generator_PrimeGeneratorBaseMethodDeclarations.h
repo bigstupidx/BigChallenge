@@ -13,18 +13,18 @@
 #include <exception>
 
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
-struct PrimeGeneratorBase_t1167;
+struct PrimeGeneratorBase_t1_88;
 // Mono.Math.Prime.PrimalityTest
-struct PrimalityTest_t1734;
+struct PrimalityTest_t1_766;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Void Mono.Math.Prime.Generator.PrimeGeneratorBase::.ctor()
-extern "C" void PrimeGeneratorBase__ctor_m6741 (PrimeGeneratorBase_t1167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrimeGeneratorBase__ctor_m1_1109 (PrimeGeneratorBase_t1_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.ConfidenceFactor Mono.Math.Prime.Generator.PrimeGeneratorBase::get_Confidence()
-extern "C" int32_t PrimeGeneratorBase_get_Confidence_m6742 (PrimeGeneratorBase_t1167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_Confidence_m1_1110 (PrimeGeneratorBase_t1_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Math.Prime.PrimalityTest Mono.Math.Prime.Generator.PrimeGeneratorBase::get_PrimalityTest()
-extern "C" PrimalityTest_t1734 * PrimeGeneratorBase_get_PrimalityTest_m6743 (PrimeGeneratorBase_t1167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PrimalityTest_t1_766 * PrimeGeneratorBase_get_PrimalityTest_m1_1111 (PrimeGeneratorBase_t1_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Math.Prime.Generator.PrimeGeneratorBase::get_TrialDivisionBounds()
-extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m6744 (PrimeGeneratorBase_t1167 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimeGeneratorBase_get_TrialDivisionBounds_m1_1112 (PrimeGeneratorBase_t1_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

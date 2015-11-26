@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t1298;
+struct TypeBuilder_t1_272;
 // System.Type
 struct Type_t;
 
 #include "mscorlib_System_Type.h"
 
 // System.Reflection.Emit.EnumBuilder
-struct  EnumBuilder_t1301  : public Type_t
+struct  EnumBuilder_t1_275  : public Type_t
 {
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.EnumBuilder::_tb
-	TypeBuilder_t1298 * ____tb_8;
+	TypeBuilder_t1_272 * ____tb_8;
 	// System.Type System.Reflection.Emit.EnumBuilder::_underlyingType
 	Type_t * ____underlyingType_9;
 };

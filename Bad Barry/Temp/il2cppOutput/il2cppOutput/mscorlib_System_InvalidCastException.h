@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.InvalidCastException
-struct  InvalidCastException_t706  : public SystemException_t1104
+struct  InvalidCastException_t1_724  : public SystemException_t1_147
 {
 };

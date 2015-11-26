@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Reflection.Assembly
-struct Assembly_t1103;
+struct Assembly_t1_266;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.Hash
-struct  Hash_t1602  : public Object_t
+struct  Hash_t1_614  : public Object_t
 {
 	// System.Reflection.Assembly System.Security.Policy.Hash::assembly
-	Assembly_t1103 * ___assembly_0;
+	Assembly_t1_266 * ___assembly_0;
 	// System.Byte[] System.Security.Policy.Hash::data
-	ByteU5BU5D_t740* ___data_1;
+	ByteU5BU5D_t1_70* ___data_1;
 };

@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct ReapplyDrivenProperties_t414;
+struct ReapplyDrivenProperties_t6_64;
 
 #include "UnityEngine_UnityEngine_Transform.h"
 
 // UnityEngine.RectTransform
-struct  RectTransform_t179  : public Transform_t44
+struct  RectTransform_t6_65  : public Transform_t6_66
 {
 };
-struct RectTransform_t179_StaticFields{
+struct RectTransform_t6_65_StaticFields{
 	// UnityEngine.RectTransform/ReapplyDrivenProperties UnityEngine.RectTransform::reapplyDrivenProperties
-	ReapplyDrivenProperties_t414 * ___reapplyDrivenProperties_2;
+	ReapplyDrivenProperties_t6_64 * ___reapplyDrivenProperties_2;
 };

@@ -13,16 +13,16 @@
 // System.String
 struct String_t;
 // UnityEngine.Object
-struct Object_t79;
-struct Object_t79_marshaled;
+struct Object_t6_5;
+struct Object_t6_5_marshaled;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Events.ArgumentCache
-struct  ArgumentCache_t592  : public Object_t
+struct  ArgumentCache_t6_217  : public Object_t
 {
 	// UnityEngine.Object UnityEngine.Events.ArgumentCache::m_ObjectArgument
-	Object_t79 * ___m_ObjectArgument_3;
+	Object_t6_5 * ___m_ObjectArgument_3;
 	// System.String UnityEngine.Events.ArgumentCache::m_ObjectArgumentAssemblyTypeName
 	String_t* ___m_ObjectArgumentAssemblyTypeName_4;
 	// System.Int32 UnityEngine.Events.ArgumentCache::m_IntArgument

@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.StrongNameKeyPair
-struct  StrongNameKeyPair_t1341  : public Object_t
+struct  StrongNameKeyPair_t1_315  : public Object_t
 {
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_publicKey
-	ByteU5BU5D_t740* ____publicKey_0;
+	ByteU5BU5D_t1_70* ____publicKey_0;
 	// System.String System.Reflection.StrongNameKeyPair::_keyPairContainer
 	String_t* ____keyPairContainer_1;
 	// System.Boolean System.Reflection.StrongNameKeyPair::_keyPairExported
 	bool ____keyPairExported_2;
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_keyPairArray
-	ByteU5BU5D_t740* ____keyPairArray_3;
+	ByteU5BU5D_t1_70* ____keyPairArray_3;
 };

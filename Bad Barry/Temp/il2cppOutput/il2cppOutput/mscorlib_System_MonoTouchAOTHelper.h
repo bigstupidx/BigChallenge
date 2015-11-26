@@ -14,10 +14,10 @@
 #include "mscorlib_System_Object.h"
 
 // System.MonoTouchAOTHelper
-struct  MonoTouchAOTHelper_t1710  : public Object_t
+struct  MonoTouchAOTHelper_t1_736  : public Object_t
 {
 };
-struct MonoTouchAOTHelper_t1710_StaticFields{
+struct MonoTouchAOTHelper_t1_736_StaticFields{
 	// System.Boolean System.MonoTouchAOTHelper::FalseFlag
 	bool ___FalseFlag_0;
 };

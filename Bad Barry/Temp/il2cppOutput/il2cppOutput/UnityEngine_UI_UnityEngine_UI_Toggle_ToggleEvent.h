@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_4.h"
 
 // UnityEngine.UI.Toggle/ToggleEvent
-struct  ToggleEvent_t280  : public UnityEvent_1_t244
+struct  ToggleEvent_t7_129  : public UnityEvent_1_t6_265
 {
 };

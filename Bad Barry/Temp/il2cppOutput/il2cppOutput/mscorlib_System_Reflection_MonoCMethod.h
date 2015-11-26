@@ -19,7 +19,7 @@ struct Type_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Reflection.MonoCMethod
-struct  MonoCMethod_t1366  : public ConstructorInfo_t651
+struct  MonoCMethod_t1_342  : public ConstructorInfo_t1_270
 {
 	// System.IntPtr System.Reflection.MonoCMethod::mhandle
 	IntPtr_t ___mhandle_2;

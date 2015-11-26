@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.Transform
-struct Transform_t44;
+struct Transform_t6_66;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Transform/Enumerator
-struct  Enumerator_t494  : public Object_t
+struct  Enumerator_t6_95  : public Object_t
 {
 	// UnityEngine.Transform UnityEngine.Transform/Enumerator::outer
-	Transform_t44 * ___outer_0;
+	Transform_t6_66 * ___outer_0;
 	// System.Int32 UnityEngine.Transform/Enumerator::currentIndex
 	int32_t ___currentIndex_1;
 };

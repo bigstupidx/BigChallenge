@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.ArithmeticException
-struct  ArithmeticException_t903  : public SystemException_t1104
+struct  ArithmeticException_t1_687  : public SystemException_t1_147
 {
 };

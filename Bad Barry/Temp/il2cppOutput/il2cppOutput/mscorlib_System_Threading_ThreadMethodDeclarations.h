@@ -13,87 +13,87 @@
 #include <exception>
 
 // System.Threading.Thread
-struct Thread_t1446;
+struct Thread_t1_424;
 // System.Threading.ThreadStart
-struct ThreadStart_t1738;
+struct ThreadStart_t1_770;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1436;
+struct Context_t1_414;
 // System.MulticastDelegate
-struct MulticastDelegate_t227;
+struct MulticastDelegate_t1_21;
 // System.Globalization.CultureInfo
-struct CultureInfo_t638;
+struct CultureInfo_t1_161;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t1456;
+struct ExecutionContext_t1_435;
 // System.Threading.CompressedStack
-struct CompressedStack_t1608;
+struct CompressedStack_t1_620;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 #include "mscorlib_System_Threading_ThreadState.h"
 
 // System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
-extern "C" void Thread__ctor_m9969 (Thread_t1446 * __this, ThreadStart_t1738 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread__ctor_m1_4481 (Thread_t1_424 * __this, ThreadStart_t1_770 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::.cctor()
-extern "C" void Thread__cctor_m9970 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread__cctor_m1_4482 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Contexts.Context System.Threading.Thread::get_CurrentContext()
-extern "C" Context_t1436 * Thread_get_CurrentContext_m9971 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Context_t1_414 * Thread_get_CurrentContext_m1_4483 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Thread System.Threading.Thread::CurrentThread_internal()
-extern "C" Thread_t1446 * Thread_CurrentThread_internal_m9972 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Thread_t1_424 * Thread_CurrentThread_internal_m1_4484 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Thread System.Threading.Thread::get_CurrentThread()
-extern "C" Thread_t1446 * Thread_get_CurrentThread_m9973 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Thread_t1_424 * Thread_get_CurrentThread_m1_4485 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::FreeLocalSlotValues(System.Int32,System.Boolean)
-extern "C" void Thread_FreeLocalSlotValues_m9974 (Object_t * __this /* static, unused */, int32_t ___slot, bool ___thread_local, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_FreeLocalSlotValues_m1_4486 (Object_t * __this /* static, unused */, int32_t ___slot, bool ___thread_local, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::GetDomainID()
-extern "C" int32_t Thread_GetDomainID_m9975 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Thread_GetDomainID_m1_4487 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Threading.Thread::Thread_internal(System.MulticastDelegate)
-extern "C" IntPtr_t Thread_Thread_internal_m9976 (Thread_t1446 * __this, MulticastDelegate_t227 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t Thread_Thread_internal_m1_4488 (Thread_t1_424 * __this, MulticastDelegate_t1_21 * ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Thread_init()
-extern "C" void Thread_Thread_init_m9977 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_Thread_init_m1_4489 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentCulture()
-extern "C" CultureInfo_t638 * Thread_GetCachedCurrentCulture_m9978 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t1_161 * Thread_GetCachedCurrentCulture_m1_4490 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentCulture()
-extern "C" ByteU5BU5D_t740* Thread_GetSerializedCurrentCulture_m9979 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* Thread_GetSerializedCurrentCulture_m1_4491 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentCulture_m9980 (Thread_t1446 * __this, CultureInfo_t638 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetCachedCurrentCulture_m1_4492 (Thread_t1_424 * __this, CultureInfo_t1_161 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentUICulture()
-extern "C" CultureInfo_t638 * Thread_GetCachedCurrentUICulture_m9981 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t1_161 * Thread_GetCachedCurrentUICulture_m1_4493 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentUICulture()
-extern "C" ByteU5BU5D_t740* Thread_GetSerializedCurrentUICulture_m9982 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* Thread_GetSerializedCurrentUICulture_m1_4494 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentUICulture_m9983 (Thread_t1446 * __this, CultureInfo_t638 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetCachedCurrentUICulture_m1_4495 (Thread_t1_424 * __this, CultureInfo_t1_161 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentCulture()
-extern "C" CultureInfo_t638 * Thread_get_CurrentCulture_m9984 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t1_161 * Thread_get_CurrentCulture_m1_4496 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentUICulture()
-extern "C" CultureInfo_t638 * Thread_get_CurrentUICulture_m9985 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CultureInfo_t1_161 * Thread_get_CurrentUICulture_m1_4497 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::set_IsBackground(System.Boolean)
-extern "C" void Thread_set_IsBackground_m9986 (Thread_t1446 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_set_IsBackground_m1_4498 (Thread_t1_424 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetName_internal(System.String)
-extern "C" void Thread_SetName_internal_m9987 (Thread_t1446 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetName_internal_m1_4499 (Thread_t1_424 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::set_Name(System.String)
-extern "C" void Thread_set_Name_m9988 (Thread_t1446 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_set_Name_m1_4500 (Thread_t1_424 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Start()
-extern "C" void Thread_Start_m9989 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_Start_m1_4501 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Thread_free_internal(System.IntPtr)
-extern "C" void Thread_Thread_free_internal_m9990 (Thread_t1446 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_Thread_free_internal_m1_4502 (Thread_t1_424 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Finalize()
-extern "C" void Thread_Finalize_m9991 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_Finalize_m1_4503 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::SetState(System.Threading.ThreadState)
-extern "C" void Thread_SetState_m9992 (Thread_t1446 * __this, int32_t ___set, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_SetState_m1_4504 (Thread_t1_424 * __this, int32_t ___set, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::ClrState(System.Threading.ThreadState)
-extern "C" void Thread_ClrState_m9993 (Thread_t1446 * __this, int32_t ___clr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Thread_ClrState_m1_4505 (Thread_t1_424 * __this, int32_t ___clr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::GetNewManagedId()
-extern "C" int32_t Thread_GetNewManagedId_m9994 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Thread_GetNewManagedId_m1_4506 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::GetNewManagedId_internal()
-extern "C" int32_t Thread_GetNewManagedId_internal_m9995 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Thread_GetNewManagedId_internal_m1_4507 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.ExecutionContext System.Threading.Thread::get_ExecutionContext()
-extern "C" ExecutionContext_t1456 * Thread_get_ExecutionContext_m9996 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ExecutionContext_t1_435 * Thread_get_ExecutionContext_m1_4508 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::get_ManagedThreadId()
-extern "C" int32_t Thread_get_ManagedThreadId_m9997 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Thread_get_ManagedThreadId_m1_4509 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::GetHashCode()
-extern "C" int32_t Thread_GetHashCode_m9998 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Thread_GetHashCode_m1_4510 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.CompressedStack System.Threading.Thread::GetCompressedStack()
-extern "C" CompressedStack_t1608 * Thread_GetCompressedStack_m9999 (Thread_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CompressedStack_t1_620 * Thread_GetCompressedStack_m1_4511 (Thread_t1_424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

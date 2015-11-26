@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Type[]
-struct TypeU5BU5D_t619;
+// UnityEngine.UI.Selectable[]
+struct SelectableU5BU5D_t7_222;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<System.Type>
-struct  List_1_t635  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
+struct  List_1_t1_949  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Type>::_items
-	TypeU5BU5D_t619* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	SelectableU5BU5D_t7_222* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Type>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t635_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Type>::EmptyArray
-	TypeU5BU5D_t619* ___EmptyArray_4;
+struct List_1_t1_949_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	SelectableU5BU5D_t7_222* ___EmptyArray_4;
 };

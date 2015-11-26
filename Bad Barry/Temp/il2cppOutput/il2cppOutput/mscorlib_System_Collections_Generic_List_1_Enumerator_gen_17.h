@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct List_1_t377;
-// UnityEngine.UI.Text
-struct Text_t32;
+// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
+struct List_1_t1_912;
 
 #include "mscorlib_System_ValueType.h"
+#include "UnityEngine_UnityEngine_UICharInfo.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>
-struct  Enumerator_t2040 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
+struct  Enumerator_t1_1368 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::l
-	List_1_t377 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_912 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::current
-	Text_t32 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	UICharInfo_t6_145  ___current_3;
 };

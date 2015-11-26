@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 // System.Reflection.MethodBase
-struct MethodBase_t643;
+struct MethodBase_t1_194;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct  ArgInfo_t1454  : public Object_t
+struct  ArgInfo_t1_432  : public Object_t
 {
 	// System.Int32[] System.Runtime.Remoting.Messaging.ArgInfo::_paramMap
-	Int32U5BU5D_t425* ____paramMap_0;
+	Int32U5BU5D_t1_159* ____paramMap_0;
 	// System.Int32 System.Runtime.Remoting.Messaging.ArgInfo::_inoutArgCount
 	int32_t ____inoutArgCount_1;
 	// System.Reflection.MethodBase System.Runtime.Remoting.Messaging.ArgInfo::_method
-	MethodBase_t643 * ____method_2;
+	MethodBase_t1_194 * ____method_2;
 };

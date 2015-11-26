@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 
 #include "System_System_Collections_Specialized_NameObjectCollectionBa_2.h"
 
 // System.Collections.Specialized.NameValueCollection
-struct  NameValueCollection_t958  : public NameObjectCollectionBase_t954
+struct  NameValueCollection_t2_11  : public NameObjectCollectionBase_t2_9
 {
 	// System.String[] System.Collections.Specialized.NameValueCollection::cachedAllKeys
-	StringU5BU5D_t573* ___cachedAllKeys_10;
+	StringU5BU5D_t1_198* ___cachedAllKeys_10;
 	// System.String[] System.Collections.Specialized.NameValueCollection::cachedAll
-	StringU5BU5D_t573* ___cachedAll_11;
+	StringU5BU5D_t1_198* ___cachedAll_11;
 };

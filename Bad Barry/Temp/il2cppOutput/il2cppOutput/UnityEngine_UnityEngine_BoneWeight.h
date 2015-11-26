@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.BoneWeight
-struct  BoneWeight_t454 
+struct  BoneWeight_t6_26 
 {
 	// System.Single UnityEngine.BoneWeight::m_Weight0
 	float ___m_Weight0_0;

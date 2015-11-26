@@ -16,7 +16,7 @@ struct Object_t;
 #include "mscorlib_System_EventArgs.h"
 
 // System.UnhandledExceptionEventArgs
-struct  UnhandledExceptionEventArgs_t608  : public EventArgs_t789
+struct  UnhandledExceptionEventArgs_t1_763  : public EventArgs_t1_103
 {
 	// System.Object System.UnhandledExceptionEventArgs::exception
 	Object_t * ___exception_1;

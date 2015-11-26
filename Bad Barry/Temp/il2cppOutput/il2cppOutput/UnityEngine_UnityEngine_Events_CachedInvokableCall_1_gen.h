@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 
-#include "UnityEngine_UnityEngine_Events_InvokableCall_1_gen_1.h"
+#include "UnityEngine_UnityEngine_Events_InvokableCall_1_gen_0.h"
 
 // UnityEngine.Events.CachedInvokableCall`1<System.Single>
-struct  CachedInvokableCall_1_t647  : public InvokableCall_1_t1989
+struct  CachedInvokableCall_1_t6_254  : public InvokableCall_1_t6_288
 {
-	// System.Object[] UnityEngine.Events.CachedInvokableCall`1<System.Single>::m_Arg1
-	ObjectU5BU5D_t102* ___m_Arg1_1;
+	// System.Object[] UnityEngine.Events.CachedInvokableCall`1::m_Arg1
+	ObjectU5BU5D_t1_156* ___m_Arg1_1;
 };

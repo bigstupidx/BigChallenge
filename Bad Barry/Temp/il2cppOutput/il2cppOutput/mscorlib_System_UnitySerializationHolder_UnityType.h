@@ -15,7 +15,7 @@
 #include "mscorlib_System_UnitySerializationHolder_UnityType.h"
 
 // System.UnitySerializationHolder/UnityType
-struct  UnityType_t1732 
+struct  UnityType_t1_764 
 {
 	// System.Byte System.UnitySerializationHolder/UnityType::value__
 	uint8_t ___value___1;

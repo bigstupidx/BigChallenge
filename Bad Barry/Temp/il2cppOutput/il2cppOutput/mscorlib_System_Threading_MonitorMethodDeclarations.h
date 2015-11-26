@@ -18,16 +18,16 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Threading.Monitor::Enter(System.Object)
-extern "C" void Monitor_Enter_m4746 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Enter_m1_4463 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Monitor::Exit(System.Object)
-extern "C" void Monitor_Exit_m4748 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Exit_m1_4464 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Monitor::Monitor_pulse(System.Object)
-extern "C" void Monitor_Monitor_pulse_m9953 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Monitor_pulse_m1_4465 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Monitor::Monitor_test_synchronised(System.Object)
-extern "C" bool Monitor_Monitor_test_synchronised_m9954 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Monitor_Monitor_test_synchronised_m1_4466 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Monitor::Pulse(System.Object)
-extern "C" void Monitor_Pulse_m9955 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Monitor_Pulse_m1_4467 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Monitor::Monitor_wait(System.Object,System.Int32)
-extern "C" bool Monitor_Monitor_wait_m9956 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___ms, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Monitor_Monitor_wait_m1_4468 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___ms, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Monitor::Wait(System.Object,System.Int32)
-extern "C" bool Monitor_Wait_m9957 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Monitor_Wait_m1_4469 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___millisecondsTimeout, const MethodInfo* method) IL2CPP_METHOD_ATTR;

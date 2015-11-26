@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Runtime.Remoting.ChannelData
-struct ChannelData_t1505;
+struct ChannelData_t1_485;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.ChannelData::.ctor()
-extern "C" void ChannelData__ctor_m9037 (ChannelData_t1505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChannelData__ctor_m1_3449 (ChannelData_t1_485 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Runtime.Remoting.ChannelData::get_ServerProviders()
-extern "C" ArrayList_t771 * ChannelData_get_ServerProviders_m9038 (ChannelData_t1505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t1_112 * ChannelData_get_ServerProviders_m1_3450 (ChannelData_t1_485 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Runtime.Remoting.ChannelData::get_ClientProviders()
-extern "C" ArrayList_t771 * ChannelData_get_ClientProviders_m9039 (ChannelData_t1505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t1_112 * ChannelData_get_ClientProviders_m1_3451 (ChannelData_t1_485 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Hashtable System.Runtime.Remoting.ChannelData::get_CustomProperties()
-extern "C" Hashtable_t836 * ChannelData_get_CustomProperties_m9040 (ChannelData_t1505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Hashtable_t1_171 * ChannelData_get_CustomProperties_m1_3452 (ChannelData_t1_485 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ChannelData::CopyFrom(System.Runtime.Remoting.ChannelData)
-extern "C" void ChannelData_CopyFrom_m9041 (ChannelData_t1505 * __this, ChannelData_t1505 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChannelData_CopyFrom_m1_3453 (ChannelData_t1_485 * __this, ChannelData_t1_485 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;

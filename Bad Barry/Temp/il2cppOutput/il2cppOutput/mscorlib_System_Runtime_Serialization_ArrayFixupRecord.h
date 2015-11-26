@@ -14,7 +14,7 @@
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 
 // System.Runtime.Serialization.ArrayFixupRecord
-struct  ArrayFixupRecord_t1539  : public BaseFixupRecord_t1538
+struct  ArrayFixupRecord_t1_520  : public BaseFixupRecord_t1_519
 {
 	// System.Int32 System.Runtime.Serialization.ArrayFixupRecord::_index
 	int32_t ____index_4;

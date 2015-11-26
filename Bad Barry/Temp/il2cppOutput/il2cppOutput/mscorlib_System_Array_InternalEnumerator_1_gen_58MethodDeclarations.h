@@ -12,19 +12,30 @@
 #include <assert.h>
 #include <exception>
 
+// System.Array
+struct Array_t;
+// System.Object
+struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_58.h"
+#include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
 
-// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::.ctor(System.Array)
-#define InternalEnumerator_1__ctor_m18441(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2408 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m10913_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m18442(__this, method) (( void (*) (InternalEnumerator_1_t2408 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m10915_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18443(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2408 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m10917_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::Dispose()
-#define InternalEnumerator_1_Dispose_m18444(__this, method) (( void (*) (InternalEnumerator_1_t2408 *, const MethodInfo*))InternalEnumerator_1_Dispose_m10919_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m18445(__this, method) (( bool (*) (InternalEnumerator_1_t2408 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m10921_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::get_Current()
-#define InternalEnumerator_1_get_Current_m18446(__this, method) (( BigInteger_t764 * (*) (InternalEnumerator_1_t2408 *, const MethodInfo*))InternalEnumerator_1_get_Current_m10923_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m1_6866_gshared (InternalEnumerator_1_t1_1111 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_6866(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1111 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_6866_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6867_gshared (InternalEnumerator_1_t1_1111 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6867(__this, method) (( void (*) (InternalEnumerator_1_t1_1111 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6867_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6868_gshared (InternalEnumerator_1_t1_1111 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6868(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1111 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6868_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m1_6869_gshared (InternalEnumerator_1_t1_1111 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_6869(__this, method) (( void (*) (InternalEnumerator_1_t1_1111 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_6869_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m1_6870_gshared (InternalEnumerator_1_t1_1111 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_6870(__this, method) (( bool (*) (InternalEnumerator_1_t1_1111 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_6870_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::get_Current()
+extern "C" uint8_t InternalEnumerator_1_get_Current_m1_6871_gshared (InternalEnumerator_1_t1_1111 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_6871(__this, method) (( uint8_t (*) (InternalEnumerator_1_t1_1111 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_6871_gshared)(__this, method)

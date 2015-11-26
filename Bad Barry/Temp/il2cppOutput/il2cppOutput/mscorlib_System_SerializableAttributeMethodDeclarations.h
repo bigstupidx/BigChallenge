@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.SerializableAttribute
-struct SerializableAttribute_t1108;
+struct SerializableAttribute_t1_4;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.SerializableAttribute::.ctor()
-extern "C" void SerializableAttribute__ctor_m5814 (SerializableAttribute_t1108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializableAttribute__ctor_m1_68 (SerializableAttribute_t1_4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

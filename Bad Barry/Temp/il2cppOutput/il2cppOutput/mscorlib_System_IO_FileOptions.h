@@ -15,7 +15,7 @@
 #include "mscorlib_System_IO_FileOptions.h"
 
 // System.IO.FileOptions
-struct  FileOptions_t1268 
+struct  FileOptions_t1_231 
 {
 	// System.Int32 System.IO.FileOptions::value__
 	int32_t ___value___1;

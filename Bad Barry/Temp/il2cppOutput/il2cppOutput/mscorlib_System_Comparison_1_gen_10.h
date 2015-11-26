@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.Component
-struct Component_t103;
+// LitJson.JsonData
+struct JsonData_t5_2;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<UnityEngine.Component>
-struct  Comparison_1_t1923  : public MulticastDelegate_t227
+// System.Comparison`1<LitJson.JsonData>
+struct  Comparison_1_t1_1188  : public MulticastDelegate_t1_21
 {
 };

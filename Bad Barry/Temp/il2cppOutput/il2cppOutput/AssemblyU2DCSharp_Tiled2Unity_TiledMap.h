@@ -14,7 +14,7 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Tiled2Unity.TiledMap
-struct  TiledMap_t70  : public MonoBehaviour_t2
+struct  TiledMap_t8_51  : public MonoBehaviour_t6_88
 {
 	// System.Int32 Tiled2Unity.TiledMap::NumTilesWide
 	int32_t ___NumTilesWide_2;

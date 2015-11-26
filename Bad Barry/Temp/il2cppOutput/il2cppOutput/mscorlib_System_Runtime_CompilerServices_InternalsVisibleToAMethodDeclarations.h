@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.InternalsVisibleToAttribute
-struct InternalsVisibleToAttribute_t1129;
+struct InternalsVisibleToAttribute_t1_47;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.InternalsVisibleToAttribute::.ctor(System.String)
-extern "C" void InternalsVisibleToAttribute__ctor_m6608 (InternalsVisibleToAttribute_t1129 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InternalsVisibleToAttribute__ctor_m1_972 (InternalsVisibleToAttribute_t1_47 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // BulletScript
-struct  BulletScript_t63  : public MonoBehaviour_t2
+struct  BulletScript_t8_44  : public MonoBehaviour_t6_88
 {
 	// System.Single BulletScript::speed
 	float ___speed_2;
@@ -29,5 +29,5 @@ struct  BulletScript_t63  : public MonoBehaviour_t2
 	// System.Int32 BulletScript::direction
 	int32_t ___direction_6;
 	// UnityEngine.GameObject BulletScript::origin
-	GameObject_t3 * ___origin_7;
+	GameObject_t6_94 * ___origin_7;
 };

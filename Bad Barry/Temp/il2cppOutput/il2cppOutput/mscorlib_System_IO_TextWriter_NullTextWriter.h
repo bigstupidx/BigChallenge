@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_TextWriter.h"
 
 // System.IO.TextWriter/NullTextWriter
-struct  NullTextWriter_t1287  : public TextWriter_t689
+struct  NullTextWriter_t1_257  : public TextWriter_t1_252
 {
 };

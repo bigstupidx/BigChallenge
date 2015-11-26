@@ -13,18 +13,18 @@
 #include <exception>
 
 // System.NullReferenceException
-struct NullReferenceException_t623;
+struct NullReferenceException_t1_742;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.NullReferenceException::.ctor()
-extern "C" void NullReferenceException__ctor_m10593 (NullReferenceException_t623 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullReferenceException__ctor_m1_5180 (NullReferenceException_t1_742 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NullReferenceException::.ctor(System.String)
-extern "C" void NullReferenceException__ctor_m3394 (NullReferenceException_t623 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullReferenceException__ctor_m1_5181 (NullReferenceException_t1_742 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NullReferenceException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void NullReferenceException__ctor_m10594 (NullReferenceException_t623 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NullReferenceException__ctor_m1_5182 (NullReferenceException_t1_742 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

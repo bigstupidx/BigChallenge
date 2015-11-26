@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 
-#include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_12.h"
+#include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen.h"
 
-// System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>
-struct  GenericEqualityComparer_1_t2426  : public EqualityComparer_1_t2425
+// System.Collections.Generic.GenericEqualityComparer`1<System.Object>
+struct  GenericEqualityComparer_1_t1_1058  : public EqualityComparer_1_t1_984
 {
 };

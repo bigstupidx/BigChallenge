@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.MonoTODOAttribute
-struct MonoTODOAttribute_t1141;
+struct MonoTODOAttribute_t1_60;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m6627 (MonoTODOAttribute_t1141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m1_995 (MonoTODOAttribute_t1_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoTODOAttribute::.ctor(System.String)
-extern "C" void MonoTODOAttribute__ctor_m6628 (MonoTODOAttribute_t1141 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m1_996 (MonoTODOAttribute_t1_60 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

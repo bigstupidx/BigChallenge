@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.EventArgs
-struct EventArgs_t789;
+struct EventArgs_t1_103;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.EventArgs::.ctor()
-extern "C" void EventArgs__ctor_m10444 (EventArgs_t789 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__ctor_m1_5018 (EventArgs_t1_103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.EventArgs::.cctor()
-extern "C" void EventArgs__cctor_m10445 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventArgs__cctor_m1_5019 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

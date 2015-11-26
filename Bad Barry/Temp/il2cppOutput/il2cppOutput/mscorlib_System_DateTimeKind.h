@@ -15,7 +15,7 @@
 #include "mscorlib_System_DateTimeKind.h"
 
 // System.DateTimeKind
-struct  DateTimeKind_t1676 
+struct  DateTimeKind_t1_698 
 {
 	// System.Int32 System.DateTimeKind::value__
 	int32_t ___value___1;

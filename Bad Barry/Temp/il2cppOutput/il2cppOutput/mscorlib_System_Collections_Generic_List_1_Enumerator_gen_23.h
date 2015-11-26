@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t270;
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t35;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct List_1_t1_935;
 
 #include "mscorlib_System_ValueType.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
-struct  Enumerator_t2108 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
+struct  Enumerator_t1_1418 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::l
-	List_1_t270 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_935 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>::current
-	CanvasGroup_t35 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	RaycastResult_t7_31  ___current_3;
 };

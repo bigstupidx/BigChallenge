@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.Activation.ContextLevelActivator
-struct ContextLevelActivator_t1425;
+struct ContextLevelActivator_t1_402;
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1422;
+struct IActivator_t1_399;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Activation.ContextLevelActivator::.ctor(System.Runtime.Remoting.Activation.IActivator)
-extern "C" void ContextLevelActivator__ctor_m8672 (ContextLevelActivator_t1425 * __this, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextLevelActivator__ctor_m1_3084 (ContextLevelActivator_t1_402 * __this, Object_t * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

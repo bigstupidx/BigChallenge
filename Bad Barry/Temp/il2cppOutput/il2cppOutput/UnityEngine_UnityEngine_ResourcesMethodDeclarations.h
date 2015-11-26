@@ -13,8 +13,8 @@
 #include <exception>
 
 // UnityEngine.Object
-struct Object_t79;
-struct Object_t79_marshaled;
+struct Object_t6_5;
+struct Object_t6_5_marshaled;
 // System.String
 struct String_t;
 // System.Type
@@ -23,4 +23,4 @@ struct Type_t;
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
-extern "C" Object_t79 * Resources_Load_m2776 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Resources_Load_m6_477 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;

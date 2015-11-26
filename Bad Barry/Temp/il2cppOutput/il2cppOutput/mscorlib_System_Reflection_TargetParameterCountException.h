@@ -14,6 +14,6 @@
 #include "mscorlib_System_Exception.h"
 
 // System.Reflection.TargetParameterCountException
-struct  TargetParameterCountException_t1378  : public Exception_t82
+struct  TargetParameterCountException_t1_355  : public Exception_t1_33
 {
 };

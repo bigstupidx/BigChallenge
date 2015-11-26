@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Comparer
-struct Comparer_t1220;
+struct Comparer_t1_164;
 // System.Globalization.CompareInfo
-struct CompareInfo_t927;
+struct CompareInfo_t1_165;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Comparer
-struct  Comparer_t1220  : public Object_t
+struct  Comparer_t1_164  : public Object_t
 {
 	// System.Globalization.CompareInfo System.Collections.Comparer::m_compareInfo
-	CompareInfo_t927 * ___m_compareInfo_2;
+	CompareInfo_t1_165 * ___m_compareInfo_2;
 };
-struct Comparer_t1220_StaticFields{
+struct Comparer_t1_164_StaticFields{
 	// System.Collections.Comparer System.Collections.Comparer::Default
-	Comparer_t1220 * ___Default_0;
+	Comparer_t1_164 * ___Default_0;
 	// System.Collections.Comparer System.Collections.Comparer::DefaultInvariant
-	Comparer_t1220 * ___DefaultInvariant_1;
+	Comparer_t1_164 * ___DefaultInvariant_1;
 };

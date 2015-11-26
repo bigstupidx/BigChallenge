@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Math.Prime.Generator.PrimeGeneratorBase
-struct  PrimeGeneratorBase_t768  : public Object_t
+struct  PrimeGeneratorBase_t3_22  : public Object_t
 {
 };

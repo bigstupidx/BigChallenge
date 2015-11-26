@@ -13,13 +13,13 @@
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t737;
+struct RandomNumberGenerator_t1_97;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Guid.h"
 
 // System.Guid
-struct  Guid_t1699 
+struct  Guid_t1_722 
 {
 	// System.Int32 System.Guid::_a
 	int32_t ____a_0;
@@ -44,11 +44,11 @@ struct  Guid_t1699
 	// System.Byte System.Guid::_k
 	uint8_t ____k_10;
 };
-struct Guid_t1699_StaticFields{
+struct Guid_t1_722_StaticFields{
 	// System.Guid System.Guid::Empty
-	Guid_t1699  ___Empty_11;
+	Guid_t1_722  ___Empty_11;
 	// System.Object System.Guid::_rngAccess
 	Object_t * ____rngAccess_12;
 	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng
-	RandomNumberGenerator_t737 * ____rng_13;
+	RandomNumberGenerator_t1_97 * ____rng_13;
 };

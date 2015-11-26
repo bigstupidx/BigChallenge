@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.FontData
-struct FontData_t191;
+struct FontData_t7_73;
 // UnityEngine.Font
-struct Font_t192;
+struct Font_t6_144;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_FontStyle.h"
@@ -24,54 +24,54 @@ struct Font_t192;
 #include "UnityEngine_UnityEngine_VerticalWrapMode.h"
 
 // System.Void UnityEngine.UI.FontData::.ctor()
-extern "C" void FontData__ctor_m932 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData__ctor_m7_449 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-extern "C" void FontData_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m933 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m7_450 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-extern "C" void FontData_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m934 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m7_451 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.FontData UnityEngine.UI.FontData::get_defaultFontData()
-extern "C" FontData_t191 * FontData_get_defaultFontData_m935 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FontData_t7_73 * FontData_get_defaultFontData_m7_452 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Font UnityEngine.UI.FontData::get_font()
-extern "C" Font_t192 * FontData_get_font_m936 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Font_t6_144 * FontData_get_font_m7_453 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_font(UnityEngine.Font)
-extern "C" void FontData_set_font_m937 (FontData_t191 * __this, Font_t192 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_font_m7_454 (FontData_t7_73 * __this, Font_t6_144 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.FontData::get_fontSize()
-extern "C" int32_t FontData_get_fontSize_m938 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_fontSize_m7_455 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_fontSize(System.Int32)
-extern "C" void FontData_set_fontSize_m939 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_fontSize_m7_456 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.FontStyle UnityEngine.UI.FontData::get_fontStyle()
-extern "C" int32_t FontData_get_fontStyle_m940 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_fontStyle_m7_457 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_fontStyle(UnityEngine.FontStyle)
-extern "C" void FontData_set_fontStyle_m941 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_fontStyle_m7_458 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.FontData::get_bestFit()
-extern "C" bool FontData_get_bestFit_m942 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FontData_get_bestFit_m7_459 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_bestFit(System.Boolean)
-extern "C" void FontData_set_bestFit_m943 (FontData_t191 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_bestFit_m7_460 (FontData_t7_73 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.FontData::get_minSize()
-extern "C" int32_t FontData_get_minSize_m944 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_minSize_m7_461 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_minSize(System.Int32)
-extern "C" void FontData_set_minSize_m945 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_minSize_m7_462 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.FontData::get_maxSize()
-extern "C" int32_t FontData_get_maxSize_m946 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_maxSize_m7_463 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_maxSize(System.Int32)
-extern "C" void FontData_set_maxSize_m947 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_maxSize_m7_464 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextAnchor UnityEngine.UI.FontData::get_alignment()
-extern "C" int32_t FontData_get_alignment_m948 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_alignment_m7_465 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_alignment(UnityEngine.TextAnchor)
-extern "C" void FontData_set_alignment_m949 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_alignment_m7_466 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.FontData::get_richText()
-extern "C" bool FontData_get_richText_m950 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FontData_get_richText_m7_467 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_richText(System.Boolean)
-extern "C" void FontData_set_richText_m951 (FontData_t191 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_richText_m7_468 (FontData_t7_73 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.HorizontalWrapMode UnityEngine.UI.FontData::get_horizontalOverflow()
-extern "C" int32_t FontData_get_horizontalOverflow_m952 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_horizontalOverflow_m7_469 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_horizontalOverflow(UnityEngine.HorizontalWrapMode)
-extern "C" void FontData_set_horizontalOverflow_m953 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_horizontalOverflow_m7_470 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.VerticalWrapMode UnityEngine.UI.FontData::get_verticalOverflow()
-extern "C" int32_t FontData_get_verticalOverflow_m954 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FontData_get_verticalOverflow_m7_471 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_verticalOverflow(UnityEngine.VerticalWrapMode)
-extern "C" void FontData_set_verticalOverflow_m955 (FontData_t191 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_verticalOverflow_m7_472 (FontData_t7_73 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.FontData::get_lineSpacing()
-extern "C" float FontData_get_lineSpacing_m956 (FontData_t191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float FontData_get_lineSpacing_m7_473 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_lineSpacing(System.Single)
-extern "C" void FontData_set_lineSpacing_m957 (FontData_t191 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_lineSpacing_m7_474 (FontData_t7_73 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

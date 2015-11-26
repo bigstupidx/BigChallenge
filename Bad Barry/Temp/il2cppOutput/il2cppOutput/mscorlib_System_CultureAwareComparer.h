@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Globalization.CompareInfo
-struct CompareInfo_t927;
+struct CompareInfo_t1_165;
 
 #include "mscorlib_System_StringComparer.h"
 
 // System.CultureAwareComparer
-struct  CultureAwareComparer_t1722  : public StringComparer_t1102
+struct  CultureAwareComparer_t1_753  : public StringComparer_t1_752
 {
 	// System.Boolean System.CultureAwareComparer::_ignoreCase
 	bool ____ignoreCase_4;
 	// System.Globalization.CompareInfo System.CultureAwareComparer::_compareInfo
-	CompareInfo_t927 * ____compareInfo_5;
+	CompareInfo_t1_165 * ____compareInfo_5;
 };

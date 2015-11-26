@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.Capture
-struct  Capture_t1025  : public Object_t
+struct  Capture_t2_84  : public Object_t
 {
 	// System.Int32 System.Text.RegularExpressions.Capture::index
 	int32_t ___index_0;

@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_SystemException.h"
 
 // System.TypeInitializationException
-struct  TypeInitializationException_t1730  : public SystemException_t1104
+struct  TypeInitializationException_t1_761  : public SystemException_t1_147
 {
 	// System.String System.TypeInitializationException::type_name
 	String_t* ___type_name_11;

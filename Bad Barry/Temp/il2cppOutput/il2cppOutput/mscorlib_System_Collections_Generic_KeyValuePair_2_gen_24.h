@@ -10,16 +10,18 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// System.String
+struct String_t;
+// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
+struct VirtualAxis_t8_4;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>
-struct  KeyValuePair_2_t2416 
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
+struct  KeyValuePair_2_t1_1550 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>::value
-	bool ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	VirtualAxis_t8_4 * ___value_1;
 };

@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Security.Policy.StrongName
-struct StrongName_t1603;
+// Tiled2Unity.TileAnimator/Frame
+struct Frame_t8_48;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<System.Security.Policy.StrongName>
-struct  Comparison_1_t2512  : public MulticastDelegate_t227
+// System.Comparison`1<Tiled2Unity.TileAnimator/Frame>
+struct  Comparison_1_t1_1566  : public MulticastDelegate_t1_21
 {
 };

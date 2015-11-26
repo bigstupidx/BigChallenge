@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.InteropServices.ComVisibleAttribute
-struct  ComVisibleAttribute_t1110  : public Attribute_t476
+struct  ComVisibleAttribute_t1_6  : public Attribute_t1_2
 {
 	// System.Boolean System.Runtime.InteropServices.ComVisibleAttribute::Visible
 	bool ___Visible_0;

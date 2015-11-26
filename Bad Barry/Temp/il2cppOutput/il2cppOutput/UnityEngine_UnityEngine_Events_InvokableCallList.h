@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct List_1_t600;
+struct List_1_t1_915;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Events.InvokableCallList
-struct  InvokableCallList_t599  : public Object_t
+struct  InvokableCallList_t6_224  : public Object_t
 {
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_PersistentCalls
-	List_1_t600 * ___m_PersistentCalls_0;
+	List_1_t1_915 * ___m_PersistentCalls_0;
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_RuntimeCalls
-	List_1_t600 * ___m_RuntimeCalls_1;
+	List_1_t1_915 * ___m_RuntimeCalls_1;
 	// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> UnityEngine.Events.InvokableCallList::m_ExecutingCalls
-	List_1_t600 * ___m_ExecutingCalls_2;
+	List_1_t1_915 * ___m_ExecutingCalls_2;
 	// System.Boolean UnityEngine.Events.InvokableCallList::m_NeedsUpdate
 	bool ___m_NeedsUpdate_3;
 };

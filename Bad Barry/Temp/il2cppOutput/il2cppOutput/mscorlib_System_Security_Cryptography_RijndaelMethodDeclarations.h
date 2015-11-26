@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Security.Cryptography.Rijndael
-struct Rijndael_t926;
+struct Rijndael_t1_585;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.Rijndael::.ctor()
-extern "C" void Rijndael__ctor_m9461 (Rijndael_t926 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rijndael__ctor_m1_3929 (Rijndael_t1_585 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Rijndael System.Security.Cryptography.Rijndael::Create()
-extern "C" Rijndael_t926 * Rijndael_Create_m4739 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rijndael_t1_585 * Rijndael_Create_m1_3930 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Rijndael System.Security.Cryptography.Rijndael::Create(System.String)
-extern "C" Rijndael_t926 * Rijndael_Create_m9462 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rijndael_t1_585 * Rijndael_Create_m1_3931 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

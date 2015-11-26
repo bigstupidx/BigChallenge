@@ -14,6 +14,6 @@
 #include "mscorlib_System_MonoTODOAttribute.h"
 
 // System.MonoDocumentationNoteAttribute
-struct  MonoDocumentationNoteAttribute_t1142  : public MonoTODOAttribute_t1141
+struct  MonoDocumentationNoteAttribute_t1_61  : public MonoTODOAttribute_t1_60
 {
 };

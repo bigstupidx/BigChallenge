@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect_ScrollbarVisibility.h"
 
 // UnityEngine.UI.ScrollRect/ScrollbarVisibility
-struct  ScrollbarVisibility_t262 
+struct  ScrollbarVisibility_t7_115 
 {
 	// System.Int32 UnityEngine.UI.ScrollRect/ScrollbarVisibility::value__
 	int32_t ___value___1;

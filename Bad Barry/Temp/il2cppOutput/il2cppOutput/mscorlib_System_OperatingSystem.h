@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 // System.String
 struct String_t;
 
@@ -19,12 +19,12 @@ struct String_t;
 #include "mscorlib_System_PlatformID.h"
 
 // System.OperatingSystem
-struct  OperatingSystem_t1693  : public Object_t
+struct  OperatingSystem_t1_715  : public Object_t
 {
 	// System.PlatformID System.OperatingSystem::_platform
 	int32_t ____platform_0;
 	// System.Version System.OperatingSystem::_version
-	Version_t976 * ____version_1;
+	Version_t1_316 * ____version_1;
 	// System.String System.OperatingSystem::_servicePack
 	String_t* ____servicePack_2;
 };

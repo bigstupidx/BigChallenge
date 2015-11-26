@@ -11,30 +11,30 @@
 #include <stdint.h>
 
 // UnityEngine.Event
-struct Event_t238;
-struct Event_t238_marshaled;
+struct Event_t6_157;
+struct Event_t6_157_marshaled;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t240;
+struct Dictionary_2_t1_76;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.Event
-struct  Event_t238  : public Object_t
+struct  Event_t6_157  : public Object_t
 {
 	// System.IntPtr UnityEngine.Event::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 };
-struct Event_t238_StaticFields{
+struct Event_t6_157_StaticFields{
 	// UnityEngine.Event UnityEngine.Event::s_Current
-	Event_t238 * ___s_Current_1;
+	Event_t6_157 * ___s_Current_1;
 	// UnityEngine.Event UnityEngine.Event::s_MasterEvent
-	Event_t238 * ___s_MasterEvent_2;
+	Event_t6_157 * ___s_MasterEvent_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> UnityEngine.Event::<>f__switch$map0
-	Dictionary_2_t240 * ___U3CU3Ef__switchU24map0_3;
+	Dictionary_2_t1_76 * ___U3CU3Ef__switchU24map0_3;
 };
 // Native definition for marshalling of: UnityEngine.Event
-struct Event_t238_marshaled
+struct Event_t6_157_marshaled
 {
 	intptr_t ___m_Ptr_0;
 };

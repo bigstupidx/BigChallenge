@@ -10,17 +10,18 @@
 
 #include <stdint.h>
 
+// UnityEngine.UI.Toggle
+struct Toggle_t7_65;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
-// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  Comparison_1_t2318  : public MulticastDelegate_t227
+// System.Comparison`1<UnityEngine.UI.Toggle>
+struct  Comparison_1_t1_1528  : public MulticastDelegate_t1_21
 {
 };

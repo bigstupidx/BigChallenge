@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.AddComponentMenu
-struct  AddComponentMenu_t552  : public Attribute_t476
+struct  AddComponentMenu_t6_174  : public Attribute_t1_2
 {
 	// System.String UnityEngine.AddComponentMenu::m_AddComponentMenu
 	String_t* ___m_AddComponentMenu_0;

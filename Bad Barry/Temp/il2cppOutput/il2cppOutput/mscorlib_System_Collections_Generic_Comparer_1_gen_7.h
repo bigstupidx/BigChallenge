@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Comparer`1<UnityEngine.UICharInfo>
-struct Comparer_1_t2252;
+// System.Collections.Generic.Comparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct Comparer_1_t1_1178;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Comparer`1<UnityEngine.UICharInfo>
-struct  Comparer_1_t2252  : public Object_t
+// System.Collections.Generic.Comparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct  Comparer_1_t1_1178  : public Object_t
 {
 };
-struct Comparer_1_t2252_StaticFields{
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.UICharInfo>::_default
-	Comparer_1_t2252 * ____default_0;
+struct Comparer_1_t1_1178_StaticFields{
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t1_1178 * ____default_0;
 };

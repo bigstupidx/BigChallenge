@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
-struct RuntimeCompatibilityAttribute_t1130;
+struct RuntimeCompatibilityAttribute_t1_48;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor()
-extern "C" void RuntimeCompatibilityAttribute__ctor_m6609 (RuntimeCompatibilityAttribute_t1130 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute__ctor_m1_973 (RuntimeCompatibilityAttribute_t1_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows(System.Boolean)
-extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m6610 (RuntimeCompatibilityAttribute_t1130 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m1_974 (RuntimeCompatibilityAttribute_t1_48 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

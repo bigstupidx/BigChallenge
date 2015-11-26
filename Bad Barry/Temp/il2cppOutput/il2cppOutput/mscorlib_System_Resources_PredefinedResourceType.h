@@ -15,7 +15,7 @@
 #include "mscorlib_System_Resources_PredefinedResourceType.h"
 
 // System.Resources.PredefinedResourceType
-struct  PredefinedResourceType_t1382 
+struct  PredefinedResourceType_t1_359 
 {
 	// System.Int32 System.Resources.PredefinedResourceType::value__
 	int32_t ___value___1;

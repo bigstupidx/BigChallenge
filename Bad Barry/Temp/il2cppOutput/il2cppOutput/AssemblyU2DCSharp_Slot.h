@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // Inventory
-struct Inventory_t50;
+struct Inventory_t8_36;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Slot
-struct  Slot_t60  : public MonoBehaviour_t2
+struct  Slot_t8_41  : public MonoBehaviour_t6_88
 {
 	// System.Int32 Slot::id
 	int32_t ___id_2;
 	// Inventory Slot::inv
-	Inventory_t50 * ___inv_3;
+	Inventory_t8_36 * ___inv_3;
 };

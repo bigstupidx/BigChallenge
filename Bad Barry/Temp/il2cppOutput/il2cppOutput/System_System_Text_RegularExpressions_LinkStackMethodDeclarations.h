@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Text.RegularExpressions.LinkStack
-struct LinkStack_t1046;
+struct LinkStack_t2_109;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.LinkStack::.ctor()
-extern "C" void LinkStack__ctor_m5374 (LinkStack_t1046 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack__ctor_m2_603 (LinkStack_t2_109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.LinkStack::Push()
-extern "C" void LinkStack_Push_m5375 (LinkStack_t1046 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack_Push_m2_604 (LinkStack_t2_109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.LinkStack::Pop()
-extern "C" bool LinkStack_Pop_m5376 (LinkStack_t1046 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool LinkStack_Pop_m2_605 (LinkStack_t2_109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

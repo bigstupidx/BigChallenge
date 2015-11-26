@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngineInternal.NetFxCoreExtensions
-struct  NetFxCoreExtensions_t607  : public Object_t
+struct  NetFxCoreExtensions_t6_232  : public Object_t
 {
 };

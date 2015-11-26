@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_2.h"
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>
-struct  DefaultComparer_t2052  : public EqualityComparer_1_t2051
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>
+struct  DefaultComparer_t1_1093  : public EqualityComparer_1_t1_1092
 {
 };

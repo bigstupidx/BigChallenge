@@ -14,6 +14,6 @@
 #include "mscorlib_System_Resources_ResourceSet.h"
 
 // System.Resources.RuntimeResourceSet
-struct  RuntimeResourceSet_t1392  : public ResourceSet_t1390
+struct  RuntimeResourceSet_t1_369  : public ResourceSet_t1_367
 {
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Security_Cryptography_RC2.h"
 
 // System.Security.Cryptography.RC2CryptoServiceProvider
-struct  RC2CryptoServiceProvider_t1570  : public RC2_t924
+struct  RC2CryptoServiceProvider_t1_574  : public RC2_t1_573
 {
 };

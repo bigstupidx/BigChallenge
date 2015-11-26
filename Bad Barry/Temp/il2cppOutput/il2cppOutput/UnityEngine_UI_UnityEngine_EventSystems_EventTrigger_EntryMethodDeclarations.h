@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t112;
+struct Entry_t7_7;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.EventSystems.EventTrigger/Entry::.ctor()
-extern "C" void Entry__ctor_m515 (Entry_t112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Entry__ctor_m7_29 (Entry_t7_7 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

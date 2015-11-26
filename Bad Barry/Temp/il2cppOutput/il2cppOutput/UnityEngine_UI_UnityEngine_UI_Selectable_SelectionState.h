@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
 
 // UnityEngine.UI.Selectable/SelectionState
-struct  SelectionState_t268 
+struct  SelectionState_t7_119 
 {
 	// System.Int32 UnityEngine.UI.Selectable/SelectionState::value__
 	int32_t ___value___1;

@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Net.HttpRequestCreator
-struct HttpRequestCreator_t974;
+struct HttpRequestCreator_t2_30;
 // System.Net.WebRequest
-struct WebRequest_t933;
+struct WebRequest_t2_21;
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Net.HttpRequestCreator::.ctor()
-extern "C" void HttpRequestCreator__ctor_m4897 (HttpRequestCreator_t974 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpRequestCreator__ctor_m2_105 (HttpRequestCreator_t2_30 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.HttpRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t933 * HttpRequestCreator_Create_m4898 (HttpRequestCreator_t974 * __this, Uri_t928 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t2_21 * HttpRequestCreator_Create_m2_106 (HttpRequestCreator_t2_30 * __this, Uri_t2_22 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

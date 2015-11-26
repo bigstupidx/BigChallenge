@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 
 // UnityEngine.TouchPhase
-struct  TouchPhase_t491 
+struct  TouchPhase_t6_89 
 {
 	// System.Int32 UnityEngine.TouchPhase::value__
 	int32_t ___value___1;

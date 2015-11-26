@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Security.SecurityContext
-struct SecurityContext_t1607;
+struct SecurityContext_t1_619;
 
 #include "mscorlib_System_Object.h"
 
 // System.Threading.ExecutionContext
-struct  ExecutionContext_t1456  : public Object_t
+struct  ExecutionContext_t1_435  : public Object_t
 {
 	// System.Security.SecurityContext System.Threading.ExecutionContext::_sc
-	SecurityContext_t1607 * ____sc_0;
+	SecurityContext_t1_619 * ____sc_0;
 	// System.Boolean System.Threading.ExecutionContext::_suppressFlow
 	bool ____suppressFlow_1;
 	// System.Boolean System.Threading.ExecutionContext::_capture

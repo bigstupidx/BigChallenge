@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.IList`1<UnityEngine.EventSystems.BaseRaycaster>
-struct IList_1_t1946;
+// System.Collections.Generic.IList`1<UnityEngine.Vector2>
+struct IList_1_t1_1315;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseRaycaster>
-struct  ReadOnlyCollection_1_t1945  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector2>
+struct  ReadOnlyCollection_1_t1_1314  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.BaseRaycaster>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;
 };

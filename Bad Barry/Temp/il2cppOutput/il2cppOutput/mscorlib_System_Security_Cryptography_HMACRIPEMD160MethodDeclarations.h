@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Security.Cryptography.HMACRIPEMD160
-struct HMACRIPEMD160_t1564;
+struct HMACRIPEMD160_t1_562;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.HMACRIPEMD160::.ctor()
-extern "C" void HMACRIPEMD160__ctor_m9335 (HMACRIPEMD160_t1564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACRIPEMD160__ctor_m1_3787 (HMACRIPEMD160_t1_562 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACRIPEMD160::.ctor(System.Byte[])
-extern "C" void HMACRIPEMD160__ctor_m9336 (HMACRIPEMD160_t1564 * __this, ByteU5BU5D_t740* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACRIPEMD160__ctor_m1_3788 (HMACRIPEMD160_t1_562 * __this, ByteU5BU5D_t1_70* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

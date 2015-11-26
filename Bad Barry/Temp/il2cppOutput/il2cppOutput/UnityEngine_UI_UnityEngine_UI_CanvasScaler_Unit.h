@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
 
 // UnityEngine.UI.CanvasScaler/Unit
-struct  Unit_t292 
+struct  Unit_t7_138 
 {
 	// System.Int32 UnityEngine.UI.CanvasScaler/Unit::value__
 	int32_t ___value___1;

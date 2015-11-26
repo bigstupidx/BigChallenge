@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void MonoIOStat_t1273_marshal(const MonoIOStat_t1273& unmarshaled, MonoIOStat_t1273_marshaled& marshaled);
-extern "C" void MonoIOStat_t1273_marshal_back(const MonoIOStat_t1273_marshaled& marshaled, MonoIOStat_t1273& unmarshaled);
-extern "C" void MonoIOStat_t1273_marshal_cleanup(MonoIOStat_t1273_marshaled& marshaled);
+extern "C" void MonoIOStat_t1_238_marshal(const MonoIOStat_t1_238& unmarshaled, MonoIOStat_t1_238_marshaled& marshaled);
+extern "C" void MonoIOStat_t1_238_marshal_back(const MonoIOStat_t1_238_marshaled& marshaled, MonoIOStat_t1_238& unmarshaled);
+extern "C" void MonoIOStat_t1_238_marshal_cleanup(MonoIOStat_t1_238_marshaled& marshaled);

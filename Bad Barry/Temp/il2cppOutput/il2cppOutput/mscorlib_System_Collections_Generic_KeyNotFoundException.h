@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Collections.Generic.KeyNotFoundException
-struct  KeyNotFoundException_t731  : public SystemException_t1104
+struct  KeyNotFoundException_t1_150  : public SystemException_t1_147
 {
 };

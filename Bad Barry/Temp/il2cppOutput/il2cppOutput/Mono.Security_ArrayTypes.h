@@ -15,7 +15,7 @@
 #pragma once
 // Mono.Math.BigInteger[]
 // Mono.Math.BigInteger[]
-struct BigIntegerU5BU5D_t900  : public Array_t { };
+struct BigIntegerU5BU5D_t3_122  : public Array_t { };
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
 // Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[]
-struct ClientCertificateTypeU5BU5D_t874  : public Array_t { };
+struct ClientCertificateTypeU5BU5D_t3_97  : public Array_t { };

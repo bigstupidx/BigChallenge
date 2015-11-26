@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Graphic
-struct Graphic_t195;
+struct Graphic_t7_75;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 
 // UnityEngine.UI.BaseMeshEffect
-struct  BaseMeshEffect_t321  : public UIBehaviour_t106
+struct  BaseMeshEffect_t7_155  : public UIBehaviour_t7_3
 {
 	// UnityEngine.UI.Graphic UnityEngine.UI.BaseMeshEffect::m_Graphic
-	Graphic_t195 * ___m_Graphic_2;
+	Graphic_t7_75 * ___m_Graphic_2;
 };

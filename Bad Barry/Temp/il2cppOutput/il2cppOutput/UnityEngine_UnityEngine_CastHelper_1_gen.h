@@ -17,10 +17,10 @@ struct Object_t;
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.CastHelper`1<System.Object>
-struct  CastHelper_1_t1864 
+struct  CastHelper_1_t6_275 
 {
-	// T UnityEngine.CastHelper`1<System.Object>::t
+	// T UnityEngine.CastHelper`1::t
 	Object_t * ___t_0;
-	// System.IntPtr UnityEngine.CastHelper`1<System.Object>::onePointerFurtherThanT
+	// System.IntPtr UnityEngine.CastHelper`1::onePointerFurtherThanT
 	IntPtr_t ___onePointerFurtherThanT_1;
 };

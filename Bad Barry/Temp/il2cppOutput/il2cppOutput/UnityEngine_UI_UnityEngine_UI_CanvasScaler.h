@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Canvas
-struct Canvas_t198;
+struct Canvas_t6_151;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScaleMode.h"
@@ -20,7 +20,7 @@ struct Canvas_t198;
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
 
 // UnityEngine.UI.CanvasScaler
-struct  CanvasScaler_t293  : public UIBehaviour_t106
+struct  CanvasScaler_t7_139  : public UIBehaviour_t7_3
 {
 	// UnityEngine.UI.CanvasScaler/ScaleMode UnityEngine.UI.CanvasScaler::m_UiScaleMode
 	int32_t ___m_UiScaleMode_3;
@@ -29,7 +29,7 @@ struct  CanvasScaler_t293  : public UIBehaviour_t106
 	// System.Single UnityEngine.UI.CanvasScaler::m_ScaleFactor
 	float ___m_ScaleFactor_5;
 	// UnityEngine.Vector2 UnityEngine.UI.CanvasScaler::m_ReferenceResolution
-	Vector2_t25  ___m_ReferenceResolution_6;
+	Vector2_t6_48  ___m_ReferenceResolution_6;
 	// UnityEngine.UI.CanvasScaler/ScreenMatchMode UnityEngine.UI.CanvasScaler::m_ScreenMatchMode
 	int32_t ___m_ScreenMatchMode_7;
 	// System.Single UnityEngine.UI.CanvasScaler::m_MatchWidthOrHeight
@@ -43,7 +43,7 @@ struct  CanvasScaler_t293  : public UIBehaviour_t106
 	// System.Single UnityEngine.UI.CanvasScaler::m_DynamicPixelsPerUnit
 	float ___m_DynamicPixelsPerUnit_12;
 	// UnityEngine.Canvas UnityEngine.UI.CanvasScaler::m_Canvas
-	Canvas_t198 * ___m_Canvas_13;
+	Canvas_t6_151 * ___m_Canvas_13;
 	// System.Single UnityEngine.UI.CanvasScaler::m_PrevScaleFactor
 	float ___m_PrevScaleFactor_14;
 	// System.Single UnityEngine.UI.CanvasScaler::m_PrevReferencePixelsPerUnit

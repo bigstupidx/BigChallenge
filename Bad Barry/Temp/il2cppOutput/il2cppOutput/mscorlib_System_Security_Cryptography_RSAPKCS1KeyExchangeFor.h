@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.RSA
-struct RSA_t791;
+struct RSA_t1_117;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t737;
+struct RandomNumberGenerator_t1_97;
 
 #include "mscorlib_System_Security_Cryptography_AsymmetricKeyExchangeF.h"
 
 // System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter
-struct  RSAPKCS1KeyExchangeFormatter_t939  : public AsymmetricKeyExchangeFormatter_t1556
+struct  RSAPKCS1KeyExchangeFormatter_t1_581  : public AsymmetricKeyExchangeFormatter_t1_541
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter::rsa
-	RSA_t791 * ___rsa_0;
+	RSA_t1_117 * ___rsa_0;
 	// System.Security.Cryptography.RandomNumberGenerator System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter::random
-	RandomNumberGenerator_t737 * ___random_1;
+	RandomNumberGenerator_t1_97 * ___random_1;
 };

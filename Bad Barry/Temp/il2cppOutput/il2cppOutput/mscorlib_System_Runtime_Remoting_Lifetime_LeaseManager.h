@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Threading.Timer
-struct Timer_t1450;
+struct Timer_t1_428;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct  LeaseManager_t1449  : public Object_t
+struct  LeaseManager_t1_427  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Lifetime.LeaseManager::_objects
-	ArrayList_t771 * ____objects_0;
+	ArrayList_t1_112 * ____objects_0;
 	// System.Threading.Timer System.Runtime.Remoting.Lifetime.LeaseManager::_timer
-	Timer_t1450 * ____timer_1;
+	Timer_t1_428 * ____timer_1;
 };

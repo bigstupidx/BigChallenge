@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t141;
+struct BaseRaycaster_t7_32;
 
 #include "mscorlib_System_ValueType.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.EventSystems.RaycastResult
-struct  RaycastResult_t140 
+struct  RaycastResult_t7_31 
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::m_GameObject
-	GameObject_t3 * ___m_GameObject_0;
+	GameObject_t6_94 * ___m_GameObject_0;
 	// UnityEngine.EventSystems.BaseRaycaster UnityEngine.EventSystems.RaycastResult::module
-	BaseRaycaster_t141 * ___module_1;
+	BaseRaycaster_t7_32 * ___module_1;
 	// System.Single UnityEngine.EventSystems.RaycastResult::distance
 	float ___distance_2;
 	// System.Single UnityEngine.EventSystems.RaycastResult::index
@@ -37,9 +37,9 @@ struct  RaycastResult_t140
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
 	int32_t ___sortingOrder_6;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t12  ___worldPosition_7;
+	Vector3_t6_49  ___worldPosition_7;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t12  ___worldNormal_8;
+	Vector3_t6_49  ___worldNormal_8;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t25  ___screenPosition_9;
+	Vector2_t6_48  ___screenPosition_9;
 };

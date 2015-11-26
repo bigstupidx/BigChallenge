@@ -10,16 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Graphic
-struct Graphic_t195;
+// System.Object
+struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "LitJson_LitJson_ObjectMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
-struct  KeyValuePair_2_t2069 
+// System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>
+struct  KeyValuePair_2_t1_1193 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::key
-	Graphic_t195 * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ObjectMetadata_t5_7  ___value_1;
 };

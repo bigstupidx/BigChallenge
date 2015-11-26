@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Exception.h"
 
 // UnityEngine.UnityException
-struct  UnityException_t388  : public Exception_t82
+struct  UnityException_t6_213  : public Exception_t1_33
 {
 	// System.String UnityEngine.UnityException::unityStackTrace
 	String_t* ___unityStackTrace_12;

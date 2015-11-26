@@ -13,11 +13,11 @@
 #include <exception>
 
 // Mono.Security.Protocol.Tls.ValidationResult
-struct ValidationResult_t861;
+struct ValidationResult_t3_88;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Boolean Mono.Security.Protocol.Tls.ValidationResult::get_Trusted()
-extern "C" bool ValidationResult_get_Trusted_m4400 (ValidationResult_t861 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ValidationResult_get_Trusted_m3_624 (ValidationResult_t3_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.ValidationResult::get_ErrorCode()
-extern "C" int32_t ValidationResult_get_ErrorCode_m4401 (ValidationResult_t861 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ValidationResult_get_ErrorCode_m3_625 (ValidationResult_t3_88 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

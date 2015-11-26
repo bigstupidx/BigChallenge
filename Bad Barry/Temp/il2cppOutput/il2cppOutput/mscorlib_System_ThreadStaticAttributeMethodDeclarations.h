@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.ThreadStaticAttribute
-struct ThreadStaticAttribute_t1726;
+struct ThreadStaticAttribute_t1_757;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.ThreadStaticAttribute::.ctor()
-extern "C" void ThreadStaticAttribute__ctor_m10733 (ThreadStaticAttribute_t1726 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStaticAttribute__ctor_m1_5324 (ThreadStaticAttribute_t1_757 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Diagnostics.DebuggerDisplayAttribute
-struct DebuggerDisplayAttribute_t1238;
+struct DebuggerDisplayAttribute_t1_190;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Diagnostics.DebuggerDisplayAttribute::.ctor(System.String)
-extern "C" void DebuggerDisplayAttribute__ctor_m7456 (DebuggerDisplayAttribute_t1238 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerDisplayAttribute__ctor_m1_1846 (DebuggerDisplayAttribute_t1_190 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Diagnostics.DebuggerDisplayAttribute::set_Name(System.String)
-extern "C" void DebuggerDisplayAttribute_set_Name_m7457 (DebuggerDisplayAttribute_t1238 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerDisplayAttribute_set_Name_m1_1847 (DebuggerDisplayAttribute_t1_190 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

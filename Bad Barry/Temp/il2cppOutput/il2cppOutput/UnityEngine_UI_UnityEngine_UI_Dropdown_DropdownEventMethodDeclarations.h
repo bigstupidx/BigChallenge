@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.Dropdown/DropdownEvent
-struct DropdownEvent_t184;
+struct DropdownEvent_t7_68;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Dropdown/DropdownEvent::.ctor()
-extern "C" void DropdownEvent__ctor_m886 (DropdownEvent_t184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownEvent__ctor_m7_403 (DropdownEvent_t7_68 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

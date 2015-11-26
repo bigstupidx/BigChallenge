@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct EqualityComparer_1_t1939;
+// System.Collections.Generic.EqualityComparer`1<System.Int32>
+struct EqualityComparer_1_t1_1035;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct  EqualityComparer_1_t1939  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<System.Int32>
+struct  EqualityComparer_1_t1_1035  : public Object_t
 {
 };
-struct EqualityComparer_1_t1939_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::_default
-	EqualityComparer_1_t1939 * ____default_0;
+struct EqualityComparer_1_t1_1035_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1_1035 * ____default_0;
 };

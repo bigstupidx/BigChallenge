@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.Toggle/ToggleEvent
-struct ToggleEvent_t280;
+struct ToggleEvent_t7_129;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Toggle/ToggleEvent::.ctor()
-extern "C" void ToggleEvent__ctor_m1608 (ToggleEvent_t280 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ToggleEvent__ctor_m7_1127 (ToggleEvent_t7_129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

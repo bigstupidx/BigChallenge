@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Stack`1<System.Type>
-struct Stack_1_t634;
+// System.Collections.Generic.Stack`1<System.Int32>
+struct Stack_1_t2_158;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.Stack`1/Enumerator<System.Type>
-struct  Enumerator_t2267 
+// System.Collections.Generic.Stack`1/Enumerator<System.Int32>
+struct  Enumerator_t2_164 
 {
-	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<System.Type>::parent
-	Stack_1_t634 * ___parent_0;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Type>::idx
+	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator::parent
+	Stack_1_t2_158 * ___parent_0;
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::idx
 	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Type>::_version
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::_version
 	int32_t ____version_2;
 };

@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.MeshFilter
-struct MeshFilter_t98;
+struct MeshFilter_t6_23;
 // UnityEngine.Mesh
-struct Mesh_t100;
+struct Mesh_t6_25;
 
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Mesh UnityEngine.MeshFilter::get_mesh()
-extern "C" Mesh_t100 * MeshFilter_get_mesh_m471 (MeshFilter_t98 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Mesh_t6_25 * MeshFilter_get_mesh_m6_97 (MeshFilter_t6_23 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

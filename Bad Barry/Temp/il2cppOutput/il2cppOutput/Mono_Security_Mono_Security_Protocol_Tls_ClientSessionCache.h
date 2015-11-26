@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Protocol.Tls.ClientSessionCache
-struct  ClientSessionCache_t835  : public Object_t
+struct  ClientSessionCache_t3_68  : public Object_t
 {
 };
-struct ClientSessionCache_t835_StaticFields{
+struct ClientSessionCache_t3_68_StaticFields{
 	// System.Collections.Hashtable Mono.Security.Protocol.Tls.ClientSessionCache::cache
-	Hashtable_t836 * ___cache_0;
+	Hashtable_t1_171 * ___cache_0;
 	// System.Object Mono.Security.Protocol.Tls.ClientSessionCache::locker
 	Object_t * ___locker_1;
 };

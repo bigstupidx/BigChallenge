@@ -13,27 +13,27 @@
 #include <exception>
 
 // System.Security.Policy.StrongName
-struct StrongName_t1603;
+struct StrongName_t1_615;
 // System.String
 struct String_t;
 // System.Security.Permissions.StrongNamePublicKeyBlob
-struct StrongNamePublicKeyBlob_t1598;
+struct StrongNamePublicKeyBlob_t1_610;
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.String System.Security.Policy.StrongName::get_Name()
-extern "C" String_t* StrongName_get_Name_m9617 (StrongName_t1603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongName_get_Name_m1_4100 (StrongName_t1_615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Permissions.StrongNamePublicKeyBlob System.Security.Policy.StrongName::get_PublicKey()
-extern "C" StrongNamePublicKeyBlob_t1598 * StrongName_get_PublicKey_m9618 (StrongName_t1603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StrongNamePublicKeyBlob_t1_610 * StrongName_get_PublicKey_m1_4101 (StrongName_t1_615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Version System.Security.Policy.StrongName::get_Version()
-extern "C" Version_t976 * StrongName_get_Version_m9619 (StrongName_t1603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Version_t1_316 * StrongName_get_Version_m1_4102 (StrongName_t1_615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.StrongName::Equals(System.Object)
-extern "C" bool StrongName_Equals_m9620 (StrongName_t1603 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StrongName_Equals_m1_4103 (StrongName_t1_615 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.StrongName::GetHashCode()
-extern "C" int32_t StrongName_GetHashCode_m9621 (StrongName_t1603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StrongName_GetHashCode_m1_4104 (StrongName_t1_615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Policy.StrongName::ToString()
-extern "C" String_t* StrongName_ToString_m9622 (StrongName_t1603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongName_ToString_m1_4105 (StrongName_t1_615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

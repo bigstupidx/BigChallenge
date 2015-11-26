@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct  DynamicPropertyCollection_t1437  : public Object_t
+struct  DynamicPropertyCollection_t1_415  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Contexts.DynamicPropertyCollection::_properties
-	ArrayList_t771 * ____properties_0;
+	ArrayList_t1_112 * ____properties_0;
 };

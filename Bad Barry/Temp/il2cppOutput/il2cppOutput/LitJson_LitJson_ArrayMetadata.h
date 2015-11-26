@@ -16,7 +16,7 @@ struct Type_t;
 #include "mscorlib_System_ValueType.h"
 
 // LitJson.ArrayMetadata
-struct  ArrayMetadata_t665 
+struct  ArrayMetadata_t5_6 
 {
 	// System.Type LitJson.ArrayMetadata::element_type
 	Type_t * ___element_type_0;

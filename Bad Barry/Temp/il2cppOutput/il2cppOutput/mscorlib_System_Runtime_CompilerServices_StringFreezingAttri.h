@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.CompilerServices.StringFreezingAttribute
-struct  StringFreezingAttribute_t1399  : public Attribute_t476
+struct  StringFreezingAttribute_t1_376  : public Attribute_t1_2
 {
 };

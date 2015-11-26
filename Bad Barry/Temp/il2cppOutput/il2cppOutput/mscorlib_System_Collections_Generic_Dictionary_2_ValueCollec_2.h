@@ -14,9 +14,9 @@
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__0.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
-struct  Enumerator_t1847 
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>
+struct  Enumerator_t1_1029 
 {
-	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::host_enumerator
-	Enumerator_t1848  ___host_enumerator_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
+	Enumerator_t1_1030  ___host_enumerator_0;
 };

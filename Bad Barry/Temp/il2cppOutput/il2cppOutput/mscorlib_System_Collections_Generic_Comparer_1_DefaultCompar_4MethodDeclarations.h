@@ -12,15 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Color32>
-struct DefaultComparer_t2169;
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>
+struct DefaultComparer_t1_1127;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_Color32.h"
+#include "mscorlib_System_Guid.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Color32>::.ctor()
-extern "C" void DefaultComparer__ctor_m15569_gshared (DefaultComparer_t2169 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m15569(__this, method) (( void (*) (DefaultComparer_t2169 *, const MethodInfo*))DefaultComparer__ctor_m15569_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Color32>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m15570_gshared (DefaultComparer_t2169 * __this, Color32_t350  ___x, Color32_t350  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m15570(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2169 *, Color32_t350 , Color32_t350 , const MethodInfo*))DefaultComparer_Compare_m15570_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_7014_gshared (DefaultComparer_t1_1127 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_7014(__this, method) (( void (*) (DefaultComparer_t1_1127 *, const MethodInfo*))DefaultComparer__ctor_m1_7014_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_7015_gshared (DefaultComparer_t1_1127 * __this, Guid_t1_722  ___x, Guid_t1_722  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_7015(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1127 *, Guid_t1_722 , Guid_t1_722 , const MethodInfo*))DefaultComparer_Compare_m1_7015_gshared)(__this, ___x, ___y, method)

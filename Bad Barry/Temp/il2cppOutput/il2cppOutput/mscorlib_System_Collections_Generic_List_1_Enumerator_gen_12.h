@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Transform>
-struct List_1_t135;
-// UnityEngine.Transform
-struct Transform_t44;
+// System.Collections.Generic.List`1<UnityEngine.Color32>
+struct List_1_t1_919;
 
 #include "mscorlib_System_ValueType.h"
+#include "UnityEngine_UnityEngine_Color32.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>
-struct  Enumerator_t1962 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>
+struct  Enumerator_t1_1323 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::l
-	List_1_t135 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_919 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::current
-	Transform_t44 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Color32_t6_50  ___current_3;
 };

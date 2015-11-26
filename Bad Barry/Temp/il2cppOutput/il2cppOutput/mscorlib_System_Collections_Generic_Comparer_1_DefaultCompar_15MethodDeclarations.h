@@ -12,15 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>
-struct DefaultComparer_t2527;
+// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
+struct DefaultComparer_t1_1426;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_TimeSpan.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>::.ctor()
-extern "C" void DefaultComparer__ctor_m19514_gshared (DefaultComparer_t2527 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m19514(__this, method) (( void (*) (DefaultComparer_t2527 *, const MethodInfo*))DefaultComparer__ctor_m19514_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m19515_gshared (DefaultComparer_t2527 * __this, TimeSpan_t1008  ___x, TimeSpan_t1008  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m19515(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2527 *, TimeSpan_t1008 , TimeSpan_t1008 , const MethodInfo*))DefaultComparer_Compare_m19515_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_11068_gshared (DefaultComparer_t1_1426 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_11068(__this, method) (( void (*) (DefaultComparer_t1_1426 *, const MethodInfo*))DefaultComparer__ctor_m1_11068_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_11069_gshared (DefaultComparer_t1_1426 * __this, RaycastResult_t7_31  ___x, RaycastResult_t7_31  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_11069(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1426 *, RaycastResult_t7_31 , RaycastResult_t7_31 , const MethodInfo*))DefaultComparer_Compare_m1_11069_gshared)(__this, ___x, ___y, method)

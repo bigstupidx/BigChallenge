@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.RSA
-struct RSA_t791;
+struct RSA_t1_117;
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t782;
+struct HashAlgorithm_t1_560;
 
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 
 // System.Security.Cryptography.RSAPKCS1SignatureFormatter
-struct  RSAPKCS1SignatureFormatter_t1575  : public AsymmetricSignatureFormatter_t857
+struct  RSAPKCS1SignatureFormatter_t1_583  : public AsymmetricSignatureFormatter_t1_543
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1SignatureFormatter::rsa
-	RSA_t791 * ___rsa_0;
+	RSA_t1_117 * ___rsa_0;
 	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.RSAPKCS1SignatureFormatter::hash
-	HashAlgorithm_t782 * ___hash_1;
+	HashAlgorithm_t1_560 * ___hash_1;
 };

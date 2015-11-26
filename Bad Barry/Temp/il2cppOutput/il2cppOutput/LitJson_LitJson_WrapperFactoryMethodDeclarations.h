@@ -13,25 +13,25 @@
 #include <exception>
 
 // LitJson.WrapperFactory
-struct WrapperFactory_t671;
+struct WrapperFactory_t5_11;
 // System.Object
 struct Object_t;
 // LitJson.IJsonWrapper
-struct IJsonWrapper_t672;
+struct IJsonWrapper_t5_12;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void LitJson.WrapperFactory::.ctor(System.Object,System.IntPtr)
-extern "C" void WrapperFactory__ctor_m3535 (WrapperFactory_t671 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WrapperFactory__ctor_m5_63 (WrapperFactory_t5_11 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.IJsonWrapper LitJson.WrapperFactory::Invoke()
-extern "C" Object_t * WrapperFactory_Invoke_m3536 (WrapperFactory_t671 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" Object_t * pinvoke_delegate_wrapper_WrapperFactory_t671(Il2CppObject* delegate);
+extern "C" Object_t * WrapperFactory_Invoke_m5_64 (WrapperFactory_t5_11 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * pinvoke_delegate_wrapper_WrapperFactory_t5_11(Il2CppObject* delegate);
 // System.IAsyncResult LitJson.WrapperFactory::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * WrapperFactory_BeginInvoke_m3537 (WrapperFactory_t671 * __this, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WrapperFactory_BeginInvoke_m5_65 (WrapperFactory_t5_11 * __this, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.IJsonWrapper LitJson.WrapperFactory::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * WrapperFactory_EndInvoke_m3538 (WrapperFactory_t671 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WrapperFactory_EndInvoke_m5_66 (WrapperFactory_t5_11 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

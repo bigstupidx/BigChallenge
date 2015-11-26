@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// Tiled2Unity.TileAnimator/Frame[]
-struct FrameU5BU5D_t1892;
+// LitJson.JsonData[]
+struct JsonDataU5BU5D_t5_26;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>
-struct  List_1_t69  : public Object_t
+// System.Collections.Generic.List`1<LitJson.JsonData>
+struct  List_1_t1_891  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>::_items
-	FrameU5BU5D_t1892* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	JsonDataU5BU5D_t5_26* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t69_StaticFields{
-	// T[] System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>::EmptyArray
-	FrameU5BU5D_t1892* ___EmptyArray_4;
+struct List_1_t1_891_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	JsonDataU5BU5D_t5_26* ___EmptyArray_4;
 };

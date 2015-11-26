@@ -19,23 +19,23 @@ struct String_t;
 #include "UnityEngine_UnityEngine_AnimatorTransitionInfo.h"
 
 // System.Boolean UnityEngine.AnimatorTransitionInfo::IsName(System.String)
-extern "C" bool AnimatorTransitionInfo_IsName_m3052 (AnimatorTransitionInfo_t527 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorTransitionInfo_IsName_m6_888 (AnimatorTransitionInfo_t6_133 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorTransitionInfo::IsUserName(System.String)
-extern "C" bool AnimatorTransitionInfo_IsUserName_m3053 (AnimatorTransitionInfo_t527 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorTransitionInfo_IsUserName_m6_889 (AnimatorTransitionInfo_t6_133 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorTransitionInfo::get_fullPathHash()
-extern "C" int32_t AnimatorTransitionInfo_get_fullPathHash_m3054 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorTransitionInfo_get_fullPathHash_m6_890 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorTransitionInfo::get_nameHash()
-extern "C" int32_t AnimatorTransitionInfo_get_nameHash_m3055 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorTransitionInfo_get_nameHash_m6_891 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorTransitionInfo::get_userNameHash()
-extern "C" int32_t AnimatorTransitionInfo_get_userNameHash_m3056 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorTransitionInfo_get_userNameHash_m6_892 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.AnimatorTransitionInfo::get_normalizedTime()
-extern "C" float AnimatorTransitionInfo_get_normalizedTime_m3057 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float AnimatorTransitionInfo_get_normalizedTime_m6_893 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorTransitionInfo::get_anyState()
-extern "C" bool AnimatorTransitionInfo_get_anyState_m3058 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorTransitionInfo_get_anyState_m6_894 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorTransitionInfo::get_entry()
-extern "C" bool AnimatorTransitionInfo_get_entry_m3059 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorTransitionInfo_get_entry_m6_895 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorTransitionInfo::get_exit()
-extern "C" bool AnimatorTransitionInfo_get_exit_m3060 (AnimatorTransitionInfo_t527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void AnimatorTransitionInfo_t527_marshal(const AnimatorTransitionInfo_t527& unmarshaled, AnimatorTransitionInfo_t527_marshaled& marshaled);
-extern "C" void AnimatorTransitionInfo_t527_marshal_back(const AnimatorTransitionInfo_t527_marshaled& marshaled, AnimatorTransitionInfo_t527& unmarshaled);
-extern "C" void AnimatorTransitionInfo_t527_marshal_cleanup(AnimatorTransitionInfo_t527_marshaled& marshaled);
+extern "C" bool AnimatorTransitionInfo_get_exit_m6_896 (AnimatorTransitionInfo_t6_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimatorTransitionInfo_t6_133_marshal(const AnimatorTransitionInfo_t6_133& unmarshaled, AnimatorTransitionInfo_t6_133_marshaled& marshaled);
+extern "C" void AnimatorTransitionInfo_t6_133_marshal_back(const AnimatorTransitionInfo_t6_133_marshaled& marshaled, AnimatorTransitionInfo_t6_133& unmarshaled);
+extern "C" void AnimatorTransitionInfo_t6_133_marshal_cleanup(AnimatorTransitionInfo_t6_133_marshaled& marshaled);

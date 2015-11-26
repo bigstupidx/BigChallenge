@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.InputField/OnChangeEvent
-struct OnChangeEvent_t224;
+struct OnChangeEvent_t7_94;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.InputField/OnChangeEvent::.ctor()
-extern "C" void OnChangeEvent__ctor_m1088 (OnChangeEvent_t224 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OnChangeEvent__ctor_m7_606 (OnChangeEvent_t7_94 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

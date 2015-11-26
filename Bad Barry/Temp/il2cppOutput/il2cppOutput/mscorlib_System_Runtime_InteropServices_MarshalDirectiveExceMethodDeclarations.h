@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Runtime.InteropServices.MarshalDirectiveException
-struct MarshalDirectiveException_t1416;
+struct MarshalDirectiveException_t1_393;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.InteropServices.MarshalDirectiveException::.ctor()
-extern "C" void MarshalDirectiveException__ctor_m8651 (MarshalDirectiveException_t1416 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarshalDirectiveException__ctor_m1_3063 (MarshalDirectiveException_t1_393 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.MarshalDirectiveException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MarshalDirectiveException__ctor_m8652 (MarshalDirectiveException_t1416 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarshalDirectiveException__ctor_m1_3064 (MarshalDirectiveException_t1_393 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

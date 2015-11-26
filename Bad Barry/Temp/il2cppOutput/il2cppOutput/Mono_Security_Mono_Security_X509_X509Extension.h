@@ -13,17 +13,17 @@
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t770;
+struct ASN1_t3_2;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.X509.X509Extension
-struct  X509Extension_t806  : public Object_t
+struct  X509Extension_t3_4  : public Object_t
 {
 	// System.String Mono.Security.X509.X509Extension::extnOid
 	String_t* ___extnOid_0;
 	// System.Boolean Mono.Security.X509.X509Extension::extnCritical
 	bool ___extnCritical_1;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Extension::extnValue
-	ASN1_t770 * ___extnValue_2;
+	ASN1_t3_2 * ___extnValue_2;
 };

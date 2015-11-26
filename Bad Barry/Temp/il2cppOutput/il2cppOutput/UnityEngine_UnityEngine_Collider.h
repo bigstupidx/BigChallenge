@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.Collider
-struct  Collider_t371  : public Component_t103
+struct  Collider_t6_105  : public Component_t6_24
 {
 };

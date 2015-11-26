@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Net.HttpRequestCreator
-struct  HttpRequestCreator_t974  : public Object_t
+struct  HttpRequestCreator_t2_30  : public Object_t
 {
 };

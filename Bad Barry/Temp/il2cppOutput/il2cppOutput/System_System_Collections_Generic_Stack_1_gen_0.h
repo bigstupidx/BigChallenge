@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Int32[]
-struct Int32U5BU5D_t425;
+// LitJson.WriterContext[]
+struct WriterContextU5BU5D_t5_31;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Stack`1<System.Int32>
-struct  Stack_1_t682  : public Object_t
+// System.Collections.Generic.Stack`1<LitJson.WriterContext>
+struct  Stack_1_t2_159  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<System.Int32>::_array
-	Int32U5BU5D_t425* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Int32>::_size
+	// T[] System.Collections.Generic.Stack`1::_array
+	WriterContextU5BU5D_t5_31* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Int32>::_version
+	// System.Int32 System.Collections.Generic.Stack`1::_version
 	int32_t ____version_2;
 };

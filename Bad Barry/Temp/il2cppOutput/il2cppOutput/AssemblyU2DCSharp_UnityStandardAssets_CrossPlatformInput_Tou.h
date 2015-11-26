@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Tou.h"
 
 // UnityStandardAssets.CrossPlatformInput.TouchPad/AxisOption
-struct  AxisOption_t22 
+struct  AxisOption_t8_19 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.TouchPad/AxisOption::value__
 	int32_t ___value___1;

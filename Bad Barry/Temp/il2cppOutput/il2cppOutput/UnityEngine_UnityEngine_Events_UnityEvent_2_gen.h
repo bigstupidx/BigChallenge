@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 
 #include "UnityEngine_UnityEngine_Events_UnityEventBase.h"
 
 // UnityEngine.Events.UnityEvent`2<System.Object,System.Object>
-struct  UnityEvent_2_t2294  : public UnityEventBase_t601
+struct  UnityEvent_2_t6_297  : public UnityEventBase_t6_225
 {
-	// System.Object[] UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::m_InvokeArray
-	ObjectU5BU5D_t102* ___m_InvokeArray_4;
+	// System.Object[] UnityEngine.Events.UnityEvent`2::m_InvokeArray
+	ObjectU5BU5D_t1_156* ___m_InvokeArray_4;
 };

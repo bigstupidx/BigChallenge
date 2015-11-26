@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.IPointerUpHandler
-struct IPointerUpHandler_t329;
+struct IPointerUpHandler_t7_162;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t75;
+struct BaseEventData_t7_5;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler>
-struct  EventFunction_1_t120  : public MulticastDelegate_t227
+struct  EventFunction_1_t7_14  : public MulticastDelegate_t1_21
 {
 };

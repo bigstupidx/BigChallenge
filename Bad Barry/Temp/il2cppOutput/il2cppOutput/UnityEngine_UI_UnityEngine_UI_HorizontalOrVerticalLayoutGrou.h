@@ -14,7 +14,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_LayoutGroup.h"
 
 // UnityEngine.UI.HorizontalOrVerticalLayoutGroup
-struct  HorizontalOrVerticalLayoutGroup_t302  : public LayoutGroup_t300
+struct  HorizontalOrVerticalLayoutGroup_t7_148  : public LayoutGroup_t7_146
 {
 	// System.Single UnityEngine.UI.HorizontalOrVerticalLayoutGroup::m_Spacing
 	float ___m_Spacing_10;

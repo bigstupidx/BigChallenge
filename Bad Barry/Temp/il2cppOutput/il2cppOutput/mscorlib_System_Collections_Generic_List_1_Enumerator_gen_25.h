@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct List_1_t282;
-// UnityEngine.UI.Toggle
-struct Toggle_t180;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
+struct List_1_t1_931;
+// UnityEngine.EventSystems.EventTrigger/Entry
+struct Entry_t7_7;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
-struct  Enumerator_t2119 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>
+struct  Enumerator_t1_1435 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::l
-	List_1_t282 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_931 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::current
-	Toggle_t180 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Entry_t7_7 * ___current_3;
 };

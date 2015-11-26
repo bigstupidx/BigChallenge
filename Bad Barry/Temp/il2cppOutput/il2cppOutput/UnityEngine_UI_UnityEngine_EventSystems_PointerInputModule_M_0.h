@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t73;
+struct PointerEventData_t7_36;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Fra.h"
 
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
-struct  MouseButtonEventData_t147  : public Object_t
+struct  MouseButtonEventData_t7_38  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData/FramePressState UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::buttonState
 	int32_t ___buttonState_0;
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::buttonData
-	PointerEventData_t73 * ___buttonData_1;
+	PointerEventData_t7_36 * ___buttonData_1;
 };

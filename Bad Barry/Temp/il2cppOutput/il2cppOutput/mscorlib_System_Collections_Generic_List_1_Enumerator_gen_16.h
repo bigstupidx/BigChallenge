@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct List_1_t373;
-// UnityEngine.Canvas
-struct Canvas_t198;
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct List_1_t1_911;
 
 #include "mscorlib_System_ValueType.h"
+#include "UnityEngine_UnityEngine_UIVertex.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>
-struct  Enumerator_t2025 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
+struct  Enumerator_t1_1358 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::l
-	List_1_t373 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_911 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::current
-	Canvas_t198 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	UIVertex_t6_153  ___current_3;
 };

@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct CallContextRemotingData_t1468;
+struct CallContextRemotingData_t1_447;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct  LogicalCallContext_t1467  : public Object_t
+struct  LogicalCallContext_t1_446  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.Messaging.LogicalCallContext::_data
-	Hashtable_t836 * ____data_0;
+	Hashtable_t1_171 * ____data_0;
 	// System.Runtime.Remoting.Messaging.CallContextRemotingData System.Runtime.Remoting.Messaging.LogicalCallContext::_remotingData
-	CallContextRemotingData_t1468 * ____remotingData_1;
+	CallContextRemotingData_t1_447 * ____remotingData_1;
 };

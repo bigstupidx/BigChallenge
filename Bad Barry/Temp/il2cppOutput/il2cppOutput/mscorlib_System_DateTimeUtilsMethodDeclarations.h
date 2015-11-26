@@ -15,25 +15,25 @@
 // System.String
 struct String_t;
 // System.Text.StringBuilder
-struct StringBuilder_t358;
+struct StringBuilder_t1_144;
 // System.Globalization.DateTimeFormatInfo
-struct DateTimeFormatInfo_t718;
+struct DateTimeFormatInfo_t1_204;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_DateTime.h"
 #include "mscorlib_System_Nullable_1_gen.h"
 
 // System.Int32 System.DateTimeUtils::CountRepeat(System.String,System.Int32,System.Char)
-extern "C" int32_t DateTimeUtils_CountRepeat_m10397 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___p, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeUtils_CountRepeat_m1_4968 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___p, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DateTimeUtils::ZeroPad(System.Text.StringBuilder,System.Int32,System.Int32)
-extern "C" void DateTimeUtils_ZeroPad_m10398 (Object_t * __this /* static, unused */, StringBuilder_t358 * ___output, int32_t ___digits, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DateTimeUtils_ZeroPad_m1_4969 (Object_t * __this /* static, unused */, StringBuilder_t1_144 * ___output, int32_t ___digits, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.DateTimeUtils::ParseQuotedString(System.String,System.Int32,System.Text.StringBuilder)
-extern "C" int32_t DateTimeUtils_ParseQuotedString_m10399 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___pos, StringBuilder_t358 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DateTimeUtils_ParseQuotedString_m1_4970 (Object_t * __this /* static, unused */, String_t* ___fmt, int32_t ___pos, StringBuilder_t1_144 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m10400 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t718 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m1_4971 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t1_204 * ___dfi, bool* ___useutc, bool* ___use_invariant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::GetStandardPattern(System.Char,System.Globalization.DateTimeFormatInfo,System.Boolean&,System.Boolean&,System.Boolean)
-extern "C" String_t* DateTimeUtils_GetStandardPattern_m10401 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t718 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_GetStandardPattern_m1_4972 (Object_t * __this /* static, unused */, uint16_t ___format, DateTimeFormatInfo_t1_204 * ___dfi, bool* ___useutc, bool* ___use_invariant, bool ___date_time_offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m10402 (Object_t * __this /* static, unused */, DateTime_t569  ___dt, String_t* ___format, DateTimeFormatInfo_t718 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m1_4973 (Object_t * __this /* static, unused */, DateTime_t1_126  ___dt, String_t* ___format, DateTimeFormatInfo_t1_204 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.DateTimeUtils::ToString(System.DateTime,System.Nullable`1<System.TimeSpan>,System.String,System.Globalization.DateTimeFormatInfo)
-extern "C" String_t* DateTimeUtils_ToString_m10403 (Object_t * __this /* static, unused */, DateTime_t569  ___dt, Nullable_1_t1781  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t718 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DateTimeUtils_ToString_m1_4974 (Object_t * __this /* static, unused */, DateTime_t1_126  ___dt, Nullable_1_t1_816  ___utc_offset, String_t* ___format, DateTimeFormatInfo_t1_204 * ___dfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;

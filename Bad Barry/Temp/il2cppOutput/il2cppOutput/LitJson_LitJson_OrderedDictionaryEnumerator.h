@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct IEnumerator_1_t661;
+struct IEnumerator_1_t1_877;
 
 #include "mscorlib_System_Object.h"
 
 // LitJson.OrderedDictionaryEnumerator
-struct  OrderedDictionaryEnumerator_t660  : public Object_t
+struct  OrderedDictionaryEnumerator_t5_3  : public Object_t
 {
 	// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>> LitJson.OrderedDictionaryEnumerator::list_enumerator
 	Object_t* ___list_enumerator_0;

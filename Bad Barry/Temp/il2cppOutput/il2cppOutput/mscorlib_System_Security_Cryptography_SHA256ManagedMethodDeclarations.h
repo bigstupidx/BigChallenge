@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.SHA256Managed
-struct SHA256Managed_t1582;
+struct SHA256Managed_t1_594;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.SHA256Managed::.ctor()
-extern "C" void SHA256Managed__ctor_m9507 (SHA256Managed_t1582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed__ctor_m1_3978 (SHA256Managed_t1_594 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA256Managed::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA256Managed_HashCore_m9508 (SHA256Managed_t1582 * __this, ByteU5BU5D_t740* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed_HashCore_m1_3979 (SHA256Managed_t1_594 * __this, ByteU5BU5D_t1_70* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.SHA256Managed::HashFinal()
-extern "C" ByteU5BU5D_t740* SHA256Managed_HashFinal_m9509 (SHA256Managed_t1582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* SHA256Managed_HashFinal_m1_3980 (SHA256Managed_t1_594 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA256Managed::Initialize()
-extern "C" void SHA256Managed_Initialize_m9510 (SHA256Managed_t1582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed_Initialize_m1_3981 (SHA256Managed_t1_594 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA256Managed::ProcessBlock(System.Byte[],System.Int32)
-extern "C" void SHA256Managed_ProcessBlock_m9511 (SHA256Managed_t1582 * __this, ByteU5BU5D_t740* ___inputBuffer, int32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed_ProcessBlock_m1_3982 (SHA256Managed_t1_594 * __this, ByteU5BU5D_t1_70* ___inputBuffer, int32_t ___inputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA256Managed::ProcessFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA256Managed_ProcessFinalBlock_m9512 (SHA256Managed_t1582 * __this, ByteU5BU5D_t740* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed_ProcessFinalBlock_m1_3983 (SHA256Managed_t1_594 * __this, ByteU5BU5D_t1_70* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA256Managed::AddLength(System.UInt64,System.Byte[],System.Int32)
-extern "C" void SHA256Managed_AddLength_m9513 (SHA256Managed_t1582 * __this, uint64_t ___length, ByteU5BU5D_t740* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA256Managed_AddLength_m1_3984 (SHA256Managed_t1_594 * __this, uint64_t ___length, ByteU5BU5D_t1_70* ___buffer, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;

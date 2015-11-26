@@ -14,17 +14,17 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_4MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m18363(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2398 *, int32_t, Int32U5BU5D_t425*, const MethodInfo*))KeyValuePair_2__ctor_m12731_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::get_Key()
-#define KeyValuePair_2_get_Key_m18364(__this, method) (( int32_t (*) (KeyValuePair_2_t2398 *, const MethodInfo*))KeyValuePair_2_get_Key_m12732_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m18365(__this, ___value, method) (( void (*) (KeyValuePair_2_t2398 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m12733_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::get_Value()
-#define KeyValuePair_2_get_Value_m18366(__this, method) (( Int32U5BU5D_t425* (*) (KeyValuePair_2_t2398 *, const MethodInfo*))KeyValuePair_2_get_Value_m12734_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m18367(__this, ___value, method) (( void (*) (KeyValuePair_2_t2398 *, Int32U5BU5D_t425*, const MethodInfo*))KeyValuePair_2_set_Value_m12735_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32[]>::ToString()
-#define KeyValuePair_2_ToString_m18368(__this, method) (( String_t* (*) (KeyValuePair_2_t2398 *, const MethodInfo*))KeyValuePair_2_ToString_m12736_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::.ctor(TKey,TValue)
+#define KeyValuePair_2__ctor_m1_13128(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_1534 *, Object_t *, int32_t, const MethodInfo*))KeyValuePair_2__ctor_m1_6100_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::get_Key()
+#define KeyValuePair_2_get_Key_m1_13129(__this, method) (( Object_t * (*) (KeyValuePair_2_t1_1534 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_6101_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m1_13130(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1534 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_6102_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::get_Value()
+#define KeyValuePair_2_get_Value_m1_13131(__this, method) (( int32_t (*) (KeyValuePair_2_t1_1534 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_6103_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m1_13132(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1534 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Value_m1_6104_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::ToString()
+#define KeyValuePair_2_ToString_m1_13133(__this, method) (( String_t* (*) (KeyValuePair_2_t1_1534 *, const MethodInfo*))KeyValuePair_2_ToString_m1_6105_gshared)(__this, method)

@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_6.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>
-struct  DefaultComparer_t2190  : public Comparer_1_t2189
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Int32>
+struct  DefaultComparer_t1_1158  : public Comparer_1_t1_1156
 {
 };

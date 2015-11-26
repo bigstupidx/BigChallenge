@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Til_0.h"
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping/MappingType
-struct  MappingType_t19 
+struct  MappingType_t8_16 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping/MappingType::value__
 	int32_t ___value___1;

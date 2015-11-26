@@ -11,26 +11,26 @@
 #include <stdint.h>
 
 // System.UInt16[]
-struct UInt16U5BU5D_t978;
+struct UInt16U5BU5D_t1_576;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.QuickSearch
-struct QuickSearch_t1054;
+struct QuickSearch_t2_116;
 // System.Text.RegularExpressions.Interpreter/RepeatContext
-struct RepeatContext_t1051;
+struct RepeatContext_t2_113;
 // System.Text.RegularExpressions.Mark[]
-struct MarkU5BU5D_t1055;
+struct MarkU5BU5D_t2_117;
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 
 #include "System_System_Text_RegularExpressions_BaseMachine.h"
 #include "System_System_Text_RegularExpressions_Interpreter_IntStack.h"
 
 // System.Text.RegularExpressions.Interpreter
-struct  Interpreter_t1053  : public BaseMachine_t1024
+struct  Interpreter_t2_115  : public BaseMachine_t2_83
 {
 	// System.UInt16[] System.Text.RegularExpressions.Interpreter::program
-	UInt16U5BU5D_t978* ___program_1;
+	UInt16U5BU5D_t1_576* ___program_1;
 	// System.Int32 System.Text.RegularExpressions.Interpreter::program_start
 	int32_t ___program_start_2;
 	// System.String System.Text.RegularExpressions.Interpreter::text
@@ -42,23 +42,23 @@ struct  Interpreter_t1053  : public BaseMachine_t1024
 	// System.Int32 System.Text.RegularExpressions.Interpreter::match_min
 	int32_t ___match_min_6;
 	// System.Text.RegularExpressions.QuickSearch System.Text.RegularExpressions.Interpreter::qs
-	QuickSearch_t1054 * ___qs_7;
+	QuickSearch_t2_116 * ___qs_7;
 	// System.Int32 System.Text.RegularExpressions.Interpreter::scan_ptr
 	int32_t ___scan_ptr_8;
 	// System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter::repeat
-	RepeatContext_t1051 * ___repeat_9;
+	RepeatContext_t2_113 * ___repeat_9;
 	// System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter::fast
-	RepeatContext_t1051 * ___fast_10;
+	RepeatContext_t2_113 * ___fast_10;
 	// System.Text.RegularExpressions.Interpreter/IntStack System.Text.RegularExpressions.Interpreter::stack
-	IntStack_t1050  ___stack_11;
+	IntStack_t2_112  ___stack_11;
 	// System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter::deep
-	RepeatContext_t1051 * ___deep_12;
+	RepeatContext_t2_113 * ___deep_12;
 	// System.Text.RegularExpressions.Mark[] System.Text.RegularExpressions.Interpreter::marks
-	MarkU5BU5D_t1055* ___marks_13;
+	MarkU5BU5D_t2_117* ___marks_13;
 	// System.Int32 System.Text.RegularExpressions.Interpreter::mark_start
 	int32_t ___mark_start_14;
 	// System.Int32 System.Text.RegularExpressions.Interpreter::mark_end
 	int32_t ___mark_end_15;
 	// System.Int32[] System.Text.RegularExpressions.Interpreter::groups
-	Int32U5BU5D_t425* ___groups_16;
+	Int32U5BU5D_t1_159* ___groups_16;
 };

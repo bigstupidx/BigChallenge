@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.ParamArrayAttribute
-struct  ParamArrayAttribute_t1119  : public Attribute_t476
+struct  ParamArrayAttribute_t1_37  : public Attribute_t1_2
 {
 };

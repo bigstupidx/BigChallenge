@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.AsymmetricSignatureFormatter
-struct  AsymmetricSignatureFormatter_t857  : public Object_t
+struct  AsymmetricSignatureFormatter_t1_543  : public Object_t
 {
 };

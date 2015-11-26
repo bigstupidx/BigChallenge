@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.WrapperlessIcall
-struct WrapperlessIcall_t544;
+struct WrapperlessIcall_t6_166;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.WrapperlessIcall::.ctor()
-extern "C" void WrapperlessIcall__ctor_m3206 (WrapperlessIcall_t544 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WrapperlessIcall__ctor_m6_1134 (WrapperlessIcall_t6_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,17 +13,17 @@
 // System.Object
 struct Object_t;
 // System.Type[]
-struct TypeU5BU5D_t619;
+struct TypeU5BU5D_t1_31;
 
 #include "mscorlib_System_Object.h"
 
 // System.Convert
-struct  Convert_t631  : public Object_t
+struct  Convert_t1_695  : public Object_t
 {
 };
-struct Convert_t631_StaticFields{
+struct Convert_t1_695_StaticFields{
 	// System.Object System.Convert::DBNull
 	Object_t * ___DBNull_0;
 	// System.Type[] System.Convert::conversionTable
-	TypeU5BU5D_t619* ___conversionTable_1;
+	TypeU5BU5D_t1_31* ___conversionTable_1;
 };

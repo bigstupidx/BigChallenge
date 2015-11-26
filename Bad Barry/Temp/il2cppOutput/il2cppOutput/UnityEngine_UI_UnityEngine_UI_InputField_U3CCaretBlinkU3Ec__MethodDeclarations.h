@@ -13,21 +13,21 @@
 #include <exception>
 
 // UnityEngine.UI.InputField/<CaretBlink>c__Iterator3
-struct U3CCaretBlinkU3Ec__Iterator3_t230;
+struct U3CCaretBlinkU3Ec__Iterator3_t7_97;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::.ctor()
-extern "C" void U3CCaretBlinkU3Ec__Iterator3__ctor_m1093 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CCaretBlinkU3Ec__Iterator3__ctor_m7_611 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" Object_t * U3CCaretBlinkU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1094 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CCaretBlinkU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m7_612 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CCaretBlinkU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1095 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CCaretBlinkU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m7_613 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::MoveNext()
-extern "C" bool U3CCaretBlinkU3Ec__Iterator3_MoveNext_m1096 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CCaretBlinkU3Ec__Iterator3_MoveNext_m7_614 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::Dispose()
-extern "C" void U3CCaretBlinkU3Ec__Iterator3_Dispose_m1097 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CCaretBlinkU3Ec__Iterator3_Dispose_m7_615 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::Reset()
-extern "C" void U3CCaretBlinkU3Ec__Iterator3_Reset_m1098 (U3CCaretBlinkU3Ec__Iterator3_t230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CCaretBlinkU3Ec__Iterator3_Reset_m7_616 (U3CCaretBlinkU3Ec__Iterator3_t7_97 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void RSAParameters_t873_marshal(const RSAParameters_t873& unmarshaled, RSAParameters_t873_marshaled& marshaled);
-extern "C" void RSAParameters_t873_marshal_back(const RSAParameters_t873_marshaled& marshaled, RSAParameters_t873& unmarshaled);
-extern "C" void RSAParameters_t873_marshal_cleanup(RSAParameters_t873_marshaled& marshaled);
+extern "C" void RSAParameters_t1_584_marshal(const RSAParameters_t1_584& unmarshaled, RSAParameters_t1_584_marshaled& marshaled);
+extern "C" void RSAParameters_t1_584_marshal_back(const RSAParameters_t1_584_marshaled& marshaled, RSAParameters_t1_584& unmarshaled);
+extern "C" void RSAParameters_t1_584_marshal_cleanup(RSAParameters_t1_584_marshaled& marshaled);

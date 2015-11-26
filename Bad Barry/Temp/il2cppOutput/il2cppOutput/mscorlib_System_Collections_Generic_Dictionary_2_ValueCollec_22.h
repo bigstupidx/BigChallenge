@@ -10,14 +10,13 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Type,LitJson.ObjectMetadata>
-struct Dictionary_2_t716;
 
-#include "mscorlib_System_Object.h"
+#include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__15.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ObjectMetadata>
-struct  ValueCollection_t2367  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>
+struct  Enumerator_t1_1260 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ObjectMetadata>::dictionary
-	Dictionary_2_t716 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
+	Enumerator_t1_1261  ___host_enumerator_0;
 };

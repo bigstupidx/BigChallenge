@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.SoapServices/TypeInfo
-struct  TypeInfo_t1514  : public Object_t
+struct  TypeInfo_t1_494  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices/TypeInfo::Attributes
-	Hashtable_t836 * ___Attributes_0;
+	Hashtable_t1_171 * ___Attributes_0;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices/TypeInfo::Elements
-	Hashtable_t836 * ___Elements_1;
+	Hashtable_t1_171 * ___Elements_1;
 };

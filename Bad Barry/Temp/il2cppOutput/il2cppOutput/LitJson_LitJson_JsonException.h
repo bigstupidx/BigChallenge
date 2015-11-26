@@ -14,6 +14,6 @@
 #include "mscorlib_System_ApplicationException.h"
 
 // LitJson.JsonException
-struct  JsonException_t662  : public ApplicationException_t663
+struct  JsonException_t5_4  : public ApplicationException_t1_684
 {
 };

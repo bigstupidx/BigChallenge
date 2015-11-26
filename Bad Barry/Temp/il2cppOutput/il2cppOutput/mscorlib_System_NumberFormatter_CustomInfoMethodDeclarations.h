@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.NumberFormatter/CustomInfo
-struct CustomInfo_t1714;
+struct CustomInfo_t1_743;
 // System.String
 struct String_t;
 // System.Globalization.NumberFormatInfo
-struct NumberFormatInfo_t690;
+struct NumberFormatInfo_t1_203;
 // System.Text.StringBuilder
-struct StringBuilder_t358;
+struct StringBuilder_t1_144;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.NumberFormatter/CustomInfo::.ctor()
-extern "C" void CustomInfo__ctor_m10595 (CustomInfo_t1714 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CustomInfo__ctor_m1_5183 (CustomInfo_t1_743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NumberFormatter/CustomInfo::GetActiveSection(System.String,System.Boolean&,System.Boolean,System.Int32&,System.Int32&)
-extern "C" void CustomInfo_GetActiveSection_m10596 (Object_t * __this /* static, unused */, String_t* ___format, bool* ___positive, bool ___zero, int32_t* ___offset, int32_t* ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CustomInfo_GetActiveSection_m1_5184 (Object_t * __this /* static, unused */, String_t* ___format, bool* ___positive, bool ___zero, int32_t* ___offset, int32_t* ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.NumberFormatter/CustomInfo System.NumberFormatter/CustomInfo::Parse(System.String,System.Int32,System.Int32,System.Globalization.NumberFormatInfo)
-extern "C" CustomInfo_t1714 * CustomInfo_Parse_m10597 (Object_t * __this /* static, unused */, String_t* ___format, int32_t ___offset, int32_t ___length, NumberFormatInfo_t690 * ___nfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CustomInfo_t1_743 * CustomInfo_Parse_m1_5185 (Object_t * __this /* static, unused */, String_t* ___format, int32_t ___offset, int32_t ___length, NumberFormatInfo_t1_203 * ___nfi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.NumberFormatter/CustomInfo::Format(System.String,System.Int32,System.Int32,System.Globalization.NumberFormatInfo,System.Boolean,System.Text.StringBuilder,System.Text.StringBuilder,System.Text.StringBuilder)
-extern "C" String_t* CustomInfo_Format_m10598 (CustomInfo_t1714 * __this, String_t* ___format, int32_t ___offset, int32_t ___length, NumberFormatInfo_t690 * ___nfi, bool ___positive, StringBuilder_t358 * ___sb_int, StringBuilder_t358 * ___sb_dec, StringBuilder_t358 * ___sb_exp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CustomInfo_Format_m1_5186 (CustomInfo_t1_743 * __this, String_t* ___format, int32_t ___offset, int32_t ___length, NumberFormatInfo_t1_203 * ___nfi, bool ___positive, StringBuilder_t1_144 * ___sb_int, StringBuilder_t1_144 * ___sb_dec, StringBuilder_t1_144 * ___sb_exp, const MethodInfo* method) IL2CPP_METHOD_ATTR;

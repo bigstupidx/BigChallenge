@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t782;
+struct HashAlgorithm_t1_560;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
 
 // Mono.Security.Cryptography.HMAC
-struct  HMAC_t819  : public KeyedHashAlgorithm_t820
+struct  HMAC_t3_53  : public KeyedHashAlgorithm_t1_559
 {
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.HMAC::hash
-	HashAlgorithm_t782 * ___hash_5;
+	HashAlgorithm_t1_560 * ___hash_5;
 	// System.Boolean Mono.Security.Cryptography.HMAC::hashing
 	bool ___hashing_6;
 	// System.Byte[] Mono.Security.Cryptography.HMAC::innerPad
-	ByteU5BU5D_t740* ___innerPad_7;
+	ByteU5BU5D_t1_70* ___innerPad_7;
 	// System.Byte[] Mono.Security.Cryptography.HMAC::outerPad
-	ByteU5BU5D_t740* ___outerPad_8;
+	ByteU5BU5D_t1_70* ___outerPad_8;
 };

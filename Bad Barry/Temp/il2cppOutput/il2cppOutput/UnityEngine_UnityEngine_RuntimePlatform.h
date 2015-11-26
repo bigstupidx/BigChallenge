@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_RuntimePlatform.h"
 
 // UnityEngine.RuntimePlatform
-struct  RuntimePlatform_t436 
+struct  RuntimePlatform_t6_8 
 {
 	// System.Int32 UnityEngine.RuntimePlatform::value__
 	int32_t ___value___1;

@@ -12,30 +12,19 @@
 #include <assert.h>
 #include <exception>
 
-// System.Object
-struct Object_t;
-// System.String
-struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_12.h"
-#include "LitJson_LitJson_PropertyMetadata.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m17397_gshared (KeyValuePair_2_t2323 * __this, Object_t * ___key, PropertyMetadata_t664  ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m17397(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2323 *, Object_t *, PropertyMetadata_t664 , const MethodInfo*))KeyValuePair_2__ctor_m17397_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::get_Key()
-extern "C" Object_t * KeyValuePair_2_get_Key_m17398_gshared (KeyValuePair_2_t2323 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m17398(__this, method) (( Object_t * (*) (KeyValuePair_2_t2323 *, const MethodInfo*))KeyValuePair_2_get_Key_m17398_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m17399_gshared (KeyValuePair_2_t2323 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m17399(__this, ___value, method) (( void (*) (KeyValuePair_2_t2323 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m17399_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::get_Value()
-extern "C" PropertyMetadata_t664  KeyValuePair_2_get_Value_m17400_gshared (KeyValuePair_2_t2323 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m17400(__this, method) (( PropertyMetadata_t664  (*) (KeyValuePair_2_t2323 *, const MethodInfo*))KeyValuePair_2_get_Value_m17400_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m17401_gshared (KeyValuePair_2_t2323 * __this, PropertyMetadata_t664  ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m17401(__this, ___value, method) (( void (*) (KeyValuePair_2_t2323 *, PropertyMetadata_t664 , const MethodInfo*))KeyValuePair_2_set_Value_m17401_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m17402_gshared (KeyValuePair_2_t2323 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m17402(__this, method) (( String_t* (*) (KeyValuePair_2_t2323 *, const MethodInfo*))KeyValuePair_2_ToString_m17402_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::.ctor(TKey,TValue)
+#define KeyValuePair_2__ctor_m1_8304(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_1236 *, Type_t *, Object_t*, const MethodInfo*))KeyValuePair_2__ctor_m1_6296_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::get_Key()
+#define KeyValuePair_2_get_Key_m1_8305(__this, method) (( Type_t * (*) (KeyValuePair_2_t1_1236 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_6297_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m1_8306(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1236 *, Type_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_6298_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::get_Value()
+#define KeyValuePair_2_get_Value_m1_8307(__this, method) (( Object_t* (*) (KeyValuePair_2_t1_1236 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_6299_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m1_8308(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1236 *, Object_t*, const MethodInfo*))KeyValuePair_2_set_Value_m1_6300_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::ToString()
+#define KeyValuePair_2_ToString_m1_8309(__this, method) (( String_t* (*) (KeyValuePair_2_t1_1236 *, const MethodInfo*))KeyValuePair_2_ToString_m1_6301_gshared)(__this, method)

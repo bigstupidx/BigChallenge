@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Axis.h"
 
 // UnityEngine.UI.Scrollbar/Axis
-struct  Axis_t257 
+struct  Axis_t7_111 
 {
 	// System.Int32 UnityEngine.UI.Scrollbar/Axis::value__
 	int32_t ___value___1;

@@ -11,49 +11,47 @@
 #include <stdint.h>
 
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1834;
+struct LinkU5BU5D_t1_1019;
 // System.String[]
-struct StringU5BU5D_t573;
-// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis[]
-struct VirtualAxisU5BU5D_t1835;
+struct StringU5BU5D_t1_198;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t1837;
+struct IEqualityComparer_1_t1_1021;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis,System.Collections.DictionaryEntry>
-struct Transform_1_t1836;
+struct SerializationInfo_t1_176;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
+struct Transform_1_t1_1020;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
-struct  Dictionary_2_t27  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct  Dictionary_2_t1_76  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::table
-	Int32U5BU5D_t425* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::linkSlots
-	LinkU5BU5D_t1834* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::keySlots
-	StringU5BU5D_t573* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::valueSlots
-	VirtualAxisU5BU5D_t1835* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2::table
+	Int32U5BU5D_t1_159* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2::linkSlots
+	LinkU5BU5D_t1_1019* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2::keySlots
+	StringU5BU5D_t1_198* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2::valueSlots
+	Int32U5BU5D_t1_159* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::serialization_info
-	SerializationInfo_t621 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2::serialization_info
+	SerializationInfo_t1_176 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t27_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::<>f__am$cacheB
-	Transform_1_t1836 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t1_76_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2::<>f__am$cacheB
+	Transform_1_t1_1020 * ___U3CU3Ef__amU24cacheB_15;
 };

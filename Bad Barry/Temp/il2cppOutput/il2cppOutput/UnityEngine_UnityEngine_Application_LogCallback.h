@@ -13,9 +13,9 @@
 // System.String
 struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -24,6 +24,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_LogType.h"
 
 // UnityEngine.Application/LogCallback
-struct  LogCallback_t484  : public MulticastDelegate_t227
+struct  LogCallback_t6_80  : public MulticastDelegate_t1_21
 {
 };

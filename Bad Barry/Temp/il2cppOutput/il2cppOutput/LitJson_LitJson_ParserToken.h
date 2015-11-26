@@ -15,7 +15,7 @@
 #include "LitJson_LitJson_ParserToken.h"
 
 // LitJson.ParserToken
-struct  ParserToken_t694 
+struct  ParserToken_t5_22 
 {
 	// System.Int32 LitJson.ParserToken::value__
 	int32_t ___value___1;

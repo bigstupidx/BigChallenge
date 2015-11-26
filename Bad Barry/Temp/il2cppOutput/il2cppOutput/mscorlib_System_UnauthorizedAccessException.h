@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.UnauthorizedAccessException
-struct  UnauthorizedAccessException_t1731  : public SystemException_t1104
+struct  UnauthorizedAccessException_t1_762  : public SystemException_t1_147
 {
 };

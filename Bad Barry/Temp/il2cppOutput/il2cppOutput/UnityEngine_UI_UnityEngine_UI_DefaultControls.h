@@ -16,20 +16,20 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.UI.DefaultControls
-struct  DefaultControls_t177  : public Object_t
+struct  DefaultControls_t7_61  : public Object_t
 {
 };
-struct DefaultControls_t177_StaticFields{
+struct DefaultControls_t7_61_StaticFields{
 	// UnityEngine.Vector2 UnityEngine.UI.DefaultControls::s_ThickElementSize
-	Vector2_t25  ___s_ThickElementSize_3;
+	Vector2_t6_48  ___s_ThickElementSize_3;
 	// UnityEngine.Vector2 UnityEngine.UI.DefaultControls::s_ThinElementSize
-	Vector2_t25  ___s_ThinElementSize_4;
+	Vector2_t6_48  ___s_ThinElementSize_4;
 	// UnityEngine.Vector2 UnityEngine.UI.DefaultControls::s_ImageElementSize
-	Vector2_t25  ___s_ImageElementSize_5;
+	Vector2_t6_48  ___s_ImageElementSize_5;
 	// UnityEngine.Color UnityEngine.UI.DefaultControls::s_DefaultSelectableColor
-	Color_t101  ___s_DefaultSelectableColor_6;
+	Color_t6_40  ___s_DefaultSelectableColor_6;
 	// UnityEngine.Color UnityEngine.UI.DefaultControls::s_PanelColor
-	Color_t101  ___s_PanelColor_7;
+	Color_t6_40  ___s_PanelColor_7;
 	// UnityEngine.Color UnityEngine.UI.DefaultControls::s_TextColor
-	Color_t101  ___s_TextColor_8;
+	Color_t6_40  ___s_TextColor_8;
 };

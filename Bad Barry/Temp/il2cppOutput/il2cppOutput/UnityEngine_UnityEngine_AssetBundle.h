@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.AssetBundle
-struct  AssetBundle_t433  : public Object_t79
+struct  AssetBundle_t6_4  : public Object_t6_5
 {
 };

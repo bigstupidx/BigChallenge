@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // Mono.Security.Protocol.Tls.CipherSuite
-struct CipherSuite_t826;
+struct CipherSuite_t3_59;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Protocol.Tls.SecurityParameters
-struct  SecurityParameters_t840  : public Object_t
+struct  SecurityParameters_t3_72  : public Object_t
 {
 	// Mono.Security.Protocol.Tls.CipherSuite Mono.Security.Protocol.Tls.SecurityParameters::cipher
-	CipherSuite_t826 * ___cipher_0;
+	CipherSuite_t3_59 * ___cipher_0;
 	// System.Byte[] Mono.Security.Protocol.Tls.SecurityParameters::clientWriteMAC
-	ByteU5BU5D_t740* ___clientWriteMAC_1;
+	ByteU5BU5D_t1_70* ___clientWriteMAC_1;
 	// System.Byte[] Mono.Security.Protocol.Tls.SecurityParameters::serverWriteMAC
-	ByteU5BU5D_t740* ___serverWriteMAC_2;
+	ByteU5BU5D_t1_70* ___serverWriteMAC_2;
 };

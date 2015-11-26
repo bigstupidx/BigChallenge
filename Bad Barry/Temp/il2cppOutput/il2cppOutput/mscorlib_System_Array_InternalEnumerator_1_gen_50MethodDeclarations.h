@@ -19,23 +19,23 @@ struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_50.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_14.h"
+#include "mscorlib_System_Resources_ResourceReader_ResourceCacheItem.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m17415_gshared (InternalEnumerator_1_t2328 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m17415(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2328 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17415_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17416_gshared (InternalEnumerator_1_t2328 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17416(__this, method) (( void (*) (InternalEnumerator_1_t2328 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17416_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17417_gshared (InternalEnumerator_1_t2328 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17417(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2328 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17417_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m17418_gshared (InternalEnumerator_1_t2328 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m17418(__this, method) (( void (*) (InternalEnumerator_1_t2328 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17418_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m17419_gshared (InternalEnumerator_1_t2328 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m17419(__this, method) (( bool (*) (InternalEnumerator_1_t2328 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17419_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>>::get_Current()
-extern "C" KeyValuePair_2_t2327  InternalEnumerator_1_get_Current_m17420_gshared (InternalEnumerator_1_t2328 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m17420(__this, method) (( KeyValuePair_2_t2327  (*) (InternalEnumerator_1_t2328 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17420_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m1_6818_gshared (InternalEnumerator_1_t1_1103 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_6818(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1103 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_6818_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6819_gshared (InternalEnumerator_1_t1_1103 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6819(__this, method) (( void (*) (InternalEnumerator_1_t1_1103 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_6819_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6820_gshared (InternalEnumerator_1_t1_1103 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6820(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1103 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_6820_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m1_6821_gshared (InternalEnumerator_1_t1_1103 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_6821(__this, method) (( void (*) (InternalEnumerator_1_t1_1103 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_6821_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m1_6822_gshared (InternalEnumerator_1_t1_1103 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_6822(__this, method) (( bool (*) (InternalEnumerator_1_t1_1103 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_6822_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Resources.ResourceReader/ResourceCacheItem>::get_Current()
+extern "C" ResourceCacheItem_t1_361  InternalEnumerator_1_get_Current_m1_6823_gshared (InternalEnumerator_1_t1_1103 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_6823(__this, method) (( ResourceCacheItem_t1_361  (*) (InternalEnumerator_1_t1_1103 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_6823_gshared)(__this, method)

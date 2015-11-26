@@ -15,53 +15,53 @@
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
-struct ActivatedClientTypeEntry_t1492;
+struct ActivatedClientTypeEntry_t1_472;
 // System.Type
 struct Type_t;
 // System.Runtime.Remoting.ActivatedServiceTypeEntry
-struct ActivatedServiceTypeEntry_t1494;
+struct ActivatedServiceTypeEntry_t1_474;
 // System.Runtime.Remoting.WellKnownClientTypeEntry
-struct WellKnownClientTypeEntry_t1517;
+struct WellKnownClientTypeEntry_t1_497;
 // System.Runtime.Remoting.WellKnownServiceTypeEntry
-struct WellKnownServiceTypeEntry_t1519;
+struct WellKnownServiceTypeEntry_t1_499;
 // System.Runtime.Remoting.ChannelData
-struct ChannelData_t1505;
+struct ChannelData_t1_485;
 // System.Runtime.Remoting.ProviderData
-struct ProviderData_t1506;
+struct ProviderData_t1_486;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.RemotingConfiguration::.cctor()
-extern "C" void RemotingConfiguration__cctor_m8997 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration__cctor_m1_3409 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ApplicationName()
-extern "C" String_t* RemotingConfiguration_get_ApplicationName_m8998 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingConfiguration_get_ApplicationName_m1_3410 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::set_ApplicationName(System.String)
-extern "C" void RemotingConfiguration_set_ApplicationName_m8999 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_set_ApplicationName_m1_3411 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingConfiguration::get_ProcessId()
-extern "C" String_t* RemotingConfiguration_get_ProcessId_m9000 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingConfiguration_get_ProcessId_m1_3412 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::LoadDefaultDelayedChannels()
-extern "C" void RemotingConfiguration_LoadDefaultDelayedChannels_m9001 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_LoadDefaultDelayedChannels_m1_3413 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ActivatedClientTypeEntry System.Runtime.Remoting.RemotingConfiguration::IsRemotelyActivatedClientType(System.Type)
-extern "C" ActivatedClientTypeEntry_t1492 * RemotingConfiguration_IsRemotelyActivatedClientType_m9002 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ActivatedClientTypeEntry_t1_472 * RemotingConfiguration_IsRemotelyActivatedClientType_m1_3414 (Object_t * __this /* static, unused */, Type_t * ___svrType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterActivatedClientType(System.Runtime.Remoting.ActivatedClientTypeEntry)
-extern "C" void RemotingConfiguration_RegisterActivatedClientType_m9003 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t1492 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterActivatedClientType_m1_3415 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t1_472 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterActivatedServiceType(System.Runtime.Remoting.ActivatedServiceTypeEntry)
-extern "C" void RemotingConfiguration_RegisterActivatedServiceType_m9004 (Object_t * __this /* static, unused */, ActivatedServiceTypeEntry_t1494 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterActivatedServiceType_m1_3416 (Object_t * __this /* static, unused */, ActivatedServiceTypeEntry_t1_474 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterWellKnownClientType(System.Runtime.Remoting.WellKnownClientTypeEntry)
-extern "C" void RemotingConfiguration_RegisterWellKnownClientType_m9005 (Object_t * __this /* static, unused */, WellKnownClientTypeEntry_t1517 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterWellKnownClientType_m1_3417 (Object_t * __this /* static, unused */, WellKnownClientTypeEntry_t1_497 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterWellKnownServiceType(System.Runtime.Remoting.WellKnownServiceTypeEntry)
-extern "C" void RemotingConfiguration_RegisterWellKnownServiceType_m9006 (Object_t * __this /* static, unused */, WellKnownServiceTypeEntry_t1519 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterWellKnownServiceType_m1_3418 (Object_t * __this /* static, unused */, WellKnownServiceTypeEntry_t1_499 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterChannelTemplate(System.Runtime.Remoting.ChannelData)
-extern "C" void RemotingConfiguration_RegisterChannelTemplate_m9007 (Object_t * __this /* static, unused */, ChannelData_t1505 * ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterChannelTemplate_m1_3419 (Object_t * __this /* static, unused */, ChannelData_t1_485 * ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterClientProviderTemplate(System.Runtime.Remoting.ProviderData)
-extern "C" void RemotingConfiguration_RegisterClientProviderTemplate_m9008 (Object_t * __this /* static, unused */, ProviderData_t1506 * ___prov, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterClientProviderTemplate_m1_3420 (Object_t * __this /* static, unused */, ProviderData_t1_486 * ___prov, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterServerProviderTemplate(System.Runtime.Remoting.ProviderData)
-extern "C" void RemotingConfiguration_RegisterServerProviderTemplate_m9009 (Object_t * __this /* static, unused */, ProviderData_t1506 * ___prov, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterServerProviderTemplate_m1_3421 (Object_t * __this /* static, unused */, ProviderData_t1_486 * ___prov, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterChannels(System.Collections.ArrayList,System.Boolean)
-extern "C" void RemotingConfiguration_RegisterChannels_m9010 (Object_t * __this /* static, unused */, ArrayList_t771 * ___channels, bool ___onlyDelayed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterChannels_m1_3422 (Object_t * __this /* static, unused */, ArrayList_t1_112 * ___channels, bool ___onlyDelayed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::RegisterTypes(System.Collections.ArrayList)
-extern "C" void RemotingConfiguration_RegisterTypes_m9011 (Object_t * __this /* static, unused */, ArrayList_t771 * ___types, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_RegisterTypes_m1_3423 (Object_t * __this /* static, unused */, ArrayList_t1_112 * ___types, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingConfiguration::SetCustomErrorsMode(System.String)
-extern "C" void RemotingConfiguration_SetCustomErrorsMode_m9012 (Object_t * __this /* static, unused */, String_t* ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingConfiguration_SetCustomErrorsMode_m1_3424 (Object_t * __this /* static, unused */, String_t* ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;

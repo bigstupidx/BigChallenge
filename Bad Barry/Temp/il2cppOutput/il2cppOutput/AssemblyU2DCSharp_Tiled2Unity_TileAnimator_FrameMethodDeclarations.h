@@ -13,9 +13,9 @@
 #include <exception>
 
 // Tiled2Unity.TileAnimator/Frame
-struct Frame_t66;
+struct Frame_t8_48;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Tiled2Unity.TileAnimator/Frame::.ctor()
-extern "C" void Frame__ctor_m304 (Frame_t66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Frame__ctor_m8_296 (Frame_t8_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

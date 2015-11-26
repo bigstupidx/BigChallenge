@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
-struct X509ExtensionEnumerator_t1011;
+struct X509ExtensionEnumerator_t2_69;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Extension
-struct X509Extension_t996;
+struct X509Extension_t2_52;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::.ctor(System.Collections.ArrayList)
-extern "C" void X509ExtensionEnumerator__ctor_m5151 (X509ExtensionEnumerator_t1011 * __this, ArrayList_t771 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionEnumerator__ctor_m2_374 (X509ExtensionEnumerator_t2_69 * __this, ArrayList_t1_112 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * X509ExtensionEnumerator_System_Collections_IEnumerator_get_Current_m5152 (X509ExtensionEnumerator_t1011 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ExtensionEnumerator_System_Collections_IEnumerator_get_Current_m2_375 (X509ExtensionEnumerator_t2_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Extension System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::get_Current()
-extern "C" X509Extension_t996 * X509ExtensionEnumerator_get_Current_m5153 (X509ExtensionEnumerator_t1011 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Extension_t2_52 * X509ExtensionEnumerator_get_Current_m2_376 (X509ExtensionEnumerator_t2_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::MoveNext()
-extern "C" bool X509ExtensionEnumerator_MoveNext_m5154 (X509ExtensionEnumerator_t1011 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509ExtensionEnumerator_MoveNext_m2_377 (X509ExtensionEnumerator_t2_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator::Reset()
-extern "C" void X509ExtensionEnumerator_Reset_m5155 (X509ExtensionEnumerator_t1011 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionEnumerator_Reset_m2_378 (X509ExtensionEnumerator_t2_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

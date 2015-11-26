@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Direction.h"
 
 // UnityEngine.UI.Scrollbar/Direction
-struct  Direction_t255 
+struct  Direction_t7_109 
 {
 	// System.Int32 UnityEngine.UI.Scrollbar/Direction::value__
 	int32_t ___value___1;

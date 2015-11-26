@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.IList`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct IList_1_t2016;
+// System.Collections.Generic.IList`1<UnityEngine.UIVertex>
+struct IList_1_t1_922;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct  ReadOnlyCollection_1_t2015  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UIVertex>
+struct  ReadOnlyCollection_1_t1_1359  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Dropdown/DropdownItem>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;
 };

@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Vector3
-struct  Vector3_t12 
+struct  Vector3_t6_49 
 {
 	// System.Single UnityEngine.Vector3::x
 	float ___x_1;

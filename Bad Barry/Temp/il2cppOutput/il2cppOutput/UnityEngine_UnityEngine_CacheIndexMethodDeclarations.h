@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void CacheIndex_t482_marshal(const CacheIndex_t482& unmarshaled, CacheIndex_t482_marshaled& marshaled);
-extern "C" void CacheIndex_t482_marshal_back(const CacheIndex_t482_marshaled& marshaled, CacheIndex_t482& unmarshaled);
-extern "C" void CacheIndex_t482_marshal_cleanup(CacheIndex_t482_marshaled& marshaled);
+extern "C" void CacheIndex_t6_78_marshal(const CacheIndex_t6_78& unmarshaled, CacheIndex_t6_78_marshaled& marshaled);
+extern "C" void CacheIndex_t6_78_marshal_back(const CacheIndex_t6_78_marshaled& marshaled, CacheIndex_t6_78& unmarshaled);
+extern "C" void CacheIndex_t6_78_marshal_cleanup(CacheIndex_t6_78_marshaled& marshaled);

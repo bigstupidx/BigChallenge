@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_StateMachineBehaviour.h"
 
 // rotate
-struct  rotate_t40  : public StateMachineBehaviour_t39
+struct  rotate_t8_28  : public StateMachineBehaviour_t6_215
 {
 };

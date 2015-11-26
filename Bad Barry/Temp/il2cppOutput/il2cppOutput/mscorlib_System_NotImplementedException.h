@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.NotImplementedException
-struct  NotImplementedException_t754  : public SystemException_t1104
+struct  NotImplementedException_t1_740  : public SystemException_t1_147
 {
 };

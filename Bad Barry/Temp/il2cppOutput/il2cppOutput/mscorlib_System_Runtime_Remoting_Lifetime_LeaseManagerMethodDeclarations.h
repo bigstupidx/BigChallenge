@@ -13,12 +13,12 @@
 #include <exception>
 
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct LeaseManager_t1449;
+struct LeaseManager_t1_427;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Void System.Runtime.Remoting.Lifetime.LeaseManager::.ctor()
-extern "C" void LeaseManager__ctor_m8769 (LeaseManager_t1449 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LeaseManager__ctor_m1_3181 (LeaseManager_t1_427 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Lifetime.LeaseManager::SetPollTime(System.TimeSpan)
-extern "C" void LeaseManager_SetPollTime_m8770 (LeaseManager_t1449 * __this, TimeSpan_t1008  ___timeSpan, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LeaseManager_SetPollTime_m1_3182 (LeaseManager_t1_427 * __this, TimeSpan_t1_209  ___timeSpan, const MethodInfo* method) IL2CPP_METHOD_ATTR;

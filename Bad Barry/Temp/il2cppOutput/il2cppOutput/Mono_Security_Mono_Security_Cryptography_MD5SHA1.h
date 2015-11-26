@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t782;
+struct HashAlgorithm_t1_560;
 
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 
 // Mono.Security.Cryptography.MD5SHA1
-struct  MD5SHA1_t821  : public HashAlgorithm_t782
+struct  MD5SHA1_t3_54  : public HashAlgorithm_t1_560
 {
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.MD5SHA1::md5
-	HashAlgorithm_t782 * ___md5_4;
+	HashAlgorithm_t1_560 * ___md5_4;
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Cryptography.MD5SHA1::sha
-	HashAlgorithm_t782 * ___sha_5;
+	HashAlgorithm_t1_560 * ___sha_5;
 	// System.Boolean Mono.Security.Cryptography.MD5SHA1::hashing
 	bool ___hashing_6;
 };

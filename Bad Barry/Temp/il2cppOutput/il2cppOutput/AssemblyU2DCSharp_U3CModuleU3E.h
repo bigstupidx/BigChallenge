@@ -13,6 +13,6 @@
 
 
 // <Module>
-struct  U3CModuleU3E_t0 
+struct  U3CModuleU3E_t8_0 
 {
 };

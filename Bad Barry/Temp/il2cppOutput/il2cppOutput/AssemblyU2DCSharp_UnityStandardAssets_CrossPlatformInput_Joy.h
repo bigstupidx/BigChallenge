@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Joy.h"
 
 // UnityStandardAssets.CrossPlatformInput.Joystick/AxisOption
-struct  AxisOption_t10 
+struct  AxisOption_t8_8 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.Joystick/AxisOption::value__
 	int32_t ___value___1;

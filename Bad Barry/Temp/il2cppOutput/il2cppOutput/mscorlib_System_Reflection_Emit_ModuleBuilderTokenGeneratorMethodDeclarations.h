@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Reflection.Emit.ModuleBuilderTokenGenerator
-struct ModuleBuilderTokenGenerator_t1318;
+struct ModuleBuilderTokenGenerator_t1_292;
 // System.Reflection.Emit.ModuleBuilder
-struct ModuleBuilder_t1316;
+struct ModuleBuilder_t1_290;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.Emit.ModuleBuilderTokenGenerator::.ctor(System.Reflection.Emit.ModuleBuilder)
-extern "C" void ModuleBuilderTokenGenerator__ctor_m8185 (ModuleBuilderTokenGenerator_t1318 * __this, ModuleBuilder_t1316 * ___mb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ModuleBuilderTokenGenerator__ctor_m1_2596 (ModuleBuilderTokenGenerator_t1_292 * __this, ModuleBuilder_t1_290 * ___mb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.ModuleBuilderTokenGenerator::GetToken(System.Reflection.MemberInfo)
-extern "C" int32_t ModuleBuilderTokenGenerator_GetToken_m8186 (ModuleBuilderTokenGenerator_t1318 * __this, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ModuleBuilderTokenGenerator_GetToken_m1_2597 (ModuleBuilderTokenGenerator_t1_292 * __this, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;

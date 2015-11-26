@@ -12,18 +12,18 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
-struct DefaultComparer_t2477;
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector2>
+struct DefaultComparer_t1_1318;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
+#include "UnityEngine_UnityEngine_Vector2.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::.ctor()
-extern "C" void DefaultComparer__ctor_m19046_gshared (DefaultComparer_t2477 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m19046(__this, method) (( void (*) (DefaultComparer_t2477 *, const MethodInfo*))DefaultComparer__ctor_m19046_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m19047_gshared (DefaultComparer_t2477 * __this, CustomAttributeTypedArgument_t1353  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m19047(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t2477 *, CustomAttributeTypedArgument_t1353 , const MethodInfo*))DefaultComparer_GetHashCode_m19047_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m19048_gshared (DefaultComparer_t2477 * __this, CustomAttributeTypedArgument_t1353  ___x, CustomAttributeTypedArgument_t1353  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m19048(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t2477 *, CustomAttributeTypedArgument_t1353 , CustomAttributeTypedArgument_t1353 , const MethodInfo*))DefaultComparer_Equals_m19048_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector2>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_9465_gshared (DefaultComparer_t1_1318 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_9465(__this, method) (( void (*) (DefaultComparer_t1_1318 *, const MethodInfo*))DefaultComparer__ctor_m1_9465_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector2>::GetHashCode(T)
+extern "C" int32_t DefaultComparer_GetHashCode_m1_9466_gshared (DefaultComparer_t1_1318 * __this, Vector2_t6_48  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m1_9466(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1318 *, Vector2_t6_48 , const MethodInfo*))DefaultComparer_GetHashCode_m1_9466_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector2>::Equals(T,T)
+extern "C" bool DefaultComparer_Equals_m1_9467_gshared (DefaultComparer_t1_1318 * __this, Vector2_t6_48  ___x, Vector2_t6_48  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m1_9467(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1318 *, Vector2_t6_48 , Vector2_t6_48 , const MethodInfo*))DefaultComparer_Equals_m1_9467_gshared)(__this, ___x, ___y, method)

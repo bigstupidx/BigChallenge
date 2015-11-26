@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.ExecutionEngineException
-struct  ExecutionEngineException_t1694  : public SystemException_t1104
+struct  ExecutionEngineException_t1_716  : public SystemException_t1_147
 {
 };

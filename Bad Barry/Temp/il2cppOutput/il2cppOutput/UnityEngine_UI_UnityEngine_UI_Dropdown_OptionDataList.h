@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
-struct List_1_t183;
+struct List_1_t1_940;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.Dropdown/OptionDataList
-struct  OptionDataList_t182  : public Object_t
+struct  OptionDataList_t7_67  : public Object_t
 {
 	// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown/OptionDataList::m_Options
-	List_1_t183 * ___m_Options_0;
+	List_1_t1_940 * ___m_Options_0;
 };

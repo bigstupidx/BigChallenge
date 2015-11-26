@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Byte[,]
-struct ByteU5BU2CU5D_t1559;
+struct ByteU5BU2CU5D_t1_551;
 
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 
 // System.Security.Cryptography.DES
-struct  DES_t923  : public SymmetricAlgorithm_t739
+struct  DES_t1_550  : public SymmetricAlgorithm_t1_109
 {
 };
-struct DES_t923_StaticFields{
+struct DES_t1_550_StaticFields{
 	// System.Byte[,] System.Security.Cryptography.DES::weakKeys
-	ByteU5BU2CU5D_t1559* ___weakKeys_10;
+	ByteU5BU2CU5D_t1_551* ___weakKeys_10;
 	// System.Byte[,] System.Security.Cryptography.DES::semiWeakKeys
-	ByteU5BU2CU5D_t1559* ___semiWeakKeys_11;
+	ByteU5BU2CU5D_t1_551* ___semiWeakKeys_11;
 };

@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct List_1_t114;
+struct List_1_t1_931;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // UnityEngine.EventSystems.EventTrigger
-struct  EventTrigger_t113  : public MonoBehaviour_t2
+struct  EventTrigger_t7_8  : public MonoBehaviour_t6_88
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> UnityEngine.EventSystems.EventTrigger::m_Delegates
-	List_1_t114 * ___m_Delegates_2;
+	List_1_t1_931 * ___m_Delegates_2;
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry> UnityEngine.EventSystems.EventTrigger::delegates
-	List_1_t114 * ___delegates_3;
+	List_1_t1_931 * ___delegates_3;
 };

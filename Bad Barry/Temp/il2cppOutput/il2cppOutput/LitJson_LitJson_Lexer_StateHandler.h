@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // LitJson.FsmContext
-struct FsmContext_t691;
+struct FsmContext_t5_19;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
 // LitJson.Lexer/StateHandler
-struct  StateHandler_t692  : public MulticastDelegate_t227
+struct  StateHandler_t5_20  : public MulticastDelegate_t1_21
 {
 };

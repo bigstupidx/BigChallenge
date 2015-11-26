@@ -14,10 +14,10 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.ScriptableObject
-struct  ScriptableObject_t440  : public Object_t79
+struct  ScriptableObject_t6_15  : public Object_t6_5
 {
 };
 // Native definition for marshalling of: UnityEngine.ScriptableObject
-struct ScriptableObject_t440_marshaled
+struct ScriptableObject_t6_15_marshaled
 {
 };

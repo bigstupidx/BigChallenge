@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Type[]
-struct TypeU5BU5D_t619;
+// System.Int32[]
+struct Int32U5BU5D_t1_159;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Stack`1<System.Type>
-struct  Stack_1_t634  : public Object_t
+// System.Collections.Generic.Stack`1<System.Int32>
+struct  Stack_1_t2_158  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<System.Type>::_array
-	TypeU5BU5D_t619* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Type>::_size
+	// T[] System.Collections.Generic.Stack`1::_array
+	Int32U5BU5D_t1_159* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Type>::_version
+	// System.Int32 System.Collections.Generic.Stack`1::_version
 	int32_t ____version_2;
 };

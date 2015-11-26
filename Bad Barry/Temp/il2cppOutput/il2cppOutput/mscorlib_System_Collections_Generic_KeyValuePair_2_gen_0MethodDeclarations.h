@@ -14,17 +14,17 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m3640(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t704 *, String_t*, JsonData_t58 *, const MethodInfo*))KeyValuePair_2__ctor_m11017_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::get_Key()
-#define KeyValuePair_2_get_Key_m3641(__this, method) (( String_t* (*) (KeyValuePair_2_t704 *, const MethodInfo*))KeyValuePair_2_get_Key_m11018_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m16983(__this, ___value, method) (( void (*) (KeyValuePair_2_t704 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m11019_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::get_Value()
-#define KeyValuePair_2_get_Value_m3642(__this, method) (( JsonData_t58 * (*) (KeyValuePair_2_t704 *, const MethodInfo*))KeyValuePair_2_get_Value_m11020_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m16984(__this, ___value, method) (( void (*) (KeyValuePair_2_t704 *, JsonData_t58 *, const MethodInfo*))KeyValuePair_2_set_Value_m11021_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>::ToString()
-#define KeyValuePair_2_ToString_m16985(__this, method) (( String_t* (*) (KeyValuePair_2_t704 *, const MethodInfo*))KeyValuePair_2_ToString_m11022_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::.ctor(TKey,TValue)
+#define KeyValuePair_2__ctor_m1_11487(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_962 *, int32_t, PointerEventData_t7_36 *, const MethodInfo*))KeyValuePair_2__ctor_m1_8587_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::get_Key()
+#define KeyValuePair_2_get_Key_m1_5566(__this, method) (( int32_t (*) (KeyValuePair_2_t1_962 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_8588_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m1_11488(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_962 *, int32_t, const MethodInfo*))KeyValuePair_2_set_Key_m1_8589_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::get_Value()
+#define KeyValuePair_2_get_Value_m1_5565(__this, method) (( PointerEventData_t7_36 * (*) (KeyValuePair_2_t1_962 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_8590_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m1_11489(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_962 *, PointerEventData_t7_36 *, const MethodInfo*))KeyValuePair_2_set_Value_m1_8591_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::ToString()
+#define KeyValuePair_2_ToString_m1_5568(__this, method) (( String_t* (*) (KeyValuePair_2_t1_962 *, const MethodInfo*))KeyValuePair_2_ToString_m1_8592_gshared)(__this, method)

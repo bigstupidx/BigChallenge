@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.Level2Map
-struct  Level2Map_t1152  : public Object_t
+struct  Level2Map_t1_72  : public Object_t
 {
 	// System.Byte Mono.Globalization.Unicode.Level2Map::Source
 	uint8_t ___Source_0;

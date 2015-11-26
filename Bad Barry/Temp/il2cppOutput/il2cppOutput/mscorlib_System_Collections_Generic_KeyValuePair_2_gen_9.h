@@ -10,16 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t347;
+// System.Type
+struct Type_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "LitJson_LitJson_ArrayMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct  KeyValuePair_2_t2072 
+// System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>
+struct  KeyValuePair_2_t1_1209 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	ArrayMetadata_t5_6  ___value_1;
 };

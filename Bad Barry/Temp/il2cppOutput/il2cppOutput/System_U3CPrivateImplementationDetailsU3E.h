@@ -16,14 +16,14 @@
 #include "System_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU2412.h"
 
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t1095  : public Object_t
+struct  U3CPrivateImplementationDetailsU3E_t2_156  : public Object_t
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t1095_StaticFields{
+struct U3CPrivateImplementationDetailsU3E_t2_156_StaticFields{
 	// <PrivateImplementationDetails>/$ArrayType$128 <PrivateImplementationDetails>::$$field-2
-	U24ArrayTypeU24128_t1093  ___U24U24fieldU2D2_0;
+	U24ArrayTypeU24128_t2_154  ___U24U24fieldU2D2_0;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-3
-	U24ArrayTypeU2412_t1094  ___U24U24fieldU2D3_1;
+	U24ArrayTypeU2412_t2_155  ___U24U24fieldU2D3_1;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-4
-	U24ArrayTypeU2412_t1094  ___U24U24fieldU2D4_2;
+	U24ArrayTypeU2412_t2_155  ___U24U24fieldU2D4_2;
 };

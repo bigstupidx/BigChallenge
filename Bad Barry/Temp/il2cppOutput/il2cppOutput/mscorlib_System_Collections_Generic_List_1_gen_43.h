@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Reflection.CustomAttributeTypedArgument[]
-struct CustomAttributeTypedArgumentU5BU5D_t1790;
+// UnityEngine.UI.ICanvasElement[]
+struct ICanvasElementU5BU5D_t7_211;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
-struct  List_1_t2474  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
+struct  List_1_t1_1452  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_items
-	CustomAttributeTypedArgumentU5BU5D_t1790* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	ICanvasElementU5BU5D_t7_211* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t2474_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::EmptyArray
-	CustomAttributeTypedArgumentU5BU5D_t1790* ___EmptyArray_4;
+struct List_1_t1_1452_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ICanvasElementU5BU5D_t7_211* ___EmptyArray_4;
 };

@@ -13,14 +13,14 @@
 #include <exception>
 
 // UnityEngine.ResourceRequest
-struct ResourceRequest_t473;
+struct ResourceRequest_t6_67;
 // UnityEngine.Object
-struct Object_t79;
-struct Object_t79_marshaled;
+struct Object_t6_5;
+struct Object_t6_5_marshaled;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.ResourceRequest::.ctor()
-extern "C" void ResourceRequest__ctor_m2774 (ResourceRequest_t473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceRequest__ctor_m6_475 (ResourceRequest_t6_67 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.ResourceRequest::get_asset()
-extern "C" Object_t79 * ResourceRequest_get_asset_m2775 (ResourceRequest_t473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * ResourceRequest_get_asset_m6_476 (ResourceRequest_t6_67 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

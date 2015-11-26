@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // UnityStandardAssets.CrossPlatformInput.MobileControlRig
-struct  MobileControlRig_t13  : public MonoBehaviour_t2
+struct  MobileControlRig_t8_10  : public MonoBehaviour_t6_88
 {
 };

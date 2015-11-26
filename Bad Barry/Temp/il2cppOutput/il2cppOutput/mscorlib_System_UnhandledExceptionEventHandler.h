@@ -13,16 +13,16 @@
 // System.Object
 struct Object_t;
 // System.UnhandledExceptionEventArgs
-struct UnhandledExceptionEventArgs_t608;
+struct UnhandledExceptionEventArgs_t1_763;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Void.h"
 
 // System.UnhandledExceptionEventHandler
-struct  UnhandledExceptionEventHandler_t625  : public MulticastDelegate_t227
+struct  UnhandledExceptionEventHandler_t1_681  : public MulticastDelegate_t1_21
 {
 };

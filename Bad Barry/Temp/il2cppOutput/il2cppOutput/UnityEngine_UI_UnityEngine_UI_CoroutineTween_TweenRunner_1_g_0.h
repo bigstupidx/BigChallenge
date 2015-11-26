@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.MonoBehaviour
-struct MonoBehaviour_t2;
+struct MonoBehaviour_t6_88;
 // System.Collections.IEnumerator
-struct IEnumerator_t76;
+struct IEnumerator_t1_129;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
-struct  TweenRunner_1_t200  : public Object_t
+struct  TweenRunner_1_t7_76  : public Object_t
 {
-	// UnityEngine.MonoBehaviour UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>::m_CoroutineContainer
-	MonoBehaviour_t2 * ___m_CoroutineContainer_0;
-	// System.Collections.IEnumerator UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>::m_Tween
+	// UnityEngine.MonoBehaviour UnityEngine.UI.CoroutineTween.TweenRunner`1::m_CoroutineContainer
+	MonoBehaviour_t6_88 * ___m_CoroutineContainer_0;
+	// System.Collections.IEnumerator UnityEngine.UI.CoroutineTween.TweenRunner`1::m_Tween
 	Object_t * ___m_Tween_1;
 };

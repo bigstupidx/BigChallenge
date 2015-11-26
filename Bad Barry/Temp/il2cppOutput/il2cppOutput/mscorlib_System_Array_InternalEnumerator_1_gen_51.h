@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<LitJson.PropertyMetadata>
-struct  InternalEnumerator_1_t2329 
+// System.Array/InternalEnumerator`1<System.Runtime.Remoting.Contexts.IContextProperty>
+struct  InternalEnumerator_1_t1_1104 
 {
-	// System.Array System.Array/InternalEnumerator`1<LitJson.PropertyMetadata>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<LitJson.PropertyMetadata>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

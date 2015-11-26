@@ -14,7 +14,7 @@
 #include "mscorlib_System_SystemException.h"
 
 // Mono.Xml.SmallXmlParserException
-struct  SmallXmlParserException_t1210  : public SystemException_t1104
+struct  SmallXmlParserException_t1_146  : public SystemException_t1_147
 {
 	// System.Int32 Mono.Xml.SmallXmlParserException::line
 	int32_t ___line_11;

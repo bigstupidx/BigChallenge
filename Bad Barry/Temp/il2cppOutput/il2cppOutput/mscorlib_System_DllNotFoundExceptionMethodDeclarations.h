@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.DllNotFoundException
-struct DllNotFoundException_t1683;
+struct DllNotFoundException_t1_705;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.DllNotFoundException::.ctor()
-extern "C" void DllNotFoundException__ctor_m10412 (DllNotFoundException_t1683 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DllNotFoundException__ctor_m1_4983 (DllNotFoundException_t1_705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DllNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DllNotFoundException__ctor_m10413 (DllNotFoundException_t1683 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DllNotFoundException__ctor_m1_4984 (DllNotFoundException_t1_705 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

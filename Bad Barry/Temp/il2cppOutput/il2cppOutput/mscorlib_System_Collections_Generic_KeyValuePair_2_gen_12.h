@@ -10,17 +10,18 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// System.Type
+struct Type_t;
+// System.Collections.Generic.IList`1<LitJson.PropertyMetadata>
+struct IList_1_t1_1235;
 
 #include "mscorlib_System_ValueType.h"
-#include "LitJson_LitJson_PropertyMetadata.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>
-struct  KeyValuePair_2_t2323 
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>
+struct  KeyValuePair_2_t1_1236 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::key
-	Object_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.PropertyMetadata>::value
-	PropertyMetadata_t664  ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Type_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	Object_t* ___value_1;
 };

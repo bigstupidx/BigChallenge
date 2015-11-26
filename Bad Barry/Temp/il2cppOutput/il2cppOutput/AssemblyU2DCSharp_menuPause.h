@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_StateMachineBehaviour.h"
 
 // menuPause
-struct  menuPause_t71  : public StateMachineBehaviour_t39
+struct  menuPause_t8_52  : public StateMachineBehaviour_t6_215
 {
 };

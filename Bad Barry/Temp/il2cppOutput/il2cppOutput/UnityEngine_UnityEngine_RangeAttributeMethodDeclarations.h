@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.RangeAttribute
-struct RangeAttribute_t586;
+struct RangeAttribute_t6_209;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.RangeAttribute::.ctor(System.Single,System.Single)
-extern "C" void RangeAttribute__ctor_m3303 (RangeAttribute_t586 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RangeAttribute__ctor_m6_1231 (RangeAttribute_t6_209 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

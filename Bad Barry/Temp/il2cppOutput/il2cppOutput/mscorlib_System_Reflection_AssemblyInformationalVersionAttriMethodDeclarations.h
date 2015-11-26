@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyInformationalVersionAttribute
-struct AssemblyInformationalVersionAttribute_t1338;
+struct AssemblyInformationalVersionAttribute_t1_312;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyInformationalVersionAttribute::.ctor(System.String)
-extern "C" void AssemblyInformationalVersionAttribute__ctor_m8299 (AssemblyInformationalVersionAttribute_t1338 * __this, String_t* ___informationalVersion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyInformationalVersionAttribute__ctor_m1_2710 (AssemblyInformationalVersionAttribute_t1_312 * __this, String_t* ___informationalVersion, const MethodInfo* method) IL2CPP_METHOD_ATTR;

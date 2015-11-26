@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
-struct List_1_t2474;
+// System.Collections.Generic.List`1<UnityEngine.RectTransform>
+struct List_1_t1_953;
+// UnityEngine.RectTransform
+struct RectTransform_t6_65;
 
 #include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
-// System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>
-struct  Enumerator_t2475 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
+struct  Enumerator_t1_1540 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>::l
-	List_1_t2474 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_953 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeTypedArgument>::current
-	CustomAttributeTypedArgument_t1353  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	RectTransform_t6_65 * ___current_3;
 };

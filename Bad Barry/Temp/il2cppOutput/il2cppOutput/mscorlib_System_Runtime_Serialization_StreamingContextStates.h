@@ -15,7 +15,7 @@
 #include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
 
 // System.Runtime.Serialization.StreamingContextStates
-struct  StreamingContextStates_t1554 
+struct  StreamingContextStates_t1_536 
 {
 	// System.Int32 System.Runtime.Serialization.StreamingContextStates::value__
 	int32_t ___value___1;

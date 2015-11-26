@@ -15,12 +15,12 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.EventSystems.TouchInputModule
-struct  TouchInputModule_t81  : public PointerInputModule_t150
+struct  TouchInputModule_t7_43  : public PointerInputModule_t7_40
 {
 	// UnityEngine.Vector2 UnityEngine.EventSystems.TouchInputModule::m_LastMousePosition
-	Vector2_t25  ___m_LastMousePosition_12;
+	Vector2_t6_48  ___m_LastMousePosition_12;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.TouchInputModule::m_MousePosition
-	Vector2_t25  ___m_MousePosition_13;
+	Vector2_t6_48  ___m_MousePosition_13;
 	// System.Boolean UnityEngine.EventSystems.TouchInputModule::m_ForceModuleActive
 	bool ___m_ForceModuleActive_14;
 };

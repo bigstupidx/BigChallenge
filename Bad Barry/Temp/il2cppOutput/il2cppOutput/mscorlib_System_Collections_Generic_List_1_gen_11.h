@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Dropdown/DropdownItem[]
-struct DropdownItemU5BU5D_t2014;
+// UnityEngine.UIVertex[]
+struct UIVertexU5BU5D_t6_247;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct  List_1_t189  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct  List_1_t1_911  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_items
-	DropdownItemU5BU5D_t2014* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	UIVertexU5BU5D_t6_247* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t189_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::EmptyArray
-	DropdownItemU5BU5D_t2014* ___EmptyArray_4;
+struct List_1_t1_911_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	UIVertexU5BU5D_t6_247* ___EmptyArray_4;
 };

@@ -14,7 +14,7 @@
 #include "System_System_Text_RegularExpressions_Syntax_Assertion.h"
 
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion
-struct  ExpressionAssertion_t1073  : public Assertion_t1071
+struct  ExpressionAssertion_t2_135  : public Assertion_t2_133
 {
 	// System.Boolean System.Text.RegularExpressions.Syntax.ExpressionAssertion::reverse
 	bool ___reverse_1;

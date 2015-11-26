@@ -11,26 +11,26 @@
 #include <stdint.h>
 
 // UnityEngine.Rigidbody
-struct Rigidbody_t503;
+struct Rigidbody_t6_104;
 // UnityEngine.Collider
-struct Collider_t371;
+struct Collider_t6_105;
 // UnityEngine.ContactPoint[]
-struct ContactPointU5BU5D_t504;
+struct ContactPointU5BU5D_t6_106;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityEngine.Collision
-struct  Collision_t502  : public Object_t
+struct  Collision_t6_103  : public Object_t
 {
 	// UnityEngine.Vector3 UnityEngine.Collision::m_Impulse
-	Vector3_t12  ___m_Impulse_0;
+	Vector3_t6_49  ___m_Impulse_0;
 	// UnityEngine.Vector3 UnityEngine.Collision::m_RelativeVelocity
-	Vector3_t12  ___m_RelativeVelocity_1;
+	Vector3_t6_49  ___m_RelativeVelocity_1;
 	// UnityEngine.Rigidbody UnityEngine.Collision::m_Rigidbody
-	Rigidbody_t503 * ___m_Rigidbody_2;
+	Rigidbody_t6_104 * ___m_Rigidbody_2;
 	// UnityEngine.Collider UnityEngine.Collision::m_Collider
-	Collider_t371 * ___m_Collider_3;
+	Collider_t6_105 * ___m_Collider_3;
 	// UnityEngine.ContactPoint[] UnityEngine.Collision::m_Contacts
-	ContactPointU5BU5D_t504* ___m_Contacts_4;
+	ContactPointU5BU5D_t6_106* ___m_Contacts_4;
 };

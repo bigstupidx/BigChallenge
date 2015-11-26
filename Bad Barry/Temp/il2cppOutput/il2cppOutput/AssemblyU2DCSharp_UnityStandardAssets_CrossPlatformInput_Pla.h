@@ -14,6 +14,6 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Vir.h"
 
 // UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput
-struct  MobileInput_t16  : public VirtualInput_t9
+struct  MobileInput_t8_13  : public VirtualInput_t8_7
 {
 };

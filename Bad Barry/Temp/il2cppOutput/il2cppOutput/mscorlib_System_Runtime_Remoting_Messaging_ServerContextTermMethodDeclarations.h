@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.ServerContextTerminatorSink
-struct ServerContextTerminatorSink_t1478;
+struct ServerContextTerminatorSink_t1_458;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.ServerContextTerminatorSink::.ctor()
-extern "C" void ServerContextTerminatorSink__ctor_m8912 (ServerContextTerminatorSink_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ServerContextTerminatorSink__ctor_m1_3324 (ServerContextTerminatorSink_t1_458 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

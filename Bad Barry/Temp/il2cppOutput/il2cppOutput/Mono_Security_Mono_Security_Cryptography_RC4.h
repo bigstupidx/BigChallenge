@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.KeySizes[]
-struct KeySizesU5BU5D_t758;
+struct KeySizesU5BU5D_t1_540;
 
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 
 // Mono.Security.Cryptography.RC4
-struct  RC4_t778  : public SymmetricAlgorithm_t739
+struct  RC4_t3_30  : public SymmetricAlgorithm_t1_109
 {
 };
-struct RC4_t778_StaticFields{
+struct RC4_t3_30_StaticFields{
 	// System.Security.Cryptography.KeySizes[] Mono.Security.Cryptography.RC4::s_legalBlockSizes
-	KeySizesU5BU5D_t758* ___s_legalBlockSizes_10;
+	KeySizesU5BU5D_t1_540* ___s_legalBlockSizes_10;
 	// System.Security.Cryptography.KeySizes[] Mono.Security.Cryptography.RC4::s_legalKeySizes
-	KeySizesU5BU5D_t758* ___s_legalKeySizes_11;
+	KeySizesU5BU5D_t1_540* ___s_legalKeySizes_11;
 };

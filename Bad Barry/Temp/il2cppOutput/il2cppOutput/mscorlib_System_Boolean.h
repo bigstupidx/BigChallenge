@@ -16,12 +16,12 @@ struct String_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Boolean
-struct  Boolean_t96 
+struct  Boolean_t1_20 
 {
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_2;
 };
-struct Boolean_t96_StaticFields{
+struct Boolean_t1_20_StaticFields{
 	// System.String System.Boolean::FalseString
 	String_t* ___FalseString_0;
 	// System.String System.Boolean::TrueString

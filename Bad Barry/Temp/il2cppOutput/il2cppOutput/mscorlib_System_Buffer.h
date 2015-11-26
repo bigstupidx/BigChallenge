@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Buffer
-struct  Buffer_t1672  : public Object_t
+struct  Buffer_t1_692  : public Object_t
 {
 };

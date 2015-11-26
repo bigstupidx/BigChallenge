@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_1.h"
 
 // UnityEngine.UI.Scrollbar/ScrollEvent
-struct  ScrollEvent_t256  : public UnityEvent_1_t163
+struct  ScrollEvent_t7_110  : public UnityEvent_1_t6_262
 {
 };

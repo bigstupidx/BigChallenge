@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.AssetBundle
-struct AssetBundle_t433;
+struct AssetBundle_t6_4;
 // System.String
 struct String_t;
 // System.Type
@@ -20,10 +20,10 @@ struct Type_t;
 #include "UnityEngine_UnityEngine_AsyncOperation.h"
 
 // UnityEngine.AssetBundleRequest
-struct  AssetBundleRequest_t432  : public AsyncOperation_t431
+struct  AssetBundleRequest_t6_3  : public AsyncOperation_t6_2
 {
 	// UnityEngine.AssetBundle UnityEngine.AssetBundleRequest::m_AssetBundle
-	AssetBundle_t433 * ___m_AssetBundle_1;
+	AssetBundle_t6_4 * ___m_AssetBundle_1;
 	// System.String UnityEngine.AssetBundleRequest::m_Path
 	String_t* ___m_Path_2;
 	// System.Type UnityEngine.AssetBundleRequest::m_Type

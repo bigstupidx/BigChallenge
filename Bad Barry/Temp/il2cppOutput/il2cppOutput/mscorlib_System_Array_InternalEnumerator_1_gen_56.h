@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
-struct  InternalEnumerator_1_t2405 
+// System.Array/InternalEnumerator`1<System.Decimal>
+struct  InternalEnumerator_1_t1_1109 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

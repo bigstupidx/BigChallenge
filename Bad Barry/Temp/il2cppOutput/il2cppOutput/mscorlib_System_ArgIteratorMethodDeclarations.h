@@ -19,6 +19,6 @@ struct Object_t;
 #include "mscorlib_System_ArgIterator.h"
 
 // System.Boolean System.ArgIterator::Equals(System.Object)
-extern "C" bool ArgIterator_Equals_m6620 (ArgIterator_t1137 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ArgIterator_Equals_m1_986 (ArgIterator_t1_55 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ArgIterator::GetHashCode()
-extern "C" int32_t ArgIterator_GetHashCode_m6621 (ArgIterator_t1137 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ArgIterator_GetHashCode_m1_987 (ArgIterator_t1_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

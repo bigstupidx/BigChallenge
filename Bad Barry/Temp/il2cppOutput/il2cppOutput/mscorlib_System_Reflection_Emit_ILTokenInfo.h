@@ -16,7 +16,7 @@ struct MemberInfo_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.Emit.ILTokenInfo
-struct  ILTokenInfo_t1306 
+struct  ILTokenInfo_t1_280 
 {
 	// System.Reflection.MemberInfo System.Reflection.Emit.ILTokenInfo::member
 	MemberInfo_t * ___member_0;

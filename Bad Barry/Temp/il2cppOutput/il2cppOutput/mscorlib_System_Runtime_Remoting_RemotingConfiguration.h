@@ -13,15 +13,15 @@
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.RemotingConfiguration
-struct  RemotingConfiguration_t1503  : public Object_t
+struct  RemotingConfiguration_t1_483  : public Object_t
 {
 };
-struct RemotingConfiguration_t1503_StaticFields{
+struct RemotingConfiguration_t1_483_StaticFields{
 	// System.String System.Runtime.Remoting.RemotingConfiguration::applicationID
 	String_t* ___applicationID_0;
 	// System.String System.Runtime.Remoting.RemotingConfiguration::applicationName
@@ -35,17 +35,17 @@ struct RemotingConfiguration_t1503_StaticFields{
 	// System.String System.Runtime.Remoting.RemotingConfiguration::_errorMode
 	String_t* ____errorMode_5;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::wellKnownClientEntries
-	Hashtable_t836 * ___wellKnownClientEntries_6;
+	Hashtable_t1_171 * ___wellKnownClientEntries_6;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::activatedClientEntries
-	Hashtable_t836 * ___activatedClientEntries_7;
+	Hashtable_t1_171 * ___activatedClientEntries_7;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::wellKnownServiceEntries
-	Hashtable_t836 * ___wellKnownServiceEntries_8;
+	Hashtable_t1_171 * ___wellKnownServiceEntries_8;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::activatedServiceEntries
-	Hashtable_t836 * ___activatedServiceEntries_9;
+	Hashtable_t1_171 * ___activatedServiceEntries_9;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::channelTemplates
-	Hashtable_t836 * ___channelTemplates_10;
+	Hashtable_t1_171 * ___channelTemplates_10;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::clientProviderTemplates
-	Hashtable_t836 * ___clientProviderTemplates_11;
+	Hashtable_t1_171 * ___clientProviderTemplates_11;
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingConfiguration::serverProviderTemplates
-	Hashtable_t836 * ___serverProviderTemplates_12;
+	Hashtable_t1_171 * ___serverProviderTemplates_12;
 };

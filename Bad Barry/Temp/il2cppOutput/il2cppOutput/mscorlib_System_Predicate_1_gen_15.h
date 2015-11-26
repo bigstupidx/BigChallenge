@@ -10,18 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Dropdown/OptionData
-struct OptionData_t181;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
+#include "mscorlib_System_Int32.h"
 
-// System.Predicate`1<UnityEngine.UI.Dropdown/OptionData>
-struct  Predicate_1_t2009  : public MulticastDelegate_t227
+// System.Predicate`1<System.Int32>
+struct  Predicate_1_t1_1337  : public MulticastDelegate_t1_21
 {
 };

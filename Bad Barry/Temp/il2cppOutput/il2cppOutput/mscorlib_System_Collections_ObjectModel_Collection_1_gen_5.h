@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<UnityEngine.Vector2>
-struct IList_1_t2173;
+struct IList_1_t1_1315;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.Collection`1<UnityEngine.Vector2>
-struct  Collection_1_t2174  : public Object_t
+struct  Collection_1_t1_1316  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<UnityEngine.Vector2>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
 	Object_t* ___list_0;
-	// System.Object System.Collections.ObjectModel.Collection`1<UnityEngine.Vector2>::syncRoot
+	// System.Object System.Collections.ObjectModel.Collection`1::syncRoot
 	Object_t * ___syncRoot_1;
 };

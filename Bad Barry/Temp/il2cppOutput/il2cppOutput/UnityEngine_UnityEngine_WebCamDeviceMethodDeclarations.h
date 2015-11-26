@@ -19,9 +19,9 @@ struct String_t;
 #include "UnityEngine_UnityEngine_WebCamDevice.h"
 
 // System.String UnityEngine.WebCamDevice::get_name()
-extern "C" String_t* WebCamDevice_get_name_m3012 (WebCamDevice_t519 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WebCamDevice_get_name_m6_847 (WebCamDevice_t6_124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.WebCamDevice::get_isFrontFacing()
-extern "C" bool WebCamDevice_get_isFrontFacing_m3013 (WebCamDevice_t519 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void WebCamDevice_t519_marshal(const WebCamDevice_t519& unmarshaled, WebCamDevice_t519_marshaled& marshaled);
-extern "C" void WebCamDevice_t519_marshal_back(const WebCamDevice_t519_marshaled& marshaled, WebCamDevice_t519& unmarshaled);
-extern "C" void WebCamDevice_t519_marshal_cleanup(WebCamDevice_t519_marshaled& marshaled);
+extern "C" bool WebCamDevice_get_isFrontFacing_m6_848 (WebCamDevice_t6_124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebCamDevice_t6_124_marshal(const WebCamDevice_t6_124& unmarshaled, WebCamDevice_t6_124_marshaled& marshaled);
+extern "C" void WebCamDevice_t6_124_marshal_back(const WebCamDevice_t6_124_marshaled& marshaled, WebCamDevice_t6_124& unmarshaled);
+extern "C" void WebCamDevice_t6_124_marshal_cleanup(WebCamDevice_t6_124_marshaled& marshaled);

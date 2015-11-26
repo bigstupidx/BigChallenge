@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect_MovementType.h"
 
 // UnityEngine.UI.ScrollRect/MovementType
-struct  MovementType_t261 
+struct  MovementType_t7_114 
 {
 	// System.Int32 UnityEngine.UI.ScrollRect/MovementType::value__
 	int32_t ___value___1;

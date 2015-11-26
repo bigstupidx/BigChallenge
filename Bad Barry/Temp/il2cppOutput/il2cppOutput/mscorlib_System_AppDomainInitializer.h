@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // System.AppDomainInitializer
-struct  AppDomainInitializer_t1668  : public MulticastDelegate_t227
+struct  AppDomainInitializer_t1_683  : public MulticastDelegate_t1_21
 {
 };

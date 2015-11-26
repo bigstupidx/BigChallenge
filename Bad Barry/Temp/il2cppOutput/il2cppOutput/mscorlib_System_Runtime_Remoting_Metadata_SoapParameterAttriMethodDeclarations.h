@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.Metadata.SoapParameterAttribute
-struct SoapParameterAttribute_t1485;
+struct SoapParameterAttribute_t1_465;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Metadata.SoapParameterAttribute::.ctor()
-extern "C" void SoapParameterAttribute__ctor_m8927 (SoapParameterAttribute_t1485 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SoapParameterAttribute__ctor_m1_3339 (SoapParameterAttribute_t1_465 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

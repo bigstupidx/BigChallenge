@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_CollectionBase.h"
 
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct  ExpressionCollection_t1062  : public CollectionBase_t801
+struct  ExpressionCollection_t2_124  : public CollectionBase_t1_130
 {
 };

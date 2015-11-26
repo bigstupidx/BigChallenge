@@ -14,111 +14,111 @@
 #include <assert.h>
 
 // System.Text.RegularExpressions.LinkStack
-struct LinkStack_t1046;
+struct LinkStack_t2_109;
 // System.Text.RegularExpressions.Interpreter/RepeatContext
-struct RepeatContext_t1051;
+struct RepeatContext_t2_113;
 // System.Text.RegularExpressions.Interpreter
-struct Interpreter_t1053;
+struct Interpreter_t2_115;
 // System.UInt16[]
-struct UInt16U5BU5D_t978;
+struct UInt16U5BU5D_t1_576;
 // System.Text.RegularExpressions.Match
-struct Match_t941;
+struct Match_t2_82;
 // System.Text.RegularExpressions.Regex
-struct Regex_t646;
+struct Regex_t2_90;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Group
-struct Group_t943;
+struct Group_t2_87;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.IntervalCollection/Enumerator
-struct Enumerator_t1057;
+struct Enumerator_t2_119;
 // System.Collections.IList
-struct IList_t701;
+struct IList_t1_409;
 // System.Text.RegularExpressions.IntervalCollection/CostDelegate
-struct CostDelegate_t1058;
+struct CostDelegate_t2_120;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Text.RegularExpressions.IntervalCollection
-struct IntervalCollection_t1059;
+struct IntervalCollection_t2_121;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
-struct IEnumerator_t76;
+struct IEnumerator_t1_129;
 // System.Text.RegularExpressions.Syntax.Parser
-struct Parser_t1060;
+struct Parser_t2_122;
 // System.Text.RegularExpressions.Syntax.RegularExpression
-struct RegularExpression_t1066;
+struct RegularExpression_t2_128;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Text.RegularExpressions.Syntax.Group
-struct Group_t1065;
+struct Group_t2_127;
 // System.Text.RegularExpressions.Syntax.Assertion
-struct Assertion_t1071;
+struct Assertion_t2_133;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t1063;
+struct Expression_t2_125;
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion
-struct ExpressionAssertion_t1073;
+struct ExpressionAssertion_t2_135;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.ArgumentException
-struct ArgumentException_t409;
+struct ArgumentException_t1_638;
 // System.Text.RegularExpressions.QuickSearch
-struct QuickSearch_t1054;
+struct QuickSearch_t2_116;
 // System.Text.RegularExpressions.ReplacementEvaluator
-struct ReplacementEvaluator_t1061;
+struct ReplacementEvaluator_t2_123;
 // System.Text.StringBuilder
-struct StringBuilder_t358;
+struct StringBuilder_t1_144;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct ExpressionCollection_t1062;
+struct ExpressionCollection_t2_124;
 // System.Text.RegularExpressions.Syntax.AnchorInfo
-struct AnchorInfo_t1081;
+struct AnchorInfo_t2_142;
 // System.Text.RegularExpressions.Syntax.CompositeExpression
-struct CompositeExpression_t1064;
+struct CompositeExpression_t2_126;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t1096;
+struct ICompiler_t2_157;
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t1067;
+struct CapturingGroup_t2_129;
 // System.Text.RegularExpressions.Syntax.BalancingGroup
-struct BalancingGroup_t1068;
+struct BalancingGroup_t2_130;
 // System.Text.RegularExpressions.Syntax.NonBacktrackingGroup
-struct NonBacktrackingGroup_t1069;
+struct NonBacktrackingGroup_t2_131;
 // System.Text.RegularExpressions.Syntax.Repetition
-struct Repetition_t1070;
+struct Repetition_t2_132;
 // System.Text.RegularExpressions.Syntax.CaptureAssertion
-struct CaptureAssertion_t1072;
+struct CaptureAssertion_t2_134;
 // System.Text.RegularExpressions.Syntax.Literal
-struct Literal_t1074;
+struct Literal_t2_136;
 // System.Text.RegularExpressions.Syntax.Alternation
-struct Alternation_t1075;
+struct Alternation_t2_137;
 // System.Text.RegularExpressions.Syntax.PositionAssertion
-struct PositionAssertion_t1076;
+struct PositionAssertion_t2_138;
 // System.Text.RegularExpressions.Syntax.Reference
-struct Reference_t1077;
+struct Reference_t2_139;
 // System.Text.RegularExpressions.Syntax.BackslashNumber
-struct BackslashNumber_t1078;
+struct BackslashNumber_t2_140;
 // System.Text.RegularExpressions.Syntax.CharacterClass
-struct CharacterClass_t1079;
+struct CharacterClass_t2_141;
 // System.DefaultUriParser
-struct DefaultUriParser_t1082;
+struct DefaultUriParser_t2_143;
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 // System.UriParser
-struct UriParser_t1083;
+struct UriParser_t2_144;
 // System.UriFormatException
-struct UriFormatException_t1087;
+struct UriFormatException_t2_148;
 // System.Net.Security.RemoteCertificateValidationCallback
-struct RemoteCertificateValidationCallback_t930;
+struct RemoteCertificateValidationCallback_t2_28;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t871;
+struct X509Certificate_t1_537;
 // System.Security.Cryptography.X509Certificates.X509Chain
-struct X509Chain_t932;
+struct X509Chain_t2_58;
 // System.Text.RegularExpressions.MatchEvaluator
-struct MatchEvaluator_t1092;
+struct MatchEvaluator_t2_153;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -276,8 +276,8 @@ struct MatchEvaluator_t1092;
 #include "mscorlib_System_UInt32.h"
 #include "mscorlib_System_Globalization_CultureInfoMethodDeclarations.h"
 #include "mscorlib_System_Globalization_CultureInfo.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_gen_6MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_gen_6.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_genMethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_gen.h"
 #include "mscorlib_System_ArgumentOutOfRangeExceptionMethodDeclarations.h"
 #include "mscorlib_System_ArgumentOutOfRangeException.h"
 #include "mscorlib_System_Text_EncodingMethodDeclarations.h"
@@ -318,28 +318,28 @@ struct MatchEvaluator_t1092;
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Text.RegularExpressions.LinkStack::.ctor()
-extern TypeInfo* Stack_t1048_il2cpp_TypeInfo_var;
-extern "C" void LinkStack__ctor_m5374 (LinkStack_t1046 * __this, const MethodInfo* method)
+extern TypeInfo* Stack_t1_141_il2cpp_TypeInfo_var;
+extern "C" void LinkStack__ctor_m2_603 (LinkStack_t2_109 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Stack_t1048_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(706);
+		Stack_t1_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(174);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		LinkRef__ctor_m5317(__this, /*hidden argument*/NULL);
-		Stack_t1048 * L_0 = (Stack_t1048 *)il2cpp_codegen_object_new (Stack_t1048_il2cpp_TypeInfo_var);
-		Stack__ctor_m5748(L_0, /*hidden argument*/NULL);
+		LinkRef__ctor_m2_546(__this, /*hidden argument*/NULL);
+		Stack_t1_141 * L_0 = (Stack_t1_141 *)il2cpp_codegen_object_new (Stack_t1_141_il2cpp_TypeInfo_var);
+		Stack__ctor_m1_1831(L_0, /*hidden argument*/NULL);
 		__this->___stack_0 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.LinkStack::Push()
-extern "C" void LinkStack_Push_m5375 (LinkStack_t1046 * __this, const MethodInfo* method)
+extern "C" void LinkStack_Push_m2_604 (LinkStack_t2_109 * __this, const MethodInfo* method)
 {
 	{
-		Stack_t1048 * L_0 = (__this->___stack_0);
+		Stack_t1_141 * L_0 = (__this->___stack_0);
 		Object_t * L_1 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(4 /* System.Object System.Text.RegularExpressions.LinkStack::GetCurrent() */, __this);
 		NullCheck(L_0);
 		VirtActionInvoker1< Object_t * >::Invoke(19 /* System.Void System.Collections.Stack::Push(System.Object) */, L_0, L_1);
@@ -347,10 +347,10 @@ extern "C" void LinkStack_Push_m5375 (LinkStack_t1046 * __this, const MethodInfo
 	}
 }
 // System.Boolean System.Text.RegularExpressions.LinkStack::Pop()
-extern "C" bool LinkStack_Pop_m5376 (LinkStack_t1046 * __this, const MethodInfo* method)
+extern "C" bool LinkStack_Pop_m2_605 (LinkStack_t2_109 * __this, const MethodInfo* method)
 {
 	{
-		Stack_t1048 * L_0 = (__this->___stack_0);
+		Stack_t1_141 * L_0 = (__this->___stack_0);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Stack::get_Count() */, L_0);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
@@ -359,7 +359,7 @@ extern "C" bool LinkStack_Pop_m5376 (LinkStack_t1046 * __this, const MethodInfo*
 		}
 	}
 	{
-		Stack_t1048 * L_2 = (__this->___stack_0);
+		Stack_t1_141 * L_2 = (__this->___stack_0);
 		NullCheck(L_2);
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(18 /* System.Object System.Collections.Stack::Pop() */, L_2);
 		VirtActionInvoker1< Object_t * >::Invoke(5 /* System.Void System.Text.RegularExpressions.LinkStack::SetCurrent(System.Object) */, __this, L_3);
@@ -372,7 +372,7 @@ IL_0024:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Mark::get_IsDefined()
-extern "C" bool Mark_get_IsDefined_m5377 (Mark_t1049 * __this, const MethodInfo* method)
+extern "C" bool Mark_get_IsDefined_m2_606 (Mark_t2_111 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -399,7 +399,7 @@ IL_001b:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Mark::get_Index()
-extern "C" int32_t Mark_get_Index_m5378 (Mark_t1049 * __this, const MethodInfo* method)
+extern "C" int32_t Mark_get_Index_m2_607 (Mark_t2_111 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -428,7 +428,7 @@ IL_0022:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Mark::get_Length()
-extern "C" int32_t Mark_get_Length_m5379 (Mark_t1049 * __this, const MethodInfo* method)
+extern "C" int32_t Mark_get_Length_m2_608 (Mark_t2_111 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -459,11 +459,11 @@ IL_0030:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::Pop()
-extern "C" int32_t IntStack_Pop_m5380 (IntStack_t1050 * __this, const MethodInfo* method)
+extern "C" int32_t IntStack_Pop_m2_609 (IntStack_t2_112 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_0 = (__this->___values_0);
 		int32_t L_1 = (__this->___count_1);
 		int32_t L_2 = ((int32_t)((int32_t)L_1-(int32_t)1));
 		V_0 = L_2;
@@ -476,35 +476,35 @@ extern "C" int32_t IntStack_Pop_m5380 (IntStack_t1050 * __this, const MethodInfo
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::Push(System.Int32)
-extern TypeInfo* Int32U5BU5D_t425_il2cpp_TypeInfo_var;
-extern "C" void IntStack_Push_m5381 (IntStack_t1050 * __this, int32_t ___value, const MethodInfo* method)
+extern TypeInfo* Int32U5BU5D_t1_159_il2cpp_TypeInfo_var;
+extern "C" void IntStack_Push_m2_610 (IntStack_t2_112 * __this, int32_t ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Int32U5BU5D_t425_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(458);
+		Int32U5BU5D_t1_159_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(47);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	Int32U5BU5D_t425* V_1 = {0};
+	Int32U5BU5D_t1_159* V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_0 = (__this->___values_0);
 		if (L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		__this->___values_0 = ((Int32U5BU5D_t425*)SZArrayNew(Int32U5BU5D_t425_il2cpp_TypeInfo_var, 8));
+		__this->___values_0 = ((Int32U5BU5D_t1_159*)SZArrayNew(Int32U5BU5D_t1_159_il2cpp_TypeInfo_var, 8));
 		goto IL_006e;
 	}
 
 IL_001c:
 	{
 		int32_t L_1 = (__this->___count_1);
-		Int32U5BU5D_t425* L_2 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_2 = (__this->___values_0);
 		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)((int32_t)(((Array_t *)L_2)->max_length))))))))
 		{
@@ -512,23 +512,23 @@ IL_001c:
 		}
 	}
 	{
-		Int32U5BU5D_t425* L_3 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_3 = (__this->___values_0);
 		NullCheck(L_3);
 		V_0 = (((int32_t)((int32_t)(((Array_t *)L_3)->max_length))));
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)((int32_t)L_4+(int32_t)((int32_t)((int32_t)L_5>>(int32_t)1))));
 		int32_t L_6 = V_0;
-		V_1 = ((Int32U5BU5D_t425*)SZArrayNew(Int32U5BU5D_t425_il2cpp_TypeInfo_var, L_6));
+		V_1 = ((Int32U5BU5D_t1_159*)SZArrayNew(Int32U5BU5D_t1_159_il2cpp_TypeInfo_var, L_6));
 		V_2 = 0;
 		goto IL_005b;
 	}
 
 IL_004c:
 	{
-		Int32U5BU5D_t425* L_7 = V_1;
+		Int32U5BU5D_t1_159* L_7 = V_1;
 		int32_t L_8 = V_2;
-		Int32U5BU5D_t425* L_9 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_9 = (__this->___values_0);
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
@@ -550,13 +550,13 @@ IL_005b:
 		}
 	}
 	{
-		Int32U5BU5D_t425* L_15 = V_1;
+		Int32U5BU5D_t1_159* L_15 = V_1;
 		__this->___values_0 = L_15;
 	}
 
 IL_006e:
 	{
-		Int32U5BU5D_t425* L_16 = (__this->___values_0);
+		Int32U5BU5D_t1_159* L_16 = (__this->___values_0);
 		int32_t L_17 = (__this->___count_1);
 		int32_t L_18 = L_17;
 		V_3 = L_18;
@@ -570,7 +570,7 @@ IL_006e:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::get_Count()
-extern "C" int32_t IntStack_get_Count_m5382 (IntStack_t1050 * __this, const MethodInfo* method)
+extern "C" int32_t IntStack_get_Count_m2_611 (IntStack_t2_112 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___count_1);
@@ -578,15 +578,15 @@ extern "C" int32_t IntStack_get_Count_m5382 (IntStack_t1050 * __this, const Meth
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::set_Count(System.Int32)
-extern TypeInfo* SystemException_t1104_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral930;
-extern "C" void IntStack_set_Count_m5383 (IntStack_t1050 * __this, int32_t ___value, const MethodInfo* method)
+extern TypeInfo* SystemException_t1_147_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2294;
+extern "C" void IntStack_set_Count_m2_612 (IntStack_t2_112 * __this, int32_t ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SystemException_t1104_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(681);
-		_stringLiteral930 = il2cpp_codegen_string_literal_from_index(930);
+		SystemException_t1_147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(119);
+		_stringLiteral2294 = il2cpp_codegen_string_literal_from_index(2294);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -598,8 +598,8 @@ extern "C" void IntStack_set_Count_m5383 (IntStack_t1050 * __this, int32_t ___va
 		}
 	}
 	{
-		SystemException_t1104 * L_2 = (SystemException_t1104 *)il2cpp_codegen_object_new (SystemException_t1104_il2cpp_TypeInfo_var);
-		SystemException__ctor_m5737(L_2, _stringLiteral930, /*hidden argument*/NULL);
+		SystemException_t1_147 * L_2 = (SystemException_t1_147 *)il2cpp_codegen_object_new (SystemException_t1_147_il2cpp_TypeInfo_var);
+		SystemException__ctor_m1_5321(L_2, _stringLiteral2294, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
 	}
 
@@ -611,33 +611,33 @@ IL_0017:
 	}
 }
 // Conversion methods for marshalling of: System.Text.RegularExpressions.Interpreter/IntStack
-extern "C" void IntStack_t1050_marshal(const IntStack_t1050& unmarshaled, IntStack_t1050_marshaled& marshaled)
+extern "C" void IntStack_t2_112_marshal(const IntStack_t2_112& unmarshaled, IntStack_t2_112_marshaled& marshaled)
 {
 	marshaled.___values_0 = il2cpp_codegen_marshal_array<int32_t>((Il2CppCodeGenArray*)unmarshaled.___values_0);
 	marshaled.___count_1 = unmarshaled.___count_1;
 }
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
-extern "C" void IntStack_t1050_marshal_back(const IntStack_t1050_marshaled& marshaled, IntStack_t1050& unmarshaled)
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
+extern "C" void IntStack_t2_112_marshal_back(const IntStack_t2_112_marshaled& marshaled, IntStack_t2_112& unmarshaled)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		s_Il2CppMethodIntialized = true;
 	}
-	unmarshaled.___values_0 = (Int32U5BU5D_t425*)il2cpp_codegen_marshal_array_result(Int32_t92_il2cpp_TypeInfo_var, marshaled.___values_0, 1);
+	unmarshaled.___values_0 = (Int32U5BU5D_t1_159*)il2cpp_codegen_marshal_array_result(Int32_t1_3_il2cpp_TypeInfo_var, marshaled.___values_0, 1);
 	unmarshaled.___count_1 = marshaled.___count_1;
 }
 // Conversion method for clean up from marshalling of: System.Text.RegularExpressions.Interpreter/IntStack
-extern "C" void IntStack_t1050_marshal_cleanup(IntStack_t1050_marshaled& marshaled)
+extern "C" void IntStack_t2_112_marshal_cleanup(IntStack_t2_112_marshaled& marshaled)
 {
 }
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::.ctor(System.Text.RegularExpressions.Interpreter/RepeatContext,System.Int32,System.Int32,System.Boolean,System.Int32)
-extern "C" void RepeatContext__ctor_m5384 (RepeatContext_t1051 * __this, RepeatContext_t1051 * ___previous, int32_t ___min, int32_t ___max, bool ___lazy, int32_t ___expr_pc, const MethodInfo* method)
+extern "C" void RepeatContext__ctor_m2_613 (RepeatContext_t2_113 * __this, RepeatContext_t2_113 * ___previous, int32_t ___min, int32_t ___max, bool ___lazy, int32_t ___expr_pc, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_0 = ___previous;
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_0 = ___previous;
 		__this->___previous_5 = L_0;
 		int32_t L_1 = ___min;
 		__this->___min_1 = L_1;
@@ -653,7 +653,7 @@ extern "C" void RepeatContext__ctor_m5384 (RepeatContext_t1051 * __this, RepeatC
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Count()
-extern "C" int32_t RepeatContext_get_Count_m5385 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" int32_t RepeatContext_get_Count_m2_614 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___count_6);
@@ -661,7 +661,7 @@ extern "C" int32_t RepeatContext_get_Count_m5385 (RepeatContext_t1051 * __this, 
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Count(System.Int32)
-extern "C" void RepeatContext_set_Count_m5386 (RepeatContext_t1051 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void RepeatContext_set_Count_m2_615 (RepeatContext_t2_113 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -670,7 +670,7 @@ extern "C" void RepeatContext_set_Count_m5386 (RepeatContext_t1051 * __this, int
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Start()
-extern "C" int32_t RepeatContext_get_Start_m5387 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" int32_t RepeatContext_get_Start_m2_616 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___start_0);
@@ -678,7 +678,7 @@ extern "C" int32_t RepeatContext_get_Start_m5387 (RepeatContext_t1051 * __this, 
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter/RepeatContext::set_Start(System.Int32)
-extern "C" void RepeatContext_set_Start_m5388 (RepeatContext_t1051 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void RepeatContext_set_Start_m2_617 (RepeatContext_t2_113 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -687,7 +687,7 @@ extern "C" void RepeatContext_set_Start_m5388 (RepeatContext_t1051 * __this, int
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMinimum()
-extern "C" bool RepeatContext_get_IsMinimum_m5389 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" bool RepeatContext_get_IsMinimum_m2_618 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___min_1);
@@ -696,7 +696,7 @@ extern "C" bool RepeatContext_get_IsMinimum_m5389 (RepeatContext_t1051 * __this,
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsMaximum()
-extern "C" bool RepeatContext_get_IsMaximum_m5390 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" bool RepeatContext_get_IsMaximum_m2_619 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___max_2);
@@ -705,7 +705,7 @@ extern "C" bool RepeatContext_get_IsMaximum_m5390 (RepeatContext_t1051 * __this,
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter/RepeatContext::get_IsLazy()
-extern "C" bool RepeatContext_get_IsLazy_m5391 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" bool RepeatContext_get_IsLazy_m2_620 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___lazy_3);
@@ -713,7 +713,7 @@ extern "C" bool RepeatContext_get_IsLazy_m5391 (RepeatContext_t1051 * __this, co
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter/RepeatContext::get_Expression()
-extern "C" int32_t RepeatContext_get_Expression_m5392 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" int32_t RepeatContext_get_Expression_m2_621 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___expr_pc_4);
@@ -721,50 +721,50 @@ extern "C" int32_t RepeatContext_get_Expression_m5392 (RepeatContext_t1051 * __t
 	}
 }
 // System.Text.RegularExpressions.Interpreter/RepeatContext System.Text.RegularExpressions.Interpreter/RepeatContext::get_Previous()
-extern "C" RepeatContext_t1051 * RepeatContext_get_Previous_m5393 (RepeatContext_t1051 * __this, const MethodInfo* method)
+extern "C" RepeatContext_t2_113 * RepeatContext_get_Previous_m2_622 (RepeatContext_t2_113 * __this, const MethodInfo* method)
 {
 	{
-		RepeatContext_t1051 * L_0 = (__this->___previous_5);
+		RepeatContext_t2_113 * L_0 = (__this->___previous_5);
 		return L_0;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::.ctor(System.UInt16[])
-extern TypeInfo* IntStack_t1050_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32U5BU5D_t425_il2cpp_TypeInfo_var;
-extern "C" void Interpreter__ctor_m5394 (Interpreter_t1053 * __this, UInt16U5BU5D_t978* ___program, const MethodInfo* method)
+extern TypeInfo* IntStack_t2_112_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32U5BU5D_t1_159_il2cpp_TypeInfo_var;
+extern "C" void Interpreter__ctor_m2_623 (Interpreter_t2_115 * __this, UInt16U5BU5D_t1_576* ___program, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IntStack_t1050_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(707);
-		Int32U5BU5D_t425_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(458);
+		IntStack_t2_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(704);
+		Int32U5BU5D_t1_159_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(47);
 		s_Il2CppMethodIntialized = true;
 	}
-	IntStack_t1050  V_0 = {0};
+	IntStack_t2_112  V_0 = {0};
 	{
-		Initobj (IntStack_t1050_il2cpp_TypeInfo_var, (&V_0));
-		IntStack_t1050  L_0 = V_0;
+		Initobj (IntStack_t2_112_il2cpp_TypeInfo_var, (&V_0));
+		IntStack_t2_112  L_0 = V_0;
 		__this->___stack_11 = L_0;
-		BaseMachine__ctor_m5224(__this, /*hidden argument*/NULL);
-		UInt16U5BU5D_t978* L_1 = ___program;
+		BaseMachine__ctor_m2_447(__this, /*hidden argument*/NULL);
+		UInt16U5BU5D_t1_576* L_1 = ___program;
 		__this->___program_1 = L_1;
-		__this->___qs_7 = (QuickSearch_t1054 *)NULL;
-		int32_t L_2 = Interpreter_ReadProgramCount_m5395(__this, 1, /*hidden argument*/NULL);
+		__this->___qs_7 = (QuickSearch_t2_116 *)NULL;
+		int32_t L_2 = Interpreter_ReadProgramCount_m2_624(__this, 1, /*hidden argument*/NULL);
 		__this->___group_count_5 = ((int32_t)((int32_t)L_2+(int32_t)1));
-		int32_t L_3 = Interpreter_ReadProgramCount_m5395(__this, 3, /*hidden argument*/NULL);
+		int32_t L_3 = Interpreter_ReadProgramCount_m2_624(__this, 3, /*hidden argument*/NULL);
 		__this->___match_min_6 = L_3;
 		__this->___program_start_2 = 7;
 		int32_t L_4 = (__this->___group_count_5);
-		__this->___groups_16 = ((Int32U5BU5D_t425*)SZArrayNew(Int32U5BU5D_t425_il2cpp_TypeInfo_var, L_4));
+		__this->___groups_16 = ((Int32U5BU5D_t1_159*)SZArrayNew(Int32U5BU5D_t1_159_il2cpp_TypeInfo_var, L_4));
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter::ReadProgramCount(System.Int32)
-extern "C" int32_t Interpreter_ReadProgramCount_m5395 (Interpreter_t1053 * __this, int32_t ___ptr, const MethodInfo* method)
+extern "C" int32_t Interpreter_ReadProgramCount_m2_624 (Interpreter_t2_115 * __this, int32_t ___ptr, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		UInt16U5BU5D_t978* L_0 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_0 = (__this->___program_1);
 		int32_t L_1 = ___ptr;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, ((int32_t)((int32_t)L_1+(int32_t)1)));
@@ -773,7 +773,7 @@ extern "C" int32_t Interpreter_ReadProgramCount_m5395 (Interpreter_t1053 * __thi
 		int32_t L_3 = V_0;
 		V_0 = ((int32_t)((int32_t)L_3<<(int32_t)((int32_t)16)));
 		int32_t L_4 = V_0;
-		UInt16U5BU5D_t978* L_5 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_5 = (__this->___program_1);
 		int32_t L_6 = ___ptr;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
@@ -784,13 +784,13 @@ extern "C" int32_t Interpreter_ReadProgramCount_m5395 (Interpreter_t1053 * __thi
 	}
 }
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
-extern TypeInfo* Match_t941_il2cpp_TypeInfo_var;
-extern "C" Match_t941 * Interpreter_Scan_m5396 (Interpreter_t1053 * __this, Regex_t646 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method)
+extern TypeInfo* Match_t2_82_il2cpp_TypeInfo_var;
+extern "C" Match_t2_82 * Interpreter_Scan_m2_625 (Interpreter_t2_115 * __this, Regex_t2_90 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Match_t941_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(687);
+		Match_t2_82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(685);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -802,50 +802,50 @@ extern "C" Match_t941 * Interpreter_Scan_m5396 (Interpreter_t1053 * __this, Rege
 		__this->___scan_ptr_8 = L_2;
 		int32_t* L_3 = &(__this->___scan_ptr_8);
 		int32_t L_4 = (__this->___program_start_2);
-		bool L_5 = Interpreter_Eval_m5398(__this, 1, L_3, L_4, /*hidden argument*/NULL);
+		bool L_5 = Interpreter_Eval_m2_627(__this, 1, L_3, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0036;
 		}
 	}
 	{
-		Regex_t646 * L_6 = ___regex;
-		Match_t941 * L_7 = Interpreter_GenerateMatch_m5414(__this, L_6, /*hidden argument*/NULL);
+		Regex_t2_90 * L_6 = ___regex;
+		Match_t2_82 * L_7 = Interpreter_GenerateMatch_m2_643(__this, L_6, /*hidden argument*/NULL);
 		return L_7;
 	}
 
 IL_0036:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Match_t941_il2cpp_TypeInfo_var);
-		Match_t941 * L_8 = Match_get_Empty_m5258(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Match_t2_82_il2cpp_TypeInfo_var);
+		Match_t2_82 * L_8 = Match_get_Empty_m2_484(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::Reset()
-extern "C" void Interpreter_Reset_m5397 (Interpreter_t1053 * __this, const MethodInfo* method)
+extern "C" void Interpreter_Reset_m2_626 (Interpreter_t2_115 * __this, const MethodInfo* method)
 {
-	RepeatContext_t1051 * V_0 = {0};
+	RepeatContext_t2_113 * V_0 = {0};
 	{
-		Interpreter_ResetGroups_m5409(__this, /*hidden argument*/NULL);
-		V_0 = (RepeatContext_t1051 *)NULL;
-		__this->___repeat_9 = (RepeatContext_t1051 *)NULL;
-		RepeatContext_t1051 * L_0 = V_0;
+		Interpreter_ResetGroups_m2_638(__this, /*hidden argument*/NULL);
+		V_0 = (RepeatContext_t2_113 *)NULL;
+		__this->___repeat_9 = (RepeatContext_t2_113 *)NULL;
+		RepeatContext_t2_113 * L_0 = V_0;
 		__this->___fast_10 = L_0;
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::Eval(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32)
-extern TypeInfo* QuickSearch_t1054_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* RepeatContext_t1051_il2cpp_TypeInfo_var;
-extern "C" bool Interpreter_Eval_m5398 (Interpreter_t1053 * __this, int32_t ___mode, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method)
+extern TypeInfo* QuickSearch_t2_116_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* RepeatContext_t2_113_il2cpp_TypeInfo_var;
+extern "C" bool Interpreter_Eval_m2_627 (Interpreter_t2_115 * __this, int32_t ___mode, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		QuickSearch_t1054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(708);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		RepeatContext_t1051_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
+		QuickSearch_t2_116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(705);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		RepeatContext_t2_113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(706);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -881,7 +881,7 @@ extern "C" bool Interpreter_Eval_m5398 (Interpreter_t1053 * __this, int32_t ___m
 	int32_t V_30 = 0;
 	uint16_t V_31 = {0};
 	int32_t V_32 = 0;
-	RepeatContext_t1051 * V_33 = {0};
+	RepeatContext_t2_113 * V_33 = {0};
 	int32_t V_34 = 0;
 	int32_t V_35 = 0;
 	int32_t V_36 = 0;
@@ -911,14 +911,14 @@ extern "C" bool Interpreter_Eval_m5398 (Interpreter_t1053 * __this, int32_t ___m
 	int32_t G_B96_0 = 0;
 	int32_t G_B162_0 = 0;
 	int32_t G_B162_1 = 0;
-	Interpreter_t1053 * G_B162_2 = {0};
+	Interpreter_t2_115 * G_B162_2 = {0};
 	int32_t G_B161_0 = 0;
 	int32_t G_B161_1 = 0;
-	Interpreter_t1053 * G_B161_2 = {0};
+	Interpreter_t2_115 * G_B161_2 = {0};
 	int32_t G_B163_0 = 0;
 	int32_t G_B163_1 = 0;
 	int32_t G_B163_2 = 0;
-	Interpreter_t1053 * G_B163_3 = {0};
+	Interpreter_t2_115 * G_B163_3 = {0};
 	{
 		int32_t* L_0 = ___ref_ptr;
 		V_0 = (*((int32_t*)L_0));
@@ -931,7 +931,7 @@ IL_0003:
 
 IL_0008:
 	{
-		UInt16U5BU5D_t978* L_1 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_1 = (__this->___program_1);
 		int32_t L_2 = ___pc;
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
@@ -1051,13 +1051,13 @@ IL_0008:
 
 IL_0096:
 	{
-		UInt16U5BU5D_t978* L_8 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_8 = (__this->___program_1);
 		int32_t L_9 = ___pc;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, ((int32_t)((int32_t)L_9+(int32_t)1)));
 		int32_t L_10 = ((int32_t)((int32_t)L_9+(int32_t)1));
 		V_4 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_8, L_10, sizeof(uint16_t)));
-		UInt16U5BU5D_t978* L_11 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_11 = (__this->___program_1);
 		int32_t L_12 = ___pc;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, ((int32_t)((int32_t)L_12+(int32_t)2)));
@@ -1093,7 +1093,7 @@ IL_00d2:
 		int32_t L_22 = V_5;
 		V_8 = ((int32_t)((int32_t)((int32_t)((int32_t)L_20-(int32_t)L_21))+(int32_t)L_22));
 		V_9 = 0;
-		UInt16U5BU5D_t978* L_23 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_23 = (__this->___program_1);
 		int32_t L_24 = ___pc;
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, ((int32_t)((int32_t)L_24+(int32_t)3)));
@@ -1113,7 +1113,7 @@ IL_00d2:
 		}
 	}
 	{
-		UInt16U5BU5D_t978* L_28 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_28 = (__this->___program_1);
 		int32_t L_29 = ___pc;
 		NullCheck(L_28);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_28, ((int32_t)((int32_t)L_29+(int32_t)4)));
@@ -1170,7 +1170,7 @@ IL_014a:
 	{
 		int32_t L_36 = ___pc;
 		int32_t L_37 = V_4;
-		bool L_38 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_36+(int32_t)L_37)), /*hidden argument*/NULL);
+		bool L_38 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_36+(int32_t)L_37)), /*hidden argument*/NULL);
 		if (!L_38)
 		{
 			goto IL_0160;
@@ -1197,7 +1197,7 @@ IL_0165:
 		V_0 = 0;
 		int32_t L_40 = ___pc;
 		int32_t L_41 = V_4;
-		bool L_42 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_40+(int32_t)L_41)), /*hidden argument*/NULL);
+		bool L_42 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_40+(int32_t)L_41)), /*hidden argument*/NULL);
 		if (!L_42)
 		{
 			goto IL_0184;
@@ -1230,7 +1230,7 @@ IL_018f:
 		String_t* L_45 = (__this->___text_3);
 		int32_t L_46 = V_7;
 		NullCheck(L_45);
-		uint16_t L_47 = String_get_Chars_m2240(L_45, ((int32_t)((int32_t)L_46-(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_47 = String_get_Chars_m1_344(L_45, ((int32_t)((int32_t)L_46-(int32_t)1)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_47) == ((uint32_t)((int32_t)10)))))
 		{
 			goto IL_01f8;
@@ -1302,7 +1302,7 @@ IL_01e2:
 	{
 		int32_t L_58 = ___pc;
 		int32_t L_59 = V_4;
-		bool L_60 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_58+(int32_t)L_59)), /*hidden argument*/NULL);
+		bool L_60 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_58+(int32_t)L_59)), /*hidden argument*/NULL);
 		if (!L_60)
 		{
 			goto IL_01f8;
@@ -1405,7 +1405,7 @@ IL_025f:
 		V_0 = G_B48_0;
 		int32_t L_76 = ___pc;
 		int32_t L_77 = V_4;
-		bool L_78 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_76+(int32_t)L_77)), /*hidden argument*/NULL);
+		bool L_78 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_76+(int32_t)L_77)), /*hidden argument*/NULL);
 		if (!L_78)
 		{
 			goto IL_0276;
@@ -1432,7 +1432,7 @@ IL_0280:
 
 IL_0285:
 	{
-		QuickSearch_t1054 * L_79 = (__this->___qs_7);
+		QuickSearch_t2_116 * L_79 = (__this->___qs_7);
 		if (L_79)
 		{
 			goto IL_02ab;
@@ -1447,7 +1447,7 @@ IL_0285:
 	}
 	{
 		int32_t L_81 = V_4;
-		UInt16U5BU5D_t978* L_82 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_82 = (__this->___program_1);
 		int32_t L_83 = ___pc;
 		NullCheck(L_82);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_82, ((int32_t)((int32_t)L_83+(int32_t)4)));
@@ -1460,33 +1460,33 @@ IL_0285:
 
 IL_02ab:
 	{
-		UInt16U5BU5D_t978* L_85 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_85 = (__this->___program_1);
 		int32_t L_86 = ___pc;
 		NullCheck(L_85);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_85, ((int32_t)((int32_t)L_86+(int32_t)3)));
 		int32_t L_87 = ((int32_t)((int32_t)L_86+(int32_t)3));
 		V_11 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_85, L_87, sizeof(uint16_t)))&(int32_t)((int32_t)1024))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		QuickSearch_t1054 * L_88 = (__this->___qs_7);
+		QuickSearch_t2_116 * L_88 = (__this->___qs_7);
 		if (L_88)
 		{
 			goto IL_0304;
 		}
 	}
 	{
-		UInt16U5BU5D_t978* L_89 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_89 = (__this->___program_1);
 		int32_t L_90 = ___pc;
 		NullCheck(L_89);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_89, ((int32_t)((int32_t)L_90+(int32_t)3)));
 		int32_t L_91 = ((int32_t)((int32_t)L_90+(int32_t)3));
 		V_12 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_89, L_91, sizeof(uint16_t)))&(int32_t)((int32_t)512))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		int32_t L_92 = ___pc;
-		String_t* L_93 = Interpreter_GetString_m5403(__this, ((int32_t)((int32_t)L_92+(int32_t)3)), /*hidden argument*/NULL);
+		String_t* L_93 = Interpreter_GetString_m2_632(__this, ((int32_t)((int32_t)L_92+(int32_t)3)), /*hidden argument*/NULL);
 		V_13 = L_93;
 		String_t* L_94 = V_13;
 		bool L_95 = V_12;
 		bool L_96 = V_11;
-		QuickSearch_t1054 * L_97 = (QuickSearch_t1054 *)il2cpp_codegen_object_new (QuickSearch_t1054_il2cpp_TypeInfo_var);
-		QuickSearch__ctor_m5478(L_97, L_94, L_95, L_96, /*hidden argument*/NULL);
+		QuickSearch_t2_116 * L_97 = (QuickSearch_t2_116 *)il2cpp_codegen_object_new (QuickSearch_t2_116_il2cpp_TypeInfo_var);
+		QuickSearch__ctor_m2_707(L_97, L_94, L_95, L_96, /*hidden argument*/NULL);
 		__this->___qs_7 = L_97;
 	}
 
@@ -1504,12 +1504,12 @@ IL_0309:
 		}
 	}
 	{
-		QuickSearch_t1054 * L_99 = (__this->___qs_7);
+		QuickSearch_t2_116 * L_99 = (__this->___qs_7);
 		String_t* L_100 = (__this->___text_3);
 		int32_t L_101 = V_7;
 		int32_t L_102 = V_9;
 		NullCheck(L_99);
-		int32_t L_103 = QuickSearch_Search_m5481(L_99, L_100, L_101, L_102, /*hidden argument*/NULL);
+		int32_t L_103 = QuickSearch_Search_m2_710(L_99, L_100, L_101, L_102, /*hidden argument*/NULL);
 		V_7 = L_103;
 		int32_t L_104 = V_7;
 		if ((((int32_t)L_104) == ((int32_t)(-1))))
@@ -1519,9 +1519,9 @@ IL_0309:
 	}
 	{
 		int32_t L_105 = V_7;
-		QuickSearch_t1054 * L_106 = (__this->___qs_7);
+		QuickSearch_t2_116 * L_106 = (__this->___qs_7);
 		NullCheck(L_106);
-		int32_t L_107 = QuickSearch_get_Length_m5480(L_106, /*hidden argument*/NULL);
+		int32_t L_107 = QuickSearch_get_Length_m2_709(L_106, /*hidden argument*/NULL);
 		V_7 = ((int32_t)((int32_t)L_105+(int32_t)L_107));
 	}
 
@@ -1532,12 +1532,12 @@ IL_033f:
 
 IL_0344:
 	{
-		QuickSearch_t1054 * L_108 = (__this->___qs_7);
+		QuickSearch_t2_116 * L_108 = (__this->___qs_7);
 		String_t* L_109 = (__this->___text_3);
 		int32_t L_110 = V_7;
 		int32_t L_111 = V_8;
 		NullCheck(L_108);
-		int32_t L_112 = QuickSearch_Search_m5481(L_108, L_109, L_110, L_111, /*hidden argument*/NULL);
+		int32_t L_112 = QuickSearch_Search_m2_710(L_108, L_109, L_110, L_111, /*hidden argument*/NULL);
 		V_7 = L_112;
 	}
 
@@ -1580,7 +1580,7 @@ IL_037e:
 		V_0 = G_B69_0;
 		int32_t L_119 = ___pc;
 		int32_t L_120 = V_4;
-		bool L_121 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_119+(int32_t)L_120)), /*hidden argument*/NULL);
+		bool L_121 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_119+(int32_t)L_120)), /*hidden argument*/NULL);
 		if (!L_121)
 		{
 			goto IL_0395;
@@ -1667,7 +1667,7 @@ IL_03df:
 		V_0 = L_132;
 		int32_t L_133 = ___pc;
 		int32_t L_134 = V_4;
-		bool L_135 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_133+(int32_t)L_134)), /*hidden argument*/NULL);
+		bool L_135 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_133+(int32_t)L_134)), /*hidden argument*/NULL);
 		if (!L_135)
 		{
 			goto IL_03f8;
@@ -1746,7 +1746,7 @@ IL_043a:
 		int32_t L_145 = V_7;
 		V_0 = L_145;
 		int32_t L_146 = ___pc;
-		bool L_147 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_146+(int32_t)3)), /*hidden argument*/NULL);
+		bool L_147 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_146+(int32_t)3)), /*hidden argument*/NULL);
 		if (!L_147)
 		{
 			goto IL_047b;
@@ -1778,7 +1778,7 @@ IL_0464:
 		V_0 = G_B96_0;
 		int32_t L_153 = ___pc;
 		int32_t L_154 = V_4;
-		bool L_155 = Interpreter_TryMatch_m5400(__this, (&V_0), ((int32_t)((int32_t)L_153+(int32_t)L_154)), /*hidden argument*/NULL);
+		bool L_155 = Interpreter_TryMatch_m2_629(__this, (&V_0), ((int32_t)((int32_t)L_153+(int32_t)L_154)), /*hidden argument*/NULL);
 		if (!L_155)
 		{
 			goto IL_047b;
@@ -1859,13 +1859,13 @@ IL_04bd:
 
 IL_04c2:
 	{
-		UInt16U5BU5D_t978* L_165 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_165 = (__this->___program_1);
 		int32_t L_166 = ___pc;
 		NullCheck(L_165);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_165, ((int32_t)((int32_t)L_166+(int32_t)1)));
 		int32_t L_167 = ((int32_t)((int32_t)L_166+(int32_t)1));
 		int32_t L_168 = V_0;
-		bool L_169 = Interpreter_IsPosition_m5401(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_165, L_167, sizeof(uint16_t))), L_168, /*hidden argument*/NULL);
+		bool L_169 = Interpreter_IsPosition_m2_630(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_165, L_167, sizeof(uint16_t))), L_168, /*hidden argument*/NULL);
 		if (L_169)
 		{
 			goto IL_04dd;
@@ -1888,7 +1888,7 @@ IL_04e7:
 		V_14 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_171&(int32_t)((int32_t)1024))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		uint16_t L_172 = V_3;
 		V_15 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_172&(int32_t)((int32_t)512))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		UInt16U5BU5D_t978* L_173 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_173 = (__this->___program_1);
 		int32_t L_174 = ___pc;
 		NullCheck(L_173);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_173, ((int32_t)((int32_t)L_174+(int32_t)1)));
@@ -1947,7 +1947,7 @@ IL_0551:
 		int32_t L_185 = V_0;
 		int32_t L_186 = V_17;
 		NullCheck(L_184);
-		uint16_t L_187 = String_get_Chars_m2240(L_184, ((int32_t)((int32_t)L_185+(int32_t)L_186)), /*hidden argument*/NULL);
+		uint16_t L_187 = String_get_Chars_m1_344(L_184, ((int32_t)((int32_t)L_185+(int32_t)L_186)), /*hidden argument*/NULL);
 		V_18 = L_187;
 		bool L_188 = V_15;
 		if (!L_188)
@@ -1957,15 +1957,15 @@ IL_0551:
 	}
 	{
 		uint16_t L_189 = V_18;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_190 = Char_ToLower_m2292(NULL /*static, unused*/, L_189, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_190 = Char_ToLower_m1_311(NULL /*static, unused*/, L_189, /*hidden argument*/NULL);
 		V_18 = L_190;
 	}
 
 IL_0572:
 	{
 		uint16_t L_191 = V_18;
-		UInt16U5BU5D_t978* L_192 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_192 = (__this->___program_1);
 		int32_t L_193 = ___pc;
 		int32_t L_194 = L_193;
 		___pc = ((int32_t)((int32_t)L_194+(int32_t)1));
@@ -2020,12 +2020,12 @@ IL_05ab:
 		V_19 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_202&(int32_t)((int32_t)1024))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		uint16_t L_203 = V_3;
 		V_20 = ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_203&(int32_t)((int32_t)512))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		UInt16U5BU5D_t978* L_204 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_204 = (__this->___program_1);
 		int32_t L_205 = ___pc;
 		NullCheck(L_204);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_204, ((int32_t)((int32_t)L_205+(int32_t)1)));
 		int32_t L_206 = ((int32_t)((int32_t)L_205+(int32_t)1));
-		int32_t L_207 = Interpreter_GetLastDefined_m5410(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_204, L_206, sizeof(uint16_t))), /*hidden argument*/NULL);
+		int32_t L_207 = Interpreter_GetLastDefined_m2_639(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_204, L_206, sizeof(uint16_t))), /*hidden argument*/NULL);
 		V_21 = L_207;
 		int32_t L_208 = V_21;
 		if ((((int32_t)L_208) >= ((int32_t)0)))
@@ -2039,17 +2039,17 @@ IL_05ab:
 
 IL_05ea:
 	{
-		MarkU5BU5D_t1055* L_209 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_209 = (__this->___marks_13);
 		int32_t L_210 = V_21;
 		NullCheck(L_209);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_209, L_210);
-		int32_t L_211 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_209, L_210, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		int32_t L_211 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_209, L_210, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		V_22 = L_211;
-		MarkU5BU5D_t1055* L_212 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_212 = (__this->___marks_13);
 		int32_t L_213 = V_21;
 		NullCheck(L_212);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_212, L_213);
-		int32_t L_214 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_212, L_213, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		int32_t L_214 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_212, L_213, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		V_23 = L_214;
 		bool L_215 = V_19;
 		if (!L_215)
@@ -2111,15 +2111,15 @@ IL_0657:
 		int32_t L_225 = V_0;
 		int32_t L_226 = V_24;
 		NullCheck(L_224);
-		uint16_t L_227 = String_get_Chars_m2240(L_224, ((int32_t)((int32_t)L_225+(int32_t)L_226)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_228 = Char_ToLower_m2292(NULL /*static, unused*/, L_227, /*hidden argument*/NULL);
+		uint16_t L_227 = String_get_Chars_m1_344(L_224, ((int32_t)((int32_t)L_225+(int32_t)L_226)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_228 = Char_ToLower_m1_311(NULL /*static, unused*/, L_227, /*hidden argument*/NULL);
 		String_t* L_229 = (__this->___text_3);
 		int32_t L_230 = V_22;
 		int32_t L_231 = V_24;
 		NullCheck(L_229);
-		uint16_t L_232 = String_get_Chars_m2240(L_229, ((int32_t)((int32_t)L_230+(int32_t)L_231)), /*hidden argument*/NULL);
-		uint16_t L_233 = Char_ToLower_m2292(NULL /*static, unused*/, L_232, /*hidden argument*/NULL);
+		uint16_t L_232 = String_get_Chars_m1_344(L_229, ((int32_t)((int32_t)L_230+(int32_t)L_231)), /*hidden argument*/NULL);
+		uint16_t L_233 = Char_ToLower_m1_311(NULL /*static, unused*/, L_232, /*hidden argument*/NULL);
 		if ((((int32_t)L_228) == ((int32_t)L_233)))
 		{
 			goto IL_068a;
@@ -2160,12 +2160,12 @@ IL_06a6:
 		int32_t L_238 = V_0;
 		int32_t L_239 = V_25;
 		NullCheck(L_237);
-		uint16_t L_240 = String_get_Chars_m2240(L_237, ((int32_t)((int32_t)L_238+(int32_t)L_239)), /*hidden argument*/NULL);
+		uint16_t L_240 = String_get_Chars_m1_344(L_237, ((int32_t)((int32_t)L_238+(int32_t)L_239)), /*hidden argument*/NULL);
 		String_t* L_241 = (__this->___text_3);
 		int32_t L_242 = V_22;
 		int32_t L_243 = V_25;
 		NullCheck(L_241);
-		uint16_t L_244 = String_get_Chars_m2240(L_241, ((int32_t)((int32_t)L_242+(int32_t)L_243)), /*hidden argument*/NULL);
+		uint16_t L_244 = String_get_Chars_m1_344(L_241, ((int32_t)((int32_t)L_242+(int32_t)L_243)), /*hidden argument*/NULL);
 		if ((((int32_t)L_240) == ((int32_t)L_244)))
 		{
 			goto IL_06cf;
@@ -2213,7 +2213,7 @@ IL_06ea:
 IL_06ef:
 	{
 		int32_t L_251 = ___mode;
-		bool L_252 = Interpreter_EvalChar_m5399(__this, L_251, (&V_0), (&___pc), 0, /*hidden argument*/NULL);
+		bool L_252 = Interpreter_EvalChar_m2_628(__this, L_251, (&V_0), (&___pc), 0, /*hidden argument*/NULL);
 		if (L_252)
 		{
 			goto IL_0705;
@@ -2231,7 +2231,7 @@ IL_0705:
 IL_070a:
 	{
 		int32_t L_253 = ___pc;
-		UInt16U5BU5D_t978* L_254 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_254 = (__this->___program_1);
 		int32_t L_255 = ___pc;
 		NullCheck(L_254);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_254, ((int32_t)((int32_t)L_255+(int32_t)1)));
@@ -2240,7 +2240,7 @@ IL_070a:
 		int32_t L_257 = ___pc;
 		___pc = ((int32_t)((int32_t)L_257+(int32_t)2));
 		int32_t L_258 = ___mode;
-		bool L_259 = Interpreter_EvalChar_m5399(__this, L_258, (&V_0), (&___pc), 1, /*hidden argument*/NULL);
+		bool L_259 = Interpreter_EvalChar_m2_628(__this, L_258, (&V_0), (&___pc), 1, /*hidden argument*/NULL);
 		if (L_259)
 		{
 			goto IL_0733;
@@ -2259,13 +2259,13 @@ IL_0733:
 
 IL_073c:
 	{
-		UInt16U5BU5D_t978* L_261 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_261 = (__this->___program_1);
 		int32_t L_262 = ___pc;
 		NullCheck(L_261);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_261, ((int32_t)((int32_t)L_262+(int32_t)1)));
 		int32_t L_263 = ((int32_t)((int32_t)L_262+(int32_t)1));
 		int32_t L_264 = V_0;
-		Interpreter_Open_m5404(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_261, L_263, sizeof(uint16_t))), L_264, /*hidden argument*/NULL);
+		Interpreter_Open_m2_633(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_261, L_263, sizeof(uint16_t))), L_264, /*hidden argument*/NULL);
 		int32_t L_265 = ___pc;
 		___pc = ((int32_t)((int32_t)L_265+(int32_t)2));
 		goto IL_0fee;
@@ -2273,13 +2273,13 @@ IL_073c:
 
 IL_0757:
 	{
-		UInt16U5BU5D_t978* L_266 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_266 = (__this->___program_1);
 		int32_t L_267 = ___pc;
 		NullCheck(L_266);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_266, ((int32_t)((int32_t)L_267+(int32_t)1)));
 		int32_t L_268 = ((int32_t)((int32_t)L_267+(int32_t)1));
 		int32_t L_269 = V_0;
-		Interpreter_Close_m5405(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_266, L_268, sizeof(uint16_t))), L_269, /*hidden argument*/NULL);
+		Interpreter_Close_m2_634(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_266, L_268, sizeof(uint16_t))), L_269, /*hidden argument*/NULL);
 		int32_t L_270 = ___pc;
 		___pc = ((int32_t)((int32_t)L_270+(int32_t)2));
 		goto IL_0fee;
@@ -2290,7 +2290,7 @@ IL_0772:
 		int32_t L_271 = V_0;
 		V_27 = L_271;
 		int32_t L_272 = ___pc;
-		bool L_273 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_272+(int32_t)5)), /*hidden argument*/NULL);
+		bool L_273 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_272+(int32_t)5)), /*hidden argument*/NULL);
 		if (L_273)
 		{
 			goto IL_078b;
@@ -2302,17 +2302,17 @@ IL_0772:
 
 IL_078b:
 	{
-		UInt16U5BU5D_t978* L_274 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_274 = (__this->___program_1);
 		int32_t L_275 = ___pc;
 		NullCheck(L_274);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_274, ((int32_t)((int32_t)L_275+(int32_t)1)));
 		int32_t L_276 = ((int32_t)((int32_t)L_275+(int32_t)1));
-		UInt16U5BU5D_t978* L_277 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_277 = (__this->___program_1);
 		int32_t L_278 = ___pc;
 		NullCheck(L_277);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_277, ((int32_t)((int32_t)L_278+(int32_t)2)));
 		int32_t L_279 = ((int32_t)((int32_t)L_278+(int32_t)2));
-		UInt16U5BU5D_t978* L_280 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_280 = (__this->___program_1);
 		int32_t L_281 = ___pc;
 		NullCheck(L_280);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_280, ((int32_t)((int32_t)L_281+(int32_t)3)));
@@ -2348,7 +2348,7 @@ IL_07b7:
 	{
 		int32_t L_283 = V_27;
 		NullCheck(G_B163_3);
-		bool L_284 = Interpreter_Balance_m5406(G_B163_3, G_B163_2, G_B163_1, G_B163_0, L_283, /*hidden argument*/NULL);
+		bool L_284 = Interpreter_Balance_m2_635(G_B163_3, G_B163_2, G_B163_1, G_B163_0, L_283, /*hidden argument*/NULL);
 		if (L_284)
 		{
 			goto IL_07c8;
@@ -2361,7 +2361,7 @@ IL_07b7:
 IL_07c8:
 	{
 		int32_t L_285 = ___pc;
-		UInt16U5BU5D_t978* L_286 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_286 = (__this->___program_1);
 		int32_t L_287 = ___pc;
 		NullCheck(L_286);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_286, ((int32_t)((int32_t)L_287+(int32_t)4)));
@@ -2377,12 +2377,12 @@ IL_07db:
 
 IL_07e0:
 	{
-		UInt16U5BU5D_t978* L_289 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_289 = (__this->___program_1);
 		int32_t L_290 = ___pc;
 		NullCheck(L_289);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_289, ((int32_t)((int32_t)L_290+(int32_t)2)));
 		int32_t L_291 = ((int32_t)((int32_t)L_290+(int32_t)2));
-		int32_t L_292 = Interpreter_GetLastDefined_m5410(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_289, L_291, sizeof(uint16_t))), /*hidden argument*/NULL);
+		int32_t L_292 = Interpreter_GetLastDefined_m2_639(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_289, L_291, sizeof(uint16_t))), /*hidden argument*/NULL);
 		V_28 = L_292;
 		int32_t L_293 = V_28;
 		if ((((int32_t)L_293) >= ((int32_t)0)))
@@ -2392,7 +2392,7 @@ IL_07e0:
 	}
 	{
 		int32_t L_294 = ___pc;
-		UInt16U5BU5D_t978* L_295 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_295 = (__this->___program_1);
 		int32_t L_296 = ___pc;
 		NullCheck(L_295);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_295, ((int32_t)((int32_t)L_296+(int32_t)1)));
@@ -2415,7 +2415,7 @@ IL_0812:
 IL_0817:
 	{
 		int32_t L_299 = ___pc;
-		bool L_300 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_299+(int32_t)2)), /*hidden argument*/NULL);
+		bool L_300 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_299+(int32_t)2)), /*hidden argument*/NULL);
 		if (L_300)
 		{
 			goto IL_082d;
@@ -2428,7 +2428,7 @@ IL_0817:
 IL_082d:
 	{
 		int32_t L_301 = ___pc;
-		UInt16U5BU5D_t978* L_302 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_302 = (__this->___program_1);
 		int32_t L_303 = ___pc;
 		NullCheck(L_302);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_302, ((int32_t)((int32_t)L_303+(int32_t)1)));
@@ -2439,12 +2439,12 @@ IL_082d:
 
 IL_0840:
 	{
-		int32_t L_305 = Interpreter_Checkpoint_m5407(__this, /*hidden argument*/NULL);
+		int32_t L_305 = Interpreter_Checkpoint_m2_636(__this, /*hidden argument*/NULL);
 		V_29 = L_305;
 		int32_t L_306 = V_0;
 		V_30 = L_306;
 		int32_t L_307 = ___pc;
-		bool L_308 = Interpreter_Eval_m5398(__this, 1, (&V_30), ((int32_t)((int32_t)L_307+(int32_t)3)), /*hidden argument*/NULL);
+		bool L_308 = Interpreter_Eval_m2_627(__this, 1, (&V_30), ((int32_t)((int32_t)L_307+(int32_t)3)), /*hidden argument*/NULL);
 		if (!L_308)
 		{
 			goto IL_086f;
@@ -2452,7 +2452,7 @@ IL_0840:
 	}
 	{
 		int32_t L_309 = ___pc;
-		UInt16U5BU5D_t978* L_310 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_310 = (__this->___program_1);
 		int32_t L_311 = ___pc;
 		NullCheck(L_310);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_310, ((int32_t)((int32_t)L_311+(int32_t)1)));
@@ -2464,9 +2464,9 @@ IL_0840:
 IL_086f:
 	{
 		int32_t L_313 = V_29;
-		Interpreter_Backtrack_m5408(__this, L_313, /*hidden argument*/NULL);
+		Interpreter_Backtrack_m2_637(__this, L_313, /*hidden argument*/NULL);
 		int32_t L_314 = ___pc;
-		UInt16U5BU5D_t978* L_315 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_315 = (__this->___program_1);
 		int32_t L_316 = ___pc;
 		NullCheck(L_315);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_315, ((int32_t)((int32_t)L_316+(int32_t)2)));
@@ -2481,10 +2481,10 @@ IL_0885:
 
 IL_088a:
 	{
-		int32_t L_318 = Interpreter_Checkpoint_m5407(__this, /*hidden argument*/NULL);
+		int32_t L_318 = Interpreter_Checkpoint_m2_636(__this, /*hidden argument*/NULL);
 		V_32 = L_318;
 		int32_t L_319 = ___pc;
-		bool L_320 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_319+(int32_t)2)), /*hidden argument*/NULL);
+		bool L_320 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_319+(int32_t)2)), /*hidden argument*/NULL);
 		if (!L_320)
 		{
 			goto IL_08a8;
@@ -2497,15 +2497,15 @@ IL_088a:
 IL_08a8:
 	{
 		int32_t L_321 = V_32;
-		Interpreter_Backtrack_m5408(__this, L_321, /*hidden argument*/NULL);
+		Interpreter_Backtrack_m2_637(__this, L_321, /*hidden argument*/NULL);
 		int32_t L_322 = ___pc;
-		UInt16U5BU5D_t978* L_323 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_323 = (__this->___program_1);
 		int32_t L_324 = ___pc;
 		NullCheck(L_323);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_323, ((int32_t)((int32_t)L_324+(int32_t)1)));
 		int32_t L_325 = ((int32_t)((int32_t)L_324+(int32_t)1));
 		___pc = ((int32_t)((int32_t)L_322+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_323, L_325, sizeof(uint16_t)))));
-		UInt16U5BU5D_t978* L_326 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_326 = (__this->___program_1);
 		int32_t L_327 = ___pc;
 		NullCheck(L_326);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_326, L_327);
@@ -2524,7 +2524,7 @@ IL_08a8:
 IL_08db:
 	{
 		int32_t L_330 = ___pc;
-		UInt16U5BU5D_t978* L_331 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_331 = (__this->___program_1);
 		int32_t L_332 = ___pc;
 		NullCheck(L_331);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_331, ((int32_t)((int32_t)L_332+(int32_t)1)));
@@ -2535,23 +2535,23 @@ IL_08db:
 
 IL_08ee:
 	{
-		RepeatContext_t1051 * L_334 = (__this->___repeat_9);
+		RepeatContext_t2_113 * L_334 = (__this->___repeat_9);
 		int32_t L_335 = ___pc;
-		int32_t L_336 = Interpreter_ReadProgramCount_m5395(__this, ((int32_t)((int32_t)L_335+(int32_t)2)), /*hidden argument*/NULL);
+		int32_t L_336 = Interpreter_ReadProgramCount_m2_624(__this, ((int32_t)((int32_t)L_335+(int32_t)2)), /*hidden argument*/NULL);
 		int32_t L_337 = ___pc;
-		int32_t L_338 = Interpreter_ReadProgramCount_m5395(__this, ((int32_t)((int32_t)L_337+(int32_t)4)), /*hidden argument*/NULL);
+		int32_t L_338 = Interpreter_ReadProgramCount_m2_624(__this, ((int32_t)((int32_t)L_337+(int32_t)4)), /*hidden argument*/NULL);
 		uint16_t L_339 = V_3;
 		int32_t L_340 = ___pc;
-		RepeatContext_t1051 * L_341 = (RepeatContext_t1051 *)il2cpp_codegen_object_new (RepeatContext_t1051_il2cpp_TypeInfo_var);
-		RepeatContext__ctor_m5384(L_341, L_334, L_336, L_338, ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_339&(int32_t)((int32_t)2048))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_340+(int32_t)6)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_341 = (RepeatContext_t2_113 *)il2cpp_codegen_object_new (RepeatContext_t2_113_il2cpp_TypeInfo_var);
+		RepeatContext__ctor_m2_613(L_341, L_334, L_336, L_338, ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_339&(int32_t)((int32_t)2048))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_340+(int32_t)6)), /*hidden argument*/NULL);
 		__this->___repeat_9 = L_341;
 		int32_t L_342 = ___pc;
-		UInt16U5BU5D_t978* L_343 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_343 = (__this->___program_1);
 		int32_t L_344 = ___pc;
 		NullCheck(L_343);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_343, ((int32_t)((int32_t)L_344+(int32_t)1)));
 		int32_t L_345 = ((int32_t)((int32_t)L_344+(int32_t)1));
-		bool L_346 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_342+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_343, L_345, sizeof(uint16_t))))), /*hidden argument*/NULL);
+		bool L_346 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_342+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_343, L_345, sizeof(uint16_t))))), /*hidden argument*/NULL);
 		if (!L_346)
 		{
 			goto IL_0941;
@@ -2563,20 +2563,20 @@ IL_08ee:
 
 IL_0941:
 	{
-		RepeatContext_t1051 * L_347 = (__this->___repeat_9);
+		RepeatContext_t2_113 * L_347 = (__this->___repeat_9);
 		NullCheck(L_347);
-		RepeatContext_t1051 * L_348 = RepeatContext_get_Previous_m5393(L_347, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_348 = RepeatContext_get_Previous_m2_622(L_347, /*hidden argument*/NULL);
 		__this->___repeat_9 = L_348;
 		goto IL_1067;
 	}
 
 IL_0957:
 	{
-		RepeatContext_t1051 * L_349 = (__this->___repeat_9);
+		RepeatContext_t2_113 * L_349 = (__this->___repeat_9);
 		V_33 = L_349;
-		RepeatContext_t1051 * L_350 = (__this->___deep_12);
-		RepeatContext_t1051 * L_351 = V_33;
-		if ((!(((Object_t*)(RepeatContext_t1051 *)L_350) == ((Object_t*)(RepeatContext_t1051 *)L_351))))
+		RepeatContext_t2_113 * L_350 = (__this->___deep_12);
+		RepeatContext_t2_113 * L_351 = V_33;
+		if ((!(((Object_t*)(RepeatContext_t2_113 *)L_350) == ((Object_t*)(RepeatContext_t2_113 *)L_351))))
 		{
 			goto IL_0971;
 		}
@@ -2587,57 +2587,57 @@ IL_0957:
 
 IL_0971:
 	{
-		RepeatContext_t1051 * L_352 = V_33;
+		RepeatContext_t2_113 * L_352 = V_33;
 		NullCheck(L_352);
-		int32_t L_353 = RepeatContext_get_Start_m5387(L_352, /*hidden argument*/NULL);
+		int32_t L_353 = RepeatContext_get_Start_m2_616(L_352, /*hidden argument*/NULL);
 		V_34 = L_353;
-		RepeatContext_t1051 * L_354 = V_33;
+		RepeatContext_t2_113 * L_354 = V_33;
 		NullCheck(L_354);
-		int32_t L_355 = RepeatContext_get_Count_m5385(L_354, /*hidden argument*/NULL);
+		int32_t L_355 = RepeatContext_get_Count_m2_614(L_354, /*hidden argument*/NULL);
 		V_35 = L_355;
 		goto IL_09e5;
 	}
 
 IL_0988:
 	{
-		RepeatContext_t1051 * L_356 = V_33;
-		RepeatContext_t1051 * L_357 = L_356;
+		RepeatContext_t2_113 * L_356 = V_33;
+		RepeatContext_t2_113 * L_357 = L_356;
 		NullCheck(L_357);
-		int32_t L_358 = RepeatContext_get_Count_m5385(L_357, /*hidden argument*/NULL);
+		int32_t L_358 = RepeatContext_get_Count_m2_614(L_357, /*hidden argument*/NULL);
 		NullCheck(L_357);
-		RepeatContext_set_Count_m5386(L_357, ((int32_t)((int32_t)L_358+(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_359 = V_33;
+		RepeatContext_set_Count_m2_615(L_357, ((int32_t)((int32_t)L_358+(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_359 = V_33;
 		int32_t L_360 = V_0;
 		NullCheck(L_359);
-		RepeatContext_set_Start_m5388(L_359, L_360, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_361 = V_33;
+		RepeatContext_set_Start_m2_617(L_359, L_360, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_361 = V_33;
 		__this->___deep_12 = L_361;
-		RepeatContext_t1051 * L_362 = V_33;
+		RepeatContext_t2_113 * L_362 = V_33;
 		NullCheck(L_362);
-		int32_t L_363 = RepeatContext_get_Expression_m5392(L_362, /*hidden argument*/NULL);
-		bool L_364 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_363, /*hidden argument*/NULL);
+		int32_t L_363 = RepeatContext_get_Expression_m2_621(L_362, /*hidden argument*/NULL);
+		bool L_364 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_363, /*hidden argument*/NULL);
 		if (L_364)
 		{
 			goto IL_09d3;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_365 = V_33;
+		RepeatContext_t2_113 * L_365 = V_33;
 		int32_t L_366 = V_34;
 		NullCheck(L_365);
-		RepeatContext_set_Start_m5388(L_365, L_366, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_367 = V_33;
+		RepeatContext_set_Start_m2_617(L_365, L_366, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_367 = V_33;
 		int32_t L_368 = V_35;
 		NullCheck(L_367);
-		RepeatContext_set_Count_m5386(L_367, L_368, /*hidden argument*/NULL);
+		RepeatContext_set_Count_m2_615(L_367, L_368, /*hidden argument*/NULL);
 		goto IL_1067;
 	}
 
 IL_09d3:
 	{
-		RepeatContext_t1051 * L_369 = (__this->___deep_12);
-		RepeatContext_t1051 * L_370 = V_33;
-		if ((((Object_t*)(RepeatContext_t1051 *)L_369) == ((Object_t*)(RepeatContext_t1051 *)L_370)))
+		RepeatContext_t2_113 * L_369 = (__this->___deep_12);
+		RepeatContext_t2_113 * L_370 = V_33;
+		if ((((Object_t*)(RepeatContext_t2_113 *)L_369) == ((Object_t*)(RepeatContext_t2_113 *)L_370)))
 		{
 			goto IL_09e5;
 		}
@@ -2648,9 +2648,9 @@ IL_09d3:
 
 IL_09e5:
 	{
-		RepeatContext_t1051 * L_371 = V_33;
+		RepeatContext_t2_113 * L_371 = V_33;
 		NullCheck(L_371);
-		bool L_372 = RepeatContext_get_IsMinimum_m5389(L_371, /*hidden argument*/NULL);
+		bool L_372 = RepeatContext_get_IsMinimum_m2_618(L_371, /*hidden argument*/NULL);
 		if (!L_372)
 		{
 			goto IL_0988;
@@ -2658,22 +2658,22 @@ IL_09e5:
 	}
 	{
 		int32_t L_373 = V_0;
-		RepeatContext_t1051 * L_374 = V_33;
+		RepeatContext_t2_113 * L_374 = V_33;
 		NullCheck(L_374);
-		int32_t L_375 = RepeatContext_get_Start_m5387(L_374, /*hidden argument*/NULL);
+		int32_t L_375 = RepeatContext_get_Start_m2_616(L_374, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_373) == ((uint32_t)L_375))))
 		{
 			goto IL_0a35;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_376 = V_33;
+		RepeatContext_t2_113 * L_376 = V_33;
 		NullCheck(L_376);
-		RepeatContext_t1051 * L_377 = RepeatContext_get_Previous_m5393(L_376, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_377 = RepeatContext_get_Previous_m2_622(L_376, /*hidden argument*/NULL);
 		__this->___repeat_9 = L_377;
-		__this->___deep_12 = (RepeatContext_t1051 *)NULL;
+		__this->___deep_12 = (RepeatContext_t2_113 *)NULL;
 		int32_t L_378 = ___pc;
-		bool L_379 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_378+(int32_t)1)), /*hidden argument*/NULL);
+		bool L_379 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_378+(int32_t)1)), /*hidden argument*/NULL);
 		if (!L_379)
 		{
 			goto IL_0a28;
@@ -2685,16 +2685,16 @@ IL_09e5:
 
 IL_0a28:
 	{
-		RepeatContext_t1051 * L_380 = V_33;
+		RepeatContext_t2_113 * L_380 = V_33;
 		__this->___repeat_9 = L_380;
 		goto IL_1067;
 	}
 
 IL_0a35:
 	{
-		RepeatContext_t1051 * L_381 = V_33;
+		RepeatContext_t2_113 * L_381 = V_33;
 		NullCheck(L_381);
-		bool L_382 = RepeatContext_get_IsLazy_m5391(L_381, /*hidden argument*/NULL);
+		bool L_382 = RepeatContext_get_IsLazy_m2_620(L_381, /*hidden argument*/NULL);
 		if (!L_382)
 		{
 			goto IL_0b0d;
@@ -2706,15 +2706,15 @@ IL_0a35:
 
 IL_0a46:
 	{
-		RepeatContext_t1051 * L_383 = V_33;
+		RepeatContext_t2_113 * L_383 = V_33;
 		NullCheck(L_383);
-		RepeatContext_t1051 * L_384 = RepeatContext_get_Previous_m5393(L_383, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_384 = RepeatContext_get_Previous_m2_622(L_383, /*hidden argument*/NULL);
 		__this->___repeat_9 = L_384;
-		__this->___deep_12 = (RepeatContext_t1051 *)NULL;
-		int32_t L_385 = Interpreter_Checkpoint_m5407(__this, /*hidden argument*/NULL);
+		__this->___deep_12 = (RepeatContext_t2_113 *)NULL;
+		int32_t L_385 = Interpreter_Checkpoint_m2_636(__this, /*hidden argument*/NULL);
 		V_36 = L_385;
 		int32_t L_386 = ___pc;
-		bool L_387 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_386+(int32_t)1)), /*hidden argument*/NULL);
+		bool L_387 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_386+(int32_t)1)), /*hidden argument*/NULL);
 		if (!L_387)
 		{
 			goto IL_0a78;
@@ -2727,12 +2727,12 @@ IL_0a46:
 IL_0a78:
 	{
 		int32_t L_388 = V_36;
-		Interpreter_Backtrack_m5408(__this, L_388, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_389 = V_33;
+		Interpreter_Backtrack_m2_637(__this, L_388, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_389 = V_33;
 		__this->___repeat_9 = L_389;
-		RepeatContext_t1051 * L_390 = V_33;
+		RepeatContext_t2_113 * L_390 = V_33;
 		NullCheck(L_390);
-		bool L_391 = RepeatContext_get_IsMaximum_m5390(L_390, /*hidden argument*/NULL);
+		bool L_391 = RepeatContext_get_IsMaximum_m2_619(L_390, /*hidden argument*/NULL);
 		if (!L_391)
 		{
 			goto IL_0a99;
@@ -2744,44 +2744,44 @@ IL_0a78:
 
 IL_0a99:
 	{
-		RepeatContext_t1051 * L_392 = V_33;
-		RepeatContext_t1051 * L_393 = L_392;
+		RepeatContext_t2_113 * L_392 = V_33;
+		RepeatContext_t2_113 * L_393 = L_392;
 		NullCheck(L_393);
-		int32_t L_394 = RepeatContext_get_Count_m5385(L_393, /*hidden argument*/NULL);
+		int32_t L_394 = RepeatContext_get_Count_m2_614(L_393, /*hidden argument*/NULL);
 		NullCheck(L_393);
-		RepeatContext_set_Count_m5386(L_393, ((int32_t)((int32_t)L_394+(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_395 = V_33;
+		RepeatContext_set_Count_m2_615(L_393, ((int32_t)((int32_t)L_394+(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_395 = V_33;
 		int32_t L_396 = V_0;
 		NullCheck(L_395);
-		RepeatContext_set_Start_m5388(L_395, L_396, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_397 = V_33;
+		RepeatContext_set_Start_m2_617(L_395, L_396, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_397 = V_33;
 		__this->___deep_12 = L_397;
-		RepeatContext_t1051 * L_398 = V_33;
+		RepeatContext_t2_113 * L_398 = V_33;
 		NullCheck(L_398);
-		int32_t L_399 = RepeatContext_get_Expression_m5392(L_398, /*hidden argument*/NULL);
-		bool L_400 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_399, /*hidden argument*/NULL);
+		int32_t L_399 = RepeatContext_get_Expression_m2_621(L_398, /*hidden argument*/NULL);
+		bool L_400 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_399, /*hidden argument*/NULL);
 		if (L_400)
 		{
 			goto IL_0ae4;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_401 = V_33;
+		RepeatContext_t2_113 * L_401 = V_33;
 		int32_t L_402 = V_34;
 		NullCheck(L_401);
-		RepeatContext_set_Start_m5388(L_401, L_402, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_403 = V_33;
+		RepeatContext_set_Start_m2_617(L_401, L_402, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_403 = V_33;
 		int32_t L_404 = V_35;
 		NullCheck(L_403);
-		RepeatContext_set_Count_m5386(L_403, L_404, /*hidden argument*/NULL);
+		RepeatContext_set_Count_m2_615(L_403, L_404, /*hidden argument*/NULL);
 		goto IL_1067;
 	}
 
 IL_0ae4:
 	{
-		RepeatContext_t1051 * L_405 = (__this->___deep_12);
-		RepeatContext_t1051 * L_406 = V_33;
-		if ((((Object_t*)(RepeatContext_t1051 *)L_405) == ((Object_t*)(RepeatContext_t1051 *)L_406)))
+		RepeatContext_t2_113 * L_405 = (__this->___deep_12);
+		RepeatContext_t2_113 * L_406 = V_33;
+		if ((((Object_t*)(RepeatContext_t2_113 *)L_405) == ((Object_t*)(RepeatContext_t2_113 *)L_406)))
 		{
 			goto IL_0af6;
 		}
@@ -2793,9 +2793,9 @@ IL_0ae4:
 IL_0af6:
 	{
 		int32_t L_407 = V_0;
-		RepeatContext_t1051 * L_408 = V_33;
+		RepeatContext_t2_113 * L_408 = V_33;
 		NullCheck(L_408);
-		int32_t L_409 = RepeatContext_get_Start_m5387(L_408, /*hidden argument*/NULL);
+		int32_t L_409 = RepeatContext_get_Start_m2_616(L_408, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_407) == ((uint32_t)L_409))))
 		{
 			goto IL_0b08;
@@ -2812,87 +2812,87 @@ IL_0b08:
 
 IL_0b0d:
 	{
-		IntStack_t1050 * L_410 = &(__this->___stack_11);
-		int32_t L_411 = IntStack_get_Count_m5382(L_410, /*hidden argument*/NULL);
+		IntStack_t2_112 * L_410 = &(__this->___stack_11);
+		int32_t L_411 = IntStack_get_Count_m2_611(L_410, /*hidden argument*/NULL);
 		V_37 = L_411;
 		goto IL_0bd7;
 	}
 
 IL_0b1f:
 	{
-		int32_t L_412 = Interpreter_Checkpoint_m5407(__this, /*hidden argument*/NULL);
+		int32_t L_412 = Interpreter_Checkpoint_m2_636(__this, /*hidden argument*/NULL);
 		V_38 = L_412;
 		int32_t L_413 = V_0;
 		V_39 = L_413;
-		RepeatContext_t1051 * L_414 = V_33;
+		RepeatContext_t2_113 * L_414 = V_33;
 		NullCheck(L_414);
-		int32_t L_415 = RepeatContext_get_Start_m5387(L_414, /*hidden argument*/NULL);
+		int32_t L_415 = RepeatContext_get_Start_m2_616(L_414, /*hidden argument*/NULL);
 		V_40 = L_415;
-		RepeatContext_t1051 * L_416 = V_33;
-		RepeatContext_t1051 * L_417 = L_416;
+		RepeatContext_t2_113 * L_416 = V_33;
+		RepeatContext_t2_113 * L_417 = L_416;
 		NullCheck(L_417);
-		int32_t L_418 = RepeatContext_get_Count_m5385(L_417, /*hidden argument*/NULL);
+		int32_t L_418 = RepeatContext_get_Count_m2_614(L_417, /*hidden argument*/NULL);
 		NullCheck(L_417);
-		RepeatContext_set_Count_m5386(L_417, ((int32_t)((int32_t)L_418+(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_419 = V_33;
+		RepeatContext_set_Count_m2_615(L_417, ((int32_t)((int32_t)L_418+(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_419 = V_33;
 		int32_t L_420 = V_0;
 		NullCheck(L_419);
-		RepeatContext_set_Start_m5388(L_419, L_420, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_421 = V_33;
+		RepeatContext_set_Start_m2_617(L_419, L_420, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_421 = V_33;
 		__this->___deep_12 = L_421;
-		RepeatContext_t1051 * L_422 = V_33;
+		RepeatContext_t2_113 * L_422 = V_33;
 		NullCheck(L_422);
-		int32_t L_423 = RepeatContext_get_Expression_m5392(L_422, /*hidden argument*/NULL);
-		bool L_424 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_423, /*hidden argument*/NULL);
+		int32_t L_423 = RepeatContext_get_Expression_m2_621(L_422, /*hidden argument*/NULL);
+		bool L_424 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_423, /*hidden argument*/NULL);
 		if (L_424)
 		{
 			goto IL_0b8c;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_425 = V_33;
-		RepeatContext_t1051 * L_426 = L_425;
+		RepeatContext_t2_113 * L_425 = V_33;
+		RepeatContext_t2_113 * L_426 = L_425;
 		NullCheck(L_426);
-		int32_t L_427 = RepeatContext_get_Count_m5385(L_426, /*hidden argument*/NULL);
+		int32_t L_427 = RepeatContext_get_Count_m2_614(L_426, /*hidden argument*/NULL);
 		NullCheck(L_426);
-		RepeatContext_set_Count_m5386(L_426, ((int32_t)((int32_t)L_427-(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_428 = V_33;
+		RepeatContext_set_Count_m2_615(L_426, ((int32_t)((int32_t)L_427-(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_428 = V_33;
 		int32_t L_429 = V_40;
 		NullCheck(L_428);
-		RepeatContext_set_Start_m5388(L_428, L_429, /*hidden argument*/NULL);
+		RepeatContext_set_Start_m2_617(L_428, L_429, /*hidden argument*/NULL);
 		int32_t L_430 = V_38;
-		Interpreter_Backtrack_m5408(__this, L_430, /*hidden argument*/NULL);
+		Interpreter_Backtrack_m2_637(__this, L_430, /*hidden argument*/NULL);
 		goto IL_0be3;
 	}
 
 IL_0b8c:
 	{
-		RepeatContext_t1051 * L_431 = (__this->___deep_12);
-		RepeatContext_t1051 * L_432 = V_33;
-		if ((((Object_t*)(RepeatContext_t1051 *)L_431) == ((Object_t*)(RepeatContext_t1051 *)L_432)))
+		RepeatContext_t2_113 * L_431 = (__this->___deep_12);
+		RepeatContext_t2_113 * L_432 = V_33;
+		if ((((Object_t*)(RepeatContext_t2_113 *)L_431) == ((Object_t*)(RepeatContext_t2_113 *)L_432)))
 		{
 			goto IL_0bab;
 		}
 	}
 	{
-		IntStack_t1050 * L_433 = &(__this->___stack_11);
+		IntStack_t2_112 * L_433 = &(__this->___stack_11);
 		int32_t L_434 = V_37;
-		IntStack_set_Count_m5383(L_433, L_434, /*hidden argument*/NULL);
+		IntStack_set_Count_m2_612(L_433, L_434, /*hidden argument*/NULL);
 		goto IL_0ff3;
 	}
 
 IL_0bab:
 	{
-		IntStack_t1050 * L_435 = &(__this->___stack_11);
+		IntStack_t2_112 * L_435 = &(__this->___stack_11);
 		int32_t L_436 = V_38;
-		IntStack_Push_m5381(L_435, L_436, /*hidden argument*/NULL);
-		IntStack_t1050 * L_437 = &(__this->___stack_11);
+		IntStack_Push_m2_610(L_435, L_436, /*hidden argument*/NULL);
+		IntStack_t2_112 * L_437 = &(__this->___stack_11);
 		int32_t L_438 = V_39;
-		IntStack_Push_m5381(L_437, L_438, /*hidden argument*/NULL);
+		IntStack_Push_m2_610(L_437, L_438, /*hidden argument*/NULL);
 		int32_t L_439 = V_0;
-		RepeatContext_t1051 * L_440 = V_33;
+		RepeatContext_t2_113 * L_440 = V_33;
 		NullCheck(L_440);
-		int32_t L_441 = RepeatContext_get_Start_m5387(L_440, /*hidden argument*/NULL);
+		int32_t L_441 = RepeatContext_get_Start_m2_616(L_440, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_439) == ((uint32_t)L_441))))
 		{
 			goto IL_0bd7;
@@ -2904,9 +2904,9 @@ IL_0bab:
 
 IL_0bd7:
 	{
-		RepeatContext_t1051 * L_442 = V_33;
+		RepeatContext_t2_113 * L_442 = V_33;
 		NullCheck(L_442);
-		bool L_443 = RepeatContext_get_IsMaximum_m5390(L_442, /*hidden argument*/NULL);
+		bool L_443 = RepeatContext_get_IsMaximum_m2_619(L_442, /*hidden argument*/NULL);
 		if (!L_443)
 		{
 			goto IL_0b1f;
@@ -2915,34 +2915,34 @@ IL_0bd7:
 
 IL_0be3:
 	{
-		RepeatContext_t1051 * L_444 = V_33;
+		RepeatContext_t2_113 * L_444 = V_33;
 		NullCheck(L_444);
-		RepeatContext_t1051 * L_445 = RepeatContext_get_Previous_m5393(L_444, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_445 = RepeatContext_get_Previous_m2_622(L_444, /*hidden argument*/NULL);
 		__this->___repeat_9 = L_445;
 		goto IL_0c6a;
 	}
 
 IL_0bf5:
 	{
-		__this->___deep_12 = (RepeatContext_t1051 *)NULL;
+		__this->___deep_12 = (RepeatContext_t2_113 *)NULL;
 		int32_t L_446 = ___pc;
-		bool L_447 = Interpreter_Eval_m5398(__this, 1, (&V_0), ((int32_t)((int32_t)L_446+(int32_t)1)), /*hidden argument*/NULL);
+		bool L_447 = Interpreter_Eval_m2_627(__this, 1, (&V_0), ((int32_t)((int32_t)L_446+(int32_t)1)), /*hidden argument*/NULL);
 		if (!L_447)
 		{
 			goto IL_0c1f;
 		}
 	}
 	{
-		IntStack_t1050 * L_448 = &(__this->___stack_11);
+		IntStack_t2_112 * L_448 = &(__this->___stack_11);
 		int32_t L_449 = V_37;
-		IntStack_set_Count_m5383(L_448, L_449, /*hidden argument*/NULL);
+		IntStack_set_Count_m2_612(L_448, L_449, /*hidden argument*/NULL);
 		goto IL_0ff3;
 	}
 
 IL_0c1f:
 	{
-		IntStack_t1050 * L_450 = &(__this->___stack_11);
-		int32_t L_451 = IntStack_get_Count_m5382(L_450, /*hidden argument*/NULL);
+		IntStack_t2_112 * L_450 = &(__this->___stack_11);
+		int32_t L_451 = IntStack_get_Count_m2_611(L_450, /*hidden argument*/NULL);
 		int32_t L_452 = V_37;
 		if ((!(((uint32_t)L_451) == ((uint32_t)L_452))))
 		{
@@ -2950,25 +2950,25 @@ IL_0c1f:
 		}
 	}
 	{
-		RepeatContext_t1051 * L_453 = V_33;
+		RepeatContext_t2_113 * L_453 = V_33;
 		__this->___repeat_9 = L_453;
 		goto IL_1067;
 	}
 
 IL_0c3e:
 	{
-		RepeatContext_t1051 * L_454 = V_33;
-		RepeatContext_t1051 * L_455 = L_454;
+		RepeatContext_t2_113 * L_454 = V_33;
+		RepeatContext_t2_113 * L_455 = L_454;
 		NullCheck(L_455);
-		int32_t L_456 = RepeatContext_get_Count_m5385(L_455, /*hidden argument*/NULL);
+		int32_t L_456 = RepeatContext_get_Count_m2_614(L_455, /*hidden argument*/NULL);
 		NullCheck(L_455);
-		RepeatContext_set_Count_m5386(L_455, ((int32_t)((int32_t)L_456-(int32_t)1)), /*hidden argument*/NULL);
-		IntStack_t1050 * L_457 = &(__this->___stack_11);
-		int32_t L_458 = IntStack_Pop_m5380(L_457, /*hidden argument*/NULL);
+		RepeatContext_set_Count_m2_615(L_455, ((int32_t)((int32_t)L_456-(int32_t)1)), /*hidden argument*/NULL);
+		IntStack_t2_112 * L_457 = &(__this->___stack_11);
+		int32_t L_458 = IntStack_Pop_m2_609(L_457, /*hidden argument*/NULL);
 		V_0 = L_458;
-		IntStack_t1050 * L_459 = &(__this->___stack_11);
-		int32_t L_460 = IntStack_Pop_m5380(L_459, /*hidden argument*/NULL);
-		Interpreter_Backtrack_m5408(__this, L_460, /*hidden argument*/NULL);
+		IntStack_t2_112 * L_459 = &(__this->___stack_11);
+		int32_t L_460 = IntStack_Pop_m2_609(L_459, /*hidden argument*/NULL);
+		Interpreter_Backtrack_m2_637(__this, L_460, /*hidden argument*/NULL);
 	}
 
 IL_0c6a:
@@ -2978,30 +2978,30 @@ IL_0c6a:
 
 IL_0c6f:
 	{
-		RepeatContext_t1051 * L_461 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_461 = (__this->___fast_10);
 		int32_t L_462 = ___pc;
-		int32_t L_463 = Interpreter_ReadProgramCount_m5395(__this, ((int32_t)((int32_t)L_462+(int32_t)2)), /*hidden argument*/NULL);
+		int32_t L_463 = Interpreter_ReadProgramCount_m2_624(__this, ((int32_t)((int32_t)L_462+(int32_t)2)), /*hidden argument*/NULL);
 		int32_t L_464 = ___pc;
-		int32_t L_465 = Interpreter_ReadProgramCount_m5395(__this, ((int32_t)((int32_t)L_464+(int32_t)4)), /*hidden argument*/NULL);
+		int32_t L_465 = Interpreter_ReadProgramCount_m2_624(__this, ((int32_t)((int32_t)L_464+(int32_t)4)), /*hidden argument*/NULL);
 		uint16_t L_466 = V_3;
 		int32_t L_467 = ___pc;
-		RepeatContext_t1051 * L_468 = (RepeatContext_t1051 *)il2cpp_codegen_object_new (RepeatContext_t1051_il2cpp_TypeInfo_var);
-		RepeatContext__ctor_m5384(L_468, L_461, L_463, L_465, ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_466&(int32_t)((int32_t)2048))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_467+(int32_t)6)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_468 = (RepeatContext_t2_113 *)il2cpp_codegen_object_new (RepeatContext_t2_113_il2cpp_TypeInfo_var);
+		RepeatContext__ctor_m2_613(L_468, L_461, L_463, L_465, ((((int32_t)((((int32_t)(((int32_t)((uint16_t)((int32_t)((int32_t)L_466&(int32_t)((int32_t)2048))))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_467+(int32_t)6)), /*hidden argument*/NULL);
 		__this->___fast_10 = L_468;
-		RepeatContext_t1051 * L_469 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_469 = (__this->___fast_10);
 		int32_t L_470 = V_0;
 		NullCheck(L_469);
-		RepeatContext_set_Start_m5388(L_469, L_470, /*hidden argument*/NULL);
-		int32_t L_471 = Interpreter_Checkpoint_m5407(__this, /*hidden argument*/NULL);
+		RepeatContext_set_Start_m2_617(L_469, L_470, /*hidden argument*/NULL);
+		int32_t L_471 = Interpreter_Checkpoint_m2_636(__this, /*hidden argument*/NULL);
 		V_41 = L_471;
 		int32_t L_472 = ___pc;
-		UInt16U5BU5D_t978* L_473 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_473 = (__this->___program_1);
 		int32_t L_474 = ___pc;
 		NullCheck(L_473);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_473, ((int32_t)((int32_t)L_474+(int32_t)1)));
 		int32_t L_475 = ((int32_t)((int32_t)L_474+(int32_t)1));
 		___pc = ((int32_t)((int32_t)L_472+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_473, L_475, sizeof(uint16_t)))));
-		UInt16U5BU5D_t978* L_476 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_476 = (__this->___program_1);
 		int32_t L_477 = ___pc;
 		NullCheck(L_476);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_476, L_477);
@@ -3057,7 +3057,7 @@ IL_0d11:
 		}
 	}
 	{
-		UInt16U5BU5D_t978* L_486 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_486 = (__this->___program_1);
 		int32_t L_487 = ___pc;
 		NullCheck(L_486);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_486, ((int32_t)((int32_t)L_487+(int32_t)1)));
@@ -3067,7 +3067,7 @@ IL_0d11:
 
 IL_0d38:
 	{
-		UInt16U5BU5D_t978* L_489 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_489 = (__this->___program_1);
 		int32_t L_490 = ___pc;
 		int32_t L_491 = V_48;
 		NullCheck(L_489);
@@ -3079,7 +3079,7 @@ IL_0d38:
 
 IL_0d4c:
 	{
-		UInt16U5BU5D_t978* L_493 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_493 = (__this->___program_1);
 		int32_t L_494 = ___pc;
 		NullCheck(L_493);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_493, ((int32_t)((int32_t)L_494+(int32_t)1)));
@@ -3097,8 +3097,8 @@ IL_0d58:
 	}
 	{
 		int32_t L_497 = V_43;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_498 = Char_ToUpper_m2290(NULL /*static, unused*/, (((int32_t)((uint16_t)L_497))), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_498 = Char_ToUpper_m1_314(NULL /*static, unused*/, (((int32_t)((uint16_t)L_497))), /*hidden argument*/NULL);
 		V_44 = L_498;
 		goto IL_0d79;
 	}
@@ -3129,37 +3129,37 @@ IL_0d8f:
 
 IL_0d92:
 	{
-		RepeatContext_t1051 * L_501 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_501 = (__this->___fast_10);
 		NullCheck(L_501);
-		bool L_502 = RepeatContext_get_IsLazy_m5391(L_501, /*hidden argument*/NULL);
+		bool L_502 = RepeatContext_get_IsLazy_m2_620(L_501, /*hidden argument*/NULL);
 		if (!L_502)
 		{
 			goto IL_0ebf;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_503 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_503 = (__this->___fast_10);
 		NullCheck(L_503);
-		bool L_504 = RepeatContext_get_IsMinimum_m5389(L_503, /*hidden argument*/NULL);
+		bool L_504 = RepeatContext_get_IsMinimum_m2_618(L_503, /*hidden argument*/NULL);
 		if (L_504)
 		{
 			goto IL_0de1;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_505 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_505 = (__this->___fast_10);
 		NullCheck(L_505);
-		int32_t L_506 = RepeatContext_get_Expression_m5392(L_505, /*hidden argument*/NULL);
-		bool L_507 = Interpreter_Eval_m5398(__this, 2, (&V_0), L_506, /*hidden argument*/NULL);
+		int32_t L_506 = RepeatContext_get_Expression_m2_621(L_505, /*hidden argument*/NULL);
+		bool L_507 = Interpreter_Eval_m2_627(__this, 2, (&V_0), L_506, /*hidden argument*/NULL);
 		if (L_507)
 		{
 			goto IL_0de1;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_508 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_508 = (__this->___fast_10);
 		NullCheck(L_508);
-		RepeatContext_t1051 * L_509 = RepeatContext_get_Previous_m5393(L_508, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_509 = RepeatContext_get_Previous_m2_622(L_508, /*hidden argument*/NULL);
 		__this->___fast_10 = L_509;
 		goto IL_1067;
 	}
@@ -3195,7 +3195,7 @@ IL_0de1:
 		String_t* L_517 = (__this->___text_3);
 		int32_t L_518 = V_49;
 		NullCheck(L_517);
-		uint16_t L_519 = String_get_Chars_m2240(L_517, L_518, /*hidden argument*/NULL);
+		uint16_t L_519 = String_get_Chars_m1_344(L_517, L_518, /*hidden argument*/NULL);
 		if ((((int32_t)L_516) == ((int32_t)L_519)))
 		{
 			goto IL_0e2c;
@@ -3206,7 +3206,7 @@ IL_0de1:
 		String_t* L_521 = (__this->___text_3);
 		int32_t L_522 = V_49;
 		NullCheck(L_521);
-		uint16_t L_523 = String_get_Chars_m2240(L_521, L_522, /*hidden argument*/NULL);
+		uint16_t L_523 = String_get_Chars_m1_344(L_521, L_522, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_520) == ((uint32_t)L_523))))
 		{
 			goto IL_0e47;
@@ -3215,9 +3215,9 @@ IL_0de1:
 
 IL_0e2c:
 	{
-		__this->___deep_12 = (RepeatContext_t1051 *)NULL;
+		__this->___deep_12 = (RepeatContext_t2_113 *)NULL;
 		int32_t L_524 = ___pc;
-		bool L_525 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_524, /*hidden argument*/NULL);
+		bool L_525 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_524, /*hidden argument*/NULL);
 		if (!L_525)
 		{
 			goto IL_0e47;
@@ -3229,18 +3229,18 @@ IL_0e2c:
 
 IL_0e47:
 	{
-		RepeatContext_t1051 * L_526 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_526 = (__this->___fast_10);
 		NullCheck(L_526);
-		bool L_527 = RepeatContext_get_IsMaximum_m5390(L_526, /*hidden argument*/NULL);
+		bool L_527 = RepeatContext_get_IsMaximum_m2_619(L_526, /*hidden argument*/NULL);
 		if (!L_527)
 		{
 			goto IL_0e6d;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_528 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_528 = (__this->___fast_10);
 		NullCheck(L_528);
-		RepeatContext_t1051 * L_529 = RepeatContext_get_Previous_m5393(L_528, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_529 = RepeatContext_get_Previous_m2_622(L_528, /*hidden argument*/NULL);
 		__this->___fast_10 = L_529;
 		goto IL_1067;
 	}
@@ -3248,20 +3248,20 @@ IL_0e47:
 IL_0e6d:
 	{
 		int32_t L_530 = V_41;
-		Interpreter_Backtrack_m5408(__this, L_530, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_531 = (__this->___fast_10);
+		Interpreter_Backtrack_m2_637(__this, L_530, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_531 = (__this->___fast_10);
 		NullCheck(L_531);
-		int32_t L_532 = RepeatContext_get_Expression_m5392(L_531, /*hidden argument*/NULL);
-		bool L_533 = Interpreter_Eval_m5398(__this, 2, (&V_0), L_532, /*hidden argument*/NULL);
+		int32_t L_532 = RepeatContext_get_Expression_m2_621(L_531, /*hidden argument*/NULL);
+		bool L_533 = Interpreter_Eval_m2_627(__this, 2, (&V_0), L_532, /*hidden argument*/NULL);
 		if (L_533)
 		{
 			goto IL_0ea4;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_534 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_534 = (__this->___fast_10);
 		NullCheck(L_534);
-		RepeatContext_t1051 * L_535 = RepeatContext_get_Previous_m5393(L_534, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_535 = RepeatContext_get_Previous_m2_622(L_534, /*hidden argument*/NULL);
 		__this->___fast_10 = L_535;
 		goto IL_1067;
 	}
@@ -3273,37 +3273,37 @@ IL_0ea4:
 
 IL_0ea9:
 	{
-		RepeatContext_t1051 * L_536 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_536 = (__this->___fast_10);
 		NullCheck(L_536);
-		RepeatContext_t1051 * L_537 = RepeatContext_get_Previous_m5393(L_536, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_537 = RepeatContext_get_Previous_m2_622(L_536, /*hidden argument*/NULL);
 		__this->___fast_10 = L_537;
 		goto IL_0ff3;
 	}
 
 IL_0ebf:
 	{
-		RepeatContext_t1051 * L_538 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_538 = (__this->___fast_10);
 		NullCheck(L_538);
-		int32_t L_539 = RepeatContext_get_Expression_m5392(L_538, /*hidden argument*/NULL);
-		bool L_540 = Interpreter_Eval_m5398(__this, 2, (&V_0), L_539, /*hidden argument*/NULL);
+		int32_t L_539 = RepeatContext_get_Expression_m2_621(L_538, /*hidden argument*/NULL);
+		bool L_540 = Interpreter_Eval_m2_627(__this, 2, (&V_0), L_539, /*hidden argument*/NULL);
 		if (L_540)
 		{
 			goto IL_0eee;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_541 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_541 = (__this->___fast_10);
 		NullCheck(L_541);
-		RepeatContext_t1051 * L_542 = RepeatContext_get_Previous_m5393(L_541, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_542 = RepeatContext_get_Previous_m2_622(L_541, /*hidden argument*/NULL);
 		__this->___fast_10 = L_542;
 		goto IL_1067;
 	}
 
 IL_0eee:
 	{
-		RepeatContext_t1051 * L_543 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_543 = (__this->___fast_10);
 		NullCheck(L_543);
-		int32_t L_544 = RepeatContext_get_Count_m5385(L_543, /*hidden argument*/NULL);
+		int32_t L_544 = RepeatContext_get_Count_m2_614(L_543, /*hidden argument*/NULL);
 		if ((((int32_t)L_544) <= ((int32_t)0)))
 		{
 			goto IL_0f1f;
@@ -3311,12 +3311,12 @@ IL_0eee:
 	}
 	{
 		int32_t L_545 = V_0;
-		RepeatContext_t1051 * L_546 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_546 = (__this->___fast_10);
 		NullCheck(L_546);
-		int32_t L_547 = RepeatContext_get_Start_m5387(L_546, /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_548 = (__this->___fast_10);
+		int32_t L_547 = RepeatContext_get_Start_m2_616(L_546, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_548 = (__this->___fast_10);
 		NullCheck(L_548);
-		int32_t L_549 = RepeatContext_get_Count_m5385(L_548, /*hidden argument*/NULL);
+		int32_t L_549 = RepeatContext_get_Count_m2_614(L_548, /*hidden argument*/NULL);
 		V_50 = ((int32_t)((int32_t)((int32_t)((int32_t)L_545-(int32_t)L_547))/(int32_t)L_549));
 		goto IL_0f22;
 	}
@@ -3357,7 +3357,7 @@ IL_0f22:
 		String_t* L_557 = (__this->___text_3);
 		int32_t L_558 = V_51;
 		NullCheck(L_557);
-		uint16_t L_559 = String_get_Chars_m2240(L_557, L_558, /*hidden argument*/NULL);
+		uint16_t L_559 = String_get_Chars_m1_344(L_557, L_558, /*hidden argument*/NULL);
 		if ((((int32_t)L_556) == ((int32_t)L_559)))
 		{
 			goto IL_0f6d;
@@ -3368,7 +3368,7 @@ IL_0f22:
 		String_t* L_561 = (__this->___text_3);
 		int32_t L_562 = V_51;
 		NullCheck(L_561);
-		uint16_t L_563 = String_get_Chars_m2240(L_561, L_562, /*hidden argument*/NULL);
+		uint16_t L_563 = String_get_Chars_m1_344(L_561, L_562, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_560) == ((uint32_t)L_563))))
 		{
 			goto IL_0f88;
@@ -3377,9 +3377,9 @@ IL_0f22:
 
 IL_0f6d:
 	{
-		__this->___deep_12 = (RepeatContext_t1051 *)NULL;
+		__this->___deep_12 = (RepeatContext_t2_113 *)NULL;
 		int32_t L_564 = ___pc;
-		bool L_565 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_564, /*hidden argument*/NULL);
+		bool L_565 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_564, /*hidden argument*/NULL);
 		if (!L_565)
 		{
 			goto IL_0f88;
@@ -3391,24 +3391,24 @@ IL_0f6d:
 
 IL_0f88:
 	{
-		RepeatContext_t1051 * L_566 = (__this->___fast_10);
-		RepeatContext_t1051 * L_567 = L_566;
+		RepeatContext_t2_113 * L_566 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_567 = L_566;
 		NullCheck(L_567);
-		int32_t L_568 = RepeatContext_get_Count_m5385(L_567, /*hidden argument*/NULL);
+		int32_t L_568 = RepeatContext_get_Count_m2_614(L_567, /*hidden argument*/NULL);
 		NullCheck(L_567);
-		RepeatContext_set_Count_m5386(L_567, ((int32_t)((int32_t)L_568-(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_569 = (__this->___fast_10);
+		RepeatContext_set_Count_m2_615(L_567, ((int32_t)((int32_t)L_568-(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_569 = (__this->___fast_10);
 		NullCheck(L_569);
-		bool L_570 = RepeatContext_get_IsMinimum_m5389(L_569, /*hidden argument*/NULL);
+		bool L_570 = RepeatContext_get_IsMinimum_m2_618(L_569, /*hidden argument*/NULL);
 		if (L_570)
 		{
 			goto IL_0fc1;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_571 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_571 = (__this->___fast_10);
 		NullCheck(L_571);
-		RepeatContext_t1051 * L_572 = RepeatContext_get_Previous_m5393(L_571, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_572 = RepeatContext_get_Previous_m2_622(L_571, /*hidden argument*/NULL);
 		__this->___fast_10 = L_572;
 		goto IL_1067;
 	}
@@ -3419,15 +3419,15 @@ IL_0fc1:
 		int32_t L_574 = V_50;
 		V_0 = ((int32_t)((int32_t)L_573-(int32_t)L_574));
 		int32_t L_575 = V_41;
-		Interpreter_Backtrack_m5408(__this, L_575, /*hidden argument*/NULL);
+		Interpreter_Backtrack_m2_637(__this, L_575, /*hidden argument*/NULL);
 		goto IL_0f22;
 	}
 
 IL_0fd3:
 	{
-		RepeatContext_t1051 * L_576 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_576 = (__this->___fast_10);
 		NullCheck(L_576);
-		RepeatContext_t1051 * L_577 = RepeatContext_get_Previous_m5393(L_576, /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_577 = RepeatContext_get_Previous_m2_622(L_576, /*hidden argument*/NULL);
 		__this->___fast_10 = L_577;
 		goto IL_0ff3;
 	}
@@ -3473,33 +3473,33 @@ IL_100e:
 
 IL_1010:
 	{
-		RepeatContext_t1051 * L_583 = (__this->___fast_10);
-		RepeatContext_t1051 * L_584 = L_583;
+		RepeatContext_t2_113 * L_583 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_584 = L_583;
 		NullCheck(L_584);
-		int32_t L_585 = RepeatContext_get_Count_m5385(L_584, /*hidden argument*/NULL);
+		int32_t L_585 = RepeatContext_get_Count_m2_614(L_584, /*hidden argument*/NULL);
 		NullCheck(L_584);
-		RepeatContext_set_Count_m5386(L_584, ((int32_t)((int32_t)L_585+(int32_t)1)), /*hidden argument*/NULL);
-		RepeatContext_t1051 * L_586 = (__this->___fast_10);
+		RepeatContext_set_Count_m2_615(L_584, ((int32_t)((int32_t)L_585+(int32_t)1)), /*hidden argument*/NULL);
+		RepeatContext_t2_113 * L_586 = (__this->___fast_10);
 		NullCheck(L_586);
-		bool L_587 = RepeatContext_get_IsMaximum_m5390(L_586, /*hidden argument*/NULL);
+		bool L_587 = RepeatContext_get_IsMaximum_m2_619(L_586, /*hidden argument*/NULL);
 		if (L_587)
 		{
 			goto IL_1053;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_588 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_588 = (__this->___fast_10);
 		NullCheck(L_588);
-		bool L_589 = RepeatContext_get_IsLazy_m5391(L_588, /*hidden argument*/NULL);
+		bool L_589 = RepeatContext_get_IsLazy_m2_620(L_588, /*hidden argument*/NULL);
 		if (!L_589)
 		{
 			goto IL_1055;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_590 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_590 = (__this->___fast_10);
 		NullCheck(L_590);
-		bool L_591 = RepeatContext_get_IsMinimum_m5389(L_590, /*hidden argument*/NULL);
+		bool L_591 = RepeatContext_get_IsMinimum_m2_618(L_590, /*hidden argument*/NULL);
 		if (!L_591)
 		{
 			goto IL_1055;
@@ -3513,9 +3513,9 @@ IL_1053:
 
 IL_1055:
 	{
-		RepeatContext_t1051 * L_592 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_592 = (__this->___fast_10);
 		NullCheck(L_592);
-		int32_t L_593 = RepeatContext_get_Expression_m5392(L_592, /*hidden argument*/NULL);
+		int32_t L_593 = RepeatContext_get_Expression_m2_621(L_592, /*hidden argument*/NULL);
 		___pc = L_593;
 		goto IL_0003;
 	}
@@ -3548,18 +3548,18 @@ IL_107f:
 
 IL_1081:
 	{
-		RepeatContext_t1051 * L_597 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_597 = (__this->___fast_10);
 		NullCheck(L_597);
-		bool L_598 = RepeatContext_get_IsLazy_m5391(L_597, /*hidden argument*/NULL);
+		bool L_598 = RepeatContext_get_IsLazy_m2_620(L_597, /*hidden argument*/NULL);
 		if (L_598)
 		{
 			goto IL_10a3;
 		}
 	}
 	{
-		RepeatContext_t1051 * L_599 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_599 = (__this->___fast_10);
 		NullCheck(L_599);
-		bool L_600 = RepeatContext_get_IsMinimum_m5389(L_599, /*hidden argument*/NULL);
+		bool L_600 = RepeatContext_get_IsMinimum_m2_618(L_599, /*hidden argument*/NULL);
 		if (!L_600)
 		{
 			goto IL_10a3;
@@ -3572,9 +3572,9 @@ IL_1081:
 IL_10a3:
 	{
 		int32_t* L_601 = ___ref_ptr;
-		RepeatContext_t1051 * L_602 = (__this->___fast_10);
+		RepeatContext_t2_113 * L_602 = (__this->___fast_10);
 		NullCheck(L_602);
-		int32_t L_603 = RepeatContext_get_Start_m5387(L_602, /*hidden argument*/NULL);
+		int32_t L_603 = RepeatContext_get_Start_m2_616(L_602, /*hidden argument*/NULL);
 		*((int32_t*)(L_601)) = (int32_t)L_603;
 		return 0;
 	}
@@ -3585,13 +3585,13 @@ IL_10b2:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::EvalChar(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32&,System.Boolean)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" bool Interpreter_EvalChar_m5399 (Interpreter_t1053 * __this, int32_t ___mode, int32_t* ___ptr, int32_t* ___pc, bool ___multi, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" bool Interpreter_EvalChar_m2_628 (Interpreter_t2_115 * __this, int32_t ___mode, int32_t* ___ptr, int32_t* ___pc, bool ___multi, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
@@ -3616,7 +3616,7 @@ extern "C" bool Interpreter_EvalChar_m5399 (Interpreter_t1053 * __this, int32_t 
 
 IL_0004:
 	{
-		UInt16U5BU5D_t978* L_0 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_0 = (__this->___program_1);
 		int32_t* L_1 = ___pc;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, (*((int32_t*)L_1)));
@@ -3665,7 +3665,7 @@ IL_0059:
 		*((int32_t*)(L_12)) = (int32_t)L_14;
 		int32_t L_15 = V_13;
 		NullCheck(L_11);
-		uint16_t L_16 = String_get_Chars_m2240(L_11, L_15, /*hidden argument*/NULL);
+		uint16_t L_16 = String_get_Chars_m1_344(L_11, L_15, /*hidden argument*/NULL);
 		V_1 = L_16;
 		goto IL_009b;
 	}
@@ -3693,7 +3693,7 @@ IL_0084:
 		*((int32_t*)(L_20)) = (int32_t)((int32_t)((int32_t)L_22+(int32_t)1));
 		int32_t L_23 = V_13;
 		NullCheck(L_19);
-		uint16_t L_24 = String_get_Chars_m2240(L_19, L_23, /*hidden argument*/NULL);
+		uint16_t L_24 = String_get_Chars_m1_344(L_19, L_23, /*hidden argument*/NULL);
 		V_1 = L_24;
 	}
 
@@ -3707,8 +3707,8 @@ IL_009b:
 	}
 	{
 		uint16_t L_26 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_27 = Char_ToLower_m2292(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_27 = Char_ToLower_m1_311(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		V_1 = L_27;
 	}
 
@@ -3782,7 +3782,7 @@ IL_00f4:
 IL_00f6:
 	{
 		uint16_t L_31 = V_1;
-		UInt16U5BU5D_t978* L_32 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_32 = (__this->___program_1);
 		int32_t* L_33 = ___pc;
 		int32_t* L_34 = ___pc;
 		int32_t L_35 = (*((int32_t*)L_34));
@@ -3809,7 +3809,7 @@ IL_0113:
 
 IL_0118:
 	{
-		UInt16U5BU5D_t978* L_39 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_39 = (__this->___program_1);
 		int32_t* L_40 = ___pc;
 		int32_t* L_41 = ___pc;
 		int32_t L_42 = (*((int32_t*)L_41));
@@ -3820,7 +3820,7 @@ IL_0118:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_39, L_43);
 		int32_t L_44 = L_43;
 		uint16_t L_45 = V_1;
-		bool L_46 = CategoryUtils_IsCategory_m5315(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_39, L_44, sizeof(uint16_t))), L_45, /*hidden argument*/NULL);
+		bool L_46 = CategoryUtils_IsCategory_m2_544(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_39, L_44, sizeof(uint16_t))), L_45, /*hidden argument*/NULL);
 		if (!L_46)
 		{
 			goto IL_013a;
@@ -3838,7 +3838,7 @@ IL_013a:
 
 IL_013f:
 	{
-		UInt16U5BU5D_t978* L_48 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_48 = (__this->___program_1);
 		int32_t* L_49 = ___pc;
 		int32_t* L_50 = ___pc;
 		int32_t L_51 = (*((int32_t*)L_50));
@@ -3849,7 +3849,7 @@ IL_013f:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_48, L_52);
 		int32_t L_53 = L_52;
 		uint16_t L_54 = V_1;
-		bool L_55 = CategoryUtils_IsCategory_m5315(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_48, L_53, sizeof(uint16_t))), L_54, /*hidden argument*/NULL);
+		bool L_55 = CategoryUtils_IsCategory_m2_544(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_48, L_53, sizeof(uint16_t))), L_54, /*hidden argument*/NULL);
 		if (L_55)
 		{
 			goto IL_0161;
@@ -3867,7 +3867,7 @@ IL_0161:
 
 IL_0166:
 	{
-		UInt16U5BU5D_t978* L_57 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_57 = (__this->___program_1);
 		int32_t* L_58 = ___pc;
 		int32_t* L_59 = ___pc;
 		int32_t L_60 = (*((int32_t*)L_59));
@@ -3878,7 +3878,7 @@ IL_0166:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_57, L_61);
 		int32_t L_62 = L_61;
 		V_7 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_57, L_62, sizeof(uint16_t)));
-		UInt16U5BU5D_t978* L_63 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_63 = (__this->___program_1);
 		int32_t* L_64 = ___pc;
 		int32_t* L_65 = ___pc;
 		int32_t L_66 = (*((int32_t*)L_65));
@@ -3916,7 +3916,7 @@ IL_01a3:
 
 IL_01a8:
 	{
-		UInt16U5BU5D_t978* L_74 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_74 = (__this->___program_1);
 		int32_t* L_75 = ___pc;
 		int32_t* L_76 = ___pc;
 		int32_t L_77 = (*((int32_t*)L_76));
@@ -3927,7 +3927,7 @@ IL_01a8:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_74, L_78);
 		int32_t L_79 = L_78;
 		V_9 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_74, L_79, sizeof(uint16_t)));
-		UInt16U5BU5D_t978* L_80 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_80 = (__this->___program_1);
 		int32_t* L_81 = ___pc;
 		int32_t* L_82 = ___pc;
 		int32_t L_83 = (*((int32_t*)L_82));
@@ -3969,7 +3969,7 @@ IL_01f4:
 
 IL_01f9:
 	{
-		UInt16U5BU5D_t978* L_95 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_95 = (__this->___program_1);
 		int32_t L_96 = V_11;
 		int32_t L_97 = V_12;
 		NullCheck(L_95);
@@ -4005,39 +4005,39 @@ IL_0221:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::TryMatch(System.Int32&,System.Int32)
-extern "C" bool Interpreter_TryMatch_m5400 (Interpreter_t1053 * __this, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method)
+extern "C" bool Interpreter_TryMatch_m2_629 (Interpreter_t2_115 * __this, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		Interpreter_Reset_m5397(__this, /*hidden argument*/NULL);
+		Interpreter_Reset_m2_626(__this, /*hidden argument*/NULL);
 		int32_t* L_0 = ___ref_ptr;
 		V_0 = (*((int32_t*)L_0));
-		MarkU5BU5D_t1055* L_1 = (__this->___marks_13);
-		Int32U5BU5D_t425* L_2 = (__this->___groups_16);
+		MarkU5BU5D_t2_117* L_1 = (__this->___marks_13);
+		Int32U5BU5D_t1_159* L_2 = (__this->___groups_16);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		int32_t L_3 = 0;
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3, sizeof(int32_t))));
 		int32_t L_4 = V_0;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_1, (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3, sizeof(int32_t))), sizeof(Mark_t1049 )))->___Start_0 = L_4;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_1, (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3, sizeof(int32_t))), sizeof(Mark_t2_111 )))->___Start_0 = L_4;
 		int32_t L_5 = ___pc;
-		bool L_6 = Interpreter_Eval_m5398(__this, 1, (&V_0), L_5, /*hidden argument*/NULL);
+		bool L_6 = Interpreter_Eval_m2_627(__this, 1, (&V_0), L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		MarkU5BU5D_t1055* L_7 = (__this->___marks_13);
-		Int32U5BU5D_t425* L_8 = (__this->___groups_16);
+		MarkU5BU5D_t2_117* L_7 = (__this->___marks_13);
+		Int32U5BU5D_t1_159* L_8 = (__this->___groups_16);
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 0);
 		int32_t L_9 = 0;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9, sizeof(int32_t))));
 		int32_t L_10 = V_0;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_7, (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9, sizeof(int32_t))), sizeof(Mark_t1049 )))->___End_1 = L_10;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_7, (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9, sizeof(int32_t))), sizeof(Mark_t2_111 )))->___End_1 = L_10;
 		int32_t* L_11 = ___ref_ptr;
 		int32_t L_12 = V_0;
 		*((int32_t*)(L_11)) = (int32_t)L_12;
@@ -4050,7 +4050,7 @@ IL_004f:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsPosition(System.Text.RegularExpressions.Position,System.Int32)
-extern "C" bool Interpreter_IsPosition_m5401 (Interpreter_t1053 * __this, uint16_t ___pos, int32_t ___ptr, const MethodInfo* method)
+extern "C" bool Interpreter_IsPosition_m2_630 (Interpreter_t2_115 * __this, uint16_t ___pos, int32_t ___ptr, const MethodInfo* method)
 {
 	uint16_t V_0 = {0};
 	int32_t G_B6_0 = 0;
@@ -4120,7 +4120,7 @@ IL_0038:
 		String_t* L_4 = (__this->___text_3);
 		int32_t L_5 = ___ptr;
 		NullCheck(L_4);
-		uint16_t L_6 = String_get_Chars_m2240(L_4, ((int32_t)((int32_t)L_5-(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_6 = String_get_Chars_m1_344(L_4, ((int32_t)((int32_t)L_5-(int32_t)1)), /*hidden argument*/NULL);
 		G_B6_0 = ((((int32_t)L_6) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_0053;
 	}
@@ -4163,7 +4163,7 @@ IL_005e:
 		String_t* L_13 = (__this->___text_3);
 		int32_t L_14 = ___ptr;
 		NullCheck(L_13);
-		uint16_t L_15 = String_get_Chars_m2240(L_13, L_14, /*hidden argument*/NULL);
+		uint16_t L_15 = String_get_Chars_m1_344(L_13, L_14, /*hidden argument*/NULL);
 		G_B12_0 = ((((int32_t)L_15) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_008b;
 	}
@@ -4202,7 +4202,7 @@ IL_008f:
 		String_t* L_18 = (__this->___text_3);
 		int32_t L_19 = ___ptr;
 		NullCheck(L_18);
-		uint16_t L_20 = String_get_Chars_m2240(L_18, L_19, /*hidden argument*/NULL);
+		uint16_t L_20 = String_get_Chars_m1_344(L_18, L_19, /*hidden argument*/NULL);
 		G_B18_0 = ((((int32_t)L_20) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_00ae;
 	}
@@ -4248,8 +4248,8 @@ IL_00c6:
 		String_t* L_25 = (__this->___text_3);
 		int32_t L_26 = ___ptr;
 		NullCheck(L_25);
-		uint16_t L_27 = String_get_Chars_m2240(L_25, L_26, /*hidden argument*/NULL);
-		bool L_28 = Interpreter_IsWordChar_m5402(__this, L_27, /*hidden argument*/NULL);
+		uint16_t L_27 = String_get_Chars_m1_344(L_25, L_26, /*hidden argument*/NULL);
+		bool L_28 = Interpreter_IsWordChar_m2_631(__this, L_27, /*hidden argument*/NULL);
 		return L_28;
 	}
 
@@ -4266,8 +4266,8 @@ IL_00df:
 		String_t* L_31 = (__this->___text_3);
 		int32_t L_32 = ___ptr;
 		NullCheck(L_31);
-		uint16_t L_33 = String_get_Chars_m2240(L_31, ((int32_t)((int32_t)L_32-(int32_t)1)), /*hidden argument*/NULL);
-		bool L_34 = Interpreter_IsWordChar_m5402(__this, L_33, /*hidden argument*/NULL);
+		uint16_t L_33 = String_get_Chars_m1_344(L_31, ((int32_t)((int32_t)L_32-(int32_t)1)), /*hidden argument*/NULL);
+		bool L_34 = Interpreter_IsWordChar_m2_631(__this, L_33, /*hidden argument*/NULL);
 		return L_34;
 	}
 
@@ -4276,13 +4276,13 @@ IL_0100:
 		String_t* L_35 = (__this->___text_3);
 		int32_t L_36 = ___ptr;
 		NullCheck(L_35);
-		uint16_t L_37 = String_get_Chars_m2240(L_35, L_36, /*hidden argument*/NULL);
-		bool L_38 = Interpreter_IsWordChar_m5402(__this, L_37, /*hidden argument*/NULL);
+		uint16_t L_37 = String_get_Chars_m1_344(L_35, L_36, /*hidden argument*/NULL);
+		bool L_38 = Interpreter_IsWordChar_m2_631(__this, L_37, /*hidden argument*/NULL);
 		String_t* L_39 = (__this->___text_3);
 		int32_t L_40 = ___ptr;
 		NullCheck(L_39);
-		uint16_t L_41 = String_get_Chars_m2240(L_39, ((int32_t)((int32_t)L_40-(int32_t)1)), /*hidden argument*/NULL);
-		bool L_42 = Interpreter_IsWordChar_m5402(__this, L_41, /*hidden argument*/NULL);
+		uint16_t L_41 = String_get_Chars_m1_344(L_39, ((int32_t)((int32_t)L_40-(int32_t)1)), /*hidden argument*/NULL);
+		bool L_42 = Interpreter_IsWordChar_m2_631(__this, L_41, /*hidden argument*/NULL);
 		return ((((int32_t)((((int32_t)L_38) == ((int32_t)L_42))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4310,8 +4310,8 @@ IL_0139:
 		String_t* L_45 = (__this->___text_3);
 		int32_t L_46 = ___ptr;
 		NullCheck(L_45);
-		uint16_t L_47 = String_get_Chars_m2240(L_45, L_46, /*hidden argument*/NULL);
-		bool L_48 = Interpreter_IsWordChar_m5402(__this, L_47, /*hidden argument*/NULL);
+		uint16_t L_47 = String_get_Chars_m1_344(L_45, L_46, /*hidden argument*/NULL);
+		bool L_48 = Interpreter_IsWordChar_m2_631(__this, L_47, /*hidden argument*/NULL);
 		return ((((int32_t)L_48) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4328,8 +4328,8 @@ IL_0155:
 		String_t* L_51 = (__this->___text_3);
 		int32_t L_52 = ___ptr;
 		NullCheck(L_51);
-		uint16_t L_53 = String_get_Chars_m2240(L_51, ((int32_t)((int32_t)L_52-(int32_t)1)), /*hidden argument*/NULL);
-		bool L_54 = Interpreter_IsWordChar_m5402(__this, L_53, /*hidden argument*/NULL);
+		uint16_t L_53 = String_get_Chars_m1_344(L_51, ((int32_t)((int32_t)L_52-(int32_t)1)), /*hidden argument*/NULL);
+		bool L_54 = Interpreter_IsWordChar_m2_631(__this, L_53, /*hidden argument*/NULL);
 		return ((((int32_t)L_54) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4338,13 +4338,13 @@ IL_0179:
 		String_t* L_55 = (__this->___text_3);
 		int32_t L_56 = ___ptr;
 		NullCheck(L_55);
-		uint16_t L_57 = String_get_Chars_m2240(L_55, L_56, /*hidden argument*/NULL);
-		bool L_58 = Interpreter_IsWordChar_m5402(__this, L_57, /*hidden argument*/NULL);
+		uint16_t L_57 = String_get_Chars_m1_344(L_55, L_56, /*hidden argument*/NULL);
+		bool L_58 = Interpreter_IsWordChar_m2_631(__this, L_57, /*hidden argument*/NULL);
 		String_t* L_59 = (__this->___text_3);
 		int32_t L_60 = ___ptr;
 		NullCheck(L_59);
-		uint16_t L_61 = String_get_Chars_m2240(L_59, ((int32_t)((int32_t)L_60-(int32_t)1)), /*hidden argument*/NULL);
-		bool L_62 = Interpreter_IsWordChar_m5402(__this, L_61, /*hidden argument*/NULL);
+		uint16_t L_61 = String_get_Chars_m1_344(L_59, ((int32_t)((int32_t)L_60-(int32_t)1)), /*hidden argument*/NULL);
+		bool L_62 = Interpreter_IsWordChar_m2_631(__this, L_61, /*hidden argument*/NULL);
 		return ((((int32_t)L_58) == ((int32_t)L_62))? 1 : 0);
 	}
 
@@ -4354,32 +4354,32 @@ IL_01a2:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsWordChar(System.Char)
-extern "C" bool Interpreter_IsWordChar_m5402 (Interpreter_t1053 * __this, uint16_t ___c, const MethodInfo* method)
+extern "C" bool Interpreter_IsWordChar_m2_631 (Interpreter_t2_115 * __this, uint16_t ___c, const MethodInfo* method)
 {
 	{
 		uint16_t L_0 = ___c;
-		bool L_1 = CategoryUtils_IsCategory_m5315(NULL /*static, unused*/, 3, L_0, /*hidden argument*/NULL);
+		bool L_1 = CategoryUtils_IsCategory_m2_544(NULL /*static, unused*/, 3, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.String System.Text.RegularExpressions.Interpreter::GetString(System.Int32)
-extern TypeInfo* CharU5BU5D_t239_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t1_16_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* Interpreter_GetString_m5403 (Interpreter_t1053 * __this, int32_t ___pc, const MethodInfo* method)
+extern "C" String_t* Interpreter_GetString_m2_632 (Interpreter_t2_115 * __this, int32_t ___pc, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		CharU5BU5D_t1_16_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(12);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	CharU5BU5D_t239* V_2 = {0};
+	CharU5BU5D_t1_16* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		UInt16U5BU5D_t978* L_0 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_0 = (__this->___program_1);
 		int32_t L_1 = ___pc;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, ((int32_t)((int32_t)L_1+(int32_t)1)));
@@ -4388,16 +4388,16 @@ extern "C" String_t* Interpreter_GetString_m5403 (Interpreter_t1053 * __this, in
 		int32_t L_3 = ___pc;
 		V_1 = ((int32_t)((int32_t)L_3+(int32_t)2));
 		int32_t L_4 = V_0;
-		V_2 = ((CharU5BU5D_t239*)SZArrayNew(CharU5BU5D_t239_il2cpp_TypeInfo_var, L_4));
+		V_2 = ((CharU5BU5D_t1_16*)SZArrayNew(CharU5BU5D_t1_16_il2cpp_TypeInfo_var, L_4));
 		V_3 = 0;
 		goto IL_0030;
 	}
 
 IL_001d:
 	{
-		CharU5BU5D_t239* L_5 = V_2;
+		CharU5BU5D_t1_16* L_5 = V_2;
 		int32_t L_6 = V_3;
-		UInt16U5BU5D_t978* L_7 = (__this->___program_1);
+		UInt16U5BU5D_t1_576* L_7 = (__this->___program_1);
 		int32_t L_8 = V_1;
 		int32_t L_9 = L_8;
 		V_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
@@ -4421,18 +4421,18 @@ IL_0030:
 		}
 	}
 	{
-		CharU5BU5D_t239* L_14 = V_2;
+		CharU5BU5D_t1_16* L_14 = V_2;
 		String_t* L_15 = (String_t*)il2cpp_codegen_object_new (String_t_il2cpp_TypeInfo_var);
-		L_15 = String_CreateString_m5749(L_15, L_14, /*hidden argument*/NULL);
+		L_15 = String_CreateString_m1_443(L_15, L_14, /*hidden argument*/NULL);
 		return L_15;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::Open(System.Int32,System.Int32)
-extern "C" void Interpreter_Open_m5404 (Interpreter_t1053 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method)
+extern "C" void Interpreter_Open_m2_633 (Interpreter_t2_115 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_0 = (__this->___groups_16);
 		int32_t L_1 = ___gid;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4446,11 +4446,11 @@ extern "C" void Interpreter_Open_m5404 (Interpreter_t1053 * __this, int32_t ___g
 		}
 	}
 	{
-		MarkU5BU5D_t1055* L_5 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_5 = (__this->___marks_13);
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
-		bool L_7 = Mark_get_IsDefined_m5377(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_5, L_6, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		bool L_7 = Mark_get_IsDefined_m2_606(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_5, L_6, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_003c;
@@ -4460,9 +4460,9 @@ extern "C" void Interpreter_Open_m5404 (Interpreter_t1053 * __this, int32_t ___g
 IL_002b:
 	{
 		int32_t L_8 = V_0;
-		int32_t L_9 = Interpreter_CreateMark_m5411(__this, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = Interpreter_CreateMark_m2_640(__this, L_8, /*hidden argument*/NULL);
 		V_0 = L_9;
-		Int32U5BU5D_t425* L_10 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_10 = (__this->___groups_16);
 		int32_t L_11 = ___gid;
 		int32_t L_12 = V_0;
 		NullCheck(L_10);
@@ -4472,21 +4472,21 @@ IL_002b:
 
 IL_003c:
 	{
-		MarkU5BU5D_t1055* L_13 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_13 = (__this->___marks_13);
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
 		int32_t L_15 = ___ptr;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t1049 )))->___Start_0 = L_15;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t2_111 )))->___Start_0 = L_15;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::Close(System.Int32,System.Int32)
-extern "C" void Interpreter_Close_m5405 (Interpreter_t1053 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method)
+extern "C" void Interpreter_Close_m2_634 (Interpreter_t2_115 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method)
 {
 	{
-		MarkU5BU5D_t1055* L_0 = (__this->___marks_13);
-		Int32U5BU5D_t425* L_1 = (__this->___groups_16);
+		MarkU5BU5D_t2_117* L_0 = (__this->___marks_13);
+		Int32U5BU5D_t1_159* L_1 = (__this->___groups_16);
 		int32_t L_2 = ___gid;
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_2);
@@ -4494,16 +4494,16 @@ extern "C" void Interpreter_Close_m5405 (Interpreter_t1053 * __this, int32_t ___
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, (*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3, sizeof(int32_t))));
 		int32_t L_4 = ___ptr;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_0, (*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3, sizeof(int32_t))), sizeof(Mark_t1049 )))->___End_1 = L_4;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_0, (*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3, sizeof(int32_t))), sizeof(Mark_t2_111 )))->___End_1 = L_4;
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interpreter::Balance(System.Int32,System.Int32,System.Boolean,System.Int32)
-extern "C" bool Interpreter_Balance_m5406 (Interpreter_t1053 * __this, int32_t ___gid, int32_t ___balance_gid, bool ___capture, int32_t ___ptr, const MethodInfo* method)
+extern "C" bool Interpreter_Balance_m2_635 (Interpreter_t2_115 * __this, int32_t ___gid, int32_t ___balance_gid, bool ___capture, int32_t ___ptr, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_0 = (__this->___groups_16);
 		int32_t L_1 = ___balance_gid;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4516,11 +4516,11 @@ extern "C" bool Interpreter_Balance_m5406 (Interpreter_t1053 * __this, int32_t _
 		}
 	}
 	{
-		MarkU5BU5D_t1055* L_4 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_4 = (__this->___marks_13);
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
-		int32_t L_6 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_4, L_5, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		int32_t L_6 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_4, L_5, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		if ((((int32_t)L_6) >= ((int32_t)0)))
 		{
 			goto IL_0029;
@@ -4549,31 +4549,31 @@ IL_0029:
 	}
 	{
 		int32_t L_9 = ___gid;
-		MarkU5BU5D_t1055* L_10 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_10 = (__this->___marks_13);
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
-		int32_t L_12 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		MarkU5BU5D_t1055* L_13 = (__this->___marks_13);
+		int32_t L_12 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		MarkU5BU5D_t2_117* L_13 = (__this->___marks_13);
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
-		int32_t L_15 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		Interpreter_Open_m5404(__this, L_9, ((int32_t)((int32_t)L_12+(int32_t)L_15)), /*hidden argument*/NULL);
+		int32_t L_15 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		Interpreter_Open_m2_633(__this, L_9, ((int32_t)((int32_t)L_12+(int32_t)L_15)), /*hidden argument*/NULL);
 		int32_t L_16 = ___gid;
 		int32_t L_17 = ___ptr;
-		Interpreter_Close_m5405(__this, L_16, L_17, /*hidden argument*/NULL);
+		Interpreter_Close_m2_634(__this, L_16, L_17, /*hidden argument*/NULL);
 	}
 
 IL_0069:
 	{
-		Int32U5BU5D_t425* L_18 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_18 = (__this->___groups_16);
 		int32_t L_19 = ___balance_gid;
-		MarkU5BU5D_t1055* L_20 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_20 = (__this->___marks_13);
 		int32_t L_21 = V_0;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_21);
-		int32_t L_22 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_20, L_21, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_22 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_20, L_21, sizeof(Mark_t2_111 )))->___Previous_2);
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_18, L_19, sizeof(int32_t))) = (int32_t)L_22;
@@ -4581,7 +4581,7 @@ IL_0069:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter::Checkpoint()
-extern "C" int32_t Interpreter_Checkpoint_m5407 (Interpreter_t1053 * __this, const MethodInfo* method)
+extern "C" int32_t Interpreter_Checkpoint_m2_636 (Interpreter_t2_115 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___mark_end_15);
@@ -4591,7 +4591,7 @@ extern "C" int32_t Interpreter_Checkpoint_m5407 (Interpreter_t1053 * __this, con
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::Backtrack(System.Int32)
-extern "C" void Interpreter_Backtrack_m5408 (Interpreter_t1053 * __this, int32_t ___cp, const MethodInfo* method)
+extern "C" void Interpreter_Backtrack_m2_637 (Interpreter_t2_115 * __this, int32_t ___cp, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -4602,7 +4602,7 @@ extern "C" void Interpreter_Backtrack_m5408 (Interpreter_t1053 * __this, int32_t
 
 IL_0007:
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_0 = (__this->___groups_16);
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4613,11 +4613,11 @@ IL_0007:
 
 IL_0015:
 	{
-		MarkU5BU5D_t1055* L_3 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_3 = (__this->___marks_13);
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
-		int32_t L_5 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_5 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t2_111 )))->___Previous_2);
 		V_1 = L_5;
 	}
 
@@ -4631,7 +4631,7 @@ IL_0027:
 		}
 	}
 	{
-		Int32U5BU5D_t425* L_8 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_8 = (__this->___groups_16);
 		int32_t L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_8);
@@ -4644,7 +4644,7 @@ IL_0027:
 IL_003b:
 	{
 		int32_t L_12 = V_0;
-		Int32U5BU5D_t425* L_13 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_13 = (__this->___groups_16);
 		NullCheck(L_13);
 		if ((((int32_t)L_12) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_13)->max_length)))))))
 		{
@@ -4656,22 +4656,22 @@ IL_003b:
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::ResetGroups()
-extern TypeInfo* MarkU5BU5D_t1055_il2cpp_TypeInfo_var;
-extern "C" void Interpreter_ResetGroups_m5409 (Interpreter_t1053 * __this, const MethodInfo* method)
+extern TypeInfo* MarkU5BU5D_t2_117_il2cpp_TypeInfo_var;
+extern "C" void Interpreter_ResetGroups_m2_638 (Interpreter_t2_115 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MarkU5BU5D_t1055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(710);
+		MarkU5BU5D_t2_117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(707);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_0 = (__this->___groups_16);
 		NullCheck(L_0);
 		V_0 = (((int32_t)((int32_t)(((Array_t *)L_0)->max_length))));
-		MarkU5BU5D_t1055* L_1 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_1 = (__this->___marks_13);
 		if (L_1)
 		{
 			goto IL_0023;
@@ -4679,7 +4679,7 @@ extern "C" void Interpreter_ResetGroups_m5409 (Interpreter_t1053 * __this, const
 	}
 	{
 		int32_t L_2 = V_0;
-		__this->___marks_13 = ((MarkU5BU5D_t1055*)SZArrayNew(MarkU5BU5D_t1055_il2cpp_TypeInfo_var, ((int32_t)((int32_t)L_2*(int32_t)((int32_t)10)))));
+		__this->___marks_13 = ((MarkU5BU5D_t2_117*)SZArrayNew(MarkU5BU5D_t2_117_il2cpp_TypeInfo_var, ((int32_t)((int32_t)L_2*(int32_t)((int32_t)10)))));
 	}
 
 IL_0023:
@@ -4690,27 +4690,27 @@ IL_0023:
 
 IL_002a:
 	{
-		Int32U5BU5D_t425* L_3 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_3 = (__this->___groups_16);
 		int32_t L_4 = V_1;
 		int32_t L_5 = V_1;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_3, L_4, sizeof(int32_t))) = (int32_t)L_5;
-		MarkU5BU5D_t1055* L_6 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_6 = (__this->___marks_13);
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_6, L_7, sizeof(Mark_t1049 )))->___Start_0 = (-1);
-		MarkU5BU5D_t1055* L_8 = (__this->___marks_13);
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_6, L_7, sizeof(Mark_t2_111 )))->___Start_0 = (-1);
+		MarkU5BU5D_t2_117* L_8 = (__this->___marks_13);
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_8, L_9, sizeof(Mark_t1049 )))->___End_1 = (-1);
-		MarkU5BU5D_t1055* L_10 = (__this->___marks_13);
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_8, L_9, sizeof(Mark_t2_111 )))->___End_1 = (-1);
+		MarkU5BU5D_t2_117* L_10 = (__this->___marks_13);
 		int32_t L_11 = V_1;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t1049 )))->___Previous_2 = (-1);
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t2_111 )))->___Previous_2 = (-1);
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
@@ -4732,11 +4732,11 @@ IL_006d:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter::GetLastDefined(System.Int32)
-extern "C" int32_t Interpreter_GetLastDefined_m5410 (Interpreter_t1053 * __this, int32_t ___gid, const MethodInfo* method)
+extern "C" int32_t Interpreter_GetLastDefined_m2_639 (Interpreter_t2_115 * __this, int32_t ___gid, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_0 = (__this->___groups_16);
 		int32_t L_1 = ___gid;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4747,11 +4747,11 @@ extern "C" int32_t Interpreter_GetLastDefined_m5410 (Interpreter_t1053 * __this,
 
 IL_000e:
 	{
-		MarkU5BU5D_t1055* L_3 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_3 = (__this->___marks_13);
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
-		int32_t L_5 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_5 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t2_111 )))->___Previous_2);
 		V_0 = L_5;
 	}
 
@@ -4764,11 +4764,11 @@ IL_0020:
 		}
 	}
 	{
-		MarkU5BU5D_t1055* L_7 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_7 = (__this->___marks_13);
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
-		bool L_9 = Mark_get_IsDefined_m5377(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		bool L_9 = Mark_get_IsDefined_m2_606(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_000e;
@@ -4782,21 +4782,21 @@ IL_003d:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interpreter::CreateMark(System.Int32)
-extern TypeInfo* MarkU5BU5D_t1055_il2cpp_TypeInfo_var;
-extern "C" int32_t Interpreter_CreateMark_m5411 (Interpreter_t1053 * __this, int32_t ___previous, const MethodInfo* method)
+extern TypeInfo* MarkU5BU5D_t2_117_il2cpp_TypeInfo_var;
+extern "C" int32_t Interpreter_CreateMark_m2_640 (Interpreter_t2_115 * __this, int32_t ___previous, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		MarkU5BU5D_t1055_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(710);
+		MarkU5BU5D_t2_117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(707);
 		s_Il2CppMethodIntialized = true;
 	}
-	MarkU5BU5D_t1055* V_0 = {0};
+	MarkU5BU5D_t2_117* V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
 		int32_t L_0 = (__this->___mark_end_15);
-		MarkU5BU5D_t1055* L_1 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_1 = (__this->___marks_13);
 		NullCheck(L_1);
 		if ((!(((uint32_t)L_0) == ((uint32_t)(((int32_t)((int32_t)(((Array_t *)L_1)->max_length))))))))
 		{
@@ -4804,14 +4804,14 @@ extern "C" int32_t Interpreter_CreateMark_m5411 (Interpreter_t1053 * __this, int
 		}
 	}
 	{
-		MarkU5BU5D_t1055* L_2 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_2 = (__this->___marks_13);
 		NullCheck(L_2);
-		V_0 = ((MarkU5BU5D_t1055*)SZArrayNew(MarkU5BU5D_t1055_il2cpp_TypeInfo_var, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_2)->max_length))))*(int32_t)2))));
-		MarkU5BU5D_t1055* L_3 = (__this->___marks_13);
-		MarkU5BU5D_t1055* L_4 = V_0;
+		V_0 = ((MarkU5BU5D_t2_117*)SZArrayNew(MarkU5BU5D_t2_117_il2cpp_TypeInfo_var, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_2)->max_length))))*(int32_t)2))));
+		MarkU5BU5D_t2_117* L_3 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_4 = V_0;
 		NullCheck(L_3);
 		VirtActionInvoker2< Array_t *, int32_t >::Invoke(9 /* System.Void System.Array::CopyTo(System.Array,System.Int32) */, L_3, (Array_t *)(Array_t *)L_4, 0);
-		MarkU5BU5D_t1055* L_5 = V_0;
+		MarkU5BU5D_t2_117* L_5 = V_0;
 		__this->___marks_13 = L_5;
 	}
 
@@ -4823,31 +4823,31 @@ IL_0037:
 		__this->___mark_end_15 = ((int32_t)((int32_t)L_7+(int32_t)1));
 		int32_t L_8 = V_2;
 		V_1 = L_8;
-		MarkU5BU5D_t1055* L_9 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_9 = (__this->___marks_13);
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
-		MarkU5BU5D_t1055* L_11 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_11 = (__this->___marks_13);
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, L_12);
 		int32_t L_13 = (-1);
 		V_2 = L_13;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_11, L_12, sizeof(Mark_t1049 )))->___End_1 = L_13;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_11, L_12, sizeof(Mark_t2_111 )))->___End_1 = L_13;
 		int32_t L_14 = V_2;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_9, L_10, sizeof(Mark_t1049 )))->___Start_0 = L_14;
-		MarkU5BU5D_t1055* L_15 = (__this->___marks_13);
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_9, L_10, sizeof(Mark_t2_111 )))->___Start_0 = L_14;
+		MarkU5BU5D_t2_117* L_15 = (__this->___marks_13);
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
 		int32_t L_17 = ___previous;
-		((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_15, L_16, sizeof(Mark_t1049 )))->___Previous_2 = L_17;
+		((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_15, L_16, sizeof(Mark_t2_111 )))->___Previous_2 = L_17;
 		int32_t L_18 = V_1;
 		return L_18;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::GetGroupInfo(System.Int32,System.Int32&,System.Int32&)
-extern "C" void Interpreter_GetGroupInfo_m5412 (Interpreter_t1053 * __this, int32_t ___gid, int32_t* ___first_mark_index, int32_t* ___n_caps, const MethodInfo* method)
+extern "C" void Interpreter_GetGroupInfo_m2_641 (Interpreter_t2_115 * __this, int32_t ___gid, int32_t* ___first_mark_index, int32_t* ___n_caps, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -4855,7 +4855,7 @@ extern "C" void Interpreter_GetGroupInfo_m5412 (Interpreter_t1053 * __this, int3
 		*((int32_t*)(L_0)) = (int32_t)(-1);
 		int32_t* L_1 = ___n_caps;
 		*((int32_t*)(L_1)) = (int32_t)0;
-		Int32U5BU5D_t425* L_2 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_2 = (__this->___groups_16);
 		int32_t L_3 = ___gid;
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, L_3);
@@ -4866,11 +4866,11 @@ extern "C" void Interpreter_GetGroupInfo_m5412 (Interpreter_t1053 * __this, int3
 
 IL_0014:
 	{
-		MarkU5BU5D_t1055* L_5 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_5 = (__this->___marks_13);
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
-		bool L_7 = Mark_get_IsDefined_m5377(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_5, L_6, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		bool L_7 = Mark_get_IsDefined_m2_606(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_5, L_6, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_002f;
@@ -4903,11 +4903,11 @@ IL_003a:
 
 IL_0040:
 	{
-		MarkU5BU5D_t1055* L_13 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_13 = (__this->___marks_13);
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
-		int32_t L_15 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_15 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_13, L_14, sizeof(Mark_t2_111 )))->___Previous_2);
 		V_0 = L_15;
 	}
 
@@ -4924,36 +4924,36 @@ IL_0052:
 	}
 }
 // System.Void System.Text.RegularExpressions.Interpreter::PopulateGroup(System.Text.RegularExpressions.Group,System.Int32,System.Int32)
-extern TypeInfo* Capture_t1025_il2cpp_TypeInfo_var;
-extern "C" void Interpreter_PopulateGroup_m5413 (Interpreter_t1053 * __this, Group_t943 * ___g, int32_t ___first_mark_index, int32_t ___n_caps, const MethodInfo* method)
+extern TypeInfo* Capture_t2_84_il2cpp_TypeInfo_var;
+extern "C" void Interpreter_PopulateGroup_m2_642 (Interpreter_t2_115 * __this, Group_t2_87 * ___g, int32_t ___first_mark_index, int32_t ___n_caps, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Capture_t1025_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(683);
+		Capture_t2_84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(681);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	Capture_t1025 * V_2 = {0};
+	Capture_t2_84 * V_2 = {0};
 	{
 		V_0 = 1;
-		MarkU5BU5D_t1055* L_0 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_0 = (__this->___marks_13);
 		int32_t L_1 = ___first_mark_index;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
-		int32_t L_2 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_0, L_1, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_2 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_0, L_1, sizeof(Mark_t2_111 )))->___Previous_2);
 		V_1 = L_2;
 		goto IL_0089;
 	}
 
 IL_0019:
 	{
-		MarkU5BU5D_t1055* L_3 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_3 = (__this->___marks_13);
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
-		bool L_5 = Mark_get_IsDefined_m5377(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		bool L_5 = Mark_get_IsDefined_m2_606(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_3, L_4, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		if (L_5)
 		{
 			goto IL_0034;
@@ -4966,38 +4966,38 @@ IL_0019:
 IL_0034:
 	{
 		String_t* L_6 = (__this->___text_3);
-		MarkU5BU5D_t1055* L_7 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_7 = (__this->___marks_13);
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
-		int32_t L_9 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		MarkU5BU5D_t1055* L_10 = (__this->___marks_13);
+		int32_t L_9 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		MarkU5BU5D_t2_117* L_10 = (__this->___marks_13);
 		int32_t L_11 = V_1;
 		NullCheck(L_10);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, L_11);
-		int32_t L_12 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		Capture_t1025 * L_13 = (Capture_t1025 *)il2cpp_codegen_object_new (Capture_t1025_il2cpp_TypeInfo_var);
-		Capture__ctor_m5230(L_13, L_6, L_9, L_12, /*hidden argument*/NULL);
+		int32_t L_12 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_10, L_11, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		Capture_t2_84 * L_13 = (Capture_t2_84 *)il2cpp_codegen_object_new (Capture_t2_84_il2cpp_TypeInfo_var);
+		Capture__ctor_m2_453(L_13, L_6, L_9, L_12, /*hidden argument*/NULL);
 		V_2 = L_13;
-		Group_t943 * L_14 = ___g;
+		Group_t2_87 * L_14 = ___g;
 		NullCheck(L_14);
-		CaptureCollection_t1026 * L_15 = Group_get_Captures_m5246(L_14, /*hidden argument*/NULL);
-		Capture_t1025 * L_16 = V_2;
+		CaptureCollection_t2_85 * L_15 = Group_get_Captures_m2_470(L_14, /*hidden argument*/NULL);
+		Capture_t2_84 * L_16 = V_2;
 		int32_t L_17 = ___n_caps;
 		int32_t L_18 = V_0;
 		NullCheck(L_15);
-		CaptureCollection_SetValue_m5238(L_15, L_16, ((int32_t)((int32_t)((int32_t)((int32_t)L_17-(int32_t)1))-(int32_t)L_18)), /*hidden argument*/NULL);
+		CaptureCollection_SetValue_m2_462(L_15, L_16, ((int32_t)((int32_t)((int32_t)((int32_t)L_17-(int32_t)1))-(int32_t)L_18)), /*hidden argument*/NULL);
 		int32_t L_19 = V_0;
 		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
 	}
 
 IL_0077:
 	{
-		MarkU5BU5D_t1055* L_20 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_20 = (__this->___marks_13);
 		int32_t L_21 = V_1;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_21);
-		int32_t L_22 = (((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_20, L_21, sizeof(Mark_t1049 )))->___Previous_2);
+		int32_t L_22 = (((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_20, L_21, sizeof(Mark_t2_111 )))->___Previous_2);
 		V_1 = L_22;
 	}
 
@@ -5014,74 +5014,74 @@ IL_0089:
 	}
 }
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::GenerateMatch(System.Text.RegularExpressions.Regex)
-extern TypeInfo* Match_t941_il2cpp_TypeInfo_var;
-extern TypeInfo* Group_t943_il2cpp_TypeInfo_var;
-extern "C" Match_t941 * Interpreter_GenerateMatch_m5414 (Interpreter_t1053 * __this, Regex_t646 * ___regex, const MethodInfo* method)
+extern TypeInfo* Match_t2_82_il2cpp_TypeInfo_var;
+extern TypeInfo* Group_t2_87_il2cpp_TypeInfo_var;
+extern "C" Match_t2_82 * Interpreter_GenerateMatch_m2_643 (Interpreter_t2_115 * __this, Regex_t2_90 * ___regex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Match_t941_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(687);
-		Group_t943_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(685);
+		Match_t2_82_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(685);
+		Group_t2_87_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(683);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	Group_t943 * V_2 = {0};
-	Match_t941 * V_3 = {0};
+	Group_t2_87 * V_2 = {0};
+	Match_t2_82 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
-		Interpreter_GetGroupInfo_m5412(__this, 0, (&V_1), (&V_0), /*hidden argument*/NULL);
-		bool L_0 = (((BaseMachine_t1024 *)__this)->___needs_groups_or_captures_0);
+		Interpreter_GetGroupInfo_m2_641(__this, 0, (&V_1), (&V_0), /*hidden argument*/NULL);
+		bool L_0 = (((BaseMachine_t2_83 *)__this)->___needs_groups_or_captures_0);
 		if (L_0)
 		{
 			goto IL_004d;
 		}
 	}
 	{
-		Regex_t646 * L_1 = ___regex;
+		Regex_t2_90 * L_1 = ___regex;
 		String_t* L_2 = (__this->___text_3);
 		int32_t L_3 = (__this->___text_end_4);
-		MarkU5BU5D_t1055* L_4 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_4 = (__this->___marks_13);
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
-		int32_t L_6 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_4, L_5, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		MarkU5BU5D_t1055* L_7 = (__this->___marks_13);
+		int32_t L_6 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_4, L_5, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		MarkU5BU5D_t2_117* L_7 = (__this->___marks_13);
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
-		int32_t L_9 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		Match_t941 * L_10 = (Match_t941 *)il2cpp_codegen_object_new (Match_t941_il2cpp_TypeInfo_var);
-		Match__ctor_m5255(L_10, L_1, __this, L_2, L_3, 0, L_6, L_9, /*hidden argument*/NULL);
+		int32_t L_9 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_7, L_8, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		Match_t2_82 * L_10 = (Match_t2_82 *)il2cpp_codegen_object_new (Match_t2_82_il2cpp_TypeInfo_var);
+		Match__ctor_m2_481(L_10, L_1, __this, L_2, L_3, 0, L_6, L_9, /*hidden argument*/NULL);
 		return L_10;
 	}
 
 IL_004d:
 	{
-		Regex_t646 * L_11 = ___regex;
+		Regex_t2_90 * L_11 = ___regex;
 		String_t* L_12 = (__this->___text_3);
 		int32_t L_13 = (__this->___text_end_4);
-		Int32U5BU5D_t425* L_14 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_14 = (__this->___groups_16);
 		NullCheck(L_14);
-		MarkU5BU5D_t1055* L_15 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_15 = (__this->___marks_13);
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
-		int32_t L_17 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_15, L_16, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		MarkU5BU5D_t1055* L_18 = (__this->___marks_13);
+		int32_t L_17 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_15, L_16, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		MarkU5BU5D_t2_117* L_18 = (__this->___marks_13);
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
-		int32_t L_20 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_18, L_19, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		int32_t L_20 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_18, L_19, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		int32_t L_21 = V_0;
-		Match_t941 * L_22 = (Match_t941 *)il2cpp_codegen_object_new (Match_t941_il2cpp_TypeInfo_var);
-		Match__ctor_m5256(L_22, L_11, __this, L_12, L_13, (((int32_t)((int32_t)(((Array_t *)L_14)->max_length)))), L_17, L_20, L_21, /*hidden argument*/NULL);
+		Match_t2_82 * L_22 = (Match_t2_82 *)il2cpp_codegen_object_new (Match_t2_82_il2cpp_TypeInfo_var);
+		Match__ctor_m2_482(L_22, L_11, __this, L_12, L_13, (((int32_t)((int32_t)(((Array_t *)L_14)->max_length)))), L_17, L_20, L_21, /*hidden argument*/NULL);
 		V_3 = L_22;
-		Match_t941 * L_23 = V_3;
+		Match_t2_82 * L_23 = V_3;
 		int32_t L_24 = V_1;
 		int32_t L_25 = V_0;
-		Interpreter_PopulateGroup_m5413(__this, L_23, L_24, L_25, /*hidden argument*/NULL);
+		Interpreter_PopulateGroup_m2_642(__this, L_23, L_24, L_25, /*hidden argument*/NULL);
 		V_4 = 1;
 		goto IL_0107;
 	}
@@ -5089,7 +5089,7 @@ IL_004d:
 IL_009d:
 	{
 		int32_t L_26 = V_4;
-		Interpreter_GetGroupInfo_m5412(__this, L_26, (&V_1), (&V_0), /*hidden argument*/NULL);
+		Interpreter_GetGroupInfo_m2_641(__this, L_26, (&V_1), (&V_0), /*hidden argument*/NULL);
 		int32_t L_27 = V_1;
 		if ((((int32_t)L_27) >= ((int32_t)0)))
 		{
@@ -5097,8 +5097,8 @@ IL_009d:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Group_t943_il2cpp_TypeInfo_var);
-		Group_t943 * L_28 = ((Group_t943_StaticFields*)Group_t943_il2cpp_TypeInfo_var->static_fields)->___Fail_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Group_t2_87_il2cpp_TypeInfo_var);
+		Group_t2_87 * L_28 = ((Group_t2_87_StaticFields*)Group_t2_87_il2cpp_TypeInfo_var->static_fields)->___Fail_3;
 		V_2 = L_28;
 		goto IL_00f3;
 	}
@@ -5106,35 +5106,35 @@ IL_009d:
 IL_00bb:
 	{
 		String_t* L_29 = (__this->___text_3);
-		MarkU5BU5D_t1055* L_30 = (__this->___marks_13);
+		MarkU5BU5D_t2_117* L_30 = (__this->___marks_13);
 		int32_t L_31 = V_1;
 		NullCheck(L_30);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_30, L_31);
-		int32_t L_32 = Mark_get_Index_m5378(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_30, L_31, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
-		MarkU5BU5D_t1055* L_33 = (__this->___marks_13);
+		int32_t L_32 = Mark_get_Index_m2_607(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_30, L_31, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
+		MarkU5BU5D_t2_117* L_33 = (__this->___marks_13);
 		int32_t L_34 = V_1;
 		NullCheck(L_33);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, L_34);
-		int32_t L_35 = Mark_get_Length_m5379(((Mark_t1049 *)(Mark_t1049 *)SZArrayLdElema(L_33, L_34, sizeof(Mark_t1049 ))), /*hidden argument*/NULL);
+		int32_t L_35 = Mark_get_Length_m2_608(((Mark_t2_111 *)(Mark_t2_111 *)SZArrayLdElema(L_33, L_34, sizeof(Mark_t2_111 ))), /*hidden argument*/NULL);
 		int32_t L_36 = V_0;
-		Group_t943 * L_37 = (Group_t943 *)il2cpp_codegen_object_new (Group_t943_il2cpp_TypeInfo_var);
-		Group__ctor_m5242(L_37, L_29, L_32, L_35, L_36, /*hidden argument*/NULL);
+		Group_t2_87 * L_37 = (Group_t2_87 *)il2cpp_codegen_object_new (Group_t2_87_il2cpp_TypeInfo_var);
+		Group__ctor_m2_466(L_37, L_29, L_32, L_35, L_36, /*hidden argument*/NULL);
 		V_2 = L_37;
-		Group_t943 * L_38 = V_2;
+		Group_t2_87 * L_38 = V_2;
 		int32_t L_39 = V_1;
 		int32_t L_40 = V_0;
-		Interpreter_PopulateGroup_m5413(__this, L_38, L_39, L_40, /*hidden argument*/NULL);
+		Interpreter_PopulateGroup_m2_642(__this, L_38, L_39, L_40, /*hidden argument*/NULL);
 	}
 
 IL_00f3:
 	{
-		Match_t941 * L_41 = V_3;
+		Match_t2_82 * L_41 = V_3;
 		NullCheck(L_41);
-		GroupCollection_t942 * L_42 = (GroupCollection_t942 *)VirtFuncInvoker0< GroupCollection_t942 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_41);
-		Group_t943 * L_43 = V_2;
+		GroupCollection_t2_88 * L_42 = (GroupCollection_t2_88 *)VirtFuncInvoker0< GroupCollection_t2_88 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_41);
+		Group_t2_87 * L_43 = V_2;
 		int32_t L_44 = V_4;
 		NullCheck(L_42);
-		GroupCollection_SetValue_m5250(L_42, L_43, L_44, /*hidden argument*/NULL);
+		GroupCollection_SetValue_m2_476(L_42, L_43, L_44, /*hidden argument*/NULL);
 		int32_t L_45 = V_4;
 		V_4 = ((int32_t)((int32_t)L_45+(int32_t)1));
 	}
@@ -5142,7 +5142,7 @@ IL_00f3:
 IL_0107:
 	{
 		int32_t L_46 = V_4;
-		Int32U5BU5D_t425* L_47 = (__this->___groups_16);
+		Int32U5BU5D_t1_159* L_47 = (__this->___groups_16);
 		NullCheck(L_47);
 		if ((((int32_t)L_46) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_47)->max_length)))))))
 		{
@@ -5150,12 +5150,12 @@ IL_0107:
 		}
 	}
 	{
-		Match_t941 * L_48 = V_3;
+		Match_t2_82 * L_48 = V_3;
 		return L_48;
 	}
 }
 // System.Void System.Text.RegularExpressions.Interval::.ctor(System.Int32,System.Int32)
-extern "C" void Interval__ctor_m5415 (Interval_t1056 * __this, int32_t ___low, int32_t ___high, const MethodInfo* method)
+extern "C" void Interval__ctor_m2_644 (Interval_t2_118 * __this, int32_t ___low, int32_t ___high, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -5186,20 +5186,20 @@ IL_000f:
 	}
 }
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Interval::get_Empty()
-extern "C" Interval_t1056  Interval_get_Empty_m5416 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" Interval_t2_118  Interval_get_Empty_m2_645 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	Interval_t1056  V_0 = {0};
+	Interval_t2_118  V_0 = {0};
 	{
 		(&V_0)->___low_0 = 0;
 		int32_t L_0 = ((&V_0)->___low_0);
 		(&V_0)->___high_1 = ((int32_t)((int32_t)L_0-(int32_t)1));
 		(&V_0)->___contiguous_2 = 1;
-		Interval_t1056  L_1 = V_0;
+		Interval_t2_118  L_1 = V_0;
 		return L_1;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsDiscontiguous()
-extern "C" bool Interval_get_IsDiscontiguous_m5417 (Interval_t1056 * __this, const MethodInfo* method)
+extern "C" bool Interval_get_IsDiscontiguous_m2_646 (Interval_t2_118 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___contiguous_2);
@@ -5207,7 +5207,7 @@ extern "C" bool Interval_get_IsDiscontiguous_m5417 (Interval_t1056 * __this, con
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsSingleton()
-extern "C" bool Interval_get_IsSingleton_m5418 (Interval_t1056 * __this, const MethodInfo* method)
+extern "C" bool Interval_get_IsSingleton_m2_647 (Interval_t2_118 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -5235,7 +5235,7 @@ IL_001c:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::get_IsEmpty()
-extern "C" bool Interval_get_IsEmpty_m5419 (Interval_t1056 * __this, const MethodInfo* method)
+extern "C" bool Interval_get_IsEmpty_m2_648 (Interval_t2_118 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___low_0);
@@ -5244,10 +5244,10 @@ extern "C" bool Interval_get_IsEmpty_m5419 (Interval_t1056 * __this, const Metho
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interval::get_Size()
-extern "C" int32_t Interval_get_Size_m5420 (Interval_t1056 * __this, const MethodInfo* method)
+extern "C" int32_t Interval_get_Size_m2_649 (Interval_t2_118 * __this, const MethodInfo* method)
 {
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_000d;
@@ -5265,18 +5265,18 @@ IL_000d:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::IsDisjoint(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_IsDisjoint_m5421 (Interval_t1056 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" bool Interval_IsDisjoint_m2_650 (Interval_t2_118 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	int32_t G_B6_0 = 0;
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = Interval_get_IsEmpty_m5419((&___i), /*hidden argument*/NULL);
+		bool L_1 = Interval_get_IsEmpty_m2_648((&___i), /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5315,18 +5315,18 @@ IL_0040:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::IsAdjacent(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_IsAdjacent_m5422 (Interval_t1056 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" bool Interval_IsAdjacent_m2_651 (Interval_t2_118 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	int32_t G_B6_0 = 0;
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = Interval_get_IsEmpty_m5419((&___i), /*hidden argument*/NULL);
+		bool L_1 = Interval_get_IsEmpty_m2_648((&___i), /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5365,18 +5365,18 @@ IL_0041:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_Contains_m5423 (Interval_t1056 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" bool Interval_Contains_m2_652 (Interval_t2_118 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	int32_t G_B8_0 = 0;
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		bool L_1 = Interval_get_IsEmpty_m5419((&___i), /*hidden argument*/NULL);
+		bool L_1 = Interval_get_IsEmpty_m2_648((&___i), /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5388,7 +5388,7 @@ extern "C" bool Interval_Contains_m5423 (Interval_t1056 * __this, Interval_t1056
 
 IL_0019:
 	{
-		bool L_2 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_2 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0026;
@@ -5425,7 +5425,7 @@ IL_004d:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::Contains(System.Int32)
-extern "C" bool Interval_Contains_m5424 (Interval_t1056 * __this, int32_t ___i, const MethodInfo* method)
+extern "C" bool Interval_Contains_m2_653 (Interval_t2_118 * __this, int32_t ___i, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -5454,19 +5454,19 @@ IL_001b:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Interval::Intersects(System.Text.RegularExpressions.Interval)
-extern "C" bool Interval_Intersects_m5425 (Interval_t1056 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" bool Interval_Intersects_m2_654 (Interval_t2_118 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	int32_t G_B8_0 = 0;
 	int32_t G_B10_0 = 0;
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = Interval_get_IsEmpty_m5419((&___i), /*hidden argument*/NULL);
+		bool L_1 = Interval_get_IsEmpty_m2_648((&___i), /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5481,7 +5481,7 @@ IL_0017:
 IL_0019:
 	{
 		int32_t L_2 = ((&___i)->___low_0);
-		bool L_3 = Interval_Contains_m5424(__this, L_2, /*hidden argument*/NULL);
+		bool L_3 = Interval_Contains_m2_653(__this, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_003d;
@@ -5489,7 +5489,7 @@ IL_0019:
 	}
 	{
 		int32_t L_4 = ((&___i)->___high_1);
-		bool L_5 = Interval_Contains_m5424(__this, L_4, /*hidden argument*/NULL);
+		bool L_5 = Interval_Contains_m2_653(__this, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0064;
@@ -5499,7 +5499,7 @@ IL_0019:
 IL_003d:
 	{
 		int32_t L_6 = ((&___i)->___high_1);
-		bool L_7 = Interval_Contains_m5424(__this, L_6, /*hidden argument*/NULL);
+		bool L_7 = Interval_Contains_m2_653(__this, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0061;
@@ -5507,7 +5507,7 @@ IL_003d:
 	}
 	{
 		int32_t L_8 = ((&___i)->___low_0);
-		bool L_9 = Interval_Contains_m5424(__this, L_8, /*hidden argument*/NULL);
+		bool L_9 = Interval_Contains_m2_653(__this, L_8, /*hidden argument*/NULL);
 		G_B8_0 = ((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_0062;
 	}
@@ -5534,10 +5534,10 @@ IL_0065:
 	}
 }
 // System.Void System.Text.RegularExpressions.Interval::Merge(System.Text.RegularExpressions.Interval)
-extern "C" void Interval_Merge_m5426 (Interval_t1056 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" void Interval_Merge_m2_655 (Interval_t2_118 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	{
-		bool L_0 = Interval_get_IsEmpty_m5419((&___i), /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsEmpty_m2_648((&___i), /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_000d;
@@ -5549,7 +5549,7 @@ extern "C" void Interval_Merge_m5426 (Interval_t1056 * __this, Interval_t1056  _
 
 IL_000d:
 	{
-		bool L_1 = Interval_get_IsEmpty_m5419(__this, /*hidden argument*/NULL);
+		bool L_1 = Interval_get_IsEmpty_m2_648(__this, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0032;
@@ -5596,46 +5596,46 @@ IL_0070:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Interval::CompareTo(System.Object)
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern "C" int32_t Interval_CompareTo_m5427 (Interval_t1056 * __this, Object_t * ___o, const MethodInfo* method)
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern "C" int32_t Interval_CompareTo_m2_656 (Interval_t2_118 * __this, Object_t * ___o, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
 		s_Il2CppMethodIntialized = true;
 	}
-	Interval_t1056  V_0 = {0};
+	Interval_t2_118  V_0 = {0};
 	{
 		int32_t L_0 = (__this->___low_0);
 		Object_t * L_1 = ___o;
-		V_0 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_1, Interval_t1056_il2cpp_TypeInfo_var))));
+		V_0 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_1, Interval_t2_118_il2cpp_TypeInfo_var))));
 		int32_t L_2 = ((&V_0)->___low_0);
 		return ((int32_t)((int32_t)L_0-(int32_t)L_2));
 	}
 }
 // Conversion methods for marshalling of: System.Text.RegularExpressions.Interval
-extern "C" void Interval_t1056_marshal(const Interval_t1056& unmarshaled, Interval_t1056_marshaled& marshaled)
+extern "C" void Interval_t2_118_marshal(const Interval_t2_118& unmarshaled, Interval_t2_118_marshaled& marshaled)
 {
 	marshaled.___low_0 = unmarshaled.___low_0;
 	marshaled.___high_1 = unmarshaled.___high_1;
 	marshaled.___contiguous_2 = unmarshaled.___contiguous_2;
 }
-extern "C" void Interval_t1056_marshal_back(const Interval_t1056_marshaled& marshaled, Interval_t1056& unmarshaled)
+extern "C" void Interval_t2_118_marshal_back(const Interval_t2_118_marshaled& marshaled, Interval_t2_118& unmarshaled)
 {
 	unmarshaled.___low_0 = marshaled.___low_0;
 	unmarshaled.___high_1 = marshaled.___high_1;
 	unmarshaled.___contiguous_2 = marshaled.___contiguous_2;
 }
 // Conversion method for clean up from marshalling of: System.Text.RegularExpressions.Interval
-extern "C" void Interval_t1056_marshal_cleanup(Interval_t1056_marshaled& marshaled)
+extern "C" void Interval_t2_118_marshal_cleanup(Interval_t2_118_marshaled& marshaled)
 {
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::.ctor(System.Collections.IList)
-extern "C" void Enumerator__ctor_m5428 (Enumerator_t1057 * __this, Object_t * ___list, const MethodInfo* method)
+extern "C" void Enumerator__ctor_m2_657 (Enumerator_t2_119 * __this, Object_t * ___list, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
 		Object_t * L_0 = ___list;
 		__this->___list_0 = L_0;
 		VirtActionInvoker0::Invoke(6 /* System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::Reset() */, __this);
@@ -5643,32 +5643,32 @@ extern "C" void Enumerator__ctor_m5428 (Enumerator_t1057 * __this, Object_t * __
 	}
 }
 // System.Object System.Text.RegularExpressions.IntervalCollection/Enumerator::get_Current()
-extern TypeInfo* ICollection_t699_il2cpp_TypeInfo_var;
-extern TypeInfo* InvalidOperationException_t710_il2cpp_TypeInfo_var;
-extern TypeInfo* IList_t701_il2cpp_TypeInfo_var;
-extern "C" Object_t * Enumerator_get_Current_m5429 (Enumerator_t1057 * __this, const MethodInfo* method)
+extern TypeInfo* ICollection_t1_801_il2cpp_TypeInfo_var;
+extern TypeInfo* InvalidOperationException_t1_725_il2cpp_TypeInfo_var;
+extern TypeInfo* IList_t1_409_il2cpp_TypeInfo_var;
+extern "C" Object_t * Enumerator_get_Current_m2_658 (Enumerator_t2_119 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICollection_t699_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(406);
-		InvalidOperationException_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(420);
-		IList_t701_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(407);
+		ICollection_t1_801_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(184);
+		InvalidOperationException_t1_725_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(71);
+		IList_t1_409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		int32_t L_0 = (__this->___ptr_1);
 		Object_t * L_1 = (__this->___list_0);
 		NullCheck(L_1);
-		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t699_il2cpp_TypeInfo_var, L_1);
+		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t1_801_il2cpp_TypeInfo_var, L_1);
 		if ((((int32_t)L_0) < ((int32_t)L_2)))
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		InvalidOperationException_t710 * L_3 = (InvalidOperationException_t710 *)il2cpp_codegen_object_new (InvalidOperationException_t710_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m5682(L_3, /*hidden argument*/NULL);
+		InvalidOperationException_t1_725 * L_3 = (InvalidOperationException_t1_725 *)il2cpp_codegen_object_new (InvalidOperationException_t1_725_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1_5057(L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -5677,20 +5677,20 @@ IL_001c:
 		Object_t * L_4 = (__this->___list_0);
 		int32_t L_5 = (__this->___ptr_1);
 		NullCheck(L_4);
-		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t701_il2cpp_TypeInfo_var, L_4, L_5);
+		Object_t * L_6 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t1_409_il2cpp_TypeInfo_var, L_4, L_5);
 		return L_6;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.IntervalCollection/Enumerator::MoveNext()
-extern TypeInfo* ICollection_t699_il2cpp_TypeInfo_var;
-extern TypeInfo* InvalidOperationException_t710_il2cpp_TypeInfo_var;
-extern "C" bool Enumerator_MoveNext_m5430 (Enumerator_t1057 * __this, const MethodInfo* method)
+extern TypeInfo* ICollection_t1_801_il2cpp_TypeInfo_var;
+extern TypeInfo* InvalidOperationException_t1_725_il2cpp_TypeInfo_var;
+extern "C" bool Enumerator_MoveNext_m2_659 (Enumerator_t2_119 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICollection_t699_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(406);
-		InvalidOperationException_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(420);
+		ICollection_t1_801_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(184);
+		InvalidOperationException_t1_725_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(71);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -5698,15 +5698,15 @@ extern "C" bool Enumerator_MoveNext_m5430 (Enumerator_t1057 * __this, const Meth
 		int32_t L_0 = (__this->___ptr_1);
 		Object_t * L_1 = (__this->___list_0);
 		NullCheck(L_1);
-		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t699_il2cpp_TypeInfo_var, L_1);
+		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t1_801_il2cpp_TypeInfo_var, L_1);
 		if ((((int32_t)L_0) <= ((int32_t)L_2)))
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		InvalidOperationException_t710 * L_3 = (InvalidOperationException_t710 *)il2cpp_codegen_object_new (InvalidOperationException_t710_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m5682(L_3, /*hidden argument*/NULL);
+		InvalidOperationException_t1_725 * L_3 = (InvalidOperationException_t1_725 *)il2cpp_codegen_object_new (InvalidOperationException_t1_725_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1_5057(L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -5719,12 +5719,12 @@ IL_001c:
 		int32_t L_6 = V_0;
 		Object_t * L_7 = (__this->___list_0);
 		NullCheck(L_7);
-		int32_t L_8 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t699_il2cpp_TypeInfo_var, L_7);
+		int32_t L_8 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t1_801_il2cpp_TypeInfo_var, L_7);
 		return ((((int32_t)L_6) < ((int32_t)L_8))? 1 : 0);
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection/Enumerator::Reset()
-extern "C" void Enumerator_Reset_m5431 (Enumerator_t1057 * __this, const MethodInfo* method)
+extern "C" void Enumerator_Reset_m2_660 (Enumerator_t2_119 * __this, const MethodInfo* method)
 {
 	{
 		__this->___ptr_1 = (-1);
@@ -5732,139 +5732,139 @@ extern "C" void Enumerator_Reset_m5431 (Enumerator_t1057 * __this, const MethodI
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection/CostDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void CostDelegate__ctor_m5432 (CostDelegate_t1058 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void CostDelegate__ctor_m2_661 (CostDelegate_t2_120 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::Invoke(System.Text.RegularExpressions.Interval)
-extern "C" double CostDelegate_Invoke_m5433 (CostDelegate_t1058 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" double CostDelegate_Invoke_m2_662 (CostDelegate_t2_120 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		CostDelegate_Invoke_m5433((CostDelegate_t1058 *)__this->___prev_9,___i, method);
+		CostDelegate_Invoke_m2_662((CostDelegate_t2_120 *)__this->___prev_9,___i, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef double (*FunctionPointerType) (Object_t *, Object_t * __this, Interval_t1056  ___i, const MethodInfo* method);
+		typedef double (*FunctionPointerType) (Object_t *, Object_t * __this, Interval_t2_118  ___i, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___i,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef double (*FunctionPointerType) (Object_t * __this, Interval_t1056  ___i, const MethodInfo* method);
+		typedef double (*FunctionPointerType) (Object_t * __this, Interval_t2_118  ___i, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___i,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" double pinvoke_delegate_wrapper_CostDelegate_t1058(Il2CppObject* delegate, Interval_t1056  ___i)
+extern "C" double pinvoke_delegate_wrapper_CostDelegate_t2_120(Il2CppObject* delegate, Interval_t2_118  ___i)
 {
-	typedef double (STDCALL *native_function_ptr_type)(Interval_t1056_marshaled);
+	typedef double (STDCALL *native_function_ptr_type)(Interval_t2_118_marshaled);
 	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
 	// Marshaling of parameter '___i' to native representation
-	Interval_t1056_marshaled ____i_marshaled = { 0 };
-	Interval_t1056_marshal(___i, ____i_marshaled);
+	Interval_t2_118_marshaled ____i_marshaled = { 0 };
+	Interval_t2_118_marshal(___i, ____i_marshaled);
 
 	// Native function invocation and marshaling of return value back from native representation
 	double _return_value = _il2cpp_pinvoke_func(____i_marshaled);
 
 	// Marshaling cleanup of parameter '___i' native representation
-	Interval_t1056_marshal_cleanup(____i_marshaled);
+	Interval_t2_118_marshal_cleanup(____i_marshaled);
 
 	return _return_value;
 }
 // System.IAsyncResult System.Text.RegularExpressions.IntervalCollection/CostDelegate::BeginInvoke(System.Text.RegularExpressions.Interval,System.AsyncCallback,System.Object)
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern "C" Object_t * CostDelegate_BeginInvoke_m5434 (CostDelegate_t1058 * __this, Interval_t1056  ___i, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern "C" Object_t * CostDelegate_BeginInvoke_m2_663 (CostDelegate_t2_120 * __this, Interval_t2_118  ___i, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
 		s_Il2CppMethodIntialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(Interval_t1056_il2cpp_TypeInfo_var, &___i);
+	__d_args[0] = Box(Interval_t2_118_il2cpp_TypeInfo_var, &___i);
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Double System.Text.RegularExpressions.IntervalCollection/CostDelegate::EndInvoke(System.IAsyncResult)
-extern "C" double CostDelegate_EndInvoke_m5435 (CostDelegate_t1058 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" double CostDelegate_EndInvoke_m2_664 (CostDelegate_t2_120 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(double*)UnBox ((Il2CppCodeGenObject*)__result);
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection::.ctor()
-extern TypeInfo* ArrayList_t771_il2cpp_TypeInfo_var;
-extern "C" void IntervalCollection__ctor_m5436 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern TypeInfo* ArrayList_t1_112_il2cpp_TypeInfo_var;
+extern "C" void IntervalCollection__ctor_m2_665 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(492);
+		ArrayList_t1_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(55);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		ArrayList_t771 * L_0 = (ArrayList_t771 *)il2cpp_codegen_object_new (ArrayList_t771_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4666(L_0, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_0 = (ArrayList_t1_112 *)il2cpp_codegen_object_new (ArrayList_t1_112_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m1_1593(L_0, /*hidden argument*/NULL);
 		__this->___intervals_0 = L_0;
 		return;
 	}
 }
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.IntervalCollection::get_Item(System.Int32)
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern "C" Interval_t1056  IntervalCollection_get_Item_m5437 (IntervalCollection_t1059 * __this, int32_t ___i, const MethodInfo* method)
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern "C" Interval_t2_118  IntervalCollection_get_Item_m2_666 (IntervalCollection_t2_121 * __this, int32_t ___i, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
 		int32_t L_1 = ___i;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_0, L_1);
-		return ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_2, Interval_t1056_il2cpp_TypeInfo_var))));
+		return ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_2, Interval_t2_118_il2cpp_TypeInfo_var))));
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection::Add(System.Text.RegularExpressions.Interval)
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern "C" void IntervalCollection_Add_m5438 (IntervalCollection_t1059 * __this, Interval_t1056  ___i, const MethodInfo* method)
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern "C" void IntervalCollection_Add_m2_667 (IntervalCollection_t2_121 * __this, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
-		Interval_t1056  L_1 = ___i;
-		Interval_t1056  L_2 = L_1;
-		Object_t * L_3 = Box(Interval_t1056_il2cpp_TypeInfo_var, &L_2);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
+		Interval_t2_118  L_1 = ___i;
+		Interval_t2_118  L_2 = L_1;
+		Object_t * L_3 = Box(Interval_t2_118_il2cpp_TypeInfo_var, &L_2);
 		NullCheck(L_0);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_0, L_3);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection::Normalize()
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern "C" void IntervalCollection_Normalize_m5439 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern "C" void IntervalCollection_Normalize_m2_668 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	Interval_t1056  V_1 = {0};
-	Interval_t1056  V_2 = {0};
+	Interval_t2_118  V_1 = {0};
+	Interval_t2_118  V_2 = {0};
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(45 /* System.Void System.Collections.ArrayList::Sort() */, L_0);
 		V_0 = 0;
@@ -5873,26 +5873,26 @@ extern "C" void IntervalCollection_Normalize_m5439 (IntervalCollection_t1059 * _
 
 IL_0012:
 	{
-		ArrayList_t771 * L_1 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_1 = (__this->___intervals_0);
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_1, L_2);
-		V_1 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_3, Interval_t1056_il2cpp_TypeInfo_var))));
-		ArrayList_t771 * L_4 = (__this->___intervals_0);
+		V_1 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_3, Interval_t2_118_il2cpp_TypeInfo_var))));
+		ArrayList_t1_112 * L_4 = (__this->___intervals_0);
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, ((int32_t)((int32_t)L_5+(int32_t)1)));
-		V_2 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_6, Interval_t1056_il2cpp_TypeInfo_var))));
-		Interval_t1056  L_7 = V_2;
-		bool L_8 = Interval_IsDisjoint_m5421((&V_1), L_7, /*hidden argument*/NULL);
+		V_2 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_6, Interval_t2_118_il2cpp_TypeInfo_var))));
+		Interval_t2_118  L_7 = V_2;
+		bool L_8 = Interval_IsDisjoint_m2_650((&V_1), L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0052;
 		}
 	}
 	{
-		Interval_t1056  L_9 = V_2;
-		bool L_10 = Interval_IsAdjacent_m5422((&V_1), L_9, /*hidden argument*/NULL);
+		Interval_t2_118  L_9 = V_2;
+		bool L_10 = Interval_IsAdjacent_m2_651((&V_1), L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_007f;
@@ -5901,16 +5901,16 @@ IL_0012:
 
 IL_0052:
 	{
-		Interval_t1056  L_11 = V_2;
-		Interval_Merge_m5426((&V_1), L_11, /*hidden argument*/NULL);
-		ArrayList_t771 * L_12 = (__this->___intervals_0);
+		Interval_t2_118  L_11 = V_2;
+		Interval_Merge_m2_655((&V_1), L_11, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_12 = (__this->___intervals_0);
 		int32_t L_13 = V_0;
-		Interval_t1056  L_14 = V_1;
-		Interval_t1056  L_15 = L_14;
-		Object_t * L_16 = Box(Interval_t1056_il2cpp_TypeInfo_var, &L_15);
+		Interval_t2_118  L_14 = V_1;
+		Interval_t2_118  L_15 = L_14;
+		Object_t * L_16 = Box(Interval_t2_118_il2cpp_TypeInfo_var, &L_15);
 		NullCheck(L_12);
 		VirtActionInvoker2< int32_t, Object_t * >::Invoke(22 /* System.Void System.Collections.ArrayList::set_Item(System.Int32,System.Object) */, L_12, L_13, L_16);
-		ArrayList_t771 * L_17 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_17 = (__this->___intervals_0);
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
 		VirtActionInvoker1< int32_t >::Invoke(39 /* System.Void System.Collections.ArrayList::RemoveAt(System.Int32) */, L_17, ((int32_t)((int32_t)L_18+(int32_t)1)));
@@ -5926,7 +5926,7 @@ IL_007f:
 IL_0083:
 	{
 		int32_t L_20 = V_0;
-		ArrayList_t771 * L_21 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_21 = (__this->___intervals_0);
 		NullCheck(L_21);
 		int32_t L_22 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_21);
 		if ((((int32_t)L_20) < ((int32_t)((int32_t)((int32_t)L_22-(int32_t)1)))))
@@ -5939,38 +5939,38 @@ IL_0083:
 	}
 }
 // System.Text.RegularExpressions.IntervalCollection System.Text.RegularExpressions.IntervalCollection::GetMetaCollection(System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern TypeInfo* IntervalCollection_t1059_il2cpp_TypeInfo_var;
-extern "C" IntervalCollection_t1059 * IntervalCollection_GetMetaCollection_m5440 (IntervalCollection_t1059 * __this, CostDelegate_t1058 * ___cost_del, const MethodInfo* method)
+extern TypeInfo* IntervalCollection_t2_121_il2cpp_TypeInfo_var;
+extern "C" IntervalCollection_t2_121 * IntervalCollection_GetMetaCollection_m2_669 (IntervalCollection_t2_121 * __this, CostDelegate_t2_120 * ___cost_del, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IntervalCollection_t1059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
+		IntervalCollection_t2_121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(710);
 		s_Il2CppMethodIntialized = true;
 	}
-	IntervalCollection_t1059 * V_0 = {0};
+	IntervalCollection_t2_121 * V_0 = {0};
 	{
-		IntervalCollection_t1059 * L_0 = (IntervalCollection_t1059 *)il2cpp_codegen_object_new (IntervalCollection_t1059_il2cpp_TypeInfo_var);
-		IntervalCollection__ctor_m5436(L_0, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_0 = (IntervalCollection_t2_121 *)il2cpp_codegen_object_new (IntervalCollection_t2_121_il2cpp_TypeInfo_var);
+		IntervalCollection__ctor_m2_665(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		IntervalCollection_Normalize_m5439(__this, /*hidden argument*/NULL);
+		IntervalCollection_Normalize_m2_668(__this, /*hidden argument*/NULL);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count() */, __this);
-		IntervalCollection_t1059 * L_2 = V_0;
-		CostDelegate_t1058 * L_3 = ___cost_del;
-		IntervalCollection_Optimize_m5441(__this, 0, ((int32_t)((int32_t)L_1-(int32_t)1)), L_2, L_3, /*hidden argument*/NULL);
-		IntervalCollection_t1059 * L_4 = V_0;
+		IntervalCollection_t2_121 * L_2 = V_0;
+		CostDelegate_t2_120 * L_3 = ___cost_del;
+		IntervalCollection_Optimize_m2_670(__this, 0, ((int32_t)((int32_t)L_1-(int32_t)1)), L_2, L_3, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_4 = V_0;
 		NullCheck(L_4);
-		ArrayList_t771 * L_5 = (L_4->___intervals_0);
+		ArrayList_t1_112 * L_5 = (L_4->___intervals_0);
 		NullCheck(L_5);
 		VirtActionInvoker0::Invoke(45 /* System.Void System.Collections.ArrayList::Sort() */, L_5);
-		IntervalCollection_t1059 * L_6 = V_0;
+		IntervalCollection_t2_121 * L_6 = V_0;
 		return L_6;
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection::Optimize(System.Int32,System.Int32,System.Text.RegularExpressions.IntervalCollection,System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern "C" void IntervalCollection_Optimize_m5441 (IntervalCollection_t1059 * __this, int32_t ___begin, int32_t ___end, IntervalCollection_t1059 * ___meta, CostDelegate_t1058 * ___cost_del, const MethodInfo* method)
+extern "C" void IntervalCollection_Optimize_m2_670 (IntervalCollection_t2_121 * __this, int32_t ___begin, int32_t ___end, IntervalCollection_t2_121 * ___meta, CostDelegate_t2_120 * ___cost_del, const MethodInfo* method)
 {
-	Interval_t1056  V_0 = {0};
+	Interval_t2_118  V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	double V_3 = 0.0;
@@ -5979,10 +5979,10 @@ extern "C" void IntervalCollection_Optimize_m5441 (IntervalCollection_t1059 * __
 	int32_t V_6 = 0;
 	double V_7 = 0.0;
 	int32_t V_8 = 0;
-	Interval_t1056  V_9 = {0};
-	Interval_t1056  V_10 = {0};
-	Interval_t1056  V_11 = {0};
-	Interval_t1056  V_12 = {0};
+	Interval_t2_118  V_9 = {0};
+	Interval_t2_118  V_10 = {0};
+	Interval_t2_118  V_11 = {0};
+	Interval_t2_118  V_12 = {0};
 	{
 		(&V_0)->___contiguous_2 = 0;
 		V_1 = (-1);
@@ -5996,7 +5996,7 @@ extern "C" void IntervalCollection_Optimize_m5441 (IntervalCollection_t1059 * __
 IL_001e:
 	{
 		int32_t L_1 = V_4;
-		Interval_t1056  L_2 = IntervalCollection_get_Item_m5437(__this, L_1, /*hidden argument*/NULL);
+		Interval_t2_118  L_2 = IntervalCollection_get_Item_m2_666(__this, L_1, /*hidden argument*/NULL);
 		V_9 = L_2;
 		int32_t L_3 = ((&V_9)->___low_0);
 		(&V_0)->___low_0 = L_3;
@@ -6009,21 +6009,21 @@ IL_001e:
 IL_004a:
 	{
 		int32_t L_5 = V_6;
-		Interval_t1056  L_6 = IntervalCollection_get_Item_m5437(__this, L_5, /*hidden argument*/NULL);
+		Interval_t2_118  L_6 = IntervalCollection_get_Item_m2_666(__this, L_5, /*hidden argument*/NULL);
 		V_10 = L_6;
 		int32_t L_7 = ((&V_10)->___high_1);
 		(&V_0)->___high_1 = L_7;
 		double L_8 = V_5;
-		CostDelegate_t1058 * L_9 = ___cost_del;
+		CostDelegate_t2_120 * L_9 = ___cost_del;
 		int32_t L_10 = V_6;
-		Interval_t1056  L_11 = IntervalCollection_get_Item_m5437(__this, L_10, /*hidden argument*/NULL);
+		Interval_t2_118  L_11 = IntervalCollection_get_Item_m2_666(__this, L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		double L_12 = CostDelegate_Invoke_m5433(L_9, L_11, /*hidden argument*/NULL);
+		double L_12 = CostDelegate_Invoke_m2_662(L_9, L_11, /*hidden argument*/NULL);
 		V_5 = ((double)((double)L_8+(double)L_12));
-		CostDelegate_t1058 * L_13 = ___cost_del;
-		Interval_t1056  L_14 = V_0;
+		CostDelegate_t2_120 * L_13 = ___cost_del;
+		Interval_t2_118  L_14 = V_0;
 		NullCheck(L_13);
-		double L_15 = CostDelegate_Invoke_m5433(L_13, L_14, /*hidden argument*/NULL);
+		double L_15 = CostDelegate_Invoke_m2_662(L_13, L_14, /*hidden argument*/NULL);
 		V_7 = L_15;
 		double L_16 = V_7;
 		double L_17 = V_5;
@@ -6093,11 +6093,11 @@ IL_00ae:
 
 IL_00c5:
 	{
-		IntervalCollection_t1059 * L_31 = ___meta;
+		IntervalCollection_t2_121 * L_31 = ___meta;
 		int32_t L_32 = V_8;
-		Interval_t1056  L_33 = IntervalCollection_get_Item_m5437(__this, L_32, /*hidden argument*/NULL);
+		Interval_t2_118  L_33 = IntervalCollection_get_Item_m2_666(__this, L_32, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		IntervalCollection_Add_m5438(L_31, L_33, /*hidden argument*/NULL);
+		IntervalCollection_Add_m2_667(L_31, L_33, /*hidden argument*/NULL);
 		int32_t L_34 = V_8;
 		V_8 = ((int32_t)((int32_t)L_34+(int32_t)1));
 	}
@@ -6118,19 +6118,19 @@ IL_00d9:
 IL_00e6:
 	{
 		int32_t L_37 = V_1;
-		Interval_t1056  L_38 = IntervalCollection_get_Item_m5437(__this, L_37, /*hidden argument*/NULL);
+		Interval_t2_118  L_38 = IntervalCollection_get_Item_m2_666(__this, L_37, /*hidden argument*/NULL);
 		V_11 = L_38;
 		int32_t L_39 = ((&V_11)->___low_0);
 		(&V_0)->___low_0 = L_39;
 		int32_t L_40 = V_2;
-		Interval_t1056  L_41 = IntervalCollection_get_Item_m5437(__this, L_40, /*hidden argument*/NULL);
+		Interval_t2_118  L_41 = IntervalCollection_get_Item_m2_666(__this, L_40, /*hidden argument*/NULL);
 		V_12 = L_41;
 		int32_t L_42 = ((&V_12)->___high_1);
 		(&V_0)->___high_1 = L_42;
-		IntervalCollection_t1059 * L_43 = ___meta;
-		Interval_t1056  L_44 = V_0;
+		IntervalCollection_t2_121 * L_43 = ___meta;
+		Interval_t2_118  L_44 = V_0;
 		NullCheck(L_43);
-		IntervalCollection_Add_m5438(L_43, L_44, /*hidden argument*/NULL);
+		IntervalCollection_Add_m2_667(L_43, L_44, /*hidden argument*/NULL);
 		int32_t L_45 = V_1;
 		int32_t L_46 = ___begin;
 		if ((((int32_t)L_45) <= ((int32_t)L_46)))
@@ -6141,9 +6141,9 @@ IL_00e6:
 	{
 		int32_t L_47 = ___begin;
 		int32_t L_48 = V_1;
-		IntervalCollection_t1059 * L_49 = ___meta;
-		CostDelegate_t1058 * L_50 = ___cost_del;
-		IntervalCollection_Optimize_m5441(__this, L_47, ((int32_t)((int32_t)L_48-(int32_t)1)), L_49, L_50, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_49 = ___meta;
+		CostDelegate_t2_120 * L_50 = ___cost_del;
+		IntervalCollection_Optimize_m2_670(__this, L_47, ((int32_t)((int32_t)L_48-(int32_t)1)), L_49, L_50, /*hidden argument*/NULL);
 	}
 
 IL_012f:
@@ -6158,9 +6158,9 @@ IL_012f:
 	{
 		int32_t L_53 = V_2;
 		int32_t L_54 = ___end;
-		IntervalCollection_t1059 * L_55 = ___meta;
-		CostDelegate_t1058 * L_56 = ___cost_del;
-		IntervalCollection_Optimize_m5441(__this, ((int32_t)((int32_t)L_53+(int32_t)1)), L_54, L_55, L_56, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_55 = ___meta;
+		CostDelegate_t2_120 * L_56 = ___cost_del;
+		IntervalCollection_Optimize_m2_670(__this, ((int32_t)((int32_t)L_53+(int32_t)1)), L_54, L_55, L_56, /*hidden argument*/NULL);
 	}
 
 IL_0143:
@@ -6169,55 +6169,55 @@ IL_0143:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count()
-extern "C" int32_t IntervalCollection_get_Count_m5442 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern "C" int32_t IntervalCollection_get_Count_m2_671 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_0);
 		return L_1;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.IntervalCollection::get_IsSynchronized()
-extern "C" bool IntervalCollection_get_IsSynchronized_m5443 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern "C" bool IntervalCollection_get_IsSynchronized_m2_672 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
 // System.Object System.Text.RegularExpressions.IntervalCollection::get_SyncRoot()
-extern "C" Object_t * IntervalCollection_get_SyncRoot_m5444 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern "C" Object_t * IntervalCollection_get_SyncRoot_m2_673 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
 		return L_0;
 	}
 }
 // System.Void System.Text.RegularExpressions.IntervalCollection::CopyTo(System.Array,System.Int32)
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern "C" void IntervalCollection_CopyTo_m5445 (IntervalCollection_t1059 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method)
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern "C" void IntervalCollection_CopyTo_m2_674 (IntervalCollection_t2_121 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
 		s_Il2CppMethodIntialized = true;
 	}
-	Interval_t1056  V_0 = {0};
+	Interval_t2_118  V_0 = {0};
 	Object_t * V_1 = {0};
 	Object_t * V_2 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
 		NullCheck(L_0);
 		Object_t * L_1 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_0);
 		V_1 = L_1;
@@ -6234,12 +6234,12 @@ IL_0011:
 		{
 			Object_t * L_2 = V_1;
 			NullCheck(L_2);
-			Object_t * L_3 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_2);
-			V_0 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_3, Interval_t1056_il2cpp_TypeInfo_var))));
+			Object_t * L_3 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_2);
+			V_0 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_3, Interval_t2_118_il2cpp_TypeInfo_var))));
 			int32_t L_4 = ___index;
 			Array_t * L_5 = ___array;
 			NullCheck(L_5);
-			int32_t L_6 = Array_get_Length_m5680(L_5, /*hidden argument*/NULL);
+			int32_t L_6 = Array_get_Length_m1_779(L_5, /*hidden argument*/NULL);
 			if ((((int32_t)L_4) <= ((int32_t)L_6)))
 			{
 				goto IL_002e;
@@ -6254,21 +6254,21 @@ IL_0029:
 IL_002e:
 		{
 			Array_t * L_7 = ___array;
-			Interval_t1056  L_8 = V_0;
-			Interval_t1056  L_9 = L_8;
-			Object_t * L_10 = Box(Interval_t1056_il2cpp_TypeInfo_var, &L_9);
+			Interval_t2_118  L_8 = V_0;
+			Interval_t2_118  L_9 = L_8;
+			Object_t * L_10 = Box(Interval_t2_118_il2cpp_TypeInfo_var, &L_9);
 			int32_t L_11 = ___index;
 			int32_t L_12 = L_11;
 			___index = ((int32_t)((int32_t)L_12+(int32_t)1));
 			NullCheck(L_7);
-			Array_SetValue_m5681(L_7, L_10, L_12, /*hidden argument*/NULL);
+			Array_SetValue_m1_807(L_7, L_10, L_12, /*hidden argument*/NULL);
 		}
 
 IL_0040:
 		{
 			Object_t * L_13 = V_1;
 			NullCheck(L_13);
-			bool L_14 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_13);
+			bool L_14 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_13);
 			if (L_14)
 			{
 				goto IL_0011;
@@ -6282,7 +6282,7 @@ IL_004b:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_0050;
 	}
 
@@ -6290,7 +6290,7 @@ FINALLY_0050:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_15 = V_1;
-			V_2 = ((Object_t *)IsInst(L_15, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_2 = ((Object_t *)IsInst(L_15, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_16 = V_2;
 			if (L_16)
 			{
@@ -6307,14 +6307,14 @@ IL_005b:
 		{
 			Object_t * L_17 = V_2;
 			NullCheck(L_17);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_17);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_17);
 			IL2CPP_END_FINALLY(80)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(80)
 	{
 		IL2CPP_JUMP_TBL(0x62, IL_0062)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0062:
@@ -6323,79 +6323,79 @@ IL_0062:
 	}
 }
 // System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator()
-extern TypeInfo* Enumerator_t1057_il2cpp_TypeInfo_var;
-extern "C" Object_t * IntervalCollection_GetEnumerator_m5446 (IntervalCollection_t1059 * __this, const MethodInfo* method)
+extern TypeInfo* Enumerator_t2_119_il2cpp_TypeInfo_var;
+extern "C" Object_t * IntervalCollection_GetEnumerator_m2_675 (IntervalCollection_t2_121 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Enumerator_t1057_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(714);
+		Enumerator_t2_119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(711);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ArrayList_t771 * L_0 = (__this->___intervals_0);
-		Enumerator_t1057 * L_1 = (Enumerator_t1057 *)il2cpp_codegen_object_new (Enumerator_t1057_il2cpp_TypeInfo_var);
-		Enumerator__ctor_m5428(L_1, L_0, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_0 = (__this->___intervals_0);
+		Enumerator_t2_119 * L_1 = (Enumerator_t2_119 *)il2cpp_codegen_object_new (Enumerator_t2_119_il2cpp_TypeInfo_var);
+		Enumerator__ctor_m2_657(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::.ctor()
-extern TypeInfo* ArrayList_t771_il2cpp_TypeInfo_var;
-extern TypeInfo* Hashtable_t836_il2cpp_TypeInfo_var;
-extern "C" void Parser__ctor_m5447 (Parser_t1060 * __this, const MethodInfo* method)
+extern TypeInfo* ArrayList_t1_112_il2cpp_TypeInfo_var;
+extern TypeInfo* Hashtable_t1_171_il2cpp_TypeInfo_var;
+extern "C" void Parser__ctor_m2_676 (Parser_t2_122 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(492);
-		Hashtable_t836_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(569);
+		ArrayList_t1_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(55);
+		Hashtable_t1_171_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		ArrayList_t771 * L_0 = (ArrayList_t771 *)il2cpp_codegen_object_new (ArrayList_t771_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4666(L_0, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_0 = (ArrayList_t1_112 *)il2cpp_codegen_object_new (ArrayList_t1_112_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m1_1593(L_0, /*hidden argument*/NULL);
 		__this->___caps_2 = L_0;
-		Hashtable_t836 * L_1 = (Hashtable_t836 *)il2cpp_codegen_object_new (Hashtable_t836_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m4745(L_1, /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_1 = (Hashtable_t1_171 *)il2cpp_codegen_object_new (Hashtable_t1_171_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1_1742(L_1, /*hidden argument*/NULL);
 		__this->___refs_3 = L_1;
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDecimal(System.String,System.Int32&)
-extern "C" int32_t Parser_ParseDecimal_m5448 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
+extern "C" int32_t Parser_ParseDecimal_m2_677 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___str;
 		int32_t* L_1 = ___ptr;
-		int32_t L_2 = Parser_ParseNumber_m5451(NULL /*static, unused*/, L_0, L_1, ((int32_t)10), 1, ((int32_t)2147483647), /*hidden argument*/NULL);
+		int32_t L_2 = Parser_ParseNumber_m2_680(NULL /*static, unused*/, L_0, L_1, ((int32_t)10), 1, ((int32_t)2147483647), /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseOctal(System.String,System.Int32&)
-extern "C" int32_t Parser_ParseOctal_m5449 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
+extern "C" int32_t Parser_ParseOctal_m2_678 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___str;
 		int32_t* L_1 = ___ptr;
-		int32_t L_2 = Parser_ParseNumber_m5451(NULL /*static, unused*/, L_0, L_1, 8, 1, 3, /*hidden argument*/NULL);
+		int32_t L_2 = Parser_ParseNumber_m2_680(NULL /*static, unused*/, L_0, L_1, 8, 1, 3, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseHex(System.String,System.Int32&,System.Int32)
-extern "C" int32_t Parser_ParseHex_m5450 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___digits, const MethodInfo* method)
+extern "C" int32_t Parser_ParseHex_m2_679 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___digits, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___str;
 		int32_t* L_1 = ___ptr;
 		int32_t L_2 = ___digits;
 		int32_t L_3 = ___digits;
-		int32_t L_4 = Parser_ParseNumber_m5451(NULL /*static, unused*/, L_0, L_1, ((int32_t)16), L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Parser_ParseNumber_m2_680(NULL /*static, unused*/, L_0, L_1, ((int32_t)16), L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.String,System.Int32&,System.Int32,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseNumber_m5451 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method)
+extern "C" int32_t Parser_ParseNumber_m2_680 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -6429,10 +6429,10 @@ IL_001b:
 		int32_t L_5 = L_4;
 		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
 		NullCheck(L_3);
-		uint16_t L_6 = String_get_Chars_m2240(L_3, L_5, /*hidden argument*/NULL);
+		uint16_t L_6 = String_get_Chars_m1_344(L_3, L_5, /*hidden argument*/NULL);
 		int32_t L_7 = ___b;
 		int32_t L_8 = V_2;
-		int32_t L_9 = Parser_ParseDigit_m5467(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = Parser_ParseDigit_m2_696(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
 		V_3 = L_9;
 		int32_t L_10 = V_3;
 		if ((((int32_t)L_10) >= ((int32_t)0)))
@@ -6469,7 +6469,7 @@ IL_0048:
 		int32_t L_18 = V_0;
 		String_t* L_19 = ___str;
 		NullCheck(L_19);
-		int32_t L_20 = String_get_Length_m2221(L_19, /*hidden argument*/NULL);
+		int32_t L_20 = String_get_Length_m1_430(L_19, /*hidden argument*/NULL);
 		if ((((int32_t)L_18) < ((int32_t)L_20)))
 		{
 			goto IL_001b;
@@ -6499,13 +6499,13 @@ IL_0065:
 	}
 }
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName(System.String,System.Int32&)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" String_t* Parser_ParseName_m5452 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" String_t* Parser_ParseName_m2_681 (Object_t * __this /* static, unused */, String_t* ___str, int32_t* ___ptr, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -6514,9 +6514,9 @@ extern "C" String_t* Parser_ParseName_m5452 (Object_t * __this /* static, unused
 		String_t* L_0 = ___str;
 		int32_t* L_1 = ___ptr;
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, (*((int32_t*)L_1)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_3 = Char_IsDigit_m5742(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, (*((int32_t*)L_1)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_3 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_002f;
@@ -6525,7 +6525,7 @@ extern "C" String_t* Parser_ParseName_m5452 (Object_t * __this /* static, unused
 	{
 		String_t* L_4 = ___str;
 		int32_t* L_5 = ___ptr;
-		int32_t L_6 = Parser_ParseNumber_m5451(NULL /*static, unused*/, L_4, L_5, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
+		int32_t L_6 = Parser_ParseNumber_m2_680(NULL /*static, unused*/, L_4, L_5, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
 		V_0 = L_6;
 		int32_t L_7 = V_0;
 		if ((((int32_t)L_7) <= ((int32_t)0)))
@@ -6534,7 +6534,7 @@ extern "C" String_t* Parser_ParseName_m5452 (Object_t * __this /* static, unused
 		}
 	}
 	{
-		String_t* L_8 = Int32_ToString_m388((&V_0), /*hidden argument*/NULL);
+		String_t* L_8 = Int32_ToString_m1_63((&V_0), /*hidden argument*/NULL);
 		return L_8;
 	}
 
@@ -6555,8 +6555,8 @@ IL_0037:
 		String_t* L_10 = ___str;
 		int32_t* L_11 = ___ptr;
 		NullCheck(L_10);
-		uint16_t L_12 = String_get_Chars_m2240(L_10, (*((int32_t*)L_11)), /*hidden argument*/NULL);
-		bool L_13 = Parser_IsNameChar_m5465(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		uint16_t L_12 = String_get_Chars_m1_344(L_10, (*((int32_t*)L_11)), /*hidden argument*/NULL);
+		bool L_13 = Parser_IsNameChar_m2_694(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		if (L_13)
 		{
 			goto IL_004e;
@@ -6593,7 +6593,7 @@ IL_0059:
 		int32_t* L_20 = ___ptr;
 		int32_t L_21 = V_1;
 		NullCheck(L_18);
-		String_t* L_22 = String_Substring_m2241(L_18, L_19, ((int32_t)((int32_t)(*((int32_t*)L_20))-(int32_t)L_21)), /*hidden argument*/NULL);
+		String_t* L_22 = String_Substring_m1_355(L_18, L_19, ((int32_t)((int32_t)(*((int32_t*)L_20))-(int32_t)L_21)), /*hidden argument*/NULL);
 		return L_22;
 	}
 
@@ -6603,24 +6603,24 @@ IL_006f:
 	}
 }
 // System.Text.RegularExpressions.Syntax.RegularExpression System.Text.RegularExpressions.Syntax.Parser::ParseRegularExpression(System.String,System.Text.RegularExpressions.RegexOptions)
-extern TypeInfo* RegularExpression_t1066_il2cpp_TypeInfo_var;
-extern TypeInfo* IndexOutOfRangeException_t632_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral931;
-extern "C" RegularExpression_t1066 * Parser_ParseRegularExpression_m5453 (Parser_t1060 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method)
+extern TypeInfo* RegularExpression_t2_128_il2cpp_TypeInfo_var;
+extern TypeInfo* IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2295;
+extern "C" RegularExpression_t2_128 * Parser_ParseRegularExpression_m2_682 (Parser_t2_122 * __this, String_t* ___pattern, int32_t ___options, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		RegularExpression_t1066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(715);
-		IndexOutOfRangeException_t632_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(332);
-		_stringLiteral931 = il2cpp_codegen_string_literal_from_index(931);
+		RegularExpression_t2_128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(31);
+		_stringLiteral2295 = il2cpp_codegen_string_literal_from_index(2295);
 		s_Il2CppMethodIntialized = true;
 	}
-	RegularExpression_t1066 * V_0 = {0};
-	RegularExpression_t1066 * V_1 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	RegularExpression_t2_128 * V_0 = {0};
+	RegularExpression_t2_128 * V_1 = {0};
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
@@ -6628,10 +6628,10 @@ extern "C" RegularExpression_t1066 * Parser_ParseRegularExpression_m5453 (Parser
 		String_t* L_0 = ___pattern;
 		__this->___pattern_0 = L_0;
 		__this->___ptr_1 = 0;
-		ArrayList_t771 * L_1 = (__this->___caps_2);
+		ArrayList_t1_112 * L_1 = (__this->___caps_2);
 		NullCheck(L_1);
 		VirtActionInvoker0::Invoke(31 /* System.Void System.Collections.ArrayList::Clear() */, L_1);
-		Hashtable_t836 * L_2 = (__this->___refs_3);
+		Hashtable_t1_171 * L_2 = (__this->___refs_3);
 		NullCheck(L_2);
 		VirtActionInvoker0::Invoke(27 /* System.Void System.Collections.Hashtable::Clear() */, L_2);
 		__this->___num_groups_4 = 0;
@@ -6641,18 +6641,18 @@ IL_002b:
 	try
 	{ // begin try (depth: 1)
 		{
-			RegularExpression_t1066 * L_3 = (RegularExpression_t1066 *)il2cpp_codegen_object_new (RegularExpression_t1066_il2cpp_TypeInfo_var);
-			RegularExpression__ctor_m5511(L_3, /*hidden argument*/NULL);
+			RegularExpression_t2_128 * L_3 = (RegularExpression_t2_128 *)il2cpp_codegen_object_new (RegularExpression_t2_128_il2cpp_TypeInfo_var);
+			RegularExpression__ctor_m2_740(L_3, /*hidden argument*/NULL);
 			V_0 = L_3;
-			RegularExpression_t1066 * L_4 = V_0;
+			RegularExpression_t2_128 * L_4 = V_0;
 			int32_t L_5 = ___options;
-			Parser_ParseGroup_m5455(__this, L_4, L_5, (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-			Parser_ResolveReferences_m5469(__this, /*hidden argument*/NULL);
-			RegularExpression_t1066 * L_6 = V_0;
+			Parser_ParseGroup_m2_684(__this, L_4, L_5, (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+			Parser_ResolveReferences_m2_698(__this, /*hidden argument*/NULL);
+			RegularExpression_t2_128 * L_6 = V_0;
 			int32_t L_7 = (__this->___num_groups_4);
 			NullCheck(L_6);
-			RegularExpression_set_GroupCount_m5512(L_6, L_7, /*hidden argument*/NULL);
-			RegularExpression_t1066 * L_8 = V_0;
+			RegularExpression_set_GroupCount_m2_741(L_6, L_7, /*hidden argument*/NULL);
+			RegularExpression_t2_128 * L_8 = V_0;
 			V_1 = L_8;
 			goto IL_006a;
 		}
@@ -6664,8 +6664,8 @@ IL_0053:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t82 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (IndexOutOfRangeException_t632_il2cpp_TypeInfo_var, e.ex->object.klass))
+		__exception_local = (Exception_t1_33 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var, e.ex->object.klass))
 			goto CATCH_0058;
 		throw e;
 	}
@@ -6673,7 +6673,7 @@ IL_0053:
 CATCH_0058:
 	{ // begin catch(System.IndexOutOfRangeException)
 		{
-			ArgumentException_t409 * L_9 = Parser_NewParseException_m5477(__this, _stringLiteral931, /*hidden argument*/NULL);
+			ArgumentException_t1_638 * L_9 = Parser_NewParseException_m2_706(__this, _stringLiteral2295, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_9);
 		}
 
@@ -6685,85 +6685,85 @@ IL_0065:
 
 IL_006a:
 	{
-		RegularExpression_t1066 * L_10 = V_1;
+		RegularExpression_t2_128 * L_10 = V_1;
 		return L_10;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::GetMapping(System.Collections.Hashtable)
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern TypeInfo* SystemException_t1104_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral192;
-extern Il2CppCodeGenString* _stringLiteral932;
-extern "C" int32_t Parser_GetMapping_m5454 (Parser_t1060 * __this, Hashtable_t836 * ___mapping, const MethodInfo* method)
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern TypeInfo* SystemException_t1_147_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral140;
+extern Il2CppCodeGenString* _stringLiteral2296;
+extern "C" int32_t Parser_GetMapping_m2_683 (Parser_t2_122 * __this, Hashtable_t1_171 * ___mapping, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
-		SystemException_t1104_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(681);
-		_stringLiteral192 = il2cpp_codegen_string_literal_from_index(192);
-		_stringLiteral932 = il2cpp_codegen_string_literal_from_index(932);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
+		SystemException_t1_147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(119);
+		_stringLiteral140 = il2cpp_codegen_string_literal_from_index(140);
+		_stringLiteral2296 = il2cpp_codegen_string_literal_from_index(2296);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	CapturingGroup_t1067 * V_2 = {0};
+	CapturingGroup_t2_129 * V_2 = {0};
 	String_t* V_3 = {0};
 	int32_t V_4 = 0;
 	String_t* G_B4_0 = {0};
 	{
-		ArrayList_t771 * L_0 = (__this->___caps_2);
+		ArrayList_t1_112 * L_0 = (__this->___caps_2);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_0);
 		V_0 = L_1;
-		Hashtable_t836 * L_2 = ___mapping;
+		Hashtable_t1_171 * L_2 = ___mapping;
 		int32_t L_3 = 0;
-		Object_t * L_4 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_3);
+		Object_t * L_4 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_3);
 		NullCheck(L_2);
-		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_2, _stringLiteral192, L_4);
+		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_2, _stringLiteral140, L_4);
 		V_1 = 0;
 		goto IL_00a5;
 	}
 
 IL_0024:
 	{
-		ArrayList_t771 * L_5 = (__this->___caps_2);
+		ArrayList_t1_112 * L_5 = (__this->___caps_2);
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
 		Object_t * L_7 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_5, L_6);
-		V_2 = ((CapturingGroup_t1067 *)CastclassClass(L_7, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-		CapturingGroup_t1067 * L_8 = V_2;
+		V_2 = ((CapturingGroup_t2_129 *)CastclassClass(L_7, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+		CapturingGroup_t2_129 * L_8 = V_2;
 		NullCheck(L_8);
-		String_t* L_9 = CapturingGroup_get_Name_m5517(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = CapturingGroup_get_Name_m2_746(L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_004c;
 		}
 	}
 	{
-		CapturingGroup_t1067 * L_10 = V_2;
+		CapturingGroup_t2_129 * L_10 = V_2;
 		NullCheck(L_10);
-		String_t* L_11 = CapturingGroup_get_Name_m5517(L_10, /*hidden argument*/NULL);
+		String_t* L_11 = CapturingGroup_get_Name_m2_746(L_10, /*hidden argument*/NULL);
 		G_B4_0 = L_11;
 		goto IL_005b;
 	}
 
 IL_004c:
 	{
-		CapturingGroup_t1067 * L_12 = V_2;
+		CapturingGroup_t2_129 * L_12 = V_2;
 		NullCheck(L_12);
-		int32_t L_13 = CapturingGroup_get_Index_m5515(L_12, /*hidden argument*/NULL);
+		int32_t L_13 = CapturingGroup_get_Index_m2_744(L_12, /*hidden argument*/NULL);
 		V_4 = L_13;
-		String_t* L_14 = Int32_ToString_m388((&V_4), /*hidden argument*/NULL);
+		String_t* L_14 = Int32_ToString_m1_63((&V_4), /*hidden argument*/NULL);
 		G_B4_0 = L_14;
 	}
 
 IL_005b:
 	{
 		V_3 = G_B4_0;
-		Hashtable_t836 * L_15 = ___mapping;
+		Hashtable_t1_171 * L_15 = ___mapping;
 		String_t* L_16 = V_3;
 		NullCheck(L_15);
 		bool L_17 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(28 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_15, L_16);
@@ -6773,21 +6773,21 @@ IL_005b:
 		}
 	}
 	{
-		Hashtable_t836 * L_18 = ___mapping;
+		Hashtable_t1_171 * L_18 = ___mapping;
 		String_t* L_19 = V_3;
 		NullCheck(L_18);
 		Object_t * L_20 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_18, L_19);
-		CapturingGroup_t1067 * L_21 = V_2;
+		CapturingGroup_t2_129 * L_21 = V_2;
 		NullCheck(L_21);
-		int32_t L_22 = CapturingGroup_get_Index_m5515(L_21, /*hidden argument*/NULL);
-		if ((((int32_t)((*(int32_t*)((int32_t*)UnBox (L_20, Int32_t92_il2cpp_TypeInfo_var))))) == ((int32_t)L_22)))
+		int32_t L_22 = CapturingGroup_get_Index_m2_744(L_21, /*hidden argument*/NULL);
+		if ((((int32_t)((*(int32_t*)((int32_t*)UnBox (L_20, Int32_t1_3_il2cpp_TypeInfo_var))))) == ((int32_t)L_22)))
 		{
 			goto IL_008a;
 		}
 	}
 	{
-		SystemException_t1104 * L_23 = (SystemException_t1104 *)il2cpp_codegen_object_new (SystemException_t1104_il2cpp_TypeInfo_var);
-		SystemException__ctor_m5737(L_23, _stringLiteral932, /*hidden argument*/NULL);
+		SystemException_t1_147 * L_23 = (SystemException_t1_147 *)il2cpp_codegen_object_new (SystemException_t1_147_il2cpp_TypeInfo_var);
+		SystemException__ctor_m1_5321(L_23, _stringLiteral2296, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_23);
 	}
 
@@ -6798,13 +6798,13 @@ IL_008a:
 
 IL_008f:
 	{
-		Hashtable_t836 * L_24 = ___mapping;
+		Hashtable_t1_171 * L_24 = ___mapping;
 		String_t* L_25 = V_3;
-		CapturingGroup_t1067 * L_26 = V_2;
+		CapturingGroup_t2_129 * L_26 = V_2;
 		NullCheck(L_26);
-		int32_t L_27 = CapturingGroup_get_Index_m5515(L_26, /*hidden argument*/NULL);
+		int32_t L_27 = CapturingGroup_get_Index_m2_744(L_26, /*hidden argument*/NULL);
 		int32_t L_28 = L_27;
-		Object_t * L_29 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_28);
+		Object_t * L_29 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_28);
 		NullCheck(L_24);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_24, L_25, L_29);
 	}
@@ -6830,44 +6830,44 @@ IL_00a5:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseGroup(System.Text.RegularExpressions.Syntax.Group,System.Text.RegularExpressions.RegexOptions,System.Text.RegularExpressions.Syntax.Assertion)
-extern TypeInfo* RegularExpression_t1066_il2cpp_TypeInfo_var;
-extern TypeInfo* Group_t1065_il2cpp_TypeInfo_var;
-extern TypeInfo* PositionAssertion_t1076_il2cpp_TypeInfo_var;
-extern TypeInfo* CharacterClass_t1079_il2cpp_TypeInfo_var;
-extern TypeInfo* Literal_t1074_il2cpp_TypeInfo_var;
-extern TypeInfo* Alternation_t1075_il2cpp_TypeInfo_var;
-extern TypeInfo* Repetition_t1070_il2cpp_TypeInfo_var;
+extern TypeInfo* RegularExpression_t2_128_il2cpp_TypeInfo_var;
+extern TypeInfo* Group_t2_127_il2cpp_TypeInfo_var;
+extern TypeInfo* PositionAssertion_t2_138_il2cpp_TypeInfo_var;
+extern TypeInfo* CharacterClass_t2_141_il2cpp_TypeInfo_var;
+extern TypeInfo* Literal_t2_136_il2cpp_TypeInfo_var;
+extern TypeInfo* Alternation_t2_137_il2cpp_TypeInfo_var;
+extern TypeInfo* Repetition_t2_132_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral933;
-extern Il2CppCodeGenString* _stringLiteral934;
-extern Il2CppCodeGenString* _stringLiteral935;
-extern Il2CppCodeGenString* _stringLiteral936;
-extern "C" void Parser_ParseGroup_m5455 (Parser_t1060 * __this, Group_t1065 * ___group, int32_t ___options, Assertion_t1071 * ___assertion, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2297;
+extern Il2CppCodeGenString* _stringLiteral2298;
+extern Il2CppCodeGenString* _stringLiteral2299;
+extern Il2CppCodeGenString* _stringLiteral2300;
+extern "C" void Parser_ParseGroup_m2_684 (Parser_t2_122 * __this, Group_t2_127 * ___group, int32_t ___options, Assertion_t2_133 * ___assertion, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		RegularExpression_t1066_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(715);
-		Group_t1065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(717);
-		PositionAssertion_t1076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(718);
-		CharacterClass_t1079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
-		Literal_t1074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(720);
-		Alternation_t1075_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(721);
-		Repetition_t1070_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(722);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		_stringLiteral933 = il2cpp_codegen_string_literal_from_index(933);
-		_stringLiteral934 = il2cpp_codegen_string_literal_from_index(934);
-		_stringLiteral935 = il2cpp_codegen_string_literal_from_index(935);
-		_stringLiteral936 = il2cpp_codegen_string_literal_from_index(936);
+		RegularExpression_t2_128_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
+		Group_t2_127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(714);
+		PositionAssertion_t2_138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(715);
+		CharacterClass_t2_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
+		Literal_t2_136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(717);
+		Alternation_t2_137_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(718);
+		Repetition_t2_132_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		_stringLiteral2297 = il2cpp_codegen_string_literal_from_index(2297);
+		_stringLiteral2298 = il2cpp_codegen_string_literal_from_index(2298);
+		_stringLiteral2299 = il2cpp_codegen_string_literal_from_index(2299);
+		_stringLiteral2300 = il2cpp_codegen_string_literal_from_index(2300);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
-	Alternation_t1075 * V_1 = {0};
+	Alternation_t2_137 * V_1 = {0};
 	String_t* V_2 = {0};
-	Group_t1065 * V_3 = {0};
-	Expression_t1063 * V_4 = {0};
+	Group_t2_127 * V_3 = {0};
+	Expression_t2_125 * V_4 = {0};
 	bool V_5 = false;
 	uint16_t V_6 = 0x0;
 	uint16_t V_7 = {0};
@@ -6881,33 +6881,33 @@ extern "C" void Parser_ParseGroup_m5455 (Parser_t1060 * __this, Group_t1065 * __
 	bool V_15 = false;
 	bool V_16 = false;
 	int32_t V_17 = 0;
-	Repetition_t1070 * V_18 = {0};
+	Repetition_t2_132 * V_18 = {0};
 	int32_t V_19 = 0;
 	uint16_t V_20 = 0x0;
 	int32_t G_B11_0 = 0;
 	int32_t G_B15_0 = 0;
 	int32_t G_B19_0 = 0;
 	{
-		Group_t1065 * L_0 = ___group;
-		V_0 = ((!(((Object_t*)(RegularExpression_t1066 *)((RegularExpression_t1066 *)IsInstClass(L_0, RegularExpression_t1066_il2cpp_TypeInfo_var))) <= ((Object_t*)(Object_t *)NULL)))? 1 : 0);
-		V_1 = (Alternation_t1075 *)NULL;
+		Group_t2_127 * L_0 = ___group;
+		V_0 = ((!(((Object_t*)(RegularExpression_t2_128 *)((RegularExpression_t2_128 *)IsInstClass(L_0, RegularExpression_t2_128_il2cpp_TypeInfo_var))) <= ((Object_t*)(Object_t *)NULL)))? 1 : 0);
+		V_1 = (Alternation_t2_137 *)NULL;
 		V_2 = (String_t*)NULL;
-		Group_t1065 * L_1 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_1, /*hidden argument*/NULL);
+		Group_t2_127 * L_1 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_1, /*hidden argument*/NULL);
 		V_3 = L_1;
-		V_4 = (Expression_t1063 *)NULL;
+		V_4 = (Expression_t2_125 *)NULL;
 		V_5 = 0;
 	}
 
 IL_001a:
 	{
 		int32_t L_2 = ___options;
-		bool L_3 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_3, /*hidden argument*/NULL);
+		bool L_3 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_3, /*hidden argument*/NULL);
 		int32_t L_4 = (__this->___ptr_1);
 		String_t* L_5 = (__this->___pattern_0);
 		NullCheck(L_5);
-		int32_t L_6 = String_get_Length_m2221(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_get_Length_m1_430(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_4) < ((int32_t)L_6)))
 		{
 			goto IL_0041;
@@ -6926,7 +6926,7 @@ IL_0041:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
 		int32_t L_10 = V_19;
 		NullCheck(L_7);
-		uint16_t L_11 = String_get_Chars_m2240(L_7, L_10, /*hidden argument*/NULL);
+		uint16_t L_11 = String_get_Chars_m1_344(L_7, L_10, /*hidden argument*/NULL);
 		V_6 = L_11;
 		uint16_t L_12 = V_6;
 		V_20 = L_12;
@@ -7020,7 +7020,7 @@ IL_00b5:
 IL_00cc:
 	{
 		int32_t L_17 = ___options;
-		bool L_18 = Parser_IsMultiline_m5472(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		bool L_18 = Parser_IsMultiline_m2_701(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_00dd;
@@ -7040,8 +7040,8 @@ IL_00de:
 	{
 		V_7 = G_B11_0;
 		uint16_t L_19 = V_7;
-		PositionAssertion_t1076 * L_20 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_20, L_19, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_20 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_20, L_19, /*hidden argument*/NULL);
 		V_4 = L_20;
 		goto IL_0270;
 	}
@@ -7049,7 +7049,7 @@ IL_00de:
 IL_00ee:
 	{
 		int32_t L_21 = ___options;
-		bool L_22 = Parser_IsMultiline_m5472(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		bool L_22 = Parser_IsMultiline_m2_701(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
 		if (!L_22)
 		{
 			goto IL_00ff;
@@ -7069,8 +7069,8 @@ IL_0100:
 	{
 		V_8 = G_B15_0;
 		uint16_t L_23 = V_8;
-		PositionAssertion_t1076 * L_24 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_24, L_23, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_24 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_24, L_23, /*hidden argument*/NULL);
 		V_4 = L_24;
 		goto IL_0270;
 	}
@@ -7078,7 +7078,7 @@ IL_0100:
 IL_0110:
 	{
 		int32_t L_25 = ___options;
-		bool L_26 = Parser_IsSingleline_m5474(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		bool L_26 = Parser_IsSingleline_m2_703(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 		if (!L_26)
 		{
 			goto IL_0121;
@@ -7098,15 +7098,15 @@ IL_0122:
 	{
 		V_9 = G_B19_0;
 		uint16_t L_27 = V_9;
-		CharacterClass_t1079 * L_28 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_28, L_27, 0, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_28 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_28, L_27, 0, /*hidden argument*/NULL);
 		V_4 = L_28;
 		goto IL_0270;
 	}
 
 IL_0133:
 	{
-		int32_t L_29 = Parser_ParseEscape_m5463(__this, /*hidden argument*/NULL);
+		int32_t L_29 = Parser_ParseEscape_m2_692(__this, /*hidden argument*/NULL);
 		V_10 = L_29;
 		int32_t L_30 = V_10;
 		if ((((int32_t)L_30) < ((int32_t)0)))
@@ -7123,9 +7123,9 @@ IL_0133:
 IL_014d:
 	{
 		int32_t L_32 = ___options;
-		Expression_t1063 * L_33 = Parser_ParseSpecial_m5462(__this, L_32, /*hidden argument*/NULL);
+		Expression_t2_125 * L_33 = Parser_ParseSpecial_m2_691(__this, L_32, /*hidden argument*/NULL);
 		V_4 = L_33;
-		Expression_t1063 * L_34 = V_4;
+		Expression_t2_125 * L_34 = V_4;
 		if (L_34)
 		{
 			goto IL_017d;
@@ -7139,7 +7139,7 @@ IL_014d:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_37+(int32_t)1));
 		int32_t L_38 = V_19;
 		NullCheck(L_35);
-		uint16_t L_39 = String_get_Chars_m2240(L_35, L_38, /*hidden argument*/NULL);
+		uint16_t L_39 = String_get_Chars_m1_344(L_35, L_38, /*hidden argument*/NULL);
 		V_6 = L_39;
 	}
 
@@ -7151,7 +7151,7 @@ IL_017d:
 IL_0182:
 	{
 		int32_t L_40 = ___options;
-		Expression_t1063 * L_41 = Parser_ParseCharacterClass_m5459(__this, L_40, /*hidden argument*/NULL);
+		Expression_t2_125 * L_41 = Parser_ParseCharacterClass_m2_688(__this, L_40, /*hidden argument*/NULL);
 		V_4 = L_41;
 		goto IL_0270;
 	}
@@ -7159,11 +7159,11 @@ IL_0182:
 IL_0190:
 	{
 		int32_t L_42 = ___options;
-		bool L_43 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+		bool L_43 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
 		V_11 = L_43;
-		Expression_t1063 * L_44 = Parser_ParseGroupingConstruct_m5456(__this, (&___options), /*hidden argument*/NULL);
+		Expression_t2_125 * L_44 = Parser_ParseGroupingConstruct_m2_685(__this, (&___options), /*hidden argument*/NULL);
 		V_4 = L_44;
-		Expression_t1063 * L_45 = V_4;
+		Expression_t2_125 * L_45 = V_4;
 		if (L_45)
 		{
 			goto IL_01d5;
@@ -7178,7 +7178,7 @@ IL_0190:
 	}
 	{
 		int32_t L_47 = ___options;
-		bool L_48 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+		bool L_48 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
 		bool L_49 = V_11;
 		if ((((int32_t)L_48) == ((int32_t)L_49)))
 		{
@@ -7186,14 +7186,14 @@ IL_0190:
 		}
 	}
 	{
-		Group_t1065 * L_50 = V_3;
+		Group_t2_127 * L_50 = V_3;
 		String_t* L_51 = V_2;
 		int32_t L_52 = ___options;
-		bool L_53 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
-		Literal_t1074 * L_54 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_54, L_51, L_53, /*hidden argument*/NULL);
+		bool L_53 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		Literal_t2_136 * L_54 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_54, L_51, L_53, /*hidden argument*/NULL);
 		NullCheck(L_50);
-		Group_AppendExpression_m5507(L_50, L_54, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_50, L_54, /*hidden argument*/NULL);
 		V_2 = (String_t*)NULL;
 	}
 
@@ -7222,63 +7222,63 @@ IL_01e2:
 		}
 	}
 	{
-		Group_t1065 * L_56 = V_3;
+		Group_t2_127 * L_56 = V_3;
 		String_t* L_57 = V_2;
 		int32_t L_58 = ___options;
-		bool L_59 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_58, /*hidden argument*/NULL);
-		Literal_t1074 * L_60 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_60, L_57, L_59, /*hidden argument*/NULL);
+		bool L_59 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_58, /*hidden argument*/NULL);
+		Literal_t2_136 * L_60 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_60, L_57, L_59, /*hidden argument*/NULL);
 		NullCheck(L_56);
-		Group_AppendExpression_m5507(L_56, L_60, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_56, L_60, /*hidden argument*/NULL);
 		V_2 = (String_t*)NULL;
 	}
 
 IL_01fc:
 	{
-		Assertion_t1071 * L_61 = ___assertion;
+		Assertion_t2_133 * L_61 = ___assertion;
 		if (!L_61)
 		{
 			goto IL_0241;
 		}
 	}
 	{
-		Assertion_t1071 * L_62 = ___assertion;
+		Assertion_t2_133 * L_62 = ___assertion;
 		NullCheck(L_62);
-		Expression_t1063 * L_63 = Assertion_get_TrueExpression_m5537(L_62, /*hidden argument*/NULL);
+		Expression_t2_125 * L_63 = Assertion_get_TrueExpression_m2_766(L_62, /*hidden argument*/NULL);
 		if (L_63)
 		{
 			goto IL_0219;
 		}
 	}
 	{
-		Assertion_t1071 * L_64 = ___assertion;
-		Group_t1065 * L_65 = V_3;
+		Assertion_t2_133 * L_64 = ___assertion;
+		Group_t2_127 * L_65 = V_3;
 		NullCheck(L_64);
-		Assertion_set_TrueExpression_m5538(L_64, L_65, /*hidden argument*/NULL);
+		Assertion_set_TrueExpression_m2_767(L_64, L_65, /*hidden argument*/NULL);
 		goto IL_023c;
 	}
 
 IL_0219:
 	{
-		Assertion_t1071 * L_66 = ___assertion;
+		Assertion_t2_133 * L_66 = ___assertion;
 		NullCheck(L_66);
-		Expression_t1063 * L_67 = Assertion_get_FalseExpression_m5539(L_66, /*hidden argument*/NULL);
+		Expression_t2_125 * L_67 = Assertion_get_FalseExpression_m2_768(L_66, /*hidden argument*/NULL);
 		if (L_67)
 		{
 			goto IL_0230;
 		}
 	}
 	{
-		Assertion_t1071 * L_68 = ___assertion;
-		Group_t1065 * L_69 = V_3;
+		Assertion_t2_133 * L_68 = ___assertion;
+		Group_t2_127 * L_69 = V_3;
 		NullCheck(L_68);
-		Assertion_set_FalseExpression_m5540(L_68, L_69, /*hidden argument*/NULL);
+		Assertion_set_FalseExpression_m2_769(L_68, L_69, /*hidden argument*/NULL);
 		goto IL_023c;
 	}
 
 IL_0230:
 	{
-		ArgumentException_t409 * L_70 = Parser_NewParseException_m5477(__this, _stringLiteral933, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_70 = Parser_NewParseException_m2_706(__this, _stringLiteral2297, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_70);
 	}
 
@@ -7289,37 +7289,37 @@ IL_023c:
 
 IL_0241:
 	{
-		Alternation_t1075 * L_71 = V_1;
+		Alternation_t2_137 * L_71 = V_1;
 		if (L_71)
 		{
 			goto IL_024d;
 		}
 	}
 	{
-		Alternation_t1075 * L_72 = (Alternation_t1075 *)il2cpp_codegen_object_new (Alternation_t1075_il2cpp_TypeInfo_var);
-		Alternation__ctor_m5554(L_72, /*hidden argument*/NULL);
+		Alternation_t2_137 * L_72 = (Alternation_t2_137 *)il2cpp_codegen_object_new (Alternation_t2_137_il2cpp_TypeInfo_var);
+		Alternation__ctor_m2_783(L_72, /*hidden argument*/NULL);
 		V_1 = L_72;
 	}
 
 IL_024d:
 	{
-		Alternation_t1075 * L_73 = V_1;
-		Group_t1065 * L_74 = V_3;
+		Alternation_t2_137 * L_73 = V_1;
+		Group_t2_127 * L_74 = V_3;
 		NullCheck(L_73);
-		Alternation_AddAlternative_m5556(L_73, L_74, /*hidden argument*/NULL);
+		Alternation_AddAlternative_m2_785(L_73, L_74, /*hidden argument*/NULL);
 	}
 
 IL_0254:
 	{
-		Group_t1065 * L_75 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_75, /*hidden argument*/NULL);
+		Group_t2_127 * L_75 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_75, /*hidden argument*/NULL);
 		V_3 = L_75;
 		goto IL_001a;
 	}
 
 IL_025f:
 	{
-		ArgumentException_t409 * L_76 = Parser_NewParseException_m5477(__this, _stringLiteral934, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_76 = Parser_NewParseException_m2_706(__this, _stringLiteral2298, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_76);
 	}
 
@@ -7331,12 +7331,12 @@ IL_026b:
 IL_0270:
 	{
 		int32_t L_77 = ___options;
-		bool L_78 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_77, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_78, /*hidden argument*/NULL);
+		bool L_78 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_77, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_78, /*hidden argument*/NULL);
 		int32_t L_79 = (__this->___ptr_1);
 		String_t* L_80 = (__this->___pattern_0);
 		NullCheck(L_80);
-		int32_t L_81 = String_get_Length_m2221(L_80, /*hidden argument*/NULL);
+		int32_t L_81 = String_get_Length_m1_430(L_80, /*hidden argument*/NULL);
 		if ((((int32_t)L_79) >= ((int32_t)L_81)))
 		{
 			goto IL_0413;
@@ -7346,7 +7346,7 @@ IL_0270:
 		String_t* L_82 = (__this->___pattern_0);
 		int32_t L_83 = (__this->___ptr_1);
 		NullCheck(L_82);
-		uint16_t L_84 = String_get_Chars_m2240(L_82, L_83, /*hidden argument*/NULL);
+		uint16_t L_84 = String_get_Chars_m1_344(L_82, L_83, /*hidden argument*/NULL);
 		V_12 = L_84;
 		V_13 = 0;
 		V_14 = 0;
@@ -7442,7 +7442,7 @@ IL_032f:
 		int32_t L_94 = (__this->___ptr_1);
 		String_t* L_95 = (__this->___pattern_0);
 		NullCheck(L_95);
-		int32_t L_96 = String_get_Length_m2221(L_95, /*hidden argument*/NULL);
+		int32_t L_96 = String_get_Length_m1_430(L_95, /*hidden argument*/NULL);
 		if ((((int32_t)((int32_t)((int32_t)L_94+(int32_t)1))) >= ((int32_t)L_96)))
 		{
 			goto IL_0382;
@@ -7454,7 +7454,7 @@ IL_032f:
 		int32_t L_98 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_98+(int32_t)1));
 		int32_t L_99 = ___options;
-		bool L_100 = Parser_ParseRepetitionBounds_m5460(__this, (&V_13), (&V_14), L_99, /*hidden argument*/NULL);
+		bool L_100 = Parser_ParseRepetitionBounds_m2_689(__this, (&V_13), (&V_14), L_99, /*hidden argument*/NULL);
 		V_16 = L_100;
 		bool L_101 = V_16;
 		if (L_101)
@@ -7477,12 +7477,12 @@ IL_0382:
 	}
 	{
 		int32_t L_104 = ___options;
-		bool L_105 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_105, /*hidden argument*/NULL);
+		bool L_105 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_105, /*hidden argument*/NULL);
 		int32_t L_106 = (__this->___ptr_1);
 		String_t* L_107 = (__this->___pattern_0);
 		NullCheck(L_107);
-		int32_t L_108 = String_get_Length_m2221(L_107, /*hidden argument*/NULL);
+		int32_t L_108 = String_get_Length_m1_430(L_107, /*hidden argument*/NULL);
 		if ((((int32_t)L_106) >= ((int32_t)L_108)))
 		{
 			goto IL_03d4;
@@ -7492,7 +7492,7 @@ IL_0382:
 		String_t* L_109 = (__this->___pattern_0);
 		int32_t L_110 = (__this->___ptr_1);
 		NullCheck(L_109);
-		uint16_t L_111 = String_get_Chars_m2240(L_109, L_110, /*hidden argument*/NULL);
+		uint16_t L_111 = String_get_Chars_m1_344(L_109, L_110, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_111) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_03d4;
@@ -7509,44 +7509,44 @@ IL_03d4:
 		int32_t L_113 = V_13;
 		int32_t L_114 = V_14;
 		bool L_115 = V_15;
-		Repetition_t1070 * L_116 = (Repetition_t1070 *)il2cpp_codegen_object_new (Repetition_t1070_il2cpp_TypeInfo_var);
-		Repetition__ctor_m5529(L_116, L_113, L_114, L_115, /*hidden argument*/NULL);
+		Repetition_t2_132 * L_116 = (Repetition_t2_132 *)il2cpp_codegen_object_new (Repetition_t2_132_il2cpp_TypeInfo_var);
+		Repetition__ctor_m2_758(L_116, L_113, L_114, L_115, /*hidden argument*/NULL);
 		V_18 = L_116;
-		Expression_t1063 * L_117 = V_4;
+		Expression_t2_125 * L_117 = V_4;
 		if (L_117)
 		{
 			goto IL_0406;
 		}
 	}
 	{
-		Repetition_t1070 * L_118 = V_18;
-		String_t* L_119 = Char_ToString_m2265((&V_6), /*hidden argument*/NULL);
+		Repetition_t2_132 * L_118 = V_18;
+		String_t* L_119 = Char_ToString_m1_316((&V_6), /*hidden argument*/NULL);
 		int32_t L_120 = ___options;
-		bool L_121 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_120, /*hidden argument*/NULL);
-		Literal_t1074 * L_122 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_122, L_119, L_121, /*hidden argument*/NULL);
+		bool L_121 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_120, /*hidden argument*/NULL);
+		Literal_t2_136 * L_122 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_122, L_119, L_121, /*hidden argument*/NULL);
 		NullCheck(L_118);
-		Repetition_set_Expression_m5531(L_118, L_122, /*hidden argument*/NULL);
+		Repetition_set_Expression_m2_760(L_118, L_122, /*hidden argument*/NULL);
 		goto IL_040f;
 	}
 
 IL_0406:
 	{
-		Repetition_t1070 * L_123 = V_18;
-		Expression_t1063 * L_124 = V_4;
+		Repetition_t2_132 * L_123 = V_18;
+		Expression_t2_125 * L_124 = V_4;
 		NullCheck(L_123);
-		Repetition_set_Expression_m5531(L_123, L_124, /*hidden argument*/NULL);
+		Repetition_set_Expression_m2_760(L_123, L_124, /*hidden argument*/NULL);
 	}
 
 IL_040f:
 	{
-		Repetition_t1070 * L_125 = V_18;
+		Repetition_t2_132 * L_125 = V_18;
 		V_4 = L_125;
 	}
 
 IL_0413:
 	{
-		Expression_t1063 * L_126 = V_4;
+		Expression_t2_125 * L_126 = V_4;
 		if (L_126)
 		{
 			goto IL_0439;
@@ -7570,9 +7570,9 @@ IL_0426:
 		String_t* L_129 = V_2;
 		uint16_t L_130 = V_6;
 		uint16_t L_131 = L_130;
-		Object_t * L_132 = Box(Char_t389_il2cpp_TypeInfo_var, &L_131);
+		Object_t * L_132 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_131);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_133 = String_Concat_m1896(NULL /*static, unused*/, L_129, L_132, /*hidden argument*/NULL);
+		String_t* L_133 = String_Concat_m1_418(NULL /*static, unused*/, L_129, L_132, /*hidden argument*/NULL);
 		V_2 = L_133;
 		goto IL_045e;
 	}
@@ -7586,24 +7586,24 @@ IL_0439:
 		}
 	}
 	{
-		Group_t1065 * L_135 = V_3;
+		Group_t2_127 * L_135 = V_3;
 		String_t* L_136 = V_2;
 		int32_t L_137 = ___options;
-		bool L_138 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_137, /*hidden argument*/NULL);
-		Literal_t1074 * L_139 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_139, L_136, L_138, /*hidden argument*/NULL);
+		bool L_138 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_137, /*hidden argument*/NULL);
+		Literal_t2_136 * L_139 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_139, L_136, L_138, /*hidden argument*/NULL);
 		NullCheck(L_135);
-		Group_AppendExpression_m5507(L_135, L_139, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_135, L_139, /*hidden argument*/NULL);
 		V_2 = (String_t*)NULL;
 	}
 
 IL_0453:
 	{
-		Group_t1065 * L_140 = V_3;
-		Expression_t1063 * L_141 = V_4;
+		Group_t2_127 * L_140 = V_3;
+		Expression_t2_125 * L_141 = V_4;
 		NullCheck(L_140);
-		Group_AppendExpression_m5507(L_140, L_141, /*hidden argument*/NULL);
-		V_4 = (Expression_t1063 *)NULL;
+		Group_AppendExpression_m2_736(L_140, L_141, /*hidden argument*/NULL);
+		V_4 = (Expression_t2_125 *)NULL;
 	}
 
 IL_045e:
@@ -7618,7 +7618,7 @@ IL_045e:
 		int32_t L_143 = (__this->___ptr_1);
 		String_t* L_144 = (__this->___pattern_0);
 		NullCheck(L_144);
-		int32_t L_145 = String_get_Length_m2221(L_144, /*hidden argument*/NULL);
+		int32_t L_145 = String_get_Length_m1_430(L_144, /*hidden argument*/NULL);
 		if ((((int32_t)L_143) < ((int32_t)L_145)))
 		{
 			goto IL_047f;
@@ -7649,7 +7649,7 @@ IL_0484:
 		}
 	}
 	{
-		ArgumentException_t409 * L_148 = Parser_NewParseException_m5477(__this, _stringLiteral935, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_148 = Parser_NewParseException_m2_706(__this, _stringLiteral2299, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_148);
 	}
 
@@ -7669,7 +7669,7 @@ IL_049d:
 		}
 	}
 	{
-		ArgumentException_t409 * L_151 = Parser_NewParseException_m5477(__this, _stringLiteral936, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_151 = Parser_NewParseException_m2_706(__this, _stringLiteral2300, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_151);
 	}
 
@@ -7682,84 +7682,84 @@ IL_04b6:
 		}
 	}
 	{
-		Group_t1065 * L_153 = V_3;
+		Group_t2_127 * L_153 = V_3;
 		String_t* L_154 = V_2;
 		int32_t L_155 = ___options;
-		bool L_156 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_155, /*hidden argument*/NULL);
-		Literal_t1074 * L_157 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_157, L_154, L_156, /*hidden argument*/NULL);
+		bool L_156 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_155, /*hidden argument*/NULL);
+		Literal_t2_136 * L_157 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_157, L_154, L_156, /*hidden argument*/NULL);
 		NullCheck(L_153);
-		Group_AppendExpression_m5507(L_153, L_157, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_153, L_157, /*hidden argument*/NULL);
 	}
 
 IL_04ce:
 	{
-		Assertion_t1071 * L_158 = ___assertion;
+		Assertion_t2_133 * L_158 = ___assertion;
 		if (!L_158)
 		{
 			goto IL_04fe;
 		}
 	}
 	{
-		Assertion_t1071 * L_159 = ___assertion;
+		Assertion_t2_133 * L_159 = ___assertion;
 		NullCheck(L_159);
-		Expression_t1063 * L_160 = Assertion_get_TrueExpression_m5537(L_159, /*hidden argument*/NULL);
+		Expression_t2_125 * L_160 = Assertion_get_TrueExpression_m2_766(L_159, /*hidden argument*/NULL);
 		if (L_160)
 		{
 			goto IL_04eb;
 		}
 	}
 	{
-		Assertion_t1071 * L_161 = ___assertion;
-		Group_t1065 * L_162 = V_3;
+		Assertion_t2_133 * L_161 = ___assertion;
+		Group_t2_127 * L_162 = V_3;
 		NullCheck(L_161);
-		Assertion_set_TrueExpression_m5538(L_161, L_162, /*hidden argument*/NULL);
+		Assertion_set_TrueExpression_m2_767(L_161, L_162, /*hidden argument*/NULL);
 		goto IL_04f2;
 	}
 
 IL_04eb:
 	{
-		Assertion_t1071 * L_163 = ___assertion;
-		Group_t1065 * L_164 = V_3;
+		Assertion_t2_133 * L_163 = ___assertion;
+		Group_t2_127 * L_164 = V_3;
 		NullCheck(L_163);
-		Assertion_set_FalseExpression_m5540(L_163, L_164, /*hidden argument*/NULL);
+		Assertion_set_FalseExpression_m2_769(L_163, L_164, /*hidden argument*/NULL);
 	}
 
 IL_04f2:
 	{
-		Group_t1065 * L_165 = ___group;
-		Assertion_t1071 * L_166 = ___assertion;
+		Group_t2_127 * L_165 = ___group;
+		Assertion_t2_133 * L_166 = ___assertion;
 		NullCheck(L_165);
-		Group_AppendExpression_m5507(L_165, L_166, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_165, L_166, /*hidden argument*/NULL);
 		goto IL_051e;
 	}
 
 IL_04fe:
 	{
-		Alternation_t1075 * L_167 = V_1;
+		Alternation_t2_137 * L_167 = V_1;
 		if (!L_167)
 		{
 			goto IL_0517;
 		}
 	}
 	{
-		Alternation_t1075 * L_168 = V_1;
-		Group_t1065 * L_169 = V_3;
+		Alternation_t2_137 * L_168 = V_1;
+		Group_t2_127 * L_169 = V_3;
 		NullCheck(L_168);
-		Alternation_AddAlternative_m5556(L_168, L_169, /*hidden argument*/NULL);
-		Group_t1065 * L_170 = ___group;
-		Alternation_t1075 * L_171 = V_1;
+		Alternation_AddAlternative_m2_785(L_168, L_169, /*hidden argument*/NULL);
+		Group_t2_127 * L_170 = ___group;
+		Alternation_t2_137 * L_171 = V_1;
 		NullCheck(L_170);
-		Group_AppendExpression_m5507(L_170, L_171, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_170, L_171, /*hidden argument*/NULL);
 		goto IL_051e;
 	}
 
 IL_0517:
 	{
-		Group_t1065 * L_172 = ___group;
-		Group_t1065 * L_173 = V_3;
+		Group_t2_127 * L_172 = ___group;
+		Group_t2_127 * L_173 = V_3;
 		NullCheck(L_172);
-		Group_AppendExpression_m5507(L_172, L_173, /*hidden argument*/NULL);
+		Group_AppendExpression_m2_736(L_172, L_173, /*hidden argument*/NULL);
 	}
 
 IL_051e:
@@ -7768,64 +7768,64 @@ IL_051e:
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseGroupingConstruct(System.Text.RegularExpressions.RegexOptions&)
-extern TypeInfo* Group_t1065_il2cpp_TypeInfo_var;
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern TypeInfo* NonBacktrackingGroup_t1069_il2cpp_TypeInfo_var;
-extern TypeInfo* ExpressionAssertion_t1073_il2cpp_TypeInfo_var;
-extern TypeInfo* BalancingGroup_t1068_il2cpp_TypeInfo_var;
-extern TypeInfo* Literal_t1074_il2cpp_TypeInfo_var;
-extern TypeInfo* CaptureAssertion_t1072_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral937;
-extern Il2CppCodeGenString* _stringLiteral938;
-extern Il2CppCodeGenString* _stringLiteral939;
-extern Il2CppCodeGenString* _stringLiteral940;
-extern Il2CppCodeGenString* _stringLiteral941;
-extern Il2CppCodeGenString* _stringLiteral942;
-extern "C" Expression_t1063 * Parser_ParseGroupingConstruct_m5456 (Parser_t1060 * __this, int32_t* ___options, const MethodInfo* method)
+extern TypeInfo* Group_t2_127_il2cpp_TypeInfo_var;
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern TypeInfo* NonBacktrackingGroup_t2_131_il2cpp_TypeInfo_var;
+extern TypeInfo* ExpressionAssertion_t2_135_il2cpp_TypeInfo_var;
+extern TypeInfo* BalancingGroup_t2_130_il2cpp_TypeInfo_var;
+extern TypeInfo* Literal_t2_136_il2cpp_TypeInfo_var;
+extern TypeInfo* CaptureAssertion_t2_134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2301;
+extern Il2CppCodeGenString* _stringLiteral2302;
+extern Il2CppCodeGenString* _stringLiteral2303;
+extern Il2CppCodeGenString* _stringLiteral2304;
+extern Il2CppCodeGenString* _stringLiteral2305;
+extern Il2CppCodeGenString* _stringLiteral2306;
+extern "C" Expression_t2_125 * Parser_ParseGroupingConstruct_m2_685 (Parser_t2_122 * __this, int32_t* ___options, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Group_t1065_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(717);
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
-		NonBacktrackingGroup_t1069_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(723);
-		ExpressionAssertion_t1073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(724);
-		BalancingGroup_t1068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(725);
-		Literal_t1074_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(720);
-		CaptureAssertion_t1072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
-		_stringLiteral937 = il2cpp_codegen_string_literal_from_index(937);
-		_stringLiteral938 = il2cpp_codegen_string_literal_from_index(938);
-		_stringLiteral939 = il2cpp_codegen_string_literal_from_index(939);
-		_stringLiteral940 = il2cpp_codegen_string_literal_from_index(940);
-		_stringLiteral941 = il2cpp_codegen_string_literal_from_index(941);
-		_stringLiteral942 = il2cpp_codegen_string_literal_from_index(942);
+		Group_t2_127_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(714);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
+		NonBacktrackingGroup_t2_131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(720);
+		ExpressionAssertion_t2_135_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(721);
+		BalancingGroup_t2_130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(722);
+		Literal_t2_136_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(717);
+		CaptureAssertion_t2_134_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(723);
+		_stringLiteral2301 = il2cpp_codegen_string_literal_from_index(2301);
+		_stringLiteral2302 = il2cpp_codegen_string_literal_from_index(2302);
+		_stringLiteral2303 = il2cpp_codegen_string_literal_from_index(2303);
+		_stringLiteral2304 = il2cpp_codegen_string_literal_from_index(2304);
+		_stringLiteral2305 = il2cpp_codegen_string_literal_from_index(2305);
+		_stringLiteral2306 = il2cpp_codegen_string_literal_from_index(2306);
 		s_Il2CppMethodIntialized = true;
 	}
-	Group_t1065 * V_0 = {0};
-	Group_t1065 * V_1 = {0};
-	Group_t1065 * V_2 = {0};
+	Group_t2_127 * V_0 = {0};
+	Group_t2_127 * V_1 = {0};
+	Group_t2_127 * V_2 = {0};
 	int32_t V_3 = {0};
-	Group_t1065 * V_4 = {0};
-	ExpressionAssertion_t1073 * V_5 = {0};
-	Group_t1065 * V_6 = {0};
+	Group_t2_127 * V_4 = {0};
+	ExpressionAssertion_t2_135 * V_5 = {0};
+	Group_t2_127 * V_6 = {0};
 	uint16_t V_7 = 0x0;
 	String_t* V_8 = {0};
-	CapturingGroup_t1067 * V_9 = {0};
+	CapturingGroup_t2_129 * V_9 = {0};
 	String_t* V_10 = {0};
-	BalancingGroup_t1068 * V_11 = {0};
-	Assertion_t1071 * V_12 = {0};
+	BalancingGroup_t2_130 * V_11 = {0};
+	Assertion_t2_133 * V_12 = {0};
 	int32_t V_13 = 0;
 	String_t* V_14 = {0};
-	ExpressionAssertion_t1073 * V_15 = {0};
-	Group_t1065 * V_16 = {0};
-	Group_t1065 * V_17 = {0};
+	ExpressionAssertion_t2_135 * V_15 = {0};
+	Group_t2_127 * V_16 = {0};
+	Group_t2_127 * V_17 = {0};
 	uint16_t V_18 = 0x0;
 	int32_t V_19 = 0;
 	{
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t L_1 = (__this->___ptr_1);
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, L_1, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)63))))
 		{
 			goto IL_004e;
@@ -7833,36 +7833,36 @@ extern "C" Expression_t1063 * Parser_ParseGroupingConstruct_m5456 (Parser_t1060 
 	}
 	{
 		int32_t* L_3 = ___options;
-		bool L_4 = Parser_IsExplicitCapture_m5473(NULL /*static, unused*/, (*((int32_t*)L_3)), /*hidden argument*/NULL);
+		bool L_4 = Parser_IsExplicitCapture_m2_702(NULL /*static, unused*/, (*((int32_t*)L_3)), /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		Group_t1065 * L_5 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_5, /*hidden argument*/NULL);
+		Group_t2_127 * L_5 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_5, /*hidden argument*/NULL);
 		V_0 = L_5;
 		goto IL_0042;
 	}
 
 IL_002f:
 	{
-		CapturingGroup_t1067 * L_6 = (CapturingGroup_t1067 *)il2cpp_codegen_object_new (CapturingGroup_t1067_il2cpp_TypeInfo_var);
-		CapturingGroup__ctor_m5514(L_6, /*hidden argument*/NULL);
+		CapturingGroup_t2_129 * L_6 = (CapturingGroup_t2_129 *)il2cpp_codegen_object_new (CapturingGroup_t2_129_il2cpp_TypeInfo_var);
+		CapturingGroup__ctor_m2_743(L_6, /*hidden argument*/NULL);
 		V_0 = L_6;
-		ArrayList_t771 * L_7 = (__this->___caps_2);
-		Group_t1065 * L_8 = V_0;
+		ArrayList_t1_112 * L_7 = (__this->___caps_2);
+		Group_t2_127 * L_8 = V_0;
 		NullCheck(L_7);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, L_8);
 	}
 
 IL_0042:
 	{
-		Group_t1065 * L_9 = V_0;
+		Group_t2_127 * L_9 = V_0;
 		int32_t* L_10 = ___options;
-		Parser_ParseGroup_m5455(__this, L_9, (*((int32_t*)L_10)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		Group_t1065 * L_11 = V_0;
+		Parser_ParseGroup_m2_684(__this, L_9, (*((int32_t*)L_10)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		Group_t2_127 * L_11 = V_0;
 		return L_11;
 	}
 
@@ -7873,7 +7873,7 @@ IL_004e:
 		String_t* L_13 = (__this->___pattern_0);
 		int32_t L_14 = (__this->___ptr_1);
 		NullCheck(L_13);
-		uint16_t L_15 = String_get_Chars_m2240(L_13, L_14, /*hidden argument*/NULL);
+		uint16_t L_15 = String_get_Chars_m1_344(L_13, L_14, /*hidden argument*/NULL);
 		V_18 = L_15;
 		uint16_t L_16 = V_18;
 		if (((int32_t)((int32_t)L_16-(int32_t)((int32_t)33))) == 0)
@@ -7994,13 +7994,13 @@ IL_00f9:
 	{
 		int32_t L_22 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_22+(int32_t)1));
-		Group_t1065 * L_23 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_23, /*hidden argument*/NULL);
+		Group_t2_127 * L_23 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_23, /*hidden argument*/NULL);
 		V_1 = L_23;
-		Group_t1065 * L_24 = V_1;
+		Group_t2_127 * L_24 = V_1;
 		int32_t* L_25 = ___options;
-		Parser_ParseGroup_m5455(__this, L_24, (*((int32_t*)L_25)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		Group_t1065 * L_26 = V_1;
+		Parser_ParseGroup_m2_684(__this, L_24, (*((int32_t*)L_25)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		Group_t2_127 * L_26 = V_1;
 		return L_26;
 	}
 
@@ -8008,13 +8008,13 @@ IL_0119:
 	{
 		int32_t L_27 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_27+(int32_t)1));
-		NonBacktrackingGroup_t1069 * L_28 = (NonBacktrackingGroup_t1069 *)il2cpp_codegen_object_new (NonBacktrackingGroup_t1069_il2cpp_TypeInfo_var);
-		NonBacktrackingGroup__ctor_m5526(L_28, /*hidden argument*/NULL);
+		NonBacktrackingGroup_t2_131 * L_28 = (NonBacktrackingGroup_t2_131 *)il2cpp_codegen_object_new (NonBacktrackingGroup_t2_131_il2cpp_TypeInfo_var);
+		NonBacktrackingGroup__ctor_m2_755(L_28, /*hidden argument*/NULL);
 		V_2 = L_28;
-		Group_t1065 * L_29 = V_2;
+		Group_t2_127 * L_29 = V_2;
 		int32_t* L_30 = ___options;
-		Parser_ParseGroup_m5455(__this, L_29, (*((int32_t*)L_30)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		Group_t1065 * L_31 = V_2;
+		Parser_ParseGroup_m2_684(__this, L_29, (*((int32_t*)L_30)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		Group_t2_127 * L_31 = V_2;
 		return L_31;
 	}
 
@@ -8022,11 +8022,11 @@ IL_0139:
 	{
 		int32_t* L_32 = ___options;
 		V_3 = (*((int32_t*)L_32));
-		Parser_ParseOptions_m5458(__this, (&V_3), 0, /*hidden argument*/NULL);
+		Parser_ParseOptions_m2_687(__this, (&V_3), 0, /*hidden argument*/NULL);
 		String_t* L_33 = (__this->___pattern_0);
 		int32_t L_34 = (__this->___ptr_1);
 		NullCheck(L_33);
-		uint16_t L_35 = String_get_Chars_m2240(L_33, L_34, /*hidden argument*/NULL);
+		uint16_t L_35 = String_get_Chars_m1_344(L_33, L_34, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_35) == ((uint32_t)((int32_t)45)))))
 		{
 			goto IL_0174;
@@ -8035,7 +8035,7 @@ IL_0139:
 	{
 		int32_t L_36 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_36+(int32_t)1));
-		Parser_ParseOptions_m5458(__this, (&V_3), 1, /*hidden argument*/NULL);
+		Parser_ParseOptions_m2_687(__this, (&V_3), 1, /*hidden argument*/NULL);
 	}
 
 IL_0174:
@@ -8043,7 +8043,7 @@ IL_0174:
 		String_t* L_37 = (__this->___pattern_0);
 		int32_t L_38 = (__this->___ptr_1);
 		NullCheck(L_37);
-		uint16_t L_39 = String_get_Chars_m2240(L_37, L_38, /*hidden argument*/NULL);
+		uint16_t L_39 = String_get_Chars_m1_344(L_37, L_38, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_01ae;
@@ -8052,13 +8052,13 @@ IL_0174:
 	{
 		int32_t L_40 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_40+(int32_t)1));
-		Group_t1065 * L_41 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_41, /*hidden argument*/NULL);
+		Group_t2_127 * L_41 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_41, /*hidden argument*/NULL);
 		V_4 = L_41;
-		Group_t1065 * L_42 = V_4;
+		Group_t2_127 * L_42 = V_4;
 		int32_t L_43 = V_3;
-		Parser_ParseGroup_m5455(__this, L_42, L_43, (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		Group_t1065 * L_44 = V_4;
+		Parser_ParseGroup_m2_684(__this, L_42, L_43, (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		Group_t2_127 * L_44 = V_4;
 		return L_44;
 	}
 
@@ -8067,7 +8067,7 @@ IL_01ae:
 		String_t* L_45 = (__this->___pattern_0);
 		int32_t L_46 = (__this->___ptr_1);
 		NullCheck(L_45);
-		uint16_t L_47 = String_get_Chars_m2240(L_45, L_46, /*hidden argument*/NULL);
+		uint16_t L_47 = String_get_Chars_m1_344(L_45, L_46, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_47) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_01d9;
@@ -8079,22 +8079,22 @@ IL_01ae:
 		int32_t* L_49 = ___options;
 		int32_t L_50 = V_3;
 		*((int32_t*)(L_49)) = (int32_t)L_50;
-		return (Expression_t1063 *)NULL;
+		return (Expression_t2_125 *)NULL;
 	}
 
 IL_01d9:
 	{
-		ArgumentException_t409 * L_51 = Parser_NewParseException_m5477(__this, _stringLiteral937, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_51 = Parser_NewParseException_m2_706(__this, _stringLiteral2301, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_51);
 	}
 
 IL_01e5:
 	{
-		ExpressionAssertion_t1073 * L_52 = (ExpressionAssertion_t1073 *)il2cpp_codegen_object_new (ExpressionAssertion_t1073_il2cpp_TypeInfo_var);
-		ExpressionAssertion__ctor_m5547(L_52, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_52 = (ExpressionAssertion_t2_135 *)il2cpp_codegen_object_new (ExpressionAssertion_t2_135_il2cpp_TypeInfo_var);
+		ExpressionAssertion__ctor_m2_776(L_52, /*hidden argument*/NULL);
 		V_5 = L_52;
-		ExpressionAssertion_t1073 * L_53 = V_5;
-		bool L_54 = Parser_ParseAssertionType_m5457(__this, L_53, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_53 = V_5;
+		bool L_54 = Parser_ParseAssertionType_m2_686(__this, L_53, /*hidden argument*/NULL);
 		if (L_54)
 		{
 			goto IL_01fe;
@@ -8106,17 +8106,17 @@ IL_01e5:
 
 IL_01fe:
 	{
-		Group_t1065 * L_55 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_55, /*hidden argument*/NULL);
+		Group_t2_127 * L_55 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_55, /*hidden argument*/NULL);
 		V_6 = L_55;
-		Group_t1065 * L_56 = V_6;
+		Group_t2_127 * L_56 = V_6;
 		int32_t* L_57 = ___options;
-		Parser_ParseGroup_m5455(__this, L_56, (*((int32_t*)L_57)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_58 = V_5;
-		Group_t1065 * L_59 = V_6;
+		Parser_ParseGroup_m2_684(__this, L_56, (*((int32_t*)L_57)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_58 = V_5;
+		Group_t2_127 * L_59 = V_6;
 		NullCheck(L_58);
-		ExpressionAssertion_set_TestExpression_m5551(L_58, L_59, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_60 = V_5;
+		ExpressionAssertion_set_TestExpression_m2_780(L_58, L_59, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_60 = V_5;
 		return L_60;
 	}
 
@@ -8125,7 +8125,7 @@ IL_021c:
 		String_t* L_61 = (__this->___pattern_0);
 		int32_t L_62 = (__this->___ptr_1);
 		NullCheck(L_61);
-		uint16_t L_63 = String_get_Chars_m2240(L_61, L_62, /*hidden argument*/NULL);
+		uint16_t L_63 = String_get_Chars_m1_344(L_61, L_62, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_63) == ((uint32_t)((int32_t)60)))))
 		{
 			goto IL_023d;
@@ -8145,12 +8145,12 @@ IL_0241:
 	{
 		int32_t L_64 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_64+(int32_t)1));
-		String_t* L_65 = Parser_ParseName_m5464(__this, /*hidden argument*/NULL);
+		String_t* L_65 = Parser_ParseName_m2_693(__this, /*hidden argument*/NULL);
 		V_8 = L_65;
 		String_t* L_66 = (__this->___pattern_0);
 		int32_t L_67 = (__this->___ptr_1);
 		NullCheck(L_66);
-		uint16_t L_68 = String_get_Chars_m2240(L_66, L_67, /*hidden argument*/NULL);
+		uint16_t L_68 = String_get_Chars_m1_344(L_66, L_67, /*hidden argument*/NULL);
 		uint16_t L_69 = V_7;
 		if ((!(((uint32_t)L_68) == ((uint32_t)L_69))))
 		{
@@ -8165,7 +8165,7 @@ IL_0241:
 		}
 	}
 	{
-		ArgumentException_t409 * L_71 = Parser_NewParseException_m5477(__this, _stringLiteral938, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_71 = Parser_NewParseException_m2_706(__this, _stringLiteral2302, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_71);
 	}
 
@@ -8173,21 +8173,21 @@ IL_0282:
 	{
 		int32_t L_72 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_72+(int32_t)1));
-		CapturingGroup_t1067 * L_73 = (CapturingGroup_t1067 *)il2cpp_codegen_object_new (CapturingGroup_t1067_il2cpp_TypeInfo_var);
-		CapturingGroup__ctor_m5514(L_73, /*hidden argument*/NULL);
+		CapturingGroup_t2_129 * L_73 = (CapturingGroup_t2_129 *)il2cpp_codegen_object_new (CapturingGroup_t2_129_il2cpp_TypeInfo_var);
+		CapturingGroup__ctor_m2_743(L_73, /*hidden argument*/NULL);
 		V_9 = L_73;
-		CapturingGroup_t1067 * L_74 = V_9;
+		CapturingGroup_t2_129 * L_74 = V_9;
 		String_t* L_75 = V_8;
 		NullCheck(L_74);
-		CapturingGroup_set_Name_m5518(L_74, L_75, /*hidden argument*/NULL);
-		ArrayList_t771 * L_76 = (__this->___caps_2);
-		CapturingGroup_t1067 * L_77 = V_9;
+		CapturingGroup_set_Name_m2_747(L_74, L_75, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_76 = (__this->___caps_2);
+		CapturingGroup_t2_129 * L_77 = V_9;
 		NullCheck(L_76);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_76, L_77);
-		CapturingGroup_t1067 * L_78 = V_9;
+		CapturingGroup_t2_129 * L_78 = V_9;
 		int32_t* L_79 = ___options;
-		Parser_ParseGroup_m5455(__this, L_78, (*((int32_t*)L_79)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		CapturingGroup_t1067 * L_80 = V_9;
+		Parser_ParseGroup_m2_684(__this, L_78, (*((int32_t*)L_79)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		CapturingGroup_t2_129 * L_80 = V_9;
 		return L_80;
 	}
 
@@ -8196,7 +8196,7 @@ IL_02bc:
 		String_t* L_81 = (__this->___pattern_0);
 		int32_t L_82 = (__this->___ptr_1);
 		NullCheck(L_81);
-		uint16_t L_83 = String_get_Chars_m2240(L_81, L_82, /*hidden argument*/NULL);
+		uint16_t L_83 = String_get_Chars_m1_344(L_81, L_82, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_83) == ((uint32_t)((int32_t)45)))))
 		{
 			goto IL_036a;
@@ -8205,7 +8205,7 @@ IL_02bc:
 	{
 		int32_t L_84 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_84+(int32_t)1));
-		String_t* L_85 = Parser_ParseName_m5464(__this, /*hidden argument*/NULL);
+		String_t* L_85 = Parser_ParseName_m2_693(__this, /*hidden argument*/NULL);
 		V_10 = L_85;
 		String_t* L_86 = V_10;
 		if (!L_86)
@@ -8217,7 +8217,7 @@ IL_02bc:
 		String_t* L_87 = (__this->___pattern_0);
 		int32_t L_88 = (__this->___ptr_1);
 		NullCheck(L_87);
-		uint16_t L_89 = String_get_Chars_m2240(L_87, L_88, /*hidden argument*/NULL);
+		uint16_t L_89 = String_get_Chars_m1_344(L_87, L_88, /*hidden argument*/NULL);
 		uint16_t L_90 = V_7;
 		if ((((int32_t)L_89) == ((int32_t)L_90)))
 		{
@@ -8227,7 +8227,7 @@ IL_02bc:
 
 IL_0309:
 	{
-		ArgumentException_t409 * L_91 = Parser_NewParseException_m5477(__this, _stringLiteral939, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_91 = Parser_NewParseException_m2_706(__this, _stringLiteral2303, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_91);
 	}
 
@@ -8235,45 +8235,45 @@ IL_0315:
 	{
 		int32_t L_92 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_92+(int32_t)1));
-		BalancingGroup_t1068 * L_93 = (BalancingGroup_t1068 *)il2cpp_codegen_object_new (BalancingGroup_t1068_il2cpp_TypeInfo_var);
-		BalancingGroup__ctor_m5523(L_93, /*hidden argument*/NULL);
+		BalancingGroup_t2_130 * L_93 = (BalancingGroup_t2_130 *)il2cpp_codegen_object_new (BalancingGroup_t2_130_il2cpp_TypeInfo_var);
+		BalancingGroup__ctor_m2_752(L_93, /*hidden argument*/NULL);
 		V_11 = L_93;
-		BalancingGroup_t1068 * L_94 = V_11;
+		BalancingGroup_t2_130 * L_94 = V_11;
 		String_t* L_95 = V_8;
 		NullCheck(L_94);
-		CapturingGroup_set_Name_m5518(L_94, L_95, /*hidden argument*/NULL);
-		BalancingGroup_t1068 * L_96 = V_11;
+		CapturingGroup_set_Name_m2_747(L_94, L_95, /*hidden argument*/NULL);
+		BalancingGroup_t2_130 * L_96 = V_11;
 		NullCheck(L_96);
-		bool L_97 = CapturingGroup_get_IsNamed_m5519(L_96, /*hidden argument*/NULL);
+		bool L_97 = CapturingGroup_get_IsNamed_m2_748(L_96, /*hidden argument*/NULL);
 		if (!L_97)
 		{
 			goto IL_034d;
 		}
 	}
 	{
-		ArrayList_t771 * L_98 = (__this->___caps_2);
-		BalancingGroup_t1068 * L_99 = V_11;
+		ArrayList_t1_112 * L_98 = (__this->___caps_2);
+		BalancingGroup_t2_130 * L_99 = V_11;
 		NullCheck(L_98);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_98, L_99);
 	}
 
 IL_034d:
 	{
-		Hashtable_t836 * L_100 = (__this->___refs_3);
-		BalancingGroup_t1068 * L_101 = V_11;
+		Hashtable_t1_171 * L_100 = (__this->___refs_3);
+		BalancingGroup_t2_130 * L_101 = V_11;
 		String_t* L_102 = V_10;
 		NullCheck(L_100);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_100, L_101, L_102);
-		BalancingGroup_t1068 * L_103 = V_11;
+		BalancingGroup_t2_130 * L_103 = V_11;
 		int32_t* L_104 = ___options;
-		Parser_ParseGroup_m5455(__this, L_103, (*((int32_t*)L_104)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		BalancingGroup_t1068 * L_105 = V_11;
+		Parser_ParseGroup_m2_684(__this, L_103, (*((int32_t*)L_104)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		BalancingGroup_t2_130 * L_105 = V_11;
 		return L_105;
 	}
 
 IL_036a:
 	{
-		ArgumentException_t409 * L_106 = Parser_NewParseException_m5477(__this, _stringLiteral938, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_106 = Parser_NewParseException_m2_706(__this, _stringLiteral2302, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_106);
 	}
 
@@ -8283,7 +8283,7 @@ IL_0376:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_107+(int32_t)1));
 		int32_t L_108 = (__this->___ptr_1);
 		V_13 = L_108;
-		String_t* L_109 = Parser_ParseName_m5464(__this, /*hidden argument*/NULL);
+		String_t* L_109 = Parser_ParseName_m2_693(__this, /*hidden argument*/NULL);
 		V_14 = L_109;
 		String_t* L_110 = V_14;
 		if (!L_110)
@@ -8295,7 +8295,7 @@ IL_0376:
 		String_t* L_111 = (__this->___pattern_0);
 		int32_t L_112 = (__this->___ptr_1);
 		NullCheck(L_111);
-		uint16_t L_113 = String_get_Chars_m2240(L_111, L_112, /*hidden argument*/NULL);
+		uint16_t L_113 = String_get_Chars_m1_344(L_111, L_112, /*hidden argument*/NULL);
 		if ((((int32_t)L_113) == ((int32_t)((int32_t)41))))
 		{
 			goto IL_043a;
@@ -8306,13 +8306,13 @@ IL_03b3:
 	{
 		int32_t L_114 = V_13;
 		__this->___ptr_1 = L_114;
-		ExpressionAssertion_t1073 * L_115 = (ExpressionAssertion_t1073 *)il2cpp_codegen_object_new (ExpressionAssertion_t1073_il2cpp_TypeInfo_var);
-		ExpressionAssertion__ctor_m5547(L_115, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_115 = (ExpressionAssertion_t2_135 *)il2cpp_codegen_object_new (ExpressionAssertion_t2_135_il2cpp_TypeInfo_var);
+		ExpressionAssertion__ctor_m2_776(L_115, /*hidden argument*/NULL);
 		V_15 = L_115;
 		String_t* L_116 = (__this->___pattern_0);
 		int32_t L_117 = (__this->___ptr_1);
 		NullCheck(L_116);
-		uint16_t L_118 = String_get_Chars_m2240(L_116, L_117, /*hidden argument*/NULL);
+		uint16_t L_118 = String_get_Chars_m1_344(L_116, L_117, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_118) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_0406;
@@ -8321,15 +8321,15 @@ IL_03b3:
 	{
 		int32_t L_119 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_119+(int32_t)1));
-		ExpressionAssertion_t1073 * L_120 = V_15;
-		bool L_121 = Parser_ParseAssertionType_m5457(__this, L_120, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_120 = V_15;
+		bool L_121 = Parser_ParseAssertionType_m2_686(__this, L_120, /*hidden argument*/NULL);
 		if (L_121)
 		{
 			goto IL_0401;
 		}
 	}
 	{
-		ArgumentException_t409 * L_122 = Parser_NewParseException_m5477(__this, _stringLiteral940, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_122 = Parser_NewParseException_m2_706(__this, _stringLiteral2304, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_122);
 	}
 
@@ -8340,27 +8340,27 @@ IL_0401:
 
 IL_0406:
 	{
-		ExpressionAssertion_t1073 * L_123 = V_15;
+		ExpressionAssertion_t2_135 * L_123 = V_15;
 		NullCheck(L_123);
-		ExpressionAssertion_set_Negate_m5549(L_123, 0, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_124 = V_15;
+		ExpressionAssertion_set_Negate_m2_778(L_123, 0, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_124 = V_15;
 		NullCheck(L_124);
-		ExpressionAssertion_set_Reverse_m5548(L_124, 0, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Reverse_m2_777(L_124, 0, /*hidden argument*/NULL);
 	}
 
 IL_0416:
 	{
-		Group_t1065 * L_125 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_125, /*hidden argument*/NULL);
+		Group_t2_127 * L_125 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_125, /*hidden argument*/NULL);
 		V_16 = L_125;
-		Group_t1065 * L_126 = V_16;
+		Group_t2_127 * L_126 = V_16;
 		int32_t* L_127 = ___options;
-		Parser_ParseGroup_m5455(__this, L_126, (*((int32_t*)L_127)), (Assertion_t1071 *)NULL, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_128 = V_15;
-		Group_t1065 * L_129 = V_16;
+		Parser_ParseGroup_m2_684(__this, L_126, (*((int32_t*)L_127)), (Assertion_t2_133 *)NULL, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_128 = V_15;
+		Group_t2_127 * L_129 = V_16;
 		NullCheck(L_128);
-		ExpressionAssertion_set_TestExpression_m5551(L_128, L_129, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_130 = V_15;
+		ExpressionAssertion_set_TestExpression_m2_780(L_128, L_129, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_130 = V_15;
 		V_12 = L_130;
 		goto IL_046c;
 	}
@@ -8371,14 +8371,14 @@ IL_043a:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_131+(int32_t)1));
 		String_t* L_132 = V_14;
 		int32_t* L_133 = ___options;
-		bool L_134 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, (*((int32_t*)L_133)), /*hidden argument*/NULL);
-		Literal_t1074 * L_135 = (Literal_t1074 *)il2cpp_codegen_object_new (Literal_t1074_il2cpp_TypeInfo_var);
-		Literal__ctor_m5559(L_135, L_132, L_134, /*hidden argument*/NULL);
-		CaptureAssertion_t1072 * L_136 = (CaptureAssertion_t1072 *)il2cpp_codegen_object_new (CaptureAssertion_t1072_il2cpp_TypeInfo_var);
-		CaptureAssertion__ctor_m5542(L_136, L_135, /*hidden argument*/NULL);
+		bool L_134 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, (*((int32_t*)L_133)), /*hidden argument*/NULL);
+		Literal_t2_136 * L_135 = (Literal_t2_136 *)il2cpp_codegen_object_new (Literal_t2_136_il2cpp_TypeInfo_var);
+		Literal__ctor_m2_788(L_135, L_132, L_134, /*hidden argument*/NULL);
+		CaptureAssertion_t2_134 * L_136 = (CaptureAssertion_t2_134 *)il2cpp_codegen_object_new (CaptureAssertion_t2_134_il2cpp_TypeInfo_var);
+		CaptureAssertion__ctor_m2_771(L_136, L_135, /*hidden argument*/NULL);
 		V_12 = L_136;
-		Hashtable_t836 * L_137 = (__this->___refs_3);
-		Assertion_t1071 * L_138 = V_12;
+		Hashtable_t1_171 * L_137 = (__this->___refs_3);
+		Assertion_t2_133 * L_138 = V_12;
 		String_t* L_139 = V_14;
 		NullCheck(L_137);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_137, L_138, L_139);
@@ -8386,14 +8386,14 @@ IL_043a:
 
 IL_046c:
 	{
-		Group_t1065 * L_140 = (Group_t1065 *)il2cpp_codegen_object_new (Group_t1065_il2cpp_TypeInfo_var);
-		Group__ctor_m5506(L_140, /*hidden argument*/NULL);
+		Group_t2_127 * L_140 = (Group_t2_127 *)il2cpp_codegen_object_new (Group_t2_127_il2cpp_TypeInfo_var);
+		Group__ctor_m2_735(L_140, /*hidden argument*/NULL);
 		V_17 = L_140;
-		Group_t1065 * L_141 = V_17;
+		Group_t2_127 * L_141 = V_17;
 		int32_t* L_142 = ___options;
-		Assertion_t1071 * L_143 = V_12;
-		Parser_ParseGroup_m5455(__this, L_141, (*((int32_t*)L_142)), L_143, /*hidden argument*/NULL);
-		Group_t1065 * L_144 = V_17;
+		Assertion_t2_133 * L_143 = V_12;
+		Parser_ParseGroup_m2_684(__this, L_141, (*((int32_t*)L_142)), L_143, /*hidden argument*/NULL);
+		Group_t2_127 * L_144 = V_17;
 		return L_144;
 	}
 
@@ -8409,14 +8409,14 @@ IL_0495:
 		int32_t L_146 = (__this->___ptr_1);
 		String_t* L_147 = (__this->___pattern_0);
 		NullCheck(L_147);
-		int32_t L_148 = String_get_Length_m2221(L_147, /*hidden argument*/NULL);
+		int32_t L_148 = String_get_Length_m1_430(L_147, /*hidden argument*/NULL);
 		if ((((int32_t)L_146) < ((int32_t)L_148)))
 		{
 			goto IL_04b7;
 		}
 	}
 	{
-		ArgumentException_t409 * L_149 = Parser_NewParseException_m5477(__this, _stringLiteral941, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_149 = Parser_NewParseException_m2_706(__this, _stringLiteral2305, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_149);
 	}
 
@@ -8429,31 +8429,31 @@ IL_04b7:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_152+(int32_t)1));
 		int32_t L_153 = V_19;
 		NullCheck(L_150);
-		uint16_t L_154 = String_get_Chars_m2240(L_150, L_153, /*hidden argument*/NULL);
+		uint16_t L_154 = String_get_Chars_m1_344(L_150, L_153, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_154) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_0495;
 		}
 	}
 	{
-		return (Expression_t1063 *)NULL;
+		return (Expression_t2_125 *)NULL;
 	}
 
 IL_04de:
 	{
-		ArgumentException_t409 * L_155 = Parser_NewParseException_m5477(__this, _stringLiteral942, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_155 = Parser_NewParseException_m2_706(__this, _stringLiteral2306, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_155);
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseAssertionType(System.Text.RegularExpressions.Syntax.ExpressionAssertion)
-extern "C" bool Parser_ParseAssertionType_m5457 (Parser_t1060 * __this, ExpressionAssertion_t1073 * ___assertion, const MethodInfo* method)
+extern "C" bool Parser_ParseAssertionType_m2_686 (Parser_t2_122 * __this, ExpressionAssertion_t2_135 * ___assertion, const MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t L_1 = (__this->___ptr_1);
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)60)))))
 		{
 			goto IL_0075;
@@ -8463,7 +8463,7 @@ extern "C" bool Parser_ParseAssertionType_m5457 (Parser_t1060 * __this, Expressi
 		String_t* L_3 = (__this->___pattern_0);
 		int32_t L_4 = (__this->___ptr_1);
 		NullCheck(L_3);
-		uint16_t L_5 = String_get_Chars_m2240(L_3, ((int32_t)((int32_t)L_4+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_5 = String_get_Chars_m1_344(L_3, ((int32_t)((int32_t)L_4+(int32_t)1)), /*hidden argument*/NULL);
 		V_0 = L_5;
 		uint16_t L_6 = V_0;
 		if ((((int32_t)L_6) == ((int32_t)((int32_t)33))))
@@ -8484,17 +8484,17 @@ extern "C" bool Parser_ParseAssertionType_m5457 (Parser_t1060 * __this, Expressi
 
 IL_0041:
 	{
-		ExpressionAssertion_t1073 * L_8 = ___assertion;
+		ExpressionAssertion_t2_135 * L_8 = ___assertion;
 		NullCheck(L_8);
-		ExpressionAssertion_set_Negate_m5549(L_8, 0, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Negate_m2_778(L_8, 0, /*hidden argument*/NULL);
 		goto IL_005b;
 	}
 
 IL_004d:
 	{
-		ExpressionAssertion_t1073 * L_9 = ___assertion;
+		ExpressionAssertion_t2_135 * L_9 = ___assertion;
 		NullCheck(L_9);
-		ExpressionAssertion_set_Negate_m5549(L_9, 1, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Negate_m2_778(L_9, 1, /*hidden argument*/NULL);
 		goto IL_005b;
 	}
 
@@ -8505,9 +8505,9 @@ IL_0059:
 
 IL_005b:
 	{
-		ExpressionAssertion_t1073 * L_10 = ___assertion;
+		ExpressionAssertion_t2_135 * L_10 = ___assertion;
 		NullCheck(L_10);
-		ExpressionAssertion_set_Reverse_m5548(L_10, 1, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Reverse_m2_777(L_10, 1, /*hidden argument*/NULL);
 		int32_t L_11 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_11+(int32_t)2));
 		goto IL_00cb;
@@ -8518,7 +8518,7 @@ IL_0075:
 		String_t* L_12 = (__this->___pattern_0);
 		int32_t L_13 = (__this->___ptr_1);
 		NullCheck(L_12);
-		uint16_t L_14 = String_get_Chars_m2240(L_12, L_13, /*hidden argument*/NULL);
+		uint16_t L_14 = String_get_Chars_m1_344(L_12, L_13, /*hidden argument*/NULL);
 		V_0 = L_14;
 		uint16_t L_15 = V_0;
 		if ((((int32_t)L_15) == ((int32_t)((int32_t)33))))
@@ -8539,17 +8539,17 @@ IL_0075:
 
 IL_009c:
 	{
-		ExpressionAssertion_t1073 * L_17 = ___assertion;
+		ExpressionAssertion_t2_135 * L_17 = ___assertion;
 		NullCheck(L_17);
-		ExpressionAssertion_set_Negate_m5549(L_17, 0, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Negate_m2_778(L_17, 0, /*hidden argument*/NULL);
 		goto IL_00b6;
 	}
 
 IL_00a8:
 	{
-		ExpressionAssertion_t1073 * L_18 = ___assertion;
+		ExpressionAssertion_t2_135 * L_18 = ___assertion;
 		NullCheck(L_18);
-		ExpressionAssertion_set_Negate_m5549(L_18, 1, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Negate_m2_778(L_18, 1, /*hidden argument*/NULL);
 		goto IL_00b6;
 	}
 
@@ -8560,9 +8560,9 @@ IL_00b4:
 
 IL_00b6:
 	{
-		ExpressionAssertion_t1073 * L_19 = ___assertion;
+		ExpressionAssertion_t2_135 * L_19 = ___assertion;
 		NullCheck(L_19);
-		ExpressionAssertion_set_Reverse_m5548(L_19, 0, /*hidden argument*/NULL);
+		ExpressionAssertion_set_Reverse_m2_777(L_19, 0, /*hidden argument*/NULL);
 		int32_t L_20 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_20+(int32_t)1));
 	}
@@ -8573,7 +8573,7 @@ IL_00cb:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ParseOptions(System.Text.RegularExpressions.RegexOptions&,System.Boolean)
-extern "C" void Parser_ParseOptions_m5458 (Parser_t1060 * __this, int32_t* ___options, bool ___negate, const MethodInfo* method)
+extern "C" void Parser_ParseOptions_m2_687 (Parser_t2_122 * __this, int32_t* ___options, bool ___negate, const MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
@@ -8585,7 +8585,7 @@ IL_0005:
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t L_1 = (__this->___ptr_1);
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
 		uint16_t L_3 = V_0;
 		if (((int32_t)((int32_t)L_3-(int32_t)((int32_t)105))) == 0)
@@ -8785,57 +8785,57 @@ IL_00ef:
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseCharacterClass(System.Text.RegularExpressions.RegexOptions)
-extern TypeInfo* CharacterClass_t1079_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
+extern TypeInfo* CharacterClass_t2_141_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t102_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral943;
-extern Il2CppCodeGenString* _stringLiteral276;
-extern Il2CppCodeGenString* _stringLiteral944;
-extern Il2CppCodeGenString* _stringLiteral945;
-extern Il2CppCodeGenString* _stringLiteral946;
-extern "C" Expression_t1063 * Parser_ParseCharacterClass_m5459 (Parser_t1060 * __this, int32_t ___options, const MethodInfo* method)
+extern TypeInfo* ObjectU5BU5D_t1_156_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2307;
+extern Il2CppCodeGenString* _stringLiteral228;
+extern Il2CppCodeGenString* _stringLiteral691;
+extern Il2CppCodeGenString* _stringLiteral2308;
+extern Il2CppCodeGenString* _stringLiteral2309;
+extern "C" Expression_t2_125 * Parser_ParseCharacterClass_m2_688 (Parser_t2_122 * __this, int32_t ___options, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharacterClass_t1079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		ObjectU5BU5D_t102_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(114);
-		_stringLiteral943 = il2cpp_codegen_string_literal_from_index(943);
-		_stringLiteral276 = il2cpp_codegen_string_literal_from_index(276);
-		_stringLiteral944 = il2cpp_codegen_string_literal_from_index(944);
-		_stringLiteral945 = il2cpp_codegen_string_literal_from_index(945);
-		_stringLiteral946 = il2cpp_codegen_string_literal_from_index(946);
+		CharacterClass_t2_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		ObjectU5BU5D_t1_156_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(19);
+		_stringLiteral2307 = il2cpp_codegen_string_literal_from_index(2307);
+		_stringLiteral228 = il2cpp_codegen_string_literal_from_index(228);
+		_stringLiteral691 = il2cpp_codegen_string_literal_from_index(691);
+		_stringLiteral2308 = il2cpp_codegen_string_literal_from_index(2308);
+		_stringLiteral2309 = il2cpp_codegen_string_literal_from_index(2309);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	CharacterClass_t1079 * V_2 = {0};
+	CharacterClass_t2_141 * V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	bool V_5 = false;
 	bool V_6 = false;
 	int32_t V_7 = 0;
-	CharacterClass_t1079 * G_B24_0 = {0};
-	CharacterClass_t1079 * G_B23_0 = {0};
+	CharacterClass_t2_141 * G_B24_0 = {0};
+	CharacterClass_t2_141 * G_B23_0 = {0};
 	int32_t G_B25_0 = 0;
-	CharacterClass_t1079 * G_B25_1 = {0};
-	CharacterClass_t1079 * G_B28_0 = {0};
-	CharacterClass_t1079 * G_B27_0 = {0};
+	CharacterClass_t2_141 * G_B25_1 = {0};
+	CharacterClass_t2_141 * G_B28_0 = {0};
+	CharacterClass_t2_141 * G_B27_0 = {0};
 	int32_t G_B29_0 = 0;
-	CharacterClass_t1079 * G_B29_1 = {0};
-	CharacterClass_t1079 * G_B32_0 = {0};
-	CharacterClass_t1079 * G_B31_0 = {0};
+	CharacterClass_t2_141 * G_B29_1 = {0};
+	CharacterClass_t2_141 * G_B32_0 = {0};
+	CharacterClass_t2_141 * G_B31_0 = {0};
 	int32_t G_B33_0 = 0;
-	CharacterClass_t1079 * G_B33_1 = {0};
+	CharacterClass_t2_141 * G_B33_1 = {0};
 	{
 		V_0 = 0;
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t L_1 = (__this->___ptr_1);
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)94)))))
 		{
 			goto IL_002a;
@@ -8850,27 +8850,27 @@ extern "C" Expression_t1063 * Parser_ParseCharacterClass_m5459 (Parser_t1060 * _
 IL_002a:
 	{
 		int32_t L_4 = ___options;
-		bool L_5 = Parser_IsECMAScript_m5476(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_5 = Parser_IsECMAScript_m2_705(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
 		bool L_6 = V_0;
 		int32_t L_7 = ___options;
-		bool L_8 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
-		CharacterClass_t1079 * L_9 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5580(L_9, L_6, L_8, /*hidden argument*/NULL);
+		bool L_8 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_9 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_809(L_9, L_6, L_8, /*hidden argument*/NULL);
 		V_2 = L_9;
 		String_t* L_10 = (__this->___pattern_0);
 		int32_t L_11 = (__this->___ptr_1);
 		NullCheck(L_10);
-		uint16_t L_12 = String_get_Chars_m2240(L_10, L_11, /*hidden argument*/NULL);
+		uint16_t L_12 = String_get_Chars_m1_344(L_10, L_11, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)93)))))
 		{
 			goto IL_006c;
 		}
 	}
 	{
-		CharacterClass_t1079 * L_13 = V_2;
+		CharacterClass_t2_141 * L_13 = V_2;
 		NullCheck(L_13);
-		CharacterClass_AddCharacter_m5584(L_13, ((int32_t)93), /*hidden argument*/NULL);
+		CharacterClass_AddCharacter_m2_813(L_13, ((int32_t)93), /*hidden argument*/NULL);
 		int32_t L_14 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_14+(int32_t)1));
 	}
@@ -8893,7 +8893,7 @@ IL_007c:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_17+(int32_t)1));
 		int32_t L_18 = V_7;
 		NullCheck(L_15);
-		uint16_t L_19 = String_get_Chars_m2240(L_15, L_18, /*hidden argument*/NULL);
+		uint16_t L_19 = String_get_Chars_m1_344(L_15, L_18, /*hidden argument*/NULL);
 		V_3 = L_19;
 		int32_t L_20 = V_3;
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)93)))))
@@ -8942,7 +8942,7 @@ IL_00ca:
 		}
 	}
 	{
-		int32_t L_25 = Parser_ParseEscape_m5463(__this, /*hidden argument*/NULL);
+		int32_t L_25 = Parser_ParseEscape_m2_692(__this, /*hidden argument*/NULL);
 		V_3 = L_25;
 		int32_t L_26 = V_3;
 		if ((((int32_t)L_26) < ((int32_t)0)))
@@ -8963,7 +8963,7 @@ IL_00e5:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_29+(int32_t)1));
 		int32_t L_30 = V_7;
 		NullCheck(L_27);
-		uint16_t L_31 = String_get_Chars_m2240(L_27, L_30, /*hidden argument*/NULL);
+		uint16_t L_31 = String_get_Chars_m1_344(L_27, L_30, /*hidden argument*/NULL);
 		V_3 = L_31;
 		int32_t L_32 = V_3;
 		V_7 = L_32;
@@ -9058,7 +9058,7 @@ IL_0171:
 
 IL_0178:
 	{
-		CharacterClass_t1079 * L_39 = V_2;
+		CharacterClass_t2_141 * L_39 = V_2;
 		bool L_40 = V_1;
 		G_B23_0 = L_39;
 		if (!L_40)
@@ -9083,13 +9083,13 @@ IL_0187:
 	{
 		int32_t L_41 = V_3;
 		NullCheck(G_B25_1);
-		CharacterClass_AddCategory_m5583(G_B25_1, G_B25_0, ((((int32_t)L_41) == ((int32_t)((int32_t)68)))? 1 : 0), /*hidden argument*/NULL);
+		CharacterClass_AddCategory_m2_812(G_B25_1, G_B25_0, ((((int32_t)L_41) == ((int32_t)((int32_t)68)))? 1 : 0), /*hidden argument*/NULL);
 		goto IL_01ec;
 	}
 
 IL_0196:
 	{
-		CharacterClass_t1079 * L_42 = V_2;
+		CharacterClass_t2_141 * L_42 = V_2;
 		bool L_43 = V_1;
 		G_B27_0 = L_42;
 		if (!L_43)
@@ -9114,13 +9114,13 @@ IL_01a4:
 	{
 		int32_t L_44 = V_3;
 		NullCheck(G_B29_1);
-		CharacterClass_AddCategory_m5583(G_B29_1, G_B29_0, ((((int32_t)L_44) == ((int32_t)((int32_t)87)))? 1 : 0), /*hidden argument*/NULL);
+		CharacterClass_AddCategory_m2_812(G_B29_1, G_B29_0, ((((int32_t)L_44) == ((int32_t)((int32_t)87)))? 1 : 0), /*hidden argument*/NULL);
 		goto IL_01ec;
 	}
 
 IL_01b3:
 	{
-		CharacterClass_t1079 * L_45 = V_2;
+		CharacterClass_t2_141 * L_45 = V_2;
 		bool L_46 = V_1;
 		G_B31_0 = L_45;
 		if (!L_46)
@@ -9145,17 +9145,17 @@ IL_01c2:
 	{
 		int32_t L_47 = V_3;
 		NullCheck(G_B33_1);
-		CharacterClass_AddCategory_m5583(G_B33_1, G_B33_0, ((((int32_t)L_47) == ((int32_t)((int32_t)83)))? 1 : 0), /*hidden argument*/NULL);
+		CharacterClass_AddCategory_m2_812(G_B33_1, G_B33_0, ((((int32_t)L_47) == ((int32_t)((int32_t)83)))? 1 : 0), /*hidden argument*/NULL);
 		goto IL_01ec;
 	}
 
 IL_01d1:
 	{
-		CharacterClass_t1079 * L_48 = V_2;
-		uint16_t L_49 = Parser_ParseUnicodeCategory_m5461(__this, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_48 = V_2;
+		uint16_t L_49 = Parser_ParseUnicodeCategory_m2_690(__this, /*hidden argument*/NULL);
 		int32_t L_50 = V_3;
 		NullCheck(L_48);
-		CharacterClass_AddCategory_m5583(L_48, L_49, ((((int32_t)L_50) == ((int32_t)((int32_t)80)))? 1 : 0), /*hidden argument*/NULL);
+		CharacterClass_AddCategory_m2_812(L_48, L_49, ((((int32_t)L_50) == ((int32_t)((int32_t)80)))? 1 : 0), /*hidden argument*/NULL);
 		goto IL_01ec;
 	}
 
@@ -9175,10 +9175,10 @@ IL_01ec:
 	{
 		int32_t L_52 = V_3;
 		int32_t L_53 = L_52;
-		Object_t * L_54 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_53);
+		Object_t * L_54 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_53);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_55 = String_Concat_m1896(NULL /*static, unused*/, _stringLiteral943, L_54, /*hidden argument*/NULL);
-		ArgumentException_t409 * L_56 = Parser_NewParseException_m5477(__this, L_55, /*hidden argument*/NULL);
+		String_t* L_55 = String_Concat_m1_418(NULL /*static, unused*/, _stringLiteral2307, L_54, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_56 = Parser_NewParseException_m2_706(__this, L_55, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_56);
 	}
 
@@ -9205,50 +9205,50 @@ IL_0212:
 		}
 	}
 	{
-		ObjectU5BU5D_t102* L_60 = ((ObjectU5BU5D_t102*)SZArrayNew(ObjectU5BU5D_t102_il2cpp_TypeInfo_var, 5));
+		ObjectU5BU5D_t1_156* L_60 = ((ObjectU5BU5D_t1_156*)SZArrayNew(ObjectU5BU5D_t1_156_il2cpp_TypeInfo_var, 5));
 		NullCheck(L_60);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_60, 0);
-		ArrayElementTypeCheck (L_60, _stringLiteral276);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_60, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral276;
-		ObjectU5BU5D_t102* L_61 = L_60;
+		ArrayElementTypeCheck (L_60, _stringLiteral228);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_60, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral228;
+		ObjectU5BU5D_t1_156* L_61 = L_60;
 		int32_t L_62 = V_4;
 		int32_t L_63 = L_62;
-		Object_t * L_64 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_63);
+		Object_t * L_64 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_63);
 		NullCheck(L_61);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_61, 1);
 		ArrayElementTypeCheck (L_61, L_64);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_61, 1, sizeof(Object_t *))) = (Object_t *)L_64;
-		ObjectU5BU5D_t102* L_65 = L_61;
+		ObjectU5BU5D_t1_156* L_65 = L_61;
 		NullCheck(L_65);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_65, 2);
-		ArrayElementTypeCheck (L_65, _stringLiteral944);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_65, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral944;
-		ObjectU5BU5D_t102* L_66 = L_65;
+		ArrayElementTypeCheck (L_65, _stringLiteral691);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_65, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral691;
+		ObjectU5BU5D_t1_156* L_66 = L_65;
 		int32_t L_67 = V_3;
 		int32_t L_68 = L_67;
-		Object_t * L_69 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_68);
+		Object_t * L_69 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_68);
 		NullCheck(L_66);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_66, 3);
 		ArrayElementTypeCheck (L_66, L_69);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_66, 3, sizeof(Object_t *))) = (Object_t *)L_69;
-		ObjectU5BU5D_t102* L_70 = L_66;
+		ObjectU5BU5D_t1_156* L_70 = L_66;
 		NullCheck(L_70);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_70, 4);
-		ArrayElementTypeCheck (L_70, _stringLiteral945);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_70, 4, sizeof(Object_t *))) = (Object_t *)_stringLiteral945;
+		ArrayElementTypeCheck (L_70, _stringLiteral2308);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_70, 4, sizeof(Object_t *))) = (Object_t *)_stringLiteral2308;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_71 = String_Concat_m1927(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
-		ArgumentException_t409 * L_72 = Parser_NewParseException_m5477(__this, L_71, /*hidden argument*/NULL);
+		String_t* L_71 = String_Concat_m1_423(NULL /*static, unused*/, L_70, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_72 = Parser_NewParseException_m2_706(__this, L_71, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_72);
 	}
 
 IL_025e:
 	{
-		CharacterClass_t1079 * L_73 = V_2;
+		CharacterClass_t2_141 * L_73 = V_2;
 		int32_t L_74 = V_4;
 		int32_t L_75 = V_3;
 		NullCheck(L_73);
-		CharacterClass_AddRange_m5585(L_73, (((int32_t)((uint16_t)L_74))), (((int32_t)((uint16_t)L_75))), /*hidden argument*/NULL);
+		CharacterClass_AddRange_m2_814(L_73, (((int32_t)((uint16_t)L_74))), (((int32_t)((uint16_t)L_75))), /*hidden argument*/NULL);
 		V_4 = (-1);
 		V_5 = 0;
 		goto IL_027f;
@@ -9256,10 +9256,10 @@ IL_025e:
 
 IL_0274:
 	{
-		CharacterClass_t1079 * L_76 = V_2;
+		CharacterClass_t2_141 * L_76 = V_2;
 		int32_t L_77 = V_3;
 		NullCheck(L_76);
-		CharacterClass_AddCharacter_m5584(L_76, (((int32_t)((uint16_t)L_77))), /*hidden argument*/NULL);
+		CharacterClass_AddCharacter_m2_813(L_76, (((int32_t)((uint16_t)L_77))), /*hidden argument*/NULL);
 		int32_t L_78 = V_3;
 		V_4 = L_78;
 	}
@@ -9269,7 +9269,7 @@ IL_027f:
 		int32_t L_79 = (__this->___ptr_1);
 		String_t* L_80 = (__this->___pattern_0);
 		NullCheck(L_80);
-		int32_t L_81 = String_get_Length_m2221(L_80, /*hidden argument*/NULL);
+		int32_t L_81 = String_get_Length_m1_430(L_80, /*hidden argument*/NULL);
 		if ((((int32_t)L_79) < ((int32_t)L_81)))
 		{
 			goto IL_007c;
@@ -9285,7 +9285,7 @@ IL_0295:
 		}
 	}
 	{
-		ArgumentException_t409 * L_83 = Parser_NewParseException_m5477(__this, _stringLiteral946, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_83 = Parser_NewParseException_m2_706(__this, _stringLiteral2309, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_83);
 	}
 
@@ -9298,27 +9298,27 @@ IL_02a8:
 		}
 	}
 	{
-		CharacterClass_t1079 * L_85 = V_2;
+		CharacterClass_t2_141 * L_85 = V_2;
 		NullCheck(L_85);
-		CharacterClass_AddCharacter_m5584(L_85, ((int32_t)45), /*hidden argument*/NULL);
+		CharacterClass_AddCharacter_m2_813(L_85, ((int32_t)45), /*hidden argument*/NULL);
 	}
 
 IL_02b7:
 	{
-		CharacterClass_t1079 * L_86 = V_2;
+		CharacterClass_t2_141 * L_86 = V_2;
 		return L_86;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::ParseRepetitionBounds(System.Int32&,System.Int32&,System.Text.RegularExpressions.RegexOptions)
-extern Il2CppCodeGenString* _stringLiteral947;
-extern Il2CppCodeGenString* _stringLiteral948;
-extern "C" bool Parser_ParseRepetitionBounds_m5460 (Parser_t1060 * __this, int32_t* ___min, int32_t* ___max, int32_t ___options, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2310;
+extern Il2CppCodeGenString* _stringLiteral2311;
+extern "C" bool Parser_ParseRepetitionBounds_m2_689 (Parser_t2_122 * __this, int32_t* ___min, int32_t* ___max, int32_t ___options, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral947 = il2cpp_codegen_string_literal_from_index(947);
-		_stringLiteral948 = il2cpp_codegen_string_literal_from_index(948);
+		_stringLiteral2310 = il2cpp_codegen_string_literal_from_index(2310);
+		_stringLiteral2311 = il2cpp_codegen_string_literal_from_index(2311);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -9334,12 +9334,12 @@ extern "C" bool Parser_ParseRepetitionBounds_m5460 (Parser_t1060 * __this, int32
 		int32_t L_3 = V_2;
 		*((int32_t*)(L_0)) = (int32_t)L_3;
 		int32_t L_4 = ___options;
-		bool L_5 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_5, /*hidden argument*/NULL);
+		bool L_5 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_5, /*hidden argument*/NULL);
 		String_t* L_6 = (__this->___pattern_0);
 		int32_t L_7 = (__this->___ptr_1);
 		NullCheck(L_6);
-		uint16_t L_8 = String_get_Chars_m2240(L_6, L_7, /*hidden argument*/NULL);
+		uint16_t L_8 = String_get_Chars_m1_344(L_6, L_7, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)44)))))
 		{
 			goto IL_0033;
@@ -9352,11 +9352,11 @@ extern "C" bool Parser_ParseRepetitionBounds_m5460 (Parser_t1060 * __this, int32
 
 IL_0033:
 	{
-		int32_t L_9 = Parser_ParseNumber_m5466(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
+		int32_t L_9 = Parser_ParseNumber_m2_695(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
 		V_0 = L_9;
 		int32_t L_10 = ___options;
-		bool L_11 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_11, /*hidden argument*/NULL);
+		bool L_11 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_11, /*hidden argument*/NULL);
 	}
 
 IL_004a:
@@ -9368,7 +9368,7 @@ IL_004a:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_14+(int32_t)1));
 		int32_t L_15 = V_2;
 		NullCheck(L_12);
-		uint16_t L_16 = String_get_Chars_m2240(L_12, L_15, /*hidden argument*/NULL);
+		uint16_t L_16 = String_get_Chars_m1_344(L_12, L_15, /*hidden argument*/NULL);
 		V_3 = L_16;
 		uint16_t L_17 = V_3;
 		if ((((int32_t)L_17) == ((int32_t)((int32_t)44))))
@@ -9397,13 +9397,13 @@ IL_007c:
 IL_0083:
 	{
 		int32_t L_20 = ___options;
-		bool L_21 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_21, /*hidden argument*/NULL);
-		int32_t L_22 = Parser_ParseNumber_m5466(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
+		bool L_21 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_21, /*hidden argument*/NULL);
+		int32_t L_22 = Parser_ParseNumber_m2_695(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
 		V_1 = L_22;
 		int32_t L_23 = ___options;
-		bool L_24 = Parser_IsIgnorePatternWhitespace_m5475(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
-		Parser_ConsumeWhitespace_m5468(__this, L_24, /*hidden argument*/NULL);
+		bool L_24 = Parser_IsIgnorePatternWhitespace_m2_704(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		Parser_ConsumeWhitespace_m2_697(__this, L_24, /*hidden argument*/NULL);
 		String_t* L_25 = (__this->___pattern_0);
 		int32_t L_26 = (__this->___ptr_1);
 		int32_t L_27 = L_26;
@@ -9411,7 +9411,7 @@ IL_0083:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_27+(int32_t)1));
 		int32_t L_28 = V_2;
 		NullCheck(L_25);
-		uint16_t L_29 = String_get_Chars_m2240(L_25, L_28, /*hidden argument*/NULL);
+		uint16_t L_29 = String_get_Chars_m1_344(L_25, L_28, /*hidden argument*/NULL);
 		if ((((int32_t)L_29) == ((int32_t)((int32_t)125))))
 		{
 			goto IL_00cb;
@@ -9449,7 +9449,7 @@ IL_00d2:
 
 IL_00e8:
 	{
-		ArgumentException_t409 * L_32 = Parser_NewParseException_m5477(__this, _stringLiteral947, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_32 = Parser_NewParseException_m2_706(__this, _stringLiteral2310, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_32);
 	}
 
@@ -9470,7 +9470,7 @@ IL_00f4:
 		}
 	}
 	{
-		ArgumentException_t409 * L_36 = Parser_NewParseException_m5477(__this, _stringLiteral948, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_36 = Parser_NewParseException_m2_706(__this, _stringLiteral2311, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_36);
 	}
 
@@ -9505,18 +9505,18 @@ IL_0127:
 }
 // System.Text.RegularExpressions.Category System.Text.RegularExpressions.Syntax.Parser::ParseUnicodeCategory()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral949;
-extern Il2CppCodeGenString* _stringLiteral950;
-extern Il2CppCodeGenString* _stringLiteral951;
-extern "C" uint16_t Parser_ParseUnicodeCategory_m5461 (Parser_t1060 * __this, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2312;
+extern Il2CppCodeGenString* _stringLiteral2313;
+extern Il2CppCodeGenString* _stringLiteral121;
+extern "C" uint16_t Parser_ParseUnicodeCategory_m2_690 (Parser_t2_122 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		_stringLiteral949 = il2cpp_codegen_string_literal_from_index(949);
-		_stringLiteral950 = il2cpp_codegen_string_literal_from_index(950);
-		_stringLiteral951 = il2cpp_codegen_string_literal_from_index(951);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		_stringLiteral2312 = il2cpp_codegen_string_literal_from_index(2312);
+		_stringLiteral2313 = il2cpp_codegen_string_literal_from_index(2313);
+		_stringLiteral121 = il2cpp_codegen_string_literal_from_index(121);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -9530,14 +9530,14 @@ extern "C" uint16_t Parser_ParseUnicodeCategory_m5461 (Parser_t1060 * __this, co
 		__this->___ptr_1 = ((int32_t)((int32_t)L_2+(int32_t)1));
 		int32_t L_3 = V_2;
 		NullCheck(L_0);
-		uint16_t L_4 = String_get_Chars_m2240(L_0, L_3, /*hidden argument*/NULL);
+		uint16_t L_4 = String_get_Chars_m1_344(L_0, L_3, /*hidden argument*/NULL);
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)123))))
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		ArgumentException_t409 * L_5 = Parser_NewParseException_m5477(__this, _stringLiteral949, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_5 = Parser_NewParseException_m2_706(__this, _stringLiteral2312, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_5);
 	}
 
@@ -9545,7 +9545,7 @@ IL_002f:
 	{
 		String_t* L_6 = (__this->___pattern_0);
 		int32_t* L_7 = &(__this->___ptr_1);
-		String_t* L_8 = Parser_ParseName_m5452(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = Parser_ParseName_m2_681(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
 		String_t* L_9 = V_0;
 		if (L_9)
@@ -9554,14 +9554,14 @@ IL_002f:
 		}
 	}
 	{
-		ArgumentException_t409 * L_10 = Parser_NewParseException_m5477(__this, _stringLiteral949, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_10 = Parser_NewParseException_m2_706(__this, _stringLiteral2312, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_10);
 	}
 
 IL_0053:
 	{
 		String_t* L_11 = V_0;
-		uint16_t L_12 = CategoryUtils_CategoryFromName_m5314(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		uint16_t L_12 = CategoryUtils_CategoryFromName_m2_543(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		V_1 = L_12;
 		uint16_t L_13 = V_1;
 		if (L_13)
@@ -9572,8 +9572,8 @@ IL_0053:
 	{
 		String_t* L_14 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Concat_m375(NULL /*static, unused*/, _stringLiteral950, L_14, _stringLiteral951, /*hidden argument*/NULL);
-		ArgumentException_t409 * L_16 = Parser_NewParseException_m5477(__this, L_15, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m1_421(NULL /*static, unused*/, _stringLiteral2313, L_14, _stringLiteral121, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_16 = Parser_NewParseException_m2_706(__this, L_15, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_16);
 	}
 
@@ -9586,14 +9586,14 @@ IL_0077:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_19+(int32_t)1));
 		int32_t L_20 = V_2;
 		NullCheck(L_17);
-		uint16_t L_21 = String_get_Chars_m2240(L_17, L_20, /*hidden argument*/NULL);
+		uint16_t L_21 = String_get_Chars_m1_344(L_17, L_20, /*hidden argument*/NULL);
 		if ((((int32_t)L_21) == ((int32_t)((int32_t)125))))
 		{
 			goto IL_00a6;
 		}
 	}
 	{
-		ArgumentException_t409 * L_22 = Parser_NewParseException_m5477(__this, _stringLiteral949, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_22 = Parser_NewParseException_m2_706(__this, _stringLiteral2312, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_22);
 	}
 
@@ -9604,31 +9604,31 @@ IL_00a6:
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Parser::ParseSpecial(System.Text.RegularExpressions.RegexOptions)
-extern TypeInfo* CharacterClass_t1079_il2cpp_TypeInfo_var;
-extern TypeInfo* PositionAssertion_t1076_il2cpp_TypeInfo_var;
-extern TypeInfo* BackslashNumber_t1078_il2cpp_TypeInfo_var;
-extern TypeInfo* Reference_t1077_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral952;
-extern "C" Expression_t1063 * Parser_ParseSpecial_m5462 (Parser_t1060 * __this, int32_t ___options, const MethodInfo* method)
+extern TypeInfo* CharacterClass_t2_141_il2cpp_TypeInfo_var;
+extern TypeInfo* PositionAssertion_t2_138_il2cpp_TypeInfo_var;
+extern TypeInfo* BackslashNumber_t2_140_il2cpp_TypeInfo_var;
+extern TypeInfo* Reference_t2_139_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2314;
+extern "C" Expression_t2_125 * Parser_ParseSpecial_m2_691 (Parser_t2_122 * __this, int32_t ___options, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharacterClass_t1079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
-		PositionAssertion_t1076_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(718);
-		BackslashNumber_t1078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
-		Reference_t1077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(728);
-		_stringLiteral952 = il2cpp_codegen_string_literal_from_index(952);
+		CharacterClass_t2_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
+		PositionAssertion_t2_138_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(715);
+		BackslashNumber_t2_140_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(724);
+		Reference_t2_139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(725);
+		_stringLiteral2314 = il2cpp_codegen_string_literal_from_index(2314);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
-	Expression_t1063 * V_2 = {0};
+	Expression_t2_125 * V_2 = {0};
 	int32_t V_3 = 0;
-	Reference_t1077 * V_4 = {0};
+	Reference_t2_139 * V_4 = {0};
 	uint16_t V_5 = 0x0;
 	String_t* V_6 = {0};
-	Reference_t1077 * V_7 = {0};
+	Reference_t2_139 * V_7 = {0};
 	int32_t V_8 = 0;
 	uint16_t V_9 = 0x0;
 	int32_t G_B11_0 = 0;
@@ -9641,9 +9641,9 @@ extern "C" Expression_t1063 * Parser_ParseSpecial_m5462 (Parser_t1060 * __this, 
 		int32_t L_0 = (__this->___ptr_1);
 		V_0 = L_0;
 		int32_t L_1 = ___options;
-		bool L_2 = Parser_IsECMAScript_m5476(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		bool L_2 = Parser_IsECMAScript_m2_705(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		V_1 = L_2;
-		V_2 = (Expression_t1063 *)NULL;
+		V_2 = (Expression_t2_125 *)NULL;
 		String_t* L_3 = (__this->___pattern_0);
 		int32_t L_4 = (__this->___ptr_1);
 		int32_t L_5 = L_4;
@@ -9651,7 +9651,7 @@ extern "C" Expression_t1063 * Parser_ParseSpecial_m5462 (Parser_t1060 * __this, 
 		__this->___ptr_1 = ((int32_t)((int32_t)L_5+(int32_t)1));
 		int32_t L_6 = V_8;
 		NullCheck(L_3);
-		uint16_t L_7 = String_get_Chars_m2240(L_3, L_6, /*hidden argument*/NULL);
+		uint16_t L_7 = String_get_Chars_m1_344(L_3, L_6, /*hidden argument*/NULL);
 		V_9 = L_7;
 		uint16_t L_8 = V_9;
 		if (((int32_t)((int32_t)L_8-(int32_t)((int32_t)49))) == 0)
@@ -9881,8 +9881,8 @@ IL_012f:
 
 IL_0130:
 	{
-		CharacterClass_t1079 * L_16 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_16, G_B11_0, 0, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_16 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_16, G_B11_0, 0, /*hidden argument*/NULL);
 		V_2 = L_16;
 		goto IL_032f;
 	}
@@ -9907,8 +9907,8 @@ IL_0148:
 
 IL_0149:
 	{
-		CharacterClass_t1079 * L_18 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_18, G_B15_0, 0, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_18 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_18, G_B15_0, 0, /*hidden argument*/NULL);
 		V_2 = L_18;
 		goto IL_032f;
 	}
@@ -9933,17 +9933,17 @@ IL_0162:
 
 IL_0163:
 	{
-		CharacterClass_t1079 * L_20 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_20, G_B19_0, 0, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_20 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_20, G_B19_0, 0, /*hidden argument*/NULL);
 		V_2 = L_20;
 		goto IL_032f;
 	}
 
 IL_016f:
 	{
-		uint16_t L_21 = Parser_ParseUnicodeCategory_m5461(__this, /*hidden argument*/NULL);
-		CharacterClass_t1079 * L_22 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_22, L_21, 0, /*hidden argument*/NULL);
+		uint16_t L_21 = Parser_ParseUnicodeCategory_m2_690(__this, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_22 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_22, L_21, 0, /*hidden argument*/NULL);
 		V_2 = L_22;
 		goto IL_032f;
 	}
@@ -9968,8 +9968,8 @@ IL_018e:
 
 IL_018f:
 	{
-		CharacterClass_t1079 * L_24 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_24, G_B24_0, 1, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_24 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_24, G_B24_0, 1, /*hidden argument*/NULL);
 		V_2 = L_24;
 		goto IL_032f;
 	}
@@ -9994,8 +9994,8 @@ IL_01a7:
 
 IL_01a8:
 	{
-		CharacterClass_t1079 * L_26 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_26, G_B28_0, 1, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_26 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_26, G_B28_0, 1, /*hidden argument*/NULL);
 		V_2 = L_26;
 		goto IL_032f;
 	}
@@ -10020,65 +10020,65 @@ IL_01c1:
 
 IL_01c2:
 	{
-		CharacterClass_t1079 * L_28 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_28, G_B32_0, 1, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_28 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_28, G_B32_0, 1, /*hidden argument*/NULL);
 		V_2 = L_28;
 		goto IL_032f;
 	}
 
 IL_01ce:
 	{
-		uint16_t L_29 = Parser_ParseUnicodeCategory_m5461(__this, /*hidden argument*/NULL);
-		CharacterClass_t1079 * L_30 = (CharacterClass_t1079 *)il2cpp_codegen_object_new (CharacterClass_t1079_il2cpp_TypeInfo_var);
-		CharacterClass__ctor_m5581(L_30, L_29, 1, /*hidden argument*/NULL);
+		uint16_t L_29 = Parser_ParseUnicodeCategory_m2_690(__this, /*hidden argument*/NULL);
+		CharacterClass_t2_141 * L_30 = (CharacterClass_t2_141 *)il2cpp_codegen_object_new (CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		CharacterClass__ctor_m2_810(L_30, L_29, 1, /*hidden argument*/NULL);
 		V_2 = L_30;
 		goto IL_032f;
 	}
 
 IL_01e0:
 	{
-		PositionAssertion_t1076 * L_31 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_31, 2, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_31 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_31, 2, /*hidden argument*/NULL);
 		V_2 = L_31;
 		goto IL_032f;
 	}
 
 IL_01ec:
 	{
-		PositionAssertion_t1076 * L_32 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_32, 5, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_32 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_32, 5, /*hidden argument*/NULL);
 		V_2 = L_32;
 		goto IL_032f;
 	}
 
 IL_01f8:
 	{
-		PositionAssertion_t1076 * L_33 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_33, 6, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_33 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_33, 6, /*hidden argument*/NULL);
 		V_2 = L_33;
 		goto IL_032f;
 	}
 
 IL_0204:
 	{
-		PositionAssertion_t1076 * L_34 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_34, 4, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_34 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_34, 4, /*hidden argument*/NULL);
 		V_2 = L_34;
 		goto IL_032f;
 	}
 
 IL_0210:
 	{
-		PositionAssertion_t1076 * L_35 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_35, 8, /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_35 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_35, 8, /*hidden argument*/NULL);
 		V_2 = L_35;
 		goto IL_032f;
 	}
 
 IL_021c:
 	{
-		PositionAssertion_t1076 * L_36 = (PositionAssertion_t1076 *)il2cpp_codegen_object_new (PositionAssertion_t1076_il2cpp_TypeInfo_var);
-		PositionAssertion__ctor_m5565(L_36, ((int32_t)9), /*hidden argument*/NULL);
+		PositionAssertion_t2_138 * L_36 = (PositionAssertion_t2_138 *)il2cpp_codegen_object_new (PositionAssertion_t2_138_il2cpp_TypeInfo_var);
+		PositionAssertion__ctor_m2_794(L_36, ((int32_t)9), /*hidden argument*/NULL);
 		V_2 = L_36;
 		goto IL_032f;
 	}
@@ -10087,7 +10087,7 @@ IL_0229:
 	{
 		int32_t L_37 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_37-(int32_t)1));
-		int32_t L_38 = Parser_ParseNumber_m5466(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
+		int32_t L_38 = Parser_ParseNumber_m2_695(__this, ((int32_t)10), 1, 0, /*hidden argument*/NULL);
 		V_3 = L_38;
 		int32_t L_39 = V_3;
 		if ((((int32_t)L_39) >= ((int32_t)0)))
@@ -10098,23 +10098,23 @@ IL_0229:
 	{
 		int32_t L_40 = V_0;
 		__this->___ptr_1 = L_40;
-		return (Expression_t1063 *)NULL;
+		return (Expression_t2_125 *)NULL;
 	}
 
 IL_0252:
 	{
 		int32_t L_41 = ___options;
-		bool L_42 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
+		bool L_42 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
 		bool L_43 = V_1;
-		BackslashNumber_t1078 * L_44 = (BackslashNumber_t1078 *)il2cpp_codegen_object_new (BackslashNumber_t1078_il2cpp_TypeInfo_var);
-		BackslashNumber__ctor_m5577(L_44, L_42, L_43, /*hidden argument*/NULL);
+		BackslashNumber_t2_140 * L_44 = (BackslashNumber_t2_140 *)il2cpp_codegen_object_new (BackslashNumber_t2_140_il2cpp_TypeInfo_var);
+		BackslashNumber__ctor_m2_806(L_44, L_42, L_43, /*hidden argument*/NULL);
 		V_4 = L_44;
-		Hashtable_t836 * L_45 = (__this->___refs_3);
-		Reference_t1077 * L_46 = V_4;
-		String_t* L_47 = Int32_ToString_m388((&V_3), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_45 = (__this->___refs_3);
+		Reference_t2_139 * L_46 = V_4;
+		String_t* L_47 = Int32_ToString_m1_63((&V_3), /*hidden argument*/NULL);
 		NullCheck(L_45);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_45, L_46, L_47);
-		Reference_t1077 * L_48 = V_4;
+		Reference_t2_139 * L_48 = V_4;
 		V_2 = L_48;
 		goto IL_032f;
 	}
@@ -10128,7 +10128,7 @@ IL_027c:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_51+(int32_t)1));
 		int32_t L_52 = V_8;
 		NullCheck(L_49);
-		uint16_t L_53 = String_get_Chars_m2240(L_49, L_52, /*hidden argument*/NULL);
+		uint16_t L_53 = String_get_Chars_m1_344(L_49, L_52, /*hidden argument*/NULL);
 		V_5 = L_53;
 		uint16_t L_54 = V_5;
 		if ((!(((uint32_t)L_54) == ((uint32_t)((int32_t)60)))))
@@ -10150,13 +10150,13 @@ IL_02ae:
 		}
 	}
 	{
-		ArgumentException_t409 * L_56 = Parser_NewParseException_m5477(__this, _stringLiteral952, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_56 = Parser_NewParseException_m2_706(__this, _stringLiteral2314, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_56);
 	}
 
 IL_02c3:
 	{
-		String_t* L_57 = Parser_ParseName_m5464(__this, /*hidden argument*/NULL);
+		String_t* L_57 = Parser_ParseName_m2_693(__this, /*hidden argument*/NULL);
 		V_6 = L_57;
 		String_t* L_58 = V_6;
 		if (!L_58)
@@ -10168,7 +10168,7 @@ IL_02c3:
 		String_t* L_59 = (__this->___pattern_0);
 		int32_t L_60 = (__this->___ptr_1);
 		NullCheck(L_59);
-		uint16_t L_61 = String_get_Chars_m2240(L_59, L_60, /*hidden argument*/NULL);
+		uint16_t L_61 = String_get_Chars_m1_344(L_59, L_60, /*hidden argument*/NULL);
 		uint16_t L_62 = V_5;
 		if ((((int32_t)L_61) == ((int32_t)L_62)))
 		{
@@ -10178,7 +10178,7 @@ IL_02c3:
 
 IL_02ea:
 	{
-		ArgumentException_t409 * L_63 = Parser_NewParseException_m5477(__this, _stringLiteral952, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_63 = Parser_NewParseException_m2_706(__this, _stringLiteral2314, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_63);
 	}
 
@@ -10187,29 +10187,29 @@ IL_02f6:
 		int32_t L_64 = (__this->___ptr_1);
 		__this->___ptr_1 = ((int32_t)((int32_t)L_64+(int32_t)1));
 		int32_t L_65 = ___options;
-		bool L_66 = Parser_IsIgnoreCase_m5471(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
-		Reference_t1077 * L_67 = (Reference_t1077 *)il2cpp_codegen_object_new (Reference_t1077_il2cpp_TypeInfo_var);
-		Reference__ctor_m5570(L_67, L_66, /*hidden argument*/NULL);
+		bool L_66 = Parser_IsIgnoreCase_m2_700(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
+		Reference_t2_139 * L_67 = (Reference_t2_139 *)il2cpp_codegen_object_new (Reference_t2_139_il2cpp_TypeInfo_var);
+		Reference__ctor_m2_799(L_67, L_66, /*hidden argument*/NULL);
 		V_7 = L_67;
-		Hashtable_t836 * L_68 = (__this->___refs_3);
-		Reference_t1077 * L_69 = V_7;
+		Hashtable_t1_171 * L_68 = (__this->___refs_3);
+		Reference_t2_139 * L_69 = V_7;
 		String_t* L_70 = V_6;
 		NullCheck(L_68);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_68, L_69, L_70);
-		Reference_t1077 * L_71 = V_7;
+		Reference_t2_139 * L_71 = V_7;
 		V_2 = L_71;
 		goto IL_032f;
 	}
 
 IL_0328:
 	{
-		V_2 = (Expression_t1063 *)NULL;
+		V_2 = (Expression_t2_125 *)NULL;
 		goto IL_032f;
 	}
 
 IL_032f:
 	{
-		Expression_t1063 * L_72 = V_2;
+		Expression_t2_125 * L_72 = V_2;
 		if (L_72)
 		{
 			goto IL_033c;
@@ -10222,26 +10222,26 @@ IL_032f:
 
 IL_033c:
 	{
-		Expression_t1063 * L_74 = V_2;
+		Expression_t2_125 * L_74 = V_2;
 		return L_74;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseEscape()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t409_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral953;
-extern Il2CppCodeGenString* _stringLiteral954;
-extern Il2CppCodeGenString* _stringLiteral955;
-extern "C" int32_t Parser_ParseEscape_m5463 (Parser_t1060 * __this, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t1_638_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2315;
+extern Il2CppCodeGenString* _stringLiteral2316;
+extern Il2CppCodeGenString* _stringLiteral2317;
+extern "C" int32_t Parser_ParseEscape_m2_692 (Parser_t2_122 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		ArgumentException_t409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
-		_stringLiteral953 = il2cpp_codegen_string_literal_from_index(953);
-		_stringLiteral954 = il2cpp_codegen_string_literal_from_index(954);
-		_stringLiteral955 = il2cpp_codegen_string_literal_from_index(955);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		ArgumentException_t1_638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4);
+		_stringLiteral2315 = il2cpp_codegen_string_literal_from_index(2315);
+		_stringLiteral2316 = il2cpp_codegen_string_literal_from_index(2316);
+		_stringLiteral2317 = il2cpp_codegen_string_literal_from_index(2317);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10256,7 +10256,7 @@ extern "C" int32_t Parser_ParseEscape_m5463 (Parser_t1060 * __this, const Method
 		int32_t L_1 = V_0;
 		String_t* L_2 = (__this->___pattern_0);
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2221(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m1_430(L_2, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) < ((int32_t)L_3)))
 		{
 			goto IL_0034;
@@ -10265,10 +10265,10 @@ extern "C" int32_t Parser_ParseEscape_m5463 (Parser_t1060 * __this, const Method
 	{
 		String_t* L_4 = (__this->___pattern_0);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_5 = String_Format_m469(NULL /*static, unused*/, _stringLiteral953, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_Format_m1_412(NULL /*static, unused*/, _stringLiteral2315, L_4, /*hidden argument*/NULL);
 		String_t* L_6 = (__this->___pattern_0);
-		ArgumentException_t409 * L_7 = (ArgumentException_t409 *)il2cpp_codegen_object_new (ArgumentException_t409_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3764(L_7, L_5, L_6, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_7 = (ArgumentException_t1_638 *)il2cpp_codegen_object_new (ArgumentException_t1_638_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1_4584(L_7, L_5, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_7);
 	}
 
@@ -10281,7 +10281,7 @@ IL_0034:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_10+(int32_t)1));
 		int32_t L_11 = V_4;
 		NullCheck(L_8);
-		uint16_t L_12 = String_get_Chars_m2240(L_8, L_11, /*hidden argument*/NULL);
+		uint16_t L_12 = String_get_Chars_m1_344(L_8, L_11, /*hidden argument*/NULL);
 		V_5 = L_12;
 		uint16_t L_13 = V_5;
 		if (((int32_t)((int32_t)L_13-(int32_t)((int32_t)110))) == 0)
@@ -10426,7 +10426,7 @@ IL_00da:
 		V_2 = L_18;
 		String_t* L_19 = (__this->___pattern_0);
 		int32_t* L_20 = &(__this->___ptr_1);
-		int32_t L_21 = Parser_ParseOctal_m5449(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
+		int32_t L_21 = Parser_ParseOctal_m2_678(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
 		V_3 = L_21;
 		int32_t L_22 = V_3;
 		if ((!(((uint32_t)L_22) == ((uint32_t)(-1)))))
@@ -10456,7 +10456,7 @@ IL_0118:
 	{
 		String_t* L_26 = (__this->___pattern_0);
 		int32_t* L_27 = &(__this->___ptr_1);
-		int32_t L_28 = Parser_ParseHex_m5450(NULL /*static, unused*/, L_26, L_27, 2, /*hidden argument*/NULL);
+		int32_t L_28 = Parser_ParseHex_m2_679(NULL /*static, unused*/, L_26, L_27, 2, /*hidden argument*/NULL);
 		V_1 = L_28;
 		int32_t L_29 = V_1;
 		if ((((int32_t)L_29) >= ((int32_t)0)))
@@ -10465,7 +10465,7 @@ IL_0118:
 		}
 	}
 	{
-		ArgumentException_t409 * L_30 = Parser_NewParseException_m5477(__this, _stringLiteral954, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_30 = Parser_NewParseException_m2_706(__this, _stringLiteral2316, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_30);
 	}
 
@@ -10479,7 +10479,7 @@ IL_0140:
 	{
 		String_t* L_32 = (__this->___pattern_0);
 		int32_t* L_33 = &(__this->___ptr_1);
-		int32_t L_34 = Parser_ParseHex_m5450(NULL /*static, unused*/, L_32, L_33, 4, /*hidden argument*/NULL);
+		int32_t L_34 = Parser_ParseHex_m2_679(NULL /*static, unused*/, L_32, L_33, 4, /*hidden argument*/NULL);
 		V_1 = L_34;
 		int32_t L_35 = V_1;
 		if ((((int32_t)L_35) >= ((int32_t)0)))
@@ -10488,7 +10488,7 @@ IL_0140:
 		}
 	}
 	{
-		ArgumentException_t409 * L_36 = Parser_NewParseException_m5477(__this, _stringLiteral954, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_36 = Parser_NewParseException_m2_706(__this, _stringLiteral2316, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_36);
 	}
 
@@ -10507,7 +10507,7 @@ IL_0168:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_40+(int32_t)1));
 		int32_t L_41 = V_4;
 		NullCheck(L_38);
-		uint16_t L_42 = String_get_Chars_m2240(L_38, L_41, /*hidden argument*/NULL);
+		uint16_t L_42 = String_get_Chars_m1_344(L_38, L_41, /*hidden argument*/NULL);
 		V_1 = L_42;
 		int32_t L_43 = V_1;
 		if ((((int32_t)L_43) < ((int32_t)((int32_t)64))))
@@ -10529,7 +10529,7 @@ IL_0168:
 
 IL_019c:
 	{
-		ArgumentException_t409 * L_46 = Parser_NewParseException_m5477(__this, _stringLiteral955, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_46 = Parser_NewParseException_m2_706(__this, _stringLiteral2317, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_46);
 	}
 
@@ -10541,30 +10541,30 @@ IL_01a8:
 	}
 }
 // System.String System.Text.RegularExpressions.Syntax.Parser::ParseName()
-extern "C" String_t* Parser_ParseName_m5464 (Parser_t1060 * __this, const MethodInfo* method)
+extern "C" String_t* Parser_ParseName_m2_693 (Parser_t2_122 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t* L_1 = &(__this->___ptr_1);
-		String_t* L_2 = Parser_ParseName_m5452(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = Parser_ParseName_m2_681(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsNameChar(System.Char)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" bool Parser_IsNameChar_m5465 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" bool Parser_IsNameChar_m2_694 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
 	{
 		uint16_t L_0 = ___c;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		int32_t L_1 = Char_GetUnicodeCategory_m5744(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		int32_t L_1 = Char_GetUnicodeCategory_m1_300(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)3))))
@@ -10591,13 +10591,13 @@ IL_0010:
 IL_001a:
 	{
 		uint16_t L_4 = ___c;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_5 = Char_IsLetterOrDigit_m5741(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_5 = Char_IsLetterOrDigit_m1_303(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseNumber(System.Int32,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseNumber_m5466 (Parser_t1060 * __this, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method)
+extern "C" int32_t Parser_ParseNumber_m2_695 (Parser_t2_122 * __this, int32_t ___b, int32_t ___min, int32_t ___max, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___pattern_0);
@@ -10605,12 +10605,12 @@ extern "C" int32_t Parser_ParseNumber_m5466 (Parser_t1060 * __this, int32_t ___b
 		int32_t L_2 = ___b;
 		int32_t L_3 = ___min;
 		int32_t L_4 = ___max;
-		int32_t L_5 = Parser_ParseNumber_m5451(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Parser_ParseNumber_m2_680(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Parser::ParseDigit(System.Char,System.Int32,System.Int32)
-extern "C" int32_t Parser_ParseDigit_m5467 (Object_t * __this /* static, unused */, uint16_t ___c, int32_t ___b, int32_t ___n, const MethodInfo* method)
+extern "C" int32_t Parser_ParseDigit_m2_696 (Object_t * __this /* static, unused */, uint16_t ___c, int32_t ___b, int32_t ___n, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -10764,13 +10764,13 @@ IL_0098:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ConsumeWhitespace(System.Boolean)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" void Parser_ConsumeWhitespace_m5468 (Parser_t1060 * __this, bool ___ignore, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" void Parser_ConsumeWhitespace_m2_697 (Parser_t2_122 * __this, bool ___ignore, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10783,7 +10783,7 @@ IL_0005:
 		String_t* L_0 = (__this->___pattern_0);
 		int32_t L_1 = (__this->___ptr_1);
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, L_1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)40)))))
 		{
 			goto IL_00bc;
@@ -10793,7 +10793,7 @@ IL_0005:
 		int32_t L_3 = (__this->___ptr_1);
 		String_t* L_4 = (__this->___pattern_0);
 		NullCheck(L_4);
-		int32_t L_5 = String_get_Length_m2221(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = String_get_Length_m1_430(L_4, /*hidden argument*/NULL);
 		if ((((int32_t)((int32_t)((int32_t)L_3+(int32_t)3))) < ((int32_t)L_5)))
 		{
 			goto IL_0036;
@@ -10808,7 +10808,7 @@ IL_0036:
 		String_t* L_6 = (__this->___pattern_0);
 		int32_t L_7 = (__this->___ptr_1);
 		NullCheck(L_6);
-		uint16_t L_8 = String_get_Chars_m2240(L_6, ((int32_t)((int32_t)L_7+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_8 = String_get_Chars_m1_344(L_6, ((int32_t)((int32_t)L_7+(int32_t)1)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_006a;
@@ -10818,7 +10818,7 @@ IL_0036:
 		String_t* L_9 = (__this->___pattern_0);
 		int32_t L_10 = (__this->___ptr_1);
 		NullCheck(L_9);
-		uint16_t L_11 = String_get_Chars_m2240(L_9, ((int32_t)((int32_t)L_10+(int32_t)2)), /*hidden argument*/NULL);
+		uint16_t L_11 = String_get_Chars_m1_344(L_9, ((int32_t)((int32_t)L_10+(int32_t)2)), /*hidden argument*/NULL);
 		if ((((int32_t)L_11) == ((int32_t)((int32_t)35))))
 		{
 			goto IL_006b;
@@ -10842,7 +10842,7 @@ IL_007e:
 		int32_t L_13 = (__this->___ptr_1);
 		String_t* L_14 = (__this->___pattern_0);
 		NullCheck(L_14);
-		int32_t L_15 = String_get_Length_m2221(L_14, /*hidden argument*/NULL);
+		int32_t L_15 = String_get_Length_m1_430(L_14, /*hidden argument*/NULL);
 		if ((((int32_t)L_13) >= ((int32_t)L_15)))
 		{
 			goto IL_00b7;
@@ -10856,7 +10856,7 @@ IL_007e:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_18+(int32_t)1));
 		int32_t L_19 = V_0;
 		NullCheck(L_16);
-		uint16_t L_20 = String_get_Chars_m2240(L_16, L_19, /*hidden argument*/NULL);
+		uint16_t L_20 = String_get_Chars_m1_344(L_16, L_19, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_007e;
@@ -10880,7 +10880,7 @@ IL_00bc:
 		String_t* L_22 = (__this->___pattern_0);
 		int32_t L_23 = (__this->___ptr_1);
 		NullCheck(L_22);
-		uint16_t L_24 = String_get_Chars_m2240(L_22, L_23, /*hidden argument*/NULL);
+		uint16_t L_24 = String_get_Chars_m1_344(L_22, L_23, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_24) == ((uint32_t)((int32_t)35)))))
 		{
 			goto IL_011d;
@@ -10895,7 +10895,7 @@ IL_00df:
 		int32_t L_25 = (__this->___ptr_1);
 		String_t* L_26 = (__this->___pattern_0);
 		NullCheck(L_26);
-		int32_t L_27 = String_get_Length_m2221(L_26, /*hidden argument*/NULL);
+		int32_t L_27 = String_get_Length_m1_430(L_26, /*hidden argument*/NULL);
 		if ((((int32_t)L_25) >= ((int32_t)L_27)))
 		{
 			goto IL_0118;
@@ -10909,7 +10909,7 @@ IL_00df:
 		__this->___ptr_1 = ((int32_t)((int32_t)L_30+(int32_t)1));
 		int32_t L_31 = V_0;
 		NullCheck(L_28);
-		uint16_t L_32 = String_get_Chars_m2240(L_28, L_31, /*hidden argument*/NULL);
+		uint16_t L_32 = String_get_Chars_m1_344(L_28, L_31, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)10)))))
 		{
 			goto IL_00df;
@@ -10933,9 +10933,9 @@ IL_011d:
 		String_t* L_34 = (__this->___pattern_0);
 		int32_t L_35 = (__this->___ptr_1);
 		NullCheck(L_34);
-		uint16_t L_36 = String_get_Chars_m2240(L_34, L_35, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_37 = Char_IsWhiteSpace_m5743(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		uint16_t L_36 = String_get_Chars_m1_344(L_34, L_35, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_37 = Char_IsWhiteSpace_m1_307(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		if (!L_37)
 		{
 			goto IL_0187;
@@ -10956,7 +10956,7 @@ IL_0151:
 		int32_t L_39 = (__this->___ptr_1);
 		String_t* L_40 = (__this->___pattern_0);
 		NullCheck(L_40);
-		int32_t L_41 = String_get_Length_m2221(L_40, /*hidden argument*/NULL);
+		int32_t L_41 = String_get_Length_m1_430(L_40, /*hidden argument*/NULL);
 		if ((((int32_t)L_39) >= ((int32_t)L_41)))
 		{
 			goto IL_0182;
@@ -10966,9 +10966,9 @@ IL_0151:
 		String_t* L_42 = (__this->___pattern_0);
 		int32_t L_43 = (__this->___ptr_1);
 		NullCheck(L_42);
-		uint16_t L_44 = String_get_Chars_m2240(L_42, L_43, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_45 = Char_IsWhiteSpace_m5743(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
+		uint16_t L_44 = String_get_Chars_m1_344(L_42, L_43, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_45 = Char_IsWhiteSpace_m1_307(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
 		if (L_45)
 		{
 			goto IL_0143;
@@ -10990,7 +10990,7 @@ IL_0188:
 		int32_t L_46 = (__this->___ptr_1);
 		String_t* L_47 = (__this->___pattern_0);
 		NullCheck(L_47);
-		int32_t L_48 = String_get_Length_m2221(L_47, /*hidden argument*/NULL);
+		int32_t L_48 = String_get_Length_m1_430(L_47, /*hidden argument*/NULL);
 		if ((((int32_t)L_46) < ((int32_t)L_48)))
 		{
 			goto IL_0005;
@@ -11001,85 +11001,85 @@ IL_0188:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::ResolveReferences()
-extern TypeInfo* Hashtable_t836_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* ArrayList_t771_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerable_t708_il2cpp_TypeInfo_var;
-extern TypeInfo* Expression_t1063_il2cpp_TypeInfo_var;
+extern TypeInfo* Hashtable_t1_171_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* ArrayList_t1_112_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerable_t1_826_il2cpp_TypeInfo_var;
+extern TypeInfo* Expression_t2_125_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CaptureAssertion_t1072_il2cpp_TypeInfo_var;
-extern TypeInfo* BackslashNumber_t1078_il2cpp_TypeInfo_var;
-extern TypeInfo* Reference_t1077_il2cpp_TypeInfo_var;
-extern TypeInfo* BalancingGroup_t1068_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral956;
-extern Il2CppCodeGenString* _stringLiteral957;
-extern Il2CppCodeGenString* _stringLiteral958;
-extern "C" void Parser_ResolveReferences_m5469 (Parser_t1060 * __this, const MethodInfo* method)
+extern TypeInfo* CaptureAssertion_t2_134_il2cpp_TypeInfo_var;
+extern TypeInfo* BackslashNumber_t2_140_il2cpp_TypeInfo_var;
+extern TypeInfo* Reference_t2_139_il2cpp_TypeInfo_var;
+extern TypeInfo* BalancingGroup_t2_130_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2318;
+extern Il2CppCodeGenString* _stringLiteral2319;
+extern Il2CppCodeGenString* _stringLiteral2320;
+extern "C" void Parser_ResolveReferences_m2_698 (Parser_t2_122 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Hashtable_t836_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(569);
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		ArrayList_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(492);
-		IEnumerable_t708_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(417);
-		Expression_t1063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		CaptureAssertion_t1072_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
-		BackslashNumber_t1078_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
-		Reference_t1077_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(728);
-		BalancingGroup_t1068_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(725);
-		_stringLiteral956 = il2cpp_codegen_string_literal_from_index(956);
-		_stringLiteral957 = il2cpp_codegen_string_literal_from_index(957);
-		_stringLiteral958 = il2cpp_codegen_string_literal_from_index(958);
+		Hashtable_t1_171_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		ArrayList_t1_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(55);
+		IEnumerable_t1_826_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(168);
+		Expression_t2_125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		CaptureAssertion_t2_134_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(723);
+		BackslashNumber_t2_140_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(724);
+		Reference_t2_139_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(725);
+		BalancingGroup_t2_130_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(722);
+		_stringLiteral2318 = il2cpp_codegen_string_literal_from_index(2318);
+		_stringLiteral2319 = il2cpp_codegen_string_literal_from_index(2319);
+		_stringLiteral2320 = il2cpp_codegen_string_literal_from_index(2320);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	Hashtable_t836 * V_1 = {0};
-	ArrayList_t771 * V_2 = {0};
-	CapturingGroup_t1067 * V_3 = {0};
+	Hashtable_t1_171 * V_1 = {0};
+	ArrayList_t1_112 * V_2 = {0};
+	CapturingGroup_t2_129 * V_3 = {0};
 	Object_t * V_4 = {0};
-	CapturingGroup_t1067 * V_5 = {0};
+	CapturingGroup_t2_129 * V_5 = {0};
 	Object_t * V_6 = {0};
-	CapturingGroup_t1067 * V_7 = {0};
+	CapturingGroup_t2_129 * V_7 = {0};
 	int32_t V_8 = 0;
 	int32_t V_9 = 0;
 	String_t* V_10 = {0};
-	Expression_t1063 * V_11 = {0};
+	Expression_t2_125 * V_11 = {0};
 	Object_t * V_12 = {0};
 	String_t* V_13 = {0};
-	BackslashNumber_t1078 * V_14 = {0};
-	CapturingGroup_t1067 * V_15 = {0};
+	BackslashNumber_t2_140 * V_14 = {0};
+	CapturingGroup_t2_129 * V_15 = {0};
 	Object_t * V_16 = {0};
 	int32_t V_17 = 0;
 	Object_t * V_18 = {0};
 	Object_t * V_19 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	String_t* G_B50_0 = {0};
-	Parser_t1060 * G_B50_1 = {0};
+	Parser_t2_122 * G_B50_1 = {0};
 	String_t* G_B49_0 = {0};
-	Parser_t1060 * G_B49_1 = {0};
+	Parser_t2_122 * G_B49_1 = {0};
 	String_t* G_B51_0 = {0};
 	String_t* G_B51_1 = {0};
-	Parser_t1060 * G_B51_2 = {0};
+	Parser_t2_122 * G_B51_2 = {0};
 	{
 		V_0 = 1;
-		Hashtable_t836 * L_0 = (Hashtable_t836 *)il2cpp_codegen_object_new (Hashtable_t836_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m4745(L_0, /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_0 = (Hashtable_t1_171 *)il2cpp_codegen_object_new (Hashtable_t1_171_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1_1742(L_0, /*hidden argument*/NULL);
 		V_1 = L_0;
-		V_2 = (ArrayList_t771 *)NULL;
-		ArrayList_t771 * L_1 = (__this->___caps_2);
+		V_2 = (ArrayList_t1_112 *)NULL;
+		ArrayList_t1_112 * L_1 = (__this->___caps_2);
 		NullCheck(L_1);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_1);
 		V_4 = L_2;
@@ -11096,11 +11096,11 @@ IL_001c:
 		{
 			Object_t * L_3 = V_4;
 			NullCheck(L_3);
-			Object_t * L_4 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_3);
-			V_3 = ((CapturingGroup_t1067 *)CastclassClass(L_4, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-			CapturingGroup_t1067 * L_5 = V_3;
+			Object_t * L_4 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_3);
+			V_3 = ((CapturingGroup_t2_129 *)CastclassClass(L_4, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+			CapturingGroup_t2_129 * L_5 = V_3;
 			NullCheck(L_5);
-			String_t* L_6 = CapturingGroup_get_Name_m5517(L_5, /*hidden argument*/NULL);
+			String_t* L_6 = CapturingGroup_get_Name_m2_746(L_5, /*hidden argument*/NULL);
 			if (!L_6)
 			{
 				goto IL_0039;
@@ -11114,17 +11114,17 @@ IL_0034:
 
 IL_0039:
 		{
-			Hashtable_t836 * L_7 = V_1;
-			String_t* L_8 = Int32_ToString_m388((&V_0), /*hidden argument*/NULL);
-			CapturingGroup_t1067 * L_9 = V_3;
+			Hashtable_t1_171 * L_7 = V_1;
+			String_t* L_8 = Int32_ToString_m1_63((&V_0), /*hidden argument*/NULL);
+			CapturingGroup_t2_129 * L_9 = V_3;
 			NullCheck(L_7);
 			VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_7, L_8, L_9);
-			CapturingGroup_t1067 * L_10 = V_3;
+			CapturingGroup_t2_129 * L_10 = V_3;
 			int32_t L_11 = V_0;
 			int32_t L_12 = L_11;
 			V_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
 			NullCheck(L_10);
-			CapturingGroup_set_Index_m5516(L_10, L_12, /*hidden argument*/NULL);
+			CapturingGroup_set_Index_m2_745(L_10, L_12, /*hidden argument*/NULL);
 			int32_t L_13 = (__this->___num_groups_4);
 			__this->___num_groups_4 = ((int32_t)((int32_t)L_13+(int32_t)1));
 		}
@@ -11133,7 +11133,7 @@ IL_0060:
 		{
 			Object_t * L_14 = V_4;
 			NullCheck(L_14);
-			bool L_15 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_14);
+			bool L_15 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_14);
 			if (L_15)
 			{
 				goto IL_001c;
@@ -11147,7 +11147,7 @@ IL_006c:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_0071;
 	}
 
@@ -11155,7 +11155,7 @@ FINALLY_0071:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_16 = V_4;
-			V_16 = ((Object_t *)IsInst(L_16, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_16 = ((Object_t *)IsInst(L_16, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_17 = V_16;
 			if (L_17)
 			{
@@ -11172,19 +11172,19 @@ IL_007f:
 		{
 			Object_t * L_18 = V_16;
 			NullCheck(L_18);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_18);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_18);
 			IL2CPP_END_FINALLY(113)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(113)
 	{
 		IL2CPP_JUMP_TBL(0x87, IL_0087)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0087:
 	{
-		ArrayList_t771 * L_19 = (__this->___caps_2);
+		ArrayList_t1_112 * L_19 = (__this->___caps_2);
 		NullCheck(L_19);
 		Object_t * L_20 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_19);
 		V_6 = L_20;
@@ -11201,11 +11201,11 @@ IL_0099:
 		{
 			Object_t * L_21 = V_6;
 			NullCheck(L_21);
-			Object_t * L_22 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_21);
-			V_5 = ((CapturingGroup_t1067 *)CastclassClass(L_22, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-			CapturingGroup_t1067 * L_23 = V_5;
+			Object_t * L_22 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_21);
+			V_5 = ((CapturingGroup_t2_129 *)CastclassClass(L_22, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+			CapturingGroup_t2_129 * L_23 = V_5;
 			NullCheck(L_23);
-			String_t* L_24 = CapturingGroup_get_Name_m5517(L_23, /*hidden argument*/NULL);
+			String_t* L_24 = CapturingGroup_get_Name_m2_746(L_23, /*hidden argument*/NULL);
 			if (L_24)
 			{
 				goto IL_00b8;
@@ -11219,10 +11219,10 @@ IL_00b3:
 
 IL_00b8:
 		{
-			Hashtable_t836 * L_25 = V_1;
-			CapturingGroup_t1067 * L_26 = V_5;
+			Hashtable_t1_171 * L_25 = V_1;
+			CapturingGroup_t2_129 * L_26 = V_5;
 			NullCheck(L_26);
-			String_t* L_27 = CapturingGroup_get_Name_m5517(L_26, /*hidden argument*/NULL);
+			String_t* L_27 = CapturingGroup_get_Name_m2_746(L_26, /*hidden argument*/NULL);
 			NullCheck(L_25);
 			bool L_28 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(28 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_25, L_27);
 			if (!L_28)
@@ -11233,22 +11233,22 @@ IL_00b8:
 
 IL_00ca:
 		{
-			Hashtable_t836 * L_29 = V_1;
-			CapturingGroup_t1067 * L_30 = V_5;
+			Hashtable_t1_171 * L_29 = V_1;
+			CapturingGroup_t2_129 * L_30 = V_5;
 			NullCheck(L_30);
-			String_t* L_31 = CapturingGroup_get_Name_m5517(L_30, /*hidden argument*/NULL);
+			String_t* L_31 = CapturingGroup_get_Name_m2_746(L_30, /*hidden argument*/NULL);
 			NullCheck(L_29);
 			Object_t * L_32 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_29, L_31);
-			V_7 = ((CapturingGroup_t1067 *)CastclassClass(L_32, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-			CapturingGroup_t1067 * L_33 = V_5;
-			CapturingGroup_t1067 * L_34 = V_7;
+			V_7 = ((CapturingGroup_t2_129 *)CastclassClass(L_32, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+			CapturingGroup_t2_129 * L_33 = V_5;
+			CapturingGroup_t2_129 * L_34 = V_7;
 			NullCheck(L_34);
-			int32_t L_35 = CapturingGroup_get_Index_m5515(L_34, /*hidden argument*/NULL);
+			int32_t L_35 = CapturingGroup_get_Index_m2_744(L_34, /*hidden argument*/NULL);
 			NullCheck(L_33);
-			CapturingGroup_set_Index_m5516(L_33, L_35, /*hidden argument*/NULL);
-			CapturingGroup_t1067 * L_36 = V_5;
+			CapturingGroup_set_Index_m2_745(L_33, L_35, /*hidden argument*/NULL);
+			CapturingGroup_t2_129 * L_36 = V_5;
 			NullCheck(L_36);
-			int32_t L_37 = CapturingGroup_get_Index_m5515(L_36, /*hidden argument*/NULL);
+			int32_t L_37 = CapturingGroup_get_Index_m2_744(L_36, /*hidden argument*/NULL);
 			int32_t L_38 = V_0;
 			if ((!(((uint32_t)L_37) == ((uint32_t)L_38))))
 			{
@@ -11265,9 +11265,9 @@ IL_00f9:
 
 IL_0102:
 		{
-			CapturingGroup_t1067 * L_40 = V_5;
+			CapturingGroup_t2_129 * L_40 = V_5;
 			NullCheck(L_40);
-			int32_t L_41 = CapturingGroup_get_Index_m5515(L_40, /*hidden argument*/NULL);
+			int32_t L_41 = CapturingGroup_get_Index_m2_744(L_40, /*hidden argument*/NULL);
 			int32_t L_42 = V_0;
 			if ((((int32_t)L_41) <= ((int32_t)L_42)))
 			{
@@ -11277,8 +11277,8 @@ IL_0102:
 
 IL_010f:
 		{
-			ArrayList_t771 * L_43 = V_2;
-			CapturingGroup_t1067 * L_44 = V_5;
+			ArrayList_t1_112 * L_43 = V_2;
+			CapturingGroup_t2_129 * L_44 = V_5;
 			NullCheck(L_43);
 			VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_43, L_44);
 		}
@@ -11290,13 +11290,13 @@ IL_0118:
 
 IL_011d:
 		{
-			CapturingGroup_t1067 * L_45 = V_5;
+			CapturingGroup_t2_129 * L_45 = V_5;
 			NullCheck(L_45);
-			String_t* L_46 = CapturingGroup_get_Name_m5517(L_45, /*hidden argument*/NULL);
+			String_t* L_46 = CapturingGroup_get_Name_m2_746(L_45, /*hidden argument*/NULL);
 			NullCheck(L_46);
-			uint16_t L_47 = String_get_Chars_m2240(L_46, 0, /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-			bool L_48 = Char_IsDigit_m5742(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+			uint16_t L_47 = String_get_Chars_m1_344(L_46, 0, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+			bool L_48 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
 			if (!L_48)
 			{
 				goto IL_01ac;
@@ -11306,17 +11306,17 @@ IL_011d:
 IL_0134:
 		{
 			V_8 = 0;
-			CapturingGroup_t1067 * L_49 = V_5;
+			CapturingGroup_t2_129 * L_49 = V_5;
 			NullCheck(L_49);
-			String_t* L_50 = CapturingGroup_get_Name_m5517(L_49, /*hidden argument*/NULL);
-			int32_t L_51 = Parser_ParseDecimal_m5448(NULL /*static, unused*/, L_50, (&V_8), /*hidden argument*/NULL);
+			String_t* L_50 = CapturingGroup_get_Name_m2_746(L_49, /*hidden argument*/NULL);
+			int32_t L_51 = Parser_ParseDecimal_m2_677(NULL /*static, unused*/, L_50, (&V_8), /*hidden argument*/NULL);
 			V_9 = L_51;
 			int32_t L_52 = V_8;
-			CapturingGroup_t1067 * L_53 = V_5;
+			CapturingGroup_t2_129 * L_53 = V_5;
 			NullCheck(L_53);
-			String_t* L_54 = CapturingGroup_get_Name_m5517(L_53, /*hidden argument*/NULL);
+			String_t* L_54 = CapturingGroup_get_Name_m2_746(L_53, /*hidden argument*/NULL);
 			NullCheck(L_54);
-			int32_t L_55 = String_get_Length_m2221(L_54, /*hidden argument*/NULL);
+			int32_t L_55 = String_get_Length_m1_430(L_54, /*hidden argument*/NULL);
 			if ((!(((uint32_t)L_52) == ((uint32_t)L_55))))
 			{
 				goto IL_01ac;
@@ -11325,15 +11325,15 @@ IL_0134:
 
 IL_015a:
 		{
-			CapturingGroup_t1067 * L_56 = V_5;
+			CapturingGroup_t2_129 * L_56 = V_5;
 			int32_t L_57 = V_9;
 			NullCheck(L_56);
-			CapturingGroup_set_Index_m5516(L_56, L_57, /*hidden argument*/NULL);
-			Hashtable_t836 * L_58 = V_1;
-			CapturingGroup_t1067 * L_59 = V_5;
+			CapturingGroup_set_Index_m2_745(L_56, L_57, /*hidden argument*/NULL);
+			Hashtable_t1_171 * L_58 = V_1;
+			CapturingGroup_t2_129 * L_59 = V_5;
 			NullCheck(L_59);
-			String_t* L_60 = CapturingGroup_get_Name_m5517(L_59, /*hidden argument*/NULL);
-			CapturingGroup_t1067 * L_61 = V_5;
+			String_t* L_60 = CapturingGroup_get_Name_m2_746(L_59, /*hidden argument*/NULL);
+			CapturingGroup_t2_129 * L_61 = V_5;
 			NullCheck(L_58);
 			VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_58, L_60, L_61);
 			int32_t L_62 = (__this->___num_groups_4);
@@ -11355,7 +11355,7 @@ IL_0188:
 
 IL_0191:
 		{
-			ArrayList_t771 * L_66 = V_2;
+			ArrayList_t1_112 * L_66 = V_2;
 			if (L_66)
 			{
 				goto IL_019e;
@@ -11364,15 +11364,15 @@ IL_0191:
 
 IL_0197:
 		{
-			ArrayList_t771 * L_67 = (ArrayList_t771 *)il2cpp_codegen_object_new (ArrayList_t771_il2cpp_TypeInfo_var);
-			ArrayList__ctor_m5732(L_67, 4, /*hidden argument*/NULL);
+			ArrayList_t1_112 * L_67 = (ArrayList_t1_112 *)il2cpp_codegen_object_new (ArrayList_t1_112_il2cpp_TypeInfo_var);
+			ArrayList__ctor_m1_1595(L_67, 4, /*hidden argument*/NULL);
 			V_2 = L_67;
 		}
 
 IL_019e:
 		{
-			ArrayList_t771 * L_68 = V_2;
-			CapturingGroup_t1067 * L_69 = V_5;
+			ArrayList_t1_112 * L_68 = V_2;
+			CapturingGroup_t2_129 * L_69 = V_5;
 			NullCheck(L_68);
 			VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_68, L_69);
 		}
@@ -11384,7 +11384,7 @@ IL_01a7:
 
 IL_01ac:
 		{
-			String_t* L_70 = Int32_ToString_m388((&V_0), /*hidden argument*/NULL);
+			String_t* L_70 = Int32_ToString_m1_63((&V_0), /*hidden argument*/NULL);
 			V_10 = L_70;
 			goto IL_01ca;
 		}
@@ -11395,13 +11395,13 @@ IL_01ba:
 			int32_t L_72 = ((int32_t)((int32_t)L_71+(int32_t)1));
 			V_0 = L_72;
 			V_17 = L_72;
-			String_t* L_73 = Int32_ToString_m388((&V_17), /*hidden argument*/NULL);
+			String_t* L_73 = Int32_ToString_m1_63((&V_17), /*hidden argument*/NULL);
 			V_10 = L_73;
 		}
 
 IL_01ca:
 		{
-			Hashtable_t836 * L_74 = V_1;
+			Hashtable_t1_171 * L_74 = V_1;
 			String_t* L_75 = V_10;
 			NullCheck(L_74);
 			bool L_76 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(28 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_74, L_75);
@@ -11413,24 +11413,24 @@ IL_01ca:
 
 IL_01d7:
 		{
-			Hashtable_t836 * L_77 = V_1;
+			Hashtable_t1_171 * L_77 = V_1;
 			String_t* L_78 = V_10;
-			CapturingGroup_t1067 * L_79 = V_5;
+			CapturingGroup_t2_129 * L_79 = V_5;
 			NullCheck(L_77);
 			VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_77, L_78, L_79);
-			Hashtable_t836 * L_80 = V_1;
-			CapturingGroup_t1067 * L_81 = V_5;
+			Hashtable_t1_171 * L_80 = V_1;
+			CapturingGroup_t2_129 * L_81 = V_5;
 			NullCheck(L_81);
-			String_t* L_82 = CapturingGroup_get_Name_m5517(L_81, /*hidden argument*/NULL);
-			CapturingGroup_t1067 * L_83 = V_5;
+			String_t* L_82 = CapturingGroup_get_Name_m2_746(L_81, /*hidden argument*/NULL);
+			CapturingGroup_t2_129 * L_83 = V_5;
 			NullCheck(L_80);
 			VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_80, L_82, L_83);
-			CapturingGroup_t1067 * L_84 = V_5;
+			CapturingGroup_t2_129 * L_84 = V_5;
 			int32_t L_85 = V_0;
 			int32_t L_86 = L_85;
 			V_0 = ((int32_t)((int32_t)L_86+(int32_t)1));
 			NullCheck(L_84);
-			CapturingGroup_set_Index_m5516(L_84, L_86, /*hidden argument*/NULL);
+			CapturingGroup_set_Index_m2_745(L_84, L_86, /*hidden argument*/NULL);
 			int32_t L_87 = (__this->___num_groups_4);
 			__this->___num_groups_4 = ((int32_t)((int32_t)L_87+(int32_t)1));
 		}
@@ -11439,7 +11439,7 @@ IL_020a:
 		{
 			Object_t * L_88 = V_6;
 			NullCheck(L_88);
-			bool L_89 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_88);
+			bool L_89 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_88);
 			if (L_89)
 			{
 				goto IL_0099;
@@ -11453,7 +11453,7 @@ IL_0216:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_021b;
 	}
 
@@ -11461,7 +11461,7 @@ FINALLY_021b:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_90 = V_6;
-			V_18 = ((Object_t *)IsInst(L_90, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_18 = ((Object_t *)IsInst(L_90, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_91 = V_18;
 			if (L_91)
 			{
@@ -11478,38 +11478,38 @@ IL_0229:
 		{
 			Object_t * L_92 = V_18;
 			NullCheck(L_92);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_92);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_92);
 			IL2CPP_END_FINALLY(539)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(539)
 	{
 		IL2CPP_JUMP_TBL(0x231, IL_0231)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0231:
 	{
 		int32_t L_93 = V_0;
 		__this->___gap_5 = L_93;
-		ArrayList_t771 * L_94 = V_2;
+		ArrayList_t1_112 * L_94 = V_2;
 		if (!L_94)
 		{
 			goto IL_0245;
 		}
 	}
 	{
-		ArrayList_t771 * L_95 = V_2;
-		Parser_HandleExplicitNumericGroups_m5470(__this, L_95, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_95 = V_2;
+		Parser_HandleExplicitNumericGroups_m2_699(__this, L_95, /*hidden argument*/NULL);
 	}
 
 IL_0245:
 	{
-		Hashtable_t836 * L_96 = (__this->___refs_3);
+		Hashtable_t1_171 * L_96 = (__this->___refs_3);
 		NullCheck(L_96);
 		Object_t * L_97 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(21 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_96);
 		NullCheck(L_97);
-		Object_t * L_98 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t708_il2cpp_TypeInfo_var, L_97);
+		Object_t * L_98 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t1_826_il2cpp_TypeInfo_var, L_97);
 		V_12 = L_98;
 	}
 
@@ -11524,14 +11524,14 @@ IL_025c:
 		{
 			Object_t * L_99 = V_12;
 			NullCheck(L_99);
-			Object_t * L_100 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_99);
-			V_11 = ((Expression_t1063 *)CastclassClass(L_100, Expression_t1063_il2cpp_TypeInfo_var));
-			Hashtable_t836 * L_101 = (__this->___refs_3);
-			Expression_t1063 * L_102 = V_11;
+			Object_t * L_100 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_99);
+			V_11 = ((Expression_t2_125 *)CastclassClass(L_100, Expression_t2_125_il2cpp_TypeInfo_var));
+			Hashtable_t1_171 * L_101 = (__this->___refs_3);
+			Expression_t2_125 * L_102 = V_11;
 			NullCheck(L_101);
 			Object_t * L_103 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_101, L_102);
 			V_13 = ((String_t*)CastclassSealed(L_103, String_t_il2cpp_TypeInfo_var));
-			Hashtable_t836 * L_104 = V_1;
+			Hashtable_t1_171 * L_104 = V_1;
 			String_t* L_105 = V_13;
 			NullCheck(L_104);
 			bool L_106 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(28 /* System.Boolean System.Collections.Hashtable::Contains(System.Object) */, L_104, L_105);
@@ -11543,8 +11543,8 @@ IL_025c:
 
 IL_028b:
 		{
-			Expression_t1063 * L_107 = V_11;
-			if (!((CaptureAssertion_t1072 *)IsInstClass(L_107, CaptureAssertion_t1072_il2cpp_TypeInfo_var)))
+			Expression_t2_125 * L_107 = V_11;
+			if (!((CaptureAssertion_t2_134 *)IsInstClass(L_107, CaptureAssertion_t2_134_il2cpp_TypeInfo_var)))
 			{
 				goto IL_02ae;
 			}
@@ -11554,9 +11554,9 @@ IL_0297:
 		{
 			String_t* L_108 = V_13;
 			NullCheck(L_108);
-			uint16_t L_109 = String_get_Chars_m2240(L_108, 0, /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-			bool L_110 = Char_IsDigit_m5742(NULL /*static, unused*/, L_109, /*hidden argument*/NULL);
+			uint16_t L_109 = String_get_Chars_m1_344(L_108, 0, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+			bool L_110 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_109, /*hidden argument*/NULL);
 			if (L_110)
 			{
 				goto IL_02ae;
@@ -11570,9 +11570,9 @@ IL_02a9:
 
 IL_02ae:
 		{
-			Expression_t1063 * L_111 = V_11;
-			V_14 = ((BackslashNumber_t1078 *)IsInstClass(L_111, BackslashNumber_t1078_il2cpp_TypeInfo_var));
-			BackslashNumber_t1078 * L_112 = V_14;
+			Expression_t2_125 * L_111 = V_11;
+			V_14 = ((BackslashNumber_t2_140 *)IsInstClass(L_111, BackslashNumber_t2_140_il2cpp_TypeInfo_var));
+			BackslashNumber_t2_140 * L_112 = V_14;
 			if (!L_112)
 			{
 				goto IL_02d2;
@@ -11581,11 +11581,11 @@ IL_02ae:
 
 IL_02be:
 		{
-			BackslashNumber_t1078 * L_113 = V_14;
+			BackslashNumber_t2_140 * L_113 = V_14;
 			String_t* L_114 = V_13;
-			Hashtable_t836 * L_115 = V_1;
+			Hashtable_t1_171 * L_115 = V_1;
 			NullCheck(L_113);
-			bool L_116 = BackslashNumber_ResolveReference_m5578(L_113, L_114, L_115, /*hidden argument*/NULL);
+			bool L_116 = BackslashNumber_ResolveReference_m2_807(L_113, L_114, L_115, /*hidden argument*/NULL);
 			if (!L_116)
 			{
 				goto IL_02d2;
@@ -11601,14 +11601,14 @@ IL_02d2:
 		{
 			String_t* L_117 = V_13;
 			NullCheck(L_117);
-			uint16_t L_118 = String_get_Chars_m2240(L_117, 0, /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-			bool L_119 = Char_IsDigit_m5742(NULL /*static, unused*/, L_118, /*hidden argument*/NULL);
-			G_B49_0 = _stringLiteral956;
+			uint16_t L_118 = String_get_Chars_m1_344(L_117, 0, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+			bool L_119 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_118, /*hidden argument*/NULL);
+			G_B49_0 = _stringLiteral2318;
 			G_B49_1 = __this;
 			if (!L_119)
 			{
-				G_B50_0 = _stringLiteral956;
+				G_B50_0 = _stringLiteral2318;
 				G_B50_1 = __this;
 				goto IL_02f4;
 			}
@@ -11616,7 +11616,7 @@ IL_02d2:
 
 IL_02ea:
 		{
-			G_B51_0 = _stringLiteral957;
+			G_B51_0 = _stringLiteral2319;
 			G_B51_1 = G_B49_0;
 			G_B51_2 = G_B49_1;
 			goto IL_02f9;
@@ -11624,7 +11624,7 @@ IL_02ea:
 
 IL_02f4:
 		{
-			G_B51_0 = _stringLiteral958;
+			G_B51_0 = _stringLiteral2320;
 			G_B51_1 = G_B50_0;
 			G_B51_2 = G_B50_1;
 		}
@@ -11633,21 +11633,21 @@ IL_02f9:
 		{
 			String_t* L_120 = V_13;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_121 = String_Concat_m375(NULL /*static, unused*/, G_B51_1, G_B51_0, L_120, /*hidden argument*/NULL);
+			String_t* L_121 = String_Concat_m1_421(NULL /*static, unused*/, G_B51_1, G_B51_0, L_120, /*hidden argument*/NULL);
 			NullCheck(G_B51_2);
-			ArgumentException_t409 * L_122 = Parser_NewParseException_m5477(G_B51_2, L_121, /*hidden argument*/NULL);
+			ArgumentException_t1_638 * L_122 = Parser_NewParseException_m2_706(G_B51_2, L_121, /*hidden argument*/NULL);
 			il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_122);
 		}
 
 IL_0306:
 		{
-			Hashtable_t836 * L_123 = V_1;
+			Hashtable_t1_171 * L_123 = V_1;
 			String_t* L_124 = V_13;
 			NullCheck(L_123);
 			Object_t * L_125 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_123, L_124);
-			V_15 = ((CapturingGroup_t1067 *)CastclassClass(L_125, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-			Expression_t1063 * L_126 = V_11;
-			if (!((Reference_t1077 *)IsInstClass(L_126, Reference_t1077_il2cpp_TypeInfo_var)))
+			V_15 = ((CapturingGroup_t2_129 *)CastclassClass(L_125, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+			Expression_t2_125 * L_126 = V_11;
+			if (!((Reference_t2_139 *)IsInstClass(L_126, Reference_t2_139_il2cpp_TypeInfo_var)))
 			{
 				goto IL_0334;
 			}
@@ -11655,17 +11655,17 @@ IL_0306:
 
 IL_0321:
 		{
-			Expression_t1063 * L_127 = V_11;
-			CapturingGroup_t1067 * L_128 = V_15;
-			NullCheck(((Reference_t1077 *)CastclassClass(L_127, Reference_t1077_il2cpp_TypeInfo_var)));
-			Reference_set_CapturingGroup_m5572(((Reference_t1077 *)CastclassClass(L_127, Reference_t1077_il2cpp_TypeInfo_var)), L_128, /*hidden argument*/NULL);
+			Expression_t2_125 * L_127 = V_11;
+			CapturingGroup_t2_129 * L_128 = V_15;
+			NullCheck(((Reference_t2_139 *)CastclassClass(L_127, Reference_t2_139_il2cpp_TypeInfo_var)));
+			Reference_set_CapturingGroup_m2_801(((Reference_t2_139 *)CastclassClass(L_127, Reference_t2_139_il2cpp_TypeInfo_var)), L_128, /*hidden argument*/NULL);
 			goto IL_036d;
 		}
 
 IL_0334:
 		{
-			Expression_t1063 * L_129 = V_11;
-			if (!((CaptureAssertion_t1072 *)IsInstClass(L_129, CaptureAssertion_t1072_il2cpp_TypeInfo_var)))
+			Expression_t2_125 * L_129 = V_11;
+			if (!((CaptureAssertion_t2_134 *)IsInstClass(L_129, CaptureAssertion_t2_134_il2cpp_TypeInfo_var)))
 			{
 				goto IL_0353;
 			}
@@ -11673,17 +11673,17 @@ IL_0334:
 
 IL_0340:
 		{
-			Expression_t1063 * L_130 = V_11;
-			CapturingGroup_t1067 * L_131 = V_15;
-			NullCheck(((CaptureAssertion_t1072 *)CastclassClass(L_130, CaptureAssertion_t1072_il2cpp_TypeInfo_var)));
-			CaptureAssertion_set_CapturingGroup_m5543(((CaptureAssertion_t1072 *)CastclassClass(L_130, CaptureAssertion_t1072_il2cpp_TypeInfo_var)), L_131, /*hidden argument*/NULL);
+			Expression_t2_125 * L_130 = V_11;
+			CapturingGroup_t2_129 * L_131 = V_15;
+			NullCheck(((CaptureAssertion_t2_134 *)CastclassClass(L_130, CaptureAssertion_t2_134_il2cpp_TypeInfo_var)));
+			CaptureAssertion_set_CapturingGroup_m2_772(((CaptureAssertion_t2_134 *)CastclassClass(L_130, CaptureAssertion_t2_134_il2cpp_TypeInfo_var)), L_131, /*hidden argument*/NULL);
 			goto IL_036d;
 		}
 
 IL_0353:
 		{
-			Expression_t1063 * L_132 = V_11;
-			if (!((BalancingGroup_t1068 *)IsInstClass(L_132, BalancingGroup_t1068_il2cpp_TypeInfo_var)))
+			Expression_t2_125 * L_132 = V_11;
+			if (!((BalancingGroup_t2_130 *)IsInstClass(L_132, BalancingGroup_t2_130_il2cpp_TypeInfo_var)))
 			{
 				goto IL_036d;
 			}
@@ -11691,17 +11691,17 @@ IL_0353:
 
 IL_035f:
 		{
-			Expression_t1063 * L_133 = V_11;
-			CapturingGroup_t1067 * L_134 = V_15;
-			NullCheck(((BalancingGroup_t1068 *)CastclassClass(L_133, BalancingGroup_t1068_il2cpp_TypeInfo_var)));
-			BalancingGroup_set_Balance_m5524(((BalancingGroup_t1068 *)CastclassClass(L_133, BalancingGroup_t1068_il2cpp_TypeInfo_var)), L_134, /*hidden argument*/NULL);
+			Expression_t2_125 * L_133 = V_11;
+			CapturingGroup_t2_129 * L_134 = V_15;
+			NullCheck(((BalancingGroup_t2_130 *)CastclassClass(L_133, BalancingGroup_t2_130_il2cpp_TypeInfo_var)));
+			BalancingGroup_set_Balance_m2_753(((BalancingGroup_t2_130 *)CastclassClass(L_133, BalancingGroup_t2_130_il2cpp_TypeInfo_var)), L_134, /*hidden argument*/NULL);
 		}
 
 IL_036d:
 		{
 			Object_t * L_135 = V_12;
 			NullCheck(L_135);
-			bool L_136 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_135);
+			bool L_136 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_135);
 			if (L_136)
 			{
 				goto IL_025c;
@@ -11715,7 +11715,7 @@ IL_0379:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_037e;
 	}
 
@@ -11723,7 +11723,7 @@ FINALLY_037e:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_137 = V_12;
-			V_19 = ((Object_t *)IsInst(L_137, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_19 = ((Object_t *)IsInst(L_137, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_138 = V_19;
 			if (L_138)
 			{
@@ -11740,14 +11740,14 @@ IL_038c:
 		{
 			Object_t * L_139 = V_19;
 			NullCheck(L_139);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_139);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_139);
 			IL2CPP_END_FINALLY(894)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(894)
 	{
 		IL2CPP_JUMP_TBL(0x394, IL_0394)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0394:
@@ -11756,30 +11756,30 @@ IL_0394:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Parser::HandleExplicitNumericGroups(System.Collections.ArrayList)
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern "C" void Parser_HandleExplicitNumericGroups_m5470 (Parser_t1060 * __this, ArrayList_t771 * ___explicit_numeric_groups, const MethodInfo* method)
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern "C" void Parser_HandleExplicitNumericGroups_m2_699 (Parser_t2_122 * __this, ArrayList_t1_112 * ___explicit_numeric_groups, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	CapturingGroup_t1067 * V_3 = {0};
+	CapturingGroup_t2_129 * V_3 = {0};
 	int32_t V_4 = 0;
-	CapturingGroup_t1067 * V_5 = {0};
+	CapturingGroup_t2_129 * V_5 = {0};
 	{
 		int32_t L_0 = (__this->___gap_5);
 		V_0 = L_0;
 		V_1 = 0;
-		ArrayList_t771 * L_1 = ___explicit_numeric_groups;
+		ArrayList_t1_112 * L_1 = ___explicit_numeric_groups;
 		NullCheck(L_1);
 		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_1);
 		V_2 = L_2;
-		ArrayList_t771 * L_3 = ___explicit_numeric_groups;
+		ArrayList_t1_112 * L_3 = ___explicit_numeric_groups;
 		NullCheck(L_3);
 		VirtActionInvoker0::Invoke(45 /* System.Void System.Collections.ArrayList::Sort() */, L_3);
 		goto IL_004d;
@@ -11787,14 +11787,14 @@ extern "C" void Parser_HandleExplicitNumericGroups_m5470 (Parser_t1060 * __this,
 
 IL_001b:
 	{
-		ArrayList_t771 * L_4 = ___explicit_numeric_groups;
+		ArrayList_t1_112 * L_4 = ___explicit_numeric_groups;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, L_5);
-		V_3 = ((CapturingGroup_t1067 *)CastclassClass(L_6, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-		CapturingGroup_t1067 * L_7 = V_3;
+		V_3 = ((CapturingGroup_t2_129 *)CastclassClass(L_6, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+		CapturingGroup_t2_129 * L_7 = V_3;
 		NullCheck(L_7);
-		int32_t L_8 = CapturingGroup_get_Index_m5515(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = CapturingGroup_get_Index_m2_744(L_7, /*hidden argument*/NULL);
 		int32_t L_9 = V_0;
 		if ((((int32_t)L_8) <= ((int32_t)L_9)))
 		{
@@ -11807,9 +11807,9 @@ IL_001b:
 
 IL_0039:
 	{
-		CapturingGroup_t1067 * L_10 = V_3;
+		CapturingGroup_t2_129 * L_10 = V_3;
 		NullCheck(L_10);
-		int32_t L_11 = CapturingGroup_get_Index_m5515(L_10, /*hidden argument*/NULL);
+		int32_t L_11 = CapturingGroup_get_Index_m2_744(L_10, /*hidden argument*/NULL);
 		int32_t L_12 = V_0;
 		if ((!(((uint32_t)L_11) == ((uint32_t)L_12))))
 		{
@@ -11848,14 +11848,14 @@ IL_0054:
 
 IL_0063:
 	{
-		ArrayList_t771 * L_19 = ___explicit_numeric_groups;
+		ArrayList_t1_112 * L_19 = ___explicit_numeric_groups;
 		int32_t L_20 = V_1;
 		NullCheck(L_19);
 		Object_t * L_21 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_19, L_20);
-		V_5 = ((CapturingGroup_t1067 *)CastclassClass(L_21, CapturingGroup_t1067_il2cpp_TypeInfo_var));
-		CapturingGroup_t1067 * L_22 = V_5;
+		V_5 = ((CapturingGroup_t2_129 *)CastclassClass(L_21, CapturingGroup_t2_129_il2cpp_TypeInfo_var));
+		CapturingGroup_t2_129 * L_22 = V_5;
 		NullCheck(L_22);
-		int32_t L_23 = CapturingGroup_get_Index_m5515(L_22, /*hidden argument*/NULL);
+		int32_t L_23 = CapturingGroup_get_Index_m2_744(L_22, /*hidden argument*/NULL);
 		int32_t L_24 = V_4;
 		if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
 		{
@@ -11863,25 +11863,25 @@ IL_0063:
 		}
 	}
 	{
-		CapturingGroup_t1067 * L_25 = V_5;
+		CapturingGroup_t2_129 * L_25 = V_5;
 		int32_t L_26 = V_0;
 		NullCheck(L_25);
-		CapturingGroup_set_Index_m5516(L_25, ((int32_t)((int32_t)L_26-(int32_t)1)), /*hidden argument*/NULL);
+		CapturingGroup_set_Index_m2_745(L_25, ((int32_t)((int32_t)L_26-(int32_t)1)), /*hidden argument*/NULL);
 		goto IL_00a3;
 	}
 
 IL_008e:
 	{
-		CapturingGroup_t1067 * L_27 = V_5;
+		CapturingGroup_t2_129 * L_27 = V_5;
 		NullCheck(L_27);
-		int32_t L_28 = CapturingGroup_get_Index_m5515(L_27, /*hidden argument*/NULL);
+		int32_t L_28 = CapturingGroup_get_Index_m2_744(L_27, /*hidden argument*/NULL);
 		V_4 = L_28;
-		CapturingGroup_t1067 * L_29 = V_5;
+		CapturingGroup_t2_129 * L_29 = V_5;
 		int32_t L_30 = V_0;
 		int32_t L_31 = L_30;
 		V_0 = ((int32_t)((int32_t)L_31+(int32_t)1));
 		NullCheck(L_29);
-		CapturingGroup_set_Index_m5516(L_29, L_31, /*hidden argument*/NULL);
+		CapturingGroup_set_Index_m2_745(L_29, L_31, /*hidden argument*/NULL);
 	}
 
 IL_00a3:
@@ -11904,7 +11904,7 @@ IL_00a7:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnoreCase(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsIgnoreCase_m5471 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsIgnoreCase_m2_700 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11912,7 +11912,7 @@ extern "C" bool Parser_IsIgnoreCase_m5471 (Object_t * __this /* static, unused *
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsMultiline(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsMultiline_m5472 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsMultiline_m2_701 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11920,7 +11920,7 @@ extern "C" bool Parser_IsMultiline_m5472 (Object_t * __this /* static, unused */
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsExplicitCapture(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsExplicitCapture_m5473 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsExplicitCapture_m2_702 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11928,7 +11928,7 @@ extern "C" bool Parser_IsExplicitCapture_m5473 (Object_t * __this /* static, unu
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsSingleline(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsSingleline_m5474 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsSingleline_m2_703 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11936,7 +11936,7 @@ extern "C" bool Parser_IsSingleline_m5474 (Object_t * __this /* static, unused *
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsIgnorePatternWhitespace(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsIgnorePatternWhitespace_m5475 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsIgnorePatternWhitespace_m2_704 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11944,7 +11944,7 @@ extern "C" bool Parser_IsIgnorePatternWhitespace_m5475 (Object_t * __this /* sta
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Parser::IsECMAScript(System.Text.RegularExpressions.RegexOptions)
-extern "C" bool Parser_IsECMAScript_m5476 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
+extern "C" bool Parser_IsECMAScript_m2_705 (Object_t * __this /* static, unused */, int32_t ___options, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___options;
@@ -11953,50 +11953,50 @@ extern "C" bool Parser_IsECMAScript_m5476 (Object_t * __this /* static, unused *
 }
 // System.ArgumentException System.Text.RegularExpressions.Syntax.Parser::NewParseException(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t409_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral959;
-extern Il2CppCodeGenString* _stringLiteral960;
-extern "C" ArgumentException_t409 * Parser_NewParseException_m5477 (Parser_t1060 * __this, String_t* ___msg, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t1_638_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2321;
+extern Il2CppCodeGenString* _stringLiteral2322;
+extern "C" ArgumentException_t1_638 * Parser_NewParseException_m2_706 (Parser_t2_122 * __this, String_t* ___msg, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		ArgumentException_t409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
-		_stringLiteral959 = il2cpp_codegen_string_literal_from_index(959);
-		_stringLiteral960 = il2cpp_codegen_string_literal_from_index(960);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		ArgumentException_t1_638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4);
+		_stringLiteral2321 = il2cpp_codegen_string_literal_from_index(2321);
+		_stringLiteral2322 = il2cpp_codegen_string_literal_from_index(2322);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = (__this->___pattern_0);
 		String_t* L_1 = ___msg;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Concat_m457(NULL /*static, unused*/, _stringLiteral959, L_0, _stringLiteral960, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Concat_m1_422(NULL /*static, unused*/, _stringLiteral2321, L_0, _stringLiteral2322, L_1, /*hidden argument*/NULL);
 		___msg = L_2;
 		String_t* L_3 = ___msg;
 		String_t* L_4 = (__this->___pattern_0);
-		ArgumentException_t409 * L_5 = (ArgumentException_t409 *)il2cpp_codegen_object_new (ArgumentException_t409_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3764(L_5, L_3, L_4, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_5 = (ArgumentException_t1_638 *)il2cpp_codegen_object_new (ArgumentException_t1_638_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1_4584(L_5, L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Void System.Text.RegularExpressions.QuickSearch::.ctor(System.String,System.Boolean,System.Boolean)
-extern TypeInfo* QuickSearch_t1054_il2cpp_TypeInfo_var;
-extern "C" void QuickSearch__ctor_m5478 (QuickSearch_t1054 * __this, String_t* ___str, bool ___ignore, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* QuickSearch_t2_116_il2cpp_TypeInfo_var;
+extern "C" void QuickSearch__ctor_m2_707 (QuickSearch_t2_116 * __this, String_t* ___str, bool ___ignore, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		QuickSearch_t1054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(708);
+		QuickSearch_t2_116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(705);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___str;
 		__this->___str_0 = L_0;
 		String_t* L_1 = ___str;
 		NullCheck(L_1);
-		int32_t L_2 = String_get_Length_m2221(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = String_get_Length_m1_430(L_1, /*hidden argument*/NULL);
 		__this->___len_1 = L_2;
 		bool L_3 = ___ignore;
 		__this->___ignore_2 = L_3;
@@ -12011,22 +12011,22 @@ extern "C" void QuickSearch__ctor_m5478 (QuickSearch_t1054 * __this, String_t* _
 	{
 		String_t* L_6 = ___str;
 		NullCheck(L_6);
-		String_t* L_7 = String_ToLower_m5747(L_6, /*hidden argument*/NULL);
+		String_t* L_7 = String_ToLower_m1_407(L_6, /*hidden argument*/NULL);
 		___str = L_7;
 	}
 
 IL_0035:
 	{
 		int32_t L_8 = (__this->___len_1);
-		IL2CPP_RUNTIME_CLASS_INIT(QuickSearch_t1054_il2cpp_TypeInfo_var);
-		int32_t L_9 = ((QuickSearch_t1054_StaticFields*)QuickSearch_t1054_il2cpp_TypeInfo_var->static_fields)->___THRESHOLD_6;
+		IL2CPP_RUNTIME_CLASS_INIT(QuickSearch_t2_116_il2cpp_TypeInfo_var);
+		int32_t L_9 = ((QuickSearch_t2_116_StaticFields*)QuickSearch_t2_116_il2cpp_TypeInfo_var->static_fields)->___THRESHOLD_6;
 		if ((((int32_t)L_8) <= ((int32_t)L_9)))
 		{
 			goto IL_004b;
 		}
 	}
 	{
-		QuickSearch_SetupShiftTable_m5482(__this, /*hidden argument*/NULL);
+		QuickSearch_SetupShiftTable_m2_711(__this, /*hidden argument*/NULL);
 	}
 
 IL_004b:
@@ -12035,22 +12035,22 @@ IL_004b:
 	}
 }
 // System.Void System.Text.RegularExpressions.QuickSearch::.cctor()
-extern TypeInfo* QuickSearch_t1054_il2cpp_TypeInfo_var;
-extern "C" void QuickSearch__cctor_m5479 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* QuickSearch_t2_116_il2cpp_TypeInfo_var;
+extern "C" void QuickSearch__cctor_m2_708 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		QuickSearch_t1054_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(708);
+		QuickSearch_t2_116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(705);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		((QuickSearch_t1054_StaticFields*)QuickSearch_t1054_il2cpp_TypeInfo_var->static_fields)->___THRESHOLD_6 = 5;
+		((QuickSearch_t2_116_StaticFields*)QuickSearch_t2_116_il2cpp_TypeInfo_var->static_fields)->___THRESHOLD_6 = 5;
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.QuickSearch::get_Length()
-extern "C" int32_t QuickSearch_get_Length_m5480 (QuickSearch_t1054 * __this, const MethodInfo* method)
+extern "C" int32_t QuickSearch_get_Length_m2_709 (QuickSearch_t2_116 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___len_1);
@@ -12058,7 +12058,7 @@ extern "C" int32_t QuickSearch_get_Length_m5480 (QuickSearch_t1054 * __this, con
 	}
 }
 // System.Int32 System.Text.RegularExpressions.QuickSearch::Search(System.String,System.Int32,System.Int32)
-extern "C" int32_t QuickSearch_Search_m5481 (QuickSearch_t1054 * __this, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method)
+extern "C" int32_t QuickSearch_Search_m2_710 (QuickSearch_t2_116 * __this, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -12089,7 +12089,7 @@ IL_0016:
 		int32_t L_4 = V_0;
 		String_t* L_5 = ___text;
 		NullCheck(L_5);
-		int32_t L_6 = String_get_Length_m2221(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_get_Length_m1_430(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_4) <= ((int32_t)L_6)))
 		{
 			goto IL_0029;
@@ -12098,7 +12098,7 @@ IL_0016:
 	{
 		String_t* L_7 = ___text;
 		NullCheck(L_7);
-		int32_t L_8 = String_get_Length_m2221(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = String_get_Length_m1_430(L_7, /*hidden argument*/NULL);
 		V_0 = L_8;
 	}
 
@@ -12118,12 +12118,12 @@ IL_003a:
 	{
 		String_t* L_10 = (__this->___str_0);
 		NullCheck(L_10);
-		uint16_t L_11 = String_get_Chars_m2240(L_10, 0, /*hidden argument*/NULL);
+		uint16_t L_11 = String_get_Chars_m1_344(L_10, 0, /*hidden argument*/NULL);
 		String_t* L_12 = ___text;
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
-		uint16_t L_14 = String_get_Chars_m2240(L_12, L_13, /*hidden argument*/NULL);
-		uint16_t L_15 = QuickSearch_GetChar_m5484(__this, L_14, /*hidden argument*/NULL);
+		uint16_t L_14 = String_get_Chars_m1_344(L_12, L_13, /*hidden argument*/NULL);
+		uint16_t L_15 = QuickSearch_GetChar_m2_713(__this, L_14, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_11) == ((uint32_t)L_15))))
 		{
 			goto IL_005a;
@@ -12198,14 +12198,14 @@ IL_00aa:
 		String_t* L_29 = (__this->___str_0);
 		int32_t L_30 = V_1;
 		NullCheck(L_29);
-		uint16_t L_31 = String_get_Chars_m2240(L_29, L_30, /*hidden argument*/NULL);
+		uint16_t L_31 = String_get_Chars_m1_344(L_29, L_30, /*hidden argument*/NULL);
 		String_t* L_32 = ___text;
 		int32_t L_33 = V_0;
 		int32_t L_34 = (__this->___len_1);
 		int32_t L_35 = V_1;
 		NullCheck(L_32);
-		uint16_t L_36 = String_get_Chars_m2240(L_32, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_33-(int32_t)L_34))+(int32_t)1))+(int32_t)L_35)), /*hidden argument*/NULL);
-		uint16_t L_37 = QuickSearch_GetChar_m5484(__this, L_36, /*hidden argument*/NULL);
+		uint16_t L_36 = String_get_Chars_m1_344(L_32, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_33-(int32_t)L_34))+(int32_t)1))+(int32_t)L_35)), /*hidden argument*/NULL);
+		uint16_t L_37 = QuickSearch_GetChar_m2_713(__this, L_36, /*hidden argument*/NULL);
 		if ((((int32_t)L_31) == ((int32_t)L_37)))
 		{
 			goto IL_0094;
@@ -12225,8 +12225,8 @@ IL_00aa:
 		int32_t L_42 = V_0;
 		int32_t L_43 = (__this->___len_1);
 		NullCheck(L_41);
-		uint16_t L_44 = String_get_Chars_m2240(L_41, ((int32_t)((int32_t)L_42-(int32_t)L_43)), /*hidden argument*/NULL);
-		int32_t L_45 = QuickSearch_GetShiftDistance_m5483(__this, L_44, /*hidden argument*/NULL);
+		uint16_t L_44 = String_get_Chars_m1_344(L_41, ((int32_t)((int32_t)L_42-(int32_t)L_43)), /*hidden argument*/NULL);
+		int32_t L_45 = QuickSearch_GetShiftDistance_m2_712(__this, L_44, /*hidden argument*/NULL);
 		V_0 = ((int32_t)((int32_t)L_40-(int32_t)L_45));
 		goto IL_00fb;
 	}
@@ -12267,12 +12267,12 @@ IL_0118:
 	{
 		String_t* L_49 = (__this->___str_0);
 		NullCheck(L_49);
-		uint16_t L_50 = String_get_Chars_m2240(L_49, 0, /*hidden argument*/NULL);
+		uint16_t L_50 = String_get_Chars_m1_344(L_49, 0, /*hidden argument*/NULL);
 		String_t* L_51 = ___text;
 		int32_t L_52 = V_0;
 		NullCheck(L_51);
-		uint16_t L_53 = String_get_Chars_m2240(L_51, L_52, /*hidden argument*/NULL);
-		uint16_t L_54 = QuickSearch_GetChar_m5484(__this, L_53, /*hidden argument*/NULL);
+		uint16_t L_53 = String_get_Chars_m1_344(L_51, L_52, /*hidden argument*/NULL);
+		uint16_t L_54 = QuickSearch_GetChar_m2_713(__this, L_53, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_50) == ((uint32_t)L_54))))
 		{
 			goto IL_0138;
@@ -12307,7 +12307,7 @@ IL_0145:
 		int32_t L_59 = ___end;
 		String_t* L_60 = ___text;
 		NullCheck(L_60);
-		int32_t L_61 = String_get_Length_m2221(L_60, /*hidden argument*/NULL);
+		int32_t L_61 = String_get_Length_m1_430(L_60, /*hidden argument*/NULL);
 		int32_t L_62 = (__this->___len_1);
 		if ((((int32_t)L_59) <= ((int32_t)((int32_t)((int32_t)L_61-(int32_t)L_62)))))
 		{
@@ -12317,7 +12317,7 @@ IL_0145:
 	{
 		String_t* L_63 = ___text;
 		NullCheck(L_63);
-		int32_t L_64 = String_get_Length_m2221(L_63, /*hidden argument*/NULL);
+		int32_t L_64 = String_get_Length_m1_430(L_63, /*hidden argument*/NULL);
 		int32_t L_65 = (__this->___len_1);
 		___end = ((int32_t)((int32_t)L_64-(int32_t)L_65));
 	}
@@ -12354,13 +12354,13 @@ IL_0187:
 		String_t* L_70 = (__this->___str_0);
 		int32_t L_71 = V_2;
 		NullCheck(L_70);
-		uint16_t L_72 = String_get_Chars_m2240(L_70, L_71, /*hidden argument*/NULL);
+		uint16_t L_72 = String_get_Chars_m1_344(L_70, L_71, /*hidden argument*/NULL);
 		String_t* L_73 = ___text;
 		int32_t L_74 = V_0;
 		int32_t L_75 = V_2;
 		NullCheck(L_73);
-		uint16_t L_76 = String_get_Chars_m2240(L_73, ((int32_t)((int32_t)L_74+(int32_t)L_75)), /*hidden argument*/NULL);
-		uint16_t L_77 = QuickSearch_GetChar_m5484(__this, L_76, /*hidden argument*/NULL);
+		uint16_t L_76 = String_get_Chars_m1_344(L_73, ((int32_t)((int32_t)L_74+(int32_t)L_75)), /*hidden argument*/NULL);
+		uint16_t L_77 = QuickSearch_GetChar_m2_713(__this, L_76, /*hidden argument*/NULL);
 		if ((((int32_t)L_72) == ((int32_t)L_77)))
 		{
 			goto IL_017a;
@@ -12380,8 +12380,8 @@ IL_0187:
 		int32_t L_82 = V_0;
 		int32_t L_83 = (__this->___len_1);
 		NullCheck(L_81);
-		uint16_t L_84 = String_get_Chars_m2240(L_81, ((int32_t)((int32_t)L_82+(int32_t)L_83)), /*hidden argument*/NULL);
-		int32_t L_85 = QuickSearch_GetShiftDistance_m5483(__this, L_84, /*hidden argument*/NULL);
+		uint16_t L_84 = String_get_Chars_m1_344(L_81, ((int32_t)((int32_t)L_82+(int32_t)L_83)), /*hidden argument*/NULL);
+		int32_t L_85 = QuickSearch_GetShiftDistance_m2_712(__this, L_84, /*hidden argument*/NULL);
 		V_0 = ((int32_t)((int32_t)L_80+(int32_t)L_85));
 		goto IL_01cf;
 	}
@@ -12407,19 +12407,19 @@ IL_01d6:
 	}
 }
 // System.Void System.Text.RegularExpressions.QuickSearch::SetupShiftTable()
-extern TypeInfo* ByteU5BU5D_t740_il2cpp_TypeInfo_var;
-extern TypeInfo* Hashtable_t836_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
-extern "C" void QuickSearch_SetupShiftTable_m5482 (QuickSearch_t1054 * __this, const MethodInfo* method)
+extern TypeInfo* ByteU5BU5D_t1_70_il2cpp_TypeInfo_var;
+extern TypeInfo* Hashtable_t1_171_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
+extern "C" void QuickSearch_SetupShiftTable_m2_711 (QuickSearch_t2_116 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ByteU5BU5D_t740_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(473);
-		Hashtable_t836_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(569);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
+		ByteU5BU5D_t1_70_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(42);
+		Hashtable_t1_171_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
@@ -12446,7 +12446,7 @@ IL_0017:
 		String_t* L_1 = (__this->___str_0);
 		int32_t L_2 = V_2;
 		NullCheck(L_1);
-		uint16_t L_3 = String_get_Chars_m2240(L_1, L_2, /*hidden argument*/NULL);
+		uint16_t L_3 = String_get_Chars_m1_344(L_1, L_2, /*hidden argument*/NULL);
 		V_3 = L_3;
 		uint16_t L_4 = V_3;
 		if ((((int32_t)L_4) > ((int32_t)((int32_t)255))))
@@ -12494,7 +12494,7 @@ IL_0045:
 	}
 	{
 		uint8_t L_11 = V_1;
-		__this->___shift_4 = ((ByteU5BU5D_t740*)SZArrayNew(ByteU5BU5D_t740_il2cpp_TypeInfo_var, ((int32_t)((int32_t)L_11+(int32_t)1))));
+		__this->___shift_4 = ((ByteU5BU5D_t1_70*)SZArrayNew(ByteU5BU5D_t1_70_il2cpp_TypeInfo_var, ((int32_t)((int32_t)L_11+(int32_t)1))));
 		bool L_12 = V_0;
 		if (!L_12)
 		{
@@ -12502,8 +12502,8 @@ IL_0045:
 		}
 	}
 	{
-		Hashtable_t836 * L_13 = (Hashtable_t836 *)il2cpp_codegen_object_new (Hashtable_t836_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m4745(L_13, /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_13 = (Hashtable_t1_171 *)il2cpp_codegen_object_new (Hashtable_t1_171_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1_1742(L_13, /*hidden argument*/NULL);
 		__this->___shiftExtended_5 = L_13;
 	}
 
@@ -12543,10 +12543,10 @@ IL_0098:
 IL_009c:
 	{
 		NullCheck(G_B14_1);
-		uint16_t L_19 = String_get_Chars_m2240(G_B14_1, G_B14_0, /*hidden argument*/NULL);
+		uint16_t L_19 = String_get_Chars_m1_344(G_B14_1, G_B14_0, /*hidden argument*/NULL);
 		V_6 = L_19;
 		uint16_t L_20 = V_6;
-		ByteU5BU5D_t740* L_21 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_21 = (__this->___shift_4);
 		NullCheck(L_21);
 		if ((((int32_t)L_20) >= ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_21)->max_length)))))))
 		{
@@ -12561,7 +12561,7 @@ IL_009c:
 		}
 	}
 	{
-		ByteU5BU5D_t740* L_23 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_23 = (__this->___shift_4);
 		uint16_t L_24 = V_6;
 		int32_t L_25 = V_5;
 		NullCheck(L_23);
@@ -12572,7 +12572,7 @@ IL_009c:
 
 IL_00cf:
 	{
-		ByteU5BU5D_t740* L_26 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_26 = (__this->___shift_4);
 		uint16_t L_27 = V_6;
 		NullCheck(L_26);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_26, L_27);
@@ -12581,13 +12581,13 @@ IL_00cf:
 
 IL_00dd:
 	{
-		Hashtable_t836 * L_28 = (__this->___shiftExtended_5);
+		Hashtable_t1_171 * L_28 = (__this->___shiftExtended_5);
 		uint16_t L_29 = V_6;
 		uint16_t L_30 = L_29;
-		Object_t * L_31 = Box(Char_t389_il2cpp_TypeInfo_var, &L_30);
+		Object_t * L_31 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_30);
 		int32_t L_32 = V_5;
 		int32_t L_33 = L_32;
-		Object_t * L_34 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_33);
+		Object_t * L_34 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_33);
 		NullCheck(L_28);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(24 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_28, L_31, L_34);
 	}
@@ -12614,22 +12614,22 @@ IL_0102:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.QuickSearch::GetShiftDistance(System.Char)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
-extern "C" int32_t QuickSearch_GetShiftDistance_m5483 (QuickSearch_t1054 * __this, uint16_t ___c, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
+extern "C" int32_t QuickSearch_GetShiftDistance_m2_712 (QuickSearch_t2_116 * __this, uint16_t ___c, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	Object_t * V_1 = {0};
 	int32_t G_B15_0 = 0;
 	{
-		ByteU5BU5D_t740* L_0 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_0 = (__this->___shift_4);
 		if (L_0)
 		{
 			goto IL_000d;
@@ -12642,10 +12642,10 @@ extern "C" int32_t QuickSearch_GetShiftDistance_m5483 (QuickSearch_t1054 * __thi
 IL_000d:
 	{
 		uint16_t L_1 = ___c;
-		uint16_t L_2 = QuickSearch_GetChar_m5484(__this, L_1, /*hidden argument*/NULL);
+		uint16_t L_2 = QuickSearch_GetChar_m2_713(__this, L_1, /*hidden argument*/NULL);
 		___c = L_2;
 		uint16_t L_3 = ___c;
-		ByteU5BU5D_t740* L_4 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_4 = (__this->___shift_4);
 		NullCheck(L_4);
 		if ((((int32_t)L_3) >= ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_4)->max_length)))))))
 		{
@@ -12653,7 +12653,7 @@ IL_000d:
 		}
 	}
 	{
-		ByteU5BU5D_t740* L_5 = (__this->___shift_4);
+		ByteU5BU5D_t1_70* L_5 = (__this->___shift_4);
 		uint16_t L_6 = ___c;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
@@ -12703,7 +12703,7 @@ IL_004e:
 
 IL_0062:
 	{
-		Hashtable_t836 * L_14 = (__this->___shiftExtended_5);
+		Hashtable_t1_171 * L_14 = (__this->___shiftExtended_5);
 		if (L_14)
 		{
 			goto IL_0076;
@@ -12716,10 +12716,10 @@ IL_0062:
 
 IL_0076:
 	{
-		Hashtable_t836 * L_16 = (__this->___shiftExtended_5);
+		Hashtable_t1_171 * L_16 = (__this->___shiftExtended_5);
 		uint16_t L_17 = ___c;
 		uint16_t L_18 = L_17;
-		Object_t * L_19 = Box(Char_t389_il2cpp_TypeInfo_var, &L_18);
+		Object_t * L_19 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_18);
 		NullCheck(L_16);
 		Object_t * L_20 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_19);
 		V_1 = L_20;
@@ -12731,7 +12731,7 @@ IL_0076:
 	}
 	{
 		Object_t * L_22 = V_1;
-		G_B15_0 = ((*(int32_t*)((int32_t*)UnBox (L_22, Int32_t92_il2cpp_TypeInfo_var))));
+		G_B15_0 = ((*(int32_t*)((int32_t*)UnBox (L_22, Int32_t1_3_il2cpp_TypeInfo_var))));
 		goto IL_00a1;
 	}
 
@@ -12747,13 +12747,13 @@ IL_00a1:
 	}
 }
 // System.Char System.Text.RegularExpressions.QuickSearch::GetChar(System.Char)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" uint16_t QuickSearch_GetChar_m5484 (QuickSearch_t1054 * __this, uint16_t ___c, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" uint16_t QuickSearch_GetChar_m2_713 (QuickSearch_t2_116 * __this, uint16_t ___c, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t G_B3_0 = 0x0;
@@ -12773,8 +12773,8 @@ extern "C" uint16_t QuickSearch_GetChar_m5484 (QuickSearch_t1054 * __this, uint1
 IL_0011:
 	{
 		uint16_t L_2 = ___c;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_3 = Char_ToLower_m2292(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_3 = Char_ToLower_m1_311(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		G_B3_0 = L_3;
 	}
 
@@ -12784,31 +12784,31 @@ IL_0017:
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::.ctor(System.Text.RegularExpressions.Regex,System.String)
-extern "C" void ReplacementEvaluator__ctor_m5485 (ReplacementEvaluator_t1061 * __this, Regex_t646 * ___regex, String_t* ___replacement, const MethodInfo* method)
+extern "C" void ReplacementEvaluator__ctor_m2_714 (ReplacementEvaluator_t2_123 * __this, Regex_t2_90 * ___regex, String_t* ___replacement, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		Regex_t646 * L_0 = ___regex;
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		Regex_t2_90 * L_0 = ___regex;
 		__this->___regex_0 = L_0;
 		String_t* L_1 = ___replacement;
 		__this->___replacement_3 = L_1;
-		__this->___pieces_2 = (Int32U5BU5D_t425*)NULL;
+		__this->___pieces_2 = (Int32U5BU5D_t1_159*)NULL;
 		__this->___n_pieces_1 = 0;
-		ReplacementEvaluator_Compile_m5492(__this, /*hidden argument*/NULL);
+		ReplacementEvaluator_Compile_m2_721(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String System.Text.RegularExpressions.ReplacementEvaluator::Evaluate(System.Text.RegularExpressions.Match)
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern "C" String_t* ReplacementEvaluator_Evaluate_m5486 (ReplacementEvaluator_t1061 * __this, Match_t941 * ___match, const MethodInfo* method)
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern "C" String_t* ReplacementEvaluator_Evaluate_m2_715 (ReplacementEvaluator_t2_123 * __this, Match_t2_82 * ___match, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
 		s_Il2CppMethodIntialized = true;
 	}
-	StringBuilder_t358 * V_0 = {0};
+	StringBuilder_t1_144 * V_0 = {0};
 	{
 		int32_t L_0 = (__this->___n_pieces_1);
 		if (L_0)
@@ -12823,25 +12823,25 @@ extern "C" String_t* ReplacementEvaluator_Evaluate_m5486 (ReplacementEvaluator_t
 
 IL_0012:
 	{
-		StringBuilder_t358 * L_2 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_2, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_2 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_2, /*hidden argument*/NULL);
 		V_0 = L_2;
-		Match_t941 * L_3 = ___match;
-		StringBuilder_t358 * L_4 = V_0;
-		ReplacementEvaluator_EvaluateAppend_m5487(__this, L_3, L_4, /*hidden argument*/NULL);
-		StringBuilder_t358 * L_5 = V_0;
+		Match_t2_82 * L_3 = ___match;
+		StringBuilder_t1_144 * L_4 = V_0;
+		ReplacementEvaluator_EvaluateAppend_m2_716(__this, L_3, L_4, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_5 = V_0;
 		NullCheck(L_5);
-		String_t* L_6 = StringBuilder_ToString_m1899(L_5, /*hidden argument*/NULL);
+		String_t* L_6 = StringBuilder_ToString_m1_4322(L_5, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::EvaluateAppend(System.Text.RegularExpressions.Match,System.Text.StringBuilder)
-extern "C" void ReplacementEvaluator_EvaluateAppend_m5487 (ReplacementEvaluator_t1061 * __this, Match_t941 * ___match, StringBuilder_t358 * ___sb, const MethodInfo* method)
+extern "C" void ReplacementEvaluator_EvaluateAppend_m2_716 (ReplacementEvaluator_t2_123 * __this, Match_t2_82 * ___match, StringBuilder_t1_144 * ___sb, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	Group_t943 * V_3 = {0};
+	Group_t2_87 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
 		int32_t L_0 = (__this->___n_pieces_1);
@@ -12851,10 +12851,10 @@ extern "C" void ReplacementEvaluator_EvaluateAppend_m5487 (ReplacementEvaluator_
 		}
 	}
 	{
-		StringBuilder_t358 * L_1 = ___sb;
+		StringBuilder_t1_144 * L_1 = ___sb;
 		String_t* L_2 = (__this->___replacement_3);
 		NullCheck(L_1);
-		StringBuilder_Append_m3444(L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_1, L_2, /*hidden argument*/NULL);
 		return;
 	}
 
@@ -12866,7 +12866,7 @@ IL_0019:
 
 IL_0020:
 	{
-		Int32U5BU5D_t425* L_3 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_3 = (__this->___pieces_2);
 		int32_t L_4 = V_0;
 		int32_t L_5 = L_4;
 		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
@@ -12881,7 +12881,7 @@ IL_0020:
 		}
 	}
 	{
-		Int32U5BU5D_t425* L_8 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_8 = (__this->___pieces_2);
 		int32_t L_9 = V_0;
 		int32_t L_10 = L_9;
 		V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
@@ -12889,12 +12889,12 @@ IL_0020:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_10);
 		int32_t L_11 = L_10;
 		V_2 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_11, sizeof(int32_t)));
-		StringBuilder_t358 * L_12 = ___sb;
+		StringBuilder_t1_144 * L_12 = ___sb;
 		String_t* L_13 = (__this->___replacement_3);
 		int32_t L_14 = V_1;
 		int32_t L_15 = V_2;
 		NullCheck(L_12);
-		StringBuilder_Append_m5736(L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4334(L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
 		goto IL_00f1;
 	}
 
@@ -12907,25 +12907,25 @@ IL_0055:
 		}
 	}
 	{
-		Match_t941 * L_17 = ___match;
+		Match_t2_82 * L_17 = ___match;
 		NullCheck(L_17);
-		GroupCollection_t942 * L_18 = (GroupCollection_t942 *)VirtFuncInvoker0< GroupCollection_t942 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_17);
+		GroupCollection_t2_88 * L_18 = (GroupCollection_t2_88 *)VirtFuncInvoker0< GroupCollection_t2_88 * >::Invoke(4 /* System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups() */, L_17);
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
-		Group_t943 * L_20 = GroupCollection_get_Item_m4787(L_18, ((-((int32_t)((int32_t)L_19+(int32_t)4)))), /*hidden argument*/NULL);
+		Group_t2_87 * L_20 = GroupCollection_get_Item_m2_475(L_18, ((-((int32_t)((int32_t)L_19+(int32_t)4)))), /*hidden argument*/NULL);
 		V_3 = L_20;
-		StringBuilder_t358 * L_21 = ___sb;
-		Group_t943 * L_22 = V_3;
+		StringBuilder_t1_144 * L_21 = ___sb;
+		Group_t2_87 * L_22 = V_3;
 		NullCheck(L_22);
-		String_t* L_23 = Capture_get_Text_m5234(L_22, /*hidden argument*/NULL);
-		Group_t943 * L_24 = V_3;
+		String_t* L_23 = Capture_get_Text_m2_458(L_22, /*hidden argument*/NULL);
+		Group_t2_87 * L_24 = V_3;
 		NullCheck(L_24);
-		int32_t L_25 = Capture_get_Index_m5231(L_24, /*hidden argument*/NULL);
-		Group_t943 * L_26 = V_3;
+		int32_t L_25 = Capture_get_Index_m2_454(L_24, /*hidden argument*/NULL);
+		Group_t2_87 * L_26 = V_3;
 		NullCheck(L_26);
-		int32_t L_27 = Capture_get_Length_m5232(L_26, /*hidden argument*/NULL);
+		int32_t L_27 = Capture_get_Length_m2_455(L_26, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		StringBuilder_Append_m5736(L_21, L_23, L_25, L_27, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4334(L_21, L_23, L_25, L_27, /*hidden argument*/NULL);
 		goto IL_00f1;
 	}
 
@@ -12938,12 +12938,12 @@ IL_008b:
 		}
 	}
 	{
-		StringBuilder_t358 * L_29 = ___sb;
-		Match_t941 * L_30 = ___match;
+		StringBuilder_t1_144 * L_29 = ___sb;
+		Match_t2_82 * L_30 = ___match;
 		NullCheck(L_30);
-		String_t* L_31 = Capture_get_Text_m5234(L_30, /*hidden argument*/NULL);
+		String_t* L_31 = Capture_get_Text_m2_458(L_30, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		StringBuilder_Append_m3444(L_29, L_31, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_29, L_31, /*hidden argument*/NULL);
 		goto IL_00f1;
 	}
 
@@ -12956,40 +12956,40 @@ IL_00a4:
 		}
 	}
 	{
-		StringBuilder_t358 * L_33 = ___sb;
-		Match_t941 * L_34 = ___match;
+		StringBuilder_t1_144 * L_33 = ___sb;
+		Match_t2_82 * L_34 = ___match;
 		NullCheck(L_34);
-		String_t* L_35 = Capture_get_Text_m5234(L_34, /*hidden argument*/NULL);
-		Match_t941 * L_36 = ___match;
+		String_t* L_35 = Capture_get_Text_m2_458(L_34, /*hidden argument*/NULL);
+		Match_t2_82 * L_36 = ___match;
 		NullCheck(L_36);
-		int32_t L_37 = Capture_get_Index_m5231(L_36, /*hidden argument*/NULL);
+		int32_t L_37 = Capture_get_Index_m2_454(L_36, /*hidden argument*/NULL);
 		NullCheck(L_33);
-		StringBuilder_Append_m5736(L_33, L_35, 0, L_37, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4334(L_33, L_35, 0, L_37, /*hidden argument*/NULL);
 		goto IL_00f1;
 	}
 
 IL_00c5:
 	{
-		Match_t941 * L_38 = ___match;
+		Match_t2_82 * L_38 = ___match;
 		NullCheck(L_38);
-		int32_t L_39 = Capture_get_Index_m5231(L_38, /*hidden argument*/NULL);
-		Match_t941 * L_40 = ___match;
+		int32_t L_39 = Capture_get_Index_m2_454(L_38, /*hidden argument*/NULL);
+		Match_t2_82 * L_40 = ___match;
 		NullCheck(L_40);
-		int32_t L_41 = Capture_get_Length_m5232(L_40, /*hidden argument*/NULL);
+		int32_t L_41 = Capture_get_Length_m2_455(L_40, /*hidden argument*/NULL);
 		V_4 = ((int32_t)((int32_t)L_39+(int32_t)L_41));
-		StringBuilder_t358 * L_42 = ___sb;
-		Match_t941 * L_43 = ___match;
+		StringBuilder_t1_144 * L_42 = ___sb;
+		Match_t2_82 * L_43 = ___match;
 		NullCheck(L_43);
-		String_t* L_44 = Capture_get_Text_m5234(L_43, /*hidden argument*/NULL);
+		String_t* L_44 = Capture_get_Text_m2_458(L_43, /*hidden argument*/NULL);
 		int32_t L_45 = V_4;
-		Match_t941 * L_46 = ___match;
+		Match_t2_82 * L_46 = ___match;
 		NullCheck(L_46);
-		String_t* L_47 = Capture_get_Text_m5234(L_46, /*hidden argument*/NULL);
+		String_t* L_47 = Capture_get_Text_m2_458(L_46, /*hidden argument*/NULL);
 		NullCheck(L_47);
-		int32_t L_48 = String_get_Length_m2221(L_47, /*hidden argument*/NULL);
+		int32_t L_48 = String_get_Length_m1_430(L_47, /*hidden argument*/NULL);
 		int32_t L_49 = V_4;
 		NullCheck(L_42);
-		StringBuilder_Append_m5736(L_42, L_44, L_45, ((int32_t)((int32_t)L_48-(int32_t)L_49)), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4334(L_42, L_44, L_45, ((int32_t)((int32_t)L_48-(int32_t)L_49)), /*hidden argument*/NULL);
 	}
 
 IL_00f1:
@@ -13006,7 +13006,7 @@ IL_00f1:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.ReplacementEvaluator::get_NeedsGroupsOrCaptures()
-extern "C" bool ReplacementEvaluator_get_NeedsGroupsOrCaptures_m5488 (ReplacementEvaluator_t1061 * __this, const MethodInfo* method)
+extern "C" bool ReplacementEvaluator_get_NeedsGroupsOrCaptures_m2_717 (ReplacementEvaluator_t2_123 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___n_pieces_1);
@@ -13025,19 +13025,19 @@ IL_000d:
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::Ensure(System.Int32)
-extern TypeInfo* Int32U5BU5D_t425_il2cpp_TypeInfo_var;
-extern "C" void ReplacementEvaluator_Ensure_m5489 (ReplacementEvaluator_t1061 * __this, int32_t ___size, const MethodInfo* method)
+extern TypeInfo* Int32U5BU5D_t1_159_il2cpp_TypeInfo_var;
+extern "C" void ReplacementEvaluator_Ensure_m2_718 (ReplacementEvaluator_t2_123 * __this, int32_t ___size, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Int32U5BU5D_t425_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(458);
+		Int32U5BU5D_t1_159_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(47);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	Int32U5BU5D_t425* V_1 = {0};
+	Int32U5BU5D_t1_159* V_1 = {0};
 	{
-		Int32U5BU5D_t425* L_0 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_0 = (__this->___pieces_2);
 		if (L_0)
 		{
 			goto IL_0027;
@@ -13060,14 +13060,14 @@ extern "C" void ReplacementEvaluator_Ensure_m5489 (ReplacementEvaluator_t1061 * 
 IL_0016:
 	{
 		int32_t L_4 = V_0;
-		__this->___pieces_2 = ((Int32U5BU5D_t425*)SZArrayNew(Int32U5BU5D_t425_il2cpp_TypeInfo_var, L_4));
+		__this->___pieces_2 = ((Int32U5BU5D_t1_159*)SZArrayNew(Int32U5BU5D_t1_159_il2cpp_TypeInfo_var, L_4));
 		goto IL_0072;
 	}
 
 IL_0027:
 	{
 		int32_t L_5 = ___size;
-		Int32U5BU5D_t425* L_6 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_6 = (__this->___pieces_2);
 		NullCheck(L_6);
 		if ((((int32_t)L_5) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_6)->max_length)))))))
 		{
@@ -13075,9 +13075,9 @@ IL_0027:
 		}
 	}
 	{
-		Int32U5BU5D_t425* L_7 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_7 = (__this->___pieces_2);
 		NullCheck(L_7);
-		Int32U5BU5D_t425* L_8 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_8 = (__this->___pieces_2);
 		NullCheck(L_8);
 		V_0 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_7)->max_length))))+(int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_8)->max_length))))>>(int32_t)1))));
 		int32_t L_9 = V_0;
@@ -13095,12 +13095,12 @@ IL_0027:
 IL_0052:
 	{
 		int32_t L_12 = V_0;
-		V_1 = ((Int32U5BU5D_t425*)SZArrayNew(Int32U5BU5D_t425_il2cpp_TypeInfo_var, L_12));
-		Int32U5BU5D_t425* L_13 = (__this->___pieces_2);
-		Int32U5BU5D_t425* L_14 = V_1;
+		V_1 = ((Int32U5BU5D_t1_159*)SZArrayNew(Int32U5BU5D_t1_159_il2cpp_TypeInfo_var, L_12));
+		Int32U5BU5D_t1_159* L_13 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_14 = V_1;
 		int32_t L_15 = (__this->___n_pieces_1);
-		Array_Copy_m5750(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, (Array_t *)(Array_t *)L_14, L_15, /*hidden argument*/NULL);
-		Int32U5BU5D_t425* L_16 = V_1;
+		Array_Copy_m1_827(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, (Array_t *)(Array_t *)L_14, L_15, /*hidden argument*/NULL);
+		Int32U5BU5D_t1_159* L_16 = V_1;
 		__this->___pieces_2 = L_16;
 	}
 
@@ -13110,7 +13110,7 @@ IL_0072:
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::AddFromReplacement(System.Int32,System.Int32)
-extern "C" void ReplacementEvaluator_AddFromReplacement_m5490 (ReplacementEvaluator_t1061 * __this, int32_t ___start, int32_t ___end, const MethodInfo* method)
+extern "C" void ReplacementEvaluator_AddFromReplacement_m2_719 (ReplacementEvaluator_t2_123 * __this, int32_t ___start, int32_t ___end, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -13128,8 +13128,8 @@ extern "C" void ReplacementEvaluator_AddFromReplacement_m5490 (ReplacementEvalua
 IL_0008:
 	{
 		int32_t L_2 = (__this->___n_pieces_1);
-		ReplacementEvaluator_Ensure_m5489(__this, ((int32_t)((int32_t)L_2+(int32_t)2)), /*hidden argument*/NULL);
-		Int32U5BU5D_t425* L_3 = (__this->___pieces_2);
+		ReplacementEvaluator_Ensure_m2_718(__this, ((int32_t)((int32_t)L_2+(int32_t)2)), /*hidden argument*/NULL);
+		Int32U5BU5D_t1_159* L_3 = (__this->___pieces_2);
 		int32_t L_4 = (__this->___n_pieces_1);
 		int32_t L_5 = L_4;
 		V_0 = L_5;
@@ -13139,7 +13139,7 @@ IL_0008:
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_6);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_3, L_6, sizeof(int32_t))) = (int32_t)L_7;
-		Int32U5BU5D_t425* L_8 = (__this->___pieces_2);
+		Int32U5BU5D_t1_159* L_8 = (__this->___pieces_2);
 		int32_t L_9 = (__this->___n_pieces_1);
 		int32_t L_10 = L_9;
 		V_0 = L_10;
@@ -13154,13 +13154,13 @@ IL_0008:
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::AddInt(System.Int32)
-extern "C" void ReplacementEvaluator_AddInt_m5491 (ReplacementEvaluator_t1061 * __this, int32_t ___i, const MethodInfo* method)
+extern "C" void ReplacementEvaluator_AddInt_m2_720 (ReplacementEvaluator_t2_123 * __this, int32_t ___i, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = (__this->___n_pieces_1);
-		ReplacementEvaluator_Ensure_m5489(__this, ((int32_t)((int32_t)L_0+(int32_t)1)), /*hidden argument*/NULL);
-		Int32U5BU5D_t425* L_1 = (__this->___pieces_2);
+		ReplacementEvaluator_Ensure_m2_718(__this, ((int32_t)((int32_t)L_0+(int32_t)1)), /*hidden argument*/NULL);
+		Int32U5BU5D_t1_159* L_1 = (__this->___pieces_2);
 		int32_t L_2 = (__this->___n_pieces_1);
 		int32_t L_3 = L_2;
 		V_0 = L_3;
@@ -13174,7 +13174,7 @@ extern "C" void ReplacementEvaluator_AddInt_m5491 (ReplacementEvaluator_t1061 * 
 	}
 }
 // System.Void System.Text.RegularExpressions.ReplacementEvaluator::Compile()
-extern "C" void ReplacementEvaluator_Compile_m5492 (ReplacementEvaluator_t1061 * __this, const MethodInfo* method)
+extern "C" void ReplacementEvaluator_Compile_m2_721 (ReplacementEvaluator_t2_123 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -13194,7 +13194,7 @@ IL_0009:
 		int32_t L_2 = L_1;
 		V_1 = ((int32_t)((int32_t)L_2+(int32_t)1));
 		NullCheck(L_0);
-		uint16_t L_3 = String_get_Chars_m2240(L_0, L_2, /*hidden argument*/NULL);
+		uint16_t L_3 = String_get_Chars_m1_344(L_0, L_2, /*hidden argument*/NULL);
 		V_3 = L_3;
 		uint16_t L_4 = V_3;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)36))))
@@ -13211,7 +13211,7 @@ IL_0027:
 		int32_t L_5 = V_1;
 		String_t* L_6 = (__this->___replacement_3);
 		NullCheck(L_6);
-		int32_t L_7 = String_get_Length_m2221(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = String_get_Length_m1_430(L_6, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
 		{
 			goto IL_003d;
@@ -13226,7 +13226,7 @@ IL_003d:
 		String_t* L_8 = (__this->___replacement_3);
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
-		uint16_t L_10 = String_get_Chars_m2240(L_8, L_9, /*hidden argument*/NULL);
+		uint16_t L_10 = String_get_Chars_m1_344(L_8, L_9, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)36)))))
 		{
 			goto IL_0063;
@@ -13235,7 +13235,7 @@ IL_003d:
 	{
 		int32_t L_11 = V_0;
 		int32_t L_12 = V_1;
-		ReplacementEvaluator_AddFromReplacement_m5490(__this, L_11, L_12, /*hidden argument*/NULL);
+		ReplacementEvaluator_AddFromReplacement_m2_719(__this, L_11, L_12, /*hidden argument*/NULL);
 		int32_t L_13 = V_1;
 		int32_t L_14 = ((int32_t)((int32_t)L_13+(int32_t)1));
 		V_1 = L_14;
@@ -13247,7 +13247,7 @@ IL_0063:
 	{
 		int32_t L_15 = V_1;
 		V_2 = ((int32_t)((int32_t)L_15-(int32_t)1));
-		int32_t L_16 = ReplacementEvaluator_CompileTerm_m5493(__this, (&V_1), /*hidden argument*/NULL);
+		int32_t L_16 = ReplacementEvaluator_CompileTerm_m2_722(__this, (&V_1), /*hidden argument*/NULL);
 		V_4 = L_16;
 		int32_t L_17 = V_4;
 		if ((((int32_t)L_17) < ((int32_t)0)))
@@ -13263,9 +13263,9 @@ IL_007e:
 	{
 		int32_t L_18 = V_0;
 		int32_t L_19 = V_2;
-		ReplacementEvaluator_AddFromReplacement_m5490(__this, L_18, L_19, /*hidden argument*/NULL);
+		ReplacementEvaluator_AddFromReplacement_m2_719(__this, L_18, L_19, /*hidden argument*/NULL);
 		int32_t L_20 = V_4;
-		ReplacementEvaluator_AddInt_m5491(__this, L_20, /*hidden argument*/NULL);
+		ReplacementEvaluator_AddInt_m2_720(__this, L_20, /*hidden argument*/NULL);
 		int32_t L_21 = V_1;
 		V_0 = L_21;
 	}
@@ -13275,7 +13275,7 @@ IL_0090:
 		int32_t L_22 = V_1;
 		String_t* L_23 = (__this->___replacement_3);
 		NullCheck(L_23);
-		int32_t L_24 = String_get_Length_m2221(L_23, /*hidden argument*/NULL);
+		int32_t L_24 = String_get_Length_m1_430(L_23, /*hidden argument*/NULL);
 		if ((((int32_t)L_22) < ((int32_t)L_24)))
 		{
 			goto IL_0009;
@@ -13293,7 +13293,7 @@ IL_00a1:
 	{
 		int32_t L_26 = V_0;
 		int32_t L_27 = V_1;
-		ReplacementEvaluator_AddFromReplacement_m5490(__this, L_26, L_27, /*hidden argument*/NULL);
+		ReplacementEvaluator_AddFromReplacement_m2_719(__this, L_26, L_27, /*hidden argument*/NULL);
 	}
 
 IL_00af:
@@ -13302,17 +13302,17 @@ IL_00af:
 	}
 }
 // System.Int32 System.Text.RegularExpressions.ReplacementEvaluator::CompileTerm(System.Int32&)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* IndexOutOfRangeException_t632_il2cpp_TypeInfo_var;
-extern "C" int32_t ReplacementEvaluator_CompileTerm_m5493 (ReplacementEvaluator_t1061 * __this, int32_t* ___ptr, const MethodInfo* method)
+extern TypeInfo* IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var;
+extern "C" int32_t ReplacementEvaluator_CompileTerm_m2_722 (ReplacementEvaluator_t2_123 * __this, int32_t* ___ptr, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		IndexOutOfRangeException_t632_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(332);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(31);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = 0x0;
@@ -13321,9 +13321,9 @@ extern "C" int32_t ReplacementEvaluator_CompileTerm_m5493 (ReplacementEvaluator_
 	int32_t V_3 = 0;
 	uint16_t V_4 = 0x0;
 	int32_t V_5 = 0;
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
@@ -13331,11 +13331,11 @@ extern "C" int32_t ReplacementEvaluator_CompileTerm_m5493 (ReplacementEvaluator_
 		String_t* L_0 = (__this->___replacement_3);
 		int32_t* L_1 = ___ptr;
 		NullCheck(L_0);
-		uint16_t L_2 = String_get_Chars_m2240(L_0, (*((int32_t*)L_1)), /*hidden argument*/NULL);
+		uint16_t L_2 = String_get_Chars_m1_344(L_0, (*((int32_t*)L_1)), /*hidden argument*/NULL);
 		V_0 = L_2;
 		uint16_t L_3 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_4 = Char_IsDigit_m5742(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_4 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0045;
@@ -13344,7 +13344,7 @@ extern "C" int32_t ReplacementEvaluator_CompileTerm_m5493 (ReplacementEvaluator_
 	{
 		String_t* L_5 = (__this->___replacement_3);
 		int32_t* L_6 = ___ptr;
-		int32_t L_7 = Parser_ParseDecimal_m5448(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = Parser_ParseDecimal_m2_677(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
 		V_1 = L_7;
 		int32_t L_8 = V_1;
 		if ((((int32_t)L_8) < ((int32_t)0)))
@@ -13354,9 +13354,9 @@ extern "C" int32_t ReplacementEvaluator_CompileTerm_m5493 (ReplacementEvaluator_
 	}
 	{
 		int32_t L_9 = V_1;
-		Regex_t646 * L_10 = (__this->___regex_0);
+		Regex_t2_90 * L_10 = (__this->___regex_0);
 		NullCheck(L_10);
-		int32_t L_11 = Regex_get_GroupCount_m5297(L_10, /*hidden argument*/NULL);
+		int32_t L_11 = Regex_get_GroupCount_m2_526(L_10, /*hidden argument*/NULL);
 		if ((((int32_t)L_9) <= ((int32_t)L_11)))
 		{
 			goto IL_0040;
@@ -13446,9 +13446,9 @@ IL_0092:
 			String_t* L_20 = (__this->___replacement_3);
 			int32_t* L_21 = ___ptr;
 			NullCheck(L_20);
-			uint16_t L_22 = String_get_Chars_m2240(L_20, (*((int32_t*)L_21)), /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-			bool L_23 = Char_IsDigit_m5742(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+			uint16_t L_22 = String_get_Chars_m1_344(L_20, (*((int32_t*)L_21)), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+			bool L_23 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 			if (!L_23)
 			{
 				goto IL_00c1;
@@ -13459,7 +13459,7 @@ IL_00a9:
 		{
 			String_t* L_24 = (__this->___replacement_3);
 			int32_t* L_25 = ___ptr;
-			int32_t L_26 = Parser_ParseDecimal_m5448(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
+			int32_t L_26 = Parser_ParseDecimal_m2_677(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
 			V_3 = L_26;
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 			String_t* L_27 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -13471,7 +13471,7 @@ IL_00c1:
 		{
 			String_t* L_28 = (__this->___replacement_3);
 			int32_t* L_29 = ___ptr;
-			String_t* L_30 = Parser_ParseName_m5452(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
+			String_t* L_30 = Parser_ParseName_m2_681(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
 			V_2 = L_30;
 		}
 
@@ -13482,8 +13482,8 @@ IL_00ce:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t82 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (IndexOutOfRangeException_t632_il2cpp_TypeInfo_var, e.ex->object.klass))
+		__exception_local = (Exception_t1_33 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (IndexOutOfRangeException_t1_723_il2cpp_TypeInfo_var, e.ex->object.klass))
 			goto CATCH_00d3;
 		throw e;
 	}
@@ -13494,7 +13494,7 @@ CATCH_00d3:
 			int32_t* L_31 = ___ptr;
 			String_t* L_32 = (__this->___replacement_3);
 			NullCheck(L_32);
-			int32_t L_33 = String_get_Length_m2221(L_32, /*hidden argument*/NULL);
+			int32_t L_33 = String_get_Length_m1_430(L_32, /*hidden argument*/NULL);
 			*((int32_t*)(L_31)) = (int32_t)L_33;
 			V_5 = 0;
 			goto IL_017a;
@@ -13511,7 +13511,7 @@ IL_00ee:
 		int32_t* L_34 = ___ptr;
 		String_t* L_35 = (__this->___replacement_3);
 		NullCheck(L_35);
-		int32_t L_36 = String_get_Length_m2221(L_35, /*hidden argument*/NULL);
+		int32_t L_36 = String_get_Length_m1_430(L_35, /*hidden argument*/NULL);
 		if ((((int32_t)(*((int32_t*)L_34))) == ((int32_t)L_36)))
 		{
 			goto IL_011a;
@@ -13521,7 +13521,7 @@ IL_00ee:
 		String_t* L_37 = (__this->___replacement_3);
 		int32_t* L_38 = ___ptr;
 		NullCheck(L_37);
-		uint16_t L_39 = String_get_Chars_m2240(L_37, (*((int32_t*)L_38)), /*hidden argument*/NULL);
+		uint16_t L_39 = String_get_Chars_m1_344(L_37, (*((int32_t*)L_38)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)125)))))
 		{
 			goto IL_011a;
@@ -13548,17 +13548,17 @@ IL_011c:
 		String_t* L_43 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_44 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		bool L_45 = String_op_Inequality_m2239(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
+		bool L_45 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_43, L_44, /*hidden argument*/NULL);
 		if (!L_45)
 		{
 			goto IL_013f;
 		}
 	}
 	{
-		Regex_t646 * L_46 = (__this->___regex_0);
+		Regex_t2_90 * L_46 = (__this->___regex_0);
 		String_t* L_47 = V_2;
 		NullCheck(L_46);
-		int32_t L_48 = Regex_GroupNumberFromName_m5287(L_46, L_47, /*hidden argument*/NULL);
+		int32_t L_48 = Regex_GroupNumberFromName_m2_515(L_46, L_47, /*hidden argument*/NULL);
 		V_3 = L_48;
 	}
 
@@ -13572,9 +13572,9 @@ IL_013f:
 	}
 	{
 		int32_t L_50 = V_3;
-		Regex_t646 * L_51 = (__this->___regex_0);
+		Regex_t2_90 * L_51 = (__this->___regex_0);
 		NullCheck(L_51);
-		int32_t L_52 = Regex_get_GroupCount_m5297(L_51, /*hidden argument*/NULL);
+		int32_t L_52 = Regex_get_GroupCount_m2_526(L_51, /*hidden argument*/NULL);
 		if ((((int32_t)L_50) <= ((int32_t)L_52)))
 		{
 			goto IL_0159;
@@ -13609,9 +13609,9 @@ IL_0164:
 
 IL_0167:
 	{
-		Regex_t646 * L_54 = (__this->___regex_0);
+		Regex_t2_90 * L_54 = (__this->___regex_0);
 		NullCheck(L_54);
-		int32_t L_55 = Regex_get_GroupCount_m5297(L_54, /*hidden argument*/NULL);
+		int32_t L_55 = Regex_get_GroupCount_m2_526(L_54, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)((-L_55))-(int32_t)4));
 	}
 
@@ -13632,87 +13632,87 @@ IL_017a:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::.ctor()
-extern "C" void ExpressionCollection__ctor_m5494 (ExpressionCollection_t1062 * __this, const MethodInfo* method)
+extern "C" void ExpressionCollection__ctor_m2_723 (ExpressionCollection_t2_124 * __this, const MethodInfo* method)
 {
 	{
-		CollectionBase__ctor_m4719(__this, /*hidden argument*/NULL);
+		CollectionBase__ctor_m1_1664(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::Add(System.Text.RegularExpressions.Syntax.Expression)
-extern TypeInfo* IList_t701_il2cpp_TypeInfo_var;
-extern "C" void ExpressionCollection_Add_m5495 (ExpressionCollection_t1062 * __this, Expression_t1063 * ___e, const MethodInfo* method)
+extern TypeInfo* IList_t1_409_il2cpp_TypeInfo_var;
+extern "C" void ExpressionCollection_Add_m2_724 (ExpressionCollection_t2_124 * __this, Expression_t2_125 * ___e, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IList_t701_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(407);
+		IList_t1_409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = CollectionBase_get_List_m5751(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___e;
+		Object_t * L_0 = CollectionBase_get_List_m1_1682(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___e;
 		NullCheck(L_0);
-		InterfaceFuncInvoker1< int32_t, Object_t * >::Invoke(4 /* System.Int32 System.Collections.IList::Add(System.Object) */, IList_t701_il2cpp_TypeInfo_var, L_0, L_1);
+		InterfaceFuncInvoker1< int32_t, Object_t * >::Invoke(4 /* System.Int32 System.Collections.IList::Add(System.Object) */, IList_t1_409_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionCollection::get_Item(System.Int32)
-extern TypeInfo* IList_t701_il2cpp_TypeInfo_var;
-extern TypeInfo* Expression_t1063_il2cpp_TypeInfo_var;
-extern "C" Expression_t1063 * ExpressionCollection_get_Item_m5496 (ExpressionCollection_t1062 * __this, int32_t ___i, const MethodInfo* method)
+extern TypeInfo* IList_t1_409_il2cpp_TypeInfo_var;
+extern TypeInfo* Expression_t2_125_il2cpp_TypeInfo_var;
+extern "C" Expression_t2_125 * ExpressionCollection_get_Item_m2_725 (ExpressionCollection_t2_124 * __this, int32_t ___i, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IList_t701_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(407);
-		Expression_t1063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
+		IList_t1_409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
+		Expression_t2_125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = CollectionBase_get_List_m5751(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = CollectionBase_get_List_m1_1682(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___i;
 		NullCheck(L_0);
-		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t701_il2cpp_TypeInfo_var, L_0, L_1);
-		return ((Expression_t1063 *)CastclassClass(L_2, Expression_t1063_il2cpp_TypeInfo_var));
+		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t1_409_il2cpp_TypeInfo_var, L_0, L_1);
+		return ((Expression_t2_125 *)CastclassClass(L_2, Expression_t2_125_il2cpp_TypeInfo_var));
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::set_Item(System.Int32,System.Text.RegularExpressions.Syntax.Expression)
-extern TypeInfo* IList_t701_il2cpp_TypeInfo_var;
-extern "C" void ExpressionCollection_set_Item_m5497 (ExpressionCollection_t1062 * __this, int32_t ___i, Expression_t1063 * ___value, const MethodInfo* method)
+extern TypeInfo* IList_t1_409_il2cpp_TypeInfo_var;
+extern "C" void ExpressionCollection_set_Item_m2_726 (ExpressionCollection_t2_124 * __this, int32_t ___i, Expression_t2_125 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IList_t701_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(407);
+		IList_t1_409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(69);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = CollectionBase_get_List_m5751(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = CollectionBase_get_List_m1_1682(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___i;
-		Expression_t1063 * L_2 = ___value;
+		Expression_t2_125 * L_2 = ___value;
 		NullCheck(L_0);
-		InterfaceActionInvoker2< int32_t, Object_t * >::Invoke(3 /* System.Void System.Collections.IList::set_Item(System.Int32,System.Object) */, IList_t701_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		InterfaceActionInvoker2< int32_t, Object_t * >::Invoke(3 /* System.Void System.Collections.IList::set_Item(System.Int32,System.Object) */, IList_t1_409_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::OnValidate(System.Object)
-extern "C" void ExpressionCollection_OnValidate_m5498 (ExpressionCollection_t1062 * __this, Object_t * ___o, const MethodInfo* method)
+extern "C" void ExpressionCollection_OnValidate_m2_727 (ExpressionCollection_t2_124 * __this, Object_t * ___o, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Expression::.ctor()
-extern "C" void Expression__ctor_m5499 (Expression_t1063 * __this, const MethodInfo* method)
+extern "C" void Expression__ctor_m2_728 (Expression_t2_125 * __this, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Expression::GetFixedWidth()
-extern "C" int32_t Expression_GetFixedWidth_m5500 (Expression_t1063 * __this, const MethodInfo* method)
+extern "C" int32_t Expression_GetFixedWidth_m2_729 (Expression_t2_125 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -13736,54 +13736,54 @@ IL_0013:
 	}
 }
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean)
-extern TypeInfo* AnchorInfo_t1081_il2cpp_TypeInfo_var;
-extern "C" AnchorInfo_t1081 * Expression_GetAnchorInfo_m5501 (Expression_t1063 * __this, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* AnchorInfo_t2_142_il2cpp_TypeInfo_var;
+extern "C" AnchorInfo_t2_142 * Expression_GetAnchorInfo_m2_730 (Expression_t2_125 * __this, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AnchorInfo_t1081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		AnchorInfo_t2_142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		int32_t L_0 = Expression_GetFixedWidth_m5500(__this, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_1 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_1, __this, L_0, /*hidden argument*/NULL);
+		int32_t L_0 = Expression_GetFixedWidth_m2_729(__this, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_1 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_1, __this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::.ctor()
-extern TypeInfo* ExpressionCollection_t1062_il2cpp_TypeInfo_var;
-extern "C" void CompositeExpression__ctor_m5502 (CompositeExpression_t1064 * __this, const MethodInfo* method)
+extern TypeInfo* ExpressionCollection_t2_124_il2cpp_TypeInfo_var;
+extern "C" void CompositeExpression__ctor_m2_731 (CompositeExpression_t2_126 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExpressionCollection_t1062_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(731);
+		ExpressionCollection_t2_124_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(728);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Expression__ctor_m5499(__this, /*hidden argument*/NULL);
-		ExpressionCollection_t1062 * L_0 = (ExpressionCollection_t1062 *)il2cpp_codegen_object_new (ExpressionCollection_t1062_il2cpp_TypeInfo_var);
-		ExpressionCollection__ctor_m5494(L_0, /*hidden argument*/NULL);
+		Expression__ctor_m2_728(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = (ExpressionCollection_t2_124 *)il2cpp_codegen_object_new (ExpressionCollection_t2_124_il2cpp_TypeInfo_var);
+		ExpressionCollection__ctor_m2_723(L_0, /*hidden argument*/NULL);
 		__this->___expressions_0 = L_0;
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.CompositeExpression::get_Expressions()
-extern "C" ExpressionCollection_t1062 * CompositeExpression_get_Expressions_m5503 (CompositeExpression_t1064 * __this, const MethodInfo* method)
+extern "C" ExpressionCollection_t2_124 * CompositeExpression_get_Expressions_m2_732 (CompositeExpression_t2_126 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = (__this->___expressions_0);
+		ExpressionCollection_t2_124 * L_0 = (__this->___expressions_0);
 		return L_0;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CompositeExpression::GetWidth(System.Int32&,System.Int32&,System.Int32)
-extern "C" void CompositeExpression_GetWidth_m5504 (CompositeExpression_t1064 * __this, int32_t* ___min, int32_t* ___max, int32_t ___count, const MethodInfo* method)
+extern "C" void CompositeExpression_GetWidth_m2_733 (CompositeExpression_t2_126 * __this, int32_t* ___min, int32_t* ___max, int32_t ___count, const MethodInfo* method)
 {
 	bool V_0 = false;
 	int32_t V_1 = 0;
-	Expression_t1063 * V_2 = {0};
+	Expression_t2_125 * V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
@@ -13799,12 +13799,12 @@ extern "C" void CompositeExpression_GetWidth_m5504 (CompositeExpression_t1064 * 
 
 IL_0013:
 	{
-		ExpressionCollection_t1062 * L_2 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_2 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
-		Expression_t1063 * L_4 = ExpressionCollection_get_Item_m5496(L_2, L_3, /*hidden argument*/NULL);
+		Expression_t2_125 * L_4 = ExpressionCollection_get_Item_m2_725(L_2, L_3, /*hidden argument*/NULL);
 		V_2 = L_4;
-		Expression_t1063 * L_5 = V_2;
+		Expression_t2_125 * L_5 = V_2;
 		if (L_5)
 		{
 			goto IL_002b;
@@ -13817,7 +13817,7 @@ IL_0013:
 IL_002b:
 	{
 		V_0 = 0;
-		Expression_t1063 * L_6 = V_2;
+		Expression_t2_125 * L_6 = V_2;
 		NullCheck(L_6);
 		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(5 /* System.Void System.Text.RegularExpressions.Syntax.Expression::GetWidth(System.Int32&,System.Int32&) */, L_6, (&V_3), (&V_4));
 		int32_t L_7 = V_3;
@@ -13886,31 +13886,31 @@ IL_006a:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.CompositeExpression::IsComplex()
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Expression_t1063_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern "C" bool CompositeExpression_IsComplex_m5505 (CompositeExpression_t1064 * __this, const MethodInfo* method)
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Expression_t2_125_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern "C" bool CompositeExpression_IsComplex_m2_734 (CompositeExpression_t2_126 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Expression_t1063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Expression_t2_125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
 		s_Il2CppMethodIntialized = true;
 	}
-	Expression_t1063 * V_0 = {0};
+	Expression_t2_125 * V_0 = {0};
 	Object_t * V_1 = {0};
 	bool V_2 = false;
 	Object_t * V_3 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		Object_t * L_1 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(4 /* System.Collections.IEnumerator System.Collections.CollectionBase::GetEnumerator() */, L_0);
 		V_1 = L_1;
@@ -13927,9 +13927,9 @@ IL_0011:
 		{
 			Object_t * L_2 = V_1;
 			NullCheck(L_2);
-			Object_t * L_3 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_2);
-			V_0 = ((Expression_t1063 *)CastclassClass(L_3, Expression_t1063_il2cpp_TypeInfo_var));
-			Expression_t1063 * L_4 = V_0;
+			Object_t * L_3 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_2);
+			V_0 = ((Expression_t2_125 *)CastclassClass(L_3, Expression_t2_125_il2cpp_TypeInfo_var));
+			Expression_t2_125 * L_4 = V_0;
 			NullCheck(L_4);
 			bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex() */, L_4);
 			if (!L_5)
@@ -13948,7 +13948,7 @@ IL_002f:
 		{
 			Object_t * L_6 = V_1;
 			NullCheck(L_6);
-			bool L_7 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_6);
+			bool L_7 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_6);
 			if (L_7)
 			{
 				goto IL_0011;
@@ -13962,7 +13962,7 @@ IL_003a:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_003f;
 	}
 
@@ -13970,7 +13970,7 @@ FINALLY_003f:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_8 = V_1;
-			V_3 = ((Object_t *)IsInst(L_8, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_3 = ((Object_t *)IsInst(L_8, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_9 = V_3;
 			if (L_9)
 			{
@@ -13987,7 +13987,7 @@ IL_004a:
 		{
 			Object_t * L_10 = V_3;
 			NullCheck(L_10);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_10);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_10);
 			IL2CPP_END_FINALLY(63)
 		}
 	} // end finally (depth: 1)
@@ -13995,12 +13995,12 @@ IL_004a:
 	{
 		IL2CPP_JUMP_TBL(0x5E, IL_005e)
 		IL2CPP_JUMP_TBL(0x51, IL_0051)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0051:
 	{
-		int32_t L_11 = Expression_GetFixedWidth_m5500(__this, /*hidden argument*/NULL);
+		int32_t L_11 = Expression_GetFixedWidth_m2_729(__this, /*hidden argument*/NULL);
 		return ((((int32_t)((((int32_t)L_11) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -14011,32 +14011,32 @@ IL_005e:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Group::.ctor()
-extern "C" void Group__ctor_m5506 (Group_t1065 * __this, const MethodInfo* method)
+extern "C" void Group__ctor_m2_735 (Group_t2_127 * __this, const MethodInfo* method)
 {
 	{
-		CompositeExpression__ctor_m5502(__this, /*hidden argument*/NULL);
+		CompositeExpression__ctor_m2_731(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Group::AppendExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Group_AppendExpression_m5507 (Group_t1065 * __this, Expression_t1063 * ___e, const MethodInfo* method)
+extern "C" void Group_AppendExpression_m2_736 (Group_t2_127 * __this, Expression_t2_125 * ___e, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___e;
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___e;
 		NullCheck(L_0);
-		ExpressionCollection_Add_m5495(L_0, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Group::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Group_Compile_m5508 (Group_t1065 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern "C" void Group_Compile_m2_737 (Group_t2_127 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	Expression_t1063 * V_2 = {0};
+	Expression_t2_125 * V_2 = {0};
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Collections.CollectionBase::get_Count() */, L_0);
 		V_0 = L_1;
@@ -14053,27 +14053,27 @@ IL_0013:
 		}
 	}
 	{
-		ExpressionCollection_t1062 * L_3 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_3 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_3);
-		Expression_t1063 * L_6 = ExpressionCollection_get_Item_m5496(L_3, ((int32_t)((int32_t)((int32_t)((int32_t)L_4-(int32_t)L_5))-(int32_t)1)), /*hidden argument*/NULL);
+		Expression_t2_125 * L_6 = ExpressionCollection_get_Item_m2_725(L_3, ((int32_t)((int32_t)((int32_t)((int32_t)L_4-(int32_t)L_5))-(int32_t)1)), /*hidden argument*/NULL);
 		V_2 = L_6;
 		goto IL_003c;
 	}
 
 IL_002f:
 	{
-		ExpressionCollection_t1062 * L_7 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_7 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
-		Expression_t1063 * L_9 = ExpressionCollection_get_Item_m5496(L_7, L_8, /*hidden argument*/NULL);
+		Expression_t2_125 * L_9 = ExpressionCollection_get_Item_m2_725(L_7, L_8, /*hidden argument*/NULL);
 		V_2 = L_9;
 	}
 
 IL_003c:
 	{
-		Expression_t1063 * L_10 = V_2;
+		Expression_t2_125 * L_10 = V_2;
 		Object_t * L_11 = ___cmp;
 		bool L_12 = ___reverse;
 		NullCheck(L_10);
@@ -14096,27 +14096,27 @@ IL_0048:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Group::GetWidth(System.Int32&,System.Int32&)
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Expression_t1063_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern "C" void Group_GetWidth_m5509 (Group_t1065 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Expression_t2_125_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern "C" void Group_GetWidth_m2_738 (Group_t2_127 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Expression_t1063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Expression_t2_125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
 		s_Il2CppMethodIntialized = true;
 	}
-	Expression_t1063 * V_0 = {0};
+	Expression_t2_125 * V_0 = {0};
 	Object_t * V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	Object_t * V_4 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
@@ -14125,7 +14125,7 @@ extern "C" void Group_GetWidth_m5509 (Group_t1065 * __this, int32_t* ___min, int
 		*((int32_t*)(L_0)) = (int32_t)0;
 		int32_t* L_1 = ___max;
 		*((int32_t*)(L_1)) = (int32_t)0;
-		ExpressionCollection_t1062 * L_2 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_2 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(4 /* System.Collections.IEnumerator System.Collections.CollectionBase::GetEnumerator() */, L_2);
 		V_1 = L_3;
@@ -14142,9 +14142,9 @@ IL_0017:
 		{
 			Object_t * L_4 = V_1;
 			NullCheck(L_4);
-			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_4);
-			V_0 = ((Expression_t1063 *)CastclassClass(L_5, Expression_t1063_il2cpp_TypeInfo_var));
-			Expression_t1063 * L_6 = V_0;
+			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_4);
+			V_0 = ((Expression_t2_125 *)CastclassClass(L_5, Expression_t2_125_il2cpp_TypeInfo_var));
+			Expression_t2_125 * L_6 = V_0;
 			NullCheck(L_6);
 			VirtActionInvoker2< int32_t*, int32_t* >::Invoke(5 /* System.Void System.Text.RegularExpressions.Syntax.Expression::GetWidth(System.Int32&,System.Int32&) */, L_6, (&V_2), (&V_3));
 			int32_t* L_7 = ___min;
@@ -14186,7 +14186,7 @@ IL_005c:
 		{
 			Object_t * L_16 = V_1;
 			NullCheck(L_16);
-			bool L_17 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_16);
+			bool L_17 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_16);
 			if (L_17)
 			{
 				goto IL_0017;
@@ -14200,7 +14200,7 @@ IL_0067:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_006c;
 	}
 
@@ -14208,7 +14208,7 @@ FINALLY_006c:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_18 = V_1;
-			V_4 = ((Object_t *)IsInst(L_18, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_4 = ((Object_t *)IsInst(L_18, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_19 = V_4;
 			if (L_19)
 			{
@@ -14225,14 +14225,14 @@ IL_0079:
 		{
 			Object_t * L_20 = V_4;
 			NullCheck(L_20);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_20);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_20);
 			IL2CPP_END_FINALLY(108)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(108)
 	{
 		IL2CPP_JUMP_TBL(0x81, IL_0081)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0081:
@@ -14241,71 +14241,71 @@ IL_0081:
 	}
 }
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Group::GetAnchorInfo(System.Boolean)
-extern TypeInfo* ArrayList_t771_il2cpp_TypeInfo_var;
-extern TypeInfo* IntervalCollection_t1059_il2cpp_TypeInfo_var;
-extern TypeInfo* AnchorInfo_t1081_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern TypeInfo* Console_t1105_il2cpp_TypeInfo_var;
-extern TypeInfo* SystemException_t1104_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral961;
-extern Il2CppCodeGenString* _stringLiteral962;
-extern "C" AnchorInfo_t1081 * Group_GetAnchorInfo_m5510 (Group_t1065 * __this, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ArrayList_t1_112_il2cpp_TypeInfo_var;
+extern TypeInfo* IntervalCollection_t2_121_il2cpp_TypeInfo_var;
+extern TypeInfo* AnchorInfo_t2_142_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Console_t1_694_il2cpp_TypeInfo_var;
+extern TypeInfo* SystemException_t1_147_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2323;
+extern Il2CppCodeGenString* _stringLiteral2324;
+extern "C" AnchorInfo_t2_142 * Group_GetAnchorInfo_m2_739 (Group_t2_127 * __this, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(492);
-		IntervalCollection_t1059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
-		AnchorInfo_t1081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
-		Console_t1105_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(732);
-		SystemException_t1104_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(681);
-		_stringLiteral961 = il2cpp_codegen_string_literal_from_index(961);
-		_stringLiteral962 = il2cpp_codegen_string_literal_from_index(962);
+		ArrayList_t1_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(55);
+		IntervalCollection_t2_121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(710);
+		AnchorInfo_t2_142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
+		Console_t1_694_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(571);
+		SystemException_t1_147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(119);
+		_stringLiteral2323 = il2cpp_codegen_string_literal_from_index(2323);
+		_stringLiteral2324 = il2cpp_codegen_string_literal_from_index(2324);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	ArrayList_t771 * V_2 = {0};
-	IntervalCollection_t1059 * V_3 = {0};
+	ArrayList_t1_112 * V_2 = {0};
+	IntervalCollection_t2_121 * V_3 = {0};
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
-	Expression_t1063 * V_6 = {0};
-	AnchorInfo_t1081 * V_7 = {0};
-	Interval_t1056  V_8 = {0};
-	Interval_t1056  V_9 = {0};
+	Expression_t2_125 * V_6 = {0};
+	AnchorInfo_t2_142 * V_7 = {0};
+	Interval_t2_118  V_8 = {0};
+	Interval_t2_118  V_9 = {0};
 	Object_t * V_10 = {0};
 	bool V_11 = false;
 	int32_t V_12 = 0;
 	int32_t V_13 = 0;
-	AnchorInfo_t1081 * V_14 = {0};
-	StringBuilder_t358 * V_15 = {0};
+	AnchorInfo_t2_142 * V_14 = {0};
+	StringBuilder_t1_144 * V_15 = {0};
 	int32_t V_16 = 0;
-	AnchorInfo_t1081 * V_17 = {0};
+	AnchorInfo_t2_142 * V_17 = {0};
 	Object_t * V_18 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		int32_t L_0 = Expression_GetFixedWidth_m5500(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Expression_GetFixedWidth_m2_729(__this, /*hidden argument*/NULL);
 		V_1 = L_0;
-		ArrayList_t771 * L_1 = (ArrayList_t771 *)il2cpp_codegen_object_new (ArrayList_t771_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4666(L_1, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_1 = (ArrayList_t1_112 *)il2cpp_codegen_object_new (ArrayList_t1_112_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m1_1593(L_1, /*hidden argument*/NULL);
 		V_2 = L_1;
-		IntervalCollection_t1059 * L_2 = (IntervalCollection_t1059 *)il2cpp_codegen_object_new (IntervalCollection_t1059_il2cpp_TypeInfo_var);
-		IntervalCollection__ctor_m5436(L_2, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_2 = (IntervalCollection_t2_121 *)il2cpp_codegen_object_new (IntervalCollection_t2_121_il2cpp_TypeInfo_var);
+		IntervalCollection__ctor_m2_665(L_2, /*hidden argument*/NULL);
 		V_3 = L_2;
 		V_0 = 0;
-		ExpressionCollection_t1062 * L_3 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_3 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Collections.CollectionBase::get_Count() */, L_3);
 		V_4 = L_4;
@@ -14322,38 +14322,38 @@ IL_002a:
 		}
 	}
 	{
-		ExpressionCollection_t1062 * L_6 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_6 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_7 = V_4;
 		int32_t L_8 = V_5;
 		NullCheck(L_6);
-		Expression_t1063 * L_9 = ExpressionCollection_get_Item_m5496(L_6, ((int32_t)((int32_t)((int32_t)((int32_t)L_7-(int32_t)L_8))-(int32_t)1)), /*hidden argument*/NULL);
+		Expression_t2_125 * L_9 = ExpressionCollection_get_Item_m2_725(L_6, ((int32_t)((int32_t)((int32_t)((int32_t)L_7-(int32_t)L_8))-(int32_t)1)), /*hidden argument*/NULL);
 		V_6 = L_9;
 		goto IL_0058;
 	}
 
 IL_0049:
 	{
-		ExpressionCollection_t1062 * L_10 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_10 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_11 = V_5;
 		NullCheck(L_10);
-		Expression_t1063 * L_12 = ExpressionCollection_get_Item_m5496(L_10, L_11, /*hidden argument*/NULL);
+		Expression_t2_125 * L_12 = ExpressionCollection_get_Item_m2_725(L_10, L_11, /*hidden argument*/NULL);
 		V_6 = L_12;
 	}
 
 IL_0058:
 	{
-		Expression_t1063 * L_13 = V_6;
+		Expression_t2_125 * L_13 = V_6;
 		bool L_14 = ___reverse;
 		NullCheck(L_13);
-		AnchorInfo_t1081 * L_15 = (AnchorInfo_t1081 *)VirtFuncInvoker1< AnchorInfo_t1081 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean) */, L_13, L_14);
+		AnchorInfo_t2_142 * L_15 = (AnchorInfo_t2_142 *)VirtFuncInvoker1< AnchorInfo_t2_142 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean) */, L_13, L_14);
 		V_7 = L_15;
-		ArrayList_t771 * L_16 = V_2;
-		AnchorInfo_t1081 * L_17 = V_7;
+		ArrayList_t1_112 * L_16 = V_2;
+		AnchorInfo_t2_142 * L_17 = V_7;
 		NullCheck(L_16);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_16, L_17);
-		AnchorInfo_t1081 * L_18 = V_7;
+		AnchorInfo_t2_142 * L_18 = V_7;
 		NullCheck(L_18);
-		bool L_19 = AnchorInfo_get_IsPosition_m5602(L_18, /*hidden argument*/NULL);
+		bool L_19 = AnchorInfo_get_IsPosition_m2_831(L_18, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_008f;
@@ -14361,43 +14361,43 @@ IL_0058:
 	}
 	{
 		int32_t L_20 = V_0;
-		AnchorInfo_t1081 * L_21 = V_7;
+		AnchorInfo_t2_142 * L_21 = V_7;
 		NullCheck(L_21);
-		int32_t L_22 = AnchorInfo_get_Offset_m5593(L_21, /*hidden argument*/NULL);
+		int32_t L_22 = AnchorInfo_get_Offset_m2_822(L_21, /*hidden argument*/NULL);
 		int32_t L_23 = V_1;
-		AnchorInfo_t1081 * L_24 = V_7;
+		AnchorInfo_t2_142 * L_24 = V_7;
 		NullCheck(L_24);
-		uint16_t L_25 = AnchorInfo_get_Position_m5600(L_24, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_26 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5592(L_26, __this, ((int32_t)((int32_t)L_20+(int32_t)L_22)), L_23, L_25, /*hidden argument*/NULL);
+		uint16_t L_25 = AnchorInfo_get_Position_m2_829(L_24, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_26 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_821(L_26, __this, ((int32_t)((int32_t)L_20+(int32_t)L_22)), L_23, L_25, /*hidden argument*/NULL);
 		return L_26;
 	}
 
 IL_008f:
 	{
-		AnchorInfo_t1081 * L_27 = V_7;
+		AnchorInfo_t2_142 * L_27 = V_7;
 		NullCheck(L_27);
-		bool L_28 = AnchorInfo_get_IsSubstring_m5601(L_27, /*hidden argument*/NULL);
+		bool L_28 = AnchorInfo_get_IsSubstring_m2_830(L_27, /*hidden argument*/NULL);
 		if (!L_28)
 		{
 			goto IL_00a9;
 		}
 	}
 	{
-		IntervalCollection_t1059 * L_29 = V_3;
-		AnchorInfo_t1081 * L_30 = V_7;
+		IntervalCollection_t2_121 * L_29 = V_3;
+		AnchorInfo_t2_142 * L_30 = V_7;
 		int32_t L_31 = V_0;
 		NullCheck(L_30);
-		Interval_t1056  L_32 = AnchorInfo_GetInterval_m5603(L_30, L_31, /*hidden argument*/NULL);
+		Interval_t2_118  L_32 = AnchorInfo_GetInterval_m2_832(L_30, L_31, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		IntervalCollection_Add_m5438(L_29, L_32, /*hidden argument*/NULL);
+		IntervalCollection_Add_m2_667(L_29, L_32, /*hidden argument*/NULL);
 	}
 
 IL_00a9:
 	{
-		AnchorInfo_t1081 * L_33 = V_7;
+		AnchorInfo_t2_142 * L_33 = V_7;
 		NullCheck(L_33);
-		bool L_34 = AnchorInfo_get_IsUnknownWidth_m5596(L_33, /*hidden argument*/NULL);
+		bool L_34 = AnchorInfo_get_IsUnknownWidth_m2_825(L_33, /*hidden argument*/NULL);
 		if (!L_34)
 		{
 			goto IL_00ba;
@@ -14410,9 +14410,9 @@ IL_00a9:
 IL_00ba:
 	{
 		int32_t L_35 = V_0;
-		AnchorInfo_t1081 * L_36 = V_7;
+		AnchorInfo_t2_142 * L_36 = V_7;
 		NullCheck(L_36);
-		int32_t L_37 = AnchorInfo_get_Width_m5594(L_36, /*hidden argument*/NULL);
+		int32_t L_37 = AnchorInfo_get_Width_m2_823(L_36, /*hidden argument*/NULL);
 		V_0 = ((int32_t)((int32_t)L_35+(int32_t)L_37));
 		int32_t L_38 = V_5;
 		V_5 = ((int32_t)((int32_t)L_38+(int32_t)1));
@@ -14430,12 +14430,12 @@ IL_00ca:
 
 IL_00d3:
 	{
-		IntervalCollection_t1059 * L_41 = V_3;
+		IntervalCollection_t2_121 * L_41 = V_3;
 		NullCheck(L_41);
-		IntervalCollection_Normalize_m5439(L_41, /*hidden argument*/NULL);
-		Interval_t1056  L_42 = Interval_get_Empty_m5416(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntervalCollection_Normalize_m2_668(L_41, /*hidden argument*/NULL);
+		Interval_t2_118  L_42 = Interval_get_Empty_m2_645(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_8 = L_42;
-		IntervalCollection_t1059 * L_43 = V_3;
+		IntervalCollection_t2_121 * L_43 = V_3;
 		NullCheck(L_43);
 		Object_t * L_44 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(8 /* System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator() */, L_43);
 		V_10 = L_44;
@@ -14452,10 +14452,10 @@ IL_00ed:
 		{
 			Object_t * L_45 = V_10;
 			NullCheck(L_45);
-			Object_t * L_46 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_45);
-			V_9 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_46, Interval_t1056_il2cpp_TypeInfo_var))));
-			int32_t L_47 = Interval_get_Size_m5420((&V_9), /*hidden argument*/NULL);
-			int32_t L_48 = Interval_get_Size_m5420((&V_8), /*hidden argument*/NULL);
+			Object_t * L_46 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_45);
+			V_9 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_46, Interval_t2_118_il2cpp_TypeInfo_var))));
+			int32_t L_47 = Interval_get_Size_m2_649((&V_9), /*hidden argument*/NULL);
+			int32_t L_48 = Interval_get_Size_m2_649((&V_8), /*hidden argument*/NULL);
 			if ((((int32_t)L_47) <= ((int32_t)L_48)))
 			{
 				goto IL_0112;
@@ -14464,7 +14464,7 @@ IL_00ed:
 
 IL_010e:
 		{
-			Interval_t1056  L_49 = V_9;
+			Interval_t2_118  L_49 = V_9;
 			V_8 = L_49;
 		}
 
@@ -14472,7 +14472,7 @@ IL_0112:
 		{
 			Object_t * L_50 = V_10;
 			NullCheck(L_50);
-			bool L_51 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_50);
+			bool L_51 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_50);
 			if (L_51)
 			{
 				goto IL_00ed;
@@ -14486,7 +14486,7 @@ IL_011e:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_0123;
 	}
 
@@ -14494,7 +14494,7 @@ FINALLY_0123:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_52 = V_10;
-			V_18 = ((Object_t *)IsInst(L_52, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_18 = ((Object_t *)IsInst(L_52, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_53 = V_18;
 			if (L_53)
 			{
@@ -14511,19 +14511,19 @@ IL_0131:
 		{
 			Object_t * L_54 = V_18;
 			NullCheck(L_54);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_54);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_54);
 			IL2CPP_END_FINALLY(291)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(291)
 	{
 		IL2CPP_JUMP_TBL(0x139, IL_0139)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0139:
 	{
-		bool L_55 = Interval_get_IsEmpty_m5419((&V_8), /*hidden argument*/NULL);
+		bool L_55 = Interval_get_IsEmpty_m2_648((&V_8), /*hidden argument*/NULL);
 		if (!L_55)
 		{
 			goto IL_014d;
@@ -14531,8 +14531,8 @@ IL_0139:
 	}
 	{
 		int32_t L_56 = V_1;
-		AnchorInfo_t1081 * L_57 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_57, __this, L_56, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_57 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_57, __this, L_56, /*hidden argument*/NULL);
 		return L_57;
 	}
 
@@ -14547,25 +14547,25 @@ IL_014d:
 
 IL_015d:
 	{
-		ArrayList_t771 * L_58 = V_2;
+		ArrayList_t1_112 * L_58 = V_2;
 		int32_t L_59 = V_13;
 		NullCheck(L_58);
 		Object_t * L_60 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_58, L_59);
-		V_14 = ((AnchorInfo_t1081 *)CastclassClass(L_60, AnchorInfo_t1081_il2cpp_TypeInfo_var));
-		AnchorInfo_t1081 * L_61 = V_14;
+		V_14 = ((AnchorInfo_t2_142 *)CastclassClass(L_60, AnchorInfo_t2_142_il2cpp_TypeInfo_var));
+		AnchorInfo_t2_142 * L_61 = V_14;
 		NullCheck(L_61);
-		bool L_62 = AnchorInfo_get_IsSubstring_m5601(L_61, /*hidden argument*/NULL);
+		bool L_62 = AnchorInfo_get_IsSubstring_m2_830(L_61, /*hidden argument*/NULL);
 		if (!L_62)
 		{
 			goto IL_01a7;
 		}
 	}
 	{
-		AnchorInfo_t1081 * L_63 = V_14;
+		AnchorInfo_t2_142 * L_63 = V_14;
 		int32_t L_64 = V_0;
 		NullCheck(L_63);
-		Interval_t1056  L_65 = AnchorInfo_GetInterval_m5603(L_63, L_64, /*hidden argument*/NULL);
-		bool L_66 = Interval_Contains_m5423((&V_8), L_65, /*hidden argument*/NULL);
+		Interval_t2_118  L_65 = AnchorInfo_GetInterval_m2_832(L_63, L_64, /*hidden argument*/NULL);
+		bool L_66 = Interval_Contains_m2_652((&V_8), L_65, /*hidden argument*/NULL);
 		if (!L_66)
 		{
 			goto IL_01a7;
@@ -14573,24 +14573,24 @@ IL_015d:
 	}
 	{
 		bool L_67 = V_11;
-		AnchorInfo_t1081 * L_68 = V_14;
+		AnchorInfo_t2_142 * L_68 = V_14;
 		NullCheck(L_68);
-		bool L_69 = AnchorInfo_get_IgnoreCase_m5599(L_68, /*hidden argument*/NULL);
+		bool L_69 = AnchorInfo_get_IgnoreCase_m2_828(L_68, /*hidden argument*/NULL);
 		V_11 = ((int32_t)((int32_t)L_67|(int32_t)L_69));
-		ArrayList_t771 * L_70 = V_2;
+		ArrayList_t1_112 * L_70 = V_2;
 		int32_t L_71 = V_12;
 		int32_t L_72 = L_71;
 		V_12 = ((int32_t)((int32_t)L_72+(int32_t)1));
-		AnchorInfo_t1081 * L_73 = V_14;
+		AnchorInfo_t2_142 * L_73 = V_14;
 		NullCheck(L_70);
 		VirtActionInvoker2< int32_t, Object_t * >::Invoke(22 /* System.Void System.Collections.ArrayList::set_Item(System.Int32,System.Object) */, L_70, L_72, L_73);
 	}
 
 IL_01a7:
 	{
-		AnchorInfo_t1081 * L_74 = V_14;
+		AnchorInfo_t2_142 * L_74 = V_14;
 		NullCheck(L_74);
-		bool L_75 = AnchorInfo_get_IsUnknownWidth_m5596(L_74, /*hidden argument*/NULL);
+		bool L_75 = AnchorInfo_get_IsUnknownWidth_m2_825(L_74, /*hidden argument*/NULL);
 		if (!L_75)
 		{
 			goto IL_01b8;
@@ -14603,9 +14603,9 @@ IL_01a7:
 IL_01b8:
 	{
 		int32_t L_76 = V_0;
-		AnchorInfo_t1081 * L_77 = V_14;
+		AnchorInfo_t2_142 * L_77 = V_14;
 		NullCheck(L_77);
-		int32_t L_78 = AnchorInfo_get_Width_m5594(L_77, /*hidden argument*/NULL);
+		int32_t L_78 = AnchorInfo_get_Width_m2_823(L_77, /*hidden argument*/NULL);
 		V_0 = ((int32_t)((int32_t)L_76+(int32_t)L_78));
 		int32_t L_79 = V_13;
 		V_13 = ((int32_t)((int32_t)L_79+(int32_t)1));
@@ -14614,7 +14614,7 @@ IL_01b8:
 IL_01c8:
 	{
 		int32_t L_80 = V_13;
-		ArrayList_t771 * L_81 = V_2;
+		ArrayList_t1_112 * L_81 = V_2;
 		NullCheck(L_81);
 		int32_t L_82 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_81);
 		if ((((int32_t)L_80) < ((int32_t)L_82)))
@@ -14625,8 +14625,8 @@ IL_01c8:
 
 IL_01d5:
 	{
-		StringBuilder_t358 * L_83 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_83, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_83 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_83, /*hidden argument*/NULL);
 		V_15 = L_83;
 		V_16 = 0;
 		goto IL_0227;
@@ -14641,32 +14641,32 @@ IL_01e4:
 		}
 	}
 	{
-		ArrayList_t771 * L_85 = V_2;
+		ArrayList_t1_112 * L_85 = V_2;
 		int32_t L_86 = V_12;
 		int32_t L_87 = V_16;
 		NullCheck(L_85);
 		Object_t * L_88 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_85, ((int32_t)((int32_t)((int32_t)((int32_t)L_86-(int32_t)L_87))-(int32_t)1)));
-		V_17 = ((AnchorInfo_t1081 *)CastclassClass(L_88, AnchorInfo_t1081_il2cpp_TypeInfo_var));
+		V_17 = ((AnchorInfo_t2_142 *)CastclassClass(L_88, AnchorInfo_t2_142_il2cpp_TypeInfo_var));
 		goto IL_0212;
 	}
 
 IL_0203:
 	{
-		ArrayList_t771 * L_89 = V_2;
+		ArrayList_t1_112 * L_89 = V_2;
 		int32_t L_90 = V_16;
 		NullCheck(L_89);
 		Object_t * L_91 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_89, L_90);
-		V_17 = ((AnchorInfo_t1081 *)CastclassClass(L_91, AnchorInfo_t1081_il2cpp_TypeInfo_var));
+		V_17 = ((AnchorInfo_t2_142 *)CastclassClass(L_91, AnchorInfo_t2_142_il2cpp_TypeInfo_var));
 	}
 
 IL_0212:
 	{
-		StringBuilder_t358 * L_92 = V_15;
-		AnchorInfo_t1081 * L_93 = V_17;
+		StringBuilder_t1_144 * L_92 = V_15;
+		AnchorInfo_t2_142 * L_93 = V_17;
 		NullCheck(L_93);
-		String_t* L_94 = AnchorInfo_get_Substring_m5598(L_93, /*hidden argument*/NULL);
+		String_t* L_94 = AnchorInfo_get_Substring_m2_827(L_93, /*hidden argument*/NULL);
 		NullCheck(L_92);
-		StringBuilder_Append_m3444(L_92, L_94, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_92, L_94, /*hidden argument*/NULL);
 		int32_t L_95 = V_16;
 		V_16 = ((int32_t)((int32_t)L_95+(int32_t)1));
 	}
@@ -14681,10 +14681,10 @@ IL_0227:
 		}
 	}
 	{
-		StringBuilder_t358 * L_98 = V_15;
+		StringBuilder_t1_144 * L_98 = V_15;
 		NullCheck(L_98);
-		int32_t L_99 = StringBuilder_get_Length_m3707(L_98, /*hidden argument*/NULL);
-		int32_t L_100 = Interval_get_Size_m5420((&V_8), /*hidden argument*/NULL);
+		int32_t L_99 = StringBuilder_get_Length_m1_4318(L_98, /*hidden argument*/NULL);
+		int32_t L_100 = Interval_get_Size_m2_649((&V_8), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_99) == ((uint32_t)L_100))))
 		{
 			goto IL_025b;
@@ -14693,55 +14693,55 @@ IL_0227:
 	{
 		int32_t L_101 = ((&V_8)->___low_0);
 		int32_t L_102 = V_1;
-		StringBuilder_t358 * L_103 = V_15;
+		StringBuilder_t1_144 * L_103 = V_15;
 		NullCheck(L_103);
-		String_t* L_104 = StringBuilder_ToString_m1899(L_103, /*hidden argument*/NULL);
+		String_t* L_104 = StringBuilder_ToString_m1_4322(L_103, /*hidden argument*/NULL);
 		bool L_105 = V_11;
-		AnchorInfo_t1081 * L_106 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5591(L_106, __this, L_101, L_102, L_104, L_105, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_106 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_820(L_106, __this, L_101, L_102, L_104, L_105, /*hidden argument*/NULL);
 		return L_106;
 	}
 
 IL_025b:
 	{
-		StringBuilder_t358 * L_107 = V_15;
+		StringBuilder_t1_144 * L_107 = V_15;
 		NullCheck(L_107);
-		int32_t L_108 = StringBuilder_get_Length_m3707(L_107, /*hidden argument*/NULL);
-		int32_t L_109 = Interval_get_Size_m5420((&V_8), /*hidden argument*/NULL);
+		int32_t L_108 = StringBuilder_get_Length_m1_4318(L_107, /*hidden argument*/NULL);
+		int32_t L_109 = Interval_get_Size_m2_649((&V_8), /*hidden argument*/NULL);
 		if ((((int32_t)L_108) <= ((int32_t)L_109)))
 		{
 			goto IL_0285;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Console_t1105_il2cpp_TypeInfo_var);
-		TextWriter_t689 * L_110 = Console_get_Error_m5752(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Console_t1_694_il2cpp_TypeInfo_var);
+		TextWriter_t1_252 * L_110 = Console_get_Error_m1_4630(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_110);
-		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_110, _stringLiteral961);
+		VirtActionInvoker1< String_t* >::Invoke(13 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_110, _stringLiteral2323);
 		int32_t L_111 = V_1;
-		AnchorInfo_t1081 * L_112 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_112, __this, L_111, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_112 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_112, __this, L_111, /*hidden argument*/NULL);
 		return L_112;
 	}
 
 IL_0285:
 	{
-		SystemException_t1104 * L_113 = (SystemException_t1104 *)il2cpp_codegen_object_new (SystemException_t1104_il2cpp_TypeInfo_var);
-		SystemException__ctor_m5737(L_113, _stringLiteral962, /*hidden argument*/NULL);
+		SystemException_t1_147 * L_113 = (SystemException_t1_147 *)il2cpp_codegen_object_new (SystemException_t1_147_il2cpp_TypeInfo_var);
+		SystemException__ctor_m1_5321(L_113, _stringLiteral2324, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_113);
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::.ctor()
-extern "C" void RegularExpression__ctor_m5511 (RegularExpression_t1066 * __this, const MethodInfo* method)
+extern "C" void RegularExpression__ctor_m2_740 (RegularExpression_t2_128 * __this, const MethodInfo* method)
 {
 	{
-		Group__ctor_m5506(__this, /*hidden argument*/NULL);
+		Group__ctor_m2_735(__this, /*hidden argument*/NULL);
 		__this->___group_count_1 = 0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::set_GroupCount(System.Int32)
-extern "C" void RegularExpression_set_GroupCount_m5512 (RegularExpression_t1066 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void RegularExpression_set_GroupCount_m2_741 (RegularExpression_t2_128 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -14750,19 +14750,19 @@ extern "C" void RegularExpression_set_GroupCount_m5512 (RegularExpression_t1066 
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.RegularExpression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void RegularExpression_Compile_m5513 (RegularExpression_t1066 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void RegularExpression_Compile_m2_742 (RegularExpression_t2_128 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	AnchorInfo_t1081 * V_2 = {0};
-	LinkRef_t1042 * V_3 = {0};
+	AnchorInfo_t2_142 * V_2 = {0};
+	LinkRef_t2_105 * V_3 = {0};
 	{
 		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(5 /* System.Void System.Text.RegularExpressions.Syntax.Group::GetWidth(System.Int32&,System.Int32&) */, __this, (&V_0), (&V_1));
 		Object_t * L_0 = ___cmp;
@@ -14770,25 +14770,25 @@ extern "C" void RegularExpression_Compile_m5513 (RegularExpression_t1066 * __thi
 		int32_t L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_0);
-		InterfaceActionInvoker3< int32_t, int32_t, int32_t >::Invoke(23 /* System.Void System.Text.RegularExpressions.ICompiler::EmitInfo(System.Int32,System.Int32,System.Int32) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
+		InterfaceActionInvoker3< int32_t, int32_t, int32_t >::Invoke(23 /* System.Void System.Text.RegularExpressions.ICompiler::EmitInfo(System.Int32,System.Int32,System.Int32) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
 		bool L_4 = ___reverse;
-		AnchorInfo_t1081 * L_5 = (AnchorInfo_t1081 *)VirtFuncInvoker1< AnchorInfo_t1081 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Group::GetAnchorInfo(System.Boolean) */, __this, L_4);
+		AnchorInfo_t2_142 * L_5 = (AnchorInfo_t2_142 *)VirtFuncInvoker1< AnchorInfo_t2_142 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Group::GetAnchorInfo(System.Boolean) */, __this, L_4);
 		V_2 = L_5;
 		Object_t * L_6 = ___cmp;
 		NullCheck(L_6);
-		LinkRef_t1042 * L_7 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_6);
+		LinkRef_t2_105 * L_7 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_6);
 		V_3 = L_7;
 		Object_t * L_8 = ___cmp;
 		bool L_9 = ___reverse;
-		AnchorInfo_t1081 * L_10 = V_2;
+		AnchorInfo_t2_142 * L_10 = V_2;
 		NullCheck(L_10);
-		int32_t L_11 = AnchorInfo_get_Offset_m5593(L_10, /*hidden argument*/NULL);
-		LinkRef_t1042 * L_12 = V_3;
+		int32_t L_11 = AnchorInfo_get_Offset_m2_822(L_10, /*hidden argument*/NULL);
+		LinkRef_t2_105 * L_12 = V_3;
 		NullCheck(L_8);
-		InterfaceActionInvoker3< bool, int32_t, LinkRef_t1042 * >::Invoke(25 /* System.Void System.Text.RegularExpressions.ICompiler::EmitAnchor(System.Boolean,System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_8, L_9, L_11, L_12);
-		AnchorInfo_t1081 * L_13 = V_2;
+		InterfaceActionInvoker3< bool, int32_t, LinkRef_t2_105 * >::Invoke(25 /* System.Void System.Text.RegularExpressions.ICompiler::EmitAnchor(System.Boolean,System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_8, L_9, L_11, L_12);
+		AnchorInfo_t2_142 * L_13 = V_2;
 		NullCheck(L_13);
-		bool L_14 = AnchorInfo_get_IsPosition_m5602(L_13, /*hidden argument*/NULL);
+		bool L_14 = AnchorInfo_get_IsPosition_m2_831(L_13, /*hidden argument*/NULL);
 		if (!L_14)
 		{
 			goto IL_0051;
@@ -14796,19 +14796,19 @@ extern "C" void RegularExpression_Compile_m5513 (RegularExpression_t1066 * __thi
 	}
 	{
 		Object_t * L_15 = ___cmp;
-		AnchorInfo_t1081 * L_16 = V_2;
+		AnchorInfo_t2_142 * L_16 = V_2;
 		NullCheck(L_16);
-		uint16_t L_17 = AnchorInfo_get_Position_m5600(L_16, /*hidden argument*/NULL);
+		uint16_t L_17 = AnchorInfo_get_Position_m2_829(L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		InterfaceActionInvoker1< uint16_t >::Invoke(9 /* System.Void System.Text.RegularExpressions.ICompiler::EmitPosition(System.Text.RegularExpressions.Position) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_15, L_17);
+		InterfaceActionInvoker1< uint16_t >::Invoke(9 /* System.Void System.Text.RegularExpressions.ICompiler::EmitPosition(System.Text.RegularExpressions.Position) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_15, L_17);
 		goto IL_006f;
 	}
 
 IL_0051:
 	{
-		AnchorInfo_t1081 * L_18 = V_2;
+		AnchorInfo_t2_142 * L_18 = V_2;
 		NullCheck(L_18);
-		bool L_19 = AnchorInfo_get_IsSubstring_m5601(L_18, /*hidden argument*/NULL);
+		bool L_19 = AnchorInfo_get_IsSubstring_m2_830(L_18, /*hidden argument*/NULL);
 		if (!L_19)
 		{
 			goto IL_006f;
@@ -14816,47 +14816,47 @@ IL_0051:
 	}
 	{
 		Object_t * L_20 = ___cmp;
-		AnchorInfo_t1081 * L_21 = V_2;
+		AnchorInfo_t2_142 * L_21 = V_2;
 		NullCheck(L_21);
-		String_t* L_22 = AnchorInfo_get_Substring_m5598(L_21, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_23 = V_2;
+		String_t* L_22 = AnchorInfo_get_Substring_m2_827(L_21, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_23 = V_2;
 		NullCheck(L_23);
-		bool L_24 = AnchorInfo_get_IgnoreCase_m5599(L_23, /*hidden argument*/NULL);
+		bool L_24 = AnchorInfo_get_IgnoreCase_m2_828(L_23, /*hidden argument*/NULL);
 		bool L_25 = ___reverse;
 		NullCheck(L_20);
-		InterfaceActionInvoker3< String_t*, bool, bool >::Invoke(8 /* System.Void System.Text.RegularExpressions.ICompiler::EmitString(System.String,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_20, L_22, L_24, L_25);
+		InterfaceActionInvoker3< String_t*, bool, bool >::Invoke(8 /* System.Void System.Text.RegularExpressions.ICompiler::EmitString(System.String,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_20, L_22, L_24, L_25);
 	}
 
 IL_006f:
 	{
 		Object_t * L_26 = ___cmp;
 		NullCheck(L_26);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_26);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_26);
 		Object_t * L_27 = ___cmp;
-		LinkRef_t1042 * L_28 = V_3;
+		LinkRef_t2_105 * L_28 = V_3;
 		NullCheck(L_27);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_27, L_28);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_27, L_28);
 		Object_t * L_29 = ___cmp;
 		bool L_30 = ___reverse;
-		Group_Compile_m5508(__this, L_29, L_30, /*hidden argument*/NULL);
+		Group_Compile_m2_737(__this, L_29, L_30, /*hidden argument*/NULL);
 		Object_t * L_31 = ___cmp;
 		NullCheck(L_31);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_31);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_31);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::.ctor()
-extern "C" void CapturingGroup__ctor_m5514 (CapturingGroup_t1067 * __this, const MethodInfo* method)
+extern "C" void CapturingGroup__ctor_m2_743 (CapturingGroup_t2_129 * __this, const MethodInfo* method)
 {
 	{
-		Group__ctor_m5506(__this, /*hidden argument*/NULL);
+		Group__ctor_m2_735(__this, /*hidden argument*/NULL);
 		__this->___gid_1 = 0;
 		__this->___name_2 = (String_t*)NULL;
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::get_Index()
-extern "C" int32_t CapturingGroup_get_Index_m5515 (CapturingGroup_t1067 * __this, const MethodInfo* method)
+extern "C" int32_t CapturingGroup_get_Index_m2_744 (CapturingGroup_t2_129 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___gid_1);
@@ -14864,7 +14864,7 @@ extern "C" int32_t CapturingGroup_get_Index_m5515 (CapturingGroup_t1067 * __this
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Index(System.Int32)
-extern "C" void CapturingGroup_set_Index_m5516 (CapturingGroup_t1067 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void CapturingGroup_set_Index_m2_745 (CapturingGroup_t2_129 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -14873,7 +14873,7 @@ extern "C" void CapturingGroup_set_Index_m5516 (CapturingGroup_t1067 * __this, i
 	}
 }
 // System.String System.Text.RegularExpressions.Syntax.CapturingGroup::get_Name()
-extern "C" String_t* CapturingGroup_get_Name_m5517 (CapturingGroup_t1067 * __this, const MethodInfo* method)
+extern "C" String_t* CapturingGroup_get_Name_m2_746 (CapturingGroup_t2_129 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_2);
@@ -14881,7 +14881,7 @@ extern "C" String_t* CapturingGroup_get_Name_m5517 (CapturingGroup_t1067 * __thi
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Name(System.String)
-extern "C" void CapturingGroup_set_Name_m5518 (CapturingGroup_t1067 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void CapturingGroup_set_Name_m2_747 (CapturingGroup_t2_129 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -14890,7 +14890,7 @@ extern "C" void CapturingGroup_set_Name_m5518 (CapturingGroup_t1067 * __this, St
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::get_IsNamed()
-extern "C" bool CapturingGroup_get_IsNamed_m5519 (CapturingGroup_t1067 * __this, const MethodInfo* method)
+extern "C" bool CapturingGroup_get_IsNamed_m2_748 (CapturingGroup_t2_129 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___name_2);
@@ -14898,102 +14898,102 @@ extern "C" bool CapturingGroup_get_IsNamed_m5519 (CapturingGroup_t1067 * __this,
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void CapturingGroup_Compile_m5520 (CapturingGroup_t1067 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void CapturingGroup_Compile_m2_749 (CapturingGroup_t2_129 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object_t * L_0 = ___cmp;
 		int32_t L_1 = (__this->___gid_1);
 		NullCheck(L_0);
-		InterfaceActionInvoker1< int32_t >::Invoke(10 /* System.Void System.Text.RegularExpressions.ICompiler::EmitOpen(System.Int32) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0, L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(10 /* System.Void System.Text.RegularExpressions.ICompiler::EmitOpen(System.Int32) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0, L_1);
 		Object_t * L_2 = ___cmp;
 		bool L_3 = ___reverse;
-		Group_Compile_m5508(__this, L_2, L_3, /*hidden argument*/NULL);
+		Group_Compile_m2_737(__this, L_2, L_3, /*hidden argument*/NULL);
 		Object_t * L_4 = ___cmp;
 		int32_t L_5 = (__this->___gid_1);
 		NullCheck(L_4);
-		InterfaceActionInvoker1< int32_t >::Invoke(11 /* System.Void System.Text.RegularExpressions.ICompiler::EmitClose(System.Int32) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_4, L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(11 /* System.Void System.Text.RegularExpressions.ICompiler::EmitClose(System.Int32) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_4, L_5);
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::IsComplex()
-extern "C" bool CapturingGroup_IsComplex_m5521 (CapturingGroup_t1067 * __this, const MethodInfo* method)
+extern "C" bool CapturingGroup_IsComplex_m2_750 (CapturingGroup_t2_129 * __this, const MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::CompareTo(System.Object)
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern "C" int32_t CapturingGroup_CompareTo_m5522 (CapturingGroup_t1067 * __this, Object_t * ___other, const MethodInfo* method)
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern "C" int32_t CapturingGroup_CompareTo_m2_751 (CapturingGroup_t2_129 * __this, Object_t * ___other, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		int32_t L_0 = (__this->___gid_1);
 		Object_t * L_1 = ___other;
-		NullCheck(((CapturingGroup_t1067 *)CastclassClass(L_1, CapturingGroup_t1067_il2cpp_TypeInfo_var)));
-		int32_t L_2 = (((CapturingGroup_t1067 *)CastclassClass(L_1, CapturingGroup_t1067_il2cpp_TypeInfo_var))->___gid_1);
+		NullCheck(((CapturingGroup_t2_129 *)CastclassClass(L_1, CapturingGroup_t2_129_il2cpp_TypeInfo_var)));
+		int32_t L_2 = (((CapturingGroup_t2_129 *)CastclassClass(L_1, CapturingGroup_t2_129_il2cpp_TypeInfo_var))->___gid_1);
 		return ((int32_t)((int32_t)L_0-(int32_t)L_2));
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::.ctor()
-extern "C" void BalancingGroup__ctor_m5523 (BalancingGroup_t1068 * __this, const MethodInfo* method)
+extern "C" void BalancingGroup__ctor_m2_752 (BalancingGroup_t2_130 * __this, const MethodInfo* method)
 {
 	{
-		CapturingGroup__ctor_m5514(__this, /*hidden argument*/NULL);
-		__this->___balance_3 = (CapturingGroup_t1067 *)NULL;
+		CapturingGroup__ctor_m2_743(__this, /*hidden argument*/NULL);
+		__this->___balance_3 = (CapturingGroup_t2_129 *)NULL;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::set_Balance(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern "C" void BalancingGroup_set_Balance_m5524 (BalancingGroup_t1068 * __this, CapturingGroup_t1067 * ___value, const MethodInfo* method)
+extern "C" void BalancingGroup_set_Balance_m2_753 (BalancingGroup_t2_130 * __this, CapturingGroup_t2_129 * ___value, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = ___value;
+		CapturingGroup_t2_129 * L_0 = ___value;
 		__this->___balance_3 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.BalancingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void BalancingGroup_Compile_m5525 (BalancingGroup_t1068 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void BalancingGroup_Compile_m2_754 (BalancingGroup_t2_130 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
-	LinkRef_t1042 * V_0 = {0};
+	LinkRef_t2_105 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	Expression_t1063 * V_3 = {0};
+	Expression_t2_125 * V_3 = {0};
 	{
 		Object_t * L_0 = ___cmp;
 		NullCheck(L_0);
-		LinkRef_t1042 * L_1 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0);
+		LinkRef_t2_105 * L_1 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
 		Object_t * L_2 = ___cmp;
-		int32_t L_3 = CapturingGroup_get_Index_m5515(__this, /*hidden argument*/NULL);
-		CapturingGroup_t1067 * L_4 = (__this->___balance_3);
+		int32_t L_3 = CapturingGroup_get_Index_m2_744(__this, /*hidden argument*/NULL);
+		CapturingGroup_t2_129 * L_4 = (__this->___balance_3);
 		NullCheck(L_4);
-		int32_t L_5 = CapturingGroup_get_Index_m5515(L_4, /*hidden argument*/NULL);
-		bool L_6 = CapturingGroup_get_IsNamed_m5519(__this, /*hidden argument*/NULL);
-		LinkRef_t1042 * L_7 = V_0;
+		int32_t L_5 = CapturingGroup_get_Index_m2_744(L_4, /*hidden argument*/NULL);
+		bool L_6 = CapturingGroup_get_IsNamed_m2_748(__this, /*hidden argument*/NULL);
+		LinkRef_t2_105 * L_7 = V_0;
 		NullCheck(L_2);
-		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t1042 * >::Invoke(12 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBalanceStart(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_2, L_3, L_5, L_6, L_7);
-		ExpressionCollection_t1062 * L_8 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t2_105 * >::Invoke(12 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBalanceStart(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_2, L_3, L_5, L_6, L_7);
+		ExpressionCollection_t2_124 * L_8 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		int32_t L_9 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Collections.CollectionBase::get_Count() */, L_8);
 		V_1 = L_9;
@@ -15010,27 +15010,27 @@ IL_0038:
 		}
 	}
 	{
-		ExpressionCollection_t1062 * L_11 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_11 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_12 = V_1;
 		int32_t L_13 = V_2;
 		NullCheck(L_11);
-		Expression_t1063 * L_14 = ExpressionCollection_get_Item_m5496(L_11, ((int32_t)((int32_t)((int32_t)((int32_t)L_12-(int32_t)L_13))-(int32_t)1)), /*hidden argument*/NULL);
+		Expression_t2_125 * L_14 = ExpressionCollection_get_Item_m2_725(L_11, ((int32_t)((int32_t)((int32_t)((int32_t)L_12-(int32_t)L_13))-(int32_t)1)), /*hidden argument*/NULL);
 		V_3 = L_14;
 		goto IL_0061;
 	}
 
 IL_0054:
 	{
-		ExpressionCollection_t1062 * L_15 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_15 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		int32_t L_16 = V_2;
 		NullCheck(L_15);
-		Expression_t1063 * L_17 = ExpressionCollection_get_Item_m5496(L_15, L_16, /*hidden argument*/NULL);
+		Expression_t2_125 * L_17 = ExpressionCollection_get_Item_m2_725(L_15, L_16, /*hidden argument*/NULL);
 		V_3 = L_17;
 	}
 
 IL_0061:
 	{
-		Expression_t1063 * L_18 = V_3;
+		Expression_t2_125 * L_18 = V_3;
 		Object_t * L_19 = ___cmp;
 		bool L_20 = ___reverse;
 		NullCheck(L_18);
@@ -15051,70 +15051,70 @@ IL_006d:
 	{
 		Object_t * L_24 = ___cmp;
 		NullCheck(L_24);
-		InterfaceActionInvoker0::Invoke(13 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBalance() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_24);
+		InterfaceActionInvoker0::Invoke(13 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBalance() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_24);
 		Object_t * L_25 = ___cmp;
-		LinkRef_t1042 * L_26 = V_0;
+		LinkRef_t2_105 * L_26 = V_0;
 		NullCheck(L_25);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_25, L_26);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_25, L_26);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::.ctor()
-extern "C" void NonBacktrackingGroup__ctor_m5526 (NonBacktrackingGroup_t1069 * __this, const MethodInfo* method)
+extern "C" void NonBacktrackingGroup__ctor_m2_755 (NonBacktrackingGroup_t2_131 * __this, const MethodInfo* method)
 {
 	{
-		Group__ctor_m5506(__this, /*hidden argument*/NULL);
+		Group__ctor_m2_735(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void NonBacktrackingGroup_Compile_m5527 (NonBacktrackingGroup_t1069 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void NonBacktrackingGroup_Compile_m2_756 (NonBacktrackingGroup_t2_131 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
-	LinkRef_t1042 * V_0 = {0};
+	LinkRef_t2_105 * V_0 = {0};
 	{
 		Object_t * L_0 = ___cmp;
 		NullCheck(L_0);
-		LinkRef_t1042 * L_1 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0);
+		LinkRef_t2_105 * L_1 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
 		Object_t * L_2 = ___cmp;
-		LinkRef_t1042 * L_3 = V_0;
+		LinkRef_t2_105 * L_3 = V_0;
 		NullCheck(L_2);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(16 /* System.Void System.Text.RegularExpressions.ICompiler::EmitSub(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_2, L_3);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(16 /* System.Void System.Text.RegularExpressions.ICompiler::EmitSub(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_2, L_3);
 		Object_t * L_4 = ___cmp;
 		bool L_5 = ___reverse;
-		Group_Compile_m5508(__this, L_4, L_5, /*hidden argument*/NULL);
+		Group_Compile_m2_737(__this, L_4, L_5, /*hidden argument*/NULL);
 		Object_t * L_6 = ___cmp;
 		NullCheck(L_6);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_6);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_6);
 		Object_t * L_7 = ___cmp;
-		LinkRef_t1042 * L_8 = V_0;
+		LinkRef_t2_105 * L_8 = V_0;
 		NullCheck(L_7);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_7, L_8);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_7, L_8);
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::IsComplex()
-extern "C" bool NonBacktrackingGroup_IsComplex_m5528 (NonBacktrackingGroup_t1069 * __this, const MethodInfo* method)
+extern "C" bool NonBacktrackingGroup_IsComplex_m2_757 (NonBacktrackingGroup_t2_131 * __this, const MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::.ctor(System.Int32,System.Int32,System.Boolean)
-extern "C" void Repetition__ctor_m5529 (Repetition_t1070 * __this, int32_t ___min, int32_t ___max, bool ___lazy, const MethodInfo* method)
+extern "C" void Repetition__ctor_m2_758 (Repetition_t2_132 * __this, int32_t ___min, int32_t ___max, bool ___lazy, const MethodInfo* method)
 {
 	{
-		CompositeExpression__ctor_m5502(__this, /*hidden argument*/NULL);
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		CompositeExpression__ctor_m2_731(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ExpressionCollection_Add_m5495(L_0, (Expression_t1063 *)NULL, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_0, (Expression_t2_125 *)NULL, /*hidden argument*/NULL);
 		int32_t L_1 = ___min;
 		__this->___min_1 = L_1;
 		int32_t L_2 = ___max;
@@ -15125,28 +15125,28 @@ extern "C" void Repetition__ctor_m5529 (Repetition_t1070 * __this, int32_t ___mi
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Repetition::get_Expression()
-extern "C" Expression_t1063 * Repetition_get_Expression_m5530 (Repetition_t1070 * __this, const MethodInfo* method)
+extern "C" Expression_t2_125 * Repetition_get_Expression_m2_759 (Repetition_t2_132 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Expression_t1063 * L_1 = ExpressionCollection_get_Item_m5496(L_0, 0, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ExpressionCollection_get_Item_m2_725(L_0, 0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::set_Expression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Repetition_set_Expression_m5531 (Repetition_t1070 * __this, Expression_t1063 * ___value, const MethodInfo* method)
+extern "C" void Repetition_set_Expression_m2_760 (Repetition_t2_132 * __this, Expression_t2_125 * ___value, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___value;
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___value;
 		NullCheck(L_0);
-		ExpressionCollection_set_Item_m5497(L_0, 0, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_set_Item_m2_726(L_0, 0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.Repetition::get_Minimum()
-extern "C" int32_t Repetition_get_Minimum_m5532 (Repetition_t1070 * __this, const MethodInfo* method)
+extern "C" int32_t Repetition_get_Minimum_m2_761 (Repetition_t2_132 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___min_1);
@@ -15154,19 +15154,19 @@ extern "C" int32_t Repetition_get_Minimum_m5532 (Repetition_t1070 * __this, cons
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void Repetition_Compile_m5533 (Repetition_t1070 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void Repetition_Compile_m2_762 (Repetition_t2_132 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
-	LinkRef_t1042 * V_0 = {0};
-	LinkRef_t1042 * V_1 = {0};
+	LinkRef_t2_105 * V_0 = {0};
+	LinkRef_t2_105 * V_1 = {0};
 	{
-		Expression_t1063 * L_0 = Repetition_get_Expression_m5530(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_0 = Repetition_get_Expression_m2_759(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex() */, L_0);
 		if (!L_1)
@@ -15177,24 +15177,24 @@ extern "C" void Repetition_Compile_m5533 (Repetition_t1070 * __this, Object_t * 
 	{
 		Object_t * L_2 = ___cmp;
 		NullCheck(L_2);
-		LinkRef_t1042 * L_3 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_2);
+		LinkRef_t2_105 * L_3 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_2);
 		V_0 = L_3;
 		Object_t * L_4 = ___cmp;
 		int32_t L_5 = (__this->___min_1);
 		int32_t L_6 = (__this->___max_2);
 		bool L_7 = (__this->___lazy_3);
-		LinkRef_t1042 * L_8 = V_0;
+		LinkRef_t2_105 * L_8 = V_0;
 		NullCheck(L_4);
-		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t1042 * >::Invoke(20 /* System.Void System.Text.RegularExpressions.ICompiler::EmitRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_4, L_5, L_6, L_7, L_8);
-		Expression_t1063 * L_9 = Repetition_get_Expression_m5530(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t2_105 * >::Invoke(20 /* System.Void System.Text.RegularExpressions.ICompiler::EmitRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_4, L_5, L_6, L_7, L_8);
+		Expression_t2_125 * L_9 = Repetition_get_Expression_m2_759(__this, /*hidden argument*/NULL);
 		Object_t * L_10 = ___cmp;
 		bool L_11 = ___reverse;
 		NullCheck(L_9);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_9, L_10, L_11);
 		Object_t * L_12 = ___cmp;
-		LinkRef_t1042 * L_13 = V_0;
+		LinkRef_t2_105 * L_13 = V_0;
 		NullCheck(L_12);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(21 /* System.Void System.Text.RegularExpressions.ICompiler::EmitUntil(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_12, L_13);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(21 /* System.Void System.Text.RegularExpressions.ICompiler::EmitUntil(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_12, L_13);
 		goto IL_0083;
 	}
 
@@ -15202,27 +15202,27 @@ IL_0049:
 	{
 		Object_t * L_14 = ___cmp;
 		NullCheck(L_14);
-		LinkRef_t1042 * L_15 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_14);
+		LinkRef_t2_105 * L_15 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_14);
 		V_1 = L_15;
 		Object_t * L_16 = ___cmp;
 		int32_t L_17 = (__this->___min_1);
 		int32_t L_18 = (__this->___max_2);
 		bool L_19 = (__this->___lazy_3);
-		LinkRef_t1042 * L_20 = V_1;
+		LinkRef_t2_105 * L_20 = V_1;
 		NullCheck(L_16);
-		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t1042 * >::Invoke(24 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFastRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_16, L_17, L_18, L_19, L_20);
-		Expression_t1063 * L_21 = Repetition_get_Expression_m5530(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker4< int32_t, int32_t, bool, LinkRef_t2_105 * >::Invoke(24 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFastRepeat(System.Int32,System.Int32,System.Boolean,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_16, L_17, L_18, L_19, L_20);
+		Expression_t2_125 * L_21 = Repetition_get_Expression_m2_759(__this, /*hidden argument*/NULL);
 		Object_t * L_22 = ___cmp;
 		bool L_23 = ___reverse;
 		NullCheck(L_21);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_21, L_22, L_23);
 		Object_t * L_24 = ___cmp;
 		NullCheck(L_24);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_24);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_24);
 		Object_t * L_25 = ___cmp;
-		LinkRef_t1042 * L_26 = V_1;
+		LinkRef_t2_105 * L_26 = V_1;
 		NullCheck(L_25);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_25, L_26);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_25, L_26);
 	}
 
 IL_0083:
@@ -15231,10 +15231,10 @@ IL_0083:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Repetition::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Repetition_GetWidth_m5534 (Repetition_t1070 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void Repetition_GetWidth_m2_763 (Repetition_t2_132 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	{
-		Expression_t1063 * L_0 = Repetition_get_Expression_m5530(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_0 = Repetition_get_Expression_m2_759(__this, /*hidden argument*/NULL);
 		int32_t* L_1 = ___min;
 		int32_t* L_2 = ___max;
 		NullCheck(L_0);
@@ -15278,26 +15278,26 @@ IL_004b:
 	}
 }
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Repetition::GetAnchorInfo(System.Boolean)
-extern TypeInfo* AnchorInfo_t1081_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern "C" AnchorInfo_t1081 * Repetition_GetAnchorInfo_m5535 (Repetition_t1070 * __this, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* AnchorInfo_t2_142_il2cpp_TypeInfo_var;
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern "C" AnchorInfo_t2_142 * Repetition_GetAnchorInfo_m2_764 (Repetition_t2_132 * __this, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AnchorInfo_t1081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
+		AnchorInfo_t2_142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	AnchorInfo_t1081 * V_1 = {0};
+	AnchorInfo_t2_142 * V_1 = {0};
 	String_t* V_2 = {0};
-	StringBuilder_t358 * V_3 = {0};
+	StringBuilder_t1_144 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
-		int32_t L_0 = Expression_GetFixedWidth_m5500(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Expression_GetFixedWidth_m2_729(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
-		int32_t L_1 = Repetition_get_Minimum_m5532(__this, /*hidden argument*/NULL);
+		int32_t L_1 = Repetition_get_Minimum_m2_761(__this, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001a;
@@ -15305,66 +15305,66 @@ extern "C" AnchorInfo_t1081 * Repetition_GetAnchorInfo_m5535 (Repetition_t1070 *
 	}
 	{
 		int32_t L_2 = V_0;
-		AnchorInfo_t1081 * L_3 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_3, __this, L_2, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_3 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_3, __this, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 
 IL_001a:
 	{
-		Expression_t1063 * L_4 = Repetition_get_Expression_m5530(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_4 = Repetition_get_Expression_m2_759(__this, /*hidden argument*/NULL);
 		bool L_5 = ___reverse;
 		NullCheck(L_4);
-		AnchorInfo_t1081 * L_6 = (AnchorInfo_t1081 *)VirtFuncInvoker1< AnchorInfo_t1081 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean) */, L_4, L_5);
+		AnchorInfo_t2_142 * L_6 = (AnchorInfo_t2_142 *)VirtFuncInvoker1< AnchorInfo_t2_142 *, bool >::Invoke(6 /* System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean) */, L_4, L_5);
 		V_1 = L_6;
-		AnchorInfo_t1081 * L_7 = V_1;
+		AnchorInfo_t2_142 * L_7 = V_1;
 		NullCheck(L_7);
-		bool L_8 = AnchorInfo_get_IsPosition_m5602(L_7, /*hidden argument*/NULL);
+		bool L_8 = AnchorInfo_get_IsPosition_m2_831(L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0046;
 		}
 	}
 	{
-		AnchorInfo_t1081 * L_9 = V_1;
+		AnchorInfo_t2_142 * L_9 = V_1;
 		NullCheck(L_9);
-		int32_t L_10 = AnchorInfo_get_Offset_m5593(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = AnchorInfo_get_Offset_m2_822(L_9, /*hidden argument*/NULL);
 		int32_t L_11 = V_0;
-		AnchorInfo_t1081 * L_12 = V_1;
+		AnchorInfo_t2_142 * L_12 = V_1;
 		NullCheck(L_12);
-		uint16_t L_13 = AnchorInfo_get_Position_m5600(L_12, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_14 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5592(L_14, __this, L_10, L_11, L_13, /*hidden argument*/NULL);
+		uint16_t L_13 = AnchorInfo_get_Position_m2_829(L_12, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_14 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_821(L_14, __this, L_10, L_11, L_13, /*hidden argument*/NULL);
 		return L_14;
 	}
 
 IL_0046:
 	{
-		AnchorInfo_t1081 * L_15 = V_1;
+		AnchorInfo_t2_142 * L_15 = V_1;
 		NullCheck(L_15);
-		bool L_16 = AnchorInfo_get_IsSubstring_m5601(L_15, /*hidden argument*/NULL);
+		bool L_16 = AnchorInfo_get_IsSubstring_m2_830(L_15, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_00bc;
 		}
 	}
 	{
-		AnchorInfo_t1081 * L_17 = V_1;
+		AnchorInfo_t2_142 * L_17 = V_1;
 		NullCheck(L_17);
-		bool L_18 = AnchorInfo_get_IsComplete_m5597(L_17, /*hidden argument*/NULL);
+		bool L_18 = AnchorInfo_get_IsComplete_m2_826(L_17, /*hidden argument*/NULL);
 		if (!L_18)
 		{
 			goto IL_00a2;
 		}
 	}
 	{
-		AnchorInfo_t1081 * L_19 = V_1;
+		AnchorInfo_t2_142 * L_19 = V_1;
 		NullCheck(L_19);
-		String_t* L_20 = AnchorInfo_get_Substring_m5598(L_19, /*hidden argument*/NULL);
+		String_t* L_20 = AnchorInfo_get_Substring_m2_827(L_19, /*hidden argument*/NULL);
 		V_2 = L_20;
 		String_t* L_21 = V_2;
-		StringBuilder_t358 * L_22 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1951(L_22, L_21, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_22 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4312(L_22, L_21, /*hidden argument*/NULL);
 		V_3 = L_22;
 		V_4 = 1;
 		goto IL_0080;
@@ -15372,10 +15372,10 @@ IL_0046:
 
 IL_0072:
 	{
-		StringBuilder_t358 * L_23 = V_3;
+		StringBuilder_t1_144 * L_23 = V_3;
 		String_t* L_24 = V_2;
 		NullCheck(L_23);
-		StringBuilder_Append_m3444(L_23, L_24, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_23, L_24, /*hidden argument*/NULL);
 		int32_t L_25 = V_4;
 		V_4 = ((int32_t)((int32_t)L_25+(int32_t)1));
 	}
@@ -15383,7 +15383,7 @@ IL_0072:
 IL_0080:
 	{
 		int32_t L_26 = V_4;
-		int32_t L_27 = Repetition_get_Minimum_m5532(__this, /*hidden argument*/NULL);
+		int32_t L_27 = Repetition_get_Minimum_m2_761(__this, /*hidden argument*/NULL);
 		if ((((int32_t)L_26) < ((int32_t)L_27)))
 		{
 			goto IL_0072;
@@ -15391,113 +15391,113 @@ IL_0080:
 	}
 	{
 		int32_t L_28 = V_0;
-		StringBuilder_t358 * L_29 = V_3;
+		StringBuilder_t1_144 * L_29 = V_3;
 		NullCheck(L_29);
-		String_t* L_30 = StringBuilder_ToString_m1899(L_29, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_31 = V_1;
+		String_t* L_30 = StringBuilder_ToString_m1_4322(L_29, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_31 = V_1;
 		NullCheck(L_31);
-		bool L_32 = AnchorInfo_get_IgnoreCase_m5599(L_31, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_33 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5591(L_33, __this, 0, L_28, L_30, L_32, /*hidden argument*/NULL);
+		bool L_32 = AnchorInfo_get_IgnoreCase_m2_828(L_31, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_33 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_820(L_33, __this, 0, L_28, L_30, L_32, /*hidden argument*/NULL);
 		return L_33;
 	}
 
 IL_00a2:
 	{
-		AnchorInfo_t1081 * L_34 = V_1;
+		AnchorInfo_t2_142 * L_34 = V_1;
 		NullCheck(L_34);
-		int32_t L_35 = AnchorInfo_get_Offset_m5593(L_34, /*hidden argument*/NULL);
+		int32_t L_35 = AnchorInfo_get_Offset_m2_822(L_34, /*hidden argument*/NULL);
 		int32_t L_36 = V_0;
-		AnchorInfo_t1081 * L_37 = V_1;
+		AnchorInfo_t2_142 * L_37 = V_1;
 		NullCheck(L_37);
-		String_t* L_38 = AnchorInfo_get_Substring_m5598(L_37, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_39 = V_1;
+		String_t* L_38 = AnchorInfo_get_Substring_m2_827(L_37, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_39 = V_1;
 		NullCheck(L_39);
-		bool L_40 = AnchorInfo_get_IgnoreCase_m5599(L_39, /*hidden argument*/NULL);
-		AnchorInfo_t1081 * L_41 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5591(L_41, __this, L_35, L_36, L_38, L_40, /*hidden argument*/NULL);
+		bool L_40 = AnchorInfo_get_IgnoreCase_m2_828(L_39, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_41 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_820(L_41, __this, L_35, L_36, L_38, L_40, /*hidden argument*/NULL);
 		return L_41;
 	}
 
 IL_00bc:
 	{
 		int32_t L_42 = V_0;
-		AnchorInfo_t1081 * L_43 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_43, __this, L_42, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_43 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_43, __this, L_42, /*hidden argument*/NULL);
 		return L_43;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::.ctor()
-extern "C" void Assertion__ctor_m5536 (Assertion_t1071 * __this, const MethodInfo* method)
+extern "C" void Assertion__ctor_m2_765 (Assertion_t2_133 * __this, const MethodInfo* method)
 {
 	{
-		CompositeExpression__ctor_m5502(__this, /*hidden argument*/NULL);
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		CompositeExpression__ctor_m2_731(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ExpressionCollection_Add_m5495(L_0, (Expression_t1063 *)NULL, /*hidden argument*/NULL);
-		ExpressionCollection_t1062 * L_1 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_0, (Expression_t2_125 *)NULL, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_1 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		ExpressionCollection_Add_m5495(L_1, (Expression_t1063 *)NULL, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_1, (Expression_t2_125 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_TrueExpression()
-extern "C" Expression_t1063 * Assertion_get_TrueExpression_m5537 (Assertion_t1071 * __this, const MethodInfo* method)
+extern "C" Expression_t2_125 * Assertion_get_TrueExpression_m2_766 (Assertion_t2_133 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Expression_t1063 * L_1 = ExpressionCollection_get_Item_m5496(L_0, 0, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ExpressionCollection_get_Item_m2_725(L_0, 0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_TrueExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Assertion_set_TrueExpression_m5538 (Assertion_t1071 * __this, Expression_t1063 * ___value, const MethodInfo* method)
+extern "C" void Assertion_set_TrueExpression_m2_767 (Assertion_t2_133 * __this, Expression_t2_125 * ___value, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___value;
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___value;
 		NullCheck(L_0);
-		ExpressionCollection_set_Item_m5497(L_0, 0, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_set_Item_m2_726(L_0, 0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_FalseExpression()
-extern "C" Expression_t1063 * Assertion_get_FalseExpression_m5539 (Assertion_t1071 * __this, const MethodInfo* method)
+extern "C" Expression_t2_125 * Assertion_get_FalseExpression_m2_768 (Assertion_t2_133 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Expression_t1063 * L_1 = ExpressionCollection_get_Item_m5496(L_0, 1, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ExpressionCollection_get_Item_m2_725(L_0, 1, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_FalseExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Assertion_set_FalseExpression_m5540 (Assertion_t1071 * __this, Expression_t1063 * ___value, const MethodInfo* method)
+extern "C" void Assertion_set_FalseExpression_m2_769 (Assertion_t2_133 * __this, Expression_t2_125 * ___value, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___value;
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___value;
 		NullCheck(L_0);
-		ExpressionCollection_set_Item_m5497(L_0, 1, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_set_Item_m2_726(L_0, 1, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Assertion_GetWidth_m5541 (Assertion_t1071 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void Assertion_GetWidth_m2_770 (Assertion_t2_133 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	{
 		int32_t* L_0 = ___min;
 		int32_t* L_1 = ___max;
-		CompositeExpression_GetWidth_m5504(__this, L_0, L_1, 2, /*hidden argument*/NULL);
-		Expression_t1063 * L_2 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		CompositeExpression_GetWidth_m2_733(__this, L_0, L_1, 2, /*hidden argument*/NULL);
+		Expression_t2_125 * L_2 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		Expression_t1063 * L_3 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_3 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0022;
@@ -15516,46 +15516,46 @@ IL_0022:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::.ctor(System.Text.RegularExpressions.Syntax.Literal)
-extern "C" void CaptureAssertion__ctor_m5542 (CaptureAssertion_t1072 * __this, Literal_t1074 * ___l, const MethodInfo* method)
+extern "C" void CaptureAssertion__ctor_m2_771 (CaptureAssertion_t2_134 * __this, Literal_t2_136 * ___l, const MethodInfo* method)
 {
 	{
-		Assertion__ctor_m5536(__this, /*hidden argument*/NULL);
-		Literal_t1074 * L_0 = ___l;
+		Assertion__ctor_m2_765(__this, /*hidden argument*/NULL);
+		Literal_t2_136 * L_0 = ___l;
 		__this->___literal_3 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern "C" void CaptureAssertion_set_CapturingGroup_m5543 (CaptureAssertion_t1072 * __this, CapturingGroup_t1067 * ___value, const MethodInfo* method)
+extern "C" void CaptureAssertion_set_CapturingGroup_m2_772 (CaptureAssertion_t2_134 * __this, CapturingGroup_t2_129 * ___value, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = ___value;
+		CapturingGroup_t2_129 * L_0 = ___value;
 		__this->___group_2 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CaptureAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void CaptureAssertion_Compile_m5544 (CaptureAssertion_t1072 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void CaptureAssertion_Compile_m2_773 (CaptureAssertion_t2_134 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	LinkRef_t1042 * V_1 = {0};
-	LinkRef_t1042 * V_2 = {0};
+	LinkRef_t2_105 * V_1 = {0};
+	LinkRef_t2_105 * V_2 = {0};
 	{
-		CapturingGroup_t1067 * L_0 = (__this->___group_2);
+		CapturingGroup_t2_129 * L_0 = (__this->___group_2);
 		if (L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		ExpressionAssertion_t1073 * L_1 = CaptureAssertion_get_Alternate_m5546(__this, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_1 = CaptureAssertion_get_Alternate_m2_775(__this, /*hidden argument*/NULL);
 		Object_t * L_2 = ___cmp;
 		bool L_3 = ___reverse;
 		NullCheck(L_1);
@@ -15565,15 +15565,15 @@ extern "C" void CaptureAssertion_Compile_m5544 (CaptureAssertion_t1072 * __this,
 
 IL_0019:
 	{
-		CapturingGroup_t1067 * L_4 = (__this->___group_2);
+		CapturingGroup_t2_129 * L_4 = (__this->___group_2);
 		NullCheck(L_4);
-		int32_t L_5 = CapturingGroup_get_Index_m5515(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = CapturingGroup_get_Index_m2_744(L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
 		Object_t * L_6 = ___cmp;
 		NullCheck(L_6);
-		LinkRef_t1042 * L_7 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_6);
+		LinkRef_t2_105 * L_7 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_6);
 		V_1 = L_7;
-		Expression_t1063 * L_8 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_8 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0051;
@@ -15582,10 +15582,10 @@ IL_0019:
 	{
 		Object_t * L_9 = ___cmp;
 		int32_t L_10 = V_0;
-		LinkRef_t1042 * L_11 = V_1;
+		LinkRef_t2_105 * L_11 = V_1;
 		NullCheck(L_9);
-		InterfaceActionInvoker2< int32_t, LinkRef_t1042 * >::Invoke(15 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_9, L_10, L_11);
-		Expression_t1063 * L_12 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker2< int32_t, LinkRef_t2_105 * >::Invoke(15 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_9, L_10, L_11);
+		Expression_t2_125 * L_12 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		Object_t * L_13 = ___cmp;
 		bool L_14 = ___reverse;
 		NullCheck(L_12);
@@ -15597,27 +15597,27 @@ IL_0051:
 	{
 		Object_t * L_15 = ___cmp;
 		NullCheck(L_15);
-		LinkRef_t1042 * L_16 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_15);
+		LinkRef_t2_105 * L_16 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_15);
 		V_2 = L_16;
 		Object_t * L_17 = ___cmp;
 		int32_t L_18 = V_0;
-		LinkRef_t1042 * L_19 = V_2;
+		LinkRef_t2_105 * L_19 = V_2;
 		NullCheck(L_17);
-		InterfaceActionInvoker2< int32_t, LinkRef_t1042 * >::Invoke(15 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_17, L_18, L_19);
-		Expression_t1063 * L_20 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker2< int32_t, LinkRef_t2_105 * >::Invoke(15 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIfDefined(System.Int32,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_17, L_18, L_19);
+		Expression_t2_125 * L_20 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		Object_t * L_21 = ___cmp;
 		bool L_22 = ___reverse;
 		NullCheck(L_20);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_20, L_21, L_22);
 		Object_t * L_23 = ___cmp;
-		LinkRef_t1042 * L_24 = V_1;
+		LinkRef_t2_105 * L_24 = V_1;
 		NullCheck(L_23);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_23, L_24);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_23, L_24);
 		Object_t * L_25 = ___cmp;
-		LinkRef_t1042 * L_26 = V_2;
+		LinkRef_t2_105 * L_26 = V_2;
 		NullCheck(L_25);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_25, L_26);
-		Expression_t1063 * L_27 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_25, L_26);
+		Expression_t2_125 * L_27 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		Object_t * L_28 = ___cmp;
 		bool L_29 = ___reverse;
 		NullCheck(L_27);
@@ -15627,24 +15627,24 @@ IL_0051:
 IL_0088:
 	{
 		Object_t * L_30 = ___cmp;
-		LinkRef_t1042 * L_31 = V_1;
+		LinkRef_t2_105 * L_31 = V_1;
 		NullCheck(L_30);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_30, L_31);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_30, L_31);
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.CaptureAssertion::IsComplex()
-extern "C" bool CaptureAssertion_IsComplex_m5545 (CaptureAssertion_t1072 * __this, const MethodInfo* method)
+extern "C" bool CaptureAssertion_IsComplex_m2_774 (CaptureAssertion_t2_134 * __this, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = (__this->___group_2);
+		CapturingGroup_t2_129 * L_0 = (__this->___group_2);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		ExpressionAssertion_t1073 * L_1 = CaptureAssertion_get_Alternate_m5546(__this, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_1 = CaptureAssertion_get_Alternate_m2_775(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean System.Text.RegularExpressions.Syntax.ExpressionAssertion::IsComplex() */, L_1);
 		return L_2;
@@ -15652,14 +15652,14 @@ extern "C" bool CaptureAssertion_IsComplex_m5545 (CaptureAssertion_t1072 * __thi
 
 IL_0017:
 	{
-		Expression_t1063 * L_3 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_3 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0034;
 		}
 	}
 	{
-		Expression_t1063 * L_4 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_4 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex() */, L_4);
 		if (!L_5)
@@ -15673,14 +15673,14 @@ IL_0017:
 
 IL_0034:
 	{
-		Expression_t1063 * L_6 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_6 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0051;
 		}
 	}
 	{
-		Expression_t1063 * L_7 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_7 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		NullCheck(L_7);
 		bool L_8 = (bool)VirtFuncInvoker0< bool >::Invoke(7 /* System.Boolean System.Text.RegularExpressions.Syntax.Expression::IsComplex() */, L_7);
 		if (!L_8)
@@ -15694,64 +15694,64 @@ IL_0034:
 
 IL_0051:
 	{
-		int32_t L_9 = Expression_GetFixedWidth_m5500(__this, /*hidden argument*/NULL);
+		int32_t L_9 = Expression_GetFixedWidth_m2_729(__this, /*hidden argument*/NULL);
 		return ((((int32_t)((((int32_t)L_9) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 // System.Text.RegularExpressions.Syntax.ExpressionAssertion System.Text.RegularExpressions.Syntax.CaptureAssertion::get_Alternate()
-extern TypeInfo* ExpressionAssertion_t1073_il2cpp_TypeInfo_var;
-extern "C" ExpressionAssertion_t1073 * CaptureAssertion_get_Alternate_m5546 (CaptureAssertion_t1072 * __this, const MethodInfo* method)
+extern TypeInfo* ExpressionAssertion_t2_135_il2cpp_TypeInfo_var;
+extern "C" ExpressionAssertion_t2_135 * CaptureAssertion_get_Alternate_m2_775 (CaptureAssertion_t2_134 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExpressionAssertion_t1073_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(724);
+		ExpressionAssertion_t2_135_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(721);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		ExpressionAssertion_t1073 * L_0 = (__this->___alternate_1);
+		ExpressionAssertion_t2_135 * L_0 = (__this->___alternate_1);
 		if (L_0)
 		{
 			goto IL_0049;
 		}
 	}
 	{
-		ExpressionAssertion_t1073 * L_1 = (ExpressionAssertion_t1073 *)il2cpp_codegen_object_new (ExpressionAssertion_t1073_il2cpp_TypeInfo_var);
-		ExpressionAssertion__ctor_m5547(L_1, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_1 = (ExpressionAssertion_t2_135 *)il2cpp_codegen_object_new (ExpressionAssertion_t2_135_il2cpp_TypeInfo_var);
+		ExpressionAssertion__ctor_m2_776(L_1, /*hidden argument*/NULL);
 		__this->___alternate_1 = L_1;
-		ExpressionAssertion_t1073 * L_2 = (__this->___alternate_1);
-		Expression_t1063 * L_3 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_2 = (__this->___alternate_1);
+		Expression_t2_125 * L_3 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Assertion_set_TrueExpression_m5538(L_2, L_3, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_4 = (__this->___alternate_1);
-		Expression_t1063 * L_5 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Assertion_set_TrueExpression_m2_767(L_2, L_3, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_4 = (__this->___alternate_1);
+		Expression_t2_125 * L_5 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Assertion_set_FalseExpression_m5540(L_4, L_5, /*hidden argument*/NULL);
-		ExpressionAssertion_t1073 * L_6 = (__this->___alternate_1);
-		Literal_t1074 * L_7 = (__this->___literal_3);
+		Assertion_set_FalseExpression_m2_769(L_4, L_5, /*hidden argument*/NULL);
+		ExpressionAssertion_t2_135 * L_6 = (__this->___alternate_1);
+		Literal_t2_136 * L_7 = (__this->___literal_3);
 		NullCheck(L_6);
-		ExpressionAssertion_set_TestExpression_m5551(L_6, L_7, /*hidden argument*/NULL);
+		ExpressionAssertion_set_TestExpression_m2_780(L_6, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0049:
 	{
-		ExpressionAssertion_t1073 * L_8 = (__this->___alternate_1);
+		ExpressionAssertion_t2_135 * L_8 = (__this->___alternate_1);
 		return L_8;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::.ctor()
-extern "C" void ExpressionAssertion__ctor_m5547 (ExpressionAssertion_t1073 * __this, const MethodInfo* method)
+extern "C" void ExpressionAssertion__ctor_m2_776 (ExpressionAssertion_t2_135 * __this, const MethodInfo* method)
 {
 	{
-		Assertion__ctor_m5536(__this, /*hidden argument*/NULL);
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		Assertion__ctor_m2_765(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ExpressionCollection_Add_m5495(L_0, (Expression_t1063 *)NULL, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_0, (Expression_t2_125 *)NULL, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Reverse(System.Boolean)
-extern "C" void ExpressionAssertion_set_Reverse_m5548 (ExpressionAssertion_t1073 * __this, bool ___value, const MethodInfo* method)
+extern "C" void ExpressionAssertion_set_Reverse_m2_777 (ExpressionAssertion_t2_135 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -15760,7 +15760,7 @@ extern "C" void ExpressionAssertion_set_Reverse_m5548 (ExpressionAssertion_t1073
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Negate(System.Boolean)
-extern "C" void ExpressionAssertion_set_Negate_m5549 (ExpressionAssertion_t1073 * __this, bool ___value, const MethodInfo* method)
+extern "C" void ExpressionAssertion_set_Negate_m2_778 (ExpressionAssertion_t2_135 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -15769,47 +15769,47 @@ extern "C" void ExpressionAssertion_set_Negate_m5549 (ExpressionAssertion_t1073 
 	}
 }
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionAssertion::get_TestExpression()
-extern "C" Expression_t1063 * ExpressionAssertion_get_TestExpression_m5550 (ExpressionAssertion_t1073 * __this, const MethodInfo* method)
+extern "C" Expression_t2_125 * ExpressionAssertion_get_TestExpression_m2_779 (ExpressionAssertion_t2_135 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Expression_t1063 * L_1 = ExpressionCollection_get_Item_m5496(L_0, 2, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ExpressionCollection_get_Item_m2_725(L_0, 2, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_TestExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void ExpressionAssertion_set_TestExpression_m5551 (ExpressionAssertion_t1073 * __this, Expression_t1063 * ___value, const MethodInfo* method)
+extern "C" void ExpressionAssertion_set_TestExpression_m2_780 (ExpressionAssertion_t2_135 * __this, Expression_t2_125 * ___value, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___value;
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___value;
 		NullCheck(L_0);
-		ExpressionCollection_set_Item_m5497(L_0, 2, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_set_Item_m2_726(L_0, 2, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void ExpressionAssertion_Compile_m5552 (ExpressionAssertion_t1073 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void ExpressionAssertion_Compile_m2_781 (ExpressionAssertion_t2_135 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
-	LinkRef_t1042 * V_0 = {0};
-	LinkRef_t1042 * V_1 = {0};
-	LinkRef_t1042 * V_2 = {0};
+	LinkRef_t2_105 * V_0 = {0};
+	LinkRef_t2_105 * V_1 = {0};
+	LinkRef_t2_105 * V_2 = {0};
 	{
 		Object_t * L_0 = ___cmp;
 		NullCheck(L_0);
-		LinkRef_t1042 * L_1 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0);
+		LinkRef_t2_105 * L_1 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
 		Object_t * L_2 = ___cmp;
 		NullCheck(L_2);
-		LinkRef_t1042 * L_3 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_2);
+		LinkRef_t2_105 * L_3 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_2);
 		V_1 = L_3;
 		bool L_4 = (__this->___negate_2);
 		if (L_4)
@@ -15819,33 +15819,33 @@ extern "C" void ExpressionAssertion_Compile_m5552 (ExpressionAssertion_t1073 * _
 	}
 	{
 		Object_t * L_5 = ___cmp;
-		LinkRef_t1042 * L_6 = V_0;
-		LinkRef_t1042 * L_7 = V_1;
+		LinkRef_t2_105 * L_6 = V_0;
+		LinkRef_t2_105 * L_7 = V_1;
 		NullCheck(L_5);
-		InterfaceActionInvoker2< LinkRef_t1042 *, LinkRef_t1042 * >::Invoke(17 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_5, L_6, L_7);
+		InterfaceActionInvoker2< LinkRef_t2_105 *, LinkRef_t2_105 * >::Invoke(17 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_5, L_6, L_7);
 		goto IL_002e;
 	}
 
 IL_0026:
 	{
 		Object_t * L_8 = ___cmp;
-		LinkRef_t1042 * L_9 = V_1;
-		LinkRef_t1042 * L_10 = V_0;
+		LinkRef_t2_105 * L_9 = V_1;
+		LinkRef_t2_105 * L_10 = V_0;
 		NullCheck(L_8);
-		InterfaceActionInvoker2< LinkRef_t1042 *, LinkRef_t1042 * >::Invoke(17 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_8, L_9, L_10);
+		InterfaceActionInvoker2< LinkRef_t2_105 *, LinkRef_t2_105 * >::Invoke(17 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTest(System.Text.RegularExpressions.LinkRef,System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_8, L_9, L_10);
 	}
 
 IL_002e:
 	{
-		Expression_t1063 * L_11 = ExpressionAssertion_get_TestExpression_m5550(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_11 = ExpressionAssertion_get_TestExpression_m2_779(__this, /*hidden argument*/NULL);
 		Object_t * L_12 = ___cmp;
 		bool L_13 = (__this->___reverse_1);
 		NullCheck(L_11);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_11, L_12, L_13);
 		Object_t * L_14 = ___cmp;
 		NullCheck(L_14);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_14);
-		Expression_t1063 * L_15 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_14);
+		Expression_t2_125 * L_15 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		if (L_15)
 		{
 			goto IL_006a;
@@ -15853,31 +15853,31 @@ IL_002e:
 	}
 	{
 		Object_t * L_16 = ___cmp;
-		LinkRef_t1042 * L_17 = V_1;
+		LinkRef_t2_105 * L_17 = V_1;
 		NullCheck(L_16);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_16, L_17);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_16, L_17);
 		Object_t * L_18 = ___cmp;
 		NullCheck(L_18);
-		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_18);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_18);
 		Object_t * L_19 = ___cmp;
-		LinkRef_t1042 * L_20 = V_0;
+		LinkRef_t2_105 * L_20 = V_0;
 		NullCheck(L_19);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_19, L_20);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_19, L_20);
 		goto IL_00be;
 	}
 
 IL_006a:
 	{
 		Object_t * L_21 = ___cmp;
-		LinkRef_t1042 * L_22 = V_0;
+		LinkRef_t2_105 * L_22 = V_0;
 		NullCheck(L_21);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_21, L_22);
-		Expression_t1063 * L_23 = Assertion_get_TrueExpression_m5537(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_21, L_22);
+		Expression_t2_125 * L_23 = Assertion_get_TrueExpression_m2_766(__this, /*hidden argument*/NULL);
 		Object_t * L_24 = ___cmp;
 		bool L_25 = ___reverse;
 		NullCheck(L_23);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_23, L_24, L_25);
-		Expression_t1063 * L_26 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_26 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		if (L_26)
 		{
 			goto IL_0095;
@@ -15885,9 +15885,9 @@ IL_006a:
 	}
 	{
 		Object_t * L_27 = ___cmp;
-		LinkRef_t1042 * L_28 = V_1;
+		LinkRef_t2_105 * L_28 = V_1;
 		NullCheck(L_27);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_27, L_28);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_27, L_28);
 		goto IL_00be;
 	}
 
@@ -15895,25 +15895,25 @@ IL_0095:
 	{
 		Object_t * L_29 = ___cmp;
 		NullCheck(L_29);
-		LinkRef_t1042 * L_30 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_29);
+		LinkRef_t2_105 * L_30 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_29);
 		V_2 = L_30;
 		Object_t * L_31 = ___cmp;
-		LinkRef_t1042 * L_32 = V_2;
+		LinkRef_t2_105 * L_32 = V_2;
 		NullCheck(L_31);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_31, L_32);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_31, L_32);
 		Object_t * L_33 = ___cmp;
-		LinkRef_t1042 * L_34 = V_1;
+		LinkRef_t2_105 * L_34 = V_1;
 		NullCheck(L_33);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_33, L_34);
-		Expression_t1063 * L_35 = Assertion_get_FalseExpression_m5539(__this, /*hidden argument*/NULL);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_33, L_34);
+		Expression_t2_125 * L_35 = Assertion_get_FalseExpression_m2_768(__this, /*hidden argument*/NULL);
 		Object_t * L_36 = ___cmp;
 		bool L_37 = ___reverse;
 		NullCheck(L_35);
 		VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_35, L_36, L_37);
 		Object_t * L_38 = ___cmp;
-		LinkRef_t1042 * L_39 = V_2;
+		LinkRef_t2_105 * L_39 = V_2;
 		NullCheck(L_38);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_38, L_39);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_38, L_39);
 	}
 
 IL_00be:
@@ -15922,72 +15922,72 @@ IL_00be:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.ExpressionAssertion::IsComplex()
-extern "C" bool ExpressionAssertion_IsComplex_m5553 (ExpressionAssertion_t1073 * __this, const MethodInfo* method)
+extern "C" bool ExpressionAssertion_IsComplex_m2_782 (ExpressionAssertion_t2_135 * __this, const MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::.ctor()
-extern "C" void Alternation__ctor_m5554 (Alternation_t1075 * __this, const MethodInfo* method)
+extern "C" void Alternation__ctor_m2_783 (Alternation_t2_137 * __this, const MethodInfo* method)
 {
 	{
-		CompositeExpression__ctor_m5502(__this, /*hidden argument*/NULL);
+		CompositeExpression__ctor_m2_731(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.Alternation::get_Alternatives()
-extern "C" ExpressionCollection_t1062 * Alternation_get_Alternatives_m5555 (Alternation_t1075 * __this, const MethodInfo* method)
+extern "C" ExpressionCollection_t2_124 * Alternation_get_Alternatives_m2_784 (Alternation_t2_137 * __this, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = CompositeExpression_get_Expressions_m5503(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_0 = CompositeExpression_get_Expressions_m2_732(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::AddAlternative(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Alternation_AddAlternative_m5556 (Alternation_t1075 * __this, Expression_t1063 * ___e, const MethodInfo* method)
+extern "C" void Alternation_AddAlternative_m2_785 (Alternation_t2_137 * __this, Expression_t2_125 * ___e, const MethodInfo* method)
 {
 	{
-		ExpressionCollection_t1062 * L_0 = Alternation_get_Alternatives_m5555(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_1 = ___e;
+		ExpressionCollection_t2_124 * L_0 = Alternation_get_Alternatives_m2_784(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_1 = ___e;
 		NullCheck(L_0);
-		ExpressionCollection_Add_m5495(L_0, L_1, /*hidden argument*/NULL);
+		ExpressionCollection_Add_m2_724(L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Expression_t1063_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern "C" void Alternation_Compile_m5557 (Alternation_t1075 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Expression_t2_125_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern "C" void Alternation_Compile_m2_786 (Alternation_t2_137 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Expression_t1063_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Expression_t2_125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(726);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
 		s_Il2CppMethodIntialized = true;
 	}
-	LinkRef_t1042 * V_0 = {0};
-	Expression_t1063 * V_1 = {0};
+	LinkRef_t2_105 * V_0 = {0};
+	Expression_t2_125 * V_1 = {0};
 	Object_t * V_2 = {0};
-	LinkRef_t1042 * V_3 = {0};
+	LinkRef_t2_105 * V_3 = {0};
 	Object_t * V_4 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		Object_t * L_0 = ___cmp;
 		NullCheck(L_0);
-		LinkRef_t1042 * L_1 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0);
+		LinkRef_t2_105 * L_1 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		ExpressionCollection_t1062 * L_2 = Alternation_get_Alternatives_m5555(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_2 = Alternation_get_Alternatives_m2_784(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		Object_t * L_3 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(4 /* System.Collections.IEnumerator System.Collections.CollectionBase::GetEnumerator() */, L_2);
 		V_2 = L_3;
@@ -16004,39 +16004,39 @@ IL_0018:
 		{
 			Object_t * L_4 = V_2;
 			NullCheck(L_4);
-			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_4);
-			V_1 = ((Expression_t1063 *)CastclassClass(L_5, Expression_t1063_il2cpp_TypeInfo_var));
+			Object_t * L_5 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_4);
+			V_1 = ((Expression_t2_125 *)CastclassClass(L_5, Expression_t2_125_il2cpp_TypeInfo_var));
 			Object_t * L_6 = ___cmp;
 			NullCheck(L_6);
-			LinkRef_t1042 * L_7 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_6);
+			LinkRef_t2_105 * L_7 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_6);
 			V_3 = L_7;
 			Object_t * L_8 = ___cmp;
-			LinkRef_t1042 * L_9 = V_3;
+			LinkRef_t2_105 * L_9 = V_3;
 			NullCheck(L_8);
-			InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(18 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBranch(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_8, L_9);
-			Expression_t1063 * L_10 = V_1;
+			InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(18 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBranch(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_8, L_9);
+			Expression_t2_125 * L_10 = V_1;
 			Object_t * L_11 = ___cmp;
 			bool L_12 = ___reverse;
 			NullCheck(L_10);
 			VirtActionInvoker2< Object_t *, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.Syntax.Expression::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean) */, L_10, L_11, L_12);
 			Object_t * L_13 = ___cmp;
-			LinkRef_t1042 * L_14 = V_0;
+			LinkRef_t2_105 * L_14 = V_0;
 			NullCheck(L_13);
-			InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_13, L_14);
+			InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(19 /* System.Void System.Text.RegularExpressions.ICompiler::EmitJump(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_13, L_14);
 			Object_t * L_15 = ___cmp;
-			LinkRef_t1042 * L_16 = V_3;
+			LinkRef_t2_105 * L_16 = V_3;
 			NullCheck(L_15);
-			InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_15, L_16);
+			InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_15, L_16);
 			Object_t * L_17 = ___cmp;
 			NullCheck(L_17);
-			InterfaceActionInvoker0::Invoke(26 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBranchEnd() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_17);
+			InterfaceActionInvoker0::Invoke(26 /* System.Void System.Text.RegularExpressions.ICompiler::EmitBranchEnd() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_17);
 		}
 
 IL_004e:
 		{
 			Object_t * L_18 = V_2;
 			NullCheck(L_18);
-			bool L_19 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_18);
+			bool L_19 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_18);
 			if (L_19)
 			{
 				goto IL_0018;
@@ -16050,7 +16050,7 @@ IL_0059:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_005e;
 	}
 
@@ -16058,7 +16058,7 @@ FINALLY_005e:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_20 = V_2;
-			V_4 = ((Object_t *)IsInst(L_20, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_4 = ((Object_t *)IsInst(L_20, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_21 = V_4;
 			if (L_21)
 			{
@@ -16075,49 +16075,49 @@ IL_006b:
 		{
 			Object_t * L_22 = V_4;
 			NullCheck(L_22);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_22);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_22);
 			IL2CPP_END_FINALLY(94)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(94)
 	{
 		IL2CPP_JUMP_TBL(0x73, IL_0073)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0073:
 	{
 		Object_t * L_23 = ___cmp;
 		NullCheck(L_23);
-		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_23);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_23);
 		Object_t * L_24 = ___cmp;
-		LinkRef_t1042 * L_25 = V_0;
+		LinkRef_t2_105 * L_25 = V_0;
 		NullCheck(L_24);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_24, L_25);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_24, L_25);
 		Object_t * L_26 = ___cmp;
 		NullCheck(L_26);
-		InterfaceActionInvoker0::Invoke(27 /* System.Void System.Text.RegularExpressions.ICompiler::EmitAlternationEnd() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_26);
+		InterfaceActionInvoker0::Invoke(27 /* System.Void System.Text.RegularExpressions.ICompiler::EmitAlternationEnd() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_26);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Alternation_GetWidth_m5558 (Alternation_t1075 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void Alternation_GetWidth_m2_787 (Alternation_t2_137 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	{
 		int32_t* L_0 = ___min;
 		int32_t* L_1 = ___max;
-		ExpressionCollection_t1062 * L_2 = Alternation_get_Alternatives_m5555(__this, /*hidden argument*/NULL);
+		ExpressionCollection_t2_124 * L_2 = Alternation_get_Alternatives_m2_784(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 System.Collections.CollectionBase::get_Count() */, L_2);
-		CompositeExpression_GetWidth_m5504(__this, L_0, L_1, L_3, /*hidden argument*/NULL);
+		CompositeExpression_GetWidth_m2_733(__this, L_0, L_1, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Literal::.ctor(System.String,System.Boolean)
-extern "C" void Literal__ctor_m5559 (Literal_t1074 * __this, String_t* ___str, bool ___ignore, const MethodInfo* method)
+extern "C" void Literal__ctor_m2_788 (Literal_t2_136 * __this, String_t* ___str, bool ___ignore, const MethodInfo* method)
 {
 	{
-		Expression__ctor_m5499(__this, /*hidden argument*/NULL);
+		Expression__ctor_m2_728(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___str;
 		__this->___str_0 = L_0;
 		bool L_1 = ___ignore;
@@ -16126,19 +16126,19 @@ extern "C" void Literal__ctor_m5559 (Literal_t1074 * __this, String_t* ___str, b
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Literal::CompileLiteral(System.String,System.Text.RegularExpressions.ICompiler,System.Boolean,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void Literal_CompileLiteral_m5560 (Object_t * __this /* static, unused */, String_t* ___str, Object_t * ___cmp, bool ___ignore, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void Literal_CompileLiteral_m2_789 (Object_t * __this /* static, unused */, String_t* ___str, Object_t * ___cmp, bool ___ignore, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___str;
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_000c;
@@ -16152,7 +16152,7 @@ IL_000c:
 	{
 		String_t* L_2 = ___str;
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2221(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m1_430(L_2, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
 			goto IL_002d;
@@ -16162,11 +16162,11 @@ IL_000c:
 		Object_t * L_4 = ___cmp;
 		String_t* L_5 = ___str;
 		NullCheck(L_5);
-		uint16_t L_6 = String_get_Chars_m2240(L_5, 0, /*hidden argument*/NULL);
+		uint16_t L_6 = String_get_Chars_m1_344(L_5, 0, /*hidden argument*/NULL);
 		bool L_7 = ___ignore;
 		bool L_8 = ___reverse;
 		NullCheck(L_4);
-		InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(3 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_4, L_6, 0, L_7, L_8);
+		InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(3 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_4, L_6, 0, L_7, L_8);
 		goto IL_0036;
 	}
 
@@ -16177,7 +16177,7 @@ IL_002d:
 		bool L_11 = ___ignore;
 		bool L_12 = ___reverse;
 		NullCheck(L_9);
-		InterfaceActionInvoker3< String_t*, bool, bool >::Invoke(8 /* System.Void System.Text.RegularExpressions.ICompiler::EmitString(System.String,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_9, L_10, L_11, L_12);
+		InterfaceActionInvoker3< String_t*, bool, bool >::Invoke(8 /* System.Void System.Text.RegularExpressions.ICompiler::EmitString(System.String,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_9, L_10, L_11, L_12);
 	}
 
 IL_0036:
@@ -16186,19 +16186,19 @@ IL_0036:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Literal::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Literal_Compile_m5561 (Literal_t1074 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern "C" void Literal_Compile_m2_790 (Literal_t2_136 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___str_0);
 		Object_t * L_1 = ___cmp;
 		bool L_2 = (__this->___ignore_1);
 		bool L_3 = ___reverse;
-		Literal_CompileLiteral_m5560(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		Literal_CompileLiteral_m2_789(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Literal::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Literal_GetWidth_m5562 (Literal_t1074 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void Literal_GetWidth_m2_791 (Literal_t2_136 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -16206,7 +16206,7 @@ extern "C" void Literal_GetWidth_m5562 (Literal_t1074 * __this, int32_t* ___min,
 		int32_t* L_1 = ___max;
 		String_t* L_2 = (__this->___str_0);
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2221(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m1_430(L_2, /*hidden argument*/NULL);
 		int32_t L_4 = L_3;
 		V_0 = L_4;
 		*((int32_t*)(L_1)) = (int32_t)L_4;
@@ -16216,63 +16216,63 @@ extern "C" void Literal_GetWidth_m5562 (Literal_t1074 * __this, int32_t* ___min,
 	}
 }
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Literal::GetAnchorInfo(System.Boolean)
-extern TypeInfo* AnchorInfo_t1081_il2cpp_TypeInfo_var;
-extern "C" AnchorInfo_t1081 * Literal_GetAnchorInfo_m5563 (Literal_t1074 * __this, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* AnchorInfo_t2_142_il2cpp_TypeInfo_var;
+extern "C" AnchorInfo_t2_142 * Literal_GetAnchorInfo_m2_792 (Literal_t2_136 * __this, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AnchorInfo_t1081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		AnchorInfo_t2_142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = (__this->___str_0);
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		String_t* L_2 = (__this->___str_0);
 		bool L_3 = (__this->___ignore_1);
-		AnchorInfo_t1081 * L_4 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5591(L_4, __this, 0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_4 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_820(L_4, __this, 0, L_1, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Literal::IsComplex()
-extern "C" bool Literal_IsComplex_m5564 (Literal_t1074 * __this, const MethodInfo* method)
+extern "C" bool Literal_IsComplex_m2_793 (Literal_t2_136 * __this, const MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::.ctor(System.Text.RegularExpressions.Position)
-extern "C" void PositionAssertion__ctor_m5565 (PositionAssertion_t1076 * __this, uint16_t ___pos, const MethodInfo* method)
+extern "C" void PositionAssertion__ctor_m2_794 (PositionAssertion_t2_138 * __this, uint16_t ___pos, const MethodInfo* method)
 {
 	{
-		Expression__ctor_m5499(__this, /*hidden argument*/NULL);
+		Expression__ctor_m2_728(__this, /*hidden argument*/NULL);
 		uint16_t L_0 = ___pos;
 		__this->___pos_0 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void PositionAssertion_Compile_m5566 (PositionAssertion_t1076 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void PositionAssertion_Compile_m2_795 (PositionAssertion_t2_138 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object_t * L_0 = ___cmp;
 		uint16_t L_1 = (__this->___pos_0);
 		NullCheck(L_0);
-		InterfaceActionInvoker1< uint16_t >::Invoke(9 /* System.Void System.Text.RegularExpressions.ICompiler::EmitPosition(System.Text.RegularExpressions.Position) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0, L_1);
+		InterfaceActionInvoker1< uint16_t >::Invoke(9 /* System.Void System.Text.RegularExpressions.ICompiler::EmitPosition(System.Text.RegularExpressions.Position) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::GetWidth(System.Int32&,System.Int32&)
-extern "C" void PositionAssertion_GetWidth_m5567 (PositionAssertion_t1076 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void PositionAssertion_GetWidth_m2_796 (PositionAssertion_t2_138 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -16287,20 +16287,20 @@ extern "C" void PositionAssertion_GetWidth_m5567 (PositionAssertion_t1076 * __th
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.PositionAssertion::IsComplex()
-extern "C" bool PositionAssertion_IsComplex_m5568 (PositionAssertion_t1076 * __this, const MethodInfo* method)
+extern "C" bool PositionAssertion_IsComplex_m2_797 (PositionAssertion_t2_138 * __this, const MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.PositionAssertion::GetAnchorInfo(System.Boolean)
-extern TypeInfo* AnchorInfo_t1081_il2cpp_TypeInfo_var;
-extern "C" AnchorInfo_t1081 * PositionAssertion_GetAnchorInfo_m5569 (PositionAssertion_t1076 * __this, bool ___revers, const MethodInfo* method)
+extern TypeInfo* AnchorInfo_t2_142_il2cpp_TypeInfo_var;
+extern "C" AnchorInfo_t2_142 * PositionAssertion_GetAnchorInfo_m2_798 (PositionAssertion_t2_138 * __this, bool ___revers, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AnchorInfo_t1081_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		AnchorInfo_t2_142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(727);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = {0};
@@ -16328,47 +16328,47 @@ extern "C" AnchorInfo_t1081 * PositionAssertion_GetAnchorInfo_m5569 (PositionAss
 IL_0020:
 	{
 		uint16_t L_2 = (__this->___pos_0);
-		AnchorInfo_t1081 * L_3 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5592(L_3, __this, 0, 0, L_2, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_3 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_821(L_3, __this, 0, 0, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 
 IL_002f:
 	{
-		AnchorInfo_t1081 * L_4 = (AnchorInfo_t1081 *)il2cpp_codegen_object_new (AnchorInfo_t1081_il2cpp_TypeInfo_var);
-		AnchorInfo__ctor_m5590(L_4, __this, 0, /*hidden argument*/NULL);
+		AnchorInfo_t2_142 * L_4 = (AnchorInfo_t2_142 *)il2cpp_codegen_object_new (AnchorInfo_t2_142_il2cpp_TypeInfo_var);
+		AnchorInfo__ctor_m2_819(L_4, __this, 0, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Reference::.ctor(System.Boolean)
-extern "C" void Reference__ctor_m5570 (Reference_t1077 * __this, bool ___ignore, const MethodInfo* method)
+extern "C" void Reference__ctor_m2_799 (Reference_t2_139 * __this, bool ___ignore, const MethodInfo* method)
 {
 	{
-		Expression__ctor_m5499(__this, /*hidden argument*/NULL);
+		Expression__ctor_m2_728(__this, /*hidden argument*/NULL);
 		bool L_0 = ___ignore;
 		__this->___ignore_1 = L_0;
 		return;
 	}
 }
 // System.Text.RegularExpressions.Syntax.CapturingGroup System.Text.RegularExpressions.Syntax.Reference::get_CapturingGroup()
-extern "C" CapturingGroup_t1067 * Reference_get_CapturingGroup_m5571 (Reference_t1077 * __this, const MethodInfo* method)
+extern "C" CapturingGroup_t2_129 * Reference_get_CapturingGroup_m2_800 (Reference_t2_139 * __this, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = (__this->___group_0);
+		CapturingGroup_t2_129 * L_0 = (__this->___group_0);
 		return L_0;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Reference::set_CapturingGroup(System.Text.RegularExpressions.Syntax.CapturingGroup)
-extern "C" void Reference_set_CapturingGroup_m5572 (Reference_t1077 * __this, CapturingGroup_t1067 * ___value, const MethodInfo* method)
+extern "C" void Reference_set_CapturingGroup_m2_801 (Reference_t2_139 * __this, CapturingGroup_t2_129 * ___value, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = ___value;
+		CapturingGroup_t2_129 * L_0 = ___value;
 		__this->___group_0 = L_0;
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::get_IgnoreCase()
-extern "C" bool Reference_get_IgnoreCase_m5573 (Reference_t1077 * __this, const MethodInfo* method)
+extern "C" bool Reference_get_IgnoreCase_m2_802 (Reference_t2_139 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___ignore_1);
@@ -16376,29 +16376,29 @@ extern "C" bool Reference_get_IgnoreCase_m5573 (Reference_t1077 * __this, const 
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Reference::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern "C" void Reference_Compile_m5574 (Reference_t1077 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern "C" void Reference_Compile_m2_803 (Reference_t2_139 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object_t * L_0 = ___cmp;
-		CapturingGroup_t1067 * L_1 = (__this->___group_0);
+		CapturingGroup_t2_129 * L_1 = (__this->___group_0);
 		NullCheck(L_1);
-		int32_t L_2 = CapturingGroup_get_Index_m5515(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = CapturingGroup_get_Index_m2_744(L_1, /*hidden argument*/NULL);
 		bool L_3 = (__this->___ignore_1);
 		bool L_4 = ___reverse;
 		NullCheck(L_0);
-		InterfaceActionInvoker3< int32_t, bool, bool >::Invoke(14 /* System.Void System.Text.RegularExpressions.ICompiler::EmitReference(System.Int32,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_0, L_2, L_3, L_4);
+		InterfaceActionInvoker3< int32_t, bool, bool >::Invoke(14 /* System.Void System.Text.RegularExpressions.ICompiler::EmitReference(System.Int32,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_0, L_2, L_3, L_4);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.Reference::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Reference_GetWidth_m5575 (Reference_t1077 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void Reference_GetWidth_m2_804 (Reference_t2_139 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	{
 		int32_t* L_0 = ___min;
@@ -16409,35 +16409,35 @@ extern "C" void Reference_GetWidth_m5575 (Reference_t1077 * __this, int32_t* ___
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.Reference::IsComplex()
-extern "C" bool Reference_IsComplex_m5576 (Reference_t1077 * __this, const MethodInfo* method)
+extern "C" bool Reference_IsComplex_m2_805 (Reference_t2_139 * __this, const MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::.ctor(System.Boolean,System.Boolean)
-extern "C" void BackslashNumber__ctor_m5577 (BackslashNumber_t1078 * __this, bool ___ignore, bool ___ecma, const MethodInfo* method)
+extern "C" void BackslashNumber__ctor_m2_806 (BackslashNumber_t2_140 * __this, bool ___ignore, bool ___ecma, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___ignore;
-		Reference__ctor_m5570(__this, L_0, /*hidden argument*/NULL);
+		Reference__ctor_m2_799(__this, L_0, /*hidden argument*/NULL);
 		bool L_1 = ___ecma;
 		__this->___ecma_3 = L_1;
 		return;
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.BackslashNumber::ResolveReference(System.String,System.Collections.Hashtable)
-extern TypeInfo* CapturingGroup_t1067_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
+extern TypeInfo* CapturingGroup_t2_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool BackslashNumber_ResolveReference_m5578 (BackslashNumber_t1078 * __this, String_t* ___num_str, Hashtable_t836 * ___groups, const MethodInfo* method)
+extern "C" bool BackslashNumber_ResolveReference_m2_807 (BackslashNumber_t2_140 * __this, String_t* ___num_str, Hashtable_t1_171 * ___groups, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CapturingGroup_t1067_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		CapturingGroup_t2_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -16459,11 +16459,11 @@ extern "C" bool BackslashNumber_ResolveReference_m5578 (BackslashNumber_t1078 * 
 
 IL_0014:
 	{
-		Hashtable_t836 * L_1 = ___groups;
+		Hashtable_t1_171 * L_1 = ___groups;
 		String_t* L_2 = ___num_str;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
-		String_t* L_4 = String_Substring_m2241(L_2, 0, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Substring_m1_355(L_2, 0, L_3, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		Object_t * L_5 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_1, L_4);
 		if (!L_5)
@@ -16487,7 +16487,7 @@ IL_002d:
 		int32_t L_8 = V_1;
 		String_t* L_9 = ___num_str;
 		NullCheck(L_9);
-		int32_t L_10 = String_get_Length_m2221(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = String_get_Length_m1_430(L_9, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) < ((int32_t)L_10)))
 		{
 			goto IL_0014;
@@ -16501,18 +16501,18 @@ IL_002d:
 		}
 	}
 	{
-		Hashtable_t836 * L_12 = ___groups;
+		Hashtable_t1_171 * L_12 = ___groups;
 		String_t* L_13 = ___num_str;
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
-		String_t* L_15 = String_Substring_m2241(L_13, 0, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Substring_m1_355(L_13, 0, L_14, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		Object_t * L_16 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_12, L_15);
-		Reference_set_CapturingGroup_m5572(__this, ((CapturingGroup_t1067 *)CastclassClass(L_16, CapturingGroup_t1067_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Reference_set_CapturingGroup_m2_801(__this, ((CapturingGroup_t2_129 *)CastclassClass(L_16, CapturingGroup_t2_129_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		String_t* L_17 = ___num_str;
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
-		String_t* L_19 = String_Substring_m2268(L_17, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = String_Substring_m1_354(L_17, L_18, /*hidden argument*/NULL);
 		__this->___literal_2 = L_19;
 		return 1;
 	}
@@ -16526,7 +16526,7 @@ IL_006c:
 	{
 		String_t* L_20 = ___num_str;
 		NullCheck(L_20);
-		int32_t L_21 = String_get_Length_m2221(L_20, /*hidden argument*/NULL);
+		int32_t L_21 = String_get_Length_m1_430(L_20, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_21) == ((uint32_t)1))))
 		{
 			goto IL_007a;
@@ -16540,7 +16540,7 @@ IL_007a:
 	{
 		V_2 = 0;
 		String_t* L_22 = ___num_str;
-		int32_t L_23 = Parser_ParseOctal_m5449(NULL /*static, unused*/, L_22, (&V_2), /*hidden argument*/NULL);
+		int32_t L_23 = Parser_ParseOctal_m2_678(NULL /*static, unused*/, L_22, (&V_2), /*hidden argument*/NULL);
 		V_3 = L_23;
 		int32_t L_24 = V_3;
 		if ((!(((uint32_t)L_24) == ((uint32_t)(-1)))))
@@ -16580,22 +16580,22 @@ IL_00ac:
 		V_3 = ((int32_t)((int32_t)L_29&(int32_t)((int32_t)255)));
 		int32_t L_30 = V_3;
 		uint16_t L_31 = (((int32_t)((uint16_t)L_30)));
-		Object_t * L_32 = Box(Char_t389_il2cpp_TypeInfo_var, &L_31);
+		Object_t * L_32 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_31);
 		String_t* L_33 = ___num_str;
 		int32_t L_34 = V_2;
 		NullCheck(L_33);
-		String_t* L_35 = String_Substring_m2268(L_33, L_34, /*hidden argument*/NULL);
+		String_t* L_35 = String_Substring_m1_354(L_33, L_34, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_36 = String_Concat_m1896(NULL /*static, unused*/, L_32, L_35, /*hidden argument*/NULL);
+		String_t* L_36 = String_Concat_m1_418(NULL /*static, unused*/, L_32, L_35, /*hidden argument*/NULL);
 		__this->___literal_2 = L_36;
 		return 1;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.BackslashNumber::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void BackslashNumber_Compile_m5579 (BackslashNumber_t1078 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern "C" void BackslashNumber_Compile_m2_808 (BackslashNumber_t2_140 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	{
-		CapturingGroup_t1067 * L_0 = Reference_get_CapturingGroup_m5571(__this, /*hidden argument*/NULL);
+		CapturingGroup_t2_129 * L_0 = Reference_get_CapturingGroup_m2_800(__this, /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_0013;
@@ -16604,7 +16604,7 @@ extern "C" void BackslashNumber_Compile_m5579 (BackslashNumber_t1078 * __this, O
 	{
 		Object_t * L_1 = ___cmp;
 		bool L_2 = ___reverse;
-		Reference_Compile_m5574(__this, L_1, L_2, /*hidden argument*/NULL);
+		Reference_Compile_m2_803(__this, L_1, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0013:
@@ -16618,9 +16618,9 @@ IL_0013:
 	{
 		String_t* L_4 = (__this->___literal_2);
 		Object_t * L_5 = ___cmp;
-		bool L_6 = Reference_get_IgnoreCase_m5573(__this, /*hidden argument*/NULL);
+		bool L_6 = Reference_get_IgnoreCase_m2_802(__this, /*hidden argument*/NULL);
 		bool L_7 = ___reverse;
-		Literal_CompileLiteral_m5560(NULL /*static, unused*/, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		Literal_CompileLiteral_m2_789(NULL /*static, unused*/, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0031:
@@ -16629,69 +16629,69 @@ IL_0031:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Boolean,System.Boolean)
-extern TypeInfo* IntervalCollection_t1059_il2cpp_TypeInfo_var;
-extern TypeInfo* BitArray_t1080_il2cpp_TypeInfo_var;
-extern "C" void CharacterClass__ctor_m5580 (CharacterClass_t1079 * __this, bool ___negate, bool ___ignore, const MethodInfo* method)
+extern TypeInfo* IntervalCollection_t2_121_il2cpp_TypeInfo_var;
+extern TypeInfo* BitArray_t1_158_il2cpp_TypeInfo_var;
+extern "C" void CharacterClass__ctor_m2_809 (CharacterClass_t2_141 * __this, bool ___negate, bool ___ignore, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		IntervalCollection_t1059_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(713);
-		BitArray_t1080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(733);
+		IntervalCollection_t2_121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(710);
+		BitArray_t1_158_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(187);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	{
-		Expression__ctor_m5499(__this, /*hidden argument*/NULL);
+		Expression__ctor_m2_728(__this, /*hidden argument*/NULL);
 		bool L_0 = ___negate;
 		__this->___negate_1 = L_0;
 		bool L_1 = ___ignore;
 		__this->___ignore_2 = L_1;
-		IntervalCollection_t1059 * L_2 = (IntervalCollection_t1059 *)il2cpp_codegen_object_new (IntervalCollection_t1059_il2cpp_TypeInfo_var);
-		IntervalCollection__ctor_m5436(L_2, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_2 = (IntervalCollection_t2_121 *)il2cpp_codegen_object_new (IntervalCollection_t2_121_il2cpp_TypeInfo_var);
+		IntervalCollection__ctor_m2_665(L_2, /*hidden argument*/NULL);
 		__this->___intervals_5 = L_2;
 		V_0 = ((int32_t)144);
 		int32_t L_3 = V_0;
-		BitArray_t1080 * L_4 = (BitArray_t1080 *)il2cpp_codegen_object_new (BitArray_t1080_il2cpp_TypeInfo_var);
-		BitArray__ctor_m5753(L_4, L_3, /*hidden argument*/NULL);
+		BitArray_t1_158 * L_4 = (BitArray_t1_158 *)il2cpp_codegen_object_new (BitArray_t1_158_il2cpp_TypeInfo_var);
+		BitArray__ctor_m1_1639(L_4, L_3, /*hidden argument*/NULL);
 		__this->___pos_cats_3 = L_4;
 		int32_t L_5 = V_0;
-		BitArray_t1080 * L_6 = (BitArray_t1080 *)il2cpp_codegen_object_new (BitArray_t1080_il2cpp_TypeInfo_var);
-		BitArray__ctor_m5753(L_6, L_5, /*hidden argument*/NULL);
+		BitArray_t1_158 * L_6 = (BitArray_t1_158 *)il2cpp_codegen_object_new (BitArray_t1_158_il2cpp_TypeInfo_var);
+		BitArray__ctor_m1_1639(L_6, L_5, /*hidden argument*/NULL);
 		__this->___neg_cats_4 = L_6;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.ctor(System.Text.RegularExpressions.Category,System.Boolean)
-extern "C" void CharacterClass__ctor_m5581 (CharacterClass_t1079 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method)
+extern "C" void CharacterClass__ctor_m2_810 (CharacterClass_t2_141 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method)
 {
 	{
-		CharacterClass__ctor_m5580(__this, 0, 0, /*hidden argument*/NULL);
+		CharacterClass__ctor_m2_809(__this, 0, 0, /*hidden argument*/NULL);
 		uint16_t L_0 = ___cat;
 		bool L_1 = ___negate;
-		CharacterClass_AddCategory_m5583(__this, L_0, L_1, /*hidden argument*/NULL);
+		CharacterClass_AddCategory_m2_812(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::.cctor()
-extern TypeInfo* CharacterClass_t1079_il2cpp_TypeInfo_var;
-extern "C" void CharacterClass__cctor_m5582 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* CharacterClass_t2_141_il2cpp_TypeInfo_var;
+extern "C" void CharacterClass__cctor_m2_811 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharacterClass_t1079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
+		CharacterClass_t2_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Interval_t1056  L_0 = {0};
-		Interval__ctor_m5415(&L_0, ((int32_t)65), ((int32_t)90), /*hidden argument*/NULL);
-		((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0 = L_0;
+		Interval_t2_118  L_0 = {0};
+		Interval__ctor_m2_644(&L_0, ((int32_t)65), ((int32_t)90), /*hidden argument*/NULL);
+		((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0 = L_0;
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCategory(System.Text.RegularExpressions.Category,System.Boolean)
-extern "C" void CharacterClass_AddCategory_m5583 (CharacterClass_t1079 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method)
+extern "C" void CharacterClass_AddCategory_m2_812 (CharacterClass_t2_141 * __this, uint16_t ___cat, bool ___negate, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -16704,19 +16704,19 @@ extern "C" void CharacterClass_AddCategory_m5583 (CharacterClass_t1079 * __this,
 		}
 	}
 	{
-		BitArray_t1080 * L_2 = (__this->___neg_cats_4);
+		BitArray_t1_158 * L_2 = (__this->___neg_cats_4);
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
-		BitArray_set_Item_m5754(L_2, L_3, 1, /*hidden argument*/NULL);
+		BitArray_set_Item_m1_1644(L_2, L_3, 1, /*hidden argument*/NULL);
 		goto IL_0027;
 	}
 
 IL_001a:
 	{
-		BitArray_t1080 * L_4 = (__this->___pos_cats_3);
+		BitArray_t1_158 * L_4 = (__this->___pos_cats_3);
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
-		BitArray_set_Item_m5754(L_4, L_5, 1, /*hidden argument*/NULL);
+		BitArray_set_Item_m1_1644(L_4, L_5, 1, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -16725,31 +16725,31 @@ IL_0027:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddCharacter(System.Char)
-extern "C" void CharacterClass_AddCharacter_m5584 (CharacterClass_t1079 * __this, uint16_t ___c, const MethodInfo* method)
+extern "C" void CharacterClass_AddCharacter_m2_813 (CharacterClass_t2_141 * __this, uint16_t ___c, const MethodInfo* method)
 {
 	{
 		uint16_t L_0 = ___c;
 		uint16_t L_1 = ___c;
-		CharacterClass_AddRange_m5585(__this, L_0, L_1, /*hidden argument*/NULL);
+		CharacterClass_AddRange_m2_814(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::AddRange(System.Char,System.Char)
-extern TypeInfo* CharacterClass_t1079_il2cpp_TypeInfo_var;
-extern "C" void CharacterClass_AddRange_m5585 (CharacterClass_t1079 * __this, uint16_t ___lo, uint16_t ___hi, const MethodInfo* method)
+extern TypeInfo* CharacterClass_t2_141_il2cpp_TypeInfo_var;
+extern "C" void CharacterClass_AddRange_m2_814 (CharacterClass_t2_141 * __this, uint16_t ___lo, uint16_t ___hi, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharacterClass_t1079_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(719);
+		CharacterClass_t2_141_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(716);
 		s_Il2CppMethodIntialized = true;
 	}
-	Interval_t1056  V_0 = {0};
-	Interval_t1056  V_1 = {0};
+	Interval_t2_118  V_0 = {0};
+	Interval_t2_118  V_1 = {0};
 	{
 		uint16_t L_0 = ___lo;
 		uint16_t L_1 = ___hi;
-		Interval__ctor_m5415((&V_0), L_0, L_1, /*hidden argument*/NULL);
+		Interval__ctor_m2_644((&V_0), L_0, L_1, /*hidden argument*/NULL);
 		bool L_2 = (__this->___ignore_2);
 		if (!L_2)
 		{
@@ -16757,9 +16757,9 @@ extern "C" void CharacterClass_AddRange_m5585 (CharacterClass_t1079 * __this, ui
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t1079_il2cpp_TypeInfo_var);
-		Interval_t1056  L_3 = V_0;
-		bool L_4 = Interval_Intersects_m5425((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0), L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		Interval_t2_118  L_3 = V_0;
+		bool L_4 = Interval_Intersects_m2_654((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0), L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_00b2;
@@ -16767,19 +16767,19 @@ extern "C" void CharacterClass_AddRange_m5585 (CharacterClass_t1079 * __this, ui
 	}
 	{
 		int32_t L_5 = ((&V_0)->___low_0);
-		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t1079_il2cpp_TypeInfo_var);
-		int32_t L_6 = ((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
+		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		int32_t L_6 = ((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
 		if ((((int32_t)L_5) >= ((int32_t)L_6)))
 		{
 			goto IL_0070;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t1079_il2cpp_TypeInfo_var);
-		int32_t L_7 = ((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
+		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		int32_t L_7 = ((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
 		int32_t L_8 = ((&V_0)->___high_1);
-		Interval__ctor_m5415((&V_1), ((int32_t)((int32_t)L_7+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_8+(int32_t)((int32_t)32))), /*hidden argument*/NULL);
-		int32_t L_9 = ((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
+		Interval__ctor_m2_644((&V_1), ((int32_t)((int32_t)L_7+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_8+(int32_t)((int32_t)32))), /*hidden argument*/NULL);
+		int32_t L_9 = ((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___low_0);
 		(&V_0)->___high_1 = ((int32_t)((int32_t)L_9-(int32_t)1));
 		goto IL_00a1;
 	}
@@ -16787,100 +16787,100 @@ extern "C" void CharacterClass_AddRange_m5585 (CharacterClass_t1079 * __this, ui
 IL_0070:
 	{
 		int32_t L_10 = ((&V_0)->___low_0);
-		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t1079_il2cpp_TypeInfo_var);
-		int32_t L_11 = ((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___high_1);
-		Interval__ctor_m5415((&V_1), ((int32_t)((int32_t)L_10+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_11+(int32_t)((int32_t)32))), /*hidden argument*/NULL);
-		int32_t L_12 = ((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___high_1);
+		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		int32_t L_11 = ((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___high_1);
+		Interval__ctor_m2_644((&V_1), ((int32_t)((int32_t)L_10+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_11+(int32_t)((int32_t)32))), /*hidden argument*/NULL);
+		int32_t L_12 = ((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0)->___high_1);
 		(&V_0)->___low_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
 
 IL_00a1:
 	{
-		IntervalCollection_t1059 * L_13 = (__this->___intervals_5);
-		Interval_t1056  L_14 = V_1;
+		IntervalCollection_t2_121 * L_13 = (__this->___intervals_5);
+		Interval_t2_118  L_14 = V_1;
 		NullCheck(L_13);
-		IntervalCollection_Add_m5438(L_13, L_14, /*hidden argument*/NULL);
+		IntervalCollection_Add_m2_667(L_13, L_14, /*hidden argument*/NULL);
 		goto IL_00e2;
 	}
 
 IL_00b2:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t1079_il2cpp_TypeInfo_var);
-		Interval_t1056  L_15 = V_0;
-		bool L_16 = Interval_Contains_m5423((&((CharacterClass_t1079_StaticFields*)CharacterClass_t1079_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0), L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CharacterClass_t2_141_il2cpp_TypeInfo_var);
+		Interval_t2_118  L_15 = V_0;
+		bool L_16 = Interval_Contains_m2_652((&((CharacterClass_t2_141_StaticFields*)CharacterClass_t2_141_il2cpp_TypeInfo_var->static_fields)->___upper_case_characters_0), L_15, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_00e2;
 		}
 	}
 	{
-		Interval_t1056 * L_17 = (&V_0);
+		Interval_t2_118 * L_17 = (&V_0);
 		int32_t L_18 = (L_17->___high_1);
 		L_17->___high_1 = ((int32_t)((int32_t)L_18+(int32_t)((int32_t)32)));
-		Interval_t1056 * L_19 = (&V_0);
+		Interval_t2_118 * L_19 = (&V_0);
 		int32_t L_20 = (L_19->___low_0);
 		L_19->___low_0 = ((int32_t)((int32_t)L_20+(int32_t)((int32_t)32)));
 	}
 
 IL_00e2:
 	{
-		IntervalCollection_t1059 * L_21 = (__this->___intervals_5);
-		Interval_t1056  L_22 = V_0;
+		IntervalCollection_t2_121 * L_21 = (__this->___intervals_5);
+		Interval_t2_118  L_22 = V_0;
 		NullCheck(L_21);
-		IntervalCollection_Add_m5438(L_21, L_22, /*hidden argument*/NULL);
+		IntervalCollection_Add_m2_667(L_21, L_22, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern TypeInfo* CostDelegate_t1058_il2cpp_TypeInfo_var;
-extern TypeInfo* ICompiler_t1096_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* Interval_t1056_il2cpp_TypeInfo_var;
-extern TypeInfo* BitArray_t1080_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern const MethodInfo* CharacterClass_GetIntervalCost_m5589_MethodInfo_var;
-extern "C" void CharacterClass_Compile_m5586 (CharacterClass_t1079 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
+extern TypeInfo* CostDelegate_t2_120_il2cpp_TypeInfo_var;
+extern TypeInfo* ICompiler_t2_157_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* Interval_t2_118_il2cpp_TypeInfo_var;
+extern TypeInfo* BitArray_t1_158_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern const MethodInfo* CharacterClass_GetIntervalCost_m2_818_MethodInfo_var;
+extern "C" void CharacterClass_Compile_m2_815 (CharacterClass_t2_141 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CostDelegate_t1058_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(734);
-		ICompiler_t1096_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(696);
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		Interval_t1056_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(712);
-		BitArray_t1080_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(733);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
-		CharacterClass_GetIntervalCost_m5589_MethodInfo_var = il2cpp_codegen_method_info_from_index(435);
+		CostDelegate_t2_120_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(729);
+		ICompiler_t2_157_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(694);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		Interval_t2_118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(709);
+		BitArray_t1_158_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(187);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
+		CharacterClass_GetIntervalCost_m2_818_MethodInfo_var = il2cpp_codegen_method_info_from_index(46);
 		s_Il2CppMethodIntialized = true;
 	}
-	IntervalCollection_t1059 * V_0 = {0};
+	IntervalCollection_t2_121 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	LinkRef_t1042 * V_3 = {0};
-	Interval_t1056  V_4 = {0};
+	LinkRef_t2_105 * V_3 = {0};
+	Interval_t2_118  V_4 = {0};
 	Object_t * V_5 = {0};
-	BitArray_t1080 * V_6 = {0};
-	Interval_t1056  V_7 = {0};
+	BitArray_t1_158 * V_6 = {0};
+	Interval_t2_118  V_7 = {0};
 	Object_t * V_8 = {0};
 	int32_t V_9 = 0;
 	int32_t V_10 = 0;
 	Object_t * V_11 = {0};
 	Object_t * V_12 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		IntervalCollection_t1059 * L_0 = (__this->___intervals_5);
-		IntPtr_t L_1 = { (void*)CharacterClass_GetIntervalCost_m5589_MethodInfo_var };
-		CostDelegate_t1058 * L_2 = (CostDelegate_t1058 *)il2cpp_codegen_object_new (CostDelegate_t1058_il2cpp_TypeInfo_var);
-		CostDelegate__ctor_m5432(L_2, NULL, L_1, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_0 = (__this->___intervals_5);
+		IntPtr_t L_1 = { (void*)CharacterClass_GetIntervalCost_m2_818_MethodInfo_var };
+		CostDelegate_t2_120 * L_2 = (CostDelegate_t2_120 *)il2cpp_codegen_object_new (CostDelegate_t2_120_il2cpp_TypeInfo_var);
+		CostDelegate__ctor_m2_661(L_2, NULL, L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		IntervalCollection_t1059 * L_3 = IntervalCollection_GetMetaCollection_m5440(L_0, L_2, /*hidden argument*/NULL);
+		IntervalCollection_t2_121 * L_3 = IntervalCollection_GetMetaCollection_m2_669(L_0, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
-		IntervalCollection_t1059 * L_4 = V_0;
+		IntervalCollection_t2_121 * L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count() */, L_4);
 		V_1 = L_5;
@@ -16890,20 +16890,20 @@ extern "C" void CharacterClass_Compile_m5586 (CharacterClass_t1079 * __this, Obj
 
 IL_0026:
 	{
-		BitArray_t1080 * L_6 = (__this->___pos_cats_3);
+		BitArray_t1_158 * L_6 = (__this->___pos_cats_3);
 		int32_t L_7 = V_2;
 		NullCheck(L_6);
-		bool L_8 = BitArray_get_Item_m5746(L_6, L_7, /*hidden argument*/NULL);
+		bool L_8 = BitArray_get_Item_m1_1643(L_6, L_7, /*hidden argument*/NULL);
 		if (L_8)
 		{
 			goto IL_0048;
 		}
 	}
 	{
-		BitArray_t1080 * L_9 = (__this->___neg_cats_4);
+		BitArray_t1_158 * L_9 = (__this->___neg_cats_4);
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
-		bool L_11 = BitArray_get_Item_m5746(L_9, L_10, /*hidden argument*/NULL);
+		bool L_11 = BitArray_get_Item_m1_1643(L_9, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_004c;
@@ -16925,9 +16925,9 @@ IL_004c:
 IL_0050:
 	{
 		int32_t L_14 = V_2;
-		BitArray_t1080 * L_15 = (__this->___pos_cats_3);
+		BitArray_t1_158 * L_15 = (__this->___pos_cats_3);
 		NullCheck(L_15);
-		int32_t L_16 = BitArray_get_Length_m5745(L_15, /*hidden argument*/NULL);
+		int32_t L_16 = BitArray_get_Length_m1_1645(L_15, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
 		{
 			goto IL_0026;
@@ -16948,7 +16948,7 @@ IL_0068:
 	{
 		Object_t * L_18 = ___cmp;
 		NullCheck(L_18);
-		LinkRef_t1042 * L_19 = (LinkRef_t1042 *)InterfaceFuncInvoker0< LinkRef_t1042 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_18);
+		LinkRef_t2_105 * L_19 = (LinkRef_t2_105 *)InterfaceFuncInvoker0< LinkRef_t2_105 * >::Invoke(28 /* System.Text.RegularExpressions.LinkRef System.Text.RegularExpressions.ICompiler::NewLink() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_18);
 		V_3 = L_19;
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) <= ((int32_t)1)))
@@ -16958,14 +16958,14 @@ IL_0068:
 	}
 	{
 		Object_t * L_21 = ___cmp;
-		LinkRef_t1042 * L_22 = V_3;
+		LinkRef_t2_105 * L_22 = V_3;
 		NullCheck(L_21);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(22 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIn(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_21, L_22);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(22 /* System.Void System.Text.RegularExpressions.ICompiler::EmitIn(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_21, L_22);
 	}
 
 IL_007d:
 	{
-		IntervalCollection_t1059 * L_23 = V_0;
+		IntervalCollection_t2_121 * L_23 = V_0;
 		NullCheck(L_23);
 		Object_t * L_24 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(8 /* System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator() */, L_23);
 		V_5 = L_24;
@@ -16982,9 +16982,9 @@ IL_008a:
 		{
 			Object_t * L_25 = V_5;
 			NullCheck(L_25);
-			Object_t * L_26 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_25);
-			V_4 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_26, Interval_t1056_il2cpp_TypeInfo_var))));
-			bool L_27 = Interval_get_IsDiscontiguous_m5417((&V_4), /*hidden argument*/NULL);
+			Object_t * L_26 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_25);
+			V_4 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_26, Interval_t2_118_il2cpp_TypeInfo_var))));
+			bool L_27 = Interval_get_IsDiscontiguous_m2_646((&V_4), /*hidden argument*/NULL);
 			if (!L_27)
 			{
 				goto IL_015d;
@@ -16993,11 +16993,11 @@ IL_008a:
 
 IL_00a4:
 		{
-			int32_t L_28 = Interval_get_Size_m5420((&V_4), /*hidden argument*/NULL);
-			BitArray_t1080 * L_29 = (BitArray_t1080 *)il2cpp_codegen_object_new (BitArray_t1080_il2cpp_TypeInfo_var);
-			BitArray__ctor_m5753(L_29, L_28, /*hidden argument*/NULL);
+			int32_t L_28 = Interval_get_Size_m2_649((&V_4), /*hidden argument*/NULL);
+			BitArray_t1_158 * L_29 = (BitArray_t1_158 *)il2cpp_codegen_object_new (BitArray_t1_158_il2cpp_TypeInfo_var);
+			BitArray__ctor_m1_1639(L_29, L_28, /*hidden argument*/NULL);
 			V_6 = L_29;
-			IntervalCollection_t1059 * L_30 = (__this->___intervals_5);
+			IntervalCollection_t2_121 * L_30 = (__this->___intervals_5);
 			NullCheck(L_30);
 			Object_t * L_31 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(8 /* System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator() */, L_30);
 			V_8 = L_31;
@@ -17014,10 +17014,10 @@ IL_00c4:
 			{
 				Object_t * L_32 = V_8;
 				NullCheck(L_32);
-				Object_t * L_33 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_32);
-				V_7 = ((*(Interval_t1056 *)((Interval_t1056 *)UnBox (L_33, Interval_t1056_il2cpp_TypeInfo_var))));
-				Interval_t1056  L_34 = V_7;
-				bool L_35 = Interval_Contains_m5423((&V_4), L_34, /*hidden argument*/NULL);
+				Object_t * L_33 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_32);
+				V_7 = ((*(Interval_t2_118 *)((Interval_t2_118 *)UnBox (L_33, Interval_t2_118_il2cpp_TypeInfo_var))));
+				Interval_t2_118  L_34 = V_7;
+				bool L_35 = Interval_Contains_m2_652((&V_4), L_34, /*hidden argument*/NULL);
 				if (!L_35)
 				{
 					goto IL_0114;
@@ -17033,11 +17033,11 @@ IL_00e0:
 
 IL_00ee:
 			{
-				BitArray_t1080 * L_37 = V_6;
+				BitArray_t1_158 * L_37 = V_6;
 				int32_t L_38 = V_9;
 				int32_t L_39 = ((&V_4)->___low_0);
 				NullCheck(L_37);
-				BitArray_set_Item_m5754(L_37, ((int32_t)((int32_t)L_38-(int32_t)L_39)), 1, /*hidden argument*/NULL);
+				BitArray_set_Item_m1_1644(L_37, ((int32_t)((int32_t)L_38-(int32_t)L_39)), 1, /*hidden argument*/NULL);
 				int32_t L_40 = V_9;
 				V_9 = ((int32_t)((int32_t)L_40+(int32_t)1));
 			}
@@ -17056,7 +17056,7 @@ IL_0114:
 			{
 				Object_t * L_43 = V_8;
 				NullCheck(L_43);
-				bool L_44 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_43);
+				bool L_44 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_43);
 				if (L_44)
 				{
 					goto IL_00c4;
@@ -17070,7 +17070,7 @@ IL_0120:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__last_unhandled_exception = (Exception_t82 *)e.ex;
+			__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 			goto FINALLY_0125;
 		}
 
@@ -17078,7 +17078,7 @@ FINALLY_0125:
 		{ // begin finally (depth: 2)
 			{
 				Object_t * L_45 = V_8;
-				V_11 = ((Object_t *)IsInst(L_45, IDisposable_t83_il2cpp_TypeInfo_var));
+				V_11 = ((Object_t *)IsInst(L_45, IDisposable_t1_825_il2cpp_TypeInfo_var));
 				Object_t * L_46 = V_11;
 				if (L_46)
 				{
@@ -17095,32 +17095,32 @@ IL_0133:
 			{
 				Object_t * L_47 = V_11;
 				NullCheck(L_47);
-				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_47);
+				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_47);
 				IL2CPP_END_FINALLY(293)
 			}
 		} // end finally (depth: 2)
 		IL2CPP_CLEANUP(293)
 		{
 			IL2CPP_JUMP_TBL(0x13B, IL_013b)
-			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 		}
 
 IL_013b:
 		{
 			Object_t * L_48 = ___cmp;
 			int32_t L_49 = ((&V_4)->___low_0);
-			BitArray_t1080 * L_50 = V_6;
+			BitArray_t1_158 * L_50 = V_6;
 			bool L_51 = (__this->___negate_1);
 			bool L_52 = (__this->___ignore_2);
 			bool L_53 = ___reverse;
 			NullCheck(L_48);
-			InterfaceActionInvoker5< uint16_t, BitArray_t1080 *, bool, bool, bool >::Invoke(7 /* System.Void System.Text.RegularExpressions.ICompiler::EmitSet(System.Char,System.Collections.BitArray,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_48, (((int32_t)((uint16_t)L_49))), L_50, L_51, L_52, L_53);
+			InterfaceActionInvoker5< uint16_t, BitArray_t1_158 *, bool, bool, bool >::Invoke(7 /* System.Void System.Text.RegularExpressions.ICompiler::EmitSet(System.Char,System.Collections.BitArray,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_48, (((int32_t)((uint16_t)L_49))), L_50, L_51, L_52, L_53);
 			goto IL_01ac;
 		}
 
 IL_015d:
 		{
-			bool L_54 = Interval_get_IsSingleton_m5418((&V_4), /*hidden argument*/NULL);
+			bool L_54 = Interval_get_IsSingleton_m2_647((&V_4), /*hidden argument*/NULL);
 			if (!L_54)
 			{
 				goto IL_0189;
@@ -17135,7 +17135,7 @@ IL_0169:
 			bool L_58 = (__this->___ignore_2);
 			bool L_59 = ___reverse;
 			NullCheck(L_55);
-			InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(3 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_55, (((int32_t)((uint16_t)L_56))), L_57, L_58, L_59);
+			InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(3 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCharacter(System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_55, (((int32_t)((uint16_t)L_56))), L_57, L_58, L_59);
 			goto IL_01ac;
 		}
 
@@ -17148,14 +17148,14 @@ IL_0189:
 			bool L_64 = (__this->___ignore_2);
 			bool L_65 = ___reverse;
 			NullCheck(L_60);
-			InterfaceActionInvoker5< uint16_t, uint16_t, bool, bool, bool >::Invoke(6 /* System.Void System.Text.RegularExpressions.ICompiler::EmitRange(System.Char,System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_60, (((int32_t)((uint16_t)L_61))), (((int32_t)((uint16_t)L_62))), L_63, L_64, L_65);
+			InterfaceActionInvoker5< uint16_t, uint16_t, bool, bool, bool >::Invoke(6 /* System.Void System.Text.RegularExpressions.ICompiler::EmitRange(System.Char,System.Char,System.Boolean,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_60, (((int32_t)((uint16_t)L_61))), (((int32_t)((uint16_t)L_62))), L_63, L_64, L_65);
 		}
 
 IL_01ac:
 		{
 			Object_t * L_66 = V_5;
 			NullCheck(L_66);
-			bool L_67 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_66);
+			bool L_67 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_66);
 			if (L_67)
 			{
 				goto IL_008a;
@@ -17169,7 +17169,7 @@ IL_01b8:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_01bd;
 	}
 
@@ -17177,7 +17177,7 @@ FINALLY_01bd:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_68 = V_5;
-			V_12 = ((Object_t *)IsInst(L_68, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_12 = ((Object_t *)IsInst(L_68, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_69 = V_12;
 			if (L_69)
 			{
@@ -17194,14 +17194,14 @@ IL_01cb:
 		{
 			Object_t * L_70 = V_12;
 			NullCheck(L_70);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_70);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_70);
 			IL2CPP_END_FINALLY(445)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(445)
 	{
 		IL2CPP_JUMP_TBL(0x1D3, IL_01d3)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_01d3:
@@ -17212,20 +17212,20 @@ IL_01d3:
 
 IL_01db:
 	{
-		BitArray_t1080 * L_71 = (__this->___pos_cats_3);
+		BitArray_t1_158 * L_71 = (__this->___pos_cats_3);
 		int32_t L_72 = V_10;
 		NullCheck(L_71);
-		bool L_73 = BitArray_get_Item_m5746(L_71, L_72, /*hidden argument*/NULL);
+		bool L_73 = BitArray_get_Item_m1_1643(L_71, L_72, /*hidden argument*/NULL);
 		if (!L_73)
 		{
 			goto IL_0227;
 		}
 	}
 	{
-		BitArray_t1080 * L_74 = (__this->___neg_cats_4);
+		BitArray_t1_158 * L_74 = (__this->___neg_cats_4);
 		int32_t L_75 = V_10;
 		NullCheck(L_74);
-		bool L_76 = BitArray_get_Item_m5746(L_74, L_75, /*hidden argument*/NULL);
+		bool L_76 = BitArray_get_Item_m1_1643(L_74, L_75, /*hidden argument*/NULL);
 		if (!L_76)
 		{
 			goto IL_0212;
@@ -17236,7 +17236,7 @@ IL_01db:
 		bool L_78 = (__this->___negate_1);
 		bool L_79 = ___reverse;
 		NullCheck(L_77);
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_77, 2, L_78, L_79);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_77, 2, L_78, L_79);
 		goto IL_0222;
 	}
 
@@ -17247,7 +17247,7 @@ IL_0212:
 		bool L_82 = (__this->___negate_1);
 		bool L_83 = ___reverse;
 		NullCheck(L_80);
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_80, (((int32_t)((uint16_t)L_81))), L_82, L_83);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(4 /* System.Void System.Text.RegularExpressions.ICompiler::EmitCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_80, (((int32_t)((uint16_t)L_81))), L_82, L_83);
 	}
 
 IL_0222:
@@ -17257,10 +17257,10 @@ IL_0222:
 
 IL_0227:
 	{
-		BitArray_t1080 * L_84 = (__this->___neg_cats_4);
+		BitArray_t1_158 * L_84 = (__this->___neg_cats_4);
 		int32_t L_85 = V_10;
 		NullCheck(L_84);
-		bool L_86 = BitArray_get_Item_m5746(L_84, L_85, /*hidden argument*/NULL);
+		bool L_86 = BitArray_get_Item_m1_1643(L_84, L_85, /*hidden argument*/NULL);
 		if (!L_86)
 		{
 			goto IL_0249;
@@ -17272,7 +17272,7 @@ IL_0227:
 		bool L_89 = (__this->___negate_1);
 		bool L_90 = ___reverse;
 		NullCheck(L_87);
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(5 /* System.Void System.Text.RegularExpressions.ICompiler::EmitNotCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_87, (((int32_t)((uint16_t)L_88))), L_89, L_90);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(5 /* System.Void System.Text.RegularExpressions.ICompiler::EmitNotCategory(System.Text.RegularExpressions.Category,System.Boolean,System.Boolean) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_87, (((int32_t)((uint16_t)L_88))), L_89, L_90);
 	}
 
 IL_0249:
@@ -17284,9 +17284,9 @@ IL_0249:
 IL_024f:
 	{
 		int32_t L_92 = V_10;
-		BitArray_t1080 * L_93 = (__this->___pos_cats_3);
+		BitArray_t1_158 * L_93 = (__this->___pos_cats_3);
 		NullCheck(L_93);
-		int32_t L_94 = BitArray_get_Length_m5745(L_93, /*hidden argument*/NULL);
+		int32_t L_94 = BitArray_get_Length_m1_1645(L_93, /*hidden argument*/NULL);
 		if ((((int32_t)L_92) < ((int32_t)L_94)))
 		{
 			goto IL_01db;
@@ -17309,7 +17309,7 @@ IL_024f:
 	{
 		Object_t * L_97 = ___cmp;
 		NullCheck(L_97);
-		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_97);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void System.Text.RegularExpressions.ICompiler::EmitTrue() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_97);
 		goto IL_0284;
 	}
 
@@ -17317,15 +17317,15 @@ IL_027e:
 	{
 		Object_t * L_98 = ___cmp;
 		NullCheck(L_98);
-		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t1096_il2cpp_TypeInfo_var, L_98);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void System.Text.RegularExpressions.ICompiler::EmitFalse() */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_98);
 	}
 
 IL_0284:
 	{
 		Object_t * L_99 = ___cmp;
-		LinkRef_t1042 * L_100 = V_3;
+		LinkRef_t2_105 * L_100 = V_3;
 		NullCheck(L_99);
-		InterfaceActionInvoker1< LinkRef_t1042 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t1096_il2cpp_TypeInfo_var, L_99, L_100);
+		InterfaceActionInvoker1< LinkRef_t2_105 * >::Invoke(29 /* System.Void System.Text.RegularExpressions.ICompiler::ResolveLink(System.Text.RegularExpressions.LinkRef) */, ICompiler_t2_157_il2cpp_TypeInfo_var, L_99, L_100);
 	}
 
 IL_028b:
@@ -17334,7 +17334,7 @@ IL_028b:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.CharacterClass::GetWidth(System.Int32&,System.Int32&)
-extern "C" void CharacterClass_GetWidth_m5587 (CharacterClass_t1079 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
+extern "C" void CharacterClass_GetWidth_m2_816 (CharacterClass_t2_141 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -17349,30 +17349,30 @@ extern "C" void CharacterClass_GetWidth_m5587 (CharacterClass_t1079 * __this, in
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.CharacterClass::IsComplex()
-extern "C" bool CharacterClass_IsComplex_m5588 (CharacterClass_t1079 * __this, const MethodInfo* method)
+extern "C" bool CharacterClass_IsComplex_m2_817 (CharacterClass_t2_141 * __this, const MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
 // System.Double System.Text.RegularExpressions.Syntax.CharacterClass::GetIntervalCost(System.Text.RegularExpressions.Interval)
-extern "C" double CharacterClass_GetIntervalCost_m5589 (Object_t * __this /* static, unused */, Interval_t1056  ___i, const MethodInfo* method)
+extern "C" double CharacterClass_GetIntervalCost_m2_818 (Object_t * __this /* static, unused */, Interval_t2_118  ___i, const MethodInfo* method)
 {
 	{
-		bool L_0 = Interval_get_IsDiscontiguous_m5417((&___i), /*hidden argument*/NULL);
+		bool L_0 = Interval_get_IsDiscontiguous_m2_646((&___i), /*hidden argument*/NULL);
 		if (!L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		int32_t L_1 = Interval_get_Size_m5420((&___i), /*hidden argument*/NULL);
+		int32_t L_1 = Interval_get_Size_m2_649((&___i), /*hidden argument*/NULL);
 		return (((double)((double)((int32_t)((int32_t)3+(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1+(int32_t)((int32_t)15)))>>(int32_t)4)))))));
 	}
 
 IL_001c:
 	{
-		bool L_2 = Interval_get_IsSingleton_m5418((&___i), /*hidden argument*/NULL);
+		bool L_2 = Interval_get_IsSingleton_m2_647((&___i), /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0032;
@@ -17388,11 +17388,11 @@ IL_0032:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32)
-extern "C" void AnchorInfo__ctor_m5590 (AnchorInfo_t1081 * __this, Expression_t1063 * ___expr, int32_t ___width, const MethodInfo* method)
+extern "C" void AnchorInfo__ctor_m2_819 (AnchorInfo_t2_142 * __this, Expression_t2_125 * ___expr, int32_t ___width, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_0 = ___expr;
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_0 = ___expr;
 		__this->___expr_0 = L_0;
 		__this->___offset_2 = 0;
 		int32_t L_1 = ___width;
@@ -17404,15 +17404,15 @@ extern "C" void AnchorInfo__ctor_m5590 (AnchorInfo_t1081 * __this, Expression_t1
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.String,System.Boolean)
-extern "C" void AnchorInfo__ctor_m5591 (AnchorInfo_t1081 * __this, Expression_t1063 * ___expr, int32_t ___offset, int32_t ___width, String_t* ___str, bool ___ignore, const MethodInfo* method)
+extern "C" void AnchorInfo__ctor_m2_820 (AnchorInfo_t2_142 * __this, Expression_t2_125 * ___expr, int32_t ___offset, int32_t ___width, String_t* ___str, bool ___ignore, const MethodInfo* method)
 {
-	AnchorInfo_t1081 * G_B2_0 = {0};
-	AnchorInfo_t1081 * G_B1_0 = {0};
+	AnchorInfo_t2_142 * G_B2_0 = {0};
+	AnchorInfo_t2_142 * G_B1_0 = {0};
 	String_t* G_B3_0 = {0};
-	AnchorInfo_t1081 * G_B3_1 = {0};
+	AnchorInfo_t2_142 * G_B3_1 = {0};
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_0 = ___expr;
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_0 = ___expr;
 		__this->___expr_0 = L_0;
 		int32_t L_1 = ___offset;
 		__this->___offset_2 = L_1;
@@ -17429,7 +17429,7 @@ extern "C" void AnchorInfo__ctor_m5591 (AnchorInfo_t1081 * __this, Expression_t1
 	{
 		String_t* L_4 = ___str;
 		NullCheck(L_4);
-		String_t* L_5 = String_ToLower_m5747(L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_ToLower_m1_407(L_4, /*hidden argument*/NULL);
 		G_B3_0 = L_5;
 		G_B3_1 = G_B1_0;
 		goto IL_0031;
@@ -17453,11 +17453,11 @@ IL_0031:
 	}
 }
 // System.Void System.Text.RegularExpressions.Syntax.AnchorInfo::.ctor(System.Text.RegularExpressions.Syntax.Expression,System.Int32,System.Int32,System.Text.RegularExpressions.Position)
-extern "C" void AnchorInfo__ctor_m5592 (AnchorInfo_t1081 * __this, Expression_t1063 * ___expr, int32_t ___offset, int32_t ___width, uint16_t ___pos, const MethodInfo* method)
+extern "C" void AnchorInfo__ctor_m2_821 (AnchorInfo_t2_142 * __this, Expression_t2_125 * ___expr, int32_t ___offset, int32_t ___width, uint16_t ___pos, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
-		Expression_t1063 * L_0 = ___expr;
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
+		Expression_t2_125 * L_0 = ___expr;
 		__this->___expr_0 = L_0;
 		int32_t L_1 = ___offset;
 		__this->___offset_2 = L_1;
@@ -17471,7 +17471,7 @@ extern "C" void AnchorInfo__ctor_m5592 (AnchorInfo_t1081 * __this, Expression_t1
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Offset()
-extern "C" int32_t AnchorInfo_get_Offset_m5593 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" int32_t AnchorInfo_get_Offset_m2_822 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___offset_2);
@@ -17479,7 +17479,7 @@ extern "C" int32_t AnchorInfo_get_Offset_m5593 (AnchorInfo_t1081 * __this, const
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Width()
-extern "C" int32_t AnchorInfo_get_Width_m5594 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" int32_t AnchorInfo_get_Width_m2_823 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___width_4);
@@ -17487,7 +17487,7 @@ extern "C" int32_t AnchorInfo_get_Width_m5594 (AnchorInfo_t1081 * __this, const 
 	}
 }
 // System.Int32 System.Text.RegularExpressions.Syntax.AnchorInfo::get_Length()
-extern "C" int32_t AnchorInfo_get_Length_m5595 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" int32_t AnchorInfo_get_Length_m2_824 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -17500,7 +17500,7 @@ extern "C" int32_t AnchorInfo_get_Length_m5595 (AnchorInfo_t1081 * __this, const
 	{
 		String_t* L_1 = (__this->___str_3);
 		NullCheck(L_1);
-		int32_t L_2 = String_get_Length_m2221(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = String_get_Length_m1_430(L_1, /*hidden argument*/NULL);
 		G_B3_0 = L_2;
 		goto IL_001c;
 	}
@@ -17516,7 +17516,7 @@ IL_001c:
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsUnknownWidth()
-extern "C" bool AnchorInfo_get_IsUnknownWidth_m5596 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" bool AnchorInfo_get_IsUnknownWidth_m2_825 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___width_4);
@@ -17524,16 +17524,16 @@ extern "C" bool AnchorInfo_get_IsUnknownWidth_m5596 (AnchorInfo_t1081 * __this, 
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsComplete()
-extern "C" bool AnchorInfo_get_IsComplete_m5597 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" bool AnchorInfo_get_IsComplete_m2_826 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = AnchorInfo_get_Length_m5595(__this, /*hidden argument*/NULL);
-		int32_t L_1 = AnchorInfo_get_Width_m5594(__this, /*hidden argument*/NULL);
+		int32_t L_0 = AnchorInfo_get_Length_m2_824(__this, /*hidden argument*/NULL);
+		int32_t L_1 = AnchorInfo_get_Width_m2_823(__this, /*hidden argument*/NULL);
 		return ((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
 	}
 }
 // System.String System.Text.RegularExpressions.Syntax.AnchorInfo::get_Substring()
-extern "C" String_t* AnchorInfo_get_Substring_m5598 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" String_t* AnchorInfo_get_Substring_m2_827 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___str_3);
@@ -17541,7 +17541,7 @@ extern "C" String_t* AnchorInfo_get_Substring_m5598 (AnchorInfo_t1081 * __this, 
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IgnoreCase()
-extern "C" bool AnchorInfo_get_IgnoreCase_m5599 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" bool AnchorInfo_get_IgnoreCase_m2_828 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___ignore_5);
@@ -17549,7 +17549,7 @@ extern "C" bool AnchorInfo_get_IgnoreCase_m5599 (AnchorInfo_t1081 * __this, cons
 	}
 }
 // System.Text.RegularExpressions.Position System.Text.RegularExpressions.Syntax.AnchorInfo::get_Position()
-extern "C" uint16_t AnchorInfo_get_Position_m5600 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" uint16_t AnchorInfo_get_Position_m2_829 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		uint16_t L_0 = (__this->___pos_1);
@@ -17557,7 +17557,7 @@ extern "C" uint16_t AnchorInfo_get_Position_m5600 (AnchorInfo_t1081 * __this, co
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsSubstring()
-extern "C" bool AnchorInfo_get_IsSubstring_m5601 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" bool AnchorInfo_get_IsSubstring_m2_830 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___str_3);
@@ -17565,7 +17565,7 @@ extern "C" bool AnchorInfo_get_IsSubstring_m5601 (AnchorInfo_t1081 * __this, con
 	}
 }
 // System.Boolean System.Text.RegularExpressions.Syntax.AnchorInfo::get_IsPosition()
-extern "C" bool AnchorInfo_get_IsPosition_m5602 (AnchorInfo_t1081 * __this, const MethodInfo* method)
+extern "C" bool AnchorInfo_get_IsPosition_m2_831 (AnchorInfo_t2_142 * __this, const MethodInfo* method)
 {
 	{
 		uint16_t L_0 = (__this->___pos_1);
@@ -17573,68 +17573,68 @@ extern "C" bool AnchorInfo_get_IsPosition_m5602 (AnchorInfo_t1081 * __this, cons
 	}
 }
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.Syntax.AnchorInfo::GetInterval(System.Int32)
-extern "C" Interval_t1056  AnchorInfo_GetInterval_m5603 (AnchorInfo_t1081 * __this, int32_t ___start, const MethodInfo* method)
+extern "C" Interval_t2_118  AnchorInfo_GetInterval_m2_832 (AnchorInfo_t2_142 * __this, int32_t ___start, const MethodInfo* method)
 {
 	{
-		bool L_0 = AnchorInfo_get_IsSubstring_m5601(__this, /*hidden argument*/NULL);
+		bool L_0 = AnchorInfo_get_IsSubstring_m2_830(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0011;
 		}
 	}
 	{
-		Interval_t1056  L_1 = Interval_get_Empty_m5416(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Interval_t2_118  L_1 = Interval_get_Empty_m2_645(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_1;
 	}
 
 IL_0011:
 	{
 		int32_t L_2 = ___start;
-		int32_t L_3 = AnchorInfo_get_Offset_m5593(__this, /*hidden argument*/NULL);
+		int32_t L_3 = AnchorInfo_get_Offset_m2_822(__this, /*hidden argument*/NULL);
 		int32_t L_4 = ___start;
-		int32_t L_5 = AnchorInfo_get_Offset_m5593(__this, /*hidden argument*/NULL);
-		int32_t L_6 = AnchorInfo_get_Length_m5595(__this, /*hidden argument*/NULL);
-		Interval_t1056  L_7 = {0};
-		Interval__ctor_m5415(&L_7, ((int32_t)((int32_t)L_2+(int32_t)L_3)), ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_4+(int32_t)L_5))+(int32_t)L_6))-(int32_t)1)), /*hidden argument*/NULL);
+		int32_t L_5 = AnchorInfo_get_Offset_m2_822(__this, /*hidden argument*/NULL);
+		int32_t L_6 = AnchorInfo_get_Length_m2_824(__this, /*hidden argument*/NULL);
+		Interval_t2_118  L_7 = {0};
+		Interval__ctor_m2_644(&L_7, ((int32_t)((int32_t)L_2+(int32_t)L_3)), ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_4+(int32_t)L_5))+(int32_t)L_6))-(int32_t)1)), /*hidden argument*/NULL);
 		return L_7;
 	}
 }
 // System.Void System.DefaultUriParser::.ctor()
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern "C" void DefaultUriParser__ctor_m5604 (DefaultUriParser_t1082 * __this, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern "C" void DefaultUriParser__ctor_m2_833 (DefaultUriParser_t2_143 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser__ctor_m5658(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser__ctor_m2_888(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.DefaultUriParser::.ctor(System.String)
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern "C" void DefaultUriParser__ctor_m5605 (DefaultUriParser_t1082 * __this, String_t* ___scheme, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern "C" void DefaultUriParser__ctor_m2_834 (DefaultUriParser_t2_143 * __this, String_t* ___scheme, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser__ctor_m5658(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser__ctor_m2_888(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___scheme;
-		((UriParser_t1083 *)__this)->___scheme_name_2 = L_0;
+		((UriParser_t2_144 *)__this)->___scheme_name_2 = L_0;
 		return;
 	}
 }
 // System.Void System.Uri/UriScheme::.ctor(System.String,System.String,System.Int32)
-extern "C" void UriScheme__ctor_m5606 (UriScheme_t1085 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method)
+extern "C" void UriScheme__ctor_m2_835 (UriScheme_t2_146 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___s;
@@ -17647,20 +17647,20 @@ extern "C" void UriScheme__ctor_m5606 (UriScheme_t1085 * __this, String_t* ___s,
 	}
 }
 // Conversion methods for marshalling of: System.Uri/UriScheme
-extern "C" void UriScheme_t1085_marshal(const UriScheme_t1085& unmarshaled, UriScheme_t1085_marshaled& marshaled)
+extern "C" void UriScheme_t2_146_marshal(const UriScheme_t2_146& unmarshaled, UriScheme_t2_146_marshaled& marshaled)
 {
 	marshaled.___scheme_0 = il2cpp_codegen_marshal_string(unmarshaled.___scheme_0);
 	marshaled.___delimiter_1 = il2cpp_codegen_marshal_string(unmarshaled.___delimiter_1);
 	marshaled.___defaultPort_2 = unmarshaled.___defaultPort_2;
 }
-extern "C" void UriScheme_t1085_marshal_back(const UriScheme_t1085_marshaled& marshaled, UriScheme_t1085& unmarshaled)
+extern "C" void UriScheme_t2_146_marshal_back(const UriScheme_t2_146_marshaled& marshaled, UriScheme_t2_146& unmarshaled)
 {
 	unmarshaled.___scheme_0 = il2cpp_codegen_marshal_string_result(marshaled.___scheme_0);
 	unmarshaled.___delimiter_1 = il2cpp_codegen_marshal_string_result(marshaled.___delimiter_1);
 	unmarshaled.___defaultPort_2 = marshaled.___defaultPort_2;
 }
 // Conversion method for clean up from marshalling of: System.Uri/UriScheme
-extern "C" void UriScheme_t1085_marshal_cleanup(UriScheme_t1085_marshaled& marshaled)
+extern "C" void UriScheme_t2_146_marshal_cleanup(UriScheme_t2_146_marshaled& marshaled)
 {
 	il2cpp_codegen_marshal_free(marshaled.___scheme_0);
 	marshaled.___scheme_0 = NULL;
@@ -17668,44 +17668,44 @@ extern "C" void UriScheme_t1085_marshal_cleanup(UriScheme_t1085_marshaled& marsh
 	marshaled.___delimiter_1 = NULL;
 }
 // System.Void System.Uri::.ctor(System.String)
-extern "C" void Uri__ctor_m5607 (Uri_t928 * __this, String_t* ___uriString, const MethodInfo* method)
+extern "C" void Uri__ctor_m2_836 (Uri_t2_22 * __this, String_t* ___uriString, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___uriString;
-		Uri__ctor_m5609(__this, L_0, 0, /*hidden argument*/NULL);
+		Uri__ctor_m2_838(__this, L_0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Uri::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern Il2CppCodeGenString* _stringLiteral963;
-extern "C" void Uri__ctor_m5608 (Uri_t928 * __this, SerializationInfo_t621 * ___serializationInfo, StreamingContext_t622  ___streamingContext, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2325;
+extern "C" void Uri__ctor_m2_837 (Uri_t2_22 * __this, SerializationInfo_t1_176 * ___serializationInfo, StreamingContext_t1_506  ___streamingContext, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral963 = il2cpp_codegen_string_literal_from_index(963);
+		_stringLiteral2325 = il2cpp_codegen_string_literal_from_index(2325);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SerializationInfo_t621 * L_0 = ___serializationInfo;
+		SerializationInfo_t1_176 * L_0 = ___serializationInfo;
 		NullCheck(L_0);
-		String_t* L_1 = SerializationInfo_GetString_m5693(L_0, _stringLiteral963, /*hidden argument*/NULL);
-		Uri__ctor_m5609(__this, L_1, 1, /*hidden argument*/NULL);
+		String_t* L_1 = SerializationInfo_GetString_m1_3653(L_0, _stringLiteral2325, /*hidden argument*/NULL);
+		Uri__ctor_m2_838(__this, L_1, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Uri::.ctor(System.String,System.Boolean)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* UriFormatException_t1087_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral964;
-extern "C" void Uri__ctor_m5609 (Uri_t928 * __this, String_t* ___uriString, bool ___dontEscape, const MethodInfo* method)
+extern TypeInfo* UriFormatException_t2_148_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2326;
+extern "C" void Uri__ctor_m2_838 (Uri_t2_22 * __this, String_t* ___uriString, bool ___dontEscape, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		UriFormatException_t1087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(736);
-		_stringLiteral964 = il2cpp_codegen_string_literal_from_index(964);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		UriFormatException_t2_148_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(731);
+		_stringLiteral2326 = il2cpp_codegen_string_literal_from_index(2326);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -17724,12 +17724,12 @@ extern "C" void Uri__ctor_m5609 (Uri_t928 * __this, String_t* ___uriString, bool
 		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___userinfo_8 = L_5;
 		__this->___isAbsoluteUri_11 = 1;
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
 		bool L_6 = ___dontEscape;
 		__this->___userEscaped_12 = L_6;
 		String_t* L_7 = ___uriString;
 		__this->___source_1 = L_7;
-		Uri_ParseUri_m5636(__this, 1, /*hidden argument*/NULL);
+		Uri_ParseUri_m2_866(__this, 1, /*hidden argument*/NULL);
 		bool L_8 = (__this->___isAbsoluteUri_11);
 		if (L_8)
 		{
@@ -17739,9 +17739,9 @@ extern "C" void Uri__ctor_m5609 (Uri_t928 * __this, String_t* ___uriString, bool
 	{
 		String_t* L_9 = ___uriString;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_10 = String_Concat_m446(NULL /*static, unused*/, _stringLiteral964, L_9, /*hidden argument*/NULL);
-		UriFormatException_t1087 * L_11 = (UriFormatException_t1087 *)il2cpp_codegen_object_new (UriFormatException_t1087_il2cpp_TypeInfo_var);
-		UriFormatException__ctor_m5655(L_11, L_10, /*hidden argument*/NULL);
+		String_t* L_10 = String_Concat_m1_420(NULL /*static, unused*/, _stringLiteral2326, L_9, /*hidden argument*/NULL);
+		UriFormatException_t2_148 * L_11 = (UriFormatException_t2_148 *)il2cpp_codegen_object_new (UriFormatException_t2_148_il2cpp_TypeInfo_var);
+		UriFormatException__ctor_m2_885(L_11, L_10, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_11);
 	}
 
@@ -17751,152 +17751,152 @@ IL_0087:
 	}
 }
 // System.Void System.Uri::.cctor()
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* UriSchemeU5BU5D_t1086_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral965;
-extern Il2CppCodeGenString* _stringLiteral757;
-extern Il2CppCodeGenString* _stringLiteral813;
-extern Il2CppCodeGenString* _stringLiteral815;
-extern Il2CppCodeGenString* _stringLiteral966;
-extern Il2CppCodeGenString* _stringLiteral755;
-extern Il2CppCodeGenString* _stringLiteral754;
-extern Il2CppCodeGenString* _stringLiteral967;
-extern Il2CppCodeGenString* _stringLiteral968;
-extern Il2CppCodeGenString* _stringLiteral969;
-extern Il2CppCodeGenString* _stringLiteral970;
-extern Il2CppCodeGenString* _stringLiteral971;
-extern Il2CppCodeGenString* _stringLiteral284;
-extern "C" void Uri__cctor_m5610 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* UriSchemeU5BU5D_t2_147_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2327;
+extern Il2CppCodeGenString* _stringLiteral2118;
+extern Il2CppCodeGenString* _stringLiteral2173;
+extern Il2CppCodeGenString* _stringLiteral2175;
+extern Il2CppCodeGenString* _stringLiteral2328;
+extern Il2CppCodeGenString* _stringLiteral2116;
+extern Il2CppCodeGenString* _stringLiteral2115;
+extern Il2CppCodeGenString* _stringLiteral2329;
+extern Il2CppCodeGenString* _stringLiteral2330;
+extern Il2CppCodeGenString* _stringLiteral2331;
+extern Il2CppCodeGenString* _stringLiteral2332;
+extern Il2CppCodeGenString* _stringLiteral2333;
+extern Il2CppCodeGenString* _stringLiteral622;
+extern "C" void Uri__cctor_m2_839 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		UriSchemeU5BU5D_t1086_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(737);
-		_stringLiteral965 = il2cpp_codegen_string_literal_from_index(965);
-		_stringLiteral757 = il2cpp_codegen_string_literal_from_index(757);
-		_stringLiteral813 = il2cpp_codegen_string_literal_from_index(813);
-		_stringLiteral815 = il2cpp_codegen_string_literal_from_index(815);
-		_stringLiteral966 = il2cpp_codegen_string_literal_from_index(966);
-		_stringLiteral755 = il2cpp_codegen_string_literal_from_index(755);
-		_stringLiteral754 = il2cpp_codegen_string_literal_from_index(754);
-		_stringLiteral967 = il2cpp_codegen_string_literal_from_index(967);
-		_stringLiteral968 = il2cpp_codegen_string_literal_from_index(968);
-		_stringLiteral969 = il2cpp_codegen_string_literal_from_index(969);
-		_stringLiteral970 = il2cpp_codegen_string_literal_from_index(970);
-		_stringLiteral971 = il2cpp_codegen_string_literal_from_index(971);
-		_stringLiteral284 = il2cpp_codegen_string_literal_from_index(284);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		UriSchemeU5BU5D_t2_147_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(732);
+		_stringLiteral2327 = il2cpp_codegen_string_literal_from_index(2327);
+		_stringLiteral2118 = il2cpp_codegen_string_literal_from_index(2118);
+		_stringLiteral2173 = il2cpp_codegen_string_literal_from_index(2173);
+		_stringLiteral2175 = il2cpp_codegen_string_literal_from_index(2175);
+		_stringLiteral2328 = il2cpp_codegen_string_literal_from_index(2328);
+		_stringLiteral2116 = il2cpp_codegen_string_literal_from_index(2116);
+		_stringLiteral2115 = il2cpp_codegen_string_literal_from_index(2115);
+		_stringLiteral2329 = il2cpp_codegen_string_literal_from_index(2329);
+		_stringLiteral2330 = il2cpp_codegen_string_literal_from_index(2330);
+		_stringLiteral2331 = il2cpp_codegen_string_literal_from_index(2331);
+		_stringLiteral2332 = il2cpp_codegen_string_literal_from_index(2332);
+		_stringLiteral2333 = il2cpp_codegen_string_literal_from_index(2333);
+		_stringLiteral622 = il2cpp_codegen_string_literal_from_index(622);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16 = _stringLiteral965;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17 = _stringLiteral757;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18 = _stringLiteral813;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19 = _stringLiteral815;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20 = _stringLiteral966;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21 = _stringLiteral755;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22 = _stringLiteral754;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23 = _stringLiteral967;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24 = _stringLiteral968;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25 = _stringLiteral969;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetPipe_26 = _stringLiteral970;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetTcp_27 = _stringLiteral971;
-		UriSchemeU5BU5D_t1086* L_0 = ((UriSchemeU5BU5D_t1086*)SZArrayNew(UriSchemeU5BU5D_t1086_il2cpp_TypeInfo_var, 8));
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16 = _stringLiteral2327;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17 = _stringLiteral2118;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18 = _stringLiteral2173;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19 = _stringLiteral2175;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20 = _stringLiteral2328;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21 = _stringLiteral2116;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22 = _stringLiteral2115;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23 = _stringLiteral2329;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24 = _stringLiteral2330;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25 = _stringLiteral2331;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetPipe_26 = _stringLiteral2332;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetTcp_27 = _stringLiteral2333;
+		UriSchemeU5BU5D_t2_147* L_0 = ((UriSchemeU5BU5D_t2_147*)SZArrayNew(UriSchemeU5BU5D_t2_147_il2cpp_TypeInfo_var, 8));
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
-		String_t* L_1 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
-		String_t* L_2 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_3 = {0};
-		UriScheme__ctor_m5606(&L_3, L_1, L_2, ((int32_t)80), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_0, 0, sizeof(UriScheme_t1085 )))) = L_3;
-		UriSchemeU5BU5D_t1086* L_4 = L_0;
+		String_t* L_1 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
+		String_t* L_2 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_3 = {0};
+		UriScheme__ctor_m2_835(&L_3, L_1, L_2, ((int32_t)80), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_0, 0, sizeof(UriScheme_t2_146 )))) = L_3;
+		UriSchemeU5BU5D_t2_147* L_4 = L_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 1);
-		String_t* L_5 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
-		String_t* L_6 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_7 = {0};
-		UriScheme__ctor_m5606(&L_7, L_5, L_6, ((int32_t)443), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_4, 1, sizeof(UriScheme_t1085 )))) = L_7;
-		UriSchemeU5BU5D_t1086* L_8 = L_4;
+		String_t* L_5 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
+		String_t* L_6 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_7 = {0};
+		UriScheme__ctor_m2_835(&L_7, L_5, L_6, ((int32_t)443), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_4, 1, sizeof(UriScheme_t2_146 )))) = L_7;
+		UriSchemeU5BU5D_t2_147* L_8 = L_4;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 2);
-		String_t* L_9 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
-		String_t* L_10 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_11 = {0};
-		UriScheme__ctor_m5606(&L_11, L_9, L_10, ((int32_t)21), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_8, 2, sizeof(UriScheme_t1085 )))) = L_11;
-		UriSchemeU5BU5D_t1086* L_12 = L_8;
+		String_t* L_9 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
+		String_t* L_10 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_11 = {0};
+		UriScheme__ctor_m2_835(&L_11, L_9, L_10, ((int32_t)21), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_8, 2, sizeof(UriScheme_t2_146 )))) = L_11;
+		UriSchemeU5BU5D_t2_147* L_12 = L_8;
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 3);
-		String_t* L_13 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
-		String_t* L_14 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_15 = {0};
-		UriScheme__ctor_m5606(&L_15, L_13, L_14, (-1), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_12, 3, sizeof(UriScheme_t1085 )))) = L_15;
-		UriSchemeU5BU5D_t1086* L_16 = L_12;
+		String_t* L_13 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		String_t* L_14 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_15 = {0};
+		UriScheme__ctor_m2_835(&L_15, L_13, L_14, (-1), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_12, 3, sizeof(UriScheme_t2_146 )))) = L_15;
+		UriSchemeU5BU5D_t2_147* L_16 = L_12;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, 4);
-		String_t* L_17 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
-		UriScheme_t1085  L_18 = {0};
-		UriScheme__ctor_m5606(&L_18, L_17, _stringLiteral284, ((int32_t)25), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_16, 4, sizeof(UriScheme_t1085 )))) = L_18;
-		UriSchemeU5BU5D_t1086* L_19 = L_16;
+		String_t* L_17 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		UriScheme_t2_146  L_18 = {0};
+		UriScheme__ctor_m2_835(&L_18, L_17, _stringLiteral622, ((int32_t)25), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_16, 4, sizeof(UriScheme_t2_146 )))) = L_18;
+		UriSchemeU5BU5D_t2_147* L_19 = L_16;
 		NullCheck(L_19);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, 5);
-		String_t* L_20 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
-		UriScheme_t1085  L_21 = {0};
-		UriScheme__ctor_m5606(&L_21, L_20, _stringLiteral284, ((int32_t)119), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_19, 5, sizeof(UriScheme_t1085 )))) = L_21;
-		UriSchemeU5BU5D_t1086* L_22 = L_19;
+		String_t* L_20 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		UriScheme_t2_146  L_21 = {0};
+		UriScheme__ctor_m2_835(&L_21, L_20, _stringLiteral622, ((int32_t)119), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_19, 5, sizeof(UriScheme_t2_146 )))) = L_21;
+		UriSchemeU5BU5D_t2_147* L_22 = L_19;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 6);
-		String_t* L_23 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
-		String_t* L_24 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_25 = {0};
-		UriScheme__ctor_m5606(&L_25, L_23, L_24, ((int32_t)119), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_22, 6, sizeof(UriScheme_t1085 )))) = L_25;
-		UriSchemeU5BU5D_t1086* L_26 = L_22;
+		String_t* L_23 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
+		String_t* L_24 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_25 = {0};
+		UriScheme__ctor_m2_835(&L_25, L_23, L_24, ((int32_t)119), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_22, 6, sizeof(UriScheme_t2_146 )))) = L_25;
+		UriSchemeU5BU5D_t2_147* L_26 = L_22;
 		NullCheck(L_26);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_26, 7);
-		String_t* L_27 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
-		String_t* L_28 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
-		UriScheme_t1085  L_29 = {0};
-		UriScheme__ctor_m5606(&L_29, L_27, L_28, ((int32_t)70), /*hidden argument*/NULL);
-		(*(UriScheme_t1085 *)((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_26, 7, sizeof(UriScheme_t1085 )))) = L_29;
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___schemes_28 = L_26;
+		String_t* L_27 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
+		String_t* L_28 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		UriScheme_t2_146  L_29 = {0};
+		UriScheme__ctor_m2_835(&L_29, L_27, L_28, ((int32_t)70), /*hidden argument*/NULL);
+		(*(UriScheme_t2_146 *)((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_26, 7, sizeof(UriScheme_t2_146 )))) = L_29;
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___schemes_28 = L_26;
 		return;
 	}
 }
 // System.Void System.Uri::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern Il2CppCodeGenString* _stringLiteral963;
-extern "C" void Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m5611 (Uri_t928 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2325;
+extern "C" void Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m2_840 (Uri_t2_22 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral963 = il2cpp_codegen_string_literal_from_index(963);
+		_stringLiteral2325 = il2cpp_codegen_string_literal_from_index(2325);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SerializationInfo_t621 * L_0 = ___info;
-		String_t* L_1 = Uri_get_AbsoluteUri_m5612(__this, /*hidden argument*/NULL);
+		SerializationInfo_t1_176 * L_0 = ___info;
+		String_t* L_1 = Uri_get_AbsoluteUri_m2_841(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		SerializationInfo_AddValue_m4717(L_0, _stringLiteral963, L_1, /*hidden argument*/NULL);
+		SerializationInfo_AddValue_m1_3648(L_0, _stringLiteral2325, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String System.Uri::get_AbsoluteUri()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* Uri_get_AbsoluteUri_m5612 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" String_t* Uri_get_AbsoluteUri_m2_841 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
 		String_t* L_0 = (__this->___cachedAbsoluteUri_13);
 		if (L_0)
 		{
@@ -17904,11 +17904,11 @@ extern "C" String_t* Uri_get_AbsoluteUri_m5612 (Uri_t928 * __this, const MethodI
 		}
 	}
 	{
-		String_t* L_1 = Uri_GetLeftPart_m5627(__this, 2, /*hidden argument*/NULL);
+		String_t* L_1 = Uri_GetLeftPart_m2_857(__this, 2, /*hidden argument*/NULL);
 		__this->___cachedAbsoluteUri_13 = L_1;
 		String_t* L_2 = (__this->___query_6);
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2221(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m1_430(L_2, /*hidden argument*/NULL);
 		if ((((int32_t)L_3) <= ((int32_t)0)))
 		{
 			goto IL_0046;
@@ -17918,7 +17918,7 @@ extern "C" String_t* Uri_get_AbsoluteUri_m5612 (Uri_t928 * __this, const MethodI
 		String_t* L_4 = (__this->___cachedAbsoluteUri_13);
 		String_t* L_5 = (__this->___query_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m446(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m1_420(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
 		__this->___cachedAbsoluteUri_13 = L_6;
 	}
 
@@ -17926,7 +17926,7 @@ IL_0046:
 	{
 		String_t* L_7 = (__this->___fragment_7);
 		NullCheck(L_7);
-		int32_t L_8 = String_get_Length_m2221(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = String_get_Length_m1_430(L_7, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
 			goto IL_006e;
@@ -17936,7 +17936,7 @@ IL_0046:
 		String_t* L_9 = (__this->___cachedAbsoluteUri_13);
 		String_t* L_10 = (__this->___fragment_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Concat_m446(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Concat_m1_420(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
 		__this->___cachedAbsoluteUri_13 = L_11;
 	}
 
@@ -17947,27 +17947,27 @@ IL_006e:
 	}
 }
 // System.String System.Uri::get_Authority()
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32_t92_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t1_3_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral284;
-extern "C" String_t* Uri_get_Authority_m5613 (Uri_t928 * __this, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral622;
+extern "C" String_t* Uri_get_Authority_m2_842 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Int32_t92_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(34);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		_stringLiteral284 = il2cpp_codegen_string_literal_from_index(284);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Int32_t1_3_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		_stringLiteral622 = il2cpp_codegen_string_literal_from_index(622);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* G_B3_0 = {0};
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
-		String_t* L_0 = Uri_get_Scheme_m5617(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_1 = Uri_GetDefaultPort_m5648(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Uri_get_Scheme_m2_847(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_1 = Uri_GetDefaultPort_m2_878(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		int32_t L_2 = (__this->___port_4);
 		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
 		{
@@ -17985,9 +17985,9 @@ IL_0027:
 		String_t* L_4 = (__this->___host_3);
 		int32_t L_5 = (__this->___port_4);
 		int32_t L_6 = L_5;
-		Object_t * L_7 = Box(Int32_t92_il2cpp_TypeInfo_var, &L_6);
+		Object_t * L_7 = Box(Int32_t1_3_il2cpp_TypeInfo_var, &L_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_8 = String_Concat_m1887(NULL /*static, unused*/, L_4, _stringLiteral284, L_7, /*hidden argument*/NULL);
+		String_t* L_8 = String_Concat_m1_419(NULL /*static, unused*/, L_4, _stringLiteral622, L_7, /*hidden argument*/NULL);
 		G_B3_0 = L_8;
 	}
 
@@ -17997,68 +17997,68 @@ IL_0042:
 	}
 }
 // System.String System.Uri::get_Host()
-extern "C" String_t* Uri_get_Host_m4751 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" String_t* Uri_get_Host_m2_843 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
 		String_t* L_0 = (__this->___host_3);
 		return L_0;
 	}
 }
 // System.Boolean System.Uri::get_IsFile()
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool Uri_get_IsFile_m5614 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" bool Uri_get_IsFile_m2_844 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
-		String_t* L_0 = Uri_get_Scheme_m5617(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_1 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Uri_get_Scheme_m2_847(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_2 = String_op_Equality_m327(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		bool L_2 = String_op_Equality_m1_456(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Boolean System.Uri::get_IsLoopback()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* IPAddress_t977_il2cpp_TypeInfo_var;
-extern TypeInfo* IPv6Address_t979_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral811;
-extern Il2CppCodeGenString* _stringLiteral810;
-extern "C" bool Uri_get_IsLoopback_m5615 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* IPAddress_t2_35_il2cpp_TypeInfo_var;
+extern TypeInfo* IPv6Address_t2_36_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2171;
+extern Il2CppCodeGenString* _stringLiteral2170;
+extern "C" bool Uri_get_IsLoopback_m2_845 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		IPAddress_t977_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(638);
-		IPv6Address_t979_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(639);
-		_stringLiteral811 = il2cpp_codegen_string_literal_from_index(811);
-		_stringLiteral810 = il2cpp_codegen_string_literal_from_index(810);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		IPAddress_t2_35_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(632);
+		IPv6Address_t2_36_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(633);
+		_stringLiteral2171 = il2cpp_codegen_string_literal_from_index(2171);
+		_stringLiteral2170 = il2cpp_codegen_string_literal_from_index(2170);
 		s_Il2CppMethodIntialized = true;
 	}
-	IPAddress_t977 * V_0 = {0};
-	IPv6Address_t979 * V_1 = {0};
+	IPAddress_t2_35 * V_0 = {0};
+	IPv6Address_t2_36 * V_1 = {0};
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
-		String_t* L_0 = Uri_get_Host_m4751(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
+		String_t* L_0 = Uri_get_Host_m2_843(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		if (L_1)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		bool L_2 = Uri_get_IsFile_m5614(__this, /*hidden argument*/NULL);
+		bool L_2 = Uri_get_IsFile_m2_844(__this, /*hidden argument*/NULL);
 		return L_2;
 	}
 
@@ -18066,7 +18066,7 @@ IL_001d:
 	{
 		String_t* L_3 = (__this->___host_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_4 = String_op_Equality_m327(NULL /*static, unused*/, L_3, _stringLiteral811, /*hidden argument*/NULL);
+		bool L_4 = String_op_Equality_m1_456(NULL /*static, unused*/, L_3, _stringLiteral2171, /*hidden argument*/NULL);
 		if (L_4)
 		{
 			goto IL_0047;
@@ -18075,7 +18075,7 @@ IL_001d:
 	{
 		String_t* L_5 = (__this->___host_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_6 = String_op_Equality_m327(NULL /*static, unused*/, L_5, _stringLiteral810, /*hidden argument*/NULL);
+		bool L_6 = String_op_Equality_m1_456(NULL /*static, unused*/, L_5, _stringLiteral2170, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_0049;
@@ -18090,17 +18090,17 @@ IL_0047:
 IL_0049:
 	{
 		String_t* L_7 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t977_il2cpp_TypeInfo_var);
-		bool L_8 = IPAddress_TryParse_m4913(NULL /*static, unused*/, L_7, (&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t2_35_il2cpp_TypeInfo_var);
+		bool L_8 = IPAddress_TryParse_m2_123(NULL /*static, unused*/, L_7, (&V_0), /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_006d;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t977_il2cpp_TypeInfo_var);
-		IPAddress_t977 * L_9 = ((IPAddress_t977_StaticFields*)IPAddress_t977_il2cpp_TypeInfo_var->static_fields)->___Loopback_6;
-		IPAddress_t977 * L_10 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t2_35_il2cpp_TypeInfo_var);
+		IPAddress_t2_35 * L_9 = ((IPAddress_t2_35_StaticFields*)IPAddress_t2_35_il2cpp_TypeInfo_var->static_fields)->___Loopback_6;
+		IPAddress_t2_35 * L_10 = V_0;
 		NullCheck(L_9);
 		bool L_11 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Net.IPAddress::Equals(System.Object) */, L_9, L_10);
 		if (!L_11)
@@ -18115,17 +18115,17 @@ IL_0049:
 IL_006d:
 	{
 		String_t* L_12 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t979_il2cpp_TypeInfo_var);
-		bool L_13 = IPv6Address_TryParse_m4932(NULL /*static, unused*/, L_12, (&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t2_36_il2cpp_TypeInfo_var);
+		bool L_13 = IPv6Address_TryParse_m2_142(NULL /*static, unused*/, L_12, (&V_1), /*hidden argument*/NULL);
 		if (!L_13)
 		{
 			goto IL_008c;
 		}
 	}
 	{
-		IPv6Address_t979 * L_14 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t979_il2cpp_TypeInfo_var);
-		bool L_15 = IPv6Address_IsLoopback_m4936(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		IPv6Address_t2_36 * L_14 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t2_36_il2cpp_TypeInfo_var);
+		bool L_15 = IPv6Address_IsLoopback_m2_146(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		if (!L_15)
 		{
 			goto IL_008c;
@@ -18141,25 +18141,25 @@ IL_008c:
 	}
 }
 // System.Boolean System.Uri::get_IsUnc()
-extern "C" bool Uri_get_IsUnc_m5616 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" bool Uri_get_IsUnc_m2_846 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
 		bool L_0 = (__this->___isUnc_9);
 		return L_0;
 	}
 }
 // System.String System.Uri::get_Scheme()
-extern "C" String_t* Uri_get_Scheme_m5617 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" String_t* Uri_get_Scheme_m2_847 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
 		String_t* L_0 = (__this->___scheme_2);
 		return L_0;
 	}
 }
 // System.Boolean System.Uri::get_IsAbsoluteUri()
-extern "C" bool Uri_get_IsAbsoluteUri_m5618 (Uri_t928 * __this, const MethodInfo* method)
+extern "C" bool Uri_get_IsAbsoluteUri_m2_848 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___isAbsoluteUri_11);
@@ -18167,18 +18167,18 @@ extern "C" bool Uri_get_IsAbsoluteUri_m5618 (Uri_t928 * __this, const MethodInfo
 	}
 }
 // System.UriHostNameType System.Uri::CheckHostName(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* IPv6Address_t979_il2cpp_TypeInfo_var;
-extern "C" int32_t Uri_CheckHostName_m5619 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* IPv6Address_t2_36_il2cpp_TypeInfo_var;
+extern "C" int32_t Uri_CheckHostName_m2_849 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		IPv6Address_t979_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(639);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		IPv6Address_t2_36_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(633);
 		s_Il2CppMethodIntialized = true;
 	}
-	IPv6Address_t979 * V_0 = {0};
+	IPv6Address_t2_36 * V_0 = {0};
 	{
 		String_t* L_0 = ___name;
 		if (!L_0)
@@ -18189,7 +18189,7 @@ extern "C" int32_t Uri_CheckHostName_m5619 (Object_t * __this /* static, unused 
 	{
 		String_t* L_1 = ___name;
 		NullCheck(L_1);
-		int32_t L_2 = String_get_Length_m2221(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = String_get_Length_m1_430(L_1, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_0013;
@@ -18204,8 +18204,8 @@ IL_0011:
 IL_0013:
 	{
 		String_t* L_3 = ___name;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_4 = Uri_IsIPv4Address_m5620(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_4 = Uri_IsIPv4Address_m2_850(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0020;
@@ -18218,8 +18218,8 @@ IL_0013:
 IL_0020:
 	{
 		String_t* L_5 = ___name;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_6 = Uri_IsDomainAddress_m5621(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_6 = Uri_IsDomainAddress_m2_851(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_002d;
@@ -18232,8 +18232,8 @@ IL_0020:
 IL_002d:
 	{
 		String_t* L_7 = ___name;
-		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t979_il2cpp_TypeInfo_var);
-		bool L_8 = IPv6Address_TryParse_m4932(NULL /*static, unused*/, L_7, (&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t2_36_il2cpp_TypeInfo_var);
+		bool L_8 = IPv6Address_TryParse_m2_142(NULL /*static, unused*/, L_7, (&V_0), /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_003c;
@@ -18249,29 +18249,29 @@ IL_003c:
 	}
 }
 // System.Boolean System.Uri::IsIPv4Address(System.String)
-extern TypeInfo* CharU5BU5D_t239_il2cpp_TypeInfo_var;
-extern "C" bool Uri_IsIPv4Address_m5620 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
+extern TypeInfo* CharU5BU5D_t1_16_il2cpp_TypeInfo_var;
+extern "C" bool Uri_IsIPv4Address_m2_850 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CharU5BU5D_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
+		CharU5BU5D_t1_16_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(12);
 		s_Il2CppMethodIntialized = true;
 	}
-	StringU5BU5D_t573* V_0 = {0};
+	StringU5BU5D_t1_198* V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	uint32_t V_3 = 0;
 	{
 		String_t* L_0 = ___name;
-		CharU5BU5D_t239* L_1 = ((CharU5BU5D_t239*)SZArrayNew(CharU5BU5D_t239_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t1_16* L_1 = ((CharU5BU5D_t1_16*)SZArrayNew(CharU5BU5D_t1_16_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0, sizeof(uint16_t))) = (uint16_t)((int32_t)46);
 		NullCheck(L_0);
-		StringU5BU5D_t573* L_2 = String_Split_m3445(L_0, L_1, /*hidden argument*/NULL);
+		StringU5BU5D_t1_198* L_2 = String_Split_m1_349(L_0, L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		StringU5BU5D_t573* L_3 = V_0;
+		StringU5BU5D_t1_198* L_3 = V_0;
 		NullCheck(L_3);
 		if ((((int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length))))) == ((int32_t)4)))
 		{
@@ -18290,13 +18290,13 @@ IL_001d:
 
 IL_0024:
 	{
-		StringU5BU5D_t573* L_4 = V_0;
+		StringU5BU5D_t1_198* L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
 		int32_t L_6 = L_5;
 		NullCheck((*(String_t**)(String_t**)SZArrayLdElema(L_4, L_6, sizeof(String_t*))));
-		int32_t L_7 = String_get_Length_m2221((*(String_t**)(String_t**)SZArrayLdElema(L_4, L_6, sizeof(String_t*))), /*hidden argument*/NULL);
+		int32_t L_7 = String_get_Length_m1_430((*(String_t**)(String_t**)SZArrayLdElema(L_4, L_6, sizeof(String_t*))), /*hidden argument*/NULL);
 		V_2 = L_7;
 		int32_t L_8 = V_2;
 		if (L_8)
@@ -18310,12 +18310,12 @@ IL_0024:
 
 IL_0035:
 	{
-		StringU5BU5D_t573* L_9 = V_0;
+		StringU5BU5D_t1_198* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
 		int32_t L_11 = L_10;
-		bool L_12 = UInt32_TryParse_m5755(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_9, L_11, sizeof(String_t*))), (&V_3), /*hidden argument*/NULL);
+		bool L_12 = UInt32_TryParse_m1_130(NULL /*static, unused*/, (*(String_t**)(String_t**)SZArrayLdElema(L_9, L_11, sizeof(String_t*))), (&V_3), /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_0046;
@@ -18356,13 +18356,13 @@ IL_0057:
 	}
 }
 // System.Boolean System.Uri::IsDomainAddress(System.String)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" bool Uri_IsDomainAddress_m5621 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" bool Uri_IsDomainAddress_m2_851 (Object_t * __this /* static, unused */, String_t* ___name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -18372,7 +18372,7 @@ extern "C" bool Uri_IsDomainAddress_m5621 (Object_t * __this /* static, unused *
 	{
 		String_t* L_0 = ___name;
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		V_1 = 0;
 		V_2 = 0;
@@ -18384,7 +18384,7 @@ IL_0010:
 		String_t* L_2 = ___name;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
-		uint16_t L_4 = String_get_Chars_m2240(L_2, L_3, /*hidden argument*/NULL);
+		uint16_t L_4 = String_get_Chars_m1_344(L_2, L_3, /*hidden argument*/NULL);
 		V_3 = L_4;
 		int32_t L_5 = V_1;
 		if (L_5)
@@ -18394,8 +18394,8 @@ IL_0010:
 	}
 	{
 		uint16_t L_6 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_7 = Char_IsLetterOrDigit_m5741(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_7 = Char_IsLetterOrDigit_m1_303(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_002b;
@@ -18426,8 +18426,8 @@ IL_0030:
 IL_003f:
 	{
 		uint16_t L_9 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_10 = Char_IsLetterOrDigit_m5741(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_10 = Char_IsLetterOrDigit_m1_303(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_005c;
@@ -18485,15 +18485,15 @@ IL_006e:
 	}
 }
 // System.Boolean System.Uri::CheckSchemeName(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" bool Uri_CheckSchemeName_m5622 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" bool Uri_CheckSchemeName_m2_852 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -18509,7 +18509,7 @@ extern "C" bool Uri_CheckSchemeName_m5622 (Object_t * __this /* static, unused *
 	{
 		String_t* L_1 = ___schemeName;
 		NullCheck(L_1);
-		int32_t L_2 = String_get_Length_m2221(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = String_get_Length_m1_430(L_1, /*hidden argument*/NULL);
 		if (L_2)
 		{
 			goto IL_0013;
@@ -18525,9 +18525,9 @@ IL_0013:
 	{
 		String_t* L_3 = ___schemeName;
 		NullCheck(L_3);
-		uint16_t L_4 = String_get_Chars_m2240(L_3, 0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_5 = Uri_IsAlpha_m5623(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		uint16_t L_4 = String_get_Chars_m1_344(L_3, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_5 = Uri_IsAlpha_m2_853(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		if (L_5)
 		{
 			goto IL_0026;
@@ -18541,7 +18541,7 @@ IL_0026:
 	{
 		String_t* L_6 = ___schemeName;
 		NullCheck(L_6);
-		int32_t L_7 = String_get_Length_m2221(L_6, /*hidden argument*/NULL);
+		int32_t L_7 = String_get_Length_m1_430(L_6, /*hidden argument*/NULL);
 		V_0 = L_7;
 		V_1 = 1;
 		goto IL_0070;
@@ -18552,11 +18552,11 @@ IL_0034:
 		String_t* L_8 = ___schemeName;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
-		uint16_t L_10 = String_get_Chars_m2240(L_8, L_9, /*hidden argument*/NULL);
+		uint16_t L_10 = String_get_Chars_m1_344(L_8, L_9, /*hidden argument*/NULL);
 		V_2 = L_10;
 		uint16_t L_11 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		bool L_12 = Char_IsDigit_m5742(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		bool L_12 = Char_IsDigit_m1_301(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		if (L_12)
 		{
 			goto IL_006c;
@@ -18564,8 +18564,8 @@ IL_0034:
 	}
 	{
 		uint16_t L_13 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_14 = Uri_IsAlpha_m5623(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_14 = Uri_IsAlpha_m2_853(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		if (L_14)
 		{
 			goto IL_006c;
@@ -18616,7 +18616,7 @@ IL_0070:
 	}
 }
 // System.Boolean System.Uri::IsAlpha(System.Char)
-extern "C" bool Uri_IsAlpha_m5623 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method)
+extern "C" bool Uri_IsAlpha_m2_853 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -18674,18 +18674,18 @@ IL_0028:
 	}
 }
 // System.Boolean System.Uri::Equals(System.Object)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" bool Uri_Equals_m5624 (Uri_t928 * __this, Object_t * ___comparant, const MethodInfo* method)
+extern "C" bool Uri_Equals_m2_854 (Uri_t2_22 * __this, Object_t * ___comparant, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
-	Uri_t928 * V_0 = {0};
+	Uri_t2_22 * V_0 = {0};
 	String_t* V_1 = {0};
 	{
 		Object_t * L_0 = ___comparant;
@@ -18701,8 +18701,8 @@ extern "C" bool Uri_Equals_m5624 (Uri_t928 * __this, Object_t * ___comparant, co
 IL_0008:
 	{
 		Object_t * L_1 = ___comparant;
-		V_0 = ((Uri_t928 *)IsInstClass(L_1, Uri_t928_il2cpp_TypeInfo_var));
-		Uri_t928 * L_2 = V_0;
+		V_0 = ((Uri_t2_22 *)IsInstClass(L_1, Uri_t2_22_il2cpp_TypeInfo_var));
+		Uri_t2_22 * L_2 = V_0;
 		if (L_2)
 		{
 			goto IL_002b;
@@ -18724,35 +18724,35 @@ IL_0008:
 IL_0024:
 	{
 		String_t* L_5 = V_1;
-		Uri_t928 * L_6 = (Uri_t928 *)il2cpp_codegen_object_new (Uri_t928_il2cpp_TypeInfo_var);
-		Uri__ctor_m5607(L_6, L_5, /*hidden argument*/NULL);
+		Uri_t2_22 * L_6 = (Uri_t2_22 *)il2cpp_codegen_object_new (Uri_t2_22_il2cpp_TypeInfo_var);
+		Uri__ctor_m2_836(L_6, L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 	}
 
 IL_002b:
 	{
-		Uri_t928 * L_7 = V_0;
-		bool L_8 = Uri_InternalEquals_m5625(__this, L_7, /*hidden argument*/NULL);
+		Uri_t2_22 * L_7 = V_0;
+		bool L_8 = Uri_InternalEquals_m2_855(__this, L_7, /*hidden argument*/NULL);
 		return L_8;
 	}
 }
 // System.Boolean System.Uri::InternalEquals(System.Uri)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t638_il2cpp_TypeInfo_var;
-extern "C" bool Uri_InternalEquals_m5625 (Uri_t928 * __this, Uri_t928 * ___uri, const MethodInfo* method)
+extern TypeInfo* CultureInfo_t1_161_il2cpp_TypeInfo_var;
+extern "C" bool Uri_InternalEquals_m2_855 (Uri_t2_22 * __this, Uri_t2_22 * ___uri, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		CultureInfo_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(496);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		CultureInfo_t1_161_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
 		s_Il2CppMethodIntialized = true;
 	}
-	CultureInfo_t638 * V_0 = {0};
+	CultureInfo_t1_161 * V_0 = {0};
 	int32_t G_B10_0 = 0;
 	{
 		bool L_0 = (__this->___isAbsoluteUri_11);
-		Uri_t928 * L_1 = ___uri;
+		Uri_t2_22 * L_1 = ___uri;
 		NullCheck(L_1);
 		bool L_2 = (L_1->___isAbsoluteUri_11);
 		if ((((int32_t)L_0) == ((int32_t)L_2)))
@@ -18774,31 +18774,31 @@ IL_0013:
 	}
 	{
 		String_t* L_4 = (__this->___source_1);
-		Uri_t928 * L_5 = ___uri;
+		Uri_t2_22 * L_5 = ___uri;
 		NullCheck(L_5);
 		String_t* L_6 = (L_5->___source_1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_op_Equality_m327(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		bool L_7 = String_op_Equality_m1_456(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
 		return L_7;
 	}
 
 IL_0030:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_8 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_8 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_8;
 		String_t* L_9 = (__this->___scheme_2);
-		CultureInfo_t638 * L_10 = V_0;
+		CultureInfo_t1_161 * L_10 = V_0;
 		NullCheck(L_9);
-		String_t* L_11 = String_ToLower_m5756(L_9, L_10, /*hidden argument*/NULL);
-		Uri_t928 * L_12 = ___uri;
+		String_t* L_11 = String_ToLower_m1_408(L_9, L_10, /*hidden argument*/NULL);
+		Uri_t2_22 * L_12 = ___uri;
 		NullCheck(L_12);
 		String_t* L_13 = (L_12->___scheme_2);
-		CultureInfo_t638 * L_14 = V_0;
+		CultureInfo_t1_161 * L_14 = V_0;
 		NullCheck(L_13);
-		String_t* L_15 = String_ToLower_m5756(L_13, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_ToLower_m1_408(L_13, L_14, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_16 = String_op_Equality_m327(NULL /*static, unused*/, L_11, L_15, /*hidden argument*/NULL);
+		bool L_16 = String_op_Equality_m1_456(NULL /*static, unused*/, L_11, L_15, /*hidden argument*/NULL);
 		if (!L_16)
 		{
 			goto IL_00b4;
@@ -18806,17 +18806,17 @@ IL_0030:
 	}
 	{
 		String_t* L_17 = (__this->___host_3);
-		CultureInfo_t638 * L_18 = V_0;
+		CultureInfo_t1_161 * L_18 = V_0;
 		NullCheck(L_17);
-		String_t* L_19 = String_ToLower_m5756(L_17, L_18, /*hidden argument*/NULL);
-		Uri_t928 * L_20 = ___uri;
+		String_t* L_19 = String_ToLower_m1_408(L_17, L_18, /*hidden argument*/NULL);
+		Uri_t2_22 * L_20 = ___uri;
 		NullCheck(L_20);
 		String_t* L_21 = (L_20->___host_3);
-		CultureInfo_t638 * L_22 = V_0;
+		CultureInfo_t1_161 * L_22 = V_0;
 		NullCheck(L_21);
-		String_t* L_23 = String_ToLower_m5756(L_21, L_22, /*hidden argument*/NULL);
+		String_t* L_23 = String_ToLower_m1_408(L_21, L_22, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_24 = String_op_Equality_m327(NULL /*static, unused*/, L_19, L_23, /*hidden argument*/NULL);
+		bool L_24 = String_op_Equality_m1_456(NULL /*static, unused*/, L_19, L_23, /*hidden argument*/NULL);
 		if (!L_24)
 		{
 			goto IL_00b4;
@@ -18824,7 +18824,7 @@ IL_0030:
 	}
 	{
 		int32_t L_25 = (__this->___port_4);
-		Uri_t928 * L_26 = ___uri;
+		Uri_t2_22 * L_26 = ___uri;
 		NullCheck(L_26);
 		int32_t L_27 = (L_26->___port_4);
 		if ((!(((uint32_t)L_25) == ((uint32_t)L_27))))
@@ -18834,11 +18834,11 @@ IL_0030:
 	}
 	{
 		String_t* L_28 = (__this->___query_6);
-		Uri_t928 * L_29 = ___uri;
+		Uri_t2_22 * L_29 = ___uri;
 		NullCheck(L_29);
 		String_t* L_30 = (L_29->___query_6);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_31 = String_op_Equality_m327(NULL /*static, unused*/, L_28, L_30, /*hidden argument*/NULL);
+		bool L_31 = String_op_Equality_m1_456(NULL /*static, unused*/, L_28, L_30, /*hidden argument*/NULL);
 		if (!L_31)
 		{
 			goto IL_00b4;
@@ -18846,11 +18846,11 @@ IL_0030:
 	}
 	{
 		String_t* L_32 = (__this->___path_5);
-		Uri_t928 * L_33 = ___uri;
+		Uri_t2_22 * L_33 = ___uri;
 		NullCheck(L_33);
 		String_t* L_34 = (L_33->___path_5);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_35 = String_op_Equality_m327(NULL /*static, unused*/, L_32, L_34, /*hidden argument*/NULL);
+		bool L_35 = String_op_Equality_m1_456(NULL /*static, unused*/, L_32, L_34, /*hidden argument*/NULL);
 		G_B10_0 = ((int32_t)(L_35));
 		goto IL_00b5;
 	}
@@ -18866,16 +18866,16 @@ IL_00b5:
 	}
 }
 // System.Int32 System.Uri::GetHashCode()
-extern TypeInfo* CultureInfo_t638_il2cpp_TypeInfo_var;
-extern "C" int32_t Uri_GetHashCode_m5626 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* CultureInfo_t1_161_il2cpp_TypeInfo_var;
+extern "C" int32_t Uri_GetHashCode_m2_856 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(496);
+		CultureInfo_t1_161_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
 		s_Il2CppMethodIntialized = true;
 	}
-	CultureInfo_t638 * V_0 = {0};
+	CultureInfo_t1_161 * V_0 = {0};
 	{
 		int32_t L_0 = (__this->___cachedHashCode_15);
 		if (L_0)
@@ -18884,8 +18884,8 @@ extern "C" int32_t Uri_GetHashCode_m5626 (Uri_t928 * __this, const MethodInfo* m
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_1 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_1 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_1;
 		bool L_2 = (__this->___isAbsoluteUri_11);
 		if (!L_2)
@@ -18895,24 +18895,24 @@ extern "C" int32_t Uri_GetHashCode_m5626 (Uri_t928 * __this, const MethodInfo* m
 	}
 	{
 		String_t* L_3 = (__this->___scheme_2);
-		CultureInfo_t638 * L_4 = V_0;
+		CultureInfo_t1_161 * L_4 = V_0;
 		NullCheck(L_3);
-		String_t* L_5 = String_ToLower_m5756(L_3, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_ToLower_m1_408(L_3, L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		int32_t L_6 = String_GetHashCode_m3423(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_GetHashCode_m1_435(L_5, /*hidden argument*/NULL);
 		String_t* L_7 = (__this->___host_3);
-		CultureInfo_t638 * L_8 = V_0;
+		CultureInfo_t1_161 * L_8 = V_0;
 		NullCheck(L_7);
-		String_t* L_9 = String_ToLower_m5756(L_7, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_ToLower_m1_408(L_7, L_8, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		int32_t L_10 = String_GetHashCode_m3423(L_9, /*hidden argument*/NULL);
+		int32_t L_10 = String_GetHashCode_m1_435(L_9, /*hidden argument*/NULL);
 		int32_t L_11 = (__this->___port_4);
 		String_t* L_12 = (__this->___query_6);
 		NullCheck(L_12);
-		int32_t L_13 = String_GetHashCode_m3423(L_12, /*hidden argument*/NULL);
+		int32_t L_13 = String_GetHashCode_m1_435(L_12, /*hidden argument*/NULL);
 		String_t* L_14 = (__this->___path_5);
 		NullCheck(L_14);
-		int32_t L_15 = String_GetHashCode_m3423(L_14, /*hidden argument*/NULL);
+		int32_t L_15 = String_GetHashCode_m1_435(L_14, /*hidden argument*/NULL);
 		__this->___cachedHashCode_15 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6^(int32_t)L_10))^(int32_t)L_11))^(int32_t)L_13))^(int32_t)L_15));
 		goto IL_007a;
 	}
@@ -18921,7 +18921,7 @@ IL_0069:
 	{
 		String_t* L_16 = (__this->___source_1);
 		NullCheck(L_16);
-		int32_t L_17 = String_GetHashCode_m3423(L_16, /*hidden argument*/NULL);
+		int32_t L_17 = String_GetHashCode_m1_435(L_16, /*hidden argument*/NULL);
 		__this->___cachedHashCode_15 = L_17;
 	}
 
@@ -18933,35 +18933,35 @@ IL_007a:
 }
 // System.String System.Uri::GetLeftPart(System.UriPartial)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern TypeInfo* Dictionary_2_t240_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2258_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral967;
-extern Il2CppCodeGenString* _stringLiteral968;
-extern "C" String_t* Uri_GetLeftPart_m5627 (Uri_t928 * __this, int32_t ___part, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t1_76_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1_5485_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2329;
+extern Il2CppCodeGenString* _stringLiteral2330;
+extern "C" String_t* Uri_GetLeftPart_m2_857 (Uri_t2_22 * __this, int32_t ___part, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
-		Dictionary_2_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(225);
-		Dictionary_2__ctor_m2258_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483871);
-		_stringLiteral967 = il2cpp_codegen_string_literal_from_index(967);
-		_stringLiteral968 = il2cpp_codegen_string_literal_from_index(968);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
+		Dictionary_2_t1_76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(115);
+		Dictionary_2__ctor_m1_5485_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483658);
+		_stringLiteral2329 = il2cpp_codegen_string_literal_from_index(2329);
+		_stringLiteral2330 = il2cpp_codegen_string_literal_from_index(2330);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	StringBuilder_t358 * V_1 = {0};
-	StringBuilder_t358 * V_2 = {0};
+	StringBuilder_t1_144 * V_1 = {0};
+	StringBuilder_t1_144 * V_2 = {0};
 	int32_t V_3 = {0};
 	String_t* V_4 = {0};
-	Dictionary_2_t240 * V_5 = {0};
+	Dictionary_2_t1_76 * V_5 = {0};
 	int32_t V_6 = 0;
 	{
-		Uri_EnsureAbsoluteUri_m5652(__this, /*hidden argument*/NULL);
+		Uri_EnsureAbsoluteUri_m2_882(__this, /*hidden argument*/NULL);
 		int32_t L_0 = ___part;
 		V_3 = L_0;
 		int32_t L_1 = V_3;
@@ -18985,19 +18985,19 @@ extern "C" String_t* Uri_GetLeftPart_m5627 (Uri_t928 * __this, int32_t ___part, 
 IL_001f:
 	{
 		String_t* L_2 = (__this->___scheme_2);
-		String_t* L_3 = Uri_GetOpaqueWiseSchemeDelimiter_m5649(__this, /*hidden argument*/NULL);
+		String_t* L_3 = Uri_GetOpaqueWiseSchemeDelimiter_m2_879(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Concat_m446(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Concat_m1_420(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 
 IL_0031:
 	{
 		String_t* L_5 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_6 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_6 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_7 = String_op_Equality_m327(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		bool L_7 = String_op_Equality_m1_456(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
 		if (L_7)
 		{
 			goto IL_005b;
@@ -19005,10 +19005,10 @@ IL_0031:
 	}
 	{
 		String_t* L_8 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_9 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_10 = String_op_Equality_m327(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		bool L_10 = String_op_Equality_m1_456(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		if (!L_10)
 		{
 			goto IL_0061;
@@ -19024,20 +19024,20 @@ IL_005b:
 
 IL_0061:
 	{
-		StringBuilder_t358 * L_12 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_12, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_12 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_12, /*hidden argument*/NULL);
 		V_1 = L_12;
-		StringBuilder_t358 * L_13 = V_1;
+		StringBuilder_t1_144 * L_13 = V_1;
 		String_t* L_14 = (__this->___scheme_2);
 		NullCheck(L_13);
-		StringBuilder_Append_m3444(L_13, L_14, /*hidden argument*/NULL);
-		StringBuilder_t358 * L_15 = V_1;
-		String_t* L_16 = Uri_GetOpaqueWiseSchemeDelimiter_m5649(__this, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_13, L_14, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_15 = V_1;
+		String_t* L_16 = Uri_GetOpaqueWiseSchemeDelimiter_m2_879(__this, /*hidden argument*/NULL);
 		NullCheck(L_15);
-		StringBuilder_Append_m3444(L_15, L_16, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_15, L_16, /*hidden argument*/NULL);
 		String_t* L_17 = (__this->___path_5);
 		NullCheck(L_17);
-		int32_t L_18 = String_get_Length_m2221(L_17, /*hidden argument*/NULL);
+		int32_t L_18 = String_get_Length_m1_430(L_17, /*hidden argument*/NULL);
 		if ((((int32_t)L_18) <= ((int32_t)1)))
 		{
 			goto IL_00c3;
@@ -19046,57 +19046,57 @@ IL_0061:
 	{
 		String_t* L_19 = (__this->___path_5);
 		NullCheck(L_19);
-		uint16_t L_20 = String_get_Chars_m2240(L_19, 1, /*hidden argument*/NULL);
+		uint16_t L_20 = String_get_Chars_m1_344(L_19, 1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_00c3;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_21 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_21 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		String_t* L_22 = (__this->___scheme_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_23 = String_op_Equality_m327(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
+		bool L_23 = String_op_Equality_m1_456(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
 		if (!L_23)
 		{
 			goto IL_00c3;
 		}
 	}
 	{
-		StringBuilder_t358 * L_24 = V_1;
+		StringBuilder_t1_144 * L_24 = V_1;
 		NullCheck(L_24);
-		StringBuilder_Append_m3706(L_24, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_24, ((int32_t)47), /*hidden argument*/NULL);
 	}
 
 IL_00c3:
 	{
 		String_t* L_25 = (__this->___userinfo_8);
 		NullCheck(L_25);
-		int32_t L_26 = String_get_Length_m2221(L_25, /*hidden argument*/NULL);
+		int32_t L_26 = String_get_Length_m1_430(L_25, /*hidden argument*/NULL);
 		if ((((int32_t)L_26) <= ((int32_t)0)))
 		{
 			goto IL_00e8;
 		}
 	}
 	{
-		StringBuilder_t358 * L_27 = V_1;
+		StringBuilder_t1_144 * L_27 = V_1;
 		String_t* L_28 = (__this->___userinfo_8);
 		NullCheck(L_27);
-		StringBuilder_t358 * L_29 = StringBuilder_Append_m3444(L_27, L_28, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_29 = StringBuilder_Append_m1_4327(L_27, L_28, /*hidden argument*/NULL);
 		NullCheck(L_29);
-		StringBuilder_Append_m3706(L_29, ((int32_t)64), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_29, ((int32_t)64), /*hidden argument*/NULL);
 	}
 
 IL_00e8:
 	{
-		StringBuilder_t358 * L_30 = V_1;
+		StringBuilder_t1_144 * L_30 = V_1;
 		String_t* L_31 = (__this->___host_3);
 		NullCheck(L_30);
-		StringBuilder_Append_m3444(L_30, L_31, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_30, L_31, /*hidden argument*/NULL);
 		String_t* L_32 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_33 = Uri_GetDefaultPort_m5648(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_33 = Uri_GetDefaultPort_m2_878(NULL /*static, unused*/, L_32, /*hidden argument*/NULL);
 		V_0 = L_33;
 		int32_t L_34 = (__this->___port_4);
 		if ((((int32_t)L_34) == ((int32_t)(-1))))
@@ -19113,38 +19113,38 @@ IL_00e8:
 		}
 	}
 	{
-		StringBuilder_t358 * L_37 = V_1;
+		StringBuilder_t1_144 * L_37 = V_1;
 		NullCheck(L_37);
-		StringBuilder_t358 * L_38 = StringBuilder_Append_m3706(L_37, ((int32_t)58), /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_38 = StringBuilder_Append_m1_4331(L_37, ((int32_t)58), /*hidden argument*/NULL);
 		int32_t L_39 = (__this->___port_4);
 		NullCheck(L_38);
-		StringBuilder_Append_m5719(L_38, L_39, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4328(L_38, L_39, /*hidden argument*/NULL);
 	}
 
 IL_012d:
 	{
-		StringBuilder_t358 * L_40 = V_1;
+		StringBuilder_t1_144 * L_40 = V_1;
 		NullCheck(L_40);
-		String_t* L_41 = StringBuilder_ToString_m1899(L_40, /*hidden argument*/NULL);
+		String_t* L_41 = StringBuilder_ToString_m1_4322(L_40, /*hidden argument*/NULL);
 		return L_41;
 	}
 
 IL_0134:
 	{
-		StringBuilder_t358 * L_42 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_42, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_42 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_42, /*hidden argument*/NULL);
 		V_2 = L_42;
-		StringBuilder_t358 * L_43 = V_2;
+		StringBuilder_t1_144 * L_43 = V_2;
 		String_t* L_44 = (__this->___scheme_2);
 		NullCheck(L_43);
-		StringBuilder_Append_m3444(L_43, L_44, /*hidden argument*/NULL);
-		StringBuilder_t358 * L_45 = V_2;
-		String_t* L_46 = Uri_GetOpaqueWiseSchemeDelimiter_m5649(__this, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_43, L_44, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_45 = V_2;
+		String_t* L_46 = Uri_GetOpaqueWiseSchemeDelimiter_m2_879(__this, /*hidden argument*/NULL);
 		NullCheck(L_45);
-		StringBuilder_Append_m3444(L_45, L_46, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_45, L_46, /*hidden argument*/NULL);
 		String_t* L_47 = (__this->___path_5);
 		NullCheck(L_47);
-		int32_t L_48 = String_get_Length_m2221(L_47, /*hidden argument*/NULL);
+		int32_t L_48 = String_get_Length_m1_430(L_47, /*hidden argument*/NULL);
 		if ((((int32_t)L_48) <= ((int32_t)1)))
 		{
 			goto IL_0196;
@@ -19153,57 +19153,57 @@ IL_0134:
 	{
 		String_t* L_49 = (__this->___path_5);
 		NullCheck(L_49);
-		uint16_t L_50 = String_get_Chars_m2240(L_49, 1, /*hidden argument*/NULL);
+		uint16_t L_50 = String_get_Chars_m1_344(L_49, 1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_50) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_0196;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_51 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_51 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		String_t* L_52 = (__this->___scheme_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_53 = String_op_Equality_m327(NULL /*static, unused*/, L_51, L_52, /*hidden argument*/NULL);
+		bool L_53 = String_op_Equality_m1_456(NULL /*static, unused*/, L_51, L_52, /*hidden argument*/NULL);
 		if (!L_53)
 		{
 			goto IL_0196;
 		}
 	}
 	{
-		StringBuilder_t358 * L_54 = V_2;
+		StringBuilder_t1_144 * L_54 = V_2;
 		NullCheck(L_54);
-		StringBuilder_Append_m3706(L_54, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_54, ((int32_t)47), /*hidden argument*/NULL);
 	}
 
 IL_0196:
 	{
 		String_t* L_55 = (__this->___userinfo_8);
 		NullCheck(L_55);
-		int32_t L_56 = String_get_Length_m2221(L_55, /*hidden argument*/NULL);
+		int32_t L_56 = String_get_Length_m1_430(L_55, /*hidden argument*/NULL);
 		if ((((int32_t)L_56) <= ((int32_t)0)))
 		{
 			goto IL_01bb;
 		}
 	}
 	{
-		StringBuilder_t358 * L_57 = V_2;
+		StringBuilder_t1_144 * L_57 = V_2;
 		String_t* L_58 = (__this->___userinfo_8);
 		NullCheck(L_57);
-		StringBuilder_t358 * L_59 = StringBuilder_Append_m3444(L_57, L_58, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_59 = StringBuilder_Append_m1_4327(L_57, L_58, /*hidden argument*/NULL);
 		NullCheck(L_59);
-		StringBuilder_Append_m3706(L_59, ((int32_t)64), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_59, ((int32_t)64), /*hidden argument*/NULL);
 	}
 
 IL_01bb:
 	{
-		StringBuilder_t358 * L_60 = V_2;
+		StringBuilder_t1_144 * L_60 = V_2;
 		String_t* L_61 = (__this->___host_3);
 		NullCheck(L_60);
-		StringBuilder_Append_m3444(L_60, L_61, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_60, L_61, /*hidden argument*/NULL);
 		String_t* L_62 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_63 = Uri_GetDefaultPort_m5648(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_63 = Uri_GetDefaultPort_m2_878(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
 		V_0 = L_63;
 		int32_t L_64 = (__this->___port_4);
 		if ((((int32_t)L_64) == ((int32_t)(-1))))
@@ -19220,26 +19220,26 @@ IL_01bb:
 		}
 	}
 	{
-		StringBuilder_t358 * L_67 = V_2;
+		StringBuilder_t1_144 * L_67 = V_2;
 		NullCheck(L_67);
-		StringBuilder_t358 * L_68 = StringBuilder_Append_m3706(L_67, ((int32_t)58), /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_68 = StringBuilder_Append_m1_4331(L_67, ((int32_t)58), /*hidden argument*/NULL);
 		int32_t L_69 = (__this->___port_4);
 		NullCheck(L_68);
-		StringBuilder_Append_m5719(L_68, L_69, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4328(L_68, L_69, /*hidden argument*/NULL);
 	}
 
 IL_0200:
 	{
 		String_t* L_70 = (__this->___path_5);
 		NullCheck(L_70);
-		int32_t L_71 = String_get_Length_m2221(L_70, /*hidden argument*/NULL);
+		int32_t L_71 = String_get_Length_m1_430(L_70, /*hidden argument*/NULL);
 		if ((((int32_t)L_71) <= ((int32_t)0)))
 		{
 			goto IL_02a6;
 		}
 	}
 	{
-		String_t* L_72 = Uri_get_Scheme_m5617(__this, /*hidden argument*/NULL);
+		String_t* L_72 = Uri_get_Scheme_m2_847(__this, /*hidden argument*/NULL);
 		V_4 = L_72;
 		String_t* L_73 = V_4;
 		if (!L_73)
@@ -19248,32 +19248,32 @@ IL_0200:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_74 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_74 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30;
 		if (L_74)
 		{
 			goto IL_0253;
 		}
 	}
 	{
-		Dictionary_2_t240 * L_75 = (Dictionary_2_t240 *)il2cpp_codegen_object_new (Dictionary_2_t240_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2258(L_75, 2, /*hidden argument*/Dictionary_2__ctor_m2258_MethodInfo_var);
+		Dictionary_2_t1_76 * L_75 = (Dictionary_2_t1_76 *)il2cpp_codegen_object_new (Dictionary_2_t1_76_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1_5485(L_75, 2, /*hidden argument*/Dictionary_2__ctor_m1_5485_MethodInfo_var);
 		V_5 = L_75;
-		Dictionary_2_t240 * L_76 = V_5;
+		Dictionary_2_t1_76 * L_76 = V_5;
 		NullCheck(L_76);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_76, _stringLiteral967, 0);
-		Dictionary_2_t240 * L_77 = V_5;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_76, _stringLiteral2329, 0);
+		Dictionary_2_t1_76 * L_77 = V_5;
 		NullCheck(L_77);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_77, _stringLiteral968, 0);
-		Dictionary_2_t240 * L_78 = V_5;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30 = L_78;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_77, _stringLiteral2330, 0);
+		Dictionary_2_t1_76 * L_78 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30 = L_78;
 	}
 
 IL_0253:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_79 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_79 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map14_30;
 		String_t* L_80 = V_4;
 		NullCheck(L_79);
 		bool L_81 = (bool)VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_79, L_80, (&V_6));
@@ -19295,31 +19295,31 @@ IL_0253:
 
 IL_0272:
 	{
-		StringBuilder_t358 * L_83 = V_2;
+		StringBuilder_t1_144 * L_83 = V_2;
 		String_t* L_84 = (__this->___path_5);
 		NullCheck(L_83);
-		StringBuilder_Append_m3444(L_83, L_84, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_83, L_84, /*hidden argument*/NULL);
 		goto IL_02a6;
 	}
 
 IL_0284:
 	{
-		StringBuilder_t358 * L_85 = V_2;
+		StringBuilder_t1_144 * L_85 = V_2;
 		String_t* L_86 = (__this->___path_5);
-		String_t* L_87 = Uri_get_Scheme_m5617(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_88 = Uri_CompactEscaped_m5644(NULL /*static, unused*/, L_87, /*hidden argument*/NULL);
-		String_t* L_89 = Uri_Reduce_m5645(NULL /*static, unused*/, L_86, L_88, /*hidden argument*/NULL);
+		String_t* L_87 = Uri_get_Scheme_m2_847(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_88 = Uri_CompactEscaped_m2_874(NULL /*static, unused*/, L_87, /*hidden argument*/NULL);
+		String_t* L_89 = Uri_Reduce_m2_875(NULL /*static, unused*/, L_86, L_88, /*hidden argument*/NULL);
 		NullCheck(L_85);
-		StringBuilder_Append_m3444(L_85, L_89, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_85, L_89, /*hidden argument*/NULL);
 		goto IL_02a6;
 	}
 
 IL_02a6:
 	{
-		StringBuilder_t358 * L_90 = V_2;
+		StringBuilder_t1_144 * L_90 = V_2;
 		NullCheck(L_90);
-		String_t* L_91 = StringBuilder_ToString_m1899(L_90, /*hidden argument*/NULL);
+		String_t* L_91 = StringBuilder_ToString_m1_4322(L_90, /*hidden argument*/NULL);
 		return L_91;
 	}
 
@@ -19329,15 +19329,15 @@ IL_02ad:
 	}
 }
 // System.Int32 System.Uri::FromHex(System.Char)
-extern TypeInfo* ArgumentException_t409_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral972;
-extern "C" int32_t Uri_FromHex_m5628 (Object_t * __this /* static, unused */, uint16_t ___digit, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t1_638_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2334;
+extern "C" int32_t Uri_FromHex_m2_858 (Object_t * __this /* static, unused */, uint16_t ___digit, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentException_t409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
-		_stringLiteral972 = il2cpp_codegen_string_literal_from_index(972);
+		ArgumentException_t1_638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4);
+		_stringLiteral2334 = il2cpp_codegen_string_literal_from_index(2334);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -19401,29 +19401,29 @@ IL_002d:
 
 IL_0045:
 	{
-		ArgumentException_t409 * L_9 = (ArgumentException_t409 *)il2cpp_codegen_object_new (ArgumentException_t409_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m2394(L_9, _stringLiteral972, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_9 = (ArgumentException_t1_638 *)il2cpp_codegen_object_new (ArgumentException_t1_638_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1_4582(L_9, _stringLiteral2334, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_9);
 	}
 }
 // System.String System.Uri::HexEscape(System.Char)
-extern TypeInfo* ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral973;
-extern Il2CppCodeGenString* _stringLiteral974;
-extern "C" String_t* Uri_HexEscape_m5629 (Object_t * __this /* static, unused */, uint16_t ___character, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2335;
+extern Il2CppCodeGenString* _stringLiteral692;
+extern "C" String_t* Uri_HexEscape_m2_859 (Object_t * __this /* static, unused */, uint16_t ___character, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(477);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		_stringLiteral973 = il2cpp_codegen_string_literal_from_index(973);
-		_stringLiteral974 = il2cpp_codegen_string_literal_from_index(974);
+		ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		_stringLiteral2335 = il2cpp_codegen_string_literal_from_index(2335);
+		_stringLiteral692 = il2cpp_codegen_string_literal_from_index(692);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -19434,33 +19434,33 @@ extern "C" String_t* Uri_HexEscape_m5629 (Object_t * __this /* static, unused */
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t755 * L_1 = (ArgumentOutOfRangeException_t755 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4664(L_1, _stringLiteral973, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1_686 * L_1 = (ArgumentOutOfRangeException_t1_686 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m1_4595(L_1, _stringLiteral2335, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
 IL_0016:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_2 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16;
 		uint16_t L_3 = ___character;
 		NullCheck(L_2);
-		uint16_t L_4 = String_get_Chars_m2240(L_2, ((int32_t)((int32_t)((int32_t)((int32_t)L_3&(int32_t)((int32_t)240)))>>(int32_t)4)), /*hidden argument*/NULL);
+		uint16_t L_4 = String_get_Chars_m1_344(L_2, ((int32_t)((int32_t)((int32_t)((int32_t)L_3&(int32_t)((int32_t)240)))>>(int32_t)4)), /*hidden argument*/NULL);
 		uint16_t L_5 = L_4;
-		Object_t * L_6 = Box(Char_t389_il2cpp_TypeInfo_var, &L_5);
-		String_t* L_7 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16;
+		Object_t * L_6 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_5);
+		String_t* L_7 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___hexUpperChars_16;
 		uint16_t L_8 = ___character;
 		NullCheck(L_7);
-		uint16_t L_9 = String_get_Chars_m2240(L_7, ((int32_t)((int32_t)L_8&(int32_t)((int32_t)15))), /*hidden argument*/NULL);
+		uint16_t L_9 = String_get_Chars_m1_344(L_7, ((int32_t)((int32_t)L_8&(int32_t)((int32_t)15))), /*hidden argument*/NULL);
 		uint16_t L_10 = L_9;
-		Object_t * L_11 = Box(Char_t389_il2cpp_TypeInfo_var, &L_10);
+		Object_t * L_11 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_10);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_12 = String_Concat_m1887(NULL /*static, unused*/, _stringLiteral974, L_6, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m1_419(NULL /*static, unused*/, _stringLiteral692, L_6, L_11, /*hidden argument*/NULL);
 		return L_12;
 	}
 }
 // System.Boolean System.Uri::IsHexDigit(System.Char)
-extern "C" bool Uri_IsHexDigit_m5630 (Object_t * __this /* static, unused */, uint16_t ___digit, const MethodInfo* method)
+extern "C" bool Uri_IsHexDigit_m2_860 (Object_t * __this /* static, unused */, uint16_t ___digit, const MethodInfo* method)
 {
 	int32_t G_B7_0 = 0;
 	int32_t G_B9_0 = 0;
@@ -19531,13 +19531,13 @@ IL_0036:
 	}
 }
 // System.Boolean System.Uri::IsHexEncoding(System.String,System.Int32)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern "C" bool Uri_IsHexEncoding_m5631 (Object_t * __this /* static, unused */, String_t* ___pattern, int32_t ___index, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern "C" bool Uri_IsHexEncoding_m2_861 (Object_t * __this /* static, unused */, String_t* ___pattern, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t G_B6_0 = 0;
@@ -19545,7 +19545,7 @@ extern "C" bool Uri_IsHexEncoding_m5631 (Object_t * __this /* static, unused */,
 		int32_t L_0 = ___index;
 		String_t* L_1 = ___pattern;
 		NullCheck(L_1);
-		int32_t L_2 = String_get_Length_m2221(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = String_get_Length_m1_430(L_1, /*hidden argument*/NULL);
 		if ((((int32_t)((int32_t)((int32_t)L_0+(int32_t)3))) <= ((int32_t)L_2)))
 		{
 			goto IL_0010;
@@ -19562,7 +19562,7 @@ IL_0010:
 		int32_t L_5 = L_4;
 		___index = ((int32_t)((int32_t)L_5+(int32_t)1));
 		NullCheck(L_3);
-		uint16_t L_6 = String_get_Chars_m2240(L_3, L_5, /*hidden argument*/NULL);
+		uint16_t L_6 = String_get_Chars_m1_344(L_3, L_5, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_0047;
@@ -19574,9 +19574,9 @@ IL_0010:
 		int32_t L_9 = L_8;
 		___index = ((int32_t)((int32_t)L_9+(int32_t)1));
 		NullCheck(L_7);
-		uint16_t L_10 = String_get_Chars_m2240(L_7, L_9, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_11 = Uri_IsHexDigit_m5630(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		uint16_t L_10 = String_get_Chars_m1_344(L_7, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_11 = Uri_IsHexDigit_m2_860(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		if (!L_11)
 		{
 			goto IL_0047;
@@ -19586,9 +19586,9 @@ IL_0010:
 		String_t* L_12 = ___pattern;
 		int32_t L_13 = ___index;
 		NullCheck(L_12);
-		uint16_t L_14 = String_get_Chars_m2240(L_12, L_13, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_15 = Uri_IsHexDigit_m5630(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		uint16_t L_14 = String_get_Chars_m1_344(L_12, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_15 = Uri_IsHexDigit_m2_860(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
 		G_B6_0 = ((int32_t)(L_15));
 		goto IL_0048;
 	}
@@ -19604,17 +19604,17 @@ IL_0048:
 	}
 }
 // System.Void System.Uri::AppendQueryAndFragment(System.String&)
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" void Uri_AppendQueryAndFragment_m5632 (Uri_t928 * __this, String_t** ___result, const MethodInfo* method)
+extern "C" void Uri_AppendQueryAndFragment_m2_862 (Uri_t2_22 * __this, String_t** ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -19622,7 +19622,7 @@ extern "C" void Uri_AppendQueryAndFragment_m5632 (Uri_t928 * __this, String_t** 
 	{
 		String_t* L_0 = (__this->___query_6);
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
 			goto IL_005e;
@@ -19631,7 +19631,7 @@ extern "C" void Uri_AppendQueryAndFragment_m5632 (Uri_t928 * __this, String_t** 
 	{
 		String_t* L_2 = (__this->___query_6);
 		NullCheck(L_2);
-		uint16_t L_3 = String_get_Chars_m2240(L_2, 0, /*hidden argument*/NULL);
+		uint16_t L_3 = String_get_Chars_m1_344(L_2, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_0047;
@@ -19639,14 +19639,14 @@ extern "C" void Uri_AppendQueryAndFragment_m5632 (Uri_t928 * __this, String_t** 
 	}
 	{
 		uint16_t L_4 = ((int32_t)63);
-		Object_t * L_5 = Box(Char_t389_il2cpp_TypeInfo_var, &L_4);
+		Object_t * L_5 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6 = (__this->___query_6);
 		NullCheck(L_6);
-		String_t* L_7 = String_Substring_m2268(L_6, 1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_8 = Uri_Unescape_m5638(NULL /*static, unused*/, L_7, 0, /*hidden argument*/NULL);
+		String_t* L_7 = String_Substring_m1_354(L_6, 1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_8 = Uri_Unescape_m2_868(NULL /*static, unused*/, L_7, 0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_9 = String_Concat_m1896(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
+		String_t* L_9 = String_Concat_m1_418(NULL /*static, unused*/, L_5, L_8, /*hidden argument*/NULL);
 		G_B4_0 = L_9;
 		goto IL_0053;
 	}
@@ -19654,8 +19654,8 @@ extern "C" void Uri_AppendQueryAndFragment_m5632 (Uri_t928 * __this, String_t** 
 IL_0047:
 	{
 		String_t* L_10 = (__this->___query_6);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_11 = Uri_Unescape_m5638(NULL /*static, unused*/, L_10, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_11 = Uri_Unescape_m2_868(NULL /*static, unused*/, L_10, 0, /*hidden argument*/NULL);
 		G_B4_0 = L_11;
 	}
 
@@ -19666,7 +19666,7 @@ IL_0053:
 		String_t** L_13 = ___result;
 		String_t* L_14 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_15 = String_Concat_m446(NULL /*static, unused*/, (*((String_t**)L_13)), L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_Concat_m1_420(NULL /*static, unused*/, (*((String_t**)L_13)), L_14, /*hidden argument*/NULL);
 		*((Object_t **)(L_12)) = (Object_t *)L_15;
 	}
 
@@ -19674,7 +19674,7 @@ IL_005e:
 	{
 		String_t* L_16 = (__this->___fragment_7);
 		NullCheck(L_16);
-		int32_t L_17 = String_get_Length_m2221(L_16, /*hidden argument*/NULL);
+		int32_t L_17 = String_get_Length_m1_430(L_16, /*hidden argument*/NULL);
 		if ((((int32_t)L_17) <= ((int32_t)0)))
 		{
 			goto IL_007e;
@@ -19685,7 +19685,7 @@ IL_005e:
 		String_t** L_19 = ___result;
 		String_t* L_20 = (__this->___fragment_7);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_21 = String_Concat_m446(NULL /*static, unused*/, (*((String_t**)L_19)), L_20, /*hidden argument*/NULL);
+		String_t* L_21 = String_Concat_m1_420(NULL /*static, unused*/, (*((String_t**)L_19)), L_20, /*hidden argument*/NULL);
 		*((Object_t **)(L_18)) = (Object_t *)L_21;
 	}
 
@@ -19695,13 +19695,13 @@ IL_007e:
 	}
 }
 // System.String System.Uri::ToString()
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern "C" String_t* Uri_ToString_m5633 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern "C" String_t* Uri_ToString_m2_863 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -19725,9 +19725,9 @@ IL_0012:
 		}
 	}
 	{
-		String_t* L_3 = Uri_GetLeftPart_m5627(__this, 2, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_4 = Uri_Unescape_m5638(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NULL);
+		String_t* L_3 = Uri_GetLeftPart_m2_857(__this, 2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_4 = Uri_Unescape_m2_868(NULL /*static, unused*/, L_3, 1, /*hidden argument*/NULL);
 		__this->___cachedToString_14 = L_4;
 		goto IL_0047;
 	}
@@ -19742,54 +19742,54 @@ IL_0035:
 IL_0047:
 	{
 		String_t** L_7 = &(__this->___cachedToString_14);
-		Uri_AppendQueryAndFragment_m5632(__this, L_7, /*hidden argument*/NULL);
+		Uri_AppendQueryAndFragment_m2_862(__this, L_7, /*hidden argument*/NULL);
 		String_t* L_8 = (__this->___cachedToString_14);
 		return L_8;
 	}
 }
 // System.String System.Uri::EscapeString(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern "C" String_t* Uri_EscapeString_m5634 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern "C" String_t* Uri_EscapeString_m2_864 (Object_t * __this /* static, unused */, String_t* ___str, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___str;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_1 = Uri_EscapeString_m5635(NULL /*static, unused*/, L_0, 0, 1, 1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_1 = Uri_EscapeString_m2_865(NULL /*static, unused*/, L_0, 0, 1, 1, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.String System.Uri::EscapeString(System.String,System.Boolean,System.Boolean,System.Boolean)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t906_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t239_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral975;
-extern Il2CppCodeGenString* _stringLiteral976;
-extern "C" String_t* Uri_EscapeString_m5635 (Object_t * __this /* static, unused */, String_t* ___str, bool ___escapeReserved, bool ___escapeHex, bool ___escapeBrackets, const MethodInfo* method)
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t1_218_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t1_16_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2336;
+extern Il2CppCodeGenString* _stringLiteral2337;
+extern "C" String_t* Uri_EscapeString_m2_865 (Object_t * __this /* static, unused */, String_t* ___str, bool ___escapeReserved, bool ___escapeHex, bool ___escapeBrackets, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Encoding_t906_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(497);
-		CharU5BU5D_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
-		_stringLiteral975 = il2cpp_codegen_string_literal_from_index(975);
-		_stringLiteral976 = il2cpp_codegen_string_literal_from_index(976);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Encoding_t1_218_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(41);
+		CharU5BU5D_t1_16_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(12);
+		_stringLiteral2336 = il2cpp_codegen_string_literal_from_index(2336);
+		_stringLiteral2337 = il2cpp_codegen_string_literal_from_index(2337);
 		s_Il2CppMethodIntialized = true;
 	}
-	StringBuilder_t358 * V_0 = {0};
+	StringBuilder_t1_144 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	ByteU5BU5D_t740* V_3 = {0};
+	ByteU5BU5D_t1_70* V_3 = {0};
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	uint16_t V_6 = 0x0;
@@ -19808,12 +19808,12 @@ extern "C" String_t* Uri_EscapeString_m5635 (Object_t * __this /* static, unused
 
 IL_000c:
 	{
-		StringBuilder_t358 * L_2 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_2, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_2 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_2, /*hidden argument*/NULL);
 		V_0 = L_2;
 		String_t* L_3 = ___str;
 		NullCheck(L_3);
-		int32_t L_4 = String_get_Length_m2221(L_3, /*hidden argument*/NULL);
+		int32_t L_4 = String_get_Length_m1_430(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		V_2 = 0;
 		goto IL_0105;
@@ -19823,21 +19823,21 @@ IL_0020:
 	{
 		String_t* L_5 = ___str;
 		int32_t L_6 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_7 = Uri_IsHexEncoding_m5631(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_7 = Uri_IsHexEncoding_m2_861(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		StringBuilder_t358 * L_8 = V_0;
+		StringBuilder_t1_144 * L_8 = V_0;
 		String_t* L_9 = ___str;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
-		String_t* L_11 = String_Substring_m2241(L_9, L_10, 3, /*hidden argument*/NULL);
+		String_t* L_11 = String_Substring_m1_355(L_9, L_10, 3, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		StringBuilder_Append_m3444(L_8, L_11, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_8, L_11, /*hidden argument*/NULL);
 		int32_t L_12 = V_2;
 		V_2 = ((int32_t)((int32_t)L_12+(int32_t)2));
 		goto IL_0101;
@@ -19845,20 +19845,20 @@ IL_0020:
 
 IL_0044:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t906_il2cpp_TypeInfo_var);
-		Encoding_t906 * L_13 = Encoding_get_UTF8_m4703(NULL /*static, unused*/, /*hidden argument*/NULL);
-		CharU5BU5D_t239* L_14 = ((CharU5BU5D_t239*)SZArrayNew(CharU5BU5D_t239_il2cpp_TypeInfo_var, 1));
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t1_218_il2cpp_TypeInfo_var);
+		Encoding_t1_218 * L_13 = Encoding_get_UTF8_m1_4287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		CharU5BU5D_t1_16* L_14 = ((CharU5BU5D_t1_16*)SZArrayNew(CharU5BU5D_t1_16_il2cpp_TypeInfo_var, 1));
 		String_t* L_15 = ___str;
 		int32_t L_16 = V_2;
 		NullCheck(L_15);
-		uint16_t L_17 = String_get_Chars_m2240(L_15, L_16, /*hidden argument*/NULL);
+		uint16_t L_17 = String_get_Chars_m1_344(L_15, L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_14, 0, sizeof(uint16_t))) = (uint16_t)L_17;
 		NullCheck(L_13);
-		ByteU5BU5D_t740* L_18 = (ByteU5BU5D_t740*)VirtFuncInvoker1< ByteU5BU5D_t740*, CharU5BU5D_t239* >::Invoke(12 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[]) */, L_13, L_14);
+		ByteU5BU5D_t1_70* L_18 = (ByteU5BU5D_t1_70*)VirtFuncInvoker1< ByteU5BU5D_t1_70*, CharU5BU5D_t1_16* >::Invoke(12 /* System.Byte[] System.Text.Encoding::GetBytes(System.Char[]) */, L_13, L_14);
 		V_3 = L_18;
-		ByteU5BU5D_t740* L_19 = V_3;
+		ByteU5BU5D_t1_70* L_19 = V_3;
 		NullCheck(L_19);
 		V_4 = (((int32_t)((int32_t)(((Array_t *)L_19)->max_length))));
 		V_5 = 0;
@@ -19867,7 +19867,7 @@ IL_0044:
 
 IL_006c:
 	{
-		ByteU5BU5D_t740* L_20 = V_3;
+		ByteU5BU5D_t1_70* L_20 = V_3;
 		int32_t L_21 = V_5;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_21);
@@ -19888,8 +19888,8 @@ IL_006c:
 	}
 	{
 		uint16_t L_25 = V_6;
-		NullCheck(_stringLiteral975);
-		int32_t L_26 = String_IndexOf_m2293(_stringLiteral975, L_25, /*hidden argument*/NULL);
+		NullCheck(_stringLiteral2336);
+		int32_t L_26 = String_IndexOf_m1_382(_stringLiteral2336, L_25, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_26) == ((uint32_t)(-1)))))
 		{
 			goto IL_00d6;
@@ -19943,8 +19943,8 @@ IL_00be:
 	}
 	{
 		uint16_t L_33 = V_6;
-		NullCheck(_stringLiteral976);
-		int32_t L_34 = String_IndexOf_m2293(_stringLiteral976, L_33, /*hidden argument*/NULL);
+		NullCheck(_stringLiteral2337);
+		int32_t L_34 = String_IndexOf_m1_382(_stringLiteral2337, L_33, /*hidden argument*/NULL);
 		if ((((int32_t)L_34) == ((int32_t)(-1))))
 		{
 			goto IL_00e9;
@@ -19953,21 +19953,21 @@ IL_00be:
 
 IL_00d6:
 	{
-		StringBuilder_t358 * L_35 = V_0;
+		StringBuilder_t1_144 * L_35 = V_0;
 		uint16_t L_36 = V_6;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_37 = Uri_HexEscape_m5629(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_37 = Uri_HexEscape_m2_859(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
 		NullCheck(L_35);
-		StringBuilder_Append_m3444(L_35, L_37, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_35, L_37, /*hidden argument*/NULL);
 		goto IL_00f2;
 	}
 
 IL_00e9:
 	{
-		StringBuilder_t358 * L_38 = V_0;
+		StringBuilder_t1_144 * L_38 = V_0;
 		uint16_t L_39 = V_6;
 		NullCheck(L_38);
-		StringBuilder_Append_m3706(L_38, L_39, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_38, L_39, /*hidden argument*/NULL);
 	}
 
 IL_00f2:
@@ -20002,28 +20002,28 @@ IL_0105:
 		}
 	}
 	{
-		StringBuilder_t358 * L_46 = V_0;
+		StringBuilder_t1_144 * L_46 = V_0;
 		NullCheck(L_46);
-		String_t* L_47 = StringBuilder_ToString_m1899(L_46, /*hidden argument*/NULL);
+		String_t* L_47 = StringBuilder_ToString_m1_4322(L_46, /*hidden argument*/NULL);
 		return L_47;
 	}
 }
 // System.Void System.Uri::ParseUri(System.UriKind)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t638_il2cpp_TypeInfo_var;
-extern "C" void Uri_ParseUri_m5636 (Uri_t928 * __this, int32_t ___kind, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t1_161_il2cpp_TypeInfo_var;
+extern "C" void Uri_ParseUri_m2_866 (Uri_t2_22 * __this, int32_t ___kind, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		CultureInfo_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(496);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		CultureInfo_t1_161_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		int32_t L_0 = ___kind;
 		String_t* L_1 = (__this->___source_1);
-		Uri_Parse_m5642(__this, L_0, L_1, /*hidden argument*/NULL);
+		Uri_Parse_m2_872(__this, L_0, L_1, /*hidden argument*/NULL);
 		bool L_2 = (__this->___userEscaped_12);
 		if (!L_2)
 		{
@@ -20037,12 +20037,12 @@ extern "C" void Uri_ParseUri_m5636 (Uri_t928 * __this, int32_t ___kind, const Me
 IL_0019:
 	{
 		String_t* L_3 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_4 = Uri_EscapeString_m5635(NULL /*static, unused*/, L_3, 0, 1, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_4 = Uri_EscapeString_m2_865(NULL /*static, unused*/, L_3, 0, 1, 0, /*hidden argument*/NULL);
 		__this->___host_3 = L_4;
 		String_t* L_5 = (__this->___host_3);
 		NullCheck(L_5);
-		int32_t L_6 = String_get_Length_m2221(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_get_Length_m1_430(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)L_6) <= ((int32_t)1)))
 		{
 			goto IL_0086;
@@ -20051,7 +20051,7 @@ IL_0019:
 	{
 		String_t* L_7 = (__this->___host_3);
 		NullCheck(L_7);
-		uint16_t L_8 = String_get_Chars_m2240(L_7, 0, /*hidden argument*/NULL);
+		uint16_t L_8 = String_get_Chars_m1_344(L_7, 0, /*hidden argument*/NULL);
 		if ((((int32_t)L_8) == ((int32_t)((int32_t)91))))
 		{
 			goto IL_0086;
@@ -20061,9 +20061,9 @@ IL_0019:
 		String_t* L_9 = (__this->___host_3);
 		String_t* L_10 = (__this->___host_3);
 		NullCheck(L_10);
-		int32_t L_11 = String_get_Length_m2221(L_10, /*hidden argument*/NULL);
+		int32_t L_11 = String_get_Length_m1_430(L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
-		uint16_t L_12 = String_get_Chars_m2240(L_9, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_12 = String_get_Chars_m1_344(L_9, ((int32_t)((int32_t)L_11-(int32_t)1)), /*hidden argument*/NULL);
 		if ((((int32_t)L_12) == ((int32_t)((int32_t)93))))
 		{
 			goto IL_0086;
@@ -20071,10 +20071,10 @@ IL_0019:
 	}
 	{
 		String_t* L_13 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_14 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_14 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		String_t* L_15 = String_ToLower_m5756(L_13, L_14, /*hidden argument*/NULL);
+		String_t* L_15 = String_ToLower_m1_408(L_13, L_14, /*hidden argument*/NULL);
 		__this->___host_3 = L_15;
 	}
 
@@ -20082,7 +20082,7 @@ IL_0086:
 	{
 		String_t* L_16 = (__this->___path_5);
 		NullCheck(L_16);
-		int32_t L_17 = String_get_Length_m2221(L_16, /*hidden argument*/NULL);
+		int32_t L_17 = String_get_Length_m1_430(L_16, /*hidden argument*/NULL);
 		if ((((int32_t)L_17) <= ((int32_t)0)))
 		{
 			goto IL_00a8;
@@ -20090,8 +20090,8 @@ IL_0086:
 	}
 	{
 		String_t* L_18 = (__this->___path_5);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_19 = Uri_EscapeString_m5634(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_19 = Uri_EscapeString_m2_864(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 		__this->___path_5 = L_19;
 	}
 
@@ -20101,43 +20101,43 @@ IL_00a8:
 	}
 }
 // System.String System.Uri::Unescape(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern "C" String_t* Uri_Unescape_m5637 (Uri_t928 * __this, String_t* ___str, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern "C" String_t* Uri_Unescape_m2_867 (Uri_t2_22 * __this, String_t* ___str, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___str;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_1 = Uri_Unescape_m5638(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_1 = Uri_Unescape_m2_868(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.String System.Uri::Unescape(System.String,System.Boolean)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral977;
-extern Il2CppCodeGenString* _stringLiteral978;
-extern Il2CppCodeGenString* _stringLiteral979;
-extern "C" String_t* Uri_Unescape_m5638 (Object_t * __this /* static, unused */, String_t* ___str, bool ___excludeSpecial, const MethodInfo* method)
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2338;
+extern Il2CppCodeGenString* _stringLiteral2339;
+extern Il2CppCodeGenString* _stringLiteral2340;
+extern "C" String_t* Uri_Unescape_m2_868 (Object_t * __this /* static, unused */, String_t* ___str, bool ___excludeSpecial, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		_stringLiteral977 = il2cpp_codegen_string_literal_from_index(977);
-		_stringLiteral978 = il2cpp_codegen_string_literal_from_index(978);
-		_stringLiteral979 = il2cpp_codegen_string_literal_from_index(979);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		_stringLiteral2338 = il2cpp_codegen_string_literal_from_index(2338);
+		_stringLiteral2339 = il2cpp_codegen_string_literal_from_index(2339);
+		_stringLiteral2340 = il2cpp_codegen_string_literal_from_index(2340);
 		s_Il2CppMethodIntialized = true;
 	}
-	StringBuilder_t358 * V_0 = {0};
+	StringBuilder_t1_144 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	uint16_t V_3 = 0x0;
@@ -20158,12 +20158,12 @@ extern "C" String_t* Uri_Unescape_m5638 (Object_t * __this /* static, unused */,
 
 IL_000c:
 	{
-		StringBuilder_t358 * L_2 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_2, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_2 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_2, /*hidden argument*/NULL);
 		V_0 = L_2;
 		String_t* L_3 = ___str;
 		NullCheck(L_3);
-		int32_t L_4 = String_get_Length_m2221(L_3, /*hidden argument*/NULL);
+		int32_t L_4 = String_get_Length_m1_430(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
 		V_2 = 0;
 		goto IL_00ca;
@@ -20174,7 +20174,7 @@ IL_0020:
 		String_t* L_5 = ___str;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
-		uint16_t L_7 = String_get_Chars_m2240(L_5, L_6, /*hidden argument*/NULL);
+		uint16_t L_7 = String_get_Chars_m1_344(L_5, L_6, /*hidden argument*/NULL);
 		V_3 = L_7;
 		uint16_t L_8 = V_3;
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)37)))))
@@ -20184,8 +20184,8 @@ IL_0020:
 	}
 	{
 		String_t* L_9 = ___str;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		uint16_t L_10 = Uri_HexUnescapeMultiByte_m5646(NULL /*static, unused*/, L_9, (&V_2), (&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		uint16_t L_10 = Uri_HexUnescapeMultiByte_m2_876(NULL /*static, unused*/, L_9, (&V_2), (&V_4), /*hidden argument*/NULL);
 		V_5 = L_10;
 		bool L_11 = ___excludeSpecial;
 		if (!L_11)
@@ -20201,9 +20201,9 @@ IL_0020:
 		}
 	}
 	{
-		StringBuilder_t358 * L_13 = V_0;
+		StringBuilder_t1_144 * L_13 = V_0;
 		NullCheck(L_13);
-		StringBuilder_Append_m3444(L_13, _stringLiteral977, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_13, _stringLiteral2338, /*hidden argument*/NULL);
 		goto IL_00b5;
 	}
 
@@ -20223,9 +20223,9 @@ IL_005c:
 		}
 	}
 	{
-		StringBuilder_t358 * L_16 = V_0;
+		StringBuilder_t1_144 * L_16 = V_0;
 		NullCheck(L_16);
-		StringBuilder_Append_m3444(L_16, _stringLiteral978, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_16, _stringLiteral2339, /*hidden argument*/NULL);
 		goto IL_00b5;
 	}
 
@@ -20245,18 +20245,18 @@ IL_007c:
 		}
 	}
 	{
-		StringBuilder_t358 * L_19 = V_0;
+		StringBuilder_t1_144 * L_19 = V_0;
 		NullCheck(L_19);
-		StringBuilder_Append_m3444(L_19, _stringLiteral979, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4327(L_19, _stringLiteral2340, /*hidden argument*/NULL);
 		goto IL_00b5;
 	}
 
 IL_009c:
 	{
-		StringBuilder_t358 * L_20 = V_0;
+		StringBuilder_t1_144 * L_20 = V_0;
 		uint16_t L_21 = V_5;
 		NullCheck(L_20);
-		StringBuilder_Append_m3706(L_20, L_21, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_20, L_21, /*hidden argument*/NULL);
 		uint16_t L_22 = V_4;
 		if (!L_22)
 		{
@@ -20264,10 +20264,10 @@ IL_009c:
 		}
 	}
 	{
-		StringBuilder_t358 * L_23 = V_0;
+		StringBuilder_t1_144 * L_23 = V_0;
 		uint16_t L_24 = V_4;
 		NullCheck(L_23);
-		StringBuilder_Append_m3706(L_23, L_24, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_23, L_24, /*hidden argument*/NULL);
 	}
 
 IL_00b5:
@@ -20279,10 +20279,10 @@ IL_00b5:
 
 IL_00be:
 	{
-		StringBuilder_t358 * L_26 = V_0;
+		StringBuilder_t1_144 * L_26 = V_0;
 		uint16_t L_27 = V_3;
 		NullCheck(L_26);
-		StringBuilder_Append_m3706(L_26, L_27, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_26, L_27, /*hidden argument*/NULL);
 	}
 
 IL_00c6:
@@ -20301,34 +20301,34 @@ IL_00ca:
 		}
 	}
 	{
-		StringBuilder_t358 * L_31 = V_0;
+		StringBuilder_t1_144 * L_31 = V_0;
 		NullCheck(L_31);
-		String_t* L_32 = StringBuilder_ToString_m1899(L_31, /*hidden argument*/NULL);
+		String_t* L_32 = StringBuilder_ToString_m1_4322(L_31, /*hidden argument*/NULL);
 		return L_32;
 	}
 }
 // System.Void System.Uri::ParseAsWindowsUNC(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t239_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral980;
-extern Il2CppCodeGenString* _stringLiteral981;
-extern "C" void Uri_ParseAsWindowsUNC_m5639 (Uri_t928 * __this, String_t* ___uriString, const MethodInfo* method)
+extern TypeInfo* CharU5BU5D_t1_16_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2341;
+extern Il2CppCodeGenString* _stringLiteral621;
+extern "C" void Uri_ParseAsWindowsUNC_m2_869 (Uri_t2_22 * __this, String_t* ___uriString, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		CharU5BU5D_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
-		_stringLiteral980 = il2cpp_codegen_string_literal_from_index(980);
-		_stringLiteral981 = il2cpp_codegen_string_literal_from_index(981);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		CharU5BU5D_t1_16_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(12);
+		_stringLiteral2341 = il2cpp_codegen_string_literal_from_index(2341);
+		_stringLiteral621 = il2cpp_codegen_string_literal_from_index(621);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_0 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		__this->___scheme_2 = L_0;
 		__this->___port_4 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -20338,16 +20338,16 @@ extern "C" void Uri_ParseAsWindowsUNC_m5639 (Uri_t928 * __this, String_t* ___uri
 		__this->___query_6 = L_2;
 		__this->___isUnc_9 = 1;
 		String_t* L_3 = ___uriString;
-		CharU5BU5D_t239* L_4 = ((CharU5BU5D_t239*)SZArrayNew(CharU5BU5D_t239_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t1_16* L_4 = ((CharU5BU5D_t1_16*)SZArrayNew(CharU5BU5D_t1_16_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_4, 0, sizeof(uint16_t))) = (uint16_t)((int32_t)92);
 		NullCheck(L_3);
-		String_t* L_5 = String_TrimStart_m5757(L_3, L_4, /*hidden argument*/NULL);
+		String_t* L_5 = String_TrimStart_m1_359(L_3, L_4, /*hidden argument*/NULL);
 		___uriString = L_5;
 		String_t* L_6 = ___uriString;
 		NullCheck(L_6);
-		int32_t L_7 = String_IndexOf_m2293(L_6, ((int32_t)92), /*hidden argument*/NULL);
+		int32_t L_7 = String_IndexOf_m1_382(L_6, ((int32_t)92), /*hidden argument*/NULL);
 		V_0 = L_7;
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -20359,12 +20359,12 @@ extern "C" void Uri_ParseAsWindowsUNC_m5639 (Uri_t928 * __this, String_t* ___uri
 		String_t* L_9 = ___uriString;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
-		String_t* L_11 = String_Substring_m2268(L_9, L_10, /*hidden argument*/NULL);
+		String_t* L_11 = String_Substring_m1_354(L_9, L_10, /*hidden argument*/NULL);
 		__this->___path_5 = L_11;
 		String_t* L_12 = ___uriString;
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
-		String_t* L_14 = String_Substring_m2241(L_12, 0, L_13, /*hidden argument*/NULL);
+		String_t* L_14 = String_Substring_m1_355(L_12, 0, L_13, /*hidden argument*/NULL);
 		__this->___host_3 = L_14;
 		goto IL_0084;
 	}
@@ -20382,33 +20382,33 @@ IL_0084:
 	{
 		String_t* L_17 = (__this->___path_5);
 		NullCheck(L_17);
-		String_t* L_18 = String_Replace_m3449(L_17, _stringLiteral980, _stringLiteral981, /*hidden argument*/NULL);
+		String_t* L_18 = String_Replace_m1_403(L_17, _stringLiteral2341, _stringLiteral621, /*hidden argument*/NULL);
 		__this->___path_5 = L_18;
 		return;
 	}
 }
 // System.String System.Uri::ParseAsWindowsAbsoluteFilePath(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral982;
-extern Il2CppCodeGenString* _stringLiteral980;
-extern Il2CppCodeGenString* _stringLiteral981;
-extern "C" String_t* Uri_ParseAsWindowsAbsoluteFilePath_m5640 (Uri_t928 * __this, String_t* ___uriString, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2342;
+extern Il2CppCodeGenString* _stringLiteral2341;
+extern Il2CppCodeGenString* _stringLiteral621;
+extern "C" String_t* Uri_ParseAsWindowsAbsoluteFilePath_m2_870 (Uri_t2_22 * __this, String_t* ___uriString, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		_stringLiteral982 = il2cpp_codegen_string_literal_from_index(982);
-		_stringLiteral980 = il2cpp_codegen_string_literal_from_index(980);
-		_stringLiteral981 = il2cpp_codegen_string_literal_from_index(981);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		_stringLiteral2342 = il2cpp_codegen_string_literal_from_index(2342);
+		_stringLiteral2341 = il2cpp_codegen_string_literal_from_index(2341);
+		_stringLiteral621 = il2cpp_codegen_string_literal_from_index(621);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		String_t* L_0 = ___uriString;
 		NullCheck(L_0);
-		int32_t L_1 = String_get_Length_m2221(L_0, /*hidden argument*/NULL);
+		int32_t L_1 = String_get_Length_m1_430(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) <= ((int32_t)2)))
 		{
 			goto IL_002e;
@@ -20417,7 +20417,7 @@ extern "C" String_t* Uri_ParseAsWindowsAbsoluteFilePath_m5640 (Uri_t928 * __this
 	{
 		String_t* L_2 = ___uriString;
 		NullCheck(L_2);
-		uint16_t L_3 = String_get_Chars_m2240(L_2, 2, /*hidden argument*/NULL);
+		uint16_t L_3 = String_get_Chars_m1_344(L_2, 2, /*hidden argument*/NULL);
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)92))))
 		{
 			goto IL_002e;
@@ -20426,20 +20426,20 @@ extern "C" String_t* Uri_ParseAsWindowsAbsoluteFilePath_m5640 (Uri_t928 * __this
 	{
 		String_t* L_4 = ___uriString;
 		NullCheck(L_4);
-		uint16_t L_5 = String_get_Chars_m2240(L_4, 2, /*hidden argument*/NULL);
+		uint16_t L_5 = String_get_Chars_m1_344(L_4, 2, /*hidden argument*/NULL);
 		if ((((int32_t)L_5) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		return _stringLiteral982;
+		return _stringLiteral2342;
 	}
 
 IL_002e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_6 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_6 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		__this->___scheme_2 = L_6;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
@@ -20447,7 +20447,7 @@ IL_002e:
 		__this->___port_4 = (-1);
 		String_t* L_8 = ___uriString;
 		NullCheck(L_8);
-		String_t* L_9 = String_Replace_m3449(L_8, _stringLiteral980, _stringLiteral981, /*hidden argument*/NULL);
+		String_t* L_9 = String_Replace_m1_403(L_8, _stringLiteral2341, _stringLiteral621, /*hidden argument*/NULL);
 		__this->___path_5 = L_9;
 		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___fragment_7 = L_10;
@@ -20457,25 +20457,25 @@ IL_002e:
 	}
 }
 // System.Void System.Uri::ParseAsUnixAbsoluteFilePath(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* CharU5BU5D_t239_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m5641 (Uri_t928 * __this, String_t* ___uriString, const MethodInfo* method)
+extern TypeInfo* CharU5BU5D_t1_16_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m2_871 (Uri_t2_22 * __this, String_t* ___uriString, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		CharU5BU5D_t239_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(209);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		CharU5BU5D_t1_16_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(12);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		__this->___isUnixFilePath_0 = 1;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_0 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		__this->___scheme_2 = L_0;
 		__this->___port_4 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
@@ -20488,7 +20488,7 @@ extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m5641 (Uri_t928 * __this, String
 		__this->___path_5 = (String_t*)NULL;
 		String_t* L_4 = ___uriString;
 		NullCheck(L_4);
-		int32_t L_5 = String_get_Length_m2221(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = String_get_Length_m1_430(L_4, /*hidden argument*/NULL);
 		if ((((int32_t)L_5) < ((int32_t)2)))
 		{
 			goto IL_008f;
@@ -20497,7 +20497,7 @@ extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m5641 (Uri_t928 * __this, String
 	{
 		String_t* L_6 = ___uriString;
 		NullCheck(L_6);
-		uint16_t L_7 = String_get_Chars_m2240(L_6, 0, /*hidden argument*/NULL);
+		uint16_t L_7 = String_get_Chars_m1_344(L_6, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_008f;
@@ -20506,7 +20506,7 @@ extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m5641 (Uri_t928 * __this, String
 	{
 		String_t* L_8 = ___uriString;
 		NullCheck(L_8);
-		uint16_t L_9 = String_get_Chars_m2240(L_8, 1, /*hidden argument*/NULL);
+		uint16_t L_9 = String_get_Chars_m1_344(L_8, 1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_008f;
@@ -20514,18 +20514,18 @@ extern "C" void Uri_ParseAsUnixAbsoluteFilePath_m5641 (Uri_t928 * __this, String
 	}
 	{
 		String_t* L_10 = ___uriString;
-		CharU5BU5D_t239* L_11 = ((CharU5BU5D_t239*)SZArrayNew(CharU5BU5D_t239_il2cpp_TypeInfo_var, 1));
+		CharU5BU5D_t1_16* L_11 = ((CharU5BU5D_t1_16*)SZArrayNew(CharU5BU5D_t1_16_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_11, 0, sizeof(uint16_t))) = (uint16_t)((int32_t)47);
 		NullCheck(L_10);
-		String_t* L_12 = String_TrimStart_m5757(L_10, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = String_TrimStart_m1_359(L_10, L_11, /*hidden argument*/NULL);
 		___uriString = L_12;
 		uint16_t L_13 = ((int32_t)47);
-		Object_t * L_14 = Box(Char_t389_il2cpp_TypeInfo_var, &L_13);
+		Object_t * L_14 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_13);
 		String_t* L_15 = ___uriString;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Concat_m1896(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+		String_t* L_16 = String_Concat_m1_418(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
 		__this->___path_5 = L_16;
 	}
 
@@ -20548,17 +20548,17 @@ IL_00a1:
 	}
 }
 // System.Void System.Uri::Parse(System.UriKind,System.String)
-extern TypeInfo* ArgumentNullException_t77_il2cpp_TypeInfo_var;
-extern TypeInfo* UriFormatException_t1087_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral983;
-extern "C" void Uri_Parse_m5642 (Uri_t928 * __this, int32_t ___kind, String_t* ___uriString, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t1_685_il2cpp_TypeInfo_var;
+extern TypeInfo* UriFormatException_t2_148_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2343;
+extern "C" void Uri_Parse_m2_872 (Uri_t2_22 * __this, int32_t ___kind, String_t* ___uriString, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t77_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5);
-		UriFormatException_t1087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(736);
-		_stringLiteral983 = il2cpp_codegen_string_literal_from_index(983);
+		ArgumentNullException_t1_685_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2);
+		UriFormatException_t2_148_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(731);
+		_stringLiteral2343 = il2cpp_codegen_string_literal_from_index(2343);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -20570,8 +20570,8 @@ extern "C" void Uri_Parse_m5642 (Uri_t928 * __this, int32_t ___kind, String_t* _
 		}
 	}
 	{
-		ArgumentNullException_t77 * L_1 = (ArgumentNullException_t77 *)il2cpp_codegen_object_new (ArgumentNullException_t77_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m330(L_1, _stringLiteral983, /*hidden argument*/NULL);
+		ArgumentNullException_t1_685 * L_1 = (ArgumentNullException_t1_685 *)il2cpp_codegen_object_new (ArgumentNullException_t1_685_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m1_4591(L_1, _stringLiteral2343, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -20579,7 +20579,7 @@ IL_0011:
 	{
 		int32_t L_2 = ___kind;
 		String_t* L_3 = ___uriString;
-		String_t* L_4 = Uri_ParseNoExceptions_m5643(__this, L_2, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = Uri_ParseNoExceptions_m2_873(__this, L_2, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		String_t* L_5 = V_0;
 		if (!L_5)
@@ -20589,8 +20589,8 @@ IL_0011:
 	}
 	{
 		String_t* L_6 = V_0;
-		UriFormatException_t1087 * L_7 = (UriFormatException_t1087 *)il2cpp_codegen_object_new (UriFormatException_t1087_il2cpp_TypeInfo_var);
-		UriFormatException__ctor_m5655(L_7, L_6, /*hidden argument*/NULL);
+		UriFormatException_t2_148 * L_7 = (UriFormatException_t2_148 *)il2cpp_codegen_object_new (UriFormatException_t2_148_il2cpp_TypeInfo_var);
+		UriFormatException__ctor_m2_885(L_7, L_6, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_7);
 	}
 
@@ -20600,55 +20600,55 @@ IL_0027:
 	}
 }
 // System.String System.Uri::ParseNoExceptions(System.UriKind,System.String)
-extern TypeInfo* Path_t920_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t638_il2cpp_TypeInfo_var;
+extern TypeInfo* Path_t1_243_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t1_161_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* IPv6Address_t979_il2cpp_TypeInfo_var;
-extern TypeInfo* DefaultUriParser_t1082_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral984;
-extern Il2CppCodeGenString* _stringLiteral985;
-extern Il2CppCodeGenString* _stringLiteral986;
-extern Il2CppCodeGenString* _stringLiteral987;
-extern Il2CppCodeGenString* _stringLiteral988;
-extern Il2CppCodeGenString* _stringLiteral989;
-extern Il2CppCodeGenString* _stringLiteral990;
-extern Il2CppCodeGenString* _stringLiteral981;
-extern Il2CppCodeGenString* _stringLiteral991;
-extern Il2CppCodeGenString* _stringLiteral992;
-extern Il2CppCodeGenString* _stringLiteral993;
-extern Il2CppCodeGenString* _stringLiteral276;
-extern Il2CppCodeGenString* _stringLiteral277;
-extern Il2CppCodeGenString* _stringLiteral994;
-extern Il2CppCodeGenString* _stringLiteral283;
-extern "C" String_t* Uri_ParseNoExceptions_m5643 (Uri_t928 * __this, int32_t ___kind, String_t* ___uriString, const MethodInfo* method)
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* IPv6Address_t2_36_il2cpp_TypeInfo_var;
+extern TypeInfo* DefaultUriParser_t2_143_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2344;
+extern Il2CppCodeGenString* _stringLiteral2345;
+extern Il2CppCodeGenString* _stringLiteral2346;
+extern Il2CppCodeGenString* _stringLiteral2347;
+extern Il2CppCodeGenString* _stringLiteral687;
+extern Il2CppCodeGenString* _stringLiteral2348;
+extern Il2CppCodeGenString* _stringLiteral2349;
+extern Il2CppCodeGenString* _stringLiteral621;
+extern Il2CppCodeGenString* _stringLiteral2350;
+extern Il2CppCodeGenString* _stringLiteral2351;
+extern Il2CppCodeGenString* _stringLiteral2352;
+extern Il2CppCodeGenString* _stringLiteral228;
+extern Il2CppCodeGenString* _stringLiteral230;
+extern Il2CppCodeGenString* _stringLiteral2353;
+extern Il2CppCodeGenString* _stringLiteral93;
+extern "C" String_t* Uri_ParseNoExceptions_m2_873 (Uri_t2_22 * __this, int32_t ___kind, String_t* ___uriString, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Path_t920_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(533);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		CultureInfo_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(496);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		IPv6Address_t979_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(639);
-		DefaultUriParser_t1082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(739);
-		_stringLiteral984 = il2cpp_codegen_string_literal_from_index(984);
-		_stringLiteral985 = il2cpp_codegen_string_literal_from_index(985);
-		_stringLiteral986 = il2cpp_codegen_string_literal_from_index(986);
-		_stringLiteral987 = il2cpp_codegen_string_literal_from_index(987);
-		_stringLiteral988 = il2cpp_codegen_string_literal_from_index(988);
-		_stringLiteral989 = il2cpp_codegen_string_literal_from_index(989);
-		_stringLiteral990 = il2cpp_codegen_string_literal_from_index(990);
-		_stringLiteral981 = il2cpp_codegen_string_literal_from_index(981);
-		_stringLiteral991 = il2cpp_codegen_string_literal_from_index(991);
-		_stringLiteral992 = il2cpp_codegen_string_literal_from_index(992);
-		_stringLiteral993 = il2cpp_codegen_string_literal_from_index(993);
-		_stringLiteral276 = il2cpp_codegen_string_literal_from_index(276);
-		_stringLiteral277 = il2cpp_codegen_string_literal_from_index(277);
-		_stringLiteral994 = il2cpp_codegen_string_literal_from_index(994);
-		_stringLiteral283 = il2cpp_codegen_string_literal_from_index(283);
+		Path_t1_243_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(140);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		CultureInfo_t1_161_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		IPv6Address_t2_36_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(633);
+		DefaultUriParser_t2_143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(734);
+		_stringLiteral2344 = il2cpp_codegen_string_literal_from_index(2344);
+		_stringLiteral2345 = il2cpp_codegen_string_literal_from_index(2345);
+		_stringLiteral2346 = il2cpp_codegen_string_literal_from_index(2346);
+		_stringLiteral2347 = il2cpp_codegen_string_literal_from_index(2347);
+		_stringLiteral687 = il2cpp_codegen_string_literal_from_index(687);
+		_stringLiteral2348 = il2cpp_codegen_string_literal_from_index(2348);
+		_stringLiteral2349 = il2cpp_codegen_string_literal_from_index(2349);
+		_stringLiteral621 = il2cpp_codegen_string_literal_from_index(621);
+		_stringLiteral2350 = il2cpp_codegen_string_literal_from_index(2350);
+		_stringLiteral2351 = il2cpp_codegen_string_literal_from_index(2351);
+		_stringLiteral2352 = il2cpp_codegen_string_literal_from_index(2352);
+		_stringLiteral228 = il2cpp_codegen_string_literal_from_index(228);
+		_stringLiteral230 = il2cpp_codegen_string_literal_from_index(230);
+		_stringLiteral2353 = il2cpp_codegen_string_literal_from_index(2353);
+		_stringLiteral93 = il2cpp_codegen_string_literal_from_index(93);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -20663,8 +20663,8 @@ extern "C" String_t* Uri_ParseNoExceptions_m5643 (Uri_t928 * __this, int32_t ___
 	int32_t V_9 = 0;
 	String_t* V_10 = {0};
 	bool V_11 = false;
-	IPv6Address_t979 * V_12 = {0};
-	UriFormatException_t1087 * V_13 = {0};
+	IPv6Address_t2_36 * V_12 = {0};
+	UriFormatException_t2_148 * V_13 = {0};
 	int32_t G_B50_0 = 0;
 	int32_t G_B55_0 = 0;
 	int32_t G_B57_0 = 0;
@@ -20672,11 +20672,11 @@ extern "C" String_t* Uri_ParseNoExceptions_m5643 (Uri_t928 * __this, int32_t ___
 	{
 		String_t* L_0 = ___uriString;
 		NullCheck(L_0);
-		String_t* L_1 = String_Trim_m3443(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = String_Trim_m1_357(L_0, /*hidden argument*/NULL);
 		___uriString = L_1;
 		String_t* L_2 = ___uriString;
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2221(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m1_430(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		int32_t L_4 = V_0;
 		if (L_4)
@@ -20721,7 +20721,7 @@ IL_002b:
 		}
 	}
 	{
-		return _stringLiteral984;
+		return _stringLiteral2344;
 	}
 
 IL_003f:
@@ -20729,7 +20729,7 @@ IL_003f:
 		V_1 = 0;
 		String_t* L_9 = ___uriString;
 		NullCheck(L_9);
-		int32_t L_10 = String_IndexOf_m2293(L_9, ((int32_t)58), /*hidden argument*/NULL);
+		int32_t L_10 = String_IndexOf_m1_382(L_9, ((int32_t)58), /*hidden argument*/NULL);
 		V_1 = L_10;
 		int32_t L_11 = V_1;
 		if (L_11)
@@ -20738,7 +20738,7 @@ IL_003f:
 		}
 	}
 	{
-		return _stringLiteral985;
+		return _stringLiteral2345;
 	}
 
 IL_0056:
@@ -20752,15 +20752,15 @@ IL_0056:
 	{
 		String_t* L_13 = ___uriString;
 		NullCheck(L_13);
-		uint16_t L_14 = String_get_Chars_m2240(L_13, 0, /*hidden argument*/NULL);
+		uint16_t L_14 = String_get_Chars_m1_344(L_13, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0091;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Path_t920_il2cpp_TypeInfo_var);
-		uint16_t L_15 = ((Path_t920_StaticFields*)Path_t920_il2cpp_TypeInfo_var->static_fields)->___DirectorySeparatorChar_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Path_t1_243_il2cpp_TypeInfo_var);
+		uint16_t L_15 = ((Path_t1_243_StaticFields*)Path_t1_243_il2cpp_TypeInfo_var->static_fields)->___DirectorySeparatorChar_2;
 		if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0091;
@@ -20768,7 +20768,7 @@ IL_0056:
 	}
 	{
 		String_t* L_16 = ___uriString;
-		Uri_ParseAsUnixAbsoluteFilePath_m5641(__this, L_16, /*hidden argument*/NULL);
+		Uri_ParseAsUnixAbsoluteFilePath_m2_871(__this, L_16, /*hidden argument*/NULL);
 		int32_t L_17 = ___kind;
 		if ((!(((uint32_t)L_17) == ((uint32_t)2))))
 		{
@@ -20788,7 +20788,7 @@ IL_0091:
 	{
 		String_t* L_18 = ___uriString;
 		NullCheck(L_18);
-		int32_t L_19 = String_get_Length_m2221(L_18, /*hidden argument*/NULL);
+		int32_t L_19 = String_get_Length_m1_430(L_18, /*hidden argument*/NULL);
 		if ((((int32_t)L_19) < ((int32_t)2)))
 		{
 			goto IL_00c5;
@@ -20797,7 +20797,7 @@ IL_0091:
 	{
 		String_t* L_20 = ___uriString;
 		NullCheck(L_20);
-		uint16_t L_21 = String_get_Chars_m2240(L_20, 0, /*hidden argument*/NULL);
+		uint16_t L_21 = String_get_Chars_m1_344(L_20, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_21) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_00c5;
@@ -20806,7 +20806,7 @@ IL_0091:
 	{
 		String_t* L_22 = ___uriString;
 		NullCheck(L_22);
-		uint16_t L_23 = String_get_Chars_m2240(L_22, 1, /*hidden argument*/NULL);
+		uint16_t L_23 = String_get_Chars_m1_344(L_22, 1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_23) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_00c5;
@@ -20814,7 +20814,7 @@ IL_0091:
 	}
 	{
 		String_t* L_24 = ___uriString;
-		Uri_ParseAsWindowsUNC_m5639(__this, L_24, /*hidden argument*/NULL);
+		Uri_ParseAsWindowsUNC_m2_869(__this, L_24, /*hidden argument*/NULL);
 		goto IL_00d3;
 	}
 
@@ -20841,22 +20841,22 @@ IL_00d5:
 	{
 		String_t* L_27 = ___uriString;
 		NullCheck(L_27);
-		uint16_t L_28 = String_get_Chars_m2240(L_27, 0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_29 = Uri_IsAlpha_m5623(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		uint16_t L_28 = String_get_Chars_m1_344(L_27, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_29 = Uri_IsAlpha_m2_853(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
 		if (L_29)
 		{
 			goto IL_00f3;
 		}
 	}
 	{
-		return _stringLiteral986;
+		return _stringLiteral2346;
 	}
 
 IL_00f3:
 	{
 		String_t* L_30 = ___uriString;
-		String_t* L_31 = Uri_ParseAsWindowsAbsoluteFilePath_m5640(__this, L_30, /*hidden argument*/NULL);
+		String_t* L_31 = Uri_ParseAsWindowsAbsoluteFilePath_m2_870(__this, L_30, /*hidden argument*/NULL);
 		V_2 = L_31;
 		String_t* L_32 = V_2;
 		if (!L_32)
@@ -20879,22 +20879,22 @@ IL_0105:
 		String_t* L_34 = ___uriString;
 		int32_t L_35 = V_1;
 		NullCheck(L_34);
-		String_t* L_36 = String_Substring_m2241(L_34, 0, L_35, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_37 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_36 = String_Substring_m1_355(L_34, 0, L_35, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_37 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_36);
-		String_t* L_38 = String_ToLower_m5756(L_36, L_37, /*hidden argument*/NULL);
+		String_t* L_38 = String_ToLower_m1_408(L_36, L_37, /*hidden argument*/NULL);
 		__this->___scheme_2 = L_38;
 		String_t* L_39 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_40 = Uri_CheckSchemeName_m5622(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_40 = Uri_CheckSchemeName_m2_852(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
 		if (L_40)
 		{
 			goto IL_0138;
 		}
 	}
 	{
-		String_t* L_41 = Locale_GetText_m4792(NULL /*static, unused*/, _stringLiteral987, /*hidden argument*/NULL);
+		String_t* L_41 = Locale_GetText_m2_0(NULL /*static, unused*/, _stringLiteral2347, /*hidden argument*/NULL);
 		return L_41;
 	}
 
@@ -20904,14 +20904,14 @@ IL_0138:
 		V_3 = ((int32_t)((int32_t)L_42+(int32_t)1));
 		String_t* L_43 = ___uriString;
 		NullCheck(L_43);
-		int32_t L_44 = String_get_Length_m2221(L_43, /*hidden argument*/NULL);
+		int32_t L_44 = String_get_Length_m1_430(L_43, /*hidden argument*/NULL);
 		V_4 = L_44;
 		String_t* L_45 = ___uriString;
 		int32_t L_46 = V_3;
 		NullCheck(L_45);
-		int32_t L_47 = String_IndexOf_m4790(L_45, ((int32_t)35), L_46, /*hidden argument*/NULL);
+		int32_t L_47 = String_IndexOf_m1_383(L_45, ((int32_t)35), L_46, /*hidden argument*/NULL);
 		V_1 = L_47;
-		bool L_48 = Uri_get_IsUnc_m5616(__this, /*hidden argument*/NULL);
+		bool L_48 = Uri_get_IsUnc_m2_846(__this, /*hidden argument*/NULL);
 		if (L_48)
 		{
 			goto IL_019e;
@@ -20935,7 +20935,7 @@ IL_0138:
 		String_t* L_51 = ___uriString;
 		int32_t L_52 = V_1;
 		NullCheck(L_51);
-		String_t* L_53 = String_Substring_m2268(L_51, L_52, /*hidden argument*/NULL);
+		String_t* L_53 = String_Substring_m1_354(L_51, L_52, /*hidden argument*/NULL);
 		__this->___fragment_7 = L_53;
 		goto IL_019b;
 	}
@@ -20945,11 +20945,11 @@ IL_017d:
 		String_t* L_54 = ___uriString;
 		int32_t L_55 = V_1;
 		NullCheck(L_54);
-		String_t* L_56 = String_Substring_m2268(L_54, ((int32_t)((int32_t)L_55+(int32_t)1)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_57 = Uri_EscapeString_m5634(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
+		String_t* L_56 = String_Substring_m1_354(L_54, ((int32_t)((int32_t)L_55+(int32_t)1)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_57 = Uri_EscapeString_m2_864(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_58 = String_Concat_m446(NULL /*static, unused*/, _stringLiteral988, L_57, /*hidden argument*/NULL);
+		String_t* L_58 = String_Concat_m1_420(NULL /*static, unused*/, _stringLiteral687, L_57, /*hidden argument*/NULL);
 		__this->___fragment_7 = L_58;
 	}
 
@@ -20966,7 +20966,7 @@ IL_019e:
 		int32_t L_62 = V_4;
 		int32_t L_63 = V_3;
 		NullCheck(L_60);
-		int32_t L_64 = String_IndexOf_m5758(L_60, ((int32_t)63), L_61, ((int32_t)((int32_t)L_62-(int32_t)L_63)), /*hidden argument*/NULL);
+		int32_t L_64 = String_IndexOf_m1_384(L_60, ((int32_t)63), L_61, ((int32_t)((int32_t)L_62-(int32_t)L_63)), /*hidden argument*/NULL);
 		V_1 = L_64;
 		int32_t L_65 = V_1;
 		if ((((int32_t)L_65) == ((int32_t)(-1))))
@@ -20980,7 +20980,7 @@ IL_019e:
 		int32_t L_68 = V_4;
 		int32_t L_69 = V_1;
 		NullCheck(L_66);
-		String_t* L_70 = String_Substring_m2241(L_66, L_67, ((int32_t)((int32_t)L_68-(int32_t)L_69)), /*hidden argument*/NULL);
+		String_t* L_70 = String_Substring_m1_355(L_66, L_67, ((int32_t)((int32_t)L_68-(int32_t)L_69)), /*hidden argument*/NULL);
 		__this->___query_6 = L_70;
 		int32_t L_71 = V_1;
 		V_4 = L_71;
@@ -20992,16 +20992,16 @@ IL_019e:
 	}
 	{
 		String_t* L_73 = (__this->___query_6);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_74 = Uri_EscapeString_m5634(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_74 = Uri_EscapeString_m2_864(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
 		__this->___query_6 = L_74;
 	}
 
 IL_01e3:
 	{
 		String_t* L_75 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_76 = Uri_IsPredefinedScheme_m5650(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_76 = Uri_IsPredefinedScheme_m2_880(NULL /*static, unused*/, L_75, /*hidden argument*/NULL);
 		if (!L_76)
 		{
 			goto IL_0255;
@@ -21009,10 +21009,10 @@ IL_01e3:
 	}
 	{
 		String_t* L_77 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_78 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_78 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_79 = String_op_Inequality_m2239(NULL /*static, unused*/, L_77, L_78, /*hidden argument*/NULL);
+		bool L_79 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_77, L_78, /*hidden argument*/NULL);
 		if (!L_79)
 		{
 			goto IL_0255;
@@ -21020,10 +21020,10 @@ IL_01e3:
 	}
 	{
 		String_t* L_80 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_81 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_81 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_82 = String_op_Inequality_m2239(NULL /*static, unused*/, L_80, L_81, /*hidden argument*/NULL);
+		bool L_82 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_80, L_81, /*hidden argument*/NULL);
 		if (!L_82)
 		{
 			goto IL_0255;
@@ -21049,7 +21049,7 @@ IL_01e3:
 		String_t* L_87 = ___uriString;
 		int32_t L_88 = V_3;
 		NullCheck(L_87);
-		uint16_t L_89 = String_get_Chars_m2240(L_87, L_88, /*hidden argument*/NULL);
+		uint16_t L_89 = String_get_Chars_m1_344(L_87, L_88, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_89) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0255;
@@ -21059,7 +21059,7 @@ IL_01e3:
 		String_t* L_90 = ___uriString;
 		int32_t L_91 = V_3;
 		NullCheck(L_90);
-		uint16_t L_92 = String_get_Chars_m2240(L_90, ((int32_t)((int32_t)L_91+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_92 = String_get_Chars_m1_344(L_90, ((int32_t)((int32_t)L_91+(int32_t)1)), /*hidden argument*/NULL);
 		if ((((int32_t)L_92) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0255;
@@ -21068,7 +21068,7 @@ IL_01e3:
 
 IL_024f:
 	{
-		return _stringLiteral989;
+		return _stringLiteral2348;
 	}
 
 IL_0255:
@@ -21084,7 +21084,7 @@ IL_0255:
 		String_t* L_95 = ___uriString;
 		int32_t L_96 = V_3;
 		NullCheck(L_95);
-		uint16_t L_97 = String_get_Chars_m2240(L_95, L_96, /*hidden argument*/NULL);
+		uint16_t L_97 = String_get_Chars_m1_344(L_95, L_96, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_97) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_027c;
@@ -21094,7 +21094,7 @@ IL_0255:
 		String_t* L_98 = ___uriString;
 		int32_t L_99 = V_3;
 		NullCheck(L_98);
-		uint16_t L_100 = String_get_Chars_m2240(L_98, ((int32_t)((int32_t)L_99+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_100 = String_get_Chars_m1_344(L_98, ((int32_t)((int32_t)L_99+(int32_t)1)), /*hidden argument*/NULL);
 		G_B50_0 = ((((int32_t)L_100) == ((int32_t)((int32_t)47)))? 1 : 0);
 		goto IL_027d;
 	}
@@ -21108,10 +21108,10 @@ IL_027d:
 	{
 		V_5 = G_B50_0;
 		String_t* L_101 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_102 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_102 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_103 = String_op_Equality_m327(NULL /*static, unused*/, L_101, L_102, /*hidden argument*/NULL);
+		bool L_103 = String_op_Equality_m1_456(NULL /*static, unused*/, L_101, L_102, /*hidden argument*/NULL);
 		if (!L_103)
 		{
 			goto IL_02b7;
@@ -21136,7 +21136,7 @@ IL_027d:
 		String_t* L_107 = ___uriString;
 		int32_t L_108 = V_3;
 		NullCheck(L_107);
-		uint16_t L_109 = String_get_Chars_m2240(L_107, ((int32_t)((int32_t)L_108+(int32_t)2)), /*hidden argument*/NULL);
+		uint16_t L_109 = String_get_Chars_m1_344(L_107, ((int32_t)((int32_t)L_108+(int32_t)2)), /*hidden argument*/NULL);
 		G_B55_0 = ((((int32_t)L_109) == ((int32_t)((int32_t)47)))? 1 : 0);
 		goto IL_02b5;
 	}
@@ -21175,16 +21175,16 @@ IL_02b8:
 		}
 	}
 	{
-		return _stringLiteral990;
+		return _stringLiteral2349;
 	}
 
 IL_02d1:
 	{
 		String_t* L_112 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_113 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_113 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_114 = String_op_Inequality_m2239(NULL /*static, unused*/, L_112, L_113, /*hidden argument*/NULL);
+		bool L_114 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_112, L_113, /*hidden argument*/NULL);
 		if (!L_114)
 		{
 			goto IL_02ff;
@@ -21192,10 +21192,10 @@ IL_02d1:
 	}
 	{
 		String_t* L_115 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_116 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_116 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_117 = String_op_Inequality_m2239(NULL /*static, unused*/, L_115, L_116, /*hidden argument*/NULL);
+		bool L_117 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_115, L_116, /*hidden argument*/NULL);
 		if (!L_117)
 		{
 			goto IL_02ff;
@@ -21209,10 +21209,10 @@ IL_02d1:
 IL_02ff:
 	{
 		String_t* L_119 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_120 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_120 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_121 = String_op_Equality_m327(NULL /*static, unused*/, L_119, L_120, /*hidden argument*/NULL);
+		bool L_121 = String_op_Equality_m1_456(NULL /*static, unused*/, L_119, L_120, /*hidden argument*/NULL);
 		if (!L_121)
 		{
 			goto IL_0383;
@@ -21230,7 +21230,7 @@ IL_031f:
 		String_t* L_123 = ___uriString;
 		int32_t L_124 = V_9;
 		NullCheck(L_123);
-		uint16_t L_125 = String_get_Chars_m2240(L_123, L_124, /*hidden argument*/NULL);
+		uint16_t L_125 = String_get_Chars_m1_344(L_123, L_124, /*hidden argument*/NULL);
 		if ((((int32_t)L_125) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0333;
@@ -21290,7 +21290,7 @@ IL_035c:
 		String_t* L_134 = ___uriString;
 		int32_t L_135 = V_3;
 		NullCheck(L_134);
-		uint16_t L_136 = String_get_Chars_m2240(L_134, L_135, /*hidden argument*/NULL);
+		uint16_t L_136 = String_get_Chars_m1_344(L_134, L_135, /*hidden argument*/NULL);
 		if ((((int32_t)L_136) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0358;
@@ -21328,7 +21328,7 @@ IL_0383:
 		String_t* L_141 = ___uriString;
 		int32_t L_142 = V_3;
 		NullCheck(L_141);
-		uint16_t L_143 = String_get_Chars_m2240(L_141, ((int32_t)((int32_t)L_142+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_143 = String_get_Chars_m1_344(L_141, ((int32_t)((int32_t)L_142+(int32_t)1)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_143) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_03a3;
@@ -21347,8 +21347,8 @@ IL_03a3:
 IL_03a8:
 	{
 		String_t* L_144 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_145 = Uri_IsPredefinedScheme_m5650(NULL /*static, unused*/, L_144, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_145 = Uri_IsPredefinedScheme_m2_880(NULL /*static, unused*/, L_144, /*hidden argument*/NULL);
 		if (L_145)
 		{
 			goto IL_03d2;
@@ -21360,7 +21360,7 @@ IL_03a8:
 		int32_t L_148 = V_4;
 		int32_t L_149 = V_3;
 		NullCheck(L_146);
-		String_t* L_150 = String_Substring_m2241(L_146, L_147, ((int32_t)((int32_t)L_148-(int32_t)L_149)), /*hidden argument*/NULL);
+		String_t* L_150 = String_Substring_m1_355(L_146, L_147, ((int32_t)((int32_t)L_148-(int32_t)L_149)), /*hidden argument*/NULL);
 		__this->___path_5 = L_150;
 		__this->___isOpaquePart_10 = 1;
 		return (String_t*)NULL;
@@ -21386,7 +21386,7 @@ IL_03e0:
 		int32_t L_154 = V_4;
 		int32_t L_155 = V_3;
 		NullCheck(L_152);
-		int32_t L_156 = String_IndexOf_m5758(L_152, ((int32_t)47), L_153, ((int32_t)((int32_t)L_154-(int32_t)L_155)), /*hidden argument*/NULL);
+		int32_t L_156 = String_IndexOf_m1_384(L_152, ((int32_t)47), L_153, ((int32_t)((int32_t)L_154-(int32_t)L_155)), /*hidden argument*/NULL);
 		V_1 = L_156;
 		int32_t L_157 = V_1;
 		if ((!(((uint32_t)L_157) == ((uint32_t)(-1)))))
@@ -21407,7 +21407,7 @@ IL_03e0:
 		int32_t L_161 = V_4;
 		int32_t L_162 = V_3;
 		NullCheck(L_159);
-		int32_t L_163 = String_IndexOf_m5758(L_159, ((int32_t)92), L_160, ((int32_t)((int32_t)L_161-(int32_t)L_162)), /*hidden argument*/NULL);
+		int32_t L_163 = String_IndexOf_m1_384(L_159, ((int32_t)92), L_160, ((int32_t)((int32_t)L_161-(int32_t)L_162)), /*hidden argument*/NULL);
 		V_1 = L_163;
 	}
 
@@ -21421,10 +21421,10 @@ IL_040a:
 	}
 	{
 		String_t* L_165 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_166 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_166 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_167 = String_op_Inequality_m2239(NULL /*static, unused*/, L_165, L_166, /*hidden argument*/NULL);
+		bool L_167 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_165, L_166, /*hidden argument*/NULL);
 		if (!L_167)
 		{
 			goto IL_0446;
@@ -21432,17 +21432,17 @@ IL_040a:
 	}
 	{
 		String_t* L_168 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_169 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_169 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_170 = String_op_Inequality_m2239(NULL /*static, unused*/, L_168, L_169, /*hidden argument*/NULL);
+		bool L_170 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_168, L_169, /*hidden argument*/NULL);
 		if (!L_170)
 		{
 			goto IL_0446;
 		}
 	}
 	{
-		__this->___path_5 = _stringLiteral981;
+		__this->___path_5 = _stringLiteral621;
 	}
 
 IL_0446:
@@ -21457,7 +21457,7 @@ IL_044b:
 		int32_t L_173 = V_4;
 		int32_t L_174 = V_1;
 		NullCheck(L_171);
-		String_t* L_175 = String_Substring_m2241(L_171, L_172, ((int32_t)((int32_t)L_173-(int32_t)L_174)), /*hidden argument*/NULL);
+		String_t* L_175 = String_Substring_m1_355(L_171, L_172, ((int32_t)((int32_t)L_173-(int32_t)L_174)), /*hidden argument*/NULL);
 		__this->___path_5 = L_175;
 		int32_t L_176 = V_1;
 		V_4 = L_176;
@@ -21483,7 +21483,7 @@ IL_046d:
 		int32_t L_180 = V_4;
 		int32_t L_181 = V_3;
 		NullCheck(L_178);
-		int32_t L_182 = String_IndexOf_m5758(L_178, ((int32_t)64), L_179, ((int32_t)((int32_t)L_180-(int32_t)L_181)), /*hidden argument*/NULL);
+		int32_t L_182 = String_IndexOf_m1_384(L_178, ((int32_t)64), L_179, ((int32_t)((int32_t)L_180-(int32_t)L_181)), /*hidden argument*/NULL);
 		V_1 = L_182;
 	}
 
@@ -21501,7 +21501,7 @@ IL_047b:
 		int32_t L_186 = V_1;
 		int32_t L_187 = V_3;
 		NullCheck(L_184);
-		String_t* L_188 = String_Substring_m2241(L_184, L_185, ((int32_t)((int32_t)L_186-(int32_t)L_187)), /*hidden argument*/NULL);
+		String_t* L_188 = String_Substring_m1_355(L_184, L_185, ((int32_t)((int32_t)L_186-(int32_t)L_187)), /*hidden argument*/NULL);
 		__this->___userinfo_8 = L_188;
 		int32_t L_189 = V_1;
 		V_3 = ((int32_t)((int32_t)L_189+(int32_t)1));
@@ -21528,7 +21528,7 @@ IL_04ab:
 		int32_t L_193 = V_4;
 		int32_t L_194 = V_3;
 		NullCheck(L_191);
-		int32_t L_195 = String_LastIndexOf_m5759(L_191, ((int32_t)58), ((int32_t)((int32_t)L_192-(int32_t)1)), ((int32_t)((int32_t)L_193-(int32_t)L_194)), /*hidden argument*/NULL);
+		int32_t L_195 = String_LastIndexOf_m1_394(L_191, ((int32_t)58), ((int32_t)((int32_t)L_192-(int32_t)1)), ((int32_t)((int32_t)L_193-(int32_t)L_194)), /*hidden argument*/NULL);
 		V_1 = L_195;
 	}
 
@@ -21554,11 +21554,11 @@ IL_04bc:
 		int32_t L_201 = V_4;
 		int32_t L_202 = V_1;
 		NullCheck(L_199);
-		String_t* L_203 = String_Substring_m2241(L_199, ((int32_t)((int32_t)L_200+(int32_t)1)), ((int32_t)((int32_t)L_201-(int32_t)((int32_t)((int32_t)L_202+(int32_t)1)))), /*hidden argument*/NULL);
+		String_t* L_203 = String_Substring_m1_355(L_199, ((int32_t)((int32_t)L_200+(int32_t)1)), ((int32_t)((int32_t)L_201-(int32_t)((int32_t)((int32_t)L_202+(int32_t)1)))), /*hidden argument*/NULL);
 		V_10 = L_203;
 		String_t* L_204 = V_10;
 		NullCheck(L_204);
-		int32_t L_205 = String_get_Length_m2221(L_204, /*hidden argument*/NULL);
+		int32_t L_205 = String_get_Length_m1_430(L_204, /*hidden argument*/NULL);
 		if ((((int32_t)L_205) <= ((int32_t)0)))
 		{
 			goto IL_0544;
@@ -21568,9 +21568,9 @@ IL_04bc:
 		String_t* L_206 = V_10;
 		String_t* L_207 = V_10;
 		NullCheck(L_207);
-		int32_t L_208 = String_get_Length_m2221(L_207, /*hidden argument*/NULL);
+		int32_t L_208 = String_get_Length_m1_430(L_207, /*hidden argument*/NULL);
 		NullCheck(L_206);
-		uint16_t L_209 = String_get_Chars_m2240(L_206, ((int32_t)((int32_t)L_208-(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_209 = String_get_Chars_m1_344(L_206, ((int32_t)((int32_t)L_208-(int32_t)1)), /*hidden argument*/NULL);
 		if ((((int32_t)L_209) == ((int32_t)((int32_t)93))))
 		{
 			goto IL_0544;
@@ -21578,10 +21578,10 @@ IL_04bc:
 	}
 	{
 		String_t* L_210 = V_10;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_211 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_211 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t* L_212 = &(__this->___port_4);
-		bool L_213 = Int32_TryParse_m5701(NULL /*static, unused*/, L_210, 7, L_211, L_212, /*hidden argument*/NULL);
+		bool L_213 = Int32_TryParse_m1_62(NULL /*static, unused*/, L_210, 7, L_211, L_212, /*hidden argument*/NULL);
 		if (!L_213)
 		{
 			goto IL_0536;
@@ -21604,7 +21604,7 @@ IL_04bc:
 
 IL_0536:
 	{
-		return _stringLiteral991;
+		return _stringLiteral2350;
 	}
 
 IL_053c:
@@ -21624,8 +21624,8 @@ IL_0544:
 	}
 	{
 		String_t* L_218 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_219 = Uri_GetDefaultPort_m5648(NULL /*static, unused*/, L_218, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_219 = Uri_GetDefaultPort_m2_878(NULL /*static, unused*/, L_218, /*hidden argument*/NULL);
 		__this->___port_4 = L_219;
 	}
 
@@ -21644,8 +21644,8 @@ IL_0566:
 	}
 	{
 		String_t* L_221 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_222 = Uri_GetDefaultPort_m5648(NULL /*static, unused*/, L_221, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_222 = Uri_GetDefaultPort_m2_878(NULL /*static, unused*/, L_221, /*hidden argument*/NULL);
 		__this->___port_4 = L_222;
 	}
 
@@ -21656,7 +21656,7 @@ IL_0583:
 		int32_t L_225 = V_4;
 		int32_t L_226 = V_3;
 		NullCheck(L_223);
-		String_t* L_227 = String_Substring_m2241(L_223, L_224, ((int32_t)((int32_t)L_225-(int32_t)L_226)), /*hidden argument*/NULL);
+		String_t* L_227 = String_Substring_m1_355(L_223, L_224, ((int32_t)((int32_t)L_225-(int32_t)L_226)), /*hidden argument*/NULL);
 		___uriString = L_227;
 		String_t* L_228 = ___uriString;
 		__this->___host_3 = L_228;
@@ -21668,12 +21668,12 @@ IL_0583:
 	}
 	{
 		uint16_t L_230 = ((int32_t)47);
-		Object_t * L_231 = Box(Char_t389_il2cpp_TypeInfo_var, &L_230);
+		Object_t * L_231 = Box(Char_t1_15_il2cpp_TypeInfo_var, &L_230);
 		String_t* L_232 = ___uriString;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_233 = String_Concat_m1896(NULL /*static, unused*/, L_231, L_232, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_234 = Uri_Reduce_m5645(NULL /*static, unused*/, L_233, 1, /*hidden argument*/NULL);
+		String_t* L_233 = String_Concat_m1_418(NULL /*static, unused*/, L_231, L_232, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_234 = Uri_Reduce_m2_875(NULL /*static, unused*/, L_233, 1, /*hidden argument*/NULL);
 		__this->___path_5 = L_234;
 		String_t* L_235 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___host_3 = L_235;
@@ -21684,7 +21684,7 @@ IL_05c7:
 	{
 		String_t* L_236 = (__this->___host_3);
 		NullCheck(L_236);
-		int32_t L_237 = String_get_Length_m2221(L_236, /*hidden argument*/NULL);
+		int32_t L_237 = String_get_Length_m1_430(L_236, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_237) == ((uint32_t)2))))
 		{
 			goto IL_0612;
@@ -21693,7 +21693,7 @@ IL_05c7:
 	{
 		String_t* L_238 = (__this->___host_3);
 		NullCheck(L_238);
-		uint16_t L_239 = String_get_Chars_m2240(L_238, 1, /*hidden argument*/NULL);
+		uint16_t L_239 = String_get_Chars_m1_344(L_238, 1, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_239) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_0612;
@@ -21703,7 +21703,7 @@ IL_05c7:
 		String_t* L_240 = (__this->___host_3);
 		String_t* L_241 = (__this->___path_5);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_242 = String_Concat_m446(NULL /*static, unused*/, L_240, L_241, /*hidden argument*/NULL);
+		String_t* L_242 = String_Concat_m1_420(NULL /*static, unused*/, L_240, L_241, /*hidden argument*/NULL);
 		__this->___path_5 = L_242;
 		String_t* L_243 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___host_3 = L_243;
@@ -21721,7 +21721,7 @@ IL_0612:
 	{
 		String_t* L_245 = ___uriString;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_246 = String_Concat_m446(NULL /*static, unused*/, _stringLiteral992, L_245, /*hidden argument*/NULL);
+		String_t* L_246 = String_Concat_m1_420(NULL /*static, unused*/, _stringLiteral2351, L_245, /*hidden argument*/NULL);
 		___uriString = L_246;
 		String_t* L_247 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		__this->___host_3 = L_247;
@@ -21731,10 +21731,10 @@ IL_0612:
 IL_063a:
 	{
 		String_t* L_248 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_249 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_249 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_250 = String_op_Equality_m327(NULL /*static, unused*/, L_248, L_249, /*hidden argument*/NULL);
+		bool L_250 = String_op_Equality_m1_456(NULL /*static, unused*/, L_248, L_249, /*hidden argument*/NULL);
 		if (!L_250)
 		{
 			goto IL_065b;
@@ -21748,10 +21748,10 @@ IL_063a:
 IL_065b:
 	{
 		String_t* L_251 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_252 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_252 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_253 = String_op_Equality_m327(NULL /*static, unused*/, L_251, L_252, /*hidden argument*/NULL);
+		bool L_253 = String_op_Equality_m1_456(NULL /*static, unused*/, L_251, L_252, /*hidden argument*/NULL);
 		if (!L_253)
 		{
 			goto IL_069d;
@@ -21760,7 +21760,7 @@ IL_065b:
 	{
 		String_t* L_254 = (__this->___host_3);
 		NullCheck(L_254);
-		int32_t L_255 = String_get_Length_m2221(L_254, /*hidden argument*/NULL);
+		int32_t L_255 = String_get_Length_m1_430(L_254, /*hidden argument*/NULL);
 		if ((((int32_t)L_255) <= ((int32_t)0)))
 		{
 			goto IL_0698;
@@ -21783,7 +21783,7 @@ IL_069d:
 	{
 		String_t* L_258 = (__this->___host_3);
 		NullCheck(L_258);
-		int32_t L_259 = String_get_Length_m2221(L_258, /*hidden argument*/NULL);
+		int32_t L_259 = String_get_Length_m1_430(L_258, /*hidden argument*/NULL);
 		if (L_259)
 		{
 			goto IL_071c;
@@ -21791,10 +21791,10 @@ IL_069d:
 	}
 	{
 		String_t* L_260 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_261 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_261 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_262 = String_op_Equality_m327(NULL /*static, unused*/, L_260, L_261, /*hidden argument*/NULL);
+		bool L_262 = String_op_Equality_m1_456(NULL /*static, unused*/, L_260, L_261, /*hidden argument*/NULL);
 		if (L_262)
 		{
 			goto IL_0716;
@@ -21802,10 +21802,10 @@ IL_069d:
 	}
 	{
 		String_t* L_263 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_264 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_264 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_265 = String_op_Equality_m327(NULL /*static, unused*/, L_263, L_264, /*hidden argument*/NULL);
+		bool L_265 = String_op_Equality_m1_456(NULL /*static, unused*/, L_263, L_264, /*hidden argument*/NULL);
 		if (L_265)
 		{
 			goto IL_0716;
@@ -21813,10 +21813,10 @@ IL_069d:
 	}
 	{
 		String_t* L_266 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_267 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_267 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_268 = String_op_Equality_m327(NULL /*static, unused*/, L_266, L_267, /*hidden argument*/NULL);
+		bool L_268 = String_op_Equality_m1_456(NULL /*static, unused*/, L_266, L_267, /*hidden argument*/NULL);
 		if (L_268)
 		{
 			goto IL_0716;
@@ -21824,10 +21824,10 @@ IL_069d:
 	}
 	{
 		String_t* L_269 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_270 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_270 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_271 = String_op_Equality_m327(NULL /*static, unused*/, L_269, L_270, /*hidden argument*/NULL);
+		bool L_271 = String_op_Equality_m1_456(NULL /*static, unused*/, L_269, L_270, /*hidden argument*/NULL);
 		if (L_271)
 		{
 			goto IL_0716;
@@ -21835,10 +21835,10 @@ IL_069d:
 	}
 	{
 		String_t* L_272 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_273 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_273 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_274 = String_op_Equality_m327(NULL /*static, unused*/, L_272, L_273, /*hidden argument*/NULL);
+		bool L_274 = String_op_Equality_m1_456(NULL /*static, unused*/, L_272, L_273, /*hidden argument*/NULL);
 		if (!L_274)
 		{
 			goto IL_071c;
@@ -21847,14 +21847,14 @@ IL_069d:
 
 IL_0716:
 	{
-		return _stringLiteral993;
+		return _stringLiteral2352;
 	}
 
 IL_071c:
 	{
 		String_t* L_275 = (__this->___host_3);
 		NullCheck(L_275);
-		int32_t L_276 = String_get_Length_m2221(L_275, /*hidden argument*/NULL);
+		int32_t L_276 = String_get_Length_m1_430(L_275, /*hidden argument*/NULL);
 		if ((((int32_t)L_276) <= ((int32_t)0)))
 		{
 			goto IL_073d;
@@ -21862,8 +21862,8 @@ IL_071c:
 	}
 	{
 		String_t* L_277 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_278 = Uri_CheckHostName_m5619(NULL /*static, unused*/, L_277, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_278 = Uri_CheckHostName_m2_849(NULL /*static, unused*/, L_277, /*hidden argument*/NULL);
 		G_B139_0 = ((((int32_t)L_278) == ((int32_t)0))? 1 : 0);
 		goto IL_073e;
 	}
@@ -21885,7 +21885,7 @@ IL_073e:
 	{
 		String_t* L_280 = (__this->___host_3);
 		NullCheck(L_280);
-		int32_t L_281 = String_get_Length_m2221(L_280, /*hidden argument*/NULL);
+		int32_t L_281 = String_get_Length_m1_430(L_280, /*hidden argument*/NULL);
 		if ((((int32_t)L_281) <= ((int32_t)1)))
 		{
 			goto IL_07c1;
@@ -21894,7 +21894,7 @@ IL_073e:
 	{
 		String_t* L_282 = (__this->___host_3);
 		NullCheck(L_282);
-		uint16_t L_283 = String_get_Chars_m2240(L_282, 0, /*hidden argument*/NULL);
+		uint16_t L_283 = String_get_Chars_m1_344(L_282, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_283) == ((uint32_t)((int32_t)91)))))
 		{
 			goto IL_07c1;
@@ -21904,9 +21904,9 @@ IL_073e:
 		String_t* L_284 = (__this->___host_3);
 		String_t* L_285 = (__this->___host_3);
 		NullCheck(L_285);
-		int32_t L_286 = String_get_Length_m2221(L_285, /*hidden argument*/NULL);
+		int32_t L_286 = String_get_Length_m1_430(L_285, /*hidden argument*/NULL);
 		NullCheck(L_284);
-		uint16_t L_287 = String_get_Chars_m2240(L_284, ((int32_t)((int32_t)L_286-(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_287 = String_get_Chars_m1_344(L_284, ((int32_t)((int32_t)L_286-(int32_t)1)), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_287) == ((uint32_t)((int32_t)93)))))
 		{
 			goto IL_07c1;
@@ -21914,19 +21914,19 @@ IL_073e:
 	}
 	{
 		String_t* L_288 = (__this->___host_3);
-		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t979_il2cpp_TypeInfo_var);
-		bool L_289 = IPv6Address_TryParse_m4932(NULL /*static, unused*/, L_288, (&V_12), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(IPv6Address_t2_36_il2cpp_TypeInfo_var);
+		bool L_289 = IPv6Address_TryParse_m2_142(NULL /*static, unused*/, L_288, (&V_12), /*hidden argument*/NULL);
 		if (!L_289)
 		{
 			goto IL_07be;
 		}
 	}
 	{
-		IPv6Address_t979 * L_290 = V_12;
+		IPv6Address_t2_36 * L_290 = V_12;
 		NullCheck(L_290);
-		String_t* L_291 = IPv6Address_ToString_m4942(L_290, 1, /*hidden argument*/NULL);
+		String_t* L_291 = IPv6Address_ToString_m2_152(L_290, 1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_292 = String_Concat_m375(NULL /*static, unused*/, _stringLiteral276, L_291, _stringLiteral277, /*hidden argument*/NULL);
+		String_t* L_292 = String_Concat_m1_421(NULL /*static, unused*/, _stringLiteral228, L_291, _stringLiteral230, /*hidden argument*/NULL);
 		__this->___host_3 = L_292;
 		goto IL_07c1;
 	}
@@ -21945,14 +21945,14 @@ IL_07c1:
 		}
 	}
 	{
-		UriParser_t1083 * L_294 = Uri_get_Parser_m5651(__this, /*hidden argument*/NULL);
-		if (((DefaultUriParser_t1082 *)IsInstClass(L_294, DefaultUriParser_t1082_il2cpp_TypeInfo_var)))
+		UriParser_t2_144 * L_294 = Uri_get_Parser_m2_881(__this, /*hidden argument*/NULL);
+		if (((DefaultUriParser_t2_143 *)IsInstClass(L_294, DefaultUriParser_t2_143_il2cpp_TypeInfo_var)))
 		{
 			goto IL_07e3;
 		}
 	}
 	{
-		UriParser_t1083 * L_295 = Uri_get_Parser_m5651(__this, /*hidden argument*/NULL);
+		UriParser_t2_144 * L_295 = Uri_get_Parser_m2_881(__this, /*hidden argument*/NULL);
 		if (L_295)
 		{
 			goto IL_07fe;
@@ -21963,36 +21963,36 @@ IL_07e3:
 	{
 		String_t* L_296 = (__this->___host_3);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_297 = String_Concat_m375(NULL /*static, unused*/, _stringLiteral994, L_296, _stringLiteral283, /*hidden argument*/NULL);
-		String_t* L_298 = Locale_GetText_m4792(NULL /*static, unused*/, L_297, /*hidden argument*/NULL);
+		String_t* L_297 = String_Concat_m1_421(NULL /*static, unused*/, _stringLiteral2353, L_296, _stringLiteral93, /*hidden argument*/NULL);
+		String_t* L_298 = Locale_GetText_m2_0(NULL /*static, unused*/, L_297, /*hidden argument*/NULL);
 		return L_298;
 	}
 
 IL_07fe:
 	{
-		V_13 = (UriFormatException_t1087 *)NULL;
-		UriParser_t1083 * L_299 = Uri_get_Parser_m5651(__this, /*hidden argument*/NULL);
+		V_13 = (UriFormatException_t2_148 *)NULL;
+		UriParser_t2_144 * L_299 = Uri_get_Parser_m2_881(__this, /*hidden argument*/NULL);
 		if (!L_299)
 		{
 			goto IL_081a;
 		}
 	}
 	{
-		UriParser_t1083 * L_300 = Uri_get_Parser_m5651(__this, /*hidden argument*/NULL);
+		UriParser_t2_144 * L_300 = Uri_get_Parser_m2_881(__this, /*hidden argument*/NULL);
 		NullCheck(L_300);
-		VirtActionInvoker2< Uri_t928 *, UriFormatException_t1087 ** >::Invoke(4 /* System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&) */, L_300, __this, (&V_13));
+		VirtActionInvoker2< Uri_t2_22 *, UriFormatException_t2_148 ** >::Invoke(4 /* System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&) */, L_300, __this, (&V_13));
 	}
 
 IL_081a:
 	{
-		UriFormatException_t1087 * L_301 = V_13;
+		UriFormatException_t2_148 * L_301 = V_13;
 		if (!L_301)
 		{
 			goto IL_0829;
 		}
 	}
 	{
-		UriFormatException_t1087 * L_302 = V_13;
+		UriFormatException_t2_148 * L_302 = V_13;
 		NullCheck(L_302);
 		String_t* L_303 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_302);
 		return L_303;
@@ -22001,10 +22001,10 @@ IL_081a:
 IL_0829:
 	{
 		String_t* L_304 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_305 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_305 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_306 = String_op_Inequality_m2239(NULL /*static, unused*/, L_304, L_305, /*hidden argument*/NULL);
+		bool L_306 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_304, L_305, /*hidden argument*/NULL);
 		if (!L_306)
 		{
 			goto IL_0884;
@@ -22012,10 +22012,10 @@ IL_0829:
 	}
 	{
 		String_t* L_307 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_308 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_308 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_309 = String_op_Inequality_m2239(NULL /*static, unused*/, L_307, L_308, /*hidden argument*/NULL);
+		bool L_309 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_307, L_308, /*hidden argument*/NULL);
 		if (!L_309)
 		{
 			goto IL_0884;
@@ -22023,10 +22023,10 @@ IL_0829:
 	}
 	{
 		String_t* L_310 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_311 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_311 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_312 = String_op_Inequality_m2239(NULL /*static, unused*/, L_310, L_311, /*hidden argument*/NULL);
+		bool L_312 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_310, L_311, /*hidden argument*/NULL);
 		if (!L_312)
 		{
 			goto IL_0884;
@@ -22035,9 +22035,9 @@ IL_0829:
 	{
 		String_t* L_313 = (__this->___path_5);
 		String_t* L_314 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_315 = Uri_CompactEscaped_m5644(NULL /*static, unused*/, L_314, /*hidden argument*/NULL);
-		String_t* L_316 = Uri_Reduce_m5645(NULL /*static, unused*/, L_313, L_315, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_315 = Uri_CompactEscaped_m2_874(NULL /*static, unused*/, L_314, /*hidden argument*/NULL);
+		String_t* L_316 = Uri_Reduce_m2_875(NULL /*static, unused*/, L_313, L_315, /*hidden argument*/NULL);
 		__this->___path_5 = L_316;
 	}
 
@@ -22047,31 +22047,31 @@ IL_0884:
 	}
 }
 // System.Boolean System.Uri::CompactEscaped(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Dictionary_2_t240_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2258_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral813;
-extern Il2CppCodeGenString* _stringLiteral755;
-extern Il2CppCodeGenString* _stringLiteral754;
-extern Il2CppCodeGenString* _stringLiteral970;
-extern Il2CppCodeGenString* _stringLiteral971;
-extern "C" bool Uri_CompactEscaped_m5644 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t1_76_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1_5485_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2173;
+extern Il2CppCodeGenString* _stringLiteral2116;
+extern Il2CppCodeGenString* _stringLiteral2115;
+extern Il2CppCodeGenString* _stringLiteral2332;
+extern Il2CppCodeGenString* _stringLiteral2333;
+extern "C" bool Uri_CompactEscaped_m2_874 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Dictionary_2_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(225);
-		Dictionary_2__ctor_m2258_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483871);
-		_stringLiteral813 = il2cpp_codegen_string_literal_from_index(813);
-		_stringLiteral755 = il2cpp_codegen_string_literal_from_index(755);
-		_stringLiteral754 = il2cpp_codegen_string_literal_from_index(754);
-		_stringLiteral970 = il2cpp_codegen_string_literal_from_index(970);
-		_stringLiteral971 = il2cpp_codegen_string_literal_from_index(971);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Dictionary_2_t1_76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(115);
+		Dictionary_2__ctor_m1_5485_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483658);
+		_stringLiteral2173 = il2cpp_codegen_string_literal_from_index(2173);
+		_stringLiteral2116 = il2cpp_codegen_string_literal_from_index(2116);
+		_stringLiteral2115 = il2cpp_codegen_string_literal_from_index(2115);
+		_stringLiteral2332 = il2cpp_codegen_string_literal_from_index(2332);
+		_stringLiteral2333 = il2cpp_codegen_string_literal_from_index(2333);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
-	Dictionary_2_t240 * V_1 = {0};
+	Dictionary_2_t1_76 * V_1 = {0};
 	int32_t V_2 = 0;
 	{
 		String_t* L_0 = ___scheme;
@@ -22083,41 +22083,41 @@ extern "C" bool Uri_CompactEscaped_m5644 (Object_t * __this /* static, unused */
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_2 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_2 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31;
 		if (L_2)
 		{
 			goto IL_005b;
 		}
 	}
 	{
-		Dictionary_2_t240 * L_3 = (Dictionary_2_t240 *)il2cpp_codegen_object_new (Dictionary_2_t240_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2258(L_3, 5, /*hidden argument*/Dictionary_2__ctor_m2258_MethodInfo_var);
+		Dictionary_2_t1_76 * L_3 = (Dictionary_2_t1_76 *)il2cpp_codegen_object_new (Dictionary_2_t1_76_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1_5485(L_3, 5, /*hidden argument*/Dictionary_2__ctor_m1_5485_MethodInfo_var);
 		V_1 = L_3;
-		Dictionary_2_t240 * L_4 = V_1;
+		Dictionary_2_t1_76 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral813, 0);
-		Dictionary_2_t240 * L_5 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral2173, 0);
+		Dictionary_2_t1_76 * L_5 = V_1;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral755, 0);
-		Dictionary_2_t240 * L_6 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2116, 0);
+		Dictionary_2_t1_76 * L_6 = V_1;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral754, 0);
-		Dictionary_2_t240 * L_7 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2115, 0);
+		Dictionary_2_t1_76 * L_7 = V_1;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral970, 0);
-		Dictionary_2_t240 * L_8 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2332, 0);
+		Dictionary_2_t1_76 * L_8 = V_1;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral971, 0);
-		Dictionary_2_t240 * L_9 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31 = L_9;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral2333, 0);
+		Dictionary_2_t1_76 * L_9 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31 = L_9;
 	}
 
 IL_005b:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_10 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_10 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map15_31;
 		String_t* L_11 = V_0;
 		NullCheck(L_10);
 		bool L_12 = (bool)VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_10, L_11, (&V_2));
@@ -22149,36 +22149,36 @@ IL_007a:
 }
 // System.String System.Uri::Reduce(System.String,System.Boolean)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* StringBuilder_t358_il2cpp_TypeInfo_var;
-extern TypeInfo* Char_t389_il2cpp_TypeInfo_var;
-extern TypeInfo* ArrayList_t771_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_t76_il2cpp_TypeInfo_var;
-extern TypeInfo* IDisposable_t83_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral981;
-extern Il2CppCodeGenString* _stringLiteral162;
-extern Il2CppCodeGenString* _stringLiteral995;
-extern "C" String_t* Uri_Reduce_m5645 (Object_t * __this /* static, unused */, String_t* ___path, bool ___compact_escaped, const MethodInfo* method)
+extern TypeInfo* StringBuilder_t1_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Char_t1_15_il2cpp_TypeInfo_var;
+extern TypeInfo* ArrayList_t1_112_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t1_129_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1_825_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral621;
+extern Il2CppCodeGenString* _stringLiteral49;
+extern Il2CppCodeGenString* _stringLiteral836;
+extern "C" String_t* Uri_Reduce_m2_875 (Object_t * __this /* static, unused */, String_t* ___path, bool ___compact_escaped, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		StringBuilder_t358_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(67);
-		Char_t389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(205);
-		ArrayList_t771_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(492);
-		IEnumerator_t76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
-		IDisposable_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(13);
-		_stringLiteral981 = il2cpp_codegen_string_literal_from_index(981);
-		_stringLiteral162 = il2cpp_codegen_string_literal_from_index(162);
-		_stringLiteral995 = il2cpp_codegen_string_literal_from_index(995);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		StringBuilder_t1_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
+		Char_t1_15_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9);
+		ArrayList_t1_112_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(55);
+		IEnumerator_t1_129_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(158);
+		IDisposable_t1_825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(141);
+		_stringLiteral621 = il2cpp_codegen_string_literal_from_index(621);
+		_stringLiteral49 = il2cpp_codegen_string_literal_from_index(49);
+		_stringLiteral836 = il2cpp_codegen_string_literal_from_index(836);
 		s_Il2CppMethodIntialized = true;
 	}
-	StringBuilder_t358 * V_0 = {0};
+	StringBuilder_t1_144 * V_0 = {0};
 	int32_t V_1 = 0;
 	uint16_t V_2 = 0x0;
 	uint16_t V_3 = 0x0;
 	uint16_t V_4 = 0x0;
-	ArrayList_t771 * V_5 = {0};
+	ArrayList_t1_112 * V_5 = {0};
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	String_t* V_8 = {0};
@@ -22188,16 +22188,16 @@ extern "C" String_t* Uri_Reduce_m5645 (Object_t * __this /* static, unused */, S
 	Object_t * V_12 = {0};
 	uint16_t V_13 = 0x0;
 	Object_t * V_14 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		String_t* L_0 = ___path;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_1 = String_op_Equality_m327(NULL /*static, unused*/, L_0, _stringLiteral981, /*hidden argument*/NULL);
+		bool L_1 = String_op_Equality_m1_456(NULL /*static, unused*/, L_0, _stringLiteral621, /*hidden argument*/NULL);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -22210,8 +22210,8 @@ extern "C" String_t* Uri_Reduce_m5645 (Object_t * __this /* static, unused */, S
 
 IL_0012:
 	{
-		StringBuilder_t358 * L_3 = (StringBuilder_t358 *)il2cpp_codegen_object_new (StringBuilder_t358_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1895(L_3, /*hidden argument*/NULL);
+		StringBuilder_t1_144 * L_3 = (StringBuilder_t1_144 *)il2cpp_codegen_object_new (StringBuilder_t1_144_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1_4310(L_3, /*hidden argument*/NULL);
 		V_0 = L_3;
 		bool L_4 = ___compact_escaped;
 		if (!L_4)
@@ -22229,7 +22229,7 @@ IL_0025:
 		String_t* L_5 = ___path;
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
-		uint16_t L_7 = String_get_Chars_m2240(L_5, L_6, /*hidden argument*/NULL);
+		uint16_t L_7 = String_get_Chars_m1_344(L_5, L_6, /*hidden argument*/NULL);
 		V_2 = L_7;
 		uint16_t L_8 = V_2;
 		V_13 = L_8;
@@ -22252,9 +22252,9 @@ IL_0025:
 
 IL_0047:
 	{
-		StringBuilder_t358 * L_11 = V_0;
+		StringBuilder_t1_144 * L_11 = V_0;
 		NullCheck(L_11);
-		StringBuilder_Append_m3706(L_11, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_11, ((int32_t)47), /*hidden argument*/NULL);
 		goto IL_00d8;
 	}
 
@@ -22263,7 +22263,7 @@ IL_0055:
 		int32_t L_12 = V_1;
 		String_t* L_13 = ___path;
 		NullCheck(L_13);
-		int32_t L_14 = String_get_Length_m2221(L_13, /*hidden argument*/NULL);
+		int32_t L_14 = String_get_Length_m1_430(L_13, /*hidden argument*/NULL);
 		if ((((int32_t)L_12) >= ((int32_t)((int32_t)((int32_t)L_14-(int32_t)2)))))
 		{
 			goto IL_00be;
@@ -22273,14 +22273,14 @@ IL_0055:
 		String_t* L_15 = ___path;
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
-		uint16_t L_17 = String_get_Chars_m2240(L_15, ((int32_t)((int32_t)L_16+(int32_t)1)), /*hidden argument*/NULL);
+		uint16_t L_17 = String_get_Chars_m1_344(L_15, ((int32_t)((int32_t)L_16+(int32_t)1)), /*hidden argument*/NULL);
 		V_3 = L_17;
 		String_t* L_18 = ___path;
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
-		uint16_t L_20 = String_get_Chars_m2240(L_18, ((int32_t)((int32_t)L_19+(int32_t)2)), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Char_t389_il2cpp_TypeInfo_var);
-		uint16_t L_21 = Char_ToUpper_m2290(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		uint16_t L_20 = String_get_Chars_m1_344(L_18, ((int32_t)((int32_t)L_19+(int32_t)2)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Char_t1_15_il2cpp_TypeInfo_var);
+		uint16_t L_21 = Char_ToUpper_m1_314(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
 		V_4 = L_21;
 		uint16_t L_22 = V_3;
 		if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)50)))))
@@ -22314,9 +22314,9 @@ IL_008e:
 
 IL_009f:
 	{
-		StringBuilder_t358 * L_26 = V_0;
+		StringBuilder_t1_144 * L_26 = V_0;
 		NullCheck(L_26);
-		StringBuilder_Append_m3706(L_26, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_26, ((int32_t)47), /*hidden argument*/NULL);
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)((int32_t)L_27+(int32_t)2));
 		goto IL_00b9;
@@ -22324,10 +22324,10 @@ IL_009f:
 
 IL_00b1:
 	{
-		StringBuilder_t358 * L_28 = V_0;
+		StringBuilder_t1_144 * L_28 = V_0;
 		uint16_t L_29 = V_2;
 		NullCheck(L_28);
-		StringBuilder_Append_m3706(L_28, L_29, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_28, L_29, /*hidden argument*/NULL);
 	}
 
 IL_00b9:
@@ -22337,10 +22337,10 @@ IL_00b9:
 
 IL_00be:
 	{
-		StringBuilder_t358 * L_30 = V_0;
+		StringBuilder_t1_144 * L_30 = V_0;
 		uint16_t L_31 = V_2;
 		NullCheck(L_30);
-		StringBuilder_Append_m3706(L_30, L_31, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_30, L_31, /*hidden argument*/NULL);
 	}
 
 IL_00c6:
@@ -22350,10 +22350,10 @@ IL_00c6:
 
 IL_00cb:
 	{
-		StringBuilder_t358 * L_32 = V_0;
+		StringBuilder_t1_144 * L_32 = V_0;
 		uint16_t L_33 = V_2;
 		NullCheck(L_32);
-		StringBuilder_Append_m3706(L_32, L_33, /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_32, L_33, /*hidden argument*/NULL);
 		goto IL_00d8;
 	}
 
@@ -22368,16 +22368,16 @@ IL_00dc:
 		int32_t L_35 = V_1;
 		String_t* L_36 = ___path;
 		NullCheck(L_36);
-		int32_t L_37 = String_get_Length_m2221(L_36, /*hidden argument*/NULL);
+		int32_t L_37 = String_get_Length_m1_430(L_36, /*hidden argument*/NULL);
 		if ((((int32_t)L_35) < ((int32_t)L_37)))
 		{
 			goto IL_0025;
 		}
 	}
 	{
-		StringBuilder_t358 * L_38 = V_0;
+		StringBuilder_t1_144 * L_38 = V_0;
 		NullCheck(L_38);
-		String_t* L_39 = StringBuilder_ToString_m1899(L_38, /*hidden argument*/NULL);
+		String_t* L_39 = StringBuilder_ToString_m1_4322(L_38, /*hidden argument*/NULL);
 		___path = L_39;
 		goto IL_0101;
 	}
@@ -22386,14 +22386,14 @@ IL_00f5:
 	{
 		String_t* L_40 = ___path;
 		NullCheck(L_40);
-		String_t* L_41 = String_Replace_m3450(L_40, ((int32_t)92), ((int32_t)47), /*hidden argument*/NULL);
+		String_t* L_41 = String_Replace_m1_402(L_40, ((int32_t)92), ((int32_t)47), /*hidden argument*/NULL);
 		___path = L_41;
 	}
 
 IL_0101:
 	{
-		ArrayList_t771 * L_42 = (ArrayList_t771 *)il2cpp_codegen_object_new (ArrayList_t771_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m4666(L_42, /*hidden argument*/NULL);
+		ArrayList_t1_112 * L_42 = (ArrayList_t1_112 *)il2cpp_codegen_object_new (ArrayList_t1_112_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m1_1593(L_42, /*hidden argument*/NULL);
 		V_5 = L_42;
 		V_6 = 0;
 		goto IL_01a3;
@@ -22404,7 +22404,7 @@ IL_0110:
 		String_t* L_43 = ___path;
 		int32_t L_44 = V_6;
 		NullCheck(L_43);
-		int32_t L_45 = String_IndexOf_m4790(L_43, ((int32_t)47), L_44, /*hidden argument*/NULL);
+		int32_t L_45 = String_IndexOf_m1_383(L_43, ((int32_t)47), L_44, /*hidden argument*/NULL);
 		V_7 = L_45;
 		int32_t L_46 = V_7;
 		if ((!(((uint32_t)L_46) == ((uint32_t)(-1)))))
@@ -22415,7 +22415,7 @@ IL_0110:
 	{
 		String_t* L_47 = ___path;
 		NullCheck(L_47);
-		int32_t L_48 = String_get_Length_m2221(L_47, /*hidden argument*/NULL);
+		int32_t L_48 = String_get_Length_m1_430(L_47, /*hidden argument*/NULL);
 		V_7 = L_48;
 	}
 
@@ -22426,13 +22426,13 @@ IL_012c:
 		int32_t L_51 = V_7;
 		int32_t L_52 = V_6;
 		NullCheck(L_49);
-		String_t* L_53 = String_Substring_m2241(L_49, L_50, ((int32_t)((int32_t)L_51-(int32_t)L_52)), /*hidden argument*/NULL);
+		String_t* L_53 = String_Substring_m1_355(L_49, L_50, ((int32_t)((int32_t)L_51-(int32_t)L_52)), /*hidden argument*/NULL);
 		V_8 = L_53;
 		int32_t L_54 = V_7;
 		V_6 = ((int32_t)((int32_t)L_54+(int32_t)1));
 		String_t* L_55 = V_8;
 		NullCheck(L_55);
-		int32_t L_56 = String_get_Length_m2221(L_55, /*hidden argument*/NULL);
+		int32_t L_56 = String_get_Length_m1_430(L_55, /*hidden argument*/NULL);
 		if (!L_56)
 		{
 			goto IL_015e;
@@ -22441,7 +22441,7 @@ IL_012c:
 	{
 		String_t* L_57 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_58 = String_op_Equality_m327(NULL /*static, unused*/, L_57, _stringLiteral162, /*hidden argument*/NULL);
+		bool L_58 = String_op_Equality_m1_456(NULL /*static, unused*/, L_57, _stringLiteral49, /*hidden argument*/NULL);
 		if (!L_58)
 		{
 			goto IL_0163;
@@ -22457,14 +22457,14 @@ IL_0163:
 	{
 		String_t* L_59 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_60 = String_op_Equality_m327(NULL /*static, unused*/, L_59, _stringLiteral995, /*hidden argument*/NULL);
+		bool L_60 = String_op_Equality_m1_456(NULL /*static, unused*/, L_59, _stringLiteral836, /*hidden argument*/NULL);
 		if (!L_60)
 		{
 			goto IL_0199;
 		}
 	}
 	{
-		ArrayList_t771 * L_61 = V_5;
+		ArrayList_t1_112 * L_61 = V_5;
 		NullCheck(L_61);
 		int32_t L_62 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_61);
 		V_9 = L_62;
@@ -22480,7 +22480,7 @@ IL_0163:
 
 IL_0189:
 	{
-		ArrayList_t771 * L_64 = V_5;
+		ArrayList_t1_112 * L_64 = V_5;
 		int32_t L_65 = V_9;
 		NullCheck(L_64);
 		VirtActionInvoker1< int32_t >::Invoke(39 /* System.Void System.Collections.ArrayList::RemoveAt(System.Int32) */, L_64, ((int32_t)((int32_t)L_65-(int32_t)1)));
@@ -22489,7 +22489,7 @@ IL_0189:
 
 IL_0199:
 	{
-		ArrayList_t771 * L_66 = V_5;
+		ArrayList_t1_112 * L_66 = V_5;
 		String_t* L_67 = V_8;
 		NullCheck(L_66);
 		VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_66, L_67);
@@ -22500,14 +22500,14 @@ IL_01a3:
 		int32_t L_68 = V_6;
 		String_t* L_69 = ___path;
 		NullCheck(L_69);
-		int32_t L_70 = String_get_Length_m2221(L_69, /*hidden argument*/NULL);
+		int32_t L_70 = String_get_Length_m1_430(L_69, /*hidden argument*/NULL);
 		if ((((int32_t)L_68) < ((int32_t)L_70)))
 		{
 			goto IL_0110;
 		}
 	}
 	{
-		ArrayList_t771 * L_71 = V_5;
+		ArrayList_t1_112 * L_71 = V_5;
 		NullCheck(L_71);
 		int32_t L_72 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_71);
 		if (L_72)
@@ -22516,32 +22516,32 @@ IL_01a3:
 		}
 	}
 	{
-		return _stringLiteral981;
+		return _stringLiteral621;
 	}
 
 IL_01c2:
 	{
-		StringBuilder_t358 * L_73 = V_0;
+		StringBuilder_t1_144 * L_73 = V_0;
 		NullCheck(L_73);
-		StringBuilder_set_Length_m5760(L_73, 0, /*hidden argument*/NULL);
+		StringBuilder_set_Length_m1_4319(L_73, 0, /*hidden argument*/NULL);
 		String_t* L_74 = ___path;
 		NullCheck(L_74);
-		uint16_t L_75 = String_get_Chars_m2240(L_74, 0, /*hidden argument*/NULL);
+		uint16_t L_75 = String_get_Chars_m1_344(L_74, 0, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_75) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_01e0;
 		}
 	}
 	{
-		StringBuilder_t358 * L_76 = V_0;
+		StringBuilder_t1_144 * L_76 = V_0;
 		NullCheck(L_76);
-		StringBuilder_Append_m3706(L_76, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_76, ((int32_t)47), /*hidden argument*/NULL);
 	}
 
 IL_01e0:
 	{
 		V_10 = 1;
-		ArrayList_t771 * L_77 = V_5;
+		ArrayList_t1_112 * L_77 = V_5;
 		NullCheck(L_77);
 		Object_t * L_78 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(43 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_77);
 		V_12 = L_78;
@@ -22558,7 +22558,7 @@ IL_01f1:
 		{
 			Object_t * L_79 = V_12;
 			NullCheck(L_79);
-			Object_t * L_80 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_79);
+			Object_t * L_80 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_79);
 			V_11 = ((String_t*)CastclassSealed(L_80, String_t_il2cpp_TypeInfo_var));
 			bool L_81 = V_10;
 			if (!L_81)
@@ -22575,24 +22575,24 @@ IL_0206:
 
 IL_020e:
 		{
-			StringBuilder_t358 * L_82 = V_0;
+			StringBuilder_t1_144 * L_82 = V_0;
 			NullCheck(L_82);
-			StringBuilder_Append_m3706(L_82, ((int32_t)47), /*hidden argument*/NULL);
+			StringBuilder_Append_m1_4331(L_82, ((int32_t)47), /*hidden argument*/NULL);
 		}
 
 IL_0217:
 		{
-			StringBuilder_t358 * L_83 = V_0;
+			StringBuilder_t1_144 * L_83 = V_0;
 			String_t* L_84 = V_11;
 			NullCheck(L_83);
-			StringBuilder_Append_m3444(L_83, L_84, /*hidden argument*/NULL);
+			StringBuilder_Append_m1_4327(L_83, L_84, /*hidden argument*/NULL);
 		}
 
 IL_0220:
 		{
 			Object_t * L_85 = V_12;
 			NullCheck(L_85);
-			bool L_86 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t76_il2cpp_TypeInfo_var, L_85);
+			bool L_86 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1_129_il2cpp_TypeInfo_var, L_85);
 			if (L_86)
 			{
 				goto IL_01f1;
@@ -22606,7 +22606,7 @@ IL_022c:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_0231;
 	}
 
@@ -22614,7 +22614,7 @@ FINALLY_0231:
 	{ // begin finally (depth: 1)
 		{
 			Object_t * L_87 = V_12;
-			V_14 = ((Object_t *)IsInst(L_87, IDisposable_t83_il2cpp_TypeInfo_var));
+			V_14 = ((Object_t *)IsInst(L_87, IDisposable_t1_825_il2cpp_TypeInfo_var));
 			Object_t * L_88 = V_14;
 			if (L_88)
 			{
@@ -22631,58 +22631,58 @@ IL_023f:
 		{
 			Object_t * L_89 = V_14;
 			NullCheck(L_89);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t83_il2cpp_TypeInfo_var, L_89);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1_825_il2cpp_TypeInfo_var, L_89);
 			IL2CPP_END_FINALLY(561)
 		}
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(561)
 	{
 		IL2CPP_JUMP_TBL(0x247, IL_0247)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0247:
 	{
 		String_t* L_90 = ___path;
 		NullCheck(L_90);
-		bool L_91 = String_EndsWith_m3447(L_90, _stringLiteral981, /*hidden argument*/NULL);
+		bool L_91 = String_EndsWith_m1_372(L_90, _stringLiteral621, /*hidden argument*/NULL);
 		if (!L_91)
 		{
 			goto IL_0260;
 		}
 	}
 	{
-		StringBuilder_t358 * L_92 = V_0;
+		StringBuilder_t1_144 * L_92 = V_0;
 		NullCheck(L_92);
-		StringBuilder_Append_m3706(L_92, ((int32_t)47), /*hidden argument*/NULL);
+		StringBuilder_Append_m1_4331(L_92, ((int32_t)47), /*hidden argument*/NULL);
 	}
 
 IL_0260:
 	{
-		StringBuilder_t358 * L_93 = V_0;
+		StringBuilder_t1_144 * L_93 = V_0;
 		NullCheck(L_93);
-		String_t* L_94 = StringBuilder_ToString_m1899(L_93, /*hidden argument*/NULL);
+		String_t* L_94 = StringBuilder_ToString_m1_4322(L_93, /*hidden argument*/NULL);
 		return L_94;
 	}
 }
 // System.Char System.Uri::HexUnescapeMultiByte(System.String,System.Int32&,System.Char&)
-extern TypeInfo* ArgumentException_t409_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* ByteU5BU5D_t740_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral920;
-extern Il2CppCodeGenString* _stringLiteral678;
-extern "C" uint16_t Uri_HexUnescapeMultiByte_m5646 (Object_t * __this /* static, unused */, String_t* ___pattern, int32_t* ___index, uint16_t* ___surrogate, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t1_638_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* ByteU5BU5D_t1_70_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral730;
+extern Il2CppCodeGenString* _stringLiteral144;
+extern "C" uint16_t Uri_HexUnescapeMultiByte_m2_876 (Object_t * __this /* static, unused */, String_t* ___pattern, int32_t* ___index, uint16_t* ___surrogate, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentException_t409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
-		ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(477);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		ByteU5BU5D_t740_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(473);
-		_stringLiteral920 = il2cpp_codegen_string_literal_from_index(920);
-		_stringLiteral678 = il2cpp_codegen_string_literal_from_index(678);
+		ArgumentException_t1_638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4);
+		ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		ByteU5BU5D_t1_70_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(42);
+		_stringLiteral730 = il2cpp_codegen_string_literal_from_index(730);
+		_stringLiteral144 = il2cpp_codegen_string_literal_from_index(144);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -22690,7 +22690,7 @@ extern "C" uint16_t Uri_HexUnescapeMultiByte_m5646 (Object_t * __this /* static,
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
-	ByteU5BU5D_t740* V_5 = {0};
+	ByteU5BU5D_t1_70* V_5 = {0};
 	bool V_6 = false;
 	int32_t V_7 = 0;
 	int32_t V_8 = 0;
@@ -22709,8 +22709,8 @@ extern "C" uint16_t Uri_HexUnescapeMultiByte_m5646 (Object_t * __this /* static,
 		}
 	}
 	{
-		ArgumentException_t409 * L_2 = (ArgumentException_t409 *)il2cpp_codegen_object_new (ArgumentException_t409_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m2394(L_2, _stringLiteral920, /*hidden argument*/NULL);
+		ArgumentException_t1_638 * L_2 = (ArgumentException_t1_638 *)il2cpp_codegen_object_new (ArgumentException_t1_638_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m1_4582(L_2, _stringLiteral730, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
 	}
 
@@ -22726,7 +22726,7 @@ IL_0014:
 		int32_t* L_4 = ___index;
 		String_t* L_5 = ___pattern;
 		NullCheck(L_5);
-		int32_t L_6 = String_get_Length_m2221(L_5, /*hidden argument*/NULL);
+		int32_t L_6 = String_get_Length_m1_430(L_5, /*hidden argument*/NULL);
 		if ((((int32_t)(*((int32_t*)L_4))) < ((int32_t)L_6)))
 		{
 			goto IL_0034;
@@ -22735,8 +22735,8 @@ IL_0014:
 
 IL_0029:
 	{
-		ArgumentOutOfRangeException_t755 * L_7 = (ArgumentOutOfRangeException_t755 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4664(L_7, _stringLiteral678, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1_686 * L_7 = (ArgumentOutOfRangeException_t1_686 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1_686_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m1_4595(L_7, _stringLiteral144, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_7);
 	}
 
@@ -22744,8 +22744,8 @@ IL_0034:
 	{
 		String_t* L_8 = ___pattern;
 		int32_t* L_9 = ___index;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_10 = Uri_IsHexEncoding_m5631(NULL /*static, unused*/, L_8, (*((int32_t*)L_9)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_10 = Uri_IsHexEncoding_m2_861(NULL /*static, unused*/, L_8, (*((int32_t*)L_9)), /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0053;
@@ -22760,7 +22760,7 @@ IL_0034:
 		*((int32_t*)(L_12)) = (int32_t)((int32_t)((int32_t)L_14+(int32_t)1));
 		int32_t L_15 = V_13;
 		NullCheck(L_11);
-		uint16_t L_16 = String_get_Chars_m2240(L_11, L_15, /*hidden argument*/NULL);
+		uint16_t L_16 = String_get_Chars_m1_344(L_11, L_15, /*hidden argument*/NULL);
 		return L_16;
 	}
 
@@ -22781,9 +22781,9 @@ IL_0053:
 		*((int32_t*)(L_22)) = (int32_t)((int32_t)((int32_t)L_24+(int32_t)1));
 		int32_t L_25 = V_13;
 		NullCheck(L_21);
-		uint16_t L_26 = String_get_Chars_m2240(L_21, L_25, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_27 = Uri_FromHex_m5628(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		uint16_t L_26 = String_get_Chars_m1_344(L_21, L_25, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_27 = Uri_FromHex_m2_858(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		V_1 = L_27;
 		String_t* L_28 = ___pattern;
 		int32_t* L_29 = ___index;
@@ -22793,8 +22793,8 @@ IL_0053:
 		*((int32_t*)(L_29)) = (int32_t)((int32_t)((int32_t)L_31+(int32_t)1));
 		int32_t L_32 = V_13;
 		NullCheck(L_28);
-		uint16_t L_33 = String_get_Chars_m2240(L_28, L_32, /*hidden argument*/NULL);
-		int32_t L_34 = Uri_FromHex_m5628(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+		uint16_t L_33 = String_get_Chars_m1_344(L_28, L_32, /*hidden argument*/NULL);
+		int32_t L_34 = Uri_FromHex_m2_858(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
 		V_2 = L_34;
 		int32_t L_35 = V_1;
 		V_3 = L_35;
@@ -22834,9 +22834,9 @@ IL_00a1:
 IL_00b9:
 	{
 		int32_t L_42 = V_4;
-		V_5 = ((ByteU5BU5D_t740*)SZArrayNew(ByteU5BU5D_t740_il2cpp_TypeInfo_var, L_42));
+		V_5 = ((ByteU5BU5D_t1_70*)SZArrayNew(ByteU5BU5D_t1_70_il2cpp_TypeInfo_var, L_42));
 		V_6 = 0;
-		ByteU5BU5D_t740* L_43 = V_5;
+		ByteU5BU5D_t1_70* L_43 = V_5;
 		int32_t L_44 = V_1;
 		int32_t L_45 = V_2;
 		NullCheck(L_43);
@@ -22855,8 +22855,8 @@ IL_00d7:
 		V_13 = L_49;
 		*((int32_t*)(L_47)) = (int32_t)((int32_t)((int32_t)L_49+(int32_t)1));
 		int32_t L_50 = V_13;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		bool L_51 = Uri_IsHexEncoding_m5631(NULL /*static, unused*/, L_46, L_50, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		bool L_51 = Uri_IsHexEncoding_m2_861(NULL /*static, unused*/, L_46, L_50, /*hidden argument*/NULL);
 		if (L_51)
 		{
 			goto IL_00f5;
@@ -22877,9 +22877,9 @@ IL_00f5:
 		*((int32_t*)(L_53)) = (int32_t)((int32_t)((int32_t)L_55+(int32_t)1));
 		int32_t L_56 = V_13;
 		NullCheck(L_52);
-		uint16_t L_57 = String_get_Chars_m2240(L_52, L_56, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_58 = Uri_FromHex_m5628(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
+		uint16_t L_57 = String_get_Chars_m1_344(L_52, L_56, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_58 = Uri_FromHex_m2_858(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
 		V_8 = L_58;
 		int32_t L_59 = V_8;
 		if ((((int32_t)((int32_t)((int32_t)L_59&(int32_t)((int32_t)12)))) == ((int32_t)8)))
@@ -22902,11 +22902,11 @@ IL_0120:
 		*((int32_t*)(L_61)) = (int32_t)((int32_t)((int32_t)L_63+(int32_t)1));
 		int32_t L_64 = V_13;
 		NullCheck(L_60);
-		uint16_t L_65 = String_get_Chars_m2240(L_60, L_64, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		int32_t L_66 = Uri_FromHex_m5628(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
+		uint16_t L_65 = String_get_Chars_m1_344(L_60, L_64, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		int32_t L_66 = Uri_FromHex_m2_858(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
 		V_9 = L_66;
-		ByteU5BU5D_t740* L_67 = V_5;
+		ByteU5BU5D_t1_70* L_67 = V_5;
 		int32_t L_68 = V_7;
 		int32_t L_69 = V_8;
 		int32_t L_70 = V_9;
@@ -22939,7 +22939,7 @@ IL_0154:
 		int32_t* L_75 = ___index;
 		int32_t L_76 = V_0;
 		*((int32_t*)(L_75)) = (int32_t)((int32_t)((int32_t)L_76+(int32_t)3));
-		ByteU5BU5D_t740* L_77 = V_5;
+		ByteU5BU5D_t1_70* L_77 = V_5;
 		NullCheck(L_77);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_77, 0);
 		int32_t L_78 = 0;
@@ -22952,7 +22952,7 @@ IL_0166:
 		uint8_t L_79 = V_10;
 		int32_t L_80 = V_4;
 		V_10 = (((int32_t)((uint8_t)((int32_t)((int32_t)L_79>>(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_80+(int32_t)1))&(int32_t)((int32_t)31))))))));
-		ByteU5BU5D_t740* L_81 = V_5;
+		ByteU5BU5D_t1_70* L_81 = V_5;
 		NullCheck(L_81);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_81, 0);
 		int32_t L_82 = 0;
@@ -22967,7 +22967,7 @@ IL_018b:
 		int32_t L_84 = V_11;
 		V_11 = ((int32_t)((int32_t)L_84<<(int32_t)6));
 		int32_t L_85 = V_11;
-		ByteU5BU5D_t740* L_86 = V_5;
+		ByteU5BU5D_t1_70* L_86 = V_5;
 		int32_t L_87 = V_12;
 		NullCheck(L_86);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_86, L_87);
@@ -23010,15 +23010,15 @@ IL_01bd:
 	}
 }
 // System.String System.Uri::GetSchemeDelimiter(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* Uri_GetSchemeDelimiter_m5647 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
+extern "C" String_t* Uri_GetSchemeDelimiter_m2_877 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -23029,27 +23029,27 @@ extern "C" String_t* Uri_GetSchemeDelimiter_m5647 (Object_t * __this /* static, 
 
 IL_0007:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		UriSchemeU5BU5D_t1086* L_0 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		UriSchemeU5BU5D_t2_147* L_0 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
-		String_t* L_2 = (((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_0, L_1, sizeof(UriScheme_t1085 )))->___scheme_0);
+		String_t* L_2 = (((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_0, L_1, sizeof(UriScheme_t2_146 )))->___scheme_0);
 		String_t* L_3 = ___scheme;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_4 = String_op_Equality_m327(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		bool L_4 = String_op_Equality_m1_456(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		UriSchemeU5BU5D_t1086* L_5 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		UriSchemeU5BU5D_t2_147* L_5 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_6);
-		String_t* L_7 = (((UriScheme_t1085 *)(UriScheme_t1085 *)SZArrayLdElema(L_5, L_6, sizeof(UriScheme_t1085 )))->___delimiter_1);
+		String_t* L_7 = (((UriScheme_t2_146 *)(UriScheme_t2_146 *)SZArrayLdElema(L_5, L_6, sizeof(UriScheme_t2_146 )))->___delimiter_1);
 		return L_7;
 	}
 
@@ -23062,8 +23062,8 @@ IL_0033:
 IL_0037:
 	{
 		int32_t L_9 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		UriSchemeU5BU5D_t1086* L_10 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		UriSchemeU5BU5D_t2_147* L_10 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___schemes_28;
 		NullCheck(L_10);
 		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_10)->max_length)))))))
 		{
@@ -23071,28 +23071,28 @@ IL_0037:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_11 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_11 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___SchemeDelimiter_17;
 		return L_11;
 	}
 }
 // System.Int32 System.Uri::GetDefaultPort(System.String)
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern "C" int32_t Uri_GetDefaultPort_m5648 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern "C" int32_t Uri_GetDefaultPort_m2_878 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
 		s_Il2CppMethodIntialized = true;
 	}
-	UriParser_t1083 * V_0 = {0};
+	UriParser_t2_144 * V_0 = {0};
 	{
 		String_t* L_0 = ___scheme;
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser_t1083 * L_1 = UriParser_GetParser_m5667(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser_t2_144 * L_1 = UriParser_GetParser_m2_897(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		UriParser_t1083 * L_2 = V_0;
+		UriParser_t2_144 * L_2 = V_0;
 		if (L_2)
 		{
 			goto IL_000f;
@@ -23104,22 +23104,22 @@ extern "C" int32_t Uri_GetDefaultPort_m5648 (Object_t * __this /* static, unused
 
 IL_000f:
 	{
-		UriParser_t1083 * L_3 = V_0;
+		UriParser_t2_144 * L_3 = V_0;
 		NullCheck(L_3);
-		int32_t L_4 = UriParser_get_DefaultPort_m5663(L_3, /*hidden argument*/NULL);
+		int32_t L_4 = UriParser_get_DefaultPort_m2_893(L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.String System.Uri::GetOpaqueWiseSchemeDelimiter()
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral284;
-extern "C" String_t* Uri_GetOpaqueWiseSchemeDelimiter_m5649 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral622;
+extern "C" String_t* Uri_GetOpaqueWiseSchemeDelimiter_m2_879 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		_stringLiteral284 = il2cpp_codegen_string_literal_from_index(284);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		_stringLiteral622 = il2cpp_codegen_string_literal_from_index(622);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -23130,53 +23130,53 @@ extern "C" String_t* Uri_GetOpaqueWiseSchemeDelimiter_m5649 (Uri_t928 * __this, 
 		}
 	}
 	{
-		return _stringLiteral284;
+		return _stringLiteral622;
 	}
 
 IL_0011:
 	{
 		String_t* L_1 = (__this->___scheme_2);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_2 = Uri_GetSchemeDelimiter_m5647(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_2 = Uri_GetSchemeDelimiter_m2_877(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Boolean System.Uri::IsPredefinedScheme(System.String)
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern TypeInfo* Dictionary_2_t240_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m2258_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral755;
-extern Il2CppCodeGenString* _stringLiteral754;
-extern Il2CppCodeGenString* _stringLiteral813;
-extern Il2CppCodeGenString* _stringLiteral815;
-extern Il2CppCodeGenString* _stringLiteral969;
-extern Il2CppCodeGenString* _stringLiteral966;
-extern Il2CppCodeGenString* _stringLiteral967;
-extern Il2CppCodeGenString* _stringLiteral968;
-extern Il2CppCodeGenString* _stringLiteral970;
-extern Il2CppCodeGenString* _stringLiteral971;
-extern "C" bool Uri_IsPredefinedScheme_m5650 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t1_76_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1_5485_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2116;
+extern Il2CppCodeGenString* _stringLiteral2115;
+extern Il2CppCodeGenString* _stringLiteral2173;
+extern Il2CppCodeGenString* _stringLiteral2175;
+extern Il2CppCodeGenString* _stringLiteral2331;
+extern Il2CppCodeGenString* _stringLiteral2328;
+extern Il2CppCodeGenString* _stringLiteral2329;
+extern Il2CppCodeGenString* _stringLiteral2330;
+extern Il2CppCodeGenString* _stringLiteral2332;
+extern Il2CppCodeGenString* _stringLiteral2333;
+extern "C" bool Uri_IsPredefinedScheme_m2_880 (Object_t * __this /* static, unused */, String_t* ___scheme, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		Dictionary_2_t240_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(225);
-		Dictionary_2__ctor_m2258_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483871);
-		_stringLiteral755 = il2cpp_codegen_string_literal_from_index(755);
-		_stringLiteral754 = il2cpp_codegen_string_literal_from_index(754);
-		_stringLiteral813 = il2cpp_codegen_string_literal_from_index(813);
-		_stringLiteral815 = il2cpp_codegen_string_literal_from_index(815);
-		_stringLiteral969 = il2cpp_codegen_string_literal_from_index(969);
-		_stringLiteral966 = il2cpp_codegen_string_literal_from_index(966);
-		_stringLiteral967 = il2cpp_codegen_string_literal_from_index(967);
-		_stringLiteral968 = il2cpp_codegen_string_literal_from_index(968);
-		_stringLiteral970 = il2cpp_codegen_string_literal_from_index(970);
-		_stringLiteral971 = il2cpp_codegen_string_literal_from_index(971);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		Dictionary_2_t1_76_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(115);
+		Dictionary_2__ctor_m1_5485_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147483658);
+		_stringLiteral2116 = il2cpp_codegen_string_literal_from_index(2116);
+		_stringLiteral2115 = il2cpp_codegen_string_literal_from_index(2115);
+		_stringLiteral2173 = il2cpp_codegen_string_literal_from_index(2173);
+		_stringLiteral2175 = il2cpp_codegen_string_literal_from_index(2175);
+		_stringLiteral2331 = il2cpp_codegen_string_literal_from_index(2331);
+		_stringLiteral2328 = il2cpp_codegen_string_literal_from_index(2328);
+		_stringLiteral2329 = il2cpp_codegen_string_literal_from_index(2329);
+		_stringLiteral2330 = il2cpp_codegen_string_literal_from_index(2330);
+		_stringLiteral2332 = il2cpp_codegen_string_literal_from_index(2332);
+		_stringLiteral2333 = il2cpp_codegen_string_literal_from_index(2333);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
-	Dictionary_2_t240 * V_1 = {0};
+	Dictionary_2_t1_76 * V_1 = {0};
 	int32_t V_2 = 0;
 	{
 		String_t* L_0 = ___scheme;
@@ -23188,56 +23188,56 @@ extern "C" bool Uri_IsPredefinedScheme_m5650 (Object_t * __this /* static, unuse
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_2 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_2 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32;
 		if (L_2)
 		{
 			goto IL_0098;
 		}
 	}
 	{
-		Dictionary_2_t240 * L_3 = (Dictionary_2_t240 *)il2cpp_codegen_object_new (Dictionary_2_t240_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m2258(L_3, ((int32_t)10), /*hidden argument*/Dictionary_2__ctor_m2258_MethodInfo_var);
+		Dictionary_2_t1_76 * L_3 = (Dictionary_2_t1_76 *)il2cpp_codegen_object_new (Dictionary_2_t1_76_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1_5485(L_3, ((int32_t)10), /*hidden argument*/Dictionary_2__ctor_m1_5485_MethodInfo_var);
 		V_1 = L_3;
-		Dictionary_2_t240 * L_4 = V_1;
+		Dictionary_2_t1_76 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral755, 0);
-		Dictionary_2_t240 * L_5 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_4, _stringLiteral2116, 0);
+		Dictionary_2_t1_76 * L_5 = V_1;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral754, 0);
-		Dictionary_2_t240 * L_6 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_5, _stringLiteral2115, 0);
+		Dictionary_2_t1_76 * L_6 = V_1;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral813, 0);
-		Dictionary_2_t240 * L_7 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_6, _stringLiteral2173, 0);
+		Dictionary_2_t1_76 * L_7 = V_1;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral815, 0);
-		Dictionary_2_t240 * L_8 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_7, _stringLiteral2175, 0);
+		Dictionary_2_t1_76 * L_8 = V_1;
 		NullCheck(L_8);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral969, 0);
-		Dictionary_2_t240 * L_9 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_8, _stringLiteral2331, 0);
+		Dictionary_2_t1_76 * L_9 = V_1;
 		NullCheck(L_9);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral966, 0);
-		Dictionary_2_t240 * L_10 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_9, _stringLiteral2328, 0);
+		Dictionary_2_t1_76 * L_10 = V_1;
 		NullCheck(L_10);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral967, 0);
-		Dictionary_2_t240 * L_11 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_10, _stringLiteral2329, 0);
+		Dictionary_2_t1_76 * L_11 = V_1;
 		NullCheck(L_11);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, _stringLiteral968, 0);
-		Dictionary_2_t240 * L_12 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_11, _stringLiteral2330, 0);
+		Dictionary_2_t1_76 * L_12 = V_1;
 		NullCheck(L_12);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, _stringLiteral970, 0);
-		Dictionary_2_t240 * L_13 = V_1;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_12, _stringLiteral2332, 0);
+		Dictionary_2_t1_76 * L_13 = V_1;
 		NullCheck(L_13);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, _stringLiteral971, 0);
-		Dictionary_2_t240 * L_14 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32 = L_14;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Int32>::Add(!0,!1) */, L_13, _stringLiteral2333, 0);
+		Dictionary_2_t1_76 * L_14 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32 = L_14;
 	}
 
 IL_0098:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		Dictionary_2_t240 * L_15 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		Dictionary_2_t1_76 * L_15 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__switchU24map16_32;
 		String_t* L_16 = V_0;
 		NullCheck(L_15);
 		bool L_17 = (bool)VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(32 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Int32>::TryGetValue(!0,!1&) */, L_15, L_16, (&V_2));
@@ -23268,71 +23268,71 @@ IL_00b7:
 	}
 }
 // System.UriParser System.Uri::get_Parser()
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern TypeInfo* DefaultUriParser_t1082_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral996;
-extern "C" UriParser_t1083 * Uri_get_Parser_m5651 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern TypeInfo* DefaultUriParser_t2_143_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1162;
+extern "C" UriParser_t2_144 * Uri_get_Parser_m2_881 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
-		DefaultUriParser_t1082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(739);
-		_stringLiteral996 = il2cpp_codegen_string_literal_from_index(996);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		DefaultUriParser_t2_143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(734);
+		_stringLiteral1162 = il2cpp_codegen_string_literal_from_index(1162);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		UriParser_t1083 * L_0 = (__this->___parser_29);
+		UriParser_t2_144 * L_0 = (__this->___parser_29);
 		if (L_0)
 		{
 			goto IL_0037;
 		}
 	}
 	{
-		String_t* L_1 = Uri_get_Scheme_m5617(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser_t1083 * L_2 = UriParser_GetParser_m5667(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		String_t* L_1 = Uri_get_Scheme_m2_847(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser_t2_144 * L_2 = UriParser_GetParser_m2_897(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
 		__this->___parser_29 = L_2;
-		UriParser_t1083 * L_3 = (__this->___parser_29);
+		UriParser_t2_144 * L_3 = (__this->___parser_29);
 		if (L_3)
 		{
 			goto IL_0037;
 		}
 	}
 	{
-		DefaultUriParser_t1082 * L_4 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5605(L_4, _stringLiteral996, /*hidden argument*/NULL);
+		DefaultUriParser_t2_143 * L_4 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_834(L_4, _stringLiteral1162, /*hidden argument*/NULL);
 		__this->___parser_29 = L_4;
 	}
 
 IL_0037:
 	{
-		UriParser_t1083 * L_5 = (__this->___parser_29);
+		UriParser_t2_144 * L_5 = (__this->___parser_29);
 		return L_5;
 	}
 }
 // System.Void System.Uri::EnsureAbsoluteUri()
-extern TypeInfo* InvalidOperationException_t710_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral997;
-extern "C" void Uri_EnsureAbsoluteUri_m5652 (Uri_t928 * __this, const MethodInfo* method)
+extern TypeInfo* InvalidOperationException_t1_725_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2354;
+extern "C" void Uri_EnsureAbsoluteUri_m2_882 (Uri_t2_22 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		InvalidOperationException_t710_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(420);
-		_stringLiteral997 = il2cpp_codegen_string_literal_from_index(997);
+		InvalidOperationException_t1_725_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(71);
+		_stringLiteral2354 = il2cpp_codegen_string_literal_from_index(2354);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = Uri_get_IsAbsoluteUri_m5618(__this, /*hidden argument*/NULL);
+		bool L_0 = Uri_get_IsAbsoluteUri_m2_848(__this, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0016;
 		}
 	}
 	{
-		InvalidOperationException_t710 * L_1 = (InvalidOperationException_t710 *)il2cpp_codegen_object_new (InvalidOperationException_t710_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m3644(L_1, _stringLiteral997, /*hidden argument*/NULL);
+		InvalidOperationException_t1_725 * L_1 = (InvalidOperationException_t1_725 *)il2cpp_codegen_object_new (InvalidOperationException_t1_725_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1_5058(L_1, _stringLiteral2354, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -23342,122 +23342,122 @@ IL_0016:
 	}
 }
 // System.Boolean System.Uri::op_Equality(System.Uri,System.Uri)
-extern "C" bool Uri_op_Equality_m5653 (Object_t * __this /* static, unused */, Uri_t928 * ___u1, Uri_t928 * ___u2, const MethodInfo* method)
+extern "C" bool Uri_op_Equality_m2_883 (Object_t * __this /* static, unused */, Uri_t2_22 * ___u1, Uri_t2_22 * ___u2, const MethodInfo* method)
 {
 	{
-		Uri_t928 * L_0 = ___u1;
-		Uri_t928 * L_1 = ___u2;
-		bool L_2 = Object_Equals_m5761(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Uri_t2_22 * L_0 = ___u1;
+		Uri_t2_22 * L_1 = ___u2;
+		bool L_2 = Object_Equals_m1_2(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void System.UriFormatException::.ctor()
-extern Il2CppCodeGenString* _stringLiteral998;
-extern "C" void UriFormatException__ctor_m5654 (UriFormatException_t1087 * __this, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral2355;
+extern "C" void UriFormatException__ctor_m2_884 (UriFormatException_t2_148 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral998 = il2cpp_codegen_string_literal_from_index(998);
+		_stringLiteral2355 = il2cpp_codegen_string_literal_from_index(2355);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		String_t* L_0 = Locale_GetText_m4792(NULL /*static, unused*/, _stringLiteral998, /*hidden argument*/NULL);
-		FormatException__ctor_m4674(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_0 = Locale_GetText_m2_0(NULL /*static, unused*/, _stringLiteral2355, /*hidden argument*/NULL);
+		FormatException__ctor_m1_5027(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.UriFormatException::.ctor(System.String)
-extern "C" void UriFormatException__ctor_m5655 (UriFormatException_t1087 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" void UriFormatException__ctor_m2_885 (UriFormatException_t2_148 * __this, String_t* ___message, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
-		FormatException__ctor_m4674(__this, L_0, /*hidden argument*/NULL);
+		FormatException__ctor_m1_5027(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.UriFormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UriFormatException__ctor_m5656 (UriFormatException_t1087 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method)
+extern "C" void UriFormatException__ctor_m2_886 (UriFormatException_t2_148 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t621 * L_0 = ___info;
-		StreamingContext_t622  L_1 = ___context;
-		FormatException__ctor_m5762(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t1_176 * L_0 = ___info;
+		StreamingContext_t1_506  L_1 = ___context;
+		FormatException__ctor_m1_5028(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.UriFormatException::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m5657 (UriFormatException_t1087 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method)
+extern "C" void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m2_887 (UriFormatException_t2_148 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t621 * L_0 = ___info;
-		StreamingContext_t622  L_1 = ___context;
-		Exception_GetObjectData_m5763(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t1_176 * L_0 = ___info;
+		StreamingContext_t1_506  L_1 = ___context;
+		Exception_GetObjectData_m1_945(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.UriParser::.ctor()
-extern "C" void UriParser__ctor_m5658 (UriParser_t1083 * __this, const MethodInfo* method)
+extern "C" void UriParser__ctor_m2_888 (UriParser_t2_144 * __this, const MethodInfo* method)
 {
 	{
-		Object__ctor_m328(__this, /*hidden argument*/NULL);
+		Object__ctor_m1_0(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.UriParser::.cctor()
 extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern TypeInfo* Regex_t646_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral999;
-extern Il2CppCodeGenString* _stringLiteral1000;
-extern "C" void UriParser__cctor_m5659 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Regex_t2_90_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2356;
+extern Il2CppCodeGenString* _stringLiteral2357;
+extern "C" void UriParser__cctor_m2_889 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Object_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(0);
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
-		Regex_t646_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(387);
-		_stringLiteral999 = il2cpp_codegen_string_literal_from_index(999);
-		_stringLiteral1000 = il2cpp_codegen_string_literal_from_index(1000);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		Regex_t2_90_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(640);
+		_stringLiteral2356 = il2cpp_codegen_string_literal_from_index(2356);
+		_stringLiteral2357 = il2cpp_codegen_string_literal_from_index(2357);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
-		Object__ctor_m328(L_0, /*hidden argument*/NULL);
-		((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___lock_object_0 = L_0;
-		Regex_t646 * L_1 = (Regex_t646 *)il2cpp_codegen_object_new (Regex_t646_il2cpp_TypeInfo_var);
-		Regex__ctor_m4784(L_1, _stringLiteral999, /*hidden argument*/NULL);
-		((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___uri_regex_4 = L_1;
-		Regex_t646 * L_2 = (Regex_t646 *)il2cpp_codegen_object_new (Regex_t646_il2cpp_TypeInfo_var);
-		Regex__ctor_m4784(L_2, _stringLiteral1000, /*hidden argument*/NULL);
-		((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___auth_regex_5 = L_2;
+		Object__ctor_m1_0(L_0, /*hidden argument*/NULL);
+		((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___lock_object_0 = L_0;
+		Regex_t2_90 * L_1 = (Regex_t2_90 *)il2cpp_codegen_object_new (Regex_t2_90_il2cpp_TypeInfo_var);
+		Regex__ctor_m2_502(L_1, _stringLiteral2356, /*hidden argument*/NULL);
+		((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___uri_regex_4 = L_1;
+		Regex_t2_90 * L_2 = (Regex_t2_90 *)il2cpp_codegen_object_new (Regex_t2_90_il2cpp_TypeInfo_var);
+		Regex__ctor_m2_502(L_2, _stringLiteral2357, /*hidden argument*/NULL);
+		((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___auth_regex_5 = L_2;
 		return;
 	}
 }
 // System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern TypeInfo* UriFormatException_t1087_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral996;
-extern Il2CppCodeGenString* _stringLiteral1001;
-extern "C" void UriParser_InitializeAndValidate_m5660 (UriParser_t1083 * __this, Uri_t928 * ___uri, UriFormatException_t1087 ** ___parsingError, const MethodInfo* method)
+extern TypeInfo* UriFormatException_t2_148_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1162;
+extern Il2CppCodeGenString* _stringLiteral2358;
+extern "C" void UriParser_InitializeAndValidate_m2_890 (UriParser_t2_144 * __this, Uri_t2_22 * ___uri, UriFormatException_t2_148 ** ___parsingError, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1);
-		UriFormatException_t1087_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(736);
-		_stringLiteral996 = il2cpp_codegen_string_literal_from_index(996);
-		_stringLiteral1001 = il2cpp_codegen_string_literal_from_index(1001);
+		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(11);
+		UriFormatException_t2_148_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(731);
+		_stringLiteral1162 = il2cpp_codegen_string_literal_from_index(1162);
+		_stringLiteral2358 = il2cpp_codegen_string_literal_from_index(2358);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Uri_t928 * L_0 = ___uri;
+		Uri_t2_22 * L_0 = ___uri;
 		NullCheck(L_0);
-		String_t* L_1 = Uri_get_Scheme_m5617(L_0, /*hidden argument*/NULL);
+		String_t* L_1 = Uri_get_Scheme_m2_847(L_0, /*hidden argument*/NULL);
 		String_t* L_2 = (__this->___scheme_name_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_3 = String_op_Inequality_m2239(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		bool L_3 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_003c;
@@ -23466,23 +23466,23 @@ extern "C" void UriParser_InitializeAndValidate_m5660 (UriParser_t1083 * __this,
 	{
 		String_t* L_4 = (__this->___scheme_name_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_5 = String_op_Inequality_m2239(NULL /*static, unused*/, L_4, _stringLiteral996, /*hidden argument*/NULL);
+		bool L_5 = String_op_Inequality_m1_457(NULL /*static, unused*/, L_4, _stringLiteral1162, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		UriFormatException_t1087 ** L_6 = ___parsingError;
-		UriFormatException_t1087 * L_7 = (UriFormatException_t1087 *)il2cpp_codegen_object_new (UriFormatException_t1087_il2cpp_TypeInfo_var);
-		UriFormatException__ctor_m5655(L_7, _stringLiteral1001, /*hidden argument*/NULL);
+		UriFormatException_t2_148 ** L_6 = ___parsingError;
+		UriFormatException_t2_148 * L_7 = (UriFormatException_t2_148 *)il2cpp_codegen_object_new (UriFormatException_t2_148_il2cpp_TypeInfo_var);
+		UriFormatException__ctor_m2_885(L_7, _stringLiteral2358, /*hidden argument*/NULL);
 		*((Object_t **)(L_6)) = (Object_t *)L_7;
 		goto IL_003f;
 	}
 
 IL_003c:
 	{
-		UriFormatException_t1087 ** L_8 = ___parsingError;
+		UriFormatException_t2_148 ** L_8 = ___parsingError;
 		*((Object_t **)(L_8)) = (Object_t *)NULL;
 	}
 
@@ -23492,14 +23492,14 @@ IL_003f:
 	}
 }
 // System.Void System.UriParser::OnRegister(System.String,System.Int32)
-extern "C" void UriParser_OnRegister_m5661 (UriParser_t1083 * __this, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method)
+extern "C" void UriParser_OnRegister_m2_891 (UriParser_t2_144 * __this, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void System.UriParser::set_SchemeName(System.String)
-extern "C" void UriParser_set_SchemeName_m5662 (UriParser_t1083 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void UriParser_set_SchemeName_m2_892 (UriParser_t2_144 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
@@ -23508,7 +23508,7 @@ extern "C" void UriParser_set_SchemeName_m5662 (UriParser_t1083 * __this, String
 	}
 }
 // System.Int32 System.UriParser::get_DefaultPort()
-extern "C" int32_t UriParser_get_DefaultPort_m5663 (UriParser_t1083 * __this, const MethodInfo* method)
+extern "C" int32_t UriParser_get_DefaultPort_m2_893 (UriParser_t2_144 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___default_port_3);
@@ -23516,7 +23516,7 @@ extern "C" int32_t UriParser_get_DefaultPort_m5663 (UriParser_t1083 * __this, co
 	}
 }
 // System.Void System.UriParser::set_DefaultPort(System.Int32)
-extern "C" void UriParser_set_DefaultPort_m5664 (UriParser_t1083 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void UriParser_set_DefaultPort_m2_894 (UriParser_t2_144 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
@@ -23525,34 +23525,34 @@ extern "C" void UriParser_set_DefaultPort_m5664 (UriParser_t1083 * __this, int32
 	}
 }
 // System.Void System.UriParser::CreateDefaults()
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern TypeInfo* Hashtable_t836_il2cpp_TypeInfo_var;
-extern TypeInfo* DefaultUriParser_t1082_il2cpp_TypeInfo_var;
-extern TypeInfo* Uri_t928_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1002;
-extern "C" void UriParser_CreateDefaults_m5665 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern TypeInfo* Hashtable_t1_171_il2cpp_TypeInfo_var;
+extern TypeInfo* DefaultUriParser_t2_143_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2_22_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2359;
+extern "C" void UriParser_CreateDefaults_m2_895 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
-		Hashtable_t836_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(569);
-		DefaultUriParser_t1082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(739);
-		Uri_t928_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(629);
-		_stringLiteral1002 = il2cpp_codegen_string_literal_from_index(1002);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		Hashtable_t1_171_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(196);
+		DefaultUriParser_t2_143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(734);
+		Uri_t2_22_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(624);
+		_stringLiteral2359 = il2cpp_codegen_string_literal_from_index(2359);
 		s_Il2CppMethodIntialized = true;
 	}
-	Hashtable_t836 * V_0 = {0};
+	Hashtable_t1_171 * V_0 = {0};
 	Object_t * V_1 = {0};
-	Exception_t82 * __last_unhandled_exception = 0;
+	Exception_t1_33 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t82 * __exception_local = 0;
+	Exception_t1_33 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		Hashtable_t836 * L_0 = ((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___table_1;
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		Hashtable_t1_171 * L_0 = ((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___table_1;
 		if (!L_0)
 		{
 			goto IL_000b;
@@ -23564,77 +23564,77 @@ extern "C" void UriParser_CreateDefaults_m5665 (Object_t * __this /* static, unu
 
 IL_000b:
 	{
-		Hashtable_t836 * L_1 = (Hashtable_t836 *)il2cpp_codegen_object_new (Hashtable_t836_il2cpp_TypeInfo_var);
-		Hashtable__ctor_m4745(L_1, /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_1 = (Hashtable_t1_171 *)il2cpp_codegen_object_new (Hashtable_t1_171_il2cpp_TypeInfo_var);
+		Hashtable__ctor_m1_1742(L_1, /*hidden argument*/NULL);
 		V_0 = L_1;
-		Hashtable_t836 * L_2 = V_0;
-		DefaultUriParser_t1082 * L_3 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_3, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Uri_t928_il2cpp_TypeInfo_var);
-		String_t* L_4 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_2, L_3, L_4, (-1), /*hidden argument*/NULL);
-		Hashtable_t836 * L_5 = V_0;
-		DefaultUriParser_t1082 * L_6 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_6, /*hidden argument*/NULL);
-		String_t* L_7 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_5, L_6, L_7, ((int32_t)21), /*hidden argument*/NULL);
-		Hashtable_t836 * L_8 = V_0;
-		DefaultUriParser_t1082 * L_9 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_9, /*hidden argument*/NULL);
-		String_t* L_10 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_8, L_9, L_10, ((int32_t)70), /*hidden argument*/NULL);
-		Hashtable_t836 * L_11 = V_0;
-		DefaultUriParser_t1082 * L_12 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_12, /*hidden argument*/NULL);
-		String_t* L_13 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_11, L_12, L_13, ((int32_t)80), /*hidden argument*/NULL);
-		Hashtable_t836 * L_14 = V_0;
-		DefaultUriParser_t1082 * L_15 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_15, /*hidden argument*/NULL);
-		String_t* L_16 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_14, L_15, L_16, ((int32_t)443), /*hidden argument*/NULL);
-		Hashtable_t836 * L_17 = V_0;
-		DefaultUriParser_t1082 * L_18 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_18, /*hidden argument*/NULL);
-		String_t* L_19 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_17, L_18, L_19, ((int32_t)25), /*hidden argument*/NULL);
-		Hashtable_t836 * L_20 = V_0;
-		DefaultUriParser_t1082 * L_21 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_21, /*hidden argument*/NULL);
-		String_t* L_22 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetPipe_26;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_20, L_21, L_22, (-1), /*hidden argument*/NULL);
-		Hashtable_t836 * L_23 = V_0;
-		DefaultUriParser_t1082 * L_24 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_24, /*hidden argument*/NULL);
-		String_t* L_25 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetTcp_27;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_23, L_24, L_25, (-1), /*hidden argument*/NULL);
-		Hashtable_t836 * L_26 = V_0;
-		DefaultUriParser_t1082 * L_27 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_27, /*hidden argument*/NULL);
-		String_t* L_28 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_26, L_27, L_28, ((int32_t)119), /*hidden argument*/NULL);
-		Hashtable_t836 * L_29 = V_0;
-		DefaultUriParser_t1082 * L_30 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_30, /*hidden argument*/NULL);
-		String_t* L_31 = ((Uri_t928_StaticFields*)Uri_t928_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_29, L_30, L_31, ((int32_t)119), /*hidden argument*/NULL);
-		Hashtable_t836 * L_32 = V_0;
-		DefaultUriParser_t1082 * L_33 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_33, /*hidden argument*/NULL);
-		UriParser_InternalRegister_m5666(NULL /*static, unused*/, L_32, L_33, _stringLiteral1002, ((int32_t)389), /*hidden argument*/NULL);
-		Object_t * L_34 = ((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___lock_object_0;
+		Hashtable_t1_171 * L_2 = V_0;
+		DefaultUriParser_t2_143 * L_3 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2_22_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFile_18;
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_2, L_3, L_4, (-1), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_5 = V_0;
+		DefaultUriParser_t2_143 * L_6 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_6, /*hidden argument*/NULL);
+		String_t* L_7 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeFtp_19;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_5, L_6, L_7, ((int32_t)21), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_8 = V_0;
+		DefaultUriParser_t2_143 * L_9 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_9, /*hidden argument*/NULL);
+		String_t* L_10 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeGopher_20;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_8, L_9, L_10, ((int32_t)70), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_11 = V_0;
+		DefaultUriParser_t2_143 * L_12 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_12, /*hidden argument*/NULL);
+		String_t* L_13 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttp_21;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_11, L_12, L_13, ((int32_t)80), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_14 = V_0;
+		DefaultUriParser_t2_143 * L_15 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_15, /*hidden argument*/NULL);
+		String_t* L_16 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeHttps_22;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_14, L_15, L_16, ((int32_t)443), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_17 = V_0;
+		DefaultUriParser_t2_143 * L_18 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_18, /*hidden argument*/NULL);
+		String_t* L_19 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeMailto_23;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_17, L_18, L_19, ((int32_t)25), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_20 = V_0;
+		DefaultUriParser_t2_143 * L_21 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_21, /*hidden argument*/NULL);
+		String_t* L_22 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetPipe_26;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_20, L_21, L_22, (-1), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_23 = V_0;
+		DefaultUriParser_t2_143 * L_24 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_24, /*hidden argument*/NULL);
+		String_t* L_25 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNetTcp_27;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_23, L_24, L_25, (-1), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_26 = V_0;
+		DefaultUriParser_t2_143 * L_27 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_27, /*hidden argument*/NULL);
+		String_t* L_28 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNews_24;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_26, L_27, L_28, ((int32_t)119), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_29 = V_0;
+		DefaultUriParser_t2_143 * L_30 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_30, /*hidden argument*/NULL);
+		String_t* L_31 = ((Uri_t2_22_StaticFields*)Uri_t2_22_il2cpp_TypeInfo_var->static_fields)->___UriSchemeNntp_25;
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_29, L_30, L_31, ((int32_t)119), /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_32 = V_0;
+		DefaultUriParser_t2_143 * L_33 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_33, /*hidden argument*/NULL);
+		UriParser_InternalRegister_m2_896(NULL /*static, unused*/, L_32, L_33, _stringLiteral2359, ((int32_t)389), /*hidden argument*/NULL);
+		Object_t * L_34 = ((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___lock_object_0;
 		V_1 = L_34;
 		Object_t * L_35 = V_1;
-		Monitor_Enter_m4746(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		Monitor_Enter_m1_4463(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
 	}
 
 IL_00e6:
 	try
 	{ // begin try (depth: 1)
 		{
-			IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-			Hashtable_t836 * L_36 = ((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___table_1;
+			IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+			Hashtable_t1_171 * L_36 = ((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___table_1;
 			if (L_36)
 			{
 				goto IL_00fb;
@@ -23643,15 +23643,15 @@ IL_00e6:
 
 IL_00f0:
 		{
-			Hashtable_t836 * L_37 = V_0;
-			IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-			((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___table_1 = L_37;
+			Hashtable_t1_171 * L_37 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+			((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___table_1 = L_37;
 			goto IL_00fd;
 		}
 
 IL_00fb:
 		{
-			V_0 = (Hashtable_t836 *)NULL;
+			V_0 = (Hashtable_t1_171 *)NULL;
 		}
 
 IL_00fd:
@@ -23661,20 +23661,20 @@ IL_00fd:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t82 *)e.ex;
+		__last_unhandled_exception = (Exception_t1_33 *)e.ex;
 		goto FINALLY_0102;
 	}
 
 FINALLY_0102:
 	{ // begin finally (depth: 1)
 		Object_t * L_38 = V_1;
-		Monitor_Exit_m4748(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+		Monitor_Exit_m1_4464(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(258)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(258)
 	{
 		IL2CPP_JUMP_TBL(0x109, IL_0109)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t82 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1_33 *)
 	}
 
 IL_0109:
@@ -23683,37 +23683,37 @@ IL_0109:
 	}
 }
 // System.Void System.UriParser::InternalRegister(System.Collections.Hashtable,System.UriParser,System.String,System.Int32)
-extern TypeInfo* GenericUriParser_t1084_il2cpp_TypeInfo_var;
-extern TypeInfo* DefaultUriParser_t1082_il2cpp_TypeInfo_var;
-extern "C" void UriParser_InternalRegister_m5666 (Object_t * __this /* static, unused */, Hashtable_t836 * ___table, UriParser_t1083 * ___uriParser, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method)
+extern TypeInfo* GenericUriParser_t2_145_il2cpp_TypeInfo_var;
+extern TypeInfo* DefaultUriParser_t2_143_il2cpp_TypeInfo_var;
+extern "C" void UriParser_InternalRegister_m2_896 (Object_t * __this /* static, unused */, Hashtable_t1_171 * ___table, UriParser_t2_144 * ___uriParser, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		GenericUriParser_t1084_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(740);
-		DefaultUriParser_t1082_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(739);
+		GenericUriParser_t2_145_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
+		DefaultUriParser_t2_143_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(734);
 		s_Il2CppMethodIntialized = true;
 	}
-	DefaultUriParser_t1082 * V_0 = {0};
+	DefaultUriParser_t2_143 * V_0 = {0};
 	{
-		UriParser_t1083 * L_0 = ___uriParser;
+		UriParser_t2_144 * L_0 = ___uriParser;
 		String_t* L_1 = ___schemeName;
 		NullCheck(L_0);
-		UriParser_set_SchemeName_m5662(L_0, L_1, /*hidden argument*/NULL);
-		UriParser_t1083 * L_2 = ___uriParser;
+		UriParser_set_SchemeName_m2_892(L_0, L_1, /*hidden argument*/NULL);
+		UriParser_t2_144 * L_2 = ___uriParser;
 		int32_t L_3 = ___defaultPort;
 		NullCheck(L_2);
-		UriParser_set_DefaultPort_m5664(L_2, L_3, /*hidden argument*/NULL);
-		UriParser_t1083 * L_4 = ___uriParser;
-		if (!((GenericUriParser_t1084 *)IsInstClass(L_4, GenericUriParser_t1084_il2cpp_TypeInfo_var)))
+		UriParser_set_DefaultPort_m2_894(L_2, L_3, /*hidden argument*/NULL);
+		UriParser_t2_144 * L_4 = ___uriParser;
+		if (!((GenericUriParser_t2_145 *)IsInstClass(L_4, GenericUriParser_t2_145_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0026;
 		}
 	}
 	{
-		Hashtable_t836 * L_5 = ___table;
+		Hashtable_t1_171 * L_5 = ___table;
 		String_t* L_6 = ___schemeName;
-		UriParser_t1083 * L_7 = ___uriParser;
+		UriParser_t2_144 * L_7 = ___uriParser;
 		NullCheck(L_5);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_5, L_6, L_7);
 		goto IL_0042;
@@ -23721,27 +23721,27 @@ extern "C" void UriParser_InternalRegister_m5666 (Object_t * __this /* static, u
 
 IL_0026:
 	{
-		DefaultUriParser_t1082 * L_8 = (DefaultUriParser_t1082 *)il2cpp_codegen_object_new (DefaultUriParser_t1082_il2cpp_TypeInfo_var);
-		DefaultUriParser__ctor_m5604(L_8, /*hidden argument*/NULL);
+		DefaultUriParser_t2_143 * L_8 = (DefaultUriParser_t2_143 *)il2cpp_codegen_object_new (DefaultUriParser_t2_143_il2cpp_TypeInfo_var);
+		DefaultUriParser__ctor_m2_833(L_8, /*hidden argument*/NULL);
 		V_0 = L_8;
-		DefaultUriParser_t1082 * L_9 = V_0;
+		DefaultUriParser_t2_143 * L_9 = V_0;
 		String_t* L_10 = ___schemeName;
 		NullCheck(L_9);
-		UriParser_set_SchemeName_m5662(L_9, L_10, /*hidden argument*/NULL);
-		DefaultUriParser_t1082 * L_11 = V_0;
+		UriParser_set_SchemeName_m2_892(L_9, L_10, /*hidden argument*/NULL);
+		DefaultUriParser_t2_143 * L_11 = V_0;
 		int32_t L_12 = ___defaultPort;
 		NullCheck(L_11);
-		UriParser_set_DefaultPort_m5664(L_11, L_12, /*hidden argument*/NULL);
-		Hashtable_t836 * L_13 = ___table;
+		UriParser_set_DefaultPort_m2_894(L_11, L_12, /*hidden argument*/NULL);
+		Hashtable_t1_171 * L_13 = ___table;
 		String_t* L_14 = ___schemeName;
-		DefaultUriParser_t1082 * L_15 = V_0;
+		DefaultUriParser_t2_143 * L_15 = V_0;
 		NullCheck(L_13);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(26 /* System.Void System.Collections.Hashtable::Add(System.Object,System.Object) */, L_13, L_14, L_15);
 	}
 
 IL_0042:
 	{
-		UriParser_t1083 * L_16 = ___uriParser;
+		UriParser_t2_144 * L_16 = ___uriParser;
 		String_t* L_17 = ___schemeName;
 		int32_t L_18 = ___defaultPort;
 		NullCheck(L_16);
@@ -23750,15 +23750,15 @@ IL_0042:
 	}
 }
 // System.UriParser System.UriParser::GetParser(System.String)
-extern TypeInfo* UriParser_t1083_il2cpp_TypeInfo_var;
-extern TypeInfo* CultureInfo_t638_il2cpp_TypeInfo_var;
-extern "C" UriParser_t1083 * UriParser_GetParser_m5667 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method)
+extern TypeInfo* UriParser_t2_144_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t1_161_il2cpp_TypeInfo_var;
+extern "C" UriParser_t2_144 * UriParser_GetParser_m2_897 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UriParser_t1083_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(735);
-		CultureInfo_t638_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(496);
+		UriParser_t2_144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(730);
+		CultureInfo_t1_161_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(28);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -23770,111 +23770,111 @@ extern "C" UriParser_t1083 * UriParser_GetParser_m5667 (Object_t * __this /* sta
 		}
 	}
 	{
-		return (UriParser_t1083 *)NULL;
+		return (UriParser_t2_144 *)NULL;
 	}
 
 IL_0008:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t1083_il2cpp_TypeInfo_var);
-		UriParser_CreateDefaults_m5665(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t2_144_il2cpp_TypeInfo_var);
+		UriParser_CreateDefaults_m2_895(NULL /*static, unused*/, /*hidden argument*/NULL);
 		String_t* L_1 = ___schemeName;
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t638_il2cpp_TypeInfo_var);
-		CultureInfo_t638 * L_2 = CultureInfo_get_InvariantCulture_m4675(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t1_161_il2cpp_TypeInfo_var);
+		CultureInfo_t1_161 * L_2 = CultureInfo_get_InvariantCulture_m1_1925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_3 = String_ToLower_m5756(L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_ToLower_m1_408(L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
-		Hashtable_t836 * L_4 = ((UriParser_t1083_StaticFields*)UriParser_t1083_il2cpp_TypeInfo_var->static_fields)->___table_1;
+		Hashtable_t1_171 * L_4 = ((UriParser_t2_144_StaticFields*)UriParser_t2_144_il2cpp_TypeInfo_var->static_fields)->___table_1;
 		String_t* L_5 = V_0;
 		NullCheck(L_4);
 		Object_t * L_6 = (Object_t *)VirtFuncInvoker1< Object_t *, Object_t * >::Invoke(23 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_4, L_5);
-		return ((UriParser_t1083 *)CastclassClass(L_6, UriParser_t1083_il2cpp_TypeInfo_var));
+		return ((UriParser_t2_144 *)CastclassClass(L_6, UriParser_t2_144_il2cpp_TypeInfo_var));
 	}
 }
 // System.Void System.Net.Security.RemoteCertificateValidationCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void RemoteCertificateValidationCallback__ctor_m5668 (RemoteCertificateValidationCallback_t930 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void RemoteCertificateValidationCallback__ctor_m2_898 (RemoteCertificateValidationCallback_t2_28 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean System.Net.Security.RemoteCertificateValidationCallback::Invoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
-extern "C" bool RemoteCertificateValidationCallback_Invoke_m4759 (RemoteCertificateValidationCallback_t930 * __this, Object_t * ___sender, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method)
+extern "C" bool RemoteCertificateValidationCallback_Invoke_m2_899 (RemoteCertificateValidationCallback_t2_28 * __this, Object_t * ___sender, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		RemoteCertificateValidationCallback_Invoke_m4759((RemoteCertificateValidationCallback_t930 *)__this->___prev_9,___sender, ___certificate, ___chain, ___sslPolicyErrors, method);
+		RemoteCertificateValidationCallback_Invoke_m2_899((RemoteCertificateValidationCallback_t2_28 *)__this->___prev_9,___sender, ___certificate, ___chain, ___sslPolicyErrors, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___certificate, ___chain, ___sslPolicyErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___certificate, ___chain, ___sslPolicyErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___sender, ___certificate, ___chain, ___sslPolicyErrors,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t930(Il2CppObject* delegate, Object_t * ___sender, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors)
+extern "C" bool pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t2_28(Il2CppObject* delegate, Object_t * ___sender, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.Net.Security.RemoteCertificateValidationCallback::BeginInvoke(System.Object,System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors,System.AsyncCallback,System.Object)
-extern TypeInfo* SslPolicyErrors_t964_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemoteCertificateValidationCallback_BeginInvoke_m5669 (RemoteCertificateValidationCallback_t930 * __this, Object_t * ___sender, X509Certificate_t871 * ___certificate, X509Chain_t932 * ___chain, int32_t ___sslPolicyErrors, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern TypeInfo* SslPolicyErrors_t2_17_il2cpp_TypeInfo_var;
+extern "C" Object_t * RemoteCertificateValidationCallback_BeginInvoke_m2_900 (RemoteCertificateValidationCallback_t2_28 * __this, Object_t * ___sender, X509Certificate_t1_537 * ___certificate, X509Chain_t2_58 * ___chain, int32_t ___sslPolicyErrors, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SslPolicyErrors_t964_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(634);
+		SslPolicyErrors_t2_17_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(628);
 		s_Il2CppMethodIntialized = true;
 	}
 	void *__d_args[5] = {0};
 	__d_args[0] = ___sender;
 	__d_args[1] = ___certificate;
 	__d_args[2] = ___chain;
-	__d_args[3] = Box(SslPolicyErrors_t964_il2cpp_TypeInfo_var, &___sslPolicyErrors);
+	__d_args[3] = Box(SslPolicyErrors_t2_17_il2cpp_TypeInfo_var, &___sslPolicyErrors);
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean System.Net.Security.RemoteCertificateValidationCallback::EndInvoke(System.IAsyncResult)
-extern "C" bool RemoteCertificateValidationCallback_EndInvoke_m5670 (RemoteCertificateValidationCallback_t930 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool RemoteCertificateValidationCallback_EndInvoke_m2_901 (RemoteCertificateValidationCallback_t2_28 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
 }
 // System.Void System.Text.RegularExpressions.MatchEvaluator::.ctor(System.Object,System.IntPtr)
-extern "C" void MatchEvaluator__ctor_m5671 (MatchEvaluator_t1092 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void MatchEvaluator__ctor_m2_902 (MatchEvaluator_t2_153 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.String System.Text.RegularExpressions.MatchEvaluator::Invoke(System.Text.RegularExpressions.Match)
-extern "C" String_t* MatchEvaluator_Invoke_m5672 (MatchEvaluator_t1092 * __this, Match_t941 * ___match, const MethodInfo* method)
+extern "C" String_t* MatchEvaluator_Invoke_m2_903 (MatchEvaluator_t2_153 * __this, Match_t2_82 * ___match, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		MatchEvaluator_Invoke_m5672((MatchEvaluator_t1092 *)__this->___prev_9,___match, method);
+		MatchEvaluator_Invoke_m2_903((MatchEvaluator_t2_153 *)__this->___prev_9,___match, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef String_t* (*FunctionPointerType) (Object_t *, Object_t * __this, Match_t941 * ___match, const MethodInfo* method);
+		typedef String_t* (*FunctionPointerType) (Object_t *, Object_t * __this, Match_t2_82 * ___match, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___match,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef String_t* (*FunctionPointerType) (Object_t * __this, Match_t941 * ___match, const MethodInfo* method);
+		typedef String_t* (*FunctionPointerType) (Object_t * __this, Match_t2_82 * ___match, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___match,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
@@ -23883,21 +23883,21 @@ extern "C" String_t* MatchEvaluator_Invoke_m5672 (MatchEvaluator_t1092 * __this,
 		return ((FunctionPointerType)__this->___method_ptr_0)(___match,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" String_t* pinvoke_delegate_wrapper_MatchEvaluator_t1092(Il2CppObject* delegate, Match_t941 * ___match)
+extern "C" String_t* pinvoke_delegate_wrapper_MatchEvaluator_t2_153(Il2CppObject* delegate, Match_t2_82 * ___match)
 {
 	// Marshaling of parameter '___match' to native representation
-	Match_t941 * ____match_marshaled = { 0 };
+	Match_t2_82 * ____match_marshaled = { 0 };
 	il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Text.RegularExpressions.Match'."));
 }
 // System.IAsyncResult System.Text.RegularExpressions.MatchEvaluator::BeginInvoke(System.Text.RegularExpressions.Match,System.AsyncCallback,System.Object)
-extern "C" Object_t * MatchEvaluator_BeginInvoke_m5673 (MatchEvaluator_t1092 * __this, Match_t941 * ___match, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * MatchEvaluator_BeginInvoke_m2_904 (MatchEvaluator_t2_153 * __this, Match_t2_82 * ___match, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___match;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.String System.Text.RegularExpressions.MatchEvaluator::EndInvoke(System.IAsyncResult)
-extern "C" String_t* MatchEvaluator_EndInvoke_m5674 (MatchEvaluator_t1092 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" String_t* MatchEvaluator_EndInvoke_m2_905 (MatchEvaluator_t2_153 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return (String_t*)__result;

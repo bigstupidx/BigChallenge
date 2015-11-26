@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Security.Cryptography.HMACSHA256
-struct HMACSHA256_t1565;
+struct HMACSHA256_t1_564;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.HMACSHA256::.ctor()
-extern "C" void HMACSHA256__ctor_m9339 (HMACSHA256_t1565 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA256__ctor_m1_3791 (HMACSHA256_t1_564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA256::.ctor(System.Byte[])
-extern "C" void HMACSHA256__ctor_m9340 (HMACSHA256_t1565 * __this, ByteU5BU5D_t740* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA256__ctor_m1_3792 (HMACSHA256_t1_564 * __this, ByteU5BU5D_t1_70* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

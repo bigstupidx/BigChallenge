@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // LitJson.Lexer
-struct Lexer_t683;
+struct Lexer_t5_16;
 
 #include "mscorlib_System_Object.h"
 
 // LitJson.FsmContext
-struct  FsmContext_t691  : public Object_t
+struct  FsmContext_t5_19  : public Object_t
 {
 	// System.Boolean LitJson.FsmContext::Return
 	bool ___Return_0;
 	// System.Int32 LitJson.FsmContext::NextState
 	int32_t ___NextState_1;
 	// LitJson.Lexer LitJson.FsmContext::L
-	Lexer_t683 * ___L_2;
+	Lexer_t5_16 * ___L_2;
 	// System.Int32 LitJson.FsmContext::StateStack
 	int32_t ___StateStack_3;
 };

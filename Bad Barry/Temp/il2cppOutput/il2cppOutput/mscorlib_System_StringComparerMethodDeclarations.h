@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.StringComparer
-struct StringComparer_t1102;
+struct StringComparer_t1_752;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.StringComparer::.ctor()
-extern "C" void StringComparer__ctor_m10717 (StringComparer_t1102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringComparer__ctor_m1_5306 (StringComparer_t1_752 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.StringComparer::.cctor()
-extern "C" void StringComparer__cctor_m10718 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringComparer__cctor_m1_5307 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.StringComparer System.StringComparer::get_InvariantCultureIgnoreCase()
-extern "C" StringComparer_t1102 * StringComparer_get_InvariantCultureIgnoreCase_m5708 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringComparer_t1_752 * StringComparer_get_InvariantCultureIgnoreCase_m1_5308 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.StringComparer::Compare(System.Object,System.Object)
-extern "C" int32_t StringComparer_Compare_m10719 (StringComparer_t1102 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StringComparer_Compare_m1_5309 (StringComparer_t1_752 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.StringComparer::Equals(System.Object,System.Object)
-extern "C" bool StringComparer_Equals_m10720 (StringComparer_t1102 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StringComparer_Equals_m1_5310 (StringComparer_t1_752 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.StringComparer::GetHashCode(System.Object)
-extern "C" int32_t StringComparer_GetHashCode_m10721 (StringComparer_t1102 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StringComparer_GetHashCode_m1_5311 (StringComparer_t1_752 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

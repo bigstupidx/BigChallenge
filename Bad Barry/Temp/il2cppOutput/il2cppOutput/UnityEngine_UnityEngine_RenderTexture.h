@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Texture.h"
 
 // UnityEngine.RenderTexture
-struct  RenderTexture_t459  : public Texture_t251
+struct  RenderTexture_t6_34  : public Texture_t6_32
 {
 };

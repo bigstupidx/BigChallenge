@@ -13,19 +13,19 @@
 #include <exception>
 
 // UnityEngine.TrackedReference
-struct TrackedReference_t526;
-struct TrackedReference_t526_marshaled;
+struct TrackedReference_t6_132;
+struct TrackedReference_t6_132_marshaled;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Boolean UnityEngine.TrackedReference::Equals(System.Object)
-extern "C" bool TrackedReference_Equals_m3326 (TrackedReference_t526 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TrackedReference_Equals_m6_1255 (TrackedReference_t6_132 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TrackedReference::GetHashCode()
-extern "C" int32_t TrackedReference_GetHashCode_m3327 (TrackedReference_t526 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TrackedReference_GetHashCode_m6_1256 (TrackedReference_t6_132 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TrackedReference::op_Equality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
-extern "C" bool TrackedReference_op_Equality_m3328 (Object_t * __this /* static, unused */, TrackedReference_t526 * ___x, TrackedReference_t526 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void TrackedReference_t526_marshal(const TrackedReference_t526& unmarshaled, TrackedReference_t526_marshaled& marshaled);
-extern "C" void TrackedReference_t526_marshal_back(const TrackedReference_t526_marshaled& marshaled, TrackedReference_t526& unmarshaled);
-extern "C" void TrackedReference_t526_marshal_cleanup(TrackedReference_t526_marshaled& marshaled);
+extern "C" bool TrackedReference_op_Equality_m6_1257 (Object_t * __this /* static, unused */, TrackedReference_t6_132 * ___x, TrackedReference_t6_132 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TrackedReference_t6_132_marshal(const TrackedReference_t6_132& unmarshaled, TrackedReference_t6_132_marshaled& marshaled);
+extern "C" void TrackedReference_t6_132_marshal_back(const TrackedReference_t6_132_marshaled& marshaled, TrackedReference_t6_132& unmarshaled);
+extern "C" void TrackedReference_t6_132_marshal_cleanup(TrackedReference_t6_132_marshaled& marshaled);

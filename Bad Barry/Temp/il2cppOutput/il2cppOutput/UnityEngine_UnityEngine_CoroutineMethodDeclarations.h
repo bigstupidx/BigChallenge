@@ -13,17 +13,17 @@
 #include <exception>
 
 // UnityEngine.Coroutine
-struct Coroutine_t237;
-struct Coroutine_t237_marshaled;
+struct Coroutine_t6_14;
+struct Coroutine_t6_14_marshaled;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.Coroutine::.ctor()
-extern "C" void Coroutine__ctor_m2490 (Coroutine_t237 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Coroutine__ctor_m6_12 (Coroutine_t6_14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Coroutine::ReleaseCoroutine()
-extern "C" void Coroutine_ReleaseCoroutine_m2491 (Coroutine_t237 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Coroutine_ReleaseCoroutine_m6_13 (Coroutine_t6_14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Coroutine::Finalize()
-extern "C" void Coroutine_Finalize_m2492 (Coroutine_t237 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void Coroutine_t237_marshal(const Coroutine_t237& unmarshaled, Coroutine_t237_marshaled& marshaled);
-extern "C" void Coroutine_t237_marshal_back(const Coroutine_t237_marshaled& marshaled, Coroutine_t237& unmarshaled);
-extern "C" void Coroutine_t237_marshal_cleanup(Coroutine_t237_marshaled& marshaled);
+extern "C" void Coroutine_Finalize_m6_14 (Coroutine_t6_14 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Coroutine_t6_14_marshal(const Coroutine_t6_14& unmarshaled, Coroutine_t6_14_marshaled& marshaled);
+extern "C" void Coroutine_t6_14_marshal_back(const Coroutine_t6_14_marshaled& marshaled, Coroutine_t6_14& unmarshaled);
+extern "C" void Coroutine_t6_14_marshal_cleanup(Coroutine_t6_14_marshaled& marshaled);

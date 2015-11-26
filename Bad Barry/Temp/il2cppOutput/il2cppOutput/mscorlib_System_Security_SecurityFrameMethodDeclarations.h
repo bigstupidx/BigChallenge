@@ -13,32 +13,32 @@
 #include <exception>
 
 // System.Security.RuntimeSecurityFrame
-struct RuntimeSecurityFrame_t1613;
+struct RuntimeSecurityFrame_t1_625;
 // System.Array
 struct Array_t;
 // System.Reflection.Assembly
-struct Assembly_t1103;
+struct Assembly_t1_266;
 // System.AppDomain
-struct AppDomain_t624;
+struct AppDomain_t1_626;
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Security_SecurityFrame.h"
 
 // System.Void System.Security.SecurityFrame::.ctor(System.Security.RuntimeSecurityFrame)
-extern "C" void SecurityFrame__ctor_m9677 (SecurityFrame_t1614 * __this, RuntimeSecurityFrame_t1613 * ___frame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityFrame__ctor_m1_4160 (SecurityFrame_t1_627 * __this, RuntimeSecurityFrame_t1_625 * ___frame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array System.Security.SecurityFrame::_GetSecurityStack(System.Int32)
-extern "C" Array_t * SecurityFrame__GetSecurityStack_m9678 (Object_t * __this /* static, unused */, int32_t ___skip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Array_t * SecurityFrame__GetSecurityStack_m1_4161 (Object_t * __this /* static, unused */, int32_t ___skip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.SecurityFrame::InitFromRuntimeFrame(System.Security.RuntimeSecurityFrame)
-extern "C" void SecurityFrame_InitFromRuntimeFrame_m9679 (SecurityFrame_t1614 * __this, RuntimeSecurityFrame_t1613 * ___frame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityFrame_InitFromRuntimeFrame_m1_4162 (SecurityFrame_t1_627 * __this, RuntimeSecurityFrame_t1_625 * ___frame, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.Security.SecurityFrame::get_Assembly()
-extern "C" Assembly_t1103 * SecurityFrame_get_Assembly_m9680 (SecurityFrame_t1614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t1_266 * SecurityFrame_get_Assembly_m1_4163 (SecurityFrame_t1_627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.AppDomain System.Security.SecurityFrame::get_Domain()
-extern "C" AppDomain_t624 * SecurityFrame_get_Domain_m9681 (SecurityFrame_t1614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AppDomain_t1_626 * SecurityFrame_get_Domain_m1_4164 (SecurityFrame_t1_627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.SecurityFrame::ToString()
-extern "C" String_t* SecurityFrame_ToString_m9682 (SecurityFrame_t1614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SecurityFrame_ToString_m1_4165 (SecurityFrame_t1_627 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Security.SecurityFrame::GetStack(System.Int32)
-extern "C" ArrayList_t771 * SecurityFrame_GetStack_m9683 (Object_t * __this /* static, unused */, int32_t ___skipFrames, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t1_112 * SecurityFrame_GetStack_m1_4166 (Object_t * __this /* static, unused */, int32_t ___skipFrames, const MethodInfo* method) IL2CPP_METHOD_ATTR;

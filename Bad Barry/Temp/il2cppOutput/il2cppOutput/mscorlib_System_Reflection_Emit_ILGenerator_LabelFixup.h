@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.Emit.ILGenerator/LabelFixup
-struct  LabelFixup_t1307 
+struct  LabelFixup_t1_281 
 {
 	// System.Int32 System.Reflection.Emit.ILGenerator/LabelFixup::offset
 	int32_t ___offset_0;

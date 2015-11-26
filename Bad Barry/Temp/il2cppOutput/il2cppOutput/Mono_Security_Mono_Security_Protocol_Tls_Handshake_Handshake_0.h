@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // Mono.Security.Protocol.Tls.Context
-struct Context_t827;
+struct Context_t3_60;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "Mono_Security_Mono_Security_Protocol_Tls_TlsStream.h"
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake.h"
 #include "Mono_Security_Mono_Security_Protocol_Tls_ContentType.h"
 
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
-struct  HandshakeMessage_t853  : public TlsStream_t841
+struct  HandshakeMessage_t3_82  : public TlsStream_t3_73
 {
 	// Mono.Security.Protocol.Tls.Context Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::context
-	Context_t827 * ___context_5;
+	Context_t3_60 * ___context_5;
 	// Mono.Security.Protocol.Tls.Handshake.HandshakeType Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::handshakeType
 	uint8_t ___handshakeType_6;
 	// Mono.Security.Protocol.Tls.ContentType Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::contentType
 	uint8_t ___contentType_7;
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.HandshakeMessage::cache
-	ByteU5BU5D_t740* ___cache_8;
+	ByteU5BU5D_t1_70* ___cache_8;
 };

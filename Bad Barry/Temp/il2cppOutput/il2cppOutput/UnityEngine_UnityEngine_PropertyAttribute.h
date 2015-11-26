@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.PropertyAttribute
-struct  PropertyAttribute_t583  : public Attribute_t476
+struct  PropertyAttribute_t6_206  : public Attribute_t1_2
 {
 };

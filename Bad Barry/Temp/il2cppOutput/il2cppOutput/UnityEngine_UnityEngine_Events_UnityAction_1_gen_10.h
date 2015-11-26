@@ -10,19 +10,19 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct List_1_t373;
+// UnityEngine.EventSystems.BaseEventData
+struct BaseEventData_t7_5;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Void.h"
 
-// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Canvas>>
-struct  UnityAction_1_t2028  : public MulticastDelegate_t227
+// UnityEngine.Events.UnityAction`1<UnityEngine.EventSystems.BaseEventData>
+struct  UnityAction_1_t6_303  : public MulticastDelegate_t1_21
 {
 };

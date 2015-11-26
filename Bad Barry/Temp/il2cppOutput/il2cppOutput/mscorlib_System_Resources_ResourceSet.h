@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Resources.IResourceReader
-struct IResourceReader_t1391;
+struct IResourceReader_t1_368;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceSet
-struct  ResourceSet_t1390  : public Object_t
+struct  ResourceSet_t1_367  : public Object_t
 {
 	// System.Resources.IResourceReader System.Resources.ResourceSet::Reader
 	Object_t * ___Reader_0;
 	// System.Collections.Hashtable System.Resources.ResourceSet::Table
-	Hashtable_t836 * ___Table_1;
+	Hashtable_t1_171 * ___Table_1;
 	// System.Boolean System.Resources.ResourceSet::resources_read
 	bool ___resources_read_2;
 	// System.Boolean System.Resources.ResourceSet::disposed

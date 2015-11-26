@@ -13,26 +13,26 @@
 #include <exception>
 
 // System.Runtime.InteropServices.SafeHandle
-struct SafeHandle_t1144;
+struct SafeHandle_t1_63;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Runtime.InteropServices.SafeHandle::.ctor(System.IntPtr,System.Boolean)
-extern "C" void SafeHandle__ctor_m8654 (SafeHandle_t1144 * __this, IntPtr_t ___invalidHandleValue, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle__ctor_m1_3066 (SafeHandle_t1_63 * __this, IntPtr_t ___invalidHandleValue, bool ___ownsHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::Close()
-extern "C" void SafeHandle_Close_m8655 (SafeHandle_t1144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_Close_m1_3067 (SafeHandle_t1_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::DangerousAddRef(System.Boolean&)
-extern "C" void SafeHandle_DangerousAddRef_m8656 (SafeHandle_t1144 * __this, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_DangerousAddRef_m1_3068 (SafeHandle_t1_63 * __this, bool* ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Runtime.InteropServices.SafeHandle::DangerousGetHandle()
-extern "C" IntPtr_t SafeHandle_DangerousGetHandle_m8657 (SafeHandle_t1144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t SafeHandle_DangerousGetHandle_m1_3069 (SafeHandle_t1_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::DangerousRelease()
-extern "C" void SafeHandle_DangerousRelease_m8658 (SafeHandle_t1144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_DangerousRelease_m1_3070 (SafeHandle_t1_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::Dispose()
-extern "C" void SafeHandle_Dispose_m8659 (SafeHandle_t1144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_Dispose_m1_3071 (SafeHandle_t1_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::Dispose(System.Boolean)
-extern "C" void SafeHandle_Dispose_m8660 (SafeHandle_t1144 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_Dispose_m1_3072 (SafeHandle_t1_63 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::SetHandle(System.IntPtr)
-extern "C" void SafeHandle_SetHandle_m8661 (SafeHandle_t1144 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_SetHandle_m1_3073 (SafeHandle_t1_63 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.SafeHandle::Finalize()
-extern "C" void SafeHandle_Finalize_m8662 (SafeHandle_t1144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SafeHandle_Finalize_m1_3074 (SafeHandle_t1_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

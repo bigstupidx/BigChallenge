@@ -13,18 +13,18 @@
 #include <exception>
 
 // System.FormatException
-struct FormatException_t905;
+struct FormatException_t1_720;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.FormatException::.ctor()
-extern "C" void FormatException__ctor_m10452 (FormatException_t905 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m1_5026 (FormatException_t1_720 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FormatException::.ctor(System.String)
-extern "C" void FormatException__ctor_m4674 (FormatException_t905 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m1_5027 (FormatException_t1_720 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.FormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FormatException__ctor_m5762 (FormatException_t905 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormatException__ctor_m1_5028 (FormatException_t1_720 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

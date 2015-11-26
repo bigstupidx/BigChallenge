@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.SoapServices
-struct  SoapServices_t1515  : public Object_t
+struct  SoapServices_t1_495  : public Object_t
 {
 };
-struct SoapServices_t1515_StaticFields{
+struct SoapServices_t1_495_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_xmlTypes
-	Hashtable_t836 * ____xmlTypes_0;
+	Hashtable_t1_171 * ____xmlTypes_0;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_xmlElements
-	Hashtable_t836 * ____xmlElements_1;
+	Hashtable_t1_171 * ____xmlElements_1;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_soapActions
-	Hashtable_t836 * ____soapActions_2;
+	Hashtable_t1_171 * ____soapActions_2;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_soapActionsMethods
-	Hashtable_t836 * ____soapActionsMethods_3;
+	Hashtable_t1_171 * ____soapActionsMethods_3;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_typeInfos
-	Hashtable_t836 * ____typeInfos_4;
+	Hashtable_t1_171 * ____typeInfos_4;
 };

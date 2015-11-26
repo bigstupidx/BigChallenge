@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Text[]
-struct TextU5BU5D_t2036;
+// UnityEngine.UILineInfo[]
+struct UILineInfoU5BU5D_t6_249;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct  List_1_t377  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
+struct  List_1_t1_913  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::_items
-	TextU5BU5D_t2036* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	UILineInfoU5BU5D_t6_249* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t377_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::EmptyArray
-	TextU5BU5D_t2036* ___EmptyArray_4;
+struct List_1_t1_913_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	UILineInfoU5BU5D_t6_249* ___EmptyArray_4;
 };

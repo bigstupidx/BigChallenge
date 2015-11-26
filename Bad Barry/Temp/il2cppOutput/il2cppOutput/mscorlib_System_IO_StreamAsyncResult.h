@@ -13,14 +13,14 @@
 // System.Object
 struct Object_t;
 // System.Exception
-struct Exception_t82;
+struct Exception_t1_33;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t850;
+struct ManualResetEvent_t1_237;
 
 #include "mscorlib_System_Object.h"
 
 // System.IO.StreamAsyncResult
-struct  StreamAsyncResult_t1281  : public Object_t
+struct  StreamAsyncResult_t1_248  : public Object_t
 {
 	// System.Object System.IO.StreamAsyncResult::state
 	Object_t * ___state_0;
@@ -29,9 +29,9 @@ struct  StreamAsyncResult_t1281  : public Object_t
 	// System.Boolean System.IO.StreamAsyncResult::done
 	bool ___done_2;
 	// System.Exception System.IO.StreamAsyncResult::exc
-	Exception_t82 * ___exc_3;
+	Exception_t1_33 * ___exc_3;
 	// System.Int32 System.IO.StreamAsyncResult::nbytes
 	int32_t ___nbytes_4;
 	// System.Threading.ManualResetEvent System.IO.StreamAsyncResult::wh
-	ManualResetEvent_t850 * ___wh_5;
+	ManualResetEvent_t1_237 * ___wh_5;
 };

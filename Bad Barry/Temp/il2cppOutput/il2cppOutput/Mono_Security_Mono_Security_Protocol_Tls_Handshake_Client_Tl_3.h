@@ -14,6 +14,6 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange
-struct  TlsClientKeyExchange_t881  : public HandshakeMessage_t853
+struct  TlsClientKeyExchange_t3_104  : public HandshakeMessage_t3_82
 {
 };

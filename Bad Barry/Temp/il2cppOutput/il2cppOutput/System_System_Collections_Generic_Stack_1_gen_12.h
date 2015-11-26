@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<System.Int32>[]
-struct List_1U5BU5D_t2211;
+struct List_1U5BU5D_t1_1546;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Int32>>
-struct  Stack_1_t2210  : public Object_t
+struct  Stack_1_t2_176  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Int32>>::_array
-	List_1U5BU5D_t2211* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Int32>>::_size
+	// T[] System.Collections.Generic.Stack`1::_array
+	List_1U5BU5D_t1_1546* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Int32>>::_version
+	// System.Int32 System.Collections.Generic.Stack`1::_version
 	int32_t ____version_2;
 };

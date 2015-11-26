@@ -15,7 +15,7 @@
 #include "LitJson_LitJson_JsonType.h"
 
 // LitJson.JsonType
-struct  JsonType_t656 
+struct  JsonType_t5_1 
 {
 	// System.Int32 LitJson.JsonType::value__
 	int32_t ___value___1;

@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_StateMachineBehaviour.h"
 
 // deathrotate
-struct  deathrotate_t38  : public StateMachineBehaviour_t39
+struct  deathrotate_t8_27  : public StateMachineBehaviour_t6_215
 {
 };

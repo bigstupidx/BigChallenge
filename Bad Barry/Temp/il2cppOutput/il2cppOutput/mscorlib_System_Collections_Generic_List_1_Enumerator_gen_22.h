@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t271;
-// UnityEngine.UI.Selectable
-struct Selectable_t170;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
+struct List_1_t1_955;
+// UnityEngine.EventSystems.IEventSystemHandler
+struct IEventSystemHandler_t7_200;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>
-struct  Enumerator_t2102 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
+struct  Enumerator_t1_1412 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::l
-	List_1_t271 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_955 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>::current
-	Selectable_t170 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Object_t * ___current_3;
 };

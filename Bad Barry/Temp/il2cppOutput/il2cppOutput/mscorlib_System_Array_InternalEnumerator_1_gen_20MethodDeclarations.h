@@ -19,23 +19,23 @@ struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_20.h"
-#include "UnityEngine_UnityEngine_UILineInfo.h"
+#include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer_TableRa.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m14266_gshared (InternalEnumerator_1_t2081 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m14266(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2081 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m14266_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m14267_gshared (InternalEnumerator_1_t2081 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m14267(__this, method) (( void (*) (InternalEnumerator_1_t2081 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m14267_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14268_gshared (InternalEnumerator_1_t2081 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14268(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2081 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14268_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m14269_gshared (InternalEnumerator_1_t2081 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m14269(__this, method) (( void (*) (InternalEnumerator_1_t2081 *, const MethodInfo*))InternalEnumerator_1_Dispose_m14269_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m14270_gshared (InternalEnumerator_1_t2081 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m14270(__this, method) (( bool (*) (InternalEnumerator_1_t2081 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m14270_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.UILineInfo>::get_Current()
-extern "C" UILineInfo_t393  InternalEnumerator_1_get_Current_m14271_gshared (InternalEnumerator_1_t2081 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m14271(__this, method) (( UILineInfo_t393  (*) (InternalEnumerator_1_t2081 *, const MethodInfo*))InternalEnumerator_1_get_Current_m14271_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m1_5995_gshared (InternalEnumerator_1_t1_1017 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_5995(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1017 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_5995_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_5996_gshared (InternalEnumerator_1_t1_1017 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_5996(__this, method) (( void (*) (InternalEnumerator_1_t1_1017 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_5996_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_5997_gshared (InternalEnumerator_1_t1_1017 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_5997(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1017 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_5997_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m1_5998_gshared (InternalEnumerator_1_t1_1017 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_5998(__this, method) (( void (*) (InternalEnumerator_1_t1_1017 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_5998_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m1_5999_gshared (InternalEnumerator_1_t1_1017 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_5999(__this, method) (( bool (*) (InternalEnumerator_1_t1_1017 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_5999_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.CodePointIndexer/TableRange>::get_Current()
+extern "C" TableRange_t1_65  InternalEnumerator_1_get_Current_m1_6000_gshared (InternalEnumerator_1_t1_1017 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_6000(__this, method) (( TableRange_t1_65  (*) (InternalEnumerator_1_t1_1017 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_6000_gshared)(__this, method)

@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Respawn
-struct  Respawn_t47  : public MonoBehaviour_t2
+struct  Respawn_t8_34  : public MonoBehaviour_t6_88
 {
 	// System.Single Respawn::respawn_time
 	float ___respawn_time_2;
 	// System.Single Respawn::timer
 	float ___timer_3;
 	// UnityEngine.GameObject Respawn::inimigo
-	GameObject_t3 * ___inimigo_4;
+	GameObject_t6_94 * ___inimigo_4;
 };

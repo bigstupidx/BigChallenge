@@ -14,17 +14,17 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m17591(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2344 *, Type_t *, ArrayMetadata_t665 , const MethodInfo*))KeyValuePair_2__ctor_m17409_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::get_Key()
-#define KeyValuePair_2_get_Key_m17592(__this, method) (( Type_t * (*) (KeyValuePair_2_t2344 *, const MethodInfo*))KeyValuePair_2_get_Key_m17410_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m17593(__this, ___value, method) (( void (*) (KeyValuePair_2_t2344 *, Type_t *, const MethodInfo*))KeyValuePair_2_set_Key_m17411_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::get_Value()
-#define KeyValuePair_2_get_Value_m17594(__this, method) (( ArrayMetadata_t665  (*) (KeyValuePair_2_t2344 *, const MethodInfo*))KeyValuePair_2_get_Value_m17412_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m17595(__this, ___value, method) (( void (*) (KeyValuePair_2_t2344 *, ArrayMetadata_t665 , const MethodInfo*))KeyValuePair_2_set_Value_m17413_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ArrayMetadata>::ToString()
-#define KeyValuePair_2_ToString_m17596(__this, method) (( String_t* (*) (KeyValuePair_2_t2344 *, const MethodInfo*))KeyValuePair_2_ToString_m17414_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::.ctor(TKey,TValue)
+#define KeyValuePair_2__ctor_m1_8547(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_1249 *, Type_t *, ImporterFunc_t5_10 *, const MethodInfo*))KeyValuePair_2__ctor_m1_6296_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::get_Key()
+#define KeyValuePair_2_get_Key_m1_8548(__this, method) (( Type_t * (*) (KeyValuePair_2_t1_1249 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_6297_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::set_Key(TKey)
+#define KeyValuePair_2_set_Key_m1_8549(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1249 *, Type_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_6298_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::get_Value()
+#define KeyValuePair_2_get_Value_m1_8550(__this, method) (( ImporterFunc_t5_10 * (*) (KeyValuePair_2_t1_1249 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_6299_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::set_Value(TValue)
+#define KeyValuePair_2_set_Value_m1_8551(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_1249 *, ImporterFunc_t5_10 *, const MethodInfo*))KeyValuePair_2_set_Value_m1_6300_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::ToString()
+#define KeyValuePair_2_ToString_m1_8552(__this, method) (( String_t* (*) (KeyValuePair_2_t1_1249 *, const MethodInfo*))KeyValuePair_2_ToString_m1_6301_gshared)(__this, method)

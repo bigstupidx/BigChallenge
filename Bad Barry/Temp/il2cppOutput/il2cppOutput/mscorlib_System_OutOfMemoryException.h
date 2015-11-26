@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.OutOfMemoryException
-struct  OutOfMemoryException_t1716  : public SystemException_t1104
+struct  OutOfMemoryException_t1_746  : public SystemException_t1_147
 {
 };

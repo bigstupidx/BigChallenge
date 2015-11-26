@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Text_EncoderFallback.h"
 
 // System.Text.EncoderReplacementFallback
-struct  EncoderReplacementFallback_t1632  : public EncoderFallback_t1628
+struct  EncoderReplacementFallback_t1_646  : public EncoderFallback_t1_642
 {
 	// System.String System.Text.EncoderReplacementFallback::replacement
 	String_t* ___replacement_3;

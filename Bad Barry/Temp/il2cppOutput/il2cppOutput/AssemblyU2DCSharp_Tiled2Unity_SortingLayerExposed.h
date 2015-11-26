@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Tiled2Unity.SortingLayerExposed
-struct  SortingLayerExposed_t65  : public MonoBehaviour_t2
+struct  SortingLayerExposed_t8_47  : public MonoBehaviour_t6_88
 {
 };

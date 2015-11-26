@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Collider2D.h"
 
 // UnityEngine.BoxCollider2D
-struct  BoxCollider2D_t90  : public Collider2D_t72
+struct  BoxCollider2D_t6_115  : public Collider2D_t6_113
 {
 };

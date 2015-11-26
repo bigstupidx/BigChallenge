@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_15.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>
-struct  DefaultComparer_t2527  : public Comparer_1_t2526
+// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
+struct  DefaultComparer_t1_1426  : public Comparer_1_t1_1425
 {
 };

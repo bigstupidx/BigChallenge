@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Reflection.Assembly
-struct Assembly_t1103;
+struct Assembly_t1_266;
 // System.Object
 struct Object_t;
 // System.ResolveEventArgs
-struct ResolveEventArgs_t1720;
+struct ResolveEventArgs_t1_750;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.ResolveEventHandler
-struct  ResolveEventHandler_t1666  : public MulticastDelegate_t227
+struct  ResolveEventHandler_t1_680  : public MulticastDelegate_t1_21
 {
 };

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.IO.TextReader
-struct TextReader_t684;
+struct TextReader_t1_143;
 
 #include "mscorlib_System_IO_TextReader.h"
 
 // System.IO.SynchronizedReader
-struct  SynchronizedReader_t1286  : public TextReader_t684
+struct  SynchronizedReader_t1_256  : public TextReader_t1_143
 {
 	// System.IO.TextReader System.IO.SynchronizedReader::reader
-	TextReader_t684 * ___reader_1;
+	TextReader_t1_143 * ___reader_1;
 };

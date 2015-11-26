@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
-struct List_1_t254;
-// UnityEngine.UI.RectMask2D
-struct RectMask2D_t245;
+// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
+struct List_1_t1_915;
+// UnityEngine.Events.BaseInvokableCall
+struct BaseInvokableCall_t6_218;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>
-struct  Enumerator_t2088 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>
+struct  Enumerator_t1_1402 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>::l
-	List_1_t254 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_915 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>::current
-	RectMask2D_t245 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	BaseInvokableCall_t6_218 * ___current_3;
 };

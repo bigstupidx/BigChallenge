@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Vector4
-struct  Vector4_t319 
+struct  Vector4_t6_55 
 {
 	// System.Single UnityEngine.Vector4::x
 	float ___x_1;

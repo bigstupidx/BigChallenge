@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.UI.Dropdown/<Show>c__AnonStorey6
-struct U3CShowU3Ec__AnonStorey6_t188;
+struct U3CShowU3Ec__AnonStorey6_t7_71;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Dropdown/<Show>c__AnonStorey6::.ctor()
-extern "C" void U3CShowU3Ec__AnonStorey6__ctor_m893 (U3CShowU3Ec__AnonStorey6_t188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CShowU3Ec__AnonStorey6__ctor_m7_410 (U3CShowU3Ec__AnonStorey6_t7_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/<Show>c__AnonStorey6::<>m__2(System.Boolean)
-extern "C" void U3CShowU3Ec__AnonStorey6_U3CU3Em__2_m894 (U3CShowU3Ec__AnonStorey6_t188 * __this, bool ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CShowU3Ec__AnonStorey6_U3CU3Em__2_m7_411 (U3CShowU3Ec__AnonStorey6_t7_71 * __this, bool ___x, const MethodInfo* method) IL2CPP_METHOD_ATTR;

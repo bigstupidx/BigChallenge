@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Math.Prime.PrimalityTests
-struct  PrimalityTests_t1170  : public Object_t
+struct  PrimalityTests_t1_91  : public Object_t
 {
 };

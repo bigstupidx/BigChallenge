@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Net.DefaultCertificatePolicy
-struct  DefaultCertificatePolicy_t966  : public Object_t
+struct  DefaultCertificatePolicy_t2_19  : public Object_t
 {
 };

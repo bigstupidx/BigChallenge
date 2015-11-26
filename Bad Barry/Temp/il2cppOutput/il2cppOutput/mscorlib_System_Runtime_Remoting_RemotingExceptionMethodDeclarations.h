@@ -13,22 +13,22 @@
 #include <exception>
 
 // System.Runtime.Remoting.RemotingException
-struct RemotingException_t1508;
+struct RemotingException_t1_488;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 // System.Exception
-struct Exception_t82;
+struct Exception_t1_33;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.RemotingException::.ctor()
-extern "C" void RemotingException__ctor_m9045 (RemotingException_t1508 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingException__ctor_m1_3457 (RemotingException_t1_488 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingException::.ctor(System.String)
-extern "C" void RemotingException__ctor_m9046 (RemotingException_t1508 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingException__ctor_m1_3458 (RemotingException_t1_488 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void RemotingException__ctor_m9047 (RemotingException_t1508 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingException__ctor_m1_3459 (RemotingException_t1_488 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingException::.ctor(System.String,System.Exception)
-extern "C" void RemotingException__ctor_m9048 (RemotingException_t1508 * __this, String_t* ___message, Exception_t82 * ___InnerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingException__ctor_m1_3460 (RemotingException_t1_488 * __this, String_t* ___message, Exception_t1_33 * ___InnerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;

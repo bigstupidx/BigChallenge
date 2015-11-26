@@ -15,7 +15,7 @@
 #include "mscorlib_System_Reflection_PInfo.h"
 
 // System.Reflection.PInfo
-struct  PInfo_t1369 
+struct  PInfo_t1_345 
 {
 	// System.Int32 System.Reflection.PInfo::value__
 	int32_t ___value___1;

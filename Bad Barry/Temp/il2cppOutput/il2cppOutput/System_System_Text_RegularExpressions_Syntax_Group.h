@@ -14,6 +14,6 @@
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 
 // System.Text.RegularExpressions.Syntax.Group
-struct  Group_t1065  : public CompositeExpression_t1064
+struct  Group_t2_127  : public CompositeExpression_t2_126
 {
 };

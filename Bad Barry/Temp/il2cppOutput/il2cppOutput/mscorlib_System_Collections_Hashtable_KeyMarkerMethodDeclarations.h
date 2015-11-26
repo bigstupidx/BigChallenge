@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Collections.Hashtable/KeyMarker
-struct KeyMarker_t1222;
+struct KeyMarker_t1_168;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Hashtable/KeyMarker::.ctor()
-extern "C" void KeyMarker__ctor_m7318 (KeyMarker_t1222 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyMarker__ctor_m1_1700 (KeyMarker_t1_168 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/KeyMarker::.cctor()
-extern "C" void KeyMarker__cctor_m7319 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyMarker__cctor_m1_1701 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_TextReader.h"
 
 // System.IO.TextReader/NullTextReader
-struct  NullTextReader_t1285  : public TextReader_t684
+struct  NullTextReader_t1_255  : public TextReader_t1_143
 {
 };

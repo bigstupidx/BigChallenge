@@ -16,12 +16,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Single UnityEngine.Time::get_deltaTime()
-extern "C" float Time_get_deltaTime_m350 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_deltaTime_m6_755 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledTime()
-extern "C" float Time_get_unscaledTime_m1962 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_unscaledTime_m6_756 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledDeltaTime()
-extern "C" float Time_get_unscaledDeltaTime_m2014 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_unscaledDeltaTime_m6_757 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Time::set_timeScale(System.Single)
-extern "C" void Time_set_timeScale_m460 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Time_set_timeScale_m6_758 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Time::get_frameCount()
-extern "C" int32_t Time_get_frameCount_m329 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Time_get_frameCount_m6_759 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

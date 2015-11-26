@@ -15,12 +15,12 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.GUIUtility
-struct  GUIUtility_t391  : public Object_t
+struct  GUIUtility_t6_165  : public Object_t
 {
 };
-struct GUIUtility_t391_StaticFields{
+struct GUIUtility_t6_165_StaticFields{
 	// UnityEngine.Vector2 UnityEngine.GUIUtility::s_EditorScreenPointOffset
-	Vector2_t25  ___s_EditorScreenPointOffset_0;
+	Vector2_t6_48  ___s_EditorScreenPointOffset_0;
 	// System.Boolean UnityEngine.GUIUtility::s_HasKeyboardFocus
 	bool ___s_HasKeyboardFocus_1;
 };

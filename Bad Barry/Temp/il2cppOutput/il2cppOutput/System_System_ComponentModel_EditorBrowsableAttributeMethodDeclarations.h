@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.ComponentModel.EditorBrowsableAttribute
-struct EditorBrowsableAttribute_t959;
+struct EditorBrowsableAttribute_t2_12;
 // System.Object
 struct Object_t;
 
@@ -21,10 +21,10 @@ struct Object_t;
 #include "System_System_ComponentModel_EditorBrowsableState.h"
 
 // System.Void System.ComponentModel.EditorBrowsableAttribute::.ctor(System.ComponentModel.EditorBrowsableState)
-extern "C" void EditorBrowsableAttribute__ctor_m4873 (EditorBrowsableAttribute_t959 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EditorBrowsableAttribute__ctor_m2_81 (EditorBrowsableAttribute_t2_12 * __this, int32_t ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.ComponentModel.EditorBrowsableState System.ComponentModel.EditorBrowsableAttribute::get_State()
-extern "C" int32_t EditorBrowsableAttribute_get_State_m4874 (EditorBrowsableAttribute_t959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EditorBrowsableAttribute_get_State_m2_82 (EditorBrowsableAttribute_t2_12 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ComponentModel.EditorBrowsableAttribute::Equals(System.Object)
-extern "C" bool EditorBrowsableAttribute_Equals_m4875 (EditorBrowsableAttribute_t959 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EditorBrowsableAttribute_Equals_m2_83 (EditorBrowsableAttribute_t2_12 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ComponentModel.EditorBrowsableAttribute::GetHashCode()
-extern "C" int32_t EditorBrowsableAttribute_GetHashCode_m4876 (EditorBrowsableAttribute_t959 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EditorBrowsableAttribute_GetHashCode_m2_84 (EditorBrowsableAttribute_t2_12 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

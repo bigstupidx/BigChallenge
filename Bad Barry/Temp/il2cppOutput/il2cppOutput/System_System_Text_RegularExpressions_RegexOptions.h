@@ -15,7 +15,7 @@
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 
 // System.Text.RegularExpressions.RegexOptions
-struct  RegexOptions_t1033 
+struct  RegexOptions_t2_96 
 {
 	// System.Int32 System.Text.RegularExpressions.RegexOptions::value__
 	int32_t ___value___1;

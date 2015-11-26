@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // Mono.Security.PKCS7/ContentInfo
-struct ContentInfo_t1201;
+struct ContentInfo_t1_134;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.PKCS7/EncryptedData
-struct  EncryptedData_t1202  : public Object_t
+struct  EncryptedData_t1_135  : public Object_t
 {
 	// System.Byte Mono.Security.PKCS7/EncryptedData::_version
 	uint8_t ____version_0;
 	// Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::_content
-	ContentInfo_t1201 * ____content_1;
+	ContentInfo_t1_134 * ____content_1;
 	// Mono.Security.PKCS7/ContentInfo Mono.Security.PKCS7/EncryptedData::_encryptionAlgorithm
-	ContentInfo_t1201 * ____encryptionAlgorithm_2;
+	ContentInfo_t1_134 * ____encryptionAlgorithm_2;
 	// System.Byte[] Mono.Security.PKCS7/EncryptedData::_encrypted
-	ByteU5BU5D_t740* ____encrypted_3;
+	ByteU5BU5D_t1_70* ____encrypted_3;
 };

@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t235;
+// UnityEngine.Events.PersistentCall[]
+struct PersistentCallU5BU5D_t6_294;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct  List_1_t348  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct  List_1_t1_914  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::_items
-	UIVertexU5BU5D_t235* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	PersistentCallU5BU5D_t6_294* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t348_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::EmptyArray
-	UIVertexU5BU5D_t235* ___EmptyArray_4;
+struct List_1_t1_914_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	PersistentCallU5BU5D_t6_294* ___EmptyArray_4;
 };

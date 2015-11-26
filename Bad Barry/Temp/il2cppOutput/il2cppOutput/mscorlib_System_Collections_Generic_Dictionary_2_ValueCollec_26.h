@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Type,LitJson.ImporterFunc>
-struct Dictionary_2_t725;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
+struct Dictionary_2_t1_945;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ImporterFunc>
-struct  ValueCollection_t2388  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
+struct  ValueCollection_t1_1491  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ImporterFunc>::dictionary
-	Dictionary_2_t725 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_945 * ___dictionary_0;
 };

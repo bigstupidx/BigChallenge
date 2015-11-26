@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Canvas[]
-struct CanvasU5BU5D_t2021;
+// UnityEngine.UICharInfo[]
+struct UICharInfoU5BU5D_t6_248;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct  List_1_t373  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
+struct  List_1_t1_912  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::_items
-	CanvasU5BU5D_t2021* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	UICharInfoU5BU5D_t6_248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t373_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::EmptyArray
-	CanvasU5BU5D_t2021* ___EmptyArray_4;
+struct List_1_t1_912_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	UICharInfoU5BU5D_t6_248* ___EmptyArray_4;
 };

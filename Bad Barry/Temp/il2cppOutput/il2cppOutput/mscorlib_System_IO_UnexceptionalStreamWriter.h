@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_StreamWriter.h"
 
 // System.IO.UnexceptionalStreamWriter
-struct  UnexceptionalStreamWriter_t1290  : public StreamWriter_t1284
+struct  UnexceptionalStreamWriter_t1_262  : public StreamWriter_t1_251
 {
 };

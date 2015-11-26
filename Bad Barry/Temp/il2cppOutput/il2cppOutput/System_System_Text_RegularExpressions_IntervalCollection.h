@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.IntervalCollection
-struct  IntervalCollection_t1059  : public Object_t
+struct  IntervalCollection_t2_121  : public Object_t
 {
 	// System.Collections.ArrayList System.Text.RegularExpressions.IntervalCollection::intervals
-	ArrayList_t771 * ___intervals_0;
+	ArrayList_t1_112 * ___intervals_0;
 };

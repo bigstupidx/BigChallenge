@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Resources
-struct  Resources_t474  : public Object_t
+struct  Resources_t6_68  : public Object_t
 {
 };

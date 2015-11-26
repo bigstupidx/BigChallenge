@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_EventSystems_MoveDirection.h"
 
 // UnityEngine.EventSystems.MoveDirection
-struct  MoveDirection_t137 
+struct  MoveDirection_t7_29 
 {
 	// System.Int32 UnityEngine.EventSystems.MoveDirection::value__
 	int32_t ___value___1;

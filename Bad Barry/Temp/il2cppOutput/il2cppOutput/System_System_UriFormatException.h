@@ -14,6 +14,6 @@
 #include "mscorlib_System_FormatException.h"
 
 // System.UriFormatException
-struct  UriFormatException_t1087  : public FormatException_t905
+struct  UriFormatException_t2_148  : public FormatException_t1_720
 {
 };

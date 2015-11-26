@@ -14,6 +14,6 @@
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 
 // System.Text.RegularExpressions.Syntax.Assertion
-struct  Assertion_t1071  : public CompositeExpression_t1064
+struct  Assertion_t2_133  : public CompositeExpression_t2_126
 {
 };

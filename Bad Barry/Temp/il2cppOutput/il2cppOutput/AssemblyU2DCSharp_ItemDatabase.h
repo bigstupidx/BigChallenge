@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Item>
-struct List_1_t52;
+struct List_1_t1_976;
 // LitJson.JsonData
-struct JsonData_t58;
+struct JsonData_t5_2;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // ItemDatabase
-struct  ItemDatabase_t51  : public MonoBehaviour_t2
+struct  ItemDatabase_t8_37  : public MonoBehaviour_t6_88
 {
 	// System.Collections.Generic.List`1<Item> ItemDatabase::database
-	List_1_t52 * ___database_2;
+	List_1_t1_976 * ___database_2;
 	// LitJson.JsonData ItemDatabase::itemData
-	JsonData_t58 * ___itemData_3;
+	JsonData_t5_2 * ___itemData_3;
 };

@@ -16,7 +16,7 @@ struct String_t;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // UnityStandardAssets.CrossPlatformInput.ButtonHandler
-struct  ButtonHandler_t4  : public MonoBehaviour_t2
+struct  ButtonHandler_t8_2  : public MonoBehaviour_t6_88
 {
 	// System.String UnityStandardAssets.CrossPlatformInput.ButtonHandler::Name
 	String_t* ___Name_2;

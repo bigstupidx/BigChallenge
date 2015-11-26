@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.IL2CPPStructAlignmentAttribute
-struct  IL2CPPStructAlignmentAttribute_t545  : public Attribute_t476
+struct  IL2CPPStructAlignmentAttribute_t6_167  : public Attribute_t1_2
 {
 	// System.Int32 UnityEngine.IL2CPPStructAlignmentAttribute::Align
 	int32_t ___Align_0;

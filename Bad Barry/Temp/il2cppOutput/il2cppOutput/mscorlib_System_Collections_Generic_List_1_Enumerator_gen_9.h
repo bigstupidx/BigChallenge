@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t145;
+// System.Collections.Generic.List`1<UnityEngine.Vector3>
+struct List_1_t1_916;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
+#include "UnityEngine_UnityEngine_Vector3.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
-struct  Enumerator_t1935 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector3>
+struct  Enumerator_t1_1293 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::l
-	List_1_t145 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_916 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>::current
-	RaycastResult_t140  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Vector3_t6_49  ___current_3;
 };

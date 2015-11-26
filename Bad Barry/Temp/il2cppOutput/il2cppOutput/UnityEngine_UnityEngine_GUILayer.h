@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.GUILayer
-struct  GUILayer_t458  : public Behaviour_t417
+struct  GUILayer_t6_31  : public Behaviour_t6_30
 {
 };

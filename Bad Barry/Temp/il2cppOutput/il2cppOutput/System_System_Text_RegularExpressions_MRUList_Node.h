@@ -13,17 +13,17 @@
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.MRUList/Node
-struct Node_t1039;
+struct Node_t2_102;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.MRUList/Node
-struct  Node_t1039  : public Object_t
+struct  Node_t2_102  : public Object_t
 {
 	// System.Object System.Text.RegularExpressions.MRUList/Node::value
 	Object_t * ___value_0;
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList/Node::previous
-	Node_t1039 * ___previous_1;
+	Node_t2_102 * ___previous_1;
 	// System.Text.RegularExpressions.MRUList/Node System.Text.RegularExpressions.MRUList/Node::next
-	Node_t1039 * ___next_2;
+	Node_t2_102 * ___next_2;
 };

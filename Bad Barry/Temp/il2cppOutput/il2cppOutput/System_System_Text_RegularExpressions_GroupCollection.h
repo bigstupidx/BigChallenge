@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Text.RegularExpressions.Group[]
-struct GroupU5BU5D_t1028;
+struct GroupU5BU5D_t2_89;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.GroupCollection
-struct  GroupCollection_t942  : public Object_t
+struct  GroupCollection_t2_88  : public Object_t
 {
 	// System.Text.RegularExpressions.Group[] System.Text.RegularExpressions.GroupCollection::list
-	GroupU5BU5D_t1028* ___list_0;
+	GroupU5BU5D_t2_89* ___list_0;
 	// System.Int32 System.Text.RegularExpressions.GroupCollection::gap
 	int32_t ___gap_1;
 };

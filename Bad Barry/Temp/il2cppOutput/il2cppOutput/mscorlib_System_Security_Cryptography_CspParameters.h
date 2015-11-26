@@ -17,7 +17,7 @@ struct String_t;
 #include "mscorlib_System_Security_Cryptography_CspProviderFlags.h"
 
 // System.Security.Cryptography.CspParameters
-struct  CspParameters_t908  : public Object_t
+struct  CspParameters_t1_107  : public Object_t
 {
 	// System.Security.Cryptography.CspProviderFlags System.Security.Cryptography.CspParameters::_Flags
 	int32_t ____Flags_0;

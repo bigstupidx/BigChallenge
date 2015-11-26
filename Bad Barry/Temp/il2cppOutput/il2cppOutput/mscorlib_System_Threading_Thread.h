@@ -13,15 +13,15 @@
 // System.Object
 struct Object_t;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t1456;
+struct ExecutionContext_t1_435;
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 // System.MulticastDelegate
-struct MulticastDelegate_t227;
+struct MulticastDelegate_t1_21;
 // System.Security.Principal.IPrincipal
-struct IPrincipal_t1651;
+struct IPrincipal_t1_665;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Runtime_ConstrainedExecution_CriticalFinaliz.h"
 #include "mscorlib_System_IntPtr.h"
@@ -30,7 +30,7 @@ struct Hashtable_t836;
 #include "mscorlib_System_Int32.h"
 
 // System.Threading.Thread
-struct  Thread_t1446  : public CriticalFinalizerObject_t1402
+struct  Thread_t1_424  : public CriticalFinalizerObject_t1_379
 {
 	// System.Int32 System.Threading.Thread::lock_thread_id
 	int32_t ___lock_thread_id_0;
@@ -107,7 +107,7 @@ struct  Thread_t1446  : public CriticalFinalizerObject_t1402
 	// System.Object System.Threading.Thread::pending_exception
 	Object_t * ___pending_exception_36;
 	// System.Threading.ExecutionContext System.Threading.Thread::ec_to_set
-	ExecutionContext_t1456 * ___ec_to_set_37;
+	ExecutionContext_t1_435 * ___ec_to_set_37;
 	// System.IntPtr System.Threading.Thread::interrupt_on_stop
 	IntPtr_t ___interrupt_on_stop_38;
 	// System.IntPtr System.Threading.Thread::unused3
@@ -119,7 +119,7 @@ struct  Thread_t1446  : public CriticalFinalizerObject_t1402
 	// System.IntPtr System.Threading.Thread::unused6
 	IntPtr_t ___unused6_42;
 	// System.MulticastDelegate System.Threading.Thread::threadstart
-	MulticastDelegate_t227 * ___threadstart_45;
+	MulticastDelegate_t1_21 * ___threadstart_45;
 	// System.Int32 System.Threading.Thread::managed_id
 	int32_t ___managed_id_46;
 	// System.Security.Principal.IPrincipal System.Threading.Thread::_principal
@@ -127,17 +127,17 @@ struct  Thread_t1446  : public CriticalFinalizerObject_t1402
 	// System.Boolean System.Threading.Thread::in_currentculture
 	bool ___in_currentculture_50;
 };
-struct Thread_t1446_StaticFields{
+struct Thread_t1_424_StaticFields{
 	// System.Collections.Hashtable System.Threading.Thread::datastorehash
-	Hashtable_t836 * ___datastorehash_48;
+	Hashtable_t1_171 * ___datastorehash_48;
 	// System.Object System.Threading.Thread::datastore_lock
 	Object_t * ___datastore_lock_49;
 	// System.Object System.Threading.Thread::culture_lock
 	Object_t * ___culture_lock_51;
 };
-struct Thread_t1446_ThreadStaticFields{
+struct Thread_t1_424_ThreadStaticFields{
 	// System.Object[] System.Threading.Thread::local_slots
-	ObjectU5BU5D_t102* ___local_slots_43;
+	ObjectU5BU5D_t1_156* ___local_slots_43;
 	// System.Threading.ExecutionContext System.Threading.Thread::_ec
-	ExecutionContext_t1456 * ____ec_44;
+	ExecutionContext_t1_435 * ____ec_44;
 };

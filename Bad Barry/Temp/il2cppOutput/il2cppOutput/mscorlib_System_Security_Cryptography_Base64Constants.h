@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.Base64Constants
-struct  Base64Constants_t1557  : public Object_t
+struct  Base64Constants_t1_544  : public Object_t
 {
 };
-struct Base64Constants_t1557_StaticFields{
+struct Base64Constants_t1_544_StaticFields{
 	// System.Byte[] System.Security.Cryptography.Base64Constants::EncodeTable
-	ByteU5BU5D_t740* ___EncodeTable_0;
+	ByteU5BU5D_t1_70* ___EncodeTable_0;
 	// System.Byte[] System.Security.Cryptography.Base64Constants::DecodeTable
-	ByteU5BU5D_t740* ___DecodeTable_1;
+	ByteU5BU5D_t1_70* ___DecodeTable_1;
 };

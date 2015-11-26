@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 // UnityEngine.Camera
-struct Camera_t155;
+struct Camera_t6_83;
 
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.SendMouseEvents/HitInfo
-struct  HitInfo_t576 
+struct  HitInfo_t6_199 
 {
 	// UnityEngine.GameObject UnityEngine.SendMouseEvents/HitInfo::target
-	GameObject_t3 * ___target_0;
+	GameObject_t6_94 * ___target_0;
 	// UnityEngine.Camera UnityEngine.SendMouseEvents/HitInfo::camera
-	Camera_t155 * ___camera_1;
+	Camera_t6_83 * ___camera_1;
 };

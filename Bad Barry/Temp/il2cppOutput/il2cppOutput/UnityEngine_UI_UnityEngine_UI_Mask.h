@@ -11,25 +11,25 @@
 #include <stdint.h>
 
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 // UnityEngine.UI.Graphic
-struct Graphic_t195;
+struct Graphic_t7_75;
 // UnityEngine.Material
-struct Material_t196;
+struct Material_t6_72;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 
 // UnityEngine.UI.Mask
-struct  Mask_t242  : public UIBehaviour_t106
+struct  Mask_t7_100  : public UIBehaviour_t7_3
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Mask::m_RectTransform
-	RectTransform_t179 * ___m_RectTransform_2;
+	RectTransform_t6_65 * ___m_RectTransform_2;
 	// System.Boolean UnityEngine.UI.Mask::m_ShowMaskGraphic
 	bool ___m_ShowMaskGraphic_3;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Mask::m_Graphic
-	Graphic_t195 * ___m_Graphic_4;
+	Graphic_t7_75 * ___m_Graphic_4;
 	// UnityEngine.Material UnityEngine.UI.Mask::m_MaskMaterial
-	Material_t196 * ___m_MaskMaterial_5;
+	Material_t6_72 * ___m_MaskMaterial_5;
 	// UnityEngine.Material UnityEngine.UI.Mask::m_UnmaskMaterial
-	Material_t196 * ___m_UnmaskMaterial_6;
+	Material_t6_72 * ___m_UnmaskMaterial_6;
 };

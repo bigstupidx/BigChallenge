@@ -11,25 +11,25 @@
 #include <stdint.h>
 
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 // System.Net.IWebProxy
-struct IWebProxy_t969;
+struct IWebProxy_t2_24;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 // System.Net.Security.RemoteCertificateValidationCallback
-struct RemoteCertificateValidationCallback_t930;
+struct RemoteCertificateValidationCallback_t2_28;
 
 #include "System_System_Net_WebRequest.h"
 
 // System.Net.FtpWebRequest
-struct  FtpWebRequest_t972  : public WebRequest_t933
+struct  FtpWebRequest_t2_27  : public WebRequest_t2_21
 {
 	// System.Uri System.Net.FtpWebRequest::requestUri
-	Uri_t928 * ___requestUri_6;
+	Uri_t2_22 * ___requestUri_6;
 	// System.Net.IWebProxy System.Net.FtpWebRequest::proxy
 	Object_t * ___proxy_7;
 	// System.Int32 System.Net.FtpWebRequest::timeout
@@ -45,11 +45,11 @@ struct  FtpWebRequest_t972  : public WebRequest_t933
 	// System.Object System.Net.FtpWebRequest::locker
 	Object_t * ___locker_13;
 	// System.Net.Security.RemoteCertificateValidationCallback System.Net.FtpWebRequest::callback
-	RemoteCertificateValidationCallback_t930 * ___callback_15;
+	RemoteCertificateValidationCallback_t2_28 * ___callback_15;
 };
-struct FtpWebRequest_t972_StaticFields{
+struct FtpWebRequest_t2_27_StaticFields{
 	// System.String[] System.Net.FtpWebRequest::supportedCommands
-	StringU5BU5D_t573* ___supportedCommands_14;
+	StringU5BU5D_t1_198* ___supportedCommands_14;
 	// System.Net.Security.RemoteCertificateValidationCallback System.Net.FtpWebRequest::<>f__am$cache1C
-	RemoteCertificateValidationCallback_t930 * ___U3CU3Ef__amU24cache1C_16;
+	RemoteCertificateValidationCallback_t2_28 * ___U3CU3Ef__amU24cache1C_16;
 };

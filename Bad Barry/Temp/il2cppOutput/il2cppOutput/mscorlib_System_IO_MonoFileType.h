@@ -15,7 +15,7 @@
 #include "mscorlib_System_IO_MonoFileType.h"
 
 // System.IO.MonoFileType
-struct  MonoFileType_t1274 
+struct  MonoFileType_t1_240 
 {
 	// System.Int32 System.IO.MonoFileType::value__
 	int32_t ___value___1;

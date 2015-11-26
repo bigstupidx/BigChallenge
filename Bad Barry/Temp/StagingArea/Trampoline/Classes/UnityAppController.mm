@@ -40,6 +40,7 @@ bool	_ios70orNewer			= false;
 bool	_ios80orNewer			= false;
 bool	_ios81orNewer			= false;
 bool	_ios82orNewer			= false;
+bool 	_ios90orNewer			= false;
 
 // was unity rendering already inited: we should not touch rendering while this is false
 bool	_renderingInited		= false;
@@ -348,6 +349,7 @@ void UnityInitTrampoline()
 	_ios80orNewer = [version compare: @"8.0" options: NSNumericSearch] != NSOrderedAscending;
 	_ios81orNewer = [version compare: @"8.1" options: NSNumericSearch] != NSOrderedAscending;
 	_ios82orNewer = [version compare: @"8.2" options: NSNumericSearch] != NSOrderedAscending;
+	_ios90orNewer = [version compare: @"9.0" options: NSNumericSearch] != NSOrderedAscending;
 
 	// Try writing to console and if it fails switch to NSLog logging
 	::fprintf(stdout, "\n");

@@ -18,4 +18,4 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.GradientColorKey::.ctor(UnityEngine.Color,System.Single)
-extern "C" void GradientColorKey__ctor_m2624 (GradientColorKey_t464 * __this, Color_t101  ___col, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GradientColorKey__ctor_m6_171 (GradientColorKey_t6_39 * __this, Color_t6_40  ___col, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

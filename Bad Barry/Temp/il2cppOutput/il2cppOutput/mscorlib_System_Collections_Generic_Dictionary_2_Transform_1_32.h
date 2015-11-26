@@ -10,12 +10,12 @@
 
 #include <stdint.h>
 
-// System.Int32[]
-struct Int32U5BU5D_t425;
+// UnityEngine.UI.Graphic
+struct Graphic_t7_75;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -23,7 +23,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Int32[],System.Collections.DictionaryEntry>
-struct  Transform_1_t2397  : public MulticastDelegate_t227
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.Graphic,System.Int32,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1488  : public MulticastDelegate_t1_21
 {
 };

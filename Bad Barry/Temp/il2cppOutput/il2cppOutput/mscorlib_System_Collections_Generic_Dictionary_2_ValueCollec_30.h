@@ -10,13 +10,14 @@
 
 #include <stdint.h>
 
+// System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
+struct Dictionary_2_t1_974;
 
-#include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__23.h"
+#include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>
-struct  Enumerator_t2420 
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
+struct  ValueCollection_t1_1551  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Boolean>::host_enumerator
-	Enumerator_t2421  ___host_enumerator_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_974 * ___dictionary_0;
 };

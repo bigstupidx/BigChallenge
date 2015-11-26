@@ -13,88 +13,88 @@
 #include <exception>
 
 // System.Security.Cryptography.X509Certificates.X509Chain
-struct X509Chain_t932;
+struct X509Chain_t2_58;
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy
-struct X509ChainPolicy_t1001;
+struct X509ChainPolicy_t2_60;
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-struct X509Certificate2_t931;
+struct X509Certificate2_t2_53;
 // System.Security.Cryptography.X509Certificates.X509Store
-struct X509Store_t1004;
+struct X509Store_t2_63;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct X509Certificate2Collection_t998;
+struct X509Certificate2Collection_t2_55;
 // System.Security.Cryptography.X509Certificates.X509ChainElement
-struct X509ChainElement_t1003;
+struct X509ChainElement_t2_62;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t889;
+struct AsymmetricAlgorithm_t1_539;
 // System.String
 struct String_t;
 // Mono.Security.X509.X509Crl
-struct X509Crl_t805;
+struct X509Crl_t3_3;
 // Mono.Security.X509.X509Extension
-struct X509Extension_t806;
+struct X509Extension_t3_4;
 // Mono.Security.X509.X509Crl/X509CrlEntry
-struct X509CrlEntry_t804;
+struct X509CrlEntry_t3_5;
 
 #include "codegen/il2cpp-codegen.h"
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor()
-extern "C" void X509Chain__ctor_m4757 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain__ctor_m2_290 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::.ctor(System.Boolean)
-extern "C" void X509Chain__ctor_m5069 (X509Chain_t932 * __this, bool ___useMachineContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain__ctor_m2_291 (X509Chain_t2_58 * __this, bool ___useMachineContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::.cctor()
-extern "C" void X509Chain__cctor_m5070 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain__cctor_m2_292 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainPolicy System.Security.Cryptography.X509Certificates.X509Chain::get_ChainPolicy()
-extern "C" X509ChainPolicy_t1001 * X509Chain_get_ChainPolicy_m5071 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ChainPolicy_t2_60 * X509Chain_get_ChainPolicy_m2_293 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::Build(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool X509Chain_Build_m4758 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_Build_m2_294 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::Reset()
-extern "C" void X509Chain_Reset_m5072 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_Reset_m2_295 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Store System.Security.Cryptography.X509Certificates.X509Chain::get_Roots()
-extern "C" X509Store_t1004 * X509Chain_get_Roots_m5073 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t2_63 * X509Chain_get_Roots_m2_296 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Store System.Security.Cryptography.X509Certificates.X509Chain::get_CertificateAuthorities()
-extern "C" X509Store_t1004 * X509Chain_get_CertificateAuthorities_m5074 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t2_63 * X509Chain_get_CertificateAuthorities_m2_297 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection System.Security.Cryptography.X509Certificates.X509Chain::get_CertificateCollection()
-extern "C" X509Certificate2Collection_t998 * X509Chain_get_CertificateCollection_m5075 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2Collection_t2_55 * X509Chain_get_CertificateCollection_m2_298 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509Chain::BuildChainFrom(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" int32_t X509Chain_BuildChainFrom_m5076 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Chain_BuildChainFrom_m2_299 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509Chain::SelectBestFromCollection(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)
-extern "C" X509Certificate2_t931 * X509Chain_SelectBestFromCollection_m5077 (X509Chain_t932 * __this, X509Certificate2_t931 * ___child, X509Certificate2Collection_t998 * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2_t2_53 * X509Chain_SelectBestFromCollection_m2_300 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___child, X509Certificate2Collection_t2_55 * ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509Chain::FindParent(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" X509Certificate2_t931 * X509Chain_FindParent_m5078 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2_t2_53 * X509Chain_FindParent_m2_301 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::IsChainComplete(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool X509Chain_IsChainComplete_m5079 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsChainComplete_m2_302 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::IsSelfIssued(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool X509Chain_IsSelfIssued_m5080 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsSelfIssued_m2_303 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::ValidateChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509Chain_ValidateChain_m5081 (X509Chain_t932 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_ValidateChain_m2_304 (X509Chain_t2_58 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::Process(System.Int32)
-extern "C" void X509Chain_Process_m5082 (X509Chain_t932 * __this, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_Process_m2_305 (X509Chain_t2_58 * __this, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::PrepareForNextCertificate(System.Int32)
-extern "C" void X509Chain_PrepareForNextCertificate_m5083 (X509Chain_t932 * __this, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_PrepareForNextCertificate_m2_306 (X509Chain_t2_58 * __this, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::WrapUp()
-extern "C" void X509Chain_WrapUp_m5084 (X509Chain_t932 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_WrapUp_m2_307 (X509Chain_t2_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::ProcessCertificateExtensions(System.Security.Cryptography.X509Certificates.X509ChainElement)
-extern "C" void X509Chain_ProcessCertificateExtensions_m5085 (X509Chain_t932 * __this, X509ChainElement_t1003 * ___element, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_ProcessCertificateExtensions_m2_308 (X509Chain_t2_58 * __this, X509ChainElement_t2_62 * ___element, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::IsSignedWith(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" bool X509Chain_IsSignedWith_m5086 (X509Chain_t932 * __this, X509Certificate2_t931 * ___signed, AsymmetricAlgorithm_t889 * ___pubkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsSignedWith_m2_309 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___signed, AsymmetricAlgorithm_t1_539 * ___pubkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509Chain::GetSubjectKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" String_t* X509Chain_GetSubjectKeyIdentifier_m5087 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Chain_GetSubjectKeyIdentifier_m2_310 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509Chain::GetAuthorityKeyIdentifier(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m5088 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m2_311 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509Chain::GetAuthorityKeyIdentifier(Mono.Security.X509.X509Crl)
-extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m5089 (X509Chain_t932 * __this, X509Crl_t805 * ___crl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m2_312 (X509Chain_t2_58 * __this, X509Crl_t3_3 * ___crl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509Chain::GetAuthorityKeyIdentifier(Mono.Security.X509.X509Extension)
-extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m5090 (X509Chain_t932 * __this, X509Extension_t806 * ___ext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Chain_GetAuthorityKeyIdentifier_m2_313 (X509Chain_t2_58 * __this, X509Extension_t3_4 * ___ext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Chain::CheckRevocationOnChain(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509Chain_CheckRevocationOnChain_m5091 (X509Chain_t932 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain_CheckRevocationOnChain_m2_314 (X509Chain_t2_58 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509Chain::CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Int32,System.Boolean)
-extern "C" int32_t X509Chain_CheckRevocation_m5092 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, int32_t ___ca, bool ___online, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Chain_CheckRevocation_m2_315 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, int32_t ___ca, bool ___online, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509Chain::CheckRevocation(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2,System.Boolean)
-extern "C" int32_t X509Chain_CheckRevocation_m5093 (X509Chain_t932 * __this, X509Certificate2_t931 * ___certificate, X509Certificate2_t931 * ___ca_cert, bool ___online, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Chain_CheckRevocation_m2_316 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___certificate, X509Certificate2_t2_53 * ___ca_cert, bool ___online, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Crl System.Security.Cryptography.X509Certificates.X509Chain::FindCrl(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" X509Crl_t805 * X509Chain_FindCrl_m5094 (X509Chain_t932 * __this, X509Certificate2_t931 * ___caCertificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Crl_t3_3 * X509Chain_FindCrl_m2_317 (X509Chain_t2_58 * __this, X509Certificate2_t2_53 * ___caCertificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::ProcessCrlExtensions(Mono.Security.X509.X509Crl)
-extern "C" bool X509Chain_ProcessCrlExtensions_m5095 (X509Chain_t932 * __this, X509Crl_t805 * ___crl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_ProcessCrlExtensions_m2_318 (X509Chain_t2_58 * __this, X509Crl_t3_3 * ___crl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Chain::ProcessCrlEntryExtensions(Mono.Security.X509.X509Crl/X509CrlEntry)
-extern "C" bool X509Chain_ProcessCrlEntryExtensions_m5096 (X509Chain_t932 * __this, X509CrlEntry_t804 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_ProcessCrlEntryExtensions_m2_319 (X509Chain_t2_58 * __this, X509CrlEntry_t3_5 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;

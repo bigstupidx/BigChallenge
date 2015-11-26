@@ -13,18 +13,18 @@
 #include <exception>
 
 // System.RankException
-struct RankException_t1719;
+struct RankException_t1_749;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.RankException::.ctor()
-extern "C" void RankException__ctor_m10707 (RankException_t1719 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m1_5296 (RankException_t1_749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.RankException::.ctor(System.String)
-extern "C" void RankException__ctor_m10708 (RankException_t1719 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m1_5297 (RankException_t1_749 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.RankException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void RankException__ctor_m10709 (RankException_t1719 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RankException__ctor_m1_5298 (RankException_t1_749 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

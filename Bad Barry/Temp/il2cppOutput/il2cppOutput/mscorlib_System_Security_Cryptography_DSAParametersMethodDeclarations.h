@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void DSAParameters_t901_marshal(const DSAParameters_t901& unmarshaled, DSAParameters_t901_marshaled& marshaled);
-extern "C" void DSAParameters_t901_marshal_back(const DSAParameters_t901_marshaled& marshaled, DSAParameters_t901& unmarshaled);
-extern "C" void DSAParameters_t901_marshal_cleanup(DSAParameters_t901_marshaled& marshaled);
+extern "C" void DSAParameters_t1_555_marshal(const DSAParameters_t1_555& unmarshaled, DSAParameters_t1_555_marshaled& marshaled);
+extern "C" void DSAParameters_t1_555_marshal_back(const DSAParameters_t1_555_marshaled& marshaled, DSAParameters_t1_555& unmarshaled);
+extern "C" void DSAParameters_t1_555_marshal_cleanup(DSAParameters_t1_555_marshaled& marshaled);

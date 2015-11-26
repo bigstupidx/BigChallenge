@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.Link
-struct  Link_t1212 
+struct  Link_t1_149 
 {
 	// System.Int32 System.Collections.Generic.Link::HashCode
 	int32_t ___HashCode_0;

@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_Rendering_StencilOp.h"
 
 // UnityEngine.Rendering.StencilOp
-struct  StencilOp_t404 
+struct  StencilOp_t6_189 
 {
 	// System.Int32 UnityEngine.Rendering.StencilOp::value__
 	int32_t ___value___1;

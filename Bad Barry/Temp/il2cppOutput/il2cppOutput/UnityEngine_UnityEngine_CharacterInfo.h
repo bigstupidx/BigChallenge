@@ -16,14 +16,14 @@
 #include "UnityEngine_UnityEngine_FontStyle.h"
 
 // UnityEngine.CharacterInfo
-struct  CharacterInfo_t533 
+struct  CharacterInfo_t6_142 
 {
 	// System.Int32 UnityEngine.CharacterInfo::index
 	int32_t ___index_0;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::uv
-	Rect_t233  ___uv_1;
+	Rect_t6_52  ___uv_1;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::vert
-	Rect_t233  ___vert_2;
+	Rect_t6_52  ___vert_2;
 	// System.Single UnityEngine.CharacterInfo::width
 	float ___width_3;
 	// System.Int32 UnityEngine.CharacterInfo::size
@@ -36,11 +36,11 @@ struct  CharacterInfo_t533
 	int32_t ___ascent_7;
 };
 // Native definition for marshalling of: UnityEngine.CharacterInfo
-struct CharacterInfo_t533_marshaled
+struct CharacterInfo_t6_142_marshaled
 {
 	int32_t ___index_0;
-	Rect_t233  ___uv_1;
-	Rect_t233  ___vert_2;
+	Rect_t6_52  ___uv_1;
+	Rect_t6_52  ___vert_2;
 	float ___width_3;
 	int32_t ___size_4;
 	int32_t ___style_5;

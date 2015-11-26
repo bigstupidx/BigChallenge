@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.SortingLayer
-struct  SortingLayer_t479 
+struct  SortingLayer_t6_73 
 {
 	// System.Int32 UnityEngine.SortingLayer::m_Id
 	int32_t ___m_Id_0;

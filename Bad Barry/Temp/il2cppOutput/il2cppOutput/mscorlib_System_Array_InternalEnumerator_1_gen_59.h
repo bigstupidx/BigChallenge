@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<System.Byte[]>
-struct  InternalEnumerator_1_t2409 
+// System.Array/InternalEnumerator`1<System.MonoType>
+struct  InternalEnumerator_1_t1_1112 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Byte[]>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Byte[]>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

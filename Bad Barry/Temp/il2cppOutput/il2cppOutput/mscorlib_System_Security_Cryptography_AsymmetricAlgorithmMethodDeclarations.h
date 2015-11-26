@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t889;
+struct AsymmetricAlgorithm_t1_539;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::.ctor()
-extern "C" void AsymmetricAlgorithm__ctor_m9259 (AsymmetricAlgorithm_t889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm__ctor_m1_3690 (AsymmetricAlgorithm_t1_539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::System.IDisposable.Dispose()
-extern "C" void AsymmetricAlgorithm_System_IDisposable_Dispose_m9260 (AsymmetricAlgorithm_t889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_System_IDisposable_Dispose_m1_3691 (AsymmetricAlgorithm_t1_539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.AsymmetricAlgorithm::get_KeySize()
-extern "C" int32_t AsymmetricAlgorithm_get_KeySize_m4693 (AsymmetricAlgorithm_t889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AsymmetricAlgorithm_get_KeySize_m1_3692 (AsymmetricAlgorithm_t1_539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::set_KeySize(System.Int32)
-extern "C" void AsymmetricAlgorithm_set_KeySize_m4692 (AsymmetricAlgorithm_t889 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_set_KeySize_m1_3693 (AsymmetricAlgorithm_t1_539 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::Clear()
-extern "C" void AsymmetricAlgorithm_Clear_m4783 (AsymmetricAlgorithm_t889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_Clear_m1_3694 (AsymmetricAlgorithm_t1_539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.AsymmetricAlgorithm::GetNamedParam(System.String,System.String)
-extern "C" ByteU5BU5D_t740* AsymmetricAlgorithm_GetNamedParam_m9261 (Object_t * __this /* static, unused */, String_t* ___xml, String_t* ___param, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* AsymmetricAlgorithm_GetNamedParam_m1_3695 (Object_t * __this /* static, unused */, String_t* ___xml, String_t* ___param, const MethodInfo* method) IL2CPP_METHOD_ATTR;

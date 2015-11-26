@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_Object.h"
 
 // System.Array/SimpleEnumerator
-struct  SimpleEnumerator_t1113  : public Object_t
+struct  SimpleEnumerator_t1_25  : public Object_t
 {
 	// System.Array System.Array/SimpleEnumerator::enumeratee
 	Array_t * ___enumeratee_0;

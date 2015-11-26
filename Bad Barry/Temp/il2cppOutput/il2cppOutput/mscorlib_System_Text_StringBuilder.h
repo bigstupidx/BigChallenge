@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.Text.StringBuilder
-struct  StringBuilder_t358  : public Object_t
+struct  StringBuilder_t1_144  : public Object_t
 {
 	// System.Int32 System.Text.StringBuilder::_length
 	int32_t ____length_1;

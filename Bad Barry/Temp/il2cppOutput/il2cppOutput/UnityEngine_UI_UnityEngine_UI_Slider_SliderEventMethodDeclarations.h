@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t274;
+struct SliderEvent_t7_123;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Slider/SliderEvent::.ctor()
-extern "C" void SliderEvent__ctor_m1502 (SliderEvent_t274 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderEvent__ctor_m7_1020 (SliderEvent_t7_123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

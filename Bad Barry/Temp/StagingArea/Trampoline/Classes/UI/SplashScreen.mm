@@ -105,10 +105,11 @@ static const char* GetScaleSuffix(float scale, float maxScale)
 
 	// Try asset catalog on iOS 7.0+. Note, that we can't be sure that asset
 	// catalog is used, because the deployment target might have been lower and
-	// thus old launch images are used.
+	// thus old launch images are used. Also, we should always use old-style
+	// images on pre-iOS 8.0 devices, because wrong images may be picked up.
 	UIImage* image = [UIImage imageNamed:@"LaunchImage"];
 
-	if (image == nil)
+	if (!_ios80orNewer || image == nil)
 	{
 		// Old launch image from file
 		NSString* imageName;
@@ -265,7 +266,6 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 			_usesLaunchscreen = true;
 	}
 
-	// TODO: implement on iPads
 	if (_usesLaunchscreen && !(_canRotateToPortrait || _canRotateToPortraitUpsideDown))
 		_nonOrientableDefaultOrientation = landscapeLeft;
 	else
@@ -284,9 +284,10 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 		_canRotateToLandscapeLeft = false;
 		_canRotateToLandscapeRight = false;
 	}
-	// launch screens always use landscapeLeft in landscape
-	if (_usesLaunchscreen && _canRotateToLandscapeLeft)
-		_canRotateToLandscapeRight = false; // FIXME: check on iPad
+	// launch screens always use landscapeLeft in landscape on non-orientable
+	// devices
+	if (!_isOrientable && _usesLaunchscreen && _canRotateToLandscapeLeft)
+		_canRotateToLandscapeRight = false;
 
 	self.view = _splash;
 

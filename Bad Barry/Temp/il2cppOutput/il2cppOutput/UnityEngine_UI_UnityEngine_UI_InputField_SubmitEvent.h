@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_3.h"
 
 // UnityEngine.UI.InputField/SubmitEvent
-struct  SubmitEvent_t222  : public UnityEvent_1_t223
+struct  SubmitEvent_t7_93  : public UnityEvent_1_t6_264
 {
 };

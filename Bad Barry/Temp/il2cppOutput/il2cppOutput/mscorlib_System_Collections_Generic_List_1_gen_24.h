@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.Vector3[]
-struct Vector3U5BU5D_t99;
+// UnityEngine.EventSystems.PointerInputModule/ButtonState[]
+struct ButtonStateU5BU5D_t7_209;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.Vector3>
-struct  List_1_t314  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
+struct  List_1_t1_936  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Vector3>::_items
-	Vector3U5BU5D_t99* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	ButtonStateU5BU5D_t7_209* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Vector3>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t314_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Vector3>::EmptyArray
-	Vector3U5BU5D_t99* ___EmptyArray_4;
+struct List_1_t1_936_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ButtonStateU5BU5D_t7_209* ___EmptyArray_4;
 };

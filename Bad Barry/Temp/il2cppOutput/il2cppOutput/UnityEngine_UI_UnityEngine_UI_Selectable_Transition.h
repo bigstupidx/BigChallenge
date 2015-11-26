@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_Transition.h"
 
 // UnityEngine.UI.Selectable/Transition
-struct  Transition_t267 
+struct  Transition_t7_118 
 {
 	// System.Int32 UnityEngine.UI.Selectable/Transition::value__
 	int32_t ___value___1;

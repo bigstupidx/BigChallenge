@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.IList`1<UnityEngine.Vector4>
-struct IList_1_t2184;
+// System.Collections.Generic.IList`1<UnityEngine.Canvas>
+struct IList_1_t1_1467;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector4>
-struct  ReadOnlyCollection_1_t2183  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Canvas>
+struct  ReadOnlyCollection_1_t1_1466  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Vector4>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;
 };

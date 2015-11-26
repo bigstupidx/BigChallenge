@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Reflection.MethodBase
-struct MethodBase_t643;
+struct MethodBase_t1_194;
 // System.Type
 struct Type_t;
 // System.Object
@@ -21,74 +21,74 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t1496;
+struct ObjRef_t1_476;
 // System.Runtime.Remoting.Proxies.RealProxy
-struct RealProxy_t1481;
+struct RealProxy_t1_461;
 // System.Runtime.Remoting.Messaging.IMethodMessage
-struct IMethodMessage_t1471;
+struct IMethodMessage_t1_451;
 // System.Type[]
-struct TypeU5BU5D_t619;
+struct TypeU5BU5D_t1_31;
 // System.Runtime.Remoting.ActivatedClientTypeEntry
-struct ActivatedClientTypeEntry_t1492;
+struct ActivatedClientTypeEntry_t1_472;
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 // System.Runtime.Remoting.Identity
-struct Identity_t1489;
+struct Identity_t1_469;
 // System.Runtime.Remoting.ClientIdentity
-struct ClientIdentity_t1497;
+struct ClientIdentity_t1_477;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1439;
+struct IMessageSink_t1_417;
 // System.Runtime.Remoting.ServerIdentity
-struct ServerIdentity_t1138;
+struct ServerIdentity_t1_57;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectMode.h"
 
 // System.Void System.Runtime.Remoting.RemotingServices::.cctor()
-extern "C" void RemotingServices__cctor_m9049 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingServices__cctor_m1_3461 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetVirtualMethod(System.Type,System.Reflection.MethodBase)
-extern "C" MethodBase_t643 * RemotingServices_GetVirtualMethod_m9050 (Object_t * __this /* static, unused */, Type_t * ___type, MethodBase_t643 * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1_194 * RemotingServices_GetVirtualMethod_m1_3462 (Object_t * __this /* static, unused */, Type_t * ___type, MethodBase_t1_194 * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.RemotingServices::IsTransparentProxy(System.Object)
-extern "C" bool RemotingServices_IsTransparentProxy_m9051 (Object_t * __this /* static, unused */, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RemotingServices_IsTransparentProxy_m1_3463 (Object_t * __this /* static, unused */, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.RemotingServices::GetServerTypeForUri(System.String)
-extern "C" Type_t * RemotingServices_GetServerTypeForUri_m9052 (Object_t * __this /* static, unused */, String_t* ___URI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * RemotingServices_GetServerTypeForUri_m1_3464 (Object_t * __this /* static, unused */, String_t* ___URI, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::Unmarshal(System.Runtime.Remoting.ObjRef)
-extern "C" Object_t * RemotingServices_Unmarshal_m9053 (Object_t * __this /* static, unused */, ObjRef_t1496 * ___objectRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_Unmarshal_m1_3465 (Object_t * __this /* static, unused */, ObjRef_t1_476 * ___objectRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::Unmarshal(System.Runtime.Remoting.ObjRef,System.Boolean)
-extern "C" Object_t * RemotingServices_Unmarshal_m9054 (Object_t * __this /* static, unused */, ObjRef_t1496 * ___objectRef, bool ___fRefine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_Unmarshal_m1_3466 (Object_t * __this /* static, unused */, ObjRef_t1_476 * ___objectRef, bool ___fRefine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.RemotingServices::GetRealProxy(System.Object)
-extern "C" RealProxy_t1481 * RemotingServices_GetRealProxy_m9055 (Object_t * __this /* static, unused */, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RealProxy_t1_461 * RemotingServices_GetRealProxy_m1_3467 (Object_t * __this /* static, unused */, Object_t * ___proxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetMethodBaseFromMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern "C" MethodBase_t643 * RemotingServices_GetMethodBaseFromMethodMessage_m9056 (Object_t * __this /* static, unused */, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1_194 * RemotingServices_GetMethodBaseFromMethodMessage_m1_3468 (Object_t * __this /* static, unused */, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::GetMethodBaseFromName(System.Type,System.String,System.Type[])
-extern "C" MethodBase_t643 * RemotingServices_GetMethodBaseFromName_m9057 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___methodName, TypeU5BU5D_t619* ___signature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1_194 * RemotingServices_GetMethodBaseFromName_m1_3469 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___methodName, TypeU5BU5D_t1_31* ___signature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodBase System.Runtime.Remoting.RemotingServices::FindInterfaceMethod(System.Type,System.String,System.Type[])
-extern "C" MethodBase_t643 * RemotingServices_FindInterfaceMethod_m9058 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___methodName, TypeU5BU5D_t619* ___signature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodBase_t1_194 * RemotingServices_FindInterfaceMethod_m1_3470 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___methodName, TypeU5BU5D_t1_31* ___signature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxy(System.Runtime.Remoting.ActivatedClientTypeEntry,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m9059 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t1492 * ___entry, ObjectU5BU5D_t102* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m1_3471 (Object_t * __this /* static, unused */, ActivatedClientTypeEntry_t1_472 * ___entry, ObjectU5BU5D_t1_156* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m9060 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t102* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m1_3472 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t1_156* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::CreateClientProxyForContextBound(System.Type,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxyForContextBound_m9061 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t102* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxyForContextBound_m1_3473 (Object_t * __this /* static, unused */, Type_t * ___type, ObjectU5BU5D_t1_156* ___activationAttributes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Identity System.Runtime.Remoting.RemotingServices::GetIdentityForUri(System.String)
-extern "C" Identity_t1489 * RemotingServices_GetIdentityForUri_m9062 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Identity_t1_469 * RemotingServices_GetIdentityForUri_m1_3474 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingServices::RemoveAppNameFromUri(System.String)
-extern "C" String_t* RemotingServices_RemoveAppNameFromUri_m9063 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingServices_RemoveAppNameFromUri_m1_3475 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ClientIdentity System.Runtime.Remoting.RemotingServices::GetOrCreateClientIdentity(System.Runtime.Remoting.ObjRef,System.Type,System.Object&)
-extern "C" ClientIdentity_t1497 * RemotingServices_GetOrCreateClientIdentity_m9064 (Object_t * __this /* static, unused */, ObjRef_t1496 * ___objRef, Type_t * ___proxyType, Object_t ** ___clientProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ClientIdentity_t1_477 * RemotingServices_GetOrCreateClientIdentity_m1_3476 (Object_t * __this /* static, unused */, ObjRef_t1_476 * ___objRef, Type_t * ___proxyType, Object_t ** ___clientProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m9065 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m1_3477 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ServerIdentity System.Runtime.Remoting.RemotingServices::CreateWellKnownServerIdentity(System.Type,System.String,System.Runtime.Remoting.WellKnownObjectMode)
-extern "C" ServerIdentity_t1138 * RemotingServices_CreateWellKnownServerIdentity_m9066 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___objectUri, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ServerIdentity_t1_57 * RemotingServices_CreateWellKnownServerIdentity_m1_3478 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___objectUri, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingServices::RegisterServerIdentity(System.Runtime.Remoting.ServerIdentity)
-extern "C" void RemotingServices_RegisterServerIdentity_m9067 (Object_t * __this /* static, unused */, ServerIdentity_t1138 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingServices_RegisterServerIdentity_m1_3479 (Object_t * __this /* static, unused */, ServerIdentity_t1_57 * ___identity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::GetProxyForRemoteObject(System.Runtime.Remoting.ObjRef,System.Type)
-extern "C" Object_t * RemotingServices_GetProxyForRemoteObject_m9068 (Object_t * __this /* static, unused */, ObjRef_t1496 * ___objref, Type_t * ___classToProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_GetProxyForRemoteObject_m1_3480 (Object_t * __this /* static, unused */, ObjRef_t1_476 * ___objref, Type_t * ___classToProxy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.RemotingServices::GetRemoteObject(System.Runtime.Remoting.ObjRef,System.Type)
-extern "C" Object_t * RemotingServices_GetRemoteObject_m9069 (Object_t * __this /* static, unused */, ObjRef_t1496 * ___objRef, Type_t * ___proxyType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_GetRemoteObject_m1_3481 (Object_t * __this /* static, unused */, ObjRef_t1_476 * ___objRef, Type_t * ___proxyType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingServices::RegisterInternalChannels()
-extern "C" void RemotingServices_RegisterInternalChannels_m9070 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingServices_RegisterInternalChannels_m1_3482 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.RemotingServices::DisposeIdentity(System.Runtime.Remoting.Identity)
-extern "C" void RemotingServices_DisposeIdentity_m9071 (Object_t * __this /* static, unused */, Identity_t1489 * ___ident, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingServices_DisposeIdentity_m1_3483 (Object_t * __this /* static, unused */, Identity_t1_469 * ___ident, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.RemotingServices::GetNormalizedUri(System.String)
-extern "C" String_t* RemotingServices_GetNormalizedUri_m9072 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RemotingServices_GetNormalizedUri_m1_3484 (Object_t * __this /* static, unused */, String_t* ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

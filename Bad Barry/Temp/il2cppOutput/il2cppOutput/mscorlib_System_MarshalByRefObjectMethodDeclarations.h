@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.MarshalByRefObject
-struct MarshalByRefObject_t986;
+struct MarshalByRefObject_t1_56;
 // System.Runtime.Remoting.ServerIdentity
-struct ServerIdentity_t1138;
+struct ServerIdentity_t1_57;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MarshalByRefObject::.ctor()
-extern "C" void MarshalByRefObject__ctor_m5711 (MarshalByRefObject_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarshalByRefObject__ctor_m1_988 (MarshalByRefObject_t1_56 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ServerIdentity System.MarshalByRefObject::get_ObjectIdentity()
-extern "C" ServerIdentity_t1138 * MarshalByRefObject_get_ObjectIdentity_m6622 (MarshalByRefObject_t986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ServerIdentity_t1_57 * MarshalByRefObject_get_ObjectIdentity_m1_989 (MarshalByRefObject_t1_56 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

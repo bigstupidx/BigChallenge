@@ -13,19 +13,19 @@
 #include <exception>
 
 // System.Collections.Generic.List`1<System.Int32>
-struct List_1_t318;
+struct List_1_t1_920;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.ListPool`1<System.Int32>::.cctor()
-extern "C" void ListPool_1__cctor_m15967_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ListPool_1__cctor_m15967(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1__cctor_m15967_gshared)(__this /* static, unused */, method)
+extern "C" void ListPool_1__cctor_m7_1735_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ListPool_1__cctor_m7_1735(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1__cctor_m7_1735_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.List`1<T> UnityEngine.UI.ListPool`1<System.Int32>::Get()
-extern "C" List_1_t318 * ListPool_1_Get_m2445_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ListPool_1_Get_m2445(__this /* static, unused */, method) (( List_1_t318 * (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1_Get_m2445_gshared)(__this /* static, unused */, method)
+extern "C" List_1_t1_920 * ListPool_1_Get_m7_1511_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ListPool_1_Get_m7_1511(__this /* static, unused */, method) (( List_1_t1_920 * (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1_Get_m7_1511_gshared)(__this /* static, unused */, method)
 // System.Void UnityEngine.UI.ListPool`1<System.Int32>::Release(System.Collections.Generic.List`1<T>)
-extern "C" void ListPool_1_Release_m2469_gshared (Object_t * __this /* static, unused */, List_1_t318 * ___toRelease, const MethodInfo* method);
-#define ListPool_1_Release_m2469(__this /* static, unused */, ___toRelease, method) (( void (*) (Object_t * /* static, unused */, List_1_t318 *, const MethodInfo*))ListPool_1_Release_m2469_gshared)(__this /* static, unused */, ___toRelease, method)
+extern "C" void ListPool_1_Release_m7_1516_gshared (Object_t * __this /* static, unused */, List_1_t1_920 * ___toRelease, const MethodInfo* method);
+#define ListPool_1_Release_m7_1516(__this /* static, unused */, ___toRelease, method) (( void (*) (Object_t * /* static, unused */, List_1_t1_920 *, const MethodInfo*))ListPool_1_Release_m7_1516_gshared)(__this /* static, unused */, ___toRelease, method)
 // System.Void UnityEngine.UI.ListPool`1<System.Int32>::<s_ListPool>m__14(System.Collections.Generic.List`1<T>)
-extern "C" void ListPool_1_U3Cs_ListPoolU3Em__14_m15968_gshared (Object_t * __this /* static, unused */, List_1_t318 * ___l, const MethodInfo* method);
-#define ListPool_1_U3Cs_ListPoolU3Em__14_m15968(__this /* static, unused */, ___l, method) (( void (*) (Object_t * /* static, unused */, List_1_t318 *, const MethodInfo*))ListPool_1_U3Cs_ListPoolU3Em__14_m15968_gshared)(__this /* static, unused */, ___l, method)
+extern "C" void ListPool_1_U3Cs_ListPoolU3Em__14_m7_1736_gshared (Object_t * __this /* static, unused */, List_1_t1_920 * ___l, const MethodInfo* method);
+#define ListPool_1_U3Cs_ListPoolU3Em__14_m7_1736(__this /* static, unused */, ___l, method) (( void (*) (Object_t * /* static, unused */, List_1_t1_920 *, const MethodInfo*))ListPool_1_U3Cs_ListPoolU3Em__14_m7_1736_gshared)(__this /* static, unused */, ___l, method)

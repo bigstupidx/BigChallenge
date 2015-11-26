@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Reflection.MonoGenericCMethod
-struct MonoGenericCMethod_t1365;
+struct MonoGenericCMethod_t1_341;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.MonoGenericCMethod::.ctor()
-extern "C" void MonoGenericCMethod__ctor_m8460 (MonoGenericCMethod_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoGenericCMethod__ctor_m1_2872 (MonoGenericCMethod_t1_341 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoGenericCMethod::get_ReflectedType()
-extern "C" Type_t * MonoGenericCMethod_get_ReflectedType_m8461 (MonoGenericCMethod_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoGenericCMethod_get_ReflectedType_m1_2873 (MonoGenericCMethod_t1_341 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

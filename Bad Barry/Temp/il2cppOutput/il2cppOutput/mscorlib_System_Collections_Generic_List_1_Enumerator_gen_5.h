@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<Tiled2Unity.TileAnimator/Frame>
-struct List_1_t69;
-// Tiled2Unity.TileAnimator/Frame
-struct Frame_t66;
+// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
+struct List_1_t1_860;
+// System.Security.Policy.StrongName
+struct StrongName_t1_615;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>
-struct  Enumerator_t1896 
+// System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>
+struct  Enumerator_t1_1116 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>::l
-	List_1_t69 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_860 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>::current
-	Frame_t66 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	StrongName_t1_615 * ___current_3;
 };

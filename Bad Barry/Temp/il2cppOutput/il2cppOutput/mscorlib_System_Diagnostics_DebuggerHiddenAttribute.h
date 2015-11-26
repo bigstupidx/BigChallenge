@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Diagnostics.DebuggerHiddenAttribute
-struct  DebuggerHiddenAttribute_t1131  : public Attribute_t476
+struct  DebuggerHiddenAttribute_t1_49  : public Attribute_t1_2
 {
 };

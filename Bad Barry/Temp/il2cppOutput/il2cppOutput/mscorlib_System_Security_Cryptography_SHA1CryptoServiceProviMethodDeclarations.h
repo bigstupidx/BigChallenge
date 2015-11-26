@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Security.Cryptography.SHA1CryptoServiceProvider
-struct SHA1CryptoServiceProvider_t1580;
+struct SHA1CryptoServiceProvider_t1_591;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.SHA1CryptoServiceProvider::.ctor()
-extern "C" void SHA1CryptoServiceProvider__ctor_m9495 (SHA1CryptoServiceProvider_t1580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1CryptoServiceProvider__ctor_m1_3965 (SHA1CryptoServiceProvider_t1_591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1CryptoServiceProvider::Finalize()
-extern "C" void SHA1CryptoServiceProvider_Finalize_m9496 (SHA1CryptoServiceProvider_t1580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1CryptoServiceProvider_Finalize_m1_3966 (SHA1CryptoServiceProvider_t1_591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1CryptoServiceProvider::Dispose(System.Boolean)
-extern "C" void SHA1CryptoServiceProvider_Dispose_m9497 (SHA1CryptoServiceProvider_t1580 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1CryptoServiceProvider_Dispose_m1_3967 (SHA1CryptoServiceProvider_t1_591 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1CryptoServiceProvider::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA1CryptoServiceProvider_HashCore_m9498 (SHA1CryptoServiceProvider_t1580 * __this, ByteU5BU5D_t740* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1CryptoServiceProvider_HashCore_m1_3968 (SHA1CryptoServiceProvider_t1_591 * __this, ByteU5BU5D_t1_70* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.SHA1CryptoServiceProvider::HashFinal()
-extern "C" ByteU5BU5D_t740* SHA1CryptoServiceProvider_HashFinal_m9499 (SHA1CryptoServiceProvider_t1580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* SHA1CryptoServiceProvider_HashFinal_m1_3969 (SHA1CryptoServiceProvider_t1_591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA1CryptoServiceProvider::Initialize()
-extern "C" void SHA1CryptoServiceProvider_Initialize_m9500 (SHA1CryptoServiceProvider_t1580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA1CryptoServiceProvider_Initialize_m1_3970 (SHA1CryptoServiceProvider_t1_591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

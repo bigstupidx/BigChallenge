@@ -18,7 +18,7 @@ struct Type_t;
 #include "UnityEngine_UnityEngine_AsyncOperation.h"
 
 // UnityEngine.ResourceRequest
-struct  ResourceRequest_t473  : public AsyncOperation_t431
+struct  ResourceRequest_t6_67  : public AsyncOperation_t6_2
 {
 	// System.String UnityEngine.ResourceRequest::m_Path
 	String_t* ___m_Path_1;

@@ -13,19 +13,19 @@
 #include <exception>
 
 // System.Security.Policy.Evidence/EvidenceEnumerator
-struct EvidenceEnumerator_t1601;
+struct EvidenceEnumerator_t1_613;
 // System.Collections.IEnumerator
-struct IEnumerator_t76;
+struct IEnumerator_t1_129;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Policy.Evidence/EvidenceEnumerator::.ctor(System.Collections.IEnumerator,System.Collections.IEnumerator)
-extern "C" void EvidenceEnumerator__ctor_m9598 (EvidenceEnumerator_t1601 * __this, Object_t * ___hostenum, Object_t * ___assemblyenum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EvidenceEnumerator__ctor_m1_4081 (EvidenceEnumerator_t1_613 * __this, Object_t * ___hostenum, Object_t * ___assemblyenum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.Evidence/EvidenceEnumerator::MoveNext()
-extern "C" bool EvidenceEnumerator_MoveNext_m9599 (EvidenceEnumerator_t1601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EvidenceEnumerator_MoveNext_m1_4082 (EvidenceEnumerator_t1_613 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.Evidence/EvidenceEnumerator::Reset()
-extern "C" void EvidenceEnumerator_Reset_m9600 (EvidenceEnumerator_t1601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EvidenceEnumerator_Reset_m1_4083 (EvidenceEnumerator_t1_613 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Policy.Evidence/EvidenceEnumerator::get_Current()
-extern "C" Object_t * EvidenceEnumerator_get_Current_m9601 (EvidenceEnumerator_t1601 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EvidenceEnumerator_get_Current_m1_4084 (EvidenceEnumerator_t1_613 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
-struct RSAPKCS1SHA1SignatureDescription_t1591;
+struct RSAPKCS1SHA1SignatureDescription_t1_603;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription::.ctor()
-extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m9552 (RSAPKCS1SHA1SignatureDescription_t1591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m1_4023 (RSAPKCS1SHA1SignatureDescription_t1_603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<System.Object>
-struct  List_1_t402  : public Object_t
+struct  List_1_t1_970  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Object>::_items
-	ObjectU5BU5D_t102* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Object>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t1_156* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Object>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t402_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Object>::EmptyArray
-	ObjectU5BU5D_t102* ___EmptyArray_4;
+struct List_1_t1_970_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ObjectU5BU5D_t1_156* ___EmptyArray_4;
 };

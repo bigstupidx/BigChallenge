@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.TooltipAttribute
-struct TooltipAttribute_t584;
+struct TooltipAttribute_t6_207;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
-extern "C" void TooltipAttribute__ctor_m3300 (TooltipAttribute_t584 * __this, String_t* ___tooltip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TooltipAttribute__ctor_m6_1228 (TooltipAttribute_t6_207 * __this, String_t* ___tooltip, const MethodInfo* method) IL2CPP_METHOD_ATTR;

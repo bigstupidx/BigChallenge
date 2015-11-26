@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct Dictionary_2_t194;
+// System.Collections.Generic.Dictionary`2<System.String,LitJson.JsonData>
+struct Dictionary_2_t1_889;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  ValueCollection_t2043  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,LitJson.JsonData>
+struct  ValueCollection_t1_1166  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::dictionary
-	Dictionary_2_t194 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_889 * ___dictionary_0;
 };

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Reflection.StrongNameKeyPair
-struct StrongNameKeyPair_t1341;
+struct StrongNameKeyPair_t1_315;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 // System.Object
 struct Object_t;
 
@@ -23,8 +23,8 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.StrongNameKeyPair::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void StrongNameKeyPair__ctor_m8568 (StrongNameKeyPair_t1341 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StrongNameKeyPair__ctor_m1_2980 (StrongNameKeyPair_t1_315 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.StrongNameKeyPair::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void StrongNameKeyPair_System_Runtime_Serialization_ISerializable_GetObjectData_m8569 (StrongNameKeyPair_t1341 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StrongNameKeyPair_System_Runtime_Serialization_ISerializable_GetObjectData_m1_2981 (StrongNameKeyPair_t1_315 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.StrongNameKeyPair::System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
-extern "C" void StrongNameKeyPair_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m8570 (StrongNameKeyPair_t1341 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StrongNameKeyPair_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m1_2982 (StrongNameKeyPair_t1_315 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;

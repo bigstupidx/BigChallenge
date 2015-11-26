@@ -18,7 +18,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Channels.CrossAppDomainData
-struct  CrossAppDomainData_t1432  : public Object_t
+struct  CrossAppDomainData_t1_410  : public Object_t
 {
 	// System.Object System.Runtime.Remoting.Channels.CrossAppDomainData::_ContextID
 	Object_t * ____ContextID_0;

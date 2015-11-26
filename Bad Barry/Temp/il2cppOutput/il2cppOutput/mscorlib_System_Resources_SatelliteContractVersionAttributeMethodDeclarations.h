@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Resources.SatelliteContractVersionAttribute
-struct SatelliteContractVersionAttribute_t1393;
+struct SatelliteContractVersionAttribute_t1_370;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Resources.SatelliteContractVersionAttribute::.ctor(System.String)
-extern "C" void SatelliteContractVersionAttribute__ctor_m8624 (SatelliteContractVersionAttribute_t1393 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SatelliteContractVersionAttribute__ctor_m1_3036 (SatelliteContractVersionAttribute_t1_370 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

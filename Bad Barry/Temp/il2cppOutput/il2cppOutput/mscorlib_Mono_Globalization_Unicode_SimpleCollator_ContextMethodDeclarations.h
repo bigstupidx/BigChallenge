@@ -18,7 +18,7 @@
 #include "mscorlib_System_Globalization_CompareOptions.h"
 
 // System.Void Mono.Globalization.Unicode.SimpleCollator/Context::.ctor(System.Globalization.CompareOptions,System.Byte*,System.Byte*,System.Byte*,System.Byte*,System.Byte*,System.Boolean)
-extern "C" void Context__ctor_m6668 (Context_t1157 * __this, int32_t ___opt, uint8_t* ___alwaysMatchFlags, uint8_t* ___neverMatchFlags, uint8_t* ___buffer1, uint8_t* ___buffer2, uint8_t* ___prev1, bool ___quickCheckPossible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void Context_t1157_marshal(const Context_t1157& unmarshaled, Context_t1157_marshaled& marshaled);
-extern "C" void Context_t1157_marshal_back(const Context_t1157_marshaled& marshaled, Context_t1157& unmarshaled);
-extern "C" void Context_t1157_marshal_cleanup(Context_t1157_marshaled& marshaled);
+extern "C" void Context__ctor_m1_1036 (Context_t1_78 * __this, int32_t ___opt, uint8_t* ___alwaysMatchFlags, uint8_t* ___neverMatchFlags, uint8_t* ___buffer1, uint8_t* ___buffer2, uint8_t* ___prev1, bool ___quickCheckPossible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Context_t1_78_marshal(const Context_t1_78& unmarshaled, Context_t1_78_marshaled& marshaled);
+extern "C" void Context_t1_78_marshal_back(const Context_t1_78_marshaled& marshaled, Context_t1_78& unmarshaled);
+extern "C" void Context_t1_78_marshal_cleanup(Context_t1_78_marshaled& marshaled);

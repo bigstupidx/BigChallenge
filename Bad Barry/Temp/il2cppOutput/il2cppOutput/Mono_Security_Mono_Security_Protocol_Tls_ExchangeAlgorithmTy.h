@@ -15,7 +15,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_ExchangeAlgorithmTy.h"
 
 // Mono.Security.Protocol.Tls.ExchangeAlgorithmType
-struct  ExchangeAlgorithmType_t842 
+struct  ExchangeAlgorithmType_t3_74 
 {
 	// System.Int32 Mono.Security.Protocol.Tls.ExchangeAlgorithmType::value__
 	int32_t ___value___1;

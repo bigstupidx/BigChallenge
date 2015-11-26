@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Events.BaseInvokableCall
-struct  BaseInvokableCall_t593  : public Object_t
+struct  BaseInvokableCall_t6_218  : public Object_t
 {
 };

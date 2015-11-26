@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Resources.ResourceManager
-struct ResourceManager_t1381;
+struct ResourceManager_t1_358;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Resources.ResourceManager::.ctor()
-extern "C" void ResourceManager__ctor_m8580 (ResourceManager_t1381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceManager__ctor_m1_2992 (ResourceManager_t1_358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Resources.ResourceManager::.cctor()
-extern "C" void ResourceManager__cctor_m8581 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceManager__cctor_m1_2993 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

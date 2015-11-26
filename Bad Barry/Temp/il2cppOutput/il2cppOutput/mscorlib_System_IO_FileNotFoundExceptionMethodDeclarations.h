@@ -13,24 +13,24 @@
 #include <exception>
 
 // System.IO.FileNotFoundException
-struct FileNotFoundException_t1267;
+struct FileNotFoundException_t1_230;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.FileNotFoundException::.ctor()
-extern "C" void FileNotFoundException__ctor_m7717 (FileNotFoundException_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileNotFoundException__ctor_m1_2118 (FileNotFoundException_t1_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileNotFoundException::.ctor(System.String,System.String)
-extern "C" void FileNotFoundException__ctor_m7718 (FileNotFoundException_t1267 * __this, String_t* ___message, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileNotFoundException__ctor_m1_2119 (FileNotFoundException_t1_230 * __this, String_t* ___message, String_t* ___fileName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileNotFoundException__ctor_m7719 (FileNotFoundException_t1267 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileNotFoundException__ctor_m1_2120 (FileNotFoundException_t1_230 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.FileNotFoundException::get_Message()
-extern "C" String_t* FileNotFoundException_get_Message_m7720 (FileNotFoundException_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileNotFoundException_get_Message_m1_2121 (FileNotFoundException_t1_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileNotFoundException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileNotFoundException_GetObjectData_m7721 (FileNotFoundException_t1267 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileNotFoundException_GetObjectData_m1_2122 (FileNotFoundException_t1_230 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.FileNotFoundException::ToString()
-extern "C" String_t* FileNotFoundException_ToString_m7722 (FileNotFoundException_t1267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileNotFoundException_ToString_m1_2123 (FileNotFoundException_t1_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_Stream.h"
 
 // System.IO.NullStream
-struct  NullStream_t1280  : public Stream_t851
+struct  NullStream_t1_247  : public Stream_t1_217
 {
 };

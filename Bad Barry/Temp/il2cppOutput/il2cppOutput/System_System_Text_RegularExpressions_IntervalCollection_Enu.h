@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.IList
-struct IList_t701;
+struct IList_t1_409;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.IntervalCollection/Enumerator
-struct  Enumerator_t1057  : public Object_t
+struct  Enumerator_t2_119  : public Object_t
 {
 	// System.Collections.IList System.Text.RegularExpressions.IntervalCollection/Enumerator::list
 	Object_t * ___list_0;

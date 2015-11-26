@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_IO_IOException.h"
 
 // System.IO.FileNotFoundException
-struct  FileNotFoundException_t1267  : public IOException_t937
+struct  FileNotFoundException_t1_230  : public IOException_t1_224
 {
 	// System.String System.IO.FileNotFoundException::fileName
 	String_t* ___fileName_11;

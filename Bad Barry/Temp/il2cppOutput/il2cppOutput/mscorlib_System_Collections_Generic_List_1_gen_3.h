@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t1900;
+// UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
+struct GcLeaderboardU5BU5D_t6_274;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t107  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
+struct  List_1_t1_908  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
-	BaseInputModuleU5BU5D_t1900* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	GcLeaderboardU5BU5D_t6_274* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t107_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
-	BaseInputModuleU5BU5D_t1900* ___EmptyArray_4;
+struct List_1_t1_908_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	GcLeaderboardU5BU5D_t6_274* ___EmptyArray_4;
 };

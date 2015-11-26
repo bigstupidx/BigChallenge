@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t1067;
+struct CapturingGroup_t2_129;
 
 #include "System_System_Text_RegularExpressions_Syntax_CapturingGroup.h"
 
 // System.Text.RegularExpressions.Syntax.BalancingGroup
-struct  BalancingGroup_t1068  : public CapturingGroup_t1067
+struct  BalancingGroup_t2_130  : public CapturingGroup_t2_129
 {
 	// System.Text.RegularExpressions.Syntax.CapturingGroup System.Text.RegularExpressions.Syntax.BalancingGroup::balance
-	CapturingGroup_t1067 * ___balance_3;
+	CapturingGroup_t2_129 * ___balance_3;
 };

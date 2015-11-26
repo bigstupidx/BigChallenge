@@ -16,7 +16,7 @@ struct String_t;
 #include "System_System_Text_RegularExpressions_Syntax_Group.h"
 
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct  CapturingGroup_t1067  : public Group_t1065
+struct  CapturingGroup_t2_129  : public Group_t2_127
 {
 	// System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::gid
 	int32_t ___gid_1;

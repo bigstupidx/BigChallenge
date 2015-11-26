@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping
-struct AxisMapping_t20;
+struct AxisMapping_t8_17;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping::.ctor()
-extern "C" void AxisMapping__ctor_m109 (AxisMapping_t20 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AxisMapping__ctor_m8_109 (AxisMapping_t8_17 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

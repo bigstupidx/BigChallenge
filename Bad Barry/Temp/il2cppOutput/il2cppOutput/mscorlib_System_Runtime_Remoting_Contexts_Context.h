@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1439;
+struct IMessageSink_t1_417;
 // System.Object[]
-struct ObjectU5BU5D_t102;
+struct ObjectU5BU5D_t1_156;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct DynamicPropertyCollection_t1437;
+struct DynamicPropertyCollection_t1_415;
 // System.Runtime.Remoting.Contexts.ContextCallbackObject
-struct ContextCallbackObject_t1438;
+struct ContextCallbackObject_t1_416;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_UIntPtr.h"
 
 // System.Runtime.Remoting.Contexts.Context
-struct  Context_t1436  : public Object_t
+struct  Context_t1_414  : public Object_t
 {
 	// System.Int32 System.Runtime.Remoting.Contexts.Context::domain_id
 	int32_t ___domain_id_0;
@@ -40,23 +40,23 @@ struct  Context_t1436  : public Object_t
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Contexts.Context::client_context_sink_chain
 	Object_t * ___client_context_sink_chain_5;
 	// System.Object[] System.Runtime.Remoting.Contexts.Context::datastore
-	ObjectU5BU5D_t102* ___datastore_6;
+	ObjectU5BU5D_t1_156* ___datastore_6;
 	// System.Collections.ArrayList System.Runtime.Remoting.Contexts.Context::context_properties
-	ArrayList_t771 * ___context_properties_7;
+	ArrayList_t1_112 * ___context_properties_7;
 	// System.Boolean System.Runtime.Remoting.Contexts.Context::frozen
 	bool ___frozen_8;
 	// System.Runtime.Remoting.Contexts.DynamicPropertyCollection System.Runtime.Remoting.Contexts.Context::context_dynamic_properties
-	DynamicPropertyCollection_t1437 * ___context_dynamic_properties_12;
+	DynamicPropertyCollection_t1_415 * ___context_dynamic_properties_12;
 	// System.Runtime.Remoting.Contexts.ContextCallbackObject System.Runtime.Remoting.Contexts.Context::callback_object
-	ContextCallbackObject_t1438 * ___callback_object_13;
+	ContextCallbackObject_t1_416 * ___callback_object_13;
 };
-struct Context_t1436_StaticFields{
+struct Context_t1_414_StaticFields{
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Contexts.Context::default_server_context_sink
 	Object_t * ___default_server_context_sink_3;
 	// System.Int32 System.Runtime.Remoting.Contexts.Context::global_count
 	int32_t ___global_count_9;
 	// System.Collections.Hashtable System.Runtime.Remoting.Contexts.Context::namedSlots
-	Hashtable_t836 * ___namedSlots_10;
+	Hashtable_t1_171 * ___namedSlots_10;
 	// System.Runtime.Remoting.Contexts.DynamicPropertyCollection System.Runtime.Remoting.Contexts.Context::global_dynamic_properties
-	DynamicPropertyCollection_t1437 * ___global_dynamic_properties_11;
+	DynamicPropertyCollection_t1_415 * ___global_dynamic_properties_11;
 };

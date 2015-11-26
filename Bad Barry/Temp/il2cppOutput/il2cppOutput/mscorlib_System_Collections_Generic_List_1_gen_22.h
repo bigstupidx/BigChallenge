@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Toggle[]
-struct ToggleU5BU5D_t2116;
+// UnityEngine.Transform[]
+struct TransformU5BU5D_t6_304;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct  List_1_t282  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Transform>
+struct  List_1_t1_932  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
-	ToggleU5BU5D_t2116* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	TransformU5BU5D_t6_304* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t282_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
-	ToggleU5BU5D_t2116* ___EmptyArray_4;
+struct List_1_t1_932_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	TransformU5BU5D_t6_304* ___EmptyArray_4;
 };

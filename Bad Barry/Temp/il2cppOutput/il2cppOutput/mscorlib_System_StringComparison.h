@@ -15,7 +15,7 @@
 #include "mscorlib_System_StringComparison.h"
 
 // System.StringComparison
-struct  StringComparison_t1724 
+struct  StringComparison_t1_755 
 {
 	// System.Int32 System.StringComparison::value__
 	int32_t ___value___1;

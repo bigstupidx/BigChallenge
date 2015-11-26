@@ -10,18 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t108;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
-// System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>
-struct  Comparison_1_t1905  : public MulticastDelegate_t227
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct  Comparison_1_t1_1180  : public MulticastDelegate_t1_21
 {
 };

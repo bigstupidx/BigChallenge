@@ -14,6 +14,6 @@
 #include "mscorlib_System_ArithmeticException.h"
 
 // System.OverflowException
-struct  OverflowException_t1717  : public ArithmeticException_t903
+struct  OverflowException_t1_747  : public ArithmeticException_t1_687
 {
 };

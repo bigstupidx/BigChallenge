@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Security.Cryptography.KeySizes
-struct KeySizes_t759;
+struct KeySizes_t1_567;
 // System.Security.Cryptography.KeySizes[]
-struct KeySizesU5BU5D_t758;
+struct KeySizesU5BU5D_t1_540;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.KeySizes::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void KeySizes__ctor_m3768 (KeySizes_t759 * __this, int32_t ___minSize, int32_t ___maxSize, int32_t ___skipSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeySizes__ctor_m1_3812 (KeySizes_t1_567 * __this, int32_t ___minSize, int32_t ___maxSize, int32_t ___skipSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.KeySizes::get_MaxSize()
-extern "C" int32_t KeySizes_get_MaxSize_m9356 (KeySizes_t759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t KeySizes_get_MaxSize_m1_3813 (KeySizes_t1_567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.KeySizes::get_MinSize()
-extern "C" int32_t KeySizes_get_MinSize_m9357 (KeySizes_t759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t KeySizes_get_MinSize_m1_3814 (KeySizes_t1_567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.KeySizes::get_SkipSize()
-extern "C" int32_t KeySizes_get_SkipSize_m9358 (KeySizes_t759 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t KeySizes_get_SkipSize_m1_3815 (KeySizes_t1_567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.KeySizes::IsLegal(System.Int32)
-extern "C" bool KeySizes_IsLegal_m9359 (KeySizes_t759 * __this, int32_t ___keySize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool KeySizes_IsLegal_m1_3816 (KeySizes_t1_567 * __this, int32_t ___keySize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.KeySizes::IsLegalKeySize(System.Security.Cryptography.KeySizes[],System.Int32)
-extern "C" bool KeySizes_IsLegalKeySize_m9360 (Object_t * __this /* static, unused */, KeySizesU5BU5D_t758* ___legalKeys, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool KeySizes_IsLegalKeySize_m1_3817 (Object_t * __this /* static, unused */, KeySizesU5BU5D_t1_540* ___legalKeys, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;

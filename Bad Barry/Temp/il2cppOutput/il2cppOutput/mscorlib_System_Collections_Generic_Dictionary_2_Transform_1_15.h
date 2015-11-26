@@ -10,20 +10,21 @@
 
 #include <stdint.h>
 
-// System.String
-struct String_t;
+// System.Type
+struct Type_t;
+// System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>
+struct IDictionary_2_t1_1214;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-#include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
-struct  Transform_1_t2077  : public MulticastDelegate_t227
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1213  : public MulticastDelegate_t1_21
 {
 };

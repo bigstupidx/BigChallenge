@@ -13,29 +13,29 @@
 #include <exception>
 
 // System.Runtime.Remoting.Proxies.ProxyAttribute
-struct ProxyAttribute_t1487;
+struct ProxyAttribute_t1_467;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t986;
+struct MarshalByRefObject_t1_56;
 // System.Type
 struct Type_t;
 // System.Runtime.Remoting.Proxies.RealProxy
-struct RealProxy_t1481;
+struct RealProxy_t1_461;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t1496;
+struct ObjRef_t1_476;
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1436;
+struct Context_t1_414;
 // System.Runtime.Remoting.Activation.IConstructionCallMessage
-struct IConstructionCallMessage_t1773;
+struct IConstructionCallMessage_t1_808;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.MarshalByRefObject System.Runtime.Remoting.Proxies.ProxyAttribute::CreateInstance(System.Type)
-extern "C" MarshalByRefObject_t986 * ProxyAttribute_CreateInstance_m8937 (ProxyAttribute_t1487 * __this, Type_t * ___serverType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t1_56 * ProxyAttribute_CreateInstance_m1_3349 (ProxyAttribute_t1_467 * __this, Type_t * ___serverType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.Proxies.ProxyAttribute::CreateProxy(System.Runtime.Remoting.ObjRef,System.Type,System.Object,System.Runtime.Remoting.Contexts.Context)
-extern "C" RealProxy_t1481 * ProxyAttribute_CreateProxy_m8938 (ProxyAttribute_t1487 * __this, ObjRef_t1496 * ___objRef, Type_t * ___serverType, Object_t * ___serverObject, Context_t1436 * ___serverContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RealProxy_t1_461 * ProxyAttribute_CreateProxy_m1_3350 (ProxyAttribute_t1_467 * __this, ObjRef_t1_476 * ___objRef, Type_t * ___serverType, Object_t * ___serverObject, Context_t1_414 * ___serverContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Proxies.ProxyAttribute::GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" void ProxyAttribute_GetPropertiesForNewContext_m8939 (ProxyAttribute_t1487 * __this, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ProxyAttribute_GetPropertiesForNewContext_m1_3351 (ProxyAttribute_t1_467 * __this, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Proxies.ProxyAttribute::IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
-extern "C" bool ProxyAttribute_IsContextOK_m8940 (ProxyAttribute_t1487 * __this, Context_t1436 * ___ctx, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ProxyAttribute_IsContextOK_m1_3352 (ProxyAttribute_t1_467 * __this, Context_t1_414 * ___ctx, Object_t * ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

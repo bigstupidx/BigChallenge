@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct ExpressionCollection_t1062;
+struct ExpressionCollection_t2_124;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t1063;
+struct Expression_t2_125;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::.ctor()
-extern "C" void ExpressionCollection__ctor_m5494 (ExpressionCollection_t1062 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionCollection__ctor_m2_723 (ExpressionCollection_t2_124 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::Add(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void ExpressionCollection_Add_m5495 (ExpressionCollection_t1062 * __this, Expression_t1063 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionCollection_Add_m2_724 (ExpressionCollection_t2_124 * __this, Expression_t2_125 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionCollection::get_Item(System.Int32)
-extern "C" Expression_t1063 * ExpressionCollection_get_Item_m5496 (ExpressionCollection_t1062 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t2_125 * ExpressionCollection_get_Item_m2_725 (ExpressionCollection_t2_124 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::set_Item(System.Int32,System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void ExpressionCollection_set_Item_m5497 (ExpressionCollection_t1062 * __this, int32_t ___i, Expression_t1063 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionCollection_set_Item_m2_726 (ExpressionCollection_t2_124 * __this, int32_t ___i, Expression_t2_125 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionCollection::OnValidate(System.Object)
-extern "C" void ExpressionCollection_OnValidate_m5498 (ExpressionCollection_t1062 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionCollection_OnValidate_m2_727 (ExpressionCollection_t2_124 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;

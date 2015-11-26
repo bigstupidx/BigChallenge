@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<LitJson.JsonData>
-struct List_1_t713;
-// LitJson.JsonData
-struct JsonData_t58;
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct List_1_t1_951;
+// UnityEngine.UI.Toggle
+struct Toggle_t7_65;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<LitJson.JsonData>
-struct  Enumerator_t2321 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
+struct  Enumerator_t1_1527 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<LitJson.JsonData>::l
-	List_1_t713 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<LitJson.JsonData>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_951 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<LitJson.JsonData>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<LitJson.JsonData>::current
-	JsonData_t58 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Toggle_t7_65 * ___current_3;
 };

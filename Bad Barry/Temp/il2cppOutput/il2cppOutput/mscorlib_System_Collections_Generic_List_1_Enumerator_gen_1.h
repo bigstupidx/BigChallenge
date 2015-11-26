@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t402;
+struct List_1_t1_970;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_t1866 
+struct  Enumerator_t1_981 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Object>::l
-	List_1_t402 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_970 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Object>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Object>::current
+	// T System.Collections.Generic.List`1/Enumerator::current
 	Object_t * ___current_3;
 };

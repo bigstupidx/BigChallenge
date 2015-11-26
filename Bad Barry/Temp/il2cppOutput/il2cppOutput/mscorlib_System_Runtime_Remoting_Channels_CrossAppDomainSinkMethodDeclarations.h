@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Runtime.Remoting.Channels.CrossAppDomainSink
-struct CrossAppDomainSink_t1434;
+struct CrossAppDomainSink_t1_412;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainSink::.ctor(System.Int32)
-extern "C" void CrossAppDomainSink__ctor_m8699 (CrossAppDomainSink_t1434 * __this, int32_t ___domainID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainSink__ctor_m1_3111 (CrossAppDomainSink_t1_412 * __this, int32_t ___domainID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainSink::.cctor()
-extern "C" void CrossAppDomainSink__cctor_m8700 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainSink__cctor_m1_3112 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Channels.CrossAppDomainSink System.Runtime.Remoting.Channels.CrossAppDomainSink::GetSink(System.Int32)
-extern "C" CrossAppDomainSink_t1434 * CrossAppDomainSink_GetSink_m8701 (Object_t * __this /* static, unused */, int32_t ___domainID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CrossAppDomainSink_t1_412 * CrossAppDomainSink_GetSink_m1_3113 (Object_t * __this /* static, unused */, int32_t ___domainID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainSink::get_TargetDomainId()
-extern "C" int32_t CrossAppDomainSink_get_TargetDomainId_m8702 (CrossAppDomainSink_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CrossAppDomainSink_get_TargetDomainId_m1_3114 (CrossAppDomainSink_t1_412 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

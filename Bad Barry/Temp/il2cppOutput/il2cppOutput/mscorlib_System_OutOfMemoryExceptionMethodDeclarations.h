@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.OutOfMemoryException
-struct OutOfMemoryException_t1716;
+struct OutOfMemoryException_t1_746;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OutOfMemoryException::.ctor()
-extern "C" void OutOfMemoryException__ctor_m10702 (OutOfMemoryException_t1716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OutOfMemoryException__ctor_m1_5291 (OutOfMemoryException_t1_746 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OutOfMemoryException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OutOfMemoryException__ctor_m10703 (OutOfMemoryException_t1716 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OutOfMemoryException__ctor_m1_5292 (OutOfMemoryException_t1_746 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

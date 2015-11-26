@@ -18,7 +18,7 @@ struct Type_t;
 #include "mscorlib_System_ValueType.h"
 
 // LitJson.PropertyMetadata
-struct  PropertyMetadata_t664 
+struct  PropertyMetadata_t5_5 
 {
 	// System.Reflection.MemberInfo LitJson.PropertyMetadata::Info
 	MemberInfo_t * ___Info_0;

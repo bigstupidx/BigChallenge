@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.NotSupportedException
-struct  NotSupportedException_t95  : public SystemException_t1104
+struct  NotSupportedException_t1_741  : public SystemException_t1_147
 {
 };

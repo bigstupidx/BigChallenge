@@ -14,6 +14,6 @@
 #include "Mono_Security_Mono_Math_Prime_Generator_PrimeGeneratorBase.h"
 
 // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
-struct  SequentialSearchPrimeGeneratorBase_t769  : public PrimeGeneratorBase_t768
+struct  SequentialSearchPrimeGeneratorBase_t3_23  : public PrimeGeneratorBase_t3_22
 {
 };

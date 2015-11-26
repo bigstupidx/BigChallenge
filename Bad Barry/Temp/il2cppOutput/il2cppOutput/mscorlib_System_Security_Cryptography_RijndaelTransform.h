@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.UInt32[]
-struct UInt32U5BU5D_t746;
+struct UInt32U5BU5D_t1_96;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 
 // System.Security.Cryptography.RijndaelTransform
-struct  RijndaelTransform_t1577  : public SymmetricTransform_t1188
+struct  RijndaelTransform_t1_587  : public SymmetricTransform_t1_118
 {
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::expandedKey
-	UInt32U5BU5D_t746* ___expandedKey_12;
+	UInt32U5BU5D_t1_96* ___expandedKey_12;
 	// System.Int32 System.Security.Cryptography.RijndaelTransform::Nb
 	int32_t ___Nb_13;
 	// System.Int32 System.Security.Cryptography.RijndaelTransform::Nk
@@ -29,27 +29,27 @@ struct  RijndaelTransform_t1577  : public SymmetricTransform_t1188
 	// System.Int32 System.Security.Cryptography.RijndaelTransform::Nr
 	int32_t ___Nr_15;
 };
-struct RijndaelTransform_t1577_StaticFields{
+struct RijndaelTransform_t1_587_StaticFields{
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::Rcon
-	UInt32U5BU5D_t746* ___Rcon_16;
+	UInt32U5BU5D_t1_96* ___Rcon_16;
 	// System.Byte[] System.Security.Cryptography.RijndaelTransform::SBox
-	ByteU5BU5D_t740* ___SBox_17;
+	ByteU5BU5D_t1_70* ___SBox_17;
 	// System.Byte[] System.Security.Cryptography.RijndaelTransform::iSBox
-	ByteU5BU5D_t740* ___iSBox_18;
+	ByteU5BU5D_t1_70* ___iSBox_18;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::T0
-	UInt32U5BU5D_t746* ___T0_19;
+	UInt32U5BU5D_t1_96* ___T0_19;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::T1
-	UInt32U5BU5D_t746* ___T1_20;
+	UInt32U5BU5D_t1_96* ___T1_20;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::T2
-	UInt32U5BU5D_t746* ___T2_21;
+	UInt32U5BU5D_t1_96* ___T2_21;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::T3
-	UInt32U5BU5D_t746* ___T3_22;
+	UInt32U5BU5D_t1_96* ___T3_22;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::iT0
-	UInt32U5BU5D_t746* ___iT0_23;
+	UInt32U5BU5D_t1_96* ___iT0_23;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::iT1
-	UInt32U5BU5D_t746* ___iT1_24;
+	UInt32U5BU5D_t1_96* ___iT1_24;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::iT2
-	UInt32U5BU5D_t746* ___iT2_25;
+	UInt32U5BU5D_t1_96* ___iT2_25;
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::iT3
-	UInt32U5BU5D_t746* ___iT3_26;
+	UInt32U5BU5D_t1_96* ___iT3_26;
 };

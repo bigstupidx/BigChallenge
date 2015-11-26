@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Net.GlobalProxySelection
-struct  GlobalProxySelection_t973  : public Object_t
+struct  GlobalProxySelection_t2_29  : public Object_t
 {
 };

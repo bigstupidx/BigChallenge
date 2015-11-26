@@ -13,34 +13,34 @@
 #include <exception>
 
 // System.Net.WebProxy
-struct WebProxy_t984;
+struct WebProxy_t2_41;
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 // System.Net.ICredentials
-struct ICredentials_t985;
+struct ICredentials_t2_42;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.WebProxy::.ctor()
-extern "C" void WebProxy__ctor_m4981 (WebProxy_t984 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy__ctor_m2_195 (WebProxy_t2_41 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::.ctor(System.Uri,System.Boolean,System.String[],System.Net.ICredentials)
-extern "C" void WebProxy__ctor_m4982 (WebProxy_t984 * __this, Uri_t928 * ___address, bool ___bypassOnLocal, StringU5BU5D_t573* ___bypassList, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy__ctor_m2_196 (WebProxy_t2_41 * __this, Uri_t2_22 * ___address, bool ___bypassOnLocal, StringU5BU5D_t1_198* ___bypassList, Object_t * ___credentials, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebProxy__ctor_m4983 (WebProxy_t984 * __this, SerializationInfo_t621 * ___serializationInfo, StreamingContext_t622  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy__ctor_m2_197 (WebProxy_t2_41 * __this, SerializationInfo_t1_176 * ___serializationInfo, StreamingContext_t1_506  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebProxy_System_Runtime_Serialization_ISerializable_GetObjectData_m4984 (WebProxy_t984 * __this, SerializationInfo_t621 * ___serializationInfo, StreamingContext_t622  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy_System_Runtime_Serialization_ISerializable_GetObjectData_m2_198 (WebProxy_t2_41 * __this, SerializationInfo_t1_176 * ___serializationInfo, StreamingContext_t1_506  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebProxy::get_UseDefaultCredentials()
-extern "C" bool WebProxy_get_UseDefaultCredentials_m4985 (WebProxy_t984 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebProxy_get_UseDefaultCredentials_m2_199 (WebProxy_t2_41 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.WebProxy::GetProxy(System.Uri)
-extern "C" Uri_t928 * WebProxy_GetProxy_m4986 (WebProxy_t984 * __this, Uri_t928 * ___destination, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t2_22 * WebProxy_GetProxy_m2_200 (WebProxy_t2_41 * __this, Uri_t2_22 * ___destination, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.WebProxy::IsBypassed(System.Uri)
-extern "C" bool WebProxy_IsBypassed_m4987 (WebProxy_t984 * __this, Uri_t928 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool WebProxy_IsBypassed_m2_201 (WebProxy_t2_41 * __this, Uri_t2_22 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void WebProxy_GetObjectData_m4988 (WebProxy_t984 * __this, SerializationInfo_t621 * ___serializationInfo, StreamingContext_t622  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy_GetObjectData_m2_202 (WebProxy_t2_41 * __this, SerializationInfo_t1_176 * ___serializationInfo, StreamingContext_t1_506  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.WebProxy::CheckBypassList()
-extern "C" void WebProxy_CheckBypassList_m4989 (WebProxy_t984 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebProxy_CheckBypassList_m2_203 (WebProxy_t2_41 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

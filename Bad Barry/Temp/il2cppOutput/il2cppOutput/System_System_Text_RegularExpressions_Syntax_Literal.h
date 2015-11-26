@@ -16,7 +16,7 @@ struct String_t;
 #include "System_System_Text_RegularExpressions_Syntax_Expression.h"
 
 // System.Text.RegularExpressions.Syntax.Literal
-struct  Literal_t1074  : public Expression_t1063
+struct  Literal_t2_136  : public Expression_t2_125
 {
 	// System.String System.Text.RegularExpressions.Syntax.Literal::str
 	String_t* ___str_0;

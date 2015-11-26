@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Byte
-struct  Byte_t633 
+struct  Byte_t1_11 
 {
 	// System.Byte System.Byte::m_value
 	uint8_t ___m_value_2;

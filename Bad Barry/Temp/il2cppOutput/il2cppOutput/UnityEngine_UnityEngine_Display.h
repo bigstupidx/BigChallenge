@@ -11,26 +11,26 @@
 #include <stdint.h>
 
 // UnityEngine.Display[]
-struct DisplayU5BU5D_t490;
+struct DisplayU5BU5D_t6_87;
 // UnityEngine.Display
-struct Display_t489;
+struct Display_t6_86;
 // UnityEngine.Display/DisplaysUpdatedDelegate
-struct DisplaysUpdatedDelegate_t488;
+struct DisplaysUpdatedDelegate_t6_85;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.Display
-struct  Display_t489  : public Object_t
+struct  Display_t6_86  : public Object_t
 {
 	// System.IntPtr UnityEngine.Display::nativeDisplay
 	IntPtr_t ___nativeDisplay_0;
 };
-struct Display_t489_StaticFields{
+struct Display_t6_86_StaticFields{
 	// UnityEngine.Display[] UnityEngine.Display::displays
-	DisplayU5BU5D_t490* ___displays_1;
+	DisplayU5BU5D_t6_87* ___displays_1;
 	// UnityEngine.Display UnityEngine.Display::_mainDisplay
-	Display_t489 * ____mainDisplay_2;
+	Display_t6_86 * ____mainDisplay_2;
 	// UnityEngine.Display/DisplaysUpdatedDelegate UnityEngine.Display::onDisplaysUpdated
-	DisplaysUpdatedDelegate_t488 * ___onDisplaysUpdated_3;
+	DisplaysUpdatedDelegate_t6_85 * ___onDisplaysUpdated_3;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.IO.IOException
-struct  IOException_t937  : public SystemException_t1104
+struct  IOException_t1_224  : public SystemException_t1_147
 {
 };

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Dictionary_2_t151;
+struct Dictionary_2_t1_937;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct  ValueCollection_t362  : public Object_t
+struct  ValueCollection_t1_961  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::dictionary
-	Dictionary_2_t151 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_937 * ___dictionary_0;
 };

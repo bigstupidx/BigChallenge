@@ -13,35 +13,35 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t348;
+struct List_1_t1_911;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
-struct List_1_t535;
+struct List_1_t1_912;
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct List_1_t536;
+struct List_1_t1_913;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 #include "UnityEngine_UnityEngine_TextGenerationSettings.h"
 
 // UnityEngine.TextGenerator
-struct  TextGenerator_t236  : public Object_t
+struct  TextGenerator_t6_147  : public Object_t
 {
 	// System.IntPtr UnityEngine.TextGenerator::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// System.String UnityEngine.TextGenerator::m_LastString
 	String_t* ___m_LastString_1;
 	// UnityEngine.TextGenerationSettings UnityEngine.TextGenerator::m_LastSettings
-	TextGenerationSettings_t353  ___m_LastSettings_2;
+	TextGenerationSettings_t6_148  ___m_LastSettings_2;
 	// System.Boolean UnityEngine.TextGenerator::m_HasGenerated
 	bool ___m_HasGenerated_3;
 	// System.Boolean UnityEngine.TextGenerator::m_LastValid
 	bool ___m_LastValid_4;
 	// System.Collections.Generic.List`1<UnityEngine.UIVertex> UnityEngine.TextGenerator::m_Verts
-	List_1_t348 * ___m_Verts_5;
+	List_1_t1_911 * ___m_Verts_5;
 	// System.Collections.Generic.List`1<UnityEngine.UICharInfo> UnityEngine.TextGenerator::m_Characters
-	List_1_t535 * ___m_Characters_6;
+	List_1_t1_912 * ___m_Characters_6;
 	// System.Collections.Generic.List`1<UnityEngine.UILineInfo> UnityEngine.TextGenerator::m_Lines
-	List_1_t536 * ___m_Lines_7;
+	List_1_t1_913 * ___m_Lines_7;
 	// System.Boolean UnityEngine.TextGenerator::m_CachedVerts
 	bool ___m_CachedVerts_8;
 	// System.Boolean UnityEngine.TextGenerator::m_CachedCharacters

@@ -15,10 +15,10 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.UICharInfo
-struct  UICharInfo_t395 
+struct  UICharInfo_t6_145 
 {
 	// UnityEngine.Vector2 UnityEngine.UICharInfo::cursorPos
-	Vector2_t25  ___cursorPos_0;
+	Vector2_t6_48  ___cursorPos_0;
 	// System.Single UnityEngine.UICharInfo::charWidth
 	float ___charWidth_1;
 };

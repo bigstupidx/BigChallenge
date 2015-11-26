@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_14.h"
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>
-struct  DefaultComparer_t2522  : public Comparer_1_t2521
+// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UILineInfo>
+struct  DefaultComparer_t1_1385  : public Comparer_1_t1_1384
 {
 };

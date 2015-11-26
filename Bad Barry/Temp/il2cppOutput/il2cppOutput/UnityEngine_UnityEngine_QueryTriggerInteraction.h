@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_QueryTriggerInteraction.h"
 
 // UnityEngine.QueryTriggerInteraction
-struct  QueryTriggerInteraction_t506 
+struct  QueryTriggerInteraction_t6_108 
 {
 	// System.Int32 UnityEngine.QueryTriggerInteraction::value__
 	int32_t ___value___1;

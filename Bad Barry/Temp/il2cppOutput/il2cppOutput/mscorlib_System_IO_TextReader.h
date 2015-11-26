@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.IO.TextReader
-struct TextReader_t684;
+struct TextReader_t1_143;
 
 #include "mscorlib_System_Object.h"
 
 // System.IO.TextReader
-struct  TextReader_t684  : public Object_t
+struct  TextReader_t1_143  : public Object_t
 {
 };
-struct TextReader_t684_StaticFields{
+struct TextReader_t1_143_StaticFields{
 	// System.IO.TextReader System.IO.TextReader::Null
-	TextReader_t684 * ___Null_0;
+	TextReader_t1_143 * ___Null_0;
 };

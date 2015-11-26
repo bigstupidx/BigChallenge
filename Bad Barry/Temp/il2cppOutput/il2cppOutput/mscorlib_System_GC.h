@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.GC
-struct  GC_t1698  : public Object_t
+struct  GC_t1_721  : public Object_t
 {
 };

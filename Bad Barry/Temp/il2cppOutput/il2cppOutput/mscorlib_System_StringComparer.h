@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.StringComparer
-struct StringComparer_t1102;
+struct StringComparer_t1_752;
 
 #include "mscorlib_System_Object.h"
 
 // System.StringComparer
-struct  StringComparer_t1102  : public Object_t
+struct  StringComparer_t1_752  : public Object_t
 {
 };
-struct StringComparer_t1102_StaticFields{
+struct StringComparer_t1_752_StaticFields{
 	// System.StringComparer System.StringComparer::invariantCultureIgnoreCase
-	StringComparer_t1102 * ___invariantCultureIgnoreCase_0;
+	StringComparer_t1_752 * ___invariantCultureIgnoreCase_0;
 	// System.StringComparer System.StringComparer::invariantCulture
-	StringComparer_t1102 * ___invariantCulture_1;
+	StringComparer_t1_752 * ___invariantCulture_1;
 	// System.StringComparer System.StringComparer::ordinalIgnoreCase
-	StringComparer_t1102 * ___ordinalIgnoreCase_2;
+	StringComparer_t1_752 * ___ordinalIgnoreCase_2;
 	// System.StringComparer System.StringComparer::ordinal
-	StringComparer_t1102 * ___ordinal_3;
+	StringComparer_t1_752 * ___ordinal_3;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Runtime.Remoting.RemotingException
-struct  RemotingException_t1508  : public SystemException_t1104
+struct  RemotingException_t1_488  : public SystemException_t1_147
 {
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 
 // System.Security.Cryptography.SHA1
-struct  SHA1_t914  : public HashAlgorithm_t782
+struct  SHA1_t1_589  : public HashAlgorithm_t1_560
 {
 };

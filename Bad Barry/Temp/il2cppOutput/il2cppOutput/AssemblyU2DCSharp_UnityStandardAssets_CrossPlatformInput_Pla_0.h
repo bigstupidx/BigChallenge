@@ -14,6 +14,6 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Vir.h"
 
 // UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput
-struct  StandaloneInput_t17  : public VirtualInput_t9
+struct  StandaloneInput_t8_14  : public VirtualInput_t8_7
 {
 };

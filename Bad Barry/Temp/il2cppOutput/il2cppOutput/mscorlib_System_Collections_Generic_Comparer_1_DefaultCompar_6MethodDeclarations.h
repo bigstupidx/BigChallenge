@@ -12,15 +12,14 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>
-struct DefaultComparer_t2190;
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Int32>
+struct DefaultComparer_t1_1158;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_Vector4.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>::.ctor()
-extern "C" void DefaultComparer__ctor_m15861_gshared (DefaultComparer_t2190 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m15861(__this, method) (( void (*) (DefaultComparer_t2190 *, const MethodInfo*))DefaultComparer__ctor_m15861_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Vector4>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m15862_gshared (DefaultComparer_t2190 * __this, Vector4_t319  ___x, Vector4_t319  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m15862(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2190 *, Vector4_t319 , Vector4_t319 , const MethodInfo*))DefaultComparer_Compare_m15862_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Int32>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_7310_gshared (DefaultComparer_t1_1158 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_7310(__this, method) (( void (*) (DefaultComparer_t1_1158 *, const MethodInfo*))DefaultComparer__ctor_m1_7310_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Int32>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_7311_gshared (DefaultComparer_t1_1158 * __this, int32_t ___x, int32_t ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_7311(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1158 *, int32_t, int32_t, const MethodInfo*))DefaultComparer_Compare_m1_7311_gshared)(__this, ___x, ___y, method)

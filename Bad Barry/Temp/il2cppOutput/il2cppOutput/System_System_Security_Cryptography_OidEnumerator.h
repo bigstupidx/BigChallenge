@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.OidCollection
-struct OidCollection_t1007;
+struct OidCollection_t2_66;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.OidEnumerator
-struct  OidEnumerator_t1022  : public Object_t
+struct  OidEnumerator_t2_80  : public Object_t
 {
 	// System.Security.Cryptography.OidCollection System.Security.Cryptography.OidEnumerator::_collection
-	OidCollection_t1007 * ____collection_0;
+	OidCollection_t2_66 * ____collection_0;
 	// System.Int32 System.Security.Cryptography.OidEnumerator::_position
 	int32_t ____position_1;
 };

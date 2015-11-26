@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.RectMask2D
-struct RectMask2D_t245;
+// UnityEngine.Events.PersistentCall
+struct PersistentCall_t6_222;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Predicate`1<UnityEngine.UI.RectMask2D>
-struct  Predicate_1_t2087  : public MulticastDelegate_t227
+// System.Predicate`1<UnityEngine.Events.PersistentCall>
+struct  Predicate_1_t1_1398  : public MulticastDelegate_t1_21
 {
 };

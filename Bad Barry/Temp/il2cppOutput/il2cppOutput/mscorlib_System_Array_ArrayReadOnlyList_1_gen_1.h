@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Reflection.CustomAttributeNamedArgument[]
-struct CustomAttributeNamedArgumentU5BU5D_t1791;
+struct CustomAttributeNamedArgumentU5BU5D_t1_829;
 
 #include "mscorlib_System_Object.h"
 
 // System.Array/ArrayReadOnlyList`1<System.Reflection.CustomAttributeNamedArgument>
-struct  ArrayReadOnlyList_1_t2493  : public Object_t
+struct  ArrayReadOnlyList_1_t1_1098  : public Object_t
 {
-	// T[] System.Array/ArrayReadOnlyList`1<System.Reflection.CustomAttributeNamedArgument>::array
-	CustomAttributeNamedArgumentU5BU5D_t1791* ___array_0;
+	// T[] System.Array/ArrayReadOnlyList`1::array
+	CustomAttributeNamedArgumentU5BU5D_t1_829* ___array_0;
 };

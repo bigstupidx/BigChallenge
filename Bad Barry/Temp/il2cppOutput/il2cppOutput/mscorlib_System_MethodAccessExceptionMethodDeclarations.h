@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.MethodAccessException
-struct MethodAccessException_t1703;
+struct MethodAccessException_t1_729;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MethodAccessException::.ctor()
-extern "C" void MethodAccessException__ctor_m10499 (MethodAccessException_t1703 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodAccessException__ctor_m1_5083 (MethodAccessException_t1_729 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MethodAccessException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MethodAccessException__ctor_m10500 (MethodAccessException_t1703 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodAccessException__ctor_m1_5084 (MethodAccessException_t1_729 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

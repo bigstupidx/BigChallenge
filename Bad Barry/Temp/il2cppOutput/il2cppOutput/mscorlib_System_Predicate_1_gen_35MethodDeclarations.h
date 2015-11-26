@@ -12,28 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Predicate`1<UnityEngine.UICharInfo>
-struct Predicate_1_t2251;
-// System.Object
-struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t228;
-// System.AsyncCallback
-struct AsyncCallback_t229;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_IntPtr.h"
-#include "UnityEngine_UnityEngine_UICharInfo.h"
+#include "mscorlib_System_Predicate_1_gen_2MethodDeclarations.h"
 
-// System.Void System.Predicate`1<UnityEngine.UICharInfo>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m16459_gshared (Predicate_1_t2251 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m16459(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2251 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m16459_gshared)(__this, ___object, ___method, method)
-// System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m16460_gshared (Predicate_1_t2251 * __this, UICharInfo_t395  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m16460(__this, ___obj, method) (( bool (*) (Predicate_1_t2251 *, UICharInfo_t395 , const MethodInfo*))Predicate_1_Invoke_m16460_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Predicate`1<UnityEngine.UICharInfo>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m16461_gshared (Predicate_1_t2251 * __this, UICharInfo_t395  ___obj, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m16461(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2251 *, UICharInfo_t395 , AsyncCallback_t229 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m16461_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m16462_gshared (Predicate_1_t2251 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m16462(__this, ___result, method) (( bool (*) (Predicate_1_t2251 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m16462_gshared)(__this, ___result, method)
+// System.Void System.Predicate`1<UnityEngine.UI.Graphic>::.ctor(System.Object,System.IntPtr)
+#define Predicate_1__ctor_m1_12246(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1_1484 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m1_5804_gshared)(__this, ___object, ___method, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Graphic>::Invoke(T)
+#define Predicate_1_Invoke_m1_12247(__this, ___obj, method) (( bool (*) (Predicate_1_t1_1484 *, Graphic_t7_75 *, const MethodInfo*))Predicate_1_Invoke_m1_5805_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Predicate`1<UnityEngine.UI.Graphic>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Predicate_1_BeginInvoke_m1_12248(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1_1484 *, Graphic_t7_75 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m1_5806_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Boolean System.Predicate`1<UnityEngine.UI.Graphic>::EndInvoke(System.IAsyncResult)
+#define Predicate_1_EndInvoke_m1_12249(__this, ___result, method) (( bool (*) (Predicate_1_t1_1484 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m1_5807_gshared)(__this, ___result, method)

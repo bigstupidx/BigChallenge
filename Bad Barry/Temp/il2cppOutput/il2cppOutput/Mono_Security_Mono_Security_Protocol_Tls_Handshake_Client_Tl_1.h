@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished
-struct  TlsClientFinished_t879  : public HandshakeMessage_t853
+struct  TlsClientFinished_t3_102  : public HandshakeMessage_t3_82
 {
 };
-struct TlsClientFinished_t879_StaticFields{
+struct TlsClientFinished_t3_102_StaticFields{
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::Ssl3Marker
-	ByteU5BU5D_t740* ___Ssl3Marker_9;
+	ByteU5BU5D_t1_70* ___Ssl3Marker_9;
 };

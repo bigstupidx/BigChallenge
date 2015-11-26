@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.Serialization.OnDeserializingAttribute
-struct  OnDeserializingAttribute_t1546  : public Attribute_t476
+struct  OnDeserializingAttribute_t1_527  : public Attribute_t1_2
 {
 };

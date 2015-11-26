@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Stack`1<System.Object>
-struct Stack_1_t1915;
+struct Stack_1_t2_162;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.Stack`1/Enumerator<System.Object>
-struct  Enumerator_t1917 
+struct  Enumerator_t2_163 
 {
-	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<System.Object>::parent
-	Stack_1_t1915 * ___parent_0;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Object>::idx
+	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator::parent
+	Stack_1_t2_162 * ___parent_0;
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::idx
 	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<System.Object>::_version
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::_version
 	int32_t ____version_2;
 };

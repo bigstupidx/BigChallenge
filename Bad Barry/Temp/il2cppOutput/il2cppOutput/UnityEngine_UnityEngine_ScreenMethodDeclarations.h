@@ -16,8 +16,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Int32 UnityEngine.Screen::get_width()
-extern "C" int32_t Screen_get_width_m362 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Screen_get_width_m6_145 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Screen::get_height()
-extern "C" int32_t Screen_get_height_m2159 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Screen_get_height_m6_146 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Screen::get_dpi()
-extern "C" float Screen_get_dpi_m2406 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Screen_get_dpi_m6_147 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

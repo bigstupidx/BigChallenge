@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.MonoEnumInfo/ShortComparer
-struct  ShortComparer_t1687  : public Object_t
+struct  ShortComparer_t1_709  : public Object_t
 {
 };

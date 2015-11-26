@@ -11,33 +11,33 @@
 #include <stdint.h>
 
 // Menu
-struct Menu_t33;
+struct Menu_t8_24;
 // UnityEngine.UI.Slider
-struct Slider_t49;
+struct Slider_t7_125;
 // UnityEngine.UI.Image
-struct Image_t26;
+struct Image_t7_64;
 // UnityEngine.GameObject
-struct GameObject_t3;
+struct GameObject_t6_94;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // HUDGame
-struct  HUDGame_t48  : public MonoBehaviour_t2
+struct  HUDGame_t8_35  : public MonoBehaviour_t6_88
 {
 	// Menu HUDGame::currentMenu
-	Menu_t33 * ___currentMenu_2;
+	Menu_t8_24 * ___currentMenu_2;
 	// UnityEngine.UI.Slider HUDGame::healthSlider
-	Slider_t49 * ___healthSlider_3;
+	Slider_t7_125 * ___healthSlider_3;
 	// UnityEngine.UI.Slider HUDGame::xpSlider
-	Slider_t49 * ___xpSlider_4;
+	Slider_t7_125 * ___xpSlider_4;
 	// UnityEngine.UI.Image HUDGame::healthSliderImage
-	Image_t26 * ___healthSliderImage_5;
+	Image_t7_64 * ___healthSliderImage_5;
 	// UnityEngine.UI.Image HUDGame::xpSliderImage
-	Image_t26 * ___xpSliderImage_6;
+	Image_t7_64 * ___xpSliderImage_6;
 	// UnityEngine.GameObject HUDGame::lvlUp
-	GameObject_t3 * ___lvlUp_7;
+	GameObject_t6_94 * ___lvlUp_7;
 };
-struct HUDGame_t48_StaticFields{
+struct HUDGame_t8_35_StaticFields{
 	// System.Boolean HUDGame::isPaused
 	bool ___isPaused_8;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_Mono_Math_Prime_Generator_PrimeGeneratorBase.h"
 
 // Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
-struct  SequentialSearchPrimeGeneratorBase_t1168  : public PrimeGeneratorBase_t1167
+struct  SequentialSearchPrimeGeneratorBase_t1_89  : public PrimeGeneratorBase_t1_88
 {
 };

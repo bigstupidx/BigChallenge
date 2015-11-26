@@ -15,7 +15,7 @@
 #include "System_System_Net_Security_SslPolicyErrors.h"
 
 // System.Net.Security.SslPolicyErrors
-struct  SslPolicyErrors_t964 
+struct  SslPolicyErrors_t2_17 
 {
 	// System.Int32 System.Net.Security.SslPolicyErrors::value__
 	int32_t ___value___1;

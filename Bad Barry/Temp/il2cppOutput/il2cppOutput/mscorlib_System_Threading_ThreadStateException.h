@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Threading.ThreadStateException
-struct  ThreadStateException_t1656  : public SystemException_t1104
+struct  ThreadStateException_t1_670  : public SystemException_t1_147
 {
 };

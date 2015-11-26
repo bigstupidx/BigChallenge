@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_SystemException.h"
 
 // System.ArgumentException
-struct  ArgumentException_t409  : public SystemException_t1104
+struct  ArgumentException_t1_638  : public SystemException_t1_147
 {
 	// System.String System.ArgumentException::param_name
 	String_t* ___param_name_12;

@@ -11,26 +11,26 @@
 #include <stdint.h>
 
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t509;
+struct Rigidbody2D_t6_114;
 // UnityEngine.Collider2D
-struct Collider2D_t72;
+struct Collider2D_t6_113;
 // UnityEngine.ContactPoint2D[]
-struct ContactPoint2DU5BU5D_t512;
+struct ContactPoint2DU5BU5D_t6_118;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.Collision2D
-struct  Collision2D_t511  : public Object_t
+struct  Collision2D_t6_117  : public Object_t
 {
 	// UnityEngine.Rigidbody2D UnityEngine.Collision2D::m_Rigidbody
-	Rigidbody2D_t509 * ___m_Rigidbody_0;
+	Rigidbody2D_t6_114 * ___m_Rigidbody_0;
 	// UnityEngine.Collider2D UnityEngine.Collision2D::m_Collider
-	Collider2D_t72 * ___m_Collider_1;
+	Collider2D_t6_113 * ___m_Collider_1;
 	// UnityEngine.ContactPoint2D[] UnityEngine.Collision2D::m_Contacts
-	ContactPoint2DU5BU5D_t512* ___m_Contacts_2;
+	ContactPoint2DU5BU5D_t6_118* ___m_Contacts_2;
 	// UnityEngine.Vector2 UnityEngine.Collision2D::m_RelativeVelocity
-	Vector2_t25  ___m_RelativeVelocity_3;
+	Vector2_t6_48  ___m_RelativeVelocity_3;
 	// System.Boolean UnityEngine.Collision2D::m_Enabled
 	bool ___m_Enabled_4;
 };

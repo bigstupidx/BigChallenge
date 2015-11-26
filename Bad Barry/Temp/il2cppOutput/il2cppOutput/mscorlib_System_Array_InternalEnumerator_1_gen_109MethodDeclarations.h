@@ -19,23 +19,23 @@ struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_109.h"
-#include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
+#include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m19313_gshared (InternalEnumerator_1_t2506 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m19313(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2506 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m19313_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m19314_gshared (InternalEnumerator_1_t2506 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m19314(__this, method) (( void (*) (InternalEnumerator_1_t2506 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m19314_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m19315_gshared (InternalEnumerator_1_t2506 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m19315(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2506 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m19315_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m19316_gshared (InternalEnumerator_1_t2506 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m19316(__this, method) (( void (*) (InternalEnumerator_1_t2506 *, const MethodInfo*))InternalEnumerator_1_Dispose_m19316_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m19317_gshared (InternalEnumerator_1_t2506 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m19317(__this, method) (( bool (*) (InternalEnumerator_1_t2506 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m19317_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::get_Current()
-extern "C" uint8_t InternalEnumerator_1_get_Current_m19318_gshared (InternalEnumerator_1_t2506 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m19318(__this, method) (( uint8_t (*) (InternalEnumerator_1_t2506 *, const MethodInfo*))InternalEnumerator_1_get_Current_m19318_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m1_10550_gshared (InternalEnumerator_1_t1_1395 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_10550(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1395 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_10550_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_10551_gshared (InternalEnumerator_1_t1_1395 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_10551(__this, method) (( void (*) (InternalEnumerator_1_t1_1395 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_10551_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_10552_gshared (InternalEnumerator_1_t1_1395 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_10552(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1395 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_10552_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m1_10553_gshared (InternalEnumerator_1_t1_1395 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_10553(__this, method) (( void (*) (InternalEnumerator_1_t1_1395 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_10553_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m1_10554_gshared (InternalEnumerator_1_t1_1395 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_10554(__this, method) (( bool (*) (InternalEnumerator_1_t1_1395 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_10554_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SendMouseEvents/HitInfo>::get_Current()
+extern "C" HitInfo_t6_199  InternalEnumerator_1_get_Current_m1_10555_gshared (InternalEnumerator_1_t1_1395 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_10555(__this, method) (( HitInfo_t6_199  (*) (InternalEnumerator_1_t1_1395 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_10555_gshared)(__this, method)

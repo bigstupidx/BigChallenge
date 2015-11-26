@@ -12,21 +12,33 @@
 #include <assert.h>
 #include <exception>
 
+// System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
+struct List_1_t1_1090;
+// System.Object
+struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_1MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_4.h"
+#include "mscorlib_System_Reflection_CustomAttributeNamedArgument.h"
 
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::.ctor(System.Collections.Generic.List`1<T>)
-#define Enumerator__ctor_m11654(__this, ___l, method) (( void (*) (Enumerator_t1890 *, List_1_t53 *, const MethodInfo*))Enumerator__ctor_m11335_gshared)(__this, ___l, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m11655(__this, method) (( void (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m11336_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m11656(__this, method) (( Object_t * (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m11337_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::Dispose()
-#define Enumerator_Dispose_m11657(__this, method) (( void (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_Dispose_m11338_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::VerifyState()
-#define Enumerator_VerifyState_m11658(__this, method) (( void (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_VerifyState_m11339_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::MoveNext()
-#define Enumerator_MoveNext_m11659(__this, method) (( bool (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_MoveNext_m11340_gshared)(__this, method)
-// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::get_Current()
-#define Enumerator_get_Current_m11660(__this, method) (( GameObject_t3 * (*) (Enumerator_t1890 *, const MethodInfo*))Enumerator_get_Current_m11341_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::.ctor(System.Collections.Generic.List`1<T>)
+extern "C" void Enumerator__ctor_m1_6753_gshared (Enumerator_t1_1091 * __this, List_1_t1_1090 * ___l, const MethodInfo* method);
+#define Enumerator__ctor_m1_6753(__this, ___l, method) (( void (*) (Enumerator_t1_1091 *, List_1_t1_1090 *, const MethodInfo*))Enumerator__ctor_m1_6753_gshared)(__this, ___l, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m1_6754_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m1_6754(__this, method) (( void (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m1_6754_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m1_6755_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m1_6755(__this, method) (( Object_t * (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m1_6755_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::Dispose()
+extern "C" void Enumerator_Dispose_m1_6756_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m1_6756(__this, method) (( void (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_Dispose_m1_6756_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::VerifyState()
+extern "C" void Enumerator_VerifyState_m1_6757_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_VerifyState_m1_6757(__this, method) (( void (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_VerifyState_m1_6757_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m1_6758_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m1_6758(__this, method) (( bool (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_MoveNext_m1_6758_gshared)(__this, method)
+// T System.Collections.Generic.List`1/Enumerator<System.Reflection.CustomAttributeNamedArgument>::get_Current()
+extern "C" CustomAttributeNamedArgument_t1_328  Enumerator_get_Current_m1_6759_gshared (Enumerator_t1_1091 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m1_6759(__this, method) (( CustomAttributeNamedArgument_t1_328  (*) (Enumerator_t1_1091 *, const MethodInfo*))Enumerator_get_Current_m1_6759_gshared)(__this, method)

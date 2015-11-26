@@ -13,41 +13,41 @@
 #include <exception>
 
 // UnityEngine.UI.Dropdown/DropdownItem
-struct DropdownItem_t178;
+struct DropdownItem_t7_62;
 // UnityEngine.UI.Text
-struct Text_t32;
+struct Text_t7_63;
 // UnityEngine.UI.Image
-struct Image_t26;
+struct Image_t7_64;
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 // UnityEngine.UI.Toggle
-struct Toggle_t180;
+struct Toggle_t7_65;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t73;
+struct PointerEventData_t7_36;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t75;
+struct BaseEventData_t7_5;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::.ctor()
-extern "C" void DropdownItem__ctor_m864 (DropdownItem_t178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem__ctor_m7_381 (DropdownItem_t7_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Text UnityEngine.UI.Dropdown/DropdownItem::get_text()
-extern "C" Text_t32 * DropdownItem_get_text_m865 (DropdownItem_t178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Text_t7_63 * DropdownItem_get_text_m7_382 (DropdownItem_t7_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::set_text(UnityEngine.UI.Text)
-extern "C" void DropdownItem_set_text_m866 (DropdownItem_t178 * __this, Text_t32 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_set_text_m7_383 (DropdownItem_t7_62 * __this, Text_t7_63 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Image UnityEngine.UI.Dropdown/DropdownItem::get_image()
-extern "C" Image_t26 * DropdownItem_get_image_m867 (DropdownItem_t178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Image_t7_64 * DropdownItem_get_image_m7_384 (DropdownItem_t7_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::set_image(UnityEngine.UI.Image)
-extern "C" void DropdownItem_set_image_m868 (DropdownItem_t178 * __this, Image_t26 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_set_image_m7_385 (DropdownItem_t7_62 * __this, Image_t7_64 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RectTransform UnityEngine.UI.Dropdown/DropdownItem::get_rectTransform()
-extern "C" RectTransform_t179 * DropdownItem_get_rectTransform_m869 (DropdownItem_t178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RectTransform_t6_65 * DropdownItem_get_rectTransform_m7_386 (DropdownItem_t7_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::set_rectTransform(UnityEngine.RectTransform)
-extern "C" void DropdownItem_set_rectTransform_m870 (DropdownItem_t178 * __this, RectTransform_t179 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_set_rectTransform_m7_387 (DropdownItem_t7_62 * __this, RectTransform_t6_65 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Toggle UnityEngine.UI.Dropdown/DropdownItem::get_toggle()
-extern "C" Toggle_t180 * DropdownItem_get_toggle_m871 (DropdownItem_t178 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Toggle_t7_65 * DropdownItem_get_toggle_m7_388 (DropdownItem_t7_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::set_toggle(UnityEngine.UI.Toggle)
-extern "C" void DropdownItem_set_toggle_m872 (DropdownItem_t178 * __this, Toggle_t180 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_set_toggle_m7_389 (DropdownItem_t7_62 * __this, Toggle_t7_65 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
-extern "C" void DropdownItem_OnPointerEnter_m873 (DropdownItem_t178 * __this, PointerEventData_t73 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_OnPointerEnter_m7_390 (DropdownItem_t7_62 * __this, PointerEventData_t7_36 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/DropdownItem::OnCancel(UnityEngine.EventSystems.BaseEventData)
-extern "C" void DropdownItem_OnCancel_m874 (DropdownItem_t178 * __this, BaseEventData_t75 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DropdownItem_OnCancel_m7_391 (DropdownItem_t7_62 * __this, BaseEventData_t7_5 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;

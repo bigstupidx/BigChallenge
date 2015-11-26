@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
-struct List_1_t183;
-// UnityEngine.UI.Dropdown/OptionData
-struct OptionData_t181;
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct List_1_t1_921;
+// UnityEngine.Component
+struct Component_t6_24;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>
-struct  Enumerator_t2010 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Component>
+struct  Enumerator_t1_1344 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>::l
-	List_1_t183 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_921 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>::current
-	OptionData_t181 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Component_t6_24 * ___current_3;
 };

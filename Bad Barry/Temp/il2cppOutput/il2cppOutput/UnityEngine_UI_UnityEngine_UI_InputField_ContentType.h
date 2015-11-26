@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_InputField_ContentType.h"
 
 // UnityEngine.UI.InputField/ContentType
-struct  ContentType_t218 
+struct  ContentType_t7_89 
 {
 	// System.Int32 UnityEngine.UI.InputField/ContentType::value__
 	int32_t ___value___1;

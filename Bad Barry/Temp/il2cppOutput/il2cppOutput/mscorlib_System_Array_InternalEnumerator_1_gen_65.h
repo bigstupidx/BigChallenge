@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
-struct  InternalEnumerator_1_t2431 
+// System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>
+struct  InternalEnumerator_1_t1_1155 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

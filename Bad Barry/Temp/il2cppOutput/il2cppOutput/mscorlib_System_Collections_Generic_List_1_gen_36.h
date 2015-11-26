@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>[]
-struct KeyValuePair_2U5BU5D_t2302;
+// UnityEngine.RectTransform[]
+struct RectTransformU5BU5D_t6_313;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  List_1_t712  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.RectTransform>
+struct  List_1_t1_953  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_items
-	KeyValuePair_2U5BU5D_t2302* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	RectTransformU5BU5D_t6_313* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t712_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::EmptyArray
-	KeyValuePair_2U5BU5D_t2302* ___EmptyArray_4;
+struct List_1_t1_953_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	RectTransformU5BU5D_t6_313* ___EmptyArray_4;
 };

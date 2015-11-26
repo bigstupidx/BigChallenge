@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.Application/LogCallback
-struct LogCallback_t484;
+struct LogCallback_t6_80;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Application
-struct  Application_t485  : public Object_t
+struct  Application_t6_81  : public Object_t
 {
 };
-struct Application_t485_StaticFields{
+struct Application_t6_81_StaticFields{
 	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandler
-	LogCallback_t484 * ___s_LogCallbackHandler_0;
+	LogCallback_t6_80 * ___s_LogCallbackHandler_0;
 	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandlerThreaded
-	LogCallback_t484 * ___s_LogCallbackHandlerThreaded_1;
+	LogCallback_t6_80 * ___s_LogCallbackHandlerThreaded_1;
 };

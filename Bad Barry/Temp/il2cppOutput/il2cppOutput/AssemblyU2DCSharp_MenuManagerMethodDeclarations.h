@@ -13,13 +13,13 @@
 #include <exception>
 
 // MenuManager
-struct MenuManager_t36;
+struct MenuManager_t8_25;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void MenuManager::.ctor()
-extern "C" void MenuManager__ctor_m146 (MenuManager_t36 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MenuManager__ctor_m8_146 (MenuManager_t8_25 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MenuManager::Start()
-extern "C" void MenuManager_Start_m147 (MenuManager_t36 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MenuManager_Start_m8_147 (MenuManager_t8_25 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MenuManager::Update()
-extern "C" void MenuManager_Update_m148 (MenuManager_t36 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MenuManager_Update_m8_148 (MenuManager_t8_25 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

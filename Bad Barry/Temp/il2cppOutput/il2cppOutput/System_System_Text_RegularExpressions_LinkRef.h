@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.LinkRef
-struct  LinkRef_t1042  : public Object_t
+struct  LinkRef_t2_105  : public Object_t
 {
 };

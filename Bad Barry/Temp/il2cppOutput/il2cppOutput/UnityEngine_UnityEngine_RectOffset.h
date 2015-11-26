@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t542;
+struct GUIStyle_t6_162;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.RectOffset
-struct  RectOffset_t304  : public Object_t
+struct  RectOffset_t6_163  : public Object_t
 {
 	// System.IntPtr UnityEngine.RectOffset::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// UnityEngine.GUIStyle UnityEngine.RectOffset::m_SourceStyle
-	GUIStyle_t542 * ___m_SourceStyle_1;
+	GUIStyle_t6_162 * ___m_SourceStyle_1;
 };

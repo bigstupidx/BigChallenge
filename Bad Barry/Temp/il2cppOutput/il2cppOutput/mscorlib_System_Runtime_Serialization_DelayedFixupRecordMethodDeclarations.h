@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Runtime.Serialization.DelayedFixupRecord
-struct DelayedFixupRecord_t1542;
+struct DelayedFixupRecord_t1_523;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1537;
+struct ObjectRecord_t1_518;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t1531;
+struct ObjectManager_t1_512;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.DelayedFixupRecord::.ctor(System.Runtime.Serialization.ObjectRecord,System.String,System.Runtime.Serialization.ObjectRecord)
-extern "C" void DelayedFixupRecord__ctor_m9190 (DelayedFixupRecord_t1542 * __this, ObjectRecord_t1537 * ___objectToBeFixed, String_t* ___memberName, ObjectRecord_t1537 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DelayedFixupRecord__ctor_m1_3602 (DelayedFixupRecord_t1_523 * __this, ObjectRecord_t1_518 * ___objectToBeFixed, String_t* ___memberName, ObjectRecord_t1_518 * ___objectRequired, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.DelayedFixupRecord::FixupImpl(System.Runtime.Serialization.ObjectManager)
-extern "C" void DelayedFixupRecord_FixupImpl_m9191 (DelayedFixupRecord_t1542 * __this, ObjectManager_t1531 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DelayedFixupRecord_FixupImpl_m1_3603 (DelayedFixupRecord_t1_523 * __this, ObjectManager_t1_512 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;

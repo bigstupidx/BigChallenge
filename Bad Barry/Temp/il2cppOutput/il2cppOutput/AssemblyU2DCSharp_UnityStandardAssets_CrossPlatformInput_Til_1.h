@@ -17,7 +17,7 @@ struct String_t;
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Til_0.h"
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping
-struct  AxisMapping_t20  : public Object_t
+struct  AxisMapping_t8_17  : public Object_t
 {
 	// UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping/MappingType UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping::type
 	int32_t ___type_0;

@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuite.h"
 
 // Mono.Security.Protocol.Tls.SslCipherSuite
-struct  SslCipherSuite_t865  : public CipherSuite_t826
+struct  SslCipherSuite_t3_92  : public CipherSuite_t3_59
 {
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::pad1
-	ByteU5BU5D_t740* ___pad1_21;
+	ByteU5BU5D_t1_70* ___pad1_21;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::pad2
-	ByteU5BU5D_t740* ___pad2_22;
+	ByteU5BU5D_t1_70* ___pad2_22;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslCipherSuite::header
-	ByteU5BU5D_t740* ___header_23;
+	ByteU5BU5D_t1_70* ___header_23;
 };

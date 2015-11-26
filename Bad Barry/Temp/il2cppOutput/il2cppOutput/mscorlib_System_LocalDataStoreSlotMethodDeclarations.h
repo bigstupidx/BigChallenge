@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.LocalDataStoreSlot
-struct LocalDataStoreSlot_t1701;
+struct LocalDataStoreSlot_t1_727;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.LocalDataStoreSlot::.ctor(System.Boolean)
-extern "C" void LocalDataStoreSlot__ctor_m10480 (LocalDataStoreSlot_t1701 * __this, bool ___in_thread, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalDataStoreSlot__ctor_m1_5061 (LocalDataStoreSlot_t1_727 * __this, bool ___in_thread, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.LocalDataStoreSlot::.cctor()
-extern "C" void LocalDataStoreSlot__cctor_m10481 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalDataStoreSlot__cctor_m1_5062 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.LocalDataStoreSlot::Finalize()
-extern "C" void LocalDataStoreSlot_Finalize_m10482 (LocalDataStoreSlot_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalDataStoreSlot_Finalize_m1_5063 (LocalDataStoreSlot_t1_727 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

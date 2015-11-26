@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<LitJson.JsonData>
-struct IList_1_t657;
+struct IList_1_t1_874;
 // System.Collections.Generic.IDictionary`2<System.String,LitJson.JsonData>
-struct IDictionary_2_t658;
+struct IDictionary_2_t1_875;
 // System.String
 struct String_t;
 // System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct IList_1_t659;
+struct IList_1_t1_876;
 
 #include "mscorlib_System_Object.h"
 #include "LitJson_LitJson_JsonType.h"
 
 // LitJson.JsonData
-struct  JsonData_t58  : public Object_t
+struct  JsonData_t5_2  : public Object_t
 {
 	// System.Collections.Generic.IList`1<LitJson.JsonData> LitJson.JsonData::inst_array
 	Object_t* ___inst_array_0;

@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_SystemException.h"
 
 // System.TypeLoadException
-struct  TypeLoadException_t1684  : public SystemException_t1104
+struct  TypeLoadException_t1_706  : public SystemException_t1_147
 {
 	// System.String System.TypeLoadException::className
 	String_t* ___className_12;

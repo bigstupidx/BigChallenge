@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.SoapServices/TypeInfo
-struct TypeInfo_t1514;
+struct TypeInfo_t1_494;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.SoapServices/TypeInfo::.ctor()
-extern "C" void TypeInfo__ctor_m9079 (TypeInfo_t1514 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInfo__ctor_m1_3491 (TypeInfo_t1_494 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

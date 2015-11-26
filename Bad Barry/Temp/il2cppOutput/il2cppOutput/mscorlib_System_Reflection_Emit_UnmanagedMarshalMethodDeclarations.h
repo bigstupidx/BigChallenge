@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.Emit.UnmanagedMarshal
-struct UnmanagedMarshal_t1303;
+struct UnmanagedMarshal_t1_277;
 // System.Runtime.InteropServices.MarshalAsAttribute
-struct MarshalAsAttribute_t1123;
+struct MarshalAsAttribute_t1_41;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.MarshalAsAttribute System.Reflection.Emit.UnmanagedMarshal::ToMarshalAsAttribute()
-extern "C" MarshalAsAttribute_t1123 * UnmanagedMarshal_ToMarshalAsAttribute_m8261 (UnmanagedMarshal_t1303 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalAsAttribute_t1_41 * UnmanagedMarshal_ToMarshalAsAttribute_m1_2672 (UnmanagedMarshal_t1_277 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

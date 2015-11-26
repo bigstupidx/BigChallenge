@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // Button
-struct Button_t31;
+struct Button_t8_23;
 // UnityEngine.UI.Text
-struct Text_t32;
+struct Text_t7_63;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Retry
-struct  Retry_t30  : public MonoBehaviour_t2
+struct  Retry_t8_22  : public MonoBehaviour_t6_88
 {
 	// Button Retry::retryButton
-	Button_t31 * ___retryButton_2;
+	Button_t8_23 * ___retryButton_2;
 	// UnityEngine.UI.Text Retry::text
-	Text_t32 * ___text_3;
+	Text_t7_63 * ___text_3;
 	// System.Boolean Retry::click
 	bool ___click_4;
 };

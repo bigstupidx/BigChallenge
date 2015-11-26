@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.EnvoyInfo
-struct EnvoyInfo_t1495;
+struct EnvoyInfo_t1_475;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1439;
+struct IMessageSink_t1_417;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.EnvoyInfo::.ctor(System.Runtime.Remoting.Messaging.IMessageSink)
-extern "C" void EnvoyInfo__ctor_m8965 (EnvoyInfo_t1495 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyInfo__ctor_m1_3377 (EnvoyInfo_t1_475 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.EnvoyInfo::get_EnvoySinks()
-extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m8966 (EnvoyInfo_t1495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m1_3378 (EnvoyInfo_t1_475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

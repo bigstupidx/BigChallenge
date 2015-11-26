@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UnhandledExceptionHandler
-struct  UnhandledExceptionHandler_t441  : public Object_t
+struct  UnhandledExceptionHandler_t6_16  : public Object_t
 {
 };

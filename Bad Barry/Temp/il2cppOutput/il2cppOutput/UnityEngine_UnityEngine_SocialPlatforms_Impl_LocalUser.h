@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t567;
+struct IUserProfileU5BU5D_t6_192;
 
 #include "UnityEngine_UnityEngine_SocialPlatforms_Impl_UserProfile.h"
 
 // UnityEngine.SocialPlatforms.Impl.LocalUser
-struct  LocalUser_t450  : public UserProfile_t566
+struct  LocalUser_t6_20  : public UserProfile_t6_191
 {
 	// UnityEngine.SocialPlatforms.IUserProfile[] UnityEngine.SocialPlatforms.Impl.LocalUser::m_Friends
-	IUserProfileU5BU5D_t567* ___m_Friends_5;
+	IUserProfileU5BU5D_t6_192* ___m_Friends_5;
 	// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::m_Authenticated
 	bool ___m_Authenticated_6;
 	// System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::m_Underage

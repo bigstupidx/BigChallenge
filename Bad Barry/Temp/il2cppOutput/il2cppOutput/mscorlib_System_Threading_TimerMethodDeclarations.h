@@ -13,16 +13,16 @@
 #include <exception>
 
 // System.Threading.Timer
-struct Timer_t1450;
+struct Timer_t1_428;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Void System.Threading.Timer::.cctor()
-extern "C" void Timer__cctor_m10018 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Timer__cctor_m1_4530 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Timer::Change(System.TimeSpan,System.TimeSpan)
-extern "C" bool Timer_Change_m10019 (Timer_t1450 * __this, TimeSpan_t1008  ___dueTime, TimeSpan_t1008  ___period, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Timer_Change_m1_4531 (Timer_t1_428 * __this, TimeSpan_t1_209  ___dueTime, TimeSpan_t1_209  ___period, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Timer::Dispose()
-extern "C" void Timer_Dispose_m10020 (Timer_t1450 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Timer_Dispose_m1_4532 (Timer_t1_428 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Timer::Change(System.Int64,System.Int64,System.Boolean)
-extern "C" bool Timer_Change_m10021 (Timer_t1450 * __this, int64_t ___dueTime, int64_t ___period, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Timer_Change_m1_4533 (Timer_t1_428 * __this, int64_t ___dueTime, int64_t ___period, bool ___first, const MethodInfo* method) IL2CPP_METHOD_ATTR;

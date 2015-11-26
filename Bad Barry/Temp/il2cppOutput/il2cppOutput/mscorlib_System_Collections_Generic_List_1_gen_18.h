@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.IClippable[]
-struct IClippableU5BU5D_t2090;
+// UnityEngine.EventSystems.RaycastResult[]
+struct RaycastResultU5BU5D_t7_205;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.IClippable>
-struct  List_1_t253  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct  List_1_t1_935  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_items
-	IClippableU5BU5D_t2090* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	RaycastResultU5BU5D_t7_205* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t253_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::EmptyArray
-	IClippableU5BU5D_t2090* ___EmptyArray_4;
+struct List_1_t1_935_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	RaycastResultU5BU5D_t7_205* ___EmptyArray_4;
 };

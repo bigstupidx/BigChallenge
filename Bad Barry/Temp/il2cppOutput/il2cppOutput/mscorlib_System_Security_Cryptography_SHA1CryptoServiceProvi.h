@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.SHA1Internal
-struct SHA1Internal_t1579;
+struct SHA1Internal_t1_590;
 
 #include "mscorlib_System_Security_Cryptography_SHA1.h"
 
 // System.Security.Cryptography.SHA1CryptoServiceProvider
-struct  SHA1CryptoServiceProvider_t1580  : public SHA1_t914
+struct  SHA1CryptoServiceProvider_t1_591  : public SHA1_t1_589
 {
 	// System.Security.Cryptography.SHA1Internal System.Security.Cryptography.SHA1CryptoServiceProvider::sha
-	SHA1Internal_t1579 * ___sha_4;
+	SHA1Internal_t1_590 * ___sha_4;
 };

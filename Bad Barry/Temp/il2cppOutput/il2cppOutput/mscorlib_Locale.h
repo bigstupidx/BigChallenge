@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Locale
-struct  Locale_t1140  : public Object_t
+struct  Locale_t1_59  : public Object_t
 {
 };

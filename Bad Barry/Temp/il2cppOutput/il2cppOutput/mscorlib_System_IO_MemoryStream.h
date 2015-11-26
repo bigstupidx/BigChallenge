@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_IO_Stream.h"
 
 // System.IO.MemoryStream
-struct  MemoryStream_t868  : public Stream_t851
+struct  MemoryStream_t1_239  : public Stream_t1_217
 {
 	// System.Boolean System.IO.MemoryStream::canWrite
 	bool ___canWrite_1;
@@ -27,7 +27,7 @@ struct  MemoryStream_t868  : public Stream_t851
 	// System.Int32 System.IO.MemoryStream::length
 	int32_t ___length_4;
 	// System.Byte[] System.IO.MemoryStream::internalBuffer
-	ByteU5BU5D_t740* ___internalBuffer_5;
+	ByteU5BU5D_t1_70* ___internalBuffer_5;
 	// System.Int32 System.IO.MemoryStream::initialIndex
 	int32_t ___initialIndex_6;
 	// System.Boolean System.IO.MemoryStream::expandable

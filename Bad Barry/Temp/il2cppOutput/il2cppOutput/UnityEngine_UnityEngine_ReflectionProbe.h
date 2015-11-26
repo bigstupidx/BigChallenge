@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.ReflectionProbe
-struct  ReflectionProbe_t460  : public Behaviour_t417
+struct  ReflectionProbe_t6_35  : public Behaviour_t6_30
 {
 };

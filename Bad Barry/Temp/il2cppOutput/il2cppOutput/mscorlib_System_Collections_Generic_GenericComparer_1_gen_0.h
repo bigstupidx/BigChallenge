@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 
-#include "mscorlib_System_Collections_Generic_Comparer_1_gen_13.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen_3.h"
 
 // System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>
-struct  GenericComparer_1_t1824  : public Comparer_1_t2517
+struct  GenericComparer_1_t1_863  : public Comparer_1_t1_1122
 {
 };

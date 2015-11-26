@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Permissions.StrongNamePublicKeyBlob
-struct  StrongNamePublicKeyBlob_t1598  : public Object_t
+struct  StrongNamePublicKeyBlob_t1_610  : public Object_t
 {
 	// System.Byte[] System.Security.Permissions.StrongNamePublicKeyBlob::pubkey
-	ByteU5BU5D_t740* ___pubkey_0;
+	ByteU5BU5D_t1_70* ___pubkey_0;
 };

@@ -12,18 +12,18 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<LitJson.ObjectMetadata>
-struct DefaultComparer_t2365;
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>
+struct DefaultComparer_t1_1298;
 
 #include "codegen/il2cpp-codegen.h"
-#include "LitJson_LitJson_ObjectMetadata.h"
+#include "UnityEngine_UnityEngine_Vector3.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<LitJson.ObjectMetadata>::.ctor()
-extern "C" void DefaultComparer__ctor_m17857_gshared (DefaultComparer_t2365 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m17857(__this, method) (( void (*) (DefaultComparer_t2365 *, const MethodInfo*))DefaultComparer__ctor_m17857_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<LitJson.ObjectMetadata>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m17858_gshared (DefaultComparer_t2365 * __this, ObjectMetadata_t666  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m17858(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t2365 *, ObjectMetadata_t666 , const MethodInfo*))DefaultComparer_GetHashCode_m17858_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<LitJson.ObjectMetadata>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m17859_gshared (DefaultComparer_t2365 * __this, ObjectMetadata_t666  ___x, ObjectMetadata_t666  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m17859(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t2365 *, ObjectMetadata_t666 , ObjectMetadata_t666 , const MethodInfo*))DefaultComparer_Equals_m17859_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_9179_gshared (DefaultComparer_t1_1298 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_9179(__this, method) (( void (*) (DefaultComparer_t1_1298 *, const MethodInfo*))DefaultComparer__ctor_m1_9179_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>::GetHashCode(T)
+extern "C" int32_t DefaultComparer_GetHashCode_m1_9180_gshared (DefaultComparer_t1_1298 * __this, Vector3_t6_49  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m1_9180(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1298 *, Vector3_t6_49 , const MethodInfo*))DefaultComparer_GetHashCode_m1_9180_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>::Equals(T,T)
+extern "C" bool DefaultComparer_Equals_m1_9181_gshared (DefaultComparer_t1_1298 * __this, Vector3_t6_49  ___x, Vector3_t6_49  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m1_9181(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1298 *, Vector3_t6_49 , Vector3_t6_49 , const MethodInfo*))DefaultComparer_Equals_m1_9181_gshared)(__this, ___x, ___y, method)

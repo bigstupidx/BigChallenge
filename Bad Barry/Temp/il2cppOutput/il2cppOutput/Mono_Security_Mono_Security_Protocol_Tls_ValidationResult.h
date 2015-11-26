@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Protocol.Tls.ValidationResult
-struct  ValidationResult_t861  : public Object_t
+struct  ValidationResult_t3_88  : public Object_t
 {
 	// System.Boolean Mono.Security.Protocol.Tls.ValidationResult::trusted
 	bool ___trusted_0;

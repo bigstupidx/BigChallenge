@@ -11,49 +11,49 @@
 #include <stdint.h>
 
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1834;
-// System.Type[]
-struct TypeU5BU5D_t619;
-// System.Collections.Generic.IList`1<LitJson.PropertyMetadata>[]
-struct IList_1U5BU5D_t2369;
-// System.Collections.Generic.IEqualityComparer`1<System.Type>
-struct IEqualityComparer_1_t2332;
+struct LinkU5BU5D_t1_1019;
+// UnityEngine.Font[]
+struct FontU5BU5D_t6_309;
+// System.Collections.Generic.List`1<UnityEngine.UI.Text>[]
+struct List_1U5BU5D_t1_1472;
+// System.Collections.Generic.IEqualityComparer`1<UnityEngine.Font>
+struct IEqualityComparer_1_t1_1474;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>,System.Collections.DictionaryEntry>
-struct Transform_1_t2370;
+struct SerializationInfo_t1_176;
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
+struct Transform_1_t1_1473;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>
-struct  Dictionary_2_t717  : public Object_t
+// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
+struct  Dictionary_2_t1_942  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::table
-	Int32U5BU5D_t425* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::linkSlots
-	LinkU5BU5D_t1834* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::keySlots
-	TypeU5BU5D_t619* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::valueSlots
-	IList_1U5BU5D_t2369* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::touchedSlots
+	// System.Int32[] System.Collections.Generic.Dictionary`2::table
+	Int32U5BU5D_t1_159* ___table_4;
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2::linkSlots
+	LinkU5BU5D_t1_1019* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2::keySlots
+	FontU5BU5D_t6_309* ___keySlots_6;
+	// TValue[] System.Collections.Generic.Dictionary`2::valueSlots
+	List_1U5BU5D_t1_1472* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::serialization_info
-	SerializationInfo_t621 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::generation
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2::serialization_info
+	SerializationInfo_t1_176 * ___serialization_info_13;
+	// System.Int32 System.Collections.Generic.Dictionary`2::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t717_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::<>f__am$cacheB
-	Transform_1_t2370 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t1_942_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2::<>f__am$cacheB
+	Transform_1_t1_1473 * ___U3CU3Ef__amU24cacheB_15;
 };

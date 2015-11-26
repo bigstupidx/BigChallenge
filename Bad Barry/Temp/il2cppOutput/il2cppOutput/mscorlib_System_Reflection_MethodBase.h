@@ -14,6 +14,6 @@
 #include "mscorlib_System_Reflection_MemberInfo.h"
 
 // System.Reflection.MethodBase
-struct  MethodBase_t643  : public MemberInfo_t
+struct  MethodBase_t1_194  : public MemberInfo_t
 {
 };

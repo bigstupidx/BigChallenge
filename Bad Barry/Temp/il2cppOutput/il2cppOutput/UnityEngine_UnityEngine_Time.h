@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Time
-struct  Time_t495  : public Object_t
+struct  Time_t6_96  : public Object_t
 {
 };

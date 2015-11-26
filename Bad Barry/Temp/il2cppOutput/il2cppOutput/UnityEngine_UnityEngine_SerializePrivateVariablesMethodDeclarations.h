@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.SerializePrivateVariables
-struct SerializePrivateVariables_t475;
+struct SerializePrivateVariables_t6_69;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SerializePrivateVariables::.ctor()
-extern "C" void SerializePrivateVariables__ctor_m2777 (SerializePrivateVariables_t475 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializePrivateVariables__ctor_m6_478 (SerializePrivateVariables_t6_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

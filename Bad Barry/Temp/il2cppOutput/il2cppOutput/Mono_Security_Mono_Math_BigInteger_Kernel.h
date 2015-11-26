@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Math.BigInteger/Kernel
-struct  Kernel_t765  : public Object_t
+struct  Kernel_t3_19  : public Object_t
 {
 };

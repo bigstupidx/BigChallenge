@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Text
-struct Text_t32;
+// UnityEngine.Rigidbody2D
+struct Rigidbody2D_t6_114;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<UnityEngine.UI.Text>
-struct  Comparison_1_t2041  : public MulticastDelegate_t227
+// System.Comparison`1<UnityEngine.Rigidbody2D>
+struct  Comparison_1_t1_1352  : public MulticastDelegate_t1_21
 {
 };

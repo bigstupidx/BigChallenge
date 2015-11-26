@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // Mono.Math.BigInteger
-struct BigInteger_t764;
+struct BigInteger_t3_18;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Math.BigInteger/ModulusRing
-struct  ModulusRing_t763  : public Object_t
+struct  ModulusRing_t3_17  : public Object_t
 {
 	// Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::mod
-	BigInteger_t764 * ___mod_0;
+	BigInteger_t3_18 * ___mod_0;
 	// Mono.Math.BigInteger Mono.Math.BigInteger/ModulusRing::constant
-	BigInteger_t764 * ___constant_1;
+	BigInteger_t3_18 * ___constant_1;
 };

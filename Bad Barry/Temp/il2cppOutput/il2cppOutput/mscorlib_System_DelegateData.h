@@ -18,7 +18,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.DelegateData
-struct  DelegateData_t1112  : public Object_t
+struct  DelegateData_t1_23  : public Object_t
 {
 	// System.Type System.DelegateData::target_type
 	Type_t * ___target_type_0;

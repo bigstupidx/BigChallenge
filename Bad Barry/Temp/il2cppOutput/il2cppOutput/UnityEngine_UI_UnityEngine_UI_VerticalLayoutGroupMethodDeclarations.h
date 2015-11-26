@@ -13,17 +13,17 @@
 #include <exception>
 
 // UnityEngine.UI.VerticalLayoutGroup
-struct VerticalLayoutGroup_t313;
+struct VerticalLayoutGroup_t7_153;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.VerticalLayoutGroup::.ctor()
-extern "C" void VerticalLayoutGroup__ctor_m1840 (VerticalLayoutGroup_t313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup__ctor_m7_1359 (VerticalLayoutGroup_t7_153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputHorizontal()
-extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m1841 (VerticalLayoutGroup_t313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m7_1360 (VerticalLayoutGroup_t7_153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputVertical()
-extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m1842 (VerticalLayoutGroup_t313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m7_1361 (VerticalLayoutGroup_t7_153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutHorizontal()
-extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m1843 (VerticalLayoutGroup_t313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m7_1362 (VerticalLayoutGroup_t7_153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutVertical()
-extern "C" void VerticalLayoutGroup_SetLayoutVertical_m1844 (VerticalLayoutGroup_t313 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_SetLayoutVertical_m7_1363 (VerticalLayoutGroup_t7_153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Type
 struct Type_t;
 
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceManager
-struct  ResourceManager_t1381  : public Object_t
+struct  ResourceManager_t1_358  : public Object_t
 {
 	// System.Type System.Resources.ResourceManager::resourceSetType
 	Type_t * ___resourceSetType_4;
 };
-struct ResourceManager_t1381_StaticFields{
+struct ResourceManager_t1_358_StaticFields{
 	// System.Collections.Hashtable System.Resources.ResourceManager::ResourceCache
-	Hashtable_t836 * ___ResourceCache_0;
+	Hashtable_t1_171 * ___ResourceCache_0;
 	// System.Collections.Hashtable System.Resources.ResourceManager::NonExistent
-	Hashtable_t836 * ___NonExistent_1;
+	Hashtable_t1_171 * ___NonExistent_1;
 	// System.Int32 System.Resources.ResourceManager::HeaderVersionNumber
 	int32_t ___HeaderVersionNumber_2;
 	// System.Int32 System.Resources.ResourceManager::MagicNumber

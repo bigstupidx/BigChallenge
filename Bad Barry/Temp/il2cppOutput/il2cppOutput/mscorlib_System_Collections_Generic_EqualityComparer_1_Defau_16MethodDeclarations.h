@@ -12,18 +12,18 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTimeOffset>
-struct DefaultComparer_t2520;
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>
+struct DefaultComparer_t1_1372;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_DateTimeOffset.h"
+#include "UnityEngine_UnityEngine_UICharInfo.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTimeOffset>::.ctor()
-extern "C" void DefaultComparer__ctor_m19449_gshared (DefaultComparer_t2520 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m19449(__this, method) (( void (*) (DefaultComparer_t2520 *, const MethodInfo*))DefaultComparer__ctor_m19449_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTimeOffset>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m19450_gshared (DefaultComparer_t2520 * __this, DateTimeOffset_t1677  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m19450(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t2520 *, DateTimeOffset_t1677 , const MethodInfo*))DefaultComparer_GetHashCode_m19450_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTimeOffset>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m19451_gshared (DefaultComparer_t2520 * __this, DateTimeOffset_t1677  ___x, DateTimeOffset_t1677  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m19451(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t2520 *, DateTimeOffset_t1677 , DateTimeOffset_t1677 , const MethodInfo*))DefaultComparer_Equals_m19451_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_10274_gshared (DefaultComparer_t1_1372 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_10274(__this, method) (( void (*) (DefaultComparer_t1_1372 *, const MethodInfo*))DefaultComparer__ctor_m1_10274_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>::GetHashCode(T)
+extern "C" int32_t DefaultComparer_GetHashCode_m1_10275_gshared (DefaultComparer_t1_1372 * __this, UICharInfo_t6_145  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m1_10275(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1372 *, UICharInfo_t6_145 , const MethodInfo*))DefaultComparer_GetHashCode_m1_10275_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>::Equals(T,T)
+extern "C" bool DefaultComparer_Equals_m1_10276_gshared (DefaultComparer_t1_1372 * __this, UICharInfo_t6_145  ___x, UICharInfo_t6_145  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m1_10276(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1372 *, UICharInfo_t6_145 , UICharInfo_t6_145 , const MethodInfo*))DefaultComparer_Equals_m1_10276_gshared)(__this, ___x, ___y, method)

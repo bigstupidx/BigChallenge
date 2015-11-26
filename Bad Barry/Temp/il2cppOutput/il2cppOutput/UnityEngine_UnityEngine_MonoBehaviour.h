@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t2  : public Behaviour_t417
+struct  MonoBehaviour_t6_88  : public Behaviour_t6_30
 {
 };

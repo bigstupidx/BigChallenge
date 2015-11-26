@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t1621;
+struct DecoderFallbackBuffer_t1_634;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.DecoderFallbackBuffer::.ctor()
-extern "C" void DecoderFallbackBuffer__ctor_m9723 (DecoderFallbackBuffer_t1621 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer__ctor_m1_4206 (DecoderFallbackBuffer_t1_634 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.DecoderFallbackBuffer::Reset()
-extern "C" void DecoderFallbackBuffer_Reset_m9724 (DecoderFallbackBuffer_t1621 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderFallbackBuffer_Reset_m1_4207 (DecoderFallbackBuffer_t1_634 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.Evidence
-struct  Evidence_t1329  : public Object_t
+struct  Evidence_t1_303  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Policy.Evidence::hostEvidenceList
-	ArrayList_t771 * ___hostEvidenceList_0;
+	ArrayList_t1_112 * ___hostEvidenceList_0;
 	// System.Collections.ArrayList System.Security.Policy.Evidence::assemblyEvidenceList
-	ArrayList_t771 * ___assemblyEvidenceList_1;
+	ArrayList_t1_112 * ___assemblyEvidenceList_1;
 	// System.Int32 System.Security.Policy.Evidence::_hashCode
 	int32_t ____hashCode_2;
 };

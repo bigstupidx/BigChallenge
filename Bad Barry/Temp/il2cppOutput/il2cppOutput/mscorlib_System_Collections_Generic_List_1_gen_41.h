@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.IClipper[]
-struct IClipperU5BU5D_t2124;
+// System.Reflection.CustomAttributeNamedArgument[]
+struct CustomAttributeNamedArgumentU5BU5D_t1_829;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.IClipper>
-struct  List_1_t2123  : public Object_t
+// System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
+struct  List_1_t1_1090  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::_items
-	IClipperU5BU5D_t2124* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	CustomAttributeNamedArgumentU5BU5D_t1_829* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t2123_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClipper>::EmptyArray
-	IClipperU5BU5D_t2124* ___EmptyArray_4;
+struct List_1_t1_1090_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	CustomAttributeNamedArgumentU5BU5D_t1_829* ___EmptyArray_4;
 };

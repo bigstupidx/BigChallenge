@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t2132;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_t6_305;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct  List_1_t305  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct  List_1_t1_934  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
-	RectTransformU5BU5D_t2132* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	GameObjectU5BU5D_t6_305* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t305_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
-	RectTransformU5BU5D_t2132* ___EmptyArray_4;
+struct List_1_t1_934_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	GameObjectU5BU5D_t6_305* ___EmptyArray_4;
 };

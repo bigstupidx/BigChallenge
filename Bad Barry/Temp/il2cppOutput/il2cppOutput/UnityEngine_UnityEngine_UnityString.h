@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UnityString
-struct  UnityString_t483  : public Object_t
+struct  UnityString_t6_79  : public Object_t
 {
 };

@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.EventSystems.RaycastResult[]
-struct RaycastResultU5BU5D_t1933;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t6_156;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct  List_1_t145  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Vector3>
+struct  List_1_t1_916  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_items
-	RaycastResultU5BU5D_t1933* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	Vector3U5BU5D_t6_156* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t145_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::EmptyArray
-	RaycastResultU5BU5D_t1933* ___EmptyArray_4;
+struct List_1_t1_916_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	Vector3U5BU5D_t6_156* ___EmptyArray_4;
 };

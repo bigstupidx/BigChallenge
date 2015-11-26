@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.IO.Stream
-struct Stream_t851;
+struct Stream_t1_217;
 
 #include "mscorlib_System_Object.h"
 
 // System.IO.Stream
-struct  Stream_t851  : public Object_t
+struct  Stream_t1_217  : public Object_t
 {
 };
-struct Stream_t851_StaticFields{
+struct Stream_t1_217_StaticFields{
 	// System.IO.Stream System.IO.Stream::Null
-	Stream_t851 * ___Null_0;
+	Stream_t1_217 * ___Null_0;
 };

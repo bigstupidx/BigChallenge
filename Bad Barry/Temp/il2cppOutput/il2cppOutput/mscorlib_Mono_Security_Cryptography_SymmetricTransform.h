@@ -11,31 +11,31 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t739;
+struct SymmetricAlgorithm_t1_109;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t737;
+struct RandomNumberGenerator_t1_97;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.SymmetricTransform
-struct  SymmetricTransform_t1188  : public Object_t
+struct  SymmetricTransform_t1_118  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.SymmetricTransform::algo
-	SymmetricAlgorithm_t739 * ___algo_0;
+	SymmetricAlgorithm_t1_109 * ___algo_0;
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::encrypt
 	bool ___encrypt_1;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::BlockSizeByte
 	int32_t ___BlockSizeByte_2;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::temp
-	ByteU5BU5D_t740* ___temp_3;
+	ByteU5BU5D_t1_70* ___temp_3;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::temp2
-	ByteU5BU5D_t740* ___temp2_4;
+	ByteU5BU5D_t1_70* ___temp2_4;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::workBuff
-	ByteU5BU5D_t740* ___workBuff_5;
+	ByteU5BU5D_t1_70* ___workBuff_5;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::workout
-	ByteU5BU5D_t740* ___workout_6;
+	ByteU5BU5D_t1_70* ___workout_6;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::FeedBackByte
 	int32_t ___FeedBackByte_7;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::FeedBackIter
@@ -45,5 +45,5 @@ struct  SymmetricTransform_t1188  : public Object_t
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::lastBlock
 	bool ___lastBlock_10;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.SymmetricTransform::_rng
-	RandomNumberGenerator_t737 * ____rng_11;
+	RandomNumberGenerator_t1_97 * ____rng_11;
 };

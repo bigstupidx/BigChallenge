@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Resolution
-struct  Resolution_t561 
+struct  Resolution_t6_183 
 {
 	// System.Int32 UnityEngine.Resolution::m_Width
 	int32_t ___m_Width_0;

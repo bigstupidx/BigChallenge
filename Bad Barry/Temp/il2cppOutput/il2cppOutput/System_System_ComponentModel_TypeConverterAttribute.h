@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.ComponentModel.TypeConverterAttribute
-struct TypeConverterAttribute_t962;
+struct TypeConverterAttribute_t2_15;
 // System.String
 struct String_t;
 
 #include "mscorlib_System_Attribute.h"
 
 // System.ComponentModel.TypeConverterAttribute
-struct  TypeConverterAttribute_t962  : public Attribute_t476
+struct  TypeConverterAttribute_t2_15  : public Attribute_t1_2
 {
 	// System.String System.ComponentModel.TypeConverterAttribute::converter_type
 	String_t* ___converter_type_1;
 };
-struct TypeConverterAttribute_t962_StaticFields{
+struct TypeConverterAttribute_t2_15_StaticFields{
 	// System.ComponentModel.TypeConverterAttribute System.ComponentModel.TypeConverterAttribute::Default
-	TypeConverterAttribute_t962 * ___Default_0;
+	TypeConverterAttribute_t2_15 * ___Default_0;
 };

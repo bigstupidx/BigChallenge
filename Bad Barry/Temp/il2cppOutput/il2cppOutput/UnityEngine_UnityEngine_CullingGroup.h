@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // UnityEngine.CullingGroup/StateChanged
-struct StateChanged_t462;
+struct StateChanged_t6_37;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.CullingGroup
-struct  CullingGroup_t463  : public Object_t
+struct  CullingGroup_t6_38  : public Object_t
 {
 	// System.IntPtr UnityEngine.CullingGroup::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// UnityEngine.CullingGroup/StateChanged UnityEngine.CullingGroup::m_OnStateChanged
-	StateChanged_t462 * ___m_OnStateChanged_1;
+	StateChanged_t6_37 * ___m_OnStateChanged_1;
 };

@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.EqualityComparer`1<LitJson.ArrayMetadata>
-struct EqualityComparer_1_t2342;
+// System.Collections.Generic.EqualityComparer`1<LitJson.ObjectMetadata>
+struct EqualityComparer_1_t1_1228;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.EqualityComparer`1<LitJson.ArrayMetadata>
-struct  EqualityComparer_1_t2342  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<LitJson.ObjectMetadata>
+struct  EqualityComparer_1_t1_1228  : public Object_t
 {
 };
-struct EqualityComparer_1_t2342_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<LitJson.ArrayMetadata>::_default
-	EqualityComparer_1_t2342 * ____default_0;
+struct EqualityComparer_1_t1_1228_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1_1228 * ____default_0;
 };

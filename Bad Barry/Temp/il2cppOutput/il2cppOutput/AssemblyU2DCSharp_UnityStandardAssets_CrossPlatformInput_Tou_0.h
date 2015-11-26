@@ -15,7 +15,7 @@
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Tou_0.h"
 
 // UnityStandardAssets.CrossPlatformInput.TouchPad/ControlStyle
-struct  ControlStyle_t23 
+struct  ControlStyle_t8_20 
 {
 	// System.Int32 UnityStandardAssets.CrossPlatformInput.TouchPad/ControlStyle::value__
 	int32_t ___value___1;

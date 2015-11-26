@@ -13,12 +13,12 @@
 // System.Object
 struct Object_t;
 // UnityEngine.UI.InputField
-struct InputField_t231;
+struct InputField_t7_98;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.InputField/<CaretBlink>c__Iterator3
-struct  U3CCaretBlinkU3Ec__Iterator3_t230  : public Object_t
+struct  U3CCaretBlinkU3Ec__Iterator3_t7_97  : public Object_t
 {
 	// System.Single UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::<blinkPeriod>__0
 	float ___U3CblinkPeriodU3E__0_0;
@@ -29,5 +29,5 @@ struct  U3CCaretBlinkU3Ec__Iterator3_t230  : public Object_t
 	// System.Object UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::$current
 	Object_t * ___U24current_3;
 	// UnityEngine.UI.InputField UnityEngine.UI.InputField/<CaretBlink>c__Iterator3::<>f__this
-	InputField_t231 * ___U3CU3Ef__this_4;
+	InputField_t7_98 * ___U3CU3Ef__this_4;
 };

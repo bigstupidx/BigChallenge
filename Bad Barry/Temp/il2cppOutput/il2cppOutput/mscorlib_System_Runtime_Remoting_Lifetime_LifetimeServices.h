@@ -11,24 +11,24 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct LeaseManager_t1449;
+struct LeaseManager_t1_427;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Runtime.Remoting.Lifetime.LifetimeServices
-struct  LifetimeServices_t1452  : public Object_t
+struct  LifetimeServices_t1_430  : public Object_t
 {
 };
-struct LifetimeServices_t1452_StaticFields{
+struct LifetimeServices_t1_430_StaticFields{
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseManagerPollTime
-	TimeSpan_t1008  ____leaseManagerPollTime_0;
+	TimeSpan_t1_209  ____leaseManagerPollTime_0;
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseTime
-	TimeSpan_t1008  ____leaseTime_1;
+	TimeSpan_t1_209  ____leaseTime_1;
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_renewOnCallTime
-	TimeSpan_t1008  ____renewOnCallTime_2;
+	TimeSpan_t1_209  ____renewOnCallTime_2;
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_sponsorshipTimeout
-	TimeSpan_t1008  ____sponsorshipTimeout_3;
+	TimeSpan_t1_209  ____sponsorshipTimeout_3;
 	// System.Runtime.Remoting.Lifetime.LeaseManager System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseManager
-	LeaseManager_t1449 * ____leaseManager_4;
+	LeaseManager_t1_427 * ____leaseManager_4;
 };

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 
 #include "mscorlib_System_Collections_ArrayList.h"
 
 // System.Collections.ArrayList/ArrayListWrapper
-struct  ArrayListWrapper_t1214  : public ArrayList_t771
+struct  ArrayListWrapper_t1_152  : public ArrayList_t1_112
 {
 	// System.Collections.ArrayList System.Collections.ArrayList/ArrayListWrapper::m_InnerArrayList
-	ArrayList_t771 * ___m_InnerArrayList_5;
+	ArrayList_t1_112 * ___m_InnerArrayList_5;
 };

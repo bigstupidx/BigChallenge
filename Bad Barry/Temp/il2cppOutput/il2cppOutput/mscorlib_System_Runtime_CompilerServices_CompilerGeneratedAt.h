@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.CompilerServices.CompilerGeneratedAttribute
-struct  CompilerGeneratedAttribute_t1128  : public Attribute_t476
+struct  CompilerGeneratedAttribute_t1_46  : public Attribute_t1_2
 {
 };

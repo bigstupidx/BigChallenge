@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 
 #include "mscorlib_System_Object.h"
 
 // System.Net.HttpVersion
-struct  HttpVersion_t975  : public Object_t
+struct  HttpVersion_t2_31  : public Object_t
 {
 };
-struct HttpVersion_t975_StaticFields{
+struct HttpVersion_t2_31_StaticFields{
 	// System.Version System.Net.HttpVersion::Version10
-	Version_t976 * ___Version10_0;
+	Version_t1_316 * ___Version10_0;
 	// System.Version System.Net.HttpVersion::Version11
-	Version_t976 * ___Version11_1;
+	Version_t1_316 * ___Version11_1;
 };

@@ -15,7 +15,7 @@
 #include "mscorlib_System_Security_Principal_PrincipalPolicy.h"
 
 // System.Security.Principal.PrincipalPolicy
-struct  PrincipalPolicy_t1604 
+struct  PrincipalPolicy_t1_616 
 {
 	// System.Int32 System.Security.Principal.PrincipalPolicy::value__
 	int32_t ___value___1;

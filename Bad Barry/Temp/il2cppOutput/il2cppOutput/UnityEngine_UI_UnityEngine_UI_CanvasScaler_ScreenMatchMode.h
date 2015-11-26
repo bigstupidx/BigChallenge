@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScreenMatchMode.h"
 
 // UnityEngine.UI.CanvasScaler/ScreenMatchMode
-struct  ScreenMatchMode_t291 
+struct  ScreenMatchMode_t7_137 
 {
 	// System.Int32 UnityEngine.UI.CanvasScaler/ScreenMatchMode::value__
 	int32_t ___value___1;

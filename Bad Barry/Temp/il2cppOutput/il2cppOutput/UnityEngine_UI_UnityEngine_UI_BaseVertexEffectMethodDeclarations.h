@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.BaseVertexEffect
-struct BaseVertexEffect_t320;
+struct BaseVertexEffect_t7_154;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.BaseVertexEffect::.ctor()
-extern "C" void BaseVertexEffect__ctor_m1863 (BaseVertexEffect_t320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseVertexEffect__ctor_m7_1382 (BaseVertexEffect_t7_154 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

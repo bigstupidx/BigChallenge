@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.UInt32[]
-struct UInt32U5BU5D_t746;
+struct UInt32U5BU5D_t1_96;
 
 #include "mscorlib_System_Security_Cryptography_RIPEMD160.h"
 
 // System.Security.Cryptography.RIPEMD160Managed
-struct  RIPEMD160Managed_t1573  : public RIPEMD160_t1572
+struct  RIPEMD160Managed_t1_578  : public RIPEMD160_t1_577
 {
 	// System.Byte[] System.Security.Cryptography.RIPEMD160Managed::_ProcessingBuffer
-	ByteU5BU5D_t740* ____ProcessingBuffer_4;
+	ByteU5BU5D_t1_70* ____ProcessingBuffer_4;
 	// System.UInt32[] System.Security.Cryptography.RIPEMD160Managed::_X
-	UInt32U5BU5D_t746* ____X_5;
+	UInt32U5BU5D_t1_96* ____X_5;
 	// System.UInt32[] System.Security.Cryptography.RIPEMD160Managed::_HashValue
-	UInt32U5BU5D_t746* ____HashValue_6;
+	UInt32U5BU5D_t1_96* ____HashValue_6;
 	// System.UInt64 System.Security.Cryptography.RIPEMD160Managed::_Length
 	uint64_t ____Length_7;
 	// System.Int32 System.Security.Cryptography.RIPEMD160Managed::_ProcessingBufferCount

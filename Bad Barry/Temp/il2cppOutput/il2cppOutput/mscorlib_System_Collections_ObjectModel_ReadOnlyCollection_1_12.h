@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.IList`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct IList_1_t1952;
+// System.Collections.Generic.IList`1<UnityEngine.Color32>
+struct IList_1_t1_1325;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  ReadOnlyCollection_1_t1951  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>
+struct  ReadOnlyCollection_1_t1_1324  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.EventSystems.EventTrigger/Entry>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;
 };

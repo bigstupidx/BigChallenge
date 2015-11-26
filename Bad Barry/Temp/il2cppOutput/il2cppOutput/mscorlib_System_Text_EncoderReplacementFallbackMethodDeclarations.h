@@ -13,25 +13,25 @@
 #include <exception>
 
 // System.Text.EncoderReplacementFallback
-struct EncoderReplacementFallback_t1632;
+struct EncoderReplacementFallback_t1_646;
 // System.String
 struct String_t;
 // System.Text.EncoderFallbackBuffer
-struct EncoderFallbackBuffer_t1630;
+struct EncoderFallbackBuffer_t1_644;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.EncoderReplacementFallback::.ctor()
-extern "C" void EncoderReplacementFallback__ctor_m9758 (EncoderReplacementFallback_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderReplacementFallback__ctor_m1_4241 (EncoderReplacementFallback_t1_646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.EncoderReplacementFallback::.ctor(System.String)
-extern "C" void EncoderReplacementFallback__ctor_m9759 (EncoderReplacementFallback_t1632 * __this, String_t* ___replacement, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderReplacementFallback__ctor_m1_4242 (EncoderReplacementFallback_t1_646 * __this, String_t* ___replacement, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.EncoderReplacementFallback::get_DefaultString()
-extern "C" String_t* EncoderReplacementFallback_get_DefaultString_m9760 (EncoderReplacementFallback_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* EncoderReplacementFallback_get_DefaultString_m1_4243 (EncoderReplacementFallback_t1_646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.EncoderFallbackBuffer System.Text.EncoderReplacementFallback::CreateFallbackBuffer()
-extern "C" EncoderFallbackBuffer_t1630 * EncoderReplacementFallback_CreateFallbackBuffer_m9761 (EncoderReplacementFallback_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" EncoderFallbackBuffer_t1_644 * EncoderReplacementFallback_CreateFallbackBuffer_m1_4244 (EncoderReplacementFallback_t1_646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderReplacementFallback::Equals(System.Object)
-extern "C" bool EncoderReplacementFallback_Equals_m9762 (EncoderReplacementFallback_t1632 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderReplacementFallback_Equals_m1_4245 (EncoderReplacementFallback_t1_646 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.EncoderReplacementFallback::GetHashCode()
-extern "C" int32_t EncoderReplacementFallback_GetHashCode_m9763 (EncoderReplacementFallback_t1632 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EncoderReplacementFallback_GetHashCode_m1_4246 (EncoderReplacementFallback_t1_646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

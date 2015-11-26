@@ -15,7 +15,7 @@
 #include "System_System_Text_RegularExpressions_Category.h"
 
 // System.Text.RegularExpressions.Category
-struct  Category_t1040 
+struct  Category_t2_103 
 {
 	// System.UInt16 System.Text.RegularExpressions.Category::value__
 	uint16_t ___value___1;

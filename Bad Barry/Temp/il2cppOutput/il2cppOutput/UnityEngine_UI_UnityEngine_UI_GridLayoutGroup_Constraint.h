@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Constraint.h"
 
 // UnityEngine.UI.GridLayoutGroup/Constraint
-struct  Constraint_t298 
+struct  Constraint_t7_144 
 {
 	// System.Int32 UnityEngine.UI.GridLayoutGroup/Constraint::value__
 	int32_t ___value___1;

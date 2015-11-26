@@ -10,16 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t73;
+// System.String
+struct String_t;
+// LitJson.JsonData
+struct JsonData_t5_2;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct  KeyValuePair_2_t363 
+// System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>
+struct  KeyValuePair_2_t1_886 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::value
-	PointerEventData_t73 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	JsonData_t5_2 * ___value_1;
 };

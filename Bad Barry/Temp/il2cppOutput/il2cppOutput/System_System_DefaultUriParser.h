@@ -14,6 +14,6 @@
 #include "System_System_UriParser.h"
 
 // System.DefaultUriParser
-struct  DefaultUriParser_t1082  : public UriParser_t1083
+struct  DefaultUriParser_t2_143  : public UriParser_t2_144
 {
 };

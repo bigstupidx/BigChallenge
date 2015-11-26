@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Stack`1<LitJson.WriterContext>
-struct Stack_1_t688;
+// System.Collections.Generic.Stack`1<System.Type>
+struct Stack_1_t2_161;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>
-struct  Enumerator_t2402 
+// System.Collections.Generic.Stack`1/Enumerator<System.Type>
+struct  Enumerator_t2_166 
 {
-	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>::parent
-	Stack_1_t688 * ___parent_0;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>::idx
+	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator::parent
+	Stack_1_t2_161 * ___parent_0;
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::idx
 	int32_t ___idx_1;
-	// System.Int32 System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>::_version
+	// System.Int32 System.Collections.Generic.Stack`1/Enumerator::_version
 	int32_t ____version_2;
 };

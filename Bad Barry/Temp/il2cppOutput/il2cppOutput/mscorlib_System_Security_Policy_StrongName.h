@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Security.Permissions.StrongNamePublicKeyBlob
-struct StrongNamePublicKeyBlob_t1598;
+struct StrongNamePublicKeyBlob_t1_610;
 // System.String
 struct String_t;
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.StrongName
-struct  StrongName_t1603  : public Object_t
+struct  StrongName_t1_615  : public Object_t
 {
 	// System.Security.Permissions.StrongNamePublicKeyBlob System.Security.Policy.StrongName::publickey
-	StrongNamePublicKeyBlob_t1598 * ___publickey_0;
+	StrongNamePublicKeyBlob_t1_610 * ___publickey_0;
 	// System.String System.Security.Policy.StrongName::name
 	String_t* ___name_1;
 	// System.Version System.Security.Policy.StrongName::version
-	Version_t976 * ___version_2;
+	Version_t1_316 * ___version_2;
 };

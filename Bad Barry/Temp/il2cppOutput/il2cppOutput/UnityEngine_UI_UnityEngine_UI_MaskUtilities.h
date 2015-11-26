@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.MaskUtilities
-struct  MaskUtilities_t246  : public Object_t
+struct  MaskUtilities_t7_103  : public Object_t
 {
 };

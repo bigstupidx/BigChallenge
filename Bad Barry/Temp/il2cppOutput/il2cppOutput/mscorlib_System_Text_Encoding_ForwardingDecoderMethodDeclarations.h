@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Text.Encoding/ForwardingDecoder
-struct ForwardingDecoder_t1634;
+struct ForwardingDecoder_t1_648;
 // System.Text.Encoding
-struct Encoding_t906;
+struct Encoding_t1_218;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.Char[]
-struct CharU5BU5D_t239;
+struct CharU5BU5D_t1_16;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.Encoding/ForwardingDecoder::.ctor(System.Text.Encoding)
-extern "C" void ForwardingDecoder__ctor_m9770 (ForwardingDecoder_t1634 * __this, Encoding_t906 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ForwardingDecoder__ctor_m1_4253 (ForwardingDecoder_t1_648 * __this, Encoding_t1_218 * ___enc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.Encoding/ForwardingDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t ForwardingDecoder_GetChars_m9771 (ForwardingDecoder_t1634 * __this, ByteU5BU5D_t740* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t239* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ForwardingDecoder_GetChars_m1_4254 (ForwardingDecoder_t1_648 * __this, ByteU5BU5D_t1_70* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t1_16* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

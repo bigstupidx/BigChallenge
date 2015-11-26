@@ -13,16 +13,16 @@
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "System_System_Security_Cryptography_X509Certificates_X509Ext.h"
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 
 // System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension
-struct  X509SubjectKeyIdentifierExtension_t1018  : public X509Extension_t996
+struct  X509SubjectKeyIdentifierExtension_t2_76  : public X509Extension_t2_52
 {
 	// System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::_subjectKeyIdentifier
-	ByteU5BU5D_t740* ____subjectKeyIdentifier_6;
+	ByteU5BU5D_t1_70* ____subjectKeyIdentifier_6;
 	// System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::_ski
 	String_t* ____ski_7;
 	// System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::_status

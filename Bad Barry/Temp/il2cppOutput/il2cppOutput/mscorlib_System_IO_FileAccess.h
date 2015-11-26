@@ -15,7 +15,7 @@
 #include "mscorlib_System_IO_FileAccess.h"
 
 // System.IO.FileAccess
-struct  FileAccess_t1100 
+struct  FileAccess_t1_227 
 {
 	// System.Int32 System.IO.FileAccess::value__
 	int32_t ___value___1;

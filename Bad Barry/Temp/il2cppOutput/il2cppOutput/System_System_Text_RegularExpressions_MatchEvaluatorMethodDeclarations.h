@@ -13,28 +13,28 @@
 #include <exception>
 
 // System.Text.RegularExpressions.MatchEvaluator
-struct MatchEvaluator_t1092;
+struct MatchEvaluator_t2_153;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Match
-struct Match_t941;
+struct Match_t2_82;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
 #include "mscorlib_System_String.h"
 
 // System.Void System.Text.RegularExpressions.MatchEvaluator::.ctor(System.Object,System.IntPtr)
-extern "C" void MatchEvaluator__ctor_m5671 (MatchEvaluator_t1092 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MatchEvaluator__ctor_m2_902 (MatchEvaluator_t2_153 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.MatchEvaluator::Invoke(System.Text.RegularExpressions.Match)
-extern "C" String_t* MatchEvaluator_Invoke_m5672 (MatchEvaluator_t1092 * __this, Match_t941 * ___match, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" String_t* pinvoke_delegate_wrapper_MatchEvaluator_t1092(Il2CppObject* delegate, Match_t941 * ___match);
+extern "C" String_t* MatchEvaluator_Invoke_m2_903 (MatchEvaluator_t2_153 * __this, Match_t2_82 * ___match, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* pinvoke_delegate_wrapper_MatchEvaluator_t2_153(Il2CppObject* delegate, Match_t2_82 * ___match);
 // System.IAsyncResult System.Text.RegularExpressions.MatchEvaluator::BeginInvoke(System.Text.RegularExpressions.Match,System.AsyncCallback,System.Object)
-extern "C" Object_t * MatchEvaluator_BeginInvoke_m5673 (MatchEvaluator_t1092 * __this, Match_t941 * ___match, AsyncCallback_t229 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MatchEvaluator_BeginInvoke_m2_904 (MatchEvaluator_t2_153 * __this, Match_t2_82 * ___match, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.MatchEvaluator::EndInvoke(System.IAsyncResult)
-extern "C" String_t* MatchEvaluator_EndInvoke_m5674 (MatchEvaluator_t1092 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MatchEvaluator_EndInvoke_m2_905 (MatchEvaluator_t2_153 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

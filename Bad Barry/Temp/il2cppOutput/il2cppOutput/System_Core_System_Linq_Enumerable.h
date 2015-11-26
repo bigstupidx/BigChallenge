@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Linq.Enumerable
-struct  Enumerable_t742  : public Object_t
+struct  Enumerable_t4_6  : public Object_t
 {
 };

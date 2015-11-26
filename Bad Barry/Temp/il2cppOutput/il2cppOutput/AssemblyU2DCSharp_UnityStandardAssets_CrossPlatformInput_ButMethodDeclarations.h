@@ -13,23 +13,23 @@
 #include <exception>
 
 // UnityStandardAssets.CrossPlatformInput.ButtonHandler
-struct ButtonHandler_t4;
+struct ButtonHandler_t8_2;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::.ctor()
-extern "C" void ButtonHandler__ctor_m5 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler__ctor_m8_5 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::OnEnable()
-extern "C" void ButtonHandler_OnEnable_m6 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_OnEnable_m8_6 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetDownState()
-extern "C" void ButtonHandler_SetDownState_m7 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_SetDownState_m8_7 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetUpState()
-extern "C" void ButtonHandler_SetUpState_m8 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_SetUpState_m8_8 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisPositiveState()
-extern "C" void ButtonHandler_SetAxisPositiveState_m9 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_SetAxisPositiveState_m8_9 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisNeutralState()
-extern "C" void ButtonHandler_SetAxisNeutralState_m10 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_SetAxisNeutralState_m8_10 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisNegativeState()
-extern "C" void ButtonHandler_SetAxisNegativeState_m11 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_SetAxisNegativeState_m8_11 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::Update()
-extern "C" void ButtonHandler_Update_m12 (ButtonHandler_t4 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ButtonHandler_Update_m8_12 (ButtonHandler_t8_2 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

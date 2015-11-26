@@ -12,15 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UICharInfo>
-struct DefaultComparer_t2253;
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
+struct DefaultComparer_t1_1179;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_UICharInfo.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
-// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UICharInfo>::.ctor()
-extern "C" void DefaultComparer__ctor_m16467_gshared (DefaultComparer_t2253 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m16467(__this, method) (( void (*) (DefaultComparer_t2253 *, const MethodInfo*))DefaultComparer__ctor_m16467_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UICharInfo>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m16468_gshared (DefaultComparer_t2253 * __this, UICharInfo_t395  ___x, UICharInfo_t395  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m16468(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2253 *, UICharInfo_t395 , UICharInfo_t395 , const MethodInfo*))DefaultComparer_Compare_m16468_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_7606_gshared (DefaultComparer_t1_1179 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_7606(__this, method) (( void (*) (DefaultComparer_t1_1179 *, const MethodInfo*))DefaultComparer__ctor_m1_7606_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::Compare(T,T)
+extern "C" int32_t DefaultComparer_Compare_m1_7607_gshared (DefaultComparer_t1_1179 * __this, KeyValuePair_2_t1_1050  ___x, KeyValuePair_2_t1_1050  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m1_7607(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t1_1179 *, KeyValuePair_2_t1_1050 , KeyValuePair_2_t1_1050 , const MethodInfo*))DefaultComparer_Compare_m1_7607_gshared)(__this, ___x, ___y, method)

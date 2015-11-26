@@ -13,17 +13,17 @@
 // System.String
 struct String_t;
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.TypeInfo
-struct  TypeInfo_t1516  : public Object_t
+struct  TypeInfo_t1_496  : public Object_t
 {
 	// System.String System.Runtime.Remoting.TypeInfo::serverType
 	String_t* ___serverType_0;
 	// System.String[] System.Runtime.Remoting.TypeInfo::serverHierarchy
-	StringU5BU5D_t573* ___serverHierarchy_1;
+	StringU5BU5D_t1_198* ___serverHierarchy_1;
 	// System.String[] System.Runtime.Remoting.TypeInfo::interfacesImplemented
-	StringU5BU5D_t573* ___interfacesImplemented_2;
+	StringU5BU5D_t1_198* ___interfacesImplemented_2;
 };

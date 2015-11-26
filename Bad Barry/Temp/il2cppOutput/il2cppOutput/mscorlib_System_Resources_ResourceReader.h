@@ -11,27 +11,27 @@
 #include <stdint.h>
 
 // System.IO.BinaryReader
-struct BinaryReader_t1257;
+struct BinaryReader_t1_216;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.IFormatter
-struct IFormatter_t1389;
+struct IFormatter_t1_366;
 // System.String[]
-struct StringU5BU5D_t573;
+struct StringU5BU5D_t1_198;
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 // System.Resources.ResourceReader/ResourceInfo[]
-struct ResourceInfoU5BU5D_t1387;
+struct ResourceInfoU5BU5D_t1_364;
 // System.Resources.ResourceReader/ResourceCacheItem[]
-struct ResourceCacheItemU5BU5D_t1388;
+struct ResourceCacheItemU5BU5D_t1_365;
 
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceReader
-struct  ResourceReader_t1386  : public Object_t
+struct  ResourceReader_t1_363  : public Object_t
 {
 	// System.IO.BinaryReader System.Resources.ResourceReader::reader
-	BinaryReader_t1257 * ___reader_0;
+	BinaryReader_t1_216 * ___reader_0;
 	// System.Object System.Resources.ResourceReader::readerLock
 	Object_t * ___readerLock_1;
 	// System.Runtime.Serialization.IFormatter System.Resources.ResourceReader::formatter
@@ -41,11 +41,11 @@ struct  ResourceReader_t1386  : public Object_t
 	// System.Int32 System.Resources.ResourceReader::typeCount
 	int32_t ___typeCount_4;
 	// System.String[] System.Resources.ResourceReader::typeNames
-	StringU5BU5D_t573* ___typeNames_5;
+	StringU5BU5D_t1_198* ___typeNames_5;
 	// System.Int32[] System.Resources.ResourceReader::hashes
-	Int32U5BU5D_t425* ___hashes_6;
+	Int32U5BU5D_t1_159* ___hashes_6;
 	// System.Resources.ResourceReader/ResourceInfo[] System.Resources.ResourceReader::infos
-	ResourceInfoU5BU5D_t1387* ___infos_7;
+	ResourceInfoU5BU5D_t1_364* ___infos_7;
 	// System.Int32 System.Resources.ResourceReader::dataSectionOffset
 	int32_t ___dataSectionOffset_8;
 	// System.Int64 System.Resources.ResourceReader::nameSectionOffset
@@ -53,7 +53,7 @@ struct  ResourceReader_t1386  : public Object_t
 	// System.Int32 System.Resources.ResourceReader::resource_ver
 	int32_t ___resource_ver_10;
 	// System.Resources.ResourceReader/ResourceCacheItem[] System.Resources.ResourceReader::cache
-	ResourceCacheItemU5BU5D_t1388* ___cache_11;
+	ResourceCacheItemU5BU5D_t1_365* ___cache_11;
 	// System.Object System.Resources.ResourceReader::cache_lock
 	Object_t * ___cache_lock_12;
 };

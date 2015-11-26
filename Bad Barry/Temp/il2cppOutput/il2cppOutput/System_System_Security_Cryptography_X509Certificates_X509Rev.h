@@ -15,7 +15,7 @@
 #include "System_System_Security_Cryptography_X509Certificates_X509Rev.h"
 
 // System.Security.Cryptography.X509Certificates.X509RevocationFlag
-struct  X509RevocationFlag_t1016 
+struct  X509RevocationFlag_t2_74 
 {
 	// System.Int32 System.Security.Cryptography.X509Certificates.X509RevocationFlag::value__
 	int32_t ___value___1;

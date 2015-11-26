@@ -11,33 +11,33 @@
 #include <stdint.h>
 
 // System.Reflection.Emit.TypeBuilder[]
-struct TypeBuilderU5BU5D_t1317;
+struct TypeBuilderU5BU5D_t1_291;
 // System.Reflection.Emit.AssemblyBuilder
-struct AssemblyBuilder_t1293;
+struct AssemblyBuilder_t1_265;
 // System.Int32[]
-struct Int32U5BU5D_t425;
+struct Int32U5BU5D_t1_159;
 // System.Reflection.Emit.ModuleBuilderTokenGenerator
-struct ModuleBuilderTokenGenerator_t1318;
+struct ModuleBuilderTokenGenerator_t1_292;
 // System.Char[]
-struct CharU5BU5D_t239;
+struct CharU5BU5D_t1_16;
 
 #include "mscorlib_System_Reflection_Module.h"
 
 // System.Reflection.Emit.ModuleBuilder
-struct  ModuleBuilder_t1316  : public Module_t1312
+struct  ModuleBuilder_t1_290  : public Module_t1_286
 {
 	// System.Int32 System.Reflection.Emit.ModuleBuilder::num_types
 	int32_t ___num_types_10;
 	// System.Reflection.Emit.TypeBuilder[] System.Reflection.Emit.ModuleBuilder::types
-	TypeBuilderU5BU5D_t1317* ___types_11;
+	TypeBuilderU5BU5D_t1_291* ___types_11;
 	// System.Reflection.Emit.AssemblyBuilder System.Reflection.Emit.ModuleBuilder::assemblyb
-	AssemblyBuilder_t1293 * ___assemblyb_12;
+	AssemblyBuilder_t1_265 * ___assemblyb_12;
 	// System.Int32[] System.Reflection.Emit.ModuleBuilder::table_indexes
-	Int32U5BU5D_t425* ___table_indexes_13;
+	Int32U5BU5D_t1_159* ___table_indexes_13;
 	// System.Reflection.Emit.ModuleBuilderTokenGenerator System.Reflection.Emit.ModuleBuilder::token_gen
-	ModuleBuilderTokenGenerator_t1318 * ___token_gen_14;
+	ModuleBuilderTokenGenerator_t1_292 * ___token_gen_14;
 };
-struct ModuleBuilder_t1316_StaticFields{
+struct ModuleBuilder_t1_290_StaticFields{
 	// System.Char[] System.Reflection.Emit.ModuleBuilder::type_modifiers
-	CharU5BU5D_t239* ___type_modifiers_15;
+	CharU5BU5D_t1_16* ___type_modifiers_15;
 };

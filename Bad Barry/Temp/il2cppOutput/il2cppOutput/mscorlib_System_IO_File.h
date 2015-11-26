@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.IO.File
-struct  File_t1264  : public Object_t
+struct  File_t1_226  : public Object_t
 {
 };

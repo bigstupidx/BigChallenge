@@ -14,7 +14,7 @@
 #include "mscorlib_System_Text_Encoding.h"
 
 // System.Text.UTF32Encoding
-struct  UTF32Encoding_t1637  : public Encoding_t906
+struct  UTF32Encoding_t1_651  : public Encoding_t1_218
 {
 	// System.Boolean System.Text.UTF32Encoding::bigEndian
 	bool ___bigEndian_28;

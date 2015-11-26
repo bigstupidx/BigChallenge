@@ -15,7 +15,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertDescription.h"
 
 // Mono.Security.Protocol.Tls.AlertDescription
-struct  AlertDescription_t823 
+struct  AlertDescription_t3_56 
 {
 	// System.Byte Mono.Security.Protocol.Tls.AlertDescription::value__
 	uint8_t ___value___1;

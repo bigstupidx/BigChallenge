@@ -13,17 +13,17 @@
 #include <exception>
 
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t1196;
+struct X509ExtensionCollection_t1_127;
 // Mono.Security.ASN1
-struct ASN1_t1190;
+struct ASN1_t1_120;
 // System.Collections.IEnumerator
-struct IEnumerator_t76;
+struct IEnumerator_t1_129;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.X509.X509ExtensionCollection::.ctor()
-extern "C" void X509ExtensionCollection__ctor_m7042 (X509ExtensionCollection_t1196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionCollection__ctor_m1_1410 (X509ExtensionCollection_t1_127 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509ExtensionCollection::.ctor(Mono.Security.ASN1)
-extern "C" void X509ExtensionCollection__ctor_m7043 (X509ExtensionCollection_t1196 * __this, ASN1_t1190 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionCollection__ctor_m1_1411 (X509ExtensionCollection_t1_127 * __this, ASN1_t1_120 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Mono.Security.X509.X509ExtensionCollection::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m7044 (X509ExtensionCollection_t1196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m1_1412 (X509ExtensionCollection_t1_127 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

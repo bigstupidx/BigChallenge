@@ -12,18 +12,18 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>
-struct DefaultComparer_t2052;
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>
+struct DefaultComparer_t1_1093;
 
 #include "codegen/il2cpp-codegen.h"
-#include "UnityEngine_UnityEngine_UIVertex.h"
+#include "mscorlib_System_Reflection_CustomAttributeNamedArgument.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>::.ctor()
-extern "C" void DefaultComparer__ctor_m13848_gshared (DefaultComparer_t2052 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m13848(__this, method) (( void (*) (DefaultComparer_t2052 *, const MethodInfo*))DefaultComparer__ctor_m13848_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m13849_gshared (DefaultComparer_t2052 * __this, UIVertex_t241  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m13849(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t2052 *, UIVertex_t241 , const MethodInfo*))DefaultComparer_GetHashCode_m13849_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m13850_gshared (DefaultComparer_t2052 * __this, UIVertex_t241  ___x, UIVertex_t241  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m13850(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t2052 *, UIVertex_t241 , UIVertex_t241 , const MethodInfo*))DefaultComparer_Equals_m13850_gshared)(__this, ___x, ___y, method)
+// System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>::.ctor()
+extern "C" void DefaultComparer__ctor_m1_6765_gshared (DefaultComparer_t1_1093 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_6765(__this, method) (( void (*) (DefaultComparer_t1_1093 *, const MethodInfo*))DefaultComparer__ctor_m1_6765_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>::GetHashCode(T)
+extern "C" int32_t DefaultComparer_GetHashCode_m1_6766_gshared (DefaultComparer_t1_1093 * __this, CustomAttributeNamedArgument_t1_328  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m1_6766(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1093 *, CustomAttributeNamedArgument_t1_328 , const MethodInfo*))DefaultComparer_GetHashCode_m1_6766_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeNamedArgument>::Equals(T,T)
+extern "C" bool DefaultComparer_Equals_m1_6767_gshared (DefaultComparer_t1_1093 * __this, CustomAttributeNamedArgument_t1_328  ___x, CustomAttributeNamedArgument_t1_328  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m1_6767(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1093 *, CustomAttributeNamedArgument_t1_328 , CustomAttributeNamedArgument_t1_328 , const MethodInfo*))DefaultComparer_Equals_m1_6767_gshared)(__this, ___x, ___y, method)

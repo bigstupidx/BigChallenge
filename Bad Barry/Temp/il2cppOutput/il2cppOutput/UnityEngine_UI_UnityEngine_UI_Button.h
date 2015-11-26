@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Button/ButtonClickedEvent
-struct ButtonClickedEvent_t166;
+struct ButtonClickedEvent_t7_52;
 
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 
 // UnityEngine.UI.Button
-struct  Button_t169  : public Selectable_t170
+struct  Button_t7_54  : public Selectable_t7_55
 {
 	// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::m_OnClick
-	ButtonClickedEvent_t166 * ___m_OnClick_16;
+	ButtonClickedEvent_t7_52 * ___m_OnClick_16;
 };

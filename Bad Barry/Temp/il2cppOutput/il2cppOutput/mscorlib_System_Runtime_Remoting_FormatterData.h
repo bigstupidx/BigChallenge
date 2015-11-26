@@ -14,6 +14,6 @@
 #include "mscorlib_System_Runtime_Remoting_ProviderData.h"
 
 // System.Runtime.Remoting.FormatterData
-struct  FormatterData_t1507  : public ProviderData_t1506
+struct  FormatterData_t1_487  : public ProviderData_t1_486
 {
 };

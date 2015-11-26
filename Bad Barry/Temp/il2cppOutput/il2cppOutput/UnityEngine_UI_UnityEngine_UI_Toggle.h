@@ -11,26 +11,26 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Graphic
-struct Graphic_t195;
+struct Graphic_t7_75;
 // UnityEngine.UI.ToggleGroup
-struct ToggleGroup_t281;
+struct ToggleGroup_t7_130;
 // UnityEngine.UI.Toggle/ToggleEvent
-struct ToggleEvent_t280;
+struct ToggleEvent_t7_129;
 
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransition.h"
 
 // UnityEngine.UI.Toggle
-struct  Toggle_t180  : public Selectable_t170
+struct  Toggle_t7_65  : public Selectable_t7_55
 {
 	// UnityEngine.UI.Toggle/ToggleTransition UnityEngine.UI.Toggle::toggleTransition
 	int32_t ___toggleTransition_16;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Toggle::graphic
-	Graphic_t195 * ___graphic_17;
+	Graphic_t7_75 * ___graphic_17;
 	// UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::m_Group
-	ToggleGroup_t281 * ___m_Group_18;
+	ToggleGroup_t7_130 * ___m_Group_18;
 	// UnityEngine.UI.Toggle/ToggleEvent UnityEngine.UI.Toggle::onValueChanged
-	ToggleEvent_t280 * ___onValueChanged_19;
+	ToggleEvent_t7_129 * ___onValueChanged_19;
 	// System.Boolean UnityEngine.UI.Toggle::m_IsOn
 	bool ___m_IsOn_20;
 };

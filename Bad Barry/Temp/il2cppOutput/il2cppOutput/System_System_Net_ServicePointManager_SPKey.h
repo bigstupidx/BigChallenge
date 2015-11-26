@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 
 #include "mscorlib_System_Object.h"
 
 // System.Net.ServicePointManager/SPKey
-struct  SPKey_t981  : public Object_t
+struct  SPKey_t2_38  : public Object_t
 {
 	// System.Uri System.Net.ServicePointManager/SPKey::uri
-	Uri_t928 * ___uri_0;
+	Uri_t2_22 * ___uri_0;
 	// System.Boolean System.Net.ServicePointManager/SPKey::use_connect
 	bool ___use_connect_1;
 };

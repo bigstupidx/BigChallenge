@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // Mono.Security.X509.Extensions.GeneralNames
-struct GeneralNames_t813;
+struct GeneralNames_t3_47;
 
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 
 // Mono.Security.X509.Extensions.SubjectAltNameExtension
-struct  SubjectAltNameExtension_t818  : public X509Extension_t806
+struct  SubjectAltNameExtension_t3_52  : public X509Extension_t3_4
 {
 	// Mono.Security.X509.Extensions.GeneralNames Mono.Security.X509.Extensions.SubjectAltNameExtension::_names
-	GeneralNames_t813 * ____names_3;
+	GeneralNames_t3_47 * ____names_3;
 };

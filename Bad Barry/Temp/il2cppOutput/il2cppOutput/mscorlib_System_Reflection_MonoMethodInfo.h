@@ -19,7 +19,7 @@ struct Type_t;
 #include "mscorlib_System_Reflection_CallingConventions.h"
 
 // System.Reflection.MonoMethodInfo
-struct  MonoMethodInfo_t1367 
+struct  MonoMethodInfo_t1_343 
 {
 	// System.Type System.Reflection.MonoMethodInfo::parent
 	Type_t * ___parent_0;

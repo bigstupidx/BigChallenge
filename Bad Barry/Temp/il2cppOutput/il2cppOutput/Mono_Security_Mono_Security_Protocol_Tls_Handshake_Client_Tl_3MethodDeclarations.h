@@ -13,17 +13,17 @@
 #include <exception>
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange
-struct TlsClientKeyExchange_t881;
+struct TlsClientKeyExchange_t3_104;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t827;
+struct Context_t3_60;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange::.ctor(Mono.Security.Protocol.Tls.Context)
-extern "C" void TlsClientKeyExchange__ctor_m4607 (TlsClientKeyExchange_t881 * __this, Context_t827 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientKeyExchange__ctor_m3_831 (TlsClientKeyExchange_t3_104 * __this, Context_t3_60 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange::ProcessAsSsl3()
-extern "C" void TlsClientKeyExchange_ProcessAsSsl3_m4608 (TlsClientKeyExchange_t881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientKeyExchange_ProcessAsSsl3_m3_832 (TlsClientKeyExchange_t3_104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange::ProcessAsTls1()
-extern "C" void TlsClientKeyExchange_ProcessAsTls1_m4609 (TlsClientKeyExchange_t881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientKeyExchange_ProcessAsTls1_m3_833 (TlsClientKeyExchange_t3_104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientKeyExchange::ProcessCommon(System.Boolean)
-extern "C" void TlsClientKeyExchange_ProcessCommon_m4610 (TlsClientKeyExchange_t881 * __this, bool ___sendLength, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientKeyExchange_ProcessCommon_m3_834 (TlsClientKeyExchange_t3_104 * __this, bool ___sendLength, const MethodInfo* method) IL2CPP_METHOD_ATTR;

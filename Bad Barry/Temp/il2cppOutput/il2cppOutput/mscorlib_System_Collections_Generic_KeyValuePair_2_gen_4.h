@@ -15,11 +15,11 @@ struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-struct  KeyValuePair_2_t1969 
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>
+struct  KeyValuePair_2_t1_1138 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>::value
-	Object_t * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Object_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	bool ___value_1;
 };

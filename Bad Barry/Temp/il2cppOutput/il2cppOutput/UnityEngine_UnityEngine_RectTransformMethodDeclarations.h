@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct ReapplyDrivenProperties_t414;
+struct ReapplyDrivenProperties_t6_64;
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t99;
+struct Vector3U5BU5D_t6_156;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Rect.h"
@@ -26,66 +26,66 @@ struct Vector3U5BU5D_t99;
 #include "UnityEngine_UnityEngine_RectTransform_Axis.h"
 
 // System.Void UnityEngine.RectTransform::add_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties)
-extern "C" void RectTransform_add_reapplyDrivenProperties_m2432 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t414 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_add_reapplyDrivenProperties_m6_443 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t6_64 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::remove_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties)
-extern "C" void RectTransform_remove_reapplyDrivenProperties_m2759 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t414 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_remove_reapplyDrivenProperties_m6_444 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t6_64 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.RectTransform::get_rect()
-extern "C" Rect_t233  RectTransform_get_rect_m2078 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t6_52  RectTransform_get_rect_m6_445 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_rect(UnityEngine.Rect&)
-extern "C" void RectTransform_INTERNAL_get_rect_m2760 (RectTransform_t179 * __this, Rect_t233 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_rect_m6_446 (RectTransform_t6_65 * __this, Rect_t6_52 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_anchorMin()
-extern "C" Vector2_t25  RectTransform_get_anchorMin_m2090 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_get_anchorMin_m6_447 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_anchorMin(UnityEngine.Vector2)
-extern "C" void RectTransform_set_anchorMin_m2033 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_anchorMin_m6_448 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_anchorMin(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_get_anchorMin_m2761 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_anchorMin_m6_449 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_anchorMin(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_set_anchorMin_m2762 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_set_anchorMin_m6_450 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_anchorMax()
-extern "C" Vector2_t25  RectTransform_get_anchorMax_m2091 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_get_anchorMax_m6_451 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_anchorMax(UnityEngine.Vector2)
-extern "C" void RectTransform_set_anchorMax_m2035 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_anchorMax_m6_452 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_anchorMax(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_get_anchorMax_m2763 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_anchorMax_m6_453 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_anchorMax(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_set_anchorMax_m2764 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_set_anchorMax_m6_454 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_anchoredPosition()
-extern "C" Vector2_t25  RectTransform_get_anchoredPosition_m2092 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_get_anchoredPosition_m6_455 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_anchoredPosition(UnityEngine.Vector2)
-extern "C" void RectTransform_set_anchoredPosition_m2036 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_anchoredPosition_m6_456 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_anchoredPosition(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_get_anchoredPosition_m2765 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_anchoredPosition_m6_457 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_anchoredPosition(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_set_anchoredPosition_m2766 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_set_anchoredPosition_m6_458 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_sizeDelta()
-extern "C" Vector2_t25  RectTransform_get_sizeDelta_m2050 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_get_sizeDelta_m6_459 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_sizeDelta(UnityEngine.Vector2)
-extern "C" void RectTransform_set_sizeDelta_m2026 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_sizeDelta_m6_460 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_sizeDelta(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_get_sizeDelta_m2767 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_sizeDelta_m6_461 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_sizeDelta(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_set_sizeDelta_m2768 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_set_sizeDelta_m6_462 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_pivot()
-extern "C" Vector2_t25  RectTransform_get_pivot_m2093 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_get_pivot_m6_463 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_pivot(UnityEngine.Vector2)
-extern "C" void RectTransform_set_pivot_m2049 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_pivot_m6_464 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_pivot(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_get_pivot_m2769 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_pivot_m6_465 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_pivot(UnityEngine.Vector2&)
-extern "C" void RectTransform_INTERNAL_set_pivot_m2770 (RectTransform_t179 * __this, Vector2_t25 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_set_pivot_m6_466 (RectTransform_t6_65 * __this, Vector2_t6_48 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::SendReapplyDrivenProperties(UnityEngine.RectTransform)
-extern "C" void RectTransform_SendReapplyDrivenProperties_m2771 (Object_t * __this /* static, unused */, RectTransform_t179 * ___driven, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_SendReapplyDrivenProperties_m6_467 (Object_t * __this /* static, unused */, RectTransform_t6_65 * ___driven, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::GetLocalCorners(UnityEngine.Vector3[])
-extern "C" void RectTransform_GetLocalCorners_m2772 (RectTransform_t179 * __this, Vector3U5BU5D_t99* ___fourCornersArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_GetLocalCorners_m6_468 (RectTransform_t6_65 * __this, Vector3U5BU5D_t6_156* ___fourCornersArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::GetWorldCorners(UnityEngine.Vector3[])
-extern "C" void RectTransform_GetWorldCorners_m2086 (RectTransform_t179 * __this, Vector3U5BU5D_t99* ___fourCornersArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_GetWorldCorners_m6_469 (RectTransform_t6_65 * __this, Vector3U5BU5D_t6_156* ___fourCornersArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_offsetMin(UnityEngine.Vector2)
-extern "C" void RectTransform_set_offsetMin_m2044 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_offsetMin_m6_470 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::set_offsetMax(UnityEngine.Vector2)
-extern "C" void RectTransform_set_offsetMax_m2045 (RectTransform_t179 * __this, Vector2_t25  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_set_offsetMax_m6_471 (RectTransform_t6_65 * __this, Vector2_t6_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::SetInsetAndSizeFromParentEdge(UnityEngine.RectTransform/Edge,System.Single,System.Single)
-extern "C" void RectTransform_SetInsetAndSizeFromParentEdge_m2427 (RectTransform_t179 * __this, int32_t ___edge, float ___inset, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_SetInsetAndSizeFromParentEdge_m6_472 (RectTransform_t6_65 * __this, int32_t ___edge, float ___inset, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::SetSizeWithCurrentAnchors(UnityEngine.RectTransform/Axis,System.Single)
-extern "C" void RectTransform_SetSizeWithCurrentAnchors_m2403 (RectTransform_t179 * __this, int32_t ___axis, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_SetSizeWithCurrentAnchors_m6_473 (RectTransform_t6_65 * __this, int32_t ___axis, float ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.RectTransform::GetParentSize()
-extern "C" Vector2_t25  RectTransform_GetParentSize_m2773 (RectTransform_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t6_48  RectTransform_GetParentSize_m6_474 (RectTransform_t6_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

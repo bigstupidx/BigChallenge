@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // System.Uri
-struct Uri_t928;
+struct Uri_t2_22;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Net.ICredentials
-struct ICredentials_t985;
+struct ICredentials_t2_42;
 
 #include "mscorlib_System_Object.h"
 
 // System.Net.WebProxy
-struct  WebProxy_t984  : public Object_t
+struct  WebProxy_t2_41  : public Object_t
 {
 	// System.Uri System.Net.WebProxy::address
-	Uri_t928 * ___address_0;
+	Uri_t2_22 * ___address_0;
 	// System.Boolean System.Net.WebProxy::bypassOnLocal
 	bool ___bypassOnLocal_1;
 	// System.Collections.ArrayList System.Net.WebProxy::bypassList
-	ArrayList_t771 * ___bypassList_2;
+	ArrayList_t1_112 * ___bypassList_2;
 	// System.Net.ICredentials System.Net.WebProxy::credentials
 	Object_t * ___credentials_3;
 	// System.Boolean System.Net.WebProxy::useDefaultCredentials

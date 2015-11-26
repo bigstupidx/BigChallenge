@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.DefaultUriParser
-struct DefaultUriParser_t1082;
+struct DefaultUriParser_t2_143;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.DefaultUriParser::.ctor()
-extern "C" void DefaultUriParser__ctor_m5604 (DefaultUriParser_t1082 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m2_833 (DefaultUriParser_t2_143 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DefaultUriParser::.ctor(System.String)
-extern "C" void DefaultUriParser__ctor_m5605 (DefaultUriParser_t1082 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m2_834 (DefaultUriParser_t2_143 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;

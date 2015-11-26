@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Security.Cryptography.CryptographicException
-struct  CryptographicException_t752  : public SystemException_t1104
+struct  CryptographicException_t1_547  : public SystemException_t1_147
 {
 };

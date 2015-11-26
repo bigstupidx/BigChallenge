@@ -13,10 +13,10 @@
 #include <exception>
 
 // System.Runtime.InteropServices.InterfaceTypeAttribute
-struct InterfaceTypeAttribute_t1414;
+struct InterfaceTypeAttribute_t1_391;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_InteropServices_ComInterfaceType.h"
 
 // System.Void System.Runtime.InteropServices.InterfaceTypeAttribute::.ctor(System.Runtime.InteropServices.ComInterfaceType)
-extern "C" void InterfaceTypeAttribute__ctor_m8644 (InterfaceTypeAttribute_t1414 * __this, int32_t ___interfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InterfaceTypeAttribute__ctor_m1_3056 (InterfaceTypeAttribute_t1_391 * __this, int32_t ___interfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.ApplicationIdentity
-struct ApplicationIdentity_t1664;
+struct ApplicationIdentity_t1_678;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 // System.String
 struct String_t;
 
@@ -23,6 +23,6 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ApplicationIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m10062 (ApplicationIdentity_t1664 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m1_4579 (ApplicationIdentity_t1_678 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ApplicationIdentity::ToString()
-extern "C" String_t* ApplicationIdentity_ToString_m10063 (ApplicationIdentity_t1664 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ApplicationIdentity_ToString_m1_4580 (ApplicationIdentity_t1_678 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

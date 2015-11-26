@@ -18,8 +18,8 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.GUIUtility::.cctor()
-extern "C" void GUIUtility__cctor_m3205 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIUtility__cctor_m6_1131 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GUIUtility::get_systemCopyBuffer()
-extern "C" String_t* GUIUtility_get_systemCopyBuffer_m2235 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GUIUtility_get_systemCopyBuffer_m6_1132 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIUtility::set_systemCopyBuffer(System.String)
-extern "C" void GUIUtility_set_systemCopyBuffer_m2236 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIUtility_set_systemCopyBuffer_m6_1133 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
-struct Dictionary_2_t982;
+// System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
+struct Dictionary_2_t1_975;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_25.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>
-struct  Enumerator_t2430 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
+struct  Enumerator_t1_1556 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::dictionary
-	Dictionary_2_t982 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
+	Dictionary_2_t1_975 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Boolean>::current
-	KeyValuePair_2_t2428  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
+	KeyValuePair_2_t1_1554  ___current_3;
 };

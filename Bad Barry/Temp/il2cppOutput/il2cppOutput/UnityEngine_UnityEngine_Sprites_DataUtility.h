@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Sprites.DataUtility
-struct  DataUtility_t481  : public Object_t
+struct  DataUtility_t6_77  : public Object_t
 {
 };

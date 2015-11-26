@@ -19,6 +19,6 @@ struct Object_t;
 #include "mscorlib_System_TypedReference.h"
 
 // System.Boolean System.TypedReference::Equals(System.Object)
-extern "C" bool TypedReference_Equals_m6618 (TypedReference_t1136 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TypedReference_Equals_m1_984 (TypedReference_t1_54 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.TypedReference::GetHashCode()
-extern "C" int32_t TypedReference_GetHashCode_m6619 (TypedReference_t1136 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TypedReference_GetHashCode_m1_985 (TypedReference_t1_54 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

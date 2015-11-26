@@ -13,521 +13,494 @@
 #include <limits>
 #include <assert.h>
 
-// System.Array
-struct Array_t;
-// System.Runtime.Serialization.Formatters.Binary.TypeTag[]
-struct TypeTagU5BU5D_t1816;
-// System.Collections.Generic.IEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>
-struct IEnumerator_1_t2754;
+// UnityEngine.UI.LayoutGroup
+struct LayoutGroup_t7_146;
+// System.Object
+struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Array.h"
-#include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
-#include "mscorlib_System_Void.h"
-#include "mscorlib_System_NotSupportedExceptionMethodDeclarations.h"
-#include "mscorlib_System_String.h"
-#include "mscorlib_System_NotSupportedException.h"
+#include "UnityEngine_UI_UnityEngine_UI_SetPropertyUtility.h"
+#include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitter_FitMode.h"
 #include "mscorlib_System_Boolean.h"
-#include "mscorlib_System_ArrayMethodDeclarations.h"
-#include "mscorlib_LocaleMethodDeclarations.h"
-#include "mscorlib_System_RankExceptionMethodDeclarations.h"
-#include "mscorlib_System_Int32.h"
-#include "mscorlib_System_RankException.h"
+#include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_ValueTypeMethodDeclarations.h"
 #include "mscorlib_System_Object.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutGroup.h"
+#include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Corner.h"
+#include "mscorlib_System_Void.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutGroupMethodDeclarations.h"
 #include "mscorlib_System_ObjectMethodDeclarations.h"
-#include "mscorlib_ArrayTypes.h"
-#include "mscorlib_System_ArgumentNullExceptionMethodDeclarations.h"
-#include "mscorlib_System_ArgumentExceptionMethodDeclarations.h"
-#include "mscorlib_System_ArgumentOutOfRangeExceptionMethodDeclarations.h"
-#include "mscorlib_System_ArgumentNullException.h"
-#include "mscorlib_System_ArgumentException.h"
-#include "mscorlib_System_ArgumentOutOfRangeException.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_109.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_109MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Axis.h"
+#include "UnityEngine_UnityEngine_Vector2.h"
+#include "UnityEngine_UnityEngine_Vector2MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Constraint.h"
+#include "mscorlib_System_Int32.h"
+#include "mscorlib_System_Int32MethodDeclarations.h"
+#include "mscorlib_System_Single.h"
+#include "mscorlib_System_SingleMethodDeclarations.h"
+#include "mscorlib_System_BooleanMethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TextAnchor.h"
 
-// System.Void System.Array::GetGenericValueImpl<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T&)
-extern "C" void Array_GetGenericValueImpl_TisTypeTag_t1522_m20469_gshared (Array_t * __this, int32_t ___pos, uint8_t* ___value, const MethodInfo* method);
-#define Array_GetGenericValueImpl_TisTypeTag_t1522_m20469(__this, ___pos, ___value, method) (( void (*) (Array_t *, int32_t, uint8_t*, const MethodInfo*))Array_GetGenericValueImpl_TisTypeTag_t1522_m20469_gshared)(__this, ___pos, ___value, method)
-// System.Void System.Array::InternalArray__ICollection_Add<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern "C" void Array_InternalArray__ICollection_Add_TisTypeTag_t1522_m20470_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Add_TisTypeTag_t1522_m20470(__this, ___item, method) (( void (*) (Array_t *, uint8_t, const MethodInfo*))Array_InternalArray__ICollection_Add_TisTypeTag_t1522_m20470_gshared)(__this, ___item, method)
-// System.Boolean System.Array::InternalArray__ICollection_Contains<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern "C" bool Array_InternalArray__ICollection_Contains_TisTypeTag_t1522_m20471_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Contains_TisTypeTag_t1522_m20471(__this, ___item, method) (( bool (*) (Array_t *, uint8_t, const MethodInfo*))Array_InternalArray__ICollection_Contains_TisTypeTag_t1522_m20471_gshared)(__this, ___item, method)
-// System.Void System.Array::InternalArray__ICollection_CopyTo<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T[],System.Int32)
-extern "C" void Array_InternalArray__ICollection_CopyTo_TisTypeTag_t1522_m20472_gshared (Array_t * __this, TypeTagU5BU5D_t1816* ___array, int32_t ___index, const MethodInfo* method);
-#define Array_InternalArray__ICollection_CopyTo_TisTypeTag_t1522_m20472(__this, ___array, ___index, method) (( void (*) (Array_t *, TypeTagU5BU5D_t1816*, int32_t, const MethodInfo*))Array_InternalArray__ICollection_CopyTo_TisTypeTag_t1522_m20472_gshared)(__this, ___array, ___index, method)
-// System.Boolean System.Array::InternalArray__ICollection_Remove<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern "C" bool Array_InternalArray__ICollection_Remove_TisTypeTag_t1522_m20473_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__ICollection_Remove_TisTypeTag_t1522_m20473(__this, ___item, method) (( bool (*) (Array_t *, uint8_t, const MethodInfo*))Array_InternalArray__ICollection_Remove_TisTypeTag_t1522_m20473_gshared)(__this, ___item, method)
-// System.Int32 System.Array::InternalArray__IndexOf<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern "C" int32_t Array_InternalArray__IndexOf_TisTypeTag_t1522_m20474_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__IndexOf_TisTypeTag_t1522_m20474(__this, ___item, method) (( int32_t (*) (Array_t *, uint8_t, const MethodInfo*))Array_InternalArray__IndexOf_TisTypeTag_t1522_m20474_gshared)(__this, ___item, method)
-// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern "C" void Array_InternalArray__Insert_TisTypeTag_t1522_m20475_gshared (Array_t * __this, int32_t ___index, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__Insert_TisTypeTag_t1522_m20475(__this, ___index, ___item, method) (( void (*) (Array_t *, int32_t, uint8_t, const MethodInfo*))Array_InternalArray__Insert_TisTypeTag_t1522_m20475_gshared)(__this, ___index, ___item, method)
-// System.Void System.Array::InternalArray__set_Item<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern "C" void Array_InternalArray__set_Item_TisTypeTag_t1522_m20476_gshared (Array_t * __this, int32_t ___index, uint8_t ___item, const MethodInfo* method);
-#define Array_InternalArray__set_Item_TisTypeTag_t1522_m20476(__this, ___index, ___item, method) (( void (*) (Array_t *, int32_t, uint8_t, const MethodInfo*))Array_InternalArray__set_Item_TisTypeTag_t1522_m20476_gshared)(__this, ___index, ___item, method)
-// System.Void System.Array::SetGenericValueImpl<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,!!0&)
-extern "C" void Array_SetGenericValueImpl_TisTypeTag_t1522_m20478_gshared (Array_t * __this, int32_t p0, uint8_t* p1, const MethodInfo* method);
-#define Array_SetGenericValueImpl_TisTypeTag_t1522_m20478(__this, p0, p1, method) (( void (*) (Array_t *, int32_t, uint8_t*, const MethodInfo*))Array_SetGenericValueImpl_TisTypeTag_t1522_m20478_gshared)(__this, p0, p1, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<System.Runtime.Serialization.Formatters.Binary.TypeTag>()
-extern "C" Object_t* Array_InternalArray__IEnumerable_GetEnumerator_TisTypeTag_t1522_m20477_gshared (Array_t * __this, const MethodInfo* method);
-#define Array_InternalArray__IEnumerable_GetEnumerator_TisTypeTag_t1522_m20477(__this, method) (( Object_t* (*) (Array_t *, const MethodInfo*))Array_InternalArray__IEnumerable_GetEnumerator_TisTypeTag_t1522_m20477_gshared)(__this, method)
-// System.Void System.Array::GetGenericValueImpl<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T&)
-// System.Void System.Array::InternalArray__ICollection_Add<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-// System.Void System.Array::InternalArray__ICollection_Add<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern TypeInfo* NotSupportedException_t95_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral699;
-extern "C" void Array_InternalArray__ICollection_Add_TisTypeTag_t1522_m20470_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method)
+// System.Boolean UnityEngine.UI.SetPropertyUtility::SetStruct<UnityEngine.UI.ContentSizeFitter/FitMode>(T&,T)
+extern "C" bool SetPropertyUtility_SetStruct_TisFitMode_t7_140_m7_1494_gshared (Object_t * __this /* static, unused */, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define SetPropertyUtility_SetStruct_TisFitMode_t7_140_m7_1494(__this /* static, unused */, ___currentValue, ___newValue, method) (( bool (*) (Object_t * /* static, unused */, int32_t*, int32_t, const MethodInfo*))SetPropertyUtility_SetStruct_TisFitMode_t7_140_m7_1494_gshared)(__this /* static, unused */, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Corner>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisCorner_t7_142_m7_1495_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisCorner_t7_142_m7_1495(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, int32_t*, int32_t, const MethodInfo*))LayoutGroup_SetProperty_TisCorner_t7_142_m7_1495_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Axis>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisAxis_t7_143_m7_1496_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisAxis_t7_143_m7_1496(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, int32_t*, int32_t, const MethodInfo*))LayoutGroup_SetProperty_TisAxis_t7_143_m7_1496_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.Vector2>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisVector2_t6_48_m7_1497_gshared (LayoutGroup_t7_146 * __this, Vector2_t6_48 * ___currentValue, Vector2_t6_48  ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisVector2_t6_48_m7_1497(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, Vector2_t6_48 *, Vector2_t6_48 , const MethodInfo*))LayoutGroup_SetProperty_TisVector2_t6_48_m7_1497_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Constraint>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisConstraint_t7_144_m7_1498_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisConstraint_t7_144_m7_1498(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, int32_t*, int32_t, const MethodInfo*))LayoutGroup_SetProperty_TisConstraint_t7_144_m7_1498_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Int32>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisInt32_t1_3_m7_1499_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisInt32_t1_3_m7_1499(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, int32_t*, int32_t, const MethodInfo*))LayoutGroup_SetProperty_TisInt32_t1_3_m7_1499_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Single>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisSingle_t1_17_m7_1500_gshared (LayoutGroup_t7_146 * __this, float* ___currentValue, float ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisSingle_t1_17_m7_1500(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, float*, float, const MethodInfo*))LayoutGroup_SetProperty_TisSingle_t1_17_m7_1500_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Boolean>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisBoolean_t1_20_m7_1501_gshared (LayoutGroup_t7_146 * __this, bool* ___currentValue, bool ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisBoolean_t1_20_m7_1501(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, bool*, bool, const MethodInfo*))LayoutGroup_SetProperty_TisBoolean_t1_20_m7_1501_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Object>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisObject_t_m7_1519_gshared (LayoutGroup_t7_146 * __this, Object_t ** ___currentValue, Object_t * ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisObject_t_m7_1519(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, Object_t **, Object_t *, const MethodInfo*))LayoutGroup_SetProperty_TisObject_t_m7_1519_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.TextAnchor>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisTextAnchor_t6_139_m7_1503_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method);
+#define LayoutGroup_SetProperty_TisTextAnchor_t6_139_m7_1503(__this, ___currentValue, ___newValue, method) (( void (*) (LayoutGroup_t7_146 *, int32_t*, int32_t, const MethodInfo*))LayoutGroup_SetProperty_TisTextAnchor_t6_139_m7_1503_gshared)(__this, ___currentValue, ___newValue, method)
+// System.Boolean UnityEngine.UI.SetPropertyUtility::SetStruct<UnityEngine.UI.ContentSizeFitter/FitMode>(T&,T)
+// System.Boolean UnityEngine.UI.SetPropertyUtility::SetStruct<UnityEngine.UI.ContentSizeFitter/FitMode>(T&,T)
+extern "C" bool SetPropertyUtility_SetStruct_TisFitMode_t7_140_m7_1494_gshared (Object_t * __this /* static, unused */, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
 {
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
 	{
-		NotSupportedException_t95_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(48);
-		_stringLiteral699 = il2cpp_codegen_string_literal_from_index(699);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		NotSupportedException_t95 * L_0 = (NotSupportedException_t95 *)il2cpp_codegen_object_new (NotSupportedException_t95_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m4665(L_0, (String_t*)_stringLiteral699, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_0);
-	}
-}
-// System.Boolean System.Array::InternalArray__ICollection_Contains<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-// System.Boolean System.Array::InternalArray__ICollection_Contains<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern TypeInfo* RankException_t1719_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1135;
-extern "C" bool Array_InternalArray__ICollection_Contains_TisTypeTag_t1522_m20471_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		RankException_t1719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(768);
-		_stringLiteral1135 = il2cpp_codegen_string_literal_from_index(1135);
-		s_Il2CppMethodIntialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	uint8_t V_2 = {0};
-	{
-		NullCheck((Array_t *)__this);
-		int32_t L_0 = Array_get_Rank_m5683((Array_t *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) <= ((int32_t)1)))
+		int32_t* L_0 = ___currentValue;
+		int32_t L_1 = ___newValue;
+		int32_t L_2 = L_1;
+		Object_t * L_3 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_2);
+		NullCheck((ValueType_t1_1 *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_0));
+		bool L_4 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.ValueType::Equals(System.Object) */, (ValueType_t1_1 *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_0), (Object_t *)L_3);
+		if (!L_4)
 		{
-			goto IL_001c;
-		}
-	}
-	{
-		String_t* L_1 = Locale_GetText_m6625(NULL /*static, unused*/, (String_t*)_stringLiteral1135, /*hidden argument*/NULL);
-		RankException_t1719 * L_2 = (RankException_t1719 *)il2cpp_codegen_object_new (RankException_t1719_il2cpp_TypeInfo_var);
-		RankException__ctor_m10708(L_2, (String_t*)L_1, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
-	}
-
-IL_001c:
-	{
-		NullCheck((Array_t *)__this);
-		int32_t L_3 = Array_get_Length_m5680((Array_t *)__this, /*hidden argument*/NULL);
-		V_0 = (int32_t)L_3;
-		V_1 = (int32_t)0;
-		goto IL_006b;
-	}
-
-IL_002a:
-	{
-		int32_t L_4 = V_1;
-		NullCheck((Array_t *)__this);
-		ArrayGetGenericValueImpl ((Array_t *)__this, (int32_t)L_4, (uint8_t*)(&V_2));
-		uint8_t L_5 = ___item;
-		goto IL_004d;
-	}
-	{
-		uint8_t L_6 = V_2;
-		goto IL_004b;
-	}
-	{
-		return 1;
-	}
-
-IL_004b:
-	{
-		return 0;
-	}
-
-IL_004d:
-	{
-		uint8_t L_7 = V_2;
-		uint8_t L_8 = L_7;
-		Object_t * L_9 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_8);
-		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&___item)));
-		bool L_10 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&___item)), (Object_t *)L_9);
-		if (!L_10)
-		{
-			goto IL_0067;
-		}
-	}
-	{
-		return 1;
-	}
-
-IL_0067:
-	{
-		int32_t L_11 = V_1;
-		V_1 = (int32_t)((int32_t)((int32_t)L_11+(int32_t)1));
-	}
-
-IL_006b:
-	{
-		int32_t L_12 = V_1;
-		int32_t L_13 = V_0;
-		if ((((int32_t)L_12) < ((int32_t)L_13)))
-		{
-			goto IL_002a;
+			goto IL_0019;
 		}
 	}
 	{
 		return 0;
 	}
-}
-// System.Void System.Array::InternalArray__ICollection_CopyTo<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T[],System.Int32)
-// System.Void System.Array::InternalArray__ICollection_CopyTo<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T[],System.Int32)
-extern TypeInfo* ArgumentNullException_t77_il2cpp_TypeInfo_var;
-extern TypeInfo* RankException_t1719_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t409_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral676;
-extern Il2CppCodeGenString* _stringLiteral1135;
-extern Il2CppCodeGenString* _stringLiteral1172;
-extern Il2CppCodeGenString* _stringLiteral678;
-extern Il2CppCodeGenString* _stringLiteral1158;
-extern "C" void Array_InternalArray__ICollection_CopyTo_TisTypeTag_t1522_m20472_gshared (Array_t * __this, TypeTagU5BU5D_t1816* ___array, int32_t ___index, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		ArgumentNullException_t77_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5);
-		RankException_t1719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(768);
-		ArgumentException_t409_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(263);
-		ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(477);
-		_stringLiteral676 = il2cpp_codegen_string_literal_from_index(676);
-		_stringLiteral1135 = il2cpp_codegen_string_literal_from_index(1135);
-		_stringLiteral1172 = il2cpp_codegen_string_literal_from_index(1172);
-		_stringLiteral678 = il2cpp_codegen_string_literal_from_index(678);
-		_stringLiteral1158 = il2cpp_codegen_string_literal_from_index(1158);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		TypeTagU5BU5D_t1816* L_0 = ___array;
-		if (L_0)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		ArgumentNullException_t77 * L_1 = (ArgumentNullException_t77 *)il2cpp_codegen_object_new (ArgumentNullException_t77_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m330(L_1, (String_t*)_stringLiteral676, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
-	}
 
-IL_0011:
+IL_0019:
 	{
-		NullCheck((Array_t *)__this);
-		int32_t L_2 = Array_get_Rank_m5683((Array_t *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_2) <= ((int32_t)1)))
-		{
-			goto IL_002d;
-		}
-	}
-	{
-		String_t* L_3 = Locale_GetText_m6625(NULL /*static, unused*/, (String_t*)_stringLiteral1135, /*hidden argument*/NULL);
-		RankException_t1719 * L_4 = (RankException_t1719 *)il2cpp_codegen_object_new (RankException_t1719_il2cpp_TypeInfo_var);
-		RankException__ctor_m10708(L_4, (String_t*)L_3, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_4);
-	}
-
-IL_002d:
-	{
-		int32_t L_5 = ___index;
-		NullCheck((Array_t *)__this);
-		int32_t L_6 = Array_GetLength_m6432((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		TypeTagU5BU5D_t1816* L_7 = ___array;
-		NullCheck((Array_t *)L_7);
-		int32_t L_8 = Array_GetLowerBound_m6434((Array_t *)L_7, (int32_t)0, /*hidden argument*/NULL);
-		TypeTagU5BU5D_t1816* L_9 = ___array;
-		NullCheck((Array_t *)L_9);
-		int32_t L_10 = Array_GetLength_m6432((Array_t *)L_9, (int32_t)0, /*hidden argument*/NULL);
-		if ((((int32_t)((int32_t)((int32_t)L_5+(int32_t)L_6))) <= ((int32_t)((int32_t)((int32_t)L_8+(int32_t)L_10)))))
-		{
-			goto IL_0055;
-		}
-	}
-	{
-		ArgumentException_t409 * L_11 = (ArgumentException_t409 *)il2cpp_codegen_object_new (ArgumentException_t409_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m2394(L_11, (String_t*)_stringLiteral1172, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_11);
-	}
-
-IL_0055:
-	{
-		TypeTagU5BU5D_t1816* L_12 = ___array;
-		NullCheck((Array_t *)L_12);
-		int32_t L_13 = Array_get_Rank_m5683((Array_t *)L_12, /*hidden argument*/NULL);
-		if ((((int32_t)L_13) <= ((int32_t)1)))
-		{
-			goto IL_0071;
-		}
-	}
-	{
-		String_t* L_14 = Locale_GetText_m6625(NULL /*static, unused*/, (String_t*)_stringLiteral1135, /*hidden argument*/NULL);
-		RankException_t1719 * L_15 = (RankException_t1719 *)il2cpp_codegen_object_new (RankException_t1719_il2cpp_TypeInfo_var);
-		RankException__ctor_m10708(L_15, (String_t*)L_14, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_15);
-	}
-
-IL_0071:
-	{
-		int32_t L_16 = ___index;
-		if ((((int32_t)L_16) >= ((int32_t)0)))
-		{
-			goto IL_008d;
-		}
-	}
-	{
-		String_t* L_17 = Locale_GetText_m6625(NULL /*static, unused*/, (String_t*)_stringLiteral1158, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t755 * L_18 = (ArgumentOutOfRangeException_t755 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3763(L_18, (String_t*)_stringLiteral678, (String_t*)L_17, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_18);
-	}
-
-IL_008d:
-	{
-		NullCheck((Array_t *)__this);
-		int32_t L_19 = Array_GetLowerBound_m6434((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		TypeTagU5BU5D_t1816* L_20 = ___array;
-		int32_t L_21 = ___index;
-		NullCheck((Array_t *)__this);
-		int32_t L_22 = Array_GetLength_m6432((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		Array_Copy_m6474(NULL /*static, unused*/, (Array_t *)__this, (int32_t)L_19, (Array_t *)(Array_t *)L_20, (int32_t)L_21, (int32_t)L_22, /*hidden argument*/NULL);
-		return;
+		int32_t* L_5 = ___currentValue;
+		int32_t L_6 = ___newValue;
+		(*(int32_t*)L_5) = L_6;
+		return 1;
 	}
 }
-// System.Boolean System.Array::InternalArray__ICollection_Remove<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-// System.Boolean System.Array::InternalArray__ICollection_Remove<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern TypeInfo* NotSupportedException_t95_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral699;
-extern "C" bool Array_InternalArray__ICollection_Remove_TisTypeTag_t1522_m20473_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Corner>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Corner>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisCorner_t7_142_m7_1495_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
 {
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
 	{
-		NotSupportedException_t95_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(48);
-		_stringLiteral699 = il2cpp_codegen_string_literal_from_index(699);
-		s_Il2CppMethodIntialized = true;
+		int32_t* L_0 = ___currentValue;
+		goto IL_001b;
 	}
 	{
-		NotSupportedException_t95 * L_0 = (NotSupportedException_t95 *)il2cpp_codegen_object_new (NotSupportedException_t95_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m4665(L_0, (String_t*)_stringLiteral699, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_0);
+		int32_t L_1 = ___newValue;
 	}
-}
-// System.Int32 System.Array::InternalArray__IndexOf<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-// System.Int32 System.Array::InternalArray__IndexOf<System.Runtime.Serialization.Formatters.Binary.TypeTag>(T)
-extern TypeInfo* RankException_t1719_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1135;
-extern "C" int32_t Array_InternalArray__IndexOf_TisTypeTag_t1522_m20474_gshared (Array_t * __this, uint8_t ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
+
+IL_001b:
 	{
-		RankException_t1719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(768);
-		_stringLiteral1135 = il2cpp_codegen_string_literal_from_index(1135);
-		s_Il2CppMethodIntialized = true;
+		int32_t* L_2 = ___currentValue;
 	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	uint8_t V_2 = {0};
 	{
-		NullCheck((Array_t *)__this);
-		int32_t L_0 = Array_get_Rank_m5683((Array_t *)__this, /*hidden argument*/NULL);
-		if ((((int32_t)L_0) <= ((int32_t)1)))
+		int32_t* L_3 = ___currentValue;
+		int32_t L_4 = ___newValue;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3));
+		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3), (Object_t *)L_6);
+		if (!L_7)
 		{
-			goto IL_001c;
+			goto IL_0043;
 		}
 	}
-	{
-		String_t* L_1 = Locale_GetText_m6625(NULL /*static, unused*/, (String_t*)_stringLiteral1135, /*hidden argument*/NULL);
-		RankException_t1719 * L_2 = (RankException_t1719 *)il2cpp_codegen_object_new (RankException_t1719_il2cpp_TypeInfo_var);
-		RankException__ctor_m10708(L_2, (String_t*)L_1, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
-	}
 
-IL_001c:
+IL_0042:
 	{
-		NullCheck((Array_t *)__this);
-		int32_t L_3 = Array_get_Length_m5680((Array_t *)__this, /*hidden argument*/NULL);
-		V_0 = (int32_t)L_3;
-		V_1 = (int32_t)0;
-		goto IL_0083;
-	}
-
-IL_002a:
-	{
-		int32_t L_4 = V_1;
-		NullCheck((Array_t *)__this);
-		ArrayGetGenericValueImpl ((Array_t *)__this, (int32_t)L_4, (uint8_t*)(&V_2));
-		uint8_t L_5 = ___item;
-		goto IL_005d;
-	}
-	{
-		uint8_t L_6 = V_2;
-		goto IL_0053;
-	}
-	{
-		int32_t L_7 = V_1;
-		NullCheck((Array_t *)__this);
-		int32_t L_8 = Array_GetLowerBound_m6434((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_7+(int32_t)L_8));
-	}
-
-IL_0053:
-	{
-		NullCheck((Array_t *)__this);
-		int32_t L_9 = Array_GetLowerBound_m6434((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_9-(int32_t)1));
-	}
-
-IL_005d:
-	{
-		uint8_t L_10 = ___item;
-		uint8_t L_11 = L_10;
-		Object_t * L_12 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_11);
-		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2)));
-		bool L_13 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (&V_2)), (Object_t *)L_12);
-		if (!L_13)
-		{
-			goto IL_007f;
-		}
-	}
-	{
-		int32_t L_14 = V_1;
-		NullCheck((Array_t *)__this);
-		int32_t L_15 = Array_GetLowerBound_m6434((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_14+(int32_t)L_15));
-	}
-
-IL_007f:
-	{
-		int32_t L_16 = V_1;
-		V_1 = (int32_t)((int32_t)((int32_t)L_16+(int32_t)1));
-	}
-
-IL_0083:
-	{
-		int32_t L_17 = V_1;
-		int32_t L_18 = V_0;
-		if ((((int32_t)L_17) < ((int32_t)L_18)))
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		NullCheck((Array_t *)__this);
-		int32_t L_19 = Array_GetLowerBound_m6434((Array_t *)__this, (int32_t)0, /*hidden argument*/NULL);
-		return ((int32_t)((int32_t)L_19-(int32_t)1));
-	}
-}
-// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern TypeInfo* NotSupportedException_t95_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral699;
-extern "C" void Array_InternalArray__Insert_TisTypeTag_t1522_m20475_gshared (Array_t * __this, int32_t ___index, uint8_t ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		NotSupportedException_t95_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(48);
-		_stringLiteral699 = il2cpp_codegen_string_literal_from_index(699);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		NotSupportedException_t95 * L_0 = (NotSupportedException_t95 *)il2cpp_codegen_object_new (NotSupportedException_t95_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m4665(L_0, (String_t*)_stringLiteral699, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_0);
-	}
-}
-// System.Void System.Array::InternalArray__set_Item<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-// System.Void System.Array::InternalArray__set_Item<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern TypeInfo* ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t102_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral678;
-extern "C" void Array_InternalArray__set_Item_TisTypeTag_t1522_m20476_gshared (Array_t * __this, int32_t ___index, uint8_t ___item, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(477);
-		ObjectU5BU5D_t102_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(114);
-		_stringLiteral678 = il2cpp_codegen_string_literal_from_index(678);
-		s_Il2CppMethodIntialized = true;
-	}
-	ObjectU5BU5D_t102* V_0 = {0};
-	{
-		int32_t L_0 = ___index;
-		NullCheck((Array_t *)__this);
-		int32_t L_1 = Array_get_Length_m5680((Array_t *)__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t755 * L_2 = (ArgumentOutOfRangeException_t755 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t755_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m4664(L_2, (String_t*)_stringLiteral678, /*hidden argument*/NULL);
-		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
-	}
-
-IL_0017:
-	{
-		V_0 = (ObjectU5BU5D_t102*)((ObjectU5BU5D_t102*)IsInst(__this, ObjectU5BU5D_t102_il2cpp_TypeInfo_var));
-		ObjectU5BU5D_t102* L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		ObjectU5BU5D_t102* L_4 = V_0;
-		int32_t L_5 = ___index;
-		uint8_t L_6 = ___item;
-		uint8_t L_7 = L_6;
-		Object_t * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
-		NullCheck(L_4);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
-		ArrayElementTypeCheck (L_4, L_8);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, L_5, sizeof(Object_t *))) = (Object_t *)L_8;
 		return;
 	}
 
-IL_002e:
+IL_0043:
 	{
-		int32_t L_9 = ___index;
-		NullCheck((Array_t *)__this);
-		ArraySetGenericValueImpl ((Array_t *)__this, (int32_t)L_9, (uint8_t*)(&___item));
+		int32_t* L_8 = ___currentValue;
+		int32_t L_9 = ___newValue;
+		(*(int32_t*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Void System.Array::SetGenericValueImpl<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T&)
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<System.Runtime.Serialization.Formatters.Binary.TypeTag>()
-// System.Collections.Generic.IEnumerator`1<T> System.Array::InternalArray__IEnumerable_GetEnumerator<System.Runtime.Serialization.Formatters.Binary.TypeTag>()
-extern "C" Object_t* Array_InternalArray__IEnumerable_GetEnumerator_TisTypeTag_t1522_m20477_gshared (Array_t * __this, const MethodInfo* method)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Axis>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Axis>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisAxis_t7_143_m7_1496_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
 {
 	{
-		InternalEnumerator_1_t2506  L_0 = {0};
-		(( void (*) (InternalEnumerator_1_t2506 *, Array_t *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->method)(&L_0, (Array_t *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
-		InternalEnumerator_1_t2506  L_1 = L_0;
-		Object_t * L_2 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_1);
-		return (Object_t*)L_2;
+		int32_t* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		int32_t L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		int32_t* L_2 = ___currentValue;
+	}
+	{
+		int32_t* L_3 = ___currentValue;
+		int32_t L_4 = ___newValue;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3));
+		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3), (Object_t *)L_6);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		int32_t* L_8 = ___currentValue;
+		int32_t L_9 = ___newValue;
+		(*(int32_t*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.Vector2>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.Vector2>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisVector2_t6_48_m7_1497_gshared (LayoutGroup_t7_146 * __this, Vector2_t6_48 * ___currentValue, Vector2_t6_48  ___newValue, const MethodInfo* method)
+{
+	{
+		Vector2_t6_48 * L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		Vector2_t6_48  L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		Vector2_t6_48 * L_2 = ___currentValue;
+	}
+	{
+		Vector2_t6_48 * L_3 = ___currentValue;
+		Vector2_t6_48  L_4 = ___newValue;
+		Vector2_t6_48  L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((Vector2_t6_48 *)L_3);
+		bool L_7 = Vector2_Equals_m6_211((Vector2_t6_48 *)L_3, (Object_t *)L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		Vector2_t6_48 * L_8 = ___currentValue;
+		Vector2_t6_48  L_9 = ___newValue;
+		(*(Vector2_t6_48 *)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Constraint>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.UI.GridLayoutGroup/Constraint>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisConstraint_t7_144_m7_1498_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
+{
+	{
+		int32_t* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		int32_t L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		int32_t* L_2 = ___currentValue;
+	}
+	{
+		int32_t* L_3 = ___currentValue;
+		int32_t L_4 = ___newValue;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3));
+		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3), (Object_t *)L_6);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		int32_t* L_8 = ___currentValue;
+		int32_t L_9 = ___newValue;
+		(*(int32_t*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Int32>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Int32>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisInt32_t1_3_m7_1499_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
+{
+	{
+		int32_t* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		int32_t L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		int32_t* L_2 = ___currentValue;
+	}
+	{
+		int32_t* L_3 = ___currentValue;
+		int32_t L_4 = ___newValue;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((int32_t*)L_3);
+		bool L_7 = Int32_Equals_m1_43((int32_t*)L_3, (Object_t *)L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		int32_t* L_8 = ___currentValue;
+		int32_t L_9 = ___newValue;
+		(*(int32_t*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Single>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Single>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisSingle_t1_17_m7_1500_gshared (LayoutGroup_t7_146 * __this, float* ___currentValue, float ___newValue, const MethodInfo* method)
+{
+	{
+		float* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		float L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		float* L_2 = ___currentValue;
+	}
+	{
+		float* L_3 = ___currentValue;
+		float L_4 = ___newValue;
+		float L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((float*)L_3);
+		bool L_7 = Single_Equals_m1_474((float*)L_3, (Object_t *)L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		float* L_8 = ___currentValue;
+		float L_9 = ___newValue;
+		(*(float*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Boolean>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Boolean>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisBoolean_t1_20_m7_1501_gshared (LayoutGroup_t7_146 * __this, bool* ___currentValue, bool ___newValue, const MethodInfo* method)
+{
+	{
+		bool* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		bool L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		bool* L_2 = ___currentValue;
+	}
+	{
+		bool* L_3 = ___currentValue;
+		bool L_4 = ___newValue;
+		bool L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((bool*)L_3);
+		bool L_7 = Boolean_Equals_m1_626((bool*)L_3, (Object_t *)L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		bool* L_8 = ___currentValue;
+		bool L_9 = ___newValue;
+		(*(bool*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Object>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<System.Object>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisObject_t_m7_1519_gshared (LayoutGroup_t7_146 * __this, Object_t ** ___currentValue, Object_t * ___newValue, const MethodInfo* method)
+{
+	{
+		Object_t ** L_0 = ___currentValue;
+		if ((*(Object_t **)L_0))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Object_t * L_1 = ___newValue;
+		if (!L_1)
+		{
+			goto IL_0042;
+		}
+	}
+
+IL_001b:
+	{
+		Object_t ** L_2 = ___currentValue;
+		if (!(*(Object_t **)L_2))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Object_t ** L_3 = ___currentValue;
+		Object_t * L_4 = ___newValue;
+		NullCheck((Object_t *)(*L_3));
+		bool L_5 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)(*L_3), (Object_t *)L_4);
+		if (!L_5)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		Object_t ** L_6 = ___currentValue;
+		Object_t * L_7 = ___newValue;
+		(*(Object_t **)L_6) = L_7;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.TextAnchor>(T&,T)
+// System.Void UnityEngine.UI.LayoutGroup::SetProperty<UnityEngine.TextAnchor>(T&,T)
+extern "C" void LayoutGroup_SetProperty_TisTextAnchor_t6_139_m7_1503_gshared (LayoutGroup_t7_146 * __this, int32_t* ___currentValue, int32_t ___newValue, const MethodInfo* method)
+{
+	{
+		int32_t* L_0 = ___currentValue;
+		goto IL_001b;
+	}
+	{
+		int32_t L_1 = ___newValue;
+	}
+
+IL_001b:
+	{
+		int32_t* L_2 = ___currentValue;
+	}
+	{
+		int32_t* L_3 = ___currentValue;
+		int32_t L_4 = ___newValue;
+		int32_t L_5 = L_4;
+		Object_t * L_6 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_5);
+		NullCheck((Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3));
+		bool L_7 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, (Object_t *)Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_3), (Object_t *)L_6);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_0042:
+	{
+		return;
+	}
+
+IL_0043:
+	{
+		int32_t* L_8 = ___currentValue;
+		int32_t L_9 = ___newValue;
+		(*(int32_t*)L_8) = L_9;
+		NullCheck((LayoutGroup_t7_146 *)__this);
+		LayoutGroup_SetDirty_m7_1312((LayoutGroup_t7_146 *)__this, /*hidden argument*/NULL);
+		return;
 	}
 }

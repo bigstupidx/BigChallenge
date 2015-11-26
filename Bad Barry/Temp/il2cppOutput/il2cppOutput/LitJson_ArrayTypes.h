@@ -15,25 +15,25 @@
 #pragma once
 // LitJson.JsonData[]
 // LitJson.JsonData[]
-struct JsonDataU5BU5D_t2298  : public Array_t { };
+struct JsonDataU5BU5D_t5_26  : public Array_t { };
 // LitJson.PropertyMetadata[]
 // LitJson.PropertyMetadata[]
-struct PropertyMetadataU5BU5D_t2698  : public Array_t { };
+struct PropertyMetadataU5BU5D_t5_32  : public Array_t { };
 // LitJson.ArrayMetadata[]
 // LitJson.ArrayMetadata[]
-struct ArrayMetadataU5BU5D_t2330  : public Array_t { };
+struct ArrayMetadataU5BU5D_t5_27  : public Array_t { };
 // LitJson.ObjectMetadata[]
 // LitJson.ObjectMetadata[]
-struct ObjectMetadataU5BU5D_t2353  : public Array_t { };
+struct ObjectMetadataU5BU5D_t5_28  : public Array_t { };
 // LitJson.ExporterFunc[]
 // LitJson.ExporterFunc[]
-struct ExporterFuncU5BU5D_t2375  : public Array_t { };
+struct ExporterFuncU5BU5D_t5_29  : public Array_t { };
 // LitJson.ImporterFunc[]
 // LitJson.ImporterFunc[]
-struct ImporterFuncU5BU5D_t2385  : public Array_t { };
+struct ImporterFuncU5BU5D_t5_30  : public Array_t { };
 // LitJson.WriterContext[]
 // LitJson.WriterContext[]
-struct WriterContextU5BU5D_t2401  : public Array_t { };
+struct WriterContextU5BU5D_t5_31  : public Array_t { };
 // LitJson.Lexer/StateHandler[]
 // LitJson.Lexer/StateHandler[]
-struct StateHandlerU5BU5D_t693  : public Array_t { };
+struct StateHandlerU5BU5D_t5_21  : public Array_t { };

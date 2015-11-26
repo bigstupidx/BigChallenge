@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen.h"
 
 // UnityEngine.EventSystems.EventTrigger/TriggerEvent
-struct  TriggerEvent_t110  : public UnityEvent_1_t111
+struct  TriggerEvent_t7_6  : public UnityEvent_1_t6_259
 {
 };

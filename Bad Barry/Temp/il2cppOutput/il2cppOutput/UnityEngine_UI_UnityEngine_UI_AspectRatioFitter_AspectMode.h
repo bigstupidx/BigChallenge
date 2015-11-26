@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitter_AspectMode.h"
 
 // UnityEngine.UI.AspectRatioFitter/AspectMode
-struct  AspectMode_t288 
+struct  AspectMode_t7_134 
 {
 	// System.Int32 UnityEngine.UI.AspectRatioFitter/AspectMode::value__
 	int32_t ___value___1;

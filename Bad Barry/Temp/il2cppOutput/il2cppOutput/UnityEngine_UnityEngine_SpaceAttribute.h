@@ -14,7 +14,7 @@
 #include "UnityEngine_UnityEngine_PropertyAttribute.h"
 
 // UnityEngine.SpaceAttribute
-struct  SpaceAttribute_t585  : public PropertyAttribute_t583
+struct  SpaceAttribute_t6_208  : public PropertyAttribute_t6_206
 {
 	// System.Single UnityEngine.SpaceAttribute::height
 	float ___height_0;

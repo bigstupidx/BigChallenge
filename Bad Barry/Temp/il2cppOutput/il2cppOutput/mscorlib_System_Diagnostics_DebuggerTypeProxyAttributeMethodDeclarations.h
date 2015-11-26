@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Diagnostics.DebuggerTypeProxyAttribute
-struct DebuggerTypeProxyAttribute_t1240;
+struct DebuggerTypeProxyAttribute_t1_192;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Diagnostics.DebuggerTypeProxyAttribute::.ctor(System.Type)
-extern "C" void DebuggerTypeProxyAttribute__ctor_m7459 (DebuggerTypeProxyAttribute_t1240 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerTypeProxyAttribute__ctor_m1_1849 (DebuggerTypeProxyAttribute_t1_192 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

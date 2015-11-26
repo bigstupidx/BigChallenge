@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UICharInfo>
-struct List_1_t535;
+// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
+struct List_1_t1_943;
+// UnityEngine.UI.Graphic
+struct Graphic_t7_75;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_UICharInfo.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
-struct  Enumerator_t2246 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>
+struct  Enumerator_t1_1485 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::l
-	List_1_t535 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_943 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>::current
-	UICharInfo_t395  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Graphic_t7_75 * ___current_3;
 };

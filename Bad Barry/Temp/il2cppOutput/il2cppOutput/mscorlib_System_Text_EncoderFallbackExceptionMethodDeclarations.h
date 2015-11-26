@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Text.EncoderFallbackException
-struct EncoderFallbackException_t1631;
+struct EncoderFallbackException_t1_645;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.EncoderFallbackException::.ctor()
-extern "C" void EncoderFallbackException__ctor_m9754 (EncoderFallbackException_t1631 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderFallbackException__ctor_m1_4237 (EncoderFallbackException_t1_645 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.EncoderFallbackException::.ctor(System.String)
-extern "C" void EncoderFallbackException__ctor_m9755 (EncoderFallbackException_t1631 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderFallbackException__ctor_m1_4238 (EncoderFallbackException_t1_645 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.EncoderFallbackException::.ctor(System.Char,System.Int32)
-extern "C" void EncoderFallbackException__ctor_m9756 (EncoderFallbackException_t1631 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderFallbackException__ctor_m1_4239 (EncoderFallbackException_t1_645 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.EncoderFallbackException::.ctor(System.Char,System.Char,System.Int32)
-extern "C" void EncoderFallbackException__ctor_m9757 (EncoderFallbackException_t1631 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderFallbackException__ctor_m1_4240 (EncoderFallbackException_t1_645 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;

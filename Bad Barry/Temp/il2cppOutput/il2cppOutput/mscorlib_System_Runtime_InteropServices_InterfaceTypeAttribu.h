@@ -15,7 +15,7 @@
 #include "mscorlib_System_Runtime_InteropServices_ComInterfaceType.h"
 
 // System.Runtime.InteropServices.InterfaceTypeAttribute
-struct  InterfaceTypeAttribute_t1414  : public Attribute_t476
+struct  InterfaceTypeAttribute_t1_391  : public Attribute_t1_2
 {
 	// System.Runtime.InteropServices.ComInterfaceType System.Runtime.InteropServices.InterfaceTypeAttribute::intType
 	int32_t ___intType_0;

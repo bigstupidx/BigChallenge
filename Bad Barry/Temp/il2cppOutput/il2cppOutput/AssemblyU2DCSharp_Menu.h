@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.Animator
-struct Animator_t34;
+struct Animator_t6_134;
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t35;
+struct CanvasGroup_t6_152;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Menu
-struct  Menu_t33  : public MonoBehaviour_t2
+struct  Menu_t8_24  : public MonoBehaviour_t6_88
 {
 	// UnityEngine.Animator Menu::animator
-	Animator_t34 * ___animator_2;
+	Animator_t6_134 * ___animator_2;
 	// UnityEngine.CanvasGroup Menu::canvasGroup
-	CanvasGroup_t35 * ___canvasGroup_3;
+	CanvasGroup_t6_152 * ___canvasGroup_3;
 };

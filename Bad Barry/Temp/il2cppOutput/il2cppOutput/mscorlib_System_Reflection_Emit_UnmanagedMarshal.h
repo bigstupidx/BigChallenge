@@ -19,7 +19,7 @@ struct Type_t;
 #include "mscorlib_System_Runtime_InteropServices_UnmanagedType.h"
 
 // System.Reflection.Emit.UnmanagedMarshal
-struct  UnmanagedMarshal_t1303  : public Object_t
+struct  UnmanagedMarshal_t1_277  : public Object_t
 {
 	// System.Int32 System.Reflection.Emit.UnmanagedMarshal::count
 	int32_t ___count_0;

@@ -13,23 +13,23 @@
 #include <exception>
 
 // System.Security.Cryptography.DSASignatureDeformatter
-struct DSASignatureDeformatter_t916;
+struct DSASignatureDeformatter_t1_556;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t889;
+struct AsymmetricAlgorithm_t1_539;
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.DSASignatureDeformatter::.ctor()
-extern "C" void DSASignatureDeformatter__ctor_m9312 (DSASignatureDeformatter_t916 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDeformatter__ctor_m1_3762 (DSASignatureDeformatter_t1_556 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureDeformatter::.ctor(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void DSASignatureDeformatter__ctor_m4715 (DSASignatureDeformatter_t916 * __this, AsymmetricAlgorithm_t889 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDeformatter__ctor_m1_3763 (DSASignatureDeformatter_t1_556 * __this, AsymmetricAlgorithm_t1_539 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureDeformatter::SetHashAlgorithm(System.String)
-extern "C" void DSASignatureDeformatter_SetHashAlgorithm_m9313 (DSASignatureDeformatter_t916 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDeformatter_SetHashAlgorithm_m1_3764 (DSASignatureDeformatter_t1_556 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSASignatureDeformatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void DSASignatureDeformatter_SetKey_m9314 (DSASignatureDeformatter_t916 * __this, AsymmetricAlgorithm_t889 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSASignatureDeformatter_SetKey_m1_3765 (DSASignatureDeformatter_t1_556 * __this, AsymmetricAlgorithm_t1_539 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.DSASignatureDeformatter::VerifySignature(System.Byte[],System.Byte[])
-extern "C" bool DSASignatureDeformatter_VerifySignature_m9315 (DSASignatureDeformatter_t916 * __this, ByteU5BU5D_t740* ___rgbHash, ByteU5BU5D_t740* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DSASignatureDeformatter_VerifySignature_m1_3766 (DSASignatureDeformatter_t1_556 * __this, ByteU5BU5D_t1_70* ___rgbHash, ByteU5BU5D_t1_70* ___rgbSignature, const MethodInfo* method) IL2CPP_METHOD_ATTR;

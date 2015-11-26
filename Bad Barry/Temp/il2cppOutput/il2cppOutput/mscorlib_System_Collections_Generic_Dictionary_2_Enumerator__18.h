@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>
-struct Dictionary_2_t719;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
+struct Dictionary_2_t1_942;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_19.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>
-struct  Enumerator_t2379 
+// System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
+struct  Enumerator_t1_1482 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::dictionary
-	Dictionary_2_t719 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::next
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
+	Dictionary_2_t1_942 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::stamp
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::current
-	KeyValuePair_2_t2377  ___current_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
+	KeyValuePair_2_t1_1480  ___current_3;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.SerializePrivateVariables
-struct  SerializePrivateVariables_t475  : public Attribute_t476
+struct  SerializePrivateVariables_t6_69  : public Attribute_t1_2
 {
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Threading.NativeEventCalls
-struct  NativeEventCalls_t1649  : public Object_t
+struct  NativeEventCalls_t1_663  : public Object_t
 {
 };

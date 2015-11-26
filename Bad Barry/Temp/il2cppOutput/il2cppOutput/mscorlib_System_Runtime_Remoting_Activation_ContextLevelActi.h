@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1422;
+struct IActivator_t1_399;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Activation.ContextLevelActivator
-struct  ContextLevelActivator_t1425  : public Object_t
+struct  ContextLevelActivator_t1_402  : public Object_t
 {
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Activation.ContextLevelActivator::m_NextActivator
 	Object_t * ___m_NextActivator_0;

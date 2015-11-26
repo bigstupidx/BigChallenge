@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Quaternion
-struct  Quaternion_t91 
+struct  Quaternion_t6_51 
 {
 	// System.Single UnityEngine.Quaternion::x
 	float ___x_0;

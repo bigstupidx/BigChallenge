@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Color32>
-struct List_1_t315;
+// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
+struct List_1_t1_940;
+// UnityEngine.UI.Dropdown/OptionData
+struct OptionData_t7_66;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_Color32.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>
-struct  Enumerator_t2161 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Dropdown/OptionData>
+struct  Enumerator_t1_1459 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::l
-	List_1_t315 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_940 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::current
-	Color32_t350  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	OptionData_t7_66 * ___current_3;
 };

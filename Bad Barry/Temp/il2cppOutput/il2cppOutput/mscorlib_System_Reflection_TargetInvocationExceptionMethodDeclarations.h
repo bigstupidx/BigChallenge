@@ -13,16 +13,16 @@
 #include <exception>
 
 // System.Reflection.TargetInvocationException
-struct TargetInvocationException_t1377;
+struct TargetInvocationException_t1_354;
 // System.Exception
-struct Exception_t82;
+struct Exception_t1_33;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.TargetInvocationException::.ctor(System.Exception)
-extern "C" void TargetInvocationException__ctor_m8574 (TargetInvocationException_t1377 * __this, Exception_t82 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetInvocationException__ctor_m1_2986 (TargetInvocationException_t1_354 * __this, Exception_t1_33 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetInvocationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TargetInvocationException__ctor_m8575 (TargetInvocationException_t1377 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetInvocationException__ctor_m1_2987 (TargetInvocationException_t1_354 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

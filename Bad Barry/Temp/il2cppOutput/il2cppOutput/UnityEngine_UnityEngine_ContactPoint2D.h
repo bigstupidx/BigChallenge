@@ -11,20 +11,20 @@
 #include <stdint.h>
 
 // UnityEngine.Collider2D
-struct Collider2D_t72;
+struct Collider2D_t6_113;
 
 #include "mscorlib_System_ValueType.h"
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.ContactPoint2D
-struct  ContactPoint2D_t510 
+struct  ContactPoint2D_t6_116 
 {
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Point
-	Vector2_t25  ___m_Point_0;
+	Vector2_t6_48  ___m_Point_0;
 	// UnityEngine.Vector2 UnityEngine.ContactPoint2D::m_Normal
-	Vector2_t25  ___m_Normal_1;
+	Vector2_t6_48  ___m_Normal_1;
 	// UnityEngine.Collider2D UnityEngine.ContactPoint2D::m_Collider
-	Collider2D_t72 * ___m_Collider_2;
+	Collider2D_t6_113 * ___m_Collider_2;
 	// UnityEngine.Collider2D UnityEngine.ContactPoint2D::m_OtherCollider
-	Collider2D_t72 * ___m_OtherCollider_3;
+	Collider2D_t6_113 * ___m_OtherCollider_3;
 };

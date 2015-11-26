@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Object,LitJson.ObjectMetadata>
-struct Dictionary_2_t2355;
+// System.Collections.Generic.Dictionary`2<System.Type,LitJson.ImporterFunc>
+struct Dictionary_2_t1_898;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,LitJson.ObjectMetadata>
-struct  ValueCollection_t2358  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ImporterFunc>
+struct  ValueCollection_t1_1250  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,LitJson.ObjectMetadata>::dictionary
-	Dictionary_2_t2355 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_898 * ___dictionary_0;
 };

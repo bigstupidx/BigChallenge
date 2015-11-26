@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t827;
+struct Context_t3_60;
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t739;
+struct SymmetricAlgorithm_t1_109;
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t751;
+struct ICryptoTransform_t1_101;
 // System.Security.Cryptography.KeyedHashAlgorithm
-struct KeyedHashAlgorithm_t820;
+struct KeyedHashAlgorithm_t1_559;
 
 #include "mscorlib_System_Object.h"
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherAlgorithmType.h"
@@ -30,7 +30,7 @@ struct KeyedHashAlgorithm_t820;
 #include "mscorlib_System_Security_Cryptography_CipherMode.h"
 
 // Mono.Security.Protocol.Tls.CipherSuite
-struct  CipherSuite_t826  : public Object_t
+struct  CipherSuite_t3_59  : public Object_t
 {
 	// System.Int16 Mono.Security.Protocol.Tls.CipherSuite::code
 	int16_t ___code_1;
@@ -59,21 +59,21 @@ struct  CipherSuite_t826  : public Object_t
 	// System.Byte Mono.Security.Protocol.Tls.CipherSuite::blockSize
 	uint8_t ___blockSize_13;
 	// Mono.Security.Protocol.Tls.Context Mono.Security.Protocol.Tls.CipherSuite::context
-	Context_t827 * ___context_14;
+	Context_t3_60 * ___context_14;
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Protocol.Tls.CipherSuite::encryptionAlgorithm
-	SymmetricAlgorithm_t739 * ___encryptionAlgorithm_15;
+	SymmetricAlgorithm_t1_109 * ___encryptionAlgorithm_15;
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Protocol.Tls.CipherSuite::encryptionCipher
 	Object_t * ___encryptionCipher_16;
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Protocol.Tls.CipherSuite::decryptionAlgorithm
-	SymmetricAlgorithm_t739 * ___decryptionAlgorithm_17;
+	SymmetricAlgorithm_t1_109 * ___decryptionAlgorithm_17;
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Protocol.Tls.CipherSuite::decryptionCipher
 	Object_t * ___decryptionCipher_18;
 	// System.Security.Cryptography.KeyedHashAlgorithm Mono.Security.Protocol.Tls.CipherSuite::clientHMAC
-	KeyedHashAlgorithm_t820 * ___clientHMAC_19;
+	KeyedHashAlgorithm_t1_559 * ___clientHMAC_19;
 	// System.Security.Cryptography.KeyedHashAlgorithm Mono.Security.Protocol.Tls.CipherSuite::serverHMAC
-	KeyedHashAlgorithm_t820 * ___serverHMAC_20;
+	KeyedHashAlgorithm_t1_559 * ___serverHMAC_20;
 };
-struct CipherSuite_t826_StaticFields{
+struct CipherSuite_t3_59_StaticFields{
 	// System.Byte[] Mono.Security.Protocol.Tls.CipherSuite::EmptyArray
-	ByteU5BU5D_t740* ___EmptyArray_0;
+	ByteU5BU5D_t1_70* ___EmptyArray_0;
 };

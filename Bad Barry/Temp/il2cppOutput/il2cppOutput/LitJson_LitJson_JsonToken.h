@@ -15,7 +15,7 @@
 #include "LitJson_LitJson_JsonToken.h"
 
 // LitJson.JsonToken
-struct  JsonToken_t680 
+struct  JsonToken_t5_14 
 {
 	// System.Int32 LitJson.JsonToken::value__
 	int32_t ___value___1;

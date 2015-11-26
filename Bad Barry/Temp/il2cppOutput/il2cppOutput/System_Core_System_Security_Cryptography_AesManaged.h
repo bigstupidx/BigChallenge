@@ -14,6 +14,6 @@
 #include "System_Core_System_Security_Cryptography_Aes.h"
 
 // System.Security.Cryptography.AesManaged
-struct  AesManaged_t744  : public Aes_t743
+struct  AesManaged_t4_8  : public Aes_t4_7
 {
 };

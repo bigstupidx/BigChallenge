@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// LitJson.JsonData[]
-struct JsonDataU5BU5D_t2298;
+// Item[]
+struct ItemU5BU5D_t8_56;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<LitJson.JsonData>
-struct  List_1_t713  : public Object_t
+// System.Collections.Generic.List`1<Item>
+struct  List_1_t1_976  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<LitJson.JsonData>::_items
-	JsonDataU5BU5D_t2298* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<LitJson.JsonData>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	ItemU5BU5D_t8_56* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<LitJson.JsonData>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t713_StaticFields{
-	// T[] System.Collections.Generic.List`1<LitJson.JsonData>::EmptyArray
-	JsonDataU5BU5D_t2298* ___EmptyArray_4;
+struct List_1_t1_976_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	ItemU5BU5D_t8_56* ___EmptyArray_4;
 };

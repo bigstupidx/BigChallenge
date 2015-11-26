@@ -16,11 +16,11 @@
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
 
-// System.Void System.Comparison`1<UnityEngine.CanvasGroup>::.ctor(System.Object,System.IntPtr)
-#define Comparison_1__ctor_m14668(__this, ___object, ___method, method) (( void (*) (Comparison_1_t2109 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m11430_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<UnityEngine.CanvasGroup>::Invoke(T,T)
-#define Comparison_1_Invoke_m14669(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t2109 *, CanvasGroup_t35 *, CanvasGroup_t35 *, const MethodInfo*))Comparison_1_Invoke_m11431_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<UnityEngine.CanvasGroup>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m14670(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t2109 *, CanvasGroup_t35 *, CanvasGroup_t35 *, AsyncCallback_t229 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m11432_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<UnityEngine.CanvasGroup>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m14671(__this, ___result, method) (( int32_t (*) (Comparison_1_t2109 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m11433_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<UnityEngine.Events.PersistentCall>::.ctor(System.Object,System.IntPtr)
+#define Comparison_1__ctor_m1_10642(__this, ___object, ___method, method) (( void (*) (Comparison_1_t1_1399 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m1_5826_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<UnityEngine.Events.PersistentCall>::Invoke(T,T)
+#define Comparison_1_Invoke_m1_10643(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t1_1399 *, PersistentCall_t6_222 *, PersistentCall_t6_222 *, const MethodInfo*))Comparison_1_Invoke_m1_5827_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<UnityEngine.Events.PersistentCall>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+#define Comparison_1_BeginInvoke_m1_10644(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t1_1399 *, PersistentCall_t6_222 *, PersistentCall_t6_222 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m1_5828_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<UnityEngine.Events.PersistentCall>::EndInvoke(System.IAsyncResult)
+#define Comparison_1_EndInvoke_m1_10645(__this, ___result, method) (( int32_t (*) (Comparison_1_t1_1399 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m1_5829_gshared)(__this, ___result, method)

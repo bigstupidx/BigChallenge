@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_InputField_CharacterValidation.h"
 
 // UnityEngine.UI.InputField/CharacterValidation
-struct  CharacterValidation_t220 
+struct  CharacterValidation_t7_91 
 {
 	// System.Int32 UnityEngine.UI.InputField/CharacterValidation::value__
 	int32_t ___value___1;

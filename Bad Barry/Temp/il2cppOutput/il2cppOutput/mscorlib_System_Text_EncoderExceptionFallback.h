@@ -14,6 +14,6 @@
 #include "mscorlib_System_Text_EncoderFallback.h"
 
 // System.Text.EncoderExceptionFallback
-struct  EncoderExceptionFallback_t1627  : public EncoderFallback_t1628
+struct  EncoderExceptionFallback_t1_641  : public EncoderFallback_t1_642
 {
 };

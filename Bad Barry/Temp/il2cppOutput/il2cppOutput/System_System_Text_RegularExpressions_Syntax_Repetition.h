@@ -14,7 +14,7 @@
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 
 // System.Text.RegularExpressions.Syntax.Repetition
-struct  Repetition_t1070  : public CompositeExpression_t1064
+struct  Repetition_t2_132  : public CompositeExpression_t2_126
 {
 	// System.Int32 System.Text.RegularExpressions.Syntax.Repetition::min
 	int32_t ___min_1;

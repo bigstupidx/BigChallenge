@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Threading.ThreadAbortException
-struct ThreadAbortException_t1652;
+struct ThreadAbortException_t1_666;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadAbortException::.ctor()
-extern "C" void ThreadAbortException__ctor_m10000 (ThreadAbortException_t1652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadAbortException__ctor_m1_4512 (ThreadAbortException_t1_666 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadAbortException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadAbortException__ctor_m10001 (ThreadAbortException_t1652 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadAbortException__ctor_m1_4513 (ThreadAbortException_t1_666 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

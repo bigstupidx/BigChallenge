@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Collections.Generic.GenericComparer`1<System.TimeSpan>
-struct GenericComparer_1_t1829;
+struct GenericComparer_1_t1_868;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.TimeSpan>::.ctor()
-extern "C" void GenericComparer_1__ctor_m10909_gshared (GenericComparer_1_t1829 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m10909(__this, method) (( void (*) (GenericComparer_1_t1829 *, const MethodInfo*))GenericComparer_1__ctor_m10909_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m1_5505_gshared (GenericComparer_1_t1_868 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m1_5505(__this, method) (( void (*) (GenericComparer_1_t1_868 *, const MethodInfo*))GenericComparer_1__ctor_m1_5505_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.TimeSpan>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m19509_gshared (GenericComparer_1_t1829 * __this, TimeSpan_t1008  ___x, TimeSpan_t1008  ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m19509(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t1829 *, TimeSpan_t1008 , TimeSpan_t1008 , const MethodInfo*))GenericComparer_1_Compare_m19509_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m1_7062_gshared (GenericComparer_1_t1_868 * __this, TimeSpan_t1_209  ___x, TimeSpan_t1_209  ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m1_7062(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t1_868 *, TimeSpan_t1_209 , TimeSpan_t1_209 , const MethodInfo*))GenericComparer_1_Compare_m1_7062_gshared)(__this, ___x, ___y, method)

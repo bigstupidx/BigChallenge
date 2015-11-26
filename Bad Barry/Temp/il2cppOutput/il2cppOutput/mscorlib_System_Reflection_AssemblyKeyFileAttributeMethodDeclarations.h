@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyKeyFileAttribute
-struct AssemblyKeyFileAttribute_t1339;
+struct AssemblyKeyFileAttribute_t1_313;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyKeyFileAttribute::.ctor(System.String)
-extern "C" void AssemblyKeyFileAttribute__ctor_m8300 (AssemblyKeyFileAttribute_t1339 * __this, String_t* ___keyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyKeyFileAttribute__ctor_m1_2711 (AssemblyKeyFileAttribute_t1_313 * __this, String_t* ___keyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;

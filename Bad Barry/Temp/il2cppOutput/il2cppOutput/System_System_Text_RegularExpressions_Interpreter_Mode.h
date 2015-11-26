@@ -15,7 +15,7 @@
 #include "System_System_Text_RegularExpressions_Interpreter_Mode.h"
 
 // System.Text.RegularExpressions.Interpreter/Mode
-struct  Mode_t1052 
+struct  Mode_t2_114 
 {
 	// System.Int32 System.Text.RegularExpressions.Interpreter/Mode::value__
 	int32_t ___value___1;

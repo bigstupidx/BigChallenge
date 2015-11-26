@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.ExecuteInEditMode
-struct  ExecuteInEditMode_t553  : public Attribute_t476
+struct  ExecuteInEditMode_t6_175  : public Attribute_t1_2
 {
 };

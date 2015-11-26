@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.MeshFilter
-struct  MeshFilter_t98  : public Component_t103
+struct  MeshFilter_t6_23  : public Component_t6_24
 {
 };

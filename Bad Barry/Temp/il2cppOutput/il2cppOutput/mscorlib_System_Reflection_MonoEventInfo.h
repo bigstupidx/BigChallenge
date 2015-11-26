@@ -17,13 +17,13 @@ struct String_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Reflection.MethodInfo[]
-struct MethodInfoU5BU5D_t1364;
+struct MethodInfoU5BU5D_t1_340;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Reflection_EventAttributes.h"
 
 // System.Reflection.MonoEventInfo
-struct  MonoEventInfo_t1363 
+struct  MonoEventInfo_t1_339 
 {
 	// System.Type System.Reflection.MonoEventInfo::declaring_type
 	Type_t * ___declaring_type_0;
@@ -40,5 +40,5 @@ struct  MonoEventInfo_t1363
 	// System.Reflection.EventAttributes System.Reflection.MonoEventInfo::attrs
 	int32_t ___attrs_6;
 	// System.Reflection.MethodInfo[] System.Reflection.MonoEventInfo::other_methods
-	MethodInfoU5BU5D_t1364* ___other_methods_7;
+	MethodInfoU5BU5D_t1_340* ___other_methods_7;
 };

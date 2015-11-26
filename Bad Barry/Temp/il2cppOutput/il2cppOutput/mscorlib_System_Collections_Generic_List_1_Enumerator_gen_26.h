@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t305;
-// UnityEngine.RectTransform
-struct RectTransform_t179;
+// System.Collections.Generic.List`1<UnityEngine.Transform>
+struct List_1_t1_932;
+// UnityEngine.Transform
+struct Transform_t6_66;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
-struct  Enumerator_t2136 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>
+struct  Enumerator_t1_1439 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::l
-	List_1_t305 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_932 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>::current
-	RectTransform_t179 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Transform_t6_66 * ___current_3;
 };

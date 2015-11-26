@@ -10,19 +10,19 @@
 
 #include <stdint.h>
 
-// UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t567;
+// UnityEngine.Font
+struct Font_t6_144;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Void.h"
 
-// System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>
-struct  Action_1_t447  : public MulticastDelegate_t227
+// System.Action`1<UnityEngine.Font>
+struct  Action_1_t1_910  : public MulticastDelegate_t1_21
 {
 };

@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Button
-struct  Button_t31  : public MonoBehaviour_t2
+struct  Button_t8_23  : public MonoBehaviour_t6_88
 {
 };

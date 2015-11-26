@@ -16,12 +16,12 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.UI.Shadow
-struct  Shadow_t323  : public BaseMeshEffect_t321
+struct  Shadow_t7_157  : public BaseMeshEffect_t7_155
 {
 	// UnityEngine.Color UnityEngine.UI.Shadow::m_EffectColor
-	Color_t101  ___m_EffectColor_3;
+	Color_t6_40  ___m_EffectColor_3;
 	// UnityEngine.Vector2 UnityEngine.UI.Shadow::m_EffectDistance
-	Vector2_t25  ___m_EffectDistance_4;
+	Vector2_t6_48  ___m_EffectDistance_4;
 	// System.Boolean UnityEngine.UI.Shadow::m_UseGraphicAlpha
 	bool ___m_UseGraphicAlpha_5;
 };

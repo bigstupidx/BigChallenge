@@ -14,6 +14,6 @@
 #include "mscorlib_System_Security_Cryptography_CryptographicException.h"
 
 // System.Security.Cryptography.CryptographicUnexpectedOperationException
-struct  CryptographicUnexpectedOperationException_t921  : public CryptographicException_t752
+struct  CryptographicUnexpectedOperationException_t1_548  : public CryptographicException_t1_547
 {
 };

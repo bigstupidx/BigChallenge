@@ -13,29 +13,29 @@
 #include <exception>
 
 // System.Reflection.Emit.AssemblyBuilder
-struct AssemblyBuilder_t1293;
+struct AssemblyBuilder_t1_265;
 // System.String
 struct String_t;
 // System.Reflection.Module[]
-struct ModuleU5BU5D_t1295;
+struct ModuleU5BU5D_t1_268;
 // System.Type[]
-struct TypeU5BU5D_t619;
+struct TypeU5BU5D_t1_31;
 // System.Exception
-struct Exception_t82;
+struct Exception_t1_33;
 // System.Reflection.AssemblyName
-struct AssemblyName_t1340;
+struct AssemblyName_t1_314;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.String System.Reflection.Emit.AssemblyBuilder::get_Location()
-extern "C" String_t* AssemblyBuilder_get_Location_m8010 (AssemblyBuilder_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AssemblyBuilder_get_Location_m1_2421 (AssemblyBuilder_t1_265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Module[] System.Reflection.Emit.AssemblyBuilder::GetModulesInternal()
-extern "C" ModuleU5BU5D_t1295* AssemblyBuilder_GetModulesInternal_m8011 (AssemblyBuilder_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ModuleU5BU5D_t1_268* AssemblyBuilder_GetModulesInternal_m1_2422 (AssemblyBuilder_t1_265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.Emit.AssemblyBuilder::GetTypes(System.Boolean)
-extern "C" TypeU5BU5D_t619* AssemblyBuilder_GetTypes_m8012 (AssemblyBuilder_t1293 * __this, bool ___exportedOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1_31* AssemblyBuilder_GetTypes_m1_2423 (AssemblyBuilder_t1_265 * __this, bool ___exportedOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.AssemblyBuilder::get_IsCompilerContext()
-extern "C" bool AssemblyBuilder_get_IsCompilerContext_m8013 (AssemblyBuilder_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AssemblyBuilder_get_IsCompilerContext_m1_2424 (AssemblyBuilder_t1_265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Reflection.Emit.AssemblyBuilder::not_supported()
-extern "C" Exception_t82 * AssemblyBuilder_not_supported_m8014 (AssemblyBuilder_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t1_33 * AssemblyBuilder_not_supported_m1_2425 (AssemblyBuilder_t1_265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.AssemblyName System.Reflection.Emit.AssemblyBuilder::UnprotectedGetName()
-extern "C" AssemblyName_t1340 * AssemblyBuilder_UnprotectedGetName_m8015 (AssemblyBuilder_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AssemblyName_t1_314 * AssemblyBuilder_UnprotectedGetName_m1_2426 (AssemblyBuilder_t1_265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

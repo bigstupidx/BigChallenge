@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.IO.FileStream/ReadDelegate
-struct  ReadDelegate_t1270  : public MulticastDelegate_t227
+struct  ReadDelegate_t1_233  : public MulticastDelegate_t1_21
 {
 };

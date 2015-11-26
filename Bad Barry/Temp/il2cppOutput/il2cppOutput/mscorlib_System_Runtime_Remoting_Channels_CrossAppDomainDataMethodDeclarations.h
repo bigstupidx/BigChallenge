@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Runtime.Remoting.Channels.CrossAppDomainData
-struct CrossAppDomainData_t1432;
+struct CrossAppDomainData_t1_410;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainData::.ctor(System.Int32)
-extern "C" void CrossAppDomainData__ctor_m8688 (CrossAppDomainData_t1432 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainData__ctor_m1_3100 (CrossAppDomainData_t1_410 * __this, int32_t ___domainId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainData::get_DomainID()
-extern "C" int32_t CrossAppDomainData_get_DomainID_m8689 (CrossAppDomainData_t1432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CrossAppDomainData_get_DomainID_m1_3101 (CrossAppDomainData_t1_410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Channels.CrossAppDomainData::get_ProcessID()
-extern "C" String_t* CrossAppDomainData_get_ProcessID_m8690 (CrossAppDomainData_t1432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CrossAppDomainData_get_ProcessID_m1_3102 (CrossAppDomainData_t1_410 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.StringFreezingAttribute
-struct StringFreezingAttribute_t1399;
+struct StringFreezingAttribute_t1_376;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.StringFreezingAttribute::.ctor()
-extern "C" void StringFreezingAttribute__ctor_m8627 (StringFreezingAttribute_t1399 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StringFreezingAttribute__ctor_m1_3039 (StringFreezingAttribute_t1_376 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

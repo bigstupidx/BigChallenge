@@ -13,17 +13,17 @@
 #include <exception>
 
 // Menu
-struct Menu_t33;
+struct Menu_t8_24;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Menu::.ctor()
-extern "C" void Menu__ctor_m141 (Menu_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Menu__ctor_m8_141 (Menu_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Menu::get_IsOpen()
-extern "C" bool Menu_get_IsOpen_m142 (Menu_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Menu_get_IsOpen_m8_142 (Menu_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Menu::set_IsOpen(System.Boolean)
-extern "C" void Menu_set_IsOpen_m143 (Menu_t33 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Menu_set_IsOpen_m8_143 (Menu_t8_24 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Menu::Start()
-extern "C" void Menu_Start_m144 (Menu_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Menu_Start_m8_144 (Menu_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Menu::Update()
-extern "C" void Menu_Update_m145 (Menu_t33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Menu_Update_m8_145 (Menu_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

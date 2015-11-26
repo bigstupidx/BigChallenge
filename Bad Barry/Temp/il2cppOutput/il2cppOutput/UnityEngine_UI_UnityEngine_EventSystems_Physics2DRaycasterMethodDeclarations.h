@@ -13,15 +13,15 @@
 #include <exception>
 
 // UnityEngine.EventSystems.Physics2DRaycaster
-struct Physics2DRaycaster_t153;
+struct Physics2DRaycaster_t7_44;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t73;
+struct PointerEventData_t7_36;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t145;
+struct List_1_t1_935;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.EventSystems.Physics2DRaycaster::.ctor()
-extern "C" void Physics2DRaycaster__ctor_m751 (Physics2DRaycaster_t153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2DRaycaster__ctor_m7_268 (Physics2DRaycaster_t7_44 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.Physics2DRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>)
-extern "C" void Physics2DRaycaster_Raycast_m752 (Physics2DRaycaster_t153 * __this, PointerEventData_t73 * ___eventData, List_1_t145 * ___resultAppendList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2DRaycaster_Raycast_m7_269 (Physics2DRaycaster_t7_44 * __this, PointerEventData_t7_36 * ___eventData, List_1_t1_935 * ___resultAppendList, const MethodInfo* method) IL2CPP_METHOD_ATTR;

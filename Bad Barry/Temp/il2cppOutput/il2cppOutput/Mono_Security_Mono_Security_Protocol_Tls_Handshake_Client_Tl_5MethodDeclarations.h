@@ -13,19 +13,19 @@
 #include <exception>
 
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest
-struct TlsServerCertificateRequest_t883;
+struct TlsServerCertificateRequest_t3_106;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t827;
+struct Context_t3_60;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::.ctor(Mono.Security.Protocol.Tls.Context,System.Byte[])
-extern "C" void TlsServerCertificateRequest__ctor_m4620 (TlsServerCertificateRequest_t883 * __this, Context_t827 * ___context, ByteU5BU5D_t740* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest__ctor_m3_844 (TlsServerCertificateRequest_t3_106 * __this, Context_t3_60 * ___context, ByteU5BU5D_t1_70* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::Update()
-extern "C" void TlsServerCertificateRequest_Update_m4621 (TlsServerCertificateRequest_t883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_Update_m3_845 (TlsServerCertificateRequest_t3_106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsSsl3()
-extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m4622 (TlsServerCertificateRequest_t883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_ProcessAsSsl3_m3_846 (TlsServerCertificateRequest_t3_106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::ProcessAsTls1()
-extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m4623 (TlsServerCertificateRequest_t883 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsServerCertificateRequest_ProcessAsTls1_m3_847 (TlsServerCertificateRequest_t3_106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

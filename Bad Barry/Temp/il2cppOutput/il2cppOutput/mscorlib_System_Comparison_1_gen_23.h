@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t35;
+// UnityEngine.Events.PersistentCall
+struct PersistentCall_t6_222;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
-// System.Comparison`1<UnityEngine.CanvasGroup>
-struct  Comparison_1_t2109  : public MulticastDelegate_t227
+// System.Comparison`1<UnityEngine.Events.PersistentCall>
+struct  Comparison_1_t1_1399  : public MulticastDelegate_t1_21
 {
 };

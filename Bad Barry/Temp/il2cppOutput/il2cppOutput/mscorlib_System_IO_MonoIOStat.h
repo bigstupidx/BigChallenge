@@ -17,7 +17,7 @@ struct String_t;
 #include "mscorlib_System_IO_FileAttributes.h"
 
 // System.IO.MonoIOStat
-struct  MonoIOStat_t1273 
+struct  MonoIOStat_t1_238 
 {
 	// System.String System.IO.MonoIOStat::Name
 	String_t* ___Name_0;
@@ -33,7 +33,7 @@ struct  MonoIOStat_t1273
 	int64_t ___LastWriteTime_5;
 };
 // Native definition for marshalling of: System.IO.MonoIOStat
-struct MonoIOStat_t1273_marshaled
+struct MonoIOStat_t1_238_marshaled
 {
 	char* ___Name_0;
 	int32_t ___Attributes_1;

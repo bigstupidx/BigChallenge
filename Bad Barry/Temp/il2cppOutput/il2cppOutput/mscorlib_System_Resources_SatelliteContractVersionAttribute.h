@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Version
-struct Version_t976;
+struct Version_t1_316;
 
 #include "mscorlib_System_Attribute.h"
 
 // System.Resources.SatelliteContractVersionAttribute
-struct  SatelliteContractVersionAttribute_t1393  : public Attribute_t476
+struct  SatelliteContractVersionAttribute_t1_370  : public Attribute_t1_2
 {
 	// System.Version System.Resources.SatelliteContractVersionAttribute::ver
-	Version_t976 * ___ver_0;
+	Version_t1_316 * ___ver_0;
 };

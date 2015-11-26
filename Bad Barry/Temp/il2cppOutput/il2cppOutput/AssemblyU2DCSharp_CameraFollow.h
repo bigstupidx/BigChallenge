@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.Transform
-struct Transform_t44;
+struct Transform_t6_66;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // CameraFollow
-struct  CameraFollow_t43  : public MonoBehaviour_t2
+struct  CameraFollow_t8_31  : public MonoBehaviour_t6_88
 {
 	// UnityEngine.Transform CameraFollow::player
-	Transform_t44 * ___player_2;
+	Transform_t6_66 * ___player_2;
 };

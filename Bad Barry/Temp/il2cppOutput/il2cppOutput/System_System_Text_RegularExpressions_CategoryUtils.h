@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.CategoryUtils
-struct  CategoryUtils_t1041  : public Object_t
+struct  CategoryUtils_t2_104  : public Object_t
 {
 };

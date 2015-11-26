@@ -11,33 +11,33 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t427;
+struct IEnumerable_1_t1_973;
 // System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t2122;
+struct IEnumerator_1_t1_1161;
 // System.Object
 struct Object_t;
 // System.Func`2<System.Object,System.Boolean>
-struct Func_2_t428;
+struct Func_2_t4_16;
 
 #include "mscorlib_System_Object.h"
 
 // System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>
-struct  U3CCreateWhereIteratorU3Ec__Iterator1D_1_t2121  : public Object_t
+struct  U3CCreateWhereIteratorU3Ec__Iterator1D_1_t4_17  : public Object_t
 {
-	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::source
+	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::source
 	Object_t* ___source_0;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::<$s_97>__0
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::<$s_97>__0
 	Object_t* ___U3CU24s_97U3E__0_1;
-	// TSource System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::<element>__1
+	// TSource System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::<element>__1
 	Object_t * ___U3CelementU3E__1_2;
-	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::predicate
-	Func_2_t428 * ___predicate_3;
-	// System.Int32 System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::$PC
+	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::predicate
+	Func_2_t4_16 * ___predicate_3;
+	// System.Int32 System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::$PC
 	int32_t ___U24PC_4;
-	// TSource System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::$current
+	// TSource System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::$current
 	Object_t * ___U24current_5;
-	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::<$>source
+	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::<$>source
 	Object_t* ___U3CU24U3Esource_6;
-	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::<$>predicate
-	Func_2_t428 * ___U3CU24U3Epredicate_7;
+	// System.Func`2<TSource,System.Boolean> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1::<$>predicate
+	Func_2_t4_16 * ___U3CU24U3Epredicate_7;
 };

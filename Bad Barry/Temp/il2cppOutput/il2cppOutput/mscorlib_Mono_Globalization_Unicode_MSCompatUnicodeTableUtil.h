@@ -11,27 +11,27 @@
 #include <stdint.h>
 
 // Mono.Globalization.Unicode.CodePointIndexer
-struct CodePointIndexer_t1147;
+struct CodePointIndexer_t1_66;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.MSCompatUnicodeTableUtil
-struct  MSCompatUnicodeTableUtil_t1156  : public Object_t
+struct  MSCompatUnicodeTableUtil_t1_77  : public Object_t
 {
 };
-struct MSCompatUnicodeTableUtil_t1156_StaticFields{
+struct MSCompatUnicodeTableUtil_t1_77_StaticFields{
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Ignorable
-	CodePointIndexer_t1147 * ___Ignorable_0;
+	CodePointIndexer_t1_66 * ___Ignorable_0;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Category
-	CodePointIndexer_t1147 * ___Category_1;
+	CodePointIndexer_t1_66 * ___Category_1;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Level1
-	CodePointIndexer_t1147 * ___Level1_2;
+	CodePointIndexer_t1_66 * ___Level1_2;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Level2
-	CodePointIndexer_t1147 * ___Level2_3;
+	CodePointIndexer_t1_66 * ___Level2_3;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Level3
-	CodePointIndexer_t1147 * ___Level3_4;
+	CodePointIndexer_t1_66 * ___Level3_4;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::CjkCHS
-	CodePointIndexer_t1147 * ___CjkCHS_5;
+	CodePointIndexer_t1_66 * ___CjkCHS_5;
 	// Mono.Globalization.Unicode.CodePointIndexer Mono.Globalization.Unicode.MSCompatUnicodeTableUtil::Cjk
-	CodePointIndexer_t1147 * ___Cjk_6;
+	CodePointIndexer_t1_66 * ___Cjk_6;
 };

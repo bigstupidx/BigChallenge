@@ -17,7 +17,7 @@ struct Object_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.MonoAsyncCall
-struct  MonoAsyncCall_t1707  : public Object_t
+struct  MonoAsyncCall_t1_733  : public Object_t
 {
 	// System.Object System.MonoAsyncCall::msg
 	Object_t * ___msg_0;

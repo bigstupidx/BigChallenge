@@ -11,36 +11,36 @@
 #include <stdint.h>
 
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1537;
+struct ObjectRecord_t1_518;
 // System.Collections.ArrayList
-struct ArrayList_t771;
+struct ArrayList_t1_112;
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1476;
+struct ISurrogateSelector_t1_456;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Runtime.Serialization.ObjectManager
-struct  ObjectManager_t1531  : public Object_t
+struct  ObjectManager_t1_512  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_objectRecordChain
-	ObjectRecord_t1537 * ____objectRecordChain_0;
+	ObjectRecord_t1_518 * ____objectRecordChain_0;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_lastObjectRecord
-	ObjectRecord_t1537 * ____lastObjectRecord_1;
+	ObjectRecord_t1_518 * ____lastObjectRecord_1;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_deserializedRecords
-	ArrayList_t771 * ____deserializedRecords_2;
+	ArrayList_t1_112 * ____deserializedRecords_2;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_onDeserializedCallbackRecords
-	ArrayList_t771 * ____onDeserializedCallbackRecords_3;
+	ArrayList_t1_112 * ____onDeserializedCallbackRecords_3;
 	// System.Collections.Hashtable System.Runtime.Serialization.ObjectManager::_objectRecords
-	Hashtable_t836 * ____objectRecords_4;
+	Hashtable_t1_171 * ____objectRecords_4;
 	// System.Boolean System.Runtime.Serialization.ObjectManager::_finalFixup
 	bool ____finalFixup_5;
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.ObjectManager::_selector
 	Object_t * ____selector_6;
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.ObjectManager::_context
-	StreamingContext_t622  ____context_7;
+	StreamingContext_t1_506  ____context_7;
 	// System.Int32 System.Runtime.Serialization.ObjectManager::_registeredObjectsCount
 	int32_t ____registeredObjectsCount_8;
 };

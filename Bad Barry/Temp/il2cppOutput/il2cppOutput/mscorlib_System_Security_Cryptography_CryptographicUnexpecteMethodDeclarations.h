@@ -13,18 +13,18 @@
 #include <exception>
 
 // System.Security.Cryptography.CryptographicUnexpectedOperationException
-struct CryptographicUnexpectedOperationException_t921;
+struct CryptographicUnexpectedOperationException_t1_548;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor()
-extern "C" void CryptographicUnexpectedOperationException__ctor_m9269 (CryptographicUnexpectedOperationException_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m1_3712 (CryptographicUnexpectedOperationException_t1_548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor(System.String)
-extern "C" void CryptographicUnexpectedOperationException__ctor_m4735 (CryptographicUnexpectedOperationException_t921 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m1_3713 (CryptographicUnexpectedOperationException_t1_548 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CryptographicUnexpectedOperationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void CryptographicUnexpectedOperationException__ctor_m9270 (CryptographicUnexpectedOperationException_t921 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CryptographicUnexpectedOperationException__ctor_m1_3714 (CryptographicUnexpectedOperationException_t1_548 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

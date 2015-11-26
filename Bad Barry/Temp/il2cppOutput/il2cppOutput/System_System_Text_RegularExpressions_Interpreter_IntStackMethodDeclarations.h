@@ -17,13 +17,13 @@
 #include "System_System_Text_RegularExpressions_Interpreter_IntStack.h"
 
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::Pop()
-extern "C" int32_t IntStack_Pop_m5380 (IntStack_t1050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_Pop_m2_609 (IntStack_t2_112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::Push(System.Int32)
-extern "C" void IntStack_Push_m5381 (IntStack_t1050 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_Push_m2_610 (IntStack_t2_112 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::get_Count()
-extern "C" int32_t IntStack_get_Count_m5382 (IntStack_t1050 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_get_Count_m2_611 (IntStack_t2_112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::set_Count(System.Int32)
-extern "C" void IntStack_set_Count_m5383 (IntStack_t1050 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void IntStack_t1050_marshal(const IntStack_t1050& unmarshaled, IntStack_t1050_marshaled& marshaled);
-extern "C" void IntStack_t1050_marshal_back(const IntStack_t1050_marshaled& marshaled, IntStack_t1050& unmarshaled);
-extern "C" void IntStack_t1050_marshal_cleanup(IntStack_t1050_marshaled& marshaled);
+extern "C" void IntStack_set_Count_m2_612 (IntStack_t2_112 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_t2_112_marshal(const IntStack_t2_112& unmarshaled, IntStack_t2_112_marshaled& marshaled);
+extern "C" void IntStack_t2_112_marshal_back(const IntStack_t2_112_marshaled& marshaled, IntStack_t2_112& unmarshaled);
+extern "C" void IntStack_t2_112_marshal_cleanup(IntStack_t2_112_marshaled& marshaled);

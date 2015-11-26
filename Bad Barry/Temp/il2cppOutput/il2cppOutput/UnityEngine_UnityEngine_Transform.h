@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.Transform
-struct  Transform_t44  : public Component_t103
+struct  Transform_t6_66  : public Component_t6_24
 {
 };

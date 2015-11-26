@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitter_AspectMode.h"
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.AspectRatioFitter
-struct  AspectRatioFitter_t289  : public UIBehaviour_t106
+struct  AspectRatioFitter_t7_135  : public UIBehaviour_t7_3
 {
 	// UnityEngine.UI.AspectRatioFitter/AspectMode UnityEngine.UI.AspectRatioFitter::m_AspectMode
 	int32_t ___m_AspectMode_2;
 	// System.Single UnityEngine.UI.AspectRatioFitter::m_AspectRatio
 	float ___m_AspectRatio_3;
 	// UnityEngine.RectTransform UnityEngine.UI.AspectRatioFitter::m_Rect
-	RectTransform_t179 * ___m_Rect_4;
+	RectTransform_t6_65 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.AspectRatioFitter::m_Tracker
-	DrivenRectTransformTracker_t260  ___m_Tracker_5;
+	DrivenRectTransformTracker_t6_61  ___m_Tracker_5;
 };

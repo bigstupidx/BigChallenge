@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_DrivenTransformProperties.h"
 
 // UnityEngine.DrivenTransformProperties
-struct  DrivenTransformProperties_t470 
+struct  DrivenTransformProperties_t6_60 
 {
 	// System.Int32 UnityEngine.DrivenTransformProperties::value__
 	int32_t ___value___1;

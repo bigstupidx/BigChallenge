@@ -16,11 +16,11 @@
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Action_1_gen_5MethodDeclarations.h"
 
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::.ctor(System.Object,System.IntPtr)
-#define Action_1__ctor_m16029(__this, ___object, ___method, method) (( void (*) (Action_1_t445 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m13705_gshared)(__this, ___object, ___method, method)
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::Invoke(T)
-#define Action_1_Invoke_m3403(__this, ___obj, method) (( void (*) (Action_1_t445 *, IAchievementU5BU5D_t628*, const MethodInfo*))Action_1_Invoke_m13706_gshared)(__this, ___obj, method)
-// System.IAsyncResult System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m16030(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t445 *, IAchievementU5BU5D_t628*, AsyncCallback_t229 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m13708_gshared)(__this, ___obj, ___callback, ___object, method)
-// System.Void System.Action`1<UnityEngine.SocialPlatforms.IAchievement[]>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m16031(__this, ___result, method) (( void (*) (Action_1_t445 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m13710_gshared)(__this, ___result, method)
+// System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::.ctor(System.Object,System.IntPtr)
+#define Action_1__ctor_m1_8885(__this, ___object, ___method, method) (( void (*) (Action_1_t1_906 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m1_5941_gshared)(__this, ___object, ___method, method)
+// System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::Invoke(T)
+#define Action_1_Invoke_m1_5529(__this, ___obj, method) (( void (*) (Action_1_t1_906 *, IScoreU5BU5D_t6_196*, const MethodInfo*))Action_1_Invoke_m1_5942_gshared)(__this, ___obj, method)
+// System.IAsyncResult System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::BeginInvoke(T,System.AsyncCallback,System.Object)
+#define Action_1_BeginInvoke_m1_8886(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1_906 *, IScoreU5BU5D_t6_196*, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m1_5943_gshared)(__this, ___obj, ___callback, ___object, method)
+// System.Void System.Action`1<UnityEngine.SocialPlatforms.IScore[]>::EndInvoke(System.IAsyncResult)
+#define Action_1_EndInvoke_m1_8887(__this, ___result, method) (( void (*) (Action_1_t1_906 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m1_5944_gshared)(__this, ___result, method)

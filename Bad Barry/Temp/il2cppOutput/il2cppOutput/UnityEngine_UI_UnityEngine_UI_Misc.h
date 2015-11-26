@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.Misc
-struct  Misc_t247  : public Object_t
+struct  Misc_t7_104  : public Object_t
 {
 };

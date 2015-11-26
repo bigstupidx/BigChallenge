@@ -13,19 +13,19 @@
 #include <exception>
 
 // Appear
-struct Appear_t1;
+struct Appear_t8_1;
 // UnityEngine.Collider2D
-struct Collider2D_t72;
+struct Collider2D_t6_113;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Appear::.ctor()
-extern "C" void Appear__ctor_m0 (Appear_t1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Appear__ctor_m8_0 (Appear_t8_1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Appear::Start()
-extern "C" void Appear_Start_m1 (Appear_t1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Appear_Start_m8_1 (Appear_t8_1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Appear::Update()
-extern "C" void Appear_Update_m2 (Appear_t1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Appear_Update_m8_2 (Appear_t8_1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Appear::AppearThing()
-extern "C" void Appear_AppearThing_m3 (Appear_t1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Appear_AppearThing_m8_3 (Appear_t8_1 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Appear::OnTriggerEnter2D(UnityEngine.Collider2D)
-extern "C" void Appear_OnTriggerEnter2D_m4 (Appear_t1 * __this, Collider2D_t72 * ___col, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Appear_OnTriggerEnter2D_m8_4 (Appear_t8_1 * __this, Collider2D_t6_113 * ___col, const MethodInfo* method) IL2CPP_METHOD_ATTR;

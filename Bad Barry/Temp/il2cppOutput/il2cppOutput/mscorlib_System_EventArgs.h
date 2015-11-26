@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.EventArgs
-struct EventArgs_t789;
+struct EventArgs_t1_103;
 
 #include "mscorlib_System_Object.h"
 
 // System.EventArgs
-struct  EventArgs_t789  : public Object_t
+struct  EventArgs_t1_103  : public Object_t
 {
 };
-struct EventArgs_t789_StaticFields{
+struct EventArgs_t1_103_StaticFields{
 	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t789 * ___Empty_0;
+	EventArgs_t1_103 * ___Empty_0;
 };

@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
-struct  VirtualAxis_t6  : public Object_t
+struct  VirtualAxis_t8_4  : public Object_t
 {
 	// System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::m_Value
 	float ___m_Value_0;

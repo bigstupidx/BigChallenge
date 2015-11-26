@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Text.Encoding
-struct Encoding_t906;
+struct Encoding_t1_218;
 
 #include "mscorlib_System_Text_Decoder.h"
 
 // System.Text.Encoding/ForwardingDecoder
-struct  ForwardingDecoder_t1634  : public Decoder_t1258
+struct  ForwardingDecoder_t1_648  : public Decoder_t1_219
 {
 	// System.Text.Encoding System.Text.Encoding/ForwardingDecoder::encoding
-	Encoding_t906 * ___encoding_2;
+	Encoding_t1_218 * ___encoding_2;
 };

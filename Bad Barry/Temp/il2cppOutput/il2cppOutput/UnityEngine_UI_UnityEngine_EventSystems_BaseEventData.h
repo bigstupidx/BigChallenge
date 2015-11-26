@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.EventSystem
-struct EventSystem_t78;
+struct EventSystem_t7_2;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.EventSystems.BaseEventData
-struct  BaseEventData_t75  : public Object_t
+struct  BaseEventData_t7_5  : public Object_t
 {
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.BaseEventData::m_EventSystem
-	EventSystem_t78 * ___m_EventSystem_0;
+	EventSystem_t7_2 * ___m_EventSystem_0;
 	// System.Boolean UnityEngine.EventSystems.BaseEventData::m_Used
 	bool ___m_Used_1;
 };

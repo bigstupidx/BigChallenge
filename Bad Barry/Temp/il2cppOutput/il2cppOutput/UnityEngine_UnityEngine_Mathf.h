@@ -14,10 +14,10 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Mathf
-struct  Mathf_t86 
+struct  Mathf_t6_59 
 {
 };
-struct Mathf_t86_StaticFields{
+struct Mathf_t6_59_StaticFields{
 	// System.Single UnityEngine.Mathf::Epsilon
 	float ___Epsilon_0;
 };

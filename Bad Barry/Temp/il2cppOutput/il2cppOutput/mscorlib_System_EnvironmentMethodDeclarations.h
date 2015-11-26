@@ -15,37 +15,37 @@
 // System.String
 struct String_t;
 // System.OperatingSystem
-struct OperatingSystem_t1693;
+struct OperatingSystem_t1_715;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_PlatformID.h"
 #include "mscorlib_System_Environment_SpecialFolder.h"
 
 // System.Boolean System.Environment::get_SocketSecurityEnabled()
-extern "C" bool Environment_get_SocketSecurityEnabled_m10433 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Environment_get_SocketSecurityEnabled_m1_5004 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::get_NewLine()
-extern "C" String_t* Environment_get_NewLine_m4668 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_get_NewLine_m1_5005 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.PlatformID System.Environment::get_Platform()
-extern "C" int32_t Environment_get_Platform_m10434 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Environment_get_Platform_m1_5006 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetOSVersionString()
-extern "C" String_t* Environment_GetOSVersionString_m10435 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_GetOSVersionString_m1_5007 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.OperatingSystem System.Environment::get_OSVersion()
-extern "C" OperatingSystem_t1693 * Environment_get_OSVersion_m10436 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" OperatingSystem_t1_715 * Environment_get_OSVersion_m1_5008 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::internalGetEnvironmentVariable(System.String)
-extern "C" String_t* Environment_internalGetEnvironmentVariable_m10437 (Object_t * __this /* static, unused */, String_t* ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_internalGetEnvironmentVariable_m1_5009 (Object_t * __this /* static, unused */, String_t* ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetEnvironmentVariable(System.String)
-extern "C" String_t* Environment_GetEnvironmentVariable_m4743 (Object_t * __this /* static, unused */, String_t* ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_GetEnvironmentVariable_m1_5010 (Object_t * __this /* static, unused */, String_t* ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetWindowsFolderPath(System.Int32)
-extern "C" String_t* Environment_GetWindowsFolderPath_m10438 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_GetWindowsFolderPath_m1_5011 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetFolderPath(System.Environment/SpecialFolder)
-extern "C" String_t* Environment_GetFolderPath_m4729 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_GetFolderPath_m1_5012 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::ReadXdgUserDir(System.String,System.String,System.String,System.String)
-extern "C" String_t* Environment_ReadXdgUserDir_m10439 (Object_t * __this /* static, unused */, String_t* ___config_dir, String_t* ___home_dir, String_t* ___key, String_t* ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_ReadXdgUserDir_m1_5013 (Object_t * __this /* static, unused */, String_t* ___config_dir, String_t* ___home_dir, String_t* ___key, String_t* ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::InternalGetFolderPath(System.Environment/SpecialFolder)
-extern "C" String_t* Environment_InternalGetFolderPath_m10440 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_InternalGetFolderPath_m1_5014 (Object_t * __this /* static, unused */, int32_t ___folder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Environment::get_IsRunningOnWindows()
-extern "C" bool Environment_get_IsRunningOnWindows_m10441 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Environment_get_IsRunningOnWindows_m1_5015 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetMachineConfigPath()
-extern "C" String_t* Environment_GetMachineConfigPath_m10442 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_GetMachineConfigPath_m1_5016 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::internalGetHome()
-extern "C" String_t* Environment_internalGetHome_m10443 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Environment_internalGetHome_m1_5017 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

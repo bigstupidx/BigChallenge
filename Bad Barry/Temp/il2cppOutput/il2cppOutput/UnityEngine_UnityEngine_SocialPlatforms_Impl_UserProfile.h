@@ -13,13 +13,13 @@
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
-struct Texture2D_t201;
+struct Texture2D_t6_33;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_UserState.h"
 
 // UnityEngine.SocialPlatforms.Impl.UserProfile
-struct  UserProfile_t566  : public Object_t
+struct  UserProfile_t6_191  : public Object_t
 {
 	// System.String UnityEngine.SocialPlatforms.Impl.UserProfile::m_UserName
 	String_t* ___m_UserName_0;
@@ -30,5 +30,5 @@ struct  UserProfile_t566  : public Object_t
 	// UnityEngine.SocialPlatforms.UserState UnityEngine.SocialPlatforms.Impl.UserProfile::m_State
 	int32_t ___m_State_3;
 	// UnityEngine.Texture2D UnityEngine.SocialPlatforms.Impl.UserProfile::m_Image
-	Texture2D_t201 * ___m_Image_4;
+	Texture2D_t6_33 * ___m_Image_4;
 };

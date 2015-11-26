@@ -14,6 +14,6 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Void
-struct  Void_t1115 
+struct  Void_t1_29 
 {
 };

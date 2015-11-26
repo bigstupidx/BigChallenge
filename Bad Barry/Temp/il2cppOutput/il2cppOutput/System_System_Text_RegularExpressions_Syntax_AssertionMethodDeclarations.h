@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Text.RegularExpressions.Syntax.Assertion
-struct Assertion_t1071;
+struct Assertion_t2_133;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t1063;
+struct Expression_t2_125;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::.ctor()
-extern "C" void Assertion__ctor_m5536 (Assertion_t1071 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Assertion__ctor_m2_765 (Assertion_t2_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_TrueExpression()
-extern "C" Expression_t1063 * Assertion_get_TrueExpression_m5537 (Assertion_t1071 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t2_125 * Assertion_get_TrueExpression_m2_766 (Assertion_t2_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_TrueExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Assertion_set_TrueExpression_m5538 (Assertion_t1071 * __this, Expression_t1063 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Assertion_set_TrueExpression_m2_767 (Assertion_t2_133 * __this, Expression_t2_125 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.Assertion::get_FalseExpression()
-extern "C" Expression_t1063 * Assertion_get_FalseExpression_m5539 (Assertion_t1071 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t2_125 * Assertion_get_FalseExpression_m2_768 (Assertion_t2_133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::set_FalseExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Assertion_set_FalseExpression_m5540 (Assertion_t1071 * __this, Expression_t1063 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Assertion_set_FalseExpression_m2_769 (Assertion_t2_133 * __this, Expression_t2_125 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Assertion::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Assertion_GetWidth_m5541 (Assertion_t1071 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Assertion_GetWidth_m2_770 (Assertion_t2_133 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Color
-struct  Color_t101 
+struct  Color_t6_40 
 {
 	// System.Single UnityEngine.Color::r
 	float ___r_0;

@@ -13,22 +13,22 @@
 #include <exception>
 
 // System.MissingMethodException
-struct MissingMethodException_t1706;
+struct MissingMethodException_t1_732;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t621;
+struct SerializationInfo_t1_176;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MissingMethodException::.ctor()
-extern "C" void MissingMethodException__ctor_m10511 (MissingMethodException_t1706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMethodException__ctor_m1_5095 (MissingMethodException_t1_732 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMethodException::.ctor(System.String)
-extern "C" void MissingMethodException__ctor_m10512 (MissingMethodException_t1706 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMethodException__ctor_m1_5096 (MissingMethodException_t1_732 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMethodException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingMethodException__ctor_m10513 (MissingMethodException_t1706 * __this, SerializationInfo_t621 * ___info, StreamingContext_t622  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMethodException__ctor_m1_5097 (MissingMethodException_t1_732 * __this, SerializationInfo_t1_176 * ___info, StreamingContext_t1_506  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMethodException::.ctor(System.String,System.String)
-extern "C" void MissingMethodException__ctor_m10514 (MissingMethodException_t1706 * __this, String_t* ___className, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMethodException__ctor_m1_5098 (MissingMethodException_t1_732 * __this, String_t* ___className, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MissingMethodException::get_Message()
-extern "C" String_t* MissingMethodException_get_Message_m10515 (MissingMethodException_t1706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MissingMethodException_get_Message_m1_5099 (MissingMethodException_t1_732 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

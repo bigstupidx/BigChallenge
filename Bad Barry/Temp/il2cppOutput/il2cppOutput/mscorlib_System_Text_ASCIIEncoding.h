@@ -14,6 +14,6 @@
 #include "mscorlib_System_Text_Encoding.h"
 
 // System.Text.ASCIIEncoding
-struct  ASCIIEncoding_t1619  : public Encoding_t906
+struct  ASCIIEncoding_t1_632  : public Encoding_t1_218
 {
 };

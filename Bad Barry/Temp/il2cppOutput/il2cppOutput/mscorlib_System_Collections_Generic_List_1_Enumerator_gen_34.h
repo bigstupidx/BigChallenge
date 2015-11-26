@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct List_1_t536;
+// System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
+struct List_1_t1_947;
+// UnityEngine.UI.RectMask2D
+struct RectMask2D_t7_102;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_UILineInfo.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>
-struct  Enumerator_t2255 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>
+struct  Enumerator_t1_1503 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::l
-	List_1_t536 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_947 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>::current
-	UILineInfo_t393  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	RectMask2D_t7_102 * ___current_3;
 };

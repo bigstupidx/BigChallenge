@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.RectTransform
-struct RectTransform_t179;
+struct RectTransform_t6_65;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitter_FitMode.h"
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.ContentSizeFitter
-struct  ContentSizeFitter_t295  : public UIBehaviour_t106
+struct  ContentSizeFitter_t7_141  : public UIBehaviour_t7_3
 {
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_HorizontalFit
 	int32_t ___m_HorizontalFit_2;
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_VerticalFit
 	int32_t ___m_VerticalFit_3;
 	// UnityEngine.RectTransform UnityEngine.UI.ContentSizeFitter::m_Rect
-	RectTransform_t179 * ___m_Rect_4;
+	RectTransform_t6_65 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.ContentSizeFitter::m_Tracker
-	DrivenRectTransformTracker_t260  ___m_Tracker_5;
+	DrivenRectTransformTracker_t6_61  ___m_Tracker_5;
 };

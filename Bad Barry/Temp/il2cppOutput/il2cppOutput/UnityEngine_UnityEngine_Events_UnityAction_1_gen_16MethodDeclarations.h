@@ -17,10 +17,10 @@
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_5MethodDeclarations.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::.ctor(System.Object,System.IntPtr)
-#define UnityAction_1__ctor_m15963(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t2205 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m11998_gshared)(__this, ___object, ___method, method)
+#define UnityAction_1__ctor_m6_1615(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t6_317 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m6_1452_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::Invoke(T0)
-#define UnityAction_1_Invoke_m15964(__this, ___arg0, method) (( void (*) (UnityAction_1_t2205 *, List_1_t317 *, const MethodInfo*))UnityAction_1_Invoke_m11999_gshared)(__this, ___arg0, method)
+#define UnityAction_1_Invoke_m6_1616(__this, ___arg0, method) (( void (*) (UnityAction_1_t6_317 *, List_1_t1_917 *, const MethodInfo*))UnityAction_1_Invoke_m6_1453_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-#define UnityAction_1_BeginInvoke_m15965(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t2205 *, List_1_t317 *, AsyncCallback_t229 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m12000_gshared)(__this, ___arg0, ___callback, ___object, method)
+#define UnityAction_1_BeginInvoke_m6_1617(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t6_317 *, List_1_t1_917 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m6_1454_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::EndInvoke(System.IAsyncResult)
-#define UnityAction_1_EndInvoke_m15966(__this, ___result, method) (( void (*) (UnityAction_1_t2205 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m12001_gshared)(__this, ___result, method)
+#define UnityAction_1_EndInvoke_m6_1618(__this, ___result, method) (( void (*) (UnityAction_1_t6_317 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m6_1455_gshared)(__this, ___result, method)

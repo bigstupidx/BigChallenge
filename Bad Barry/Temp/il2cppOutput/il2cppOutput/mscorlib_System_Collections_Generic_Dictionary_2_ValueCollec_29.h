@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Object,System.Boolean>
-struct Dictionary_2_t2414;
+// System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>
+struct Dictionary_2_t1_972;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Boolean>
-struct  ValueCollection_t2419  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.IClipper,System.Int32>
+struct  ValueCollection_t1_1535  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Boolean>::dictionary
-	Dictionary_2_t2414 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
+	Dictionary_2_t1_972 * ___dictionary_0;
 };

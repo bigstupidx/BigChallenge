@@ -13,7 +13,7 @@
 
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_15.h"
 
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTime>
-struct  DefaultComparer_t2516  : public EqualityComparer_1_t2515
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>
+struct  DefaultComparer_t1_1362  : public EqualityComparer_1_t1_1361
 {
 };

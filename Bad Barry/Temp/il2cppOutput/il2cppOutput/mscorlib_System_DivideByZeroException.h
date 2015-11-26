@@ -14,6 +14,6 @@
 #include "mscorlib_System_ArithmeticException.h"
 
 // System.DivideByZeroException
-struct  DivideByZeroException_t1682  : public ArithmeticException_t903
+struct  DivideByZeroException_t1_704  : public ArithmeticException_t1_687
 {
 };

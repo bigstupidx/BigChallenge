@@ -10,18 +10,16 @@
 
 #include <stdint.h>
 
-// System.Type
-struct Type_t;
-// LitJson.ImporterFunc
-struct ImporterFunc_t670;
+// UnityEngine.UI.Graphic
+struct Graphic_t7_75;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>
-struct  KeyValuePair_2_t2387 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
+struct  KeyValuePair_2_t1_1493 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::key
-	Type_t * ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,LitJson.ImporterFunc>::value
-	ImporterFunc_t670 * ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	Graphic_t7_75 * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	int32_t ___value_1;
 };

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller
-struct ArrayNullFiller_t1529;
+struct ArrayNullFiller_t1_510;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader/ArrayNullFiller::.ctor(System.Int32)
-extern "C" void ArrayNullFiller__ctor_m9131 (ArrayNullFiller_t1529 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArrayNullFiller__ctor_m1_3543 (ArrayNullFiller_t1_510 * __this, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

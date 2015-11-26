@@ -229,7 +229,6 @@ ViewTouchProcessing
 }
 ViewTouchProcessing;
 
-
 #ifdef __cplusplus
 	extern bool _ios42orNewer;
 	extern bool _ios43orNewer;
@@ -239,4 +238,5 @@ ViewTouchProcessing;
 	extern bool _ios80orNewer;
 	extern bool _ios81orNewer;
 	extern bool _ios82orNewer;
+	extern bool _ios90orNewer;
 #endif

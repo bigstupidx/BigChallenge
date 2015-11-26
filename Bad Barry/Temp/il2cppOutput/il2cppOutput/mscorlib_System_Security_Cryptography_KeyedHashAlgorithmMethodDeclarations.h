@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Security.Cryptography.KeyedHashAlgorithm
-struct KeyedHashAlgorithm_t820;
+struct KeyedHashAlgorithm_t1_559;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.KeyedHashAlgorithm::.ctor()
-extern "C" void KeyedHashAlgorithm__ctor_m4734 (KeyedHashAlgorithm_t820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyedHashAlgorithm__ctor_m1_3818 (KeyedHashAlgorithm_t1_559 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.KeyedHashAlgorithm::Finalize()
-extern "C" void KeyedHashAlgorithm_Finalize_m9361 (KeyedHashAlgorithm_t820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyedHashAlgorithm_Finalize_m1_3819 (KeyedHashAlgorithm_t1_559 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.KeyedHashAlgorithm::get_Key()
-extern "C" ByteU5BU5D_t740* KeyedHashAlgorithm_get_Key_m9362 (KeyedHashAlgorithm_t820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t1_70* KeyedHashAlgorithm_get_Key_m1_3820 (KeyedHashAlgorithm_t1_559 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.KeyedHashAlgorithm::set_Key(System.Byte[])
-extern "C" void KeyedHashAlgorithm_set_Key_m9363 (KeyedHashAlgorithm_t820 * __this, ByteU5BU5D_t740* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyedHashAlgorithm_set_Key_m1_3821 (KeyedHashAlgorithm_t1_559 * __this, ByteU5BU5D_t1_70* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.KeyedHashAlgorithm::Dispose(System.Boolean)
-extern "C" void KeyedHashAlgorithm_Dispose_m9364 (KeyedHashAlgorithm_t820 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyedHashAlgorithm_Dispose_m1_3822 (KeyedHashAlgorithm_t1_559 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.KeyedHashAlgorithm::ZeroizeKey()
-extern "C" void KeyedHashAlgorithm_ZeroizeKey_m9365 (KeyedHashAlgorithm_t820 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyedHashAlgorithm_ZeroizeKey_m1_3823 (KeyedHashAlgorithm_t1_559 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

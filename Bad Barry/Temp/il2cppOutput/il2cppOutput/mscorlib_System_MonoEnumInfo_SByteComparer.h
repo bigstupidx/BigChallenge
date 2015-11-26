@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.MonoEnumInfo/SByteComparer
-struct  SByteComparer_t1686  : public Object_t
+struct  SByteComparer_t1_708  : public Object_t
 {
 };

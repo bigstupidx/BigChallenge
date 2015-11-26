@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.Renderer
-struct  Renderer_t455  : public Component_t103
+struct  Renderer_t6_27  : public Component_t6_24
 {
 };

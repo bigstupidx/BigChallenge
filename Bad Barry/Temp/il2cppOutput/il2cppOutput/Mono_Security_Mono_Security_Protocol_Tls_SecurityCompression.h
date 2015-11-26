@@ -15,7 +15,7 @@
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityCompression.h"
 
 // Mono.Security.Protocol.Tls.SecurityCompressionType
-struct  SecurityCompressionType_t858 
+struct  SecurityCompressionType_t3_85 
 {
 	// System.Int32 Mono.Security.Protocol.Tls.SecurityCompressionType::value__
 	int32_t ___value___1;

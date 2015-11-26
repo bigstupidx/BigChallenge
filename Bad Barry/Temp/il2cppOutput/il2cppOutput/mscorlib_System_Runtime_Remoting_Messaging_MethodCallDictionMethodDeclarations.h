@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.MethodCallDictionary
-struct MethodCallDictionary_t1469;
+struct MethodCallDictionary_t1_448;
 // System.Runtime.Remoting.Messaging.IMethodMessage
-struct IMethodMessage_t1471;
+struct IMethodMessage_t1_451;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.ctor(System.Runtime.Remoting.Messaging.IMethodMessage)
-extern "C" void MethodCallDictionary__ctor_m8848 (MethodCallDictionary_t1469 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodCallDictionary__ctor_m1_3260 (MethodCallDictionary_t1_448 * __this, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.MethodCallDictionary::.cctor()
-extern "C" void MethodCallDictionary__cctor_m8849 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodCallDictionary__cctor_m1_3261 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

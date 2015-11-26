@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Text.RegularExpressions.MRUList
-struct MRUList_t1038;
+struct MRUList_t2_101;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.MRUList::.ctor()
-extern "C" void MRUList__ctor_m5311 (MRUList_t1038 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MRUList__ctor_m2_540 (MRUList_t2_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.MRUList::Use(System.Object)
-extern "C" void MRUList_Use_m5312 (MRUList_t1038 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MRUList_Use_m2_541 (MRUList_t2_101 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.MRUList::Evict()
-extern "C" Object_t * MRUList_Evict_m5313 (MRUList_t1038 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MRUList_Evict_m2_542 (MRUList_t2_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

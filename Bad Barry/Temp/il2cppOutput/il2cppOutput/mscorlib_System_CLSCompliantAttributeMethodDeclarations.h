@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.CLSCompliantAttribute
-struct CLSCompliantAttribute_t1111;
+struct CLSCompliantAttribute_t1_9;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.CLSCompliantAttribute::.ctor(System.Boolean)
-extern "C" void CLSCompliantAttribute__ctor_m5877 (CLSCompliantAttribute_t1111 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CLSCompliantAttribute__ctor_m1_136 (CLSCompliantAttribute_t1_9 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;

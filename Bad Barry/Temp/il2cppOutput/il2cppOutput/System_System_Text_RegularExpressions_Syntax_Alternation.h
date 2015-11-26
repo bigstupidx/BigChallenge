@@ -14,6 +14,6 @@
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 
 // System.Text.RegularExpressions.Syntax.Alternation
-struct  Alternation_t1075  : public CompositeExpression_t1064
+struct  Alternation_t2_137  : public CompositeExpression_t2_126
 {
 };

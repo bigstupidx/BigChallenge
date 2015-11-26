@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Graphic
-struct Graphic_t195;
+struct Graphic_t7_75;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.Graphic>
-struct  Comparison_1_t206  : public MulticastDelegate_t227
+struct  Comparison_1_t1_944  : public MulticastDelegate_t1_21
 {
 };

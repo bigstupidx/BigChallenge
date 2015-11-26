@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Threading.Interlocked
-struct  Interlocked_t1647  : public Object_t
+struct  Interlocked_t1_661  : public Object_t
 {
 };

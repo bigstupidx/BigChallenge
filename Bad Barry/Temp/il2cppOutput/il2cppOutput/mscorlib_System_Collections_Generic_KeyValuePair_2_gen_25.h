@@ -12,14 +12,16 @@
 
 // System.String
 struct String_t;
+// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton
+struct VirtualButton_t8_5;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>
-struct  KeyValuePair_2_t2428 
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
+struct  KeyValuePair_2_t1_1554 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::key
+	// TKey System.Collections.Generic.KeyValuePair`2::key
 	String_t* ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Boolean>::value
-	bool ___value_1;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	VirtualButton_t8_5 * ___value_1;
 };

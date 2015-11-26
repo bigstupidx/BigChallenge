@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t348;
+// System.Collections.Generic.List`1<UnityEngine.UILineInfo>
+struct List_1_t1_913;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_UIVertex.h"
+#include "UnityEngine_UnityEngine_UILineInfo.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
-struct  Enumerator_t2048 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>
+struct  Enumerator_t1_1378 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::l
-	List_1_t348 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_913 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::current
-	UIVertex_t241  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	UILineInfo_t6_146  ___current_3;
 };

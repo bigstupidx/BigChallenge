@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.Serialization.FormerlySerializedAsAttribute
-struct  FormerlySerializedAsAttribute_t604  : public Attribute_t476
+struct  FormerlySerializedAsAttribute_t6_229  : public Attribute_t1_2
 {
 	// System.String UnityEngine.Serialization.FormerlySerializedAsAttribute::m_oldName
 	String_t* ___m_oldName_0;

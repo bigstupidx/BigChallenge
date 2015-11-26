@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
-struct ClientContextTerminatorSink_t1460;
+struct ClientContextTerminatorSink_t1_439;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1436;
+struct Context_t1_414;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.ClientContextTerminatorSink::.ctor(System.Runtime.Remoting.Contexts.Context)
-extern "C" void ClientContextTerminatorSink__ctor_m8796 (ClientContextTerminatorSink_t1460 * __this, Context_t1436 * ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClientContextTerminatorSink__ctor_m1_3208 (ClientContextTerminatorSink_t1_439 * __this, Context_t1_414 * ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;

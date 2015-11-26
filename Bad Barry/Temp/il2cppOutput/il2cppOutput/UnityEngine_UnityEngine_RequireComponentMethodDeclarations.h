@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.RequireComponent
-struct RequireComponent_t551;
+struct RequireComponent_t6_173;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.RequireComponent::.ctor(System.Type)
-extern "C" void RequireComponent__ctor_m3213 (RequireComponent_t551 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequireComponent__ctor_m6_1141 (RequireComponent_t6_173 * __this, Type_t * ___requiredComponent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

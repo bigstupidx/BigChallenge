@@ -15,11 +15,11 @@ struct Array_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Array/InternalEnumerator`1<UnityEngine.UIVertex>
-struct  InternalEnumerator_1_t2047 
+// System.Array/InternalEnumerator`1<System.Reflection.MethodInfo>
+struct  InternalEnumerator_1_t1_1014 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.UIVertex>::array
+	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.UIVertex>::idx
+	// System.Int32 System.Array/InternalEnumerator`1::idx
 	int32_t ___idx_1;
 };

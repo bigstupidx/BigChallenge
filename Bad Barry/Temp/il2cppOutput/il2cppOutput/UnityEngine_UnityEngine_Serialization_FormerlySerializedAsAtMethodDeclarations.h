@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.Serialization.FormerlySerializedAsAttribute
-struct FormerlySerializedAsAttribute_t604;
+struct FormerlySerializedAsAttribute_t6_229;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.Serialization.FormerlySerializedAsAttribute::.ctor(System.String)
-extern "C" void FormerlySerializedAsAttribute__ctor_m3382 (FormerlySerializedAsAttribute_t604 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FormerlySerializedAsAttribute__ctor_m6_1314 (FormerlySerializedAsAttribute_t6_229 * __this, String_t* ___oldName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

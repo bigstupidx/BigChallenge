@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.IO.TextWriter
-struct TextWriter_t689;
+struct TextWriter_t1_252;
 
 #include "mscorlib_System_IO_TextWriter.h"
 
 // System.IO.SynchronizedWriter
-struct  SynchronizedWriter_t1288  : public TextWriter_t689
+struct  SynchronizedWriter_t1_259  : public TextWriter_t1_252
 {
 	// System.IO.TextWriter System.IO.SynchronizedWriter::writer
-	TextWriter_t689 * ___writer_3;
+	TextWriter_t1_252 * ___writer_3;
 	// System.Boolean System.IO.SynchronizedWriter::neverClose
 	bool ___neverClose_4;
 };

@@ -13,12 +13,12 @@
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IDictionary`2<System.String,LitJson.PropertyMetadata>
-struct IDictionary_2_t667;
+struct IDictionary_2_t1_878;
 
 #include "mscorlib_System_ValueType.h"
 
 // LitJson.ObjectMetadata
-struct  ObjectMetadata_t666 
+struct  ObjectMetadata_t5_7 
 {
 	// System.Type LitJson.ObjectMetadata::element_type
 	Type_t * ___element_type_0;

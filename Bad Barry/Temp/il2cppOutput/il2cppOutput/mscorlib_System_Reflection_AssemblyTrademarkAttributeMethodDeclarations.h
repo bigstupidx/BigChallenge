@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyTrademarkAttribute
-struct AssemblyTrademarkAttribute_t1345;
+struct AssemblyTrademarkAttribute_t1_320;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
-extern "C" void AssemblyTrademarkAttribute__ctor_m8319 (AssemblyTrademarkAttribute_t1345 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyTrademarkAttribute__ctor_m1_2730 (AssemblyTrademarkAttribute_t1_320 * __this, String_t* ___trademark, const MethodInfo* method) IL2CPP_METHOD_ATTR;

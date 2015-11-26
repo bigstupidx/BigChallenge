@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // System.Reflection.AssemblyConfigurationAttribute
-struct  AssemblyConfigurationAttribute_t1332  : public Attribute_t476
+struct  AssemblyConfigurationAttribute_t1_306  : public Attribute_t1_2
 {
 	// System.String System.Reflection.AssemblyConfigurationAttribute::name
 	String_t* ___name_0;

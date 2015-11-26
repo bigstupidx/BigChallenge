@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Linq.Check
-struct  Check_t741  : public Object_t
+struct  Check_t4_5  : public Object_t
 {
 };

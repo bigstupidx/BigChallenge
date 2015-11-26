@@ -10,22 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t325;
-// UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t1910;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
+struct List_1_t1_890;
 
 #include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Enumerator_t1911 
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
+struct  Enumerator_t1_1183 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
-	List_1_t325 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_890 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::current
-	Object_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	KeyValuePair_2_t1_886  ___current_3;
 };

@@ -16,10 +16,10 @@
 #include "mscorlib_System_IntPtr.h"
 
 // System.TypedReference
-struct  TypedReference_t1136 
+struct  TypedReference_t1_54 
 {
 	// System.RuntimeTypeHandle System.TypedReference::type
-	RuntimeTypeHandle_t1116  ___type_0;
+	RuntimeTypeHandle_t1_30  ___type_0;
 	// System.IntPtr System.TypedReference::value
 	IntPtr_t ___value_1;
 	// System.IntPtr System.TypedReference::klass

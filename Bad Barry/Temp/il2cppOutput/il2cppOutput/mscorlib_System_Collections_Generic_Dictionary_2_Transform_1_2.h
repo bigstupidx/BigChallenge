@@ -12,19 +12,18 @@
 
 // System.String
 struct String_t;
-// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
-struct VirtualAxis_t6;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
+#include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis,System.Collections.DictionaryEntry>
-struct  Transform_1_t1836  : public MulticastDelegate_t227
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1020  : public MulticastDelegate_t1_21
 {
 };

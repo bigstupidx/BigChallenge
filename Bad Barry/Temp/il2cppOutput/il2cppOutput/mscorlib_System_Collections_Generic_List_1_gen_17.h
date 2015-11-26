@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.RectMask2D[]
-struct RectMask2DU5BU5D_t2084;
+// UnityEngine.EventSystems.BaseInputModule[]
+struct BaseInputModuleU5BU5D_t7_198;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
-struct  List_1_t254  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
+struct  List_1_t1_929  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_items
-	RectMask2DU5BU5D_t2084* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	BaseInputModuleU5BU5D_t7_198* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t254_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::EmptyArray
-	RectMask2DU5BU5D_t2084* ___EmptyArray_4;
+struct List_1_t1_929_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	BaseInputModuleU5BU5D_t7_198* ___EmptyArray_4;
 };

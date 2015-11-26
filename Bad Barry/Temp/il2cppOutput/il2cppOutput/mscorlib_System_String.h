@@ -13,7 +13,7 @@
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t239;
+struct CharU5BU5D_t1_16;
 
 #include "mscorlib_System_Object.h"
 
@@ -29,5 +29,5 @@ struct String_t_StaticFields{
 	// System.String System.String::Empty
 	String_t* ___Empty_2;
 	// System.Char[] System.String::WhiteChars
-	CharU5BU5D_t239* ___WhiteChars_3;
+	CharU5BU5D_t1_16* ___WhiteChars_3;
 };

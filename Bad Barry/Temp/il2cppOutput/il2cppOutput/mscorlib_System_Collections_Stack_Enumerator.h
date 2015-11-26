@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Stack
-struct Stack_t1048;
+struct Stack_t1_141;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Stack/Enumerator
-struct  Enumerator_t1233  : public Object_t
+struct  Enumerator_t1_185  : public Object_t
 {
 	// System.Collections.Stack System.Collections.Stack/Enumerator::stack
-	Stack_t1048 * ___stack_0;
+	Stack_t1_141 * ___stack_0;
 	// System.Int32 System.Collections.Stack/Enumerator::modCount
 	int32_t ___modCount_1;
 	// System.Int32 System.Collections.Stack/Enumerator::current

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.IEnumerator
-struct IEnumerator_t76;
+struct IEnumerator_t1_129;
 
 #include "mscorlib_System_Object.h"
 
-// System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
-struct  X509Certificate2Enumerator_t999  : public Object_t
+// System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
+struct  X509CertificateEnumerator_t2_57  : public Object_t
 {
-	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator::enumerator
+	// System.Collections.IEnumerator System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator::enumerator
 	Object_t * ___enumerator_0;
 };

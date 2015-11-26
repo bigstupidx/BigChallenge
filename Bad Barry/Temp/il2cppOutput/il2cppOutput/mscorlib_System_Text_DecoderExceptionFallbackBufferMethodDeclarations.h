@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Text.DecoderExceptionFallbackBuffer
-struct DecoderExceptionFallbackBuffer_t1623;
+struct DecoderExceptionFallbackBuffer_t1_636;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.DecoderExceptionFallbackBuffer::.ctor()
-extern "C" void DecoderExceptionFallbackBuffer__ctor_m9714 (DecoderExceptionFallbackBuffer_t1623 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DecoderExceptionFallbackBuffer__ctor_m1_4197 (DecoderExceptionFallbackBuffer_t1_636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.DecoderExceptionFallbackBuffer::get_Remaining()
-extern "C" int32_t DecoderExceptionFallbackBuffer_get_Remaining_m9715 (DecoderExceptionFallbackBuffer_t1623 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DecoderExceptionFallbackBuffer_get_Remaining_m1_4198 (DecoderExceptionFallbackBuffer_t1_636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.DecoderExceptionFallbackBuffer::Fallback(System.Byte[],System.Int32)
-extern "C" bool DecoderExceptionFallbackBuffer_Fallback_m9716 (DecoderExceptionFallbackBuffer_t1623 * __this, ByteU5BU5D_t740* ___bytesUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DecoderExceptionFallbackBuffer_Fallback_m1_4199 (DecoderExceptionFallbackBuffer_t1_636 * __this, ByteU5BU5D_t1_70* ___bytesUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Text.DecoderExceptionFallbackBuffer::GetNextChar()
-extern "C" uint16_t DecoderExceptionFallbackBuffer_GetNextChar_m9717 (DecoderExceptionFallbackBuffer_t1623 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t DecoderExceptionFallbackBuffer_GetNextChar_m1_4200 (DecoderExceptionFallbackBuffer_t1_636 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

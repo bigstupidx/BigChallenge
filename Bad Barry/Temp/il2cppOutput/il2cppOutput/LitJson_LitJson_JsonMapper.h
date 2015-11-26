@@ -11,37 +11,37 @@
 #include <stdint.h>
 
 // System.IFormatProvider
-struct IFormatProvider_t673;
+struct IFormatProvider_t1_258;
 // System.Collections.Generic.IDictionary`2<System.Type,LitJson.ExporterFunc>
-struct IDictionary_2_t674;
+struct IDictionary_2_t1_879;
 // System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>
-struct IDictionary_2_t675;
+struct IDictionary_2_t1_880;
 // System.Collections.Generic.IDictionary`2<System.Type,LitJson.ArrayMetadata>
-struct IDictionary_2_t676;
+struct IDictionary_2_t1_881;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>>
-struct IDictionary_2_t677;
+struct IDictionary_2_t1_882;
 // System.Collections.Generic.IDictionary`2<System.Type,LitJson.ObjectMetadata>
-struct IDictionary_2_t678;
+struct IDictionary_2_t1_883;
 // System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>
-struct IDictionary_2_t679;
+struct IDictionary_2_t1_884;
 // LitJson.JsonWriter
-struct JsonWriter_t669;
+struct JsonWriter_t5_9;
 // LitJson.ExporterFunc
-struct ExporterFunc_t668;
+struct ExporterFunc_t5_8;
 // LitJson.ImporterFunc
-struct ImporterFunc_t670;
+struct ImporterFunc_t5_10;
 // LitJson.WrapperFactory
-struct WrapperFactory_t671;
+struct WrapperFactory_t5_11;
 
 #include "mscorlib_System_Object.h"
 
 // LitJson.JsonMapper
-struct  JsonMapper_t93  : public Object_t
+struct  JsonMapper_t5_13  : public Object_t
 {
 };
-struct JsonMapper_t93_StaticFields{
+struct JsonMapper_t5_13_StaticFields{
 	// System.Int32 LitJson.JsonMapper::max_nesting_depth
 	int32_t ___max_nesting_depth_0;
 	// System.IFormatProvider LitJson.JsonMapper::datetime_format
@@ -71,51 +71,51 @@ struct JsonMapper_t93_StaticFields{
 	// System.Object LitJson.JsonMapper::type_properties_lock
 	Object_t * ___type_properties_lock_13;
 	// LitJson.JsonWriter LitJson.JsonMapper::static_writer
-	JsonWriter_t669 * ___static_writer_14;
+	JsonWriter_t5_9 * ___static_writer_14;
 	// System.Object LitJson.JsonMapper::static_writer_lock
 	Object_t * ___static_writer_lock_15;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache1
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache1_16;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache1_16;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache2
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache2_17;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache2_17;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache3
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache3_18;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache3_18;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache4
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache4_19;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache4_19;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache5
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache5_20;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache5_20;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache6
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache6_21;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache6_21;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache7
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache7_22;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache7_22;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache8
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache8_23;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache8_23;
 	// LitJson.ExporterFunc LitJson.JsonMapper::<>f__am$cache9
-	ExporterFunc_t668 * ___U3CU3Ef__amU24cache9_24;
+	ExporterFunc_t5_8 * ___U3CU3Ef__amU24cache9_24;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheA
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheA_25;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheA_25;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheB
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheB_26;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheB_26;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheC
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheC_27;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheC_27;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheD
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheD_28;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheD_28;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheE
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheE_29;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheE_29;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cacheF
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cacheF_30;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cacheF_30;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache10
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache10_31;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache10_31;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache11
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache11_32;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache11_32;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache12
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache12_33;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache12_33;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache13
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache13_34;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache13_34;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache14
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache14_35;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache14_35;
 	// LitJson.ImporterFunc LitJson.JsonMapper::<>f__am$cache15
-	ImporterFunc_t670 * ___U3CU3Ef__amU24cache15_36;
+	ImporterFunc_t5_10 * ___U3CU3Ef__amU24cache15_36;
 	// LitJson.WrapperFactory LitJson.JsonMapper::<>f__am$cache18
-	WrapperFactory_t671 * ___U3CU3Ef__amU24cache18_37;
+	WrapperFactory_t5_11 * ___U3CU3Ef__amU24cache18_37;
 };

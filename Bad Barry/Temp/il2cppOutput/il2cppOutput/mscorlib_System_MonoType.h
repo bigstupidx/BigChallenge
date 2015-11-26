@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.MonoTypeInfo
-struct MonoTypeInfo_t1711;
+struct MonoTypeInfo_t1_737;
 
 #include "mscorlib_System_Type.h"
 
@@ -19,5 +19,5 @@ struct MonoTypeInfo_t1711;
 struct  MonoType_t  : public Type_t
 {
 	// System.MonoTypeInfo System.MonoType::type_info
-	MonoTypeInfo_t1711 * ___type_info_8;
+	MonoTypeInfo_t1_737 * ___type_info_8;
 };

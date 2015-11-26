@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Security.Cryptography.DSA
-struct DSA_t798;
+struct DSA_t1_105;
 
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 
 // System.Security.Cryptography.DSASignatureFormatter
-struct  DSASignatureFormatter_t1562  : public AsymmetricSignatureFormatter_t857
+struct  DSASignatureFormatter_t1_557  : public AsymmetricSignatureFormatter_t1_543
 {
 	// System.Security.Cryptography.DSA System.Security.Cryptography.DSASignatureFormatter::dsa
-	DSA_t798 * ___dsa_0;
+	DSA_t1_105 * ___dsa_0;
 };

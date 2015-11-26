@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.InvalidOperationException
-struct  InvalidOperationException_t710  : public SystemException_t1104
+struct  InvalidOperationException_t1_725  : public SystemException_t1_147
 {
 };

@@ -10,18 +10,21 @@
 
 #include <stdint.h>
 
+// System.String
+struct String_t;
+// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
+struct VirtualAxis_t8_4;
+// System.IAsyncResult
+struct IAsyncResult_t1_27;
+// System.AsyncCallback
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t228;
-// System.AsyncCallback
-struct AsyncCallback_t229;
 
 #include "mscorlib_System_MulticastDelegate.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24.h"
-#include "mscorlib_System_Boolean.h"
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Boolean,System.Collections.Generic.KeyValuePair`2<System.Object,System.Boolean>>
-struct  Transform_1_t2423  : public MulticastDelegate_t227
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1549  : public MulticastDelegate_t1_21
 {
 };

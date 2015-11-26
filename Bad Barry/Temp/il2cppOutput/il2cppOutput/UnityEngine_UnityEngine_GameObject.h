@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.GameObject
-struct  GameObject_t3  : public Object_t79
+struct  GameObject_t6_94  : public Object_t6_5
 {
 };

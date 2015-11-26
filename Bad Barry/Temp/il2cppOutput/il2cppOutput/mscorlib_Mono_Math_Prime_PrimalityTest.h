@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // Mono.Math.BigInteger
-struct BigInteger_t1173;
+struct BigInteger_t1_94;
 // System.IAsyncResult
-struct IAsyncResult_t228;
+struct IAsyncResult_t1_27;
 // System.AsyncCallback
-struct AsyncCallback_t229;
+struct AsyncCallback_t1_28;
 // System.Object
 struct Object_t;
 
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
 
 // Mono.Math.Prime.PrimalityTest
-struct  PrimalityTest_t1734  : public MulticastDelegate_t227
+struct  PrimalityTest_t1_766  : public MulticastDelegate_t1_21
 {
 };

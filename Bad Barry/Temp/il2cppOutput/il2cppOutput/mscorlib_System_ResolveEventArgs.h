@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_EventArgs.h"
 
 // System.ResolveEventArgs
-struct  ResolveEventArgs_t1720  : public EventArgs_t789
+struct  ResolveEventArgs_t1_750  : public EventArgs_t1_103
 {
 	// System.String System.ResolveEventArgs::m_Name
 	String_t* ___m_Name_1;

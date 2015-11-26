@@ -11,18 +11,18 @@
 #include <stdint.h>
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping
-struct AxisMapping_t20;
+struct AxisMapping_t8_17;
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis
-struct VirtualAxis_t6;
+struct VirtualAxis_t8_4;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_Til.h"
 
 // UnityStandardAssets.CrossPlatformInput.TiltInput
-struct  TiltInput_t21  : public MonoBehaviour_t2
+struct  TiltInput_t8_18  : public MonoBehaviour_t6_88
 {
 	// UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping UnityStandardAssets.CrossPlatformInput.TiltInput::mapping
-	AxisMapping_t20 * ___mapping_2;
+	AxisMapping_t8_17 * ___mapping_2;
 	// UnityStandardAssets.CrossPlatformInput.TiltInput/AxisOptions UnityStandardAssets.CrossPlatformInput.TiltInput::tiltAroundAxis
 	int32_t ___tiltAroundAxis_3;
 	// System.Single UnityStandardAssets.CrossPlatformInput.TiltInput::fullTiltAngle
@@ -30,5 +30,5 @@ struct  TiltInput_t21  : public MonoBehaviour_t2
 	// System.Single UnityStandardAssets.CrossPlatformInput.TiltInput::centreAngleOffset
 	float ___centreAngleOffset_5;
 	// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.TiltInput::m_SteerAxis
-	VirtualAxis_t6 * ___m_SteerAxis_6;
+	VirtualAxis_t8_4 * ___m_SteerAxis_6;
 };

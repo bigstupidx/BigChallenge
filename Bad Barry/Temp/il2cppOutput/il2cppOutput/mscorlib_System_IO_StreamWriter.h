@@ -11,33 +11,33 @@
 #include <stdint.h>
 
 // System.Text.Encoding
-struct Encoding_t906;
+struct Encoding_t1_218;
 // System.IO.Stream
-struct Stream_t851;
+struct Stream_t1_217;
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.Char[]
-struct CharU5BU5D_t239;
+struct CharU5BU5D_t1_16;
 // System.IO.StreamWriter
-struct StreamWriter_t1284;
+struct StreamWriter_t1_251;
 
 #include "mscorlib_System_IO_TextWriter.h"
 
 // System.IO.StreamWriter
-struct  StreamWriter_t1284  : public TextWriter_t689
+struct  StreamWriter_t1_251  : public TextWriter_t1_252
 {
 	// System.Text.Encoding System.IO.StreamWriter::internalEncoding
-	Encoding_t906 * ___internalEncoding_3;
+	Encoding_t1_218 * ___internalEncoding_3;
 	// System.IO.Stream System.IO.StreamWriter::internalStream
-	Stream_t851 * ___internalStream_4;
+	Stream_t1_217 * ___internalStream_4;
 	// System.Boolean System.IO.StreamWriter::iflush
 	bool ___iflush_5;
 	// System.Byte[] System.IO.StreamWriter::byte_buf
-	ByteU5BU5D_t740* ___byte_buf_6;
+	ByteU5BU5D_t1_70* ___byte_buf_6;
 	// System.Int32 System.IO.StreamWriter::byte_pos
 	int32_t ___byte_pos_7;
 	// System.Char[] System.IO.StreamWriter::decode_buf
-	CharU5BU5D_t239* ___decode_buf_8;
+	CharU5BU5D_t1_16* ___decode_buf_8;
 	// System.Int32 System.IO.StreamWriter::decode_pos
 	int32_t ___decode_pos_9;
 	// System.Boolean System.IO.StreamWriter::DisposedAlready
@@ -45,7 +45,7 @@ struct  StreamWriter_t1284  : public TextWriter_t689
 	// System.Boolean System.IO.StreamWriter::preamble_done
 	bool ___preamble_done_11;
 };
-struct StreamWriter_t1284_StaticFields{
+struct StreamWriter_t1_251_StaticFields{
 	// System.IO.StreamWriter System.IO.StreamWriter::Null
-	StreamWriter_t1284 * ___Null_12;
+	StreamWriter_t1_251 * ___Null_12;
 };

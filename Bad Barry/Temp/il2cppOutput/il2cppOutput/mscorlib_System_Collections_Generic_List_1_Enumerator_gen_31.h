@@ -10,21 +10,22 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.List`1<UnityEngine.Vector4>
-struct List_1_t317;
+// System.Collections.Generic.List`1<UnityEngine.Canvas>
+struct List_1_t1_964;
+// UnityEngine.Canvas
+struct Canvas_t6_151;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_Vector4.h"
 
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>
-struct  Enumerator_t2182 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>
+struct  Enumerator_t1_1469 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::l
-	List_1_t317 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
+	List_1_t1_964 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector4>::current
-	Vector4_t319  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator::current
+	Canvas_t6_151 * ___current_3;
 };

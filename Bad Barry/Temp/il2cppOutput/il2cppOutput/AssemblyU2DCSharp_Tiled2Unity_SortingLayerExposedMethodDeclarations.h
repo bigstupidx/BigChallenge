@@ -13,9 +13,9 @@
 #include <exception>
 
 // Tiled2Unity.SortingLayerExposed
-struct SortingLayerExposed_t65;
+struct SortingLayerExposed_t8_47;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Tiled2Unity.SortingLayerExposed::.ctor()
-extern "C" void SortingLayerExposed__ctor_m303 (SortingLayerExposed_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SortingLayerExposed__ctor_m8_295 (SortingLayerExposed_t8_47 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

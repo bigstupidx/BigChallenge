@@ -14,6 +14,6 @@
 #include "mscorlib_System_Threading_WaitHandle.h"
 
 // System.Threading.Mutex
-struct  Mutex_t1445  : public WaitHandle_t902
+struct  Mutex_t1_423  : public WaitHandle_t1_434
 {
 };

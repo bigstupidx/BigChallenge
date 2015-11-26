@@ -10,22 +10,22 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Selectable[]
-struct SelectableU5BU5D_t2098;
+// UnityEngine.EventSystems.EventTrigger/Entry[]
+struct EntryU5BU5D_t7_207;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct  List_1_t271  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
+struct  List_1_t1_931  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
-	SelectableU5BU5D_t2098* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_size
+	// T[] System.Collections.Generic.List`1::_items
+	EntryU5BU5D_t7_207* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
+	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t271_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
-	SelectableU5BU5D_t2098* ___EmptyArray_4;
+struct List_1_t1_931_StaticFields{
+	// T[] System.Collections.Generic.List`1::EmptyArray
+	EntryU5BU5D_t7_207* ___EmptyArray_4;
 };

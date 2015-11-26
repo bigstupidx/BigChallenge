@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Material
-struct Material_t196;
+struct Material_t6_72;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Rendering_StencilOp.h"
@@ -21,14 +21,14 @@ struct Material_t196;
 #include "UnityEngine_UnityEngine_Rendering_ColorWriteMask.h"
 
 // System.Void UnityEngine.UI.StencilMaterial::.cctor()
-extern "C" void StencilMaterial__cctor_m1556 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StencilMaterial__cctor_m7_1075 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.UI.StencilMaterial::Add(UnityEngine.Material,System.Int32)
-extern "C" Material_t196 * StencilMaterial_Add_m1557 (Object_t * __this /* static, unused */, Material_t196 * ___baseMat, int32_t ___stencilID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t6_72 * StencilMaterial_Add_m7_1076 (Object_t * __this /* static, unused */, Material_t6_72 * ___baseMat, int32_t ___stencilID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.UI.StencilMaterial::Add(UnityEngine.Material,System.Int32,UnityEngine.Rendering.StencilOp,UnityEngine.Rendering.CompareFunction,UnityEngine.Rendering.ColorWriteMask)
-extern "C" Material_t196 * StencilMaterial_Add_m1558 (Object_t * __this /* static, unused */, Material_t196 * ___baseMat, int32_t ___stencilID, int32_t ___operation, int32_t ___compareFunction, int32_t ___colorWriteMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t6_72 * StencilMaterial_Add_m7_1077 (Object_t * __this /* static, unused */, Material_t6_72 * ___baseMat, int32_t ___stencilID, int32_t ___operation, int32_t ___compareFunction, int32_t ___colorWriteMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.UI.StencilMaterial::Add(UnityEngine.Material,System.Int32,UnityEngine.Rendering.StencilOp,UnityEngine.Rendering.CompareFunction,UnityEngine.Rendering.ColorWriteMask,System.Int32,System.Int32)
-extern "C" Material_t196 * StencilMaterial_Add_m1559 (Object_t * __this /* static, unused */, Material_t196 * ___baseMat, int32_t ___stencilID, int32_t ___operation, int32_t ___compareFunction, int32_t ___colorWriteMask, int32_t ___readMask, int32_t ___writeMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t6_72 * StencilMaterial_Add_m7_1078 (Object_t * __this /* static, unused */, Material_t6_72 * ___baseMat, int32_t ___stencilID, int32_t ___operation, int32_t ___compareFunction, int32_t ___colorWriteMask, int32_t ___readMask, int32_t ___writeMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.StencilMaterial::Remove(UnityEngine.Material)
-extern "C" void StencilMaterial_Remove_m1560 (Object_t * __this /* static, unused */, Material_t196 * ___customMat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StencilMaterial_Remove_m7_1079 (Object_t * __this /* static, unused */, Material_t6_72 * ___customMat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.StencilMaterial::ClearAll()
-extern "C" void StencilMaterial_ClearAll_m1561 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StencilMaterial_ClearAll_m7_1080 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

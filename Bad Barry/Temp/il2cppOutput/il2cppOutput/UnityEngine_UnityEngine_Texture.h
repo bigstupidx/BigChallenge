@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.Texture
-struct  Texture_t251  : public Object_t79
+struct  Texture_t6_32  : public Object_t6_5
 {
 };

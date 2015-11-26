@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable
-struct Hashtable_t836;
+struct Hashtable_t1_171;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.InternalRemotingServices
-struct  InternalRemotingServices_t1499  : public Object_t
+struct  InternalRemotingServices_t1_479  : public Object_t
 {
 };
-struct InternalRemotingServices_t1499_StaticFields{
+struct InternalRemotingServices_t1_479_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.InternalRemotingServices::_soapAttributes
-	Hashtable_t836 * ____soapAttributes_0;
+	Hashtable_t1_171 * ____soapAttributes_0;
 };

@@ -13,13 +13,13 @@
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t638;
+struct CultureInfo_t1_161;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Globalization_TextInfo_Data.h"
 
 // System.Globalization.TextInfo
-struct  TextInfo_t1162  : public Object_t
+struct  TextInfo_t1_83  : public Object_t
 {
 	// System.String System.Globalization.TextInfo::m_listSeparator
 	String_t* ___m_listSeparator_0;
@@ -34,9 +34,9 @@ struct  TextInfo_t1162  : public Object_t
 	// System.Int32 System.Globalization.TextInfo::m_win32LangID
 	int32_t ___m_win32LangID_5;
 	// System.Globalization.CultureInfo System.Globalization.TextInfo::ci
-	CultureInfo_t638 * ___ci_6;
+	CultureInfo_t1_161 * ___ci_6;
 	// System.Boolean System.Globalization.TextInfo::handleDotI
 	bool ___handleDotI_7;
 	// System.Globalization.TextInfo/Data System.Globalization.TextInfo::data
-	Data_t1254  ___data_8;
+	Data_t1_213  ___data_8;
 };

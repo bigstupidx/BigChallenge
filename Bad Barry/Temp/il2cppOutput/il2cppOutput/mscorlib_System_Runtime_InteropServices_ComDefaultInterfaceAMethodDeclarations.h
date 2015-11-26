@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
-struct ComDefaultInterfaceAttribute_t1409;
+struct ComDefaultInterfaceAttribute_t1_386;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.ComDefaultInterfaceAttribute::.ctor(System.Type)
-extern "C" void ComDefaultInterfaceAttribute__ctor_m8632 (ComDefaultInterfaceAttribute_t1409 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComDefaultInterfaceAttribute__ctor_m1_3044 (ComDefaultInterfaceAttribute_t1_386 * __this, Type_t * ___defaultInterface, const MethodInfo* method) IL2CPP_METHOD_ATTR;

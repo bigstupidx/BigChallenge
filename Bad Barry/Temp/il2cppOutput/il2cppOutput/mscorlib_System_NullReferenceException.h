@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.NullReferenceException
-struct  NullReferenceException_t623  : public SystemException_t1104
+struct  NullReferenceException_t1_742  : public SystemException_t1_147
 {
 };

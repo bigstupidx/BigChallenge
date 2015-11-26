@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
-struct ScrollRectEvent_t263;
+struct ScrollRectEvent_t7_116;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.ScrollRect/ScrollRectEvent::.ctor()
-extern "C" void ScrollRectEvent__ctor_m1351 (ScrollRectEvent_t263 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScrollRectEvent__ctor_m7_869 (ScrollRectEvent_t7_116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

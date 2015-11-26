@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Rendering.SphericalHarmonicsL2
-struct  SphericalHarmonicsL2_t480 
+struct  SphericalHarmonicsL2_t6_74 
 {
 	// System.Single UnityEngine.Rendering.SphericalHarmonicsL2::shr0
 	float ___shr0_0;

@@ -16,7 +16,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_ArrayList_ArrayListWrapper.h"
 
 // System.Collections.ArrayList/SynchronizedArrayListWrapper
-struct  SynchronizedArrayListWrapper_t1215  : public ArrayListWrapper_t1214
+struct  SynchronizedArrayListWrapper_t1_153  : public ArrayListWrapper_t1_152
 {
 	// System.Object System.Collections.ArrayList/SynchronizedArrayListWrapper::m_SyncRoot
 	Object_t * ___m_SyncRoot_6;

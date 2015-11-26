@@ -13,11 +13,11 @@
 #include <exception>
 
 // Mono.Xml.SmallXmlParserException
-struct SmallXmlParserException_t1210;
+struct SmallXmlParserException_t1_146;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Xml.SmallXmlParserException::.ctor(System.String,System.Int32,System.Int32)
-extern "C" void SmallXmlParserException__ctor_m7136 (SmallXmlParserException_t1210 * __this, String_t* ___msg, int32_t ___line, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmallXmlParserException__ctor_m1_1504 (SmallXmlParserException_t1_146 * __this, String_t* ___msg, int32_t ___line, int32_t ___column, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Specialized.ListDictionary/DictionaryNode
-struct DictionaryNode_t949;
+struct DictionaryNode_t2_5;
 // System.Collections.IComparer
-struct IComparer_t951;
+struct IComparer_t1_178;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Specialized.ListDictionary
-struct  ListDictionary_t948  : public Object_t
+struct  ListDictionary_t2_4  : public Object_t
 {
 	// System.Int32 System.Collections.Specialized.ListDictionary::count
 	int32_t ___count_0;
 	// System.Int32 System.Collections.Specialized.ListDictionary::version
 	int32_t ___version_1;
 	// System.Collections.Specialized.ListDictionary/DictionaryNode System.Collections.Specialized.ListDictionary::head
-	DictionaryNode_t949 * ___head_2;
+	DictionaryNode_t2_5 * ___head_2;
 	// System.Collections.IComparer System.Collections.Specialized.ListDictionary::comparer
 	Object_t * ___comparer_3;
 };

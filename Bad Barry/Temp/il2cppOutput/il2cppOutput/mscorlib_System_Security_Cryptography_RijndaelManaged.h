@@ -14,6 +14,6 @@
 #include "mscorlib_System_Security_Cryptography_Rijndael.h"
 
 // System.Security.Cryptography.RijndaelManaged
-struct  RijndaelManaged_t1576  : public Rijndael_t926
+struct  RijndaelManaged_t1_586  : public Rijndael_t1_585
 {
 };

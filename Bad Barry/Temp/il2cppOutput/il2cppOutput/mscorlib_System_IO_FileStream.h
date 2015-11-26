@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Byte[]
-struct ByteU5BU5D_t740;
+struct ByteU5BU5D_t1_70;
 // System.String
 struct String_t;
 
@@ -20,7 +20,7 @@ struct String_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.IO.FileStream
-struct  FileStream_t919  : public Stream_t851
+struct  FileStream_t1_235  : public Stream_t1_217
 {
 	// System.IO.FileAccess System.IO.FileStream::access
 	int32_t ___access_1;
@@ -35,7 +35,7 @@ struct  FileStream_t919  : public Stream_t851
 	// System.Boolean System.IO.FileStream::anonymous
 	bool ___anonymous_6;
 	// System.Byte[] System.IO.FileStream::buf
-	ByteU5BU5D_t740* ___buf_7;
+	ByteU5BU5D_t1_70* ___buf_7;
 	// System.Int32 System.IO.FileStream::buf_size
 	int32_t ___buf_size_8;
 	// System.Int32 System.IO.FileStream::buf_length

@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.FormatException
-struct  FormatException_t905  : public SystemException_t1104
+struct  FormatException_t1_720  : public SystemException_t1_147
 {
 };

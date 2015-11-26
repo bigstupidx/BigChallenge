@@ -14,6 +14,6 @@
 #include "mscorlib_System_Exception.h"
 
 // System.ApplicationException
-struct  ApplicationException_t663  : public Exception_t82
+struct  ApplicationException_t1_684  : public Exception_t1_33
 {
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Text.RegularExpressions.Syntax.Expression
-struct  Expression_t1063  : public Object_t
+struct  Expression_t2_125  : public Object_t
 {
 };

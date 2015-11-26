@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Texture.h"
 
 // UnityEngine.Texture2D
-struct  Texture2D_t201  : public Texture_t251
+struct  Texture2D_t6_33  : public Texture_t6_32
 {
 };

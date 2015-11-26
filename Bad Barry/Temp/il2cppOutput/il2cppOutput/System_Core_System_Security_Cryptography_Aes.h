@@ -14,6 +14,6 @@
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 
 // System.Security.Cryptography.Aes
-struct  Aes_t743  : public SymmetricAlgorithm_t739
+struct  Aes_t4_7  : public SymmetricAlgorithm_t1_109
 {
 };

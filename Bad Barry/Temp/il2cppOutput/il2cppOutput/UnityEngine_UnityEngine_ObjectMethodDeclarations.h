@@ -13,10 +13,10 @@
 #include <exception>
 
 // UnityEngine.Object
-struct Object_t79;
-struct Object_t79_marshaled;
+struct Object_t6_5;
+struct Object_t6_5_marshaled;
 // UnityEngine.Object[]
-struct ObjectU5BU5D_t85;
+struct ObjectU5BU5D_t6_233;
 // System.Type
 struct Type_t;
 // System.String
@@ -31,57 +31,57 @@ struct Object_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Object::.ctor()
-extern "C" void Object__ctor_m2884 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object__ctor_m6_647 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)
-extern "C" Object_t79 * Object_Internal_CloneSingle_m2885 (Object_t * __this /* static, unused */, Object_t79 * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Object_Internal_CloneSingle_m6_648 (Object_t * __this /* static, unused */, Object_t6_5 * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C" Object_t79 * Object_Internal_InstantiateSingle_m2886 (Object_t * __this /* static, unused */, Object_t79 * ___data, Vector3_t12  ___pos, Quaternion_t91  ___rot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Object_Internal_InstantiateSingle_m6_649 (Object_t * __this /* static, unused */, Object_t6_5 * ___data, Vector3_t6_49  ___pos, Quaternion_t6_51  ___rot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-extern "C" Object_t79 * Object_INTERNAL_CALL_Internal_InstantiateSingle_m2887 (Object_t * __this /* static, unused */, Object_t79 * ___data, Vector3_t12 * ___pos, Quaternion_t91 * ___rot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Object_INTERNAL_CALL_Internal_InstantiateSingle_m6_650 (Object_t * __this /* static, unused */, Object_t6_5 * ___data, Vector3_t6_49 * ___pos, Quaternion_t6_51 * ___rot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
-extern "C" void Object_Destroy_m2888 (Object_t * __this /* static, unused */, Object_t79 * ___obj, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_Destroy_m6_651 (Object_t * __this /* static, unused */, Object_t6_5 * ___obj, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-extern "C" void Object_Destroy_m400 (Object_t * __this /* static, unused */, Object_t79 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_Destroy_m6_652 (Object_t * __this /* static, unused */, Object_t6_5 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object,System.Boolean)
-extern "C" void Object_DestroyImmediate_m2889 (Object_t * __this /* static, unused */, Object_t79 * ___obj, bool ___allowDestroyingAssets, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_DestroyImmediate_m6_653 (Object_t * __this /* static, unused */, Object_t6_5 * ___obj, bool ___allowDestroyingAssets, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-extern "C" void Object_DestroyImmediate_m2234 (Object_t * __this /* static, unused */, Object_t79 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_DestroyImmediate_m6_654 (Object_t * __this /* static, unused */, Object_t6_5 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type)
-extern "C" ObjectU5BU5D_t85* Object_FindObjectsOfType_m348 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t6_233* Object_FindObjectsOfType_m6_655 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Object::get_name()
-extern "C" String_t* Object_get_name_m437 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Object_get_name_m6_656 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::set_name(System.String)
-extern "C" void Object_set_name_m436 (Object_t79 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_set_name_m6_657 (Object_t6_5 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
-extern "C" void Object_DontDestroyOnLoad_m416 (Object_t * __this /* static, unused */, Object_t79 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_DontDestroyOnLoad_m6_658 (Object_t * __this /* static, unused */, Object_t6_5 * ___target, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-extern "C" void Object_set_hideFlags_m2136 (Object_t79 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_set_hideFlags_m6_659 (Object_t6_5 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Object::ToString()
-extern "C" String_t* Object_ToString_m2890 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Object_ToString_m6_660 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::Equals(System.Object)
-extern "C" bool Object_Equals_m2891 (Object_t79 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_Equals_m6_661 (Object_t6_5 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Object::GetHashCode()
-extern "C" int32_t Object_GetHashCode_m2892 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Object_GetHashCode_m6_662 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::CompareBaseObjects(UnityEngine.Object,UnityEngine.Object)
-extern "C" bool Object_CompareBaseObjects_m2893 (Object_t * __this /* static, unused */, Object_t79 * ___lhs, Object_t79 * ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_CompareBaseObjects_m6_663 (Object_t * __this /* static, unused */, Object_t6_5 * ___lhs, Object_t6_5 * ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::IsNativeObjectAlive(UnityEngine.Object)
-extern "C" bool Object_IsNativeObjectAlive_m2894 (Object_t * __this /* static, unused */, Object_t79 * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_IsNativeObjectAlive_m6_664 (Object_t * __this /* static, unused */, Object_t6_5 * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Object::GetInstanceID()
-extern "C" int32_t Object_GetInstanceID_m2895 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Object_GetInstanceID_m6_665 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr UnityEngine.Object::GetCachedPtr()
-extern "C" IntPtr_t Object_GetCachedPtr_m2896 (Object_t79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t Object_GetCachedPtr_m6_666 (Object_t6_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Object::Instantiate(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-extern "C" Object_t79 * Object_Instantiate_m415 (Object_t * __this /* static, unused */, Object_t79 * ___original, Vector3_t12  ___position, Quaternion_t91  ___rotation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Object_Instantiate_m6_667 (Object_t * __this /* static, unused */, Object_t6_5 * ___original, Vector3_t6_49  ___position, Quaternion_t6_51  ___rotation, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Object::CheckNullArgument(System.Object,System.String)
-extern "C" void Object_CheckNullArgument_m2897 (Object_t * __this /* static, unused */, Object_t * ___arg, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_CheckNullArgument_m6_668 (Object_t * __this /* static, unused */, Object_t * ___arg, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Object::FindObjectOfType(System.Type)
-extern "C" Object_t79 * Object_FindObjectOfType_m2898 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t6_5 * Object_FindObjectOfType_m6_669 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-extern "C" bool Object_op_Implicit_m397 (Object_t * __this /* static, unused */, Object_t79 * ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_op_Implicit_m6_670 (Object_t * __this /* static, unused */, Object_t6_5 * ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-extern "C" bool Object_op_Equality_m342 (Object_t * __this /* static, unused */, Object_t79 * ___x, Object_t79 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Object_op_Equality_m6_671 (Object_t * __this /* static, unused */, Object_t6_5 * ___x, Object_t6_5 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-extern "C" bool Object_op_Inequality_m349 (Object_t * __this /* static, unused */, Object_t79 * ___x, Object_t79 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void Object_t79_marshal(const Object_t79& unmarshaled, Object_t79_marshaled& marshaled);
-extern "C" void Object_t79_marshal_back(const Object_t79_marshaled& marshaled, Object_t79& unmarshaled);
-extern "C" void Object_t79_marshal_cleanup(Object_t79_marshaled& marshaled);
+extern "C" bool Object_op_Inequality_m6_672 (Object_t * __this /* static, unused */, Object_t6_5 * ___x, Object_t6_5 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Object_t6_5_marshal(const Object_t6_5& unmarshaled, Object_t6_5_marshaled& marshaled);
+extern "C" void Object_t6_5_marshal_back(const Object_t6_5_marshaled& marshaled, Object_t6_5& unmarshaled);
+extern "C" void Object_t6_5_marshal_cleanup(Object_t6_5_marshaled& marshaled);

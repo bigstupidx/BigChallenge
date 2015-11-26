@@ -19,7 +19,7 @@ struct String_t;
 #include "mscorlib_System_Resources_ResourceReader_ResourceInfo.h"
 
 // System.Void System.Resources.ResourceReader/ResourceInfo::.ctor(System.String,System.Int64,System.Int32)
-extern "C" void ResourceInfo__ctor_m8582 (ResourceInfo_t1383 * __this, String_t* ___resourceName, int64_t ___valuePosition, int32_t ___type_index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void ResourceInfo_t1383_marshal(const ResourceInfo_t1383& unmarshaled, ResourceInfo_t1383_marshaled& marshaled);
-extern "C" void ResourceInfo_t1383_marshal_back(const ResourceInfo_t1383_marshaled& marshaled, ResourceInfo_t1383& unmarshaled);
-extern "C" void ResourceInfo_t1383_marshal_cleanup(ResourceInfo_t1383_marshaled& marshaled);
+extern "C" void ResourceInfo__ctor_m1_2994 (ResourceInfo_t1_360 * __this, String_t* ___resourceName, int64_t ___valuePosition, int32_t ___type_index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceInfo_t1_360_marshal(const ResourceInfo_t1_360& unmarshaled, ResourceInfo_t1_360_marshaled& marshaled);
+extern "C" void ResourceInfo_t1_360_marshal_back(const ResourceInfo_t1_360_marshaled& marshaled, ResourceInfo_t1_360& unmarshaled);
+extern "C" void ResourceInfo_t1_360_marshal_cleanup(ResourceInfo_t1_360_marshaled& marshaled);

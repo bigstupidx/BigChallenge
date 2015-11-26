@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void ParameterModifier_t1372_marshal(const ParameterModifier_t1372& unmarshaled, ParameterModifier_t1372_marshaled& marshaled);
-extern "C" void ParameterModifier_t1372_marshal_back(const ParameterModifier_t1372_marshaled& marshaled, ParameterModifier_t1372& unmarshaled);
-extern "C" void ParameterModifier_t1372_marshal_cleanup(ParameterModifier_t1372_marshaled& marshaled);
+extern "C" void ParameterModifier_t1_349_marshal(const ParameterModifier_t1_349& unmarshaled, ParameterModifier_t1_349_marshaled& marshaled);
+extern "C" void ParameterModifier_t1_349_marshal_back(const ParameterModifier_t1_349_marshaled& marshaled, ParameterModifier_t1_349& unmarshaled);
+extern "C" void ParameterModifier_t1_349_marshal_cleanup(ParameterModifier_t1_349_marshaled& marshaled);
