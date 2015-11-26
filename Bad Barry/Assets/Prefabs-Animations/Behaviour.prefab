@@ -41,6 +41,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelingUp: 0
   levelsUp: 0
+  experience: 0
+  neededExperience: 100
+  life: 100
+  maxLife: 100
+  expendPoints: 0
+  previousScene: 0
+  selectedWeapon: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

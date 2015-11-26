@@ -5,13 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Scene and prefabs/Main.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Protype Scene and prefabs/Prototype.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Inventory/InventoryScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Atribute Scene/AtributeScreen.unity
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Protype Scene and prefabs/NewPrototype.unity
+=======
+    path: Assets/Scenes/Inventory/InventoryScene.unity
+>>>>>>> 3481d93bf5c6af370a3690986e77b9279c86629a

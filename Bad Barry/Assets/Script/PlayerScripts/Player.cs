@@ -46,7 +46,7 @@ public class Player : MonoBehaviour {
 	void Start () {
 		Time.timeScale = 1;
 		CrossPlatformInputManager.SetButtonUp("Fire");
-		print(CrossPlatformInputManager.GetButton("Fire"));
+//		print(CrossPlatformInputManager.GetButton("Fire"));
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		strength = behave.getStrength();
