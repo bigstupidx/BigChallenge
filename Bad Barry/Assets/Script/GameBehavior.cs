@@ -79,31 +79,43 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
+	public void GoToMap(){
+
+		DontDestroyOnLoad (gameObject);
+		life = maxLife;
+
+		Application.LoadLevel("MapScene");
+		
+		
+	}
+
 	public void GoToMission(int missionNumber){
 
-		var missionName = "Mission" + missionNumber;
-
-		SaveCurrentSceneState ();
-		
-		DontDestroyOnLoad (gameObject);
-		previousScene = Application.loadedLevel;
-
-		//verifica se a cena pode ser carregada
-		if (Application.CanStreamedLevelBeLoaded(missionName)) {
-
-			Application.LoadLevel (missionName);
-
-		} else {
-			print("Erro ao carregar uma nova cena");
-		}
+		Play ();
+		//funcao para quando tiver mais de uma missao
+//		var missionName = "Mission" + missionNumber;
+//
+//		SaveCurrentSceneState ();
+//		
+//		DontDestroyOnLoad (gameObject);
+//		previousScene = Application.loadedLevel;
+//
+//		//verifica se a cena pode ser carregada
+//		if (Application.CanStreamedLevelBeLoaded(missionName)) {
+//
+//			Application.LoadLevel (missionName);
+//
+//		} else {
+//			print("Erro ao carregar uma nova cena");
+//		}
 
 	}
 
 	//go to last scene
 	public void GoToLastScene(){
 
-		//Application.LoadLevel(previousScene);
-		Play();
+		Application.LoadLevel("MapScene");
+		//Play();
 
 	}
 

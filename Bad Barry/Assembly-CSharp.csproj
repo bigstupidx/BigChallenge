@@ -109,7 +109,11 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
+<<<<<<< HEAD
  <HintPath>/Users/Hyago1/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+=======
+ <HintPath>/Users/Lucas/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+>>>>>>> 9159318f7299286ad75cb050c81df1f00d050f84
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
