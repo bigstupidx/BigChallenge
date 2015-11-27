@@ -144,4 +144,32 @@ public class Inventory : MonoBehaviour {
 		return false;
 		
 	}
+
+	public void UpdateInGame(){
+	
+		List<Item> content = new List<Item> ();
+
+		for(int i = 0; i < slots2.Count ; i ++){
+
+			if(slots2[i].GetComponentInChildren<ItemData>()){
+
+				content.Add(slots2[i].GetComponentInChildren<ItemData>().item);
+
+			}
+			else{
+				content.Add(null);
+			}
+		}
+
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.setInventoryItems(content);
+	
+	
+	}
+
+
+
+
+
 }

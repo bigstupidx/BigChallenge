@@ -14,7 +14,7 @@ public class ItemDatabase : MonoBehaviour {
 		itemData = JsonMapper.ToObject (File.ReadAllText (Pathing.AppContentDataUri));;
 
 		ConstructItemDatabase ();
-		Debug.Log (FetchItemByID(0).Description);
+//		Debug.Log (FetchItemByID(0).Description);
 	}
 
 	public Item FetchItemByID(int id){

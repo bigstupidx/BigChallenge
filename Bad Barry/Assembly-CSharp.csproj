@@ -83,12 +83,9 @@
      <Compile Include="Assets\Script\UI\AutoGridLayout.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Script\Weapon Scripts\WeaponStats.cs" />
-=======
      <Compile Include="Assets\Script\goal.cs" />
      <Compile Include="Assets\Script\menuPause.cs" />
->>>>>>> a041dc3a0c7fc0a2318fc293cd5379a7a1c46b41
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
@@ -112,7 +109,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/Hyago1/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/Neves/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

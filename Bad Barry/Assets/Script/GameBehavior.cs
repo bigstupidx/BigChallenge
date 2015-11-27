@@ -102,7 +102,8 @@ public class GameBehavior : MonoBehaviour {
 	//go to last scene
 	public void GoToLastScene(){
 
-		Application.LoadLevel(previousScene);
+		//Application.LoadLevel(previousScene);
+		Play();
 
 	}
 
@@ -156,18 +157,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public List<Item> getInventoryItems(){
 
-		//return inventoryItems;
 
-		//teste para ver inventario pega o item certo
-		Item itemToAdd = new Item();
-
-		List<Item> items = new List<Item> ();
-		items.Add(itemToAdd);
-		items.Add(itemToAdd);
-		items.Add(itemToAdd);
-		print (items);
-
-		return items;
+		return inventoryItems;
 
 	}
 

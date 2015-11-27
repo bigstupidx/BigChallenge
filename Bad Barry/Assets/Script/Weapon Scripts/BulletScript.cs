@@ -8,7 +8,6 @@ public class BulletScript : MonoBehaviour {
 	public int baseDamage = 0;
 	public int direction = 0;
 	public GameObject origin;
-	public int tag = 0;
 	// Use this for initialization
 	void Start () {
 
@@ -84,7 +83,6 @@ public class BulletScript : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col){
 
-		print("colidi");
 
 
 
@@ -111,7 +109,7 @@ public class BulletScript : MonoBehaviour {
 			Destroy(this.gameObject);
 		}
 
-		if (col.gameObject.tag == "Destructable" && tag == 2) {
+		if (col.gameObject.tag == "Destructable") {
 			Destroy(this.gameObject);
 			Destroy(GameObject.FindGameObjectsWithTag("ParedeSecondMap")[0]);
 			Destroy(col.gameObject);

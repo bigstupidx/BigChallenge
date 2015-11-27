@@ -8,23 +8,34 @@ public class InventoryInMission : MonoBehaviour {
 
 	private List<Item> inventoryItems = new List<Item>();
 	private Image[] itemsInGame;
-	public Sprite spriteteste;
+
+
 
 	void Start(){
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		inventoryItems = behave.getInventoryItems();
-
-		print (inventoryItems);
 		itemsInGame = gameObject.GetComponentsInChildren<Image>();
-
-		int index = 0;
-		foreach(Image image in itemsInGame){
-			if(image.name == "Image"){
-				if(index < inventoryItems.Count)
-					image.GetComponentInChildren<Image>().sprite = spriteteste;
-				index++;
+		if(inventoryItems != null){
+			int index = 0;
+			foreach(Image image in itemsInGame){
+				if(image.name == "Image"){
+					if(inventoryItems.Count > index){
+						if(inventoryItems[index] != null){
+							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].Sprite;
+							var x = image.GetComponentInChildren<Image>();
+							x.color = Color.white;
+						}
+						else{
+							var x = image.GetComponentInChildren<Image>();
+							x.color = Color.clear;
+						}
+							
+					}
+					index++;
+				}
 			}
 		}
+
 
 
 //		items [i] = itemToAdd;
@@ -42,7 +53,26 @@ public class InventoryInMission : MonoBehaviour {
 
 	//funcao para usar item
 	public void ItemPressed(int itemNumber){
-		print (itemsInGame [itemNumber].name);
-			return;
+		print(itemNumber);
+		if(inventoryItems != null){
+
+			if(inventoryItems[itemNumber] != null){
+				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
+
+
+				switch(inventoryItems[itemNumber].ID){
+				case 0 : player.ChangeWeapon(0);
+					break;
+				case 1: player.Heal(10);
+					break;
+				case 2 : player.ChangeWeapon(1);
+					break;
+
+				}
+			}
+
+		}
+		return;
 	}
 }
