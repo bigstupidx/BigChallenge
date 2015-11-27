@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour {
 	public int shootDirection = 0;
 	public GameObject weapon;
 
+	public int selectedWeapon = 0;
+
 	public float experience = 0;
 	
 	private Animator bothAnimator;
@@ -72,16 +74,17 @@ public class Enemy : MonoBehaviour {
 	}
 
 
-	
+
 	void Shoot(){
-		fireRate = weapon.GetComponent<Weapon> ().fireRate;
+
+		var x = weapon.GetComponent<Weapon>().weapons[selectedWeapon];
+		fireRate = x.GetComponent<WeaponStats>().fireRate;
 		if (isShooting) {
 			
 			
 			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage);
-			print("ratatata");
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,selectedWeapon);
 			}
 			torsoAnimator.SetBool("Shooting",true);
 			

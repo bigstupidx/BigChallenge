@@ -46,7 +46,6 @@ public class Player : MonoBehaviour {
 	void Start () {
 		Time.timeScale = 1;
 		CrossPlatformInputManager.SetButtonUp("Fire");
-		print(CrossPlatformInputManager.GetButton("Fire"));
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		strength = behave.getStrength();
@@ -55,6 +54,12 @@ public class Player : MonoBehaviour {
 		vitality = behave.getVitality();
 		isShooting = false;
 
+
+		maxLife = vitality * 10;
+		baseDamage = strength * 2;
+		speed = agility * 0.15f;
+
+
 		experience = behave.experience;
 		life = behave.life;
 		if(life <= 0){
@@ -62,7 +67,6 @@ public class Player : MonoBehaviour {
 			behave.life = life;
 		}
 		neededExperience = behave.neededExperience;
-		maxLife = behave.maxLife;
 
 
 
@@ -70,16 +74,20 @@ public class Player : MonoBehaviour {
 
 		//HUD
 		hudGame = HUD.GetComponent<HUDGame> ();
-		hudGame.initLife (this);
 
+		hudGame.initLife ();
+		/*
+		hudGame.takeDamage();
+		hudGame.incrementXp ();
+*/
 
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
 		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();
-		hudGame.takeDamage(this);
-		hudGame.incrementXp (this);
+
 
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
+
 
 	}
 	
@@ -95,17 +103,19 @@ public class Player : MonoBehaviour {
 
 	}
 
-	public void ChangeWeapon(){
+	public void ChangeWeapon(int weapon){
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-
+		behave.selectedWeapon = weapon;
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
 	}
 
 
 	void Shoot(){
-		fireRate = weapon.GetComponent<Weapon> ().fireRate;
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		fireRate = weapon.GetComponent<Weapon> ().weapons[behave.selectedWeapon].GetComponent<WeaponStats>().fireRate;
 
 		isShooting = CrossPlatformInputManager.GetButton("Fire");
 
@@ -114,7 +124,7 @@ public class Player : MonoBehaviour {
 
 			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage);
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
 			}
 			torsoAnimator.SetBool("Shooting",true);
 
@@ -143,8 +153,7 @@ public class Player : MonoBehaviour {
 	//take damage function damage is the damage taken wich will be affected by armor
 	public void TakeDamage(int damage){
 		
-		print("ouch");
-		
+
 		int trueDamage = damage - armor;
 		
 		if (life <= trueDamage) {
@@ -152,13 +161,13 @@ public class Player : MonoBehaviour {
 			life = 0;
 			StartCoroutine(Die());
 			
-			hudGame.playerDead(this);
+			hudGame.playerDead();
 			
 		} else {
 			
 			life = life - trueDamage;	
 			
-			hudGame.takeDamage(this);
+			hudGame.takeDamage();
 			
 		}
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
@@ -181,7 +190,7 @@ public class Player : MonoBehaviour {
 			LevelUp();
 		}
 
-		hudGame.incrementXp (this);
+		hudGame.incrementXp ();
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.experience = experience;
@@ -297,7 +306,7 @@ public class Player : MonoBehaviour {
 
 		} else {
 		
-			legAnimator.SetBool ("IsRunning", false); 
+ 			legAnimator.SetBool ("IsRunning", false); 
 
 		}
 

@@ -18,8 +18,7 @@ public class HUDGame: MonoBehaviour {
 	
 	
 	void Start () {
-		healthSliderImage = healthSlider.GetComponentInChildren<Image> ();
-		xpSliderImage = xpSlider.GetComponentInChildren<Image> ();
+
 
 
 	}
@@ -28,7 +27,13 @@ public class HUDGame: MonoBehaviour {
 		
 	}
 	
-	public void initLife(Player player){
+	public void initLife(){
+
+
+		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		healthSliderImage = healthSlider.GetComponentInChildren<Image> ();
+		xpSliderImage = xpSlider.GetComponentInChildren<Image> ();
+
 		healthSlider.maxValue = player.maxLife;
 		healthSlider.value = player.maxLife;
 		healthSliderImage.gameObject.SetActive (true);
@@ -42,11 +47,15 @@ public class HUDGame: MonoBehaviour {
 
 	}
 	
-	public void takeDamage(Player player){
+	public void takeDamage(){
+		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
 		healthSlider.value = player.life;
 	}
 
-	public void incrementXp(Player player){
+	public void incrementXp(){
+
+		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 		xpSliderImage.gameObject.SetActive (true);
 		xpSlider.value = player.experience;
@@ -58,7 +67,8 @@ public class HUDGame: MonoBehaviour {
 		}
 	}
 	
-	public void playerDead(Player player){
+	public void playerDead(){
+
 		healthSliderImage.gameObject.SetActive (false);
 		
 	}

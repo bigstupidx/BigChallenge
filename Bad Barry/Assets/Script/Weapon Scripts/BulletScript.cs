@@ -84,11 +84,16 @@ public class BulletScript : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col){
 
+		print("colidi");
+
+
+
 		maxDamage = maxDamage + baseDamage;
 
 		minDamage = minDamage + baseDamage;
 
 		if (col.gameObject.tag == "Player" && col.gameObject != origin) {
+
 
 			col.gameObject.GetComponent<Player>().TakeDamage(Random.Range(minDamage,maxDamage));
 			Destroy (this.gameObject);

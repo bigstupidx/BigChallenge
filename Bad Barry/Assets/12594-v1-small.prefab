@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.1225967, y: -13.3588533, z: 0}
+  m_LocalPosition: {x: -13.7636805, y: -12.3977556, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -41,9 +41,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: -.00116634369, y: .00321674347}
+  m_Offset: {x: -.00116634369, y: .00429105759}
   serializedVersion: 2
-  m_Size: {x: .101574779, y: .0409257859}
+  m_Size: {x: .270000011, y: .119999997}
 --- !u!95 &9510680
 Animator:
   serializedVersion: 3
@@ -96,7 +96,9 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_MinimumChartSize: 4
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
@@ -135,6 +137,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c15cae0963950459bafd159bf76c7e1c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Size.x
+      value: .270000011
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.y
+      value: .119999997
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 176162}

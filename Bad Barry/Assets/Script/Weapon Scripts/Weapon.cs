@@ -2,20 +2,10 @@
 using System.Collections;
 
 public class Weapon : MonoBehaviour {
+	
 
-	//public float fireRate = 0;
-	public int minDamage = 10;
-	public int maxDamage = 20;
-	public int bulletSpeed = 20;
-	public float fireRate = 0;
-	public float xValueUp = 0.10f;
-	public float yValueUp = 0.40f;
-	public float xValueRight = 0.50f;
-	public float yValueRight = 0;
-	public float xValueLeft = -0.50f;
-	public float yValueLeft = 0;
-	public float xValueDown = 0.05f;
-	public float yValueDown = -0.40f;
+	public GameObject[] weapons;
+
 
 	//public LayerMask notToHit;
 
@@ -34,35 +24,36 @@ public class Weapon : MonoBehaviour {
 
 	}
 
-	public void Shoot(int direction, int baseDamage){
+	public void Shoot(int direction, int baseDamage,int weapon){
 		float xValue = 0f;
 		float yValue = 0f;
+		var selected = weapons[weapon].GetComponent<WeaponStats>();
+
 		if (direction == 0) {
-			yValue = yValueUp;
-			xValue = xValueUp;
+			yValue = selected.yValueUp;
+			xValue = selected.xValueUp;
 		} else if (direction == 1) {
-			xValue = xValueRight;
+			xValue = selected.xValueRight;
+			yValue = selected.yValueRight;
 		} else if (direction == 2) {
-			yValue = yValueDown;
-			xValue = xValueDown;
+			yValue = selected.yValueDown;
+			xValue = selected.xValueDown;
 		} else if (direction == 3) {
-			xValue = xValueLeft;
+			xValue = selected.xValueLeft;
+			yValue = selected.yValueLeft;
 		}
 
 		Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
-//		print ("firePoint" + firePoint.position);
-//		print ("transform" + transform.position);
-		//Handheld.Vibrate ();
-		if (bullet == null) {
+				if (bullet == null) {
 		
 			print ("null found");
 			
 		} else {
 			bullet.GetComponent<BulletScript> ().direction = direction;
 			bullet.GetComponent<BulletScript> ().baseDamage = baseDamage;
-			bullet.GetComponent<BulletScript> ().minDamage = minDamage;
-			bullet.GetComponent<BulletScript> ().maxDamage = maxDamage;
-			bullet.GetComponent<BulletScript> ().speed = bulletSpeed;
+			bullet.GetComponent<BulletScript> ().minDamage = selected.minDamage;
+			bullet.GetComponent<BulletScript> ().maxDamage = selected.maxDamage;
+			bullet.GetComponent<BulletScript> ().speed = selected.bulletSpeed;
 			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
 		}
 
