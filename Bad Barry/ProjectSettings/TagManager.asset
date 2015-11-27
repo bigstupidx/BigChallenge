@@ -19,6 +19,7 @@ TagManager:
   - Behaviour
   - Parede
   - ParedeSecondMap
+  - GoToMap
   layers:
   - Default
   - TransparentFX

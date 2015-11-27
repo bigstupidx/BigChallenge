@@ -6,6 +6,7 @@ public class Retry : MonoBehaviour {
 
 	public Button retryButton;
 	public Text text;
+	public string textContent;
 	public bool click = false;
 
 
@@ -23,13 +24,19 @@ public class Retry : MonoBehaviour {
 	public void activate()
 	{	
 		click = true;
-		text.text = "RETRY";
+		text.text = textContent;
 	}
 
 	public void retry()
 	{
 		if(click){
-			Application.LoadLevel (Application.loadedLevel);
+			if(textContent == "retry"){
+				Application.LoadLevel ("NewPrototype");
+			}else{
+
+				Application.LoadLevel ("MapScene");
+			}
+
 
 		}
 

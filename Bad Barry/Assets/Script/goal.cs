@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class goal : MonoBehaviour {
-	Animator info;
+	public Transform menu;
+	//public Button retryButton;
+	public Text text;
+
 	// Use this for initialization
 	void Start () {
-		info = GetComponent<Animator> ();
+		Transform retry = GameObject.FindWithTag("Retry").transform;
 	}
 	
 	// Update is called once per frame
@@ -17,7 +21,9 @@ public class goal : MonoBehaviour {
 		print ("Bateu");
 		if (col.gameObject.tag == "Player") {
 			Destroy(this.gameObject);
-			//info.SetBool("IsOpen",value);
+			Instantiate(menu,col.gameObject.transform.position + (col.gameObject.transform.forward * 2),col.gameObject.transform.rotation);
+			Transform retry = GameObject.FindWithTag("GoToMap").transform;
+			retry.GetComponent<Retry> ().activate();
 			Time.timeScale = 0;
 		}
 	}
