@@ -24,7 +24,11 @@ public class Weapon : MonoBehaviour {
 
 	}
 
+<<<<<<< HEAD
 	public void Shoot(int direction, int baseDamage,int weapon){
+=======
+	public void Shoot(int direction, int baseDamage,int tag){
+>>>>>>> a041dc3a0c7fc0a2318fc293cd5379a7a1c46b41
 		float xValue = 0f;
 		float yValue = 0f;
 		var selected = weapons[weapon].GetComponent<WeaponStats>();
@@ -55,6 +59,7 @@ public class Weapon : MonoBehaviour {
 			bullet.GetComponent<BulletScript> ().maxDamage = selected.maxDamage;
 			bullet.GetComponent<BulletScript> ().speed = selected.bulletSpeed;
 			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
+			bullet.GetComponent<BulletScript> ().tag = tag;
 		}
 
 

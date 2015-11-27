@@ -46,6 +46,10 @@ public class Player : MonoBehaviour {
 	void Start () {
 		Time.timeScale = 1;
 		CrossPlatformInputManager.SetButtonUp("Fire");
+<<<<<<< HEAD
+=======
+//		print(CrossPlatformInputManager.GetButton("Fire"));
+>>>>>>> a041dc3a0c7fc0a2318fc293cd5379a7a1c46b41
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		strength = behave.getStrength();
@@ -124,7 +128,11 @@ public class Player : MonoBehaviour {
 
 			if (time > fireRate) {
 				time = 0;
+<<<<<<< HEAD
 				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
+=======
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,2);
+>>>>>>> a041dc3a0c7fc0a2318fc293cd5379a7a1c46b41
 			}
 			torsoAnimator.SetBool("Shooting",true);
 

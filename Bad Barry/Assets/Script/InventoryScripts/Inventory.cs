@@ -8,34 +8,48 @@ public class Inventory : MonoBehaviour {
 
 	GameObject inventoryPanel;
 	GameObject slotPanel;
+	GameObject slotPanel2;
 	ItemDatabase database;
 	public GameObject inventorySlot;
 	public GameObject inventoryItem;
 
-	GameObject Options;
+	//GameObject Options;
 
+	// VARIAVEIS PARA O SLOTPANEL DE CIMA
 	int slotAmount;
 	public List<Item> items = new List<Item> ();
 	public List<GameObject> slots = new List<GameObject> ();
 	public List<GameObject> itemsList = new List<GameObject> ();
 
+	//VARIAVEIS PARA O SLOT PANEL DE BAIXO
+	int slotAmount2;
+	public List<Item> items2 = new List<Item> ();
+	public List<GameObject> slots2 = new List<GameObject> ();
+	public List<GameObject> itemsList2 = new List<GameObject> ();
+
 	void Start(){
 		database = GetComponent<ItemDatabase> ();
 
-		slotAmount = 18;
+		slotAmount = 10;
+		slotAmount2 = 53;
 		inventoryPanel = GameObject.Find ("inventory Panel");
 		slotPanel = inventoryPanel.transform.FindChild ("slot Panel").gameObject;
+		slotPanel2 = inventoryPanel.transform.FindChild ("slot In Game Panel").gameObject;
 
-		Options = GameObject.Find("Options");
-
-
+		//Options = GameObject.Find("Options");
 
 		for (int i = 0; i < slotAmount; i++) {
 			items.Add (new Item());
 			slots.Add (Instantiate(inventorySlot));
 			slots[i].GetComponent<Slot>().id = i;
 			slots[i].transform.SetParent (slotPanel.transform);
+		}
 
+		for (int i = 50; i < slotAmount2; i++) {
+			items2.Add (new Item());
+			slots2.Add (Instantiate(inventorySlot));
+			slots2[i-50].GetComponent<Slot>().id = i;
+			slots2[i-50].transform.SetParent (slotPanel2.transform);
 		}
 
 		AddItem (0);
@@ -44,11 +58,13 @@ public class Inventory : MonoBehaviour {
 		AddItem (1);
 		AddItem (1);
 		AddItem (2);
+		//AddItem2 (0);
 
 	}
 
 	public void AddItem(int id){
 		Item itemToAdd = database.FetchItemByID (id);
+
 		if (itemToAdd.Stackable && CheckIfItemIsInventory (itemToAdd)) {
 			for (int i=0; i< items.Count; i++) {
 				if (items [i].ID == id) {
@@ -86,17 +102,9 @@ public class Inventory : MonoBehaviour {
 				data.amount--;
 				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
 
-				if(data.amount == 0){
+				if(data.amount == 0)
 					RemoveItem(id);
-
-
-				}
-				var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-				behave.life = behave.life + 20;
-				if(behave.life > behave.maxLife){
-
-					behave.life = behave.maxLife;
-				}
+				//CHAMAR FUNCAO PARA AUMENTAR A VIDA IN GAME
 
 					break;
 				}
@@ -106,18 +114,14 @@ public class Inventory : MonoBehaviour {
 	public void RemoveItem(int id){
 		for (int i=0; i<items.Count; i++) {
 			if (items [i].ID == id) {
-
 				for(int j=0; j<itemsList.Count; j++){
-
-					Debug.Log(itemsList[j].name);
 
 					if(itemsList[j].name == items[i].Title){
 						Destroy(itemsList[j]);
+						items[i].ID = -1;
 						itemsList.RemoveAt(j);
 					}
 				}
-
-				Debug.Log ("Entrou para remover");
 				
 				break;
 			}
@@ -131,5 +135,13 @@ public class Inventory : MonoBehaviour {
 				return true;
 		return false;
 
+	}
+	bool CheckIfItemIsInventory2(Item item){
+		
+		for (int i=0; i< items2.Count; i++) 
+			if(items2[i].ID == item.ID)
+				return true;
+		return false;
+		
 	}
 }

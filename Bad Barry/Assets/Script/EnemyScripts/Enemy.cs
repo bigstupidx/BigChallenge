@@ -84,7 +84,12 @@ public class Enemy : MonoBehaviour {
 			
 			if (time > fireRate) {
 				time = 0;
+<<<<<<< HEAD
 				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,selectedWeapon);
+=======
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,1);
+				print("ratatata");
+>>>>>>> a041dc3a0c7fc0a2318fc293cd5379a7a1c46b41
 			}
 			torsoAnimator.SetBool("Shooting",true);
 			

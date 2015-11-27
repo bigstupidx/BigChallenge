@@ -3844,7 +3844,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Breath Down 0
-  m_Speed: .200000003
+  m_Speed: .0199999996
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110132762}

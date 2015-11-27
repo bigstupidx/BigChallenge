@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameBehavior : MonoBehaviour {
 
@@ -24,9 +25,11 @@ public class GameBehavior : MonoBehaviour {
 	private int vitality = 10;
 
 	public int previousScene;
-	private int previous;
 
 	public int selectedWeapon = 0;
+
+	//inventory items
+	private List<Item> inventoryItems;
 
 
 
@@ -58,8 +61,7 @@ public class GameBehavior : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
-		previous = previousScene;
-		print(previous);
+
 		Application.LoadLevel("AtributeScreen");
 
 
@@ -71,18 +73,36 @@ public class GameBehavior : MonoBehaviour {
 		
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
-		previous = previousScene;
+
 		Application.LoadLevel("InventoryScene");
 
+
+	}
+
+	public void GoToMission(int missionNumber){
+
+		var missionName = "Mission" + missionNumber;
+
+		SaveCurrentSceneState ();
+		
+		DontDestroyOnLoad (gameObject);
+		previousScene = Application.loadedLevel;
+
+		//verifica se a cena pode ser carregada
+		if (Application.CanStreamedLevelBeLoaded(missionName)) {
+
+			Application.LoadLevel (missionName);
+
+		} else {
+			print("Erro ao carregar uma nova cena");
+		}
 
 	}
 
 	//go to last scene
 	public void GoToLastScene(){
 
-		previousScene = 1;
 		Application.LoadLevel(previousScene);
-		
 
 	}
 
@@ -98,7 +118,7 @@ public class GameBehavior : MonoBehaviour {
 		print ("entrou");
 		DontDestroyOnLoad (gameObject);
 
-		Application.LoadLevel("Prototype");
+		Application.LoadLevel("NewPrototype");
 	}
 
 
@@ -127,12 +147,28 @@ public class GameBehavior : MonoBehaviour {
 		return inteligence;
 
 	}
-
-
+	
 	public int getVitality(){
 
 
 		return vitality;
+	}
+
+	public List<Item> getInventoryItems(){
+
+		//return inventoryItems;
+
+		//teste para ver inventario pega o item certo
+		Item itemToAdd = new Item();
+
+		List<Item> items = new List<Item> ();
+		items.Add(itemToAdd);
+		items.Add(itemToAdd);
+		items.Add(itemToAdd);
+		print (items);
+
+		return items;
+
 	}
 
 	public void setStrength(int value){
@@ -157,6 +193,10 @@ public class GameBehavior : MonoBehaviour {
 
 		vitality = value;
 
+	}
+
+	public void setInventoryItems(List<Item> items){
+		inventoryItems = items;
 	}
 
 	//incrementers
