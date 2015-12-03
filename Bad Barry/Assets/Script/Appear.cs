@@ -23,7 +23,6 @@ public class Appear : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D (Collider2D col){
-		print ("Bateu");
 		if (col.gameObject.tag == "Player") {
 			print (floors.Length);
 			foreach (GameObject floor in floors) {
