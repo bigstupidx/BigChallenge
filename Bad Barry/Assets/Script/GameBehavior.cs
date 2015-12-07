@@ -69,6 +69,10 @@ public class GameBehavior : MonoBehaviour {
 
 
 	public void GoToInventoryScene(){
+
+
+		print("ogayh");
+
 		SaveCurrentSceneState ();
 		
 		DontDestroyOnLoad (gameObject);

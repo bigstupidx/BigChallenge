@@ -44,7 +44,9 @@ public class Enemy : MonoBehaviour {
 
 	//take damage function damage is the damage taken
 	public void TakeDamage(int damage){
-		
+
+		print (damage);
+
 		if (life <= damage) {
 			
 			life = 0;

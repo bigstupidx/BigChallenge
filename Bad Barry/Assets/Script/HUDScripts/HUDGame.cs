@@ -7,10 +7,8 @@ public class HUDGame: MonoBehaviour {
 	public Menu currentMenu;
 	
 	//HUD life
-	public Slider healthSlider;
-	public Slider xpSlider;
-	private Image healthSliderImage;
-	private Image xpSliderImage;
+	public GameObject health;
+	public GameObject xp;
 	public GameObject lvlUp;
 	public static bool isPaused = false;
 
@@ -31,17 +29,13 @@ public class HUDGame: MonoBehaviour {
 
 
 		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-		healthSliderImage = healthSlider.GetComponentInChildren<Image> ();
-		xpSliderImage = xpSlider.GetComponentInChildren<Image> ();
 
-		healthSlider.maxValue = player.maxLife;
-		healthSlider.value = player.maxLife;
-		healthSliderImage.gameObject.SetActive (true);
+		float healthValue = (float)player.life/(float)player.maxLife;
+		float xpValue = (float)player.experience/(float)player.neededExperience;
 
 
-		xpSlider.maxValue = player.neededExperience;
-		xpSlider.value = player.experience;
-		xpSliderImage.gameObject.SetActive (false);
+		health.transform.localScale = new Vector3(healthValue,1f,1f);
+		xp.transform.localScale = new Vector3(xpValue,1f,1f);
 
 
 
@@ -50,27 +44,26 @@ public class HUDGame: MonoBehaviour {
 	public void takeDamage(){
 		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-		healthSlider.value = player.life;
+		float healthValue = (float)player.life / (float)player.maxLife;
+		print(player.life);
+		print(player.maxLife);
+		print(healthValue);
+		health.transform.localScale = new Vector3(healthValue,1f,1f);
 	}
 
 	public void incrementXp(){
 
 		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		float xpValue = (float)player.experience/(float)player.neededExperience;
 
-		xpSliderImage.gameObject.SetActive (true);
-		xpSlider.value = player.experience;
-		xpSlider.maxValue = player.neededExperience;
+		xp.transform.localScale = new Vector3(xpValue,1f,1f);
 
-
-		if (xpSlider.value == 0) {
-			xpSliderImage.gameObject.SetActive (false);
-		}
 	}
 	
 	public void playerDead(){
 
-		healthSliderImage.gameObject.SetActive (false);
-		
+		health.transform.localScale = new Vector3(0f,1f,1f);
+
 	}
 
 	public void showMenu(){

@@ -9,7 +9,6 @@ public class goal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Transform retry = GameObject.FindWithTag("Retry").transform;
 	}
 	
 	// Update is called once per frame
