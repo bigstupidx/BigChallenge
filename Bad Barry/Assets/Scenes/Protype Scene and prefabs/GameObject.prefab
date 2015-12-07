@@ -2599,7 +2599,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 1000
+  m_SortingOrder: 10001
 --- !u!23 &2317942
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -3007,7 +3007,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10000
 --- !u!23 &2390478
 MeshRenderer:
   m_ObjectHideFlags: 1
