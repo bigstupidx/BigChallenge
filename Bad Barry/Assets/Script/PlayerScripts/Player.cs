@@ -89,7 +89,7 @@ public class Player : MonoBehaviour {
 
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
-
+		behave.pause = false;
 	}
 	
 	// Update is called once per frame
@@ -241,7 +241,8 @@ public class Player : MonoBehaviour {
 		Transform retry = GameObject.FindWithTag("Retry").transform;
 		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (6);
-		Time.timeScale = 0;
+		Application.LoadLevel("MapScene");
+
 
 
 

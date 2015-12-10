@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: .400000006
-  rangeMin: 2
+  rangeMin: .100000001
   rangeMax: 10
   distanceY: 0
   distanceX: 0
@@ -404,6 +404,10 @@ Prefab:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: rangeMin
+      value: .100000001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 191212}

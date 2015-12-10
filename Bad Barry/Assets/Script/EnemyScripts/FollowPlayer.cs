@@ -54,13 +54,15 @@ public class FollowPlayer : MonoBehaviour {
 			 distanceX = Mathf.Abs (player.transform.position.x - transform.position.x);
 
 			//is in range
-			if(distanceX < rangeMax || distanceY < rangeMax){
+			if(distanceX < rangeMax && distanceY < rangeMax){
 
 				//should move
-				if((distanceX > rangeMin || distanceY > rangeMin) || (distanceY > maxError && distanceX > maxError) )
+				if((distanceX > rangeMin && distanceY > rangeMin))
 				{
 					gameObject.GetComponent<Enemy> ().isShooting = false;
 
+						print(distanceX);
+						print(distanceY);
 					//check wich one is closer to move in that direction
 					if(distanceX < distanceY || distanceY < rangeMin){
 						//move in x axis
@@ -153,7 +155,15 @@ public class FollowPlayer : MonoBehaviour {
 
 		
 		}
-	}
+		}else{
+
+			legAnimator.SetBool("IsRunning", false);
+
+
+		}
+
+
+
 	}
 
 }

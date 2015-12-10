@@ -19,6 +19,8 @@ public class goal : MonoBehaviour {
 		if (col.gameObject.tag == "Player") {
 			Destroy(this.gameObject);
 			Instantiate(menu,col.gameObject.transform.position + (col.gameObject.transform.forward * 2),col.gameObject.transform.rotation);
+			var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+			behave.pause = true;
 		}
 	}
 }
