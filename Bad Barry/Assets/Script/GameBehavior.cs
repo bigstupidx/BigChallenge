@@ -8,7 +8,7 @@ public class GameBehavior : MonoBehaviour {
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
-
+	public bool teste = false;
 
 
 	public float experience = 0;

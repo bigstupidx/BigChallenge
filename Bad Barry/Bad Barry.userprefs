@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/HUDScripts/HUDGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GameBehavior.cs">
     <Files>
-      <File FileName="Assets/Script/HUDScripts/HUDGame.cs" Line="77" Column="32" />
+      <File FileName="Assets/Scenes/lucasScene/InventoryInMission.cs" Line="15" Column="1" />
+      <File FileName="Assets/Script/HUDScripts/HUDGame.cs" Line="78" Column="4" />
+      <File FileName="Assets/Script/GameBehavior.cs" Line="179" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
