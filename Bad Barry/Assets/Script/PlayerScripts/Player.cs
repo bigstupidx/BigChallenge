@@ -95,12 +95,17 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		if(!behave.pause){
+
+
 		if (!dead) {
 			Move ();
 			Shoot ();
 		}
 
 		time = time + Time.deltaTime;
+		}
 
 	}
 

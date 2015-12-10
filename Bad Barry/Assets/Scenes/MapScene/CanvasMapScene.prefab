@@ -306,8 +306,8 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
+    m_BestFit: 1
+    m_MinSize: 5
     m_MaxSize: 40
     m_Alignment: 4
     m_RichText: 1
@@ -696,10 +696,10 @@ RectTransform:
   - {fileID: 22483102}
   m_Father: {fileID: 22480494}
   m_RootOrder: 3
-  m_AnchorMin: {x: .10417828, y: .5}
-  m_AnchorMax: {x: .271573901, y: .772524774}
-  m_AnchoredPosition: {x: 3, y: .5}
-  m_SizeDelta: {x: -9, y: 1}
+  m_AnchorMin: {x: .11447493, y: .5}
+  m_AnchorMax: {x: .270000011, y: .778407156}
+  m_AnchoredPosition: {x: 0, y: -.5}
+  m_SizeDelta: {x: -1, y: -1}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22428060
 RectTransform:
@@ -748,10 +748,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22404630}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: .775000036}
-  m_AnchoredPosition: {x: 0, y: -.699999809}
-  m_SizeDelta: {x: 0, y: -.300000191}
+  m_AnchorMin: {x: .191000015, y: .107380196}
+  m_AnchorMax: {x: .803000033, y: .62533462}
+  m_AnchoredPosition: {x: -1.0999999, y: 1.00000763}
+  m_SizeDelta: {x: -4.69999981, y: -6.00000954}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22451808
 RectTransform:
@@ -765,10 +765,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22428060}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: .894000053}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: .236336544, y: .204740733}
+  m_AnchorMax: {x: .769884765, y: .673518538}
+  m_AnchoredPosition: {x: -.249985695, y: .500011444}
+  m_SizeDelta: {x: -6.5, y: -7.5}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22465586
 RectTransform:
@@ -820,10 +820,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22427250}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: .279000014}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: .700000763}
-  m_SizeDelta: {x: 0, y: -1.40000153}
+  m_AnchorMin: {x: .248871624, y: .428354204}
+  m_AnchorMax: {x: .760553956, y: .818677127}
+  m_AnchoredPosition: {x: -.499996185, y: 1.49999428}
+  m_SizeDelta: {x: 2.59999847, y: -2.70000076}
   m_Pivot: {x: .5, y: .5}
 --- !u!1001 &100100000
 Prefab:

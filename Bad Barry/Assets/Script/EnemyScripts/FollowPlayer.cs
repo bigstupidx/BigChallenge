@@ -40,6 +40,11 @@ public class FollowPlayer : MonoBehaviour {
 	}
 	
 	void Update (){
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		if(!behave.pause){
+
+
 		delay = delay - Time.deltaTime;
 
 		if (!gameObject.GetComponent<Enemy> ().dead && delay < 0) {
@@ -148,6 +153,7 @@ public class FollowPlayer : MonoBehaviour {
 
 		
 		}
+	}
 	}
 
 }

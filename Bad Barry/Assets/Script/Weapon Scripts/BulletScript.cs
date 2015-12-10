@@ -48,6 +48,8 @@ public class BulletScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		if(!behave.pause){
 
 		//shoot up
 		if (direction == 0) {
@@ -78,6 +80,7 @@ public class BulletScript : MonoBehaviour {
 
 
 			
+		}
 		}
 	}
 

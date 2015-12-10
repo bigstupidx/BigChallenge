@@ -37,8 +37,12 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		if(!behave.pause){
+
 		Shoot();
 		time = time + Time.deltaTime;
+		}
 
 	}
 

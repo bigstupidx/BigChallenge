@@ -7,6 +7,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public bool levelingUp = false;
 	public int levelsUp = 0;
+	public bool pause = false;
 
 
 
@@ -37,6 +38,7 @@ public class GameBehavior : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//on start get selected character points
+		pause = false;
 	
 	}
 	
@@ -57,6 +59,8 @@ public class GameBehavior : MonoBehaviour {
 
 	//go to scene states
 	public void GoToAtributesScreen(){
+		pause = false;
+
 		SaveCurrentSceneState ();
 
 		DontDestroyOnLoad (gameObject);
@@ -69,6 +73,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 	public void GoToInventoryScene(){
+		pause = false;
 
 
 		print("ogayh");
@@ -84,6 +89,7 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void GoToMap(){
+		pause = false;
 
 		DontDestroyOnLoad (gameObject);
 		life = maxLife;
@@ -94,6 +100,7 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void GoToMission(int missionNumber){
+		pause = false;
 
 		Play ();
 		//funcao para quando tiver mais de uma missao
@@ -117,6 +124,7 @@ public class GameBehavior : MonoBehaviour {
 
 	//go to last scene
 	public void GoToLastScene(){
+		pause = false;
 
 		Application.LoadLevel("MapScene");
 		//Play();
@@ -132,6 +140,8 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void Play(){
+		pause = false;
+
 		print ("entrou");
 		DontDestroyOnLoad (gameObject);
 
