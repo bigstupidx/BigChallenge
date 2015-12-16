@@ -44,13 +44,13 @@ MonoBehaviour:
   bulletSpeed: 5
   fireRate: .100000001
   xValueUp: -.0500000007
-  yValueUp: .300000012
+  yValueUp: .400000006
   xValueRight: .400000006
-  yValueRight: 0
+  yValueRight: .100000001
   xValueLeft: -.400000006
-  yValueLeft: 0
+  yValueLeft: .100000001
   xValueDown: .0500000007
-  yValueDown: -.349999994
+  yValueDown: -.25
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -80,7 +80,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: yValueUp
-      value: .300000012
+      value: .400000006
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: xValueRight
@@ -96,7 +96,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: yValueDown
-      value: -.349999994
+      value: -.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: yValueRight
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: yValueLeft
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
