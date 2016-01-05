@@ -30,7 +30,7 @@ public class GameBehavior : MonoBehaviour {
 	public int selectedWeapon = 0;
 
 	//inventory items
-	private List<Item> inventoryItems;
+	private List<ItemData> inventoryItems;
 
 
 
@@ -181,7 +181,7 @@ public class GameBehavior : MonoBehaviour {
 		return vitality;
 	}
 
-	public List<Item> getInventoryItems(){
+	public List<ItemData> getInventoryItems(){
 
 
 		return inventoryItems;
@@ -212,7 +212,7 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
-	public void setInventoryItems(List<Item> items){
+	public void setInventoryItems(List<ItemData> items){
 		inventoryItems = items;
 	}
 

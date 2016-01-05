@@ -25,7 +25,8 @@ public class Inventory : MonoBehaviour {
 	int slotAmount2;
 	public List<Item> items2 = new List<Item> ();
 	public List<GameObject> slots2 = new List<GameObject> ();
-	public List<GameObject> itemsList2 = new List<GameObject> ();
+
+	GridLayoutGroup gridLayoutGroup;
 
 	void Start(){
 		database = GetComponent<ItemDatabase> ();
@@ -52,13 +53,14 @@ public class Inventory : MonoBehaviour {
 			slots2[i-50].transform.SetParent (slotPanel2.transform);
 		}
 
+		gridLayoutGroup = slotPanel.GetComponent<GridLayoutGroup> ();
+
 		AddItem (0);
 		AddItem (0);
 		AddItem (1);
 		AddItem (1);
 		AddItem (1);
 		AddItem (2);
-		//AddItem2 (0);
 
 	}
 
@@ -71,6 +73,9 @@ public class Inventory : MonoBehaviour {
 					ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
 					data.amount++;
 					data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
+					//	fazer logica para posicao do stackamount
+
+//					data.transform.GetChild (0).GetComponent<Text> ().GetComponent<RectTransform>().pivot = new Vector2((float) 0.5, (float) 0.9);
 					break;
 				}
 			}
@@ -82,9 +87,12 @@ public class Inventory : MonoBehaviour {
 					GameObject itemObj = Instantiate (inventoryItem);
 					itemObj.GetComponent<ItemData>().item = itemToAdd;
 					itemObj.GetComponent<ItemData>().slot = i;
+//					itemObj.GetComponent<ItemData>().GetComponent<RectTransform>().pivot = new Vector2((float)0.6, (float)0.6);
+					itemObj.GetComponent<ItemData>().GetComponent<RectTransform>().sizeDelta = new Vector2(gridLayoutGroup.cellSize.x/(float)1.6, gridLayoutGroup.cellSize.x/(float)1.6 );
 					itemObj.transform.SetParent (slots [i].transform);
 					itemObj.transform.position = Vector2.zero;
 					itemObj.GetComponent<Image> ().sprite = itemToAdd.Sprite;
+					itemObj.GetComponent<Image> ().preserveAspect = true;
 					itemObj.name = itemToAdd.Title;
 					itemsList.Add(itemObj);
 
@@ -95,21 +103,19 @@ public class Inventory : MonoBehaviour {
 	}
 
 	
-	public void DecrementItem(int id){
-			for (int i=0; i< items.Count; i++) {
-				if (items [i].ID == id) {
-					ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
-				data.amount--;
-				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
-
-				if(data.amount == 0)
-					RemoveItem(id);
-				//CHAMAR FUNCAO PARA AUMENTAR A VIDA IN GAME
-
-					break;
-				}
-			}
-	}
+//	public void DecrementItem(int id){
+//		for (int i=0; i< items.Count; i++) {
+//			if (items [i].ID == id) {
+//				ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
+//				data.amount--;
+//				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
+//
+//				if (data.amount == 0) {
+//					//REMOVER ITEM DO SLOT 
+//				}
+//			}
+//		}
+//	}
 
 	public void RemoveItem(int id){
 		for (int i=0; i<items.Count; i++) {
@@ -147,13 +153,19 @@ public class Inventory : MonoBehaviour {
 
 	public void UpdateInGame(){
 	
-		List<Item> content = new List<Item> ();
+
+		//MUDAR CONTENT PARA SER ITEMDATA PARA IR TAMBEM O AMOUNT DO OBJETO
+		List<ItemData> content = new List<ItemData> ();
 
 		for(int i = 0; i < slots2.Count ; i ++){
 
 			if(slots2[i].GetComponentInChildren<ItemData>()){
 
-				content.Add(slots2[i].GetComponentInChildren<ItemData>().item);
+				content.Add(slots2[i].GetComponentInChildren<ItemData>());
+
+				print("amount");
+				print(slots2[i].GetComponentInChildren<ItemData>().amount);
+
 
 			}
 			else{

@@ -45,9 +45,9 @@ public class HUDGame: MonoBehaviour {
 		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 		float healthValue = (float)player.life / (float)player.maxLife;
-		print(player.life);
-		print(player.maxLife);
-		print(healthValue);
+//		print(player.life);
+//		print(player.maxLife);
+//		print(healthValue);
 		health.transform.localScale = new Vector3(healthValue,1f,1f);
 	}
 

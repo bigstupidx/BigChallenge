@@ -107,7 +107,6 @@ public class BulletScript : MonoBehaviour {
 			Destroy (this.gameObject);
 		}
 
-		print("destroi");
 
 		if (col.gameObject.tag == "Wall") {
 			Destroy(this.gameObject);

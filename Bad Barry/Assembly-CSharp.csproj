@@ -73,11 +73,13 @@
      <Compile Include="Assets\Script\EnemyScripts\Respawn.cs" />
      <Compile Include="Assets\Script\GameBehavior.cs" />
      <Compile Include="Assets\Script\HUDScripts\HUDGame.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\DropDownList.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Inventory.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemData.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemDatabase.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Pathing.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Slot.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\constraintInventory.cs" />
      <Compile Include="Assets\Script\Papyrus.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Script\Retry.cs" />
@@ -91,7 +93,7 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <Compile Include="Assets\constraintInventory.cs" />
+     <Compile Include="Assets\dropDown.cs" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
@@ -118,7 +120,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/Neves/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

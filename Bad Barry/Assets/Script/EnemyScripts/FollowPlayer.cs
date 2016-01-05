@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour {
 
 
 	//distance error
-	private float maxError = 0.01f;
+//	private float maxError = 0.01f;
 
 
 	public 
@@ -61,8 +61,8 @@ public class FollowPlayer : MonoBehaviour {
 				{
 					gameObject.GetComponent<Enemy> ().isShooting = false;
 
-						print(distanceX);
-						print(distanceY);
+//						print(distanceX);
+//						print(distanceY);
 					//check wich one is closer to move in that direction
 					if(distanceX < distanceY || distanceY < rangeMin){
 						//move in x axis

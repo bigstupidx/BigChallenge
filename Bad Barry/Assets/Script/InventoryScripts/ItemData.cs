@@ -37,9 +37,9 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 	}
 
 	public void OnPointerClick(PointerEventData eventData){
-		Debug.Log ("cliquei");
-		if (item.Stackable)
-			inv.DecrementItem (item.ID);
+//		Debug.Log ("cliquei");
+//		if (item.Stackable)
+//			inv.DecrementItem (item.ID);
 		//else
 			//inv.EquipItem (item.ID); // CASO FOR UMA ARMA, IR PARA UMA FUNCAO PARA EQUIPA-LA NO PERSONAGEM
 	}
