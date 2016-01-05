@@ -45,7 +45,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PapyrusWin.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\ButtonHandler.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Joystick.cs" />
@@ -57,22 +56,21 @@
      <Compile Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\Scenes\Main Scene and prefabs\TextConfig.cs" />
-     <Compile Include="Assets\Scenes\lucasScene\InventoryInMission.cs" />
-     <Compile Include="Assets\Scenes\lucasScene\Menu.cs" />
-     <Compile Include="Assets\Scenes\lucasScene\MenuManager.cs" />
      <Compile Include="Assets\Script\AnimationScripts\deathrotate.cs" />
      <Compile Include="Assets\Script\AnimationScripts\rotate.cs" />
-     <Compile Include="Assets\Script\Appear.cs" />
-     <Compile Include="Assets\Script\AtributeIconManager.cs" />
-     <Compile Include="Assets\Script\AtributeScreen.cs" />
-     <Compile Include="Assets\Script\Button.cs" />
+     <Compile Include="Assets\Script\Atribute\AtributeIconManager.cs" />
+     <Compile Include="Assets\Script\Atribute\AtributeScreen.cs" />
      <Compile Include="Assets\Script\Camera Script\CameraFollow.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyScripts\FollowPlayer.cs" />
      <Compile Include="Assets\Script\EnemyScripts\Respawn.cs" />
-     <Compile Include="Assets\Script\GameBehavior.cs" />
+     <Compile Include="Assets\Script\Game\Appear.cs" />
+     <Compile Include="Assets\Script\Game\GameBehavior.cs" />
+     <Compile Include="Assets\Script\Game\Retry.cs" />
+     <Compile Include="Assets\Script\Game\Score.cs" />
+     <Compile Include="Assets\Script\Game\menuPause.cs" />
      <Compile Include="Assets\Script\HUDScripts\HUDGame.cs" />
+     <Compile Include="Assets\Script\InventoryInMission.cs" />
      <Compile Include="Assets\Script\InventoryScripts\DropDownList.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Inventory.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemData.cs" />
@@ -80,20 +78,20 @@
      <Compile Include="Assets\Script\InventoryScripts\Pathing.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Slot.cs" />
      <Compile Include="Assets\Script\InventoryScripts\constraintInventory.cs" />
-     <Compile Include="Assets\Script\Papyrus.cs" />
+     <Compile Include="Assets\Script\Main Scene\TextConfig.cs" />
+     <Compile Include="Assets\Script\Menu.cs" />
+     <Compile Include="Assets\Script\MenuManager.cs" />
+     <Compile Include="Assets\Script\Papyrus\Papyrus.cs" />
+     <Compile Include="Assets\Script\Papyrus\PapyrusWin.cs" />
+     <Compile Include="Assets\Script\Papyrus\goal.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
-     <Compile Include="Assets\Script\Retry.cs" />
-     <Compile Include="Assets\Script\Score.cs" />
      <Compile Include="Assets\Script\UI\AutoGridLayout.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\WeaponStats.cs" />
-     <Compile Include="Assets\Script\goal.cs" />
-     <Compile Include="Assets\Script\menuPause.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <Compile Include="Assets\dropDown.cs" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
@@ -107,20 +105,14 @@
      <None Include="Assets\Tiled2Unity\Imported\MapaTile.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/babugia/Desktop/Cópia de BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/Lucas/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
