@@ -1,0 +1,7 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameBehavior">
+			<method name="GoToLastScene"/>
+		</type>
+	</assembly>
+</linker>

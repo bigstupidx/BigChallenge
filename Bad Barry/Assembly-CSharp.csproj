@@ -71,7 +71,6 @@
      <Compile Include="Assets\Script\Game\menuPause.cs" />
      <Compile Include="Assets\Script\HUDScripts\HUDGame.cs" />
      <Compile Include="Assets\Script\InventoryInMission.cs" />
-     <Compile Include="Assets\Script\InventoryScripts\DropDownList.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Inventory.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemData.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemDatabase.cs" />
@@ -85,6 +84,9 @@
      <Compile Include="Assets\Script\Papyrus\PapyrusWin.cs" />
      <Compile Include="Assets\Script\Papyrus\goal.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
+     <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBank.cs" />
+     <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBox.cs" />
+     <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListPositionCtrl.cs" />
      <Compile Include="Assets\Script\UI\AutoGridLayout.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
@@ -112,7 +114,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/Lucas/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
