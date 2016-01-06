@@ -12,10 +12,6 @@ public class ItemData : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 	private Inventory inv;
 	private Vector2 offset;
 
-
-
-
-
 	void Start(){
 		inv = GameObject.Find ("Inventory").GetComponent<Inventory> ();
 //		options = inv.GetComponent<Options> ();

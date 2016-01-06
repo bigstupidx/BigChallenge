@@ -18,25 +18,31 @@ public class InventoryInMission : MonoBehaviour {
 	//APARECER UMA OPCAO DE QUANTOS ITENS DO MESMO QUER ADICIONAR DE UMA VEZ.
 
 
-
-
-
-
 	void Start(){
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		inventoryItems = behave.getInventoryItems();
+//		for (int i=0; i<inventoryItems.Count; i++) {
+//			if(inventoryItems[i].item != null){
+//				print (inventoryItems[i].item.Title);
+//			}
+//			else{
+//				print ("neves locao");
+//			}
+//		}
 		itemsInGame = gameObject.GetComponentsInChildren<Image>();
-		print ("amount teste");
-		print (inventoryItems[0].amount);
+
 		if(inventoryItems != null){
 			int index = 0;
 			foreach(Image image in itemsInGame){
-				if(image.name == "Image"){
+				if(image.name == "ImageSlot0" || image.name == "ImageSlot1" || image.name == "ImageSlot2"){
 					if(inventoryItems.Count > index){
 						if(inventoryItems[index].item != null){
 							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].item.Sprite;
-							image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[0].amount.ToString();
-							var x = image.GetComponentInChildren<Image>();
+
+							if(inventoryItems[index].item.Stackable){
+								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+							}
+								var x = image.GetComponentInChildren<Image>();
 							x.color = Color.white;
 
 						}
@@ -68,32 +74,41 @@ public class InventoryInMission : MonoBehaviour {
 
 	//funcao para usar item
 	public void ItemPressed(int itemNumber){
-		if(inventoryItems != null){
 
 			if(inventoryItems[itemNumber].item != null){
 				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-				int invPos = 0;
 
-//				//logica para achar a posicao do item em questao no inventoryitems
-//				for(int i = 0; i<inventoryItems.Count; i++){
-//					if(inventoryItems[i].item.ID == itemNumber){
-//						invPos = i;
-//						break;
-//					}
-//				}
 
 				switch(inventoryItems[itemNumber].item.ID){
 
 				case 0 : player.ChangeWeapon(0);
 					break;
 
-				case 1: player.Heal(10);
+			case 1: player.Heal(inventoryItems[itemNumber].item.Vitality);
+				Image slotImage = itemsInGame[0];
+					inventoryItems[itemNumber].amount--;
 
-					inventoryItems[invPos].amount--;
-					itemsInGame[invPos].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[invPos].amount.ToString();
+				foreach(Image image in itemsInGame){
+					if(image.name == ("ImageSlot"+itemNumber)){
+						slotImage = image;
+					}
 
-					if(inventoryItems[invPos].amount == 0){
-						inventoryItems.RemoveAt(invPos);
+				}
+
+				//	print(itemsInGame[itemNumber].transform.GetChild(0).GetComponent<Text>().name);
+
+				if(inventoryItems[itemNumber].amount > 1){
+					slotImage.GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString() ;
+//						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString();
+					}
+					else{
+					slotImage.GetComponentInChildren<Text>().text = "";
+//						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
+					}
+
+					if(inventoryItems[itemNumber].amount == 0){
+						inventoryItems[itemNumber].item = null;
+						slotImage.color = Color.clear;
 					}
 			
 					break;
@@ -103,7 +118,7 @@ public class InventoryInMission : MonoBehaviour {
 				}
 			}
 
-		}
+//		}
 		return;
 	}
 }

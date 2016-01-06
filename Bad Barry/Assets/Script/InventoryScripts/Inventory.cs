@@ -60,6 +60,12 @@ public class Inventory : MonoBehaviour {
 		AddItem (1);
 		AddItem (1);
 		AddItem (1);
+		AddItem (1);
+		AddItem (1);
+		AddItem (1);
+		AddItem (1);
+		AddItem (1);
+		AddItem (1);
 		AddItem (2);
 
 	}
@@ -75,8 +81,12 @@ public class Inventory : MonoBehaviour {
 					data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
 					//	fazer logica para posicao do stackamount
 
-//					data.transform.GetChild (0).GetComponent<Text> ().GetComponent<RectTransform>().pivot = new Vector2((float) 0.5, (float) 0.9);
+					float slotX = data.transform.GetComponentInParent<RectTransform>().rect.width;
+					data.transform.GetChild (0).GetComponent<Text> ().GetComponent<RectTransform>().position = new Vector3(slotX/(float)2.35,-slotX/(float)2.35,0);
+
 					break;
+
+					//POSSIVELMENTE TER Q ARRUMAR O TAMANHO DA FONTE VIA CODIGO
 				}
 			}
 		} else if(!CheckIfItemIsInventory(itemToAdd)) {
@@ -87,7 +97,6 @@ public class Inventory : MonoBehaviour {
 					GameObject itemObj = Instantiate (inventoryItem);
 					itemObj.GetComponent<ItemData>().item = itemToAdd;
 					itemObj.GetComponent<ItemData>().slot = i;
-//					itemObj.GetComponent<ItemData>().GetComponent<RectTransform>().pivot = new Vector2((float)0.6, (float)0.6);
 					itemObj.GetComponent<ItemData>().GetComponent<RectTransform>().sizeDelta = new Vector2(gridLayoutGroup.cellSize.x/(float)1.6, gridLayoutGroup.cellSize.x/(float)1.6 );
 					itemObj.transform.SetParent (slots [i].transform);
 					itemObj.transform.position = Vector2.zero;
@@ -163,13 +172,12 @@ public class Inventory : MonoBehaviour {
 
 				content.Add(slots2[i].GetComponentInChildren<ItemData>());
 
-				print("amount");
-				print(slots2[i].GetComponentInChildren<ItemData>().amount);
-
-
 			}
 			else{
-				content.Add(null);
+				//quando a List recebe null da bosta, ae estamos instanciando um ItemData() vaazio
+				GameObject itemObj = Instantiate (inventoryItem);
+
+				content.Add(itemObj.GetComponent<ItemData>());
 			}
 		}
 
