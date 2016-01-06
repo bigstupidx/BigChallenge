@@ -92,10 +92,10 @@
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\WeaponStats.cs" />
+     <Compile Include="Assets\Script\hordeMode.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <Compile Include="Assets\hordeMode.cs" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
@@ -117,11 +117,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
-<<<<<<< HEAD
  <HintPath>/Users/Neves/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
-=======
- <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
->>>>>>> aa3536ddeec035266833711206c938d28cc0bf96
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
