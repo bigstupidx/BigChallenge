@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/InventoryScripts/Inventory.cs">
     <Files>
@@ -27,6 +28,13 @@
         </State>
       </Pad>
     </Pads>
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/hordeMode.cs">
+    <Files>
+      <File FileName="Assets/hordeMode.cs" Line="6" Column="22" />
+    </Files>
+>>>>>>> 5ecee4b7b5eaa96da4e80f555c7370cb07c56fc7
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

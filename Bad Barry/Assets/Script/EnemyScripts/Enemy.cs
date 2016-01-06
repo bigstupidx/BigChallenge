@@ -50,6 +50,8 @@ public class Enemy : MonoBehaviour {
 	public void TakeDamage(int damage){
 
 //		print (damage);
+		var x = transform.GetComponent<FollowPlayer> ();
+		x.active = true;
 
 		if (life <= damage) {
 			
