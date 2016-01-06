@@ -326,11 +326,11 @@ MonoBehaviour:
   active: 0
   speed: .400000006
   rangeMin: .100000001
-  rangeMax: 7
+  rangeMax: 10
   direction: 0
   distanceY: 0
   distanceX: 0
-  rangeShoot: 1
+  rangeShoot: 2.5
 --- !u!114 &11495888
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -472,6 +472,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: direction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rangeShoot
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rangeMax
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
