@@ -11382,19 +11382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71398ce7fbc3a5b4fa50b50bd54317a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  active: 0
-  speed: .400000006
-  rangeMin: .100000001
-  rangeMax: 10
-  direction: 0
-  distanceY: 0
-  distanceX: 0
-  rangeShoot: 0
---- !u!114 &11406928
-=======
 --- !u!114 &11406646
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -11446,42 +11434,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 107386}
   m_Enabled: 0
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: d53f6dc2bfebf4ff98d07f3623fba3ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
-  bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
---- !u!114 &11408254
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 186880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 0
-  speed: .400000006
-  rangeMin: .100000001
-  rangeMax: 10
-  direction: 0
-  distanceY: 0
-  distanceX: 0
-  rangeShoot: 0
---- !u!114 &11409026
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 197430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -11585,8 +11537,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &11410456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11646,7 +11596,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11410644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11915,17 +11864,6 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  active: 0
-  speed: .400000006
-  rangeMin: .100000001
-  rangeMax: 10
-  direction: 0
-  distanceY: 0
-  distanceX: 0
-  rangeShoot: 0
---- !u!114 &11416760
-=======
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -11943,16 +11881,11 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &11416034
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 121768}
-=======
   m_GameObject: {fileID: 139610}
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
@@ -11966,11 +11899,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11417182
-=======
 --- !u!114 &11416760
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -12375,8 +12304,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &11425698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12409,7 +12336,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u221E"
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11426456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12429,8 +12355,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &11426518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12458,7 +12382,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11427054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12520,9 +12443,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11427772
-=======
 --- !u!114 &11428342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12538,7 +12458,6 @@ MonoBehaviour:
   - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
   bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
 --- !u!114 &11429288
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -12589,36 +12508,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11429890
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 71cb0236b3e7543dc8f8a7ab134904e6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11430230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12719,47 +12608,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11432848
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 125442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: .784313738}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5262902dfd6c34383beab339a1c269a7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!114 &11432894
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 134556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71398ce7fbc3a5b4fa50b50bd54317a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11433378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13228,8 +13076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
-<<<<<<< HEAD
-=======
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
@@ -13249,7 +13095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
@@ -13257,11 +13102,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11447248
-=======
 --- !u!114 &11448164
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -13313,28 +13154,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-<<<<<<< HEAD
---- !u!114 &11447656
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 195038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 0
-  speed: .400000006
-  rangeMin: .100000001
-  rangeMax: 10
-  direction: 0
-  distanceY: 0
-  distanceX: 0
-  rangeShoot: 0
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11449170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13548,11 +13367,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11453530
-=======
 --- !u!114 &11454076
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -13598,41 +13413,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11454324
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11454986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13666,8 +13446,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
-=======
 --- !u!114 &11455324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13695,7 +13473,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11456666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13781,11 +13558,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11461030
-=======
 --- !u!114 &11459296
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -14061,25 +13834,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11469010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d53f6dc2bfebf4ff98d07f3623fba3ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
-  bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
---- !u!114 &11469812
-=======
 --- !u!114 &11468638
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -14183,11 +13938,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11472376
-=======
 --- !u!114 &11471490
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -14483,11 +14234,7 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11480522
-=======
 --- !u!114 &11480614
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -14563,36 +14310,6 @@ MonoBehaviour:
   distanceY: 0
   distanceX: 0
   rangeShoot: 0
-<<<<<<< HEAD
---- !u!114 &11481850
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 138730}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 --- !u!114 &11482166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14872,11 +14589,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-<<<<<<< HEAD
-  m_Sprite: {fileID: 0}
-=======
   m_Sprite: {fileID: 21300000, guid: 86025146595664fcfa95f5540aa284cf, type: 3}
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14885,67 +14598,6 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &11489046
-<<<<<<< HEAD
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 104774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d53f6dc2bfebf4ff98d07f3623fba3ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
-  bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
---- !u!114 &11489226
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 196502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d53f6dc2bfebf4ff98d07f3623fba3ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
-  bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
---- !u!114 &11491440
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 0
-  speed: .400000006
-  rangeMin: .100000001
-  rangeMax: 10
-  direction: 0
-  distanceY: 0
-  distanceX: 0
-  rangeShoot: 0
---- !u!114 &11491958
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 138778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11492394
-=======
->>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
