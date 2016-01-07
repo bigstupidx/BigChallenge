@@ -89,13 +89,14 @@
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBox.cs" />
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListPositionCtrl.cs" />
      <Compile Include="Assets\Script\UI\AutoGridLayout.cs" />
+     <Compile Include="Assets\Script\Weapon Scripts\BulletBox.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\BulletScript.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\Weapon.cs" />
      <Compile Include="Assets\Script\Weapon Scripts\WeaponStats.cs" />
+     <Compile Include="Assets\Script\hordeMode.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <Compile Include="Assets\hordeMode.cs" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
@@ -123,7 +124,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>/Users/babugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>/Users/Neves/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

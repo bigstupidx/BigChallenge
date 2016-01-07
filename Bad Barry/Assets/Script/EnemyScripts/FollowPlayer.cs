@@ -71,13 +71,11 @@ public class FollowPlayer : MonoBehaviour {
 						gameObject.GetComponent<Enemy> ().isShooting = false;
 
 	//						print(distanceX);
-							print("mover");
 	//						print(distanceY);
 						//check wich one is closer to move in that direction
 						if((distanceX < distanceY && rangeShoot > distanceY) || distanceY < rangeMin){
 							//move in x axis
 							//check if left or right
-								print("mover x");
 
 							if(player.transform.position.x > transform.position.x)
 							{

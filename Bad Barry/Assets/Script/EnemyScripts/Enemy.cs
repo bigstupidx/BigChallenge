@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
+	public GameObject[] bulletBox;
+
+
 	public int life = 100;
 	public int baseDamage = 0;
 	public int shootDirection = 0;
@@ -78,6 +81,9 @@ public class Enemy : MonoBehaviour {
 		score.GetComponent<Score> ().inc();
 		var player = GameObject.FindGameObjectWithTag("Player");
 		player.GetComponent<Player> ().IncrementXp (experience);
+		if(Random.Range(1,4) == 2){
+			Instantiate( bulletBox[Random.Range(0,(bulletBox.Length -1))],transform.position,transform.rotation);
+		}
 
 	}
 

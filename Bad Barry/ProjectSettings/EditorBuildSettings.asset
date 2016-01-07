@@ -7,19 +7,28 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/Scenes/Protype Scene and prefabs/Prototype.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main Scene and prefabs/Main.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Protype Scene and prefabs/NewPrototype.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MapScene/MapScene.unity
   - enabled: 0
     path: Assets/Scenes/lucasScene/lucasScene.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Inventory/InventoryScene.unity
   - enabled: 0
     path: Assets/Scenes/hyagoScene/newMap.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Atribute Scene/AtributeScreen.unity
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/StoreScene/Store.unity
+=======
+  - enabled: 1
+    path: Assets/Scenes/Inventory/InventoryScene.unity
+  - enabled: 1
+    path: Assets/Scenes/Inventory/InventoryScene.unity
+  - enabled: 1
+    path: Assets/Scenes/neves/HordeMode.unity
+>>>>>>> 907b693fe81587f797fcbd1e9da80ed2e092501b

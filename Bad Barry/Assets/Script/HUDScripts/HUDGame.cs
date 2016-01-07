@@ -10,6 +10,8 @@ public class HUDGame: MonoBehaviour {
 	public GameObject health;
 	public GameObject xp;
 	public GameObject lvlUp;
+	public GameObject ammo;
+
 	public static bool isPaused = false;
 
 
@@ -40,14 +42,19 @@ public class HUDGame: MonoBehaviour {
 
 
 	}
+
+	//called from player receives number of bullets on selected weapon
+	public void bullets(string value){
+
+		ammo.GetComponent<Text>().text = value;
+
+	}
 	
 	public void takeDamage(){
 		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 		float healthValue = (float)player.life / (float)player.maxLife;
-//		print(player.life);
-//		print(player.maxLife);
-//		print(healthValue);
+
 		health.transform.localScale = new Vector3(healthValue,1f,1f);
 	}
 

@@ -28,6 +28,8 @@ public class GameBehavior : MonoBehaviour {
 	public int previousScene;
 
 	public int selectedWeapon = 0;
+	//vector for bullets
+	public int[] bullets = new int[3];
 
 	//inventory items
 	private List<ItemData> inventoryItems;
@@ -37,7 +39,7 @@ public class GameBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//on start get selected character points
+		//on start get selected character points and get bullets
 		pause = false;
 	
 	}
@@ -46,6 +48,16 @@ public class GameBehavior : MonoBehaviour {
 	void Update () {
 	
 	}
+
+
+
+	public void incrementBullet(int weaponType,int maxBullets,int minBullets){
+
+		bullets[weaponType] = bullets[weaponType] + Random.Range(minBullets,maxBullets);
+
+	}
+
+
 
 
 	public void LeveledUp(int currentLvl){
@@ -89,7 +101,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMap(){
 		pause = false;
-
+		print ("aqui");
 		DontDestroyOnLoad (gameObject);
 		life = maxLife;
 
@@ -143,7 +155,9 @@ public class GameBehavior : MonoBehaviour {
 
 		DontDestroyOnLoad (gameObject);
 
-		Application.LoadLevel("NewPrototype");
+		//Application.LoadLevel("NewPrototype");
+		Application.LoadLevel("HordeMode");
+
 	}
 
 
