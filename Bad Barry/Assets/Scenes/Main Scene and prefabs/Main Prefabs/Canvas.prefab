@@ -11,6 +11,7 @@ GameObject:
   - 222: {fileID: 22257218}
   - 114: {fileID: 11488298}
   - 114: {fileID: 11438724}
+  - 114: {fileID: 11488498}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -213,6 +214,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: tap to play
+--- !u!114 &11488498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9fdb0c90ecc41c18e6be9870c3e8a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &22257218
 CanvasRenderer:
   m_ObjectHideFlags: 1

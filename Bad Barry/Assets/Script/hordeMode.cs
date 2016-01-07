@@ -44,7 +44,6 @@ public class hordeMode : MonoBehaviour {
 		countingText.GetComponent<Text>().text = "" + count;
 		totalText.GetComponent<Text>().text = "" + ((level - 1) * 2);
 
-		print(alive);
 		//checks if alive
 		
 		if(!alive && timer > 9 )

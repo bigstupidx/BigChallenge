@@ -303,6 +303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletBox:
+  - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -458,6 +460,10 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
+      propertyPath: bulletBox.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: weapons.Array.data[0]
       value: 
       objectReference: {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
@@ -481,6 +487,10 @@ Prefab:
       propertyPath: rangeMax
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bulletBox.Array.data[0]
+      value: 
+      objectReference: {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 191212}

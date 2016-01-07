@@ -113,9 +113,31 @@ public class Player : MonoBehaviour {
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.selectedWeapon = weapon;
+		if(weapon == 0 || Application.loadedLevelName == "HordeMode"){
+
+			hudGame.bullets("∞");
+
+		}
+		else{
+
+			hudGame.bullets("" + behave.bullets[weapon]);
+
+		}
+
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
 	}
+
+	//function called by bulletBox when dropped by 
+	public void getBullet(int type,int minBullets, int maxBullets){
+		
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		
+		behave.incrementBullet( type,minBullets,maxBullets);
+		ChangeWeapon(behave.selectedWeapon);
+		
+	}
+
 
 
 	void Shoot(){
@@ -130,7 +152,19 @@ public class Player : MonoBehaviour {
 
 			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
+
+				//checks if pistol or have sufficient ammo;
+				if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0 || Application.loadedLevelName == "HordeMode"){
+					weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
+					if(behave.selectedWeapon != 0 && !(Application.loadedLevelName == "HordeMode")){
+
+						behave.bullets[behave.selectedWeapon]--;
+						hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
+
+
+					}
+
+				}
 
 			}
 			torsoAnimator.SetBool("Shooting",true);
@@ -248,12 +282,6 @@ public class Player : MonoBehaviour {
 
 
 	}
-
-
-
-
-
-
 
 
 	//move function  moves and animates function
