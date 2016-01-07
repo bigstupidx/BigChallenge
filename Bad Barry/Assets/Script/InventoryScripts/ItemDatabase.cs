@@ -7,23 +7,25 @@ using System.IO;
 public class ItemDatabase : MonoBehaviour {
 	private List<Item> database = new List<Item>();
 	private JsonData itemData;
+	public static ItemDatabase Instance;
 
 	void Start(){
-
-
 		itemData = JsonMapper.ToObject (File.ReadAllText (Pathing.AppContentDataUri));;
 
 		ConstructItemDatabase ();
-//		Debug.Log (FetchItemByID(0).Description);
 	}
 
 	public Item FetchItemByID(int id){
-		for(int i = 0; i< database.Count; i++)
-			if(database[i].ID == id)
-				return database[i];
-
+		for (int i = 0; i< database.Count; i++)
+			if (database [i].ID == id) 
+				return database [i];
+			
 		return null;
 
+	}
+
+	public int getItemDataLength(){
+		return itemData.Count;
 	}
 
 	void ConstructItemDatabase(){

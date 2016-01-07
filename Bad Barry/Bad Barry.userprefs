@@ -1,40 +1,31 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/InventoryScripts/Inventory.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBox.cs">
     <Files>
-      <File FileName="Assets/Script/InventoryScripts/Inventory.cs" Line="86" Column="6" />
-      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBox.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBank.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListPositionCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/InventoryScripts/ItemDatabase.cs" Line="23" Column="15" />
+      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBank.cs" Line="30" Column="4" />
+      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBox.cs" Line="246" Column="28" />
+      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListPositionCtrl.cs" Line="17" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Script" expanded="True">
-              <Node name="Atribute" expanded="True" />
-              <Node name="InventoryScripts" expanded="True">
-                <Node name="Inventory.cs" selected="True" />
-              </Node>
+              <Node name="Game" expanded="True" />
+              <Node name="InventoryScripts" expanded="True" />
               <Node name="StoreScrips" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="CircularScrollingList" expanded="True" />
+                  <Node name="CircularScrollingList" expanded="True">
+                    <Node name="ListBox.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="Weapon Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/hordeMode.cs">
-    <Files>
-      <File FileName="Assets/hordeMode.cs" Line="6" Column="22" />
-    </Files>
->>>>>>> 5ecee4b7b5eaa96da4e80f555c7370cb07c56fc7
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

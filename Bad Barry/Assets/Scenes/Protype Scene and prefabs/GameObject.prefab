@@ -11386,11 +11386,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11406928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11468,11 +11471,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11409026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11565,11 +11571,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11410644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11743,11 +11752,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11414180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11884,11 +11896,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11416760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11900,11 +11915,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11417182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12127,11 +12145,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11423726
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12263,11 +12284,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11425406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12279,11 +12303,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11426456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12295,11 +12322,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11427054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12351,11 +12381,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11427772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12445,11 +12478,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11429890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12638,11 +12674,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11432848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12692,11 +12731,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11433446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12708,11 +12750,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11433586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12783,11 +12828,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11438272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13132,11 +13180,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11447248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13200,11 +13251,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11449170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13371,11 +13425,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11452268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13418,11 +13475,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11453530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13486,11 +13546,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11454324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13548,11 +13611,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11456666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13625,11 +13691,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11461030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13826,11 +13895,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11469010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13903,11 +13975,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11470734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13919,11 +13994,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11472376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13966,11 +14044,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11474370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14114,11 +14195,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11480522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14227,11 +14311,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11481850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14428,11 +14515,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11487826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14524,11 +14614,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58425343fafca4f7bab922c802b7854b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
+  direction: 0
   distanceY: 0
   distanceX: 0
+  rangeShoot: 0
 --- !u!114 &11491958
 MonoBehaviour:
   m_ObjectHideFlags: 1

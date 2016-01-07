@@ -2,6 +2,8 @@
  */
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class ListBank : MonoBehaviour
 {
@@ -9,9 +11,31 @@ public class ListBank : MonoBehaviour
 	public UnityEngine.UI.Text title;
 	public UnityEngine.UI.Text detail;
 
+	public List<Item> items = new List<Item> ();
+	private ItemDatabase database;
+
 	private int[] contents = {
 		1, 2, 3, 4, 5
 	};
+
+		void Start(){
+
+			database = GetComponent<ItemDatabase> ();
+
+			for (int i = 0; i < database.getItemDataLength() ; i++) {
+				items.Add (new Item());
+			}
+
+
+			AddItem (0);
+			AddItem (1);
+			AddItem (2);
+		}
+
+		public void AddItem(int id){
+			Item itemToAdd = database.FetchItemByID (id);
+			items[id] = itemToAdd;
+		}
 
 	private string[] details = {
 		"AVcc is the supply voltage pin for A/D Converter.",
@@ -37,6 +61,14 @@ public class ListBank : MonoBehaviour
 		return contents[ index ];
 	}
 
+	public Item getItem(int index){
+		return items [index];
+	}
+
+//	public Item[] getItems(){
+//		return items;
+//	}
+
 	public void updateDetail( int index )
 	{
 		title.text = "Section " + contents[ index ].ToString();
@@ -45,6 +77,6 @@ public class ListBank : MonoBehaviour
 
 	public int getListLength()
 	{
-		return contents.Length;
+		return items.Count;
 	}
 }
