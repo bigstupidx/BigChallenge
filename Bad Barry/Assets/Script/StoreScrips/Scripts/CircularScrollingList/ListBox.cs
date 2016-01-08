@@ -8,7 +8,10 @@ using System.Collections;
 public class ListBox : MonoBehaviour
 {
 	public int listBoxID;	// Must be unique, and count from 0
-	public Text content;		// The content of the list box
+	public Item content;		// The content of the list box
+	public Image contentImage;
+	public Text contentTitle;
+
 
 	public ListBox lastListBox;
 	public ListBox nextListBox;
@@ -48,8 +51,9 @@ public class ListBox : MonoBehaviour
 
 		originalLocalScale = transform.localScale;
 
-		initialPosition( listBoxID );
 		initialContent();
+		initialPosition( listBoxID );
+
 	}
 
 	/* Initialize the content of ListBox.
@@ -67,13 +71,13 @@ public class ListBox : MonoBehaviour
 			contentID += ListBank.Instance.getListLength();
 		contentID = contentID % ListBank.Instance.getListLength();
 
-		updateContent( ListBank.Instance.getListContent( contentID ).ToString() );
+		updateContent( ListBank.Instance.getItem( contentID ) );
 	}
 
-	void updateContent( string content )
+	void updateContent( Item content )
 	{
-		this.content.text = content;
-
+		this.contentImage.sprite = content.Sprite;
+		this.content = content;
 	}
 
 	/* Make the list box slide for delta y position.
@@ -114,8 +118,9 @@ public class ListBox : MonoBehaviour
 				// At the last sliding frame, move to that position.
 				// At free moving mode, this function is disabled.
 				if ( ListPositionCtrl.Instance.alignToCenter ||
-				    ListPositionCtrl.Instance.controlByButton )
+				    ListPositionCtrl.Instance.controlByButton ){
 					updatePosition( slidingWorldPosLeft );
+				}
 				return;
 			}
 
@@ -191,6 +196,13 @@ public class ListBox : MonoBehaviour
 	{
 		transform.localScale = originalLocalScale *
 			( 1.0f + ListPositionCtrl.Instance.scaleFactor * ( upperBoundWorldPosY - Mathf.Abs( transform.position.y ) ) );
+
+
+		if (transform.localScale.x >= ListPositionCtrl.Instance.maior ) {
+			ListPositionCtrl.Instance.maior = transform.localScale.x;
+			contentTitle.text = content.Title;
+		}
+
 	}
 	
 	public int getCurrentContentID()
@@ -207,7 +219,7 @@ public class ListBox : MonoBehaviour
 		contentID = nextListBox.getCurrentContentID() - 1;
 		contentID = ( contentID < 0 ) ? ListBank.Instance.getListLength() - 1 : contentID;
 
-		updateContent( ListBank.Instance.getListContent( contentID ).ToString() );
+		updateContent( ListBank.Instance.getItem( contentID ) );
 		toggleAnimation();
 //		print ("lastContent" + getCurrentContentID());
 	}
@@ -221,9 +233,8 @@ public class ListBox : MonoBehaviour
 		contentID = lastListBox.getCurrentContentID() + 1;
 		contentID = ( contentID == ListBank.Instance.getListLength() ) ? 0 : contentID;
 
-		updateContent( ListBank.Instance.getListContent( contentID ).ToString() );
+		updateContent( ListBank.Instance.getItem( contentID ) );
 		toggleAnimation();
-//		print ("nextContent" + getCurrentContentID());
 	}
 
 	/* The callback function for the Button.
@@ -231,7 +242,7 @@ public class ListBox : MonoBehaviour
 	 */
 	public void onBoxClicked()
 	{
-		print ("BoxClicked");
+		print ("boxclicked");
 		ListPositionCtrl.Instance.selectedID = contentID;
 		ListPositionCtrl.Instance.toggleAnimation();
 		animator.SetBool( "HighLight", true );
@@ -240,9 +251,11 @@ public class ListBox : MonoBehaviour
 
 	public void toggleAnimation()
 	{
-		if ( contentID != ListPositionCtrl.Instance.selectedID )
-			animator.SetBool( "HighLight", false );
-		else
-			animator.SetBool( "HighLight", true );
+
+		if (contentID != ListPositionCtrl.Instance.selectedID)
+			animator.SetBool ("HighLight", false);
+		else {
+			animator.SetBool ("HighLight", true);
+		};
 	}
 }

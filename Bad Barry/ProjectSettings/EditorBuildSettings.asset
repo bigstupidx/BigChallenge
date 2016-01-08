@@ -5,25 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Protype Scene and prefabs/Prototype.unity
   - enabled: 1
     path: Assets/Scenes/Main Scene and prefabs/Main.unity
   - enabled: 1
-    path: Assets/Scenes/Protype Scene and prefabs/NewPrototype.unity
-  - enabled: 1
-    path: Assets/Scenes/MapScene/MapScene.unity
-  - enabled: 0
-    path: Assets/Scenes/lucasScene/lucasScene.unity
-  - enabled: 1
     path: Assets/Scenes/Inventory/InventoryScene.unity
-  - enabled: 0
-    path: Assets/Scenes/hyagoScene/newMap.unity
   - enabled: 1
     path: Assets/Scenes/Atribute Scene/AtributeScreen.unity
   - enabled: 1
-    path: Assets/Scenes/Inventory/InventoryScene.unity
+    path: Assets/Scenes/neves/HordeMode.unity
   - enabled: 1
-    path: Assets/Scenes/Inventory/InventoryScene.unity
+    path: Assets/Scenes/Protype Scene and prefabs/NewPrototype.unity
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/HordeMode/HordeMode.unity
+=======
+    path: Assets/Scenes/StoreScene/Store.unity
+  - enabled: 1
+    path: Assets/Scenes/MapScene/MapScene.unity
+>>>>>>> 401de8780b8b7af84ce594414995c32ba800d187

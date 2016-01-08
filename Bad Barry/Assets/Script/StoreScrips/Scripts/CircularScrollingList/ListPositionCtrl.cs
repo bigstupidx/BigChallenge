@@ -56,6 +56,8 @@ public class ListPositionCtrl : MonoBehaviour
 	private Vector3 currentInputWorldPos;
 	private Vector3 deltaInputWorldPos;
 
+	public float maior = 0f;
+
 	void Awake()
 	{
 		Instance = this;
@@ -78,6 +80,7 @@ public class ListPositionCtrl : MonoBehaviour
 				button.gameObject.SetActive( false );
 		toggleAnimation();
 		ListBank.Instance.updateDetail( selectedID );
+
 	}
 
 	void Update()
@@ -103,8 +106,9 @@ public class ListPositionCtrl : MonoBehaviour
 		{
 			currentInputWorldPos = Camera.main.ScreenToWorldPoint( Input.mousePosition );
 			deltaInputWorldPos = new Vector3( 0.0f, currentInputWorldPos.y - lastInputWorldPos.y, 0.0f );
-			foreach ( ListBox listbox in listBoxes )
+			foreach ( ListBox listbox in listBoxes ){
 				listbox.updatePosition( deltaInputWorldPos );
+			}
 
 			lastInputWorldPos = currentInputWorldPos;
 		}
@@ -161,6 +165,8 @@ public class ListPositionCtrl : MonoBehaviour
 
 			if ( Mathf.Abs( deltaPosY ) < Mathf.Abs( minDeltaPosY ) )
 				minDeltaPosY = deltaPosY;
+
+
 		}
 
 		return minDeltaPosY;
