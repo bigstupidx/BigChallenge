@@ -26,4 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inventory/InventoryScene.unity
   - enabled: 1
-    path: Assets/Scenes/neves/HordeMode.unity
+    path: Assets/Scenes/HordeMode/HordeMode.unity
