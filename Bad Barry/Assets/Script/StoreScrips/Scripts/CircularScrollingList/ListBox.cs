@@ -7,10 +7,14 @@ using System.Collections;
 
 public class ListBox : MonoBehaviour
 {
+	public static ListBox Instance;
+
 	public int listBoxID;	// Must be unique, and count from 0
 	public Item content;		// The content of the list box
+
 	public Image contentImage;
 	public Text contentTitle;
+	public Text contentPrice;
 
 
 	public ListBox lastListBox;
@@ -196,11 +200,19 @@ public class ListBox : MonoBehaviour
 	{
 		transform.localScale = originalLocalScale *
 			( 1.0f + ListPositionCtrl.Instance.scaleFactor * ( upperBoundWorldPosY - Mathf.Abs( transform.position.y ) ) );
+		Color c = contentImage.color;
 
-
-		if (transform.localScale.x >= ListPositionCtrl.Instance.maior ) {
+		if (transform.localScale.x >= (ListPositionCtrl.Instance.maior - (ListPositionCtrl.Instance.maior * 0.05))) {
 			ListPositionCtrl.Instance.maior = transform.localScale.x;
 			contentTitle.text = content.Title;
+			contentPrice.text = "Price: "+content.Value.ToString();
+			ListBank.Instance.itemPrice = content.Value;
+			c.a = 255;
+			contentImage.color = c;
+		} else {
+			c.a = 0.3f;
+			contentImage.color = c;
+
 		}
 
 	}
@@ -248,6 +260,7 @@ public class ListBox : MonoBehaviour
 		animator.SetBool( "HighLight", true );
 		ListBank.Instance.updateDetail( contentID );
 	}
+	
 
 	public void toggleAnimation()
 	{

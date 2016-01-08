@@ -13,10 +13,13 @@ public class ListBank : MonoBehaviour
 
 	public List<Item> items = new List<Item> ();
 	private ItemDatabase database;
+	public int itemPrice;
 
 	private int[] contents = {
 		1, 2, 3, 4, 5
 	};
+
+
 
 		void Start(){
 
@@ -25,7 +28,6 @@ public class ListBank : MonoBehaviour
 			for (int i = 0; i < database.getItemDataLength() ; i++) {
 				items.Add (new Item());
 			}
-
 
 			AddItem (0);
 			AddItem (1);
@@ -64,11 +66,7 @@ public class ListBank : MonoBehaviour
 	public Item getItem(int index){
 		return items [index];
 	}
-
-//	public Item[] getItems(){
-//		return items;
-//	}
-
+	
 	public void updateDetail( int index )
 	{
 		title.text = "Section " + contents[ index ].ToString();
