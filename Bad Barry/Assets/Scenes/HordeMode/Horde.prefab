@@ -1149,6 +1149,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 455906}
   - 61: {fileID: 6113044}
+  - 114: {fileID: 11436802}
   m_Layer: 0
   m_Name: KnifeVision
   m_TagString: Untagged
@@ -1853,11 +1854,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 184628}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: .118231773, y: -.00739622116}
+  m_Offset: {x: .169189453, y: -.00739622116}
   serializedVersion: 2
-  m_Size: {x: .349671721, y: .586154282}
+  m_Size: {x: .451586217, y: .586154282}
 --- !u!61 &6170454
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -2712,6 +2713,18 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: .125490203}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &11436802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751b2266ee1af4c3e998bcb27a02e4f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: []
 --- !u!114 &11438028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3500,6 +3513,7 @@ MonoBehaviour:
   agility: 0
   inteligence: 0
   vitality: 0
+  knifeRange: {fileID: 184628}
 --- !u!114 &11465056
 MonoBehaviour:
   m_ObjectHideFlags: 1
