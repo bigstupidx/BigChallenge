@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/CoinScripts/Sell.cs">
     <Files>
@@ -28,6 +29,14 @@
         </State>
       </Pad>
     </Pads>
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/knifeVision.cs">
+    <Files>
+      <File FileName="Assets/knifeVision.cs" Line="44" Column="35" />
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="182" Column="5" />
+    </Files>
+>>>>>>> a97fa68c4b4e9672cc8a5e343e77914c4acb09c4
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

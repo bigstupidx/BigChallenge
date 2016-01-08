@@ -37,6 +37,9 @@ public class Player : MonoBehaviour {
 	public int inteligence = 0;
 	public int vitality = 0;
 
+	public GameObject knifeRange;
+
+
 
 
 
@@ -141,41 +144,66 @@ public class Player : MonoBehaviour {
 
 
 	void Shoot(){
+
+
+
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-
+		
 		fireRate = weapon.GetComponent<Weapon> ().weapons[behave.selectedWeapon].GetComponent<WeaponStats>().fireRate;
-
+		
 		isShooting = CrossPlatformInputManager.GetButton("Fire");
 
-		if (isShooting) {
+			if (isShooting) {
 
-
-			if (time > fireRate) {
-				time = 0;
-
-				//checks if pistol or have sufficient ammo;
-				if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0 || Application.loadedLevelName == "HordeMode"){
-					weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
-					if(behave.selectedWeapon != 0 && !(Application.loadedLevelName == "HordeMode")){
-
-						behave.bullets[behave.selectedWeapon]--;
-						hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
-
-
+			var vision = knifeRange.GetComponent<knifeVision>();
+			
+			//if there arent any enemies near player
+			if(vision.enemies.Count == 0){
+				
+				if (time > fireRate) {
+					time = 0;
+					
+					//checks if pistol or have sufficient ammo;
+					if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0 || Application.loadedLevelName == "HordeMode"){
+						weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
+						if(behave.selectedWeapon != 0 && !(Application.loadedLevelName == "HordeMode")){
+							
+							behave.bullets[behave.selectedWeapon]--;
+							hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
+							
+							
+						}
+						
 					}
-
+					
 				}
+				torsoAnimator.SetBool("Shooting",true);
+				
 
+				
+				
+			}else{//if enemy is in rang for knife
+				
+				foreach(GameObject enemy in vision.enemies){
+					//facada
+					enemy.GetComponent<Enemy>().TakeDamage(100);
+					
+				}
+				vision.enemies.RemoveRange(0,vision.enemies.Count);
+				torsoAnimator.SetTrigger("Knife");
+				time = 0;
+				
 			}
-			torsoAnimator.SetBool("Shooting",true);
 
 
+		
 
-		} else {
+			} else {
 
-			torsoAnimator.SetBool("Shooting",false);
-		}
-
+				torsoAnimator.SetBool("Shooting",false);
+			}
+		
+	
 	}
 
 
