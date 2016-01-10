@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnergyMap.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\ButtonHandler.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\Prefabs-Animations\Joystick\Joystick.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Script\Papyrus\PapyrusWin.cs" />
      <Compile Include="Assets\Script\Papyrus\goal.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
+     <Compile Include="Assets\Script\PlayerScripts\knifeVision.cs" />
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBank.cs" />
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBox.cs" />
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListPositionCtrl.cs" />
@@ -99,7 +101,6 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-     <Compile Include="Assets\knifeVision.cs" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />

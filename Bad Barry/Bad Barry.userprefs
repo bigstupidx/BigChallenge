@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/GameBehavior.cs">
     <Files>
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="126" Column="3" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="61" Column="7" />
+      <File FileName="Assets/EnergyMap.cs" Line="22" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

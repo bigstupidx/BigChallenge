@@ -18,6 +18,7 @@ public class GameBehavior : MonoBehaviour {
 	public float neededExperience = 100;
 	public int life = 100;
 	public int maxLife = 100;
+	public int energy = 0;
 
 
 	//attributes points
@@ -37,6 +38,8 @@ public class GameBehavior : MonoBehaviour {
 	//inventory items
 	private List<ItemData> inventoryItems;
 
+	public float timer = 0;
+
 	
 
 	// Use this for initialization
@@ -44,11 +47,20 @@ public class GameBehavior : MonoBehaviour {
 		//on start get selected character points and get bullets
 		load();
 		pause = false;
+		energy = 0;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if(energy < 15){
+			timer = timer + Time.deltaTime;
+			if(timer >=60){
+				timer = 0;
+				energy++;
+
+			}
+		}
 	
 	}
 
@@ -113,8 +125,11 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMission(int missionNumber){
 		pause = false;
-
-		Play ();
+		print(energy);
+		if(energy > 0)
+		{
+			Play ();
+		}
 
 
 	}
@@ -135,6 +150,8 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 		DontDestroyOnLoad (gameObject);
+
+
 
 		//Application.LoadLevel("NewPrototype");
 		Application.LoadLevel("HordeMode");
@@ -279,6 +296,8 @@ public class GameBehavior : MonoBehaviour {
 		data.inteligence = inteligence;
 		data.vitality = vitality;
 		data.bullets = bullets;
+		data.energy = energy;
+		data.timer = timer;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -310,6 +329,8 @@ public class GameBehavior : MonoBehaviour {
 			inteligence = data.inteligence;
 			vitality = data.vitality;
 			bullets = data.bullets;
+			energy = data.energy;
+			timer = data.timer;
 
 
 		}
@@ -337,6 +358,7 @@ class Data
 	public float experience;
 	public float neededExperience; 
 	public int life;
+	public int energy;
 	public int maxLife;
 	
 	
@@ -349,6 +371,8 @@ class Data
 	public int vitality;
 		
 	public int[] bullets;
+
+	public float timer;
 
 
 
