@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 public class GameBehavior : MonoBehaviour {
 
@@ -34,12 +37,12 @@ public class GameBehavior : MonoBehaviour {
 	//inventory items
 	private List<ItemData> inventoryItems;
 
-
-
+	
 
 	// Use this for initialization
 	void Start () {
 		//on start get selected character points and get bullets
+		load();
 		pause = false;
 	
 	}
@@ -53,7 +56,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void incrementBullet(int weaponType,int maxBullets,int minBullets){
 
-		bullets[weaponType] = bullets[weaponType] + Random.Range(minBullets,maxBullets);
+		bullets[weaponType] = bullets[weaponType] + UnityEngine.Random.Range(minBullets,maxBullets);
 
 	}
 
@@ -73,7 +76,6 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToAtributesScreen(){
 		pause = false;
 
-		SaveCurrentSceneState ();
 
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
@@ -87,10 +89,6 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToInventoryScene(){
 		pause = false;
 
-
-
-		SaveCurrentSceneState ();
-		
 		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
 
@@ -100,10 +98,13 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void GoToMap(){
+
+
 		pause = false;
 		print ("aqui");
 		DontDestroyOnLoad (gameObject);
 		life = maxLife;
+		save();
 
 		Application.LoadLevel("MapScene");
 		
@@ -114,41 +115,21 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 		Play ();
-		//funcao para quando tiver mais de uma missao
-//		var missionName = "Mission" + missionNumber;
-//
-//		SaveCurrentSceneState ();
-//		
-//		DontDestroyOnLoad (gameObject);
-//		previousScene = Application.loadedLevel;
-//
-//		//verifica se a cena pode ser carregada
-//		if (Application.CanStreamedLevelBeLoaded(missionName)) {
-//
-//			Application.LoadLevel (missionName);
-//
-//		} else {
-//			print("Erro ao carregar uma nova cena");
-//		}
+
 
 	}
 
 	//go to last scene
 	public void GoToLastScene(){
 		pause = false;
+		save();
 
 		Application.LoadLevel("MapScene");
 		//Play();
 
 	}
 
-
-
-
-
-	private void SaveCurrentSceneState(){
-
-	}
+	
 
 	public void Play(){
 		pause = false;
@@ -277,8 +258,108 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 
+	public void save(){
+
+		BinaryFormatter bf = new BinaryFormatter();
+		FileStream file = File.Create(Application.persistentDataPath + "/BadBarryData.dat");
+		Data data = new Data();
+
+
+		data.levelingUp = levelingUp;
+		data.levelsUp = levelsUp;
+		data.pause = pause;
+		data.teste = teste;
+		data.experience = experience;
+		data.neededExperience = neededExperience; 
+		data.life = life;
+		data.maxLife = maxLife;
+		data.expendPoints = expendPoints;
+		data.strength = strength;
+		data.agility = agility;
+		data.inteligence = inteligence;
+		data.vitality = vitality;
+		data.bullets = bullets;
+
+		bf.Serialize(file,data);
+		file.Close();
+		print("save");
+
+	}
+
+	public void load(){
+
+
+		if(File.Exists(Application.persistentDataPath + "/BadBarryData.dat")){
+			print("load");
+			BinaryFormatter bf = new BinaryFormatter();
+			FileStream file = File.Open(Application.persistentDataPath + "/BadBarryData.dat",FileMode.Open);
+			Data data = (Data)bf.Deserialize(file);
+			file.Close();
+
+			levelingUp = data.levelingUp;
+			levelsUp = data.levelsUp;
+			pause = data.pause;
+			teste = data.teste;
+			experience = data.experience;
+			neededExperience = data.neededExperience; 
+			life = data.life;
+			maxLife = data.maxLife;
+			expendPoints = data.expendPoints;
+			strength = data.strength;
+			agility = data.agility;
+			inteligence = data.inteligence;
+			vitality = data.vitality;
+			bullets = data.bullets;
+
+
+		}
+
+
+
+
+	}
+
+
+
+	
+}
+
+
+[Serializable]
+class Data
+{
+
+	
+	public bool levelingUp;
+	public int levelsUp;
+	public bool pause;
+	public bool teste;
+	public float experience;
+	public float neededExperience; 
+	public int life;
+	public int maxLife;
+	
+	
+	//attributes points
+	public int expendPoints;
+
+	public int strength;
+	public int agility;
+	public int inteligence;
+	public int vitality;
+		
+	public int[] bullets;
 
 
 
 
 }
+
+
+
+
+
+
+
+
+

@@ -303,7 +303,10 @@ public class Player : MonoBehaviour {
 		Transform retry = GameObject.FindWithTag("Retry").transform;
 		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (6);
-		Application.LoadLevel("MapScene");
+
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.GoToMap();
 
 
 
