@@ -7,7 +7,6 @@ using System.IO;
 
 public class GameBehavior : MonoBehaviour {
 
-	public GameBehavior myself;
 
 	public bool levelingUp = false;
 	public int levelsUp = 0;
@@ -42,6 +41,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public float timer = 0;
 
+	public DateTime lastDateTime;
+
 	
 
 	// Use this for initialization
@@ -58,14 +59,25 @@ public class GameBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(energy < 15){
-			timer = timer + Time.deltaTime;
-			if(timer >=60){
-				timer = 0;
-				energy++;
-				print (energy);
+		DateTime currentTime = DateTime.Now;
+		TimeSpan ts = currentTime - lastDateTime;
+		lastDateTime = currentTime;
 
-			}
+		if(energy < 15){
+			timer = timer + (float)ts.TotalSeconds;
+		}
+	
+
+		
+		if(timer >=60){
+			energy = energy + (int)(timer / 60);
+			timer = timer - ((int)(timer / 60) * 60);
+			print (energy);
+	
+		}
+		if(energy > 15)
+		{
+			energy = 15;
 		}
 
 	
@@ -301,6 +313,7 @@ public class GameBehavior : MonoBehaviour {
 		data.bullets = bullets;
 		data.energy = energy;
 		data.timer = timer;
+		data.lastDateTime = lastDateTime;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -334,6 +347,7 @@ public class GameBehavior : MonoBehaviour {
 			bullets = data.bullets;
 			energy = data.energy;
 			timer = data.timer;
+			lastDateTime = data.lastDateTime;
 
 
 		}
@@ -376,6 +390,8 @@ class Data
 	public int[] bullets;
 
 	public float timer;
+
+	public DateTime lastDateTime;
 
 
 
