@@ -8,6 +8,9 @@ using System.IO;
 public class GameBehavior : MonoBehaviour {
 
 
+
+	public int[] inventory = new int[10];
+
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -18,7 +21,8 @@ public class GameBehavior : MonoBehaviour {
 	public float neededExperience = 100;
 	public int life = 100;
 	public int maxLife = 100;
-	public int energy = 0;
+	public int energy = 10;
+
 
 
 	//attributes points
@@ -40,6 +44,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public float timer = 0;
 
+	public DateTime lastDateTime;
+
 	
 
 	// Use this for initialization
@@ -47,20 +53,41 @@ public class GameBehavior : MonoBehaviour {
 		//on start get selected character points and get bullets
 		load();
 		pause = false;
-		energy = 0;
+		DontDestroyOnLoad (gameObject);
+		DontDestroyOnLoad (this);
+		if(inventory == null){
+
+			inventory = new int[10];
+		
+		}
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(energy < 15){
-			timer = timer + Time.deltaTime;
-			if(timer >=60){
-				timer = 0;
-				energy++;
 
-			}
+		DateTime currentTime = DateTime.Now;
+		TimeSpan ts = currentTime - lastDateTime;
+		lastDateTime = currentTime;
+
+		if(energy < 15){
+			timer = timer + (float)ts.TotalSeconds;
 		}
+	
+
+		
+		if(timer >=60){
+			energy = energy + (int)(timer / 60);
+			timer = timer - ((int)(timer / 60) * 60);
+			print (energy);
+	
+		}
+		if(energy >= 15)
+		{
+			timer = 0;
+			energy = 15;
+		}
+
 	
 	}
 
@@ -89,7 +116,6 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 
-		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
 
 		Application.LoadLevel("AtributeScreen");
@@ -101,11 +127,17 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToInventoryScene(){
 		pause = false;
 
-		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
 
 		Application.LoadLevel("InventoryScene");
 
+
+	}
+
+	public void GoToStoreScene(){
+		previousScene = Application.loadedLevel;
+		
+		Application.LoadLevel("Store");
 
 	}
 
@@ -114,7 +146,6 @@ public class GameBehavior : MonoBehaviour {
 
 		pause = false;
 		print ("aqui");
-		DontDestroyOnLoad (gameObject);
 		life = maxLife;
 		save();
 
@@ -125,9 +156,9 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMission(int missionNumber){
 		pause = false;
-		print(energy);
 		if(energy > 0)
 		{
+			energy--;
 			Play ();
 		}
 
@@ -298,6 +329,8 @@ public class GameBehavior : MonoBehaviour {
 		data.bullets = bullets;
 		data.energy = energy;
 		data.timer = timer;
+		data.lastDateTime = lastDateTime;
+		data.inventory = inventory;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -331,7 +364,9 @@ public class GameBehavior : MonoBehaviour {
 			bullets = data.bullets;
 			energy = data.energy;
 			timer = data.timer;
+			lastDateTime = data.lastDateTime;
 
+			inventory = data.inventory;
 
 		}
 
@@ -350,7 +385,8 @@ public class GameBehavior : MonoBehaviour {
 class Data
 {
 
-	
+	public int[] inventory;
+
 	public bool levelingUp;
 	public int levelsUp;
 	public bool pause;
@@ -373,6 +409,8 @@ class Data
 	public int[] bullets;
 
 	public float timer;
+
+	public DateTime lastDateTime;
 
 
 

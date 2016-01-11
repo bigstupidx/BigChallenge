@@ -55,18 +55,21 @@ public class Inventory : MonoBehaviour {
 
 		gridLayoutGroup = slotPanel.GetComponent<GridLayoutGroup> ();
 
-		AddItem (0);
-		AddItem (0);
-		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-//		AddItem (1);
-		AddItem (2);
+
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		for(int i = 0; i < behave.inventory.Length;i++){
+
+			for(int j = 0 ; j < behave.inventory[i]; j++){
+
+				AddItem(i);
+
+			}
+
+		}
+
+
 
 	}
 
@@ -77,14 +80,11 @@ public class Inventory : MonoBehaviour {
 			for (int i=0; i< items.Count; i++) {
 				if (items [i].ID == id) {
 					ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
-//					if(data.amount == 0)
-//						data.amount+=2;
-//					else
-//						data.amount++;
 
 					if(data.amount == 0)
-						data.amount = 1;
-					data.amount++;
+						data.amount+=2;
+					else
+						data.amount++;
 					data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
 
 					//LOGICA PARA POSICAO DO STACKAMOUNT

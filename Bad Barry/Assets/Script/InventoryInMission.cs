@@ -92,7 +92,10 @@ public class InventoryInMission : MonoBehaviour {
 
 			case 1: player.Heal(inventoryItems[itemNumber].item.Vitality);
 				Image slotImage = itemsInGame[0];
-					inventoryItems[itemNumber].amount--;
+				inventoryItems[itemNumber].amount--;
+				var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+				
+				behave.inventory[1]--;
 
 				foreach(Image image in itemsInGame){
 					if(image.name == ("ImageSlot"+itemNumber)){
@@ -105,6 +108,7 @@ public class InventoryInMission : MonoBehaviour {
 
 				if(inventoryItems[itemNumber].amount > 1){
 					slotImage.GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString() ;
+
 //						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString();
 					}
 					else{

@@ -1,0 +1,47 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameBehavior">
+			<method name="GoToMap"/>
+			<method name="GoToInventoryScene"/>
+			<method name="GoToAtributesScreen"/>
+			<method name="GoToStoreScene"/>
+			<method name="GoToLastScene"/>
+			<method name="GoToMap"/>
+		</type>
+		<type fullname="EnergyMap">
+			<method name="goToMission"/>
+		</type>
+		<type fullname="ListPositionCtrl">
+			<method name="lastContent"/>
+			<method name="nextContent"/>
+		</type>
+		<type fullname="Sell">
+			<method name="onBuyButtonClicked"/>
+		</type>
+		<type fullname="InventoryInMission">
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+		</type>
+		<type fullname="HUDGame">
+			<method name="showMenu"/>
+		</type>
+		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+		</type>
+		<type fullname="Retry">
+			<method name="retry"/>
+			<method name="retry"/>
+		</type>
+		<type fullname="AtributeScreen">
+			<method name="incrementVitality"/>
+			<method name="incrementAgility"/>
+			<method name="goBack"/>
+			<method name="incrementStrength"/>
+			<method name="incrementInteligence"/>
+		</type>
+	</assembly>
+</linker>

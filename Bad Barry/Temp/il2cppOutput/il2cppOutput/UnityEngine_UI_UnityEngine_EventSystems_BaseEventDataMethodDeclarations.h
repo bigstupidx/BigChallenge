@@ -1,0 +1,39 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+// UnityEngine.EventSystems.BaseEventData
+struct BaseEventData_t108;
+// UnityEngine.EventSystems.EventSystem
+struct EventSystem_t111;
+// UnityEngine.EventSystems.BaseInputModule
+struct BaseInputModule_t148;
+// UnityEngine.GameObject
+struct GameObject_t40;
+
+#include "codegen/il2cpp-codegen.h"
+
+// System.Void UnityEngine.EventSystems.BaseEventData::.ctor(UnityEngine.EventSystems.EventSystem)
+extern "C" void BaseEventData__ctor_m785 (BaseEventData_t108 * __this, EventSystem_t111 * ___eventSystem, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.BaseEventData::Reset()
+extern "C" void BaseEventData_Reset_m786 (BaseEventData_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.BaseEventData::Use()
+extern "C" void BaseEventData_Use_m787 (BaseEventData_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.EventSystems.BaseEventData::get_used()
+extern "C" bool BaseEventData_get_used_m788 (BaseEventData_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.EventSystems.BaseInputModule UnityEngine.EventSystems.BaseEventData::get_currentInputModule()
+extern "C" BaseInputModule_t148 * BaseEventData_get_currentInputModule_m789 (BaseEventData_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.EventSystems.BaseEventData::get_selectedObject()
+extern "C" GameObject_t40 * BaseEventData_get_selectedObject_m790 (BaseEventData_t108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.EventSystems.BaseEventData::set_selectedObject(UnityEngine.GameObject)
+extern "C" void BaseEventData_set_selectedObject_m791 (BaseEventData_t108 * __this, GameObject_t40 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

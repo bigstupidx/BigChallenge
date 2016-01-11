@@ -51,7 +51,8 @@ public class Sell : MonoBehaviour {
 			coin.Coins -= itemPrice;
 			CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
 
-
+			var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+			behave.inventory[itemID]++;
 			//CHAMAR FUNCAO PARA ADICIONAR NO INVENTARIO
 //				inv.AddItem(itemID);
 

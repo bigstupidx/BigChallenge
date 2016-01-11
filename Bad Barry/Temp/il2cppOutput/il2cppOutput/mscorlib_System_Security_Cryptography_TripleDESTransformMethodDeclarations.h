@@ -1,0 +1,29 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+// System.Security.Cryptography.TripleDESTransform
+struct TripleDESTransform_t1659;
+// System.Security.Cryptography.TripleDES
+struct TripleDES_t956;
+// System.Byte[]
+struct ByteU5BU5D_t772;
+
+#include "codegen/il2cpp-codegen.h"
+
+// System.Void System.Security.Cryptography.TripleDESTransform::.ctor(System.Security.Cryptography.TripleDES,System.Boolean,System.Byte[],System.Byte[])
+extern "C" void TripleDESTransform__ctor_m10079 (TripleDESTransform_t1659 * __this, TripleDES_t956 * ___algo, bool ___encryption, ByteU5BU5D_t772* ___key, ByteU5BU5D_t772* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Security.Cryptography.TripleDESTransform::ECB(System.Byte[],System.Byte[])
+extern "C" void TripleDESTransform_ECB_m10080 (TripleDESTransform_t1659 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.Security.Cryptography.TripleDESTransform::GetStrongKey()
+extern "C" ByteU5BU5D_t772* TripleDESTransform_GetStrongKey_m10081 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
