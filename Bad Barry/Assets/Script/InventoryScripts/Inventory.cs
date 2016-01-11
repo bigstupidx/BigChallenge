@@ -58,14 +58,14 @@ public class Inventory : MonoBehaviour {
 		AddItem (0);
 		AddItem (0);
 		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
-		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
+//		AddItem (1);
 		AddItem (2);
 
 	}
@@ -77,10 +77,17 @@ public class Inventory : MonoBehaviour {
 			for (int i=0; i< items.Count; i++) {
 				if (items [i].ID == id) {
 					ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
+//					if(data.amount == 0)
+//						data.amount+=2;
+//					else
+//						data.amount++;
+
+					if(data.amount == 0)
+						data.amount = 1;
 					data.amount++;
 					data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
-					//	fazer logica para posicao do stackamount
 
+					//LOGICA PARA POSICAO DO STACKAMOUNT
 					float slotX = data.transform.GetComponentInParent<RectTransform>().rect.width;
 					data.transform.GetChild (0).GetComponent<Text> ().GetComponent<RectTransform>().position = new Vector3(slotX/(float)2.35,-slotX/(float)2.35,0);
 

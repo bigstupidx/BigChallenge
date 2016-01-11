@@ -14,6 +14,7 @@ public class ListBank : MonoBehaviour
 	public List<Item> items = new List<Item> ();
 	private ItemDatabase database;
 	public int itemPrice;
+	public int itemID;
 
 	private int[] contents = {
 		1, 2, 3, 4, 5

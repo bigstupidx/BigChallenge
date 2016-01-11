@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"title": "pistola",
-		"value": 0,
+		"value": 50,
 		"stats": {
 			"power": 2,
 			"defense": 0,

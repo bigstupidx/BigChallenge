@@ -40,7 +40,13 @@ public class InventoryInMission : MonoBehaviour {
 							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].item.Sprite;
 
 							if(inventoryItems[index].item.Stackable){
-								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+								if(inventoryItems[index].amount > 1){
+									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+								}
+								else{
+									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
+								}
+
 							}
 								var x = image.GetComponentInChildren<Image>();
 							x.color = Color.white;
@@ -106,7 +112,7 @@ public class InventoryInMission : MonoBehaviour {
 //						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
 					}
 
-					if(inventoryItems[itemNumber].amount == 0){
+					if(inventoryItems[itemNumber].amount <= 0){
 						inventoryItems[itemNumber].item = null;
 						slotImage.color = Color.clear;
 					}

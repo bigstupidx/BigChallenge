@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/GameBehavior.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/StoreScrips/CoinScripts/Sell.cs">
     <Files>
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="61" Column="7" />
-      <File FileName="Assets/EnergyMap.cs" Line="22" Column="34" />
+      <File FileName="Assets/Script/StoreScrips/CoinScripts/Sell.cs" Line="17" Column="25" />
+      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBank.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/StoreScrips/Scripts/CircularScrollingList/ListBox.cs" Line="216" Column="42" />
+      <File FileName="Assets/Script/StoreScrips/CoinScripts/Coin.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/InventoryScripts/Inventory.cs" Line="21" Column="41" />
+      <File FileName="Assets/Script/InventoryScripts/ItemData.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

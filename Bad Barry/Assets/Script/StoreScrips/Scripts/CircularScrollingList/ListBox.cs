@@ -15,6 +15,7 @@ public class ListBox : MonoBehaviour
 	public Image contentImage;
 	public Text contentTitle;
 	public Text contentPrice;
+	public Text contentDetails;
 
 
 	public ListBox lastListBox;
@@ -204,9 +205,16 @@ public class ListBox : MonoBehaviour
 
 		if (transform.localScale.x >= (ListPositionCtrl.Instance.maior - (ListPositionCtrl.Instance.maior * 0.05))) {
 			ListPositionCtrl.Instance.maior = transform.localScale.x;
+
+			//PASSANDO OS DETALHES DOS ITENS PARA OS TEXTS 
 			contentTitle.text = content.Title;
 			contentPrice.text = "Price: "+content.Value.ToString();
+			contentDetails.text = content.Description;
+
+			//PASSANDO PRA LOJA O VALOR E O ID DE CADA ITEM 
 			ListBank.Instance.itemPrice = content.Value;
+			ListBank.Instance.itemID = content.ID;
+
 			c.a = 255;
 			contentImage.color = c;
 		} else {
