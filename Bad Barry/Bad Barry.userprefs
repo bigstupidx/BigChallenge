@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/GameBehavior.cs">
     <Files>
-      <File FileName="Assets/Script/Atribute/AtributeScreen.cs" Line="11" Column="1" />
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="302" Column="3" />
-      <File FileName="Assets/EnergyMap.cs" Line="35" Column="31" />
+      <File FileName="Assets/Script/InventoryScripts/Inventory.cs" Line="84" Column="26" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="59" Column="28" />
+      <File FileName="Assets/Script/InventoryInMission.cs" Line="50" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

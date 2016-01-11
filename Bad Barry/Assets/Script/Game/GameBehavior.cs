@@ -8,6 +8,9 @@ using System.IO;
 public class GameBehavior : MonoBehaviour {
 
 
+
+	public int[] inventory = new int[10];
+
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -52,7 +55,11 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 		DontDestroyOnLoad (gameObject);
 		DontDestroyOnLoad (this);
+		if(inventory == null){
 
+			inventory = new int[10];
+		
+		}
 	
 	}
 	
@@ -75,8 +82,9 @@ public class GameBehavior : MonoBehaviour {
 			print (energy);
 	
 		}
-		if(energy > 15)
+		if(energy >= 15)
 		{
+			timer = 0;
 			energy = 15;
 		}
 
@@ -143,6 +151,7 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 		if(energy > 0)
 		{
+			energy--;
 			Play ();
 		}
 
@@ -314,6 +323,7 @@ public class GameBehavior : MonoBehaviour {
 		data.energy = energy;
 		data.timer = timer;
 		data.lastDateTime = lastDateTime;
+		data.inventory = inventory;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -349,6 +359,7 @@ public class GameBehavior : MonoBehaviour {
 			timer = data.timer;
 			lastDateTime = data.lastDateTime;
 
+			inventory = data.inventory;
 
 		}
 
@@ -367,7 +378,8 @@ public class GameBehavior : MonoBehaviour {
 class Data
 {
 
-	
+	public int[] inventory;
+
 	public bool levelingUp;
 	public int levelsUp;
 	public bool pause;
