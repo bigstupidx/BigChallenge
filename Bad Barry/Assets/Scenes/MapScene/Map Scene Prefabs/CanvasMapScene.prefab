@@ -134,7 +134,7 @@ GameObject:
   - 114: {fileID: 11429614}
   - 114: {fileID: 11419488}
   m_Layer: 5
-  m_Name: CurrentEnergy
+  m_Name: MapSceneHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -266,9 +266,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11473782, guid: b5d1f1fa8d67444c1a284951b48c87c5, type: 2}
-        m_MethodName: GoToMission
-        m_Mode: 3
+      - m_Target: {fileID: 11419488}
+        m_MethodName: goToAtributes
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -47,10 +47,12 @@ MonoBehaviour:
   neededExperience: 100
   life: 100
   maxLife: 100
+  energy: 0
   expendPoints: 0
   previousScene: 0
   selectedWeapon: 0
   bullets: 000000000000000000000000
+  timer: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -22,4 +22,18 @@ public class EnergyMap : MonoBehaviour {
 		textEnergy.text = behave.energy.ToString();
 
 	}
+
+
+	public void goToAtributes(){
+
+		behave.GoToAtributesScreen();
+
+	}
+
+	public void goToMission(int mission){
+
+		behave.GoToMission(mission);
+
+	}
+
 }

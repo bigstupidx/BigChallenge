@@ -85,21 +85,6 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1154728642 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 162898, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-  m_PrefabInternal: {fileID: 1498947867}
---- !u!114 &1154728644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1154728642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0c20c10757644915af5091cf0a75b8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1198649205
 Prefab:
   m_ObjectHideFlags: 0
@@ -221,29 +206,13 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11429614, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.r
-      value: 1
+    - target: {fileID: 11400834, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: goToMission
       objectReference: {fileID: 0}
-    - target: {fileID: 11429614, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11429614, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11430296, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11430296, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11430296, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_Color.b
-      value: 1
+    - target: {fileID: 11400834, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}

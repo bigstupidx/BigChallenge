@@ -7,6 +7,7 @@ using System.IO;
 
 public class GameBehavior : MonoBehaviour {
 
+	public GameBehavior myself;
 
 	public bool levelingUp = false;
 	public int levelsUp = 0;
@@ -18,7 +19,8 @@ public class GameBehavior : MonoBehaviour {
 	public float neededExperience = 100;
 	public int life = 100;
 	public int maxLife = 100;
-	public int energy = 0;
+	public int energy = 10;
+
 
 
 	//attributes points
@@ -47,20 +49,25 @@ public class GameBehavior : MonoBehaviour {
 		//on start get selected character points and get bullets
 		load();
 		pause = false;
-		energy = 0;
+		DontDestroyOnLoad (gameObject);
+		DontDestroyOnLoad (this);
+
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
 		if(energy < 15){
 			timer = timer + Time.deltaTime;
 			if(timer >=60){
 				timer = 0;
 				energy++;
+				print (energy);
 
 			}
 		}
+
 	
 	}
 
@@ -89,7 +96,6 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 
-		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
 
 		Application.LoadLevel("AtributeScreen");
@@ -101,7 +107,6 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToInventoryScene(){
 		pause = false;
 
-		DontDestroyOnLoad (gameObject);
 		previousScene = Application.loadedLevel;
 
 		Application.LoadLevel("InventoryScene");
@@ -114,7 +119,6 @@ public class GameBehavior : MonoBehaviour {
 
 		pause = false;
 		print ("aqui");
-		DontDestroyOnLoad (gameObject);
 		life = maxLife;
 		save();
 
@@ -125,7 +129,6 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMission(int missionNumber){
 		pause = false;
-		print(energy);
 		if(energy > 0)
 		{
 			Play ();
