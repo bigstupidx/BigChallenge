@@ -85,6 +85,7 @@ public class InventoryInMission : MonoBehaviour {
 					break;
 
 			case 1: player.Heal(inventoryItems[itemNumber].item.Vitality);
+
 				Image slotImage = itemsInGame[0];
 					inventoryItems[itemNumber].amount--;
 

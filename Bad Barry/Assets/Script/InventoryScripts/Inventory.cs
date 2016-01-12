@@ -189,7 +189,10 @@ public class Inventory : MonoBehaviour {
 	}
 
 
-
+	public void GoToMap(AudioSource audio){
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.GoToMapWithSound (audio);
+	}
 
 
 }

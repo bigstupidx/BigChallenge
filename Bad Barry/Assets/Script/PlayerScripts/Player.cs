@@ -114,9 +114,13 @@ public class Player : MonoBehaviour {
 
 	public void ChangeWeapon(int weapon){
 
+		//toca som de arma destravando
+		this.weapon.GetComponent<Weapon> ().UnlockingWeapon (weapon);
+			
+
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.selectedWeapon = weapon;
-		if(weapon == 0 || Application.loadedLevelName == "HordeMode"){
+		if(weapon == 0){
 
 			hudGame.bullets("∞");
 
@@ -164,9 +168,12 @@ public class Player : MonoBehaviour {
 					time = 0;
 					
 					//checks if pistol or have sufficient ammo;
-					if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0 || Application.loadedLevelName == "HordeMode"){
+					if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0){
+
+
+
 						weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
-						if(behave.selectedWeapon != 0 && !(Application.loadedLevelName == "HordeMode")){
+						if(behave.selectedWeapon != 0){
 							
 							behave.bullets[behave.selectedWeapon]--;
 							hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
@@ -174,6 +181,12 @@ public class Player : MonoBehaviour {
 							
 						}
 						
+					}else{
+						//se arma estiver sem municao, reproduz som de arma vazia
+
+						weapon.GetComponent<Weapon> ().GunWithoutAmmo(behave.selectedWeapon);
+
+
 					}
 					
 				}
@@ -183,7 +196,9 @@ public class Player : MonoBehaviour {
 				
 				
 			}else{//if enemy is in rang for knife
-				
+
+				weapon.GetComponent<Weapon> ().PlayKnifeSound();
+
 				foreach(GameObject enemy in vision.enemies){
 					//facada
 					enemy.GetComponent<Enemy>().TakeDamage(100);
@@ -209,6 +224,11 @@ public class Player : MonoBehaviour {
 
 	//heal function heal parameter is amount to be healed
 	public void Heal(int heal){
+
+		//som do barry bebendo agua
+		this.weapon.GetComponent<Weapon> ().PlayItemSound ();
+
+
 		if (life + heal > maxLife) {
 		
 			life = maxLife;

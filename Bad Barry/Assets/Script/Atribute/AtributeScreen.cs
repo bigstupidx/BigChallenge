@@ -57,6 +57,10 @@ public class AtributeScreen : MonoBehaviour {
 		script.GoToLastScene();
 	}
 
+	public void GoToMap(AudioSource audio){
+		script.GoToMapWithSound (audio);
+	}
+
 	public void UpdatePoints(){
 
 		var text = GameObject.FindGameObjectWithTag("Points");

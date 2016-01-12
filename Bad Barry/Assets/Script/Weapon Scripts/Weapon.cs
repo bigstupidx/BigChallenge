@@ -5,7 +5,11 @@ public class Weapon : MonoBehaviour {
 	
 
 	public GameObject[] weapons;
-
+	public AudioSource[] weaponsSounds;
+	public AudioSource[] weaponsWithoutAmmo;
+	public AudioSource[] weaponsUnlocking;
+	public AudioSource consumableItem;
+	public AudioSource knifeSound;
 
 	//public LayerMask notToHit;
 
@@ -26,6 +30,7 @@ public class Weapon : MonoBehaviour {
 
 	public void Shoot(int direction, int baseDamage,int weapon){
 
+		weaponsSounds [weapon].Play ();
 		float xValue = 0f;
 		float yValue = 0f;
 		var selected = weapons[weapon].GetComponent<WeaponStats>();
@@ -59,6 +64,51 @@ public class Weapon : MonoBehaviour {
 		}
 
 
+	}
 
+
+	//toca som quando a arma nao tiver mais municao
+	public void GunWithoutAmmo(int weapon){
+		if (weaponsWithoutAmmo [weapon]) {
+
+			weaponsWithoutAmmo[weapon].Play();
+
+		} else {
+
+			print ("Arma sem som de municao vazia");
+		}
+	}
+
+	public void UnlockingWeapon(int weapon){
+		if (weaponsUnlocking [weapon]) {
+			
+			weaponsUnlocking[weapon].Play();
+			
+		} else {
+			
+			print ("Arma sem som de destravar");
+		}
+	}
+
+	public void PlayKnifeSound(){
+		if (knifeSound) {
+			
+			knifeSound.Play();
+			
+		} else {
+			
+			print ("Faca nao tem som");
+		}
+	}
+
+	public void PlayItemSound(){
+		if (consumableItem) {
+			
+			consumableItem.Play();
+			
+		} else {
+			
+			print ("Item nao tem som");
+		}
 	}
 }

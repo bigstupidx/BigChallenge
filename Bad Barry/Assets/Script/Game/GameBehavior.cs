@@ -7,8 +7,8 @@ using System.IO;
 
 public class GameBehavior : MonoBehaviour {
 
-	public GameBehavior myself;
-
+	private bool loadingSound=false; //assegura que tocará um audio por vez
+	
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -92,24 +92,32 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	//go to scene states
-	public void GoToAtributesScreen(){
-		pause = false;
+	public void GoToAtributesScreen(AudioSource audio){
 
+		if (!loadingSound) {
+			pause = false;
+			previousScene = Application.loadedLevel;
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "AtributeScreen"));
+		}
 
-		previousScene = Application.loadedLevel;
-
-		Application.LoadLevel("AtributeScreen");
+		//Application.LoadLevel("AtributeScreen");
 
 
 	}
 
 
-	public void GoToInventoryScene(){
-		pause = false;
+	public void GoToInventoryScene(AudioSource audio){
 
-		previousScene = Application.loadedLevel;
+		if (!loadingSound) {
+			pause = false;
+			previousScene = Application.loadedLevel;			
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "InventoryScene"));
 
-		Application.LoadLevel("InventoryScene");
+		}
+
+		//Application.LoadLevel("InventoryScene");
 
 
 	}
@@ -127,11 +135,31 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
-	public void GoToMission(int missionNumber){
-		pause = false;
-		if(energy > 0)
-		{
-			Play ();
+	public void GoToMapWithSound(AudioSource audio){
+		
+		if (!loadingSound) {
+			pause = false;
+			print ("aqui");
+			life = maxLife;
+			save ();
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "MapScene"));
+		}
+		
+	}
+
+	public void GoToMission(AudioSource audio, int missionNumber){
+		print ("Missao " + loadingSound);
+		if (!loadingSound) {
+			pause = false;
+			if (energy > 0) {
+
+				loadingSound = true;
+				StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
+				//Play ();
+			}else{
+				//colocar som do neves
+			}
 		}
 
 
@@ -152,15 +180,22 @@ public class GameBehavior : MonoBehaviour {
 	public void Play(){
 		pause = false;
 
-		DontDestroyOnLoad (gameObject);
-
-
-
 		//Application.LoadLevel("NewPrototype");
 		Application.LoadLevel("HordeMode");
 
 	}
 
+	
+	//Inicia audio e troca de cena quando o audio acabar
+	IEnumerator PlayAudio(AudioSource currentAudio,string levelName){
+		currentAudio.PlayOneShot (currentAudio.clip);
+		print ("comeca a tocar " + currentAudio.clip.length);
+		yield return new WaitForSeconds (currentAudio.clip.length);
+		//yield return new WaitForSeconds (1);
+		loadingSound = false;
+		Application.LoadLevel(levelName);
+		
+	}
 
 
 
