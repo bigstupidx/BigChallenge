@@ -23,6 +23,9 @@ public class MapSceneHandler : MonoBehaviour {
 
 	}
 
+	public void goToStoreScene(AudioSource audio){
+		behave.GoToStoreScene (audio);
+	}
 
 	public void goToAtributes(AudioSource audio){
 

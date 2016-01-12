@@ -40,7 +40,13 @@ public class InventoryInMission : MonoBehaviour {
 							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].item.Sprite;
 
 							if(inventoryItems[index].item.Stackable){
-								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+								if(inventoryItems[index].amount > 1){
+									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+								}
+								else{
+									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
+								}
+
 							}
 								var x = image.GetComponentInChildren<Image>();
 							x.color = Color.white;
@@ -87,7 +93,10 @@ public class InventoryInMission : MonoBehaviour {
 			case 1: player.Heal(inventoryItems[itemNumber].item.Vitality);
 
 				Image slotImage = itemsInGame[0];
-					inventoryItems[itemNumber].amount--;
+				inventoryItems[itemNumber].amount--;
+				var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+				
+				behave.inventory[1]--;
 
 				foreach(Image image in itemsInGame){
 					if(image.name == ("ImageSlot"+itemNumber)){
@@ -100,6 +109,7 @@ public class InventoryInMission : MonoBehaviour {
 
 				if(inventoryItems[itemNumber].amount > 1){
 					slotImage.GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString() ;
+
 //						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString();
 					}
 					else{
@@ -107,7 +117,7 @@ public class InventoryInMission : MonoBehaviour {
 //						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
 					}
 
-					if(inventoryItems[itemNumber].amount == 0){
+					if(inventoryItems[itemNumber].amount <= 0){
 						inventoryItems[itemNumber].item = null;
 						slotImage.color = Color.clear;
 					}

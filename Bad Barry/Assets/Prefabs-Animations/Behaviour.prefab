@@ -39,6 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9774d39623bc145d3b2c858ec648d211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventory: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   levelingUp: 0
   levelsUp: 0
   pause: 0

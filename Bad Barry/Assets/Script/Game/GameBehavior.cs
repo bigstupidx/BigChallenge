@@ -9,6 +9,10 @@ public class GameBehavior : MonoBehaviour {
 
 	private bool loadingSound=false; //assegura que tocará um audio por vez
 	
+
+
+	public int[] inventory = new int[10];
+
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -42,30 +46,51 @@ public class GameBehavior : MonoBehaviour {
 
 	public float timer = 0;
 
-	
+	public DateTime lastDateTime;
+
+
+
+
 
 	// Use this for initialization
 	void Start () {
+		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
+
 		//on start get selected character points and get bullets
 		load();
 		pause = false;
 		DontDestroyOnLoad (gameObject);
 		DontDestroyOnLoad (this);
+		if(inventory == null){
 
+			inventory = new int[10];
+		
+		}
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if(energy < 15){
-			timer = timer + Time.deltaTime;
-			if(timer >=60){
-				timer = 0;
-				energy++;
-				print (energy);
+		DateTime currentTime = DateTime.Now;
+		TimeSpan ts = currentTime - lastDateTime;
+		lastDateTime = currentTime;
 
-			}
+		if(energy < 15){
+			timer = timer + (float)ts.TotalSeconds;
+		}
+	
+
+		
+		if(timer >=60){
+			energy = energy + (int)(timer / 60);
+			timer = timer - ((int)(timer / 60) * 60);
+	
+		}
+		if(energy >= 15)
+		{
+			timer = 0;
+			energy = 15;
 		}
 
 	
@@ -122,6 +147,19 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
+	public void GoToStoreScene(AudioSource audio){
+
+		if (!loadingSound) {
+			previousScene = Application.loadedLevel;			
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "Store"));
+			
+		}
+
+		//Application.LoadLevel("Store");
+
+	}
+
 	public void GoToMap(){
 
 
@@ -153,6 +191,7 @@ public class GameBehavior : MonoBehaviour {
 		if (!loadingSound) {
 			pause = false;
 			if (energy > 0) {
+				energy--;
 
 				loadingSound = true;
 				StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
@@ -160,6 +199,7 @@ public class GameBehavior : MonoBehaviour {
 			}else{
 				//colocar som do neves
 			}
+
 		}
 
 
@@ -168,7 +208,9 @@ public class GameBehavior : MonoBehaviour {
 	//go to last scene
 	public void GoToLastScene(){
 		pause = false;
-		save();
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.save();
 
 		Application.LoadLevel("MapScene");
 		//Play();
@@ -336,6 +378,8 @@ public class GameBehavior : MonoBehaviour {
 		data.bullets = bullets;
 		data.energy = energy;
 		data.timer = timer;
+		data.lastDateTime = lastDateTime;
+		data.inventory = inventory;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -369,7 +413,9 @@ public class GameBehavior : MonoBehaviour {
 			bullets = data.bullets;
 			energy = data.energy;
 			timer = data.timer;
+			lastDateTime = data.lastDateTime;
 
+			inventory = data.inventory;
 
 		}
 
@@ -388,7 +434,8 @@ public class GameBehavior : MonoBehaviour {
 class Data
 {
 
-	
+	public int[] inventory;
+
 	public bool levelingUp;
 	public int levelsUp;
 	public bool pause;
@@ -411,6 +458,8 @@ class Data
 	public int[] bullets;
 
 	public float timer;
+
+	public DateTime lastDateTime;
 
 
 

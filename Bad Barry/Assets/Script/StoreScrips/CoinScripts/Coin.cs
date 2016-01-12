@@ -9,8 +9,8 @@ public class Coin : MonoBehaviour {
 
 	public Coin(int coins){
 		this.Coins = coins;
-//		this.Sprite = Resources.Load<Sprite> ("Sprites Inventory/Itens/......");
-//		this.name = name;
+		this.Sprite = Resources.Load<Sprite> ("Coin Sprite/coin");
+		this.Name = "Hyagold";
 	}
 
 }

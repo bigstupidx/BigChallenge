@@ -145,6 +145,11 @@ AudioSource:
   m_PrefabParentObject: {fileID: 8228330, guid: 3b5b39b26489d4cbd98adc5838b30821,
     type: 2}
   m_PrefabInternal: {fileID: 1198649205}
+--- !u!82 &1198649207 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8280254, guid: 3b5b39b26489d4cbd98adc5838b30821,
+    type: 2}
+  m_PrefabInternal: {fileID: 1198649205}
 --- !u!1001 &1498947867
 Prefab:
   m_ObjectHideFlags: 0
@@ -312,6 +317,26 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 647291844}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1498947868}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: goToStoreScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1198649207}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
   m_IsPrefabParent: 0

@@ -15,6 +15,7 @@ public class ListBox : MonoBehaviour
 	public Image contentImage;
 	public Text contentTitle;
 	public Text contentPrice;
+	public Text contentDetails;
 
 
 	public ListBox lastListBox;
@@ -198,15 +199,39 @@ public class ListBox : MonoBehaviour
 	 */
 	void updateSize()
 	{
+		ListPositionCtrl.Instance.scaleFactor = (ListBank.Instance.canvasRect.rect.width / 20640);
+		
+		float imageScale = ListPositionCtrl.Instance.scaleFactor * (float)0.80;
+		
+		this.GetComponentInChildren<Image> ().rectTransform.localScale = new Vector3 (imageScale,imageScale,1);
+
 		transform.localScale = originalLocalScale *
 			( 1.0f + ListPositionCtrl.Instance.scaleFactor * ( upperBoundWorldPosY - Mathf.Abs( transform.position.y ) ) );
 		Color c = contentImage.color;
 
 		if (transform.localScale.x >= (ListPositionCtrl.Instance.maior - (ListPositionCtrl.Instance.maior * 0.05))) {
 			ListPositionCtrl.Instance.maior = transform.localScale.x;
+
+//			var audio = gameObject.GetComponentInChildren<AudioSource>();
+//
+//			if(audio){
+//
+//				audio.Play();
+//
+//			}else{
+//
+//				print("Nenhuma musica instanciada no objeto");
+//			}
+
+			//PASSANDO OS DETALHES DOS ITENS PARA OS TEXTS 
 			contentTitle.text = content.Title;
 			contentPrice.text = "Price: "+content.Value.ToString();
+			contentDetails.text = content.Description;
+
+			//PASSANDO PRA LOJA O VALOR E O ID DE CADA ITEM 
 			ListBank.Instance.itemPrice = content.Value;
+			ListBank.Instance.itemID = content.ID;
+
 			c.a = 255;
 			contentImage.color = c;
 		} else {

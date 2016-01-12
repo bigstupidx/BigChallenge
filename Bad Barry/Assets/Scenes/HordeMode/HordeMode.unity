@@ -320,6 +320,10 @@ Prefab:
       propertyPath: consumableItem
       value: 
       objectReference: {fileID: 2074605294}
+    - target: {fileID: 163634, guid: b9542df0f13af4130bba267e09e0064d, type: 2}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9542df0f13af4130bba267e09e0064d, type: 2}
   m_IsPrefabParent: 0
