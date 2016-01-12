@@ -17,14 +17,14 @@ struct String_t;
 #include "mscorlib_System_IO_MonoIOStat.h"
 
 // System.IO.FileSystemInfo
-struct  FileSystemInfo_t1295  : public MarshalByRefObject_t1017
+struct  FileSystemInfo_t1304  : public MarshalByRefObject_t1017
 {
 	// System.String System.IO.FileSystemInfo::FullPath
 	String_t* ___FullPath_1;
 	// System.String System.IO.FileSystemInfo::OriginalPath
 	String_t* ___OriginalPath_2;
 	// System.IO.MonoIOStat System.IO.FileSystemInfo::stat
-	MonoIOStat_t1307  ___stat_3;
+	MonoIOStat_t1316  ___stat_3;
 	// System.Boolean System.IO.FileSystemInfo::valid
 	bool ___valid_4;
 };

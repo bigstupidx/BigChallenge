@@ -199,6 +199,12 @@ public class ListBox : MonoBehaviour
 	 */
 	void updateSize()
 	{
+		ListPositionCtrl.Instance.scaleFactor = (ListBank.Instance.canvasRect.rect.width / 20640);
+		
+		float imageScale = ListPositionCtrl.Instance.scaleFactor * (float)0.80;
+		
+		this.GetComponentInChildren<Image> ().rectTransform.localScale = new Vector3 (imageScale,imageScale,1);
+
 		transform.localScale = originalLocalScale *
 			( 1.0f + ListPositionCtrl.Instance.scaleFactor * ( upperBoundWorldPosY - Mathf.Abs( transform.position.y ) ) );
 		Color c = contentImage.color;

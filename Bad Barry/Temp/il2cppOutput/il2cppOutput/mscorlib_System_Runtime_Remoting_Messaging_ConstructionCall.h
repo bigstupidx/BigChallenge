@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1471;
+struct IActivator_t1480;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // System.Collections.IList
 struct IList_t733;
 // System.Type
@@ -26,12 +26,12 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCall.h"
 
 // System.Runtime.Remoting.Messaging.ConstructionCall
-struct  ConstructionCall_t1514  : public MethodCall_t1515
+struct  ConstructionCall_t1523  : public MethodCall_t1524
 {
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Messaging.ConstructionCall::_activator
 	Object_t * ____activator_11;
 	// System.Object[] System.Runtime.Remoting.Messaging.ConstructionCall::_activationAttributes
-	ObjectU5BU5D_t142* ____activationAttributes_12;
+	ObjectU5BU5D_t144* ____activationAttributes_12;
 	// System.Collections.IList System.Runtime.Remoting.Messaging.ConstructionCall::_contextProperties
 	Object_t * ____contextProperties_13;
 	// System.Type System.Runtime.Remoting.Messaging.ConstructionCall::_activationType
@@ -41,7 +41,7 @@ struct  ConstructionCall_t1514  : public MethodCall_t1515
 	// System.Boolean System.Runtime.Remoting.Messaging.ConstructionCall::_isContextOk
 	bool ____isContextOk_16;
 };
-struct ConstructionCall_t1514_StaticFields{
+struct ConstructionCall_t1523_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCall::<>f__switch$map20
 	Dictionary_2_t276 * ___U3CU3Ef__switchU24map20_17;
 };

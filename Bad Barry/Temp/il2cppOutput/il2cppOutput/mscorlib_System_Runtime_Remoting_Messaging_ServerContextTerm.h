@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.ServerContextTerminatorSink
-struct  ServerContextTerminatorSink_t1533  : public Object_t
+struct  ServerContextTerminatorSink_t1542  : public Object_t
 {
 };

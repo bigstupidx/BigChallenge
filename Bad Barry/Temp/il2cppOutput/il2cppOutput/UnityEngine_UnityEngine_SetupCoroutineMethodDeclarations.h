@@ -24,8 +24,8 @@ struct Type_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SetupCoroutine::.ctor()
-extern "C" void SetupCoroutine__ctor_m3361 (SetupCoroutine_t588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SetupCoroutine__ctor_m3364 (SetupCoroutine_t588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.SetupCoroutine::InvokeMember(System.Object,System.String,System.Object)
-extern "C" Object_t * SetupCoroutine_InvokeMember_m3362 (Object_t * __this /* static, unused */, Object_t * ___behaviour, String_t* ___name, Object_t * ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SetupCoroutine_InvokeMember_m3365 (Object_t * __this /* static, unused */, Object_t * ___behaviour, String_t* ___name, Object_t * ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.SetupCoroutine::InvokeStatic(System.Type,System.String,System.Object)
-extern "C" Object_t * SetupCoroutine_InvokeStatic_m3363 (Object_t * __this /* static, unused */, Type_t * ___klass, String_t* ___name, Object_t * ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SetupCoroutine_InvokeStatic_m3366 (Object_t * __this /* static, unused */, Type_t * ___klass, String_t* ___name, Object_t * ___variable, const MethodInfo* method) IL2CPP_METHOD_ATTR;

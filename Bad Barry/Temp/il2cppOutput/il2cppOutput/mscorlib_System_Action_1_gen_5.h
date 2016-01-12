@@ -21,6 +21,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Void.h"
 
 // System.Action`1<System.Object>
-struct  Action_1_t2123  : public MulticastDelegate_t264
+struct  Action_1_t2134  : public MulticastDelegate_t264
 {
 };

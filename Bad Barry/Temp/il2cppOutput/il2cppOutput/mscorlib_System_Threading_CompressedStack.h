@@ -16,7 +16,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // System.Threading.CompressedStack
-struct  CompressedStack_t1673  : public Object_t
+struct  CompressedStack_t1682  : public Object_t
 {
 	// System.Collections.ArrayList System.Threading.CompressedStack::_list
 	ArrayList_t803 * ____list_0;

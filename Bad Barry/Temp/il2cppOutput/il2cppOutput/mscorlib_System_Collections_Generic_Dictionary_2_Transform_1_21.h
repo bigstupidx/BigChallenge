@@ -24,6 +24,6 @@ struct Object_t;
 #include "LitJson_LitJson_ArrayMetadata.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ArrayMetadata,System.Collections.DictionaryEntry>
-struct  Transform_1_t2409  : public MulticastDelegate_t264
+struct  Transform_1_t2420  : public MulticastDelegate_t264
 {
 };

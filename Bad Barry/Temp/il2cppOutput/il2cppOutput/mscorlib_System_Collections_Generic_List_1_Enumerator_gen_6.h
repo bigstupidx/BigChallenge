@@ -18,7 +18,7 @@ struct Frame_t98;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>
-struct  Enumerator_t1975 
+struct  Enumerator_t1986 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Tiled2Unity.TileAnimator/Frame>::l
 	List_1_t101 * ___l_0;

@@ -18,4 +18,4 @@ struct FieldOffsetAttribute_t1164;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.FieldOffsetAttribute::.ctor(System.Int32)
-extern "C" void FieldOffsetAttribute__ctor_m6765 (FieldOffsetAttribute_t1164 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FieldOffsetAttribute__ctor_m6768 (FieldOffsetAttribute_t1164 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;

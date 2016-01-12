@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t1579;
+struct SerializationBinder_t1588;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1531;
+struct ISurrogateSelector_t1540;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Runtime_Serialization_Formatters_FormatterAs.h"
@@ -27,7 +27,7 @@ struct  BinaryFormatter_t127  : public Object_t
 	// System.Runtime.Serialization.Formatters.FormatterAssemblyStyle System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::assembly_format
 	int32_t ___assembly_format_0;
 	// System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::binder
-	SerializationBinder_t1579 * ___binder_1;
+	SerializationBinder_t1588 * ___binder_1;
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::context
 	StreamingContext_t654  ___context_2;
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::surrogate_selector

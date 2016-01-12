@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<UnityEngine.RectTransform>
-struct IList_1_t2212;
+struct IList_1_t2223;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.RectTransform>
-struct  ReadOnlyCollection_1_t2211  : public Object_t
+struct  ReadOnlyCollection_1_t2222  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.RectTransform>::list
 	Object_t* ___list_0;

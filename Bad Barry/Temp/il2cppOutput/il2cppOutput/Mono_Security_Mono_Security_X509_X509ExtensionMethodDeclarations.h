@@ -26,24 +26,24 @@ struct StringBuilder_t393;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.ASN1)
-extern "C" void X509Extension__ctor_m4235 (X509Extension_t838 * __this, ASN1_t802 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension__ctor_m4238 (X509Extension_t838 * __this, ASN1_t802 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void X509Extension__ctor_m4236 (X509Extension_t838 * __this, X509Extension_t838 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension__ctor_m4239 (X509Extension_t838 * __this, X509Extension_t838 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::Decode()
-extern "C" void X509Extension_Decode_m4237 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_Decode_m4240 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::Encode()
-extern "C" void X509Extension_Encode_m4238 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_Encode_m4241 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X509Extension::get_Oid()
-extern "C" String_t* X509Extension_get_Oid_m4239 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Extension_get_Oid_m4242 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Extension::get_Critical()
-extern "C" bool X509Extension_get_Critical_m4240 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Extension_get_Critical_m4243 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.X509.X509Extension::get_Value()
-extern "C" ASN1_t802 * X509Extension_get_Value_m4241 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t802 * X509Extension_get_Value_m4244 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Extension::Equals(System.Object)
-extern "C" bool X509Extension_Equals_m4242 (X509Extension_t838 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Extension_Equals_m4245 (X509Extension_t838 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.X509.X509Extension::GetHashCode()
-extern "C" int32_t X509Extension_GetHashCode_m4243 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Extension_GetHashCode_m4246 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Extension::WriteLine(System.Text.StringBuilder,System.Int32,System.Int32)
-extern "C" void X509Extension_WriteLine_m4244 (X509Extension_t838 * __this, StringBuilder_t393 * ___sb, int32_t ___n, int32_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_WriteLine_m4247 (X509Extension_t838 * __this, StringBuilder_t393 * ___sb, int32_t ___n, int32_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X509Extension::ToString()
-extern "C" String_t* X509Extension_ToString_m4245 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Extension_ToString_m4248 (X509Extension_t838 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

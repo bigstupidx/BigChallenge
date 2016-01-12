@@ -11,27 +11,27 @@
 #include <stdint.h>
 
 // System.IO.BinaryReader
-struct BinaryReader_t1290;
+struct BinaryReader_t1299;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.IFormatter
-struct IFormatter_t1438;
+struct IFormatter_t1447;
 // System.String[]
 struct StringU5BU5D_t85;
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Resources.ResourceReader/ResourceInfo[]
-struct ResourceInfoU5BU5D_t1436;
+struct ResourceInfoU5BU5D_t1445;
 // System.Resources.ResourceReader/ResourceCacheItem[]
-struct ResourceCacheItemU5BU5D_t1437;
+struct ResourceCacheItemU5BU5D_t1446;
 
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceReader
-struct  ResourceReader_t1435  : public Object_t
+struct  ResourceReader_t1444  : public Object_t
 {
 	// System.IO.BinaryReader System.Resources.ResourceReader::reader
-	BinaryReader_t1290 * ___reader_0;
+	BinaryReader_t1299 * ___reader_0;
 	// System.Object System.Resources.ResourceReader::readerLock
 	Object_t * ___readerLock_1;
 	// System.Runtime.Serialization.IFormatter System.Resources.ResourceReader::formatter
@@ -45,7 +45,7 @@ struct  ResourceReader_t1435  : public Object_t
 	// System.Int32[] System.Resources.ResourceReader::hashes
 	Int32U5BU5D_t46* ___hashes_6;
 	// System.Resources.ResourceReader/ResourceInfo[] System.Resources.ResourceReader::infos
-	ResourceInfoU5BU5D_t1436* ___infos_7;
+	ResourceInfoU5BU5D_t1445* ___infos_7;
 	// System.Int32 System.Resources.ResourceReader::dataSectionOffset
 	int32_t ___dataSectionOffset_8;
 	// System.Int64 System.Resources.ResourceReader::nameSectionOffset
@@ -53,7 +53,7 @@ struct  ResourceReader_t1435  : public Object_t
 	// System.Int32 System.Resources.ResourceReader::resource_ver
 	int32_t ___resource_ver_10;
 	// System.Resources.ResourceReader/ResourceCacheItem[] System.Resources.ResourceReader::cache
-	ResourceCacheItemU5BU5D_t1437* ___cache_11;
+	ResourceCacheItemU5BU5D_t1446* ___cache_11;
 	// System.Object System.Resources.ResourceReader::cache_lock
 	Object_t * ___cache_lock_12;
 };

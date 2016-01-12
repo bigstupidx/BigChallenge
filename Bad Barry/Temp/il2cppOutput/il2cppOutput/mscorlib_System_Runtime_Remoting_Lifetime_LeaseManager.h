@@ -13,15 +13,15 @@
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // System.Threading.Timer
-struct Timer_t1502;
+struct Timer_t1511;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct  LeaseManager_t1501  : public Object_t
+struct  LeaseManager_t1510  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Lifetime.LeaseManager::_objects
 	ArrayList_t803 * ____objects_0;
 	// System.Threading.Timer System.Runtime.Remoting.Lifetime.LeaseManager::_timer
-	Timer_t1502 * ____timer_1;
+	Timer_t1511 * ____timer_1;
 };

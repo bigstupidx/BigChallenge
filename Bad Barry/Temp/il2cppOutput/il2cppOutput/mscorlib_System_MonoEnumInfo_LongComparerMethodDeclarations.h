@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.MonoEnumInfo/LongComparer
-struct LongComparer_t1757;
+struct LongComparer_t1767;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MonoEnumInfo/LongComparer::.ctor()
-extern "C" void LongComparer__ctor_m10936 (LongComparer_t1757 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LongComparer__ctor_m11026 (LongComparer_t1767 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/LongComparer::Compare(System.Object,System.Object)
-extern "C" int32_t LongComparer_Compare_m10937 (LongComparer_t1757 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LongComparer_Compare_m11027 (LongComparer_t1767 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.MonoEnumInfo/LongComparer::Compare(System.Int64,System.Int64)
-extern "C" int32_t LongComparer_Compare_m10938 (LongComparer_t1757 * __this, int64_t ___ix, int64_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t LongComparer_Compare_m11028 (LongComparer_t1767 * __this, int64_t ___ix, int64_t ___iy, const MethodInfo* method) IL2CPP_METHOD_ATTR;

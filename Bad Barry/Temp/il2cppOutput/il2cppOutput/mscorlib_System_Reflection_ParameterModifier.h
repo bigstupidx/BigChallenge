@@ -16,13 +16,13 @@ struct BooleanU5BU5D_t1014;
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.ParameterModifier
-struct  ParameterModifier_t1419 
+struct  ParameterModifier_t1428 
 {
 	// System.Boolean[] System.Reflection.ParameterModifier::_byref
 	BooleanU5BU5D_t1014* ____byref_0;
 };
 // Native definition for marshalling of: System.Reflection.ParameterModifier
-struct ParameterModifier_t1419_marshaled
+struct ParameterModifier_t1428_marshaled
 {
 	int32_t* ____byref_0;
 };

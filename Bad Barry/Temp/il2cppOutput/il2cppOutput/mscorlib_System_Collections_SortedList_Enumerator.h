@@ -21,7 +21,7 @@ struct String_t;
 #include "mscorlib_System_Collections_SortedList_EnumeratorMode.h"
 
 // System.Collections.SortedList/Enumerator
-struct  Enumerator_t1264  : public Object_t
+struct  Enumerator_t1273  : public Object_t
 {
 	// System.Collections.SortedList System.Collections.SortedList/Enumerator::host
 	SortedList_t1131 * ___host_0;
@@ -40,7 +40,7 @@ struct  Enumerator_t1264  : public Object_t
 	// System.Boolean System.Collections.SortedList/Enumerator::invalid
 	bool ___invalid_7;
 };
-struct Enumerator_t1264_StaticFields{
+struct Enumerator_t1273_StaticFields{
 	// System.String System.Collections.SortedList/Enumerator::xstr
 	String_t* ___xstr_8;
 };

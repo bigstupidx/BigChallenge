@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Comparison_1_t2304  : public MulticastDelegate_t264
+struct  Comparison_1_t2315  : public MulticastDelegate_t264
 {
 };

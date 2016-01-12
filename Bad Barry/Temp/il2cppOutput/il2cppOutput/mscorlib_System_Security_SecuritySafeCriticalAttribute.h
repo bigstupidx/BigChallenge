@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Security.SecuritySafeCriticalAttribute
-struct  SecuritySafeCriticalAttribute_t1682  : public Attribute_t510
+struct  SecuritySafeCriticalAttribute_t1691  : public Attribute_t510
 {
 };

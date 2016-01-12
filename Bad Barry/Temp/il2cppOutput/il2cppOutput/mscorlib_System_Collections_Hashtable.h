@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable/Slot[]
-struct SlotU5BU5D_t1259;
+struct SlotU5BU5D_t1268;
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Hashtable/HashKeys
-struct HashKeys_t1256;
+struct HashKeys_t1265;
 // System.Collections.Hashtable/HashValues
-struct HashValues_t1257;
+struct HashValues_t1266;
 // System.Collections.IHashCodeProvider
 struct IHashCodeProvider_t987;
 // System.Collections.IComparer
@@ -39,15 +39,15 @@ struct  Hashtable_t868  : public Object_t
 	// System.Single System.Collections.Hashtable::loadFactor
 	float ___loadFactor_3;
 	// System.Collections.Hashtable/Slot[] System.Collections.Hashtable::table
-	SlotU5BU5D_t1259* ___table_4;
+	SlotU5BU5D_t1268* ___table_4;
 	// System.Int32[] System.Collections.Hashtable::hashes
 	Int32U5BU5D_t46* ___hashes_5;
 	// System.Int32 System.Collections.Hashtable::threshold
 	int32_t ___threshold_6;
 	// System.Collections.Hashtable/HashKeys System.Collections.Hashtable::hashKeys
-	HashKeys_t1256 * ___hashKeys_7;
+	HashKeys_t1265 * ___hashKeys_7;
 	// System.Collections.Hashtable/HashValues System.Collections.Hashtable::hashValues
-	HashValues_t1257 * ___hashValues_8;
+	HashValues_t1266 * ___hashValues_8;
 	// System.Collections.IHashCodeProvider System.Collections.Hashtable::hcpRef
 	Object_t * ___hcpRef_9;
 	// System.Collections.IComparer System.Collections.Hashtable::comparerRef

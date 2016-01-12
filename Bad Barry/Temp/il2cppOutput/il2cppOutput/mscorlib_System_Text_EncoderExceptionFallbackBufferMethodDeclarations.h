@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Text.EncoderExceptionFallbackBuffer
-struct EncoderExceptionFallbackBuffer_t1695;
+struct EncoderExceptionFallbackBuffer_t1705;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.EncoderExceptionFallbackBuffer::.ctor()
-extern "C" void EncoderExceptionFallbackBuffer__ctor_m10239 (EncoderExceptionFallbackBuffer_t1695 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderExceptionFallbackBuffer__ctor_m10328 (EncoderExceptionFallbackBuffer_t1705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.EncoderExceptionFallbackBuffer::get_Remaining()
-extern "C" int32_t EncoderExceptionFallbackBuffer_get_Remaining_m10240 (EncoderExceptionFallbackBuffer_t1695 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EncoderExceptionFallbackBuffer_get_Remaining_m10329 (EncoderExceptionFallbackBuffer_t1705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderExceptionFallbackBuffer::Fallback(System.Char,System.Int32)
-extern "C" bool EncoderExceptionFallbackBuffer_Fallback_m10241 (EncoderExceptionFallbackBuffer_t1695 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderExceptionFallbackBuffer_Fallback_m10330 (EncoderExceptionFallbackBuffer_t1705 * __this, uint16_t ___charUnknown, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.EncoderExceptionFallbackBuffer::Fallback(System.Char,System.Char,System.Int32)
-extern "C" bool EncoderExceptionFallbackBuffer_Fallback_m10242 (EncoderExceptionFallbackBuffer_t1695 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool EncoderExceptionFallbackBuffer_Fallback_m10331 (EncoderExceptionFallbackBuffer_t1705 * __this, uint16_t ___charUnknownHigh, uint16_t ___charUnknownLow, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Text.EncoderExceptionFallbackBuffer::GetNextChar()
-extern "C" uint16_t EncoderExceptionFallbackBuffer_GetNextChar_m10243 (EncoderExceptionFallbackBuffer_t1695 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t EncoderExceptionFallbackBuffer_GetNextChar_m10332 (EncoderExceptionFallbackBuffer_t1705 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -23,6 +23,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Void.h"
 
 // System.Reflection.EventInfo/AddEventAdapter
-struct  AddEventAdapter_t1402  : public MulticastDelegate_t264
+struct  AddEventAdapter_t1411  : public MulticastDelegate_t264
 {
 };

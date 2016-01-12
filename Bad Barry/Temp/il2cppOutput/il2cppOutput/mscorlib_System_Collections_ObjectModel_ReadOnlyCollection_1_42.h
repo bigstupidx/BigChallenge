@@ -16,7 +16,7 @@ struct IList_1_t691;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  ReadOnlyCollection_1_t2393  : public Object_t
+struct  ReadOnlyCollection_1_t2404  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::list
 	Object_t* ___list_0;

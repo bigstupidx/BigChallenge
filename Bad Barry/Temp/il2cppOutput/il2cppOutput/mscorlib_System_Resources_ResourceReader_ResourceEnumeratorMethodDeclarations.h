@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Resources.ResourceReader/ResourceEnumerator
-struct ResourceEnumerator_t1434;
+struct ResourceEnumerator_t1443;
 // System.Resources.ResourceReader
-struct ResourceReader_t1435;
+struct ResourceReader_t1444;
 // System.Object
 struct Object_t;
 
@@ -23,18 +23,18 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Resources.ResourceReader/ResourceEnumerator::.ctor(System.Resources.ResourceReader)
-extern "C" void ResourceEnumerator__ctor_m8934 (ResourceEnumerator_t1434 * __this, ResourceReader_t1435 * ___readerToEnumerate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceEnumerator__ctor_m9016 (ResourceEnumerator_t1443 * __this, ResourceReader_t1444 * ___readerToEnumerate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.DictionaryEntry System.Resources.ResourceReader/ResourceEnumerator::get_Entry()
-extern "C" DictionaryEntry_t734  ResourceEnumerator_get_Entry_m8935 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DictionaryEntry_t734  ResourceEnumerator_get_Entry_m9017 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Resources.ResourceReader/ResourceEnumerator::get_Key()
-extern "C" Object_t * ResourceEnumerator_get_Key_m8936 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ResourceEnumerator_get_Key_m9018 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Resources.ResourceReader/ResourceEnumerator::get_Value()
-extern "C" Object_t * ResourceEnumerator_get_Value_m8937 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ResourceEnumerator_get_Value_m9019 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Resources.ResourceReader/ResourceEnumerator::get_Current()
-extern "C" Object_t * ResourceEnumerator_get_Current_m8938 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ResourceEnumerator_get_Current_m9020 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Resources.ResourceReader/ResourceEnumerator::MoveNext()
-extern "C" bool ResourceEnumerator_MoveNext_m8939 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ResourceEnumerator_MoveNext_m9021 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Resources.ResourceReader/ResourceEnumerator::Reset()
-extern "C" void ResourceEnumerator_Reset_m8940 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceEnumerator_Reset_m9022 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Resources.ResourceReader/ResourceEnumerator::FillCache()
-extern "C" void ResourceEnumerator_FillCache_m8941 (ResourceEnumerator_t1434 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceEnumerator_FillCache_m9023 (ResourceEnumerator_t1443 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

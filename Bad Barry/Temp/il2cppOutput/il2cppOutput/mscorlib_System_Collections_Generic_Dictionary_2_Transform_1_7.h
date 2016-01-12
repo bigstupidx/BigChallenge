@@ -24,6 +24,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.EventSystems.PointerEventData,System.Collections.DictionaryEntry>
-struct  Transform_1_t2043  : public MulticastDelegate_t264
+struct  Transform_1_t2054  : public MulticastDelegate_t264
 {
 };

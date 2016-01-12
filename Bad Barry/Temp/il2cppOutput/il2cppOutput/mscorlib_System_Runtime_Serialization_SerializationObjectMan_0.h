@@ -13,18 +13,18 @@
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Runtime.Serialization.SerializationCallbacks/CallbackHandler
-struct CallbackHandler_t1613;
+struct CallbackHandler_t1622;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Runtime.Serialization.SerializationObjectManager
-struct  SerializationObjectManager_t1594  : public Object_t
+struct  SerializationObjectManager_t1603  : public Object_t
 {
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.SerializationObjectManager::context
 	StreamingContext_t654  ___context_0;
 	// System.Collections.Hashtable System.Runtime.Serialization.SerializationObjectManager::seen
 	Hashtable_t868 * ___seen_1;
 	// System.Runtime.Serialization.SerializationCallbacks/CallbackHandler System.Runtime.Serialization.SerializationObjectManager::callbacks
-	CallbackHandler_t1613 * ___callbacks_2;
+	CallbackHandler_t1622 * ___callbacks_2;
 };

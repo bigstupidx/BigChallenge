@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Globalization.Calendar
-struct Calendar_t1275;
+struct Calendar_t1284;
 // System.Object
 struct Object_t;
 // System.String[]
@@ -22,10 +22,10 @@ struct StringU5BU5D_t85;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Globalization.Calendar::.ctor()
-extern "C" void Calendar__ctor_m7665 (Calendar_t1275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Calendar__ctor_m7741 (Calendar_t1284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Globalization.Calendar::Clone()
-extern "C" Object_t * Calendar_Clone_m7666 (Calendar_t1275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Calendar_Clone_m7742 (Calendar_t1284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Globalization.Calendar::CheckReadOnly()
-extern "C" void Calendar_CheckReadOnly_m7667 (Calendar_t1275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Calendar_CheckReadOnly_m7743 (Calendar_t1284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.Globalization.Calendar::get_EraNames()
-extern "C" StringU5BU5D_t85* Calendar_get_EraNames_m7668 (Calendar_t1275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t85* Calendar_get_EraNames_m7744 (Calendar_t1284 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -40,27 +40,27 @@ extern "C" void pinvoke_delegate_wrapper_RemoteCertificateValidationCallback_t96
 extern "C" void pinvoke_delegate_wrapper_MatchEvaluator_t1122 ();
 extern "C" void pinvoke_delegate_wrapper_Swapper_t1144 ();
 extern "C" void pinvoke_delegate_wrapper_AsyncCallback_t266 ();
-extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1209 ();
-extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1217 ();
-extern "C" void pinvoke_delegate_wrapper_ReadDelegate_t1304 ();
-extern "C" void pinvoke_delegate_wrapper_WriteDelegate_t1305 ();
-extern "C" void pinvoke_delegate_wrapper_AddEventAdapter_t1402 ();
-extern "C" void pinvoke_delegate_wrapper_GetterAdapter_t1417 ();
-extern "C" void pinvoke_delegate_wrapper_RenewalDelegate_t1498 ();
-extern "C" void pinvoke_delegate_wrapper_CallbackHandler_t1613 ();
-extern "C" void pinvoke_delegate_wrapper_PrimalityTest_t1801 ();
+extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1218 ();
+extern "C" void pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1226 ();
+extern "C" void pinvoke_delegate_wrapper_ReadDelegate_t1313 ();
+extern "C" void pinvoke_delegate_wrapper_WriteDelegate_t1314 ();
+extern "C" void pinvoke_delegate_wrapper_AddEventAdapter_t1411 ();
+extern "C" void pinvoke_delegate_wrapper_GetterAdapter_t1426 ();
+extern "C" void pinvoke_delegate_wrapper_RenewalDelegate_t1507 ();
+extern "C" void pinvoke_delegate_wrapper_CallbackHandler_t1622 ();
+extern "C" void pinvoke_delegate_wrapper_PrimalityTest_t1812 ();
 extern "C" void pinvoke_delegate_wrapper_MemberFilter_t1147 ();
-extern "C" void pinvoke_delegate_wrapper_TypeFilter_t1409 ();
-extern "C" void pinvoke_delegate_wrapper_CrossContextDelegate_t1802 ();
-extern "C" void pinvoke_delegate_wrapper_HeaderHandler_t1803 ();
-extern "C" void pinvoke_delegate_wrapper_ThreadStart_t1805 ();
-extern "C" void pinvoke_delegate_wrapper_TimerCallback_t1727 ();
-extern "C" void pinvoke_delegate_wrapper_WaitCallback_t1806 ();
-extern "C" void pinvoke_delegate_wrapper_WaitOrTimerCallback_t1717 ();
-extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t1736 ();
-extern "C" void pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t1733 ();
-extern "C" void pinvoke_delegate_wrapper_EventHandler_t1326 ();
-extern "C" void pinvoke_delegate_wrapper_ResolveEventHandler_t1734 ();
+extern "C" void pinvoke_delegate_wrapper_TypeFilter_t1418 ();
+extern "C" void pinvoke_delegate_wrapper_CrossContextDelegate_t1813 ();
+extern "C" void pinvoke_delegate_wrapper_HeaderHandler_t1814 ();
+extern "C" void pinvoke_delegate_wrapper_ThreadStart_t1816 ();
+extern "C" void pinvoke_delegate_wrapper_TimerCallback_t1737 ();
+extern "C" void pinvoke_delegate_wrapper_WaitCallback_t1817 ();
+extern "C" void pinvoke_delegate_wrapper_WaitOrTimerCallback_t1727 ();
+extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t1746 ();
+extern "C" void pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t1743 ();
+extern "C" void pinvoke_delegate_wrapper_EventHandler_t1335 ();
+extern "C" void pinvoke_delegate_wrapper_ResolveEventHandler_t1744 ();
 extern "C" void pinvoke_delegate_wrapper_UnhandledExceptionEventHandler_t657 ();
 extern const methodPointerType g_DelegateWrappersManagedToNative[51] = 
 {
@@ -93,26 +93,26 @@ extern const methodPointerType g_DelegateWrappersManagedToNative[51] =
 	pinvoke_delegate_wrapper_MatchEvaluator_t1122,
 	pinvoke_delegate_wrapper_Swapper_t1144,
 	pinvoke_delegate_wrapper_AsyncCallback_t266,
-	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1209,
-	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1217,
-	pinvoke_delegate_wrapper_ReadDelegate_t1304,
-	pinvoke_delegate_wrapper_WriteDelegate_t1305,
-	pinvoke_delegate_wrapper_AddEventAdapter_t1402,
-	pinvoke_delegate_wrapper_GetterAdapter_t1417,
-	pinvoke_delegate_wrapper_RenewalDelegate_t1498,
-	pinvoke_delegate_wrapper_CallbackHandler_t1613,
-	pinvoke_delegate_wrapper_PrimalityTest_t1801,
+	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1218,
+	pinvoke_delegate_wrapper_KeyGeneratedEventHandler_t1226,
+	pinvoke_delegate_wrapper_ReadDelegate_t1313,
+	pinvoke_delegate_wrapper_WriteDelegate_t1314,
+	pinvoke_delegate_wrapper_AddEventAdapter_t1411,
+	pinvoke_delegate_wrapper_GetterAdapter_t1426,
+	pinvoke_delegate_wrapper_RenewalDelegate_t1507,
+	pinvoke_delegate_wrapper_CallbackHandler_t1622,
+	pinvoke_delegate_wrapper_PrimalityTest_t1812,
 	pinvoke_delegate_wrapper_MemberFilter_t1147,
-	pinvoke_delegate_wrapper_TypeFilter_t1409,
-	pinvoke_delegate_wrapper_CrossContextDelegate_t1802,
-	pinvoke_delegate_wrapper_HeaderHandler_t1803,
-	pinvoke_delegate_wrapper_ThreadStart_t1805,
-	pinvoke_delegate_wrapper_TimerCallback_t1727,
-	pinvoke_delegate_wrapper_WaitCallback_t1806,
-	pinvoke_delegate_wrapper_WaitOrTimerCallback_t1717,
-	pinvoke_delegate_wrapper_AppDomainInitializer_t1736,
-	pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t1733,
-	pinvoke_delegate_wrapper_EventHandler_t1326,
-	pinvoke_delegate_wrapper_ResolveEventHandler_t1734,
+	pinvoke_delegate_wrapper_TypeFilter_t1418,
+	pinvoke_delegate_wrapper_CrossContextDelegate_t1813,
+	pinvoke_delegate_wrapper_HeaderHandler_t1814,
+	pinvoke_delegate_wrapper_ThreadStart_t1816,
+	pinvoke_delegate_wrapper_TimerCallback_t1737,
+	pinvoke_delegate_wrapper_WaitCallback_t1817,
+	pinvoke_delegate_wrapper_WaitOrTimerCallback_t1727,
+	pinvoke_delegate_wrapper_AppDomainInitializer_t1746,
+	pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t1743,
+	pinvoke_delegate_wrapper_EventHandler_t1335,
+	pinvoke_delegate_wrapper_ResolveEventHandler_t1744,
 	pinvoke_delegate_wrapper_UnhandledExceptionEventHandler_t657,
 };

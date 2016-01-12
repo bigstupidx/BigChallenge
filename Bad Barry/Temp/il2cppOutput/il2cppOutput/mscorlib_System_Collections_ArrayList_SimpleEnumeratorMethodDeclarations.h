@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Collections.ArrayList/SimpleEnumerator
-struct SimpleEnumerator_t1244;
+struct SimpleEnumerator_t1253;
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // System.Object
@@ -22,14 +22,14 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.ArrayList/SimpleEnumerator::.ctor(System.Collections.ArrayList)
-extern "C" void SimpleEnumerator__ctor_m7305 (SimpleEnumerator_t1244 * __this, ArrayList_t803 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleEnumerator__ctor_m7381 (SimpleEnumerator_t1253 * __this, ArrayList_t803 * ___list, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/SimpleEnumerator::.cctor()
-extern "C" void SimpleEnumerator__cctor_m7306 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleEnumerator__cctor_m7382 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/SimpleEnumerator::Clone()
-extern "C" Object_t * SimpleEnumerator_Clone_m7307 (SimpleEnumerator_t1244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SimpleEnumerator_Clone_m7383 (SimpleEnumerator_t1253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/SimpleEnumerator::MoveNext()
-extern "C" bool SimpleEnumerator_MoveNext_m7308 (SimpleEnumerator_t1244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SimpleEnumerator_MoveNext_m7384 (SimpleEnumerator_t1253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/SimpleEnumerator::get_Current()
-extern "C" Object_t * SimpleEnumerator_get_Current_m7309 (SimpleEnumerator_t1244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SimpleEnumerator_get_Current_m7385 (SimpleEnumerator_t1253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/SimpleEnumerator::Reset()
-extern "C" void SimpleEnumerator_Reset_m7310 (SimpleEnumerator_t1244 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SimpleEnumerator_Reset_m7386 (SimpleEnumerator_t1253 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

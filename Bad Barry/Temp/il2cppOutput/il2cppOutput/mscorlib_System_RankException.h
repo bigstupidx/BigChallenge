@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.RankException
-struct  RankException_t1787  : public SystemException_t1134
+struct  RankException_t1798  : public SystemException_t1134
 {
 };

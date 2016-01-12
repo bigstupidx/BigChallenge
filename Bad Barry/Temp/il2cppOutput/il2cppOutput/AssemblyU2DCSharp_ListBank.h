@@ -18,6 +18,8 @@ struct Text_t52;
 struct List_1_t61;
 // ItemDatabase
 struct ItemDatabase_t60;
+// UnityEngine.RectTransform
+struct RectTransform_t71;
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.String[]
@@ -40,10 +42,12 @@ struct  ListBank_t84  : public MonoBehaviour_t2
 	int32_t ___itemPrice_7;
 	// System.Int32 ListBank::itemID
 	int32_t ___itemID_8;
+	// UnityEngine.RectTransform ListBank::canvasRect
+	RectTransform_t71 * ___canvasRect_9;
 	// System.Int32[] ListBank::contents
-	Int32U5BU5D_t46* ___contents_9;
+	Int32U5BU5D_t46* ___contents_10;
 	// System.String[] ListBank::details
-	StringU5BU5D_t85* ___details_10;
+	StringU5BU5D_t85* ___details_11;
 };
 struct ListBank_t84_StaticFields{
 	// ListBank ListBank::Instance

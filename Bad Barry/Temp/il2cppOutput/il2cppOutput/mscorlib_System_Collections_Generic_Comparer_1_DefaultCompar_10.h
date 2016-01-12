@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_10.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
-struct  DefaultComparer_t2560  : public Comparer_1_t2559
+struct  DefaultComparer_t2571  : public Comparer_1_t2570
 {
 };

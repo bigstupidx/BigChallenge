@@ -18,7 +18,7 @@ struct Type_t;
 #include "mscorlib_System_Runtime_Remoting_TypeEntry.h"
 
 // System.Runtime.Remoting.ActivatedClientTypeEntry
-struct  ActivatedClientTypeEntry_t1547  : public TypeEntry_t1548
+struct  ActivatedClientTypeEntry_t1556  : public TypeEntry_t1557
 {
 	// System.String System.Runtime.Remoting.ActivatedClientTypeEntry::applicationUrl
 	String_t* ___applicationUrl_2;

@@ -13,27 +13,27 @@
 #include <exception>
 
 // UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>
-struct U3CStartU3Ec__Iterator0_t2124;
+struct U3CStartU3Ec__Iterator0_t2135;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::.ctor()
-extern "C" void U3CStartU3Ec__Iterator0__ctor_m14393_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0__ctor_m14393(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0__ctor_m14393_gshared)(__this, method)
+extern "C" void U3CStartU3Ec__Iterator0__ctor_m14486_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0__ctor_m14486(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0__ctor_m14486_gshared)(__this, method)
 // System.Object UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C" Object_t * U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14394_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14394(__this, method) (( Object_t * (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14394_gshared)(__this, method)
+extern "C" Object_t * U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14487_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14487(__this, method) (( Object_t * (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m14487_gshared)(__this, method)
 // System.Object UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14395_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14395(__this, method) (( Object_t * (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14395_gshared)(__this, method)
+extern "C" Object_t * U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14488_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14488(__this, method) (( Object_t * (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m14488_gshared)(__this, method)
 // System.Boolean UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::MoveNext()
-extern "C" bool U3CStartU3Ec__Iterator0_MoveNext_m14396_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0_MoveNext_m14396(__this, method) (( bool (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0_MoveNext_m14396_gshared)(__this, method)
+extern "C" bool U3CStartU3Ec__Iterator0_MoveNext_m14489_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0_MoveNext_m14489(__this, method) (( bool (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0_MoveNext_m14489_gshared)(__this, method)
 // System.Void UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::Dispose()
-extern "C" void U3CStartU3Ec__Iterator0_Dispose_m14397_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0_Dispose_m14397(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0_Dispose_m14397_gshared)(__this, method)
+extern "C" void U3CStartU3Ec__Iterator0_Dispose_m14490_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0_Dispose_m14490(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0_Dispose_m14490_gshared)(__this, method)
 // System.Void UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::Reset()
-extern "C" void U3CStartU3Ec__Iterator0_Reset_m14398_gshared (U3CStartU3Ec__Iterator0_t2124 * __this, const MethodInfo* method);
-#define U3CStartU3Ec__Iterator0_Reset_m14398(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2124 *, const MethodInfo*))U3CStartU3Ec__Iterator0_Reset_m14398_gshared)(__this, method)
+extern "C" void U3CStartU3Ec__Iterator0_Reset_m14491_gshared (U3CStartU3Ec__Iterator0_t2135 * __this, const MethodInfo* method);
+#define U3CStartU3Ec__Iterator0_Reset_m14491(__this, method) (( void (*) (U3CStartU3Ec__Iterator0_t2135 *, const MethodInfo*))U3CStartU3Ec__Iterator0_Reset_m14491_gshared)(__this, method)

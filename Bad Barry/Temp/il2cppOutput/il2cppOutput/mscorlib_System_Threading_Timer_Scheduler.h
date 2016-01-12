@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Threading.Timer/Scheduler
-struct Scheduler_t1726;
+struct Scheduler_t1736;
 // System.Collections.SortedList
 struct SortedList_t1131;
 
 #include "mscorlib_System_Object.h"
 
 // System.Threading.Timer/Scheduler
-struct  Scheduler_t1726  : public Object_t
+struct  Scheduler_t1736  : public Object_t
 {
 	// System.Collections.SortedList System.Threading.Timer/Scheduler::list
 	SortedList_t1131 * ___list_1;
 };
-struct Scheduler_t1726_StaticFields{
+struct Scheduler_t1736_StaticFields{
 	// System.Threading.Timer/Scheduler System.Threading.Timer/Scheduler::instance
-	Scheduler_t1726 * ___instance_0;
+	Scheduler_t1736 * ___instance_0;
 };

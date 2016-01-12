@@ -17,10 +17,10 @@
 #include "mscorlib_System_Predicate_1_gen_2MethodDeclarations.h"
 
 // System.Void System.Predicate`1<System.Type>::.ctor(System.Object,System.IntPtr)
-#define Predicate_1__ctor_m17447(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2348 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m11930_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m17540(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2359 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m12023_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Type>::Invoke(T)
-#define Predicate_1_Invoke_m17448(__this, ___obj, method) (( bool (*) (Predicate_1_t2348 *, Type_t *, const MethodInfo*))Predicate_1_Invoke_m11931_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m17541(__this, ___obj, method) (( bool (*) (Predicate_1_t2359 *, Type_t *, const MethodInfo*))Predicate_1_Invoke_m12024_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Type>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m17449(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2348 *, Type_t *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m11932_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m17542(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2359 *, Type_t *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m12025_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Type>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m17450(__this, ___result, method) (( bool (*) (Predicate_1_t2348 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m11933_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m17543(__this, ___result, method) (( bool (*) (Predicate_1_t2359 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m12026_gshared)(__this, ___result, method)

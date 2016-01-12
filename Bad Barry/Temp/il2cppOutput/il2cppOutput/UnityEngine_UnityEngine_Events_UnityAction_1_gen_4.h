@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Component
-struct Component_t143;
+struct Component_t145;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback

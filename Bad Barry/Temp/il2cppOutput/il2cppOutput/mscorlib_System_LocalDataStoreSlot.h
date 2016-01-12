@@ -18,14 +18,14 @@ struct BooleanU5BU5D_t1014;
 #include "mscorlib_System_Object.h"
 
 // System.LocalDataStoreSlot
-struct  LocalDataStoreSlot_t1769  : public Object_t
+struct  LocalDataStoreSlot_t1780  : public Object_t
 {
 	// System.Int32 System.LocalDataStoreSlot::slot
 	int32_t ___slot_0;
 	// System.Boolean System.LocalDataStoreSlot::thread_local
 	bool ___thread_local_1;
 };
-struct LocalDataStoreSlot_t1769_StaticFields{
+struct LocalDataStoreSlot_t1780_StaticFields{
 	// System.Object System.LocalDataStoreSlot::lock_obj
 	Object_t * ___lock_obj_2;
 	// System.Boolean[] System.LocalDataStoreSlot::slot_bitmap_thread

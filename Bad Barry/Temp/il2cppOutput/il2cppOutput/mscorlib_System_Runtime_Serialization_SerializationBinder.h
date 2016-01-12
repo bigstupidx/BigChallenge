@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Serialization.SerializationBinder
-struct  SerializationBinder_t1579  : public Object_t
+struct  SerializationBinder_t1588  : public Object_t
 {
 };

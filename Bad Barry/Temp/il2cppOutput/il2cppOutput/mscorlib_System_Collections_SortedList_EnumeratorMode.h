@@ -15,7 +15,7 @@
 #include "mscorlib_System_Collections_SortedList_EnumeratorMode.h"
 
 // System.Collections.SortedList/EnumeratorMode
-struct  EnumeratorMode_t1263 
+struct  EnumeratorMode_t1272 
 {
 	// System.Int32 System.Collections.SortedList/EnumeratorMode::value__
 	int32_t ___value___1;

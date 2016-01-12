@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Reflection.Pointer
-struct Pointer_t1420;
+struct Pointer_t1429;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 
@@ -21,6 +21,6 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.Pointer::.ctor()
-extern "C" void Pointer__ctor_m8875 (Pointer_t1420 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Pointer__ctor_m8957 (Pointer_t1429 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Pointer::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Pointer_System_Runtime_Serialization_ISerializable_GetObjectData_m8876 (Pointer_t1420 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Pointer_System_Runtime_Serialization_ISerializable_GetObjectData_m8958 (Pointer_t1429 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,4 +18,4 @@ struct SliderEvent_t310;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Slider/SliderEvent::.ctor()
-extern "C" void SliderEvent__ctor_m1682 (SliderEvent_t310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderEvent__ctor_m1685 (SliderEvent_t310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

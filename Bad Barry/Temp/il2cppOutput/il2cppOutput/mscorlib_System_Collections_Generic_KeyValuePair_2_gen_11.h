@@ -16,7 +16,7 @@ struct IClipper_t390;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>
-struct  KeyValuePair_2_t2207 
+struct  KeyValuePair_2_t2218 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>::key
 	Object_t * ___key_0;

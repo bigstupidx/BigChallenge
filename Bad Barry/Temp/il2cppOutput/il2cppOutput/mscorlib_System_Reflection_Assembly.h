@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // System.Reflection.Assembly/ResolveEventHolder
-struct ResolveEventHolder_t1375;
+struct ResolveEventHolder_t1384;
 // System.Security.Policy.Evidence
-struct Evidence_t1376;
+struct Evidence_t1385;
 // System.Security.PermissionSet
-struct PermissionSet_t1377;
+struct PermissionSet_t1386;
 // System.String
 struct String_t;
 
@@ -28,19 +28,19 @@ struct  Assembly_t1133  : public Object_t
 	// System.IntPtr System.Reflection.Assembly::_mono_assembly
 	IntPtr_t ____mono_assembly_0;
 	// System.Reflection.Assembly/ResolveEventHolder System.Reflection.Assembly::resolve_event_holder
-	ResolveEventHolder_t1375 * ___resolve_event_holder_1;
+	ResolveEventHolder_t1384 * ___resolve_event_holder_1;
 	// System.Security.Policy.Evidence System.Reflection.Assembly::_evidence
-	Evidence_t1376 * ____evidence_2;
+	Evidence_t1385 * ____evidence_2;
 	// System.Security.PermissionSet System.Reflection.Assembly::_minimum
-	PermissionSet_t1377 * ____minimum_3;
+	PermissionSet_t1386 * ____minimum_3;
 	// System.Security.PermissionSet System.Reflection.Assembly::_optional
-	PermissionSet_t1377 * ____optional_4;
+	PermissionSet_t1386 * ____optional_4;
 	// System.Security.PermissionSet System.Reflection.Assembly::_refuse
-	PermissionSet_t1377 * ____refuse_5;
+	PermissionSet_t1386 * ____refuse_5;
 	// System.Security.PermissionSet System.Reflection.Assembly::_granted
-	PermissionSet_t1377 * ____granted_6;
+	PermissionSet_t1386 * ____granted_6;
 	// System.Security.PermissionSet System.Reflection.Assembly::_denied
-	PermissionSet_t1377 * ____denied_7;
+	PermissionSet_t1386 * ____denied_7;
 	// System.Boolean System.Reflection.Assembly::fromByteArray
 	bool ___fromByteArray_8;
 	// System.String System.Reflection.Assembly::assemblyName

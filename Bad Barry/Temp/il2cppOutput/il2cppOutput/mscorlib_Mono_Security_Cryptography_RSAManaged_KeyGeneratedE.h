@@ -23,6 +23,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Void.h"
 
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
-struct  KeyGeneratedEventHandler_t1217  : public MulticastDelegate_t264
+struct  KeyGeneratedEventHandler_t1226  : public MulticastDelegate_t264
 {
 };

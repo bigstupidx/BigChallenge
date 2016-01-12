@@ -20,8 +20,8 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.MRUList::.ctor()
-extern "C" void MRUList__ctor_m5454 (MRUList_t1068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MRUList__ctor_m5457 (MRUList_t1068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.MRUList::Use(System.Object)
-extern "C" void MRUList_Use_m5455 (MRUList_t1068 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MRUList_Use_m5458 (MRUList_t1068 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.MRUList::Evict()
-extern "C" Object_t * MRUList_Evict_m5456 (MRUList_t1068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MRUList_Evict_m5459 (MRUList_t1068 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

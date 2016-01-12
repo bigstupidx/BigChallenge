@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.RectMask2D[]
-struct RectMask2DU5BU5D_t2162;
+struct RectMask2DU5BU5D_t2173;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct RectMask2DU5BU5D_t2162;
 struct  List_1_t290  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_items
-	RectMask2DU5BU5D_t2162* ____items_1;
+	RectMask2DU5BU5D_t2173* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_version
@@ -27,5 +27,5 @@ struct  List_1_t290  : public Object_t
 };
 struct List_1_t290_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::EmptyArray
-	RectMask2DU5BU5D_t2162* ___EmptyArray_4;
+	RectMask2DU5BU5D_t2173* ___EmptyArray_4;
 };

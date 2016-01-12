@@ -21,7 +21,7 @@ struct String_t;
 #include "mscorlib_System_Collections_Hashtable_EnumeratorMode.h"
 
 // System.Collections.Hashtable/Enumerator
-struct  Enumerator_t1255  : public Object_t
+struct  Enumerator_t1264  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/Enumerator::host
 	Hashtable_t868 * ___host_0;
@@ -38,7 +38,7 @@ struct  Enumerator_t1255  : public Object_t
 	// System.Object System.Collections.Hashtable/Enumerator::currentValue
 	Object_t * ___currentValue_6;
 };
-struct Enumerator_t1255_StaticFields{
+struct Enumerator_t1264_StaticFields{
 	// System.String System.Collections.Hashtable/Enumerator::xstr
 	String_t* ___xstr_7;
 };

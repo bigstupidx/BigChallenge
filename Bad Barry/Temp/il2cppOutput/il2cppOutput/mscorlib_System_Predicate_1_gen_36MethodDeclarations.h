@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Predicate`1<UnityEngine.UICharInfo>
-struct Predicate_1_t2329;
+struct Predicate_1_t2340;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -26,14 +26,14 @@ struct AsyncCallback_t266;
 #include "UnityEngine_UnityEngine_UICharInfo.h"
 
 // System.Void System.Predicate`1<UnityEngine.UICharInfo>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m17176_gshared (Predicate_1_t2329 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m17176(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2329 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m17176_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m17269_gshared (Predicate_1_t2340 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m17269(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2340 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m17269_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m17177_gshared (Predicate_1_t2329 * __this, UICharInfo_t430  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m17177(__this, ___obj, method) (( bool (*) (Predicate_1_t2329 *, UICharInfo_t430 , const MethodInfo*))Predicate_1_Invoke_m17177_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m17270_gshared (Predicate_1_t2340 * __this, UICharInfo_t430  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m17270(__this, ___obj, method) (( bool (*) (Predicate_1_t2340 *, UICharInfo_t430 , const MethodInfo*))Predicate_1_Invoke_m17270_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<UnityEngine.UICharInfo>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m17178_gshared (Predicate_1_t2329 * __this, UICharInfo_t430  ___obj, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m17178(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2329 *, UICharInfo_t430 , AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m17178_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m17271_gshared (Predicate_1_t2340 * __this, UICharInfo_t430  ___obj, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m17271(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2340 *, UICharInfo_t430 , AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m17271_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<UnityEngine.UICharInfo>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m17179_gshared (Predicate_1_t2329 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m17179(__this, ___result, method) (( bool (*) (Predicate_1_t2329 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m17179_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m17272_gshared (Predicate_1_t2340 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m17272(__this, ___result, method) (( bool (*) (Predicate_1_t2340 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m17272_gshared)(__this, ___result, method)

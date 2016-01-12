@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
-struct SynchronizationAttribute_t1493;
+struct SynchronizationAttribute_t1502;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Contexts.SynchronizedClientContextSink
-struct  SynchronizedClientContextSink_t1496  : public Object_t
+struct  SynchronizedClientContextSink_t1505  : public Object_t
 {
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Contexts.SynchronizedClientContextSink::_next
 	Object_t * ____next_0;
 	// System.Runtime.Remoting.Contexts.SynchronizationAttribute System.Runtime.Remoting.Contexts.SynchronizedClientContextSink::_att
-	SynchronizationAttribute_t1493 * ____att_1;
+	SynchronizationAttribute_t1502 * ____att_1;
 };

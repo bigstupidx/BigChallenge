@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Resources.NeutralResourcesLanguageAttribute
-struct NeutralResourcesLanguageAttribute_t1429;
+struct NeutralResourcesLanguageAttribute_t1438;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Resources.NeutralResourcesLanguageAttribute::.ctor(System.String)
-extern "C" void NeutralResourcesLanguageAttribute__ctor_m8929 (NeutralResourcesLanguageAttribute_t1429 * __this, String_t* ___cultureName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NeutralResourcesLanguageAttribute__ctor_m9011 (NeutralResourcesLanguageAttribute_t1438 * __this, String_t* ___cultureName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

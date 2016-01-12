@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Collections.Generic.GenericComparer`1<System.Guid>
-struct GenericComparer_1_t1895;
+struct GenericComparer_1_t1906;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Guid.h"
 
 // System.Void System.Collections.Generic.GenericComparer`1<System.Guid>::.ctor()
-extern "C" void GenericComparer_1__ctor_m11424_gshared (GenericComparer_1_t1895 * __this, const MethodInfo* method);
-#define GenericComparer_1__ctor_m11424(__this, method) (( void (*) (GenericComparer_1_t1895 *, const MethodInfo*))GenericComparer_1__ctor_m11424_gshared)(__this, method)
+extern "C" void GenericComparer_1__ctor_m11517_gshared (GenericComparer_1_t1906 * __this, const MethodInfo* method);
+#define GenericComparer_1__ctor_m11517(__this, method) (( void (*) (GenericComparer_1_t1906 *, const MethodInfo*))GenericComparer_1__ctor_m11517_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericComparer`1<System.Guid>::Compare(T,T)
-extern "C" int32_t GenericComparer_1_Compare_m20211_gshared (GenericComparer_1_t1895 * __this, Guid_t1767  ___x, Guid_t1767  ___y, const MethodInfo* method);
-#define GenericComparer_1_Compare_m20211(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t1895 *, Guid_t1767 , Guid_t1767 , const MethodInfo*))GenericComparer_1_Compare_m20211_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t GenericComparer_1_Compare_m20304_gshared (GenericComparer_1_t1906 * __this, Guid_t1778  ___x, Guid_t1778  ___y, const MethodInfo* method);
+#define GenericComparer_1_Compare_m20304(__this, ___x, ___y, method) (( int32_t (*) (GenericComparer_1_t1906 *, Guid_t1778 , Guid_t1778 , const MethodInfo*))GenericComparer_1_Compare_m20304_gshared)(__this, ___x, ___y, method)

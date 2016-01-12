@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.Mesh
-struct  Mesh_t141  : public Object_t112
+struct  Mesh_t143  : public Object_t112
 {
 };

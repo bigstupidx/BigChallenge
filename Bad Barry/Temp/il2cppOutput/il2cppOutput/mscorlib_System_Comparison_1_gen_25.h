@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Comparison_1_t2193  : public MulticastDelegate_t264
+struct  Comparison_1_t2204  : public MulticastDelegate_t264
 {
 };

@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Collections.Hashtable/HashKeys
-struct HashKeys_t1256;
+struct HashKeys_t1265;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Object
@@ -26,14 +26,14 @@ struct IEnumerator_t109;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Hashtable/HashKeys::.ctor(System.Collections.Hashtable)
-extern "C" void HashKeys__ctor_m7494 (HashKeys_t1256 * __this, Hashtable_t868 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HashKeys__ctor_m7570 (HashKeys_t1265 * __this, Hashtable_t868 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Hashtable/HashKeys::get_Count()
-extern "C" int32_t HashKeys_get_Count_m7495 (HashKeys_t1256 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t HashKeys_get_Count_m7571 (HashKeys_t1265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Hashtable/HashKeys::get_IsSynchronized()
-extern "C" bool HashKeys_get_IsSynchronized_m7496 (HashKeys_t1256 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HashKeys_get_IsSynchronized_m7572 (HashKeys_t1265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Hashtable/HashKeys::get_SyncRoot()
-extern "C" Object_t * HashKeys_get_SyncRoot_m7497 (HashKeys_t1256 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HashKeys_get_SyncRoot_m7573 (HashKeys_t1265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/HashKeys::CopyTo(System.Array,System.Int32)
-extern "C" void HashKeys_CopyTo_m7498 (HashKeys_t1256 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HashKeys_CopyTo_m7574 (HashKeys_t1265 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Collections.Hashtable/HashKeys::GetEnumerator()
-extern "C" Object_t * HashKeys_GetEnumerator_m7499 (HashKeys_t1256 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HashKeys_GetEnumerator_m7575 (HashKeys_t1265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

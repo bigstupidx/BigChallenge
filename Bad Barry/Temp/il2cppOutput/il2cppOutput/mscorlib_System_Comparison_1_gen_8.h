@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<Tiled2Unity.TileAnimator/Frame>
-struct  Comparison_1_t1976  : public MulticastDelegate_t264
+struct  Comparison_1_t1987  : public MulticastDelegate_t264
 {
 };

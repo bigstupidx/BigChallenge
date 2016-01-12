@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 
 // System.Security.Cryptography.RC2Transform
-struct  RC2Transform_t1636  : public SymmetricTransform_t1219
+struct  RC2Transform_t1645  : public SymmetricTransform_t1228
 {
 	// System.UInt16 System.Security.Cryptography.RC2Transform::R0
 	uint16_t ___R0_12;
@@ -33,7 +33,7 @@ struct  RC2Transform_t1636  : public SymmetricTransform_t1219
 	// System.Int32 System.Security.Cryptography.RC2Transform::j
 	int32_t ___j_17;
 };
-struct RC2Transform_t1636_StaticFields{
+struct RC2Transform_t1645_StaticFields{
 	// System.Byte[] System.Security.Cryptography.RC2Transform::pitable
 	ByteU5BU5D_t772* ___pitable_18;
 };

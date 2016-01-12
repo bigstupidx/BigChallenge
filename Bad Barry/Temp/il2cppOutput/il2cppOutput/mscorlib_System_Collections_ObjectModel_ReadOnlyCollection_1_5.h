@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Item>
-struct IList_1_t1960;
+struct IList_1_t1971;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Item>
-struct  ReadOnlyCollection_1_t1959  : public Object_t
+struct  ReadOnlyCollection_1_t1970  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Item>::list
 	Object_t* ___list_0;

@@ -13,15 +13,15 @@
 #include <exception>
 
 // UnityEngine.UI.Dropdown/OptionDataList
-struct OptionDataList_t219;
+struct OptionDataList_t220;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
-struct List_1_t220;
+struct List_1_t221;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Dropdown/OptionDataList::.ctor()
-extern "C" void OptionDataList__ctor_m1066 (OptionDataList_t219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OptionDataList__ctor_m1072 (OptionDataList_t220 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown/OptionDataList::get_options()
-extern "C" List_1_t220 * OptionDataList_get_options_m1067 (OptionDataList_t219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t221 * OptionDataList_get_options_m1073 (OptionDataList_t220 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown/OptionDataList::set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>)
-extern "C" void OptionDataList_set_options_m1068 (OptionDataList_t219 * __this, List_1_t220 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OptionDataList_set_options_m1074 (OptionDataList_t220 * __this, List_1_t221 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,12 +13,12 @@
 // System.Collections.Generic.List`1<UnityEngine.Canvas>
 struct List_1_t408;
 // UnityEngine.Canvas
-struct Canvas_t235;
+struct Canvas_t137;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>
-struct  Enumerator_t2103 
+struct  Enumerator_t2114 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::l
 	List_1_t408 * ___l_0;
@@ -27,5 +27,5 @@ struct  Enumerator_t2103
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Canvas>::current
-	Canvas_t235 * ___current_3;
+	Canvas_t137 * ___current_3;
 };

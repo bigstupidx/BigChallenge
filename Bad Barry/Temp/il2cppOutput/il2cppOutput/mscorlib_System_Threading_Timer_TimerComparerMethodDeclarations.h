@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Threading.Timer/TimerComparer
-struct TimerComparer_t1725;
+struct TimerComparer_t1735;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Threading.Timer/TimerComparer::.ctor()
-extern "C" void TimerComparer__ctor_m10510 (TimerComparer_t1725 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerComparer__ctor_m10599 (TimerComparer_t1735 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Timer/TimerComparer::Compare(System.Object,System.Object)
-extern "C" int32_t TimerComparer_Compare_m10511 (TimerComparer_t1725 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TimerComparer_Compare_m10600 (TimerComparer_t1735 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Comparison`1<UnityEngine.Vector2>
-struct  Comparison_1_t2258  : public MulticastDelegate_t264
+struct  Comparison_1_t2269  : public MulticastDelegate_t264
 {
 };

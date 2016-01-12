@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Hashtable/KeyMarker
-struct KeyMarker_t1253;
+struct KeyMarker_t1262;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Hashtable/KeyMarker
-struct  KeyMarker_t1253  : public Object_t
+struct  KeyMarker_t1262  : public Object_t
 {
 };
-struct KeyMarker_t1253_StaticFields{
+struct KeyMarker_t1262_StaticFields{
 	// System.Collections.Hashtable/KeyMarker System.Collections.Hashtable/KeyMarker::Removed
-	KeyMarker_t1253 * ___Removed_0;
+	KeyMarker_t1262 * ___Removed_0;
 };

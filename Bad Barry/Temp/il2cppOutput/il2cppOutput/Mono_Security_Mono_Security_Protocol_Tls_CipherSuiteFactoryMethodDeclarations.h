@@ -19,8 +19,8 @@ struct CipherSuiteCollection_t860;
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
 
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetSupportedCiphers(Mono.Security.Protocol.Tls.SecurityProtocolType)
-extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetSupportedCiphers_m4378 (Object_t * __this /* static, unused */, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetSupportedCiphers_m4381 (Object_t * __this /* static, unused */, int32_t ___protocol, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetTls1SupportedCiphers()
-extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetTls1SupportedCiphers_m4379 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetTls1SupportedCiphers_m4382 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.CipherSuiteFactory::GetSsl3SupportedCiphers()
-extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetSsl3SupportedCiphers_m4380 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CipherSuiteCollection_t860 * CipherSuiteFactory_GetSsl3SupportedCiphers_m4383 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

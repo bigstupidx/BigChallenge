@@ -17,10 +17,10 @@
 #include "mscorlib_System_Predicate_1_gen_2MethodDeclarations.h"
 
 // System.Void System.Predicate`1<LitJson.JsonData>::.ctor(System.Object,System.IntPtr)
-#define Predicate_1__ctor_m18107(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2398 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m11930_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m18200(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2409 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m12023_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<LitJson.JsonData>::Invoke(T)
-#define Predicate_1_Invoke_m18108(__this, ___obj, method) (( bool (*) (Predicate_1_t2398 *, JsonData_t66 *, const MethodInfo*))Predicate_1_Invoke_m11931_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m18201(__this, ___obj, method) (( bool (*) (Predicate_1_t2409 *, JsonData_t66 *, const MethodInfo*))Predicate_1_Invoke_m12024_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<LitJson.JsonData>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m18109(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2398 *, JsonData_t66 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m11932_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m18202(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2409 *, JsonData_t66 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m12025_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<LitJson.JsonData>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m18110(__this, ___result, method) (( bool (*) (Predicate_1_t2398 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m11933_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m18203(__this, ___result, method) (( bool (*) (Predicate_1_t2409 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m12026_gshared)(__this, ___result, method)

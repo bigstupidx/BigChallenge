@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_2.h"
 
 // UnityEngine.UI.Dropdown/DropdownEvent
-struct  DropdownEvent_t221  : public UnityEvent_1_t222
+struct  DropdownEvent_t222  : public UnityEvent_1_t223
 {
 };

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // LitJson.JsonData[]
-struct JsonDataU5BU5D_t2376;
+struct JsonDataU5BU5D_t2387;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct JsonDataU5BU5D_t2376;
 struct  List_1_t745  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<LitJson.JsonData>::_items
-	JsonDataU5BU5D_t2376* ____items_1;
+	JsonDataU5BU5D_t2387* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<LitJson.JsonData>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<LitJson.JsonData>::_version
@@ -27,5 +27,5 @@ struct  List_1_t745  : public Object_t
 };
 struct List_1_t745_StaticFields{
 	// T[] System.Collections.Generic.List`1<LitJson.JsonData>::EmptyArray
-	JsonDataU5BU5D_t2376* ___EmptyArray_4;
+	JsonDataU5BU5D_t2387* ___EmptyArray_4;
 };

@@ -15,7 +15,7 @@
 #include "mscorlib_System_Collections_Hashtable_EnumeratorMode.h"
 
 // System.Collections.Hashtable/EnumeratorMode
-struct  EnumeratorMode_t1254 
+struct  EnumeratorMode_t1263 
 {
 	// System.Int32 System.Collections.Hashtable/EnumeratorMode::value__
 	int32_t ___value___1;

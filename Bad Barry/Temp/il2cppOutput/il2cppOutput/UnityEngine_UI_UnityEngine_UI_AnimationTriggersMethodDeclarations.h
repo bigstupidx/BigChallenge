@@ -13,27 +13,27 @@
 #include <exception>
 
 // UnityEngine.UI.AnimationTriggers
-struct AnimationTriggers_t204;
+struct AnimationTriggers_t206;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.AnimationTriggers::.ctor()
-extern "C" void AnimationTriggers__ctor_m974 (AnimationTriggers_t204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationTriggers__ctor_m984 (AnimationTriggers_t206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.AnimationTriggers::get_normalTrigger()
-extern "C" String_t* AnimationTriggers_get_normalTrigger_m975 (AnimationTriggers_t204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AnimationTriggers_get_normalTrigger_m985 (AnimationTriggers_t206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.AnimationTriggers::set_normalTrigger(System.String)
-extern "C" void AnimationTriggers_set_normalTrigger_m976 (AnimationTriggers_t204 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationTriggers_set_normalTrigger_m986 (AnimationTriggers_t206 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.AnimationTriggers::get_highlightedTrigger()
-extern "C" String_t* AnimationTriggers_get_highlightedTrigger_m977 (AnimationTriggers_t204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AnimationTriggers_get_highlightedTrigger_m987 (AnimationTriggers_t206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.AnimationTriggers::set_highlightedTrigger(System.String)
-extern "C" void AnimationTriggers_set_highlightedTrigger_m978 (AnimationTriggers_t204 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationTriggers_set_highlightedTrigger_m988 (AnimationTriggers_t206 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.AnimationTriggers::get_pressedTrigger()
-extern "C" String_t* AnimationTriggers_get_pressedTrigger_m979 (AnimationTriggers_t204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AnimationTriggers_get_pressedTrigger_m989 (AnimationTriggers_t206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.AnimationTriggers::set_pressedTrigger(System.String)
-extern "C" void AnimationTriggers_set_pressedTrigger_m980 (AnimationTriggers_t204 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationTriggers_set_pressedTrigger_m990 (AnimationTriggers_t206 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.AnimationTriggers::get_disabledTrigger()
-extern "C" String_t* AnimationTriggers_get_disabledTrigger_m981 (AnimationTriggers_t204 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AnimationTriggers_get_disabledTrigger_m991 (AnimationTriggers_t206 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.AnimationTriggers::set_disabledTrigger(System.String)
-extern "C" void AnimationTriggers_set_disabledTrigger_m982 (AnimationTriggers_t204 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AnimationTriggers_set_disabledTrigger_m992 (AnimationTriggers_t206 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

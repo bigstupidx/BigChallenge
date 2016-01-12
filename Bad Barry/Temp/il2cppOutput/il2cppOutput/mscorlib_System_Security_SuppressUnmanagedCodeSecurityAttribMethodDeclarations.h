@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.SuppressUnmanagedCodeSecurityAttribute
-struct SuppressUnmanagedCodeSecurityAttribute_t1683;
+struct SuppressUnmanagedCodeSecurityAttribute_t1692;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.SuppressUnmanagedCodeSecurityAttribute::.ctor()
-extern "C" void SuppressUnmanagedCodeSecurityAttribute__ctor_m10185 (SuppressUnmanagedCodeSecurityAttribute_t1683 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SuppressUnmanagedCodeSecurityAttribute__ctor_m10270 (SuppressUnmanagedCodeSecurityAttribute_t1692 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

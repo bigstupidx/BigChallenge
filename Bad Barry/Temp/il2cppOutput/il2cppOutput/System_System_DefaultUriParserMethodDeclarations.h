@@ -20,6 +20,6 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.DefaultUriParser::.ctor()
-extern "C" void DefaultUriParser__ctor_m5747 (DefaultUriParser_t1112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m5750 (DefaultUriParser_t1112 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.DefaultUriParser::.ctor(System.String)
-extern "C" void DefaultUriParser__ctor_m5748 (DefaultUriParser_t1112 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultUriParser__ctor_m5751 (DefaultUriParser_t1112 * __this, String_t* ___scheme, const MethodInfo* method) IL2CPP_METHOD_ATTR;

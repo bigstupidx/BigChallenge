@@ -17,4 +17,4 @@
 #include "UnityEngine_UnityEngine_GradientAlphaKey.h"
 
 // System.Void UnityEngine.GradientAlphaKey::.ctor(System.Single,System.Single)
-extern "C" void GradientAlphaKey__ctor_m2770 (GradientAlphaKey_t499 * __this, float ___alpha, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GradientAlphaKey__ctor_m2773 (GradientAlphaKey_t499 * __this, float ___alpha, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

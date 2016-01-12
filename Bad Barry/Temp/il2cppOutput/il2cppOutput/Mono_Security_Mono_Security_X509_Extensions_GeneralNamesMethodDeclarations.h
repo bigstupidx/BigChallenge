@@ -24,10 +24,10 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.X509.Extensions.GeneralNames::.ctor(Mono.Security.ASN1)
-extern "C" void GeneralNames__ctor_m4280 (GeneralNames_t845 * __this, ASN1_t802 * ___sequence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GeneralNames__ctor_m4283 (GeneralNames_t845 * __this, ASN1_t802 * ___sequence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] Mono.Security.X509.Extensions.GeneralNames::get_DNSNames()
-extern "C" StringU5BU5D_t85* GeneralNames_get_DNSNames_m4281 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t85* GeneralNames_get_DNSNames_m4284 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String[] Mono.Security.X509.Extensions.GeneralNames::get_IPAddresses()
-extern "C" StringU5BU5D_t85* GeneralNames_get_IPAddresses_m4282 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" StringU5BU5D_t85* GeneralNames_get_IPAddresses_m4285 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.GeneralNames::ToString()
-extern "C" String_t* GeneralNames_ToString_m4283 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GeneralNames_ToString_m4286 (GeneralNames_t845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>
-struct UnityAction_1_t2174;
+struct UnityAction_1_t2185;
 
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall.h"
 
 // UnityEngine.Events.InvokableCall`1<UnityEngine.Vector2>
-struct  InvokableCall_1_t2175  : public BaseInvokableCall_t625
+struct  InvokableCall_1_t2186  : public BaseInvokableCall_t625
 {
 	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1<UnityEngine.Vector2>::Delegate
-	UnityAction_1_t2174 * ___Delegate_0;
+	UnityAction_1_t2185 * ___Delegate_0;
 };

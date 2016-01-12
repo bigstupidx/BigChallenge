@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelFixup>
-struct  InternalEnumerator_1_t2544 
+struct  InternalEnumerator_1_t2555 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Reflection.Emit.ILGenerator/LabelFixup>::array
 	Array_t * ___array_0;

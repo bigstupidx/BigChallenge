@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.ChannelInfo
-struct  ChannelInfo_t1478  : public Object_t
+struct  ChannelInfo_t1487  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.ChannelInfo::channelData
-	ObjectU5BU5D_t142* ___channelData_0;
+	ObjectU5BU5D_t144* ___channelData_0;
 };

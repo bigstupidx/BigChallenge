@@ -18,4 +18,4 @@ struct FsmContext_t723;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void LitJson.FsmContext::.ctor()
-extern "C" void FsmContext__ctor_m3739 (FsmContext_t723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FsmContext__ctor_m3742 (FsmContext_t723 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

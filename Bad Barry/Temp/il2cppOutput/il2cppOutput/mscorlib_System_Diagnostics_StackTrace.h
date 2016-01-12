@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Diagnostics.StackFrame[]
-struct StackFrameU5BU5D_t1274;
+struct StackFrameU5BU5D_t1283;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct StackFrameU5BU5D_t1274;
 struct  StackTrace_t652  : public Object_t
 {
 	// System.Diagnostics.StackFrame[] System.Diagnostics.StackTrace::frames
-	StackFrameU5BU5D_t1274* ___frames_1;
+	StackFrameU5BU5D_t1283* ___frames_1;
 	// System.Boolean System.Diagnostics.StackTrace::debug_info
 	bool ___debug_info_2;
 };

@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // UnityEngine.Events.UnityAction`1<System.Int32>
-struct  UnityAction_1_t2090  : public MulticastDelegate_t264
+struct  UnityAction_1_t2101  : public MulticastDelegate_t264
 {
 };

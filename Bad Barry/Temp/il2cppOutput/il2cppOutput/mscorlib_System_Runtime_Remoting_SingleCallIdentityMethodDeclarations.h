@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Runtime.Remoting.SingleCallIdentity
-struct SingleCallIdentity_t1567;
+struct SingleCallIdentity_t1576;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1485;
+struct Context_t1494;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.SingleCallIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern "C" void SingleCallIdentity__ctor_m9487 (SingleCallIdentity_t1567 * __this, String_t* ___objectUri, Context_t1485 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SingleCallIdentity__ctor_m9569 (SingleCallIdentity_t1576 * __this, String_t* ___objectUri, Context_t1494 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

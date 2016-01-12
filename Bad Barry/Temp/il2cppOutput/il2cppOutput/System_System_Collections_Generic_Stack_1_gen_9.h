@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.Color32>[]
-struct List_1U5BU5D_t2277;
+struct List_1U5BU5D_t2288;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Color32>>
-struct  Stack_1_t2276  : public Object_t
+struct  Stack_1_t2287  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Color32>>::_array
-	List_1U5BU5D_t2277* ____array_0;
+	List_1U5BU5D_t2288* ____array_0;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Color32>>::_size
 	int32_t ____size_1;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Color32>>::_version

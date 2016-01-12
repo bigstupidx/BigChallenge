@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Component[]
-struct ComponentU5BU5D_t1998;
+struct ComponentU5BU5D_t2009;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct ComponentU5BU5D_t1998;
 struct  List_1_t391  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::_items
-	ComponentU5BU5D_t1998* ____items_1;
+	ComponentU5BU5D_t2009* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_version
@@ -27,5 +27,5 @@ struct  List_1_t391  : public Object_t
 };
 struct List_1_t391_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::EmptyArray
-	ComponentU5BU5D_t1998* ___EmptyArray_4;
+	ComponentU5BU5D_t2009* ___EmptyArray_4;
 };

@@ -23,12 +23,12 @@ struct String_t;
 #include "Mono_Security_Mono_Security_X509_Extensions_KeyUsages.h"
 
 // System.Void Mono.Security.X509.Extensions.KeyUsageExtension::.ctor(Mono.Security.X509.X509Extension)
-extern "C" void KeyUsageExtension__ctor_m4284 (KeyUsageExtension_t847 * __this, X509Extension_t838 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyUsageExtension__ctor_m4287 (KeyUsageExtension_t847 * __this, X509Extension_t838 * ___extension, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.KeyUsageExtension::Decode()
-extern "C" void KeyUsageExtension_Decode_m4285 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyUsageExtension_Decode_m4288 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.Extensions.KeyUsageExtension::Encode()
-extern "C" void KeyUsageExtension_Encode_m4286 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyUsageExtension_Encode_m4289 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.Extensions.KeyUsageExtension::Support(Mono.Security.X509.Extensions.KeyUsages)
-extern "C" bool KeyUsageExtension_Support_m4287 (KeyUsageExtension_t847 * __this, int32_t ___usage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool KeyUsageExtension_Support_m4290 (KeyUsageExtension_t847 * __this, int32_t ___usage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.Extensions.KeyUsageExtension::ToString()
-extern "C" String_t* KeyUsageExtension_ToString_m4288 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* KeyUsageExtension_ToString_m4291 (KeyUsageExtension_t847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

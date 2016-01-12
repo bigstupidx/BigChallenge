@@ -15,7 +15,7 @@
 #include "mscorlib_System_Reflection_CallingConventions.h"
 
 // System.Reflection.CallingConventions
-struct  CallingConventions_t1395 
+struct  CallingConventions_t1404 
 {
 	// System.Int32 System.Reflection.CallingConventions::value__
 	int32_t ___value___1;

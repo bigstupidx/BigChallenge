@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.Cryptography.AsymmetricKeyExchangeFormatter
-struct AsymmetricKeyExchangeFormatter_t1621;
+struct AsymmetricKeyExchangeFormatter_t1630;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.AsymmetricKeyExchangeFormatter::.ctor()
-extern "C" void AsymmetricKeyExchangeFormatter__ctor_m9757 (AsymmetricKeyExchangeFormatter_t1621 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricKeyExchangeFormatter__ctor_m9839 (AsymmetricKeyExchangeFormatter_t1630 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Serialization.FormatterConverter
-struct  FormatterConverter_t1598  : public Object_t
+struct  FormatterConverter_t1607  : public Object_t
 {
 };

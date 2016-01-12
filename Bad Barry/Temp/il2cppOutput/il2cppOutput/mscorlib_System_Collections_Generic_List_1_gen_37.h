@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>[]
-struct KeyValuePair_2U5BU5D_t2380;
+struct KeyValuePair_2U5BU5D_t2391;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct KeyValuePair_2U5BU5D_t2380;
 struct  List_1_t744  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_items
-	KeyValuePair_2U5BU5D_t2380* ____items_1;
+	KeyValuePair_2U5BU5D_t2391* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::_version
@@ -27,5 +27,5 @@ struct  List_1_t744  : public Object_t
 };
 struct List_1_t744_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::EmptyArray
-	KeyValuePair_2U5BU5D_t2380* ___EmptyArray_4;
+	KeyValuePair_2U5BU5D_t2391* ___EmptyArray_4;
 };

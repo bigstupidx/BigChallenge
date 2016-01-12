@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.NotImplementedException::.ctor()
-extern "C" void NotImplementedException__ctor_m11105 (NotImplementedException_t786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NotImplementedException__ctor_m11198 (NotImplementedException_t786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotImplementedException::.ctor(System.String)
-extern "C" void NotImplementedException__ctor_m3905 (NotImplementedException_t786 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NotImplementedException__ctor_m3908 (NotImplementedException_t786 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.NotImplementedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void NotImplementedException__ctor_m11106 (NotImplementedException_t786 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NotImplementedException__ctor_m11199 (NotImplementedException_t786 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

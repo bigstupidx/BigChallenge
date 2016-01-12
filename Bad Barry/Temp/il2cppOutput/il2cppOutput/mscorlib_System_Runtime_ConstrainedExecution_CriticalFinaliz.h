@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct  CriticalFinalizerObject_t1451  : public Object_t
+struct  CriticalFinalizerObject_t1460  : public Object_t
 {
 };

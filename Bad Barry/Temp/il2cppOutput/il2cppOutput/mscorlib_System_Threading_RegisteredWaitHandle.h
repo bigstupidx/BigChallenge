@@ -13,7 +13,7 @@
 // System.Threading.WaitHandle
 struct WaitHandle_t934;
 // System.Threading.WaitOrTimerCallback
-struct WaitOrTimerCallback_t1717;
+struct WaitOrTimerCallback_t1727;
 // System.Object
 struct Object_t;
 // System.Threading.ManualResetEvent
@@ -23,12 +23,12 @@ struct ManualResetEvent_t882;
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Threading.RegisteredWaitHandle
-struct  RegisteredWaitHandle_t1716  : public MarshalByRefObject_t1017
+struct  RegisteredWaitHandle_t1726  : public MarshalByRefObject_t1017
 {
 	// System.Threading.WaitHandle System.Threading.RegisteredWaitHandle::_waitObject
 	WaitHandle_t934 * ____waitObject_1;
 	// System.Threading.WaitOrTimerCallback System.Threading.RegisteredWaitHandle::_callback
-	WaitOrTimerCallback_t1717 * ____callback_2;
+	WaitOrTimerCallback_t1727 * ____callback_2;
 	// System.TimeSpan System.Threading.RegisteredWaitHandle::_timeout
 	TimeSpan_t126  ____timeout_3;
 	// System.Object System.Threading.RegisteredWaitHandle::_state

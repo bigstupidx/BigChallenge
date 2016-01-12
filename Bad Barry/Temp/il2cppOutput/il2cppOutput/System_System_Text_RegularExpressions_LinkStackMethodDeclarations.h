@@ -18,8 +18,8 @@ struct LinkStack_t1076;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.LinkStack::.ctor()
-extern "C" void LinkStack__ctor_m5517 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack__ctor_m5520 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.LinkStack::Push()
-extern "C" void LinkStack_Push_m5518 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack_Push_m5521 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.LinkStack::Pop()
-extern "C" bool LinkStack_Pop_m5519 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool LinkStack_Pop_m5522 (LinkStack_t1076 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

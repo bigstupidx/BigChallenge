@@ -18,4 +18,4 @@ struct PropertyAttribute_t615;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.PropertyAttribute::.ctor()
-extern "C" void PropertyAttribute__ctor_m3443 (PropertyAttribute_t615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropertyAttribute__ctor_m3446 (PropertyAttribute_t615 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

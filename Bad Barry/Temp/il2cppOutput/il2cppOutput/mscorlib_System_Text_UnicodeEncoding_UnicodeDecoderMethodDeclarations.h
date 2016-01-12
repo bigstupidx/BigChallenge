@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Text.UnicodeEncoding/UnicodeDecoder
-struct UnicodeDecoder_t1709;
+struct UnicodeDecoder_t1719;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.Char[]
@@ -22,6 +22,6 @@ struct CharU5BU5D_t275;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.UnicodeEncoding/UnicodeDecoder::.ctor(System.Boolean)
-extern "C" void UnicodeDecoder__ctor_m10408 (UnicodeDecoder_t1709 * __this, bool ___bigEndian, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnicodeDecoder__ctor_m10497 (UnicodeDecoder_t1719 * __this, bool ___bigEndian, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UnicodeEncoding/UnicodeDecoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UnicodeDecoder_GetChars_m10409 (UnicodeDecoder_t1709 * __this, ByteU5BU5D_t772* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t275* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnicodeDecoder_GetChars_m10498 (UnicodeDecoder_t1719 * __this, ByteU5BU5D_t772* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t275* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,4 +18,4 @@ struct SelectionBaseAttribute_t620;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SelectionBaseAttribute::.ctor()
-extern "C" void SelectionBaseAttribute__ctor_m3449 (SelectionBaseAttribute_t620 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SelectionBaseAttribute__ctor_m3452 (SelectionBaseAttribute_t620 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

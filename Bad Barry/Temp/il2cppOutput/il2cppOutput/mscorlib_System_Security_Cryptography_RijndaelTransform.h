@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 
 // System.Security.Cryptography.RijndaelTransform
-struct  RijndaelTransform_t1642  : public SymmetricTransform_t1219
+struct  RijndaelTransform_t1651  : public SymmetricTransform_t1228
 {
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::expandedKey
 	UInt32U5BU5D_t778* ___expandedKey_12;
@@ -29,7 +29,7 @@ struct  RijndaelTransform_t1642  : public SymmetricTransform_t1219
 	// System.Int32 System.Security.Cryptography.RijndaelTransform::Nr
 	int32_t ___Nr_15;
 };
-struct RijndaelTransform_t1642_StaticFields{
+struct RijndaelTransform_t1651_StaticFields{
 	// System.UInt32[] System.Security.Cryptography.RijndaelTransform::Rcon
 	UInt32U5BU5D_t778* ___Rcon_16;
 	// System.Byte[] System.Security.Cryptography.RijndaelTransform::SBox

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.IO.BinaryWriter
-struct BinaryWriter_t1292;
+struct BinaryWriter_t1301;
 // System.IO.Stream
 struct Stream_t883;
 // System.Text.Encoding
@@ -22,7 +22,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // System.IO.BinaryWriter
-struct  BinaryWriter_t1292  : public Object_t
+struct  BinaryWriter_t1301  : public Object_t
 {
 	// System.IO.Stream System.IO.BinaryWriter::OutStream
 	Stream_t883 * ___OutStream_1;
@@ -37,7 +37,7 @@ struct  BinaryWriter_t1292  : public Object_t
 	// System.Int32 System.IO.BinaryWriter::maxCharsPerRound
 	int32_t ___maxCharsPerRound_6;
 };
-struct BinaryWriter_t1292_StaticFields{
+struct BinaryWriter_t1301_StaticFields{
 	// System.IO.BinaryWriter System.IO.BinaryWriter::Null
-	BinaryWriter_t1292 * ___Null_0;
+	BinaryWriter_t1301 * ___Null_0;
 };

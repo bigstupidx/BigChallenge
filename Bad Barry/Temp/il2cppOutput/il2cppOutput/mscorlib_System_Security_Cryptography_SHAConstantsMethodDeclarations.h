@@ -16,4 +16,4 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.SHAConstants::.cctor()
-extern "C" void SHAConstants__cctor_m10040 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHAConstants__cctor_m10122 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

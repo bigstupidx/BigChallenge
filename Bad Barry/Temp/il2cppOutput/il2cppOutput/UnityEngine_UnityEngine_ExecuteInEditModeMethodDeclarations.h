@@ -18,4 +18,4 @@ struct ExecuteInEditMode_t587;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
-extern "C" void ExecuteInEditMode__ctor_m3360 (ExecuteInEditMode_t587 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteInEditMode__ctor_m3363 (ExecuteInEditMode_t587 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

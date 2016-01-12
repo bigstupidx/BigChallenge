@@ -14,6 +14,6 @@
 #include "mscorlib_System_Reflection_MonoCMethod.h"
 
 // System.Reflection.MonoGenericCMethod
-struct  MonoGenericCMethod_t1412  : public MonoCMethod_t1413
+struct  MonoGenericCMethod_t1421  : public MonoCMethod_t1422
 {
 };

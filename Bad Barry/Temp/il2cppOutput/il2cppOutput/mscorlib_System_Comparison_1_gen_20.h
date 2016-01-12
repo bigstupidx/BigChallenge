@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // System.Comparison`1<UnityEngine.UIVertex>
-struct  Comparison_1_t2134  : public MulticastDelegate_t264
+struct  Comparison_1_t2145  : public MulticastDelegate_t264
 {
 };

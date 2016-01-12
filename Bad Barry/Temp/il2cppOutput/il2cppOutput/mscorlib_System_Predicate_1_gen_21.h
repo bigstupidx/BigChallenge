@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Graphic
-struct Graphic_t232;
+struct Graphic_t233;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.UI.Graphic>
-struct  Predicate_1_t2137  : public MulticastDelegate_t264
+struct  Predicate_1_t2148  : public MulticastDelegate_t264
 {
 };

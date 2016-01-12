@@ -16,7 +16,7 @@ struct Type_t;
 #include "mscorlib_System_Runtime_Remoting_TypeEntry.h"
 
 // System.Runtime.Remoting.ActivatedServiceTypeEntry
-struct  ActivatedServiceTypeEntry_t1549  : public TypeEntry_t1548
+struct  ActivatedServiceTypeEntry_t1558  : public TypeEntry_t1557
 {
 	// System.Type System.Runtime.Remoting.ActivatedServiceTypeEntry::obj_type
 	Type_t * ___obj_type_2;

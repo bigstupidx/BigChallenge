@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "mscorlib_System_Object.h"
 
 // System.Array/ArrayReadOnlyList`1<System.Object>
-struct  ArrayReadOnlyList_1_t2519  : public Object_t
+struct  ArrayReadOnlyList_1_t2530  : public Object_t
 {
 	// T[] System.Array/ArrayReadOnlyList`1<System.Object>::array
-	ObjectU5BU5D_t142* ___array_0;
+	ObjectU5BU5D_t144* ___array_0;
 };

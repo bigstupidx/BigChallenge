@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.MonoTypeInfo
-struct MonoTypeInfo_t1779;
+struct MonoTypeInfo_t1790;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MonoTypeInfo::.ctor()
-extern "C" void MonoTypeInfo__ctor_m11050 (MonoTypeInfo_t1779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTypeInfo__ctor_m11143 (MonoTypeInfo_t1790 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

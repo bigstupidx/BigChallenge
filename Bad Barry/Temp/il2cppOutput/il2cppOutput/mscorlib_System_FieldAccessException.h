@@ -14,6 +14,6 @@
 #include "mscorlib_System_MemberAccessException.h"
 
 // System.FieldAccessException
-struct  FieldAccessException_t1763  : public MemberAccessException_t1764
+struct  FieldAccessException_t1774  : public MemberAccessException_t1775
 {
 };

@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.DBNull
-struct DBNull_t1742;
+struct DBNull_t1752;
 
 #include "mscorlib_System_Object.h"
 
 // System.DBNull
-struct  DBNull_t1742  : public Object_t
+struct  DBNull_t1752  : public Object_t
 {
 };
-struct DBNull_t1742_StaticFields{
+struct DBNull_t1752_StaticFields{
 	// System.DBNull System.DBNull::Value
-	DBNull_t1742 * ___Value_0;
+	DBNull_t1752 * ___Value_0;
 };

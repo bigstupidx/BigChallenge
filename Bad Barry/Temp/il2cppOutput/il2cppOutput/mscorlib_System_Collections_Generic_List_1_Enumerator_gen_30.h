@@ -17,7 +17,7 @@ struct List_1_t350;
 #include "UnityEngine_UnityEngine_Color32.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>
-struct  Enumerator_t2239 
+struct  Enumerator_t2250 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Color32>::l
 	List_1_t350 * ___l_0;

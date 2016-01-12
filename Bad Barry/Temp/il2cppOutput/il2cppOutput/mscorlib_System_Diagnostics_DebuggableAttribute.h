@@ -15,7 +15,7 @@
 #include "mscorlib_System_Diagnostics_DebuggableAttribute_DebuggingMod.h"
 
 // System.Diagnostics.DebuggableAttribute
-struct  DebuggableAttribute_t1270  : public Attribute_t510
+struct  DebuggableAttribute_t1279  : public Attribute_t510
 {
 	// System.Boolean System.Diagnostics.DebuggableAttribute::JITTrackingEnabledFlag
 	bool ___JITTrackingEnabledFlag_0;

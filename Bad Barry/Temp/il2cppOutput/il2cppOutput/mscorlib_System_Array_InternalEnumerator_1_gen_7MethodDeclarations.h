@@ -22,20 +22,20 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Touch.h"
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.Touch>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m11751_gshared (InternalEnumerator_1_t1934 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m11751(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1934 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11751_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m11844_gshared (InternalEnumerator_1_t1945 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m11844(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1945 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11844_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.Touch>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11752_gshared (InternalEnumerator_1_t1934 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11752(__this, method) (( void (*) (InternalEnumerator_1_t1934 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11752_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11845_gshared (InternalEnumerator_1_t1945 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11845(__this, method) (( void (*) (InternalEnumerator_1_t1945 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11845_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.Touch>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11753_gshared (InternalEnumerator_1_t1934 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11753(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1934 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11753_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11846_gshared (InternalEnumerator_1_t1945 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11846(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1945 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11846_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.Touch>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m11754_gshared (InternalEnumerator_1_t1934 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m11754(__this, method) (( void (*) (InternalEnumerator_1_t1934 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11754_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m11847_gshared (InternalEnumerator_1_t1945 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m11847(__this, method) (( void (*) (InternalEnumerator_1_t1945 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11847_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.Touch>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m11755_gshared (InternalEnumerator_1_t1934 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m11755(__this, method) (( bool (*) (InternalEnumerator_1_t1934 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11755_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m11848_gshared (InternalEnumerator_1_t1945 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m11848(__this, method) (( bool (*) (InternalEnumerator_1_t1945 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11848_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.Touch>::get_Current()
-extern "C" Touch_t122  InternalEnumerator_1_get_Current_m11756_gshared (InternalEnumerator_1_t1934 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m11756(__this, method) (( Touch_t122  (*) (InternalEnumerator_1_t1934 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11756_gshared)(__this, method)
+extern "C" Touch_t122  InternalEnumerator_1_get_Current_m11849_gshared (InternalEnumerator_1_t1945 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m11849(__this, method) (( Touch_t122  (*) (InternalEnumerator_1_t1945 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11849_gshared)(__this, method)

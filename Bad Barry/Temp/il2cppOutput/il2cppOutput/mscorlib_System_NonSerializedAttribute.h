@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.NonSerializedAttribute
-struct  NonSerializedAttribute_t1781  : public Attribute_t510
+struct  NonSerializedAttribute_t1792  : public Attribute_t510
 {
 };

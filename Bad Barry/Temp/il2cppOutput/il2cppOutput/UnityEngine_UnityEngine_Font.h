@@ -18,12 +18,12 @@ struct FontTextureRebuildCallback_t568;
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.Font
-struct  Font_t229  : public Object_t112
+struct  Font_t230  : public Object_t112
 {
 	// UnityEngine.Font/FontTextureRebuildCallback UnityEngine.Font::m_FontTextureRebuildCallback
 	FontTextureRebuildCallback_t568 * ___m_FontTextureRebuildCallback_3;
 };
-struct Font_t229_StaticFields{
+struct Font_t230_StaticFields{
 	// System.Action`1<UnityEngine.Font> UnityEngine.Font::textureRebuilt
 	Action_1_t413 * ___textureRebuilt_2;
 };

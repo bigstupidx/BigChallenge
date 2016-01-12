@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.IO.IsolatedStorage.IsolatedStorageException
-struct IsolatedStorageException_t1289;
+struct IsolatedStorageException_t1298;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.IsolatedStorage.IsolatedStorageException::.ctor()
-extern "C" void IsolatedStorageException__ctor_m7850 (IsolatedStorageException_t1289 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IsolatedStorageException__ctor_m7926 (IsolatedStorageException_t1298 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.String)
-extern "C" void IsolatedStorageException__ctor_m7851 (IsolatedStorageException_t1289 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IsolatedStorageException__ctor_m7927 (IsolatedStorageException_t1298 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IsolatedStorage.IsolatedStorageException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void IsolatedStorageException__ctor_m7852 (IsolatedStorageException_t1289 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IsolatedStorageException__ctor_m7928 (IsolatedStorageException_t1298 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

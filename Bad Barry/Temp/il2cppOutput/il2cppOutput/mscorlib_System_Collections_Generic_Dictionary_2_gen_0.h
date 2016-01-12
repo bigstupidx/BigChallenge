@@ -13,17 +13,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // System.String[]
 struct StringU5BU5D_t85;
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton[]
-struct VirtualButtonU5BU5D_t1929;
+struct VirtualButtonU5BU5D_t1940;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t1907;
+struct IEqualityComparer_1_t1918;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton,System.Collections.DictionaryEntry>
-struct Transform_1_t1930;
+struct Transform_1_t1941;
 
 #include "mscorlib_System_Object.h"
 
@@ -33,11 +33,11 @@ struct  Dictionary_2_t28  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::keySlots
 	StringU5BU5D_t85* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::valueSlots
-	VirtualButtonU5BU5D_t1929* ___valueSlots_7;
+	VirtualButtonU5BU5D_t1940* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::emptySlot
@@ -55,5 +55,5 @@ struct  Dictionary_2_t28  : public Object_t
 };
 struct Dictionary_2_t28_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::<>f__am$cacheB
-	Transform_1_t1930 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t1941 * ___U3CU3Ef__amU24cacheB_15;
 };

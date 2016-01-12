@@ -20,8 +20,8 @@ struct AnchorInfo_t1111;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.Expression::.ctor()
-extern "C" void Expression__ctor_m5642 (Expression_t1093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Expression__ctor_m5645 (Expression_t1093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.Expression::GetFixedWidth()
-extern "C" int32_t Expression_GetFixedWidth_m5643 (Expression_t1093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Expression_GetFixedWidth_m5646 (Expression_t1093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Expression::GetAnchorInfo(System.Boolean)
-extern "C" AnchorInfo_t1111 * Expression_GetAnchorInfo_m5644 (Expression_t1093 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AnchorInfo_t1111 * Expression_GetAnchorInfo_m5647 (Expression_t1093 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;

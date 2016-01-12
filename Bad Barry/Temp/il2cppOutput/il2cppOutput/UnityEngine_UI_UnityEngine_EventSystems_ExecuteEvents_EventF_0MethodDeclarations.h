@@ -17,10 +17,10 @@
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEvents_EventF_16MethodDeclarations.h"
 
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>::.ctor(System.Object,System.IntPtr)
-#define EventFunction_1__ctor_m2087(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t169 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m12523_gshared)(__this, ___object, ___method, method)
+#define EventFunction_1__ctor_m2090(__this, ___object, ___method, method) (( void (*) (EventFunction_1_t171 *, Object_t *, IntPtr_t, const MethodInfo*))EventFunction_1__ctor_m12616_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>::Invoke(T1,UnityEngine.EventSystems.BaseEventData)
-#define EventFunction_1_Invoke_m12810(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t169 *, Object_t *, BaseEventData_t108 *, const MethodInfo*))EventFunction_1_Invoke_m12525_gshared)(__this, ___handler, ___eventData, method)
+#define EventFunction_1_Invoke_m12903(__this, ___handler, ___eventData, method) (( void (*) (EventFunction_1_t171 *, Object_t *, BaseEventData_t108 *, const MethodInfo*))EventFunction_1_Invoke_m12618_gshared)(__this, ___handler, ___eventData, method)
 // System.IAsyncResult UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>::BeginInvoke(T1,UnityEngine.EventSystems.BaseEventData,System.AsyncCallback,System.Object)
-#define EventFunction_1_BeginInvoke_m12811(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t169 *, Object_t *, BaseEventData_t108 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m12527_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
+#define EventFunction_1_BeginInvoke_m12904(__this, ___handler, ___eventData, ___callback, ___object, method) (( Object_t * (*) (EventFunction_1_t171 *, Object_t *, BaseEventData_t108 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))EventFunction_1_BeginInvoke_m12620_gshared)(__this, ___handler, ___eventData, ___callback, ___object, method)
 // System.Void UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>::EndInvoke(System.IAsyncResult)
-#define EventFunction_1_EndInvoke_m12812(__this, ___result, method) (( void (*) (EventFunction_1_t169 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m12529_gshared)(__this, ___result, method)
+#define EventFunction_1_EndInvoke_m12905(__this, ___result, method) (( void (*) (EventFunction_1_t171 *, Object_t *, const MethodInfo*))EventFunction_1_EndInvoke_m12622_gshared)(__this, ___result, method)

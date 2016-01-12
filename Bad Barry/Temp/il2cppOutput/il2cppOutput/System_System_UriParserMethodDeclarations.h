@@ -26,22 +26,22 @@ struct Hashtable_t868;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.UriParser::.ctor()
-extern "C" void UriParser__ctor_m5801 (UriParser_t1113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser__ctor_m5804 (UriParser_t1113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::.cctor()
-extern "C" void UriParser__cctor_m5802 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser__cctor_m5805 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::InitializeAndValidate(System.Uri,System.UriFormatException&)
-extern "C" void UriParser_InitializeAndValidate_m5803 (UriParser_t1113 * __this, Uri_t959 * ___uri, UriFormatException_t1117 ** ___parsingError, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_InitializeAndValidate_m5806 (UriParser_t1113 * __this, Uri_t959 * ___uri, UriFormatException_t1117 ** ___parsingError, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::OnRegister(System.String,System.Int32)
-extern "C" void UriParser_OnRegister_m5804 (UriParser_t1113 * __this, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_OnRegister_m5807 (UriParser_t1113 * __this, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::set_SchemeName(System.String)
-extern "C" void UriParser_set_SchemeName_m5805 (UriParser_t1113 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_set_SchemeName_m5808 (UriParser_t1113 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UriParser::get_DefaultPort()
-extern "C" int32_t UriParser_get_DefaultPort_m5806 (UriParser_t1113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UriParser_get_DefaultPort_m5809 (UriParser_t1113 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::set_DefaultPort(System.Int32)
-extern "C" void UriParser_set_DefaultPort_m5807 (UriParser_t1113 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_set_DefaultPort_m5810 (UriParser_t1113 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::CreateDefaults()
-extern "C" void UriParser_CreateDefaults_m5808 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_CreateDefaults_m5811 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriParser::InternalRegister(System.Collections.Hashtable,System.UriParser,System.String,System.Int32)
-extern "C" void UriParser_InternalRegister_m5809 (Object_t * __this /* static, unused */, Hashtable_t868 * ___table, UriParser_t1113 * ___uriParser, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriParser_InternalRegister_m5812 (Object_t * __this /* static, unused */, Hashtable_t868 * ___table, UriParser_t1113 * ___uriParser, String_t* ___schemeName, int32_t ___defaultPort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UriParser System.UriParser::GetParser(System.String)
-extern "C" UriParser_t1113 * UriParser_GetParser_m5810 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UriParser_t1113 * UriParser_GetParser_m5813 (Object_t * __this /* static, unused */, String_t* ___schemeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

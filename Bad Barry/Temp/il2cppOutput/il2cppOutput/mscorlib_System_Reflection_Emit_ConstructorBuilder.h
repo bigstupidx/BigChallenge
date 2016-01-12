@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Reflection.Emit.ILGenerator
-struct ILGenerator_t1334;
+struct ILGenerator_t1343;
 // System.Type[]
 struct TypeU5BU5D_t651;
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t1335;
+struct TypeBuilder_t1344;
 // System.Reflection.Emit.ParameterBuilder[]
-struct ParameterBuilderU5BU5D_t1336;
+struct ParameterBuilderU5BU5D_t1345;
 // System.Type[][]
-struct TypeU5BU5DU5BU5D_t1337;
+struct TypeU5BU5DU5BU5D_t1346;
 
 #include "mscorlib_System_Reflection_ConstructorInfo.h"
 #include "mscorlib_System_Reflection_MethodAttributes.h"
@@ -27,10 +27,10 @@ struct TypeU5BU5DU5BU5D_t1337;
 #include "mscorlib_System_Reflection_CallingConventions.h"
 
 // System.Reflection.Emit.ConstructorBuilder
-struct  ConstructorBuilder_t1333  : public ConstructorInfo_t683
+struct  ConstructorBuilder_t1342  : public ConstructorInfo_t683
 {
 	// System.Reflection.Emit.ILGenerator System.Reflection.Emit.ConstructorBuilder::ilgen
-	ILGenerator_t1334 * ___ilgen_2;
+	ILGenerator_t1343 * ___ilgen_2;
 	// System.Type[] System.Reflection.Emit.ConstructorBuilder::parameters
 	TypeU5BU5D_t651* ___parameters_3;
 	// System.Reflection.MethodAttributes System.Reflection.Emit.ConstructorBuilder::attrs
@@ -42,13 +42,13 @@ struct  ConstructorBuilder_t1333  : public ConstructorInfo_t683
 	// System.Reflection.CallingConventions System.Reflection.Emit.ConstructorBuilder::call_conv
 	int32_t ___call_conv_7;
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.ConstructorBuilder::type
-	TypeBuilder_t1335 * ___type_8;
+	TypeBuilder_t1344 * ___type_8;
 	// System.Reflection.Emit.ParameterBuilder[] System.Reflection.Emit.ConstructorBuilder::pinfo
-	ParameterBuilderU5BU5D_t1336* ___pinfo_9;
+	ParameterBuilderU5BU5D_t1345* ___pinfo_9;
 	// System.Boolean System.Reflection.Emit.ConstructorBuilder::init_locals
 	bool ___init_locals_10;
 	// System.Type[][] System.Reflection.Emit.ConstructorBuilder::paramModReq
-	TypeU5BU5DU5BU5D_t1337* ___paramModReq_11;
+	TypeU5BU5DU5BU5D_t1346* ___paramModReq_11;
 	// System.Type[][] System.Reflection.Emit.ConstructorBuilder::paramModOpt
-	TypeU5BU5DU5BU5D_t1337* ___paramModOpt_12;
+	TypeU5BU5DU5BU5D_t1346* ___paramModOpt_12;
 };

@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<System.Object>>
-struct  UnityAction_1_t2007  : public MulticastDelegate_t264
+struct  UnityAction_1_t2018  : public MulticastDelegate_t264
 {
 };

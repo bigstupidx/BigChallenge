@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t179;
+struct List_1_t181;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.EventSystems.RaycasterManager
-struct  RaycasterManager_t178  : public Object_t
+struct  RaycasterManager_t180  : public Object_t
 {
 };
-struct RaycasterManager_t178_StaticFields{
+struct RaycasterManager_t180_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> UnityEngine.EventSystems.RaycasterManager::s_Raycasters
-	List_1_t179 * ___s_Raycasters_0;
+	List_1_t181 * ___s_Raycasters_0;
 };

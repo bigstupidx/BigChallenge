@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyConfigurationAttribute
-struct AssemblyConfigurationAttribute_t1379;
+struct AssemblyConfigurationAttribute_t1388;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
-extern "C" void AssemblyConfigurationAttribute__ctor_m8596 (AssemblyConfigurationAttribute_t1379 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyConfigurationAttribute__ctor_m8678 (AssemblyConfigurationAttribute_t1388 * __this, String_t* ___configuration, const MethodInfo* method) IL2CPP_METHOD_ATTR;

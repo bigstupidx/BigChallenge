@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.Cryptography.RIPEMD160
-struct RIPEMD160_t1637;
+struct RIPEMD160_t1646;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.RIPEMD160::.ctor()
-extern "C" void RIPEMD160__ctor_m9894 (RIPEMD160_t1637 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RIPEMD160__ctor_m9976 (RIPEMD160_t1646 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct LeaseManager_t1501;
+struct LeaseManager_t1510;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_TimeSpan.h"
 
 // System.Runtime.Remoting.Lifetime.LifetimeServices
-struct  LifetimeServices_t1505  : public Object_t
+struct  LifetimeServices_t1514  : public Object_t
 {
 };
-struct LifetimeServices_t1505_StaticFields{
+struct LifetimeServices_t1514_StaticFields{
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseManagerPollTime
 	TimeSpan_t126  ____leaseManagerPollTime_0;
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseTime
@@ -30,5 +30,5 @@ struct LifetimeServices_t1505_StaticFields{
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.LifetimeServices::_sponsorshipTimeout
 	TimeSpan_t126  ____sponsorshipTimeout_3;
 	// System.Runtime.Remoting.Lifetime.LeaseManager System.Runtime.Remoting.Lifetime.LifetimeServices::_leaseManager
-	LeaseManager_t1501 * ____leaseManager_4;
+	LeaseManager_t1510 * ____leaseManager_4;
 };

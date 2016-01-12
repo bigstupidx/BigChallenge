@@ -13,7 +13,7 @@
 #include <exception>
 
 // Mono.Security.Cryptography.BlockProcessor
-struct BlockProcessor_t1208;
+struct BlockProcessor_t1217;
 // System.Security.Cryptography.ICryptoTransform
 struct ICryptoTransform_t783;
 // System.Byte[]
@@ -22,14 +22,14 @@ struct ByteU5BU5D_t772;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Cryptography.BlockProcessor::.ctor(System.Security.Cryptography.ICryptoTransform,System.Int32)
-extern "C" void BlockProcessor__ctor_m6994 (BlockProcessor_t1208 * __this, Object_t * ___transform, int32_t ___blockSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BlockProcessor__ctor_m7070 (BlockProcessor_t1217 * __this, Object_t * ___transform, int32_t ___blockSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.BlockProcessor::Finalize()
-extern "C" void BlockProcessor_Finalize_m6995 (BlockProcessor_t1208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BlockProcessor_Finalize_m7071 (BlockProcessor_t1217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.BlockProcessor::Initialize()
-extern "C" void BlockProcessor_Initialize_m6996 (BlockProcessor_t1208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BlockProcessor_Initialize_m7072 (BlockProcessor_t1217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.BlockProcessor::Core(System.Byte[])
-extern "C" void BlockProcessor_Core_m6997 (BlockProcessor_t1208 * __this, ByteU5BU5D_t772* ___rgb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BlockProcessor_Core_m7073 (BlockProcessor_t1217 * __this, ByteU5BU5D_t772* ___rgb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.BlockProcessor::Core(System.Byte[],System.Int32,System.Int32)
-extern "C" void BlockProcessor_Core_m6998 (BlockProcessor_t1208 * __this, ByteU5BU5D_t772* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BlockProcessor_Core_m7074 (BlockProcessor_t1217 * __this, ByteU5BU5D_t772* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.BlockProcessor::Final()
-extern "C" ByteU5BU5D_t772* BlockProcessor_Final_m6999 (BlockProcessor_t1208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* BlockProcessor_Final_m7075 (BlockProcessor_t1217 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

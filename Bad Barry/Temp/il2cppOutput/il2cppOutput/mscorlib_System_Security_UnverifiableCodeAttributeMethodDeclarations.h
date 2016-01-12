@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.UnverifiableCodeAttribute
-struct UnverifiableCodeAttribute_t1684;
+struct UnverifiableCodeAttribute_t1693;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.UnverifiableCodeAttribute::.ctor()
-extern "C" void UnverifiableCodeAttribute__ctor_m10186 (UnverifiableCodeAttribute_t1684 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnverifiableCodeAttribute__ctor_m10271 (UnverifiableCodeAttribute_t1693 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

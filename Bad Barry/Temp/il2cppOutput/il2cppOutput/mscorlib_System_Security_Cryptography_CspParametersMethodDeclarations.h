@@ -21,14 +21,14 @@ struct String_t;
 #include "mscorlib_System_Security_Cryptography_CspProviderFlags.h"
 
 // System.Void System.Security.Cryptography.CspParameters::.ctor()
-extern "C" void CspParameters__ctor_m4830 (CspParameters_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CspParameters__ctor_m4833 (CspParameters_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CspParameters::.ctor(System.Int32)
-extern "C" void CspParameters__ctor_m9766 (CspParameters_t940 * __this, int32_t ___dwTypeIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CspParameters__ctor_m9848 (CspParameters_t940 * __this, int32_t ___dwTypeIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CspParameters::.ctor(System.Int32,System.String)
-extern "C" void CspParameters__ctor_m9767 (CspParameters_t940 * __this, int32_t ___dwTypeIn, String_t* ___strProviderNameIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CspParameters__ctor_m9849 (CspParameters_t940 * __this, int32_t ___dwTypeIn, String_t* ___strProviderNameIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CspParameters::.ctor(System.Int32,System.String,System.String)
-extern "C" void CspParameters__ctor_m9768 (CspParameters_t940 * __this, int32_t ___dwTypeIn, String_t* ___strProviderNameIn, String_t* ___strContainerNameIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CspParameters__ctor_m9850 (CspParameters_t940 * __this, int32_t ___dwTypeIn, String_t* ___strProviderNameIn, String_t* ___strContainerNameIn, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.CspProviderFlags System.Security.Cryptography.CspParameters::get_Flags()
-extern "C" int32_t CspParameters_get_Flags_m9769 (CspParameters_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CspParameters_get_Flags_m9851 (CspParameters_t940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.CspParameters::set_Flags(System.Security.Cryptography.CspProviderFlags)
-extern "C" void CspParameters_set_Flags_m4831 (CspParameters_t940 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CspParameters_set_Flags_m4834 (CspParameters_t940 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,7 +18,7 @@ struct MatEntry_t313;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Enumerator_t2192 
+struct  Enumerator_t2203 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>::l
 	List_1_t315 * ___l_0;

@@ -18,4 +18,4 @@ struct SerializeField_t511;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SerializeField::.ctor()
-extern "C" void SerializeField__ctor_m2925 (SerializeField_t511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializeField__ctor_m2928 (SerializeField_t511 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

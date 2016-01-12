@@ -23,7 +23,7 @@ struct List_1_t290;
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // UnityEngine.UI.RectMask2D
-struct  RectMask2D_t281  : public UIBehaviour_t146
+struct  RectMask2D_t281  : public UIBehaviour_t148
 {
 	// UnityEngine.UI.RectangularVertexClipper UnityEngine.UI.RectMask2D::m_VertexClipper
 	RectangularVertexClipper_t288 * ___m_VertexClipper_2;

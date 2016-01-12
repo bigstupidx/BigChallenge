@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata
-struct TypeMetadata_t1582;
+struct TypeMetadata_t1591;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::.ctor()
-extern "C" void TypeMetadata__ctor_m9556 (TypeMetadata_t1582 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeMetadata__ctor_m9638 (TypeMetadata_t1591 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

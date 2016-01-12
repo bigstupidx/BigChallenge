@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t1579;
+struct SerializationBinder_t1588;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.SerializationBinder::.ctor()
-extern "C" void SerializationBinder__ctor_m9686 (SerializationBinder_t1579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationBinder__ctor_m9768 (SerializationBinder_t1588 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

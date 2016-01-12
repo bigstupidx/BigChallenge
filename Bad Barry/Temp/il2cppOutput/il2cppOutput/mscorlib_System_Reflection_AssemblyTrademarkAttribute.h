@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // System.Reflection.AssemblyTrademarkAttribute
-struct  AssemblyTrademarkAttribute_t1392  : public Attribute_t510
+struct  AssemblyTrademarkAttribute_t1401  : public Attribute_t510
 {
 	// System.String System.Reflection.AssemblyTrademarkAttribute::name
 	String_t* ___name_0;

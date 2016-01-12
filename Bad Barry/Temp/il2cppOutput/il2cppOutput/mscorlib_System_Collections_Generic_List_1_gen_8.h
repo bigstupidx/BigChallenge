@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.IEventSystemHandler[]
-struct IEventSystemHandlerU5BU5D_t1985;
+struct IEventSystemHandlerU5BU5D_t1996;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct IEventSystemHandlerU5BU5D_t1985;
 struct  List_1_t360  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_items
-	IEventSystemHandlerU5BU5D_t1985* ____items_1;
+	IEventSystemHandlerU5BU5D_t1996* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::_version
@@ -27,5 +27,5 @@ struct  List_1_t360  : public Object_t
 };
 struct List_1_t360_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>::EmptyArray
-	IEventSystemHandlerU5BU5D_t1985* ___EmptyArray_4;
+	IEventSystemHandlerU5BU5D_t1996* ___EmptyArray_4;
 };

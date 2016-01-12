@@ -11,22 +11,22 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t136;
+struct Camera_t138;
 // System.Comparison`1<UnityEngine.RaycastHit>
-struct Comparison_1_t196;
+struct Comparison_1_t198;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycaster.h"
 #include "UnityEngine_UnityEngine_LayerMask.h"
 
 // UnityEngine.EventSystems.PhysicsRaycaster
-struct  PhysicsRaycaster_t194  : public BaseRaycaster_t181
+struct  PhysicsRaycaster_t196  : public BaseRaycaster_t183
 {
 	// UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::m_EventCamera
-	Camera_t136 * ___m_EventCamera_3;
+	Camera_t138 * ___m_EventCamera_3;
 	// UnityEngine.LayerMask UnityEngine.EventSystems.PhysicsRaycaster::m_EventMask
-	LayerMask_t195  ___m_EventMask_4;
+	LayerMask_t197  ___m_EventMask_4;
 };
-struct PhysicsRaycaster_t194_StaticFields{
+struct PhysicsRaycaster_t196_StaticFields{
 	// System.Comparison`1<UnityEngine.RaycastHit> UnityEngine.EventSystems.PhysicsRaycaster::<>f__am$cache2
-	Comparison_1_t196 * ___U3CU3Ef__amU24cache2_5;
+	Comparison_1_t198 * ___U3CU3Ef__amU24cache2_5;
 };

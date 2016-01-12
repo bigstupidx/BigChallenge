@@ -22,20 +22,20 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcAchieve_0.h"
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m16871_gshared (InternalEnumerator_1_t2305 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m16871(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2305 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16871_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m16964_gshared (InternalEnumerator_1_t2316 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m16964(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2316 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16964_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16872_gshared (InternalEnumerator_1_t2305 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16872(__this, method) (( void (*) (InternalEnumerator_1_t2305 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16872_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16965_gshared (InternalEnumerator_1_t2316 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16965(__this, method) (( void (*) (InternalEnumerator_1_t2316 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m16965_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16873_gshared (InternalEnumerator_1_t2305 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16873(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2305 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16873_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16966_gshared (InternalEnumerator_1_t2316 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16966(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2316 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16966_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m16874_gshared (InternalEnumerator_1_t2305 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m16874(__this, method) (( void (*) (InternalEnumerator_1_t2305 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16874_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m16967_gshared (InternalEnumerator_1_t2316 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m16967(__this, method) (( void (*) (InternalEnumerator_1_t2316 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16967_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m16875_gshared (InternalEnumerator_1_t2305 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m16875(__this, method) (( bool (*) (InternalEnumerator_1_t2305 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16875_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m16968_gshared (InternalEnumerator_1_t2316 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m16968(__this, method) (( bool (*) (InternalEnumerator_1_t2316 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16968_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::get_Current()
-extern "C" GcAchievementData_t593  InternalEnumerator_1_get_Current_m16876_gshared (InternalEnumerator_1_t2305 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m16876(__this, method) (( GcAchievementData_t593  (*) (InternalEnumerator_1_t2305 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16876_gshared)(__this, method)
+extern "C" GcAchievementData_t593  InternalEnumerator_1_get_Current_m16969_gshared (InternalEnumerator_1_t2316 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m16969(__this, method) (( GcAchievementData_t593  (*) (InternalEnumerator_1_t2316 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16969_gshared)(__this, method)

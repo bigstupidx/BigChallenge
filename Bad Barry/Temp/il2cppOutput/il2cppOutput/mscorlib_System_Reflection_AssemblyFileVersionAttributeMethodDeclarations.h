@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyFileVersionAttribute
-struct AssemblyFileVersionAttribute_t1384;
+struct AssemblyFileVersionAttribute_t1393;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyFileVersionAttribute::.ctor(System.String)
-extern "C" void AssemblyFileVersionAttribute__ctor_m8601 (AssemblyFileVersionAttribute_t1384 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyFileVersionAttribute__ctor_m8683 (AssemblyFileVersionAttribute_t1393 * __this, String_t* ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;

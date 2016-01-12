@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.IO.StreamAsyncResult
-struct StreamAsyncResult_t1315;
+struct StreamAsyncResult_t1324;
 // System.Object
 struct Object_t;
 // System.Exception
@@ -24,22 +24,22 @@ struct WaitHandle_t934;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.IO.StreamAsyncResult::.ctor(System.Object)
-extern "C" void StreamAsyncResult__ctor_m8082 (StreamAsyncResult_t1315 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamAsyncResult__ctor_m8158 (StreamAsyncResult_t1324 * __this, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamAsyncResult::SetComplete(System.Exception)
-extern "C" void StreamAsyncResult_SetComplete_m8083 (StreamAsyncResult_t1315 * __this, Exception_t115 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamAsyncResult_SetComplete_m8159 (StreamAsyncResult_t1324 * __this, Exception_t115 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamAsyncResult::SetComplete(System.Exception,System.Int32)
-extern "C" void StreamAsyncResult_SetComplete_m8084 (StreamAsyncResult_t1315 * __this, Exception_t115 * ___e, int32_t ___nbytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamAsyncResult_SetComplete_m8160 (StreamAsyncResult_t1324 * __this, Exception_t115 * ___e, int32_t ___nbytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.IO.StreamAsyncResult::get_AsyncState()
-extern "C" Object_t * StreamAsyncResult_get_AsyncState_m8085 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * StreamAsyncResult_get_AsyncState_m8161 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.WaitHandle System.IO.StreamAsyncResult::get_AsyncWaitHandle()
-extern "C" WaitHandle_t934 * StreamAsyncResult_get_AsyncWaitHandle_m8086 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WaitHandle_t934 * StreamAsyncResult_get_AsyncWaitHandle_m8162 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.StreamAsyncResult::get_IsCompleted()
-extern "C" bool StreamAsyncResult_get_IsCompleted_m8087 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StreamAsyncResult_get_IsCompleted_m8163 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.IO.StreamAsyncResult::get_Exception()
-extern "C" Exception_t115 * StreamAsyncResult_get_Exception_m8088 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t115 * StreamAsyncResult_get_Exception_m8164 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StreamAsyncResult::get_NBytes()
-extern "C" int32_t StreamAsyncResult_get_NBytes_m8089 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StreamAsyncResult_get_NBytes_m8165 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.StreamAsyncResult::get_Done()
-extern "C" bool StreamAsyncResult_get_Done_m8090 (StreamAsyncResult_t1315 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StreamAsyncResult_get_Done_m8166 (StreamAsyncResult_t1324 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamAsyncResult::set_Done(System.Boolean)
-extern "C" void StreamAsyncResult_set_Done_m8091 (StreamAsyncResult_t1315 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StreamAsyncResult_set_Done_m8167 (StreamAsyncResult_t1324 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

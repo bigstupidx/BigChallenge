@@ -21,7 +21,7 @@ struct MethodInfo_t;
 #include "mscorlib_System_Reflection_PropertyAttributes.h"
 
 // System.Reflection.MonoPropertyInfo
-struct  MonoPropertyInfo_t1415 
+struct  MonoPropertyInfo_t1424 
 {
 	// System.Type System.Reflection.MonoPropertyInfo::parent
 	Type_t * ___parent_0;

@@ -18,7 +18,7 @@ struct IClippable_t387;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>
-struct  Enumerator_t2172 
+struct  Enumerator_t2183 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>::l
 	List_1_t289 * ___l_0;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_StreamReader.h"
 
 // System.IO.StreamReader/NullStreamReader
-struct  NullStreamReader_t1316  : public StreamReader_t1317
+struct  NullStreamReader_t1325  : public StreamReader_t1326
 {
 };

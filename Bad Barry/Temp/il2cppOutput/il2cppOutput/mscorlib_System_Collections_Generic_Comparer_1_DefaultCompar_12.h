@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_12.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTime>
-struct  DefaultComparer_t2595  : public Comparer_1_t2594
+struct  DefaultComparer_t2606  : public Comparer_1_t2605
 {
 };

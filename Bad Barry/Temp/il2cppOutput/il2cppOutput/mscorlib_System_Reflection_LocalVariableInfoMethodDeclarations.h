@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Reflection.LocalVariableInfo
-struct LocalVariableInfo_t1356;
+struct LocalVariableInfo_t1365;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.LocalVariableInfo::.ctor()
-extern "C" void LocalVariableInfo__ctor_m8688 (LocalVariableInfo_t1356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalVariableInfo__ctor_m8770 (LocalVariableInfo_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.LocalVariableInfo::ToString()
-extern "C" String_t* LocalVariableInfo_ToString_m8689 (LocalVariableInfo_t1356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* LocalVariableInfo_ToString_m8771 (LocalVariableInfo_t1365 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

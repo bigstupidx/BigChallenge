@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Reflection.TypeFilter
-struct TypeFilter_t1409;
+struct TypeFilter_t1418;
 // System.Reflection.Assembly
 struct Assembly_t1133;
 // System.String
@@ -22,7 +22,7 @@ struct String_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Reflection.Module
-struct  Module_t1340  : public Object_t
+struct  Module_t1349  : public Object_t
 {
 	// System.IntPtr System.Reflection.Module::_impl
 	IntPtr_t ____impl_3;
@@ -39,9 +39,9 @@ struct  Module_t1340  : public Object_t
 	// System.Int32 System.Reflection.Module::token
 	int32_t ___token_9;
 };
-struct Module_t1340_StaticFields{
+struct Module_t1349_StaticFields{
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeName
-	TypeFilter_t1409 * ___FilterTypeName_1;
+	TypeFilter_t1418 * ___FilterTypeName_1;
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeNameIgnoreCase
-	TypeFilter_t1409 * ___FilterTypeNameIgnoreCase_2;
+	TypeFilter_t1418 * ___FilterTypeNameIgnoreCase_2;
 };

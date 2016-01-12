@@ -13,9 +13,9 @@
 // UnityEngine.GUIStyleState
 struct GUIStyleState_t575;
 // UnityEngine.RectOffset
-struct RectOffset_t137;
+struct RectOffset_t139;
 // UnityEngine.Font
-struct Font_t229;
+struct Font_t230;
 // UnityEngine.GUIStyle
 struct GUIStyle_t576;
 
@@ -44,15 +44,15 @@ struct  GUIStyle_t576  : public Object_t
 	// UnityEngine.GUIStyleState UnityEngine.GUIStyle::m_OnFocused
 	GUIStyleState_t575 * ___m_OnFocused_8;
 	// UnityEngine.RectOffset UnityEngine.GUIStyle::m_Border
-	RectOffset_t137 * ___m_Border_9;
+	RectOffset_t139 * ___m_Border_9;
 	// UnityEngine.RectOffset UnityEngine.GUIStyle::m_Padding
-	RectOffset_t137 * ___m_Padding_10;
+	RectOffset_t139 * ___m_Padding_10;
 	// UnityEngine.RectOffset UnityEngine.GUIStyle::m_Margin
-	RectOffset_t137 * ___m_Margin_11;
+	RectOffset_t139 * ___m_Margin_11;
 	// UnityEngine.RectOffset UnityEngine.GUIStyle::m_Overflow
-	RectOffset_t137 * ___m_Overflow_12;
+	RectOffset_t139 * ___m_Overflow_12;
 	// UnityEngine.Font UnityEngine.GUIStyle::m_FontInternal
-	Font_t229 * ___m_FontInternal_13;
+	Font_t230 * ___m_FontInternal_13;
 };
 struct GUIStyle_t576_StaticFields{
 	// System.Boolean UnityEngine.GUIStyle::showKeyboardFocus

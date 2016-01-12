@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.Policy.ApplicationTrust
-struct ApplicationTrust_t1664;
+struct ApplicationTrust_t1673;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Policy.ApplicationTrust::.ctor()
-extern "C" void ApplicationTrust__ctor_m10092 (ApplicationTrust_t1664 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ApplicationTrust__ctor_m10174 (ApplicationTrust_t1673 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

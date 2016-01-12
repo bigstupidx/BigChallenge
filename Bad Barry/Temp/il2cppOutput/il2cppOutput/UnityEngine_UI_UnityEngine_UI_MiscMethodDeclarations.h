@@ -19,6 +19,6 @@ struct Object_t112_marshaled;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Misc::Destroy(UnityEngine.Object)
-extern "C" void Misc_Destroy_m1450 (Object_t * __this /* static, unused */, Object_t112 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_Destroy_m1455 (Object_t * __this /* static, unused */, Object_t112 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Misc::DestroyImmediate(UnityEngine.Object)
-extern "C" void Misc_DestroyImmediate_m1451 (Object_t * __this /* static, unused */, Object_t112 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_DestroyImmediate_m1456 (Object_t * __this /* static, unused */, Object_t112 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

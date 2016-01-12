@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.ThreadStaticAttribute
-struct  ThreadStaticAttribute_t1793  : public Attribute_t510
+struct  ThreadStaticAttribute_t1804  : public Attribute_t510
 {
 };

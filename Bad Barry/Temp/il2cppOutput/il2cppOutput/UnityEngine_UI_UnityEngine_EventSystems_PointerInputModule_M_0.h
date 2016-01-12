@@ -17,7 +17,7 @@ struct PointerEventData_t105;
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEventData_Fra.h"
 
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
-struct  MouseButtonEventData_t187  : public Object_t
+struct  MouseButtonEventData_t189  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData/FramePressState UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData::buttonState
 	int32_t ___buttonState_0;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Text.EncoderFallbackBuffer
-struct EncoderFallbackBuffer_t1696;
+struct EncoderFallbackBuffer_t1706;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.EncoderFallbackBuffer::.ctor()
-extern "C" void EncoderFallbackBuffer__ctor_m10249 (EncoderFallbackBuffer_t1696 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EncoderFallbackBuffer__ctor_m10338 (EncoderFallbackBuffer_t1706 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

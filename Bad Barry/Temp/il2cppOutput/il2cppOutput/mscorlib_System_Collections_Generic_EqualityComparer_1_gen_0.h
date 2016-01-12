@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct EqualityComparer_1_t2018;
+struct EqualityComparer_1_t2029;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct  EqualityComparer_1_t2018  : public Object_t
+struct  EqualityComparer_1_t2029  : public Object_t
 {
 };
-struct EqualityComparer_1_t2018_StaticFields{
+struct EqualityComparer_1_t2029_StaticFields{
 	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::_default
-	EqualityComparer_1_t2018 * ____default_0;
+	EqualityComparer_1_t2029 * ____default_0;
 };

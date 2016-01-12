@@ -13,7 +13,7 @@
 #include <exception>
 
 // Mono.Globalization.Unicode.Contraction
-struct Contraction_t1181;
+struct Contraction_t1190;
 // System.Char[]
 struct CharU5BU5D_t275;
 // System.String
@@ -24,4 +24,4 @@ struct ByteU5BU5D_t772;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Globalization.Unicode.Contraction::.ctor(System.Char[],System.String,System.Byte[])
-extern "C" void Contraction__ctor_m6792 (Contraction_t1181 * __this, CharU5BU5D_t275* ___source, String_t* ___replacement, ByteU5BU5D_t772* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Contraction__ctor_m6868 (Contraction_t1190 * __this, CharU5BU5D_t275* ___source, String_t* ___replacement, ByteU5BU5D_t772* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

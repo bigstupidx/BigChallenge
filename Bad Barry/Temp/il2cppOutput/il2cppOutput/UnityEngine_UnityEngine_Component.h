@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Object.h"
 
 // UnityEngine.Component
-struct  Component_t143  : public Object_t112
+struct  Component_t145  : public Object_t112
 {
 };

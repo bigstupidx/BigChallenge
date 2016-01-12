@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Threading.ThreadInterruptedException
-struct  ThreadInterruptedException_t1721  : public SystemException_t1134
+struct  ThreadInterruptedException_t1731  : public SystemException_t1134
 {
 };

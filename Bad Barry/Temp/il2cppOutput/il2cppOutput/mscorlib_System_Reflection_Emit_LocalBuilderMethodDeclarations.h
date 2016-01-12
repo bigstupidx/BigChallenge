@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Reflection.Emit.LocalBuilder
-struct LocalBuilder_t1355;
+struct LocalBuilder_t1364;
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.ILGenerator
-struct ILGenerator_t1334;
+struct ILGenerator_t1343;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.Emit.LocalBuilder::.ctor(System.Type,System.Reflection.Emit.ILGenerator)
-extern "C" void LocalBuilder__ctor_m8405 (LocalBuilder_t1355 * __this, Type_t * ___t, ILGenerator_t1334 * ___ilgen, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalBuilder__ctor_m8487 (LocalBuilder_t1364 * __this, Type_t * ___t, ILGenerator_t1343 * ___ilgen, const MethodInfo* method) IL2CPP_METHOD_ATTR;

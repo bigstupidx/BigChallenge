@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.ResolveEventArgs
-struct ResolveEventArgs_t1788;
+struct ResolveEventArgs_t1799;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.ResolveEventArgs::.ctor(System.String)
-extern "C" void ResolveEventArgs__ctor_m11225 (ResolveEventArgs_t1788 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventArgs__ctor_m11318 (ResolveEventArgs_t1799 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

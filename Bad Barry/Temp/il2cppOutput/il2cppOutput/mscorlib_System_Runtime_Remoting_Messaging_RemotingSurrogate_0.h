@@ -13,25 +13,25 @@
 // System.Type
 struct Type_t;
 // System.Runtime.Remoting.Messaging.ObjRefSurrogate
-struct ObjRefSurrogate_t1529;
+struct ObjRefSurrogate_t1538;
 // System.Runtime.Remoting.Messaging.RemotingSurrogate
-struct RemotingSurrogate_t1528;
+struct RemotingSurrogate_t1537;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1531;
+struct ISurrogateSelector_t1540;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
-struct  RemotingSurrogateSelector_t1530  : public Object_t
+struct  RemotingSurrogateSelector_t1539  : public Object_t
 {
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::_next
 	Object_t * ____next_3;
 };
-struct RemotingSurrogateSelector_t1530_StaticFields{
+struct RemotingSurrogateSelector_t1539_StaticFields{
 	// System.Type System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::s_cachedTypeObjRef
 	Type_t * ___s_cachedTypeObjRef_0;
 	// System.Runtime.Remoting.Messaging.ObjRefSurrogate System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::_objRefSurrogate
-	ObjRefSurrogate_t1529 * ____objRefSurrogate_1;
+	ObjRefSurrogate_t1538 * ____objRefSurrogate_1;
 	// System.Runtime.Remoting.Messaging.RemotingSurrogate System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::_objRemotingSurrogate
-	RemotingSurrogate_t1528 * ____objRemotingSurrogate_2;
+	RemotingSurrogate_t1537 * ____objRemotingSurrogate_2;
 };

@@ -16,7 +16,7 @@ struct TextWriter_t721;
 #include "mscorlib_System_IO_TextWriter.h"
 
 // System.IO.SynchronizedWriter
-struct  SynchronizedWriter_t1322  : public TextWriter_t721
+struct  SynchronizedWriter_t1331  : public TextWriter_t721
 {
 	// System.IO.TextWriter System.IO.SynchronizedWriter::writer
 	TextWriter_t721 * ___writer_3;

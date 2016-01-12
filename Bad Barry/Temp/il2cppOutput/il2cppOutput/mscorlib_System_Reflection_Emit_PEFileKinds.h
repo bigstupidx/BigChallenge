@@ -15,7 +15,7 @@
 #include "mscorlib_System_Reflection_Emit_PEFileKinds.h"
 
 // System.Reflection.Emit.PEFileKinds
-struct  PEFileKinds_t1367 
+struct  PEFileKinds_t1376 
 {
 	// System.Int32 System.Reflection.Emit.PEFileKinds::value__
 	int32_t ___value___1;

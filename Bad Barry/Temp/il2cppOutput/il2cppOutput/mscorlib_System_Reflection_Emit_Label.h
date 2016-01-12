@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.Emit.Label
-struct  Label_t1354 
+struct  Label_t1363 
 {
 	// System.Int32 System.Reflection.Emit.Label::label
 	int32_t ___label_0;

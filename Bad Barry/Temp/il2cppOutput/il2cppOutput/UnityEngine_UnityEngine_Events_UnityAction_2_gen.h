@@ -21,6 +21,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Events.UnityAction`2<System.Object,System.Object>
-struct  UnityAction_2_t2355  : public MulticastDelegate_t264
+struct  UnityAction_2_t2366  : public MulticastDelegate_t264
 {
 };

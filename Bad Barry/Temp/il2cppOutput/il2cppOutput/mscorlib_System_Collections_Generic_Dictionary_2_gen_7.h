@@ -13,15 +13,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // UnityEngine.UI.IClipper[]
-struct IClipperU5BU5D_t2202;
+struct IClipperU5BU5D_t2213;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.UI.IClipper>
-struct IEqualityComparer_1_t2204;
+struct IEqualityComparer_1_t2215;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.IClipper,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t2203;
+struct Transform_1_t2214;
 
 #include "mscorlib_System_Object.h"
 
@@ -31,9 +31,9 @@ struct  Dictionary_2_t445  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::keySlots
-	IClipperU5BU5D_t2202* ___keySlots_6;
+	IClipperU5BU5D_t2213* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::valueSlots
 	Int32U5BU5D_t46* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::touchedSlots
@@ -53,5 +53,5 @@ struct  Dictionary_2_t445  : public Object_t
 };
 struct Dictionary_2_t445_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>::<>f__am$cacheB
-	Transform_1_t2203 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t2214 * ___U3CU3Ef__amU24cacheB_15;
 };

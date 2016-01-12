@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyCopyrightAttribute
-struct AssemblyCopyrightAttribute_t1380;
+struct AssemblyCopyrightAttribute_t1389;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyCopyrightAttribute::.ctor(System.String)
-extern "C" void AssemblyCopyrightAttribute__ctor_m8597 (AssemblyCopyrightAttribute_t1380 * __this, String_t* ___copyright, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyCopyrightAttribute__ctor_m8679 (AssemblyCopyrightAttribute_t1389 * __this, String_t* ___copyright, const MethodInfo* method) IL2CPP_METHOD_ATTR;

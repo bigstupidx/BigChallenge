@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.BaseInputModule[]
-struct BaseInputModuleU5BU5D_t1979;
+struct BaseInputModuleU5BU5D_t1990;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct  List_1_t147  : public Object_t
+struct  List_1_t149  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
-	BaseInputModuleU5BU5D_t1979* ____items_1;
+	BaseInputModuleU5BU5D_t1990* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
 	int32_t ____version_3;
 };
-struct List_1_t147_StaticFields{
+struct List_1_t149_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
-	BaseInputModuleU5BU5D_t1979* ___EmptyArray_4;
+	BaseInputModuleU5BU5D_t1990* ___EmptyArray_4;
 };

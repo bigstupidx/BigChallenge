@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Serialization.ObjectIDGenerator/InstanceComparer
-struct  InstanceComparer_t1600  : public Object_t
+struct  InstanceComparer_t1609  : public Object_t
 {
 };

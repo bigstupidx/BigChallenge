@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Runtime.Serialization.ObjectIDGenerator
-struct ObjectIDGenerator_t1593;
+struct ObjectIDGenerator_t1602;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Serialization.ObjectIDGenerator::.ctor()
-extern "C" void ObjectIDGenerator__ctor_m9645 (ObjectIDGenerator_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectIDGenerator__ctor_m9727 (ObjectIDGenerator_t1602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectIDGenerator::.cctor()
-extern "C" void ObjectIDGenerator__cctor_m9646 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectIDGenerator__cctor_m9728 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Runtime.Serialization.ObjectIDGenerator::GetId(System.Object,System.Boolean&)
-extern "C" int64_t ObjectIDGenerator_GetId_m9647 (ObjectIDGenerator_t1593 * __this, Object_t * ___obj, bool* ___firstTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t ObjectIDGenerator_GetId_m9729 (ObjectIDGenerator_t1602 * __this, Object_t * ___obj, bool* ___firstTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Runtime.Serialization.ObjectIDGenerator::get_NextId()
-extern "C" int64_t ObjectIDGenerator_get_NextId_m9648 (ObjectIDGenerator_t1593 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t ObjectIDGenerator_get_NextId_m9730 (ObjectIDGenerator_t1602 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

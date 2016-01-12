@@ -15,7 +15,7 @@ struct ByteU5BU5D_t772;
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t1224;
+struct X509CertificateCollection_t1233;
 // System.Security.Cryptography.RandomNumberGenerator
 struct RandomNumberGenerator_t769;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -24,7 +24,7 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.X509.PKCS12
-struct  PKCS12_t1223  : public Object_t
+struct  PKCS12_t1232  : public Object_t
 {
 	// System.Byte[] Mono.Security.X509.PKCS12::_password
 	ByteU5BU5D_t772* ____password_1;
@@ -33,7 +33,7 @@ struct  PKCS12_t1223  : public Object_t
 	// System.Collections.ArrayList Mono.Security.X509.PKCS12::_secretBags
 	ArrayList_t803 * ____secretBags_3;
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.X509.PKCS12::_certs
-	X509CertificateCollection_t1224 * ____certs_4;
+	X509CertificateCollection_t1233 * ____certs_4;
 	// System.Boolean Mono.Security.X509.PKCS12::_keyBagsChanged
 	bool ____keyBagsChanged_5;
 	// System.Boolean Mono.Security.X509.PKCS12::_secretBagsChanged
@@ -47,7 +47,7 @@ struct  PKCS12_t1223  : public Object_t
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.X509.PKCS12::_rng
 	RandomNumberGenerator_t769 * ____rng_10;
 };
-struct PKCS12_t1223_StaticFields{
+struct PKCS12_t1232_StaticFields{
 	// System.Int32 Mono.Security.X509.PKCS12::recommendedIterationCount
 	int32_t ___recommendedIterationCount_0;
 	// System.Int32 Mono.Security.X509.PKCS12::password_max_length

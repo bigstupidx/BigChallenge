@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_15.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>
-struct  DefaultComparer_t2608  : public Comparer_1_t2607
+struct  DefaultComparer_t2619  : public Comparer_1_t2618
 {
 };

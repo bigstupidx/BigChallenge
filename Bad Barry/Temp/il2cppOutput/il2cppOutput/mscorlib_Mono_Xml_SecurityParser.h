@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Security.SecurityElement
-struct SecurityElement_t1238;
+struct SecurityElement_t1247;
 // System.Collections.Stack
 struct Stack_t1078;
 
 #include "mscorlib_Mono_Xml_SmallXmlParser.h"
 
 // Mono.Xml.SecurityParser
-struct  SecurityParser_t1236  : public SmallXmlParser_t1237
+struct  SecurityParser_t1245  : public SmallXmlParser_t1246
 {
 	// System.Security.SecurityElement Mono.Xml.SecurityParser::root
-	SecurityElement_t1238 * ___root_13;
+	SecurityElement_t1247 * ___root_13;
 	// System.Security.SecurityElement Mono.Xml.SecurityParser::current
-	SecurityElement_t1238 * ___current_14;
+	SecurityElement_t1247 * ___current_14;
 	// System.Collections.Stack Mono.Xml.SecurityParser::stack
 	Stack_t1078 * ___stack_15;
 };

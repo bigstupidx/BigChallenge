@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<System.Object>>
-struct ObjectPool_1_t2006;
+struct ObjectPool_1_t2017;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<System.Object>>
-struct UnityAction_1_t2007;
+struct UnityAction_1_t2018;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.ListPool`1<System.Object>
-struct  ListPool_1_t2005  : public Object_t
+struct  ListPool_1_t2016  : public Object_t
 {
 };
-struct ListPool_1_t2005_StaticFields{
+struct ListPool_1_t2016_StaticFields{
 	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<System.Object>::s_ListPool
-	ObjectPool_1_t2006 * ___s_ListPool_0;
+	ObjectPool_1_t2017 * ___s_ListPool_0;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<System.Object>::<>f__am$cache1
-	UnityAction_1_t2007 * ___U3CU3Ef__amU24cache1_1;
+	UnityAction_1_t2018 * ___U3CU3Ef__amU24cache1_1;
 };

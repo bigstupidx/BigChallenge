@@ -16,7 +16,7 @@ struct Hashtable_t868;
 #include "mscorlib_System_Collections_Hashtable.h"
 
 // System.Collections.Hashtable/SyncHashtable
-struct  SyncHashtable_t1258  : public Hashtable_t868
+struct  SyncHashtable_t1267  : public Hashtable_t868
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/SyncHashtable::host
 	Hashtable_t868 * ___host_14;

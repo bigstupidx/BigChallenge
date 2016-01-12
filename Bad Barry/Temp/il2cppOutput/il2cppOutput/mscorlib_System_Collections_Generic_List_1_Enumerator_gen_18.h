@@ -18,7 +18,7 @@ struct Text_t52;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>
-struct  Enumerator_t2118 
+struct  Enumerator_t2129 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::l
 	List_1_t412 * ___l_0;

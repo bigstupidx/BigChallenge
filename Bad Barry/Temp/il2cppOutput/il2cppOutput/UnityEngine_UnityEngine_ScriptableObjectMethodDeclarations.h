@@ -23,15 +23,15 @@ struct Type_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.ScriptableObject::.ctor()
-extern "C" void ScriptableObject__ctor_m2638 (ScriptableObject_t474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScriptableObject__ctor_m2641 (ScriptableObject_t474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ScriptableObject::Internal_CreateScriptableObject(UnityEngine.ScriptableObject)
-extern "C" void ScriptableObject_Internal_CreateScriptableObject_m2639 (Object_t * __this /* static, unused */, ScriptableObject_t474 * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScriptableObject_Internal_CreateScriptableObject_m2642 (Object_t * __this /* static, unused */, ScriptableObject_t474 * ___self, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ScriptableObject UnityEngine.ScriptableObject::CreateInstance(System.String)
-extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstance_m2640 (Object_t * __this /* static, unused */, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstance_m2643 (Object_t * __this /* static, unused */, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ScriptableObject UnityEngine.ScriptableObject::CreateInstance(System.Type)
-extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstance_m2641 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstance_m2644 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ScriptableObject UnityEngine.ScriptableObject::CreateInstanceFromType(System.Type)
-extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstanceFromType_m2642 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ScriptableObject_t474 * ScriptableObject_CreateInstanceFromType_m2645 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void ScriptableObject_t474_marshal(const ScriptableObject_t474& unmarshaled, ScriptableObject_t474_marshaled& marshaled);
 extern "C" void ScriptableObject_t474_marshal_back(const ScriptableObject_t474_marshaled& marshaled, ScriptableObject_t474& unmarshaled);
 extern "C" void ScriptableObject_t474_marshal_cleanup(ScriptableObject_t474_marshaled& marshaled);

@@ -18,12 +18,12 @@ struct Type_t;
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceManager
-struct  ResourceManager_t1430  : public Object_t
+struct  ResourceManager_t1439  : public Object_t
 {
 	// System.Type System.Resources.ResourceManager::resourceSetType
 	Type_t * ___resourceSetType_4;
 };
-struct ResourceManager_t1430_StaticFields{
+struct ResourceManager_t1439_StaticFields{
 	// System.Collections.Hashtable System.Resources.ResourceManager::ResourceCache
 	Hashtable_t868 * ___ResourceCache_0;
 	// System.Collections.Hashtable System.Resources.ResourceManager::NonExistent

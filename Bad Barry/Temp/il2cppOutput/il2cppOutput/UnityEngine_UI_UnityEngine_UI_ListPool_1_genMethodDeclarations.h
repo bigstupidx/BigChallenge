@@ -17,10 +17,10 @@
 #include "UnityEngine_UI_UnityEngine_UI_ListPool_1_gen_7MethodDeclarations.h"
 
 // System.Void UnityEngine.UI.ListPool`1<UnityEngine.Canvas>::.cctor()
-#define ListPool_1__cctor_m14186(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1__cctor_m12771_gshared)(__this /* static, unused */, method)
+#define ListPool_1__cctor_m14279(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1__cctor_m12864_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.List`1<T> UnityEngine.UI.ListPool`1<UnityEngine.Canvas>::Get()
-#define ListPool_1_Get_m2235(__this /* static, unused */, method) (( List_1_t408 * (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1_Get_m12772_gshared)(__this /* static, unused */, method)
+#define ListPool_1_Get_m2238(__this /* static, unused */, method) (( List_1_t408 * (*) (Object_t * /* static, unused */, const MethodInfo*))ListPool_1_Get_m12865_gshared)(__this /* static, unused */, method)
 // System.Void UnityEngine.UI.ListPool`1<UnityEngine.Canvas>::Release(System.Collections.Generic.List`1<T>)
-#define ListPool_1_Release_m2237(__this /* static, unused */, ___toRelease, method) (( void (*) (Object_t * /* static, unused */, List_1_t408 *, const MethodInfo*))ListPool_1_Release_m12773_gshared)(__this /* static, unused */, ___toRelease, method)
+#define ListPool_1_Release_m2240(__this /* static, unused */, ___toRelease, method) (( void (*) (Object_t * /* static, unused */, List_1_t408 *, const MethodInfo*))ListPool_1_Release_m12866_gshared)(__this /* static, unused */, ___toRelease, method)
 // System.Void UnityEngine.UI.ListPool`1<UnityEngine.Canvas>::<s_ListPool>m__14(System.Collections.Generic.List`1<T>)
-#define ListPool_1_U3Cs_ListPoolU3Em__14_m14187(__this /* static, unused */, ___l, method) (( void (*) (Object_t * /* static, unused */, List_1_t408 *, const MethodInfo*))ListPool_1_U3Cs_ListPoolU3Em__14_m12775_gshared)(__this /* static, unused */, ___l, method)
+#define ListPool_1_U3Cs_ListPoolU3Em__14_m14280(__this /* static, unused */, ___l, method) (( void (*) (Object_t * /* static, unused */, List_1_t408 *, const MethodInfo*))ListPool_1_U3Cs_ListPoolU3Em__14_m12868_gshared)(__this /* static, unused */, ___l, method)

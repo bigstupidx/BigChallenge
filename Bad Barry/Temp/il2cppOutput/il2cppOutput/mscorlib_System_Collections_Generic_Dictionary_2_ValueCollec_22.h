@@ -16,7 +16,7 @@ struct Dictionary_2_t748;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ObjectMetadata>
-struct  ValueCollection_t2445  : public Object_t
+struct  ValueCollection_t2456  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,LitJson.ObjectMetadata>::dictionary
 	Dictionary_2_t748 * ___dictionary_0;

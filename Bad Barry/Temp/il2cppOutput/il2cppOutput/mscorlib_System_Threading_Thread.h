@@ -13,13 +13,13 @@
 // System.Object
 struct Object_t;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t1509;
+struct ExecutionContext_t1518;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // System.MulticastDelegate
 struct MulticastDelegate_t264;
 // System.Security.Principal.IPrincipal
-struct IPrincipal_t1719;
+struct IPrincipal_t1729;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 
@@ -30,7 +30,7 @@ struct Hashtable_t868;
 #include "mscorlib_System_Int32.h"
 
 // System.Threading.Thread
-struct  Thread_t1495  : public CriticalFinalizerObject_t1451
+struct  Thread_t1504  : public CriticalFinalizerObject_t1460
 {
 	// System.Int32 System.Threading.Thread::lock_thread_id
 	int32_t ___lock_thread_id_0;
@@ -107,7 +107,7 @@ struct  Thread_t1495  : public CriticalFinalizerObject_t1451
 	// System.Object System.Threading.Thread::pending_exception
 	Object_t * ___pending_exception_36;
 	// System.Threading.ExecutionContext System.Threading.Thread::ec_to_set
-	ExecutionContext_t1509 * ___ec_to_set_37;
+	ExecutionContext_t1518 * ___ec_to_set_37;
 	// System.IntPtr System.Threading.Thread::interrupt_on_stop
 	IntPtr_t ___interrupt_on_stop_38;
 	// System.IntPtr System.Threading.Thread::unused3
@@ -127,7 +127,7 @@ struct  Thread_t1495  : public CriticalFinalizerObject_t1451
 	// System.Boolean System.Threading.Thread::in_currentculture
 	bool ___in_currentculture_50;
 };
-struct Thread_t1495_StaticFields{
+struct Thread_t1504_StaticFields{
 	// System.Collections.Hashtable System.Threading.Thread::datastorehash
 	Hashtable_t868 * ___datastorehash_48;
 	// System.Object System.Threading.Thread::datastore_lock
@@ -135,9 +135,9 @@ struct Thread_t1495_StaticFields{
 	// System.Object System.Threading.Thread::culture_lock
 	Object_t * ___culture_lock_51;
 };
-struct Thread_t1495_ThreadStaticFields{
+struct Thread_t1504_ThreadStaticFields{
 	// System.Object[] System.Threading.Thread::local_slots
-	ObjectU5BU5D_t142* ___local_slots_43;
+	ObjectU5BU5D_t144* ___local_slots_43;
 	// System.Threading.ExecutionContext System.Threading.Thread::_ec
-	ExecutionContext_t1509 * ____ec_44;
+	ExecutionContext_t1518 * ____ec_44;
 };

@@ -19,7 +19,7 @@ struct String_t;
 #include "System_System_Uri_UriScheme.h"
 
 // System.Void System.Uri/UriScheme::.ctor(System.String,System.String,System.Int32)
-extern "C" void UriScheme__ctor_m5749 (UriScheme_t1115 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriScheme__ctor_m5752 (UriScheme_t1115 * __this, String_t* ___s, String_t* ___d, int32_t ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void UriScheme_t1115_marshal(const UriScheme_t1115& unmarshaled, UriScheme_t1115_marshaled& marshaled);
 extern "C" void UriScheme_t1115_marshal_back(const UriScheme_t1115_marshaled& marshaled, UriScheme_t1115& unmarshaled);
 extern "C" void UriScheme_t1115_marshal_cleanup(UriScheme_t1115_marshaled& marshaled);

@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Runtime.Serialization.SerializationCallbacks/CallbackHandler
-struct  CallbackHandler_t1613  : public MulticastDelegate_t264
+struct  CallbackHandler_t1622  : public MulticastDelegate_t264
 {
 };

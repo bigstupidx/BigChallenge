@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Selectable[]
-struct SelectableU5BU5D_t2176;
+struct SelectableU5BU5D_t2187;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct SelectableU5BU5D_t2176;
 struct  List_1_t307  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
-	SelectableU5BU5D_t2176* ____items_1;
+	SelectableU5BU5D_t2187* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
@@ -27,5 +27,5 @@ struct  List_1_t307  : public Object_t
 };
 struct List_1_t307_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
-	SelectableU5BU5D_t2176* ___EmptyArray_4;
+	SelectableU5BU5D_t2187* ___EmptyArray_4;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_12.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Boolean>
-struct  DefaultComparer_t2505  : public EqualityComparer_1_t2503
+struct  DefaultComparer_t2516  : public EqualityComparer_1_t2514
 {
 };

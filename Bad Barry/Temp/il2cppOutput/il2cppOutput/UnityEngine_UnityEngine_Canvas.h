@@ -16,10 +16,10 @@ struct WillRenderCanvases_t407;
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.Canvas
-struct  Canvas_t235  : public Behaviour_t452
+struct  Canvas_t137  : public Behaviour_t452
 {
 };
-struct Canvas_t235_StaticFields{
+struct Canvas_t137_StaticFields{
 	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::willRenderCanvases
 	WillRenderCanvases_t407 * ___willRenderCanvases_2;
 };

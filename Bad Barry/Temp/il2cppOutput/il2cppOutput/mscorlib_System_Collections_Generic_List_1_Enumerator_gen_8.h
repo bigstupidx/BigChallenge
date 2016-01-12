@@ -13,12 +13,12 @@
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
 struct List_1_t360;
 // UnityEngine.EventSystems.IEventSystemHandler
-struct IEventSystemHandler_t1989;
+struct IEventSystemHandler_t2000;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Enumerator_t1990 
+struct  Enumerator_t2001 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.IEventSystemHandler>::l
 	List_1_t360 * ___l_0;

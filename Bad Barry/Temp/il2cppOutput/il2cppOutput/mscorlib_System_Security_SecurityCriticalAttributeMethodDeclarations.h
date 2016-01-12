@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Security.SecurityCriticalAttribute
-struct SecurityCriticalAttribute_t1674;
+struct SecurityCriticalAttribute_t1683;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.SecurityCriticalAttribute::.ctor()
-extern "C" void SecurityCriticalAttribute__ctor_m10140 (SecurityCriticalAttribute_t1674 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityCriticalAttribute__ctor_m10222 (SecurityCriticalAttribute_t1683 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

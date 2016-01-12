@@ -19,10 +19,10 @@ struct CullingGroup_t497;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.CullingGroup::Finalize()
-extern "C" void CullingGroup_Finalize_m2765 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullingGroup_Finalize_m2768 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CullingGroup::Dispose()
-extern "C" void CullingGroup_Dispose_m2766 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullingGroup_Dispose_m2769 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CullingGroup::SendEvents(UnityEngine.CullingGroup,System.IntPtr,System.Int32)
-extern "C" void CullingGroup_SendEvents_m2767 (Object_t * __this /* static, unused */, CullingGroup_t497 * ___cullingGroup, IntPtr_t ___eventsPtr, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullingGroup_SendEvents_m2770 (Object_t * __this /* static, unused */, CullingGroup_t497 * ___cullingGroup, IntPtr_t ___eventsPtr, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CullingGroup::FinalizerFailure()
-extern "C" void CullingGroup_FinalizerFailure_m2768 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullingGroup_FinalizerFailure_m2771 (CullingGroup_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

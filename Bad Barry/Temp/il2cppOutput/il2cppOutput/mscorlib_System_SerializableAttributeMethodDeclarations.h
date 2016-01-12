@@ -18,4 +18,4 @@ struct SerializableAttribute_t1138;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.SerializableAttribute::.ctor()
-extern "C" void SerializableAttribute__ctor_m5957 (SerializableAttribute_t1138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializableAttribute__ctor_m5960 (SerializableAttribute_t1138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

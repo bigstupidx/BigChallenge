@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // Item[]
-struct ItemU5BU5D_t1958;
+struct ItemU5BU5D_t1969;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct ItemU5BU5D_t1958;
 struct  List_1_t61  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<Item>::_items
-	ItemU5BU5D_t1958* ____items_1;
+	ItemU5BU5D_t1969* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<Item>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<Item>::_version
@@ -27,5 +27,5 @@ struct  List_1_t61  : public Object_t
 };
 struct List_1_t61_StaticFields{
 	// T[] System.Collections.Generic.List`1<Item>::EmptyArray
-	ItemU5BU5D_t1958* ___EmptyArray_4;
+	ItemU5BU5D_t1969* ___EmptyArray_4;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_MemberAccessException.h"
 
 // System.MethodAccessException
-struct  MethodAccessException_t1771  : public MemberAccessException_t1764
+struct  MethodAccessException_t1782  : public MemberAccessException_t1775
 {
 };

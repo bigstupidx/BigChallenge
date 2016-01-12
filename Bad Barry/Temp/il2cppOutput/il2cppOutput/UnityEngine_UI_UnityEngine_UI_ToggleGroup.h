@@ -20,7 +20,7 @@ struct Func_2_t321;
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 
 // UnityEngine.UI.ToggleGroup
-struct  ToggleGroup_t318  : public UIBehaviour_t146
+struct  ToggleGroup_t318  : public UIBehaviour_t148
 {
 	// System.Boolean UnityEngine.UI.ToggleGroup::m_AllowSwitchOff
 	bool ___m_AllowSwitchOff_2;

@@ -15,7 +15,7 @@
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.ILGenerator
-struct ILGenerator_t1334;
+struct ILGenerator_t1343;
 // System.String
 struct String_t;
 
@@ -23,20 +23,20 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::.cctor()
-extern "C" void CodeGenerator__cctor_m9539 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator__cctor_m9621 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.Formatters.Binary.CodeGenerator::GenerateMetadataType(System.Type,System.Runtime.Serialization.StreamingContext)
-extern "C" Type_t * CodeGenerator_GenerateMetadataType_m9540 (Object_t * __this /* static, unused */, Type_t * ___type, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * CodeGenerator_GenerateMetadataType_m9622 (Object_t * __this /* static, unused */, Type_t * ___type, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.Formatters.Binary.CodeGenerator::GenerateMetadataTypeInternal(System.Type,System.Runtime.Serialization.StreamingContext)
-extern "C" Type_t * CodeGenerator_GenerateMetadataTypeInternal_m9541 (Object_t * __this /* static, unused */, Type_t * ___type, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * CodeGenerator_GenerateMetadataTypeInternal_m9623 (Object_t * __this /* static, unused */, Type_t * ___type, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::LoadFromPtr(System.Reflection.Emit.ILGenerator,System.Type)
-extern "C" void CodeGenerator_LoadFromPtr_m9542 (Object_t * __this /* static, unused */, ILGenerator_t1334 * ___ig, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator_LoadFromPtr_m9624 (Object_t * __this /* static, unused */, ILGenerator_t1343 * ___ig, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::EmitWriteTypeSpec(System.Reflection.Emit.ILGenerator,System.Type,System.String)
-extern "C" void CodeGenerator_EmitWriteTypeSpec_m9543 (Object_t * __this /* static, unused */, ILGenerator_t1334 * ___gen, Type_t * ___type, String_t* ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator_EmitWriteTypeSpec_m9625 (Object_t * __this /* static, unused */, ILGenerator_t1343 * ___gen, Type_t * ___type, String_t* ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::EmitLoadTypeAssembly(System.Reflection.Emit.ILGenerator,System.Type,System.String)
-extern "C" void CodeGenerator_EmitLoadTypeAssembly_m9544 (Object_t * __this /* static, unused */, ILGenerator_t1334 * ___gen, Type_t * ___type, String_t* ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator_EmitLoadTypeAssembly_m9626 (Object_t * __this /* static, unused */, ILGenerator_t1343 * ___gen, Type_t * ___type, String_t* ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::EmitWrite(System.Reflection.Emit.ILGenerator,System.Type)
-extern "C" void CodeGenerator_EmitWrite_m9545 (Object_t * __this /* static, unused */, ILGenerator_t1334 * ___gen, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator_EmitWrite_m9627 (Object_t * __this /* static, unused */, ILGenerator_t1343 * ___gen, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.CodeGenerator::EmitWritePrimitiveValue(System.Reflection.Emit.ILGenerator,System.Type)
-extern "C" void CodeGenerator_EmitWritePrimitiveValue_m9546 (Object_t * __this /* static, unused */, ILGenerator_t1334 * ___gen, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CodeGenerator_EmitWritePrimitiveValue_m9628 (Object_t * __this /* static, unused */, ILGenerator_t1343 * ___gen, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Serialization.Formatters.Binary.CodeGenerator::EnumToUnderlying(System.Type)
-extern "C" Type_t * CodeGenerator_EnumToUnderlying_m9547 (Object_t * __this /* static, unused */, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * CodeGenerator_EnumToUnderlying_m9629 (Object_t * __this /* static, unused */, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

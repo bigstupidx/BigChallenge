@@ -21,6 +21,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Void.h"
 
 // System.Threading.WaitCallback
-struct  WaitCallback_t1806  : public MulticastDelegate_t264
+struct  WaitCallback_t1817  : public MulticastDelegate_t264
 {
 };

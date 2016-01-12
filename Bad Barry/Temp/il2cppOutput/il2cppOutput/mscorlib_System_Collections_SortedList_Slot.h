@@ -16,7 +16,7 @@ struct Object_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.SortedList/Slot
-struct  Slot_t1262 
+struct  Slot_t1271 
 {
 	// System.Object System.Collections.SortedList/Slot::key
 	Object_t * ___key_0;

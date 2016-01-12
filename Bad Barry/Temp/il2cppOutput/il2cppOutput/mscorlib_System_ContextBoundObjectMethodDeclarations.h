@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.ContextBoundObject
-struct ContextBoundObject_t1492;
+struct ContextBoundObject_t1501;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.ContextBoundObject::.ctor()
-extern "C" void ContextBoundObject__ctor_m10616 (ContextBoundObject_t1492 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ContextBoundObject__ctor_m10706 (ContextBoundObject_t1501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

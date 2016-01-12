@@ -16,7 +16,7 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Int32>
-struct  ValueCollection_t2157  : public Object_t
+struct  ValueCollection_t2168  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Int32>::dictionary
 	Dictionary_2_t276 * ___dictionary_0;

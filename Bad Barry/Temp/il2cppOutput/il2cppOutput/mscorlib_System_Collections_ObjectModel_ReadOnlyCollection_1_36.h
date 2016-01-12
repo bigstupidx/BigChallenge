@@ -16,7 +16,7 @@ struct IList_1_t431;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>
-struct  ReadOnlyCollection_1_t2325  : public Object_t
+struct  ReadOnlyCollection_1_t2336  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UICharInfo>::list
 	Object_t* ___list_0;

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.Contexts.CrossContextChannel
-struct CrossContextChannel_t1480;
+struct CrossContextChannel_t1489;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Contexts.CrossContextChannel::.ctor()
-extern "C" void CrossContextChannel__ctor_m9107 (CrossContextChannel_t1480 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossContextChannel__ctor_m9189 (CrossContextChannel_t1489 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

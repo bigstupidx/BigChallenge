@@ -15,7 +15,7 @@
 #include "mscorlib_System_IO_FileMode.h"
 
 // System.IO.FileMode
-struct  FileMode_t1300 
+struct  FileMode_t1309 
 {
 	// System.Int32 System.IO.FileMode::value__
 	int32_t ___value___1;

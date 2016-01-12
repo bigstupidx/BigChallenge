@@ -20,6 +20,6 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.MonoTODOAttribute::.ctor()
-extern "C" void MonoTODOAttribute__ctor_m4937 (MonoTODOAttribute_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m4940 (MonoTODOAttribute_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoTODOAttribute::.ctor(System.String)
-extern "C" void MonoTODOAttribute__ctor_m4938 (MonoTODOAttribute_t977 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTODOAttribute__ctor_m4941 (MonoTODOAttribute_t977 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

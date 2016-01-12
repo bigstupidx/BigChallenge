@@ -15,7 +15,7 @@
 #include "mscorlib_System_LoaderOptimization.h"
 
 // System.LoaderOptimization
-struct  LoaderOptimization_t1768 
+struct  LoaderOptimization_t1779 
 {
 	// System.Int32 System.LoaderOptimization::value__
 	int32_t ___value___1;

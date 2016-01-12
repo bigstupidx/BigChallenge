@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.PointerInputModule/ButtonState[]
-struct ButtonStateU5BU5D_t2058;
+struct ButtonStateU5BU5D_t2069;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  List_1_t189  : public Object_t
+struct  List_1_t191  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_items
-	ButtonStateU5BU5D_t2058* ____items_1;
+	ButtonStateU5BU5D_t2069* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::_version
 	int32_t ____version_3;
 };
-struct List_1_t189_StaticFields{
+struct List_1_t191_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>::EmptyArray
-	ButtonStateU5BU5D_t2058* ___EmptyArray_4;
+	ButtonStateU5BU5D_t2069* ___EmptyArray_4;
 };

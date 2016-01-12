@@ -21,8 +21,8 @@ struct Object_t;
 #include "mscorlib_System_Reflection_CustomAttributeNamedArgument.h"
 
 // System.String System.Reflection.CustomAttributeNamedArgument::ToString()
-extern "C" String_t* CustomAttributeNamedArgument_ToString_m8662 (CustomAttributeNamedArgument_t1399 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CustomAttributeNamedArgument_ToString_m8744 (CustomAttributeNamedArgument_t1408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.CustomAttributeNamedArgument::Equals(System.Object)
-extern "C" bool CustomAttributeNamedArgument_Equals_m8663 (CustomAttributeNamedArgument_t1399 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CustomAttributeNamedArgument_Equals_m8745 (CustomAttributeNamedArgument_t1408 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.CustomAttributeNamedArgument::GetHashCode()
-extern "C" int32_t CustomAttributeNamedArgument_GetHashCode_m8664 (CustomAttributeNamedArgument_t1399 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CustomAttributeNamedArgument_GetHashCode_m8746 (CustomAttributeNamedArgument_t1408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

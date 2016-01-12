@@ -20,8 +20,8 @@ struct AssetBundle_t467;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.AssetBundleCreateRequest::.ctor()
-extern "C" void AssetBundleCreateRequest__ctor_m2625 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleCreateRequest__ctor_m2628 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
-extern "C" AssetBundle_t467 * AssetBundleCreateRequest_get_assetBundle_m2626 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AssetBundle_t467 * AssetBundleCreateRequest_get_assetBundle_m2629 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks()
-extern "C" void AssetBundleCreateRequest_DisableCompatibilityChecks_m2627 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleCreateRequest_DisableCompatibilityChecks_m2630 (AssetBundleCreateRequest_t464 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

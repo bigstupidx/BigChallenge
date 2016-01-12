@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Security_Cryptography_SHA256.h"
 
 // System.Security.Cryptography.SHA256Managed
-struct  SHA256Managed_t1647  : public SHA256_t947
+struct  SHA256Managed_t1656  : public SHA256_t947
 {
 	// System.UInt32[] System.Security.Cryptography.SHA256Managed::_H
 	UInt32U5BU5D_t778* ____H_4;

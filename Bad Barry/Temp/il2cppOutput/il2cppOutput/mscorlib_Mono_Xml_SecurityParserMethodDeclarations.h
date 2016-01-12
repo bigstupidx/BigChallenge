@@ -13,35 +13,35 @@
 #include <exception>
 
 // Mono.Xml.SecurityParser
-struct SecurityParser_t1236;
+struct SecurityParser_t1245;
 // System.String
 struct String_t;
 // System.Security.SecurityElement
-struct SecurityElement_t1238;
+struct SecurityElement_t1247;
 // Mono.Xml.SmallXmlParser
-struct SmallXmlParser_t1237;
+struct SmallXmlParser_t1246;
 // Mono.Xml.SmallXmlParser/IAttrList
-struct IAttrList_t1834;
+struct IAttrList_t1845;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Xml.SecurityParser::.ctor()
-extern "C" void SecurityParser__ctor_m7259 (SecurityParser_t1236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser__ctor_m7335 (SecurityParser_t1245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::LoadXml(System.String)
-extern "C" void SecurityParser_LoadXml_m7260 (SecurityParser_t1236 * __this, String_t* ___xml, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_LoadXml_m7336 (SecurityParser_t1245 * __this, String_t* ___xml, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityElement Mono.Xml.SecurityParser::ToXml()
-extern "C" SecurityElement_t1238 * SecurityParser_ToXml_m7261 (SecurityParser_t1236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityElement_t1247 * SecurityParser_ToXml_m7337 (SecurityParser_t1245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnStartParsing(Mono.Xml.SmallXmlParser)
-extern "C" void SecurityParser_OnStartParsing_m7262 (SecurityParser_t1236 * __this, SmallXmlParser_t1237 * ___parser, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnStartParsing_m7338 (SecurityParser_t1245 * __this, SmallXmlParser_t1246 * ___parser, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnProcessingInstruction(System.String,System.String)
-extern "C" void SecurityParser_OnProcessingInstruction_m7263 (SecurityParser_t1236 * __this, String_t* ___name, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnProcessingInstruction_m7339 (SecurityParser_t1245 * __this, String_t* ___name, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnIgnorableWhitespace(System.String)
-extern "C" void SecurityParser_OnIgnorableWhitespace_m7264 (SecurityParser_t1236 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnIgnorableWhitespace_m7340 (SecurityParser_t1245 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnStartElement(System.String,Mono.Xml.SmallXmlParser/IAttrList)
-extern "C" void SecurityParser_OnStartElement_m7265 (SecurityParser_t1236 * __this, String_t* ___name, Object_t * ___attrs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnStartElement_m7341 (SecurityParser_t1245 * __this, String_t* ___name, Object_t * ___attrs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnEndElement(System.String)
-extern "C" void SecurityParser_OnEndElement_m7266 (SecurityParser_t1236 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnEndElement_m7342 (SecurityParser_t1245 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnChars(System.String)
-extern "C" void SecurityParser_OnChars_m7267 (SecurityParser_t1236 * __this, String_t* ___ch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnChars_m7343 (SecurityParser_t1245 * __this, String_t* ___ch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.SecurityParser::OnEndParsing(Mono.Xml.SmallXmlParser)
-extern "C" void SecurityParser_OnEndParsing_m7268 (SecurityParser_t1236 * __this, SmallXmlParser_t1237 * ___parser, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityParser_OnEndParsing_m7344 (SecurityParser_t1245 * __this, SmallXmlParser_t1246 * ___parser, const MethodInfo* method) IL2CPP_METHOD_ATTR;

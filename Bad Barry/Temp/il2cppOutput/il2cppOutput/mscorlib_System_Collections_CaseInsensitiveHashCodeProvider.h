@@ -15,7 +15,7 @@ struct CaseInsensitiveHashCodeProvider_t1128;
 // System.Object
 struct Object_t;
 // System.Globalization.TextInfo
-struct TextInfo_t1193;
+struct TextInfo_t1202;
 
 #include "mscorlib_System_Object.h"
 
@@ -23,7 +23,7 @@ struct TextInfo_t1193;
 struct  CaseInsensitiveHashCodeProvider_t1128  : public Object_t
 {
 	// System.Globalization.TextInfo System.Collections.CaseInsensitiveHashCodeProvider::m_text
-	TextInfo_t1193 * ___m_text_2;
+	TextInfo_t1202 * ___m_text_2;
 };
 struct CaseInsensitiveHashCodeProvider_t1128_StaticFields{
 	// System.Collections.CaseInsensitiveHashCodeProvider System.Collections.CaseInsensitiveHashCodeProvider::singletonInvariant

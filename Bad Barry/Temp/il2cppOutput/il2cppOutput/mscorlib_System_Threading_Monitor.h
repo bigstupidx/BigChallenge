@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Threading.Monitor
-struct  Monitor_t1714  : public Object_t
+struct  Monitor_t1724  : public Object_t
 {
 };

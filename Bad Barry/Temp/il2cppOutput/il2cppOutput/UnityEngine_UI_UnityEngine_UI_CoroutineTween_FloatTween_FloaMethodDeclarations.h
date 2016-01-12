@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback
-struct FloatTweenCallback_t201;
+struct FloatTweenCallback_t203;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback::.ctor()
-extern "C" void FloatTweenCallback__ctor_m960 (FloatTweenCallback_t201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTweenCallback__ctor_m970 (FloatTweenCallback_t203 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

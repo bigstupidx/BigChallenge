@@ -14,6 +14,6 @@
 #include "mscorlib_System_EventArgs.h"
 
 // System.AssemblyLoadEventArgs
-struct  AssemblyLoadEventArgs_t1738  : public EventArgs_t821
+struct  AssemblyLoadEventArgs_t1748  : public EventArgs_t821
 {
 };

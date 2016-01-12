@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UICharInfo.h"
 
 // System.Predicate`1<UnityEngine.UICharInfo>
-struct  Predicate_1_t2329  : public MulticastDelegate_t264
+struct  Predicate_1_t2340  : public MulticastDelegate_t264
 {
 };

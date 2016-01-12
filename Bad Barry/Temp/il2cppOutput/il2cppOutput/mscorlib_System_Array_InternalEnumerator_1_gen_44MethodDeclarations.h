@@ -22,20 +22,20 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_ContactPoint2D.h"
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m17021_gshared (InternalEnumerator_1_t2320 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m17021(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2320 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17021_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m17114_gshared (InternalEnumerator_1_t2331 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m17114(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2331 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m17114_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17022_gshared (InternalEnumerator_1_t2320 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17022(__this, method) (( void (*) (InternalEnumerator_1_t2320 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17022_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17115_gshared (InternalEnumerator_1_t2331 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17115(__this, method) (( void (*) (InternalEnumerator_1_t2331 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m17115_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17023_gshared (InternalEnumerator_1_t2320 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17023(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2320 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17023_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17116_gshared (InternalEnumerator_1_t2331 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17116(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2331 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m17116_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m17024_gshared (InternalEnumerator_1_t2320 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m17024(__this, method) (( void (*) (InternalEnumerator_1_t2320 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17024_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m17117_gshared (InternalEnumerator_1_t2331 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m17117(__this, method) (( void (*) (InternalEnumerator_1_t2331 *, const MethodInfo*))InternalEnumerator_1_Dispose_m17117_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m17025_gshared (InternalEnumerator_1_t2320 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m17025(__this, method) (( bool (*) (InternalEnumerator_1_t2320 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17025_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m17118_gshared (InternalEnumerator_1_t2331 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m17118(__this, method) (( bool (*) (InternalEnumerator_1_t2331 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m17118_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.ContactPoint2D>::get_Current()
-extern "C" ContactPoint2D_t544  InternalEnumerator_1_get_Current_m17026_gshared (InternalEnumerator_1_t2320 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m17026(__this, method) (( ContactPoint2D_t544  (*) (InternalEnumerator_1_t2320 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17026_gshared)(__this, method)
+extern "C" ContactPoint2D_t544  InternalEnumerator_1_get_Current_m17119_gshared (InternalEnumerator_1_t2331 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m17119(__this, method) (( ContactPoint2D_t544  (*) (InternalEnumerator_1_t2331 *, const MethodInfo*))InternalEnumerator_1_get_Current_m17119_gshared)(__this, method)

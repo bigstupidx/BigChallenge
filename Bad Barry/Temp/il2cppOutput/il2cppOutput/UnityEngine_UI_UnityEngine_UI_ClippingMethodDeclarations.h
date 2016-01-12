@@ -19,6 +19,6 @@ struct List_1_t290;
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // UnityEngine.Rect UnityEngine.UI.Clipping::FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>,System.Boolean&)
-extern "C" Rect_t130  Clipping_FindCullAndClipWorldRect_m1828 (Object_t * __this /* static, unused */, List_1_t290 * ___rectMaskParents, bool* ___validRect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t130  Clipping_FindCullAndClipWorldRect_m1831 (Object_t * __this /* static, unused */, List_1_t290 * ___rectMaskParents, bool* ___validRect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.UI.Clipping::RectIntersect(UnityEngine.Rect,UnityEngine.Rect)
-extern "C" Rect_t130  Clipping_RectIntersect_m1829 (Object_t * __this /* static, unused */, Rect_t130  ___a, Rect_t130  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t130  Clipping_RectIntersect_m1832 (Object_t * __this /* static, unused */, Rect_t130  ___a, Rect_t130  ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,4 +18,4 @@ struct SharedBetweenAnimatorsAttribute_t622;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SharedBetweenAnimatorsAttribute::.ctor()
-extern "C" void SharedBetweenAnimatorsAttribute__ctor_m3463 (SharedBetweenAnimatorsAttribute_t622 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SharedBetweenAnimatorsAttribute__ctor_m3466 (SharedBetweenAnimatorsAttribute_t622 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

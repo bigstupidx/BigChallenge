@@ -15,7 +15,7 @@
 #include "mscorlib_System_Threading_ThreadState.h"
 
 // System.Threading.ThreadState
-struct  ThreadState_t1723 
+struct  ThreadState_t1733 
 {
 	// System.Int32 System.Threading.ThreadState::value__
 	int32_t ___value___1;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_7.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UICharInfo>
-struct  DefaultComparer_t2331  : public Comparer_1_t2330
+struct  DefaultComparer_t2342  : public Comparer_1_t2341
 {
 };

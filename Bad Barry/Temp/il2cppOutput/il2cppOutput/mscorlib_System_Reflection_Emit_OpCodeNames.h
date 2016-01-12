@@ -16,10 +16,10 @@ struct StringU5BU5D_t85;
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.Emit.OpCodeNames
-struct  OpCodeNames_t1364  : public Object_t
+struct  OpCodeNames_t1373  : public Object_t
 {
 };
-struct OpCodeNames_t1364_StaticFields{
+struct OpCodeNames_t1373_StaticFields{
 	// System.String[] System.Reflection.Emit.OpCodeNames::names
 	StringU5BU5D_t85* ___names_0;
 };

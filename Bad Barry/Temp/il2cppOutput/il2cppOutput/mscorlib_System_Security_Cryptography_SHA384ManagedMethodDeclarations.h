@@ -13,31 +13,31 @@
 #include <exception>
 
 // System.Security.Cryptography.SHA384Managed
-struct SHA384Managed_t1649;
+struct SHA384Managed_t1658;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.SHA384Managed::.ctor()
-extern "C" void SHA384Managed__ctor_m10010 (SHA384Managed_t1649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed__ctor_m10092 (SHA384Managed_t1658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::Initialize(System.Boolean)
-extern "C" void SHA384Managed_Initialize_m10011 (SHA384Managed_t1649 * __this, bool ___reuse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_Initialize_m10093 (SHA384Managed_t1658 * __this, bool ___reuse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::Initialize()
-extern "C" void SHA384Managed_Initialize_m10012 (SHA384Managed_t1649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_Initialize_m10094 (SHA384Managed_t1658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void SHA384Managed_HashCore_m10013 (SHA384Managed_t1649 * __this, ByteU5BU5D_t772* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_HashCore_m10095 (SHA384Managed_t1658 * __this, ByteU5BU5D_t772* ___rgb, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.SHA384Managed::HashFinal()
-extern "C" ByteU5BU5D_t772* SHA384Managed_HashFinal_m10014 (SHA384Managed_t1649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* SHA384Managed_HashFinal_m10096 (SHA384Managed_t1658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::update(System.Byte)
-extern "C" void SHA384Managed_update_m10015 (SHA384Managed_t1649 * __this, uint8_t ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_update_m10097 (SHA384Managed_t1658 * __this, uint8_t ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::processWord(System.Byte[],System.Int32)
-extern "C" void SHA384Managed_processWord_m10016 (SHA384Managed_t1649 * __this, ByteU5BU5D_t772* ___input, int32_t ___inOff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_processWord_m10098 (SHA384Managed_t1658 * __this, ByteU5BU5D_t772* ___input, int32_t ___inOff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::unpackWord(System.UInt64,System.Byte[],System.Int32)
-extern "C" void SHA384Managed_unpackWord_m10017 (SHA384Managed_t1649 * __this, uint64_t ___word, ByteU5BU5D_t772* ___output, int32_t ___outOff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_unpackWord_m10099 (SHA384Managed_t1658 * __this, uint64_t ___word, ByteU5BU5D_t772* ___output, int32_t ___outOff, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::adjustByteCounts()
-extern "C" void SHA384Managed_adjustByteCounts_m10018 (SHA384Managed_t1649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_adjustByteCounts_m10100 (SHA384Managed_t1658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::processLength(System.UInt64,System.UInt64)
-extern "C" void SHA384Managed_processLength_m10019 (SHA384Managed_t1649 * __this, uint64_t ___lowW, uint64_t ___hiW, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_processLength_m10101 (SHA384Managed_t1658 * __this, uint64_t ___lowW, uint64_t ___hiW, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SHA384Managed::processBlock()
-extern "C" void SHA384Managed_processBlock_m10020 (SHA384Managed_t1649 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHA384Managed_processBlock_m10102 (SHA384Managed_t1658 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

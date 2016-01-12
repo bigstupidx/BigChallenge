@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Threading.SynchronizationLockException
-struct SynchronizationLockException_t1718;
+struct SynchronizationLockException_t1728;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.SynchronizationLockException::.ctor()
-extern "C" void SynchronizationLockException__ctor_m10466 (SynchronizationLockException_t1718 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m10555 (SynchronizationLockException_t1728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.String)
-extern "C" void SynchronizationLockException__ctor_m10467 (SynchronizationLockException_t1718 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m10556 (SynchronizationLockException_t1728 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SynchronizationLockException__ctor_m10468 (SynchronizationLockException_t1718 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizationLockException__ctor_m10557 (SynchronizationLockException_t1728 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

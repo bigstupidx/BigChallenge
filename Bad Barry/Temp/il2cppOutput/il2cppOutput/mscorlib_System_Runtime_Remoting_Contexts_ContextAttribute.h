@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.Remoting.Contexts.ContextAttribute
-struct  ContextAttribute_t1477  : public Attribute_t510
+struct  ContextAttribute_t1486  : public Attribute_t510
 {
 	// System.String System.Runtime.Remoting.Contexts.ContextAttribute::AttributeName
 	String_t* ___AttributeName_0;

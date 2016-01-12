@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // Mono.Security.ASN1
-struct ASN1_t1221;
+struct ASN1_t1230;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.String
@@ -19,16 +19,16 @@ struct String_t;
 // System.Security.Cryptography.DSA
 struct DSA_t830;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t1227;
+struct X509ExtensionCollection_t1236;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_DateTime.h"
 
 // Mono.Security.X509.X509Certificate
-struct  X509Certificate_t1226  : public Object_t
+struct  X509Certificate_t1235  : public Object_t
 {
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::decoder
-	ASN1_t1221 * ___decoder_0;
+	ASN1_t1230 * ___decoder_0;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_encodedcert
 	ByteU5BU5D_t772* ___m_encodedcert_1;
 	// System.DateTime Mono.Security.X509.X509Certificate::m_from
@@ -36,7 +36,7 @@ struct  X509Certificate_t1226  : public Object_t
 	// System.DateTime Mono.Security.X509.X509Certificate::m_until
 	DateTime_t48  ___m_until_3;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::issuer
-	ASN1_t1221 * ___issuer_4;
+	ASN1_t1230 * ___issuer_4;
 	// System.String Mono.Security.X509.X509Certificate::m_issuername
 	String_t* ___m_issuername_5;
 	// System.String Mono.Security.X509.X509Certificate::m_keyalgo
@@ -44,7 +44,7 @@ struct  X509Certificate_t1226  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_keyalgoparams
 	ByteU5BU5D_t772* ___m_keyalgoparams_7;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Certificate::subject
-	ASN1_t1221 * ___subject_8;
+	ASN1_t1230 * ___subject_8;
 	// System.String Mono.Security.X509.X509Certificate::m_subject
 	String_t* ___m_subject_9;
 	// System.Byte[] Mono.Security.X509.X509Certificate::m_publickey
@@ -66,9 +66,9 @@ struct  X509Certificate_t1226  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Certificate::subjectUniqueID
 	ByteU5BU5D_t772* ___subjectUniqueID_18;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Certificate::extensions
-	X509ExtensionCollection_t1227 * ___extensions_19;
+	X509ExtensionCollection_t1236 * ___extensions_19;
 };
-struct X509Certificate_t1226_StaticFields{
+struct X509Certificate_t1235_StaticFields{
 	// System.String Mono.Security.X509.X509Certificate::encoding_error
 	String_t* ___encoding_error_20;
 };

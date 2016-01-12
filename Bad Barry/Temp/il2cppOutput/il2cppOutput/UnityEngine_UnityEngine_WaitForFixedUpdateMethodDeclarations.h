@@ -18,4 +18,4 @@ struct WaitForFixedUpdate_t473;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.WaitForFixedUpdate::.ctor()
-extern "C" void WaitForFixedUpdate__ctor_m2634 (WaitForFixedUpdate_t473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WaitForFixedUpdate__ctor_m2637 (WaitForFixedUpdate_t473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

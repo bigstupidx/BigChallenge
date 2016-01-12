@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Threading.Mutex
-struct Mutex_t1494;
+struct Mutex_t1503;
 // System.String
 struct String_t;
 
@@ -21,10 +21,10 @@ struct String_t;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.Mutex::.ctor(System.Boolean)
-extern "C" void Mutex__ctor_m10455 (Mutex_t1494 * __this, bool ___initiallyOwned, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mutex__ctor_m10544 (Mutex_t1503 * __this, bool ___initiallyOwned, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Threading.Mutex::CreateMutex_internal(System.Boolean,System.String,System.Boolean&)
-extern "C" IntPtr_t Mutex_CreateMutex_internal_m10456 (Object_t * __this /* static, unused */, bool ___initiallyOwned, String_t* ___name, bool* ___created, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t Mutex_CreateMutex_internal_m10545 (Object_t * __this /* static, unused */, bool ___initiallyOwned, String_t* ___name, bool* ___created, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.Mutex::ReleaseMutex_internal(System.IntPtr)
-extern "C" bool Mutex_ReleaseMutex_internal_m10457 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Mutex_ReleaseMutex_internal_m10546 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Mutex::ReleaseMutex()
-extern "C" void Mutex_ReleaseMutex_m10458 (Mutex_t1494 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Mutex_ReleaseMutex_m10547 (Mutex_t1503 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

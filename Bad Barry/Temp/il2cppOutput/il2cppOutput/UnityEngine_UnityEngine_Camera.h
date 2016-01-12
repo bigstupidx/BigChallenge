@@ -16,10 +16,10 @@ struct CameraCallback_t520;
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.Camera
-struct  Camera_t136  : public Behaviour_t452
+struct  Camera_t138  : public Behaviour_t452
 {
 };
-struct Camera_t136_StaticFields{
+struct Camera_t138_StaticFields{
 	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
 	CameraCallback_t520 * ___onPreCull_2;
 	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender

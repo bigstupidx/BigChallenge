@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct CallContextRemotingData_t1521;
+struct CallContextRemotingData_t1530;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.CallContextRemotingData::.ctor()
-extern "C" void CallContextRemotingData__ctor_m9203 (CallContextRemotingData_t1521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CallContextRemotingData__ctor_m9285 (CallContextRemotingData_t1530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.CallContextRemotingData::Clone()
-extern "C" Object_t * CallContextRemotingData_Clone_m9204 (CallContextRemotingData_t1521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CallContextRemotingData_Clone_m9286 (CallContextRemotingData_t1530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

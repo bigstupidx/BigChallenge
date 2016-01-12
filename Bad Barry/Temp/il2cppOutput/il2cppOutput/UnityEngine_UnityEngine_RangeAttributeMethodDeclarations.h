@@ -18,4 +18,4 @@ struct RangeAttribute_t618;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.RangeAttribute::.ctor(System.Single,System.Single)
-extern "C" void RangeAttribute__ctor_m3447 (RangeAttribute_t618 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RangeAttribute__ctor_m3450 (RangeAttribute_t618 * __this, float ___min, float ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

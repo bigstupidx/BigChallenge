@@ -16,7 +16,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // Mono.Xml.SmallXmlParser/AttrListImpl
-struct  AttrListImpl_t1239  : public Object_t
+struct  AttrListImpl_t1248  : public Object_t
 {
 	// System.Collections.ArrayList Mono.Xml.SmallXmlParser/AttrListImpl::attrNames
 	ArrayList_t803 * ___attrNames_0;

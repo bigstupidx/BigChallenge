@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback
-struct FloatTweenCallback_t201;
+struct FloatTweenCallback_t203;
 
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.UI.CoroutineTween.FloatTween
-struct  FloatTween_t203 
+struct  FloatTween_t205 
 {
 	// UnityEngine.UI.CoroutineTween.FloatTween/FloatTweenCallback UnityEngine.UI.CoroutineTween.FloatTween::m_Target
-	FloatTweenCallback_t201 * ___m_Target_0;
+	FloatTweenCallback_t203 * ___m_Target_0;
 	// System.Single UnityEngine.UI.CoroutineTween.FloatTween::m_StartValue
 	float ___m_StartValue_1;
 	// System.Single UnityEngine.UI.CoroutineTween.FloatTween::m_TargetValue

@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.InvalidCastException::.ctor()
-extern "C" void InvalidCastException__ctor_m10990 (InvalidCastException_t738 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidCastException__ctor_m11083 (InvalidCastException_t738 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidCastException::.ctor(System.String)
-extern "C" void InvalidCastException__ctor_m3787 (InvalidCastException_t738 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidCastException__ctor_m3790 (InvalidCastException_t738 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidCastException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void InvalidCastException__ctor_m10991 (InvalidCastException_t738 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvalidCastException__ctor_m11084 (InvalidCastException_t738 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

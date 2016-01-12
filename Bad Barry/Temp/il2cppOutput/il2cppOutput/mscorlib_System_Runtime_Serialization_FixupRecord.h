@@ -16,7 +16,7 @@ struct MemberInfo_t;
 #include "mscorlib_System_Runtime_Serialization_BaseFixupRecord.h"
 
 // System.Runtime.Serialization.FixupRecord
-struct  FixupRecord_t1605  : public BaseFixupRecord_t1602
+struct  FixupRecord_t1614  : public BaseFixupRecord_t1611
 {
 	// System.Reflection.MemberInfo System.Runtime.Serialization.FixupRecord::_member
 	MemberInfo_t * ____member_4;

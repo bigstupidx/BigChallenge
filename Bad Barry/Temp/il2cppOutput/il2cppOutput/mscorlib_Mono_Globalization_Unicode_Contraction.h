@@ -20,7 +20,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.Contraction
-struct  Contraction_t1181  : public Object_t
+struct  Contraction_t1190  : public Object_t
 {
 	// System.Char[] Mono.Globalization.Unicode.Contraction::Source
 	CharU5BU5D_t275* ___Source_0;

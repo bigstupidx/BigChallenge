@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Diagnostics.DebuggerStepThroughAttribute
-struct  DebuggerStepThroughAttribute_t1272  : public Attribute_t510
+struct  DebuggerStepThroughAttribute_t1281  : public Attribute_t510
 {
 };

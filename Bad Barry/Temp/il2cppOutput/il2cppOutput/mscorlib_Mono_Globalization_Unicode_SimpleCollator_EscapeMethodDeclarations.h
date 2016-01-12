@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void Escape_t1190_marshal(const Escape_t1190& unmarshaled, Escape_t1190_marshaled& marshaled);
-extern "C" void Escape_t1190_marshal_back(const Escape_t1190_marshaled& marshaled, Escape_t1190& unmarshaled);
-extern "C" void Escape_t1190_marshal_cleanup(Escape_t1190_marshaled& marshaled);
+extern "C" void Escape_t1199_marshal(const Escape_t1199& unmarshaled, Escape_t1199_marshaled& marshaled);
+extern "C" void Escape_t1199_marshal_back(const Escape_t1199_marshaled& marshaled, Escape_t1199& unmarshaled);
+extern "C" void Escape_t1199_marshal_cleanup(Escape_t1199_marshaled& marshaled);

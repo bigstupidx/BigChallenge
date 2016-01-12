@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Threading.ThreadPool
-struct  ThreadPool_t1722  : public Object_t
+struct  ThreadPool_t1732  : public Object_t
 {
 };

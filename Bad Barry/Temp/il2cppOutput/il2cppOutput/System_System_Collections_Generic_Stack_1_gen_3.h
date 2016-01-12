@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>[]
-struct List_1U5BU5D_t1997;
+struct List_1U5BU5D_t2008;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct  Stack_1_t1992  : public Object_t
+struct  Stack_1_t2003  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::_array
-	List_1U5BU5D_t1997* ____array_0;
+	List_1U5BU5D_t2008* ____array_0;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::_size
 	int32_t ____size_1;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>::_version

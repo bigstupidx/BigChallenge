@@ -11,29 +11,29 @@
 #include <stdint.h>
 
 // UnityEngine.UI.CanvasUpdateRegistry
-struct CanvasUpdateRegistry_t210;
+struct CanvasUpdateRegistry_t212;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
-struct IndexedSet_1_t211;
+struct IndexedSet_1_t213;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
-struct Comparison_1_t212;
+struct Comparison_1_t214;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.CanvasUpdateRegistry
-struct  CanvasUpdateRegistry_t210  : public Object_t
+struct  CanvasUpdateRegistry_t212  : public Object_t
 {
 	// System.Boolean UnityEngine.UI.CanvasUpdateRegistry::m_PerformingLayoutUpdate
 	bool ___m_PerformingLayoutUpdate_1;
 	// System.Boolean UnityEngine.UI.CanvasUpdateRegistry::m_PerformingGraphicUpdate
 	bool ___m_PerformingGraphicUpdate_2;
 	// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::m_LayoutRebuildQueue
-	IndexedSet_1_t211 * ___m_LayoutRebuildQueue_3;
+	IndexedSet_1_t213 * ___m_LayoutRebuildQueue_3;
 	// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::m_GraphicRebuildQueue
-	IndexedSet_1_t211 * ___m_GraphicRebuildQueue_4;
+	IndexedSet_1_t213 * ___m_GraphicRebuildQueue_4;
 };
-struct CanvasUpdateRegistry_t210_StaticFields{
+struct CanvasUpdateRegistry_t212_StaticFields{
 	// UnityEngine.UI.CanvasUpdateRegistry UnityEngine.UI.CanvasUpdateRegistry::s_Instance
-	CanvasUpdateRegistry_t210 * ___s_Instance_0;
+	CanvasUpdateRegistry_t212 * ___s_Instance_0;
 	// System.Comparison`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::s_SortLayoutFunction
-	Comparison_1_t212 * ___s_SortLayoutFunction_5;
+	Comparison_1_t214 * ___s_SortLayoutFunction_5;
 };

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.RemotingSurrogate
-struct  RemotingSurrogate_t1528  : public Object_t
+struct  RemotingSurrogate_t1537  : public Object_t
 {
 };

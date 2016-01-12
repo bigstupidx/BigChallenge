@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Dropdown/DropdownItem
-struct DropdownItem_t216;
+struct DropdownItem_t217;
 // UnityEngine.UI.Dropdown
-struct Dropdown_t224;
+struct Dropdown_t225;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.Dropdown/<Show>c__AnonStorey6
-struct  U3CShowU3Ec__AnonStorey6_t225  : public Object_t
+struct  U3CShowU3Ec__AnonStorey6_t226  : public Object_t
 {
 	// UnityEngine.UI.Dropdown/DropdownItem UnityEngine.UI.Dropdown/<Show>c__AnonStorey6::item
-	DropdownItem_t216 * ___item_0;
+	DropdownItem_t217 * ___item_0;
 	// UnityEngine.UI.Dropdown UnityEngine.UI.Dropdown/<Show>c__AnonStorey6::<>f__this
-	Dropdown_t224 * ___U3CU3Ef__this_1;
+	Dropdown_t225 * ___U3CU3Ef__this_1;
 };

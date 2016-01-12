@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.TypeInfo
-struct TypeInfo_t1570;
+struct TypeInfo_t1579;
 // System.Type
 struct Type_t;
 // System.String
@@ -22,6 +22,6 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.TypeInfo::.ctor(System.Type)
-extern "C" void TypeInfo__ctor_m9510 (TypeInfo_t1570 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInfo__ctor_m9592 (TypeInfo_t1579 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.TypeInfo::get_TypeName()
-extern "C" String_t* TypeInfo_get_TypeName_m9511 (TypeInfo_t1570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeInfo_get_TypeName_m9593 (TypeInfo_t1579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

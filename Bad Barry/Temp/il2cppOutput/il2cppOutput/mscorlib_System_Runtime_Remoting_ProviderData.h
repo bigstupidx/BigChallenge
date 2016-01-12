@@ -20,7 +20,7 @@ struct IList_t733;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.ProviderData
-struct  ProviderData_t1561  : public Object_t
+struct  ProviderData_t1570  : public Object_t
 {
 	// System.String System.Runtime.Remoting.ProviderData::Ref
 	String_t* ___Ref_0;

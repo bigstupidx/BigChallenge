@@ -20,12 +20,12 @@ struct Context_t859;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::.ctor(Mono.Security.Protocol.Tls.Context)
-extern "C" void TlsClientFinished__ctor_m4741 (TlsClientFinished_t911 * __this, Context_t859 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished__ctor_m4744 (TlsClientFinished_t911 * __this, Context_t859 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::.cctor()
-extern "C" void TlsClientFinished__cctor_m4742 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished__cctor_m4745 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::Update()
-extern "C" void TlsClientFinished_Update_m4743 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_Update_m4746 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::ProcessAsSsl3()
-extern "C" void TlsClientFinished_ProcessAsSsl3_m4744 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_ProcessAsSsl3_m4747 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::ProcessAsTls1()
-extern "C" void TlsClientFinished_ProcessAsTls1_m4745 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TlsClientFinished_ProcessAsTls1_m4748 (TlsClientFinished_t911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

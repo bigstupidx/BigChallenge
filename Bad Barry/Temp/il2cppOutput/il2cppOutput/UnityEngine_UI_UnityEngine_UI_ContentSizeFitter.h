@@ -18,7 +18,7 @@ struct RectTransform_t71;
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.ContentSizeFitter
-struct  ContentSizeFitter_t332  : public UIBehaviour_t146
+struct  ContentSizeFitter_t332  : public UIBehaviour_t148
 {
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_HorizontalFit
 	int32_t ___m_HorizontalFit_2;

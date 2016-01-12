@@ -24,6 +24,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.IO.FileStream/WriteDelegate
-struct  WriteDelegate_t1305  : public MulticastDelegate_t264
+struct  WriteDelegate_t1314  : public MulticastDelegate_t264
 {
 };

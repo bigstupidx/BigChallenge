@@ -11,20 +11,20 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Object,System.Boolean>
-struct Dictionary_2_t2492;
+struct Dictionary_2_t2503;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Boolean>
-struct  Enumerator_t2499 
+struct  Enumerator_t2510 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Boolean>::dictionary
-	Dictionary_2_t2492 * ___dictionary_0;
+	Dictionary_2_t2503 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Boolean>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Boolean>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Boolean>::current
-	KeyValuePair_2_t2494  ___current_3;
+	KeyValuePair_2_t2505  ___current_3;
 };

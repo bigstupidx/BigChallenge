@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.Threading.Mutex
-struct Mutex_t1494;
+struct Mutex_t1503;
 // System.Threading.Thread
-struct Thread_t1495;
+struct Thread_t1504;
 
 #include "mscorlib_System_Runtime_Remoting_Contexts_ContextAttribute.h"
 
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
-struct  SynchronizationAttribute_t1493  : public ContextAttribute_t1477
+struct  SynchronizationAttribute_t1502  : public ContextAttribute_t1486
 {
 	// System.Boolean System.Runtime.Remoting.Contexts.SynchronizationAttribute::_bReEntrant
 	bool ____bReEntrant_1;
@@ -27,7 +27,7 @@ struct  SynchronizationAttribute_t1493  : public ContextAttribute_t1477
 	// System.Int32 System.Runtime.Remoting.Contexts.SynchronizationAttribute::_lockCount
 	int32_t ____lockCount_3;
 	// System.Threading.Mutex System.Runtime.Remoting.Contexts.SynchronizationAttribute::_mutex
-	Mutex_t1494 * ____mutex_4;
+	Mutex_t1503 * ____mutex_4;
 	// System.Threading.Thread System.Runtime.Remoting.Contexts.SynchronizationAttribute::_ownerThread
-	Thread_t1495 * ____ownerThread_5;
+	Thread_t1504 * ____ownerThread_5;
 };

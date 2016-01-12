@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.SortedList/Slot[]
-struct SlotU5BU5D_t1265;
+struct SlotU5BU5D_t1274;
 // System.Collections.IComparer
 struct IComparer_t982;
 
@@ -25,7 +25,7 @@ struct  SortedList_t1131  : public Object_t
 	// System.Int32 System.Collections.SortedList::modificationCount
 	int32_t ___modificationCount_2;
 	// System.Collections.SortedList/Slot[] System.Collections.SortedList::table
-	SlotU5BU5D_t1265* ___table_3;
+	SlotU5BU5D_t1274* ___table_3;
 	// System.Collections.IComparer System.Collections.SortedList::comparer
 	Object_t * ___comparer_4;
 	// System.Int32 System.Collections.SortedList::defaultCapacity

@@ -18,6 +18,6 @@ struct Renderer_t489;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Int32 UnityEngine.Renderer::get_sortingLayerID()
-extern "C" int32_t Renderer_get_sortingLayerID_m2159 (Renderer_t489 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingLayerID_m2162 (Renderer_t489 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Renderer::get_sortingOrder()
-extern "C" int32_t Renderer_get_sortingOrder_m2160 (Renderer_t489 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingOrder_m2163 (Renderer_t489 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

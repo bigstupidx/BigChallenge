@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>
-struct  InternalEnumerator_1_t2545 
+struct  InternalEnumerator_1_t2556 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Reflection.Emit.GenericTypeParameterBuilder>::array
 	Array_t * ___array_0;

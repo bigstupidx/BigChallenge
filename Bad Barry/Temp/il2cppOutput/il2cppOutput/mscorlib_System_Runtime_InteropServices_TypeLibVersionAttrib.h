@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.InteropServices.TypeLibVersionAttribute
-struct  TypeLibVersionAttribute_t1468  : public Attribute_t510
+struct  TypeLibVersionAttribute_t1477  : public Attribute_t510
 {
 	// System.Int32 System.Runtime.InteropServices.TypeLibVersionAttribute::major
 	int32_t ___major_0;

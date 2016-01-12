@@ -11,27 +11,27 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t147;
+struct List_1_t149;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t148;
+struct BaseInputModule_t150;
 // UnityEngine.GameObject
 struct GameObject_t40;
 // UnityEngine.EventSystems.BaseEventData
 struct BaseEventData_t108;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
-struct Comparison_1_t149;
+struct Comparison_1_t151;
 // UnityEngine.EventSystems.EventSystem
 struct EventSystem_t111;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 
 // UnityEngine.EventSystems.EventSystem
-struct  EventSystem_t111  : public UIBehaviour_t146
+struct  EventSystem_t111  : public UIBehaviour_t148
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> UnityEngine.EventSystems.EventSystem::m_SystemInputModules
-	List_1_t147 * ___m_SystemInputModules_2;
+	List_1_t149 * ___m_SystemInputModules_2;
 	// UnityEngine.EventSystems.BaseInputModule UnityEngine.EventSystems.EventSystem::m_CurrentInputModule
-	BaseInputModule_t148 * ___m_CurrentInputModule_3;
+	BaseInputModule_t150 * ___m_CurrentInputModule_3;
 	// UnityEngine.GameObject UnityEngine.EventSystems.EventSystem::m_FirstSelected
 	GameObject_t40 * ___m_FirstSelected_4;
 	// System.Boolean UnityEngine.EventSystems.EventSystem::m_sendNavigationEvents
@@ -47,7 +47,7 @@ struct  EventSystem_t111  : public UIBehaviour_t146
 };
 struct EventSystem_t111_StaticFields{
 	// System.Comparison`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.EventSystem::s_RaycastComparer
-	Comparison_1_t149 * ___s_RaycastComparer_10;
+	Comparison_1_t151 * ___s_RaycastComparer_10;
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.EventSystem::<current>k__BackingField
 	EventSystem_t111 * ___U3CcurrentU3Ek__BackingField_11;
 };

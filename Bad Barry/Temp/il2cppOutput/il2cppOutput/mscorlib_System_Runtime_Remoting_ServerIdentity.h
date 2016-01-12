@@ -15,16 +15,16 @@ struct Type_t;
 // System.MarshalByRefObject
 struct MarshalByRefObject_t1017;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1485;
+struct Context_t1494;
 // System.Runtime.Remoting.Lifetime.Lease
-struct Lease_t1500;
+struct Lease_t1509;
 
 #include "mscorlib_System_Runtime_Remoting_Identity.h"
 
 // System.Runtime.Remoting.ServerIdentity
-struct  ServerIdentity_t1168  : public Identity_t1544
+struct  ServerIdentity_t1168  : public Identity_t1553
 {
 	// System.Type System.Runtime.Remoting.ServerIdentity::_objectType
 	Type_t * ____objectType_7;
@@ -33,7 +33,7 @@ struct  ServerIdentity_t1168  : public Identity_t1544
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.ServerIdentity::_serverSink
 	Object_t * ____serverSink_9;
 	// System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.ServerIdentity::_context
-	Context_t1485 * ____context_10;
+	Context_t1494 * ____context_10;
 	// System.Runtime.Remoting.Lifetime.Lease System.Runtime.Remoting.ServerIdentity::_lease
-	Lease_t1500 * ____lease_11;
+	Lease_t1509 * ____lease_11;
 };

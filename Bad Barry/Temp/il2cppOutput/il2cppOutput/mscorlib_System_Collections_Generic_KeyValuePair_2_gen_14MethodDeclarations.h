@@ -22,20 +22,20 @@ struct String_t;
 #include "LitJson_LitJson_ObjectMetadata.h"
 
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::.ctor(TKey,TValue)
-extern "C" void KeyValuePair_2__ctor_m18152_gshared (KeyValuePair_2_t2405 * __this, Object_t * ___key, ObjectMetadata_t698  ___value, const MethodInfo* method);
-#define KeyValuePair_2__ctor_m18152(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2405 *, Object_t *, ObjectMetadata_t698 , const MethodInfo*))KeyValuePair_2__ctor_m18152_gshared)(__this, ___key, ___value, method)
+extern "C" void KeyValuePair_2__ctor_m18245_gshared (KeyValuePair_2_t2416 * __this, Object_t * ___key, ObjectMetadata_t698  ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m18245(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t2416 *, Object_t *, ObjectMetadata_t698 , const MethodInfo*))KeyValuePair_2__ctor_m18245_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::get_Key()
-extern "C" Object_t * KeyValuePair_2_get_Key_m18153_gshared (KeyValuePair_2_t2405 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Key_m18153(__this, method) (( Object_t * (*) (KeyValuePair_2_t2405 *, const MethodInfo*))KeyValuePair_2_get_Key_m18153_gshared)(__this, method)
+extern "C" Object_t * KeyValuePair_2_get_Key_m18246_gshared (KeyValuePair_2_t2416 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m18246(__this, method) (( Object_t * (*) (KeyValuePair_2_t2416 *, const MethodInfo*))KeyValuePair_2_get_Key_m18246_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::set_Key(TKey)
-extern "C" void KeyValuePair_2_set_Key_m18154_gshared (KeyValuePair_2_t2405 * __this, Object_t * ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Key_m18154(__this, ___value, method) (( void (*) (KeyValuePair_2_t2405 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m18154_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Key_m18247_gshared (KeyValuePair_2_t2416 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m18247(__this, ___value, method) (( void (*) (KeyValuePair_2_t2416 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m18247_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::get_Value()
-extern "C" ObjectMetadata_t698  KeyValuePair_2_get_Value_m18155_gshared (KeyValuePair_2_t2405 * __this, const MethodInfo* method);
-#define KeyValuePair_2_get_Value_m18155(__this, method) (( ObjectMetadata_t698  (*) (KeyValuePair_2_t2405 *, const MethodInfo*))KeyValuePair_2_get_Value_m18155_gshared)(__this, method)
+extern "C" ObjectMetadata_t698  KeyValuePair_2_get_Value_m18248_gshared (KeyValuePair_2_t2416 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m18248(__this, method) (( ObjectMetadata_t698  (*) (KeyValuePair_2_t2416 *, const MethodInfo*))KeyValuePair_2_get_Value_m18248_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::set_Value(TValue)
-extern "C" void KeyValuePair_2_set_Value_m18156_gshared (KeyValuePair_2_t2405 * __this, ObjectMetadata_t698  ___value, const MethodInfo* method);
-#define KeyValuePair_2_set_Value_m18156(__this, ___value, method) (( void (*) (KeyValuePair_2_t2405 *, ObjectMetadata_t698 , const MethodInfo*))KeyValuePair_2_set_Value_m18156_gshared)(__this, ___value, method)
+extern "C" void KeyValuePair_2_set_Value_m18249_gshared (KeyValuePair_2_t2416 * __this, ObjectMetadata_t698  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m18249(__this, ___value, method) (( void (*) (KeyValuePair_2_t2416 *, ObjectMetadata_t698 , const MethodInfo*))KeyValuePair_2_set_Value_m18249_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ObjectMetadata>::ToString()
-extern "C" String_t* KeyValuePair_2_ToString_m18157_gshared (KeyValuePair_2_t2405 * __this, const MethodInfo* method);
-#define KeyValuePair_2_ToString_m18157(__this, method) (( String_t* (*) (KeyValuePair_2_t2405 *, const MethodInfo*))KeyValuePair_2_ToString_m18157_gshared)(__this, method)
+extern "C" String_t* KeyValuePair_2_ToString_m18250_gshared (KeyValuePair_2_t2416 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m18250(__this, method) (( String_t* (*) (KeyValuePair_2_t2416 *, const MethodInfo*))KeyValuePair_2_ToString_m18250_gshared)(__this, method)

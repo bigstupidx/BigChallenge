@@ -18,10 +18,10 @@ struct RenderTexture_t493;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Int32 UnityEngine.RenderTexture::Internal_GetWidth(UnityEngine.RenderTexture)
-extern "C" int32_t RenderTexture_Internal_GetWidth_m2757 (Object_t * __this /* static, unused */, RenderTexture_t493 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RenderTexture_Internal_GetWidth_m2760 (Object_t * __this /* static, unused */, RenderTexture_t493 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.RenderTexture::Internal_GetHeight(UnityEngine.RenderTexture)
-extern "C" int32_t RenderTexture_Internal_GetHeight_m2758 (Object_t * __this /* static, unused */, RenderTexture_t493 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RenderTexture_Internal_GetHeight_m2761 (Object_t * __this /* static, unused */, RenderTexture_t493 * ___mono, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.RenderTexture::get_width()
-extern "C" int32_t RenderTexture_get_width_m2759 (RenderTexture_t493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RenderTexture_get_width_m2762 (RenderTexture_t493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.RenderTexture::get_height()
-extern "C" int32_t RenderTexture_get_height_m2760 (RenderTexture_t493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RenderTexture_get_height_m2763 (RenderTexture_t493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

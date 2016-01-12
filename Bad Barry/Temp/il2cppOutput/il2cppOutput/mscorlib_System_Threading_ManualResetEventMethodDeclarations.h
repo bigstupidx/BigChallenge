@@ -18,4 +18,4 @@ struct ManualResetEvent_t882;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Threading.ManualResetEvent::.ctor(System.Boolean)
-extern "C" void ManualResetEvent__ctor_m4905 (ManualResetEvent_t882 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ManualResetEvent__ctor_m4908 (ManualResetEvent_t882 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -27,11 +27,11 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void LitJson.Lexer/StateHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void StateHandler__ctor_m3740 (StateHandler_t724 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StateHandler__ctor_m3743 (StateHandler_t724 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean LitJson.Lexer/StateHandler::Invoke(LitJson.FsmContext)
-extern "C" bool StateHandler_Invoke_m3741 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StateHandler_Invoke_m3744 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" bool pinvoke_delegate_wrapper_StateHandler_t724(Il2CppObject* delegate, FsmContext_t723 * ___ctx);
 // System.IAsyncResult LitJson.Lexer/StateHandler::BeginInvoke(LitJson.FsmContext,System.AsyncCallback,System.Object)
-extern "C" Object_t * StateHandler_BeginInvoke_m3742 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * StateHandler_BeginInvoke_m3745 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean LitJson.Lexer/StateHandler::EndInvoke(System.IAsyncResult)
-extern "C" bool StateHandler_EndInvoke_m3743 (StateHandler_t724 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StateHandler_EndInvoke_m3746 (StateHandler_t724 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

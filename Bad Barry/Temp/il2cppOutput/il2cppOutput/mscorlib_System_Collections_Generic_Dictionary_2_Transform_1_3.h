@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton,System.Collections.DictionaryEntry>
-struct  Transform_1_t1930  : public MulticastDelegate_t264
+struct  Transform_1_t1941  : public MulticastDelegate_t264
 {
 };

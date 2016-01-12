@@ -17,7 +17,7 @@ struct Scrollbar_t295;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
 struct ScrollRectEvent_t299;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t140;
+struct Vector3U5BU5D_t142;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRect_MovementType.h"
@@ -27,7 +27,7 @@ struct Vector3U5BU5D_t140;
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.ScrollRect
-struct  ScrollRect_t301  : public UIBehaviour_t146
+struct  ScrollRect_t301  : public UIBehaviour_t148
 {
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_Content
 	RectTransform_t71 * ___m_Content_2;
@@ -100,7 +100,7 @@ struct  ScrollRect_t301  : public UIBehaviour_t146
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.ScrollRect::m_Tracker
 	DrivenRectTransformTracker_t296  ___m_Tracker_36;
 	// UnityEngine.Vector3[] UnityEngine.UI.ScrollRect::m_Corners
-	Vector3U5BU5D_t140* ___m_Corners_37;
+	Vector3U5BU5D_t142* ___m_Corners_37;
 	// System.Single UnityEngine.UI.ScrollRect::<flexibleWidth>k__BackingField
 	float ___U3CflexibleWidthU3Ek__BackingField_38;
 };

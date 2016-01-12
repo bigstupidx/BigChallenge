@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Security.CodeAccessPermission
-struct  CodeAccessPermission_t1661  : public Object_t
+struct  CodeAccessPermission_t1670  : public Object_t
 {
 };

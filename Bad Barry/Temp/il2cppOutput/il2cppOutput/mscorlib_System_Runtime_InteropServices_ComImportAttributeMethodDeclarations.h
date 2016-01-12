@@ -18,4 +18,4 @@ struct ComImportAttribute_t1156;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.ComImportAttribute::.ctor()
-extern "C" void ComImportAttribute__ctor_m6755 (ComImportAttribute_t1156 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComImportAttribute__ctor_m6758 (ComImportAttribute_t1156 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

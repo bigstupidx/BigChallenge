@@ -20,7 +20,7 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Security_Principal_WindowsAccountType.h"
 
 // System.Security.Principal.WindowsIdentity
-struct  WindowsIdentity_t1671  : public Object_t
+struct  WindowsIdentity_t1680  : public Object_t
 {
 	// System.IntPtr System.Security.Principal.WindowsIdentity::_token
 	IntPtr_t ____token_0;
@@ -35,7 +35,7 @@ struct  WindowsIdentity_t1671  : public Object_t
 	// System.Runtime.Serialization.SerializationInfo System.Security.Principal.WindowsIdentity::_info
 	SerializationInfo_t653 * ____info_5;
 };
-struct WindowsIdentity_t1671_StaticFields{
+struct WindowsIdentity_t1680_StaticFields{
 	// System.IntPtr System.Security.Principal.WindowsIdentity::invalidWindows
 	IntPtr_t ___invalidWindows_6;
 };

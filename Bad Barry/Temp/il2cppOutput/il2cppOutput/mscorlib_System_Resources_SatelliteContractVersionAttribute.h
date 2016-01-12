@@ -16,7 +16,7 @@ struct Version_t1007;
 #include "mscorlib_System_Attribute.h"
 
 // System.Resources.SatelliteContractVersionAttribute
-struct  SatelliteContractVersionAttribute_t1442  : public Attribute_t510
+struct  SatelliteContractVersionAttribute_t1451  : public Attribute_t510
 {
 	// System.Version System.Resources.SatelliteContractVersionAttribute::ver
 	Version_t1007 * ___ver_0;

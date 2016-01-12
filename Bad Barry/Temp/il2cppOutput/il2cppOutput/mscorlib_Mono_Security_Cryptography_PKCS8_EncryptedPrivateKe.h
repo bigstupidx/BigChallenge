@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo
-struct  EncryptedPrivateKeyInfo_t1215  : public Object_t
+struct  EncryptedPrivateKeyInfo_t1224  : public Object_t
 {
 	// System.String Mono.Security.Cryptography.PKCS8/EncryptedPrivateKeyInfo::_algorithm
 	String_t* ____algorithm_0;

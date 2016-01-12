@@ -17,10 +17,10 @@
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_0MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ImporterFunc,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
-#define Transform_1__ctor_m18915(__this, ___object, ___method, method) (( void (*) (Transform_1_t2464 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m11597_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m19008(__this, ___object, ___method, method) (( void (*) (Transform_1_t2475 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m11690_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ImporterFunc,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m18916(__this, ___key, ___value, method) (( DictionaryEntry_t734  (*) (Transform_1_t2464 *, Type_t *, ImporterFunc_t702 *, const MethodInfo*))Transform_1_Invoke_m11598_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m19009(__this, ___key, ___value, method) (( DictionaryEntry_t734  (*) (Transform_1_t2475 *, Type_t *, ImporterFunc_t702 *, const MethodInfo*))Transform_1_Invoke_m11691_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ImporterFunc,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m18917(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t2464 *, Type_t *, ImporterFunc_t702 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m11599_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m19010(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t2475 *, Type_t *, ImporterFunc_t702 *, AsyncCallback_t266 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m11692_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ImporterFunc,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m18918(__this, ___result, method) (( DictionaryEntry_t734  (*) (Transform_1_t2464 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m11600_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m19011(__this, ___result, method) (( DictionaryEntry_t734  (*) (Transform_1_t2475 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m11693_gshared)(__this, ___result, method)

@@ -21,7 +21,7 @@ struct Stream_t883;
 #include "mscorlib_System_Reflection_ResourceAttributes.h"
 
 // System.Reflection.Emit.MonoResource
-struct  MonoResource_t1327 
+struct  MonoResource_t1336 
 {
 	// System.Byte[] System.Reflection.Emit.MonoResource::data
 	ByteU5BU5D_t772* ___data_0;

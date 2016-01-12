@@ -21,4 +21,4 @@ struct Object_t;
 #include "mscorlib_System_Resources_ResourceReader_ResourceCacheItem.h"
 
 // System.Void System.Resources.ResourceReader/ResourceCacheItem::.ctor(System.String,System.Object)
-extern "C" void ResourceCacheItem__ctor_m8933 (ResourceCacheItem_t1433 * __this, String_t* ___name, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceCacheItem__ctor_m9015 (ResourceCacheItem_t1442 * __this, String_t* ___name, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

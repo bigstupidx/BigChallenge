@@ -18,7 +18,7 @@ struct MethodBase_t675;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct  ArgInfo_t1507  : public Object_t
+struct  ArgInfo_t1516  : public Object_t
 {
 	// System.Int32[] System.Runtime.Remoting.Messaging.ArgInfo::_paramMap
 	Int32U5BU5D_t46* ____paramMap_0;

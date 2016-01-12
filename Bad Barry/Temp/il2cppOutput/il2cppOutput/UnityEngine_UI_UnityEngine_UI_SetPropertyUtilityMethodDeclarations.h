@@ -17,4 +17,4 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetColor(UnityEngine.Color&,UnityEngine.Color)
-extern "C" bool SetPropertyUtility_SetColor_m1681 (Object_t * __this /* static, unused */, Color_t129 * ___currentValue, Color_t129  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SetPropertyUtility_SetColor_m1684 (Object_t * __this /* static, unused */, Color_t129 * ___currentValue, Color_t129  ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;

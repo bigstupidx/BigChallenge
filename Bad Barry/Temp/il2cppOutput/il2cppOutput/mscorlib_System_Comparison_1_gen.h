@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
-struct  Comparison_1_t149  : public MulticastDelegate_t264
+struct  Comparison_1_t151  : public MulticastDelegate_t264
 {
 };

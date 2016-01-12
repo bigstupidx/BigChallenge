@@ -14,7 +14,7 @@
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.Emit.ILGenerator/LabelData
-struct  LabelData_t1348 
+struct  LabelData_t1357 
 {
 	// System.Int32 System.Reflection.Emit.ILGenerator/LabelData::addr
 	int32_t ___addr_0;

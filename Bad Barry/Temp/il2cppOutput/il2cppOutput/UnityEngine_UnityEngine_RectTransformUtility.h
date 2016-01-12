@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t140;
+struct Vector3U5BU5D_t142;
 
 #include "mscorlib_System_Object.h"
 
@@ -21,5 +21,5 @@ struct  RectTransformUtility_t411  : public Object_t
 };
 struct RectTransformUtility_t411_StaticFields{
 	// UnityEngine.Vector3[] UnityEngine.RectTransformUtility::s_Corners
-	Vector3U5BU5D_t140* ___s_Corners_0;
+	Vector3U5BU5D_t142* ___s_Corners_0;
 };

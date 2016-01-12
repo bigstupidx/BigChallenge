@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
-struct  CompilationRelaxationsAttribute_t1444  : public Attribute_t510
+struct  CompilationRelaxationsAttribute_t1453  : public Attribute_t510
 {
 	// System.Int32 System.Runtime.CompilerServices.CompilationRelaxationsAttribute::relax
 	int32_t ___relax_0;

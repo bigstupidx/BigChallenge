@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // System.AppDomainInitializer
-struct  AppDomainInitializer_t1736  : public MulticastDelegate_t264
+struct  AppDomainInitializer_t1746  : public MulticastDelegate_t264
 {
 };

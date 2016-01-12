@@ -16,7 +16,7 @@ struct Object_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
-struct  KeyValuePair_2_t2072 
+struct  KeyValuePair_2_t2083 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>::key
 	Object_t * ___key_0;

@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // System.Runtime.Remoting.Contexts.CrossContextDelegate
-struct  CrossContextDelegate_t1802  : public MulticastDelegate_t264
+struct  CrossContextDelegate_t1813  : public MulticastDelegate_t264
 {
 };

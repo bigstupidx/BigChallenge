@@ -18,7 +18,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.ASN1
-struct  ASN1_t1221  : public Object_t
+struct  ASN1_t1230  : public Object_t
 {
 	// System.Byte Mono.Security.ASN1::m_nTag
 	uint8_t ___m_nTag_0;

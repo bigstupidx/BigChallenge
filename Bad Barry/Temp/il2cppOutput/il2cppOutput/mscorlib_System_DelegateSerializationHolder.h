@@ -16,7 +16,7 @@ struct Delegate_t418;
 #include "mscorlib_System_Object.h"
 
 // System.DelegateSerializationHolder
-struct  DelegateSerializationHolder_t1749  : public Object_t
+struct  DelegateSerializationHolder_t1759  : public Object_t
 {
 	// System.Delegate System.DelegateSerializationHolder::_delegate
 	Delegate_t418 * ____delegate_0;

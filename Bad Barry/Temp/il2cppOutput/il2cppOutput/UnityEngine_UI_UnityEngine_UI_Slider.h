@@ -25,7 +25,7 @@ struct Transform_t37;
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.Slider
-struct  Slider_t312  : public Selectable_t208
+struct  Slider_t312  : public Selectable_t210
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillRect
 	RectTransform_t71 * ___m_FillRect_16;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Dropdown/DropdownItem
-struct DropdownItem_t216;
+struct DropdownItem_t217;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct  Predicate_1_t2095  : public MulticastDelegate_t264
+struct  Predicate_1_t2106  : public MulticastDelegate_t264
 {
 };

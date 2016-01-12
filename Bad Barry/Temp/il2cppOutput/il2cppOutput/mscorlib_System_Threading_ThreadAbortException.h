@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Threading.ThreadAbortException
-struct  ThreadAbortException_t1720  : public SystemException_t1134
+struct  ThreadAbortException_t1730  : public SystemException_t1134
 {
 };

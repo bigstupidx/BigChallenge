@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.UI.FontData
-struct FontData_t228;
+struct FontData_t229;
 // System.String
 struct String_t;
 // UnityEngine.TextGenerator
 struct TextGenerator_t272;
 // UnityEngine.Material
-struct Material_t233;
+struct Material_t234;
 // UnityEngine.UIVertex[]
 struct UIVertexU5BU5D_t271;
 
@@ -27,7 +27,7 @@ struct UIVertexU5BU5D_t271;
 struct  Text_t52  : public MaskableGraphic_t253
 {
 	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
-	FontData_t228 * ___m_FontData_28;
+	FontData_t229 * ___m_FontData_28;
 	// System.String UnityEngine.UI.Text::m_Text
 	String_t* ___m_Text_29;
 	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCache
@@ -41,5 +41,5 @@ struct  Text_t52  : public MaskableGraphic_t253
 };
 struct Text_t52_StaticFields{
 	// UnityEngine.Material UnityEngine.UI.Text::s_DefaultText
-	Material_t233 * ___s_DefaultText_32;
+	Material_t234 * ___s_DefaultText_32;
 };

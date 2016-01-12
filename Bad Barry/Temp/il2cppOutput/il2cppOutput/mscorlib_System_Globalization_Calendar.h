@@ -16,7 +16,7 @@ struct StringU5BU5D_t85;
 #include "mscorlib_System_Object.h"
 
 // System.Globalization.Calendar
-struct  Calendar_t1275  : public Object_t
+struct  Calendar_t1284  : public Object_t
 {
 	// System.Boolean System.Globalization.Calendar::m_isReadOnly
 	bool ___m_isReadOnly_0;

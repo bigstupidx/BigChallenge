@@ -16,7 +16,7 @@ struct UnityAction_1_t410;
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCall.h"
 
 // UnityEngine.Events.InvokableCall`1<System.Boolean>
-struct  InvokableCall_1_t2109  : public BaseInvokableCall_t625
+struct  InvokableCall_1_t2120  : public BaseInvokableCall_t625
 {
 	// UnityEngine.Events.UnityAction`1<T1> UnityEngine.Events.InvokableCall`1<System.Boolean>::Delegate
 	UnityAction_1_t410 * ___Delegate_0;

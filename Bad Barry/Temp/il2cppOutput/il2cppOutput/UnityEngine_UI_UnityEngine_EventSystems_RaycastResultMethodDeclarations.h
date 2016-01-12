@@ -21,12 +21,12 @@ struct String_t;
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // UnityEngine.GameObject UnityEngine.EventSystems.RaycastResult::get_gameObject()
-extern "C" GameObject_t40 * RaycastResult_get_gameObject_m761 (RaycastResult_t180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t40 * RaycastResult_get_gameObject_m771 (RaycastResult_t182 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.RaycastResult::set_gameObject(UnityEngine.GameObject)
-extern "C" void RaycastResult_set_gameObject_m762 (RaycastResult_t180 * __this, GameObject_t40 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RaycastResult_set_gameObject_m772 (RaycastResult_t182 * __this, GameObject_t40 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.EventSystems.RaycastResult::get_isValid()
-extern "C" bool RaycastResult_get_isValid_m763 (RaycastResult_t180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RaycastResult_get_isValid_m773 (RaycastResult_t182 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.RaycastResult::Clear()
-extern "C" void RaycastResult_Clear_m764 (RaycastResult_t180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RaycastResult_Clear_m774 (RaycastResult_t182 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.EventSystems.RaycastResult::ToString()
-extern "C" String_t* RaycastResult_ToString_m765 (RaycastResult_t180 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* RaycastResult_ToString_m775 (RaycastResult_t182 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

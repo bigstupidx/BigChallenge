@@ -16,10 +16,10 @@ struct RandomNumberGenerator_t769;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.KeyBuilder
-struct  KeyBuilder_t1207  : public Object_t
+struct  KeyBuilder_t1216  : public Object_t
 {
 };
-struct KeyBuilder_t1207_StaticFields{
+struct KeyBuilder_t1216_StaticFields{
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.KeyBuilder::rng
 	RandomNumberGenerator_t769 * ___rng_0;
 };

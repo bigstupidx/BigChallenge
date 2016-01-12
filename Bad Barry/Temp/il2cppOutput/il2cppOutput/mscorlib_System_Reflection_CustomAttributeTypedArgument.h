@@ -18,7 +18,7 @@ struct Object_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Reflection.CustomAttributeTypedArgument
-struct  CustomAttributeTypedArgument_t1400 
+struct  CustomAttributeTypedArgument_t1409 
 {
 	// System.Type System.Reflection.CustomAttributeTypedArgument::argumentType
 	Type_t * ___argumentType_0;

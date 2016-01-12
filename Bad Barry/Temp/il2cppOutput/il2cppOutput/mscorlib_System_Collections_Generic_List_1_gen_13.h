@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Canvas[]
-struct CanvasU5BU5D_t2099;
+struct CanvasU5BU5D_t2110;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct CanvasU5BU5D_t2099;
 struct  List_1_t408  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::_items
-	CanvasU5BU5D_t2099* ____items_1;
+	CanvasU5BU5D_t2110* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_version
@@ -27,5 +27,5 @@ struct  List_1_t408  : public Object_t
 };
 struct List_1_t408_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::EmptyArray
-	CanvasU5BU5D_t2099* ___EmptyArray_4;
+	CanvasU5BU5D_t2110* ___EmptyArray_4;
 };

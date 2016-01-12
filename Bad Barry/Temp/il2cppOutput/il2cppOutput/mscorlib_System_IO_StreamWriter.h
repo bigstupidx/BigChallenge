@@ -19,12 +19,12 @@ struct ByteU5BU5D_t772;
 // System.Char[]
 struct CharU5BU5D_t275;
 // System.IO.StreamWriter
-struct StreamWriter_t1318;
+struct StreamWriter_t1327;
 
 #include "mscorlib_System_IO_TextWriter.h"
 
 // System.IO.StreamWriter
-struct  StreamWriter_t1318  : public TextWriter_t721
+struct  StreamWriter_t1327  : public TextWriter_t721
 {
 	// System.Text.Encoding System.IO.StreamWriter::internalEncoding
 	Encoding_t938 * ___internalEncoding_3;
@@ -45,7 +45,7 @@ struct  StreamWriter_t1318  : public TextWriter_t721
 	// System.Boolean System.IO.StreamWriter::preamble_done
 	bool ___preamble_done_11;
 };
-struct StreamWriter_t1318_StaticFields{
+struct StreamWriter_t1327_StaticFields{
 	// System.IO.StreamWriter System.IO.StreamWriter::Null
-	StreamWriter_t1318 * ___Null_12;
+	StreamWriter_t1327 * ___Null_12;
 };

@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // System.NumberFormatter/CustomInfo
-struct  CustomInfo_t1782  : public Object_t
+struct  CustomInfo_t1793  : public Object_t
 {
 	// System.Boolean System.NumberFormatter/CustomInfo::UseGroup
 	bool ___UseGroup_0;

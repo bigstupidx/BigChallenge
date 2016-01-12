@@ -20,8 +20,8 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.RandomNumberGenerator::.ctor()
-extern "C" void RandomNumberGenerator__ctor_m9954 (RandomNumberGenerator_t769 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RandomNumberGenerator__ctor_m10036 (RandomNumberGenerator_t769 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RandomNumberGenerator System.Security.Cryptography.RandomNumberGenerator::Create()
-extern "C" RandomNumberGenerator_t769 * RandomNumberGenerator_Create_m3899 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RandomNumberGenerator_t769 * RandomNumberGenerator_Create_m3902 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.RandomNumberGenerator System.Security.Cryptography.RandomNumberGenerator::Create(System.String)
-extern "C" RandomNumberGenerator_t769 * RandomNumberGenerator_Create_m9955 (Object_t * __this /* static, unused */, String_t* ___rngName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RandomNumberGenerator_t769 * RandomNumberGenerator_Create_m10037 (Object_t * __this /* static, unused */, String_t* ___rngName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

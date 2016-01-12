@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.ArrayTypeMismatchException
-struct  ArrayTypeMismatchException_t1737  : public SystemException_t1134
+struct  ArrayTypeMismatchException_t1747  : public SystemException_t1134
 {
 };

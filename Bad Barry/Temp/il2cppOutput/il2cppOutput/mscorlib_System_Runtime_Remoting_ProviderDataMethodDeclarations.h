@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.ProviderData
-struct ProviderData_t1561;
+struct ProviderData_t1570;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.ProviderData::.ctor()
-extern "C" void ProviderData__ctor_m9437 (ProviderData_t1561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ProviderData__ctor_m9519 (ProviderData_t1570 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ProviderData::CopyFrom(System.Runtime.Remoting.ProviderData)
-extern "C" void ProviderData_CopyFrom_m9438 (ProviderData_t1561 * __this, ProviderData_t1561 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ProviderData_CopyFrom_m9520 (ProviderData_t1570 * __this, ProviderData_t1570 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;

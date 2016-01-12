@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Events.PersistentCall[]
-struct PersistentCallU5BU5D_t2362;
+struct PersistentCallU5BU5D_t2373;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct PersistentCallU5BU5D_t2362;
 struct  List_1_t630  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_items
-	PersistentCallU5BU5D_t2362* ____items_1;
+	PersistentCallU5BU5D_t2373* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_version
@@ -27,5 +27,5 @@ struct  List_1_t630  : public Object_t
 };
 struct List_1_t630_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::EmptyArray
-	PersistentCallU5BU5D_t2362* ___EmptyArray_4;
+	PersistentCallU5BU5D_t2373* ___EmptyArray_4;
 };

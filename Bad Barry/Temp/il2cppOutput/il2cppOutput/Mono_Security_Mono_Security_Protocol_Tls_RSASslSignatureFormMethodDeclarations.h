@@ -24,10 +24,10 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Protocol.Tls.RSASslSignatureFormatter::.ctor(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void RSASslSignatureFormatter__ctor_m4531 (RSASslSignatureFormatter_t888 * __this, AsymmetricAlgorithm_t921 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSASslSignatureFormatter__ctor_m4534 (RSASslSignatureFormatter_t888 * __this, AsymmetricAlgorithm_t921 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.RSASslSignatureFormatter::CreateSignature(System.Byte[])
-extern "C" ByteU5BU5D_t772* RSASslSignatureFormatter_CreateSignature_m4532 (RSASslSignatureFormatter_t888 * __this, ByteU5BU5D_t772* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* RSASslSignatureFormatter_CreateSignature_m4535 (RSASslSignatureFormatter_t888 * __this, ByteU5BU5D_t772* ___rgbHash, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.RSASslSignatureFormatter::SetHashAlgorithm(System.String)
-extern "C" void RSASslSignatureFormatter_SetHashAlgorithm_m4533 (RSASslSignatureFormatter_t888 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSASslSignatureFormatter_SetHashAlgorithm_m4536 (RSASslSignatureFormatter_t888 * __this, String_t* ___strName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.RSASslSignatureFormatter::SetKey(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C" void RSASslSignatureFormatter_SetKey_m4534 (RSASslSignatureFormatter_t888 * __this, AsymmetricAlgorithm_t921 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSASslSignatureFormatter_SetKey_m4537 (RSASslSignatureFormatter_t888 * __this, AsymmetricAlgorithm_t921 * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

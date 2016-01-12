@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  Comparison_1_t2396  : public MulticastDelegate_t264
+struct  Comparison_1_t2407  : public MulticastDelegate_t264
 {
 };

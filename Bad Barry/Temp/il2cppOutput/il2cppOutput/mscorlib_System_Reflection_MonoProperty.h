@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Reflection.MonoProperty/GetterAdapter
-struct GetterAdapter_t1417;
+struct GetterAdapter_t1426;
 
 #include "mscorlib_System_Reflection_PropertyInfo.h"
 #include "mscorlib_System_IntPtr.h"
@@ -26,9 +26,9 @@ struct  MonoProperty_t  : public PropertyInfo_t
 	// System.IntPtr System.Reflection.MonoProperty::prop
 	IntPtr_t ___prop_1;
 	// System.Reflection.MonoPropertyInfo System.Reflection.MonoProperty::info
-	MonoPropertyInfo_t1415  ___info_2;
+	MonoPropertyInfo_t1424  ___info_2;
 	// System.Reflection.PInfo System.Reflection.MonoProperty::cached
 	int32_t ___cached_3;
 	// System.Reflection.MonoProperty/GetterAdapter System.Reflection.MonoProperty::cached_getter
-	GetterAdapter_t1417 * ___cached_getter_4;
+	GetterAdapter_t1426 * ___cached_getter_4;
 };

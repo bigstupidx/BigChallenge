@@ -14,7 +14,7 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.InteropServices.DispIdAttribute
-struct  DispIdAttribute_t1460  : public Attribute_t510
+struct  DispIdAttribute_t1469  : public Attribute_t510
 {
 	// System.Int32 System.Runtime.InteropServices.DispIdAttribute::id
 	int32_t ___id_0;

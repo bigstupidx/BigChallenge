@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Text[]
-struct TextU5BU5D_t2114;
+struct TextU5BU5D_t2125;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct TextU5BU5D_t2114;
 struct  List_1_t412  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::_items
-	TextU5BU5D_t2114* ____items_1;
+	TextU5BU5D_t2125* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_version
@@ -27,5 +27,5 @@ struct  List_1_t412  : public Object_t
 };
 struct List_1_t412_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::EmptyArray
-	TextU5BU5D_t2114* ___EmptyArray_4;
+	TextU5BU5D_t2125* ___EmptyArray_4;
 };

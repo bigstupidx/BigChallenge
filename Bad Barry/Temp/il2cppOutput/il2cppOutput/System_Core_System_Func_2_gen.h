@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Toggle
-struct Toggle_t217;
+struct Toggle_t218;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback

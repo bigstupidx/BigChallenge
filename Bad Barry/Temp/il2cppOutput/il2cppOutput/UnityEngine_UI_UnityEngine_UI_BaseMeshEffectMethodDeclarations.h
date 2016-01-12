@@ -15,21 +15,21 @@
 // UnityEngine.UI.BaseMeshEffect
 struct BaseMeshEffect_t356;
 // UnityEngine.UI.Graphic
-struct Graphic_t232;
+struct Graphic_t233;
 // UnityEngine.Mesh
-struct Mesh_t141;
+struct Mesh_t143;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.BaseMeshEffect::.ctor()
-extern "C" void BaseMeshEffect__ctor_m2037 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMeshEffect__ctor_m2040 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Graphic UnityEngine.UI.BaseMeshEffect::get_graphic()
-extern "C" Graphic_t232 * BaseMeshEffect_get_graphic_m2038 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Graphic_t233 * BaseMeshEffect_get_graphic_m2041 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseMeshEffect::OnEnable()
-extern "C" void BaseMeshEffect_OnEnable_m2039 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMeshEffect_OnEnable_m2042 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseMeshEffect::OnDisable()
-extern "C" void BaseMeshEffect_OnDisable_m2040 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMeshEffect_OnDisable_m2043 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseMeshEffect::OnDidApplyAnimationProperties()
-extern "C" void BaseMeshEffect_OnDidApplyAnimationProperties_m2041 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMeshEffect_OnDidApplyAnimationProperties_m2044 (BaseMeshEffect_t356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.BaseMeshEffect::ModifyMesh(UnityEngine.Mesh)
-extern "C" void BaseMeshEffect_ModifyMesh_m2042 (BaseMeshEffect_t356 * __this, Mesh_t141 * ___mesh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseMeshEffect_ModifyMesh_m2045 (BaseMeshEffect_t356 * __this, Mesh_t143 * ___mesh, const MethodInfo* method) IL2CPP_METHOD_ATTR;

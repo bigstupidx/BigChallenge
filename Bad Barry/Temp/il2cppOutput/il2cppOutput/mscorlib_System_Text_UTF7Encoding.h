@@ -13,19 +13,19 @@
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.SByte[]
-struct SByteU5BU5D_t1706;
+struct SByteU5BU5D_t1716;
 
 #include "mscorlib_System_Text_Encoding.h"
 
 // System.Text.UTF7Encoding
-struct  UTF7Encoding_t1705  : public Encoding_t938
+struct  UTF7Encoding_t1715  : public Encoding_t938
 {
 	// System.Boolean System.Text.UTF7Encoding::allowOptionals
 	bool ___allowOptionals_28;
 };
-struct UTF7Encoding_t1705_StaticFields{
+struct UTF7Encoding_t1715_StaticFields{
 	// System.Byte[] System.Text.UTF7Encoding::encodingRules
 	ByteU5BU5D_t772* ___encodingRules_29;
 	// System.SByte[] System.Text.UTF7Encoding::base64Values
-	SByteU5BU5D_t1706* ___base64Values_30;
+	SByteU5BU5D_t1716* ___base64Values_30;
 };

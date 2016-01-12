@@ -16,7 +16,7 @@ struct IEnumerator_t109;
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.Evidence/EvidenceEnumerator
-struct  EvidenceEnumerator_t1666  : public Object_t
+struct  EvidenceEnumerator_t1675  : public Object_t
 {
 	// System.Collections.IEnumerator System.Security.Policy.Evidence/EvidenceEnumerator::currentEnum
 	Object_t * ___currentEnum_0;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_1.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UIVertex>
-struct  DefaultComparer_t2133  : public Comparer_1_t2132
+struct  DefaultComparer_t2144  : public Comparer_1_t2143
 {
 };

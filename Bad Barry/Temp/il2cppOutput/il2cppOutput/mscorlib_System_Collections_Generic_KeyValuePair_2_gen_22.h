@@ -16,7 +16,7 @@ struct IDictionary_2_t761;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>
-struct  KeyValuePair_2_t2471 
+struct  KeyValuePair_2_t2482 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::key
 	int32_t ___key_0;

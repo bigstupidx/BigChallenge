@@ -14,7 +14,7 @@
 #include "mscorlib_System_Text_Decoder.h"
 
 // System.Text.UTF32Encoding/UTF32Decoder
-struct  UTF32Decoder_t1702  : public Decoder_t1291
+struct  UTF32Decoder_t1712  : public Decoder_t1300
 {
 	// System.Boolean System.Text.UTF32Encoding/UTF32Decoder::bigEndian
 	bool ___bigEndian_2;

@@ -20,4 +20,4 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.MRUList/Node::.ctor(System.Object)
-extern "C" void Node__ctor_m5453 (Node_t1069 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Node__ctor_m5456 (Node_t1069 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

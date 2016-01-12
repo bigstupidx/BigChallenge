@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Security.Cryptography.RijndaelManaged
-struct RijndaelManaged_t1641;
+struct RijndaelManaged_t1650;
 // System.Security.Cryptography.ICryptoTransform
 struct ICryptoTransform_t783;
 // System.Byte[]
@@ -22,12 +22,12 @@ struct ByteU5BU5D_t772;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.RijndaelManaged::.ctor()
-extern "C" void RijndaelManaged__ctor_m9958 (RijndaelManaged_t1641 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged__ctor_m10040 (RijndaelManaged_t1650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateIV()
-extern "C" void RijndaelManaged_GenerateIV_m9959 (RijndaelManaged_t1641 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateIV_m10041 (RijndaelManaged_t1650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateKey()
-extern "C" void RijndaelManaged_GenerateKey_m9960 (RijndaelManaged_t1641 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateKey_m10042 (RijndaelManaged_t1650 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateDecryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateDecryptor_m9961 (RijndaelManaged_t1641 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateDecryptor_m10043 (RijndaelManaged_t1650 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateEncryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateEncryptor_m9962 (RijndaelManaged_t1641 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateEncryptor_m10044 (RijndaelManaged_t1650 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t152;
+struct Entry_t154;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Predicate_1_t2032  : public MulticastDelegate_t264
+struct  Predicate_1_t2043  : public MulticastDelegate_t264
 {
 };

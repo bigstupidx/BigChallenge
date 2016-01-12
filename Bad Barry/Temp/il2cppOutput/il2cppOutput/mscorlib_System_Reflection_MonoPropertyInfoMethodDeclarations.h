@@ -22,6 +22,6 @@ struct TypeU5BU5D_t651;
 #include "mscorlib_System_Reflection_PInfo.h"
 
 // System.Void System.Reflection.MonoPropertyInfo::get_property_info(System.Reflection.MonoProperty,System.Reflection.MonoPropertyInfo&,System.Reflection.PInfo)
-extern "C" void MonoPropertyInfo_get_property_info_m8829 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, MonoPropertyInfo_t1415 * ___info, int32_t ___req_info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoPropertyInfo_get_property_info_m8911 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, MonoPropertyInfo_t1424 * ___info, int32_t ___req_info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.MonoPropertyInfo::GetTypeModifiers(System.Reflection.MonoProperty,System.Boolean)
-extern "C" TypeU5BU5D_t651* MonoPropertyInfo_GetTypeModifiers_m8830 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, bool ___optional, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t651* MonoPropertyInfo_GetTypeModifiers_m8912 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, bool ___optional, const MethodInfo* method) IL2CPP_METHOD_ATTR;

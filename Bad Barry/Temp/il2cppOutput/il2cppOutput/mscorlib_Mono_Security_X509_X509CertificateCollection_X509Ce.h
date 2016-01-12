@@ -16,7 +16,7 @@ struct IEnumerator_t109;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator
-struct  X509CertificateEnumerator_t1228  : public Object_t
+struct  X509CertificateEnumerator_t1237  : public Object_t
 {
 	// System.Collections.IEnumerator Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::enumerator
 	Object_t * ___enumerator_0;

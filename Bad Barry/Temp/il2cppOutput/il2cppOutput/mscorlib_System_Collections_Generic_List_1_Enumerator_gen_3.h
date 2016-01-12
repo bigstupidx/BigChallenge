@@ -18,7 +18,7 @@ struct String_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.String>
-struct  Enumerator_t1947 
+struct  Enumerator_t1958 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.String>::l
 	List_1_t29 * ___l_0;

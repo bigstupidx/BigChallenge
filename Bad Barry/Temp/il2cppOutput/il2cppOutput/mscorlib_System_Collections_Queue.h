@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Queue
-struct  Queue_t1261  : public Object_t
+struct  Queue_t1270  : public Object_t
 {
 	// System.Object[] System.Collections.Queue::_array
-	ObjectU5BU5D_t142* ____array_0;
+	ObjectU5BU5D_t144* ____array_0;
 	// System.Int32 System.Collections.Queue::_head
 	int32_t ____head_1;
 	// System.Int32 System.Collections.Queue::_size

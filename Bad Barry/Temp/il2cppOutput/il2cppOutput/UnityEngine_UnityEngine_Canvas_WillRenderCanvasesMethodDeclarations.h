@@ -25,11 +25,11 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Canvas/WillRenderCanvases::.ctor(System.Object,System.IntPtr)
-extern "C" void WillRenderCanvases__ctor_m2182 (WillRenderCanvases_t407 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WillRenderCanvases__ctor_m2185 (WillRenderCanvases_t407 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Canvas/WillRenderCanvases::Invoke()
-extern "C" void WillRenderCanvases_Invoke_m3303 (WillRenderCanvases_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WillRenderCanvases_Invoke_m3306 (WillRenderCanvases_t407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_WillRenderCanvases_t407(Il2CppObject* delegate);
 // System.IAsyncResult UnityEngine.Canvas/WillRenderCanvases::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * WillRenderCanvases_BeginInvoke_m3304 (WillRenderCanvases_t407 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WillRenderCanvases_BeginInvoke_m3307 (WillRenderCanvases_t407 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Canvas/WillRenderCanvases::EndInvoke(System.IAsyncResult)
-extern "C" void WillRenderCanvases_EndInvoke_m3305 (WillRenderCanvases_t407 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WillRenderCanvases_EndInvoke_m3308 (WillRenderCanvases_t407 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

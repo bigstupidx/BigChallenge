@@ -16,7 +16,7 @@ struct DSA_t830;
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 
 // System.Security.Cryptography.DSASignatureFormatter
-struct  DSASignatureFormatter_t1627  : public AsymmetricSignatureFormatter_t889
+struct  DSASignatureFormatter_t1636  : public AsymmetricSignatureFormatter_t889
 {
 	// System.Security.Cryptography.DSA System.Security.Cryptography.DSASignatureFormatter::dsa
 	DSA_t830 * ___dsa_0;

@@ -22,32 +22,32 @@ struct String_t;
 #include "UnityEngine_UnityEngine_TouchScreenKeyboard_InternalConstruc.h"
 
 // System.Void UnityEngine.TouchScreenKeyboard::.ctor(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
-extern "C" void TouchScreenKeyboard__ctor_m2775 (TouchScreenKeyboard_t270 * __this, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, bool ___alert, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard__ctor_m2778 (TouchScreenKeyboard_t270 * __this, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, bool ___alert, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::Destroy()
-extern "C" void TouchScreenKeyboard_Destroy_m2776 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_Destroy_m2779 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::Finalize()
-extern "C" void TouchScreenKeyboard_Finalize_m2777 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_Finalize_m2780 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper(UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments&,System.String,System.String)
-extern "C" void TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m2778 (TouchScreenKeyboard_t270 * __this, TouchScreenKeyboard_InternalConstructorHelperArguments_t501 * ___arguments, String_t* ___text, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m2781 (TouchScreenKeyboard_t270 * __this, TouchScreenKeyboard_InternalConstructorHelperArguments_t501 * ___arguments, String_t* ___text, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TouchScreenKeyboard::get_isSupported()
-extern "C" bool TouchScreenKeyboard_get_isSupported_m2390 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TouchScreenKeyboard_get_isSupported_m2393 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean)
-extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2445 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2448 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean)
-extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2446 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2449 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
-extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2779 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, bool ___alert, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TouchScreenKeyboard_t270 * TouchScreenKeyboard_Open_m2782 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___keyboardType, bool ___autocorrection, bool ___multiline, bool ___secure, bool ___alert, String_t* ___textPlaceholder, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.TouchScreenKeyboard::get_text()
-extern "C" String_t* TouchScreenKeyboard_get_text_m2372 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TouchScreenKeyboard_get_text_m2375 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::set_text(System.String)
-extern "C" void TouchScreenKeyboard_set_text_m2373 (TouchScreenKeyboard_t270 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_set_text_m2376 (TouchScreenKeyboard_t270 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::set_hideInput(System.Boolean)
-extern "C" void TouchScreenKeyboard_set_hideInput_m2444 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_set_hideInput_m2447 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TouchScreenKeyboard::get_active()
-extern "C" bool TouchScreenKeyboard_get_active_m2371 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TouchScreenKeyboard_get_active_m2374 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TouchScreenKeyboard::set_active(System.Boolean)
-extern "C" void TouchScreenKeyboard_set_active_m2443 (TouchScreenKeyboard_t270 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TouchScreenKeyboard_set_active_m2446 (TouchScreenKeyboard_t270 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TouchScreenKeyboard::get_done()
-extern "C" bool TouchScreenKeyboard_get_done_m2394 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TouchScreenKeyboard_get_done_m2397 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TouchScreenKeyboard::get_wasCanceled()
-extern "C" bool TouchScreenKeyboard_get_wasCanceled_m2391 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TouchScreenKeyboard_get_wasCanceled_m2394 (TouchScreenKeyboard_t270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

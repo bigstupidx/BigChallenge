@@ -20,7 +20,7 @@ struct Hashtable_t868;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Channels.SinkProviderData
-struct  SinkProviderData_t1484  : public Object_t
+struct  SinkProviderData_t1493  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Channels.SinkProviderData::sinkName
 	String_t* ___sinkName_0;

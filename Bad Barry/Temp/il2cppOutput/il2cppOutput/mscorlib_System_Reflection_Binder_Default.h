@@ -14,6 +14,6 @@
 #include "mscorlib_System_Reflection_Binder.h"
 
 // System.Reflection.Binder/Default
-struct  Default_t1393  : public Binder_t668
+struct  Default_t1402  : public Binder_t668
 {
 };

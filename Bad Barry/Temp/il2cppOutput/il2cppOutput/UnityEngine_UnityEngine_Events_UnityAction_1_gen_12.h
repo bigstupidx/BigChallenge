@@ -22,6 +22,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>
-struct  UnityAction_1_t2174  : public MulticastDelegate_t264
+struct  UnityAction_1_t2185  : public MulticastDelegate_t264
 {
 };

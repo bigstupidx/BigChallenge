@@ -13,7 +13,7 @@
 // System.Object
 struct Object_t;
 // System.Runtime.Remoting.Messaging.Header[]
-struct HeaderU5BU5D_t1804;
+struct HeaderU5BU5D_t1815;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Runtime.Remoting.Messaging.HeaderHandler
-struct  HeaderHandler_t1803  : public MulticastDelegate_t264
+struct  HeaderHandler_t1814  : public MulticastDelegate_t264
 {
 };

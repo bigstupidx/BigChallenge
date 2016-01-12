@@ -17,7 +17,7 @@
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_PreviousI.h"
 
 // System.Void Mono.Globalization.Unicode.SimpleCollator/PreviousInfo::.ctor(System.Boolean)
-extern "C" void PreviousInfo__ctor_m6823 (PreviousInfo_t1189 * __this, bool ___dummy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void PreviousInfo_t1189_marshal(const PreviousInfo_t1189& unmarshaled, PreviousInfo_t1189_marshaled& marshaled);
-extern "C" void PreviousInfo_t1189_marshal_back(const PreviousInfo_t1189_marshaled& marshaled, PreviousInfo_t1189& unmarshaled);
-extern "C" void PreviousInfo_t1189_marshal_cleanup(PreviousInfo_t1189_marshaled& marshaled);
+extern "C" void PreviousInfo__ctor_m6899 (PreviousInfo_t1198 * __this, bool ___dummy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PreviousInfo_t1198_marshal(const PreviousInfo_t1198& unmarshaled, PreviousInfo_t1198_marshaled& marshaled);
+extern "C" void PreviousInfo_t1198_marshal_back(const PreviousInfo_t1198_marshaled& marshaled, PreviousInfo_t1198& unmarshaled);
+extern "C" void PreviousInfo_t1198_marshal_cleanup(PreviousInfo_t1198_marshaled& marshaled);

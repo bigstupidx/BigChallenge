@@ -13,16 +13,16 @@
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct DynamicPropertyCollection_t1486;
+struct DynamicPropertyCollection_t1495;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t1551;
+struct ObjRef_t1560;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Identity
-struct  Identity_t1544  : public Object_t
+struct  Identity_t1553  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Identity::_objectUri
 	String_t* ____objectUri_0;
@@ -31,11 +31,11 @@ struct  Identity_t1544  : public Object_t
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Identity::_envoySink
 	Object_t * ____envoySink_2;
 	// System.Runtime.Remoting.Contexts.DynamicPropertyCollection System.Runtime.Remoting.Identity::_clientDynamicProperties
-	DynamicPropertyCollection_t1486 * ____clientDynamicProperties_3;
+	DynamicPropertyCollection_t1495 * ____clientDynamicProperties_3;
 	// System.Runtime.Remoting.Contexts.DynamicPropertyCollection System.Runtime.Remoting.Identity::_serverDynamicProperties
-	DynamicPropertyCollection_t1486 * ____serverDynamicProperties_4;
+	DynamicPropertyCollection_t1495 * ____serverDynamicProperties_4;
 	// System.Runtime.Remoting.ObjRef System.Runtime.Remoting.Identity::_objRef
-	ObjRef_t1551 * ____objRef_5;
+	ObjRef_t1560 * ____objRef_5;
 	// System.Boolean System.Runtime.Remoting.Identity::_disposed
 	bool ____disposed_6;
 };

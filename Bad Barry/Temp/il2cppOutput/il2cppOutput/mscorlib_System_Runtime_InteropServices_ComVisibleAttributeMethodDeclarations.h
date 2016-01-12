@@ -18,4 +18,4 @@ struct ComVisibleAttribute_t1140;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.ComVisibleAttribute::.ctor(System.Boolean)
-extern "C" void ComVisibleAttribute__ctor_m5963 (ComVisibleAttribute_t1140 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComVisibleAttribute__ctor_m5966 (ComVisibleAttribute_t1140 * __this, bool ___visibility, const MethodInfo* method) IL2CPP_METHOD_ATTR;

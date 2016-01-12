@@ -13,9 +13,9 @@
 #include <exception>
 
 // Mono.Globalization.Unicode.TailoringInfo
-struct TailoringInfo_t1180;
+struct TailoringInfo_t1189;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Globalization.Unicode.TailoringInfo::.ctor(System.Int32,System.Int32,System.Int32,System.Boolean)
-extern "C" void TailoringInfo__ctor_m6791 (TailoringInfo_t1180 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TailoringInfo__ctor_m6867 (TailoringInfo_t1189 * __this, int32_t ___lcid, int32_t ___tailoringIndex, int32_t ___tailoringCount, bool ___frenchSort, const MethodInfo* method) IL2CPP_METHOD_ATTR;

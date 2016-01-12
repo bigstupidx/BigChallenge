@@ -18,4 +18,4 @@ struct BaseVertexEffect_t355;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.BaseVertexEffect::.ctor()
-extern "C" void BaseVertexEffect__ctor_m2036 (BaseVertexEffect_t355 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseVertexEffect__ctor_m2039 (BaseVertexEffect_t355 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

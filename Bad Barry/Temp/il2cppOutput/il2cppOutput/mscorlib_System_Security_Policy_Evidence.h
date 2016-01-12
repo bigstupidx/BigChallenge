@@ -16,7 +16,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.Evidence
-struct  Evidence_t1376  : public Object_t
+struct  Evidence_t1385  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Policy.Evidence::hostEvidenceList
 	ArrayList_t803 * ___hostEvidenceList_0;

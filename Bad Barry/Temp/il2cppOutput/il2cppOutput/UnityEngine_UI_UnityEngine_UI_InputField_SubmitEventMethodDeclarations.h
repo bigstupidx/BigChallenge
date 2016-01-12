@@ -18,4 +18,4 @@ struct SubmitEvent_t259;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.InputField/SubmitEvent::.ctor()
-extern "C" void SubmitEvent__ctor_m1267 (SubmitEvent_t259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SubmitEvent__ctor_m1272 (SubmitEvent_t259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

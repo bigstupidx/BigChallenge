@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.PKCS7
-struct  PKCS7_t1234  : public Object_t
+struct  PKCS7_t1243  : public Object_t
 {
 };

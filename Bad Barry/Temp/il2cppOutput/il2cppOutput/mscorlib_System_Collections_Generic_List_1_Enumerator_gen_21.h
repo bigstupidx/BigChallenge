@@ -18,7 +18,7 @@ struct RectMask2D_t281;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>
-struct  Enumerator_t2166 
+struct  Enumerator_t2177 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.RectMask2D>::l
 	List_1_t290 * ___l_0;

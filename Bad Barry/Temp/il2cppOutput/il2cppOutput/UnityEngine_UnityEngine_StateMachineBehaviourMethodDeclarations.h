@@ -23,8 +23,8 @@ struct Animator_t41;
 // System.Void UnityEngine.StateMachineBehaviour::.ctor()
 extern "C" void StateMachineBehaviour__ctor_m486 (StateMachineBehaviour_t31 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.StateMachineBehaviour::OnStateEnter(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern "C" void StateMachineBehaviour_OnStateEnter_m3464 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StateMachineBehaviour_OnStateEnter_m3467 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.StateMachineBehaviour::OnStateUpdate(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern "C" void StateMachineBehaviour_OnStateUpdate_m3465 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StateMachineBehaviour_OnStateUpdate_m3468 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.StateMachineBehaviour::OnStateExit(UnityEngine.Animator,UnityEngine.AnimatorStateInfo,System.Int32)
-extern "C" void StateMachineBehaviour_OnStateExit_m3466 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StateMachineBehaviour_OnStateExit_m3469 (StateMachineBehaviour_t31 * __this, Animator_t41 * ___animator, AnimatorStateInfo_t106  ___stateInfo, int32_t ___layerIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

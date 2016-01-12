@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ArithmeticException::.ctor()
-extern "C" void ArithmeticException__ctor_m10586 (ArithmeticException_t935 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArithmeticException__ctor_m10676 (ArithmeticException_t935 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArithmeticException::.ctor(System.String)
-extern "C" void ArithmeticException__ctor_m4806 (ArithmeticException_t935 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArithmeticException__ctor_m4809 (ArithmeticException_t935 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArithmeticException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArithmeticException__ctor_m10587 (ArithmeticException_t935 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArithmeticException__ctor_m10677 (ArithmeticException_t935 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

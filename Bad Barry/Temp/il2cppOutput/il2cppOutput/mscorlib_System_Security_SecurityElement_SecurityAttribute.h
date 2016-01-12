@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.Security.SecurityElement/SecurityAttribute
-struct  SecurityAttribute_t1675  : public Object_t
+struct  SecurityAttribute_t1684  : public Object_t
 {
 	// System.String System.Security.SecurityElement/SecurityAttribute::_name
 	String_t* ____name_0;

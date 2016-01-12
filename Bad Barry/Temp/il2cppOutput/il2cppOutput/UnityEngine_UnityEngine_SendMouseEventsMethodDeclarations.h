@@ -17,8 +17,8 @@
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
 // System.Void UnityEngine.SendMouseEvents::.cctor()
-extern "C" void SendMouseEvents__cctor_m3439 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents__cctor_m3442 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SendMouseEvents::DoSendMouseEvents(System.Int32)
-extern "C" void SendMouseEvents_DoSendMouseEvents_m3440 (Object_t * __this /* static, unused */, int32_t ___skipRTCameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents_DoSendMouseEvents_m3443 (Object_t * __this /* static, unused */, int32_t ___skipRTCameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SendMouseEvents::SendEvents(System.Int32,UnityEngine.SendMouseEvents/HitInfo)
-extern "C" void SendMouseEvents_SendEvents_m3441 (Object_t * __this /* static, unused */, int32_t ___i, HitInfo_t608  ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SendMouseEvents_SendEvents_m3444 (Object_t * __this /* static, unused */, int32_t ___i, HitInfo_t608  ___hit, const MethodInfo* method) IL2CPP_METHOD_ATTR;

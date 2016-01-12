@@ -22,26 +22,28 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector4.h"
 
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single,System.Single)
-extern "C" void Color__ctor_m2189 (Color_t129 * __this, float ___r, float ___g, float ___b, float ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Color__ctor_m2192 (Color_t129 * __this, float ___r, float ___g, float ___b, float ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single)
-extern "C" void Color__ctor_m2191 (Color_t129 * __this, float ___r, float ___g, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Color__ctor_m2194 (Color_t129 * __this, float ___r, float ___g, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Color::ToString()
-extern "C" String_t* Color_ToString_m2801 (Color_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Color_ToString_m2804 (Color_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Color::GetHashCode()
-extern "C" int32_t Color_GetHashCode_m2802 (Color_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Color_GetHashCode_m2805 (Color_t129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Color::Equals(System.Object)
-extern "C" bool Color_Equals_m2303 (Color_t129 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Color_Equals_m2306 (Color_t129 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::Lerp(UnityEngine.Color,UnityEngine.Color,System.Single)
-extern "C" Color_t129  Color_Lerp_m2172 (Object_t * __this /* static, unused */, Color_t129  ___a, Color_t129  ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_Lerp_m2175 (Object_t * __this /* static, unused */, Color_t129  ___a, Color_t129  ___b, float ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_red()
+extern "C" Color_t129  Color_get_red_m616 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_blue()
-extern "C" Color_t129  Color_get_blue_m656 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_get_blue_m666 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_white()
-extern "C" Color_t129  Color_get_white_m545 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_get_white_m546 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_black()
-extern "C" Color_t129  Color_get_black_m2307 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_get_black_m2310 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_clear()
-extern "C" Color_t129  Color_get_clear_m547 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_get_clear_m548 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::op_Multiply(UnityEngine.Color,System.Single)
-extern "C" Color_t129  Color_op_Multiply_m2509 (Object_t * __this /* static, unused */, Color_t129  ___a, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t129  Color_op_Multiply_m2512 (Object_t * __this /* static, unused */, Color_t129  ___a, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Color::op_Implicit(UnityEngine.Color)
-extern "C" Vector4_t354  Color_op_Implicit_m2803 (Object_t * __this /* static, unused */, Color_t129  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t354  Color_op_Implicit_m2806 (Object_t * __this /* static, unused */, Color_t129  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -889,9 +889,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 459884}
+  - 68: {fileID: 6847428}
+  - 50: {fileID: 5081954}
   m_Layer: 0
   m_Name: HordeMode3
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1830,6 +1832,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101554}
   m_Mesh: {fileID: 4300002, guid: 090fc3cfc0bae4081a305ca889e4d5b2, type: 3}
+--- !u!50 &5081954
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163634}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!50 &5082296
 Rigidbody2D:
   serializedVersion: 2
@@ -1872,6 +1890,28 @@ BoxCollider2D:
   m_Offset: {x: -.00333023071, y: -.0133180618}
   serializedVersion: 2
   m_Size: {x: .239925385, y: .383363128}
+--- !u!68 &6847428
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163634}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 8.23422241, y: -4.2185955}
+  - {x: 8.4204998, y: -4.21720362}
+  - {x: 10.5073318, y: -6.19829655}
+  - {x: 10.5195389, y: -8.38944435}
+  - {x: 8.27515507, y: -10.4945526}
+  - {x: 5.59312057, y: -10.5366106}
+  - {x: 3.5250535, y: -8.38079453}
+  - {x: 3.47489166, y: -6.27289104}
+  - {x: 5.6337676, y: -4.24740362}
+  - {x: 8.22015381, y: -4.20678997}
 --- !u!81 &8101942
 AudioListener:
   m_ObjectHideFlags: 1

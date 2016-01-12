@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Hosting.ActivationArguments
-struct  ActivationArguments_t1453  : public Object_t
+struct  ActivationArguments_t1462  : public Object_t
 {
 };

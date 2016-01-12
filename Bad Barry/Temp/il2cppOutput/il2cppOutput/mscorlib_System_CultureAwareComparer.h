@@ -16,7 +16,7 @@ struct CompareInfo_t958;
 #include "mscorlib_System_StringComparer.h"
 
 // System.CultureAwareComparer
-struct  CultureAwareComparer_t1789  : public StringComparer_t1132
+struct  CultureAwareComparer_t1800  : public StringComparer_t1132
 {
 	// System.Boolean System.CultureAwareComparer::_ignoreCase
 	bool ____ignoreCase_4;

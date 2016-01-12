@@ -16,7 +16,7 @@ struct Dictionary_2_t27;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
-struct  ValueCollection_t1927  : public Object_t
+struct  ValueCollection_t1938  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::dictionary
 	Dictionary_2_t27 * ___dictionary_0;

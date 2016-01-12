@@ -16,7 +16,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Collections_ArrayList.h"
 
 // System.Collections.ArrayList/ArrayListWrapper
-struct  ArrayListWrapper_t1245  : public ArrayList_t803
+struct  ArrayListWrapper_t1254  : public ArrayList_t803
 {
 	// System.Collections.ArrayList System.Collections.ArrayList/ArrayListWrapper::m_InnerArrayList
 	ArrayList_t803 * ___m_InnerArrayList_5;

@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IndexOutOfRangeException::.ctor()
-extern "C" void IndexOutOfRangeException__ctor_m10988 (IndexOutOfRangeException_t664 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IndexOutOfRangeException__ctor_m11081 (IndexOutOfRangeException_t664 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IndexOutOfRangeException::.ctor(System.String)
-extern "C" void IndexOutOfRangeException__ctor_m3560 (IndexOutOfRangeException_t664 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IndexOutOfRangeException__ctor_m3563 (IndexOutOfRangeException_t664 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IndexOutOfRangeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void IndexOutOfRangeException__ctor_m10989 (IndexOutOfRangeException_t664 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IndexOutOfRangeException__ctor_m11082 (IndexOutOfRangeException_t664 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

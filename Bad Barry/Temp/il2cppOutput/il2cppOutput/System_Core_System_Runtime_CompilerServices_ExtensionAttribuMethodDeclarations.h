@@ -18,4 +18,4 @@ struct ExtensionAttribute_t766;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern "C" void ExtensionAttribute__ctor_m3852 (ExtensionAttribute_t766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtensionAttribute__ctor_m3855 (ExtensionAttribute_t766 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

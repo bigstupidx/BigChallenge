@@ -20,7 +20,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
-struct  PrivateKeyInfo_t1214  : public Object_t
+struct  PrivateKeyInfo_t1223  : public Object_t
 {
 	// System.Int32 Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::_version
 	int32_t ____version_0;

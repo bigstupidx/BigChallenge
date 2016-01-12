@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<System.Object>[]
-struct List_1U5BU5D_t2009;
+struct List_1U5BU5D_t2020;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Object>>
-struct  Stack_1_t2008  : public Object_t
+struct  Stack_1_t2019  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Object>>::_array
-	List_1U5BU5D_t2009* ____array_0;
+	List_1U5BU5D_t2020* ____array_0;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Object>>::_size
 	int32_t ____size_1;
 	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<System.Object>>::_version

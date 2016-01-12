@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.Metadata.SoapAttribute
-struct SoapAttribute_t1537;
+struct SoapAttribute_t1546;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.InternalRemotingServices::.cctor()
-extern "C" void InternalRemotingServices__cctor_m9375 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InternalRemotingServices__cctor_m9457 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Metadata.SoapAttribute System.Runtime.Remoting.InternalRemotingServices::GetCachedSoapAttribute(System.Object)
-extern "C" SoapAttribute_t1537 * InternalRemotingServices_GetCachedSoapAttribute_m9376 (Object_t * __this /* static, unused */, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SoapAttribute_t1546 * InternalRemotingServices_GetCachedSoapAttribute_m9458 (Object_t * __this /* static, unused */, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;

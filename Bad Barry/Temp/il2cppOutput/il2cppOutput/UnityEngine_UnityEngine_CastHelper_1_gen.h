@@ -17,7 +17,7 @@ struct Object_t;
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.CastHelper`1<System.Object>
-struct  CastHelper_1_t1901 
+struct  CastHelper_1_t1912 
 {
 	// T UnityEngine.CastHelper`1<System.Object>::t
 	Object_t * ___t_0;

@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.Events.PersistentCall>
-struct  Predicate_1_t2365  : public MulticastDelegate_t264
+struct  Predicate_1_t2376  : public MulticastDelegate_t264
 {
 };

@@ -13,12 +13,12 @@
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
 struct List_1_t242;
 // UnityEngine.UI.Graphic
-struct Graphic_t232;
+struct Graphic_t233;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>
-struct  Enumerator_t2138 
+struct  Enumerator_t2149 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::l
 	List_1_t242 * ___l_0;
@@ -27,5 +27,5 @@ struct  Enumerator_t2138
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Graphic>::current
-	Graphic_t232 * ___current_3;
+	Graphic_t233 * ___current_3;
 };

@@ -18,4 +18,4 @@ struct CullStateChangedEvent_t279;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.MaskableGraphic/CullStateChangedEvent::.ctor()
-extern "C" void CullStateChangedEvent__ctor_m1424 (CullStateChangedEvent_t279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CullStateChangedEvent__ctor_m1429 (CullStateChangedEvent_t279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

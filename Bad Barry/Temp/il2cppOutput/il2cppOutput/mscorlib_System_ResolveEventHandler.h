@@ -15,7 +15,7 @@ struct Assembly_t1133;
 // System.Object
 struct Object_t;
 // System.ResolveEventArgs
-struct ResolveEventArgs_t1788;
+struct ResolveEventArgs_t1799;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -24,6 +24,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.ResolveEventHandler
-struct  ResolveEventHandler_t1734  : public MulticastDelegate_t264
+struct  ResolveEventHandler_t1744  : public MulticastDelegate_t264
 {
 };

@@ -20,16 +20,16 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.GUIStyle::.ctor()
-extern "C" void GUIStyle__ctor_m3342 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle__ctor_m3345 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::.cctor()
-extern "C" void GUIStyle__cctor_m3343 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle__cctor_m3346 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Finalize()
-extern "C" void GUIStyle_Finalize_m3344 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Finalize_m3347 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GUIStyle::ToString()
-extern "C" String_t* GUIStyle_ToString_m3345 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GUIStyle_ToString_m3348 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Init()
-extern "C" void GUIStyle_Init_m3346 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Init_m3349 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUIStyle::Cleanup()
-extern "C" void GUIStyle_Cleanup_m3347 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStyle_Cleanup_m3350 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GUIStyle::get_name()
-extern "C" String_t* GUIStyle_get_name_m3348 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GUIStyle_get_name_m3351 (GUIStyle_t576 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -15,7 +15,7 @@
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_ExtenderT.h"
 
 // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
-struct  ExtenderType_t1191 
+struct  ExtenderType_t1200 
 {
 	// System.Int32 Mono.Globalization.Unicode.SimpleCollator/ExtenderType::value__
 	int32_t ___value___1;

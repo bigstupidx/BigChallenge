@@ -22,6 +22,6 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Boolean.h"
 
 // System.Threading.WaitOrTimerCallback
-struct  WaitOrTimerCallback_t1717  : public MulticastDelegate_t264
+struct  WaitOrTimerCallback_t1727  : public MulticastDelegate_t264
 {
 };

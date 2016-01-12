@@ -20,7 +20,7 @@ struct Hashtable_t868;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.ChannelData
-struct  ChannelData_t1560  : public Object_t
+struct  ChannelData_t1569  : public Object_t
 {
 	// System.String System.Runtime.Remoting.ChannelData::Ref
 	String_t* ___Ref_0;

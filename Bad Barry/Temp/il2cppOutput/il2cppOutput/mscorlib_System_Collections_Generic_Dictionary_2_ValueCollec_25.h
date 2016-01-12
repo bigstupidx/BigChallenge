@@ -16,7 +16,7 @@ struct Dictionary_2_t752;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>
-struct  ValueCollection_t2461  : public Object_t
+struct  ValueCollection_t2472  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>::dictionary
 	Dictionary_2_t752 * ___dictionary_0;

@@ -16,7 +16,7 @@ struct Type_t;
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.LocalVariableInfo
-struct  LocalVariableInfo_t1356  : public Object_t
+struct  LocalVariableInfo_t1365  : public Object_t
 {
 	// System.Type System.Reflection.LocalVariableInfo::type
 	Type_t * ___type_0;

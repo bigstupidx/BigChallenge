@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Predicate`1<UnityEngine.Vector2>
-struct  Predicate_1_t2255  : public MulticastDelegate_t264
+struct  Predicate_1_t2266  : public MulticastDelegate_t264
 {
 };

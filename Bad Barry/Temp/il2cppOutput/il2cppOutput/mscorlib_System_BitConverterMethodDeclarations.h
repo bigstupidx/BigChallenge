@@ -20,22 +20,22 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.BitConverter::.cctor()
-extern "C" void BitConverter__cctor_m10591 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitConverter__cctor_m10681 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.BitConverter::AmILittleEndian()
-extern "C" bool BitConverter_AmILittleEndian_m10592 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BitConverter_AmILittleEndian_m10682 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.BitConverter::DoubleWordsAreSwapped()
-extern "C" bool BitConverter_DoubleWordsAreSwapped_m10593 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool BitConverter_DoubleWordsAreSwapped_m10683 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.BitConverter::DoubleToInt64Bits(System.Double)
-extern "C" int64_t BitConverter_DoubleToInt64Bits_m10594 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t BitConverter_DoubleToInt64Bits_m10684 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.BitConverter::GetBytes(System.Byte*,System.Int32)
-extern "C" ByteU5BU5D_t772* BitConverter_GetBytes_m10595 (Object_t * __this /* static, unused */, uint8_t* ___ptr, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* BitConverter_GetBytes_m10685 (Object_t * __this /* static, unused */, uint8_t* ___ptr, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.BitConverter::GetBytes(System.Double)
-extern "C" ByteU5BU5D_t772* BitConverter_GetBytes_m10596 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* BitConverter_GetBytes_m10686 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.BitConverter::PutBytes(System.Byte*,System.Byte[],System.Int32,System.Int32)
-extern "C" void BitConverter_PutBytes_m10597 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t772* ___src, int32_t ___start_index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitConverter_PutBytes_m10687 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t772* ___src, int32_t ___start_index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.BitConverter::ToInt64(System.Byte[],System.Int32)
-extern "C" int64_t BitConverter_ToInt64_m10598 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t BitConverter_ToInt64_m10688 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.BitConverter::ToString(System.Byte[])
-extern "C" String_t* BitConverter_ToString_m4890 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BitConverter_ToString_m4893 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.BitConverter::ToString(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* BitConverter_ToString_m10599 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BitConverter_ToString_m10689 (Object_t * __this /* static, unused */, ByteU5BU5D_t772* ___value, int32_t ___startIndex, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;

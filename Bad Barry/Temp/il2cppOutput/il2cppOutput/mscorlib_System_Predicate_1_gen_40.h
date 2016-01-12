@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
 
 // System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  Predicate_1_t2389  : public MulticastDelegate_t264
+struct  Predicate_1_t2400  : public MulticastDelegate_t264
 {
 };

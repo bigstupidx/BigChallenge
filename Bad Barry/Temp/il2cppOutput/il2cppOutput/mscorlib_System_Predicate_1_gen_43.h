@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
 // System.Predicate`1<System.Reflection.CustomAttributeTypedArgument>
-struct  Predicate_1_t2558  : public MulticastDelegate_t264
+struct  Predicate_1_t2569  : public MulticastDelegate_t264
 {
 };

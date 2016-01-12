@@ -16,10 +16,10 @@ struct CharU5BU5D_t275;
 #include "mscorlib_System_Object.h"
 
 // System.IO.SearchPattern
-struct  SearchPattern_t1312  : public Object_t
+struct  SearchPattern_t1321  : public Object_t
 {
 };
-struct SearchPattern_t1312_StaticFields{
+struct SearchPattern_t1321_StaticFields{
 	// System.Char[] System.IO.SearchPattern::WildcardChars
 	CharU5BU5D_t275* ___WildcardChars_0;
 	// System.Char[] System.IO.SearchPattern::InvalidChars

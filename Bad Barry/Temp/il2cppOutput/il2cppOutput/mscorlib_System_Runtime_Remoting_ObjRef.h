@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.IChannelInfo
-struct IChannelInfo_t1555;
+struct IChannelInfo_t1564;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.IRemotingTypeInfo
-struct IRemotingTypeInfo_t1556;
+struct IRemotingTypeInfo_t1565;
 // System.Runtime.Remoting.IEnvoyInfo
-struct IEnvoyInfo_t1557;
+struct IEnvoyInfo_t1566;
 // System.Type
 struct Type_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -26,7 +26,7 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.ObjRef
-struct  ObjRef_t1551  : public Object_t
+struct  ObjRef_t1560  : public Object_t
 {
 	// System.Runtime.Remoting.IChannelInfo System.Runtime.Remoting.ObjRef::channel_info
 	Object_t * ___channel_info_0;
@@ -41,7 +41,7 @@ struct  ObjRef_t1551  : public Object_t
 	// System.Type System.Runtime.Remoting.ObjRef::_serverType
 	Type_t * ____serverType_5;
 };
-struct ObjRef_t1551_StaticFields{
+struct ObjRef_t1560_StaticFields{
 	// System.Int32 System.Runtime.Remoting.ObjRef::MarshalledObjectRef
 	int32_t ___MarshalledObjectRef_6;
 	// System.Int32 System.Runtime.Remoting.ObjRef::WellKnowObjectRef

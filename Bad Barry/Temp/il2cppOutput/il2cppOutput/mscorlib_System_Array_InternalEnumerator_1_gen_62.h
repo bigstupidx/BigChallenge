@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>
-struct  InternalEnumerator_1_t2483 
+struct  InternalEnumerator_1_t2494 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::array
 	Array_t * ___array_0;

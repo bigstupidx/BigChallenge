@@ -18,6 +18,6 @@ struct ValidationResult_t893;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Boolean Mono.Security.Protocol.Tls.ValidationResult::get_Trusted()
-extern "C" bool ValidationResult_get_Trusted_m4543 (ValidationResult_t893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ValidationResult_get_Trusted_m4546 (ValidationResult_t893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.ValidationResult::get_ErrorCode()
-extern "C" int32_t ValidationResult_get_ErrorCode_m4544 (ValidationResult_t893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ValidationResult_get_ErrorCode_m4547 (ValidationResult_t893 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

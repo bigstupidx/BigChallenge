@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>
-struct DefaultComparer_t2603;
+struct DefaultComparer_t2614;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Guid.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::.ctor()
-extern "C" void DefaultComparer__ctor_m20216_gshared (DefaultComparer_t2603 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m20216(__this, method) (( void (*) (DefaultComparer_t2603 *, const MethodInfo*))DefaultComparer__ctor_m20216_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m20309_gshared (DefaultComparer_t2614 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m20309(__this, method) (( void (*) (DefaultComparer_t2614 *, const MethodInfo*))DefaultComparer__ctor_m20309_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Guid>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m20217_gshared (DefaultComparer_t2603 * __this, Guid_t1767  ___x, Guid_t1767  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m20217(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2603 *, Guid_t1767 , Guid_t1767 , const MethodInfo*))DefaultComparer_Compare_m20217_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m20310_gshared (DefaultComparer_t2614 * __this, Guid_t1778  ___x, Guid_t1778  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m20310(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2614 *, Guid_t1778 , Guid_t1778 , const MethodInfo*))DefaultComparer_Compare_m20310_gshared)(__this, ___x, ___y, method)

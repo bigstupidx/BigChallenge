@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.IO.Directory
-struct  Directory_t1293  : public Object_t
+struct  Directory_t1302  : public Object_t
 {
 };

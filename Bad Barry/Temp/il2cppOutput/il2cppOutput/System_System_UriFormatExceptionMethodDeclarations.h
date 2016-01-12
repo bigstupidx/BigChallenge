@@ -23,10 +23,10 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.UriFormatException::.ctor()
-extern "C" void UriFormatException__ctor_m5797 (UriFormatException_t1117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriFormatException__ctor_m5800 (UriFormatException_t1117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriFormatException::.ctor(System.String)
-extern "C" void UriFormatException__ctor_m5798 (UriFormatException_t1117 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriFormatException__ctor_m5801 (UriFormatException_t1117 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriFormatException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UriFormatException__ctor_m5799 (UriFormatException_t1117 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriFormatException__ctor_m5802 (UriFormatException_t1117 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UriFormatException::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m5800 (UriFormatException_t1117 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_m5803 (UriFormatException_t1117 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

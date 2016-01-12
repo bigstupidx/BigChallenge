@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
-struct ButtonState_t186;
+struct ButtonState_t188;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
-struct  Predicate_1_t2061  : public MulticastDelegate_t264
+struct  Predicate_1_t2072  : public MulticastDelegate_t264
 {
 };

@@ -27,24 +27,24 @@ struct IEnumerator_t109;
 #include "System_System_Text_RegularExpressions_Interval.h"
 
 // System.Void System.Text.RegularExpressions.IntervalCollection::.ctor()
-extern "C" void IntervalCollection__ctor_m5579 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntervalCollection__ctor_m5582 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Interval System.Text.RegularExpressions.IntervalCollection::get_Item(System.Int32)
-extern "C" Interval_t1086  IntervalCollection_get_Item_m5580 (IntervalCollection_t1089 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Interval_t1086  IntervalCollection_get_Item_m5583 (IntervalCollection_t1089 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection::Add(System.Text.RegularExpressions.Interval)
-extern "C" void IntervalCollection_Add_m5581 (IntervalCollection_t1089 * __this, Interval_t1086  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntervalCollection_Add_m5584 (IntervalCollection_t1089 * __this, Interval_t1086  ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection::Normalize()
-extern "C" void IntervalCollection_Normalize_m5582 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntervalCollection_Normalize_m5585 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.IntervalCollection System.Text.RegularExpressions.IntervalCollection::GetMetaCollection(System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern "C" IntervalCollection_t1089 * IntervalCollection_GetMetaCollection_m5583 (IntervalCollection_t1089 * __this, CostDelegate_t1088 * ___cost_del, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntervalCollection_t1089 * IntervalCollection_GetMetaCollection_m5586 (IntervalCollection_t1089 * __this, CostDelegate_t1088 * ___cost_del, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection::Optimize(System.Int32,System.Int32,System.Text.RegularExpressions.IntervalCollection,System.Text.RegularExpressions.IntervalCollection/CostDelegate)
-extern "C" void IntervalCollection_Optimize_m5584 (IntervalCollection_t1089 * __this, int32_t ___begin, int32_t ___end, IntervalCollection_t1089 * ___meta, CostDelegate_t1088 * ___cost_del, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntervalCollection_Optimize_m5587 (IntervalCollection_t1089 * __this, int32_t ___begin, int32_t ___end, IntervalCollection_t1089 * ___meta, CostDelegate_t1088 * ___cost_del, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count()
-extern "C" int32_t IntervalCollection_get_Count_m5585 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntervalCollection_get_Count_m5588 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.IntervalCollection::get_IsSynchronized()
-extern "C" bool IntervalCollection_get_IsSynchronized_m5586 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool IntervalCollection_get_IsSynchronized_m5589 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.IntervalCollection::get_SyncRoot()
-extern "C" Object_t * IntervalCollection_get_SyncRoot_m5587 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * IntervalCollection_get_SyncRoot_m5590 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection::CopyTo(System.Array,System.Int32)
-extern "C" void IntervalCollection_CopyTo_m5588 (IntervalCollection_t1089 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntervalCollection_CopyTo_m5591 (IntervalCollection_t1089 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Text.RegularExpressions.IntervalCollection::GetEnumerator()
-extern "C" Object_t * IntervalCollection_GetEnumerator_m5589 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * IntervalCollection_GetEnumerator_m5592 (IntervalCollection_t1089 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

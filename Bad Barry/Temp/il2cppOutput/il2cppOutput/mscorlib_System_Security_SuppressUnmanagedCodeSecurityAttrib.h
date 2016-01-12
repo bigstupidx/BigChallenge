@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Security.SuppressUnmanagedCodeSecurityAttribute
-struct  SuppressUnmanagedCodeSecurityAttribute_t1683  : public Attribute_t510
+struct  SuppressUnmanagedCodeSecurityAttribute_t1692  : public Attribute_t510
 {
 };

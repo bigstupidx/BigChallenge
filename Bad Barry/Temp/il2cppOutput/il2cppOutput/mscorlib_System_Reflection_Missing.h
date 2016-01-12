@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Reflection.Missing
-struct Missing_t1408;
+struct Missing_t1417;
 
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.Missing
-struct  Missing_t1408  : public Object_t
+struct  Missing_t1417  : public Object_t
 {
 };
-struct Missing_t1408_StaticFields{
+struct Missing_t1417_StaticFields{
 	// System.Reflection.Missing System.Reflection.Missing::Value
-	Missing_t1408 * ___Value_0;
+	Missing_t1417 * ___Value_0;
 };

@@ -17,7 +17,7 @@ struct Object_t;
 #include "LitJson_LitJson_ArrayMetadata.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ArrayMetadata>
-struct  KeyValuePair_2_t2403 
+struct  KeyValuePair_2_t2414 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Object,LitJson.ArrayMetadata>::key
 	Object_t * ___key_0;

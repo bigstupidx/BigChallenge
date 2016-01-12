@@ -13,10 +13,10 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.DefaultDependencyAttribute
-struct DefaultDependencyAttribute_t1445;
+struct DefaultDependencyAttribute_t1454;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_CompilerServices_LoadHint.h"
 
 // System.Void System.Runtime.CompilerServices.DefaultDependencyAttribute::.ctor(System.Runtime.CompilerServices.LoadHint)
-extern "C" void DefaultDependencyAttribute__ctor_m8976 (DefaultDependencyAttribute_t1445 * __this, int32_t ___loadHintArgument, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DefaultDependencyAttribute__ctor_m9058 (DefaultDependencyAttribute_t1454 * __this, int32_t ___loadHintArgument, const MethodInfo* method) IL2CPP_METHOD_ATTR;

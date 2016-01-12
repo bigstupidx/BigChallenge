@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Component
-struct Component_t143;
+struct Component_t145;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.Component>
-struct  Comparison_1_t2002  : public MulticastDelegate_t264
+struct  Comparison_1_t2013  : public MulticastDelegate_t264
 {
 };

@@ -20,7 +20,7 @@ struct RandomNumberGenerator_t769;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.SymmetricTransform
-struct  SymmetricTransform_t1219  : public Object_t
+struct  SymmetricTransform_t1228  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.SymmetricTransform::algo
 	SymmetricAlgorithm_t771 * ___algo_0;

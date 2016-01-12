@@ -18,6 +18,6 @@ struct RuntimeCompatibilityAttribute_t1160;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor()
-extern "C" void RuntimeCompatibilityAttribute__ctor_m6759 (RuntimeCompatibilityAttribute_t1160 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute__ctor_m6762 (RuntimeCompatibilityAttribute_t1160 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows(System.Boolean)
-extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m6760 (RuntimeCompatibilityAttribute_t1160 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m6763 (RuntimeCompatibilityAttribute_t1160 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

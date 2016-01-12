@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.EqualityComparer`1<System.Guid>
-struct EqualityComparer_1_t2604;
+struct EqualityComparer_1_t2615;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.EqualityComparer`1<System.Guid>
-struct  EqualityComparer_1_t2604  : public Object_t
+struct  EqualityComparer_1_t2615  : public Object_t
 {
 };
-struct EqualityComparer_1_t2604_StaticFields{
+struct EqualityComparer_1_t2615_StaticFields{
 	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Guid>::_default
-	EqualityComparer_1_t2604 * ____default_0;
+	EqualityComparer_1_t2615 * ____default_0;
 };

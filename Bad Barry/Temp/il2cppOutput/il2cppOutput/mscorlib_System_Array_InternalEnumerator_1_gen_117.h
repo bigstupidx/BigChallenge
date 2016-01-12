@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>
-struct  InternalEnumerator_1_t2586 
+struct  InternalEnumerator_1_t2597 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::array
 	Array_t * ___array_0;

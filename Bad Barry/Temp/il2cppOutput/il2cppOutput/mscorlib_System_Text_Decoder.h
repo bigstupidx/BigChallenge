@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Text.DecoderFallback
-struct DecoderFallback_t1686;
+struct DecoderFallback_t1696;
 // System.Text.DecoderFallbackBuffer
-struct DecoderFallbackBuffer_t1687;
+struct DecoderFallbackBuffer_t1697;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.Decoder
-struct  Decoder_t1291  : public Object_t
+struct  Decoder_t1300  : public Object_t
 {
 	// System.Text.DecoderFallback System.Text.Decoder::fallback
-	DecoderFallback_t1686 * ___fallback_0;
+	DecoderFallback_t1696 * ___fallback_0;
 	// System.Text.DecoderFallbackBuffer System.Text.Decoder::fallback_buffer
-	DecoderFallbackBuffer_t1687 * ___fallback_buffer_1;
+	DecoderFallbackBuffer_t1697 * ___fallback_buffer_1;
 };

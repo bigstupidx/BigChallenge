@@ -17,7 +17,7 @@ struct Dictionary_2_t28;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>
-struct  Enumerator_t1933 
+struct  Enumerator_t1944 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::dictionary
 	Dictionary_2_t28 * ___dictionary_0;
@@ -26,5 +26,5 @@ struct  Enumerator_t1933
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton>::current
-	KeyValuePair_2_t1931  ___current_3;
+	KeyValuePair_2_t1942  ___current_3;
 };

@@ -13,10 +13,10 @@
 #include <exception>
 
 // System.Runtime.InteropServices.ClassInterfaceAttribute
-struct ClassInterfaceAttribute_t1456;
+struct ClassInterfaceAttribute_t1465;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_InteropServices_ClassInterfaceType.h"
 
 // System.Void System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(System.Runtime.InteropServices.ClassInterfaceType)
-extern "C" void ClassInterfaceAttribute__ctor_m8981 (ClassInterfaceAttribute_t1456 * __this, int32_t ___classInterfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClassInterfaceAttribute__ctor_m9063 (ClassInterfaceAttribute_t1465 * __this, int32_t ___classInterfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

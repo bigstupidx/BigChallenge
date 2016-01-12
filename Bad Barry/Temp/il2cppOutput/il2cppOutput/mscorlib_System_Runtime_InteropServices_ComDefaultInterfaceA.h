@@ -16,7 +16,7 @@ struct Type_t;
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
-struct  ComDefaultInterfaceAttribute_t1458  : public Attribute_t510
+struct  ComDefaultInterfaceAttribute_t1467  : public Attribute_t510
 {
 	// System.Type System.Runtime.InteropServices.ComDefaultInterfaceAttribute::_type
 	Type_t * ____type_0;

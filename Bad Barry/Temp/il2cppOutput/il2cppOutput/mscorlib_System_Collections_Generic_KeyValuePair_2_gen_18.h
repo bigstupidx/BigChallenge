@@ -13,12 +13,12 @@
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IList`1<LitJson.PropertyMetadata>
-struct IList_1_t2449;
+struct IList_1_t2460;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>
-struct  KeyValuePair_2_t2450 
+struct  KeyValuePair_2_t2461 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IList`1<LitJson.PropertyMetadata>>::key
 	Type_t * ___key_0;

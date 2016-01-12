@@ -18,7 +18,7 @@ struct Object_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Resources.ResourceReader/ResourceCacheItem
-struct  ResourceCacheItem_t1433 
+struct  ResourceCacheItem_t1442 
 {
 	// System.String System.Resources.ResourceReader/ResourceCacheItem::ResourceName
 	String_t* ___ResourceName_0;

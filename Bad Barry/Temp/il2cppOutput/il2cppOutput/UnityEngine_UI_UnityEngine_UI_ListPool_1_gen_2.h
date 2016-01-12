@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.Color32>>
-struct ObjectPool_1_t2274;
+struct ObjectPool_1_t2285;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Color32>>
-struct UnityAction_1_t2275;
+struct UnityAction_1_t2286;
 
 #include "mscorlib_System_Object.h"
 
@@ -23,7 +23,7 @@ struct  ListPool_1_t454  : public Object_t
 };
 struct ListPool_1_t454_StaticFields{
 	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<UnityEngine.Color32>::s_ListPool
-	ObjectPool_1_t2274 * ___s_ListPool_0;
+	ObjectPool_1_t2285 * ___s_ListPool_0;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<T>> UnityEngine.UI.ListPool`1<UnityEngine.Color32>::<>f__am$cache1
-	UnityAction_1_t2275 * ___U3CU3Ef__amU24cache1_1;
+	UnityAction_1_t2286 * ___U3CU3Ef__amU24cache1_1;
 };

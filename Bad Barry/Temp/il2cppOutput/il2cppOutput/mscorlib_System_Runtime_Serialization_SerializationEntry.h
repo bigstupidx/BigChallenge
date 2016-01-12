@@ -20,7 +20,7 @@ struct Object_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Runtime.Serialization.SerializationEntry
-struct  SerializationEntry_t1615 
+struct  SerializationEntry_t1624 
 {
 	// System.String System.Runtime.Serialization.SerializationEntry::name
 	String_t* ___name_0;

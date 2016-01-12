@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Font
-struct Font_t229;
+struct Font_t230;
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
 struct List_1_t412;
 // System.IAsyncResult
@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
-struct  Transform_1_t2112  : public MulticastDelegate_t264
+struct  Transform_1_t2123  : public MulticastDelegate_t264
 {
 };

@@ -80,24 +80,24 @@ extern "C" void Interval_t1086_marshal_cleanup ();
 extern "C" void UriScheme_t1115_marshal ();
 extern "C" void UriScheme_t1115_marshal_back ();
 extern "C" void UriScheme_t1115_marshal_cleanup ();
-extern "C" void Context_t1188_marshal ();
-extern "C" void Context_t1188_marshal_back ();
-extern "C" void Context_t1188_marshal_cleanup ();
-extern "C" void PreviousInfo_t1189_marshal ();
-extern "C" void PreviousInfo_t1189_marshal_back ();
-extern "C" void PreviousInfo_t1189_marshal_cleanup ();
-extern "C" void Escape_t1190_marshal ();
-extern "C" void Escape_t1190_marshal_back ();
-extern "C" void Escape_t1190_marshal_cleanup ();
-extern "C" void MonoIOStat_t1307_marshal ();
-extern "C" void MonoIOStat_t1307_marshal_back ();
-extern "C" void MonoIOStat_t1307_marshal_cleanup ();
-extern "C" void ParameterModifier_t1419_marshal ();
-extern "C" void ParameterModifier_t1419_marshal_back ();
-extern "C" void ParameterModifier_t1419_marshal_cleanup ();
-extern "C" void ResourceInfo_t1432_marshal ();
-extern "C" void ResourceInfo_t1432_marshal_back ();
-extern "C" void ResourceInfo_t1432_marshal_cleanup ();
+extern "C" void Context_t1197_marshal ();
+extern "C" void Context_t1197_marshal_back ();
+extern "C" void Context_t1197_marshal_cleanup ();
+extern "C" void PreviousInfo_t1198_marshal ();
+extern "C" void PreviousInfo_t1198_marshal_back ();
+extern "C" void PreviousInfo_t1198_marshal_cleanup ();
+extern "C" void Escape_t1199_marshal ();
+extern "C" void Escape_t1199_marshal_back ();
+extern "C" void Escape_t1199_marshal_cleanup ();
+extern "C" void MonoIOStat_t1316_marshal ();
+extern "C" void MonoIOStat_t1316_marshal_back ();
+extern "C" void MonoIOStat_t1316_marshal_cleanup ();
+extern "C" void ParameterModifier_t1428_marshal ();
+extern "C" void ParameterModifier_t1428_marshal_back ();
+extern "C" void ParameterModifier_t1428_marshal_cleanup ();
+extern "C" void ResourceInfo_t1441_marshal ();
+extern "C" void ResourceInfo_t1441_marshal_back ();
+extern "C" void ResourceInfo_t1441_marshal_cleanup ();
 extern "C" void DSAParameters_t933_marshal ();
 extern "C" void DSAParameters_t933_marshal_back ();
 extern "C" void DSAParameters_t933_marshal_cleanup ();
@@ -129,12 +129,12 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[32] =
 	{ IntStack_t1080_marshal, IntStack_t1080_marshal_back, IntStack_t1080_marshal_cleanup },
 	{ Interval_t1086_marshal, Interval_t1086_marshal_back, Interval_t1086_marshal_cleanup },
 	{ UriScheme_t1115_marshal, UriScheme_t1115_marshal_back, UriScheme_t1115_marshal_cleanup },
-	{ Context_t1188_marshal, Context_t1188_marshal_back, Context_t1188_marshal_cleanup },
-	{ PreviousInfo_t1189_marshal, PreviousInfo_t1189_marshal_back, PreviousInfo_t1189_marshal_cleanup },
-	{ Escape_t1190_marshal, Escape_t1190_marshal_back, Escape_t1190_marshal_cleanup },
-	{ MonoIOStat_t1307_marshal, MonoIOStat_t1307_marshal_back, MonoIOStat_t1307_marshal_cleanup },
-	{ ParameterModifier_t1419_marshal, ParameterModifier_t1419_marshal_back, ParameterModifier_t1419_marshal_cleanup },
-	{ ResourceInfo_t1432_marshal, ResourceInfo_t1432_marshal_back, ResourceInfo_t1432_marshal_cleanup },
+	{ Context_t1197_marshal, Context_t1197_marshal_back, Context_t1197_marshal_cleanup },
+	{ PreviousInfo_t1198_marshal, PreviousInfo_t1198_marshal_back, PreviousInfo_t1198_marshal_cleanup },
+	{ Escape_t1199_marshal, Escape_t1199_marshal_back, Escape_t1199_marshal_cleanup },
+	{ MonoIOStat_t1316_marshal, MonoIOStat_t1316_marshal_back, MonoIOStat_t1316_marshal_cleanup },
+	{ ParameterModifier_t1428_marshal, ParameterModifier_t1428_marshal_back, ParameterModifier_t1428_marshal_cleanup },
+	{ ResourceInfo_t1441_marshal, ResourceInfo_t1441_marshal_back, ResourceInfo_t1441_marshal_cleanup },
 	{ DSAParameters_t933_marshal, DSAParameters_t933_marshal_back, DSAParameters_t933_marshal_cleanup },
 	{ RSAParameters_t905_marshal, RSAParameters_t905_marshal_back, RSAParameters_t905_marshal_cleanup },
 	NULL,

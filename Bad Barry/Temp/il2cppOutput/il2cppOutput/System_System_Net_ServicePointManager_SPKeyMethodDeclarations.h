@@ -22,8 +22,8 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Net.ServicePointManager/SPKey::.ctor(System.Uri,System.Boolean)
-extern "C" void SPKey__ctor_m5100 (SPKey_t1012 * __this, Uri_t959 * ___uri, bool ___use_connect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPKey__ctor_m5103 (SPKey_t1012 * __this, Uri_t959 * ___uri, bool ___use_connect, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.ServicePointManager/SPKey::GetHashCode()
-extern "C" int32_t SPKey_GetHashCode_m5101 (SPKey_t1012 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SPKey_GetHashCode_m5104 (SPKey_t1012 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.ServicePointManager/SPKey::Equals(System.Object)
-extern "C" bool SPKey_Equals_m5102 (SPKey_t1012 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SPKey_Equals_m5105 (SPKey_t1012 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

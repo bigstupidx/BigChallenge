@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // System.Text.EncoderFallback
-struct EncoderFallback_t1694;
+struct EncoderFallback_t1704;
 
 #include "mscorlib_System_Object.h"
 
 // System.Text.EncoderFallback
-struct  EncoderFallback_t1694  : public Object_t
+struct  EncoderFallback_t1704  : public Object_t
 {
 };
-struct EncoderFallback_t1694_StaticFields{
+struct EncoderFallback_t1704_StaticFields{
 	// System.Text.EncoderFallback System.Text.EncoderFallback::exception_fallback
-	EncoderFallback_t1694 * ___exception_fallback_0;
+	EncoderFallback_t1704 * ___exception_fallback_0;
 	// System.Text.EncoderFallback System.Text.EncoderFallback::replacement_fallback
-	EncoderFallback_t1694 * ___replacement_fallback_1;
+	EncoderFallback_t1704 * ___replacement_fallback_1;
 	// System.Text.EncoderFallback System.Text.EncoderFallback::standard_safe_fallback
-	EncoderFallback_t1694 * ___standard_safe_fallback_2;
+	EncoderFallback_t1704 * ___standard_safe_fallback_2;
 };

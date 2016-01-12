@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.IClippable[]
-struct IClippableU5BU5D_t2168;
+struct IClippableU5BU5D_t2179;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct IClippableU5BU5D_t2168;
 struct  List_1_t289  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_items
-	IClippableU5BU5D_t2168* ____items_1;
+	IClippableU5BU5D_t2179* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_version
@@ -27,5 +27,5 @@ struct  List_1_t289  : public Object_t
 };
 struct List_1_t289_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::EmptyArray
-	IClippableU5BU5D_t2168* ___EmptyArray_4;
+	IClippableU5BU5D_t2179* ___EmptyArray_4;
 };

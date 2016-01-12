@@ -17,14 +17,14 @@ struct Encoding_t938;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.Text.Decoder
-struct Decoder_t1291;
+struct Decoder_t1300;
 // System.Char[]
 struct CharU5BU5D_t275;
 
 #include "mscorlib_System_Object.h"
 
 // System.IO.BinaryReader
-struct  BinaryReader_t1290  : public Object_t
+struct  BinaryReader_t1299  : public Object_t
 {
 	// System.IO.Stream System.IO.BinaryReader::m_stream
 	Stream_t883 * ___m_stream_0;
@@ -33,7 +33,7 @@ struct  BinaryReader_t1290  : public Object_t
 	// System.Byte[] System.IO.BinaryReader::m_buffer
 	ByteU5BU5D_t772* ___m_buffer_2;
 	// System.Text.Decoder System.IO.BinaryReader::decoder
-	Decoder_t1291 * ___decoder_3;
+	Decoder_t1300 * ___decoder_3;
 	// System.Char[] System.IO.BinaryReader::charBuffer
 	CharU5BU5D_t275* ___charBuffer_4;
 	// System.Boolean System.IO.BinaryReader::m_disposed

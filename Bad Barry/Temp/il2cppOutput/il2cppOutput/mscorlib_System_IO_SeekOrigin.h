@@ -15,7 +15,7 @@
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.IO.SeekOrigin
-struct  SeekOrigin_t1313 
+struct  SeekOrigin_t1322 
 {
 	// System.Int32 System.IO.SeekOrigin::value__
 	int32_t ___value___1;

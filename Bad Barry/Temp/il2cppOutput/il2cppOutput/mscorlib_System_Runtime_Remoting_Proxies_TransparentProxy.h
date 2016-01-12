@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Proxies.RealProxy
-struct RealProxy_t1536;
+struct RealProxy_t1545;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Proxies.TransparentProxy
-struct  TransparentProxy_t1543  : public Object_t
+struct  TransparentProxy_t1552  : public Object_t
 {
 	// System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.Proxies.TransparentProxy::_rp
-	RealProxy_t1536 * ____rp_0;
+	RealProxy_t1545 * ____rp_0;
 };

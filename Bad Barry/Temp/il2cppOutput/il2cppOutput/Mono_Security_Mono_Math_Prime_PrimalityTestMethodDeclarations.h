@@ -28,11 +28,11 @@ struct AsyncCallback_t266;
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern "C" void PrimalityTest__ctor_m4785 (PrimalityTest_t920 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrimalityTest__ctor_m4788 (PrimalityTest_t920 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTest_Invoke_m4786 (PrimalityTest_t920 * __this, BigInteger_t796 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTest_Invoke_m4789 (PrimalityTest_t920 * __this, BigInteger_t796 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t920(Il2CppObject* delegate, BigInteger_t796 * ___bi, int32_t ___confidence);
 // System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern "C" Object_t * PrimalityTest_BeginInvoke_m4787 (PrimalityTest_t920 * __this, BigInteger_t796 * ___bi, int32_t ___confidence, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PrimalityTest_BeginInvoke_m4790 (PrimalityTest_t920 * __this, BigInteger_t796 * ___bi, int32_t ___confidence, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern "C" bool PrimalityTest_EndInvoke_m4788 (PrimalityTest_t920 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTest_EndInvoke_m4791 (PrimalityTest_t920 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

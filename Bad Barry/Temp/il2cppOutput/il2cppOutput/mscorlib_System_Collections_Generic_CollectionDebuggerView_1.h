@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.CollectionDebuggerView`1<System.Object>
-struct  CollectionDebuggerView_1_t2529  : public Object_t
+struct  CollectionDebuggerView_1_t2540  : public Object_t
 {
 };

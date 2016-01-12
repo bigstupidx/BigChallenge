@@ -18,10 +18,10 @@ struct Hashtable_t868;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.RemotingConfiguration
-struct  RemotingConfiguration_t1558  : public Object_t
+struct  RemotingConfiguration_t1567  : public Object_t
 {
 };
-struct RemotingConfiguration_t1558_StaticFields{
+struct RemotingConfiguration_t1567_StaticFields{
 	// System.String System.Runtime.Remoting.RemotingConfiguration::applicationID
 	String_t* ___applicationID_0;
 	// System.String System.Runtime.Remoting.RemotingConfiguration::applicationName

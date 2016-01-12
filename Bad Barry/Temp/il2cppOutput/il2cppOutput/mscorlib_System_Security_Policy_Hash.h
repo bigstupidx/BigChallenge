@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // System.Security.Policy.Hash
-struct  Hash_t1667  : public Object_t
+struct  Hash_t1676  : public Object_t
 {
 	// System.Reflection.Assembly System.Security.Policy.Hash::assembly
 	Assembly_t1133 * ___assembly_0;

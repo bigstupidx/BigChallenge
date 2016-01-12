@@ -18,7 +18,7 @@ struct ItemData_t64;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<ItemData>
-struct  Enumerator_t1955 
+struct  Enumerator_t1966 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<ItemData>::l
 	List_1_t47 * ___l_0;

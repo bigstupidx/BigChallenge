@@ -24,14 +24,14 @@ struct AnchorInfo_t1111;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.Literal::.ctor(System.String,System.Boolean)
-extern "C" void Literal__ctor_m5702 (Literal_t1104 * __this, String_t* ___str, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Literal__ctor_m5705 (Literal_t1104 * __this, String_t* ___str, bool ___ignore, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Literal::CompileLiteral(System.String,System.Text.RegularExpressions.ICompiler,System.Boolean,System.Boolean)
-extern "C" void Literal_CompileLiteral_m5703 (Object_t * __this /* static, unused */, String_t* ___str, Object_t * ___cmp, bool ___ignore, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Literal_CompileLiteral_m5706 (Object_t * __this /* static, unused */, String_t* ___str, Object_t * ___cmp, bool ___ignore, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Literal::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Literal_Compile_m5704 (Literal_t1104 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Literal_Compile_m5707 (Literal_t1104 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Literal::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Literal_GetWidth_m5705 (Literal_t1104 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Literal_GetWidth_m5708 (Literal_t1104 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.Literal::GetAnchorInfo(System.Boolean)
-extern "C" AnchorInfo_t1111 * Literal_GetAnchorInfo_m5706 (Literal_t1104 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AnchorInfo_t1111 * Literal_GetAnchorInfo_m5709 (Literal_t1104 * __this, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.Literal::IsComplex()
-extern "C" bool Literal_IsComplex_m5707 (Literal_t1104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Literal_IsComplex_m5710 (Literal_t1104 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

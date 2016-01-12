@@ -13,7 +13,7 @@
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // System.Runtime.Remoting.ChannelData
-struct ChannelData_t1560;
+struct ChannelData_t1569;
 // System.Collections.Stack
 struct Stack_t1078;
 // System.String
@@ -24,14 +24,14 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.ConfigHandler
-struct  ConfigHandler_t1559  : public Object_t
+struct  ConfigHandler_t1568  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.ConfigHandler::typeEntries
 	ArrayList_t803 * ___typeEntries_0;
 	// System.Collections.ArrayList System.Runtime.Remoting.ConfigHandler::channelInstances
 	ArrayList_t803 * ___channelInstances_1;
 	// System.Runtime.Remoting.ChannelData System.Runtime.Remoting.ConfigHandler::currentChannel
-	ChannelData_t1560 * ___currentChannel_2;
+	ChannelData_t1569 * ___currentChannel_2;
 	// System.Collections.Stack System.Runtime.Remoting.ConfigHandler::currentProviderData
 	Stack_t1078 * ___currentProviderData_3;
 	// System.String System.Runtime.Remoting.ConfigHandler::currentClientUrl
@@ -43,7 +43,7 @@ struct  ConfigHandler_t1559  : public Object_t
 	// System.Boolean System.Runtime.Remoting.ConfigHandler::onlyDelayedChannels
 	bool ___onlyDelayedChannels_7;
 };
-struct ConfigHandler_t1559_StaticFields{
+struct ConfigHandler_t1568_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.ConfigHandler::<>f__switch$map27
 	Dictionary_2_t276 * ___U3CU3Ef__switchU24map27_8;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.ConfigHandler::<>f__switch$map28

@@ -16,7 +16,7 @@ struct AttributeUsageAttribute_t1139;
 #include "mscorlib_System_Object.h"
 
 // System.MonoCustomAttrs/AttributeInfo
-struct  AttributeInfo_t1776  : public Object_t
+struct  AttributeInfo_t1787  : public Object_t
 {
 	// System.AttributeUsageAttribute System.MonoCustomAttrs/AttributeInfo::_usage
 	AttributeUsageAttribute_t1139 * ____usage_0;

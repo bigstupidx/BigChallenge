@@ -23,8 +23,8 @@ struct ObjectU5BU5D_t118;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.AssetBundleRequest::.ctor()
-extern "C" void AssetBundleRequest__ctor_m2628 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssetBundleRequest__ctor_m2631 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
-extern "C" Object_t112 * AssetBundleRequest_get_asset_m2629 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t112 * AssetBundleRequest_get_asset_m2632 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.AssetBundleRequest::get_allAssets()
-extern "C" ObjectU5BU5D_t118* AssetBundleRequest_get_allAssets_m2630 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t118* AssetBundleRequest_get_allAssets_m2633 (AssetBundleRequest_t466 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

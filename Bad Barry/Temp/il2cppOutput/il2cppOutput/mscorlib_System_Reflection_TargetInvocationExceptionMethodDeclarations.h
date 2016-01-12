@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Reflection.TargetInvocationException
-struct TargetInvocationException_t1425;
+struct TargetInvocationException_t1434;
 // System.Exception
 struct Exception_t115;
 // System.String
@@ -25,8 +25,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.TargetInvocationException::.ctor(System.Exception)
-extern "C" void TargetInvocationException__ctor_m8892 (TargetInvocationException_t1425 * __this, Exception_t115 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetInvocationException__ctor_m8974 (TargetInvocationException_t1434 * __this, Exception_t115 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetInvocationException::.ctor(System.String,System.Exception)
-extern "C" void TargetInvocationException__ctor_m8893 (TargetInvocationException_t1425 * __this, String_t* ___message, Exception_t115 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetInvocationException__ctor_m8975 (TargetInvocationException_t1434 * __this, String_t* ___message, Exception_t115 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.TargetInvocationException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TargetInvocationException__ctor_m8894 (TargetInvocationException_t1425 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TargetInvocationException__ctor_m8976 (TargetInvocationException_t1434 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

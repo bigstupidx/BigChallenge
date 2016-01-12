@@ -16,7 +16,7 @@ struct BitArray_t1110;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.BitArray/BitArrayEnumerator
-struct  BitArrayEnumerator_t1249  : public Object_t
+struct  BitArrayEnumerator_t1258  : public Object_t
 {
 	// System.Collections.BitArray System.Collections.BitArray/BitArrayEnumerator::_bitArray
 	BitArray_t1110 * ____bitArray_0;

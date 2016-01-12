@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Reflection.AmbiguousMatchException
-struct AmbiguousMatchException_t1374;
+struct AmbiguousMatchException_t1383;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -23,8 +23,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.AmbiguousMatchException::.ctor()
-extern "C" void AmbiguousMatchException__ctor_m8561 (AmbiguousMatchException_t1374 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AmbiguousMatchException__ctor_m8643 (AmbiguousMatchException_t1383 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AmbiguousMatchException::.ctor(System.String)
-extern "C" void AmbiguousMatchException__ctor_m8562 (AmbiguousMatchException_t1374 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AmbiguousMatchException__ctor_m8644 (AmbiguousMatchException_t1383 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.AmbiguousMatchException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void AmbiguousMatchException__ctor_m8563 (AmbiguousMatchException_t1374 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AmbiguousMatchException__ctor_m8645 (AmbiguousMatchException_t1383 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.TailoringInfo>
-struct  InternalEnumerator_1_t2525 
+struct  InternalEnumerator_1_t2536 
 {
 	// System.Array System.Array/InternalEnumerator`1<Mono.Globalization.Unicode.TailoringInfo>::array
 	Array_t * ___array_0;

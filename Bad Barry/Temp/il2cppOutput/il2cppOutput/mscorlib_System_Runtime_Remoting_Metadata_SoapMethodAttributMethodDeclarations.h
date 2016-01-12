@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.Metadata.SoapMethodAttribute
-struct SoapMethodAttribute_t1539;
+struct SoapMethodAttribute_t1548;
 // System.String
 struct String_t;
 // System.Object
@@ -22,10 +22,10 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Metadata.SoapMethodAttribute::.ctor()
-extern "C" void SoapMethodAttribute__ctor_m9312 (SoapMethodAttribute_t1539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SoapMethodAttribute__ctor_m9394 (SoapMethodAttribute_t1548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Metadata.SoapMethodAttribute::get_UseAttribute()
-extern "C" bool SoapMethodAttribute_get_UseAttribute_m9313 (SoapMethodAttribute_t1539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SoapMethodAttribute_get_UseAttribute_m9395 (SoapMethodAttribute_t1548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Metadata.SoapMethodAttribute::get_XmlNamespace()
-extern "C" String_t* SoapMethodAttribute_get_XmlNamespace_m9314 (SoapMethodAttribute_t1539 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SoapMethodAttribute_get_XmlNamespace_m9396 (SoapMethodAttribute_t1548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Metadata.SoapMethodAttribute::SetReflectionObject(System.Object)
-extern "C" void SoapMethodAttribute_SetReflectionObject_m9315 (SoapMethodAttribute_t1539 * __this, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SoapMethodAttribute_SetReflectionObject_m9397 (SoapMethodAttribute_t1548 * __this, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;

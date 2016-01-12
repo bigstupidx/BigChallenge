@@ -14,6 +14,6 @@
 #include "mscorlib_System_Threading_WaitHandle.h"
 
 // System.Threading.EventWaitHandle
-struct  EventWaitHandle_t1712  : public WaitHandle_t934
+struct  EventWaitHandle_t1722  : public WaitHandle_t934
 {
 };

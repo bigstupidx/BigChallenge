@@ -23,10 +23,10 @@ struct MethodInfo_t;
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
 // System.Runtime.Remoting.RemotingServices
-struct  RemotingServices_t1564  : public Object_t
+struct  RemotingServices_t1573  : public Object_t
 {
 };
-struct RemotingServices_t1564_StaticFields{
+struct RemotingServices_t1573_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.RemotingServices::uri_hash
 	Hashtable_t868 * ___uri_hash_0;
 	// System.Runtime.Serialization.Formatters.Binary.BinaryFormatter System.Runtime.Remoting.RemotingServices::_serializationFormatter

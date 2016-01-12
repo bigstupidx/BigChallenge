@@ -16,10 +16,10 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Services.TrackingServices
-struct  TrackingServices_t1546  : public Object_t
+struct  TrackingServices_t1555  : public Object_t
 {
 };
-struct TrackingServices_t1546_StaticFields{
+struct TrackingServices_t1555_StaticFields{
 	// System.Collections.ArrayList System.Runtime.Remoting.Services.TrackingServices::_handlers
 	ArrayList_t803 * ____handlers_0;
 };

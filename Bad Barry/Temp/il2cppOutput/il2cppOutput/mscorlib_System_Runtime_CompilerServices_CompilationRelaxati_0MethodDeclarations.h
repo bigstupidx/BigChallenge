@@ -13,10 +13,10 @@
 #include <exception>
 
 // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
-struct CompilationRelaxationsAttribute_t1444;
+struct CompilationRelaxationsAttribute_t1453;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_CompilerServices_CompilationRelaxati.h"
 
 // System.Void System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(System.Runtime.CompilerServices.CompilationRelaxations)
-extern "C" void CompilationRelaxationsAttribute__ctor_m8975 (CompilationRelaxationsAttribute_t1444 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompilationRelaxationsAttribute__ctor_m9057 (CompilationRelaxationsAttribute_t1453 * __this, int32_t ___relaxations, const MethodInfo* method) IL2CPP_METHOD_ATTR;

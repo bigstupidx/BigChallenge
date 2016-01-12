@@ -16,10 +16,10 @@ struct Hashtable_t868;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.InternalRemotingServices
-struct  InternalRemotingServices_t1554  : public Object_t
+struct  InternalRemotingServices_t1563  : public Object_t
 {
 };
-struct InternalRemotingServices_t1554_StaticFields{
+struct InternalRemotingServices_t1563_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.InternalRemotingServices::_soapAttributes
 	Hashtable_t868 * ____soapAttributes_0;
 };

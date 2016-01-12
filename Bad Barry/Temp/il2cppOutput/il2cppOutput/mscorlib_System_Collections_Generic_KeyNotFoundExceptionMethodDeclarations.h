@@ -21,6 +21,6 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor()
-extern "C" void KeyNotFoundException__ctor_m7303 (KeyNotFoundException_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyNotFoundException__ctor_m7379 (KeyNotFoundException_t763 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void KeyNotFoundException__ctor_m7304 (KeyNotFoundException_t763 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void KeyNotFoundException__ctor_m7380 (KeyNotFoundException_t763 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,7 +16,7 @@ struct Sprite_t67;
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.UI.DefaultControls/Resources
-struct  Resources_t214 
+struct  Resources_t215 
 {
 	// UnityEngine.Sprite UnityEngine.UI.DefaultControls/Resources::standard
 	Sprite_t67 * ___standard_0;

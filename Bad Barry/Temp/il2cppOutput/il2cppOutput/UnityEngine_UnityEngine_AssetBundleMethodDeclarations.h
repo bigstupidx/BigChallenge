@@ -27,8 +27,8 @@ struct ObjectU5BU5D_t118;
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Object UnityEngine.AssetBundle::LoadAsset(System.String,System.Type)
-extern "C" Object_t112 * AssetBundle_LoadAsset_m2631 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t112 * AssetBundle_LoadAsset_m2634 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.AssetBundle::LoadAsset_Internal(System.String,System.Type)
-extern "C" Object_t112 * AssetBundle_LoadAsset_Internal_m2632 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t112 * AssetBundle_LoadAsset_Internal_m2635 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object[] UnityEngine.AssetBundle::LoadAssetWithSubAssets_Internal(System.String,System.Type)
-extern "C" ObjectU5BU5D_t118* AssetBundle_LoadAssetWithSubAssets_Internal_m2633 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t118* AssetBundle_LoadAssetWithSubAssets_Internal_m2636 (AssetBundle_t467 * __this, String_t* ___name, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

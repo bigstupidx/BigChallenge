@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.Channels.SinkProviderData
-struct SinkProviderData_t1484;
+struct SinkProviderData_t1493;
 // System.String
 struct String_t;
 // System.Collections.IList
@@ -24,8 +24,8 @@ struct IDictionary_t732;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Channels.SinkProviderData::.ctor(System.String)
-extern "C" void SinkProviderData__ctor_m9054 (SinkProviderData_t1484 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SinkProviderData__ctor_m9136 (SinkProviderData_t1493 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IList System.Runtime.Remoting.Channels.SinkProviderData::get_Children()
-extern "C" Object_t * SinkProviderData_get_Children_m9055 (SinkProviderData_t1484 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SinkProviderData_get_Children_m9137 (SinkProviderData_t1493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Runtime.Remoting.Channels.SinkProviderData::get_Properties()
-extern "C" Object_t * SinkProviderData_get_Properties_m9056 (SinkProviderData_t1484 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SinkProviderData_get_Properties_m9138 (SinkProviderData_t1493 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

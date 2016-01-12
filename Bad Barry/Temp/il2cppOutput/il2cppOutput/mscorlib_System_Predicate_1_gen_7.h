@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<Tiled2Unity.TileAnimator/Frame>
-struct  Predicate_1_t1974  : public MulticastDelegate_t264
+struct  Predicate_1_t1985  : public MulticastDelegate_t264
 {
 };

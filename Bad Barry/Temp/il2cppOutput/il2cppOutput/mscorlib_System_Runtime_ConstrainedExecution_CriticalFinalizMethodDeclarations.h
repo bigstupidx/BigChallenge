@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
-struct CriticalFinalizerObject_t1451;
+struct CriticalFinalizerObject_t1460;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::.ctor()
-extern "C" void CriticalFinalizerObject__ctor_m8978 (CriticalFinalizerObject_t1451 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject__ctor_m9060 (CriticalFinalizerObject_t1460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.ConstrainedExecution.CriticalFinalizerObject::Finalize()
-extern "C" void CriticalFinalizerObject_Finalize_m8979 (CriticalFinalizerObject_t1451 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CriticalFinalizerObject_Finalize_m9061 (CriticalFinalizerObject_t1460 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,14 +13,14 @@
 // System.Reflection.ConstructorInfo
 struct ConstructorInfo_t683;
 // System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument>
-struct IList_1_t1397;
+struct IList_1_t1406;
 // System.Collections.Generic.IList`1<System.Reflection.CustomAttributeNamedArgument>
-struct IList_1_t1398;
+struct IList_1_t1407;
 
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.CustomAttributeData
-struct  CustomAttributeData_t1396  : public Object_t
+struct  CustomAttributeData_t1405  : public Object_t
 {
 	// System.Reflection.ConstructorInfo System.Reflection.CustomAttributeData::ctorInfo
 	ConstructorInfo_t683 * ___ctorInfo_0;

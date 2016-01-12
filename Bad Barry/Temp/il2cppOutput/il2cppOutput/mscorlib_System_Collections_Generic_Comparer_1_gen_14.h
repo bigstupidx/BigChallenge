@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Comparer`1<System.Guid>
-struct Comparer_1_t2602;
+struct Comparer_1_t2613;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Comparer`1<System.Guid>
-struct  Comparer_1_t2602  : public Object_t
+struct  Comparer_1_t2613  : public Object_t
 {
 };
-struct Comparer_1_t2602_StaticFields{
+struct Comparer_1_t2613_StaticFields{
 	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<System.Guid>::_default
-	Comparer_1_t2602 * ____default_0;
+	Comparer_1_t2613 * ____default_0;
 };

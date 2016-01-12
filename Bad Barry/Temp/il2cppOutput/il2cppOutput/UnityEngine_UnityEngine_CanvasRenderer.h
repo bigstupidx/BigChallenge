@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.CanvasRenderer
-struct  CanvasRenderer_t234  : public Component_t143
+struct  CanvasRenderer_t235  : public Component_t145
 {
 };

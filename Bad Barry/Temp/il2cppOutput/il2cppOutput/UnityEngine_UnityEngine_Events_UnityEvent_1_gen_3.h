@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "UnityEngine_UnityEngine_Events_UnityEventBase.h"
 
@@ -19,5 +19,5 @@ struct ObjectU5BU5D_t142;
 struct  UnityEvent_1_t260  : public UnityEventBase_t633
 {
 	// System.Object[] UnityEngine.Events.UnityEvent`1<System.String>::m_InvokeArray
-	ObjectU5BU5D_t142* ___m_InvokeArray_4;
+	ObjectU5BU5D_t144* ___m_InvokeArray_4;
 };

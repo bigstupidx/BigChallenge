@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Activation.ConstructionLevelActivator
-struct  ConstructionLevelActivator_t1473  : public Object_t
+struct  ConstructionLevelActivator_t1482  : public Object_t
 {
 };

@@ -22,4 +22,4 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Specialized.NameObjectCollectionBase/_Item::.ctor(System.String,System.Object)
-extern "C" void _Item__ctor_m4981 (_Item_t983 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void _Item__ctor_m4984 (_Item_t983 * __this, String_t* ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

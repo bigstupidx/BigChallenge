@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t181;
+struct BaseRaycaster_t183;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.EventSystems.BaseRaycaster>
-struct  Predicate_1_t2026  : public MulticastDelegate_t264
+struct  Predicate_1_t2037  : public MulticastDelegate_t264
 {
 };

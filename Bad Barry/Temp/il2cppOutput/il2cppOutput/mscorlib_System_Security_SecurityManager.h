@@ -15,19 +15,19 @@ struct Object_t;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Security.Permissions.SecurityPermission
-struct SecurityPermission_t1660;
+struct SecurityPermission_t1669;
 
 #include "mscorlib_System_Object.h"
 
 // System.Security.SecurityManager
-struct  SecurityManager_t1681  : public Object_t
+struct  SecurityManager_t1690  : public Object_t
 {
 };
-struct SecurityManager_t1681_StaticFields{
+struct SecurityManager_t1690_StaticFields{
 	// System.Object System.Security.SecurityManager::_lockObject
 	Object_t * ____lockObject_0;
 	// System.Collections.Hashtable System.Security.SecurityManager::_declsecCache
 	Hashtable_t868 * ____declsecCache_1;
 	// System.Security.Permissions.SecurityPermission System.Security.SecurityManager::_execution
-	SecurityPermission_t1660 * ____execution_2;
+	SecurityPermission_t1669 * ____execution_2;
 };

@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
-struct  InternalEnumerator_1_t2509 
+struct  InternalEnumerator_1_t2520 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::array
 	Array_t * ___array_0;

@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Threading.ThreadInterruptedException
-struct ThreadInterruptedException_t1721;
+struct ThreadInterruptedException_t1731;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 
@@ -21,6 +21,6 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadInterruptedException::.ctor()
-extern "C" void ThreadInterruptedException__ctor_m10503 (ThreadInterruptedException_t1721 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m10592 (ThreadInterruptedException_t1731 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadInterruptedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadInterruptedException__ctor_m10504 (ThreadInterruptedException_t1721 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadInterruptedException__ctor_m10593 (ThreadInterruptedException_t1731 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

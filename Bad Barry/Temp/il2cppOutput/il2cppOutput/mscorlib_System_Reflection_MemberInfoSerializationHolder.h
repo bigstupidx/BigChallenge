@@ -21,7 +21,7 @@ struct TypeU5BU5D_t651;
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
 // System.Reflection.MemberInfoSerializationHolder
-struct  MemberInfoSerializationHolder_t1404  : public Object_t
+struct  MemberInfoSerializationHolder_t1413  : public Object_t
 {
 	// System.String System.Reflection.MemberInfoSerializationHolder::_memberName
 	String_t* ____memberName_0;

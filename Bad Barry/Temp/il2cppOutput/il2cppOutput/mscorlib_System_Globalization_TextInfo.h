@@ -19,7 +19,7 @@ struct CultureInfo_t670;
 #include "mscorlib_System_Globalization_TextInfo_Data.h"
 
 // System.Globalization.TextInfo
-struct  TextInfo_t1193  : public Object_t
+struct  TextInfo_t1202  : public Object_t
 {
 	// System.String System.Globalization.TextInfo::m_listSeparator
 	String_t* ___m_listSeparator_0;
@@ -38,5 +38,5 @@ struct  TextInfo_t1193  : public Object_t
 	// System.Boolean System.Globalization.TextInfo::handleDotI
 	bool ___handleDotI_7;
 	// System.Globalization.TextInfo/Data System.Globalization.TextInfo::data
-	Data_t1287  ___data_8;
+	Data_t1296  ___data_8;
 };

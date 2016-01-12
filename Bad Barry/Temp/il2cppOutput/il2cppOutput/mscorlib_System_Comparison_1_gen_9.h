@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t148;
+struct BaseInputModule_t150;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.EventSystems.BaseInputModule>
-struct  Comparison_1_t1984  : public MulticastDelegate_t264
+struct  Comparison_1_t1995  : public MulticastDelegate_t264
 {
 };

@@ -15,7 +15,7 @@
 #include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModul_0.h"
 
 // UnityEngine.EventSystems.StandaloneInputModule/InputMode
-struct  InputMode_t192 
+struct  InputMode_t194 
 {
 	// System.Int32 UnityEngine.EventSystems.StandaloneInputModule/InputMode::value__
 	int32_t ___value___1;

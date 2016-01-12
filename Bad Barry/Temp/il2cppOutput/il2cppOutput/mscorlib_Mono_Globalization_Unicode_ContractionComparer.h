@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // Mono.Globalization.Unicode.ContractionComparer
-struct ContractionComparer_t1182;
+struct ContractionComparer_t1191;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.ContractionComparer
-struct  ContractionComparer_t1182  : public Object_t
+struct  ContractionComparer_t1191  : public Object_t
 {
 };
-struct ContractionComparer_t1182_StaticFields{
+struct ContractionComparer_t1191_StaticFields{
 	// Mono.Globalization.Unicode.ContractionComparer Mono.Globalization.Unicode.ContractionComparer::Instance
-	ContractionComparer_t1182 * ___Instance_0;
+	ContractionComparer_t1191 * ___Instance_0;
 };

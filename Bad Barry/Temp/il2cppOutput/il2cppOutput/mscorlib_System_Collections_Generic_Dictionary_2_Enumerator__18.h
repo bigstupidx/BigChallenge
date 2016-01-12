@@ -17,7 +17,7 @@ struct Dictionary_2_t751;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_19.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>
-struct  Enumerator_t2457 
+struct  Enumerator_t2468 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::dictionary
 	Dictionary_2_t751 * ___dictionary_0;
@@ -26,5 +26,5 @@ struct  Enumerator_t2457
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Type,LitJson.ExporterFunc>::current
-	KeyValuePair_2_t2455  ___current_3;
+	KeyValuePair_2_t2466  ___current_3;
 };

@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Reflection.Assembly/ResolveEventHolder
-struct ResolveEventHolder_t1375;
+struct ResolveEventHolder_t1384;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.Assembly/ResolveEventHolder::.ctor()
-extern "C" void ResolveEventHolder__ctor_m8564 (ResolveEventHolder_t1375 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventHolder__ctor_m8646 (ResolveEventHolder_t1384 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

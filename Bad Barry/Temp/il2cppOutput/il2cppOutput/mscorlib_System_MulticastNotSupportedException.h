@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.MulticastNotSupportedException
-struct  MulticastNotSupportedException_t1780  : public SystemException_t1134
+struct  MulticastNotSupportedException_t1791  : public SystemException_t1134
 {
 };

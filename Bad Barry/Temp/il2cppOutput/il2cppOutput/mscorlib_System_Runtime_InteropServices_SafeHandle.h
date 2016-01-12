@@ -15,7 +15,7 @@
 #include "mscorlib_System_IntPtr.h"
 
 // System.Runtime.InteropServices.SafeHandle
-struct  SafeHandle_t1175  : public CriticalFinalizerObject_t1451
+struct  SafeHandle_t1175  : public CriticalFinalizerObject_t1460
 {
 	// System.IntPtr System.Runtime.InteropServices.SafeHandle::handle
 	IntPtr_t ___handle_0;

@@ -18,4 +18,4 @@ struct InAttribute_t1154;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.InAttribute::.ctor()
-extern "C" void InAttribute__ctor_m6753 (InAttribute_t1154 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InAttribute__ctor_m6756 (InAttribute_t1154 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

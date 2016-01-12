@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Text.DecoderFallback
-struct DecoderFallback_t1686;
+struct DecoderFallback_t1696;
 // System.Text.EncoderFallback
-struct EncoderFallback_t1694;
+struct EncoderFallback_t1704;
 // System.Reflection.Assembly
 struct Assembly_t1133;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // System.String
 struct String_t;
 // System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile)
@@ -37,9 +37,9 @@ struct  Encoding_t938  : public Object_t
 	// System.Boolean System.Text.Encoding::is_readonly
 	bool ___is_readonly_2;
 	// System.Text.DecoderFallback System.Text.Encoding::decoder_fallback
-	DecoderFallback_t1686 * ___decoder_fallback_3;
+	DecoderFallback_t1696 * ___decoder_fallback_3;
 	// System.Text.EncoderFallback System.Text.Encoding::encoder_fallback
-	EncoderFallback_t1694 * ___encoder_fallback_4;
+	EncoderFallback_t1704 * ___encoder_fallback_4;
 	// System.String System.Text.Encoding::body_name
 	String_t* ___body_name_8;
 	// System.String System.Text.Encoding::encoding_name
@@ -63,7 +63,7 @@ struct Encoding_t938_StaticFields{
 	// System.Boolean System.Text.Encoding::i18nDisabled
 	bool ___i18nDisabled_6;
 	// System.Object[] System.Text.Encoding::encodings
-	ObjectU5BU5D_t142* ___encodings_7;
+	ObjectU5BU5D_t144* ___encodings_7;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
 	Encoding_t938 * ___asciiEncoding_16;
 	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianEncoding

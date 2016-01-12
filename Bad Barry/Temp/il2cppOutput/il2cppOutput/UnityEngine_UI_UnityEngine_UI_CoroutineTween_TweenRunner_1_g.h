@@ -18,7 +18,7 @@ struct IEnumerator_t109;
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween>
-struct  TweenRunner_1_t227  : public Object_t
+struct  TweenRunner_1_t228  : public Object_t
 {
 	// UnityEngine.MonoBehaviour UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween>::m_CoroutineContainer
 	MonoBehaviour_t2 * ___m_CoroutineContainer_0;

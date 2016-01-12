@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Contexts.IDynamicProperty
-struct IDynamicProperty_t1490;
+struct IDynamicProperty_t1499;
 // System.Runtime.Remoting.Contexts.IDynamicMessageSink
-struct IDynamicMessageSink_t1491;
+struct IDynamicMessageSink_t1500;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
-struct  DynamicPropertyReg_t1489  : public Object_t
+struct  DynamicPropertyReg_t1498  : public Object_t
 {
 	// System.Runtime.Remoting.Contexts.IDynamicProperty System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg::Property
 	Object_t * ___Property_0;

@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1531;
+struct ISurrogateSelector_t1540;
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t1579;
+struct SerializationBinder_t1588;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t1586;
+struct ObjectManager_t1595;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Object
@@ -28,18 +28,18 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
 
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader
-struct  ObjectReader_t1585  : public Object_t
+struct  ObjectReader_t1594  : public Object_t
 {
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.ObjectReader::_surrogateSelector
 	Object_t * ____surrogateSelector_0;
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.ObjectReader::_context
 	StreamingContext_t654  ____context_1;
 	// System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.ObjectReader::_binder
-	SerializationBinder_t1579 * ____binder_2;
+	SerializationBinder_t1588 * ____binder_2;
 	// System.Runtime.Serialization.Formatters.TypeFilterLevel System.Runtime.Serialization.Formatters.Binary.ObjectReader::_filterLevel
 	int32_t ____filterLevel_3;
 	// System.Runtime.Serialization.ObjectManager System.Runtime.Serialization.Formatters.Binary.ObjectReader::_manager
-	ObjectManager_t1586 * ____manager_4;
+	ObjectManager_t1595 * ____manager_4;
 	// System.Collections.Hashtable System.Runtime.Serialization.Formatters.Binary.ObjectReader::_registeredAssemblies
 	Hashtable_t868 * ____registeredAssemblies_5;
 	// System.Collections.Hashtable System.Runtime.Serialization.Formatters.Binary.ObjectReader::_typeMetadataCache

@@ -15,7 +15,7 @@
 #include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Bina_1.h"
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryElement
-struct  BinaryElement_t1575 
+struct  BinaryElement_t1584 
 {
 	// System.Byte System.Runtime.Serialization.Formatters.Binary.BinaryElement::value__
 	uint8_t ___value___1;

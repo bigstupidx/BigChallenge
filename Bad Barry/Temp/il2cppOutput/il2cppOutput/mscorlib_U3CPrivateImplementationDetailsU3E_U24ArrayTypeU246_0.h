@@ -15,7 +15,7 @@
 
 // <PrivateImplementationDetails>/$ArrayType$640
 #pragma pack(push, tp, 1)
-struct  U24ArrayTypeU24640_t1825 
+struct  U24ArrayTypeU24640_t1836 
 {
 	union
 	{
@@ -25,7 +25,7 @@ struct  U24ArrayTypeU24640_t1825
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU24640_t1825__padding[640];
+		uint8_t U24ArrayTypeU24640_t1836__padding[640];
 	};
 };
 #pragma pack(pop, tp)

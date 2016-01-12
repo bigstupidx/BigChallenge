@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.Runtime.Remoting.Messaging.OneWayAttribute
-struct  OneWayAttribute_t1527  : public Attribute_t510
+struct  OneWayAttribute_t1536  : public Attribute_t510
 {
 };

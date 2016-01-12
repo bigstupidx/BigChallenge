@@ -18,7 +18,7 @@ struct IDictionary_2_t758;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>
-struct  KeyValuePair_2_t2460 
+struct  KeyValuePair_2_t2471 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>::key
 	Type_t * ___key_0;

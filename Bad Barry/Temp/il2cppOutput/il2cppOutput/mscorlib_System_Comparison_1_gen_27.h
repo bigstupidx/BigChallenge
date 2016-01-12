@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.IClipper>
-struct  Comparison_1_t2206  : public MulticastDelegate_t264
+struct  Comparison_1_t2217  : public MulticastDelegate_t264
 {
 };

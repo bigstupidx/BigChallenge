@@ -22,10 +22,10 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.OidEnumerator::.ctor(System.Security.Cryptography.OidCollection)
-extern "C" void OidEnumerator__ctor_m5359 (OidEnumerator_t1052 * __this, OidCollection_t1038 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OidEnumerator__ctor_m5362 (OidEnumerator_t1052 * __this, OidCollection_t1038 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.OidEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * OidEnumerator_System_Collections_IEnumerator_get_Current_m5360 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * OidEnumerator_System_Collections_IEnumerator_get_Current_m5363 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.OidEnumerator::MoveNext()
-extern "C" bool OidEnumerator_MoveNext_m5361 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool OidEnumerator_MoveNext_m5364 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.OidEnumerator::Reset()
-extern "C" void OidEnumerator_Reset_m5362 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OidEnumerator_Reset_m5365 (OidEnumerator_t1052 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Predicate`1<UnityEngine.Vector4>
-struct Predicate_1_t2266;
+struct Predicate_1_t2277;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -26,14 +26,14 @@ struct AsyncCallback_t266;
 #include "UnityEngine_UnityEngine_Vector4.h"
 
 // System.Void System.Predicate`1<UnityEngine.Vector4>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m16564_gshared (Predicate_1_t2266 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m16564(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2266 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m16564_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m16657_gshared (Predicate_1_t2277 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m16657(__this, ___object, ___method, method) (( void (*) (Predicate_1_t2277 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m16657_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<UnityEngine.Vector4>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m16565_gshared (Predicate_1_t2266 * __this, Vector4_t354  ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m16565(__this, ___obj, method) (( bool (*) (Predicate_1_t2266 *, Vector4_t354 , const MethodInfo*))Predicate_1_Invoke_m16565_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m16658_gshared (Predicate_1_t2277 * __this, Vector4_t354  ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m16658(__this, ___obj, method) (( bool (*) (Predicate_1_t2277 *, Vector4_t354 , const MethodInfo*))Predicate_1_Invoke_m16658_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<UnityEngine.Vector4>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m16566_gshared (Predicate_1_t2266 * __this, Vector4_t354  ___obj, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m16566(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2266 *, Vector4_t354 , AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m16566_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m16659_gshared (Predicate_1_t2277 * __this, Vector4_t354  ___obj, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m16659(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t2277 *, Vector4_t354 , AsyncCallback_t266 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m16659_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<UnityEngine.Vector4>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m16567_gshared (Predicate_1_t2266 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m16567(__this, ___result, method) (( bool (*) (Predicate_1_t2266 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m16567_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m16660_gshared (Predicate_1_t2277 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m16660(__this, ___result, method) (( bool (*) (Predicate_1_t2277 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m16660_gshared)(__this, ___result, method)

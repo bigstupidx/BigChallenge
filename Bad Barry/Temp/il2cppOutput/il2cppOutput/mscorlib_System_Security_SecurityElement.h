@@ -20,7 +20,7 @@ struct CharU5BU5D_t275;
 #include "mscorlib_System_Object.h"
 
 // System.Security.SecurityElement
-struct  SecurityElement_t1238  : public Object_t
+struct  SecurityElement_t1247  : public Object_t
 {
 	// System.String System.Security.SecurityElement::text
 	String_t* ___text_0;
@@ -31,7 +31,7 @@ struct  SecurityElement_t1238  : public Object_t
 	// System.Collections.ArrayList System.Security.SecurityElement::children
 	ArrayList_t803 * ___children_3;
 };
-struct SecurityElement_t1238_StaticFields{
+struct SecurityElement_t1247_StaticFields{
 	// System.Char[] System.Security.SecurityElement::invalid_tag_chars
 	CharU5BU5D_t275* ___invalid_tag_chars_4;
 	// System.Char[] System.Security.SecurityElement::invalid_text_chars

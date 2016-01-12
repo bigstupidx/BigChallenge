@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievement>
-struct  InternalEnumerator_1_t2295 
+struct  InternalEnumerator_1_t2306 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.IAchievement>::array
 	Array_t * ___array_0;

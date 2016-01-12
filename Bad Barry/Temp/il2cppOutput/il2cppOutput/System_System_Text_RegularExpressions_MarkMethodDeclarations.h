@@ -17,8 +17,8 @@
 #include "System_System_Text_RegularExpressions_Mark.h"
 
 // System.Boolean System.Text.RegularExpressions.Mark::get_IsDefined()
-extern "C" bool Mark_get_IsDefined_m5520 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Mark_get_IsDefined_m5523 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Mark::get_Index()
-extern "C" int32_t Mark_get_Index_m5521 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Mark_get_Index_m5524 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Mark::get_Length()
-extern "C" int32_t Mark_get_Length_m5522 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Mark_get_Length_m5525 (Mark_t1079 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

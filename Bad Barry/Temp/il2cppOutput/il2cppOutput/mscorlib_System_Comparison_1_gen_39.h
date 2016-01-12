@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.Events.PersistentCall>
-struct  Comparison_1_t2366  : public MulticastDelegate_t264
+struct  Comparison_1_t2377  : public MulticastDelegate_t264
 {
 };

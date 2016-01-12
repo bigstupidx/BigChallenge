@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Text_DecoderFallbackBuffer.h"
 
 // System.Text.DecoderReplacementFallbackBuffer
-struct  DecoderReplacementFallbackBuffer_t1692  : public DecoderFallbackBuffer_t1687
+struct  DecoderReplacementFallbackBuffer_t1702  : public DecoderFallbackBuffer_t1697
 {
 	// System.Boolean System.Text.DecoderReplacementFallbackBuffer::fallback_assigned
 	bool ___fallback_assigned_0;

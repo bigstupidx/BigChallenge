@@ -13,7 +13,7 @@
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t461;
 // System.Collections.Generic.IEnumerator`1<System.Object>
-struct IEnumerator_1_t2200;
+struct IEnumerator_1_t2211;
 // System.Object
 struct Object_t;
 // System.Func`2<System.Object,System.Boolean>
@@ -22,7 +22,7 @@ struct Func_2_t462;
 #include "mscorlib_System_Object.h"
 
 // System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>
-struct  U3CCreateWhereIteratorU3Ec__Iterator1D_1_t2199  : public Object_t
+struct  U3CCreateWhereIteratorU3Ec__Iterator1D_1_t2210  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateWhereIterator>c__Iterator1D`1<System.Object>::source
 	Object_t* ___source_0;

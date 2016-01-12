@@ -14,6 +14,6 @@
 #include "mscorlib_System_Runtime_Remoting_ServerIdentity.h"
 
 // System.Runtime.Remoting.ClientActivatedIdentity
-struct  ClientActivatedIdentity_t1565  : public ServerIdentity_t1168
+struct  ClientActivatedIdentity_t1574  : public ServerIdentity_t1168
 {
 };

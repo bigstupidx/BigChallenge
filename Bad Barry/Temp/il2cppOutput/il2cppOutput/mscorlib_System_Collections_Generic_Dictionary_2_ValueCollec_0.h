@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Dictionary_2_t191;
+struct Dictionary_2_t193;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,5 +19,5 @@ struct Dictionary_2_t191;
 struct  ValueCollection_t397  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.EventSystems.PointerEventData>::dictionary
-	Dictionary_2_t191 * ___dictionary_0;
+	Dictionary_2_t193 * ___dictionary_0;
 };

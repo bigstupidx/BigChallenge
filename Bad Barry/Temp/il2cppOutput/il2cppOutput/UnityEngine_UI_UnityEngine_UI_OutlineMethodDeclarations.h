@@ -20,6 +20,6 @@ struct VertexHelper_t239;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.Outline::.ctor()
-extern "C" void Outline__ctor_m2043 (Outline_t357 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Outline__ctor_m2046 (Outline_t357 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Outline::ModifyMesh(UnityEngine.UI.VertexHelper)
-extern "C" void Outline_ModifyMesh_m2044 (Outline_t357 * __this, VertexHelper_t239 * ___vh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Outline_ModifyMesh_m2047 (Outline_t357 * __this, VertexHelper_t239 * ___vh, const MethodInfo* method) IL2CPP_METHOD_ATTR;

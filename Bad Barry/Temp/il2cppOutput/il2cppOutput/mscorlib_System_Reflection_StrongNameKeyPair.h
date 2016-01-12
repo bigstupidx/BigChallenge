@@ -20,7 +20,7 @@ struct RSA_t823;
 #include "mscorlib_System_Object.h"
 
 // System.Reflection.StrongNameKeyPair
-struct  StrongNameKeyPair_t1388  : public Object_t
+struct  StrongNameKeyPair_t1397  : public Object_t
 {
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_publicKey
 	ByteU5BU5D_t772* ____publicKey_0;

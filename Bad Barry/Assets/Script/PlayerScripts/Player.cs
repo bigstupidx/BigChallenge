@@ -187,6 +187,7 @@ public class Player : MonoBehaviour {
 				foreach(GameObject enemy in vision.enemies){
 					//facada
 					enemy.GetComponent<Enemy>().TakeDamage(100);
+					break;
 					
 				}
 				vision.enemies.RemoveRange(0,vision.enemies.Count);

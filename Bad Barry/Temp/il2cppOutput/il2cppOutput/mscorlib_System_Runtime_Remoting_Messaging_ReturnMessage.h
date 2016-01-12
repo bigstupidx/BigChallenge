@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct LogicalCallContext_t1520;
+struct LogicalCallContext_t1529;
 // System.Object
 struct Object_t;
 // System.String
@@ -25,23 +25,23 @@ struct MethodBase_t675;
 // System.Type[]
 struct TypeU5BU5D_t651;
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
-struct MethodReturnDictionary_t1525;
+struct MethodReturnDictionary_t1534;
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct ArgInfo_t1507;
+struct ArgInfo_t1516;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.ReturnMessage
-struct  ReturnMessage_t1532  : public Object_t
+struct  ReturnMessage_t1541  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_outArgs
-	ObjectU5BU5D_t142* ____outArgs_0;
+	ObjectU5BU5D_t144* ____outArgs_0;
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_args
-	ObjectU5BU5D_t142* ____args_1;
+	ObjectU5BU5D_t144* ____args_1;
 	// System.Int32 System.Runtime.Remoting.Messaging.ReturnMessage::_outArgsCount
 	int32_t ____outArgsCount_2;
 	// System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.ReturnMessage::_callCtx
-	LogicalCallContext_t1520 * ____callCtx_3;
+	LogicalCallContext_t1529 * ____callCtx_3;
 	// System.Object System.Runtime.Remoting.Messaging.ReturnMessage::_returnValue
 	Object_t * ____returnValue_4;
 	// System.String System.Runtime.Remoting.Messaging.ReturnMessage::_uri
@@ -57,7 +57,7 @@ struct  ReturnMessage_t1532  : public Object_t
 	// System.String System.Runtime.Remoting.Messaging.ReturnMessage::_typeName
 	String_t* ____typeName_10;
 	// System.Runtime.Remoting.Messaging.MethodReturnDictionary System.Runtime.Remoting.Messaging.ReturnMessage::_properties
-	MethodReturnDictionary_t1525 * ____properties_11;
+	MethodReturnDictionary_t1534 * ____properties_11;
 	// System.Runtime.Remoting.Messaging.ArgInfo System.Runtime.Remoting.Messaging.ReturnMessage::_inArgInfo
-	ArgInfo_t1507 * ____inArgInfo_12;
+	ArgInfo_t1516 * ____inArgInfo_12;
 };

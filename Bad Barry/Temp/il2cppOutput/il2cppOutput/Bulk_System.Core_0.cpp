@@ -18,7 +18,7 @@ struct ExtensionAttribute_t766;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // System.Security.Cryptography.RandomNumberGenerator
 struct RandomNumberGenerator_t769;
 // System.Byte[]
@@ -118,15 +118,15 @@ struct UInt32U5BU5D_t778;
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern "C" void ExtensionAttribute__ctor_m3852 (ExtensionAttribute_t766 * __this, const MethodInfo* method)
+extern "C" void ExtensionAttribute__ctor_m3855 (ExtensionAttribute_t766 * __this, const MethodInfo* method)
 {
 	{
-		Attribute__ctor_m3563(__this, /*hidden argument*/NULL);
+		Attribute__ctor_m3566(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String Locale::GetText(System.String)
-extern "C" String_t* Locale_GetText_m3853 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method)
+extern "C" String_t* Locale_GetText_m3856 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___msg;
@@ -135,7 +135,7 @@ extern "C" String_t* Locale_GetText_m3853 (Object_t * __this /* static, unused *
 }
 // System.String Locale::GetText(System.String,System.Object[])
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* Locale_GetText_m3854 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t142* ___args, const MethodInfo* method)
+extern "C" String_t* Locale_GetText_m3857 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t144* ___args, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -145,15 +145,15 @@ extern "C" String_t* Locale_GetText_m3854 (Object_t * __this /* static, unused *
 	}
 	{
 		String_t* L_0 = ___fmt;
-		ObjectU5BU5D_t142* L_1 = ___args;
+		ObjectU5BU5D_t144* L_1 = ___args;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_2 = String_Format_m2530(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		String_t* L_2 = String_Format_m2533(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.KeyBuilder::get_Rng()
 extern TypeInfo* KeyBuilder_t768_il2cpp_TypeInfo_var;
-extern "C" RandomNumberGenerator_t769 * KeyBuilder_get_Rng_m3855 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" RandomNumberGenerator_t769 * KeyBuilder_get_Rng_m3858 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -169,7 +169,7 @@ extern "C" RandomNumberGenerator_t769 * KeyBuilder_get_Rng_m3855 (Object_t * __t
 		}
 	}
 	{
-		RandomNumberGenerator_t769 * L_1 = RandomNumberGenerator_Create_m3899(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RandomNumberGenerator_t769 * L_1 = RandomNumberGenerator_Create_m3902(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((KeyBuilder_t768_StaticFields*)KeyBuilder_t768_il2cpp_TypeInfo_var->static_fields)->___rng_0 = L_1;
 	}
 
@@ -181,7 +181,7 @@ IL_0014:
 }
 // System.Byte[] Mono.Security.Cryptography.KeyBuilder::Key(System.Int32)
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
-extern "C" ByteU5BU5D_t772* KeyBuilder_Key_m3856 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method)
+extern "C" ByteU5BU5D_t772* KeyBuilder_Key_m3859 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -193,7 +193,7 @@ extern "C" ByteU5BU5D_t772* KeyBuilder_Key_m3856 (Object_t * __this /* static, u
 	{
 		int32_t L_0 = ___size;
 		V_0 = ((ByteU5BU5D_t772*)SZArrayNew(ByteU5BU5D_t772_il2cpp_TypeInfo_var, L_0));
-		RandomNumberGenerator_t769 * L_1 = KeyBuilder_get_Rng_m3855(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RandomNumberGenerator_t769 * L_1 = KeyBuilder_get_Rng_m3858(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_2 = V_0;
 		NullCheck(L_1);
 		VirtActionInvoker1< ByteU5BU5D_t772* >::Invoke(4 /* System.Void System.Security.Cryptography.RandomNumberGenerator::GetBytes(System.Byte[]) */, L_1, L_2);
@@ -203,7 +203,7 @@ extern "C" ByteU5BU5D_t772* KeyBuilder_Key_m3856 (Object_t * __this /* static, u
 }
 // System.Byte[] Mono.Security.Cryptography.KeyBuilder::IV(System.Int32)
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
-extern "C" ByteU5BU5D_t772* KeyBuilder_IV_m3857 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method)
+extern "C" ByteU5BU5D_t772* KeyBuilder_IV_m3860 (Object_t * __this /* static, unused */, int32_t ___size, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -215,7 +215,7 @@ extern "C" ByteU5BU5D_t772* KeyBuilder_IV_m3857 (Object_t * __this /* static, un
 	{
 		int32_t L_0 = ___size;
 		V_0 = ((ByteU5BU5D_t772*)SZArrayNew(ByteU5BU5D_t772_il2cpp_TypeInfo_var, L_0));
-		RandomNumberGenerator_t769 * L_1 = KeyBuilder_get_Rng_m3855(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RandomNumberGenerator_t769 * L_1 = KeyBuilder_get_Rng_m3858(NULL /*static, unused*/, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_2 = V_0;
 		NullCheck(L_1);
 		VirtActionInvoker1< ByteU5BU5D_t772* >::Invoke(4 /* System.Void System.Security.Cryptography.RandomNumberGenerator::GetBytes(System.Byte[]) */, L_1, L_2);
@@ -225,20 +225,20 @@ extern "C" ByteU5BU5D_t772* KeyBuilder_IV_m3857 (Object_t * __this /* static, un
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::.ctor(System.Security.Cryptography.SymmetricAlgorithm,System.Boolean,System.Byte[])
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t142_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t144_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral354;
-extern "C" void SymmetricTransform__ctor_m3858 (SymmetricTransform_t770 * __this, SymmetricAlgorithm_t771 * ___symmAlgo, bool ___encryption, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral356;
+extern "C" void SymmetricTransform__ctor_m3861 (SymmetricTransform_t770 * __this, SymmetricAlgorithm_t771 * ___symmAlgo, bool ___encryption, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ByteU5BU5D_t772_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(484);
-		ObjectU5BU5D_t142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(130);
+		ObjectU5BU5D_t144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(131);
 		Int32_t125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(35);
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral354 = il2cpp_codegen_string_literal_from_index(354);
+		_stringLiteral356 = il2cpp_codegen_string_literal_from_index(356);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -260,7 +260,7 @@ extern "C" void SymmetricTransform__ctor_m3858 (SymmetricTransform_t770 * __this
 	}
 	{
 		int32_t L_5 = (__this->___BlockSizeByte_2);
-		ByteU5BU5D_t772* L_6 = KeyBuilder_IV_m3857(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_6 = KeyBuilder_IV_m3860(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		___rgbIV = L_6;
 		goto IL_004c;
 	}
@@ -284,7 +284,7 @@ IL_004c:
 		}
 	}
 	{
-		ObjectU5BU5D_t142* L_11 = ((ObjectU5BU5D_t142*)SZArrayNew(ObjectU5BU5D_t142_il2cpp_TypeInfo_var, 2));
+		ObjectU5BU5D_t144* L_11 = ((ObjectU5BU5D_t144*)SZArrayNew(ObjectU5BU5D_t144_il2cpp_TypeInfo_var, 2));
 		ByteU5BU5D_t772* L_12 = ___rgbIV;
 		NullCheck(L_12);
 		int32_t L_13 = (((int32_t)((int32_t)(((Array_t *)L_12)->max_length))));
@@ -293,7 +293,7 @@ IL_004c:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
 		ArrayElementTypeCheck (L_11, L_14);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_11, 0, sizeof(Object_t *))) = (Object_t *)L_14;
-		ObjectU5BU5D_t142* L_15 = L_11;
+		ObjectU5BU5D_t144* L_15 = L_11;
 		int32_t L_16 = (__this->___BlockSizeByte_2);
 		int32_t L_17 = L_16;
 		Object_t * L_18 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_17);
@@ -301,11 +301,11 @@ IL_004c:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, 1);
 		ArrayElementTypeCheck (L_15, L_18);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_15, 1, sizeof(Object_t *))) = (Object_t *)L_18;
-		String_t* L_19 = Locale_GetText_m3854(NULL /*static, unused*/, _stringLiteral354, L_15, /*hidden argument*/NULL);
+		String_t* L_19 = Locale_GetText_m3857(NULL /*static, unused*/, _stringLiteral356, L_15, /*hidden argument*/NULL);
 		V_0 = L_19;
 		String_t* L_20 = V_0;
 		CryptographicException_t784 * L_21 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_21, L_20, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_21, L_20, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_21);
 	}
 
@@ -318,8 +318,8 @@ IL_008b:
 		int32_t L_25 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_26 = ___rgbIV;
 		NullCheck(L_26);
-		int32_t L_27 = Math_Min_m3901(NULL /*static, unused*/, L_25, (((int32_t)((int32_t)(((Array_t *)L_26)->max_length)))), /*hidden argument*/NULL);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_23, 0, (Array_t *)(Array_t *)L_24, 0, L_27, /*hidden argument*/NULL);
+		int32_t L_27 = Math_Min_m3904(NULL /*static, unused*/, L_25, (((int32_t)((int32_t)(((Array_t *)L_26)->max_length)))), /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_23, 0, (Array_t *)(Array_t *)L_24, 0, L_27, /*hidden argument*/NULL);
 		int32_t L_28 = (__this->___BlockSizeByte_2);
 		__this->___temp2_4 = ((ByteU5BU5D_t772*)SZArrayNew(ByteU5BU5D_t772_il2cpp_TypeInfo_var, L_28));
 		SymmetricAlgorithm_t771 * L_29 = (__this->___algo_0);
@@ -348,16 +348,16 @@ IL_00fa:
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::System.IDisposable.Dispose()
-extern "C" void SymmetricTransform_System_IDisposable_Dispose_m3859 (SymmetricTransform_t770 * __this, const MethodInfo* method)
+extern "C" void SymmetricTransform_System_IDisposable_Dispose_m3862 (SymmetricTransform_t770 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker1< bool >::Invoke(8 /* System.Void Mono.Security.Cryptography.SymmetricTransform::Dispose(System.Boolean) */, __this, 1);
-		GC_SuppressFinalize_m3903(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		GC_SuppressFinalize_m3906(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Finalize()
-extern "C" void SymmetricTransform_Finalize_m3860 (SymmetricTransform_t770 * __this, const MethodInfo* method)
+extern "C" void SymmetricTransform_Finalize_m3863 (SymmetricTransform_t770 * __this, const MethodInfo* method)
 {
 	Exception_t115 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -380,7 +380,7 @@ IL_0000:
 
 FINALLY_000c:
 	{ // begin finally (depth: 1)
-		Object_Finalize_m3539(__this, /*hidden argument*/NULL);
+		Object_Finalize_m3542(__this, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(12)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(12)
@@ -395,7 +395,7 @@ IL_0013:
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Dispose(System.Boolean)
-extern "C" void SymmetricTransform_Dispose_m3861 (SymmetricTransform_t770 * __this, bool ___disposing, const MethodInfo* method)
+extern "C" void SymmetricTransform_Dispose_m3864 (SymmetricTransform_t770 * __this, bool ___disposing, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___m_disposed_9);
@@ -414,11 +414,11 @@ extern "C" void SymmetricTransform_Dispose_m3861 (SymmetricTransform_t770 * __th
 	{
 		ByteU5BU5D_t772* L_2 = (__this->___temp_3);
 		int32_t L_3 = (__this->___BlockSizeByte_2);
-		Array_Clear_m3904(NULL /*static, unused*/, (Array_t *)(Array_t *)L_2, 0, L_3, /*hidden argument*/NULL);
+		Array_Clear_m3907(NULL /*static, unused*/, (Array_t *)(Array_t *)L_2, 0, L_3, /*hidden argument*/NULL);
 		__this->___temp_3 = (ByteU5BU5D_t772*)NULL;
 		ByteU5BU5D_t772* L_4 = (__this->___temp2_4);
 		int32_t L_5 = (__this->___BlockSizeByte_2);
-		Array_Clear_m3904(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, 0, L_5, /*hidden argument*/NULL);
+		Array_Clear_m3907(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, 0, L_5, /*hidden argument*/NULL);
 		__this->___temp2_4 = (ByteU5BU5D_t772*)NULL;
 	}
 
@@ -433,7 +433,7 @@ IL_004a:
 	}
 }
 // System.Boolean Mono.Security.Cryptography.SymmetricTransform::get_CanReuseTransform()
-extern "C" bool SymmetricTransform_get_CanReuseTransform_m3862 (SymmetricTransform_t770 * __this, const MethodInfo* method)
+extern "C" bool SymmetricTransform_get_CanReuseTransform_m3865 (SymmetricTransform_t770 * __this, const MethodInfo* method)
 {
 	{
 		return 0;
@@ -443,8 +443,8 @@ extern "C" bool SymmetricTransform_get_CanReuseTransform_m3862 (SymmetricTransfo
 extern TypeInfo* CipherMode_t785_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* NotImplementedException_t786_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral355;
-extern "C" void SymmetricTransform_Transform_m3863 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral357;
+extern "C" void SymmetricTransform_Transform_m3866 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -452,7 +452,7 @@ extern "C" void SymmetricTransform_Transform_m3863 (SymmetricTransform_t770 * __
 		CipherMode_t785_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(486);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		NotImplementedException_t786_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(487);
-		_stringLiteral355 = il2cpp_codegen_string_literal_from_index(355);
+		_stringLiteral357 = il2cpp_codegen_string_literal_from_index(357);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
@@ -537,9 +537,9 @@ IL_006e:
 		NullCheck(L_16);
 		String_t* L_17 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, L_16);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_18 = String_Concat_m529(NULL /*static, unused*/, _stringLiteral355, L_17, /*hidden argument*/NULL);
+		String_t* L_18 = String_Concat_m530(NULL /*static, unused*/, _stringLiteral357, L_17, /*hidden argument*/NULL);
 		NotImplementedException_t786 * L_19 = (NotImplementedException_t786 *)il2cpp_codegen_object_new (NotImplementedException_t786_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m3905(L_19, L_18, /*hidden argument*/NULL);
+		NotImplementedException__ctor_m3908(L_19, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_19);
 	}
 
@@ -549,7 +549,7 @@ IL_0093:
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CBC(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_CBC_m3864 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern "C" void SymmetricTransform_CBC_m3867 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -598,7 +598,7 @@ IL_002a:
 		ByteU5BU5D_t772* L_12 = ___output;
 		ByteU5BU5D_t772* L_13 = (__this->___temp_3);
 		int32_t L_14 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_12, 0, (Array_t *)(Array_t *)L_13, 0, L_14, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_12, 0, (Array_t *)(Array_t *)L_13, 0, L_14, /*hidden argument*/NULL);
 		goto IL_00bc;
 	}
 
@@ -607,7 +607,7 @@ IL_005c:
 		ByteU5BU5D_t772* L_15 = ___input;
 		ByteU5BU5D_t772* L_16 = (__this->___temp2_4);
 		int32_t L_17 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_15, 0, (Array_t *)(Array_t *)L_16, 0, L_17, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_15, 0, (Array_t *)(Array_t *)L_16, 0, L_17, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_18 = ___input;
 		ByteU5BU5D_t772* L_19 = ___output;
 		VirtActionInvoker2< ByteU5BU5D_t772*, ByteU5BU5D_t772* >::Invoke(11 /* System.Void Mono.Security.Cryptography.SymmetricTransform::ECB(System.Byte[],System.Byte[]) */, __this, L_18, L_19);
@@ -645,7 +645,7 @@ IL_0097:
 		ByteU5BU5D_t772* L_29 = (__this->___temp2_4);
 		ByteU5BU5D_t772* L_30 = (__this->___temp_3);
 		int32_t L_31 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_29, 0, (Array_t *)(Array_t *)L_30, 0, L_31, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_29, 0, (Array_t *)(Array_t *)L_30, 0, L_31, /*hidden argument*/NULL);
 	}
 
 IL_00bc:
@@ -654,7 +654,7 @@ IL_00bc:
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CFB(System.Byte[],System.Byte[])
-extern "C" void SymmetricTransform_CFB_m3865 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern "C" void SymmetricTransform_CFB_m3868 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -719,14 +719,14 @@ IL_0043:
 		ByteU5BU5D_t772* L_18 = (__this->___temp_3);
 		int32_t L_19 = (__this->___BlockSizeByte_2);
 		int32_t L_20 = (__this->___FeedBackByte_7);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_16, L_17, (Array_t *)(Array_t *)L_18, 0, ((int32_t)((int32_t)L_19-(int32_t)L_20)), /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_16, L_17, (Array_t *)(Array_t *)L_18, 0, ((int32_t)((int32_t)L_19-(int32_t)L_20)), /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_21 = ___output;
 		int32_t L_22 = V_0;
 		ByteU5BU5D_t772* L_23 = (__this->___temp_3);
 		int32_t L_24 = (__this->___BlockSizeByte_2);
 		int32_t L_25 = (__this->___FeedBackByte_7);
 		int32_t L_26 = (__this->___FeedBackByte_7);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_21, L_22, (Array_t *)(Array_t *)L_23, ((int32_t)((int32_t)L_24-(int32_t)L_25)), L_26, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_21, L_22, (Array_t *)(Array_t *)L_23, ((int32_t)((int32_t)L_24-(int32_t)L_25)), L_26, /*hidden argument*/NULL);
 		int32_t L_27 = V_0;
 		V_0 = ((int32_t)((int32_t)L_27+(int32_t)1));
 	}
@@ -762,14 +762,14 @@ IL_00b0:
 		ByteU5BU5D_t772* L_34 = (__this->___temp_3);
 		int32_t L_35 = (__this->___BlockSizeByte_2);
 		int32_t L_36 = (__this->___FeedBackByte_7);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_32, L_33, (Array_t *)(Array_t *)L_34, 0, ((int32_t)((int32_t)L_35-(int32_t)L_36)), /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_32, L_33, (Array_t *)(Array_t *)L_34, 0, ((int32_t)((int32_t)L_35-(int32_t)L_36)), /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_37 = ___input;
 		int32_t L_38 = V_2;
 		ByteU5BU5D_t772* L_39 = (__this->___temp_3);
 		int32_t L_40 = (__this->___BlockSizeByte_2);
 		int32_t L_41 = (__this->___FeedBackByte_7);
 		int32_t L_42 = (__this->___FeedBackByte_7);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_37, L_38, (Array_t *)(Array_t *)L_39, ((int32_t)((int32_t)L_40-(int32_t)L_41)), L_42, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_37, L_38, (Array_t *)(Array_t *)L_39, ((int32_t)((int32_t)L_40-(int32_t)L_41)), L_42, /*hidden argument*/NULL);
 		V_3 = 0;
 		goto IL_0134;
 	}
@@ -828,37 +828,37 @@ IL_0150:
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::OFB(System.Byte[],System.Byte[])
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral356;
-extern "C" void SymmetricTransform_OFB_m3866 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral358;
+extern "C" void SymmetricTransform_OFB_m3869 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral356 = il2cpp_codegen_string_literal_from_index(356);
+		_stringLiteral358 = il2cpp_codegen_string_literal_from_index(358);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		CryptographicException_t784 * L_0 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_0, _stringLiteral356, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_0, _stringLiteral358, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_0);
 	}
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::CTS(System.Byte[],System.Byte[])
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral357;
-extern "C" void SymmetricTransform_CTS_m3867 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral359;
+extern "C" void SymmetricTransform_CTS_m3870 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral357 = il2cpp_codegen_string_literal_from_index(357);
+		_stringLiteral359 = il2cpp_codegen_string_literal_from_index(359);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		CryptographicException_t784 * L_0 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_0, _stringLiteral357, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_0, _stringLiteral359, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_0);
 	}
 }
@@ -866,12 +866,12 @@ extern "C" void SymmetricTransform_CTS_m3867 (SymmetricTransform_t770 * __this, 
 extern TypeInfo* ArgumentNullException_t110_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t444_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral358;
-extern Il2CppCodeGenString* _stringLiteral359;
 extern Il2CppCodeGenString* _stringLiteral360;
 extern Il2CppCodeGenString* _stringLiteral361;
 extern Il2CppCodeGenString* _stringLiteral362;
-extern "C" void SymmetricTransform_CheckInput_m3868 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral363;
+extern Il2CppCodeGenString* _stringLiteral364;
+extern "C" void SymmetricTransform_CheckInput_m3871 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -879,11 +879,11 @@ extern "C" void SymmetricTransform_CheckInput_m3868 (SymmetricTransform_t770 * _
 		ArgumentNullException_t110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6);
 		ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(488);
 		ArgumentException_t444_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(277);
-		_stringLiteral358 = il2cpp_codegen_string_literal_from_index(358);
-		_stringLiteral359 = il2cpp_codegen_string_literal_from_index(359);
 		_stringLiteral360 = il2cpp_codegen_string_literal_from_index(360);
 		_stringLiteral361 = il2cpp_codegen_string_literal_from_index(361);
 		_stringLiteral362 = il2cpp_codegen_string_literal_from_index(362);
+		_stringLiteral363 = il2cpp_codegen_string_literal_from_index(363);
+		_stringLiteral364 = il2cpp_codegen_string_literal_from_index(364);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -895,7 +895,7 @@ extern "C" void SymmetricTransform_CheckInput_m3868 (SymmetricTransform_t770 * _
 	}
 	{
 		ArgumentNullException_t110 * L_1 = (ArgumentNullException_t110 *)il2cpp_codegen_object_new (ArgumentNullException_t110_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m437(L_1, _stringLiteral358, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m437(L_1, _stringLiteral360, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -909,7 +909,7 @@ IL_0011:
 	}
 	{
 		ArgumentOutOfRangeException_t787 * L_3 = (ArgumentOutOfRangeException_t787 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3906(L_3, _stringLiteral359, _stringLiteral360, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m3909(L_3, _stringLiteral361, _stringLiteral362, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -923,7 +923,7 @@ IL_0028:
 	}
 	{
 		ArgumentOutOfRangeException_t787 * L_5 = (ArgumentOutOfRangeException_t787 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3906(L_5, _stringLiteral361, _stringLiteral360, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m3909(L_5, _stringLiteral363, _stringLiteral362, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_5);
 	}
 
@@ -939,9 +939,9 @@ IL_003f:
 		}
 	}
 	{
-		String_t* L_9 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral362, /*hidden argument*/NULL);
+		String_t* L_9 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral364, /*hidden argument*/NULL);
 		ArgumentException_t444 * L_10 = (ArgumentException_t444 *)il2cpp_codegen_object_new (ArgumentException_t444_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3907(L_10, _stringLiteral358, L_9, /*hidden argument*/NULL);
+		ArgumentException__ctor_m3910(L_10, _stringLiteral360, L_9, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_10);
 	}
 
@@ -955,12 +955,12 @@ extern TypeInfo* ObjectDisposedException_t788_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentNullException_t110_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var;
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral363;
-extern Il2CppCodeGenString* _stringLiteral364;
 extern Il2CppCodeGenString* _stringLiteral365;
-extern Il2CppCodeGenString* _stringLiteral360;
+extern Il2CppCodeGenString* _stringLiteral366;
+extern Il2CppCodeGenString* _stringLiteral367;
 extern Il2CppCodeGenString* _stringLiteral362;
-extern "C" int32_t SymmetricTransform_TransformBlock_m3869 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t772* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral364;
+extern "C" int32_t SymmetricTransform_TransformBlock_m3872 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t772* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -969,11 +969,11 @@ extern "C" int32_t SymmetricTransform_TransformBlock_m3869 (SymmetricTransform_t
 		ArgumentNullException_t110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6);
 		ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(488);
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral363 = il2cpp_codegen_string_literal_from_index(363);
-		_stringLiteral364 = il2cpp_codegen_string_literal_from_index(364);
 		_stringLiteral365 = il2cpp_codegen_string_literal_from_index(365);
-		_stringLiteral360 = il2cpp_codegen_string_literal_from_index(360);
+		_stringLiteral366 = il2cpp_codegen_string_literal_from_index(366);
+		_stringLiteral367 = il2cpp_codegen_string_literal_from_index(367);
 		_stringLiteral362 = il2cpp_codegen_string_literal_from_index(362);
+		_stringLiteral364 = il2cpp_codegen_string_literal_from_index(364);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -986,7 +986,7 @@ extern "C" int32_t SymmetricTransform_TransformBlock_m3869 (SymmetricTransform_t
 	}
 	{
 		ObjectDisposedException_t788 * L_1 = (ObjectDisposedException_t788 *)il2cpp_codegen_object_new (ObjectDisposedException_t788_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m3908(L_1, _stringLiteral363, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m3911(L_1, _stringLiteral365, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -995,7 +995,7 @@ IL_0016:
 		ByteU5BU5D_t772* L_2 = ___inputBuffer;
 		int32_t L_3 = ___inputOffset;
 		int32_t L_4 = ___inputCount;
-		SymmetricTransform_CheckInput_m3868(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
+		SymmetricTransform_CheckInput_m3871(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_5 = ___outputBuffer;
 		if (L_5)
 		{
@@ -1004,7 +1004,7 @@ IL_0016:
 	}
 	{
 		ArgumentNullException_t110 * L_6 = (ArgumentNullException_t110 *)il2cpp_codegen_object_new (ArgumentNullException_t110_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m437(L_6, _stringLiteral364, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m437(L_6, _stringLiteral366, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_6);
 	}
 
@@ -1018,7 +1018,7 @@ IL_0031:
 	}
 	{
 		ArgumentOutOfRangeException_t787 * L_8 = (ArgumentOutOfRangeException_t787 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t787_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m3906(L_8, _stringLiteral365, _stringLiteral360, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException__ctor_m3909(L_8, _stringLiteral367, _stringLiteral362, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_8);
 	}
 
@@ -1063,15 +1063,15 @@ IL_0049:
 
 IL_0087:
 	{
-		String_t* L_18 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral362, /*hidden argument*/NULL);
+		String_t* L_18 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral364, /*hidden argument*/NULL);
 		CryptographicException_t784 * L_19 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3909(L_19, _stringLiteral364, L_18, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3912(L_19, _stringLiteral366, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_19);
 	}
 
 IL_009c:
 	{
-		bool L_20 = SymmetricTransform_get_KeepLastBlock_m3870(__this, /*hidden argument*/NULL);
+		bool L_20 = SymmetricTransform_get_KeepLastBlock_m3873(__this, /*hidden argument*/NULL);
 		if (!L_20)
 		{
 			goto IL_00cf;
@@ -1086,9 +1086,9 @@ IL_009c:
 		}
 	}
 	{
-		String_t* L_23 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral362, /*hidden argument*/NULL);
+		String_t* L_23 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral364, /*hidden argument*/NULL);
 		CryptographicException_t784 * L_24 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3909(L_24, _stringLiteral364, L_23, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3912(L_24, _stringLiteral366, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_24);
 	}
 
@@ -1127,9 +1127,9 @@ IL_00cf:
 
 IL_00f9:
 	{
-		String_t* L_32 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral362, /*hidden argument*/NULL);
+		String_t* L_32 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral364, /*hidden argument*/NULL);
 		CryptographicException_t784 * L_33 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3909(L_33, _stringLiteral364, L_32, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3912(L_33, _stringLiteral366, L_32, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_33);
 	}
 
@@ -1140,12 +1140,12 @@ IL_010e:
 		int32_t L_36 = ___inputCount;
 		ByteU5BU5D_t772* L_37 = ___outputBuffer;
 		int32_t L_38 = ___outputOffset;
-		int32_t L_39 = SymmetricTransform_InternalTransformBlock_m3871(__this, L_34, L_35, L_36, L_37, L_38, /*hidden argument*/NULL);
+		int32_t L_39 = SymmetricTransform_InternalTransformBlock_m3874(__this, L_34, L_35, L_36, L_37, L_38, /*hidden argument*/NULL);
 		return L_39;
 	}
 }
 // System.Boolean Mono.Security.Cryptography.SymmetricTransform::get_KeepLastBlock()
-extern "C" bool SymmetricTransform_get_KeepLastBlock_m3870 (SymmetricTransform_t770 * __this, const MethodInfo* method)
+extern "C" bool SymmetricTransform_get_KeepLastBlock_m3873 (SymmetricTransform_t770 * __this, const MethodInfo* method)
 {
 	int32_t G_B4_0 = 0;
 	{
@@ -1184,14 +1184,14 @@ IL_0030:
 }
 // System.Int32 Mono.Security.Cryptography.SymmetricTransform::InternalTransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral366;
-extern "C" int32_t SymmetricTransform_InternalTransformBlock_m3871 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t772* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral368;
+extern "C" int32_t SymmetricTransform_InternalTransformBlock_m3874 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t772* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral366 = il2cpp_codegen_string_literal_from_index(366);
+		_stringLiteral368 = il2cpp_codegen_string_literal_from_index(368);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -1218,7 +1218,7 @@ extern "C" int32_t SymmetricTransform_InternalTransformBlock_m3871 (SymmetricTra
 	}
 	{
 		CryptographicException_t784 * L_5 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_5, _stringLiteral366, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_5, _stringLiteral368, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_5);
 	}
 
@@ -1237,7 +1237,7 @@ IL_0034:
 
 IL_0036:
 	{
-		bool L_8 = SymmetricTransform_get_KeepLastBlock_m3870(__this, /*hidden argument*/NULL);
+		bool L_8 = SymmetricTransform_get_KeepLastBlock_m3873(__this, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0045;
@@ -1265,7 +1265,7 @@ IL_0045:
 		ByteU5BU5D_t772* L_14 = ___outputBuffer;
 		int32_t L_15 = ___outputOffset;
 		int32_t L_16 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, 0, (Array_t *)(Array_t *)L_14, L_15, L_16, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, 0, (Array_t *)(Array_t *)L_14, L_15, L_16, /*hidden argument*/NULL);
 		int32_t L_17 = ___outputOffset;
 		int32_t L_18 = (__this->___BlockSizeByte_2);
 		___outputOffset = ((int32_t)((int32_t)L_17+(int32_t)L_18));
@@ -1287,7 +1287,7 @@ IL_009c:
 		int32_t L_22 = V_0;
 		ByteU5BU5D_t772* L_23 = (__this->___workBuff_5);
 		int32_t L_24 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_21, L_22, (Array_t *)(Array_t *)L_23, 0, L_24, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_21, L_22, (Array_t *)(Array_t *)L_23, 0, L_24, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_25 = (__this->___workBuff_5);
 		ByteU5BU5D_t772* L_26 = (__this->___workout_6);
 		VirtActionInvoker2< ByteU5BU5D_t772*, ByteU5BU5D_t772* >::Invoke(10 /* System.Void Mono.Security.Cryptography.SymmetricTransform::Transform(System.Byte[],System.Byte[]) */, __this, L_25, L_26);
@@ -1295,7 +1295,7 @@ IL_009c:
 		ByteU5BU5D_t772* L_28 = ___outputBuffer;
 		int32_t L_29 = ___outputOffset;
 		int32_t L_30 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_27, 0, (Array_t *)(Array_t *)L_28, L_29, L_30, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_27, 0, (Array_t *)(Array_t *)L_28, L_29, L_30, /*hidden argument*/NULL);
 		int32_t L_31 = V_0;
 		int32_t L_32 = (__this->___BlockSizeByte_2);
 		V_0 = ((int32_t)((int32_t)L_31+(int32_t)L_32));
@@ -1319,7 +1319,7 @@ IL_00f9:
 		}
 	}
 	{
-		bool L_40 = SymmetricTransform_get_KeepLastBlock_m3870(__this, /*hidden argument*/NULL);
+		bool L_40 = SymmetricTransform_get_KeepLastBlock_m3873(__this, /*hidden argument*/NULL);
 		if (!L_40)
 		{
 			goto IL_0126;
@@ -1330,7 +1330,7 @@ IL_00f9:
 		int32_t L_42 = V_0;
 		ByteU5BU5D_t772* L_43 = (__this->___workBuff_5);
 		int32_t L_44 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_41, L_42, (Array_t *)(Array_t *)L_43, 0, L_44, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_41, L_42, (Array_t *)(Array_t *)L_43, 0, L_44, /*hidden argument*/NULL);
 		__this->___lastBlock_10 = 1;
 	}
 
@@ -1342,7 +1342,7 @@ IL_0126:
 }
 // System.Void Mono.Security.Cryptography.SymmetricTransform::Random(System.Byte[],System.Int32,System.Int32)
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
-extern "C" void SymmetricTransform_Random_m3872 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___start, int32_t ___length, const MethodInfo* method)
+extern "C" void SymmetricTransform_Random_m3875 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___start, int32_t ___length, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1359,7 +1359,7 @@ extern "C" void SymmetricTransform_Random_m3872 (SymmetricTransform_t770 * __thi
 		}
 	}
 	{
-		RandomNumberGenerator_t769 * L_1 = RandomNumberGenerator_Create_m3899(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RandomNumberGenerator_t769 * L_1 = RandomNumberGenerator_Create_m3902(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->____rng_11 = L_1;
 	}
 
@@ -1375,7 +1375,7 @@ IL_0016:
 		ByteU5BU5D_t772* L_6 = ___buffer;
 		int32_t L_7 = ___start;
 		int32_t L_8 = ___length;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, 0, (Array_t *)(Array_t *)L_6, L_7, L_8, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, 0, (Array_t *)(Array_t *)L_6, L_7, L_8, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1384,10 +1384,10 @@ extern TypeInfo* PaddingMode_t789_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral367;
-extern Il2CppCodeGenString* _stringLiteral368;
 extern Il2CppCodeGenString* _stringLiteral369;
-extern "C" void SymmetricTransform_ThrowBadPaddingException_m3873 (SymmetricTransform_t770 * __this, int32_t ___padding, int32_t ___length, int32_t ___position, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral370;
+extern Il2CppCodeGenString* _stringLiteral371;
+extern "C" void SymmetricTransform_ThrowBadPaddingException_m3876 (SymmetricTransform_t770 * __this, int32_t ___padding, int32_t ___length, int32_t ___position, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1396,19 +1396,19 @@ extern "C" void SymmetricTransform_ThrowBadPaddingException_m3873 (SymmetricTran
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		Int32_t125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(35);
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral367 = il2cpp_codegen_string_literal_from_index(367);
-		_stringLiteral368 = il2cpp_codegen_string_literal_from_index(368);
 		_stringLiteral369 = il2cpp_codegen_string_literal_from_index(369);
+		_stringLiteral370 = il2cpp_codegen_string_literal_from_index(370);
+		_stringLiteral371 = il2cpp_codegen_string_literal_from_index(371);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
-		String_t* L_0 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral367, /*hidden argument*/NULL);
+		String_t* L_0 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral369, /*hidden argument*/NULL);
 		int32_t L_1 = ___padding;
 		int32_t L_2 = L_1;
 		Object_t * L_3 = Box(PaddingMode_t789_il2cpp_TypeInfo_var, &L_2);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_4 = String_Format_m649(NULL /*static, unused*/, L_0, L_3, /*hidden argument*/NULL);
+		String_t* L_4 = String_Format_m659(NULL /*static, unused*/, L_0, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
 		int32_t L_5 = ___length;
 		if ((((int32_t)L_5) < ((int32_t)0)))
@@ -1418,13 +1418,13 @@ extern "C" void SymmetricTransform_ThrowBadPaddingException_m3873 (SymmetricTran
 	}
 	{
 		String_t* L_6 = V_0;
-		String_t* L_7 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral368, /*hidden argument*/NULL);
+		String_t* L_7 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral370, /*hidden argument*/NULL);
 		int32_t L_8 = ___length;
 		int32_t L_9 = L_8;
 		Object_t * L_10 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_9);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_11 = String_Format_m649(NULL /*static, unused*/, L_7, L_10, /*hidden argument*/NULL);
-		String_t* L_12 = String_Concat_m529(NULL /*static, unused*/, L_6, L_11, /*hidden argument*/NULL);
+		String_t* L_11 = String_Format_m659(NULL /*static, unused*/, L_7, L_10, /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m530(NULL /*static, unused*/, L_6, L_11, /*hidden argument*/NULL);
 		V_0 = L_12;
 	}
 
@@ -1438,13 +1438,13 @@ IL_0039:
 	}
 	{
 		String_t* L_14 = V_0;
-		String_t* L_15 = Locale_GetText_m3853(NULL /*static, unused*/, _stringLiteral369, /*hidden argument*/NULL);
+		String_t* L_15 = Locale_GetText_m3856(NULL /*static, unused*/, _stringLiteral371, /*hidden argument*/NULL);
 		int32_t L_16 = ___position;
 		int32_t L_17 = L_16;
 		Object_t * L_18 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_17);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_19 = String_Format_m649(NULL /*static, unused*/, L_15, L_18, /*hidden argument*/NULL);
-		String_t* L_20 = String_Concat_m529(NULL /*static, unused*/, L_14, L_19, /*hidden argument*/NULL);
+		String_t* L_19 = String_Format_m659(NULL /*static, unused*/, L_15, L_18, /*hidden argument*/NULL);
+		String_t* L_20 = String_Concat_m530(NULL /*static, unused*/, L_14, L_19, /*hidden argument*/NULL);
 		V_0 = L_20;
 	}
 
@@ -1452,22 +1452,22 @@ IL_005c:
 	{
 		String_t* L_21 = V_0;
 		CryptographicException_t784 * L_22 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_22, L_21, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_22, L_21, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_22);
 	}
 }
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::FinalEncrypt(System.Byte[],System.Int32,System.Int32)
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral370;
-extern "C" ByteU5BU5D_t772* SymmetricTransform_FinalEncrypt_m3874 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral372;
+extern "C" ByteU5BU5D_t772* SymmetricTransform_FinalEncrypt_m3877 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ByteU5BU5D_t772_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(484);
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		_stringLiteral370 = il2cpp_codegen_string_literal_from_index(370);
+		_stringLiteral372 = il2cpp_codegen_string_literal_from_index(372);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -1554,7 +1554,7 @@ IL_005c:
 	}
 	{
 		CryptographicException_t784 * L_15 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_15, _stringLiteral370, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_15, _stringLiteral372, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_15);
 	}
 
@@ -1567,7 +1567,7 @@ IL_007e:
 		int32_t L_19 = ___inputOffset;
 		ByteU5BU5D_t772* L_20 = V_3;
 		int32_t L_21 = ___inputCount;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, L_19, (Array_t *)(Array_t *)L_20, 0, L_21, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, L_19, (Array_t *)(Array_t *)L_20, 0, L_21, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_22 = V_3;
 		___inputBuffer = L_22;
 		___inputOffset = 0;
@@ -1598,7 +1598,7 @@ IL_00b8:
 		int32_t L_28 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_29 = V_4;
 		int32_t L_30 = V_5;
-		SymmetricTransform_InternalTransformBlock_m3871(__this, L_26, L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
+		SymmetricTransform_InternalTransformBlock_m3874(__this, L_26, L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
 		int32_t L_31 = ___inputOffset;
 		int32_t L_32 = (__this->___BlockSizeByte_2);
 		___inputOffset = ((int32_t)((int32_t)L_31+(int32_t)L_32));
@@ -1663,13 +1663,13 @@ IL_012b:
 		ByteU5BU5D_t772* L_49 = V_4;
 		int32_t L_50 = V_0;
 		int32_t L_51 = V_1;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_47, L_48, (Array_t *)(Array_t *)L_49, L_50, L_51, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_47, L_48, (Array_t *)(Array_t *)L_49, L_50, L_51, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_52 = V_4;
 		int32_t L_53 = V_0;
 		int32_t L_54 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_55 = V_4;
 		int32_t L_56 = V_0;
-		SymmetricTransform_InternalTransformBlock_m3871(__this, L_52, L_53, L_54, L_55, L_56, /*hidden argument*/NULL);
+		SymmetricTransform_InternalTransformBlock_m3874(__this, L_52, L_53, L_54, L_55, L_56, /*hidden argument*/NULL);
 		goto IL_01fa;
 	}
 
@@ -1680,7 +1680,7 @@ IL_0159:
 		NullCheck(L_58);
 		uint8_t L_59 = V_6;
 		uint8_t L_60 = V_6;
-		SymmetricTransform_Random_m3872(__this, L_57, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_58)->max_length))))-(int32_t)L_59)), ((int32_t)((int32_t)L_60-(int32_t)1)), /*hidden argument*/NULL);
+		SymmetricTransform_Random_m3875(__this, L_57, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_58)->max_length))))-(int32_t)L_59)), ((int32_t)((int32_t)L_60-(int32_t)1)), /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_61 = V_4;
 		ByteU5BU5D_t772* L_62 = V_4;
 		NullCheck(L_62);
@@ -1693,13 +1693,13 @@ IL_0159:
 		ByteU5BU5D_t772* L_66 = V_4;
 		int32_t L_67 = V_0;
 		int32_t L_68 = V_1;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_64, L_65, (Array_t *)(Array_t *)L_66, L_67, L_68, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_64, L_65, (Array_t *)(Array_t *)L_66, L_67, L_68, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_69 = V_4;
 		int32_t L_70 = V_0;
 		int32_t L_71 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_72 = V_4;
 		int32_t L_73 = V_0;
-		SymmetricTransform_InternalTransformBlock_m3871(__this, L_69, L_70, L_71, L_72, L_73, /*hidden argument*/NULL);
+		SymmetricTransform_InternalTransformBlock_m3874(__this, L_69, L_70, L_71, L_72, L_73, /*hidden argument*/NULL);
 		goto IL_01fa;
 	}
 
@@ -1740,13 +1740,13 @@ IL_01ac:
 		ByteU5BU5D_t772* L_84 = V_4;
 		int32_t L_85 = V_0;
 		int32_t L_86 = V_1;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_82, L_83, (Array_t *)(Array_t *)L_84, L_85, L_86, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_82, L_83, (Array_t *)(Array_t *)L_84, L_85, L_86, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_87 = V_4;
 		int32_t L_88 = V_0;
 		int32_t L_89 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_90 = V_4;
 		int32_t L_91 = V_0;
-		SymmetricTransform_InternalTransformBlock_m3871(__this, L_87, L_88, L_89, L_90, L_91, /*hidden argument*/NULL);
+		SymmetricTransform_InternalTransformBlock_m3874(__this, L_87, L_88, L_89, L_90, L_91, /*hidden argument*/NULL);
 		goto IL_01fa;
 	}
 
@@ -1757,7 +1757,7 @@ IL_01e2:
 		int32_t L_94 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_95 = V_4;
 		int32_t L_96 = V_5;
-		SymmetricTransform_InternalTransformBlock_m3871(__this, L_92, L_93, L_94, L_95, L_96, /*hidden argument*/NULL);
+		SymmetricTransform_InternalTransformBlock_m3874(__this, L_92, L_93, L_94, L_95, L_96, /*hidden argument*/NULL);
 		goto IL_01fa;
 	}
 
@@ -1770,15 +1770,15 @@ IL_01fa:
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::FinalDecrypt(System.Byte[],System.Int32,System.Int32)
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
 extern TypeInfo* ByteU5BU5D_t772_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral366;
-extern "C" ByteU5BU5D_t772* SymmetricTransform_FinalDecrypt_m3875 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral368;
+extern "C" ByteU5BU5D_t772* SymmetricTransform_FinalDecrypt_m3878 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
 		ByteU5BU5D_t772_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(484);
-		_stringLiteral366 = il2cpp_codegen_string_literal_from_index(366);
+		_stringLiteral368 = il2cpp_codegen_string_literal_from_index(368);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -1801,7 +1801,7 @@ extern "C" ByteU5BU5D_t772* SymmetricTransform_FinalDecrypt_m3875 (SymmetricTran
 	}
 	{
 		CryptographicException_t784 * L_2 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_2, _stringLiteral366, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_2, _stringLiteral368, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
 	}
 
@@ -1836,7 +1836,7 @@ IL_003d:
 		int32_t L_10 = (__this->___BlockSizeByte_2);
 		ByteU5BU5D_t772* L_11 = V_1;
 		int32_t L_12 = V_2;
-		int32_t L_13 = SymmetricTransform_InternalTransformBlock_m3871(__this, L_8, L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
+		int32_t L_13 = SymmetricTransform_InternalTransformBlock_m3874(__this, L_8, L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
 		V_3 = L_13;
 		int32_t L_14 = ___inputOffset;
 		int32_t L_15 = (__this->___BlockSizeByte_2);
@@ -1872,7 +1872,7 @@ IL_0066:
 		ByteU5BU5D_t772* L_25 = V_1;
 		int32_t L_26 = V_2;
 		int32_t L_27 = (__this->___BlockSizeByte_2);
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_24, 0, (Array_t *)(Array_t *)L_25, L_26, L_27, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_24, 0, (Array_t *)(Array_t *)L_25, L_26, L_27, /*hidden argument*/NULL);
 		int32_t L_28 = V_2;
 		int32_t L_29 = (__this->___BlockSizeByte_2);
 		V_2 = ((int32_t)((int32_t)L_28+(int32_t)L_29));
@@ -1958,7 +1958,7 @@ IL_0105:
 		NullCheck(L_40);
 		int32_t L_41 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding() */, L_40);
 		uint8_t L_42 = V_4;
-		SymmetricTransform_ThrowBadPaddingException_m3873(__this, L_41, L_42, (-1), /*hidden argument*/NULL);
+		SymmetricTransform_ThrowBadPaddingException_m3876(__this, L_41, L_42, (-1), /*hidden argument*/NULL);
 	}
 
 IL_0119:
@@ -1986,7 +1986,7 @@ IL_0124:
 		NullCheck(L_48);
 		int32_t L_49 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding() */, L_48);
 		int32_t L_50 = V_5;
-		SymmetricTransform_ThrowBadPaddingException_m3873(__this, L_49, (-1), L_50, /*hidden argument*/NULL);
+		SymmetricTransform_ThrowBadPaddingException_m3876(__this, L_49, (-1), L_50, /*hidden argument*/NULL);
 	}
 
 IL_0145:
@@ -2033,7 +2033,7 @@ IL_0171:
 		NullCheck(L_58);
 		int32_t L_59 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding() */, L_58);
 		uint8_t L_60 = V_4;
-		SymmetricTransform_ThrowBadPaddingException_m3873(__this, L_59, L_60, (-1), /*hidden argument*/NULL);
+		SymmetricTransform_ThrowBadPaddingException_m3876(__this, L_59, L_60, (-1), /*hidden argument*/NULL);
 	}
 
 IL_0185:
@@ -2067,7 +2067,7 @@ IL_01a3:
 		NullCheck(L_66);
 		int32_t L_67 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding() */, L_66);
 		uint8_t L_68 = V_4;
-		SymmetricTransform_ThrowBadPaddingException_m3873(__this, L_67, L_68, (-1), /*hidden argument*/NULL);
+		SymmetricTransform_ThrowBadPaddingException_m3876(__this, L_67, L_68, (-1), /*hidden argument*/NULL);
 	}
 
 IL_01b7:
@@ -2096,7 +2096,7 @@ IL_01c2:
 		NullCheck(L_75);
 		int32_t L_76 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Security.Cryptography.PaddingMode System.Security.Cryptography.SymmetricAlgorithm::get_Padding() */, L_75);
 		int32_t L_77 = V_6;
-		SymmetricTransform_ThrowBadPaddingException_m3873(__this, L_76, (-1), L_77, /*hidden argument*/NULL);
+		SymmetricTransform_ThrowBadPaddingException_m3876(__this, L_76, (-1), L_77, /*hidden argument*/NULL);
 	}
 
 IL_01e5:
@@ -2139,11 +2139,11 @@ IL_0202:
 		ByteU5BU5D_t772* L_84 = V_1;
 		ByteU5BU5D_t772* L_85 = V_7;
 		int32_t L_86 = V_0;
-		Buffer_BlockCopy_m3902(NULL /*static, unused*/, (Array_t *)(Array_t *)L_84, 0, (Array_t *)(Array_t *)L_85, 0, L_86, /*hidden argument*/NULL);
+		Buffer_BlockCopy_m3905(NULL /*static, unused*/, (Array_t *)(Array_t *)L_84, 0, (Array_t *)(Array_t *)L_85, 0, L_86, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_87 = V_1;
 		ByteU5BU5D_t772* L_88 = V_1;
 		NullCheck(L_88);
-		Array_Clear_m3904(NULL /*static, unused*/, (Array_t *)(Array_t *)L_87, 0, (((int32_t)((int32_t)(((Array_t *)L_88)->max_length)))), /*hidden argument*/NULL);
+		Array_Clear_m3907(NULL /*static, unused*/, (Array_t *)(Array_t *)L_87, 0, (((int32_t)((int32_t)(((Array_t *)L_88)->max_length)))), /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_89 = V_7;
 		return L_89;
 	}
@@ -2155,14 +2155,14 @@ IL_0229:
 }
 // System.Byte[] Mono.Security.Cryptography.SymmetricTransform::TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
 extern TypeInfo* ObjectDisposedException_t788_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral363;
-extern "C" ByteU5BU5D_t772* SymmetricTransform_TransformFinalBlock_m3876 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral365;
+extern "C" ByteU5BU5D_t772* SymmetricTransform_TransformFinalBlock_m3879 (SymmetricTransform_t770 * __this, ByteU5BU5D_t772* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ObjectDisposedException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(489);
-		_stringLiteral363 = il2cpp_codegen_string_literal_from_index(363);
+		_stringLiteral365 = il2cpp_codegen_string_literal_from_index(365);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2174,7 +2174,7 @@ extern "C" ByteU5BU5D_t772* SymmetricTransform_TransformFinalBlock_m3876 (Symmet
 	}
 	{
 		ObjectDisposedException_t788 * L_1 = (ObjectDisposedException_t788 *)il2cpp_codegen_object_new (ObjectDisposedException_t788_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m3908(L_1, _stringLiteral363, /*hidden argument*/NULL);
+		ObjectDisposedException__ctor_m3911(L_1, _stringLiteral365, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -2183,7 +2183,7 @@ IL_0016:
 		ByteU5BU5D_t772* L_2 = ___inputBuffer;
 		int32_t L_3 = ___inputOffset;
 		int32_t L_4 = ___inputCount;
-		SymmetricTransform_CheckInput_m3868(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
+		SymmetricTransform_CheckInput_m3871(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
 		bool L_5 = (__this->___encrypt_1);
 		if (!L_5)
 		{
@@ -2194,7 +2194,7 @@ IL_0016:
 		ByteU5BU5D_t772* L_6 = ___inputBuffer;
 		int32_t L_7 = ___inputOffset;
 		int32_t L_8 = ___inputCount;
-		ByteU5BU5D_t772* L_9 = SymmetricTransform_FinalEncrypt_m3874(__this, L_6, L_7, L_8, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_9 = SymmetricTransform_FinalEncrypt_m3877(__this, L_6, L_7, L_8, /*hidden argument*/NULL);
 		return L_9;
 	}
 
@@ -2203,22 +2203,22 @@ IL_0034:
 		ByteU5BU5D_t772* L_10 = ___inputBuffer;
 		int32_t L_11 = ___inputOffset;
 		int32_t L_12 = ___inputCount;
-		ByteU5BU5D_t772* L_13 = SymmetricTransform_FinalDecrypt_m3875(__this, L_10, L_11, L_12, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_13 = SymmetricTransform_FinalDecrypt_m3878(__this, L_10, L_11, L_12, /*hidden argument*/NULL);
 		return L_13;
 	}
 }
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
 extern TypeInfo* ArgumentNullException_t110_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral371;
-extern Il2CppCodeGenString* _stringLiteral372;
-extern "C" void Check_SourceAndPredicate_m3877 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral373;
+extern Il2CppCodeGenString* _stringLiteral374;
+extern "C" void Check_SourceAndPredicate_m3880 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ArgumentNullException_t110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6);
-		_stringLiteral371 = il2cpp_codegen_string_literal_from_index(371);
-		_stringLiteral372 = il2cpp_codegen_string_literal_from_index(372);
+		_stringLiteral373 = il2cpp_codegen_string_literal_from_index(373);
+		_stringLiteral374 = il2cpp_codegen_string_literal_from_index(374);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2230,7 +2230,7 @@ extern "C" void Check_SourceAndPredicate_m3877 (Object_t * __this /* static, unu
 	}
 	{
 		ArgumentNullException_t110 * L_1 = (ArgumentNullException_t110 *)il2cpp_codegen_object_new (ArgumentNullException_t110_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m437(L_1, _stringLiteral371, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m437(L_1, _stringLiteral373, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -2244,7 +2244,7 @@ IL_0011:
 	}
 	{
 		ArgumentNullException_t110 * L_3 = (ArgumentNullException_t110 *)il2cpp_codegen_object_new (ArgumentNullException_t110_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m437(L_3, _stringLiteral372, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m437(L_3, _stringLiteral374, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -2256,7 +2256,7 @@ IL_0022:
 // System.Void System.Security.Cryptography.Aes::.ctor()
 extern TypeInfo* KeySizesU5BU5D_t790_il2cpp_TypeInfo_var;
 extern TypeInfo* KeySizes_t791_il2cpp_TypeInfo_var;
-extern "C" void Aes__ctor_m3878 (Aes_t775 * __this, const MethodInfo* method)
+extern "C" void Aes__ctor_m3881 (Aes_t775 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2266,13 +2266,13 @@ extern "C" void Aes__ctor_m3878 (Aes_t775 * __this, const MethodInfo* method)
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SymmetricAlgorithm__ctor_m3910(__this, /*hidden argument*/NULL);
+		SymmetricAlgorithm__ctor_m3913(__this, /*hidden argument*/NULL);
 		((SymmetricAlgorithm_t771 *)__this)->___KeySizeValue_2 = ((int32_t)256);
 		((SymmetricAlgorithm_t771 *)__this)->___BlockSizeValue_0 = ((int32_t)128);
 		((SymmetricAlgorithm_t771 *)__this)->___LegalKeySizesValue_5 = ((KeySizesU5BU5D_t790*)SZArrayNew(KeySizesU5BU5D_t790_il2cpp_TypeInfo_var, 1));
 		KeySizesU5BU5D_t790* L_0 = (((SymmetricAlgorithm_t771 *)__this)->___LegalKeySizesValue_5);
 		KeySizes_t791 * L_1 = (KeySizes_t791 *)il2cpp_codegen_object_new (KeySizes_t791_il2cpp_TypeInfo_var);
-		KeySizes__ctor_m3911(L_1, ((int32_t)128), ((int32_t)256), ((int32_t)64), /*hidden argument*/NULL);
+		KeySizes__ctor_m3914(L_1, ((int32_t)128), ((int32_t)256), ((int32_t)64), /*hidden argument*/NULL);
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 		ArrayElementTypeCheck (L_0, L_1);
@@ -2280,7 +2280,7 @@ extern "C" void Aes__ctor_m3878 (Aes_t775 * __this, const MethodInfo* method)
 		((SymmetricAlgorithm_t771 *)__this)->___LegalBlockSizesValue_4 = ((KeySizesU5BU5D_t790*)SZArrayNew(KeySizesU5BU5D_t790_il2cpp_TypeInfo_var, 1));
 		KeySizesU5BU5D_t790* L_2 = (((SymmetricAlgorithm_t771 *)__this)->___LegalBlockSizesValue_4);
 		KeySizes_t791 * L_3 = (KeySizes_t791 *)il2cpp_codegen_object_new (KeySizes_t791_il2cpp_TypeInfo_var);
-		KeySizes__ctor_m3911(L_3, ((int32_t)128), ((int32_t)128), 0, /*hidden argument*/NULL);
+		KeySizes__ctor_m3914(L_3, ((int32_t)128), ((int32_t)128), 0, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_3);
@@ -2289,36 +2289,36 @@ extern "C" void Aes__ctor_m3878 (Aes_t775 * __this, const MethodInfo* method)
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::.ctor()
-extern "C" void AesManaged__ctor_m3879 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" void AesManaged__ctor_m3882 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		Aes__ctor_m3878(__this, /*hidden argument*/NULL);
+		Aes__ctor_m3881(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::GenerateIV()
-extern "C" void AesManaged_GenerateIV_m3880 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" void AesManaged_GenerateIV_m3883 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (((SymmetricAlgorithm_t771 *)__this)->___BlockSizeValue_0);
-		ByteU5BU5D_t772* L_1 = KeyBuilder_IV_m3857(NULL /*static, unused*/, ((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_1 = KeyBuilder_IV_m3860(NULL /*static, unused*/, ((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
 		((SymmetricAlgorithm_t771 *)__this)->___IVValue_1 = L_1;
 		return;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::GenerateKey()
-extern "C" void AesManaged_GenerateKey_m3881 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" void AesManaged_GenerateKey_m3884 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (((SymmetricAlgorithm_t771 *)__this)->___KeySizeValue_2);
-		ByteU5BU5D_t772* L_1 = KeyBuilder_Key_m3856(NULL /*static, unused*/, ((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_1 = KeyBuilder_Key_m3859(NULL /*static, unused*/, ((int32_t)((int32_t)L_0>>(int32_t)3)), /*hidden argument*/NULL);
 		((SymmetricAlgorithm_t771 *)__this)->___KeyValue_3 = L_1;
 		return;
 	}
 }
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateDecryptor(System.Byte[],System.Byte[])
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern "C" Object_t * AesManaged_CreateDecryptor_m3882 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
+extern "C" Object_t * AesManaged_CreateDecryptor_m3885 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2330,13 +2330,13 @@ extern "C" Object_t * AesManaged_CreateDecryptor_m3882 (AesManaged_t776 * __this
 		ByteU5BU5D_t772* L_0 = ___rgbKey;
 		ByteU5BU5D_t772* L_1 = ___rgbIV;
 		AesTransform_t777 * L_2 = (AesTransform_t777 *)il2cpp_codegen_object_new (AesTransform_t777_il2cpp_TypeInfo_var);
-		AesTransform__ctor_m3893(L_2, __this, 0, L_0, L_1, /*hidden argument*/NULL);
+		AesTransform__ctor_m3896(L_2, __this, 0, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateEncryptor(System.Byte[],System.Byte[])
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern "C" Object_t * AesManaged_CreateEncryptor_m3883 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
+extern "C" Object_t * AesManaged_CreateEncryptor_m3886 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___rgbKey, ByteU5BU5D_t772* ___rgbIV, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2348,112 +2348,112 @@ extern "C" Object_t * AesManaged_CreateEncryptor_m3883 (AesManaged_t776 * __this
 		ByteU5BU5D_t772* L_0 = ___rgbKey;
 		ByteU5BU5D_t772* L_1 = ___rgbIV;
 		AesTransform_t777 * L_2 = (AesTransform_t777 *)il2cpp_codegen_object_new (AesTransform_t777_il2cpp_TypeInfo_var);
-		AesTransform__ctor_m3893(L_2, __this, 1, L_0, L_1, /*hidden argument*/NULL);
+		AesTransform__ctor_m3896(L_2, __this, 1, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Byte[] System.Security.Cryptography.AesManaged::get_IV()
-extern "C" ByteU5BU5D_t772* AesManaged_get_IV_m3884 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t772* AesManaged_get_IV_m3887 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		ByteU5BU5D_t772* L_0 = SymmetricAlgorithm_get_IV_m3912(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_0 = SymmetricAlgorithm_get_IV_m3915(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::set_IV(System.Byte[])
-extern "C" void AesManaged_set_IV_m3885 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method)
+extern "C" void AesManaged_set_IV_m3888 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method)
 {
 	{
 		ByteU5BU5D_t772* L_0 = ___value;
-		SymmetricAlgorithm_set_IV_m3913(__this, L_0, /*hidden argument*/NULL);
+		SymmetricAlgorithm_set_IV_m3916(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Byte[] System.Security.Cryptography.AesManaged::get_Key()
-extern "C" ByteU5BU5D_t772* AesManaged_get_Key_m3886 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t772* AesManaged_get_Key_m3889 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		ByteU5BU5D_t772* L_0 = SymmetricAlgorithm_get_Key_m3914(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_0 = SymmetricAlgorithm_get_Key_m3917(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::set_Key(System.Byte[])
-extern "C" void AesManaged_set_Key_m3887 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method)
+extern "C" void AesManaged_set_Key_m3890 (AesManaged_t776 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method)
 {
 	{
 		ByteU5BU5D_t772* L_0 = ___value;
-		SymmetricAlgorithm_set_Key_m3915(__this, L_0, /*hidden argument*/NULL);
+		SymmetricAlgorithm_set_Key_m3918(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Int32 System.Security.Cryptography.AesManaged::get_KeySize()
-extern "C" int32_t AesManaged_get_KeySize_m3888 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" int32_t AesManaged_get_KeySize_m3891 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = SymmetricAlgorithm_get_KeySize_m3916(__this, /*hidden argument*/NULL);
+		int32_t L_0 = SymmetricAlgorithm_get_KeySize_m3919(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::set_KeySize(System.Int32)
-extern "C" void AesManaged_set_KeySize_m3889 (AesManaged_t776 * __this, int32_t ___value, const MethodInfo* method)
+extern "C" void AesManaged_set_KeySize_m3892 (AesManaged_t776 * __this, int32_t ___value, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___value;
-		SymmetricAlgorithm_set_KeySize_m3917(__this, L_0, /*hidden argument*/NULL);
+		SymmetricAlgorithm_set_KeySize_m3920(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateDecryptor()
-extern "C" Object_t * AesManaged_CreateDecryptor_m3890 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" Object_t * AesManaged_CreateDecryptor_m3893 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		ByteU5BU5D_t772* L_0 = AesManaged_get_Key_m3886(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t772* L_1 = AesManaged_get_IV_m3884(__this, /*hidden argument*/NULL);
-		Object_t * L_2 = AesManaged_CreateDecryptor_m3882(__this, L_0, L_1, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_0 = AesManaged_get_Key_m3889(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_1 = AesManaged_get_IV_m3887(__this, /*hidden argument*/NULL);
+		Object_t * L_2 = AesManaged_CreateDecryptor_m3885(__this, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.AesManaged::CreateEncryptor()
-extern "C" Object_t * AesManaged_CreateEncryptor_m3891 (AesManaged_t776 * __this, const MethodInfo* method)
+extern "C" Object_t * AesManaged_CreateEncryptor_m3894 (AesManaged_t776 * __this, const MethodInfo* method)
 {
 	{
-		ByteU5BU5D_t772* L_0 = AesManaged_get_Key_m3886(__this, /*hidden argument*/NULL);
-		ByteU5BU5D_t772* L_1 = AesManaged_get_IV_m3884(__this, /*hidden argument*/NULL);
-		Object_t * L_2 = AesManaged_CreateEncryptor_m3883(__this, L_0, L_1, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_0 = AesManaged_get_Key_m3889(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t772* L_1 = AesManaged_get_IV_m3887(__this, /*hidden argument*/NULL);
+		Object_t * L_2 = AesManaged_CreateEncryptor_m3886(__this, L_0, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void System.Security.Cryptography.AesManaged::Dispose(System.Boolean)
-extern "C" void AesManaged_Dispose_m3892 (AesManaged_t776 * __this, bool ___disposing, const MethodInfo* method)
+extern "C" void AesManaged_Dispose_m3895 (AesManaged_t776 * __this, bool ___disposing, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___disposing;
-		SymmetricAlgorithm_Dispose_m3918(__this, L_0, /*hidden argument*/NULL);
+		SymmetricAlgorithm_Dispose_m3921(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Security.Cryptography.AesTransform::.ctor(System.Security.Cryptography.Aes,System.Boolean,System.Byte[],System.Byte[])
 extern TypeInfo* CryptographicException_t784_il2cpp_TypeInfo_var;
-extern TypeInfo* ObjectU5BU5D_t142_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t144_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt32U5BU5D_t778_il2cpp_TypeInfo_var;
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral373;
-extern Il2CppCodeGenString* _stringLiteral374;
 extern Il2CppCodeGenString* _stringLiteral375;
-extern "C" void AesTransform__ctor_m3893 (AesTransform_t777 * __this, Aes_t775 * ___algo, bool ___encryption, ByteU5BU5D_t772* ___key, ByteU5BU5D_t772* ___iv, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral376;
+extern Il2CppCodeGenString* _stringLiteral377;
+extern "C" void AesTransform__ctor_m3896 (AesTransform_t777 * __this, Aes_t775 * ___algo, bool ___encryption, ByteU5BU5D_t772* ___key, ByteU5BU5D_t772* ___iv, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		CryptographicException_t784_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(485);
-		ObjectU5BU5D_t142_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(130);
+		ObjectU5BU5D_t144_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(131);
 		Int32_t125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(35);
 		UInt32U5BU5D_t778_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(494);
 		AesTransform_t777_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(493);
-		_stringLiteral373 = il2cpp_codegen_string_literal_from_index(373);
-		_stringLiteral374 = il2cpp_codegen_string_literal_from_index(374);
 		_stringLiteral375 = il2cpp_codegen_string_literal_from_index(375);
+		_stringLiteral376 = il2cpp_codegen_string_literal_from_index(376);
+		_stringLiteral377 = il2cpp_codegen_string_literal_from_index(377);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -2476,7 +2476,7 @@ extern "C" void AesTransform__ctor_m3893 (AesTransform_t777 * __this, Aes_t775 *
 		Aes_t775 * L_0 = ___algo;
 		bool L_1 = ___encryption;
 		ByteU5BU5D_t772* L_2 = ___iv;
-		SymmetricTransform__ctor_m3858(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		SymmetricTransform__ctor_m3861(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
 		ByteU5BU5D_t772* L_3 = ___key;
 		if (L_3)
 		{
@@ -2485,7 +2485,7 @@ extern "C" void AesTransform__ctor_m3893 (AesTransform_t777 * __this, Aes_t775 *
 	}
 	{
 		CryptographicException_t784 * L_4 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_4, _stringLiteral373, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_4, _stringLiteral375, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_4);
 	}
 
@@ -2509,7 +2509,7 @@ IL_001b:
 		}
 	}
 	{
-		ObjectU5BU5D_t142* L_9 = ((ObjectU5BU5D_t142*)SZArrayNew(ObjectU5BU5D_t142_il2cpp_TypeInfo_var, 2));
+		ObjectU5BU5D_t144* L_9 = ((ObjectU5BU5D_t144*)SZArrayNew(ObjectU5BU5D_t144_il2cpp_TypeInfo_var, 2));
 		ByteU5BU5D_t772* L_10 = ___iv;
 		NullCheck(L_10);
 		int32_t L_11 = (((int32_t)((int32_t)(((Array_t *)L_10)->max_length))));
@@ -2518,7 +2518,7 @@ IL_001b:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 0);
 		ArrayElementTypeCheck (L_9, L_12);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_9, 0, sizeof(Object_t *))) = (Object_t *)L_12;
-		ObjectU5BU5D_t142* L_13 = L_9;
+		ObjectU5BU5D_t144* L_13 = L_9;
 		Aes_t775 * L_14 = ___algo;
 		NullCheck(L_14);
 		int32_t L_15 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 System.Security.Cryptography.SymmetricAlgorithm::get_BlockSize() */, L_14);
@@ -2528,11 +2528,11 @@ IL_001b:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, 1);
 		ArrayElementTypeCheck (L_13, L_17);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_13, 1, sizeof(Object_t *))) = (Object_t *)L_17;
-		String_t* L_18 = Locale_GetText_m3854(NULL /*static, unused*/, _stringLiteral374, L_13, /*hidden argument*/NULL);
+		String_t* L_18 = Locale_GetText_m3857(NULL /*static, unused*/, _stringLiteral376, L_13, /*hidden argument*/NULL);
 		V_0 = L_18;
 		String_t* L_19 = V_0;
 		CryptographicException_t784 * L_20 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_20, L_19, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_20, L_19, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_20);
 	}
 
@@ -2562,7 +2562,7 @@ IL_0067:
 		}
 	}
 	{
-		ObjectU5BU5D_t142* L_25 = ((ObjectU5BU5D_t142*)SZArrayNew(ObjectU5BU5D_t142_il2cpp_TypeInfo_var, 4));
+		ObjectU5BU5D_t144* L_25 = ((ObjectU5BU5D_t144*)SZArrayNew(ObjectU5BU5D_t144_il2cpp_TypeInfo_var, 4));
 		int32_t L_26 = V_1;
 		int32_t L_27 = L_26;
 		Object_t * L_28 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_27);
@@ -2570,32 +2570,32 @@ IL_0067:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, 0);
 		ArrayElementTypeCheck (L_25, L_28);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_25, 0, sizeof(Object_t *))) = (Object_t *)L_28;
-		ObjectU5BU5D_t142* L_29 = L_25;
+		ObjectU5BU5D_t144* L_29 = L_25;
 		int32_t L_30 = ((int32_t)16);
 		Object_t * L_31 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_30);
 		NullCheck(L_29);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 1);
 		ArrayElementTypeCheck (L_29, L_31);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_29, 1, sizeof(Object_t *))) = (Object_t *)L_31;
-		ObjectU5BU5D_t142* L_32 = L_29;
+		ObjectU5BU5D_t144* L_32 = L_29;
 		int32_t L_33 = ((int32_t)24);
 		Object_t * L_34 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_33);
 		NullCheck(L_32);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_32, 2);
 		ArrayElementTypeCheck (L_32, L_34);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_32, 2, sizeof(Object_t *))) = (Object_t *)L_34;
-		ObjectU5BU5D_t142* L_35 = L_32;
+		ObjectU5BU5D_t144* L_35 = L_32;
 		int32_t L_36 = ((int32_t)32);
 		Object_t * L_37 = Box(Int32_t125_il2cpp_TypeInfo_var, &L_36);
 		NullCheck(L_35);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, 3);
 		ArrayElementTypeCheck (L_35, L_37);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_35, 3, sizeof(Object_t *))) = (Object_t *)L_37;
-		String_t* L_38 = Locale_GetText_m3854(NULL /*static, unused*/, _stringLiteral375, L_35, /*hidden argument*/NULL);
+		String_t* L_38 = Locale_GetText_m3857(NULL /*static, unused*/, _stringLiteral377, L_35, /*hidden argument*/NULL);
 		V_2 = L_38;
 		String_t* L_39 = V_2;
 		CryptographicException_t784 * L_40 = (CryptographicException_t784 *)il2cpp_codegen_object_new (CryptographicException_t784_il2cpp_TypeInfo_var);
-		CryptographicException__ctor_m3900(L_40, L_39, /*hidden argument*/NULL);
+		CryptographicException__ctor_m3903(L_40, L_39, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_40);
 	}
 
@@ -2727,7 +2727,7 @@ IL_018b:
 		uint32_t L_79 = V_9;
 		V_10 = ((int32_t)((int32_t)((int32_t)((int32_t)L_78<<(int32_t)8))|(int32_t)((int32_t)((int32_t)((int32_t)((uint32_t)L_79>>((int32_t)24)))&(int32_t)((int32_t)255)))));
 		uint32_t L_80 = V_10;
-		uint32_t L_81 = AesTransform_SubByte_m3896(__this, L_80, /*hidden argument*/NULL);
+		uint32_t L_81 = AesTransform_SubByte_m3899(__this, L_80, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(AesTransform_t777_il2cpp_TypeInfo_var);
 		UInt32U5BU5D_t778* L_82 = ((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___Rcon_15;
 		int32_t L_83 = V_8;
@@ -2757,7 +2757,7 @@ IL_01d3:
 	}
 	{
 		uint32_t L_89 = V_9;
-		uint32_t L_90 = AesTransform_SubByte_m3896(__this, L_89, /*hidden argument*/NULL);
+		uint32_t L_90 = AesTransform_SubByte_m3899(__this, L_89, /*hidden argument*/NULL);
 		V_9 = L_90;
 	}
 
@@ -2966,7 +2966,7 @@ extern FieldInfo* U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D8_7_F
 extern FieldInfo* U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D9_8_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D10_9_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D11_10_FieldInfo_var;
-extern "C" void AesTransform__cctor_m3894 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void AesTransform__cctor_m3897 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2989,43 +2989,43 @@ extern "C" void AesTransform__cctor_m3894 (Object_t * __this /* static, unused *
 	}
 	{
 		UInt32U5BU5D_t778* L_0 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)30)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D1_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D1_0_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___Rcon_15 = L_0;
 		ByteU5BU5D_t772* L_1 = ((ByteU5BU5D_t772*)SZArrayNew(ByteU5BU5D_t772_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_1, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D2_1_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_1, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D2_1_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___SBox_16 = L_1;
 		ByteU5BU5D_t772* L_2 = ((ByteU5BU5D_t772*)SZArrayNew(ByteU5BU5D_t772_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_2, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D3_2_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_2, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D3_2_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___iSBox_17 = L_2;
 		UInt32U5BU5D_t778* L_3 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D4_3_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D4_3_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___T0_18 = L_3;
 		UInt32U5BU5D_t778* L_4 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D5_4_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D5_4_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___T1_19 = L_4;
 		UInt32U5BU5D_t778* L_5 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D6_5_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D6_5_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___T2_20 = L_5;
 		UInt32U5BU5D_t778* L_6 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D7_6_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D7_6_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___T3_21 = L_6;
 		UInt32U5BU5D_t778* L_7 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D8_7_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D8_7_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___iT0_22 = L_7;
 		UInt32U5BU5D_t778* L_8 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D9_8_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D9_8_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___iT1_23 = L_8;
 		UInt32U5BU5D_t778* L_9 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D10_9_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D10_9_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___iT2_24 = L_9;
 		UInt32U5BU5D_t778* L_10 = ((UInt32U5BU5D_t778*)SZArrayNew(UInt32U5BU5D_t778_il2cpp_TypeInfo_var, ((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D11_10_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t782____U24U24fieldU2D11_10_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t777_StaticFields*)AesTransform_t777_il2cpp_TypeInfo_var->static_fields)->___iT3_25 = L_10;
 		return;
 	}
 }
 // System.Void System.Security.Cryptography.AesTransform::ECB(System.Byte[],System.Byte[])
-extern "C" void AesTransform_ECB_m3895 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
+extern "C" void AesTransform_ECB_m3898 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method)
 {
 	{
 		bool L_0 = (((SymmetricTransform_t770 *)__this)->___encrypt_1);
@@ -3038,7 +3038,7 @@ extern "C" void AesTransform_ECB_m3895 (AesTransform_t777 * __this, ByteU5BU5D_t
 		ByteU5BU5D_t772* L_1 = ___input;
 		ByteU5BU5D_t772* L_2 = ___output;
 		UInt32U5BU5D_t778* L_3 = (__this->___expandedKey_12);
-		AesTransform_Encrypt128_m3897(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
+		AesTransform_Encrypt128_m3900(__this, L_1, L_2, L_3, /*hidden argument*/NULL);
 		goto IL_002c;
 	}
 
@@ -3047,7 +3047,7 @@ IL_001e:
 		ByteU5BU5D_t772* L_4 = ___input;
 		ByteU5BU5D_t772* L_5 = ___output;
 		UInt32U5BU5D_t778* L_6 = (__this->___expandedKey_12);
-		AesTransform_Decrypt128_m3898(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
+		AesTransform_Decrypt128_m3901(__this, L_4, L_5, L_6, /*hidden argument*/NULL);
 	}
 
 IL_002c:
@@ -3057,7 +3057,7 @@ IL_002c:
 }
 // System.UInt32 System.Security.Cryptography.AesTransform::SubByte(System.UInt32)
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern "C" uint32_t AesTransform_SubByte_m3896 (AesTransform_t777 * __this, uint32_t ___a, const MethodInfo* method)
+extern "C" uint32_t AesTransform_SubByte_m3899 (AesTransform_t777 * __this, uint32_t ___a, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3108,7 +3108,7 @@ extern "C" uint32_t AesTransform_SubByte_m3896 (AesTransform_t777 * __this, uint
 }
 // System.Void System.Security.Cryptography.AesTransform::Encrypt128(System.Byte[],System.Byte[],System.UInt32[])
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern "C" void AesTransform_Encrypt128_m3897 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method)
+extern "C" void AesTransform_Encrypt128_m3900 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4772,7 +4772,7 @@ IL_0b08:
 }
 // System.Void System.Security.Cryptography.AesTransform::Decrypt128(System.Byte[],System.Byte[],System.UInt32[])
 extern TypeInfo* AesTransform_t777_il2cpp_TypeInfo_var;
-extern "C" void AesTransform_Decrypt128_m3898 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method)
+extern "C" void AesTransform_Decrypt128_m3901 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)

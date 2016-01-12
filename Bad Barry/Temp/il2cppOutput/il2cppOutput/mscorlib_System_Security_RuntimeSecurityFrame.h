@@ -19,16 +19,16 @@ struct MethodInfo_t;
 #include "mscorlib_System_Security_RuntimeDeclSecurityEntry.h"
 
 // System.Security.RuntimeSecurityFrame
-struct  RuntimeSecurityFrame_t1679  : public Object_t
+struct  RuntimeSecurityFrame_t1688  : public Object_t
 {
 	// System.AppDomain System.Security.RuntimeSecurityFrame::domain
 	AppDomain_t656 * ___domain_0;
 	// System.Reflection.MethodInfo System.Security.RuntimeSecurityFrame::method
 	MethodInfo_t * ___method_1;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::assert
-	RuntimeDeclSecurityEntry_t1678  ___assert_2;
+	RuntimeDeclSecurityEntry_t1687  ___assert_2;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::deny
-	RuntimeDeclSecurityEntry_t1678  ___deny_3;
+	RuntimeDeclSecurityEntry_t1687  ___deny_3;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::permitonly
-	RuntimeDeclSecurityEntry_t1678  ___permitonly_4;
+	RuntimeDeclSecurityEntry_t1687  ___permitonly_4;
 };

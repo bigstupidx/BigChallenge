@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<LitJson.ObjectMetadata>
-struct  InternalEnumerator_1_t2435 
+struct  InternalEnumerator_1_t2446 
 {
 	// System.Array System.Array/InternalEnumerator`1<LitJson.ObjectMetadata>::array
 	Array_t * ___array_0;

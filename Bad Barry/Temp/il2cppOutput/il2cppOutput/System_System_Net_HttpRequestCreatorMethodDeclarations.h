@@ -22,6 +22,6 @@ struct Uri_t959;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Net.HttpRequestCreator::.ctor()
-extern "C" void HttpRequestCreator__ctor_m5040 (HttpRequestCreator_t1005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpRequestCreator__ctor_m5043 (HttpRequestCreator_t1005 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.HttpRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t964 * HttpRequestCreator_Create_m5041 (HttpRequestCreator_t1005 * __this, Uri_t959 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t964 * HttpRequestCreator_Create_m5044 (HttpRequestCreator_t1005 * __this, Uri_t959 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;

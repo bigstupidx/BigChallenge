@@ -13,7 +13,7 @@
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>
-struct IDictionary_2_t2427;
+struct IDictionary_2_t2438;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.Type,System.Reflection.MethodInfo>,System.Collections.DictionaryEntry>
-struct  Transform_1_t2426  : public MulticastDelegate_t264
+struct  Transform_1_t2437  : public MulticastDelegate_t264
 {
 };

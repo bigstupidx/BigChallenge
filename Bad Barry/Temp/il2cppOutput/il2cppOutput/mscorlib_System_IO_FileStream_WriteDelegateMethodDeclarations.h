@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.IO.FileStream/WriteDelegate
-struct WriteDelegate_t1305;
+struct WriteDelegate_t1314;
 // System.Object
 struct Object_t;
 // System.Byte[]
@@ -29,11 +29,11 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Byte.h"
 
 // System.Void System.IO.FileStream/WriteDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void WriteDelegate__ctor_m7937 (WriteDelegate_t1305 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WriteDelegate__ctor_m8013 (WriteDelegate_t1314 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream/WriteDelegate::Invoke(System.Byte[],System.Int32,System.Int32)
-extern "C" void WriteDelegate_Invoke_m7938 (WriteDelegate_t1305 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_WriteDelegate_t1305(Il2CppObject* delegate, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count);
+extern "C" void WriteDelegate_Invoke_m8014 (WriteDelegate_t1314 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_WriteDelegate_t1314(Il2CppObject* delegate, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count);
 // System.IAsyncResult System.IO.FileStream/WriteDelegate::BeginInvoke(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * WriteDelegate_BeginInvoke_m7939 (WriteDelegate_t1305 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * WriteDelegate_BeginInvoke_m8015 (WriteDelegate_t1314 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream/WriteDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void WriteDelegate_EndInvoke_m7940 (WriteDelegate_t1305 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WriteDelegate_EndInvoke_m8016 (WriteDelegate_t1314 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

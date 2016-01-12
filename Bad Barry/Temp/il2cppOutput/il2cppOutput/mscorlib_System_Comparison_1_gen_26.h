@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Toggle
-struct Toggle_t217;
+struct Toggle_t218;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.Toggle>
-struct  Comparison_1_t2198  : public MulticastDelegate_t264
+struct  Comparison_1_t2209  : public MulticastDelegate_t264
 {
 };

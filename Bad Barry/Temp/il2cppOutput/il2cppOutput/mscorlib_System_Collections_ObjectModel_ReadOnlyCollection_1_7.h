@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Tiled2Unity.TileAnimator/Frame>
-struct IList_1_t1973;
+struct IList_1_t1984;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Tiled2Unity.TileAnimator/Frame>
-struct  ReadOnlyCollection_1_t1972  : public Object_t
+struct  ReadOnlyCollection_1_t1983  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<Tiled2Unity.TileAnimator/Frame>::list
 	Object_t* ___list_0;

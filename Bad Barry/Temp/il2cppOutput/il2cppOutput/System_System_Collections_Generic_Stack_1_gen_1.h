@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // LitJson.WriterContext[]
-struct WriterContextU5BU5D_t2479;
+struct WriterContextU5BU5D_t2490;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct WriterContextU5BU5D_t2479;
 struct  Stack_1_t720  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1<LitJson.WriterContext>::_array
-	WriterContextU5BU5D_t2479* ____array_0;
+	WriterContextU5BU5D_t2490* ____array_0;
 	// System.Int32 System.Collections.Generic.Stack`1<LitJson.WriterContext>::_size
 	int32_t ____size_1;
 	// System.Int32 System.Collections.Generic.Stack`1<LitJson.WriterContext>::_version

@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.TimeZone
-struct TimeZone_t1794;
+struct TimeZone_t1805;
 
 #include "mscorlib_System_Object.h"
 
 // System.TimeZone
-struct  TimeZone_t1794  : public Object_t
+struct  TimeZone_t1805  : public Object_t
 {
 };
-struct TimeZone_t1794_StaticFields{
+struct TimeZone_t1805_StaticFields{
 	// System.TimeZone System.TimeZone::currentTimeZone
-	TimeZone_t1794 * ___currentTimeZone_0;
+	TimeZone_t1805 * ___currentTimeZone_0;
 };

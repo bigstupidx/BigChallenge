@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.IO.UnmanagedMemoryStream
-struct UnmanagedMemoryStream_t1325;
+struct UnmanagedMemoryStream_t1334;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 
@@ -21,30 +21,30 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Boolean System.IO.UnmanagedMemoryStream::get_CanRead()
-extern "C" bool UnmanagedMemoryStream_get_CanRead_m8209 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnmanagedMemoryStream_get_CanRead_m8291 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.UnmanagedMemoryStream::get_CanSeek()
-extern "C" bool UnmanagedMemoryStream_get_CanSeek_m8210 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnmanagedMemoryStream_get_CanSeek_m8292 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.UnmanagedMemoryStream::get_CanWrite()
-extern "C" bool UnmanagedMemoryStream_get_CanWrite_m8211 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UnmanagedMemoryStream_get_CanWrite_m8293 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.UnmanagedMemoryStream::get_Length()
-extern "C" int64_t UnmanagedMemoryStream_get_Length_m8212 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t UnmanagedMemoryStream_get_Length_m8294 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.UnmanagedMemoryStream::get_Position()
-extern "C" int64_t UnmanagedMemoryStream_get_Position_m8213 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t UnmanagedMemoryStream_get_Position_m8295 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::set_Position(System.Int64)
-extern "C" void UnmanagedMemoryStream_set_Position_m8214 (UnmanagedMemoryStream_t1325 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_set_Position_m8296 (UnmanagedMemoryStream_t1334 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.UnmanagedMemoryStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t UnmanagedMemoryStream_Read_m8215 (UnmanagedMemoryStream_t1325 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnmanagedMemoryStream_Read_m8297 (UnmanagedMemoryStream_t1334 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.UnmanagedMemoryStream::ReadByte()
-extern "C" int32_t UnmanagedMemoryStream_ReadByte_m8216 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UnmanagedMemoryStream_ReadByte_m8298 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.UnmanagedMemoryStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t UnmanagedMemoryStream_Seek_m8217 (UnmanagedMemoryStream_t1325 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t UnmanagedMemoryStream_Seek_m8299 (UnmanagedMemoryStream_t1334 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::SetLength(System.Int64)
-extern "C" void UnmanagedMemoryStream_SetLength_m8218 (UnmanagedMemoryStream_t1325 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_SetLength_m8300 (UnmanagedMemoryStream_t1334 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::Flush()
-extern "C" void UnmanagedMemoryStream_Flush_m8219 (UnmanagedMemoryStream_t1325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_Flush_m8301 (UnmanagedMemoryStream_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::Dispose(System.Boolean)
-extern "C" void UnmanagedMemoryStream_Dispose_m8220 (UnmanagedMemoryStream_t1325 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_Dispose_m8302 (UnmanagedMemoryStream_t1334 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void UnmanagedMemoryStream_Write_m8221 (UnmanagedMemoryStream_t1325 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_Write_m8303 (UnmanagedMemoryStream_t1334 * __this, ByteU5BU5D_t772* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.UnmanagedMemoryStream::WriteByte(System.Byte)
-extern "C" void UnmanagedMemoryStream_WriteByte_m8222 (UnmanagedMemoryStream_t1325 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnmanagedMemoryStream_WriteByte_m8304 (UnmanagedMemoryStream_t1334 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

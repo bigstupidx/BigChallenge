@@ -13,15 +13,15 @@
 // System.String
 struct String_t;
 // System.Runtime.Hosting.ActivationArguments
-struct ActivationArguments_t1453;
+struct ActivationArguments_t1462;
 // System.AppDomainInitializer
-struct AppDomainInitializer_t1736;
+struct AppDomainInitializer_t1746;
 // System.Security.Policy.ApplicationTrust
-struct ApplicationTrust_t1664;
+struct ApplicationTrust_t1673;
 // System.String[]
 struct StringU5BU5D_t85;
 // System.Security.SecurityElement
-struct SecurityElement_t1238;
+struct SecurityElement_t1247;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 
@@ -29,7 +29,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_LoaderOptimization.h"
 
 // System.AppDomainSetup
-struct  AppDomainSetup_t1735  : public Object_t
+struct  AppDomainSetup_t1745  : public Object_t
 {
 	// System.String System.AppDomainSetup::application_base
 	String_t* ___application_base_0;
@@ -62,15 +62,15 @@ struct  AppDomainSetup_t1735  : public Object_t
 	// System.Boolean System.AppDomainSetup::disallow_code_downloads
 	bool ___disallow_code_downloads_14;
 	// System.Runtime.Hosting.ActivationArguments System.AppDomainSetup::_activationArguments
-	ActivationArguments_t1453 * ____activationArguments_15;
+	ActivationArguments_t1462 * ____activationArguments_15;
 	// System.AppDomainInitializer System.AppDomainSetup::domain_initializer
-	AppDomainInitializer_t1736 * ___domain_initializer_16;
+	AppDomainInitializer_t1746 * ___domain_initializer_16;
 	// System.Security.Policy.ApplicationTrust System.AppDomainSetup::application_trust
-	ApplicationTrust_t1664 * ___application_trust_17;
+	ApplicationTrust_t1673 * ___application_trust_17;
 	// System.String[] System.AppDomainSetup::domain_initializer_args
 	StringU5BU5D_t85* ___domain_initializer_args_18;
 	// System.Security.SecurityElement System.AppDomainSetup::application_trust_xml
-	SecurityElement_t1238 * ___application_trust_xml_19;
+	SecurityElement_t1247 * ___application_trust_xml_19;
 	// System.Boolean System.AppDomainSetup::disallow_appbase_probe
 	bool ___disallow_appbase_probe_20;
 	// System.Byte[] System.AppDomainSetup::configuration_bytes

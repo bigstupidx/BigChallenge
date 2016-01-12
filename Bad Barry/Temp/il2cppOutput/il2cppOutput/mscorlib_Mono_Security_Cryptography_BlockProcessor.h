@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.BlockProcessor
-struct  BlockProcessor_t1208  : public Object_t
+struct  BlockProcessor_t1217  : public Object_t
 {
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Cryptography.BlockProcessor::transform
 	Object_t * ___transform_0;

@@ -37,9 +37,9 @@ struct  PointerEventData_t105  : public BaseEventData_t108
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<pointerDrag>k__BackingField
 	GameObject_t40 * ___U3CpointerDragU3Ek__BackingField_7;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerCurrentRaycast>k__BackingField
-	RaycastResult_t180  ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
+	RaycastResult_t182  ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerPressRaycast>k__BackingField
-	RaycastResult_t180  ___U3CpointerPressRaycastU3Ek__BackingField_9;
+	RaycastResult_t182  ___U3CpointerPressRaycastU3Ek__BackingField_9;
 	// System.Boolean UnityEngine.EventSystems.PointerEventData::<eligibleForClick>k__BackingField
 	bool ___U3CeligibleForClickU3Ek__BackingField_10;
 	// System.Int32 UnityEngine.EventSystems.PointerEventData::<pointerId>k__BackingField

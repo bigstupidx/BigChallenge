@@ -22,16 +22,16 @@ struct ByteU5BU5D_t772;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Mono.Security.Cryptography.HMAC::.ctor(System.String,System.Byte[])
-extern "C" void HMAC__ctor_m4298 (HMAC_t851 * __this, String_t* ___hashName, ByteU5BU5D_t772* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC__ctor_m4301 (HMAC_t851 * __this, String_t* ___hashName, ByteU5BU5D_t772* ___rgbKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.HMAC::get_Key()
-extern "C" ByteU5BU5D_t772* HMAC_get_Key_m4299 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* HMAC_get_Key_m4302 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.HMAC::set_Key(System.Byte[])
-extern "C" void HMAC_set_Key_m4300 (HMAC_t851 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_set_Key_m4303 (HMAC_t851 * __this, ByteU5BU5D_t772* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.HMAC::Initialize()
-extern "C" void HMAC_Initialize_m4301 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_Initialize_m4304 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.HMAC::HashFinal()
-extern "C" ByteU5BU5D_t772* HMAC_HashFinal_m4302 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* HMAC_HashFinal_m4305 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.HMAC::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void HMAC_HashCore_m4303 (HMAC_t851 * __this, ByteU5BU5D_t772* ___array, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_HashCore_m4306 (HMAC_t851 * __this, ByteU5BU5D_t772* ___array, int32_t ___ibStart, int32_t ___cbSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.HMAC::initializePad()
-extern "C" void HMAC_initializePad_m4304 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_initializePad_m4307 (HMAC_t851 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

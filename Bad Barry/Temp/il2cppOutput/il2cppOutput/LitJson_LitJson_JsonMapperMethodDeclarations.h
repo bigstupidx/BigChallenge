@@ -36,60 +36,60 @@ struct JsonWriter_t701;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void LitJson.JsonMapper::.cctor()
-extern "C" void JsonMapper__cctor_m3683 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper__cctor_m3686 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.IJsonWrapper LitJson.JsonMapper::ReadValue(LitJson.WrapperFactory,LitJson.JsonReader)
-extern "C" Object_t * JsonMapper_ReadValue_m3684 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, JsonReader_t713 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_ReadValue_m3687 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, JsonReader_t713 * ___reader, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::RegisterBaseExporters()
-extern "C" void JsonMapper_RegisterBaseExporters_m3685 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_RegisterBaseExporters_m3688 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::RegisterBaseImporters()
-extern "C" void JsonMapper_RegisterBaseImporters_m3686 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_RegisterBaseImporters_m3689 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::RegisterImporter(System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>,System.Type,System.Type,LitJson.ImporterFunc)
-extern "C" void JsonMapper_RegisterImporter_m3687 (Object_t * __this /* static, unused */, Object_t* ___table, Type_t * ___json_type, Type_t * ___value_type, ImporterFunc_t702 * ___importer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_RegisterImporter_m3690 (Object_t * __this /* static, unused */, Object_t* ___table, Type_t * ___json_type, Type_t * ___value_type, ImporterFunc_t702 * ___importer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.JsonData LitJson.JsonMapper::ToObject(System.String)
-extern "C" JsonData_t66 * JsonMapper_ToObject_m580 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" JsonData_t66 * JsonMapper_ToObject_m581 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.IJsonWrapper LitJson.JsonMapper::ToWrapper(LitJson.WrapperFactory,System.String)
-extern "C" Object_t * JsonMapper_ToWrapper_m3688 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_ToWrapper_m3691 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__1(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__1_m3692 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__2(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3693 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__3(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__3_m3694 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__4(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__4_m3695 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__5(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__5_m3696 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__6(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__6_m3697 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__7(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__7_m3698 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__8(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__8_m3699 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__9(System.Object,LitJson.JsonWriter)
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3700 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__A(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3701 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__B(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3702 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__C(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3703 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__D(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3704 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__E(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3705 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__F(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3706 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__10(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3707 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__11(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3708 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__12(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3709 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__13(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3710 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__14(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__14_m3711 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object LitJson.JsonMapper::<RegisterBaseImporters>m__15(System.Object)
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3712 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // LitJson.IJsonWrapper LitJson.JsonMapper::<ToObject>m__18()
-extern "C" Object_t * JsonMapper_U3CToObjectU3Em__18_m3710 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * JsonMapper_U3CToObjectU3Em__18_m3713 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

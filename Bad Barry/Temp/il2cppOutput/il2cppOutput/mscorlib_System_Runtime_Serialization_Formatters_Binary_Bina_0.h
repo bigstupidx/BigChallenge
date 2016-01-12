@@ -18,10 +18,10 @@ struct TypeU5BU5D_t651;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct  BinaryCommon_t1574  : public Object_t
+struct  BinaryCommon_t1583  : public Object_t
 {
 };
-struct BinaryCommon_t1574_StaticFields{
+struct BinaryCommon_t1583_StaticFields{
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::BinaryHeader
 	ByteU5BU5D_t772* ___BinaryHeader_0;
 	// System.Type[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodesToType

@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Lifetime.LeaseSink
-struct  LeaseSink_t1503  : public Object_t
+struct  LeaseSink_t1512  : public Object_t
 {
 	// System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.Lifetime.LeaseSink::_nextSink
 	Object_t * ____nextSink_0;

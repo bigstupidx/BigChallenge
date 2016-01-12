@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.Contexts.SynchronizedClientContextSink
-struct SynchronizedClientContextSink_t1496;
+struct SynchronizedClientContextSink_t1505;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 // System.Runtime.Remoting.Contexts.SynchronizationAttribute
-struct SynchronizationAttribute_t1493;
+struct SynchronizationAttribute_t1502;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Contexts.SynchronizedClientContextSink::.ctor(System.Runtime.Remoting.Messaging.IMessageSink,System.Runtime.Remoting.Contexts.SynchronizationAttribute)
-extern "C" void SynchronizedClientContextSink__ctor_m9118 (SynchronizedClientContextSink_t1496 * __this, Object_t * ___next, SynchronizationAttribute_t1493 * ___att, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SynchronizedClientContextSink__ctor_m9200 (SynchronizedClientContextSink_t1505 * __this, Object_t * ___next, SynchronizationAttribute_t1502 * ___att, const MethodInfo* method) IL2CPP_METHOD_ATTR;

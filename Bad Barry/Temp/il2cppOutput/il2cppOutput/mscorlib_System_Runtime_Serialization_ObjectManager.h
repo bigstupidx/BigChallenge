@@ -11,24 +11,24 @@
 #include <stdint.h>
 
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t1601;
+struct ObjectRecord_t1610;
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1531;
+struct ISurrogateSelector_t1540;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Runtime.Serialization.ObjectManager
-struct  ObjectManager_t1586  : public Object_t
+struct  ObjectManager_t1595  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_objectRecordChain
-	ObjectRecord_t1601 * ____objectRecordChain_0;
+	ObjectRecord_t1610 * ____objectRecordChain_0;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_lastObjectRecord
-	ObjectRecord_t1601 * ____lastObjectRecord_1;
+	ObjectRecord_t1610 * ____lastObjectRecord_1;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_deserializedRecords
 	ArrayList_t803 * ____deserializedRecords_2;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_onDeserializedCallbackRecords

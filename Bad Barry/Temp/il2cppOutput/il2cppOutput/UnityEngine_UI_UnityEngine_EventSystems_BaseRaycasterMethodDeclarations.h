@@ -13,23 +13,23 @@
 #include <exception>
 
 // UnityEngine.EventSystems.BaseRaycaster
-struct BaseRaycaster_t181;
+struct BaseRaycaster_t183;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.EventSystems.BaseRaycaster::.ctor()
-extern "C" void BaseRaycaster__ctor_m927 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseRaycaster__ctor_m937 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.EventSystems.BaseRaycaster::get_priority()
-extern "C" int32_t BaseRaycaster_get_priority_m928 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BaseRaycaster_get_priority_m938 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.EventSystems.BaseRaycaster::get_sortOrderPriority()
-extern "C" int32_t BaseRaycaster_get_sortOrderPriority_m929 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BaseRaycaster_get_sortOrderPriority_m939 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.EventSystems.BaseRaycaster::get_renderOrderPriority()
-extern "C" int32_t BaseRaycaster_get_renderOrderPriority_m930 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BaseRaycaster_get_renderOrderPriority_m940 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.EventSystems.BaseRaycaster::ToString()
-extern "C" String_t* BaseRaycaster_ToString_m931 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* BaseRaycaster_ToString_m941 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.BaseRaycaster::OnEnable()
-extern "C" void BaseRaycaster_OnEnable_m932 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseRaycaster_OnEnable_m942 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.BaseRaycaster::OnDisable()
-extern "C" void BaseRaycaster_OnDisable_m933 (BaseRaycaster_t181 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BaseRaycaster_OnDisable_m943 (BaseRaycaster_t183 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

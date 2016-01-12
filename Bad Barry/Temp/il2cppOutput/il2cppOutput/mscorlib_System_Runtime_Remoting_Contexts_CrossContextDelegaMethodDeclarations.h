@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.Contexts.CrossContextDelegate
-struct CrossContextDelegate_t1802;
+struct CrossContextDelegate_t1813;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -25,11 +25,11 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Runtime.Remoting.Contexts.CrossContextDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void CrossContextDelegate__ctor_m11364 (CrossContextDelegate_t1802 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossContextDelegate__ctor_m11457 (CrossContextDelegate_t1813 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Contexts.CrossContextDelegate::Invoke()
-extern "C" void CrossContextDelegate_Invoke_m11365 (CrossContextDelegate_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_CrossContextDelegate_t1802(Il2CppObject* delegate);
+extern "C" void CrossContextDelegate_Invoke_m11458 (CrossContextDelegate_t1813 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_CrossContextDelegate_t1813(Il2CppObject* delegate);
 // System.IAsyncResult System.Runtime.Remoting.Contexts.CrossContextDelegate::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * CrossContextDelegate_BeginInvoke_m11366 (CrossContextDelegate_t1802 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CrossContextDelegate_BeginInvoke_m11459 (CrossContextDelegate_t1813 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Contexts.CrossContextDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void CrossContextDelegate_EndInvoke_m11367 (CrossContextDelegate_t1802 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossContextDelegate_EndInvoke_m11460 (CrossContextDelegate_t1813 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

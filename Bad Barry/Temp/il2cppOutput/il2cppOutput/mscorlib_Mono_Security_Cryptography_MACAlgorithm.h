@@ -20,7 +20,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.Cryptography.MACAlgorithm
-struct  MACAlgorithm_t1212  : public Object_t
+struct  MACAlgorithm_t1221  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.MACAlgorithm::algo
 	SymmetricAlgorithm_t771 * ___algo_0;

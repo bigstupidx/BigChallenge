@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Selectable
-struct Selectable_t208;
+struct Selectable_t210;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.Selectable>
-struct  Comparison_1_t2181  : public MulticastDelegate_t264
+struct  Comparison_1_t2192  : public MulticastDelegate_t264
 {
 };

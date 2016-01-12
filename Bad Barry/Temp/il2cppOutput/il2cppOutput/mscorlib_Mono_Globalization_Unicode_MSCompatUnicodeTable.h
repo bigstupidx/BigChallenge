@@ -13,7 +13,7 @@
 // System.Char[]
 struct CharU5BU5D_t275;
 // Mono.Globalization.Unicode.TailoringInfo[]
-struct TailoringInfoU5BU5D_t1186;
+struct TailoringInfoU5BU5D_t1195;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -22,10 +22,10 @@ struct Dictionary_2_t276;
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.MSCompatUnicodeTable
-struct  MSCompatUnicodeTable_t1185  : public Object_t
+struct  MSCompatUnicodeTable_t1194  : public Object_t
 {
 };
-struct MSCompatUnicodeTable_t1185_StaticFields{
+struct MSCompatUnicodeTable_t1194_StaticFields{
 	// System.Int32 Mono.Globalization.Unicode.MSCompatUnicodeTable::MaxExpansionLength
 	int32_t ___MaxExpansionLength_0;
 	// System.Byte* Mono.Globalization.Unicode.MSCompatUnicodeTable::ignorableFlags
@@ -59,7 +59,7 @@ struct MSCompatUnicodeTable_t1185_StaticFields{
 	// System.Char[] Mono.Globalization.Unicode.MSCompatUnicodeTable::tailoringArr
 	CharU5BU5D_t275* ___tailoringArr_15;
 	// Mono.Globalization.Unicode.TailoringInfo[] Mono.Globalization.Unicode.MSCompatUnicodeTable::tailoringInfos
-	TailoringInfoU5BU5D_t1186* ___tailoringInfos_16;
+	TailoringInfoU5BU5D_t1195* ___tailoringInfos_16;
 	// System.Object Mono.Globalization.Unicode.MSCompatUnicodeTable::forLock
 	Object_t * ___forLock_17;
 	// System.Boolean Mono.Globalization.Unicode.MSCompatUnicodeTable::isReady

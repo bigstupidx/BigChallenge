@@ -1,4 +1,4 @@
-//Generated on : 11/01/2016 16:08:48
+//Generated on : 12/01/2016 11:07:11
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsInternal

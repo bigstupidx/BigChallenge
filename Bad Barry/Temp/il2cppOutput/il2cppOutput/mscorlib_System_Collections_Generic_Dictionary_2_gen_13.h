@@ -13,17 +13,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // System.Type[]
 struct TypeU5BU5D_t651;
 // LitJson.ExporterFunc[]
-struct ExporterFuncU5BU5D_t2453;
+struct ExporterFuncU5BU5D_t2464;
 // System.Collections.Generic.IEqualityComparer`1<System.Type>
-struct IEqualityComparer_1_t2410;
+struct IEqualityComparer_1_t2421;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,LitJson.ExporterFunc,System.Collections.DictionaryEntry>
-struct Transform_1_t2454;
+struct Transform_1_t2465;
 
 #include "mscorlib_System_Object.h"
 
@@ -33,11 +33,11 @@ struct  Dictionary_2_t751  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::keySlots
 	TypeU5BU5D_t651* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::valueSlots
-	ExporterFuncU5BU5D_t2453* ___valueSlots_7;
+	ExporterFuncU5BU5D_t2464* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::emptySlot
@@ -55,5 +55,5 @@ struct  Dictionary_2_t751  : public Object_t
 };
 struct Dictionary_2_t751_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Type,LitJson.ExporterFunc>::<>f__am$cacheB
-	Transform_1_t2454 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t2465 * ___U3CU3Ef__amU24cacheB_15;
 };

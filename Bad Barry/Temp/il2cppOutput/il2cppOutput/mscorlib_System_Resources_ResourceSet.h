@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.Resources.IResourceReader
-struct IResourceReader_t1440;
+struct IResourceReader_t1449;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 
 #include "mscorlib_System_Object.h"
 
 // System.Resources.ResourceSet
-struct  ResourceSet_t1439  : public Object_t
+struct  ResourceSet_t1448  : public Object_t
 {
 	// System.Resources.IResourceReader System.Resources.ResourceSet::Reader
 	Object_t * ___Reader_0;

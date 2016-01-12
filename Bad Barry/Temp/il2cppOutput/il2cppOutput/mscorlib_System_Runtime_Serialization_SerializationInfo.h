@@ -17,7 +17,7 @@ struct ArrayList_t803;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.IFormatterConverter
-struct IFormatterConverter_t1616;
+struct IFormatterConverter_t1625;
 
 #include "mscorlib_System_Object.h"
 

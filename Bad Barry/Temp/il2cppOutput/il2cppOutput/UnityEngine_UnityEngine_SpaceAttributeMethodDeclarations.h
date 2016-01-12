@@ -18,6 +18,6 @@ struct SpaceAttribute_t617;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SpaceAttribute::.ctor()
-extern "C" void SpaceAttribute__ctor_m3445 (SpaceAttribute_t617 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpaceAttribute__ctor_m3448 (SpaceAttribute_t617 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SpaceAttribute::.ctor(System.Single)
-extern "C" void SpaceAttribute__ctor_m3446 (SpaceAttribute_t617 * __this, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpaceAttribute__ctor_m3449 (SpaceAttribute_t617 * __this, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,4 +18,4 @@ struct IL2CPPStructAlignmentAttribute_t579;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.IL2CPPStructAlignmentAttribute::.ctor()
-extern "C" void IL2CPPStructAlignmentAttribute__ctor_m3351 (IL2CPPStructAlignmentAttribute_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IL2CPPStructAlignmentAttribute__ctor_m3354 (IL2CPPStructAlignmentAttribute_t579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

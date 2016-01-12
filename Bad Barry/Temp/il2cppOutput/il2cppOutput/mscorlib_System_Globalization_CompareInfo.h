@@ -13,7 +13,7 @@
 // System.String
 struct String_t;
 // Mono.Globalization.Unicode.SimpleCollator
-struct SimpleCollator_t1192;
+struct SimpleCollator_t1201;
 // System.Collections.Hashtable
 struct Hashtable_t868;
 // System.Object
@@ -29,7 +29,7 @@ struct  CompareInfo_t958  : public Object_t
 	// System.String System.Globalization.CompareInfo::icu_name
 	String_t* ___icu_name_2;
 	// Mono.Globalization.Unicode.SimpleCollator System.Globalization.CompareInfo::collator
-	SimpleCollator_t1192 * ___collator_3;
+	SimpleCollator_t1201 * ___collator_3;
 };
 struct CompareInfo_t958_StaticFields{
 	// System.Boolean System.Globalization.CompareInfo::useManagedCollation

@@ -19,7 +19,7 @@ struct RandomNumberGenerator_t769;
 #include "mscorlib_System_Guid.h"
 
 // System.Guid
-struct  Guid_t1767 
+struct  Guid_t1778 
 {
 	// System.Int32 System.Guid::_a
 	int32_t ____a_0;
@@ -44,9 +44,9 @@ struct  Guid_t1767
 	// System.Byte System.Guid::_k
 	uint8_t ____k_10;
 };
-struct Guid_t1767_StaticFields{
+struct Guid_t1778_StaticFields{
 	// System.Guid System.Guid::Empty
-	Guid_t1767  ___Empty_11;
+	Guid_t1778  ___Empty_11;
 	// System.Object System.Guid::_rngAccess
 	Object_t * ____rngAccess_12;
 	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng

@@ -13,15 +13,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // System.String[]
 struct StringU5BU5D_t85;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t1907;
+struct IEqualityComparer_1_t1918;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t2155;
+struct Transform_1_t2166;
 
 #include "mscorlib_System_Object.h"
 
@@ -31,7 +31,7 @@ struct  Dictionary_2_t276  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,System.Int32>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,System.Int32>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.String,System.Int32>::keySlots
 	StringU5BU5D_t85* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.String,System.Int32>::valueSlots
@@ -53,5 +53,5 @@ struct  Dictionary_2_t276  : public Object_t
 };
 struct Dictionary_2_t276_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,System.Int32>::<>f__am$cacheB
-	Transform_1_t2155 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t2166 * ___U3CU3Ef__amU24cacheB_15;
 };

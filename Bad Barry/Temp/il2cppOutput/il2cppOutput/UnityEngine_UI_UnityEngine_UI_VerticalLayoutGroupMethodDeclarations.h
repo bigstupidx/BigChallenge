@@ -18,12 +18,12 @@ struct VerticalLayoutGroup_t348;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.UI.VerticalLayoutGroup::.ctor()
-extern "C" void VerticalLayoutGroup__ctor_m2013 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup__ctor_m2016 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputHorizontal()
-extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m2014 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_CalculateLayoutInputHorizontal_m2017 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputVertical()
-extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m2015 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_CalculateLayoutInputVertical_m2018 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutHorizontal()
-extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m2016 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_SetLayoutHorizontal_m2019 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutVertical()
-extern "C" void VerticalLayoutGroup_SetLayoutVertical_m2017 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VerticalLayoutGroup_SetLayoutVertical_m2020 (VerticalLayoutGroup_t348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

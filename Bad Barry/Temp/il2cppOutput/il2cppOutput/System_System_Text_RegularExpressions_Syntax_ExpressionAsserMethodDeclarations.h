@@ -22,16 +22,16 @@ struct ICompiler_t1126;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::.ctor()
-extern "C" void ExpressionAssertion__ctor_m5690 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionAssertion__ctor_m5693 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Reverse(System.Boolean)
-extern "C" void ExpressionAssertion_set_Reverse_m5691 (ExpressionAssertion_t1103 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionAssertion_set_Reverse_m5694 (ExpressionAssertion_t1103 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_Negate(System.Boolean)
-extern "C" void ExpressionAssertion_set_Negate_m5692 (ExpressionAssertion_t1103 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionAssertion_set_Negate_m5695 (ExpressionAssertion_t1103 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.Expression System.Text.RegularExpressions.Syntax.ExpressionAssertion::get_TestExpression()
-extern "C" Expression_t1093 * ExpressionAssertion_get_TestExpression_m5693 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Expression_t1093 * ExpressionAssertion_get_TestExpression_m5696 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::set_TestExpression(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void ExpressionAssertion_set_TestExpression_m5694 (ExpressionAssertion_t1103 * __this, Expression_t1093 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionAssertion_set_TestExpression_m5697 (ExpressionAssertion_t1103 * __this, Expression_t1093 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.ExpressionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void ExpressionAssertion_Compile_m5695 (ExpressionAssertion_t1103 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExpressionAssertion_Compile_m5698 (ExpressionAssertion_t1103 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.ExpressionAssertion::IsComplex()
-extern "C" bool ExpressionAssertion_IsComplex_m5696 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ExpressionAssertion_IsComplex_m5699 (ExpressionAssertion_t1103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

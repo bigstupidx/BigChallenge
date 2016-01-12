@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Type[]>
-struct  InternalEnumerator_1_t2540 
+struct  InternalEnumerator_1_t2551 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Type[]>::array
 	Array_t * ___array_0;

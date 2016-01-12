@@ -16,7 +16,7 @@ struct TextReader_t716;
 #include "mscorlib_System_IO_TextReader.h"
 
 // System.IO.SynchronizedReader
-struct  SynchronizedReader_t1320  : public TextReader_t716
+struct  SynchronizedReader_t1329  : public TextReader_t716
 {
 	// System.IO.TextReader System.IO.SynchronizedReader::reader
 	TextReader_t716 * ___reader_1;

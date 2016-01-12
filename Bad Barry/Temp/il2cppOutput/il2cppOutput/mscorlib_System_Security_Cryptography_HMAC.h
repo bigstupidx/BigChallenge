@@ -15,7 +15,7 @@ struct String_t;
 // System.Security.Cryptography.HashAlgorithm
 struct HashAlgorithm_t814;
 // Mono.Security.Cryptography.BlockProcessor
-struct BlockProcessor_t1208;
+struct BlockProcessor_t1217;
 
 #include "mscorlib_System_Security_Cryptography_KeyedHashAlgorithm.h"
 
@@ -29,7 +29,7 @@ struct  HMAC_t943  : public KeyedHashAlgorithm_t852
 	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.HMAC::_algo
 	HashAlgorithm_t814 * ____algo_7;
 	// Mono.Security.Cryptography.BlockProcessor System.Security.Cryptography.HMAC::_block
-	BlockProcessor_t1208 * ____block_8;
+	BlockProcessor_t1217 * ____block_8;
 	// System.Int32 System.Security.Cryptography.HMAC::_blockSizeValue
 	int32_t ____blockSizeValue_9;
 };

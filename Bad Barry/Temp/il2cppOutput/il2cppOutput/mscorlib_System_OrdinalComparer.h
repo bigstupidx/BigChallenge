@@ -14,7 +14,7 @@
 #include "mscorlib_System_StringComparer.h"
 
 // System.OrdinalComparer
-struct  OrdinalComparer_t1790  : public StringComparer_t1132
+struct  OrdinalComparer_t1801  : public StringComparer_t1132
 {
 	// System.Boolean System.OrdinalComparer::_ignoreCase
 	bool ____ignoreCase_4;

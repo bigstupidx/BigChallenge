@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Security.Permissions.StrongNamePublicKeyBlob
-struct StrongNamePublicKeyBlob_t1663;
+struct StrongNamePublicKeyBlob_t1672;
 // System.Object
 struct Object_t;
 // System.String
@@ -22,8 +22,8 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Boolean System.Security.Permissions.StrongNamePublicKeyBlob::Equals(System.Object)
-extern "C" bool StrongNamePublicKeyBlob_Equals_m10089 (StrongNamePublicKeyBlob_t1663 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool StrongNamePublicKeyBlob_Equals_m10171 (StrongNamePublicKeyBlob_t1672 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Permissions.StrongNamePublicKeyBlob::GetHashCode()
-extern "C" int32_t StrongNamePublicKeyBlob_GetHashCode_m10090 (StrongNamePublicKeyBlob_t1663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StrongNamePublicKeyBlob_GetHashCode_m10172 (StrongNamePublicKeyBlob_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Permissions.StrongNamePublicKeyBlob::ToString()
-extern "C" String_t* StrongNamePublicKeyBlob_ToString_m10091 (StrongNamePublicKeyBlob_t1663 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* StrongNamePublicKeyBlob_ToString_m10173 (StrongNamePublicKeyBlob_t1672 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -46,10 +46,14 @@ public class GameBehavior : MonoBehaviour {
 
 	public DateTime lastDateTime;
 
-	
+
+
+
 
 	// Use this for initialization
 	void Start () {
+		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
+
 		//on start get selected character points and get bullets
 		load();
 		pause = false;
@@ -79,7 +83,6 @@ public class GameBehavior : MonoBehaviour {
 		if(timer >=60){
 			energy = energy + (int)(timer / 60);
 			timer = timer - ((int)(timer / 60) * 60);
-			print (energy);
 	
 		}
 		if(energy >= 15)
@@ -168,7 +171,9 @@ public class GameBehavior : MonoBehaviour {
 	//go to last scene
 	public void GoToLastScene(){
 		pause = false;
-		save();
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.save();
 
 		Application.LoadLevel("MapScene");
 		//Play();

@@ -13,15 +13,15 @@
 #include <exception>
 
 // System.Runtime.Remoting.SingletonIdentity
-struct SingletonIdentity_t1566;
+struct SingletonIdentity_t1575;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1485;
+struct Context_t1494;
 // System.Type
 struct Type_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.SingletonIdentity::.ctor(System.String,System.Runtime.Remoting.Contexts.Context,System.Type)
-extern "C" void SingletonIdentity__ctor_m9486 (SingletonIdentity_t1566 * __this, String_t* ___objectUri, Context_t1485 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SingletonIdentity__ctor_m9568 (SingletonIdentity_t1575 * __this, String_t* ___objectUri, Context_t1494 * ___context, Type_t * ___objectType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

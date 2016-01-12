@@ -14,6 +14,6 @@
 #include "mscorlib_System_IO_IOException.h"
 
 // System.IO.EndOfStreamException
-struct  EndOfStreamException_t1297  : public IOException_t968
+struct  EndOfStreamException_t1306  : public IOException_t968
 {
 };

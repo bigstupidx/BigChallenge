@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>
-struct  InternalEnumerator_1_t1902 
+struct  InternalEnumerator_1_t1913 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::array
 	Array_t * ___array_0;

@@ -16,7 +16,7 @@ struct Stack_1_t720;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>
-struct  Enumerator_t2480 
+struct  Enumerator_t2491 
 {
 	// System.Collections.Generic.Stack`1<T> System.Collections.Generic.Stack`1/Enumerator<LitJson.WriterContext>::parent
 	Stack_1_t720 * ___parent_0;

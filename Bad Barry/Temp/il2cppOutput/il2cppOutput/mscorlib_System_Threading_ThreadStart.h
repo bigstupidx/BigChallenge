@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // System.Threading.ThreadStart
-struct  ThreadStart_t1805  : public MulticastDelegate_t264
+struct  ThreadStart_t1816  : public MulticastDelegate_t264
 {
 };

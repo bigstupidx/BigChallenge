@@ -20,16 +20,16 @@ struct RaycastHit2DU5BU5D_t401;
 #include "UnityEngine_UnityEngine_RaycastHit2D.h"
 
 // System.Void UnityEngine.Physics2D::.cctor()
-extern "C" void Physics2D__cctor_m3136 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2D__cctor_m3139 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::Internal_Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single,UnityEngine.RaycastHit2D&)
-extern "C" void Physics2D_Internal_Raycast_m3137 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, RaycastHit2D_t404 * ___raycastHit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2D_Internal_Raycast_m3140 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, RaycastHit2D_t404 * ___raycastHit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,System.Int32,System.Single,System.Single,UnityEngine.RaycastHit2D&)
-extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m3138 (Object_t * __this /* static, unused */, Vector2_t25 * ___origin, Vector2_t25 * ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, RaycastHit2D_t404 * ___raycastHit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m3141 (Object_t * __this /* static, unused */, Vector2_t25 * ___origin, Vector2_t25 * ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, RaycastHit2D_t404 * ___raycastHit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32)
-extern "C" RaycastHit2D_t404  Physics2D_Raycast_m2317 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHit2D_t404  Physics2D_Raycast_m2320 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D UnityEngine.Physics2D::Raycast(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32,System.Single,System.Single)
-extern "C" RaycastHit2D_t404  Physics2D_Raycast_m3139 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHit2D_t404  Physics2D_Raycast_m3142 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::RaycastAll(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Int32)
-extern "C" RaycastHit2DU5BU5D_t401* Physics2D_RaycastAll_m2152 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHit2DU5BU5D_t401* Physics2D_RaycastAll_m2155 (Object_t * __this /* static, unused */, Vector2_t25  ___origin, Vector2_t25  ___direction, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::INTERNAL_CALL_RaycastAll(UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,System.Int32,System.Single,System.Single)
-extern "C" RaycastHit2DU5BU5D_t401* Physics2D_INTERNAL_CALL_RaycastAll_m3140 (Object_t * __this /* static, unused */, Vector2_t25 * ___origin, Vector2_t25 * ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RaycastHit2DU5BU5D_t401* Physics2D_INTERNAL_CALL_RaycastAll_m3143 (Object_t * __this /* static, unused */, Vector2_t25 * ___origin, Vector2_t25 * ___direction, float ___distance, int32_t ___layerMask, float ___minDepth, float ___maxDepth, const MethodInfo* method) IL2CPP_METHOD_ATTR;

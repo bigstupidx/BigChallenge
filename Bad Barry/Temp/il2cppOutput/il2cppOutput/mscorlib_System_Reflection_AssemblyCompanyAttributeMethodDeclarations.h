@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyCompanyAttribute
-struct AssemblyCompanyAttribute_t1378;
+struct AssemblyCompanyAttribute_t1387;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyCompanyAttribute::.ctor(System.String)
-extern "C" void AssemblyCompanyAttribute__ctor_m8595 (AssemblyCompanyAttribute_t1378 * __this, String_t* ___company, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyCompanyAttribute__ctor_m8677 (AssemblyCompanyAttribute_t1387 * __this, String_t* ___company, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -20,8 +20,8 @@ struct ICompiler_t1126;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::.ctor()
-extern "C" void NonBacktrackingGroup__ctor_m5669 (NonBacktrackingGroup_t1099 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup__ctor_m5672 (NonBacktrackingGroup_t1099 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void NonBacktrackingGroup_Compile_m5670 (NonBacktrackingGroup_t1099 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void NonBacktrackingGroup_Compile_m5673 (NonBacktrackingGroup_t1099 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.NonBacktrackingGroup::IsComplex()
-extern "C" bool NonBacktrackingGroup_IsComplex_m5671 (NonBacktrackingGroup_t1099 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool NonBacktrackingGroup_IsComplex_m5674 (NonBacktrackingGroup_t1099 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

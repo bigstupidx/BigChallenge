@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.StencilMaterial/MatEntry[]
-struct MatEntryU5BU5D_t2188;
+struct MatEntryU5BU5D_t2199;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct MatEntryU5BU5D_t2188;
 struct  List_1_t315  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_items
-	MatEntryU5BU5D_t2188* ____items_1;
+	MatEntryU5BU5D_t2199* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::_version
@@ -27,5 +27,5 @@ struct  List_1_t315  : public Object_t
 };
 struct List_1_t315_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>::EmptyArray
-	MatEntryU5BU5D_t2188* ___EmptyArray_4;
+	MatEntryU5BU5D_t2199* ___EmptyArray_4;
 };

@@ -18,14 +18,14 @@ struct RandomNumberGenerator_t769;
 #include "mscorlib_System_Object.h"
 
 // Mono.Math.BigInteger
-struct  BigInteger_t1204  : public Object_t
+struct  BigInteger_t1213  : public Object_t
 {
 	// System.UInt32 Mono.Math.BigInteger::length
 	uint32_t ___length_0;
 	// System.UInt32[] Mono.Math.BigInteger::data
 	UInt32U5BU5D_t778* ___data_1;
 };
-struct BigInteger_t1204_StaticFields{
+struct BigInteger_t1213_StaticFields{
 	// System.UInt32[] Mono.Math.BigInteger::smallPrimes
 	UInt32U5BU5D_t778* ___smallPrimes_2;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::rng

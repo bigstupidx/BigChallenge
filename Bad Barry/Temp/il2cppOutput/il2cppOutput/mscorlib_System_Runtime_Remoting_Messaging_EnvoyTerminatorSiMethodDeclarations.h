@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct EnvoyTerminatorSink_t1518;
+struct EnvoyTerminatorSink_t1527;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.ctor()
-extern "C" void EnvoyTerminatorSink__ctor_m9192 (EnvoyTerminatorSink_t1518 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyTerminatorSink__ctor_m9274 (EnvoyTerminatorSink_t1527 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::.cctor()
-extern "C" void EnvoyTerminatorSink__cctor_m9193 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyTerminatorSink__cctor_m9275 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

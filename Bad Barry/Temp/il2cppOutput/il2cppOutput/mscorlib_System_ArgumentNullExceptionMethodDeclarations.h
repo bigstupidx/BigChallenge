@@ -23,10 +23,10 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ArgumentNullException::.ctor()
-extern "C" void ArgumentNullException__ctor_m10580 (ArgumentNullException_t110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentNullException__ctor_m10670 (ArgumentNullException_t110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String)
 extern "C" void ArgumentNullException__ctor_m437 (ArgumentNullException_t110 * __this, String_t* ___paramName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String,System.String)
-extern "C" void ArgumentNullException__ctor_m5822 (ArgumentNullException_t110 * __this, String_t* ___paramName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentNullException__ctor_m5825 (ArgumentNullException_t110 * __this, String_t* ___paramName, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ArgumentNullException__ctor_m10581 (ArgumentNullException_t110 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ArgumentNullException__ctor_m10671 (ArgumentNullException_t110 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

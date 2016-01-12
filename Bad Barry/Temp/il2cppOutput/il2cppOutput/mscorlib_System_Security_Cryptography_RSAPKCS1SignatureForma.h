@@ -18,7 +18,7 @@ struct HashAlgorithm_t814;
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 
 // System.Security.Cryptography.RSAPKCS1SignatureFormatter
-struct  RSAPKCS1SignatureFormatter_t1640  : public AsymmetricSignatureFormatter_t889
+struct  RSAPKCS1SignatureFormatter_t1649  : public AsymmetricSignatureFormatter_t889
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1SignatureFormatter::rsa
 	RSA_t823 * ___rsa_0;

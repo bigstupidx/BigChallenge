@@ -14,6 +14,6 @@
 #include "mscorlib_System_ContextBoundObject.h"
 
 // System.Runtime.Remoting.Contexts.ContextCallbackObject
-struct  ContextCallbackObject_t1487  : public ContextBoundObject_t1492
+struct  ContextCallbackObject_t1496  : public ContextBoundObject_t1501
 {
 };

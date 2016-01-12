@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Predicate_1_t2191  : public MulticastDelegate_t264
+struct  Predicate_1_t2202  : public MulticastDelegate_t264
 {
 };

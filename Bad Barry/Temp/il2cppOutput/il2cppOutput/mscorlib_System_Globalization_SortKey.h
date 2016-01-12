@@ -19,7 +19,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Globalization_CompareOptions.h"
 
 // System.Globalization.SortKey
-struct  SortKey_t1196  : public Object_t
+struct  SortKey_t1205  : public Object_t
 {
 	// System.String System.Globalization.SortKey::source
 	String_t* ___source_0;

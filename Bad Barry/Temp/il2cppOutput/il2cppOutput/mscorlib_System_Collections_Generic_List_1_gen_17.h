@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Graphic[]
-struct GraphicU5BU5D_t2135;
+struct GraphicU5BU5D_t2146;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct GraphicU5BU5D_t2135;
 struct  List_1_t242  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_items
-	GraphicU5BU5D_t2135* ____items_1;
+	GraphicU5BU5D_t2146* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_version
@@ -27,5 +27,5 @@ struct  List_1_t242  : public Object_t
 };
 struct List_1_t242_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::EmptyArray
-	GraphicU5BU5D_t2135* ___EmptyArray_4;
+	GraphicU5BU5D_t2146* ___EmptyArray_4;
 };

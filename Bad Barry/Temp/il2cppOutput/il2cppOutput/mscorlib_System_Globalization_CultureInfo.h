@@ -19,17 +19,17 @@ struct NumberFormatInfo_t722;
 // System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile)
 struct DateTimeFormatInfo_t750;
 // System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile)
-struct TextInfo_t1193;
+struct TextInfo_t1202;
 // System.String
 struct String_t;
 // System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile)
 struct CompareInfo_t958;
 // System.Globalization.Calendar[]
-struct CalendarU5BU5D_t1280;
+struct CalendarU5BU5D_t1289;
 // System.Globalization.CultureInfo
 struct CultureInfo_t670;
 // System.Globalization.Calendar
-struct Calendar_t1275;
+struct Calendar_t1284;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.Collections.Hashtable
@@ -62,7 +62,7 @@ struct  CultureInfo_t670  : public Object_t
 	// System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::dateTimeInfo
 	DateTimeFormatInfo_t750 * ___dateTimeInfo_15;
 	// System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::textInfo
-	TextInfo_t1193 * ___textInfo_16;
+	TextInfo_t1202 * ___textInfo_16;
 	// System.String System.Globalization.CultureInfo::m_name
 	String_t* ___m_name_17;
 	// System.String System.Globalization.CultureInfo::displayname
@@ -88,13 +88,13 @@ struct  CultureInfo_t670  : public Object_t
 	// System.Void* System.Globalization.CultureInfo::textinfo_data
 	void* ___textinfo_data_28;
 	// System.Globalization.Calendar[] System.Globalization.CultureInfo::optional_calendars
-	CalendarU5BU5D_t1280* ___optional_calendars_29;
+	CalendarU5BU5D_t1289* ___optional_calendars_29;
 	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
 	CultureInfo_t670 * ___parent_culture_30;
 	// System.Int32 System.Globalization.CultureInfo::m_dataItem
 	int32_t ___m_dataItem_31;
 	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
-	Calendar_t1275 * ___calendar_32;
+	Calendar_t1284 * ___calendar_32;
 	// System.Boolean System.Globalization.CultureInfo::constructed
 	bool ___constructed_33;
 	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form

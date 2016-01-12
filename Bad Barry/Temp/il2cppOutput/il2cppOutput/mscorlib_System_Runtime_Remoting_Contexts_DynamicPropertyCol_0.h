@@ -16,7 +16,7 @@ struct ArrayList_t803;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct  DynamicPropertyCollection_t1486  : public Object_t
+struct  DynamicPropertyCollection_t1495  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Contexts.DynamicPropertyCollection::_properties
 	ArrayList_t803 * ____properties_0;

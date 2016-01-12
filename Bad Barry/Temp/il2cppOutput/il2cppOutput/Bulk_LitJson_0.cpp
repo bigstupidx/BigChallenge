@@ -224,16 +224,16 @@ struct Lexer_t715;
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Int32 LitJson.JsonData::System.Collections.ICollection.get_Count()
-extern "C" int32_t JsonData_System_Collections_ICollection_get_Count_m3621 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" int32_t JsonData_System_Collections_ICollection_get_Count_m3624 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = JsonData_get_Count_m581(__this, /*hidden argument*/NULL);
+		int32_t L_0 = JsonData_get_Count_m582(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Boolean LitJson.JsonData::System.Collections.ICollection.get_IsSynchronized()
 extern TypeInfo* ICollection_t731_il2cpp_TypeInfo_var;
-extern "C" bool JsonData_System_Collections_ICollection_get_IsSynchronized_m3622 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" bool JsonData_System_Collections_ICollection_get_IsSynchronized_m3625 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -242,7 +242,7 @@ extern "C" bool JsonData_System_Collections_ICollection_get_IsSynchronized_m3622
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.ICollection::get_IsSynchronized() */, ICollection_t731_il2cpp_TypeInfo_var, L_0);
 		return L_1;
@@ -250,7 +250,7 @@ extern "C" bool JsonData_System_Collections_ICollection_get_IsSynchronized_m3622
 }
 // System.Object LitJson.JsonData::System.Collections.ICollection.get_SyncRoot()
 extern TypeInfo* ICollection_t731_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_ICollection_get_SyncRoot_m3623 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_ICollection_get_SyncRoot_m3626 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -259,7 +259,7 @@ extern "C" Object_t * JsonData_System_Collections_ICollection_get_SyncRoot_m3623
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		Object_t * L_1 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(2 /* System.Object System.Collections.ICollection::get_SyncRoot() */, ICollection_t731_il2cpp_TypeInfo_var, L_0);
 		return L_1;
@@ -267,7 +267,7 @@ extern "C" Object_t * JsonData_System_Collections_ICollection_get_SyncRoot_m3623
 }
 // System.Boolean LitJson.JsonData::System.Collections.IList.get_IsFixedSize()
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" bool JsonData_System_Collections_IList_get_IsFixedSize_m3624 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" bool JsonData_System_Collections_IList_get_IsFixedSize_m3627 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -276,7 +276,7 @@ extern "C" bool JsonData_System_Collections_IList_get_IsFixedSize_m3624 (JsonDat
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1 = (bool)InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IList::get_IsFixedSize() */, IList_t733_il2cpp_TypeInfo_var, L_0);
 		return L_1;
@@ -284,7 +284,7 @@ extern "C" bool JsonData_System_Collections_IList_get_IsFixedSize_m3624 (JsonDat
 }
 // System.Boolean LitJson.JsonData::System.Collections.IList.get_IsReadOnly()
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" bool JsonData_System_Collections_IList_get_IsReadOnly_m3625 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" bool JsonData_System_Collections_IList_get_IsReadOnly_m3628 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -293,7 +293,7 @@ extern "C" bool JsonData_System_Collections_IList_get_IsReadOnly_m3625 (JsonData
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_1 = (bool)InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IList::get_IsReadOnly() */, IList_t733_il2cpp_TypeInfo_var, L_0);
 		return L_1;
@@ -301,7 +301,7 @@ extern "C" bool JsonData_System_Collections_IList_get_IsReadOnly_m3625 (JsonData
 }
 // System.Object LitJson.JsonData::System.Collections.IDictionary.get_Item(System.Object)
 extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_IDictionary_get_Item_m3626 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_IDictionary_get_Item_m3629 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -310,7 +310,7 @@ extern "C" Object_t * JsonData_System_Collections_IDictionary_get_Item_m3626 (Js
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___key;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, Object_t * >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t732_il2cpp_TypeInfo_var, L_0, L_1);
@@ -320,15 +320,15 @@ extern "C" Object_t * JsonData_System_Collections_IDictionary_get_Item_m3626 (Js
 // System.Void LitJson.JsonData::System.Collections.IDictionary.set_Item(System.Object,System.Object)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t444_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral327;
-extern "C" void JsonData_System_Collections_IDictionary_set_Item_m3627 (JsonData_t66 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral329;
+extern "C" void JsonData_System_Collections_IDictionary_set_Item_m3630 (JsonData_t66 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		ArgumentException_t444_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(277);
-		_stringLiteral327 = il2cpp_codegen_string_literal_from_index(327);
+		_stringLiteral329 = il2cpp_codegen_string_literal_from_index(329);
 		s_Il2CppMethodIntialized = true;
 	}
 	JsonData_t66 * V_0 = {0};
@@ -341,24 +341,24 @@ extern "C" void JsonData_System_Collections_IDictionary_set_Item_m3627 (JsonData
 	}
 	{
 		ArgumentException_t444 * L_1 = (ArgumentException_t444 *)il2cpp_codegen_object_new (ArgumentException_t444_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m2542(L_1, _stringLiteral327, /*hidden argument*/NULL);
+		ArgumentException__ctor_m2545(L_1, _stringLiteral329, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
 IL_0016:
 	{
 		Object_t * L_2 = ___value;
-		JsonData_t66 * L_3 = JsonData_ToJsonData_m3656(__this, L_2, /*hidden argument*/NULL);
+		JsonData_t66 * L_3 = JsonData_ToJsonData_m3659(__this, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		Object_t * L_4 = ___key;
 		JsonData_t66 * L_5 = V_0;
-		JsonData_set_Item_m3630(__this, ((String_t*)CastclassSealed(L_4, String_t_il2cpp_TypeInfo_var)), L_5, /*hidden argument*/NULL);
+		JsonData_set_Item_m3633(__this, ((String_t*)CastclassSealed(L_4, String_t_il2cpp_TypeInfo_var)), L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Object LitJson.JsonData::System.Collections.IList.get_Item(System.Int32)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_IList_get_Item_m3628 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_IList_get_Item_m3631 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -367,7 +367,7 @@ extern "C" Object_t * JsonData_System_Collections_IList_get_Item_m3628 (JsonData
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)InterfaceFuncInvoker1< Object_t *, int32_t >::Invoke(2 /* System.Object System.Collections.IList::get_Item(System.Int32) */, IList_t733_il2cpp_TypeInfo_var, L_0, L_1);
@@ -375,23 +375,23 @@ extern "C" Object_t * JsonData_System_Collections_IList_get_Item_m3628 (JsonData
 	}
 }
 // System.Void LitJson.JsonData::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void JsonData_System_Collections_IList_set_Item_m3629 (JsonData_t66 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_IList_set_Item_m3632 (JsonData_t66 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method)
 {
 	JsonData_t66 * V_0 = {0};
 	{
-		JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		Object_t * L_0 = ___value;
-		JsonData_t66 * L_1 = JsonData_ToJsonData_m3656(__this, L_0, /*hidden argument*/NULL);
+		JsonData_t66 * L_1 = JsonData_ToJsonData_m3659(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t L_2 = ___index;
 		JsonData_t66 * L_3 = V_0;
-		JsonData_set_Item_m3631(__this, L_2, L_3, /*hidden argument*/NULL);
+		JsonData_set_Item_m3634(__this, L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Int32 LitJson.JsonData::get_Count()
 extern TypeInfo* ICollection_t731_il2cpp_TypeInfo_var;
-extern "C" int32_t JsonData_get_Count_m581 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" int32_t JsonData_get_Count_m582 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -400,7 +400,7 @@ extern "C" int32_t JsonData_get_Count_m581 (JsonData_t66 * __this, const MethodI
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.ICollection::get_Count() */, ICollection_t731_il2cpp_TypeInfo_var, L_0);
 		return L_1;
@@ -408,7 +408,7 @@ extern "C" int32_t JsonData_get_Count_m581 (JsonData_t66 * __this, const MethodI
 }
 // LitJson.JsonData LitJson.JsonData::get_Item(System.String)
 extern TypeInfo* IDictionary_2_t690_il2cpp_TypeInfo_var;
-extern "C" JsonData_t66 * JsonData_get_Item_m583 (JsonData_t66 * __this, String_t* ___prop_name, const MethodInfo* method)
+extern "C" JsonData_t66 * JsonData_get_Item_m584 (JsonData_t66 * __this, String_t* ___prop_name, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -417,7 +417,7 @@ extern "C" JsonData_t66 * JsonData_get_Item_m583 (JsonData_t66 * __this, String_
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t* L_0 = (__this->___inst_object_5);
 		String_t* L_1 = ___prop_name;
 		NullCheck(L_0);
@@ -430,9 +430,9 @@ extern TypeInfo* IDictionary_2_t690_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_1_t691_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ICollection_1_t737_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2__ctor_m3784_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3785_MethodInfo_var;
-extern "C" void JsonData_set_Item_m3630 (JsonData_t66 * __this, String_t* ___prop_name, JsonData_t66 * ___value, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2__ctor_m3787_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m3788_MethodInfo_var;
+extern "C" void JsonData_set_Item_m3633 (JsonData_t66 * __this, String_t* ___prop_name, JsonData_t66 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -441,18 +441,18 @@ extern "C" void JsonData_set_Item_m3630 (JsonData_t66 * __this, String_t* ___pro
 		IList_1_t691_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(423);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		ICollection_1_t737_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(425);
-		KeyValuePair_2__ctor_m3784_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484013);
-		KeyValuePair_2_get_Key_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
+		KeyValuePair_2__ctor_m3787_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
+		KeyValuePair_2_get_Key_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
 	int32_t V_1 = 0;
 	KeyValuePair_2_t736  V_2 = {0};
 	{
-		JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___prop_name;
 		JsonData_t66 * L_1 = ___value;
-		KeyValuePair_2__ctor_m3784((&V_0), L_0, L_1, /*hidden argument*/KeyValuePair_2__ctor_m3784_MethodInfo_var);
+		KeyValuePair_2__ctor_m3787((&V_0), L_0, L_1, /*hidden argument*/KeyValuePair_2__ctor_m3787_MethodInfo_var);
 		Object_t* L_2 = (__this->___inst_object_5);
 		String_t* L_3 = ___prop_name;
 		NullCheck(L_2);
@@ -474,7 +474,7 @@ IL_0028:
 		NullCheck(L_5);
 		KeyValuePair_2_t736  L_7 = (KeyValuePair_2_t736 )InterfaceFuncInvoker1< KeyValuePair_2_t736 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Item(System.Int32) */, IList_1_t691_il2cpp_TypeInfo_var, L_5, L_6);
 		V_2 = L_7;
-		String_t* L_8 = KeyValuePair_2_get_Key_m3785((&V_2), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
+		String_t* L_8 = KeyValuePair_2_get_Key_m3788((&V_2), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
 		String_t* L_9 = ___prop_name;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_10 = String_op_Equality_m457(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
@@ -537,20 +537,20 @@ IL_007f:
 // LitJson.JsonData LitJson.JsonData::get_Item(System.Int32)
 extern TypeInfo* IList_1_t689_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_1_t691_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3786_MethodInfo_var;
-extern "C" JsonData_t66 * JsonData_get_Item_m582 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Value_m3789_MethodInfo_var;
+extern "C" JsonData_t66 * JsonData_get_Item_m583 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		IList_1_t689_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(426);
 		IList_1_t691_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(423);
-		KeyValuePair_2_get_Value_m3786_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
+		KeyValuePair_2_get_Value_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484016);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
 	{
-		JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___type_8);
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -572,7 +572,7 @@ IL_0020:
 		NullCheck(L_4);
 		KeyValuePair_2_t736  L_6 = (KeyValuePair_2_t736 )InterfaceFuncInvoker1< KeyValuePair_2_t736 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Item(System.Int32) */, IList_1_t691_il2cpp_TypeInfo_var, L_4, L_5);
 		V_0 = L_6;
-		JsonData_t66 * L_7 = KeyValuePair_2_get_Value_m3786((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3786_MethodInfo_var);
+		JsonData_t66 * L_7 = KeyValuePair_2_get_Value_m3789((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3789_MethodInfo_var);
 		return L_7;
 	}
 }
@@ -580,9 +580,9 @@ IL_0020:
 extern TypeInfo* IList_1_t689_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_1_t691_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t690_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3785_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2__ctor_m3784_MethodInfo_var;
-extern "C" void JsonData_set_Item_m3631 (JsonData_t66 * __this, int32_t ___index, JsonData_t66 * ___value, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Key_m3788_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2__ctor_m3787_MethodInfo_var;
+extern "C" void JsonData_set_Item_m3634 (JsonData_t66 * __this, int32_t ___index, JsonData_t66 * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -590,14 +590,14 @@ extern "C" void JsonData_set_Item_m3631 (JsonData_t66 * __this, int32_t ___index
 		IList_1_t689_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(426);
 		IList_1_t691_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(423);
 		IDictionary_2_t690_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(421);
-		KeyValuePair_2_get_Key_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
-		KeyValuePair_2__ctor_m3784_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484013);
+		KeyValuePair_2_get_Key_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
+		KeyValuePair_2__ctor_m3787_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
 	KeyValuePair_2_t736  V_1 = {0};
 	{
-		JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		int32_t L_0 = (__this->___type_8);
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
@@ -620,16 +620,16 @@ IL_0025:
 		NullCheck(L_4);
 		KeyValuePair_2_t736  L_6 = (KeyValuePair_2_t736 )InterfaceFuncInvoker1< KeyValuePair_2_t736 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Item(System.Int32) */, IList_1_t691_il2cpp_TypeInfo_var, L_4, L_5);
 		V_0 = L_6;
-		String_t* L_7 = KeyValuePair_2_get_Key_m3785((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
+		String_t* L_7 = KeyValuePair_2_get_Key_m3788((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
 		JsonData_t66 * L_8 = ___value;
-		KeyValuePair_2__ctor_m3784((&V_1), L_7, L_8, /*hidden argument*/KeyValuePair_2__ctor_m3784_MethodInfo_var);
+		KeyValuePair_2__ctor_m3787((&V_1), L_7, L_8, /*hidden argument*/KeyValuePair_2__ctor_m3787_MethodInfo_var);
 		Object_t* L_9 = (__this->___object_list_9);
 		int32_t L_10 = ___index;
 		KeyValuePair_2_t736  L_11 = V_1;
 		NullCheck(L_9);
 		InterfaceActionInvoker2< int32_t, KeyValuePair_2_t736  >::Invoke(4 /* System.Void System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::set_Item(System.Int32,!0) */, IList_1_t691_il2cpp_TypeInfo_var, L_9, L_10, L_11);
 		Object_t* L_12 = (__this->___inst_object_5);
-		String_t* L_13 = KeyValuePair_2_get_Key_m3785((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
+		String_t* L_13 = KeyValuePair_2_get_Key_m3788((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
 		JsonData_t66 * L_14 = ___value;
 		NullCheck(L_12);
 		InterfaceActionInvoker2< String_t*, JsonData_t66 * >::Invoke(3 /* System.Void System.Collections.Generic.IDictionary`2<System.String,LitJson.JsonData>::set_Item(!0,!1) */, IDictionary_2_t690_il2cpp_TypeInfo_var, L_12, L_13, L_14);
@@ -642,7 +642,7 @@ IL_0061:
 	}
 }
 // System.Void LitJson.JsonData::.ctor()
-extern "C" void JsonData__ctor_m3632 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" void JsonData__ctor_m3635 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m435(__this, /*hidden argument*/NULL);
@@ -656,19 +656,19 @@ extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t672_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ArgumentException_t444_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral328;
-extern "C" void JsonData__ctor_m3633 (JsonData_t66 * __this, Object_t * ___obj, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral330;
+extern "C" void JsonData__ctor_m3636 (JsonData_t66 * __this, Object_t * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
+		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(134);
 		Double_t671_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(386);
 		Int32_t125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(35);
 		Int64_t672_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(387);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		ArgumentException_t444_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(277);
-		_stringLiteral328 = il2cpp_codegen_string_literal_from_index(328);
+		_stringLiteral330 = il2cpp_codegen_string_literal_from_index(330);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -749,20 +749,20 @@ IL_0082:
 IL_00a1:
 	{
 		ArgumentException_t444 * L_10 = (ArgumentException_t444 *)il2cpp_codegen_object_new (ArgumentException_t444_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m2542(L_10, _stringLiteral328, /*hidden argument*/NULL);
+		ArgumentException__ctor_m2545(L_10, _stringLiteral330, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_10);
 	}
 }
 // System.Boolean LitJson.JsonData::op_Explicit(LitJson.JsonData)
 extern TypeInfo* InvalidCastException_t738_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral329;
-extern "C" bool JsonData_op_Explicit_m585 (Object_t * __this /* static, unused */, JsonData_t66 * ___data, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral331;
+extern "C" bool JsonData_op_Explicit_m586 (Object_t * __this /* static, unused */, JsonData_t66 * ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		InvalidCastException_t738_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(427);
-		_stringLiteral329 = il2cpp_codegen_string_literal_from_index(329);
+		_stringLiteral331 = il2cpp_codegen_string_literal_from_index(331);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -776,7 +776,7 @@ extern "C" bool JsonData_op_Explicit_m585 (Object_t * __this /* static, unused *
 	}
 	{
 		InvalidCastException_t738 * L_2 = (InvalidCastException_t738 *)il2cpp_codegen_object_new (InvalidCastException_t738_il2cpp_TypeInfo_var);
-		InvalidCastException__ctor_m3787(L_2, _stringLiteral329, /*hidden argument*/NULL);
+		InvalidCastException__ctor_m3790(L_2, _stringLiteral331, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
 	}
 
@@ -790,14 +790,14 @@ IL_0017:
 }
 // System.Int32 LitJson.JsonData::op_Explicit(LitJson.JsonData)
 extern TypeInfo* InvalidCastException_t738_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral330;
-extern "C" int32_t JsonData_op_Explicit_m584 (Object_t * __this /* static, unused */, JsonData_t66 * ___data, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral332;
+extern "C" int32_t JsonData_op_Explicit_m585 (Object_t * __this /* static, unused */, JsonData_t66 * ___data, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		InvalidCastException_t738_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(427);
-		_stringLiteral330 = il2cpp_codegen_string_literal_from_index(330);
+		_stringLiteral332 = il2cpp_codegen_string_literal_from_index(332);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -811,7 +811,7 @@ extern "C" int32_t JsonData_op_Explicit_m584 (Object_t * __this /* static, unuse
 	}
 	{
 		InvalidCastException_t738 * L_2 = (InvalidCastException_t738 *)il2cpp_codegen_object_new (InvalidCastException_t738_il2cpp_TypeInfo_var);
-		InvalidCastException__ctor_m3787(L_2, _stringLiteral330, /*hidden argument*/NULL);
+		InvalidCastException__ctor_m3790(L_2, _stringLiteral332, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_2);
 	}
 
@@ -825,7 +825,7 @@ IL_0017:
 }
 // System.Void LitJson.JsonData::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern TypeInfo* ICollection_t731_il2cpp_TypeInfo_var;
-extern "C" void JsonData_System_Collections_ICollection_CopyTo_m3634 (JsonData_t66 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_ICollection_CopyTo_m3637 (JsonData_t66 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -834,7 +834,7 @@ extern "C" void JsonData_System_Collections_ICollection_CopyTo_m3634 (JsonData_t
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		Array_t * L_1 = ___array;
 		int32_t L_2 = ___index;
 		NullCheck(L_0);
@@ -846,8 +846,8 @@ extern "C" void JsonData_System_Collections_ICollection_CopyTo_m3634 (JsonData_t
 extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ICollection_1_t737_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2__ctor_m3784_MethodInfo_var;
-extern "C" void JsonData_System_Collections_IDictionary_Add_m3635 (JsonData_t66 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2__ctor_m3787_MethodInfo_var;
+extern "C" void JsonData_System_Collections_IDictionary_Add_m3638 (JsonData_t66 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -855,23 +855,23 @@ extern "C" void JsonData_System_Collections_IDictionary_Add_m3635 (JsonData_t66 
 		IDictionary_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(420);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		ICollection_1_t737_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(425);
-		KeyValuePair_2__ctor_m3784_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484013);
+		KeyValuePair_2__ctor_m3787_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
 		s_Il2CppMethodIntialized = true;
 	}
 	JsonData_t66 * V_0 = {0};
 	KeyValuePair_2_t736  V_1 = {0};
 	{
 		Object_t * L_0 = ___value;
-		JsonData_t66 * L_1 = JsonData_ToJsonData_m3656(__this, L_0, /*hidden argument*/NULL);
+		JsonData_t66 * L_1 = JsonData_ToJsonData_m3659(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		Object_t * L_2 = JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		Object_t * L_2 = JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t * L_3 = ___key;
 		JsonData_t66 * L_4 = V_0;
 		NullCheck(L_2);
 		InterfaceActionInvoker2< Object_t *, Object_t * >::Invoke(2 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t732_il2cpp_TypeInfo_var, L_2, L_3, L_4);
 		Object_t * L_5 = ___key;
 		JsonData_t66 * L_6 = V_0;
-		KeyValuePair_2__ctor_m3784((&V_1), ((String_t*)CastclassSealed(L_5, String_t_il2cpp_TypeInfo_var)), L_6, /*hidden argument*/KeyValuePair_2__ctor_m3784_MethodInfo_var);
+		KeyValuePair_2__ctor_m3787((&V_1), ((String_t*)CastclassSealed(L_5, String_t_il2cpp_TypeInfo_var)), L_6, /*hidden argument*/KeyValuePair_2__ctor_m3787_MethodInfo_var);
 		Object_t* L_7 = (__this->___object_list_9);
 		KeyValuePair_2_t736  L_8 = V_1;
 		NullCheck(L_7);
@@ -882,7 +882,7 @@ extern "C" void JsonData_System_Collections_IDictionary_Add_m3635 (JsonData_t66 
 }
 // System.Boolean LitJson.JsonData::System.Collections.IDictionary.Contains(System.Object)
 extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
-extern "C" bool JsonData_System_Collections_IDictionary_Contains_m3636 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
+extern "C" bool JsonData_System_Collections_IDictionary_Contains_m3639 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -891,7 +891,7 @@ extern "C" bool JsonData_System_Collections_IDictionary_Contains_m3636 (JsonData
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___key;
 		NullCheck(L_0);
 		bool L_2 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(3 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t732_il2cpp_TypeInfo_var, L_0, L_1);
@@ -900,7 +900,7 @@ extern "C" bool JsonData_System_Collections_IDictionary_Contains_m3636 (JsonData
 }
 // System.Collections.IDictionaryEnumerator LitJson.JsonData::System.Collections.IDictionary.GetEnumerator()
 extern TypeInfo* IOrderedDictionary_t739_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_IDictionary_GetEnumerator_m3637 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_IDictionary_GetEnumerator_m3640 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -918,8 +918,8 @@ extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_1_t691_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ICollection_1_t737_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3785_MethodInfo_var;
-extern "C" void JsonData_System_Collections_IDictionary_Remove_m3638 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Key_m3788_MethodInfo_var;
+extern "C" void JsonData_System_Collections_IDictionary_Remove_m3641 (JsonData_t66 * __this, Object_t * ___key, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -928,13 +928,13 @@ extern "C" void JsonData_System_Collections_IDictionary_Remove_m3638 (JsonData_t
 		IList_1_t691_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(423);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		ICollection_1_t737_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(425);
-		KeyValuePair_2_get_Key_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
+		KeyValuePair_2_get_Key_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	KeyValuePair_2_t736  V_1 = {0};
 	{
-		Object_t * L_0 = JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___key;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Object_t * >::Invoke(5 /* System.Void System.Collections.IDictionary::Remove(System.Object) */, IDictionary_t732_il2cpp_TypeInfo_var, L_0, L_1);
@@ -949,7 +949,7 @@ IL_0013:
 		NullCheck(L_2);
 		KeyValuePair_2_t736  L_4 = (KeyValuePair_2_t736 )InterfaceFuncInvoker1< KeyValuePair_2_t736 , int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Item(System.Int32) */, IList_1_t691_il2cpp_TypeInfo_var, L_2, L_3);
 		V_1 = L_4;
-		String_t* L_5 = KeyValuePair_2_get_Key_m3785((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
+		String_t* L_5 = KeyValuePair_2_get_Key_m3788((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
 		Object_t * L_6 = ___key;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_7 = String_op_Equality_m457(NULL /*static, unused*/, L_5, ((String_t*)CastclassSealed(L_6, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
@@ -992,7 +992,7 @@ IL_005d:
 }
 // System.Collections.IEnumerator LitJson.JsonData::System.Collections.IEnumerable.GetEnumerator()
 extern TypeInfo* IEnumerable_t740_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_IEnumerable_GetEnumerator_m3639 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_IEnumerable_GetEnumerator_m3642 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1001,14 +1001,14 @@ extern "C" Object_t * JsonData_System_Collections_IEnumerable_GetEnumerator_m363
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureCollection_m3653(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureCollection_m3656(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		Object_t * L_1 = (Object_t *)InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t740_il2cpp_TypeInfo_var, L_0);
 		return L_1;
 	}
 }
 // System.Void LitJson.JsonData::LitJson.IJsonWrapper.SetBoolean(System.Boolean)
-extern "C" void JsonData_LitJson_IJsonWrapper_SetBoolean_m3640 (JsonData_t66 * __this, bool ___val, const MethodInfo* method)
+extern "C" void JsonData_LitJson_IJsonWrapper_SetBoolean_m3643 (JsonData_t66 * __this, bool ___val, const MethodInfo* method)
 {
 	{
 		__this->___type_8 = 7;
@@ -1019,7 +1019,7 @@ extern "C" void JsonData_LitJson_IJsonWrapper_SetBoolean_m3640 (JsonData_t66 * _
 	}
 }
 // System.Void LitJson.JsonData::LitJson.IJsonWrapper.SetDouble(System.Double)
-extern "C" void JsonData_LitJson_IJsonWrapper_SetDouble_m3641 (JsonData_t66 * __this, double ___val, const MethodInfo* method)
+extern "C" void JsonData_LitJson_IJsonWrapper_SetDouble_m3644 (JsonData_t66 * __this, double ___val, const MethodInfo* method)
 {
 	{
 		__this->___type_8 = 6;
@@ -1030,7 +1030,7 @@ extern "C" void JsonData_LitJson_IJsonWrapper_SetDouble_m3641 (JsonData_t66 * __
 	}
 }
 // System.Void LitJson.JsonData::LitJson.IJsonWrapper.SetInt(System.Int32)
-extern "C" void JsonData_LitJson_IJsonWrapper_SetInt_m3642 (JsonData_t66 * __this, int32_t ___val, const MethodInfo* method)
+extern "C" void JsonData_LitJson_IJsonWrapper_SetInt_m3645 (JsonData_t66 * __this, int32_t ___val, const MethodInfo* method)
 {
 	{
 		__this->___type_8 = 4;
@@ -1041,7 +1041,7 @@ extern "C" void JsonData_LitJson_IJsonWrapper_SetInt_m3642 (JsonData_t66 * __thi
 	}
 }
 // System.Void LitJson.JsonData::LitJson.IJsonWrapper.SetLong(System.Int64)
-extern "C" void JsonData_LitJson_IJsonWrapper_SetLong_m3643 (JsonData_t66 * __this, int64_t ___val, const MethodInfo* method)
+extern "C" void JsonData_LitJson_IJsonWrapper_SetLong_m3646 (JsonData_t66 * __this, int64_t ___val, const MethodInfo* method)
 {
 	{
 		__this->___type_8 = 5;
@@ -1052,7 +1052,7 @@ extern "C" void JsonData_LitJson_IJsonWrapper_SetLong_m3643 (JsonData_t66 * __th
 	}
 }
 // System.Void LitJson.JsonData::LitJson.IJsonWrapper.SetString(System.String)
-extern "C" void JsonData_LitJson_IJsonWrapper_SetString_m3644 (JsonData_t66 * __this, String_t* ___val, const MethodInfo* method)
+extern "C" void JsonData_LitJson_IJsonWrapper_SetString_m3647 (JsonData_t66 * __this, String_t* ___val, const MethodInfo* method)
 {
 	{
 		__this->___type_8 = 3;
@@ -1063,17 +1063,17 @@ extern "C" void JsonData_LitJson_IJsonWrapper_SetString_m3644 (JsonData_t66 * __
 	}
 }
 // System.Int32 LitJson.JsonData::System.Collections.IList.Add(System.Object)
-extern "C" int32_t JsonData_System_Collections_IList_Add_m3645 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
+extern "C" int32_t JsonData_System_Collections_IList_Add_m3648 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = ___value;
-		int32_t L_1 = JsonData_Add_m3657(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = JsonData_Add_m3660(__this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void LitJson.JsonData::System.Collections.IList.Clear()
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" void JsonData_System_Collections_IList_Clear_m3646 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_IList_Clear_m3649 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1082,7 +1082,7 @@ extern "C" void JsonData_System_Collections_IList_Clear_m3646 (JsonData_t66 * __
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(5 /* System.Void System.Collections.IList::Clear() */, IList_t733_il2cpp_TypeInfo_var, L_0);
 		__this->___json_7 = (String_t*)NULL;
@@ -1091,7 +1091,7 @@ extern "C" void JsonData_System_Collections_IList_Clear_m3646 (JsonData_t66 * __
 }
 // System.Boolean LitJson.JsonData::System.Collections.IList.Contains(System.Object)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" bool JsonData_System_Collections_IList_Contains_m3647 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
+extern "C" bool JsonData_System_Collections_IList_Contains_m3650 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1100,7 +1100,7 @@ extern "C" bool JsonData_System_Collections_IList_Contains_m3647 (JsonData_t66 *
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___value;
 		NullCheck(L_0);
 		bool L_2 = (bool)InterfaceFuncInvoker1< bool, Object_t * >::Invoke(6 /* System.Boolean System.Collections.IList::Contains(System.Object) */, IList_t733_il2cpp_TypeInfo_var, L_0, L_1);
@@ -1109,7 +1109,7 @@ extern "C" bool JsonData_System_Collections_IList_Contains_m3647 (JsonData_t66 *
 }
 // System.Int32 LitJson.JsonData::System.Collections.IList.IndexOf(System.Object)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" int32_t JsonData_System_Collections_IList_IndexOf_m3648 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
+extern "C" int32_t JsonData_System_Collections_IList_IndexOf_m3651 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1118,7 +1118,7 @@ extern "C" int32_t JsonData_System_Collections_IList_IndexOf_m3648 (JsonData_t66
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___value;
 		NullCheck(L_0);
 		int32_t L_2 = (int32_t)InterfaceFuncInvoker1< int32_t, Object_t * >::Invoke(7 /* System.Int32 System.Collections.IList::IndexOf(System.Object) */, IList_t733_il2cpp_TypeInfo_var, L_0, L_1);
@@ -1127,7 +1127,7 @@ extern "C" int32_t JsonData_System_Collections_IList_IndexOf_m3648 (JsonData_t66
 }
 // System.Void LitJson.JsonData::System.Collections.IList.Insert(System.Int32,System.Object)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" void JsonData_System_Collections_IList_Insert_m3649 (JsonData_t66 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_IList_Insert_m3652 (JsonData_t66 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1136,7 +1136,7 @@ extern "C" void JsonData_System_Collections_IList_Insert_m3649 (JsonData_t66 * _
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___index;
 		Object_t * L_2 = ___value;
 		NullCheck(L_0);
@@ -1147,7 +1147,7 @@ extern "C" void JsonData_System_Collections_IList_Insert_m3649 (JsonData_t66 * _
 }
 // System.Void LitJson.JsonData::System.Collections.IList.Remove(System.Object)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" void JsonData_System_Collections_IList_Remove_m3650 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_IList_Remove_m3653 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1156,7 +1156,7 @@ extern "C" void JsonData_System_Collections_IList_Remove_m3650 (JsonData_t66 * _
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		Object_t * L_1 = ___value;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Object_t * >::Invoke(9 /* System.Void System.Collections.IList::Remove(System.Object) */, IList_t733_il2cpp_TypeInfo_var, L_0, L_1);
@@ -1166,7 +1166,7 @@ extern "C" void JsonData_System_Collections_IList_Remove_m3650 (JsonData_t66 * _
 }
 // System.Void LitJson.JsonData::System.Collections.IList.RemoveAt(System.Int32)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" void JsonData_System_Collections_IList_RemoveAt_m3651 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
+extern "C" void JsonData_System_Collections_IList_RemoveAt_m3654 (JsonData_t66 * __this, int32_t ___index, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1175,7 +1175,7 @@ extern "C" void JsonData_System_Collections_IList_RemoveAt_m3651 (JsonData_t66 *
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Object_t * L_0 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< int32_t >::Invoke(10 /* System.Void System.Collections.IList::RemoveAt(System.Int32) */, IList_t733_il2cpp_TypeInfo_var, L_0, L_1);
@@ -1186,7 +1186,7 @@ extern "C" void JsonData_System_Collections_IList_RemoveAt_m3651 (JsonData_t66 *
 // System.Collections.IDictionaryEnumerator LitJson.JsonData::System.Collections.Specialized.IOrderedDictionary.GetEnumerator()
 extern TypeInfo* IEnumerable_1_t741_il2cpp_TypeInfo_var;
 extern TypeInfo* OrderedDictionaryEnumerator_t692_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonData_System_Collections_Specialized_IOrderedDictionary_GetEnumerator_m3652 (JsonData_t66 * __this, const MethodInfo* method)
+extern "C" Object_t * JsonData_System_Collections_Specialized_IOrderedDictionary_GetEnumerator_m3655 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1196,27 +1196,27 @@ extern "C" Object_t * JsonData_System_Collections_Specialized_IOrderedDictionary
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonData_EnsureDictionary_m3654(__this, /*hidden argument*/NULL);
+		JsonData_EnsureDictionary_m3657(__this, /*hidden argument*/NULL);
 		Object_t* L_0 = (__this->___object_list_9);
 		NullCheck(L_0);
 		Object_t* L_1 = (Object_t*)InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::GetEnumerator() */, IEnumerable_1_t741_il2cpp_TypeInfo_var, L_0);
 		OrderedDictionaryEnumerator_t692 * L_2 = (OrderedDictionaryEnumerator_t692 *)il2cpp_codegen_object_new (OrderedDictionaryEnumerator_t692_il2cpp_TypeInfo_var);
-		OrderedDictionaryEnumerator__ctor_m3665(L_2, L_1, /*hidden argument*/NULL);
+		OrderedDictionaryEnumerator__ctor_m3668(L_2, L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Collections.ICollection LitJson.JsonData::EnsureCollection()
 extern TypeInfo* ICollection_t731_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t742_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral331;
-extern "C" Object_t * JsonData_EnsureCollection_m3653 (JsonData_t66 * __this, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral333;
+extern "C" Object_t * JsonData_EnsureCollection_m3656 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ICollection_t731_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(418);
 		InvalidOperationException_t742_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(432);
-		_stringLiteral331 = il2cpp_codegen_string_literal_from_index(331);
+		_stringLiteral333 = il2cpp_codegen_string_literal_from_index(333);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1247,7 +1247,7 @@ IL_0018:
 IL_0030:
 	{
 		InvalidOperationException_t742 * L_4 = (InvalidOperationException_t742 *)il2cpp_codegen_object_new (InvalidOperationException_t742_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m3788(L_4, _stringLiteral331, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m3791(L_4, _stringLiteral333, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_4);
 	}
 }
@@ -1256,10 +1256,10 @@ extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t742_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t743_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t744_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3789_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3790_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral332;
-extern "C" Object_t * JsonData_EnsureDictionary_m3654 (JsonData_t66 * __this, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3792_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3793_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral334;
+extern "C" Object_t * JsonData_EnsureDictionary_m3657 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1268,9 +1268,9 @@ extern "C" Object_t * JsonData_EnsureDictionary_m3654 (JsonData_t66 * __this, co
 		InvalidOperationException_t742_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(432);
 		Dictionary_2_t743_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(433);
 		List_1_t744_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(434);
-		Dictionary_2__ctor_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484016);
-		List_1__ctor_m3790_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484017);
-		_stringLiteral332 = il2cpp_codegen_string_literal_from_index(332);
+		Dictionary_2__ctor_m3792_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484017);
+		List_1__ctor_m3793_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484018);
+		_stringLiteral334 = il2cpp_codegen_string_literal_from_index(334);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1295,7 +1295,7 @@ IL_0018:
 	}
 	{
 		InvalidOperationException_t742 * L_3 = (InvalidOperationException_t742 *)il2cpp_codegen_object_new (InvalidOperationException_t742_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m3788(L_3, _stringLiteral332, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m3791(L_3, _stringLiteral334, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -1303,10 +1303,10 @@ IL_002e:
 	{
 		__this->___type_8 = 1;
 		Dictionary_2_t743 * L_4 = (Dictionary_2_t743 *)il2cpp_codegen_object_new (Dictionary_2_t743_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3789(L_4, /*hidden argument*/Dictionary_2__ctor_m3789_MethodInfo_var);
+		Dictionary_2__ctor_m3792(L_4, /*hidden argument*/Dictionary_2__ctor_m3792_MethodInfo_var);
 		__this->___inst_object_5 = L_4;
 		List_1_t744 * L_5 = (List_1_t744 *)il2cpp_codegen_object_new (List_1_t744_il2cpp_TypeInfo_var);
-		List_1__ctor_m3790(L_5, /*hidden argument*/List_1__ctor_m3790_MethodInfo_var);
+		List_1__ctor_m3793(L_5, /*hidden argument*/List_1__ctor_m3793_MethodInfo_var);
 		__this->___object_list_9 = L_5;
 		Object_t* L_6 = (__this->___inst_object_5);
 		return ((Object_t *)Castclass(L_6, IDictionary_t732_il2cpp_TypeInfo_var));
@@ -1316,9 +1316,9 @@ IL_002e:
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
 extern TypeInfo* InvalidOperationException_t742_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t745_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m3791_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral333;
-extern "C" Object_t * JsonData_EnsureList_m3655 (JsonData_t66 * __this, const MethodInfo* method)
+extern const MethodInfo* List_1__ctor_m3794_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral335;
+extern "C" Object_t * JsonData_EnsureList_m3658 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1326,8 +1326,8 @@ extern "C" Object_t * JsonData_EnsureList_m3655 (JsonData_t66 * __this, const Me
 		IList_t733_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(419);
 		InvalidOperationException_t742_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(432);
 		List_1_t745_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(435);
-		List_1__ctor_m3791_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484018);
-		_stringLiteral333 = il2cpp_codegen_string_literal_from_index(333);
+		List_1__ctor_m3794_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484019);
+		_stringLiteral335 = il2cpp_codegen_string_literal_from_index(335);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1352,7 +1352,7 @@ IL_0018:
 	}
 	{
 		InvalidOperationException_t742 * L_3 = (InvalidOperationException_t742 *)il2cpp_codegen_object_new (InvalidOperationException_t742_il2cpp_TypeInfo_var);
-		InvalidOperationException__ctor_m3788(L_3, _stringLiteral333, /*hidden argument*/NULL);
+		InvalidOperationException__ctor_m3791(L_3, _stringLiteral335, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_3);
 	}
 
@@ -1360,7 +1360,7 @@ IL_002e:
 	{
 		__this->___type_8 = 2;
 		List_1_t745 * L_4 = (List_1_t745 *)il2cpp_codegen_object_new (List_1_t745_il2cpp_TypeInfo_var);
-		List_1__ctor_m3791(L_4, /*hidden argument*/List_1__ctor_m3791_MethodInfo_var);
+		List_1__ctor_m3794(L_4, /*hidden argument*/List_1__ctor_m3794_MethodInfo_var);
 		__this->___inst_array_0 = L_4;
 		Object_t* L_5 = (__this->___inst_array_0);
 		return ((Object_t *)Castclass(L_5, IList_t733_il2cpp_TypeInfo_var));
@@ -1368,7 +1368,7 @@ IL_002e:
 }
 // LitJson.JsonData LitJson.JsonData::ToJsonData(System.Object)
 extern TypeInfo* JsonData_t66_il2cpp_TypeInfo_var;
-extern "C" JsonData_t66 * JsonData_ToJsonData_m3656 (JsonData_t66 * __this, Object_t * ___obj, const MethodInfo* method)
+extern "C" JsonData_t66 * JsonData_ToJsonData_m3659 (JsonData_t66 * __this, Object_t * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1404,13 +1404,13 @@ IL_001a:
 	{
 		Object_t * L_3 = ___obj;
 		JsonData_t66 * L_4 = (JsonData_t66 *)il2cpp_codegen_object_new (JsonData_t66_il2cpp_TypeInfo_var);
-		JsonData__ctor_m3633(L_4, L_3, /*hidden argument*/NULL);
+		JsonData__ctor_m3636(L_4, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Int32 LitJson.JsonData::Add(System.Object)
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
-extern "C" int32_t JsonData_Add_m3657 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
+extern "C" int32_t JsonData_Add_m3660 (JsonData_t66 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1421,10 +1421,10 @@ extern "C" int32_t JsonData_Add_m3657 (JsonData_t66 * __this, Object_t * ___valu
 	JsonData_t66 * V_0 = {0};
 	{
 		Object_t * L_0 = ___value;
-		JsonData_t66 * L_1 = JsonData_ToJsonData_m3656(__this, L_0, /*hidden argument*/NULL);
+		JsonData_t66 * L_1 = JsonData_ToJsonData_m3659(__this, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		__this->___json_7 = (String_t*)NULL;
-		Object_t * L_2 = JsonData_EnsureList_m3655(__this, /*hidden argument*/NULL);
+		Object_t * L_2 = JsonData_EnsureList_m3658(__this, /*hidden argument*/NULL);
 		JsonData_t66 * L_3 = V_0;
 		NullCheck(L_2);
 		int32_t L_4 = (int32_t)InterfaceFuncInvoker1< int32_t, Object_t * >::Invoke(4 /* System.Int32 System.Collections.IList::Add(System.Object) */, IList_t733_il2cpp_TypeInfo_var, L_2, L_3);
@@ -1432,7 +1432,7 @@ extern "C" int32_t JsonData_Add_m3657 (JsonData_t66 * __this, Object_t * ___valu
 	}
 }
 // System.Boolean LitJson.JsonData::Equals(LitJson.JsonData)
-extern "C" bool JsonData_Equals_m3658 (JsonData_t66 * __this, JsonData_t66 * ___x, const MethodInfo* method)
+extern "C" bool JsonData_Equals_m3661 (JsonData_t66 * __this, JsonData_t66 * ___x, const MethodInfo* method)
 {
 	int32_t V_0 = {0};
 	{
@@ -1537,7 +1537,7 @@ IL_0073:
 		NullCheck(L_15);
 		String_t* L_16 = (L_15->___inst_string_6);
 		NullCheck(L_14);
-		bool L_17 = String_Equals_m3792(L_14, L_16, /*hidden argument*/NULL);
+		bool L_17 = String_Equals_m3795(L_14, L_16, /*hidden argument*/NULL);
 		return L_17;
 	}
 
@@ -1547,7 +1547,7 @@ IL_0085:
 		JsonData_t66 * L_19 = ___x;
 		NullCheck(L_19);
 		int32_t L_20 = (L_19->___inst_int_3);
-		bool L_21 = Int32_Equals_m3555(L_18, L_20, /*hidden argument*/NULL);
+		bool L_21 = Int32_Equals_m3558(L_18, L_20, /*hidden argument*/NULL);
 		return L_21;
 	}
 
@@ -1557,7 +1557,7 @@ IL_0097:
 		JsonData_t66 * L_23 = ___x;
 		NullCheck(L_23);
 		int64_t L_24 = (L_23->___inst_long_4);
-		bool L_25 = Int64_Equals_m3793(L_22, L_24, /*hidden argument*/NULL);
+		bool L_25 = Int64_Equals_m3796(L_22, L_24, /*hidden argument*/NULL);
 		return L_25;
 	}
 
@@ -1567,7 +1567,7 @@ IL_00a9:
 		JsonData_t66 * L_27 = ___x;
 		NullCheck(L_27);
 		double L_28 = (L_27->___inst_double_2);
-		bool L_29 = Double_Equals_m3794(L_26, L_28, /*hidden argument*/NULL);
+		bool L_29 = Double_Equals_m3797(L_26, L_28, /*hidden argument*/NULL);
 		return L_29;
 	}
 
@@ -1577,7 +1577,7 @@ IL_00bb:
 		JsonData_t66 * L_31 = ___x;
 		NullCheck(L_31);
 		bool L_32 = (L_31->___inst_boolean_1);
-		bool L_33 = Boolean_Equals_m3795(L_30, L_32, /*hidden argument*/NULL);
+		bool L_33 = Boolean_Equals_m3798(L_30, L_32, /*hidden argument*/NULL);
 		return L_33;
 	}
 
@@ -1590,10 +1590,10 @@ IL_00cd:
 extern TypeInfo* Dictionary_2_t743_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t744_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t745_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3789_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3790_MethodInfo_var;
-extern const MethodInfo* List_1__ctor_m3791_MethodInfo_var;
-extern "C" void JsonData_SetJsonType_m3659 (JsonData_t66 * __this, int32_t ___type, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3792_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3793_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m3794_MethodInfo_var;
+extern "C" void JsonData_SetJsonType_m3662 (JsonData_t66 * __this, int32_t ___type, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1601,9 +1601,9 @@ extern "C" void JsonData_SetJsonType_m3659 (JsonData_t66 * __this, int32_t ___ty
 		Dictionary_2_t743_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(433);
 		List_1_t744_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(434);
 		List_1_t745_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(435);
-		Dictionary_2__ctor_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484016);
-		List_1__ctor_m3790_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484017);
-		List_1__ctor_m3791_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484018);
+		Dictionary_2__ctor_m3792_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484017);
+		List_1__ctor_m3793_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484018);
+		List_1__ctor_m3794_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484019);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1666,10 +1666,10 @@ IL_0038:
 IL_003d:
 	{
 		Dictionary_2_t743 * L_3 = (Dictionary_2_t743 *)il2cpp_codegen_object_new (Dictionary_2_t743_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3789(L_3, /*hidden argument*/Dictionary_2__ctor_m3789_MethodInfo_var);
+		Dictionary_2__ctor_m3792(L_3, /*hidden argument*/Dictionary_2__ctor_m3792_MethodInfo_var);
 		__this->___inst_object_5 = L_3;
 		List_1_t744 * L_4 = (List_1_t744 *)il2cpp_codegen_object_new (List_1_t744_il2cpp_TypeInfo_var);
-		List_1__ctor_m3790(L_4, /*hidden argument*/List_1__ctor_m3790_MethodInfo_var);
+		List_1__ctor_m3793(L_4, /*hidden argument*/List_1__ctor_m3793_MethodInfo_var);
 		__this->___object_list_9 = L_4;
 		goto IL_00ad;
 	}
@@ -1677,7 +1677,7 @@ IL_003d:
 IL_0058:
 	{
 		List_1_t745 * L_5 = (List_1_t745 *)il2cpp_codegen_object_new (List_1_t745_il2cpp_TypeInfo_var);
-		List_1__ctor_m3791(L_5, /*hidden argument*/List_1__ctor_m3791_MethodInfo_var);
+		List_1__ctor_m3794(L_5, /*hidden argument*/List_1__ctor_m3794_MethodInfo_var);
 		__this->___inst_array_0 = L_5;
 		goto IL_00ad;
 	}
@@ -1720,17 +1720,17 @@ IL_00ad:
 	}
 }
 // System.String LitJson.JsonData::ToString()
-extern Il2CppCodeGenString* _stringLiteral334;
-extern Il2CppCodeGenString* _stringLiteral335;
 extern Il2CppCodeGenString* _stringLiteral336;
-extern "C" String_t* JsonData_ToString_m3660 (JsonData_t66 * __this, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral337;
+extern Il2CppCodeGenString* _stringLiteral338;
+extern "C" String_t* JsonData_ToString_m3663 (JsonData_t66 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral334 = il2cpp_codegen_string_literal_from_index(334);
-		_stringLiteral335 = il2cpp_codegen_string_literal_from_index(335);
 		_stringLiteral336 = il2cpp_codegen_string_literal_from_index(336);
+		_stringLiteral337 = il2cpp_codegen_string_literal_from_index(337);
+		_stringLiteral338 = il2cpp_codegen_string_literal_from_index(338);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = {0};
@@ -1773,14 +1773,14 @@ extern "C" String_t* JsonData_ToString_m3660 (JsonData_t66 * __this, const Metho
 
 IL_0030:
 	{
-		return _stringLiteral334;
+		return _stringLiteral336;
 	}
 
 IL_0036:
 	{
 		bool* L_2 = &(__this->___inst_boolean_1);
 		NullCheck(L_2);
-		String_t* L_3 = Boolean_ToString_m3796(L_2, NULL);
+		String_t* L_3 = Boolean_ToString_m3799(L_2, NULL);
 		return L_3;
 	}
 
@@ -1788,7 +1788,7 @@ IL_0048:
 	{
 		double* L_4 = &(__this->___inst_double_2);
 		NullCheck(L_4);
-		String_t* L_5 = Double_ToString_m3797(L_4, NULL);
+		String_t* L_5 = Double_ToString_m3800(L_4, NULL);
 		return L_5;
 	}
 
@@ -1804,13 +1804,13 @@ IL_006c:
 	{
 		int64_t* L_8 = &(__this->___inst_long_4);
 		NullCheck(L_8);
-		String_t* L_9 = Int64_ToString_m3798(L_8, NULL);
+		String_t* L_9 = Int64_ToString_m3801(L_8, NULL);
 		return L_9;
 	}
 
 IL_007e:
 	{
-		return _stringLiteral335;
+		return _stringLiteral337;
 	}
 
 IL_0084:
@@ -1821,12 +1821,12 @@ IL_0084:
 
 IL_008b:
 	{
-		return _stringLiteral336;
+		return _stringLiteral338;
 	}
 }
 // System.Object LitJson.OrderedDictionaryEnumerator::get_Current()
 extern TypeInfo* DictionaryEntry_t734_il2cpp_TypeInfo_var;
-extern "C" Object_t * OrderedDictionaryEnumerator_get_Current_m3661 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern "C" Object_t * OrderedDictionaryEnumerator_get_Current_m3664 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1835,7 +1835,7 @@ extern "C" Object_t * OrderedDictionaryEnumerator_get_Current_m3661 (OrderedDict
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		DictionaryEntry_t734  L_0 = OrderedDictionaryEnumerator_get_Entry_m3662(__this, /*hidden argument*/NULL);
+		DictionaryEntry_t734  L_0 = OrderedDictionaryEnumerator_get_Entry_m3665(__this, /*hidden argument*/NULL);
 		DictionaryEntry_t734  L_1 = L_0;
 		Object_t * L_2 = Box(DictionaryEntry_t734_il2cpp_TypeInfo_var, &L_1);
 		return L_2;
@@ -1843,16 +1843,16 @@ extern "C" Object_t * OrderedDictionaryEnumerator_get_Current_m3661 (OrderedDict
 }
 // System.Collections.DictionaryEntry LitJson.OrderedDictionaryEnumerator::get_Entry()
 extern TypeInfo* IEnumerator_1_t693_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3785_MethodInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3786_MethodInfo_var;
-extern "C" DictionaryEntry_t734  OrderedDictionaryEnumerator_get_Entry_m3662 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Key_m3788_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m3789_MethodInfo_var;
+extern "C" DictionaryEntry_t734  OrderedDictionaryEnumerator_get_Entry_m3665 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		IEnumerator_1_t693_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(437);
-		KeyValuePair_2_get_Key_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
-		KeyValuePair_2_get_Value_m3786_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
+		KeyValuePair_2_get_Key_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
+		KeyValuePair_2_get_Value_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484016);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
@@ -1861,23 +1861,23 @@ extern "C" DictionaryEntry_t734  OrderedDictionaryEnumerator_get_Entry_m3662 (Or
 		NullCheck(L_0);
 		KeyValuePair_2_t736  L_1 = (KeyValuePair_2_t736 )InterfaceFuncInvoker0< KeyValuePair_2_t736  >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Current() */, IEnumerator_1_t693_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		String_t* L_2 = KeyValuePair_2_get_Key_m3785((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
-		JsonData_t66 * L_3 = KeyValuePair_2_get_Value_m3786((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3786_MethodInfo_var);
+		String_t* L_2 = KeyValuePair_2_get_Key_m3788((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
+		JsonData_t66 * L_3 = KeyValuePair_2_get_Value_m3789((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3789_MethodInfo_var);
 		DictionaryEntry_t734  L_4 = {0};
-		DictionaryEntry__ctor_m3799(&L_4, L_2, L_3, /*hidden argument*/NULL);
+		DictionaryEntry__ctor_m3802(&L_4, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Object LitJson.OrderedDictionaryEnumerator::get_Key()
 extern TypeInfo* IEnumerator_1_t693_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Key_m3785_MethodInfo_var;
-extern "C" Object_t * OrderedDictionaryEnumerator_get_Key_m3663 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Key_m3788_MethodInfo_var;
+extern "C" Object_t * OrderedDictionaryEnumerator_get_Key_m3666 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		IEnumerator_1_t693_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(437);
-		KeyValuePair_2_get_Key_m3785_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484014);
+		KeyValuePair_2_get_Key_m3788_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
@@ -1886,20 +1886,20 @@ extern "C" Object_t * OrderedDictionaryEnumerator_get_Key_m3663 (OrderedDictiona
 		NullCheck(L_0);
 		KeyValuePair_2_t736  L_1 = (KeyValuePair_2_t736 )InterfaceFuncInvoker0< KeyValuePair_2_t736  >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Current() */, IEnumerator_1_t693_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		String_t* L_2 = KeyValuePair_2_get_Key_m3785((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3785_MethodInfo_var);
+		String_t* L_2 = KeyValuePair_2_get_Key_m3788((&V_0), /*hidden argument*/KeyValuePair_2_get_Key_m3788_MethodInfo_var);
 		return L_2;
 	}
 }
 // System.Object LitJson.OrderedDictionaryEnumerator::get_Value()
 extern TypeInfo* IEnumerator_1_t693_il2cpp_TypeInfo_var;
-extern const MethodInfo* KeyValuePair_2_get_Value_m3786_MethodInfo_var;
-extern "C" Object_t * OrderedDictionaryEnumerator_get_Value_m3664 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern const MethodInfo* KeyValuePair_2_get_Value_m3789_MethodInfo_var;
+extern "C" Object_t * OrderedDictionaryEnumerator_get_Value_m3667 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		IEnumerator_1_t693_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(437);
-		KeyValuePair_2_get_Value_m3786_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484015);
+		KeyValuePair_2_get_Value_m3789_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484016);
 		s_Il2CppMethodIntialized = true;
 	}
 	KeyValuePair_2_t736  V_0 = {0};
@@ -1908,12 +1908,12 @@ extern "C" Object_t * OrderedDictionaryEnumerator_get_Value_m3664 (OrderedDictio
 		NullCheck(L_0);
 		KeyValuePair_2_t736  L_1 = (KeyValuePair_2_t736 )InterfaceFuncInvoker0< KeyValuePair_2_t736  >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::get_Current() */, IEnumerator_1_t693_il2cpp_TypeInfo_var, L_0);
 		V_0 = L_1;
-		JsonData_t66 * L_2 = KeyValuePair_2_get_Value_m3786((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3786_MethodInfo_var);
+		JsonData_t66 * L_2 = KeyValuePair_2_get_Value_m3789((&V_0), /*hidden argument*/KeyValuePair_2_get_Value_m3789_MethodInfo_var);
 		return L_2;
 	}
 }
 // System.Void LitJson.OrderedDictionaryEnumerator::.ctor(System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>)
-extern "C" void OrderedDictionaryEnumerator__ctor_m3665 (OrderedDictionaryEnumerator_t692 * __this, Object_t* ___enumerator, const MethodInfo* method)
+extern "C" void OrderedDictionaryEnumerator__ctor_m3668 (OrderedDictionaryEnumerator_t692 * __this, Object_t* ___enumerator, const MethodInfo* method)
 {
 	{
 		Object__ctor_m435(__this, /*hidden argument*/NULL);
@@ -1924,7 +1924,7 @@ extern "C" void OrderedDictionaryEnumerator__ctor_m3665 (OrderedDictionaryEnumer
 }
 // System.Boolean LitJson.OrderedDictionaryEnumerator::MoveNext()
 extern TypeInfo* IEnumerator_t109_il2cpp_TypeInfo_var;
-extern "C" bool OrderedDictionaryEnumerator_MoveNext_m3666 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern "C" bool OrderedDictionaryEnumerator_MoveNext_m3669 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1941,7 +1941,7 @@ extern "C" bool OrderedDictionaryEnumerator_MoveNext_m3666 (OrderedDictionaryEnu
 }
 // System.Void LitJson.OrderedDictionaryEnumerator::Reset()
 extern TypeInfo* IEnumerator_t109_il2cpp_TypeInfo_var;
-extern "C" void OrderedDictionaryEnumerator_Reset_m3667 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
+extern "C" void OrderedDictionaryEnumerator_Reset_m3670 (OrderedDictionaryEnumerator_t692 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1959,15 +1959,15 @@ extern "C" void OrderedDictionaryEnumerator_Reset_m3667 (OrderedDictionaryEnumer
 // System.Void LitJson.JsonException::.ctor(LitJson.ParserToken,System.Exception)
 extern TypeInfo* ParserToken_t726_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral337;
-extern "C" void JsonException__ctor_m3668 (JsonException_t694 * __this, int32_t ___token, Exception_t115 * ___inner_exception, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral339;
+extern "C" void JsonException__ctor_m3671 (JsonException_t694 * __this, int32_t ___token, Exception_t115 * ___inner_exception, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		ParserToken_t726_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
-		_stringLiteral337 = il2cpp_codegen_string_literal_from_index(337);
+		_stringLiteral339 = il2cpp_codegen_string_literal_from_index(339);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1975,24 +1975,24 @@ extern "C" void JsonException__ctor_m3668 (JsonException_t694 * __this, int32_t 
 		int32_t L_1 = L_0;
 		Object_t * L_2 = Box(ParserToken_t726_il2cpp_TypeInfo_var, &L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m649(NULL /*static, unused*/, _stringLiteral337, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m659(NULL /*static, unused*/, _stringLiteral339, L_2, /*hidden argument*/NULL);
 		Exception_t115 * L_4 = ___inner_exception;
-		ApplicationException__ctor_m3800(__this, L_3, L_4, /*hidden argument*/NULL);
+		ApplicationException__ctor_m3803(__this, L_3, L_4, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonException::.ctor(System.Int32)
 extern TypeInfo* Char_t424_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral338;
-extern "C" void JsonException__ctor_m3669 (JsonException_t694 * __this, int32_t ___c, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral340;
+extern "C" void JsonException__ctor_m3672 (JsonException_t694 * __this, int32_t ___c, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Char_t424_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(219);
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
-		_stringLiteral338 = il2cpp_codegen_string_literal_from_index(338);
+		_stringLiteral340 = il2cpp_codegen_string_literal_from_index(340);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2000,33 +2000,33 @@ extern "C" void JsonException__ctor_m3669 (JsonException_t694 * __this, int32_t 
 		uint16_t L_1 = (((int32_t)((uint16_t)L_0)));
 		Object_t * L_2 = Box(Char_t424_il2cpp_TypeInfo_var, &L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_3 = String_Format_m649(NULL /*static, unused*/, _stringLiteral338, L_2, /*hidden argument*/NULL);
-		ApplicationException__ctor_m3801(__this, L_3, /*hidden argument*/NULL);
+		String_t* L_3 = String_Format_m659(NULL /*static, unused*/, _stringLiteral340, L_2, /*hidden argument*/NULL);
+		ApplicationException__ctor_m3804(__this, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonException::.ctor(System.String)
-extern "C" void JsonException__ctor_m3670 (JsonException_t694 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" void JsonException__ctor_m3673 (JsonException_t694 * __this, String_t* ___message, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
-		ApplicationException__ctor_m3801(__this, L_0, /*hidden argument*/NULL);
+		ApplicationException__ctor_m3804(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.ExporterFunc::.ctor(System.Object,System.IntPtr)
-extern "C" void ExporterFunc__ctor_m3671 (ExporterFunc_t700 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ExporterFunc__ctor_m3674 (ExporterFunc_t700 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void LitJson.ExporterFunc::Invoke(System.Object,LitJson.JsonWriter)
-extern "C" void ExporterFunc_Invoke_m3672 (ExporterFunc_t700 * __this, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void ExporterFunc_Invoke_m3675 (ExporterFunc_t700 * __this, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ExporterFunc_Invoke_m3672((ExporterFunc_t700 *)__this->___prev_9,___obj, ___writer, method);
+		ExporterFunc_Invoke_m3675((ExporterFunc_t700 *)__this->___prev_9,___obj, ___writer, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -2053,7 +2053,7 @@ extern "C" void pinvoke_delegate_wrapper_ExporterFunc_t700(Il2CppObject* delegat
 	il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult LitJson.ExporterFunc::BeginInvoke(System.Object,LitJson.JsonWriter,System.AsyncCallback,System.Object)
-extern "C" Object_t * ExporterFunc_BeginInvoke_m3673 (ExporterFunc_t700 * __this, Object_t * ___obj, JsonWriter_t701 * ___writer, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ExporterFunc_BeginInvoke_m3676 (ExporterFunc_t700 * __this, Object_t * ___obj, JsonWriter_t701 * ___writer, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___obj;
@@ -2061,23 +2061,23 @@ extern "C" Object_t * ExporterFunc_BeginInvoke_m3673 (ExporterFunc_t700 * __this
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void LitJson.ExporterFunc::EndInvoke(System.IAsyncResult)
-extern "C" void ExporterFunc_EndInvoke_m3674 (ExporterFunc_t700 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void ExporterFunc_EndInvoke_m3677 (ExporterFunc_t700 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
 // System.Void LitJson.ImporterFunc::.ctor(System.Object,System.IntPtr)
-extern "C" void ImporterFunc__ctor_m3675 (ImporterFunc_t702 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ImporterFunc__ctor_m3678 (ImporterFunc_t702 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Object LitJson.ImporterFunc::Invoke(System.Object)
-extern "C" Object_t * ImporterFunc_Invoke_m3676 (ImporterFunc_t702 * __this, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * ImporterFunc_Invoke_m3679 (ImporterFunc_t702 * __this, Object_t * ___input, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ImporterFunc_Invoke_m3676((ImporterFunc_t702 *)__this->___prev_9,___input, method);
+		ImporterFunc_Invoke_m3679((ImporterFunc_t702 *)__this->___prev_9,___input, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -2104,31 +2104,31 @@ extern "C" Object_t * pinvoke_delegate_wrapper_ImporterFunc_t702(Il2CppObject* d
 	il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult LitJson.ImporterFunc::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * ImporterFunc_BeginInvoke_m3677 (ImporterFunc_t702 * __this, Object_t * ___input, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ImporterFunc_BeginInvoke_m3680 (ImporterFunc_t702 * __this, Object_t * ___input, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___input;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Object LitJson.ImporterFunc::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * ImporterFunc_EndInvoke_m3678 (ImporterFunc_t702 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" Object_t * ImporterFunc_EndInvoke_m3681 (ImporterFunc_t702 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return (Object_t *)__result;
 }
 // System.Void LitJson.WrapperFactory::.ctor(System.Object,System.IntPtr)
-extern "C" void WrapperFactory__ctor_m3679 (WrapperFactory_t703 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void WrapperFactory__ctor_m3682 (WrapperFactory_t703 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // LitJson.IJsonWrapper LitJson.WrapperFactory::Invoke()
-extern "C" Object_t * WrapperFactory_Invoke_m3680 (WrapperFactory_t703 * __this, const MethodInfo* method)
+extern "C" Object_t * WrapperFactory_Invoke_m3683 (WrapperFactory_t703 * __this, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		WrapperFactory_Invoke_m3680((WrapperFactory_t703 *)__this->___prev_9, method);
+		WrapperFactory_Invoke_m3683((WrapperFactory_t703 *)__this->___prev_9, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -2155,13 +2155,13 @@ extern "C" Object_t * pinvoke_delegate_wrapper_WrapperFactory_t703(Il2CppObject*
 	return __return_value_unmarshaled;
 }
 // System.IAsyncResult LitJson.WrapperFactory::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * WrapperFactory_BeginInvoke_m3681 (WrapperFactory_t703 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * WrapperFactory_BeginInvoke_m3684 (WrapperFactory_t703 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[1] = {0};
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // LitJson.IJsonWrapper LitJson.WrapperFactory::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * WrapperFactory_EndInvoke_m3682 (WrapperFactory_t703 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" Object_t * WrapperFactory_EndInvoke_m3685 (WrapperFactory_t703 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return (Object_t *)__result;
@@ -2177,13 +2177,13 @@ extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTimeFormatInfo_t750_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t751_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t752_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3802_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3803_MethodInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3804_MethodInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m3805_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3806_MethodInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m3807_MethodInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m3808_MethodInfo_var;
-extern "C" void JsonMapper__cctor_m3683 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3810_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3811_MethodInfo_var;
+extern "C" void JsonMapper__cctor_m3686 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2198,12 +2198,12 @@ extern "C" void JsonMapper__cctor_m3683 (Object_t * __this /* static, unused */,
 		DateTimeFormatInfo_t750_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(452);
 		Dictionary_2_t751_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(453);
 		Dictionary_2_t752_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(454);
-		Dictionary_2__ctor_m3802_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484019);
-		Dictionary_2__ctor_m3803_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484020);
-		Dictionary_2__ctor_m3804_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484021);
-		Dictionary_2__ctor_m3805_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484022);
-		Dictionary_2__ctor_m3807_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484023);
-		Dictionary_2__ctor_m3808_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484024);
+		Dictionary_2__ctor_m3805_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484020);
+		Dictionary_2__ctor_m3806_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484021);
+		Dictionary_2__ctor_m3807_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484022);
+		Dictionary_2__ctor_m3808_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484023);
+		Dictionary_2__ctor_m3810_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484024);
+		Dictionary_2__ctor_m3811_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484025);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -2224,37 +2224,37 @@ extern "C" void JsonMapper__cctor_m3683 (Object_t * __this /* static, unused */,
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___static_writer_lock_15 = L_4;
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___max_nesting_depth_0 = ((int32_t)100);
 		Dictionary_2_t746 * L_5 = (Dictionary_2_t746 *)il2cpp_codegen_object_new (Dictionary_2_t746_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3802(L_5, /*hidden argument*/Dictionary_2__ctor_m3802_MethodInfo_var);
+		Dictionary_2__ctor_m3805(L_5, /*hidden argument*/Dictionary_2__ctor_m3805_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___array_metadata_6 = L_5;
 		Dictionary_2_t747 * L_6 = (Dictionary_2_t747 *)il2cpp_codegen_object_new (Dictionary_2_t747_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3803(L_6, /*hidden argument*/Dictionary_2__ctor_m3803_MethodInfo_var);
+		Dictionary_2__ctor_m3806(L_6, /*hidden argument*/Dictionary_2__ctor_m3806_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___conv_ops_8 = L_6;
 		Dictionary_2_t748 * L_7 = (Dictionary_2_t748 *)il2cpp_codegen_object_new (Dictionary_2_t748_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3804(L_7, /*hidden argument*/Dictionary_2__ctor_m3804_MethodInfo_var);
+		Dictionary_2__ctor_m3807(L_7, /*hidden argument*/Dictionary_2__ctor_m3807_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___object_metadata_10 = L_7;
 		Dictionary_2_t749 * L_8 = (Dictionary_2_t749 *)il2cpp_codegen_object_new (Dictionary_2_t749_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3805(L_8, /*hidden argument*/Dictionary_2__ctor_m3805_MethodInfo_var);
+		Dictionary_2__ctor_m3808(L_8, /*hidden argument*/Dictionary_2__ctor_m3808_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___type_properties_12 = L_8;
 		JsonWriter_t701 * L_9 = (JsonWriter_t701 *)il2cpp_codegen_object_new (JsonWriter_t701_il2cpp_TypeInfo_var);
-		JsonWriter__ctor_m3726(L_9, /*hidden argument*/NULL);
+		JsonWriter__ctor_m3729(L_9, /*hidden argument*/NULL);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___static_writer_14 = L_9;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTimeFormatInfo_t750_il2cpp_TypeInfo_var);
-		DateTimeFormatInfo_t750 * L_10 = DateTimeFormatInfo_get_InvariantInfo_m3806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DateTimeFormatInfo_t750 * L_10 = DateTimeFormatInfo_get_InvariantInfo_m3809(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___datetime_format_1 = L_10;
 		Dictionary_2_t751 * L_11 = (Dictionary_2_t751 *)il2cpp_codegen_object_new (Dictionary_2_t751_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3807(L_11, /*hidden argument*/Dictionary_2__ctor_m3807_MethodInfo_var);
+		Dictionary_2__ctor_m3810(L_11, /*hidden argument*/Dictionary_2__ctor_m3810_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___base_exporters_table_2 = L_11;
 		Dictionary_2_t751 * L_12 = (Dictionary_2_t751 *)il2cpp_codegen_object_new (Dictionary_2_t751_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3807(L_12, /*hidden argument*/Dictionary_2__ctor_m3807_MethodInfo_var);
+		Dictionary_2__ctor_m3810(L_12, /*hidden argument*/Dictionary_2__ctor_m3810_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___custom_exporters_table_3 = L_12;
 		Dictionary_2_t752 * L_13 = (Dictionary_2_t752 *)il2cpp_codegen_object_new (Dictionary_2_t752_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3808(L_13, /*hidden argument*/Dictionary_2__ctor_m3808_MethodInfo_var);
+		Dictionary_2__ctor_m3811(L_13, /*hidden argument*/Dictionary_2__ctor_m3811_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___base_importers_table_4 = L_13;
 		Dictionary_2_t752 * L_14 = (Dictionary_2_t752 *)il2cpp_codegen_object_new (Dictionary_2_t752_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3808(L_14, /*hidden argument*/Dictionary_2__ctor_m3808_MethodInfo_var);
+		Dictionary_2__ctor_m3811(L_14, /*hidden argument*/Dictionary_2__ctor_m3811_MethodInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___custom_importers_table_5 = L_14;
-		JsonMapper_RegisterBaseExporters_m3685(NULL /*static, unused*/, /*hidden argument*/NULL);
-		JsonMapper_RegisterBaseImporters_m3686(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JsonMapper_RegisterBaseExporters_m3688(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JsonMapper_RegisterBaseImporters_m3689(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2268,7 +2268,7 @@ extern TypeInfo* Boolean_t395_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* IList_t733_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_t732_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_ReadValue_m3684 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, JsonReader_t713 * ___reader, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_ReadValue_m3687 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, JsonReader_t713 * ___reader, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2278,7 +2278,7 @@ extern "C" Object_t * JsonMapper_ReadValue_m3684 (Object_t * __this /* static, u
 		Double_t671_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(386);
 		Int32_t125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(35);
 		Int64_t672_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(387);
-		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
+		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(134);
 		JsonMapper_t131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(51);
 		IList_t733_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(419);
 		IDictionary_t732_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(420);
@@ -2290,10 +2290,10 @@ extern "C" Object_t * JsonMapper_ReadValue_m3684 (Object_t * __this /* static, u
 	{
 		JsonReader_t713 * L_0 = ___reader;
 		NullCheck(L_0);
-		JsonReader_Read_m3723(L_0, /*hidden argument*/NULL);
+		JsonReader_Read_m3726(L_0, /*hidden argument*/NULL);
 		JsonReader_t713 * L_1 = ___reader;
 		NullCheck(L_1);
-		int32_t L_2 = JsonReader_get_Token_m3711(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = JsonReader_get_Token_m3714(L_1, /*hidden argument*/NULL);
 		if ((((int32_t)L_2) == ((int32_t)5)))
 		{
 			goto IL_0020;
@@ -2302,7 +2302,7 @@ extern "C" Object_t * JsonMapper_ReadValue_m3684 (Object_t * __this /* static, u
 	{
 		JsonReader_t713 * L_3 = ___reader;
 		NullCheck(L_3);
-		int32_t L_4 = JsonReader_get_Token_m3711(L_3, /*hidden argument*/NULL);
+		int32_t L_4 = JsonReader_get_Token_m3714(L_3, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)11)))))
 		{
 			goto IL_0022;
@@ -2318,11 +2318,11 @@ IL_0022:
 	{
 		WrapperFactory_t703 * L_5 = ___factory;
 		NullCheck(L_5);
-		Object_t * L_6 = WrapperFactory_Invoke_m3680(L_5, /*hidden argument*/NULL);
+		Object_t * L_6 = WrapperFactory_Invoke_m3683(L_5, /*hidden argument*/NULL);
 		V_0 = L_6;
 		JsonReader_t713 * L_7 = ___reader;
 		NullCheck(L_7);
-		int32_t L_8 = JsonReader_get_Token_m3711(L_7, /*hidden argument*/NULL);
+		int32_t L_8 = JsonReader_get_Token_m3714(L_7, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)9)))))
 		{
 			goto IL_0049;
@@ -2332,7 +2332,7 @@ IL_0022:
 		Object_t * L_9 = V_0;
 		JsonReader_t713 * L_10 = ___reader;
 		NullCheck(L_10);
-		Object_t * L_11 = JsonReader_get_Value_m3712(L_10, /*hidden argument*/NULL);
+		Object_t * L_11 = JsonReader_get_Value_m3715(L_10, /*hidden argument*/NULL);
 		NullCheck(L_9);
 		InterfaceActionInvoker1< String_t* >::Invoke(5 /* System.Void LitJson.IJsonWrapper::SetString(System.String) */, IJsonWrapper_t704_il2cpp_TypeInfo_var, L_9, ((String_t*)CastclassSealed(L_11, String_t_il2cpp_TypeInfo_var)));
 		Object_t * L_12 = V_0;
@@ -2343,7 +2343,7 @@ IL_0049:
 	{
 		JsonReader_t713 * L_13 = ___reader;
 		NullCheck(L_13);
-		int32_t L_14 = JsonReader_get_Token_m3711(L_13, /*hidden argument*/NULL);
+		int32_t L_14 = JsonReader_get_Token_m3714(L_13, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_14) == ((uint32_t)8))))
 		{
 			goto IL_0068;
@@ -2353,7 +2353,7 @@ IL_0049:
 		Object_t * L_15 = V_0;
 		JsonReader_t713 * L_16 = ___reader;
 		NullCheck(L_16);
-		Object_t * L_17 = JsonReader_get_Value_m3712(L_16, /*hidden argument*/NULL);
+		Object_t * L_17 = JsonReader_get_Value_m3715(L_16, /*hidden argument*/NULL);
 		NullCheck(L_15);
 		InterfaceActionInvoker1< double >::Invoke(1 /* System.Void LitJson.IJsonWrapper::SetDouble(System.Double) */, IJsonWrapper_t704_il2cpp_TypeInfo_var, L_15, ((*(double*)((double*)UnBox (L_17, Double_t671_il2cpp_TypeInfo_var)))));
 		Object_t * L_18 = V_0;
@@ -2364,7 +2364,7 @@ IL_0068:
 	{
 		JsonReader_t713 * L_19 = ___reader;
 		NullCheck(L_19);
-		int32_t L_20 = JsonReader_get_Token_m3711(L_19, /*hidden argument*/NULL);
+		int32_t L_20 = JsonReader_get_Token_m3714(L_19, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_20) == ((uint32_t)6))))
 		{
 			goto IL_0087;
@@ -2374,7 +2374,7 @@ IL_0068:
 		Object_t * L_21 = V_0;
 		JsonReader_t713 * L_22 = ___reader;
 		NullCheck(L_22);
-		Object_t * L_23 = JsonReader_get_Value_m3712(L_22, /*hidden argument*/NULL);
+		Object_t * L_23 = JsonReader_get_Value_m3715(L_22, /*hidden argument*/NULL);
 		NullCheck(L_21);
 		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void LitJson.IJsonWrapper::SetInt(System.Int32) */, IJsonWrapper_t704_il2cpp_TypeInfo_var, L_21, ((*(int32_t*)((int32_t*)UnBox (L_23, Int32_t125_il2cpp_TypeInfo_var)))));
 		Object_t * L_24 = V_0;
@@ -2385,7 +2385,7 @@ IL_0087:
 	{
 		JsonReader_t713 * L_25 = ___reader;
 		NullCheck(L_25);
-		int32_t L_26 = JsonReader_get_Token_m3711(L_25, /*hidden argument*/NULL);
+		int32_t L_26 = JsonReader_get_Token_m3714(L_25, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_26) == ((uint32_t)7))))
 		{
 			goto IL_00a6;
@@ -2395,7 +2395,7 @@ IL_0087:
 		Object_t * L_27 = V_0;
 		JsonReader_t713 * L_28 = ___reader;
 		NullCheck(L_28);
-		Object_t * L_29 = JsonReader_get_Value_m3712(L_28, /*hidden argument*/NULL);
+		Object_t * L_29 = JsonReader_get_Value_m3715(L_28, /*hidden argument*/NULL);
 		NullCheck(L_27);
 		InterfaceActionInvoker1< int64_t >::Invoke(4 /* System.Void LitJson.IJsonWrapper::SetLong(System.Int64) */, IJsonWrapper_t704_il2cpp_TypeInfo_var, L_27, ((*(int64_t*)((int64_t*)UnBox (L_29, Int64_t672_il2cpp_TypeInfo_var)))));
 		Object_t * L_30 = V_0;
@@ -2406,7 +2406,7 @@ IL_00a6:
 	{
 		JsonReader_t713 * L_31 = ___reader;
 		NullCheck(L_31);
-		int32_t L_32 = JsonReader_get_Token_m3711(L_31, /*hidden argument*/NULL);
+		int32_t L_32 = JsonReader_get_Token_m3714(L_31, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)10)))))
 		{
 			goto IL_00c6;
@@ -2416,7 +2416,7 @@ IL_00a6:
 		Object_t * L_33 = V_0;
 		JsonReader_t713 * L_34 = ___reader;
 		NullCheck(L_34);
-		Object_t * L_35 = JsonReader_get_Value_m3712(L_34, /*hidden argument*/NULL);
+		Object_t * L_35 = JsonReader_get_Value_m3715(L_34, /*hidden argument*/NULL);
 		NullCheck(L_33);
 		InterfaceActionInvoker1< bool >::Invoke(0 /* System.Void LitJson.IJsonWrapper::SetBoolean(System.Boolean) */, IJsonWrapper_t704_il2cpp_TypeInfo_var, L_33, ((*(bool*)((bool*)UnBox (L_35, Boolean_t395_il2cpp_TypeInfo_var)))));
 		Object_t * L_36 = V_0;
@@ -2427,7 +2427,7 @@ IL_00c6:
 	{
 		JsonReader_t713 * L_37 = ___reader;
 		NullCheck(L_37);
-		int32_t L_38 = JsonReader_get_Token_m3711(L_37, /*hidden argument*/NULL);
+		int32_t L_38 = JsonReader_get_Token_m3714(L_37, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_38) == ((uint32_t)4))))
 		{
 			goto IL_010a;
@@ -2444,7 +2444,7 @@ IL_00d9:
 		WrapperFactory_t703 * L_40 = ___factory;
 		JsonReader_t713 * L_41 = ___reader;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
-		Object_t * L_42 = JsonMapper_ReadValue_m3684(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+		Object_t * L_42 = JsonMapper_ReadValue_m3687(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
 		V_1 = L_42;
 		Object_t * L_43 = V_1;
 		if (L_43)
@@ -2455,7 +2455,7 @@ IL_00d9:
 	{
 		JsonReader_t713 * L_44 = ___reader;
 		NullCheck(L_44);
-		int32_t L_45 = JsonReader_get_Token_m3711(L_44, /*hidden argument*/NULL);
+		int32_t L_45 = JsonReader_get_Token_m3714(L_44, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_45) == ((uint32_t)5))))
 		{
 			goto IL_00f8;
@@ -2483,7 +2483,7 @@ IL_010a:
 	{
 		JsonReader_t713 * L_48 = ___reader;
 		NullCheck(L_48);
-		int32_t L_49 = JsonReader_get_Token_m3711(L_48, /*hidden argument*/NULL);
+		int32_t L_49 = JsonReader_get_Token_m3714(L_48, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_49) == ((uint32_t)1))))
 		{
 			goto IL_0154;
@@ -2499,10 +2499,10 @@ IL_011d:
 	{
 		JsonReader_t713 * L_51 = ___reader;
 		NullCheck(L_51);
-		JsonReader_Read_m3723(L_51, /*hidden argument*/NULL);
+		JsonReader_Read_m3726(L_51, /*hidden argument*/NULL);
 		JsonReader_t713 * L_52 = ___reader;
 		NullCheck(L_52);
-		int32_t L_53 = JsonReader_get_Token_m3711(L_52, /*hidden argument*/NULL);
+		int32_t L_53 = JsonReader_get_Token_m3714(L_52, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_53) == ((uint32_t)3))))
 		{
 			goto IL_0135;
@@ -2516,14 +2516,14 @@ IL_0135:
 	{
 		JsonReader_t713 * L_54 = ___reader;
 		NullCheck(L_54);
-		Object_t * L_55 = JsonReader_get_Value_m3712(L_54, /*hidden argument*/NULL);
+		Object_t * L_55 = JsonReader_get_Value_m3715(L_54, /*hidden argument*/NULL);
 		V_2 = ((String_t*)CastclassSealed(L_55, String_t_il2cpp_TypeInfo_var));
 		Object_t * L_56 = V_0;
 		String_t* L_57 = V_2;
 		WrapperFactory_t703 * L_58 = ___factory;
 		JsonReader_t713 * L_59 = ___reader;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
-		Object_t * L_60 = JsonMapper_ReadValue_m3684(NULL /*static, unused*/, L_58, L_59, /*hidden argument*/NULL);
+		Object_t * L_60 = JsonMapper_ReadValue_m3687(NULL /*static, unused*/, L_58, L_59, /*hidden argument*/NULL);
 		NullCheck(L_56);
 		InterfaceActionInvoker2< Object_t *, Object_t * >::Invoke(1 /* System.Void System.Collections.IDictionary::set_Item(System.Object,System.Object) */, IDictionary_t732_il2cpp_TypeInfo_var, L_56, L_57, L_60);
 		goto IL_011d;
@@ -2549,16 +2549,16 @@ extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
 extern TypeInfo* ExporterFunc_t700_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t706_il2cpp_TypeInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697_MethodInfo_var;
-extern "C" void JsonMapper_RegisterBaseExporters_m3685 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__1_m3692_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__2_m3693_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__3_m3694_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__4_m3695_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__5_m3696_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__6_m3697_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__7_m3698_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__8_m3699_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseExportersU3Em__9_m3700_MethodInfo_var;
+extern "C" void JsonMapper_RegisterBaseExporters_m3688 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2576,15 +2576,15 @@ extern "C" void JsonMapper_RegisterBaseExporters_m3685 (Object_t * __this /* sta
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(16);
 		ExporterFunc_t700_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(444);
 		IDictionary_2_t706_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(461);
-		JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689_MethodInfo_var = il2cpp_codegen_method_info_from_index(377);
-		JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690_MethodInfo_var = il2cpp_codegen_method_info_from_index(378);
-		JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691_MethodInfo_var = il2cpp_codegen_method_info_from_index(379);
-		JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(380);
-		JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693_MethodInfo_var = il2cpp_codegen_method_info_from_index(381);
-		JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694_MethodInfo_var = il2cpp_codegen_method_info_from_index(382);
-		JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(383);
-		JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696_MethodInfo_var = il2cpp_codegen_method_info_from_index(384);
-		JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697_MethodInfo_var = il2cpp_codegen_method_info_from_index(385);
+		JsonMapper_U3CRegisterBaseExportersU3Em__1_m3692_MethodInfo_var = il2cpp_codegen_method_info_from_index(378);
+		JsonMapper_U3CRegisterBaseExportersU3Em__2_m3693_MethodInfo_var = il2cpp_codegen_method_info_from_index(379);
+		JsonMapper_U3CRegisterBaseExportersU3Em__3_m3694_MethodInfo_var = il2cpp_codegen_method_info_from_index(380);
+		JsonMapper_U3CRegisterBaseExportersU3Em__4_m3695_MethodInfo_var = il2cpp_codegen_method_info_from_index(381);
+		JsonMapper_U3CRegisterBaseExportersU3Em__5_m3696_MethodInfo_var = il2cpp_codegen_method_info_from_index(382);
+		JsonMapper_U3CRegisterBaseExportersU3Em__6_m3697_MethodInfo_var = il2cpp_codegen_method_info_from_index(383);
+		JsonMapper_U3CRegisterBaseExportersU3Em__7_m3698_MethodInfo_var = il2cpp_codegen_method_info_from_index(384);
+		JsonMapper_U3CRegisterBaseExportersU3Em__8_m3699_MethodInfo_var = il2cpp_codegen_method_info_from_index(385);
+		JsonMapper_U3CRegisterBaseExportersU3Em__9_m3700_MethodInfo_var = il2cpp_codegen_method_info_from_index(386);
 		s_Il2CppMethodIntialized = true;
 	}
 	Type_t * G_B2_0 = {0};
@@ -2639,9 +2639,9 @@ extern "C" void JsonMapper_RegisterBaseExporters_m3685 (Object_t * __this /* sta
 		}
 	}
 	{
-		IntPtr_t L_3 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689_MethodInfo_var };
+		IntPtr_t L_3 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__1_m3692_MethodInfo_var };
 		ExporterFunc_t700 * L_4 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_4, NULL, L_3, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_4, NULL, L_3, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_16 = L_4;
 		G_B2_0 = G_B1_0;
@@ -2668,9 +2668,9 @@ IL_0027:
 		}
 	}
 	{
-		IntPtr_t L_9 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690_MethodInfo_var };
+		IntPtr_t L_9 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__2_m3693_MethodInfo_var };
 		ExporterFunc_t700 * L_10 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_10, NULL, L_9, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_10, NULL, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache2_17 = L_10;
 		G_B4_0 = G_B3_0;
@@ -2697,9 +2697,9 @@ IL_0058:
 		}
 	}
 	{
-		IntPtr_t L_15 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691_MethodInfo_var };
+		IntPtr_t L_15 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__3_m3694_MethodInfo_var };
 		ExporterFunc_t700 * L_16 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_16, NULL, L_15, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_16, NULL, L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache3_18 = L_16;
 		G_B6_0 = G_B5_0;
@@ -2726,9 +2726,9 @@ IL_0089:
 		}
 	}
 	{
-		IntPtr_t L_21 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692_MethodInfo_var };
+		IntPtr_t L_21 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__4_m3695_MethodInfo_var };
 		ExporterFunc_t700 * L_22 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_22, NULL, L_21, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_22, NULL, L_21, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache4_19 = L_22;
 		G_B8_0 = G_B7_0;
@@ -2755,9 +2755,9 @@ IL_00ba:
 		}
 	}
 	{
-		IntPtr_t L_27 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693_MethodInfo_var };
+		IntPtr_t L_27 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__5_m3696_MethodInfo_var };
 		ExporterFunc_t700 * L_28 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_28, NULL, L_27, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_28, NULL, L_27, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache5_20 = L_28;
 		G_B10_0 = G_B9_0;
@@ -2784,9 +2784,9 @@ IL_00eb:
 		}
 	}
 	{
-		IntPtr_t L_33 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694_MethodInfo_var };
+		IntPtr_t L_33 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__6_m3697_MethodInfo_var };
 		ExporterFunc_t700 * L_34 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_34, NULL, L_33, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_34, NULL, L_33, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache6_21 = L_34;
 		G_B12_0 = G_B11_0;
@@ -2813,9 +2813,9 @@ IL_011c:
 		}
 	}
 	{
-		IntPtr_t L_39 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695_MethodInfo_var };
+		IntPtr_t L_39 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__7_m3698_MethodInfo_var };
 		ExporterFunc_t700 * L_40 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_40, NULL, L_39, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_40, NULL, L_39, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache7_22 = L_40;
 		G_B14_0 = G_B13_0;
@@ -2842,9 +2842,9 @@ IL_014d:
 		}
 	}
 	{
-		IntPtr_t L_45 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696_MethodInfo_var };
+		IntPtr_t L_45 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__8_m3699_MethodInfo_var };
 		ExporterFunc_t700 * L_46 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_46, NULL, L_45, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_46, NULL, L_45, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache8_23 = L_46;
 		G_B16_0 = G_B15_0;
@@ -2871,9 +2871,9 @@ IL_017e:
 		}
 	}
 	{
-		IntPtr_t L_51 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697_MethodInfo_var };
+		IntPtr_t L_51 = { (void*)JsonMapper_U3CRegisterBaseExportersU3Em__9_m3700_MethodInfo_var };
 		ExporterFunc_t700 * L_52 = (ExporterFunc_t700 *)il2cpp_codegen_object_new (ExporterFunc_t700_il2cpp_TypeInfo_var);
-		ExporterFunc__ctor_m3671(L_52, NULL, L_51, /*hidden argument*/NULL);
+		ExporterFunc__ctor_m3674(L_52, NULL, L_51, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache9_24 = L_52;
 		G_B18_0 = G_B17_0;
@@ -2907,19 +2907,19 @@ extern const Il2CppType* DateTime_t48_0_0_0_var;
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* ImporterFunc_t702_il2cpp_TypeInfo_var;
 extern TypeInfo* Type_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708_MethodInfo_var;
-extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709_MethodInfo_var;
-extern "C" void JsonMapper_RegisterBaseImporters_m3686 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__A_m3701_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__B_m3702_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__C_m3703_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__D_m3704_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__E_m3705_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__F_m3706_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__10_m3707_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__11_m3708_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__12_m3709_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__13_m3710_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__14_m3711_MethodInfo_var;
+extern const MethodInfo* JsonMapper_U3CRegisterBaseImportersU3Em__15_m3712_MethodInfo_var;
+extern "C" void JsonMapper_RegisterBaseImporters_m3689 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2941,18 +2941,18 @@ extern "C" void JsonMapper_RegisterBaseImporters_m3686 (Object_t * __this /* sta
 		JsonMapper_t131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(51);
 		ImporterFunc_t702_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(446);
 		Type_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(16);
-		JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698_MethodInfo_var = il2cpp_codegen_method_info_from_index(386);
-		JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699_MethodInfo_var = il2cpp_codegen_method_info_from_index(387);
-		JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700_MethodInfo_var = il2cpp_codegen_method_info_from_index(388);
-		JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701_MethodInfo_var = il2cpp_codegen_method_info_from_index(389);
-		JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702_MethodInfo_var = il2cpp_codegen_method_info_from_index(390);
-		JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703_MethodInfo_var = il2cpp_codegen_method_info_from_index(391);
-		JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704_MethodInfo_var = il2cpp_codegen_method_info_from_index(392);
-		JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(393);
-		JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706_MethodInfo_var = il2cpp_codegen_method_info_from_index(394);
-		JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707_MethodInfo_var = il2cpp_codegen_method_info_from_index(395);
-		JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(396);
-		JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709_MethodInfo_var = il2cpp_codegen_method_info_from_index(397);
+		JsonMapper_U3CRegisterBaseImportersU3Em__A_m3701_MethodInfo_var = il2cpp_codegen_method_info_from_index(387);
+		JsonMapper_U3CRegisterBaseImportersU3Em__B_m3702_MethodInfo_var = il2cpp_codegen_method_info_from_index(388);
+		JsonMapper_U3CRegisterBaseImportersU3Em__C_m3703_MethodInfo_var = il2cpp_codegen_method_info_from_index(389);
+		JsonMapper_U3CRegisterBaseImportersU3Em__D_m3704_MethodInfo_var = il2cpp_codegen_method_info_from_index(390);
+		JsonMapper_U3CRegisterBaseImportersU3Em__E_m3705_MethodInfo_var = il2cpp_codegen_method_info_from_index(391);
+		JsonMapper_U3CRegisterBaseImportersU3Em__F_m3706_MethodInfo_var = il2cpp_codegen_method_info_from_index(392);
+		JsonMapper_U3CRegisterBaseImportersU3Em__10_m3707_MethodInfo_var = il2cpp_codegen_method_info_from_index(393);
+		JsonMapper_U3CRegisterBaseImportersU3Em__11_m3708_MethodInfo_var = il2cpp_codegen_method_info_from_index(394);
+		JsonMapper_U3CRegisterBaseImportersU3Em__12_m3709_MethodInfo_var = il2cpp_codegen_method_info_from_index(395);
+		JsonMapper_U3CRegisterBaseImportersU3Em__13_m3710_MethodInfo_var = il2cpp_codegen_method_info_from_index(396);
+		JsonMapper_U3CRegisterBaseImportersU3Em__14_m3711_MethodInfo_var = il2cpp_codegen_method_info_from_index(397);
+		JsonMapper_U3CRegisterBaseImportersU3Em__15_m3712_MethodInfo_var = il2cpp_codegen_method_info_from_index(398);
 		s_Il2CppMethodIntialized = true;
 	}
 	ImporterFunc_t702 * V_0 = {0};
@@ -2965,9 +2965,9 @@ extern "C" void JsonMapper_RegisterBaseImporters_m3686 (Object_t * __this /* sta
 		}
 	}
 	{
-		IntPtr_t L_1 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698_MethodInfo_var };
+		IntPtr_t L_1 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__A_m3701_MethodInfo_var };
 		ImporterFunc_t702 * L_2 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_2, NULL, L_1, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_2, NULL, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheA_25 = L_2;
 	}
@@ -2982,7 +2982,7 @@ IL_0018:
 		Type_t * L_5 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_6 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Byte_t665_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_7 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_8 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_26;
 		if (L_8)
 		{
@@ -2990,9 +2990,9 @@ IL_0018:
 		}
 	}
 	{
-		IntPtr_t L_9 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699_MethodInfo_var };
+		IntPtr_t L_9 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__B_m3702_MethodInfo_var };
 		ImporterFunc_t702 * L_10 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_10, NULL, L_9, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_10, NULL, L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheB_26 = L_10;
 	}
@@ -3007,7 +3007,7 @@ IL_0055:
 		Type_t * L_13 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_14 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(UInt64_t756_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_15 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_16 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_27;
 		if (L_16)
 		{
@@ -3015,9 +3015,9 @@ IL_0055:
 		}
 	}
 	{
-		IntPtr_t L_17 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700_MethodInfo_var };
+		IntPtr_t L_17 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__C_m3703_MethodInfo_var };
 		ImporterFunc_t702 * L_18 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_18, NULL, L_17, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_18, NULL, L_17, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheC_27 = L_18;
 	}
@@ -3032,7 +3032,7 @@ IL_0092:
 		Type_t * L_21 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_22 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(SByte_t753_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_23 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_20, L_21, L_22, L_23, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_20, L_21, L_22, L_23, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_24 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_28;
 		if (L_24)
 		{
@@ -3040,9 +3040,9 @@ IL_0092:
 		}
 	}
 	{
-		IntPtr_t L_25 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701_MethodInfo_var };
+		IntPtr_t L_25 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__D_m3704_MethodInfo_var };
 		ImporterFunc_t702 * L_26 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_26, NULL, L_25, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_26, NULL, L_25, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheD_28 = L_26;
 	}
@@ -3057,7 +3057,7 @@ IL_00cf:
 		Type_t * L_29 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_30 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int16_t754_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_31 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_28, L_29, L_30, L_31, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_28, L_29, L_30, L_31, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_32 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_29;
 		if (L_32)
 		{
@@ -3065,9 +3065,9 @@ IL_00cf:
 		}
 	}
 	{
-		IntPtr_t L_33 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702_MethodInfo_var };
+		IntPtr_t L_33 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__E_m3705_MethodInfo_var };
 		ImporterFunc_t702 * L_34 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_34, NULL, L_33, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_34, NULL, L_33, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_29 = L_34;
 	}
@@ -3082,7 +3082,7 @@ IL_010c:
 		Type_t * L_37 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_38 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(UInt16_t755_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_39 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_36, L_37, L_38, L_39, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_36, L_37, L_38, L_39, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_40 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_30;
 		if (L_40)
 		{
@@ -3090,9 +3090,9 @@ IL_010c:
 		}
 	}
 	{
-		IntPtr_t L_41 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703_MethodInfo_var };
+		IntPtr_t L_41 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__F_m3706_MethodInfo_var };
 		ImporterFunc_t702 * L_42 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_42, NULL, L_41, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_42, NULL, L_41, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheF_30 = L_42;
 	}
@@ -3107,7 +3107,7 @@ IL_0149:
 		Type_t * L_45 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_46 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(UInt32_t673_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_47 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_44, L_45, L_46, L_47, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_44, L_45, L_46, L_47, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_48 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_31;
 		if (L_48)
 		{
@@ -3115,9 +3115,9 @@ IL_0149:
 		}
 	}
 	{
-		IntPtr_t L_49 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704_MethodInfo_var };
+		IntPtr_t L_49 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__10_m3707_MethodInfo_var };
 		ImporterFunc_t702 * L_50 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_50, NULL, L_49, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_50, NULL, L_49, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache10_31 = L_50;
 	}
@@ -3132,7 +3132,7 @@ IL_0186:
 		Type_t * L_53 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_54 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Single_t132_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_55 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_52, L_53, L_54, L_55, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_52, L_53, L_54, L_55, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_56 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_32;
 		if (L_56)
 		{
@@ -3140,9 +3140,9 @@ IL_0186:
 		}
 	}
 	{
-		IntPtr_t L_57 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705_MethodInfo_var };
+		IntPtr_t L_57 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__11_m3708_MethodInfo_var };
 		ImporterFunc_t702 * L_58 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_58, NULL, L_57, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_58, NULL, L_57, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache11_32 = L_58;
 	}
@@ -3157,7 +3157,7 @@ IL_01c3:
 		Type_t * L_61 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int32_t125_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_62 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Double_t671_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_63 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_60, L_61, L_62, L_63, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_60, L_61, L_62, L_63, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_64 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_33;
 		if (L_64)
 		{
@@ -3165,9 +3165,9 @@ IL_01c3:
 		}
 	}
 	{
-		IntPtr_t L_65 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706_MethodInfo_var };
+		IntPtr_t L_65 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__12_m3709_MethodInfo_var };
 		ImporterFunc_t702 * L_66 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_66, NULL, L_65, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_66, NULL, L_65, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache12_33 = L_66;
 	}
@@ -3182,7 +3182,7 @@ IL_0200:
 		Type_t * L_69 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Double_t671_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_70 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Decimal_t735_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_71 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_68, L_69, L_70, L_71, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_68, L_69, L_70, L_71, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_72 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_34;
 		if (L_72)
 		{
@@ -3190,9 +3190,9 @@ IL_0200:
 		}
 	}
 	{
-		IntPtr_t L_73 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707_MethodInfo_var };
+		IntPtr_t L_73 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__13_m3710_MethodInfo_var };
 		ImporterFunc_t702 * L_74 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_74, NULL, L_73, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_74, NULL, L_73, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache13_34 = L_74;
 	}
@@ -3207,7 +3207,7 @@ IL_023d:
 		Type_t * L_77 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Int64_t672_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_78 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(UInt32_t673_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_79 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_76, L_77, L_78, L_79, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_76, L_77, L_78, L_79, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_80 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache14_35;
 		if (L_80)
 		{
@@ -3215,9 +3215,9 @@ IL_023d:
 		}
 	}
 	{
-		IntPtr_t L_81 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708_MethodInfo_var };
+		IntPtr_t L_81 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__14_m3711_MethodInfo_var };
 		ImporterFunc_t702 * L_82 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_82, NULL, L_81, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_82, NULL, L_81, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache14_35 = L_82;
 	}
@@ -3232,7 +3232,7 @@ IL_027a:
 		Type_t * L_85 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_86 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(Char_t424_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_87 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_84, L_85, L_86, L_87, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_84, L_85, L_86, L_87, /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_88 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache15_36;
 		if (L_88)
 		{
@@ -3240,9 +3240,9 @@ IL_027a:
 		}
 	}
 	{
-		IntPtr_t L_89 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709_MethodInfo_var };
+		IntPtr_t L_89 = { (void*)JsonMapper_U3CRegisterBaseImportersU3Em__15_m3712_MethodInfo_var };
 		ImporterFunc_t702 * L_90 = (ImporterFunc_t702 *)il2cpp_codegen_object_new (ImporterFunc_t702_il2cpp_TypeInfo_var);
-		ImporterFunc__ctor_m3675(L_90, NULL, L_89, /*hidden argument*/NULL);
+		ImporterFunc__ctor_m3678(L_90, NULL, L_89, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache15_36 = L_90;
 	}
@@ -3257,7 +3257,7 @@ IL_02b7:
 		Type_t * L_93 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
 		Type_t * L_94 = Type_GetTypeFromHandle_m455(NULL /*static, unused*/, LoadTypeToken(DateTime_t48_0_0_0_var), /*hidden argument*/NULL);
 		ImporterFunc_t702 * L_95 = V_0;
-		JsonMapper_RegisterImporter_m3687(NULL /*static, unused*/, L_92, L_93, L_94, L_95, /*hidden argument*/NULL);
+		JsonMapper_RegisterImporter_m3690(NULL /*static, unused*/, L_92, L_93, L_94, L_95, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3265,8 +3265,8 @@ IL_02b7:
 extern TypeInfo* IDictionary_2_t707_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t757_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t758_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3809_MethodInfo_var;
-extern "C" void JsonMapper_RegisterImporter_m3687 (Object_t * __this /* static, unused */, Object_t* ___table, Type_t * ___json_type, Type_t * ___value_type, ImporterFunc_t702 * ___importer, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3812_MethodInfo_var;
+extern "C" void JsonMapper_RegisterImporter_m3690 (Object_t * __this /* static, unused */, Object_t* ___table, Type_t * ___json_type, Type_t * ___value_type, ImporterFunc_t702 * ___importer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3274,7 +3274,7 @@ extern "C" void JsonMapper_RegisterImporter_m3687 (Object_t * __this /* static, 
 		IDictionary_2_t707_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(462);
 		Dictionary_2_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(463);
 		IDictionary_2_t758_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(445);
-		Dictionary_2__ctor_m3809_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484046);
+		Dictionary_2__ctor_m3812_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484047);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3291,7 +3291,7 @@ extern "C" void JsonMapper_RegisterImporter_m3687 (Object_t * __this /* static, 
 		Object_t* L_3 = ___table;
 		Type_t * L_4 = ___json_type;
 		Dictionary_2_t757 * L_5 = (Dictionary_2_t757 *)il2cpp_codegen_object_new (Dictionary_2_t757_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3809(L_5, /*hidden argument*/Dictionary_2__ctor_m3809_MethodInfo_var);
+		Dictionary_2__ctor_m3812(L_5, /*hidden argument*/Dictionary_2__ctor_m3812_MethodInfo_var);
 		NullCheck(L_3);
 		InterfaceActionInvoker2< Type_t *, Object_t* >::Invoke(0 /* System.Void System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>::Add(!0,!1) */, IDictionary_2_t707_il2cpp_TypeInfo_var, L_3, L_4, L_5);
 	}
@@ -3313,8 +3313,8 @@ IL_0018:
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* WrapperFactory_t703_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonData_t66_il2cpp_TypeInfo_var;
-extern const MethodInfo* JsonMapper_U3CToObjectU3Em__18_m3710_MethodInfo_var;
-extern "C" JsonData_t66 * JsonMapper_ToObject_m580 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method)
+extern const MethodInfo* JsonMapper_U3CToObjectU3Em__18_m3713_MethodInfo_var;
+extern "C" JsonData_t66 * JsonMapper_ToObject_m581 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3322,7 +3322,7 @@ extern "C" JsonData_t66 * JsonMapper_ToObject_m580 (Object_t * __this /* static,
 		JsonMapper_t131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(51);
 		WrapperFactory_t703_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(464);
 		JsonData_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(422);
-		JsonMapper_U3CToObjectU3Em__18_m3710_MethodInfo_var = il2cpp_codegen_method_info_from_index(399);
+		JsonMapper_U3CToObjectU3Em__18_m3713_MethodInfo_var = il2cpp_codegen_method_info_from_index(400);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3334,9 +3334,9 @@ extern "C" JsonData_t66 * JsonMapper_ToObject_m580 (Object_t * __this /* static,
 		}
 	}
 	{
-		IntPtr_t L_1 = { (void*)JsonMapper_U3CToObjectU3Em__18_m3710_MethodInfo_var };
+		IntPtr_t L_1 = { (void*)JsonMapper_U3CToObjectU3Em__18_m3713_MethodInfo_var };
 		WrapperFactory_t703 * L_2 = (WrapperFactory_t703 *)il2cpp_codegen_object_new (WrapperFactory_t703_il2cpp_TypeInfo_var);
-		WrapperFactory__ctor_m3679(L_2, NULL, L_1, /*hidden argument*/NULL);
+		WrapperFactory__ctor_m3682(L_2, NULL, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache18_37 = L_2;
 	}
@@ -3346,14 +3346,14 @@ IL_0018:
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		WrapperFactory_t703 * L_3 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache18_37;
 		String_t* L_4 = ___json;
-		Object_t * L_5 = JsonMapper_ToWrapper_m3688(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		Object_t * L_5 = JsonMapper_ToWrapper_m3691(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
 		return ((JsonData_t66 *)CastclassClass(L_5, JsonData_t66_il2cpp_TypeInfo_var));
 	}
 }
 // LitJson.IJsonWrapper LitJson.JsonMapper::ToWrapper(LitJson.WrapperFactory,System.String)
 extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_ToWrapper_m3688 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, String_t* ___json, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_ToWrapper_m3691 (Object_t * __this /* static, unused */, WrapperFactory_t703 * ___factory, String_t* ___json, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3366,19 +3366,19 @@ extern "C" Object_t * JsonMapper_ToWrapper_m3688 (Object_t * __this /* static, u
 	{
 		String_t* L_0 = ___json;
 		JsonReader_t713 * L_1 = (JsonReader_t713 *)il2cpp_codegen_object_new (JsonReader_t713_il2cpp_TypeInfo_var);
-		JsonReader__ctor_m3714(L_1, L_0, /*hidden argument*/NULL);
+		JsonReader__ctor_m3717(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		WrapperFactory_t703 * L_2 = ___factory;
 		JsonReader_t713 * L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
-		Object_t * L_4 = JsonMapper_ReadValue_m3684(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		Object_t * L_4 = JsonMapper_ReadValue_m3687(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__1(System.Object,LitJson.JsonWriter)
 extern TypeInfo* Byte_t665_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__1_m3692 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3391,16 +3391,16 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__1_m3689 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3810(NULL /*static, unused*/, ((*(uint8_t*)((uint8_t*)UnBox (L_1, Byte_t665_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3813(NULL /*static, unused*/, ((*(uint8_t*)((uint8_t*)UnBox (L_1, Byte_t665_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3736(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3739(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__2(System.Object,LitJson.JsonWriter)
 extern TypeInfo* Char_t424_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3693 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3413,9 +3413,9 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		String_t* L_2 = Convert_ToString_m3811(NULL /*static, unused*/, ((*(uint16_t*)((uint16_t*)UnBox (L_1, Char_t424_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		String_t* L_2 = Convert_ToString_m3814(NULL /*static, unused*/, ((*(uint16_t*)((uint16_t*)UnBox (L_1, Char_t424_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3737(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3740(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3423,7 +3423,7 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__2_m3690 (Object_t * __t
 extern TypeInfo* DateTime_t48_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__3_m3694 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3439,15 +3439,15 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__3_m3691 (Object_t * __t
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		Object_t * L_2 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___datetime_format_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		String_t* L_3 = Convert_ToString_m3812(NULL /*static, unused*/, ((*(DateTime_t48 *)((DateTime_t48 *)UnBox (L_1, DateTime_t48_il2cpp_TypeInfo_var)))), L_2, /*hidden argument*/NULL);
+		String_t* L_3 = Convert_ToString_m3815(NULL /*static, unused*/, ((*(DateTime_t48 *)((DateTime_t48 *)UnBox (L_1, DateTime_t48_il2cpp_TypeInfo_var)))), L_2, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3737(L_0, L_3, /*hidden argument*/NULL);
+		JsonWriter_Write_m3740(L_0, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__4(System.Object,LitJson.JsonWriter)
 extern TypeInfo* Decimal_t735_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__4_m3695 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3459,14 +3459,14 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__4_m3692 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		NullCheck(L_0);
-		JsonWriter_Write_m3735(L_0, ((*(Decimal_t735 *)((Decimal_t735 *)UnBox (L_1, Decimal_t735_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		JsonWriter_Write_m3738(L_0, ((*(Decimal_t735 *)((Decimal_t735 *)UnBox (L_1, Decimal_t735_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__5(System.Object,LitJson.JsonWriter)
 extern TypeInfo* SByte_t753_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__5_m3696 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3479,16 +3479,16 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__5_m3693 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3813(NULL /*static, unused*/, ((*(int8_t*)((int8_t*)UnBox (L_1, SByte_t753_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3816(NULL /*static, unused*/, ((*(int8_t*)((int8_t*)UnBox (L_1, SByte_t753_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3736(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3739(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__6(System.Object,LitJson.JsonWriter)
 extern TypeInfo* Int16_t754_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__6_m3697 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3501,16 +3501,16 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__6_m3694 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3814(NULL /*static, unused*/, ((*(int16_t*)((int16_t*)UnBox (L_1, Int16_t754_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3817(NULL /*static, unused*/, ((*(int16_t*)((int16_t*)UnBox (L_1, Int16_t754_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3736(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3739(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__7(System.Object,LitJson.JsonWriter)
 extern TypeInfo* UInt16_t755_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__7_m3698 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3523,16 +3523,16 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__7_m3695 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int32_t L_2 = Convert_ToInt32_m3815(NULL /*static, unused*/, ((*(uint16_t*)((uint16_t*)UnBox (L_1, UInt16_t755_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int32_t L_2 = Convert_ToInt32_m3818(NULL /*static, unused*/, ((*(uint16_t*)((uint16_t*)UnBox (L_1, UInt16_t755_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3736(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3739(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__8(System.Object,LitJson.JsonWriter)
 extern TypeInfo* UInt32_t673_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__8_m3699 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3545,15 +3545,15 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__8_m3696 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint64_t L_2 = Convert_ToUInt64_m3816(NULL /*static, unused*/, ((*(uint32_t*)((uint32_t*)UnBox (L_1, UInt32_t673_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint64_t L_2 = Convert_ToUInt64_m3819(NULL /*static, unused*/, ((*(uint32_t*)((uint32_t*)UnBox (L_1, UInt32_t673_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		NullCheck(L_0);
-		JsonWriter_Write_m3738(L_0, L_2, /*hidden argument*/NULL);
+		JsonWriter_Write_m3741(L_0, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonMapper::<RegisterBaseExporters>m__9(System.Object,LitJson.JsonWriter)
 extern TypeInfo* UInt64_t756_il2cpp_TypeInfo_var;
-extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
+extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3700 (Object_t * __this /* static, unused */, Object_t * ___obj, JsonWriter_t701 * ___writer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3565,7 +3565,7 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697 (Object_t * __t
 		JsonWriter_t701 * L_0 = ___writer;
 		Object_t * L_1 = ___obj;
 		NullCheck(L_0);
-		JsonWriter_Write_m3738(L_0, ((*(uint64_t*)((uint64_t*)UnBox (L_1, UInt64_t756_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		JsonWriter_Write_m3741(L_0, ((*(uint64_t*)((uint64_t*)UnBox (L_1, UInt64_t756_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3573,7 +3573,7 @@ extern "C" void JsonMapper_U3CRegisterBaseExportersU3Em__9_m3697 (Object_t * __t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Byte_t665_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3701 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3586,7 +3586,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint8_t L_1 = Convert_ToByte_m3817(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint8_t L_1 = Convert_ToByte_m3820(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		uint8_t L_2 = L_1;
 		Object_t * L_3 = Box(Byte_t665_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3596,7 +3596,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__A_m3698 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt64_t756_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3702 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3609,7 +3609,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint64_t L_1 = Convert_ToUInt64_m3818(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint64_t L_1 = Convert_ToUInt64_m3821(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		uint64_t L_2 = L_1;
 		Object_t * L_3 = Box(UInt64_t756_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3619,7 +3619,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__B_m3699 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* SByte_t753_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3703 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3632,7 +3632,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int8_t L_1 = Convert_ToSByte_m3819(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int8_t L_1 = Convert_ToSByte_m3822(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		int8_t L_2 = L_1;
 		Object_t * L_3 = Box(SByte_t753_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3642,7 +3642,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__C_m3700 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Int16_t754_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3704 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3655,7 +3655,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		int16_t L_1 = Convert_ToInt16_m3820(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		int16_t L_1 = Convert_ToInt16_m3823(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		int16_t L_2 = L_1;
 		Object_t * L_3 = Box(Int16_t754_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3665,7 +3665,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__D_m3701 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt16_t755_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3705 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3678,7 +3678,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint16_t L_1 = Convert_ToUInt16_m3821(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint16_t L_1 = Convert_ToUInt16_m3824(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		uint16_t L_2 = L_1;
 		Object_t * L_3 = Box(UInt16_t755_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3688,7 +3688,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__E_m3702 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt32_t673_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3706 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3701,7 +3701,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703 (Object_t
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint32_t L_1 = Convert_ToUInt32_m3822(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint32_t L_1 = Convert_ToUInt32_m3825(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		uint32_t L_2 = L_1;
 		Object_t * L_3 = Box(UInt32_t673_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3711,7 +3711,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__F_m3703 (Object_t
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Single_t132_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3707 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3724,7 +3724,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704 (Object_
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		float L_1 = Convert_ToSingle_m3823(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		float L_1 = Convert_ToSingle_m3826(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		float L_2 = L_1;
 		Object_t * L_3 = Box(Single_t132_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3734,7 +3734,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__10_m3704 (Object_
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Double_t671_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3708 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3747,7 +3747,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705 (Object_
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		double L_1 = Convert_ToDouble_m3824(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		double L_1 = Convert_ToDouble_m3827(NULL /*static, unused*/, ((*(int32_t*)((int32_t*)UnBox (L_0, Int32_t125_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		double L_2 = L_1;
 		Object_t * L_3 = Box(Double_t671_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3757,7 +3757,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__11_m3705 (Object_
 extern TypeInfo* Double_t671_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Decimal_t735_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3709 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3770,7 +3770,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706 (Object_
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		Decimal_t735  L_1 = Convert_ToDecimal_m3825(NULL /*static, unused*/, ((*(double*)((double*)UnBox (L_0, Double_t671_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		Decimal_t735  L_1 = Convert_ToDecimal_m3828(NULL /*static, unused*/, ((*(double*)((double*)UnBox (L_0, Double_t671_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		Decimal_t735  L_2 = L_1;
 		Object_t * L_3 = Box(Decimal_t735_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3780,7 +3780,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__12_m3706 (Object_
 extern TypeInfo* Int64_t672_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt32_t673_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3710 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3793,7 +3793,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707 (Object_
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint32_t L_1 = Convert_ToUInt32_m3826(NULL /*static, unused*/, ((*(int64_t*)((int64_t*)UnBox (L_0, Int64_t672_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
+		uint32_t L_1 = Convert_ToUInt32_m3829(NULL /*static, unused*/, ((*(int64_t*)((int64_t*)UnBox (L_0, Int64_t672_il2cpp_TypeInfo_var)))), /*hidden argument*/NULL);
 		uint32_t L_2 = L_1;
 		Object_t * L_3 = Box(UInt32_t673_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3803,7 +3803,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__13_m3707 (Object_
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t424_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__14_m3711 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3816,7 +3816,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__14_m3708 (Object_
 	{
 		Object_t * L_0 = ___input;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint16_t L_1 = Convert_ToChar_m3827(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_0, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		uint16_t L_1 = Convert_ToChar_m3830(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_0, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		uint16_t L_2 = L_1;
 		Object_t * L_3 = Box(Char_t424_il2cpp_TypeInfo_var, &L_2);
 		return L_3;
@@ -3827,7 +3827,7 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonMapper_t131_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t48_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3712 (Object_t * __this /* static, unused */, Object_t * ___input, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3843,7 +3843,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709 (Object_
 		IL2CPP_RUNTIME_CLASS_INIT(JsonMapper_t131_il2cpp_TypeInfo_var);
 		Object_t * L_1 = ((JsonMapper_t131_StaticFields*)JsonMapper_t131_il2cpp_TypeInfo_var->static_fields)->___datetime_format_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		DateTime_t48  L_2 = Convert_ToDateTime_m3828(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_0, String_t_il2cpp_TypeInfo_var)), L_1, /*hidden argument*/NULL);
+		DateTime_t48  L_2 = Convert_ToDateTime_m3831(NULL /*static, unused*/, ((String_t*)CastclassSealed(L_0, String_t_il2cpp_TypeInfo_var)), L_1, /*hidden argument*/NULL);
 		DateTime_t48  L_3 = L_2;
 		Object_t * L_4 = Box(DateTime_t48_il2cpp_TypeInfo_var, &L_3);
 		return L_4;
@@ -3851,7 +3851,7 @@ extern "C" Object_t * JsonMapper_U3CRegisterBaseImportersU3Em__15_m3709 (Object_
 }
 // LitJson.IJsonWrapper LitJson.JsonMapper::<ToObject>m__18()
 extern TypeInfo* JsonData_t66_il2cpp_TypeInfo_var;
-extern "C" Object_t * JsonMapper_U3CToObjectU3Em__18_m3710 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" Object_t * JsonMapper_U3CToObjectU3Em__18_m3713 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3861,12 +3861,12 @@ extern "C" Object_t * JsonMapper_U3CToObjectU3Em__18_m3710 (Object_t * __this /*
 	}
 	{
 		JsonData_t66 * L_0 = (JsonData_t66 *)il2cpp_codegen_object_new (JsonData_t66_il2cpp_TypeInfo_var);
-		JsonData__ctor_m3632(L_0, /*hidden argument*/NULL);
+		JsonData__ctor_m3635(L_0, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // LitJson.JsonToken LitJson.JsonReader::get_Token()
-extern "C" int32_t JsonReader_get_Token_m3711 (JsonReader_t713 * __this, const MethodInfo* method)
+extern "C" int32_t JsonReader_get_Token_m3714 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___token_14);
@@ -3874,7 +3874,7 @@ extern "C" int32_t JsonReader_get_Token_m3711 (JsonReader_t713 * __this, const M
 	}
 }
 // System.Object LitJson.JsonReader::get_Value()
-extern "C" Object_t * JsonReader_get_Value_m3712 (JsonReader_t713 * __this, const MethodInfo* method)
+extern "C" Object_t * JsonReader_get_Value_m3715 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___token_value_13);
@@ -3883,7 +3883,7 @@ extern "C" Object_t * JsonReader_get_Value_m3712 (JsonReader_t713 * __this, cons
 }
 // System.Void LitJson.JsonReader::.cctor()
 extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
-extern "C" void JsonReader__cctor_m3713 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void JsonReader__cctor_m3716 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3892,13 +3892,13 @@ extern "C" void JsonReader__cctor_m3713 (Object_t * __this /* static, unused */,
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonReader_PopulateParseTable_m3716(NULL /*static, unused*/, /*hidden argument*/NULL);
+		JsonReader_PopulateParseTable_m3719(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonReader::.ctor(System.String)
 extern TypeInfo* StringReader_t759_il2cpp_TypeInfo_var;
-extern "C" void JsonReader__ctor_m3714 (JsonReader_t713 * __this, String_t* ___json_text, const MethodInfo* method)
+extern "C" void JsonReader__ctor_m3717 (JsonReader_t713 * __this, String_t* ___json_text, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3909,8 +3909,8 @@ extern "C" void JsonReader__ctor_m3714 (JsonReader_t713 * __this, String_t* ___j
 	{
 		String_t* L_0 = ___json_text;
 		StringReader_t759 * L_1 = (StringReader_t759 *)il2cpp_codegen_object_new (StringReader_t759_il2cpp_TypeInfo_var);
-		StringReader__ctor_m3829(L_1, L_0, /*hidden argument*/NULL);
-		JsonReader__ctor_m3715(__this, L_1, 1, /*hidden argument*/NULL);
+		StringReader__ctor_m3832(L_1, L_0, /*hidden argument*/NULL);
+		JsonReader__ctor_m3718(__this, L_1, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -3918,10 +3918,10 @@ extern "C" void JsonReader__ctor_m3714 (JsonReader_t713 * __this, String_t* ___j
 extern TypeInfo* ArgumentNullException_t110_il2cpp_TypeInfo_var;
 extern TypeInfo* Stack_1_t714_il2cpp_TypeInfo_var;
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
-extern const MethodInfo* Stack_1__ctor_m3830_MethodInfo_var;
-extern const MethodInfo* Stack_1_Push_m3831_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral339;
-extern "C" void JsonReader__ctor_m3715 (JsonReader_t713 * __this, TextReader_t716 * ___reader, bool ___owned, const MethodInfo* method)
+extern const MethodInfo* Stack_1__ctor_m3833_MethodInfo_var;
+extern const MethodInfo* Stack_1_Push_m3834_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral341;
+extern "C" void JsonReader__ctor_m3718 (JsonReader_t713 * __this, TextReader_t716 * ___reader, bool ___owned, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3929,9 +3929,9 @@ extern "C" void JsonReader__ctor_m3715 (JsonReader_t713 * __this, TextReader_t71
 		ArgumentNullException_t110_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6);
 		Stack_1_t714_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(467);
 		Lexer_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(468);
-		Stack_1__ctor_m3830_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484048);
-		Stack_1_Push_m3831_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484049);
-		_stringLiteral339 = il2cpp_codegen_string_literal_from_index(339);
+		Stack_1__ctor_m3833_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484049);
+		Stack_1_Push_m3834_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484050);
+		_stringLiteral341 = il2cpp_codegen_string_literal_from_index(341);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3944,7 +3944,7 @@ extern "C" void JsonReader__ctor_m3715 (JsonReader_t713 * __this, TextReader_t71
 	}
 	{
 		ArgumentNullException_t110 * L_1 = (ArgumentNullException_t110 *)il2cpp_codegen_object_new (ArgumentNullException_t110_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m437(L_1, _stringLiteral339, /*hidden argument*/NULL);
+		ArgumentNullException__ctor_m437(L_1, _stringLiteral341, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_1);
 	}
 
@@ -3954,17 +3954,17 @@ IL_0017:
 		__this->___parser_return_8 = 0;
 		__this->___read_started_9 = 0;
 		Stack_1_t714 * L_2 = (Stack_1_t714 *)il2cpp_codegen_object_new (Stack_1_t714_il2cpp_TypeInfo_var);
-		Stack_1__ctor_m3830(L_2, /*hidden argument*/Stack_1__ctor_m3830_MethodInfo_var);
+		Stack_1__ctor_m3833(L_2, /*hidden argument*/Stack_1__ctor_m3833_MethodInfo_var);
 		__this->___automaton_stack_1 = L_2;
 		Stack_1_t714 * L_3 = (__this->___automaton_stack_1);
 		NullCheck(L_3);
-		Stack_1_Push_m3831(L_3, ((int32_t)65553), /*hidden argument*/Stack_1_Push_m3831_MethodInfo_var);
+		Stack_1_Push_m3834(L_3, ((int32_t)65553), /*hidden argument*/Stack_1_Push_m3834_MethodInfo_var);
 		Stack_1_t714 * L_4 = (__this->___automaton_stack_1);
 		NullCheck(L_4);
-		Stack_1_Push_m3831(L_4, ((int32_t)65543), /*hidden argument*/Stack_1_Push_m3831_MethodInfo_var);
+		Stack_1_Push_m3834(L_4, ((int32_t)65543), /*hidden argument*/Stack_1_Push_m3834_MethodInfo_var);
 		TextReader_t716 * L_5 = ___reader;
 		Lexer_t715 * L_6 = (Lexer_t715 *)il2cpp_codegen_object_new (Lexer_t715_il2cpp_TypeInfo_var);
-		Lexer__ctor_m3748(L_6, L_5, /*hidden argument*/NULL);
+		Lexer__ctor_m3751(L_6, L_5, /*hidden argument*/NULL);
 		__this->___lexer_6 = L_6;
 		__this->___end_of_input_5 = 0;
 		__this->___end_of_json_4 = 0;
@@ -3980,7 +3980,7 @@ IL_0017:
 extern TypeInfo* Dictionary_2_t760_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32U5BU5D_t46_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3832_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3835_MethodInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D0_0_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D1_1_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D2_2_FieldInfo_var;
@@ -3993,7 +3993,7 @@ extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2D
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D9_9_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DA_10_FieldInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DB_11_FieldInfo_var;
-extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void JsonReader_PopulateParseTable_m3719 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4001,7 +4001,7 @@ extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static
 		Dictionary_2_t760_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(470);
 		JsonReader_t713_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		Int32U5BU5D_t46_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
-		Dictionary_2__ctor_m3832_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484050);
+		Dictionary_2__ctor_m3835_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484051);
 		U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D0_0_FieldInfo_var = il2cpp_codegen_field_info_from_index(471, 0);
 		U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D1_1_FieldInfo_var = il2cpp_codegen_field_info_from_index(471, 1);
 		U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D2_2_FieldInfo_var = il2cpp_codegen_field_info_from_index(471, 2);
@@ -4018,10 +4018,10 @@ extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static
 	}
 	{
 		Dictionary_2_t760 * L_0 = (Dictionary_2_t760 *)il2cpp_codegen_object_new (Dictionary_2_t760_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3832(L_0, /*hidden argument*/Dictionary_2__ctor_m3832_MethodInfo_var);
+		Dictionary_2__ctor_m3835(L_0, /*hidden argument*/Dictionary_2__ctor_m3835_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonReader_t713_il2cpp_TypeInfo_var);
 		((JsonReader_t713_StaticFields*)JsonReader_t713_il2cpp_TypeInfo_var->static_fields)->___parse_table_0 = L_0;
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65548), /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65548), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_1 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 2));
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
@@ -4030,35 +4030,35 @@ extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static
 		NullCheck(L_2);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_2, 1, sizeof(int32_t))) = (int32_t)((int32_t)65549);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65548), ((int32_t)91), L_2, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65549), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65548), ((int32_t)91), L_2, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65549), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_3 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)34), L_3, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D0_0_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)34), L_3, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_4 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D1_1_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)91), L_4, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D1_1_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)91), L_4, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_5 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_5);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_5, 0, sizeof(int32_t))) = (int32_t)((int32_t)93);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)93), L_5, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)93), L_5, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_6 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D2_2_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)123), L_6, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D2_2_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)123), L_6, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_7 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D3_3_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65537), L_7, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D3_3_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65537), L_7, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_8 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D4_4_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65538), L_8, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D4_4_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65538), L_8, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_9 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D5_5_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65539), L_9, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D5_5_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65539), L_9, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_10 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D6_6_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65540), L_10, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65544), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D6_6_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65549), ((int32_t)65540), L_10, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65544), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_11 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 2));
 		NullCheck(L_11);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, 0);
@@ -4067,89 +4067,89 @@ extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static
 		NullCheck(L_12);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 1);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_12, 1, sizeof(int32_t))) = (int32_t)((int32_t)65545);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65544), ((int32_t)123), L_12, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65545), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65544), ((int32_t)123), L_12, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65545), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_13 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D7_7_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65545), ((int32_t)34), L_13, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_13, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D7_7_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65545), ((int32_t)34), L_13, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_14 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_14, 0, sizeof(int32_t))) = (int32_t)((int32_t)125);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65545), ((int32_t)125), L_14, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65546), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65545), ((int32_t)125), L_14, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65546), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_15 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_15, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D8_8_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65546), ((int32_t)34), L_15, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65547), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_15, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D8_8_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65546), ((int32_t)34), L_15, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65547), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_16 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_16, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D9_9_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65547), ((int32_t)44), L_16, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_16, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2D9_9_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65547), ((int32_t)44), L_16, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_17 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_17);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_17, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_17, 0, sizeof(int32_t))) = (int32_t)((int32_t)65554);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65547), ((int32_t)125), L_17, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65552), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65547), ((int32_t)125), L_17, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65552), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_18 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DA_10_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65552), ((int32_t)34), L_18, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65543), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_18, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DA_10_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65552), ((int32_t)34), L_18, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65543), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_19 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_19);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_19, 0, sizeof(int32_t))) = (int32_t)((int32_t)65548);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65543), ((int32_t)91), L_19, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65543), ((int32_t)91), L_19, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_20 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_20, 0, sizeof(int32_t))) = (int32_t)((int32_t)65544);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65543), ((int32_t)123), L_20, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65550), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65543), ((int32_t)123), L_20, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65550), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_21 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_21);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_21, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_21, 0, sizeof(int32_t))) = (int32_t)((int32_t)65552);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)34), L_21, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)34), L_21, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_22 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_22, 0, sizeof(int32_t))) = (int32_t)((int32_t)65548);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)91), L_22, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)91), L_22, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_23 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_23);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_23, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_23, 0, sizeof(int32_t))) = (int32_t)((int32_t)65544);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)123), L_23, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)123), L_23, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_24 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_24, 0, sizeof(int32_t))) = (int32_t)((int32_t)65537);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65537), L_24, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65537), L_24, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_25 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_25);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_25, 0, sizeof(int32_t))) = (int32_t)((int32_t)65538);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65538), L_25, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65538), L_25, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_26 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_26);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_26, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_26, 0, sizeof(int32_t))) = (int32_t)((int32_t)65539);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65539), L_26, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65539), L_26, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_27 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_27);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_27, 0, sizeof(int32_t))) = (int32_t)((int32_t)65540);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65540), L_27, /*hidden argument*/NULL);
-		JsonReader_TableAddRow_m3718(NULL /*static, unused*/, ((int32_t)65551), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65550), ((int32_t)65540), L_27, /*hidden argument*/NULL);
+		JsonReader_TableAddRow_m3721(NULL /*static, unused*/, ((int32_t)65551), /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_28 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 3));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_28, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DB_11_FieldInfo_var), /*hidden argument*/NULL);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65551), ((int32_t)44), L_28, /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_28, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DB_11_FieldInfo_var), /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65551), ((int32_t)44), L_28, /*hidden argument*/NULL);
 		Int32U5BU5D_t46* L_29 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, 1));
 		NullCheck(L_29);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, 0);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_29, 0, sizeof(int32_t))) = (int32_t)((int32_t)65554);
-		JsonReader_TableAddCol_m3717(NULL /*static, unused*/, ((int32_t)65551), ((int32_t)93), L_29, /*hidden argument*/NULL);
+		JsonReader_TableAddCol_m3720(NULL /*static, unused*/, ((int32_t)65551), ((int32_t)93), L_29, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4157,7 +4157,7 @@ extern "C" void JsonReader_PopulateParseTable_m3716 (Object_t * __this /* static
 extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t717_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t761_il2cpp_TypeInfo_var;
-extern "C" void JsonReader_TableAddCol_m3717 (Object_t * __this /* static, unused */, int32_t ___row, int32_t ___col, Int32U5BU5D_t46* ___symbols, const MethodInfo* method)
+extern "C" void JsonReader_TableAddCol_m3720 (Object_t * __this /* static, unused */, int32_t ___row, int32_t ___col, Int32U5BU5D_t46* ___symbols, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4184,8 +4184,8 @@ extern "C" void JsonReader_TableAddCol_m3717 (Object_t * __this /* static, unuse
 extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t762_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t717_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m3833_MethodInfo_var;
-extern "C" void JsonReader_TableAddRow_m3718 (Object_t * __this /* static, unused */, int32_t ___rule, const MethodInfo* method)
+extern const MethodInfo* Dictionary_2__ctor_m3836_MethodInfo_var;
+extern "C" void JsonReader_TableAddRow_m3721 (Object_t * __this /* static, unused */, int32_t ___rule, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4193,7 +4193,7 @@ extern "C" void JsonReader_TableAddRow_m3718 (Object_t * __this /* static, unuse
 		JsonReader_t713_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(465);
 		Dictionary_2_t762_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(473);
 		IDictionary_2_t717_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(472);
-		Dictionary_2__ctor_m3833_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484051);
+		Dictionary_2__ctor_m3836_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484052);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4201,7 +4201,7 @@ extern "C" void JsonReader_TableAddRow_m3718 (Object_t * __this /* static, unuse
 		Object_t* L_0 = ((JsonReader_t713_StaticFields*)JsonReader_t713_il2cpp_TypeInfo_var->static_fields)->___parse_table_0;
 		int32_t L_1 = ___rule;
 		Dictionary_2_t762 * L_2 = (Dictionary_2_t762 *)il2cpp_codegen_object_new (Dictionary_2_t762_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m3833(L_2, /*hidden argument*/Dictionary_2__ctor_m3833_MethodInfo_var);
+		Dictionary_2__ctor_m3836(L_2, /*hidden argument*/Dictionary_2__ctor_m3836_MethodInfo_var);
 		NullCheck(L_0);
 		InterfaceActionInvoker2< int32_t, Object_t* >::Invoke(0 /* System.Void System.Collections.Generic.IDictionary`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>::Add(!0,!1) */, IDictionary_2_t717_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		return;
@@ -4212,7 +4212,7 @@ extern TypeInfo* Double_t671_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t125_il2cpp_TypeInfo_var;
 extern TypeInfo* Int64_t672_il2cpp_TypeInfo_var;
 extern TypeInfo* UInt64_t756_il2cpp_TypeInfo_var;
-extern "C" void JsonReader_ProcessNumber_m3719 (JsonReader_t713 * __this, String_t* ___number, const MethodInfo* method)
+extern "C" void JsonReader_ProcessNumber_m3722 (JsonReader_t713 * __this, String_t* ___number, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4230,7 +4230,7 @@ extern "C" void JsonReader_ProcessNumber_m3719 (JsonReader_t713 * __this, String
 	{
 		String_t* L_0 = ___number;
 		NullCheck(L_0);
-		int32_t L_1 = String_IndexOf_m2442(L_0, ((int32_t)46), /*hidden argument*/NULL);
+		int32_t L_1 = String_IndexOf_m2445(L_0, ((int32_t)46), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_1) == ((uint32_t)(-1)))))
 		{
 			goto IL_002a;
@@ -4239,7 +4239,7 @@ extern "C" void JsonReader_ProcessNumber_m3719 (JsonReader_t713 * __this, String
 	{
 		String_t* L_2 = ___number;
 		NullCheck(L_2);
-		int32_t L_3 = String_IndexOf_m2442(L_2, ((int32_t)101), /*hidden argument*/NULL);
+		int32_t L_3 = String_IndexOf_m2445(L_2, ((int32_t)101), /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)(-1)))))
 		{
 			goto IL_002a;
@@ -4248,7 +4248,7 @@ extern "C" void JsonReader_ProcessNumber_m3719 (JsonReader_t713 * __this, String
 	{
 		String_t* L_4 = ___number;
 		NullCheck(L_4);
-		int32_t L_5 = String_IndexOf_m2442(L_4, ((int32_t)69), /*hidden argument*/NULL);
+		int32_t L_5 = String_IndexOf_m2445(L_4, ((int32_t)69), /*hidden argument*/NULL);
 		if ((((int32_t)L_5) == ((int32_t)(-1))))
 		{
 			goto IL_004b;
@@ -4258,7 +4258,7 @@ extern "C" void JsonReader_ProcessNumber_m3719 (JsonReader_t713 * __this, String
 IL_002a:
 	{
 		String_t* L_6 = ___number;
-		bool L_7 = Double_TryParse_m3834(NULL /*static, unused*/, L_6, (&V_0), /*hidden argument*/NULL);
+		bool L_7 = Double_TryParse_m3837(NULL /*static, unused*/, L_6, (&V_0), /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_004b;
@@ -4276,7 +4276,7 @@ IL_002a:
 IL_004b:
 	{
 		String_t* L_11 = ___number;
-		bool L_12 = Int32_TryParse_m3835(NULL /*static, unused*/, L_11, (&V_1), /*hidden argument*/NULL);
+		bool L_12 = Int32_TryParse_m3838(NULL /*static, unused*/, L_11, (&V_1), /*hidden argument*/NULL);
 		if (!L_12)
 		{
 			goto IL_006c;
@@ -4294,7 +4294,7 @@ IL_004b:
 IL_006c:
 	{
 		String_t* L_16 = ___number;
-		bool L_17 = Int64_TryParse_m3836(NULL /*static, unused*/, L_16, (&V_2), /*hidden argument*/NULL);
+		bool L_17 = Int64_TryParse_m3839(NULL /*static, unused*/, L_16, (&V_2), /*hidden argument*/NULL);
 		if (!L_17)
 		{
 			goto IL_008d;
@@ -4312,7 +4312,7 @@ IL_006c:
 IL_008d:
 	{
 		String_t* L_21 = ___number;
-		bool L_22 = UInt64_TryParse_m3837(NULL /*static, unused*/, L_21, (&V_3), /*hidden argument*/NULL);
+		bool L_22 = UInt64_TryParse_m3840(NULL /*static, unused*/, L_21, (&V_3), /*hidden argument*/NULL);
 		if (!L_22)
 		{
 			goto IL_00ae;
@@ -4338,12 +4338,12 @@ IL_00ae:
 }
 // System.Void LitJson.JsonReader::ProcessSymbol()
 extern TypeInfo* Boolean_t395_il2cpp_TypeInfo_var;
-extern "C" void JsonReader_ProcessSymbol_m3720 (JsonReader_t713 * __this, const MethodInfo* method)
+extern "C" void JsonReader_ProcessSymbol_m3723 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(133);
+		Boolean_t395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(134);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4455,7 +4455,7 @@ IL_00ca:
 	{
 		Lexer_t715 * L_8 = (__this->___lexer_6);
 		NullCheck(L_8);
-		String_t* L_9 = Lexer_get_StringValue_m3746(L_8, /*hidden argument*/NULL);
+		String_t* L_9 = Lexer_get_StringValue_m3749(L_8, /*hidden argument*/NULL);
 		__this->___token_value_13 = L_9;
 		goto IL_01b8;
 	}
@@ -4502,8 +4502,8 @@ IL_0144:
 	{
 		Lexer_t715 * L_15 = (__this->___lexer_6);
 		NullCheck(L_15);
-		String_t* L_16 = Lexer_get_StringValue_m3746(L_15, /*hidden argument*/NULL);
-		JsonReader_ProcessNumber_m3719(__this, L_16, /*hidden argument*/NULL);
+		String_t* L_16 = Lexer_get_StringValue_m3749(L_15, /*hidden argument*/NULL);
+		JsonReader_ProcessNumber_m3722(__this, L_16, /*hidden argument*/NULL);
 		__this->___parser_return_8 = 1;
 		goto IL_01b8;
 	}
@@ -4543,7 +4543,7 @@ IL_01b8:
 	}
 }
 // System.Boolean LitJson.JsonReader::ReadToken()
-extern "C" bool JsonReader_ReadToken_m3721 (JsonReader_t713 * __this, const MethodInfo* method)
+extern "C" bool JsonReader_ReadToken_m3724 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___end_of_input_5);
@@ -4560,17 +4560,17 @@ IL_000d:
 	{
 		Lexer_t715 * L_1 = (__this->___lexer_6);
 		NullCheck(L_1);
-		Lexer_NextToken_m3782(L_1, /*hidden argument*/NULL);
+		Lexer_NextToken_m3785(L_1, /*hidden argument*/NULL);
 		Lexer_t715 * L_2 = (__this->___lexer_6);
 		NullCheck(L_2);
-		bool L_3 = Lexer_get_EndOfInput_m3744(L_2, /*hidden argument*/NULL);
+		bool L_3 = Lexer_get_EndOfInput_m3747(L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0031;
 		}
 	}
 	{
-		JsonReader_Close_m3722(__this, /*hidden argument*/NULL);
+		JsonReader_Close_m3725(__this, /*hidden argument*/NULL);
 		return 0;
 	}
 
@@ -4578,13 +4578,13 @@ IL_0031:
 	{
 		Lexer_t715 * L_4 = (__this->___lexer_6);
 		NullCheck(L_4);
-		int32_t L_5 = Lexer_get_Token_m3745(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Lexer_get_Token_m3748(L_4, /*hidden argument*/NULL);
 		__this->___current_input_2 = L_5;
 		return 1;
 	}
 }
 // System.Void LitJson.JsonReader::Close()
-extern "C" void JsonReader_Close_m3722 (JsonReader_t713 * __this, const MethodInfo* method)
+extern "C" void JsonReader_Close_m3725 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___end_of_input_5);
@@ -4625,12 +4625,12 @@ extern TypeInfo* JsonReader_t713_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t717_il2cpp_TypeInfo_var;
 extern TypeInfo* IDictionary_2_t761_il2cpp_TypeInfo_var;
 extern TypeInfo* KeyNotFoundException_t763_il2cpp_TypeInfo_var;
-extern const MethodInfo* Stack_1_Clear_m3838_MethodInfo_var;
-extern const MethodInfo* Stack_1_Push_m3831_MethodInfo_var;
-extern const MethodInfo* Stack_1_Peek_m3839_MethodInfo_var;
-extern const MethodInfo* Stack_1_Pop_m3840_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral340;
-extern "C" bool JsonReader_Read_m3723 (JsonReader_t713 * __this, const MethodInfo* method)
+extern const MethodInfo* Stack_1_Clear_m3841_MethodInfo_var;
+extern const MethodInfo* Stack_1_Push_m3834_MethodInfo_var;
+extern const MethodInfo* Stack_1_Peek_m3842_MethodInfo_var;
+extern const MethodInfo* Stack_1_Pop_m3843_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral342;
+extern "C" bool JsonReader_Read_m3726 (JsonReader_t713 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4640,11 +4640,11 @@ extern "C" bool JsonReader_Read_m3723 (JsonReader_t713 * __this, const MethodInf
 		IDictionary_2_t717_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(472);
 		IDictionary_2_t761_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(469);
 		KeyNotFoundException_t763_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(475);
-		Stack_1_Clear_m3838_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484052);
-		Stack_1_Push_m3831_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484049);
-		Stack_1_Peek_m3839_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484053);
-		Stack_1_Pop_m3840_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484054);
-		_stringLiteral340 = il2cpp_codegen_string_literal_from_index(340);
+		Stack_1_Clear_m3841_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484053);
+		Stack_1_Push_m3834_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484050);
+		Stack_1_Peek_m3842_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484054);
+		Stack_1_Pop_m3843_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484055);
+		_stringLiteral342 = il2cpp_codegen_string_literal_from_index(342);
 		s_Il2CppMethodIntialized = true;
 	}
 	Int32U5BU5D_t46* V_0 = {0};
@@ -4679,13 +4679,13 @@ IL_000d:
 		__this->___end_of_json_4 = 0;
 		Stack_1_t714 * L_2 = (__this->___automaton_stack_1);
 		NullCheck(L_2);
-		Stack_1_Clear_m3838(L_2, /*hidden argument*/Stack_1_Clear_m3838_MethodInfo_var);
+		Stack_1_Clear_m3841(L_2, /*hidden argument*/Stack_1_Clear_m3841_MethodInfo_var);
 		Stack_1_t714 * L_3 = (__this->___automaton_stack_1);
 		NullCheck(L_3);
-		Stack_1_Push_m3831(L_3, ((int32_t)65553), /*hidden argument*/Stack_1_Push_m3831_MethodInfo_var);
+		Stack_1_Push_m3834(L_3, ((int32_t)65553), /*hidden argument*/Stack_1_Push_m3834_MethodInfo_var);
 		Stack_1_t714 * L_4 = (__this->___automaton_stack_1);
 		NullCheck(L_4);
-		Stack_1_Push_m3831(L_4, ((int32_t)65543), /*hidden argument*/Stack_1_Push_m3831_MethodInfo_var);
+		Stack_1_Push_m3834(L_4, ((int32_t)65543), /*hidden argument*/Stack_1_Push_m3834_MethodInfo_var);
 	}
 
 IL_004a:
@@ -4702,7 +4702,7 @@ IL_004a:
 	}
 	{
 		__this->___read_started_9 = 1;
-		bool L_6 = JsonReader_ReadToken_m3721(__this, /*hidden argument*/NULL);
+		bool L_6 = JsonReader_ReadToken_m3724(__this, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0085;
@@ -4723,7 +4723,7 @@ IL_0085:
 	{
 		Stack_1_t714 * L_8 = (__this->___automaton_stack_1);
 		NullCheck(L_8);
-		int32_t L_9 = Stack_1_Peek_m3839(L_8, /*hidden argument*/Stack_1_Peek_m3839_MethodInfo_var);
+		int32_t L_9 = Stack_1_Peek_m3842(L_8, /*hidden argument*/Stack_1_Peek_m3842_MethodInfo_var);
 		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)65553)))))
 		{
 			goto IL_00ac;
@@ -4742,9 +4742,9 @@ IL_00ae:
 	{
 		Stack_1_t714 * L_10 = (__this->___automaton_stack_1);
 		NullCheck(L_10);
-		int32_t L_11 = Stack_1_Pop_m3840(L_10, /*hidden argument*/Stack_1_Pop_m3840_MethodInfo_var);
+		int32_t L_11 = Stack_1_Pop_m3843(L_10, /*hidden argument*/Stack_1_Pop_m3843_MethodInfo_var);
 		__this->___current_symbol_3 = L_11;
-		JsonReader_ProcessSymbol_m3720(__this, /*hidden argument*/NULL);
+		JsonReader_ProcessSymbol_m3723(__this, /*hidden argument*/NULL);
 		int32_t L_12 = (__this->___current_symbol_3);
 		int32_t L_13 = (__this->___current_input_2);
 		if ((!(((uint32_t)L_12) == ((uint32_t)L_13))))
@@ -4753,7 +4753,7 @@ IL_00ae:
 		}
 	}
 	{
-		bool L_14 = JsonReader_ReadToken_m3721(__this, /*hidden argument*/NULL);
+		bool L_14 = JsonReader_ReadToken_m3724(__this, /*hidden argument*/NULL);
 		if (L_14)
 		{
 			goto IL_0110;
@@ -4762,7 +4762,7 @@ IL_00ae:
 	{
 		Stack_1_t714 * L_15 = (__this->___automaton_stack_1);
 		NullCheck(L_15);
-		int32_t L_16 = Stack_1_Peek_m3839(L_15, /*hidden argument*/Stack_1_Peek_m3839_MethodInfo_var);
+		int32_t L_16 = Stack_1_Peek_m3842(L_15, /*hidden argument*/Stack_1_Peek_m3842_MethodInfo_var);
 		if ((((int32_t)L_16) == ((int32_t)((int32_t)65553))))
 		{
 			goto IL_0101;
@@ -4770,7 +4770,7 @@ IL_00ae:
 	}
 	{
 		JsonException_t694 * L_17 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_17, _stringLiteral340, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_17, _stringLiteral342, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_17);
 	}
 
@@ -4824,7 +4824,7 @@ CATCH_0136:
 		int32_t L_24 = (__this->___current_input_2);
 		KeyNotFoundException_t763 * L_25 = V_1;
 		JsonException_t694 * L_26 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3668(L_26, L_24, L_25, /*hidden argument*/NULL);
+		JsonException__ctor_m3671(L_26, L_24, L_25, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_26);
 	} // end catch (depth: 1)
 
@@ -4860,7 +4860,7 @@ IL_0161:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_31, L_32);
 		int32_t L_33 = L_32;
 		NullCheck(L_30);
-		Stack_1_Push_m3831(L_30, (*(int32_t*)(int32_t*)SZArrayLdElema(L_31, L_33, sizeof(int32_t))), /*hidden argument*/Stack_1_Push_m3831_MethodInfo_var);
+		Stack_1_Push_m3834(L_30, (*(int32_t*)(int32_t*)SZArrayLdElema(L_31, L_33, sizeof(int32_t))), /*hidden argument*/Stack_1_Push_m3834_MethodInfo_var);
 		int32_t L_34 = V_2;
 		V_2 = ((int32_t)((int32_t)L_34-(int32_t)1));
 	}
@@ -4878,7 +4878,7 @@ IL_0173:
 	}
 }
 // System.Void LitJson.WriterContext::.ctor()
-extern "C" void WriterContext__ctor_m3724 (WriterContext_t719 * __this, const MethodInfo* method)
+extern "C" void WriterContext__ctor_m3727 (WriterContext_t719 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m435(__this, /*hidden argument*/NULL);
@@ -4888,7 +4888,7 @@ extern "C" void WriterContext__ctor_m3724 (WriterContext_t719 * __this, const Me
 // System.Void LitJson.JsonWriter::.cctor()
 extern TypeInfo* NumberFormatInfo_t722_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
-extern "C" void JsonWriter__cctor_m3725 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void JsonWriter__cctor_m3728 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4899,7 +4899,7 @@ extern "C" void JsonWriter__cctor_m3725 (Object_t * __this /* static, unused */,
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatInfo_t722_il2cpp_TypeInfo_var);
-		NumberFormatInfo_t722 * L_0 = NumberFormatInfo_get_InvariantInfo_m3841(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NumberFormatInfo_t722 * L_0 = NumberFormatInfo_get_InvariantInfo_m3844(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((JsonWriter_t701_StaticFields*)JsonWriter_t701_il2cpp_TypeInfo_var->static_fields)->___number_format_0 = L_0;
 		return;
 	}
@@ -4907,48 +4907,48 @@ extern "C" void JsonWriter__cctor_m3725 (Object_t * __this /* static, unused */,
 // System.Void LitJson.JsonWriter::.ctor()
 extern TypeInfo* StringBuilder_t393_il2cpp_TypeInfo_var;
 extern TypeInfo* StringWriter_t764_il2cpp_TypeInfo_var;
-extern "C" void JsonWriter__ctor_m3726 (JsonWriter_t701 * __this, const MethodInfo* method)
+extern "C" void JsonWriter__ctor_m3729 (JsonWriter_t701 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		StringBuilder_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(83);
+		StringBuilder_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(84);
 		StringWriter_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(477);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m435(__this, /*hidden argument*/NULL);
 		StringBuilder_t393 * L_0 = (StringBuilder_t393 *)il2cpp_codegen_object_new (StringBuilder_t393_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m2068(L_0, /*hidden argument*/NULL);
+		StringBuilder__ctor_m2071(L_0, /*hidden argument*/NULL);
 		__this->___inst_string_builder_7 = L_0;
 		StringBuilder_t393 * L_1 = (__this->___inst_string_builder_7);
 		StringWriter_t764 * L_2 = (StringWriter_t764 *)il2cpp_codegen_object_new (StringWriter_t764_il2cpp_TypeInfo_var);
-		StringWriter__ctor_m3842(L_2, L_1, /*hidden argument*/NULL);
+		StringWriter__ctor_m3845(L_2, L_1, /*hidden argument*/NULL);
 		__this->___writer_10 = L_2;
-		JsonWriter_Init_m3728(__this, /*hidden argument*/NULL);
+		JsonWriter_Init_m3731(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonWriter::DoValidation(LitJson.Condition)
 extern TypeInfo* JsonException_t694_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral341;
-extern Il2CppCodeGenString* _stringLiteral342;
 extern Il2CppCodeGenString* _stringLiteral343;
 extern Il2CppCodeGenString* _stringLiteral344;
 extern Il2CppCodeGenString* _stringLiteral345;
 extern Il2CppCodeGenString* _stringLiteral346;
-extern "C" void JsonWriter_DoValidation_m3727 (JsonWriter_t701 * __this, int32_t ___cond, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral347;
+extern Il2CppCodeGenString* _stringLiteral348;
+extern "C" void JsonWriter_DoValidation_m3730 (JsonWriter_t701 * __this, int32_t ___cond, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		JsonException_t694_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(474);
-		_stringLiteral341 = il2cpp_codegen_string_literal_from_index(341);
-		_stringLiteral342 = il2cpp_codegen_string_literal_from_index(342);
 		_stringLiteral343 = il2cpp_codegen_string_literal_from_index(343);
 		_stringLiteral344 = il2cpp_codegen_string_literal_from_index(344);
 		_stringLiteral345 = il2cpp_codegen_string_literal_from_index(345);
 		_stringLiteral346 = il2cpp_codegen_string_literal_from_index(346);
+		_stringLiteral347 = il2cpp_codegen_string_literal_from_index(347);
+		_stringLiteral348 = il2cpp_codegen_string_literal_from_index(348);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4991,7 +4991,7 @@ IL_002f:
 	}
 	{
 		JsonException_t694 * L_7 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_7, _stringLiteral341, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_7, _stringLiteral343, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_7);
 	}
 
@@ -5035,7 +5035,7 @@ IL_0064:
 	}
 	{
 		JsonException_t694 * L_11 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_11, _stringLiteral342, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_11, _stringLiteral344, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_11);
 	}
 
@@ -5067,7 +5067,7 @@ IL_0084:
 IL_00a4:
 	{
 		JsonException_t694 * L_16 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_16, _stringLiteral343, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_16, _stringLiteral345, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_16);
 	}
 
@@ -5097,7 +5097,7 @@ IL_00b4:
 	}
 	{
 		JsonException_t694 * L_21 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_21, _stringLiteral344, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_21, _stringLiteral346, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_21);
 	}
 
@@ -5129,7 +5129,7 @@ IL_00e4:
 IL_0104:
 	{
 		JsonException_t694 * L_26 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_26, _stringLiteral345, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_26, _stringLiteral347, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_26);
 	}
 
@@ -5170,7 +5170,7 @@ IL_0114:
 IL_0144:
 	{
 		JsonException_t694 * L_33 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3670(L_33, _stringLiteral346, /*hidden argument*/NULL);
+		JsonException__ctor_m3673(L_33, _stringLiteral348, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_33);
 	}
 
@@ -5188,9 +5188,9 @@ IL_0154:
 extern TypeInfo* CharU5BU5D_t275_il2cpp_TypeInfo_var;
 extern TypeInfo* Stack_1_t720_il2cpp_TypeInfo_var;
 extern TypeInfo* WriterContext_t719_il2cpp_TypeInfo_var;
-extern const MethodInfo* Stack_1__ctor_m3843_MethodInfo_var;
-extern const MethodInfo* Stack_1_Push_m3844_MethodInfo_var;
-extern "C" void JsonWriter_Init_m3728 (JsonWriter_t701 * __this, const MethodInfo* method)
+extern const MethodInfo* Stack_1__ctor_m3846_MethodInfo_var;
+extern const MethodInfo* Stack_1_Push_m3847_MethodInfo_var;
+extern "C" void JsonWriter_Init_m3731 (JsonWriter_t701 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5198,8 +5198,8 @@ extern "C" void JsonWriter_Init_m3728 (JsonWriter_t701 * __this, const MethodInf
 		CharU5BU5D_t275_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(223);
 		Stack_1_t720_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(479);
 		WriterContext_t719_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(478);
-		Stack_1__ctor_m3843_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484055);
-		Stack_1_Push_m3844_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484056);
+		Stack_1__ctor_m3846_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484056);
+		Stack_1_Push_m3847_MethodInfo_var = il2cpp_codegen_method_info_from_index(2147484057);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5210,20 +5210,20 @@ extern "C" void JsonWriter_Init_m3728 (JsonWriter_t701 * __this, const MethodInf
 		__this->___pretty_print_8 = 0;
 		__this->___validate_9 = 1;
 		Stack_1_t720 * L_0 = (Stack_1_t720 *)il2cpp_codegen_object_new (Stack_1_t720_il2cpp_TypeInfo_var);
-		Stack_1__ctor_m3843(L_0, /*hidden argument*/Stack_1__ctor_m3843_MethodInfo_var);
+		Stack_1__ctor_m3846(L_0, /*hidden argument*/Stack_1__ctor_m3846_MethodInfo_var);
 		__this->___ctx_stack_2 = L_0;
 		WriterContext_t719 * L_1 = (WriterContext_t719 *)il2cpp_codegen_object_new (WriterContext_t719_il2cpp_TypeInfo_var);
-		WriterContext__ctor_m3724(L_1, /*hidden argument*/NULL);
+		WriterContext__ctor_m3727(L_1, /*hidden argument*/NULL);
 		__this->___context_1 = L_1;
 		Stack_1_t720 * L_2 = (__this->___ctx_stack_2);
 		WriterContext_t719 * L_3 = (__this->___context_1);
 		NullCheck(L_2);
-		Stack_1_Push_m3844(L_2, L_3, /*hidden argument*/Stack_1_Push_m3844_MethodInfo_var);
+		Stack_1_Push_m3847(L_2, L_3, /*hidden argument*/Stack_1_Push_m3847_MethodInfo_var);
 		return;
 	}
 }
 // System.Void LitJson.JsonWriter::IntToHex(System.Int32,System.Char[])
-extern "C" void JsonWriter_IntToHex_m3729 (Object_t * __this /* static, unused */, int32_t ___n, CharU5BU5D_t275* ___hex, const MethodInfo* method)
+extern "C" void JsonWriter_IntToHex_m3732 (Object_t * __this /* static, unused */, int32_t ___n, CharU5BU5D_t275* ___hex, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -5283,7 +5283,7 @@ IL_0039:
 	}
 }
 // System.Void LitJson.JsonWriter::Put(System.String)
-extern "C" void JsonWriter_Put_m3730 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
+extern "C" void JsonWriter_Put_m3733 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -5336,15 +5336,15 @@ IL_003f:
 	}
 }
 // System.Void LitJson.JsonWriter::PutNewline()
-extern "C" void JsonWriter_PutNewline_m3731 (JsonWriter_t701 * __this, const MethodInfo* method)
+extern "C" void JsonWriter_PutNewline_m3734 (JsonWriter_t701 * __this, const MethodInfo* method)
 {
 	{
-		JsonWriter_PutNewline_m3732(__this, 1, /*hidden argument*/NULL);
+		JsonWriter_PutNewline_m3735(__this, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.JsonWriter::PutNewline(System.Boolean)
-extern "C" void JsonWriter_PutNewline_m3732 (JsonWriter_t701 * __this, bool ___add_comma, const MethodInfo* method)
+extern "C" void JsonWriter_PutNewline_m3735 (JsonWriter_t701 * __this, bool ___add_comma, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___add_comma;
@@ -5408,25 +5408,25 @@ IL_005c:
 // System.Void LitJson.JsonWriter::PutString(System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral347;
-extern Il2CppCodeGenString* _stringLiteral348;
 extern Il2CppCodeGenString* _stringLiteral349;
 extern Il2CppCodeGenString* _stringLiteral350;
 extern Il2CppCodeGenString* _stringLiteral351;
 extern Il2CppCodeGenString* _stringLiteral352;
-extern "C" void JsonWriter_PutString_m3733 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral353;
+extern Il2CppCodeGenString* _stringLiteral354;
+extern "C" void JsonWriter_PutString_m3736 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		String_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(18);
 		JsonWriter_t701_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(451);
-		_stringLiteral347 = il2cpp_codegen_string_literal_from_index(347);
-		_stringLiteral348 = il2cpp_codegen_string_literal_from_index(348);
 		_stringLiteral349 = il2cpp_codegen_string_literal_from_index(349);
 		_stringLiteral350 = il2cpp_codegen_string_literal_from_index(350);
 		_stringLiteral351 = il2cpp_codegen_string_literal_from_index(351);
 		_stringLiteral352 = il2cpp_codegen_string_literal_from_index(352);
+		_stringLiteral353 = il2cpp_codegen_string_literal_from_index(353);
+		_stringLiteral354 = il2cpp_codegen_string_literal_from_index(354);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -5435,13 +5435,13 @@ extern "C" void JsonWriter_PutString_m3733 (JsonWriter_t701 * __this, String_t* 
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-		JsonWriter_Put_m3730(__this, L_0, /*hidden argument*/NULL);
+		JsonWriter_Put_m3733(__this, L_0, /*hidden argument*/NULL);
 		TextWriter_t721 * L_1 = (__this->___writer_10);
 		NullCheck(L_1);
 		VirtActionInvoker1< uint16_t >::Invoke(8 /* System.Void System.IO.TextWriter::Write(System.Char) */, L_1, ((int32_t)34));
 		String_t* L_2 = ___str;
 		NullCheck(L_2);
-		int32_t L_3 = String_get_Length_m2374(L_2, /*hidden argument*/NULL);
+		int32_t L_3 = String_get_Length_m2377(L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		V_1 = 0;
 		goto IL_015a;
@@ -5452,7 +5452,7 @@ IL_0026:
 		String_t* L_4 = ___str;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
-		uint16_t L_6 = String_get_Chars_m2392(L_4, L_5, /*hidden argument*/NULL);
+		uint16_t L_6 = String_get_Chars_m2395(L_4, L_5, /*hidden argument*/NULL);
 		V_2 = L_6;
 		uint16_t L_7 = V_2;
 		if (((int32_t)((int32_t)L_7-(int32_t)8)) == 0)
@@ -5504,7 +5504,7 @@ IL_0063:
 	{
 		TextWriter_t721 * L_10 = (__this->___writer_10);
 		NullCheck(L_10);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_10, _stringLiteral347);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_10, _stringLiteral349);
 		goto IL_0156;
 	}
 
@@ -5512,7 +5512,7 @@ IL_0078:
 	{
 		TextWriter_t721 * L_11 = (__this->___writer_10);
 		NullCheck(L_11);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_11, _stringLiteral348);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_11, _stringLiteral350);
 		goto IL_0156;
 	}
 
@@ -5520,7 +5520,7 @@ IL_008d:
 	{
 		TextWriter_t721 * L_12 = (__this->___writer_10);
 		NullCheck(L_12);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, _stringLiteral349);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_12, _stringLiteral351);
 		goto IL_0156;
 	}
 
@@ -5533,7 +5533,7 @@ IL_00a2:
 		String_t* L_15 = ___str;
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
-		uint16_t L_17 = String_get_Chars_m2392(L_15, L_16, /*hidden argument*/NULL);
+		uint16_t L_17 = String_get_Chars_m2395(L_15, L_16, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		VirtActionInvoker1< uint16_t >::Invoke(8 /* System.Void System.IO.TextWriter::Write(System.Char) */, L_14, L_17);
 		goto IL_0156;
@@ -5543,7 +5543,7 @@ IL_00c6:
 	{
 		TextWriter_t721 * L_18 = (__this->___writer_10);
 		NullCheck(L_18);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_18, _stringLiteral350);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_18, _stringLiteral352);
 		goto IL_0156;
 	}
 
@@ -5551,7 +5551,7 @@ IL_00db:
 	{
 		TextWriter_t721 * L_19 = (__this->___writer_10);
 		NullCheck(L_19);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_19, _stringLiteral351);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_19, _stringLiteral353);
 		goto IL_0156;
 	}
 
@@ -5560,7 +5560,7 @@ IL_00f0:
 		String_t* L_20 = ___str;
 		int32_t L_21 = V_1;
 		NullCheck(L_20);
-		uint16_t L_22 = String_get_Chars_m2392(L_20, L_21, /*hidden argument*/NULL);
+		uint16_t L_22 = String_get_Chars_m2395(L_20, L_21, /*hidden argument*/NULL);
 		if ((((int32_t)L_22) < ((int32_t)((int32_t)32))))
 		{
 			goto IL_0123;
@@ -5570,7 +5570,7 @@ IL_00f0:
 		String_t* L_23 = ___str;
 		int32_t L_24 = V_1;
 		NullCheck(L_23);
-		uint16_t L_25 = String_get_Chars_m2392(L_23, L_24, /*hidden argument*/NULL);
+		uint16_t L_25 = String_get_Chars_m2395(L_23, L_24, /*hidden argument*/NULL);
 		if ((((int32_t)L_25) > ((int32_t)((int32_t)126))))
 		{
 			goto IL_0123;
@@ -5581,7 +5581,7 @@ IL_00f0:
 		String_t* L_27 = ___str;
 		int32_t L_28 = V_1;
 		NullCheck(L_27);
-		uint16_t L_29 = String_get_Chars_m2392(L_27, L_28, /*hidden argument*/NULL);
+		uint16_t L_29 = String_get_Chars_m2395(L_27, L_28, /*hidden argument*/NULL);
 		NullCheck(L_26);
 		VirtActionInvoker1< uint16_t >::Invoke(8 /* System.Void System.IO.TextWriter::Write(System.Char) */, L_26, L_29);
 		goto IL_0156;
@@ -5592,13 +5592,13 @@ IL_0123:
 		String_t* L_30 = ___str;
 		int32_t L_31 = V_1;
 		NullCheck(L_30);
-		uint16_t L_32 = String_get_Chars_m2392(L_30, L_31, /*hidden argument*/NULL);
+		uint16_t L_32 = String_get_Chars_m2395(L_30, L_31, /*hidden argument*/NULL);
 		CharU5BU5D_t275* L_33 = (__this->___hex_seq_4);
 		IL2CPP_RUNTIME_CLASS_INIT(JsonWriter_t701_il2cpp_TypeInfo_var);
-		JsonWriter_IntToHex_m3729(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
+		JsonWriter_IntToHex_m3732(NULL /*static, unused*/, L_32, L_33, /*hidden argument*/NULL);
 		TextWriter_t721 * L_34 = (__this->___writer_10);
 		NullCheck(L_34);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_34, _stringLiteral352);
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.TextWriter::Write(System.String) */, L_34, _stringLiteral354);
 		TextWriter_t721 * L_35 = (__this->___writer_10);
 		CharU5BU5D_t275* L_36 = (__this->___hex_seq_4);
 		NullCheck(L_35);
@@ -5629,7 +5629,7 @@ IL_015a:
 }
 // System.String LitJson.JsonWriter::ToString()
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
-extern "C" String_t* JsonWriter_ToString_m3734 (JsonWriter_t701 * __this, const MethodInfo* method)
+extern "C" String_t* JsonWriter_ToString_m3737 (JsonWriter_t701 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5661,7 +5661,7 @@ IL_0011:
 // System.Void LitJson.JsonWriter::Write(System.Decimal)
 extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonWriter_Write_m3735 (JsonWriter_t701 * __this, Decimal_t735  ___number, const MethodInfo* method)
+extern "C" void JsonWriter_Write_m3738 (JsonWriter_t701 * __this, Decimal_t735  ___number, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5671,14 +5671,14 @@ extern "C" void JsonWriter_Write_m3735 (JsonWriter_t701 * __this, Decimal_t735  
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonWriter_DoValidation_m3727(__this, 4, /*hidden argument*/NULL);
-		JsonWriter_PutNewline_m3731(__this, /*hidden argument*/NULL);
+		JsonWriter_DoValidation_m3730(__this, 4, /*hidden argument*/NULL);
+		JsonWriter_PutNewline_m3734(__this, /*hidden argument*/NULL);
 		Decimal_t735  L_0 = ___number;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonWriter_t701_il2cpp_TypeInfo_var);
 		NumberFormatInfo_t722 * L_1 = ((JsonWriter_t701_StaticFields*)JsonWriter_t701_il2cpp_TypeInfo_var->static_fields)->___number_format_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		String_t* L_2 = Convert_ToString_m3845(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		JsonWriter_Put_m3730(__this, L_2, /*hidden argument*/NULL);
+		String_t* L_2 = Convert_ToString_m3848(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		JsonWriter_Put_m3733(__this, L_2, /*hidden argument*/NULL);
 		WriterContext_t719 * L_3 = (__this->___context_1);
 		NullCheck(L_3);
 		L_3->___ExpectingValue_3 = 0;
@@ -5688,7 +5688,7 @@ extern "C" void JsonWriter_Write_m3735 (JsonWriter_t701 * __this, Decimal_t735  
 // System.Void LitJson.JsonWriter::Write(System.Int32)
 extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonWriter_Write_m3736 (JsonWriter_t701 * __this, int32_t ___number, const MethodInfo* method)
+extern "C" void JsonWriter_Write_m3739 (JsonWriter_t701 * __this, int32_t ___number, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5698,14 +5698,14 @@ extern "C" void JsonWriter_Write_m3736 (JsonWriter_t701 * __this, int32_t ___num
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonWriter_DoValidation_m3727(__this, 4, /*hidden argument*/NULL);
-		JsonWriter_PutNewline_m3731(__this, /*hidden argument*/NULL);
+		JsonWriter_DoValidation_m3730(__this, 4, /*hidden argument*/NULL);
+		JsonWriter_PutNewline_m3734(__this, /*hidden argument*/NULL);
 		int32_t L_0 = ___number;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonWriter_t701_il2cpp_TypeInfo_var);
 		NumberFormatInfo_t722 * L_1 = ((JsonWriter_t701_StaticFields*)JsonWriter_t701_il2cpp_TypeInfo_var->static_fields)->___number_format_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		String_t* L_2 = Convert_ToString_m3846(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		JsonWriter_Put_m3730(__this, L_2, /*hidden argument*/NULL);
+		String_t* L_2 = Convert_ToString_m3849(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		JsonWriter_Put_m3733(__this, L_2, /*hidden argument*/NULL);
 		WriterContext_t719 * L_3 = (__this->___context_1);
 		NullCheck(L_3);
 		L_3->___ExpectingValue_3 = 0;
@@ -5713,18 +5713,18 @@ extern "C" void JsonWriter_Write_m3736 (JsonWriter_t701 * __this, int32_t ___num
 	}
 }
 // System.Void LitJson.JsonWriter::Write(System.String)
-extern Il2CppCodeGenString* _stringLiteral353;
-extern "C" void JsonWriter_Write_m3737 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
+extern Il2CppCodeGenString* _stringLiteral355;
+extern "C" void JsonWriter_Write_m3740 (JsonWriter_t701 * __this, String_t* ___str, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		_stringLiteral353 = il2cpp_codegen_string_literal_from_index(353);
+		_stringLiteral355 = il2cpp_codegen_string_literal_from_index(355);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonWriter_DoValidation_m3727(__this, 4, /*hidden argument*/NULL);
-		JsonWriter_PutNewline_m3731(__this, /*hidden argument*/NULL);
+		JsonWriter_DoValidation_m3730(__this, 4, /*hidden argument*/NULL);
+		JsonWriter_PutNewline_m3734(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___str;
 		if (L_0)
 		{
@@ -5732,14 +5732,14 @@ extern "C" void JsonWriter_Write_m3737 (JsonWriter_t701 * __this, String_t* ___s
 		}
 	}
 	{
-		JsonWriter_Put_m3730(__this, _stringLiteral353, /*hidden argument*/NULL);
+		JsonWriter_Put_m3733(__this, _stringLiteral355, /*hidden argument*/NULL);
 		goto IL_002a;
 	}
 
 IL_0023:
 	{
 		String_t* L_1 = ___str;
-		JsonWriter_PutString_m3733(__this, L_1, /*hidden argument*/NULL);
+		JsonWriter_PutString_m3736(__this, L_1, /*hidden argument*/NULL);
 	}
 
 IL_002a:
@@ -5753,7 +5753,7 @@ IL_002a:
 // System.Void LitJson.JsonWriter::Write(System.UInt64)
 extern TypeInfo* JsonWriter_t701_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" void JsonWriter_Write_m3738 (JsonWriter_t701 * __this, uint64_t ___number, const MethodInfo* method)
+extern "C" void JsonWriter_Write_m3741 (JsonWriter_t701 * __this, uint64_t ___number, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5763,14 +5763,14 @@ extern "C" void JsonWriter_Write_m3738 (JsonWriter_t701 * __this, uint64_t ___nu
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		JsonWriter_DoValidation_m3727(__this, 4, /*hidden argument*/NULL);
-		JsonWriter_PutNewline_m3731(__this, /*hidden argument*/NULL);
+		JsonWriter_DoValidation_m3730(__this, 4, /*hidden argument*/NULL);
+		JsonWriter_PutNewline_m3734(__this, /*hidden argument*/NULL);
 		uint64_t L_0 = ___number;
 		IL2CPP_RUNTIME_CLASS_INIT(JsonWriter_t701_il2cpp_TypeInfo_var);
 		NumberFormatInfo_t722 * L_1 = ((JsonWriter_t701_StaticFields*)JsonWriter_t701_il2cpp_TypeInfo_var->static_fields)->___number_format_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		String_t* L_2 = Convert_ToString_m3847(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		JsonWriter_Put_m3730(__this, L_2, /*hidden argument*/NULL);
+		String_t* L_2 = Convert_ToString_m3850(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		JsonWriter_Put_m3733(__this, L_2, /*hidden argument*/NULL);
 		WriterContext_t719 * L_3 = (__this->___context_1);
 		NullCheck(L_3);
 		L_3->___ExpectingValue_3 = 0;
@@ -5778,7 +5778,7 @@ extern "C" void JsonWriter_Write_m3738 (JsonWriter_t701 * __this, uint64_t ___nu
 	}
 }
 // System.Void LitJson.FsmContext::.ctor()
-extern "C" void FsmContext__ctor_m3739 (FsmContext_t723 * __this, const MethodInfo* method)
+extern "C" void FsmContext__ctor_m3742 (FsmContext_t723 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m435(__this, /*hidden argument*/NULL);
@@ -5786,18 +5786,18 @@ extern "C" void FsmContext__ctor_m3739 (FsmContext_t723 * __this, const MethodIn
 	}
 }
 // System.Void LitJson.Lexer/StateHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void StateHandler__ctor_m3740 (StateHandler_t724 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void StateHandler__ctor_m3743 (StateHandler_t724 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean LitJson.Lexer/StateHandler::Invoke(LitJson.FsmContext)
-extern "C" bool StateHandler_Invoke_m3741 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool StateHandler_Invoke_m3744 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		StateHandler_Invoke_m3741((StateHandler_t724 *)__this->___prev_9,___ctx, method);
+		StateHandler_Invoke_m3744((StateHandler_t724 *)__this->___prev_9,___ctx, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -5824,20 +5824,20 @@ extern "C" bool pinvoke_delegate_wrapper_StateHandler_t724(Il2CppObject* delegat
 	il2cpp_codegen_raise_exception((Il2CppCodeGenException*)il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'LitJson.FsmContext'."));
 }
 // System.IAsyncResult LitJson.Lexer/StateHandler::BeginInvoke(LitJson.FsmContext,System.AsyncCallback,System.Object)
-extern "C" Object_t * StateHandler_BeginInvoke_m3742 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * StateHandler_BeginInvoke_m3745 (StateHandler_t724 * __this, FsmContext_t723 * ___ctx, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___ctx;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean LitJson.Lexer/StateHandler::EndInvoke(System.IAsyncResult)
-extern "C" bool StateHandler_EndInvoke_m3743 (StateHandler_t724 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool StateHandler_EndInvoke_m3746 (StateHandler_t724 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
 }
 // System.Boolean LitJson.Lexer::get_EndOfInput()
-extern "C" bool Lexer_get_EndOfInput_m3744 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" bool Lexer_get_EndOfInput_m3747 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->___end_of_input_4);
@@ -5845,7 +5845,7 @@ extern "C" bool Lexer_get_EndOfInput_m3744 (Lexer_t715 * __this, const MethodInf
 	}
 }
 // System.Int32 LitJson.Lexer::get_Token()
-extern "C" int32_t Lexer_get_Token_m3745 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" int32_t Lexer_get_Token_m3748 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___token_12);
@@ -5853,7 +5853,7 @@ extern "C" int32_t Lexer_get_Token_m3745 (Lexer_t715 * __this, const MethodInfo*
 	}
 }
 // System.String LitJson.Lexer::get_StringValue()
-extern "C" String_t* Lexer_get_StringValue_m3746 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" String_t* Lexer_get_StringValue_m3749 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = (__this->___string_value_11);
@@ -5862,7 +5862,7 @@ extern "C" String_t* Lexer_get_StringValue_m3746 (Lexer_t715 * __this, const Met
 }
 // System.Void LitJson.Lexer::.cctor()
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
-extern "C" void Lexer__cctor_m3747 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void Lexer__cctor_m3750 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5871,19 +5871,19 @@ extern "C" void Lexer__cctor_m3747 (Object_t * __this /* static, unused */, cons
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Lexer_PopulateFsmTables_m3750(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Lexer_PopulateFsmTables_m3753(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void LitJson.Lexer::.ctor(System.IO.TextReader)
 extern TypeInfo* StringBuilder_t393_il2cpp_TypeInfo_var;
 extern TypeInfo* FsmContext_t723_il2cpp_TypeInfo_var;
-extern "C" void Lexer__ctor_m3748 (Lexer_t715 * __this, TextReader_t716 * ___reader, const MethodInfo* method)
+extern "C" void Lexer__ctor_m3751 (Lexer_t715 * __this, TextReader_t716 * ___reader, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		StringBuilder_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(83);
+		StringBuilder_t393_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(84);
 		FsmContext_t723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(480);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -5893,14 +5893,14 @@ extern "C" void Lexer__ctor_m3748 (Lexer_t715 * __this, TextReader_t716 * ___rea
 		__this->___allow_single_quoted_strings_3 = 1;
 		__this->___input_buffer_6 = 0;
 		StringBuilder_t393 * L_0 = (StringBuilder_t393 *)il2cpp_codegen_object_new (StringBuilder_t393_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m3585(L_0, ((int32_t)128), /*hidden argument*/NULL);
+		StringBuilder__ctor_m3588(L_0, ((int32_t)128), /*hidden argument*/NULL);
 		__this->___string_buffer_10 = L_0;
 		__this->___state_9 = 1;
 		__this->___end_of_input_4 = 0;
 		TextReader_t716 * L_1 = ___reader;
 		__this->___reader_8 = L_1;
 		FsmContext_t723 * L_2 = (FsmContext_t723 *)il2cpp_codegen_object_new (FsmContext_t723_il2cpp_TypeInfo_var);
-		FsmContext__ctor_m3739(L_2, /*hidden argument*/NULL);
+		FsmContext__ctor_m3742(L_2, /*hidden argument*/NULL);
 		__this->___fsm_context_5 = L_2;
 		FsmContext_t723 * L_3 = (__this->___fsm_context_5);
 		NullCheck(L_3);
@@ -5909,7 +5909,7 @@ extern "C" void Lexer__ctor_m3748 (Lexer_t715 * __this, TextReader_t716 * ___rea
 	}
 }
 // System.Int32 LitJson.Lexer::HexValue(System.Int32)
-extern "C" int32_t Lexer_HexValue_m3749 (Object_t * __this /* static, unused */, int32_t ___digit, const MethodInfo* method)
+extern "C" int32_t Lexer_HexValue_m3752 (Object_t * __this /* static, unused */, int32_t ___digit, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = ___digit;
@@ -6010,36 +6010,36 @@ extern TypeInfo* StateHandlerU5BU5D_t725_il2cpp_TypeInfo_var;
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
 extern TypeInfo* StateHandler_t724_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32U5BU5D_t46_il2cpp_TypeInfo_var;
-extern const MethodInfo* Lexer_State1_m3752_MethodInfo_var;
-extern const MethodInfo* Lexer_State2_m3753_MethodInfo_var;
-extern const MethodInfo* Lexer_State3_m3754_MethodInfo_var;
-extern const MethodInfo* Lexer_State4_m3755_MethodInfo_var;
-extern const MethodInfo* Lexer_State5_m3756_MethodInfo_var;
-extern const MethodInfo* Lexer_State6_m3757_MethodInfo_var;
-extern const MethodInfo* Lexer_State7_m3758_MethodInfo_var;
-extern const MethodInfo* Lexer_State8_m3759_MethodInfo_var;
-extern const MethodInfo* Lexer_State9_m3760_MethodInfo_var;
-extern const MethodInfo* Lexer_State10_m3761_MethodInfo_var;
-extern const MethodInfo* Lexer_State11_m3762_MethodInfo_var;
-extern const MethodInfo* Lexer_State12_m3763_MethodInfo_var;
-extern const MethodInfo* Lexer_State13_m3764_MethodInfo_var;
-extern const MethodInfo* Lexer_State14_m3765_MethodInfo_var;
-extern const MethodInfo* Lexer_State15_m3766_MethodInfo_var;
-extern const MethodInfo* Lexer_State16_m3767_MethodInfo_var;
-extern const MethodInfo* Lexer_State17_m3768_MethodInfo_var;
-extern const MethodInfo* Lexer_State18_m3769_MethodInfo_var;
-extern const MethodInfo* Lexer_State19_m3770_MethodInfo_var;
-extern const MethodInfo* Lexer_State20_m3771_MethodInfo_var;
-extern const MethodInfo* Lexer_State21_m3772_MethodInfo_var;
-extern const MethodInfo* Lexer_State22_m3773_MethodInfo_var;
-extern const MethodInfo* Lexer_State23_m3774_MethodInfo_var;
-extern const MethodInfo* Lexer_State24_m3775_MethodInfo_var;
-extern const MethodInfo* Lexer_State25_m3776_MethodInfo_var;
-extern const MethodInfo* Lexer_State26_m3777_MethodInfo_var;
-extern const MethodInfo* Lexer_State27_m3778_MethodInfo_var;
-extern const MethodInfo* Lexer_State28_m3779_MethodInfo_var;
+extern const MethodInfo* Lexer_State1_m3755_MethodInfo_var;
+extern const MethodInfo* Lexer_State2_m3756_MethodInfo_var;
+extern const MethodInfo* Lexer_State3_m3757_MethodInfo_var;
+extern const MethodInfo* Lexer_State4_m3758_MethodInfo_var;
+extern const MethodInfo* Lexer_State5_m3759_MethodInfo_var;
+extern const MethodInfo* Lexer_State6_m3760_MethodInfo_var;
+extern const MethodInfo* Lexer_State7_m3761_MethodInfo_var;
+extern const MethodInfo* Lexer_State8_m3762_MethodInfo_var;
+extern const MethodInfo* Lexer_State9_m3763_MethodInfo_var;
+extern const MethodInfo* Lexer_State10_m3764_MethodInfo_var;
+extern const MethodInfo* Lexer_State11_m3765_MethodInfo_var;
+extern const MethodInfo* Lexer_State12_m3766_MethodInfo_var;
+extern const MethodInfo* Lexer_State13_m3767_MethodInfo_var;
+extern const MethodInfo* Lexer_State14_m3768_MethodInfo_var;
+extern const MethodInfo* Lexer_State15_m3769_MethodInfo_var;
+extern const MethodInfo* Lexer_State16_m3770_MethodInfo_var;
+extern const MethodInfo* Lexer_State17_m3771_MethodInfo_var;
+extern const MethodInfo* Lexer_State18_m3772_MethodInfo_var;
+extern const MethodInfo* Lexer_State19_m3773_MethodInfo_var;
+extern const MethodInfo* Lexer_State20_m3774_MethodInfo_var;
+extern const MethodInfo* Lexer_State21_m3775_MethodInfo_var;
+extern const MethodInfo* Lexer_State22_m3776_MethodInfo_var;
+extern const MethodInfo* Lexer_State23_m3777_MethodInfo_var;
+extern const MethodInfo* Lexer_State24_m3778_MethodInfo_var;
+extern const MethodInfo* Lexer_State25_m3779_MethodInfo_var;
+extern const MethodInfo* Lexer_State26_m3780_MethodInfo_var;
+extern const MethodInfo* Lexer_State27_m3781_MethodInfo_var;
+extern const MethodInfo* Lexer_State28_m3782_MethodInfo_var;
 extern FieldInfo* U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DC_12_FieldInfo_var;
-extern "C" void Lexer_PopulateFsmTables_m3750 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void Lexer_PopulateFsmTables_m3753 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6048,34 +6048,34 @@ extern "C" void Lexer_PopulateFsmTables_m3750 (Object_t * __this /* static, unus
 		Lexer_t715_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(468);
 		StateHandler_t724_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(482);
 		Int32U5BU5D_t46_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(36);
-		Lexer_State1_m3752_MethodInfo_var = il2cpp_codegen_method_info_from_index(409);
-		Lexer_State2_m3753_MethodInfo_var = il2cpp_codegen_method_info_from_index(410);
-		Lexer_State3_m3754_MethodInfo_var = il2cpp_codegen_method_info_from_index(411);
-		Lexer_State4_m3755_MethodInfo_var = il2cpp_codegen_method_info_from_index(412);
-		Lexer_State5_m3756_MethodInfo_var = il2cpp_codegen_method_info_from_index(413);
-		Lexer_State6_m3757_MethodInfo_var = il2cpp_codegen_method_info_from_index(414);
-		Lexer_State7_m3758_MethodInfo_var = il2cpp_codegen_method_info_from_index(415);
-		Lexer_State8_m3759_MethodInfo_var = il2cpp_codegen_method_info_from_index(416);
-		Lexer_State9_m3760_MethodInfo_var = il2cpp_codegen_method_info_from_index(417);
-		Lexer_State10_m3761_MethodInfo_var = il2cpp_codegen_method_info_from_index(418);
-		Lexer_State11_m3762_MethodInfo_var = il2cpp_codegen_method_info_from_index(419);
-		Lexer_State12_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(420);
-		Lexer_State13_m3764_MethodInfo_var = il2cpp_codegen_method_info_from_index(421);
-		Lexer_State14_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(422);
-		Lexer_State15_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(423);
-		Lexer_State16_m3767_MethodInfo_var = il2cpp_codegen_method_info_from_index(424);
-		Lexer_State17_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(425);
-		Lexer_State18_m3769_MethodInfo_var = il2cpp_codegen_method_info_from_index(426);
-		Lexer_State19_m3770_MethodInfo_var = il2cpp_codegen_method_info_from_index(427);
-		Lexer_State20_m3771_MethodInfo_var = il2cpp_codegen_method_info_from_index(428);
-		Lexer_State21_m3772_MethodInfo_var = il2cpp_codegen_method_info_from_index(429);
-		Lexer_State22_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(430);
-		Lexer_State23_m3774_MethodInfo_var = il2cpp_codegen_method_info_from_index(431);
-		Lexer_State24_m3775_MethodInfo_var = il2cpp_codegen_method_info_from_index(432);
-		Lexer_State25_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(433);
-		Lexer_State26_m3777_MethodInfo_var = il2cpp_codegen_method_info_from_index(434);
-		Lexer_State27_m3778_MethodInfo_var = il2cpp_codegen_method_info_from_index(435);
-		Lexer_State28_m3779_MethodInfo_var = il2cpp_codegen_method_info_from_index(436);
+		Lexer_State1_m3755_MethodInfo_var = il2cpp_codegen_method_info_from_index(410);
+		Lexer_State2_m3756_MethodInfo_var = il2cpp_codegen_method_info_from_index(411);
+		Lexer_State3_m3757_MethodInfo_var = il2cpp_codegen_method_info_from_index(412);
+		Lexer_State4_m3758_MethodInfo_var = il2cpp_codegen_method_info_from_index(413);
+		Lexer_State5_m3759_MethodInfo_var = il2cpp_codegen_method_info_from_index(414);
+		Lexer_State6_m3760_MethodInfo_var = il2cpp_codegen_method_info_from_index(415);
+		Lexer_State7_m3761_MethodInfo_var = il2cpp_codegen_method_info_from_index(416);
+		Lexer_State8_m3762_MethodInfo_var = il2cpp_codegen_method_info_from_index(417);
+		Lexer_State9_m3763_MethodInfo_var = il2cpp_codegen_method_info_from_index(418);
+		Lexer_State10_m3764_MethodInfo_var = il2cpp_codegen_method_info_from_index(419);
+		Lexer_State11_m3765_MethodInfo_var = il2cpp_codegen_method_info_from_index(420);
+		Lexer_State12_m3766_MethodInfo_var = il2cpp_codegen_method_info_from_index(421);
+		Lexer_State13_m3767_MethodInfo_var = il2cpp_codegen_method_info_from_index(422);
+		Lexer_State14_m3768_MethodInfo_var = il2cpp_codegen_method_info_from_index(423);
+		Lexer_State15_m3769_MethodInfo_var = il2cpp_codegen_method_info_from_index(424);
+		Lexer_State16_m3770_MethodInfo_var = il2cpp_codegen_method_info_from_index(425);
+		Lexer_State17_m3771_MethodInfo_var = il2cpp_codegen_method_info_from_index(426);
+		Lexer_State18_m3772_MethodInfo_var = il2cpp_codegen_method_info_from_index(427);
+		Lexer_State19_m3773_MethodInfo_var = il2cpp_codegen_method_info_from_index(428);
+		Lexer_State20_m3774_MethodInfo_var = il2cpp_codegen_method_info_from_index(429);
+		Lexer_State21_m3775_MethodInfo_var = il2cpp_codegen_method_info_from_index(430);
+		Lexer_State22_m3776_MethodInfo_var = il2cpp_codegen_method_info_from_index(431);
+		Lexer_State23_m3777_MethodInfo_var = il2cpp_codegen_method_info_from_index(432);
+		Lexer_State24_m3778_MethodInfo_var = il2cpp_codegen_method_info_from_index(433);
+		Lexer_State25_m3779_MethodInfo_var = il2cpp_codegen_method_info_from_index(434);
+		Lexer_State26_m3780_MethodInfo_var = il2cpp_codegen_method_info_from_index(435);
+		Lexer_State27_m3781_MethodInfo_var = il2cpp_codegen_method_info_from_index(436);
+		Lexer_State28_m3782_MethodInfo_var = il2cpp_codegen_method_info_from_index(437);
 		U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DC_12_FieldInfo_var = il2cpp_codegen_field_info_from_index(471, 12);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -6263,9 +6263,9 @@ extern "C" void Lexer_PopulateFsmTables_m3750 (Object_t * __this /* static, unus
 		}
 	}
 	{
-		IntPtr_t L_2 = { (void*)Lexer_State1_m3752_MethodInfo_var };
+		IntPtr_t L_2 = { (void*)Lexer_State1_m3755_MethodInfo_var };
 		StateHandler_t724 * L_3 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_3, NULL, L_2, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_3, NULL, L_2, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache0_14 = L_3;
 		G_B2_0 = G_B1_0;
@@ -6295,9 +6295,9 @@ IL_0021:
 		}
 	}
 	{
-		IntPtr_t L_7 = { (void*)Lexer_State2_m3753_MethodInfo_var };
+		IntPtr_t L_7 = { (void*)Lexer_State2_m3756_MethodInfo_var };
 		StateHandler_t724 * L_8 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_8, NULL, L_7, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_8, NULL, L_7, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache1_15 = L_8;
 		G_B4_0 = G_B3_0;
@@ -6327,9 +6327,9 @@ IL_0041:
 		}
 	}
 	{
-		IntPtr_t L_12 = { (void*)Lexer_State3_m3754_MethodInfo_var };
+		IntPtr_t L_12 = { (void*)Lexer_State3_m3757_MethodInfo_var };
 		StateHandler_t724 * L_13 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_13, NULL, L_12, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_13, NULL, L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache2_16 = L_13;
 		G_B6_0 = G_B5_0;
@@ -6359,9 +6359,9 @@ IL_0061:
 		}
 	}
 	{
-		IntPtr_t L_17 = { (void*)Lexer_State4_m3755_MethodInfo_var };
+		IntPtr_t L_17 = { (void*)Lexer_State4_m3758_MethodInfo_var };
 		StateHandler_t724 * L_18 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_18, NULL, L_17, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_18, NULL, L_17, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache3_17 = L_18;
 		G_B8_0 = G_B7_0;
@@ -6391,9 +6391,9 @@ IL_0081:
 		}
 	}
 	{
-		IntPtr_t L_22 = { (void*)Lexer_State5_m3756_MethodInfo_var };
+		IntPtr_t L_22 = { (void*)Lexer_State5_m3759_MethodInfo_var };
 		StateHandler_t724 * L_23 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_23, NULL, L_22, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_23, NULL, L_22, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache4_18 = L_23;
 		G_B10_0 = G_B9_0;
@@ -6423,9 +6423,9 @@ IL_00a1:
 		}
 	}
 	{
-		IntPtr_t L_27 = { (void*)Lexer_State6_m3757_MethodInfo_var };
+		IntPtr_t L_27 = { (void*)Lexer_State6_m3760_MethodInfo_var };
 		StateHandler_t724 * L_28 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_28, NULL, L_27, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_28, NULL, L_27, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache5_19 = L_28;
 		G_B12_0 = G_B11_0;
@@ -6455,9 +6455,9 @@ IL_00c1:
 		}
 	}
 	{
-		IntPtr_t L_32 = { (void*)Lexer_State7_m3758_MethodInfo_var };
+		IntPtr_t L_32 = { (void*)Lexer_State7_m3761_MethodInfo_var };
 		StateHandler_t724 * L_33 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_33, NULL, L_32, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_33, NULL, L_32, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache6_20 = L_33;
 		G_B14_0 = G_B13_0;
@@ -6487,9 +6487,9 @@ IL_00e1:
 		}
 	}
 	{
-		IntPtr_t L_37 = { (void*)Lexer_State8_m3759_MethodInfo_var };
+		IntPtr_t L_37 = { (void*)Lexer_State8_m3762_MethodInfo_var };
 		StateHandler_t724 * L_38 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_38, NULL, L_37, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_38, NULL, L_37, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache7_21 = L_38;
 		G_B16_0 = G_B15_0;
@@ -6519,9 +6519,9 @@ IL_0101:
 		}
 	}
 	{
-		IntPtr_t L_42 = { (void*)Lexer_State9_m3760_MethodInfo_var };
+		IntPtr_t L_42 = { (void*)Lexer_State9_m3763_MethodInfo_var };
 		StateHandler_t724 * L_43 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_43, NULL, L_42, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_43, NULL, L_42, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache8_22 = L_43;
 		G_B18_0 = G_B17_0;
@@ -6551,9 +6551,9 @@ IL_0121:
 		}
 	}
 	{
-		IntPtr_t L_47 = { (void*)Lexer_State10_m3761_MethodInfo_var };
+		IntPtr_t L_47 = { (void*)Lexer_State10_m3764_MethodInfo_var };
 		StateHandler_t724 * L_48 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_48, NULL, L_47, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_48, NULL, L_47, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache9_23 = L_48;
 		G_B20_0 = G_B19_0;
@@ -6583,9 +6583,9 @@ IL_0142:
 		}
 	}
 	{
-		IntPtr_t L_52 = { (void*)Lexer_State11_m3762_MethodInfo_var };
+		IntPtr_t L_52 = { (void*)Lexer_State11_m3765_MethodInfo_var };
 		StateHandler_t724 * L_53 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_53, NULL, L_52, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_53, NULL, L_52, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheA_24 = L_53;
 		G_B22_0 = G_B21_0;
@@ -6615,9 +6615,9 @@ IL_0163:
 		}
 	}
 	{
-		IntPtr_t L_57 = { (void*)Lexer_State12_m3763_MethodInfo_var };
+		IntPtr_t L_57 = { (void*)Lexer_State12_m3766_MethodInfo_var };
 		StateHandler_t724 * L_58 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_58, NULL, L_57, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_58, NULL, L_57, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheB_25 = L_58;
 		G_B24_0 = G_B23_0;
@@ -6647,9 +6647,9 @@ IL_0184:
 		}
 	}
 	{
-		IntPtr_t L_62 = { (void*)Lexer_State13_m3764_MethodInfo_var };
+		IntPtr_t L_62 = { (void*)Lexer_State13_m3767_MethodInfo_var };
 		StateHandler_t724 * L_63 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_63, NULL, L_62, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_63, NULL, L_62, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheC_26 = L_63;
 		G_B26_0 = G_B25_0;
@@ -6679,9 +6679,9 @@ IL_01a5:
 		}
 	}
 	{
-		IntPtr_t L_67 = { (void*)Lexer_State14_m3765_MethodInfo_var };
+		IntPtr_t L_67 = { (void*)Lexer_State14_m3768_MethodInfo_var };
 		StateHandler_t724 * L_68 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_68, NULL, L_67, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_68, NULL, L_67, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheD_27 = L_68;
 		G_B28_0 = G_B27_0;
@@ -6711,9 +6711,9 @@ IL_01c6:
 		}
 	}
 	{
-		IntPtr_t L_72 = { (void*)Lexer_State15_m3766_MethodInfo_var };
+		IntPtr_t L_72 = { (void*)Lexer_State15_m3769_MethodInfo_var };
 		StateHandler_t724 * L_73 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_73, NULL, L_72, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_73, NULL, L_72, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheE_28 = L_73;
 		G_B30_0 = G_B29_0;
@@ -6743,9 +6743,9 @@ IL_01e7:
 		}
 	}
 	{
-		IntPtr_t L_77 = { (void*)Lexer_State16_m3767_MethodInfo_var };
+		IntPtr_t L_77 = { (void*)Lexer_State16_m3770_MethodInfo_var };
 		StateHandler_t724 * L_78 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_78, NULL, L_77, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_78, NULL, L_77, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cacheF_29 = L_78;
 		G_B32_0 = G_B31_0;
@@ -6775,9 +6775,9 @@ IL_0208:
 		}
 	}
 	{
-		IntPtr_t L_82 = { (void*)Lexer_State17_m3768_MethodInfo_var };
+		IntPtr_t L_82 = { (void*)Lexer_State17_m3771_MethodInfo_var };
 		StateHandler_t724 * L_83 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_83, NULL, L_82, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_83, NULL, L_82, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache10_30 = L_83;
 		G_B34_0 = G_B33_0;
@@ -6807,9 +6807,9 @@ IL_0229:
 		}
 	}
 	{
-		IntPtr_t L_87 = { (void*)Lexer_State18_m3769_MethodInfo_var };
+		IntPtr_t L_87 = { (void*)Lexer_State18_m3772_MethodInfo_var };
 		StateHandler_t724 * L_88 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_88, NULL, L_87, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_88, NULL, L_87, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache11_31 = L_88;
 		G_B36_0 = G_B35_0;
@@ -6839,9 +6839,9 @@ IL_024a:
 		}
 	}
 	{
-		IntPtr_t L_92 = { (void*)Lexer_State19_m3770_MethodInfo_var };
+		IntPtr_t L_92 = { (void*)Lexer_State19_m3773_MethodInfo_var };
 		StateHandler_t724 * L_93 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_93, NULL, L_92, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_93, NULL, L_92, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache12_32 = L_93;
 		G_B38_0 = G_B37_0;
@@ -6871,9 +6871,9 @@ IL_026b:
 		}
 	}
 	{
-		IntPtr_t L_97 = { (void*)Lexer_State20_m3771_MethodInfo_var };
+		IntPtr_t L_97 = { (void*)Lexer_State20_m3774_MethodInfo_var };
 		StateHandler_t724 * L_98 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_98, NULL, L_97, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_98, NULL, L_97, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache13_33 = L_98;
 		G_B40_0 = G_B39_0;
@@ -6903,9 +6903,9 @@ IL_028c:
 		}
 	}
 	{
-		IntPtr_t L_102 = { (void*)Lexer_State21_m3772_MethodInfo_var };
+		IntPtr_t L_102 = { (void*)Lexer_State21_m3775_MethodInfo_var };
 		StateHandler_t724 * L_103 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_103, NULL, L_102, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_103, NULL, L_102, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache14_34 = L_103;
 		G_B42_0 = G_B41_0;
@@ -6935,9 +6935,9 @@ IL_02ad:
 		}
 	}
 	{
-		IntPtr_t L_107 = { (void*)Lexer_State22_m3773_MethodInfo_var };
+		IntPtr_t L_107 = { (void*)Lexer_State22_m3776_MethodInfo_var };
 		StateHandler_t724 * L_108 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_108, NULL, L_107, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_108, NULL, L_107, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache15_35 = L_108;
 		G_B44_0 = G_B43_0;
@@ -6967,9 +6967,9 @@ IL_02ce:
 		}
 	}
 	{
-		IntPtr_t L_112 = { (void*)Lexer_State23_m3774_MethodInfo_var };
+		IntPtr_t L_112 = { (void*)Lexer_State23_m3777_MethodInfo_var };
 		StateHandler_t724 * L_113 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_113, NULL, L_112, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_113, NULL, L_112, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache16_36 = L_113;
 		G_B46_0 = G_B45_0;
@@ -6999,9 +6999,9 @@ IL_02ef:
 		}
 	}
 	{
-		IntPtr_t L_117 = { (void*)Lexer_State24_m3775_MethodInfo_var };
+		IntPtr_t L_117 = { (void*)Lexer_State24_m3778_MethodInfo_var };
 		StateHandler_t724 * L_118 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_118, NULL, L_117, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_118, NULL, L_117, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache17_37 = L_118;
 		G_B48_0 = G_B47_0;
@@ -7031,9 +7031,9 @@ IL_0310:
 		}
 	}
 	{
-		IntPtr_t L_122 = { (void*)Lexer_State25_m3776_MethodInfo_var };
+		IntPtr_t L_122 = { (void*)Lexer_State25_m3779_MethodInfo_var };
 		StateHandler_t724 * L_123 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_123, NULL, L_122, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_123, NULL, L_122, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache18_38 = L_123;
 		G_B50_0 = G_B49_0;
@@ -7063,9 +7063,9 @@ IL_0331:
 		}
 	}
 	{
-		IntPtr_t L_127 = { (void*)Lexer_State26_m3777_MethodInfo_var };
+		IntPtr_t L_127 = { (void*)Lexer_State26_m3780_MethodInfo_var };
 		StateHandler_t724 * L_128 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_128, NULL, L_127, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_128, NULL, L_127, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache19_39 = L_128;
 		G_B52_0 = G_B51_0;
@@ -7095,9 +7095,9 @@ IL_0352:
 		}
 	}
 	{
-		IntPtr_t L_132 = { (void*)Lexer_State27_m3778_MethodInfo_var };
+		IntPtr_t L_132 = { (void*)Lexer_State27_m3781_MethodInfo_var };
 		StateHandler_t724 * L_133 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_133, NULL, L_132, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_133, NULL, L_132, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache1A_40 = L_133;
 		G_B54_0 = G_B53_0;
@@ -7127,9 +7127,9 @@ IL_0373:
 		}
 	}
 	{
-		IntPtr_t L_137 = { (void*)Lexer_State28_m3779_MethodInfo_var };
+		IntPtr_t L_137 = { (void*)Lexer_State28_m3782_MethodInfo_var };
 		StateHandler_t724 * L_138 = (StateHandler_t724 *)il2cpp_codegen_object_new (StateHandler_t724_il2cpp_TypeInfo_var);
-		StateHandler__ctor_m3740(L_138, NULL, L_137, /*hidden argument*/NULL);
+		StateHandler__ctor_m3743(L_138, NULL, L_137, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__mgU24cache1B_41 = L_138;
 		G_B56_0 = G_B55_0;
@@ -7147,14 +7147,14 @@ IL_0394:
 		*((StateHandler_t724 **)(StateHandler_t724 **)SZArrayLdElema(G_B56_1, G_B56_0, sizeof(StateHandler_t724 *))) = (StateHandler_t724 *)L_139;
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___fsm_handler_table_1 = G_B56_2;
 		Int32U5BU5D_t46* L_140 = ((Int32U5BU5D_t46*)SZArrayNew(Int32U5BU5D_t46_il2cpp_TypeInfo_var, ((int32_t)28)));
-		RuntimeHelpers_InitializeArray_m614(NULL /*static, unused*/, (Array_t *)(Array_t *)L_140, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DC_12_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m622(NULL /*static, unused*/, (Array_t *)(Array_t *)L_140, LoadFieldToken(U3CPrivateImplementationDetailsU3EU7Bd7db51aeU2Dd199U2D4277U2Da2a4U2D4bdb68cd3ac9U7D_t729____U24fieldU2DC_12_FieldInfo_var), /*hidden argument*/NULL);
 		((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___fsm_return_table_0 = L_140;
 		return;
 	}
 }
 // System.Char LitJson.Lexer::ProcessEscChar(System.Int32)
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" uint16_t Lexer_ProcessEscChar_m3751 (Object_t * __this /* static, unused */, int32_t ___esc_char, const MethodInfo* method)
+extern "C" uint16_t Lexer_ProcessEscChar_m3754 (Object_t * __this /* static, unused */, int32_t ___esc_char, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7236,7 +7236,7 @@ IL_0052:
 	{
 		int32_t L_8 = ___esc_char;
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint16_t L_9 = Convert_ToChar_m3848(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		uint16_t L_9 = Convert_ToChar_m3851(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		return L_9;
 	}
 
@@ -7271,7 +7271,7 @@ IL_0067:
 	}
 }
 // System.Boolean LitJson.Lexer::State1(LitJson.FsmContext)
-extern "C" bool Lexer_State1_m3752 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State1_m3755 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -7353,7 +7353,7 @@ IL_0040:
 		NullCheck(L_19);
 		int32_t L_20 = (L_19->___input_char_7);
 		NullCheck(L_17);
-		StringBuilder_Append_m3849(L_17, (((int32_t)((uint16_t)L_20))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_17, (((int32_t)((uint16_t)L_20))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_21 = ___ctx;
 		NullCheck(L_21);
 		L_21->___NextState_1 = 3;
@@ -7507,7 +7507,7 @@ IL_0133:
 		NullCheck(L_42);
 		int32_t L_43 = (L_42->___input_char_7);
 		NullCheck(L_40);
-		StringBuilder_Append_m3849(L_40, (((int32_t)((uint16_t)L_43))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_40, (((int32_t)((uint16_t)L_43))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_44 = ___ctx;
 		NullCheck(L_44);
 		L_44->___NextState_1 = 2;
@@ -7527,7 +7527,7 @@ IL_0159:
 		NullCheck(L_49);
 		int32_t L_50 = (L_49->___input_char_7);
 		NullCheck(L_47);
-		StringBuilder_Append_m3849(L_47, (((int32_t)((uint16_t)L_50))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_47, (((int32_t)((uint16_t)L_50))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_51 = ___ctx;
 		NullCheck(L_51);
 		L_51->___NextState_1 = 4;
@@ -7625,7 +7625,7 @@ IL_01eb:
 		NullCheck(L_66);
 		Lexer_t715 * L_67 = (L_66->___L_2);
 		NullCheck(L_67);
-		bool L_68 = Lexer_GetChar_m3780(L_67, /*hidden argument*/NULL);
+		bool L_68 = Lexer_GetChar_m3783(L_67, /*hidden argument*/NULL);
 		if (L_68)
 		{
 			goto IL_0005;
@@ -7636,7 +7636,7 @@ IL_01eb:
 	}
 }
 // System.Boolean LitJson.Lexer::State2(LitJson.FsmContext)
-extern "C" bool Lexer_State2_m3753 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State2_m3756 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -7644,7 +7644,7 @@ extern "C" bool Lexer_State2_m3753 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -7678,7 +7678,7 @@ extern "C" bool Lexer_State2_m3753 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_12);
 		int32_t L_13 = (L_12->___input_char_7);
 		NullCheck(L_10);
-		StringBuilder_Append_m3849(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_14 = ___ctx;
 		NullCheck(L_14);
 		L_14->___NextState_1 = 3;
@@ -7716,7 +7716,7 @@ IL_006f:
 		NullCheck(L_23);
 		int32_t L_24 = (L_23->___input_char_7);
 		NullCheck(L_21);
-		StringBuilder_Append_m3849(L_21, (((int32_t)((uint16_t)L_24))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_21, (((int32_t)((uint16_t)L_24))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_25 = ___ctx;
 		NullCheck(L_25);
 		L_25->___NextState_1 = 4;
@@ -7729,7 +7729,7 @@ IL_0095:
 	}
 }
 // System.Boolean LitJson.Lexer::State3(LitJson.FsmContext)
-extern "C" bool Lexer_State3_m3754 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State3_m3757 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -7771,7 +7771,7 @@ IL_0005:
 		NullCheck(L_10);
 		int32_t L_11 = (L_10->___input_char_7);
 		NullCheck(L_8);
-		StringBuilder_Append_m3849(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
 		goto IL_0140;
 	}
 
@@ -7883,7 +7883,7 @@ IL_00d7:
 		NullCheck(L_31);
 		Lexer_t715 * L_32 = (L_31->___L_2);
 		NullCheck(L_32);
-		Lexer_UngetChar_m3783(L_32, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_32, /*hidden argument*/NULL);
 		FsmContext_t723 * L_33 = ___ctx;
 		NullCheck(L_33);
 		L_33->___Return_0 = 1;
@@ -7906,7 +7906,7 @@ IL_00f2:
 		NullCheck(L_39);
 		int32_t L_40 = (L_39->___input_char_7);
 		NullCheck(L_37);
-		StringBuilder_Append_m3849(L_37, (((int32_t)((uint16_t)L_40))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_37, (((int32_t)((uint16_t)L_40))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_41 = ___ctx;
 		NullCheck(L_41);
 		L_41->___NextState_1 = 5;
@@ -7926,7 +7926,7 @@ IL_0118:
 		NullCheck(L_46);
 		int32_t L_47 = (L_46->___input_char_7);
 		NullCheck(L_44);
-		StringBuilder_Append_m3849(L_44, (((int32_t)((uint16_t)L_47))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_44, (((int32_t)((uint16_t)L_47))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_48 = ___ctx;
 		NullCheck(L_48);
 		L_48->___NextState_1 = 7;
@@ -7944,7 +7944,7 @@ IL_0140:
 		NullCheck(L_49);
 		Lexer_t715 * L_50 = (L_49->___L_2);
 		NullCheck(L_50);
-		bool L_51 = Lexer_GetChar_m3780(L_50, /*hidden argument*/NULL);
+		bool L_51 = Lexer_GetChar_m3783(L_50, /*hidden argument*/NULL);
 		if (L_51)
 		{
 			goto IL_0005;
@@ -7955,7 +7955,7 @@ IL_0140:
 	}
 }
 // System.Boolean LitJson.Lexer::State4(LitJson.FsmContext)
-extern "C" bool Lexer_State4_m3755 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State4_m3758 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -7963,7 +7963,7 @@ extern "C" bool Lexer_State4_m3755 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8070,7 +8070,7 @@ IL_0098:
 		NullCheck(L_21);
 		Lexer_t715 * L_22 = (L_21->___L_2);
 		NullCheck(L_22);
-		Lexer_UngetChar_m3783(L_22, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_22, /*hidden argument*/NULL);
 		FsmContext_t723 * L_23 = ___ctx;
 		NullCheck(L_23);
 		L_23->___Return_0 = 1;
@@ -8093,7 +8093,7 @@ IL_00b3:
 		NullCheck(L_29);
 		int32_t L_30 = (L_29->___input_char_7);
 		NullCheck(L_27);
-		StringBuilder_Append_m3849(L_27, (((int32_t)((uint16_t)L_30))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_27, (((int32_t)((uint16_t)L_30))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_31 = ___ctx;
 		NullCheck(L_31);
 		L_31->___NextState_1 = 5;
@@ -8113,7 +8113,7 @@ IL_00d9:
 		NullCheck(L_36);
 		int32_t L_37 = (L_36->___input_char_7);
 		NullCheck(L_34);
-		StringBuilder_Append_m3849(L_34, (((int32_t)((uint16_t)L_37))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_34, (((int32_t)((uint16_t)L_37))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_38 = ___ctx;
 		NullCheck(L_38);
 		L_38->___NextState_1 = 7;
@@ -8126,14 +8126,14 @@ IL_00ff:
 	}
 }
 // System.Boolean LitJson.Lexer::State5(LitJson.FsmContext)
-extern "C" bool Lexer_State5_m3756 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State5_m3759 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	{
 		FsmContext_t723 * L_0 = ___ctx;
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8167,7 +8167,7 @@ extern "C" bool Lexer_State5_m3756 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_12);
 		int32_t L_13 = (L_12->___input_char_7);
 		NullCheck(L_10);
-		StringBuilder_Append_m3849(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_14 = ___ctx;
 		NullCheck(L_14);
 		L_14->___NextState_1 = 6;
@@ -8180,7 +8180,7 @@ IL_0056:
 	}
 }
 // System.Boolean LitJson.Lexer::State6(LitJson.FsmContext)
-extern "C" bool Lexer_State6_m3757 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State6_m3760 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8222,7 +8222,7 @@ IL_0005:
 		NullCheck(L_10);
 		int32_t L_11 = (L_10->___input_char_7);
 		NullCheck(L_8);
-		StringBuilder_Append_m3849(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
 		goto IL_010d;
 	}
 
@@ -8324,7 +8324,7 @@ IL_00ca:
 		NullCheck(L_31);
 		Lexer_t715 * L_32 = (L_31->___L_2);
 		NullCheck(L_32);
-		Lexer_UngetChar_m3783(L_32, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_32, /*hidden argument*/NULL);
 		FsmContext_t723 * L_33 = ___ctx;
 		NullCheck(L_33);
 		L_33->___Return_0 = 1;
@@ -8347,7 +8347,7 @@ IL_00e5:
 		NullCheck(L_39);
 		int32_t L_40 = (L_39->___input_char_7);
 		NullCheck(L_37);
-		StringBuilder_Append_m3849(L_37, (((int32_t)((uint16_t)L_40))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_37, (((int32_t)((uint16_t)L_40))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_41 = ___ctx;
 		NullCheck(L_41);
 		L_41->___NextState_1 = 7;
@@ -8365,7 +8365,7 @@ IL_010d:
 		NullCheck(L_42);
 		Lexer_t715 * L_43 = (L_42->___L_2);
 		NullCheck(L_43);
-		bool L_44 = Lexer_GetChar_m3780(L_43, /*hidden argument*/NULL);
+		bool L_44 = Lexer_GetChar_m3783(L_43, /*hidden argument*/NULL);
 		if (L_44)
 		{
 			goto IL_0005;
@@ -8376,7 +8376,7 @@ IL_010d:
 	}
 }
 // System.Boolean LitJson.Lexer::State7(LitJson.FsmContext)
-extern "C" bool Lexer_State7_m3758 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State7_m3761 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8384,7 +8384,7 @@ extern "C" bool Lexer_State7_m3758 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8418,7 +8418,7 @@ extern "C" bool Lexer_State7_m3758 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_12);
 		int32_t L_13 = (L_12->___input_char_7);
 		NullCheck(L_10);
-		StringBuilder_Append_m3849(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_10, (((int32_t)((uint16_t)L_13))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_14 = ___ctx;
 		NullCheck(L_14);
 		L_14->___NextState_1 = 8;
@@ -8463,7 +8463,7 @@ IL_0077:
 		NullCheck(L_24);
 		int32_t L_25 = (L_24->___input_char_7);
 		NullCheck(L_22);
-		StringBuilder_Append_m3849(L_22, (((int32_t)((uint16_t)L_25))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_22, (((int32_t)((uint16_t)L_25))), /*hidden argument*/NULL);
 		FsmContext_t723 * L_26 = ___ctx;
 		NullCheck(L_26);
 		L_26->___NextState_1 = 8;
@@ -8476,7 +8476,7 @@ IL_009d:
 	}
 }
 // System.Boolean LitJson.Lexer::State8(LitJson.FsmContext)
-extern "C" bool Lexer_State8_m3759 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State8_m3762 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8518,7 +8518,7 @@ IL_0005:
 		NullCheck(L_10);
 		int32_t L_11 = (L_10->___input_char_7);
 		NullCheck(L_8);
-		StringBuilder_Append_m3849(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_8, (((int32_t)((uint16_t)L_11))), /*hidden argument*/NULL);
 		goto IL_00d7;
 	}
 
@@ -8606,7 +8606,7 @@ IL_00ba:
 		NullCheck(L_29);
 		Lexer_t715 * L_30 = (L_29->___L_2);
 		NullCheck(L_30);
-		Lexer_UngetChar_m3783(L_30, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_30, /*hidden argument*/NULL);
 		FsmContext_t723 * L_31 = ___ctx;
 		NullCheck(L_31);
 		L_31->___Return_0 = 1;
@@ -8627,7 +8627,7 @@ IL_00d7:
 		NullCheck(L_33);
 		Lexer_t715 * L_34 = (L_33->___L_2);
 		NullCheck(L_34);
-		bool L_35 = Lexer_GetChar_m3780(L_34, /*hidden argument*/NULL);
+		bool L_35 = Lexer_GetChar_m3783(L_34, /*hidden argument*/NULL);
 		if (L_35)
 		{
 			goto IL_0005;
@@ -8638,7 +8638,7 @@ IL_00d7:
 	}
 }
 // System.Boolean LitJson.Lexer::State9(LitJson.FsmContext)
-extern "C" bool Lexer_State9_m3760 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State9_m3763 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8646,7 +8646,7 @@ extern "C" bool Lexer_State9_m3760 (Object_t * __this /* static, unused */, FsmC
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8677,7 +8677,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State10(LitJson.FsmContext)
-extern "C" bool Lexer_State10_m3761 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State10_m3764 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8685,7 +8685,7 @@ extern "C" bool Lexer_State10_m3761 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8716,7 +8716,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State11(LitJson.FsmContext)
-extern "C" bool Lexer_State11_m3762 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State11_m3765 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8724,7 +8724,7 @@ extern "C" bool Lexer_State11_m3762 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8758,7 +8758,7 @@ IL_0035:
 	}
 }
 // System.Boolean LitJson.Lexer::State12(LitJson.FsmContext)
-extern "C" bool Lexer_State12_m3763 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State12_m3766 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8766,7 +8766,7 @@ extern "C" bool Lexer_State12_m3763 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8797,7 +8797,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State13(LitJson.FsmContext)
-extern "C" bool Lexer_State13_m3764 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State13_m3767 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8805,7 +8805,7 @@ extern "C" bool Lexer_State13_m3764 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8836,7 +8836,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State14(LitJson.FsmContext)
-extern "C" bool Lexer_State14_m3765 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State14_m3768 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8844,7 +8844,7 @@ extern "C" bool Lexer_State14_m3765 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8875,7 +8875,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State15(LitJson.FsmContext)
-extern "C" bool Lexer_State15_m3766 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State15_m3769 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8883,7 +8883,7 @@ extern "C" bool Lexer_State15_m3766 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8917,7 +8917,7 @@ IL_0035:
 	}
 }
 // System.Boolean LitJson.Lexer::State16(LitJson.FsmContext)
-extern "C" bool Lexer_State16_m3767 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State16_m3770 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8925,7 +8925,7 @@ extern "C" bool Lexer_State16_m3767 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8956,7 +8956,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State17(LitJson.FsmContext)
-extern "C" bool Lexer_State17_m3768 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State17_m3771 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -8964,7 +8964,7 @@ extern "C" bool Lexer_State17_m3768 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -8995,7 +8995,7 @@ IL_002f:
 	}
 }
 // System.Boolean LitJson.Lexer::State18(LitJson.FsmContext)
-extern "C" bool Lexer_State18_m3769 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State18_m3772 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9003,7 +9003,7 @@ extern "C" bool Lexer_State18_m3769 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -9037,7 +9037,7 @@ IL_0035:
 	}
 }
 // System.Boolean LitJson.Lexer::State19(LitJson.FsmContext)
-extern "C" bool Lexer_State19_m3770 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State19_m3773 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9075,7 +9075,7 @@ IL_0026:
 		NullCheck(L_5);
 		Lexer_t715 * L_6 = (L_5->___L_2);
 		NullCheck(L_6);
-		Lexer_UngetChar_m3783(L_6, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_6, /*hidden argument*/NULL);
 		FsmContext_t723 * L_7 = ___ctx;
 		NullCheck(L_7);
 		L_7->___Return_0 = 1;
@@ -9109,7 +9109,7 @@ IL_0054:
 		NullCheck(L_15);
 		int32_t L_16 = (L_15->___input_char_7);
 		NullCheck(L_13);
-		StringBuilder_Append_m3849(L_13, (((int32_t)((uint16_t)L_16))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_13, (((int32_t)((uint16_t)L_16))), /*hidden argument*/NULL);
 		goto IL_0076;
 	}
 
@@ -9119,7 +9119,7 @@ IL_0076:
 		NullCheck(L_17);
 		Lexer_t715 * L_18 = (L_17->___L_2);
 		NullCheck(L_18);
-		bool L_19 = Lexer_GetChar_m3780(L_18, /*hidden argument*/NULL);
+		bool L_19 = Lexer_GetChar_m3783(L_18, /*hidden argument*/NULL);
 		if (L_19)
 		{
 			goto IL_0005;
@@ -9130,7 +9130,7 @@ IL_0076:
 	}
 }
 // System.Boolean LitJson.Lexer::State20(LitJson.FsmContext)
-extern "C" bool Lexer_State20_m3771 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State20_m3774 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9138,7 +9138,7 @@ extern "C" bool Lexer_State20_m3771 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -9173,7 +9173,7 @@ IL_0035:
 }
 // System.Boolean LitJson.Lexer::State21(LitJson.FsmContext)
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
-extern "C" bool Lexer_State21_m3772 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State21_m3775 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9187,7 +9187,7 @@ extern "C" bool Lexer_State21_m3772 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -9288,9 +9288,9 @@ IL_0078:
 		NullCheck(L_18);
 		int32_t L_19 = (L_18->___input_char_7);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
-		uint16_t L_20 = Lexer_ProcessEscChar_m3751(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		uint16_t L_20 = Lexer_ProcessEscChar_m3754(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		StringBuilder_Append_m3849(L_16, L_20, /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_16, L_20, /*hidden argument*/NULL);
 		FsmContext_t723 * L_21 = ___ctx;
 		FsmContext_t723 * L_22 = ___ctx;
 		NullCheck(L_22);
@@ -9308,7 +9308,7 @@ IL_00a7:
 // System.Boolean LitJson.Lexer::State22(LitJson.FsmContext)
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
 extern TypeInfo* Convert_t663_il2cpp_TypeInfo_var;
-extern "C" bool Lexer_State22_m3773 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State22_m3776 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9416,7 +9416,7 @@ IL_0085:
 		NullCheck(L_25);
 		int32_t L_26 = (L_25->___input_char_7);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
-		int32_t L_27 = Lexer_HexValue_m3749(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		int32_t L_27 = Lexer_HexValue_m3752(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
 		int32_t L_28 = V_1;
 		NullCheck(L_22);
 		L_22->___unichar_13 = ((int32_t)((int32_t)L_23+(int32_t)((int32_t)((int32_t)L_27*(int32_t)L_28))));
@@ -9442,9 +9442,9 @@ IL_0085:
 		NullCheck(L_36);
 		int32_t L_37 = (L_36->___unichar_13);
 		IL2CPP_RUNTIME_CLASS_INIT(Convert_t663_il2cpp_TypeInfo_var);
-		uint16_t L_38 = Convert_ToChar_m3848(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
+		uint16_t L_38 = Convert_ToChar_m3851(NULL /*static, unused*/, L_37, /*hidden argument*/NULL);
 		NullCheck(L_34);
-		StringBuilder_Append_m3849(L_34, L_38, /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_34, L_38, /*hidden argument*/NULL);
 		FsmContext_t723 * L_39 = ___ctx;
 		FsmContext_t723 * L_40 = ___ctx;
 		NullCheck(L_40);
@@ -9470,7 +9470,7 @@ IL_00ef:
 		NullCheck(L_42);
 		Lexer_t715 * L_43 = (L_42->___L_2);
 		NullCheck(L_43);
-		bool L_44 = Lexer_GetChar_m3780(L_43, /*hidden argument*/NULL);
+		bool L_44 = Lexer_GetChar_m3783(L_43, /*hidden argument*/NULL);
 		if (L_44)
 		{
 			goto IL_0019;
@@ -9481,7 +9481,7 @@ IL_00ef:
 	}
 }
 // System.Boolean LitJson.Lexer::State23(LitJson.FsmContext)
-extern "C" bool Lexer_State23_m3774 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State23_m3777 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9519,7 +9519,7 @@ IL_0026:
 		NullCheck(L_5);
 		Lexer_t715 * L_6 = (L_5->___L_2);
 		NullCheck(L_6);
-		Lexer_UngetChar_m3783(L_6, /*hidden argument*/NULL);
+		Lexer_UngetChar_m3786(L_6, /*hidden argument*/NULL);
 		FsmContext_t723 * L_7 = ___ctx;
 		NullCheck(L_7);
 		L_7->___Return_0 = 1;
@@ -9553,7 +9553,7 @@ IL_0054:
 		NullCheck(L_15);
 		int32_t L_16 = (L_15->___input_char_7);
 		NullCheck(L_13);
-		StringBuilder_Append_m3849(L_13, (((int32_t)((uint16_t)L_16))), /*hidden argument*/NULL);
+		StringBuilder_Append_m3852(L_13, (((int32_t)((uint16_t)L_16))), /*hidden argument*/NULL);
 		goto IL_0076;
 	}
 
@@ -9563,7 +9563,7 @@ IL_0076:
 		NullCheck(L_17);
 		Lexer_t715 * L_18 = (L_17->___L_2);
 		NullCheck(L_18);
-		bool L_19 = Lexer_GetChar_m3780(L_18, /*hidden argument*/NULL);
+		bool L_19 = Lexer_GetChar_m3783(L_18, /*hidden argument*/NULL);
 		if (L_19)
 		{
 			goto IL_0005;
@@ -9574,7 +9574,7 @@ IL_0076:
 	}
 }
 // System.Boolean LitJson.Lexer::State24(LitJson.FsmContext)
-extern "C" bool Lexer_State24_m3775 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State24_m3778 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9582,7 +9582,7 @@ extern "C" bool Lexer_State24_m3775 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -9621,7 +9621,7 @@ IL_0042:
 	}
 }
 // System.Boolean LitJson.Lexer::State25(LitJson.FsmContext)
-extern "C" bool Lexer_State25_m3776 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State25_m3779 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9629,7 +9629,7 @@ extern "C" bool Lexer_State25_m3776 (Object_t * __this /* static, unused */, Fsm
 		NullCheck(L_0);
 		Lexer_t715 * L_1 = (L_0->___L_2);
 		NullCheck(L_1);
-		Lexer_GetChar_m3780(L_1, /*hidden argument*/NULL);
+		Lexer_GetChar_m3783(L_1, /*hidden argument*/NULL);
 		FsmContext_t723 * L_2 = ___ctx;
 		NullCheck(L_2);
 		Lexer_t715 * L_3 = (L_2->___L_2);
@@ -9675,7 +9675,7 @@ IL_0041:
 	}
 }
 // System.Boolean LitJson.Lexer::State26(LitJson.FsmContext)
-extern "C" bool Lexer_State26_m3777 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State26_m3780 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	{
 		goto IL_0020;
@@ -9706,7 +9706,7 @@ IL_0020:
 		NullCheck(L_4);
 		Lexer_t715 * L_5 = (L_4->___L_2);
 		NullCheck(L_5);
-		bool L_6 = Lexer_GetChar_m3780(L_5, /*hidden argument*/NULL);
+		bool L_6 = Lexer_GetChar_m3783(L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0005;
@@ -9717,7 +9717,7 @@ IL_0020:
 	}
 }
 // System.Boolean LitJson.Lexer::State27(LitJson.FsmContext)
-extern "C" bool Lexer_State27_m3778 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State27_m3781 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	{
 		goto IL_0021;
@@ -9748,7 +9748,7 @@ IL_0021:
 		NullCheck(L_4);
 		Lexer_t715 * L_5 = (L_4->___L_2);
 		NullCheck(L_5);
-		bool L_6 = Lexer_GetChar_m3780(L_5, /*hidden argument*/NULL);
+		bool L_6 = Lexer_GetChar_m3783(L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0005;
@@ -9759,7 +9759,7 @@ IL_0021:
 	}
 }
 // System.Boolean LitJson.Lexer::State28(LitJson.FsmContext)
-extern "C" bool Lexer_State28_m3779 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
+extern "C" bool Lexer_State28_m3782 (Object_t * __this /* static, unused */, FsmContext_t723 * ___ctx, const MethodInfo* method)
 {
 	{
 		goto IL_0041;
@@ -9814,7 +9814,7 @@ IL_0041:
 		NullCheck(L_8);
 		Lexer_t715 * L_9 = (L_8->___L_2);
 		NullCheck(L_9);
-		bool L_10 = Lexer_GetChar_m3780(L_9, /*hidden argument*/NULL);
+		bool L_10 = Lexer_GetChar_m3783(L_9, /*hidden argument*/NULL);
 		if (L_10)
 		{
 			goto IL_0005;
@@ -9825,11 +9825,11 @@ IL_0041:
 	}
 }
 // System.Boolean LitJson.Lexer::GetChar()
-extern "C" bool Lexer_GetChar_m3780 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" bool Lexer_GetChar_m3783 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = Lexer_NextChar_m3781(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Lexer_NextChar_m3784(__this, /*hidden argument*/NULL);
 		int32_t L_1 = L_0;
 		V_0 = L_1;
 		__this->___input_char_7 = L_1;
@@ -9850,7 +9850,7 @@ IL_0017:
 	}
 }
 // System.Int32 LitJson.Lexer::NextChar()
-extern "C" int32_t Lexer_NextChar_m3781 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" int32_t Lexer_NextChar_m3784 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -9879,7 +9879,7 @@ IL_001b:
 // System.Boolean LitJson.Lexer::NextToken()
 extern TypeInfo* Lexer_t715_il2cpp_TypeInfo_var;
 extern TypeInfo* JsonException_t694_il2cpp_TypeInfo_var;
-extern "C" bool Lexer_NextToken_m3782 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" bool Lexer_NextToken_m3785 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9907,7 +9907,7 @@ IL_000c:
 		StateHandler_t724 * L_4 = V_0;
 		FsmContext_t723 * L_5 = (__this->___fsm_context_5);
 		NullCheck(L_4);
-		bool L_6 = StateHandler_Invoke_m3741(L_4, L_5, /*hidden argument*/NULL);
+		bool L_6 = StateHandler_Invoke_m3744(L_4, L_5, /*hidden argument*/NULL);
 		if (L_6)
 		{
 			goto IL_0038;
@@ -9916,7 +9916,7 @@ IL_000c:
 	{
 		int32_t L_7 = (__this->___input_char_7);
 		JsonException_t694 * L_8 = (JsonException_t694 *)il2cpp_codegen_object_new (JsonException_t694_il2cpp_TypeInfo_var);
-		JsonException__ctor_m3669(L_8, L_7, /*hidden argument*/NULL);
+		JsonException__ctor_m3672(L_8, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception((Il2CppCodeGenException*)L_8);
 	}
 
@@ -9950,9 +9950,9 @@ IL_0045:
 		StringBuilder_t393 * L_14 = (__this->___string_buffer_10);
 		StringBuilder_t393 * L_15 = (__this->___string_buffer_10);
 		NullCheck(L_15);
-		int32_t L_16 = StringBuilder_get_Length_m3850(L_15, /*hidden argument*/NULL);
+		int32_t L_16 = StringBuilder_get_Length_m3853(L_15, /*hidden argument*/NULL);
 		NullCheck(L_14);
-		StringBuilder_Remove_m3851(L_14, 0, L_16, /*hidden argument*/NULL);
+		StringBuilder_Remove_m3854(L_14, 0, L_16, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Lexer_t715_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t46* L_17 = ((Lexer_t715_StaticFields*)Lexer_t715_il2cpp_TypeInfo_var->static_fields)->___fsm_return_table_0;
 		int32_t L_18 = (__this->___state_9);
@@ -9990,7 +9990,7 @@ IL_00c1:
 	}
 }
 // System.Void LitJson.Lexer::UngetChar()
-extern "C" void Lexer_UngetChar_m3783 (Lexer_t715 * __this, const MethodInfo* method)
+extern "C" void Lexer_UngetChar_m3786 (Lexer_t715 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___input_char_7);

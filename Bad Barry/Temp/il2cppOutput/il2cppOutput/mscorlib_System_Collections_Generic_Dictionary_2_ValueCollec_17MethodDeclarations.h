@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>
-struct Dictionary_2_t2411;
+struct Dictionary_2_t2422;
 // System.Object
 struct Object_t;
 
@@ -22,20 +22,20 @@ struct Object_t;
 #include "LitJson_LitJson_ArrayMetadata.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void Enumerator__ctor_m18271_gshared (Enumerator_t2415 * __this, Dictionary_2_t2411 * ___host, const MethodInfo* method);
-#define Enumerator__ctor_m18271(__this, ___host, method) (( void (*) (Enumerator_t2415 *, Dictionary_2_t2411 *, const MethodInfo*))Enumerator__ctor_m18271_gshared)(__this, ___host, method)
+extern "C" void Enumerator__ctor_m18364_gshared (Enumerator_t2426 * __this, Dictionary_2_t2422 * ___host, const MethodInfo* method);
+#define Enumerator__ctor_m18364(__this, ___host, method) (( void (*) (Enumerator_t2426 *, Dictionary_2_t2422 *, const MethodInfo*))Enumerator__ctor_m18364_gshared)(__this, ___host, method)
 // System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m18272_gshared (Enumerator_t2415 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_get_Current_m18272(__this, method) (( Object_t * (*) (Enumerator_t2415 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m18272_gshared)(__this, method)
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m18365_gshared (Enumerator_t2426 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m18365(__this, method) (( Object_t * (*) (Enumerator_t2426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m18365_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m18273_gshared (Enumerator_t2415 * __this, const MethodInfo* method);
-#define Enumerator_System_Collections_IEnumerator_Reset_m18273(__this, method) (( void (*) (Enumerator_t2415 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m18273_gshared)(__this, method)
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m18366_gshared (Enumerator_t2426 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m18366(__this, method) (( void (*) (Enumerator_t2426 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m18366_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::Dispose()
-extern "C" void Enumerator_Dispose_m18274_gshared (Enumerator_t2415 * __this, const MethodInfo* method);
-#define Enumerator_Dispose_m18274(__this, method) (( void (*) (Enumerator_t2415 *, const MethodInfo*))Enumerator_Dispose_m18274_gshared)(__this, method)
+extern "C" void Enumerator_Dispose_m18367_gshared (Enumerator_t2426 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m18367(__this, method) (( void (*) (Enumerator_t2426 *, const MethodInfo*))Enumerator_Dispose_m18367_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::MoveNext()
-extern "C" bool Enumerator_MoveNext_m18275_gshared (Enumerator_t2415 * __this, const MethodInfo* method);
-#define Enumerator_MoveNext_m18275(__this, method) (( bool (*) (Enumerator_t2415 *, const MethodInfo*))Enumerator_MoveNext_m18275_gshared)(__this, method)
+extern "C" bool Enumerator_MoveNext_m18368_gshared (Enumerator_t2426 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m18368(__this, method) (( bool (*) (Enumerator_t2426 *, const MethodInfo*))Enumerator_MoveNext_m18368_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,LitJson.ArrayMetadata>::get_Current()
-extern "C" ArrayMetadata_t697  Enumerator_get_Current_m18276_gshared (Enumerator_t2415 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m18276(__this, method) (( ArrayMetadata_t697  (*) (Enumerator_t2415 *, const MethodInfo*))Enumerator_get_Current_m18276_gshared)(__this, method)
+extern "C" ArrayMetadata_t697  Enumerator_get_Current_m18369_gshared (Enumerator_t2426 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m18369(__this, method) (( ArrayMetadata_t697  (*) (Enumerator_t2426 *, const MethodInfo*))Enumerator_get_Current_m18369_gshared)(__this, method)

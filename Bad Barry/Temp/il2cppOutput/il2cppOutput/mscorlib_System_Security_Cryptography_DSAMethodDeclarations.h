@@ -21,14 +21,14 @@ struct String_t;
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
 
 // System.Void System.Security.Cryptography.DSA::.ctor()
-extern "C" void DSA__ctor_m9791 (DSA_t830 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA__ctor_m9873 (DSA_t830 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create()
-extern "C" DSA_t830 * DSA_Create_m4833 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t830 * DSA_Create_m4836 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.DSA System.Security.Cryptography.DSA::Create(System.String)
-extern "C" DSA_t830 * DSA_Create_m9792 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DSA_t830 * DSA_Create_m9874 (Object_t * __this /* static, unused */, String_t* ___algName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::ZeroizePrivateKey(System.Security.Cryptography.DSAParameters)
-extern "C" void DSA_ZeroizePrivateKey_m9793 (DSA_t830 * __this, DSAParameters_t933  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_ZeroizePrivateKey_m9875 (DSA_t830 * __this, DSAParameters_t933  ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.DSA::FromXmlString(System.String)
-extern "C" void DSA_FromXmlString_m9794 (DSA_t830 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DSA_FromXmlString_m9876 (DSA_t830 * __this, String_t* ___xmlString, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.DSA::ToXmlString(System.Boolean)
-extern "C" String_t* DSA_ToXmlString_m9795 (DSA_t830 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DSA_ToXmlString_m9877 (DSA_t830 * __this, bool ___includePrivateParameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;

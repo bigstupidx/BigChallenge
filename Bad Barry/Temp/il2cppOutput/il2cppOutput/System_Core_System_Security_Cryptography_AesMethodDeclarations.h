@@ -18,4 +18,4 @@ struct Aes_t775;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.Aes::.ctor()
-extern "C" void Aes__ctor_m3878 (Aes_t775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Aes__ctor_m3881 (Aes_t775 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

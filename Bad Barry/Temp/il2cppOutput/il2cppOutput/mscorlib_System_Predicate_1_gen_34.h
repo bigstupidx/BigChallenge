@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Predicate_1_t2303  : public MulticastDelegate_t264
+struct  Predicate_1_t2314  : public MulticastDelegate_t264
 {
 };

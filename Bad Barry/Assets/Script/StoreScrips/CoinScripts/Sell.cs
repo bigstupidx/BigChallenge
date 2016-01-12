@@ -22,24 +22,25 @@ public class Sell : MonoBehaviour {
 	}
 
 	void Update(){
-//
-//		itemPrice = ListBank.Instance.itemPrice;
-//
-//		var colors = button.colors;
-//
-//		if (!checkCoins (coin.Coins)){
-//			button.enabled = false;
-//			print ("button not enable");
-////			colors.normalColor.a = 0.3f;
-////			button.colors = colors;
-//		} else {
-//			button.enabled = true;
-//			print ("button enable");
-////			colors.normalColor.a = 255;
-////			button.colors = colors;
-//		}
-
-
+		itemPrice = ListBank.Instance.itemPrice;
+		
+		var colors = button.colors;
+		
+		if (!checkCoins (coin.Coins)){
+			//button.enabled = false;
+			colors.normalColor = Color.red;
+			colors.highlightedColor = Color.red;
+			colors.disabledColor = Color.red;
+			colors.pressedColor = Color.red;
+			button.colors = colors;
+		}  else {
+			//button.enabled = true;
+			colors.normalColor = Color.white;
+			colors.highlightedColor = Color.white;
+			colors.disabledColor = Color.white;
+			colors.pressedColor = Color.white;
+			button.colors = colors;
+		}
 	}
 
 	public void onBuyButtonClicked(){

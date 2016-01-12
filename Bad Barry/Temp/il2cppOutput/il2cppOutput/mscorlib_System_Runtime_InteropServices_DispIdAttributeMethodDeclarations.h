@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.InteropServices.DispIdAttribute
-struct DispIdAttribute_t1460;
+struct DispIdAttribute_t1469;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.DispIdAttribute::.ctor(System.Int32)
-extern "C" void DispIdAttribute__ctor_m8983 (DispIdAttribute_t1460 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DispIdAttribute__ctor_m9065 (DispIdAttribute_t1469 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t136;
+struct Camera_t138;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback

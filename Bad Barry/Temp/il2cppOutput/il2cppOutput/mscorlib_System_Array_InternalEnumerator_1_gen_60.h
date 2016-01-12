@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<LitJson.Lexer/StateHandler>
-struct  InternalEnumerator_1_t2481 
+struct  InternalEnumerator_1_t2492 
 {
 	// System.Array System.Array/InternalEnumerator`1<LitJson.Lexer/StateHandler>::array
 	Array_t * ___array_0;

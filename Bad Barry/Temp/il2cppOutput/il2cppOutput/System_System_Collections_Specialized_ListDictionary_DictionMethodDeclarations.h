@@ -20,4 +20,4 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Specialized.ListDictionary/DictionaryNode::.ctor(System.Object,System.Object,System.Collections.Specialized.ListDictionary/DictionaryNode)
-extern "C" void DictionaryNode__ctor_m4954 (DictionaryNode_t980 * __this, Object_t * ___key, Object_t * ___value, DictionaryNode_t980 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryNode__ctor_m4957 (DictionaryNode_t980 * __this, Object_t * ___key, Object_t * ___value, DictionaryNode_t980 * ___next, const MethodInfo* method) IL2CPP_METHOD_ATTR;

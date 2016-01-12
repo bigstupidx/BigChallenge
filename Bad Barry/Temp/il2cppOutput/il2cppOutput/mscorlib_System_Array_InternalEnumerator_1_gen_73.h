@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>
-struct  InternalEnumerator_1_t2511 
+struct  InternalEnumerator_1_t2522 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Text.RegularExpressions.Group>::array
 	Array_t * ___array_0;

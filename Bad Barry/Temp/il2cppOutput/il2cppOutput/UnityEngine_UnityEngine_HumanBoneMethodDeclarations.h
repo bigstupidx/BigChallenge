@@ -19,13 +19,13 @@ struct String_t;
 #include "UnityEngine_UnityEngine_HumanBone.h"
 
 // System.String UnityEngine.HumanBone::get_boneName()
-extern "C" String_t* HumanBone_get_boneName_m3214 (HumanBone_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* HumanBone_get_boneName_m3217 (HumanBone_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.HumanBone::set_boneName(System.String)
-extern "C" void HumanBone_set_boneName_m3215 (HumanBone_t564 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HumanBone_set_boneName_m3218 (HumanBone_t564 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.HumanBone::get_humanName()
-extern "C" String_t* HumanBone_get_humanName_m3216 (HumanBone_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* HumanBone_get_humanName_m3219 (HumanBone_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.HumanBone::set_humanName(System.String)
-extern "C" void HumanBone_set_humanName_m3217 (HumanBone_t564 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HumanBone_set_humanName_m3220 (HumanBone_t564 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void HumanBone_t564_marshal(const HumanBone_t564& unmarshaled, HumanBone_t564_marshaled& marshaled);
 extern "C" void HumanBone_t564_marshal_back(const HumanBone_t564_marshaled& marshaled, HumanBone_t564& unmarshaled);
 extern "C" void HumanBone_t564_marshal_cleanup(HumanBone_t564_marshaled& marshaled);

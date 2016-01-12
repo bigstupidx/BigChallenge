@@ -14,6 +14,6 @@
 #include "mscorlib_System_Exception.h"
 
 // System.Reflection.TargetException
-struct  TargetException_t1424  : public Exception_t115
+struct  TargetException_t1433  : public Exception_t115
 {
 };

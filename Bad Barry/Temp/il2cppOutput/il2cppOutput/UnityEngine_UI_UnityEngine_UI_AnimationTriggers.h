@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.UI.AnimationTriggers
-struct  AnimationTriggers_t204  : public Object_t
+struct  AnimationTriggers_t206  : public Object_t
 {
 	// System.String UnityEngine.UI.AnimationTriggers::m_NormalTrigger
 	String_t* ___m_NormalTrigger_4;

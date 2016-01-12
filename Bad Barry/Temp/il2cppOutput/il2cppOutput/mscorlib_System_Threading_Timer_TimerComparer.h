@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Threading.Timer/TimerComparer
-struct  TimerComparer_t1725  : public Object_t
+struct  TimerComparer_t1735  : public Object_t
 {
 };

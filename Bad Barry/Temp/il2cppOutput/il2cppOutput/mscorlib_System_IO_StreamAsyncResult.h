@@ -20,7 +20,7 @@ struct ManualResetEvent_t882;
 #include "mscorlib_System_Object.h"
 
 // System.IO.StreamAsyncResult
-struct  StreamAsyncResult_t1315  : public Object_t
+struct  StreamAsyncResult_t1324  : public Object_t
 {
 	// System.Object System.IO.StreamAsyncResult::state
 	Object_t * ___state_0;

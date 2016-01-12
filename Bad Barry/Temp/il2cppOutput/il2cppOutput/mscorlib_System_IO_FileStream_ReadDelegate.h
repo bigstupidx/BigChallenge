@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.IO.FileStream/ReadDelegate
-struct  ReadDelegate_t1304  : public MulticastDelegate_t264
+struct  ReadDelegate_t1313  : public MulticastDelegate_t264
 {
 };

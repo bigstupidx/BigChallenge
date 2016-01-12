@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t140;
+struct Vector3U5BU5D_t142;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct Vector3U5BU5D_t140;
 struct  RectangularVertexClipper_t288  : public Object_t
 {
 	// UnityEngine.Vector3[] UnityEngine.UI.RectangularVertexClipper::m_WorldCorners
-	Vector3U5BU5D_t140* ___m_WorldCorners_0;
+	Vector3U5BU5D_t142* ___m_WorldCorners_0;
 	// UnityEngine.Vector3[] UnityEngine.UI.RectangularVertexClipper::m_CanvasCorners
-	Vector3U5BU5D_t140* ___m_CanvasCorners_1;
+	Vector3U5BU5D_t142* ___m_CanvasCorners_1;
 };

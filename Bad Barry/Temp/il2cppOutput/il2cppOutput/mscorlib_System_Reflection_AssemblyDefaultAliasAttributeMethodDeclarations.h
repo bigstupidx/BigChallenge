@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyDefaultAliasAttribute
-struct AssemblyDefaultAliasAttribute_t1381;
+struct AssemblyDefaultAliasAttribute_t1390;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyDefaultAliasAttribute::.ctor(System.String)
-extern "C" void AssemblyDefaultAliasAttribute__ctor_m8598 (AssemblyDefaultAliasAttribute_t1381 * __this, String_t* ___defaultAlias, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDefaultAliasAttribute__ctor_m8680 (AssemblyDefaultAliasAttribute_t1390 * __this, String_t* ___defaultAlias, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.OperatingSystem
-struct OperatingSystem_t1761;
+struct OperatingSystem_t1771;
 
 #include "mscorlib_System_Object.h"
 
 // System.Environment
-struct  Environment_t1760  : public Object_t
+struct  Environment_t1770  : public Object_t
 {
 };
-struct Environment_t1760_StaticFields{
+struct Environment_t1770_StaticFields{
 	// System.OperatingSystem System.Environment::os
-	OperatingSystem_t1761 * ___os_0;
+	OperatingSystem_t1771 * ___os_0;
 };

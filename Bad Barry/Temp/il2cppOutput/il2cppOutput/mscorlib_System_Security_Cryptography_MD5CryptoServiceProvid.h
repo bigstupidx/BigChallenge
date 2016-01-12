@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Security_Cryptography_MD5.h"
 
 // System.Security.Cryptography.MD5CryptoServiceProvider
-struct  MD5CryptoServiceProvider_t1634  : public MD5_t945
+struct  MD5CryptoServiceProvider_t1643  : public MD5_t945
 {
 	// System.UInt32[] System.Security.Cryptography.MD5CryptoServiceProvider::_H
 	UInt32U5BU5D_t778* ____H_4;
@@ -31,7 +31,7 @@ struct  MD5CryptoServiceProvider_t1634  : public MD5_t945
 	// System.Int32 System.Security.Cryptography.MD5CryptoServiceProvider::_ProcessingBufferCount
 	int32_t ____ProcessingBufferCount_8;
 };
-struct MD5CryptoServiceProvider_t1634_StaticFields{
+struct MD5CryptoServiceProvider_t1643_StaticFields{
 	// System.UInt32[] System.Security.Cryptography.MD5CryptoServiceProvider::K
 	UInt32U5BU5D_t778* ___K_9;
 };

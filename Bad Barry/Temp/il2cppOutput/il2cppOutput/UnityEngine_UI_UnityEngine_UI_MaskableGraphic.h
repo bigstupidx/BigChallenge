@@ -11,23 +11,23 @@
 #include <stdint.h>
 
 // UnityEngine.Material
-struct Material_t233;
+struct Material_t234;
 // UnityEngine.UI.RectMask2D
 struct RectMask2D_t281;
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 struct CullStateChangedEvent_t279;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t140;
+struct Vector3U5BU5D_t142;
 
 #include "UnityEngine_UI_UnityEngine_UI_Graphic.h"
 
 // UnityEngine.UI.MaskableGraphic
-struct  MaskableGraphic_t253  : public Graphic_t232
+struct  MaskableGraphic_t253  : public Graphic_t233
 {
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculateStencil
 	bool ___m_ShouldRecalculateStencil_19;
 	// UnityEngine.Material UnityEngine.UI.MaskableGraphic::m_MaskMaterial
-	Material_t233 * ___m_MaskMaterial_20;
+	Material_t234 * ___m_MaskMaterial_20;
 	// UnityEngine.UI.RectMask2D UnityEngine.UI.MaskableGraphic::m_ParentMask
 	RectMask2D_t281 * ___m_ParentMask_21;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
@@ -41,5 +41,5 @@ struct  MaskableGraphic_t253  : public Graphic_t232
 	// System.Int32 UnityEngine.UI.MaskableGraphic::m_StencilValue
 	int32_t ___m_StencilValue_26;
 	// UnityEngine.Vector3[] UnityEngine.UI.MaskableGraphic::m_Corners
-	Vector3U5BU5D_t140* ___m_Corners_27;
+	Vector3U5BU5D_t142* ___m_Corners_27;
 };

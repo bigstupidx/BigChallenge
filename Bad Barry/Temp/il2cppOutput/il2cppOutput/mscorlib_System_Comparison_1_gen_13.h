@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t152;
+struct Entry_t154;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Comparison_1_t2034  : public MulticastDelegate_t264
+struct  Comparison_1_t2045  : public MulticastDelegate_t264
 {
 };

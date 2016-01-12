@@ -15,7 +15,7 @@
 #include "mscorlib_System_Reflection_ResourceAttributes.h"
 
 // System.Reflection.ResourceAttributes
-struct  ResourceAttributes_t1423 
+struct  ResourceAttributes_t1432 
 {
 	// System.Int32 System.Reflection.ResourceAttributes::value__
 	int32_t ___value___1;

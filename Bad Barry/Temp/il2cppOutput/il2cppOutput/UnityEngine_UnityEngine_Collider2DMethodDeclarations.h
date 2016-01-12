@@ -20,4 +20,4 @@ struct Rigidbody2D_t543;
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Rigidbody2D UnityEngine.Collider2D::get_attachedRigidbody()
-extern "C" Rigidbody2D_t543 * Collider2D_get_attachedRigidbody_m3142 (Collider2D_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rigidbody2D_t543 * Collider2D_get_attachedRigidbody_m3145 (Collider2D_t107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

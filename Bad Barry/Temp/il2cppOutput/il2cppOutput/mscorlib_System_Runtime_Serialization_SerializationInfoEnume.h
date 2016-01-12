@@ -16,7 +16,7 @@ struct IEnumerator_t109;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Serialization.SerializationInfoEnumerator
-struct  SerializationInfoEnumerator_t1617  : public Object_t
+struct  SerializationInfoEnumerator_t1626  : public Object_t
 {
 	// System.Collections.IEnumerator System.Runtime.Serialization.SerializationInfoEnumerator::enumerator
 	Object_t * ___enumerator_0;

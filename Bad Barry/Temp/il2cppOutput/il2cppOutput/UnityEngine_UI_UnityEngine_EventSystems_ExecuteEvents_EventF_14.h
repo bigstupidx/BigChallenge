@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISubmitHandler>
-struct  EventFunction_1_t172  : public MulticastDelegate_t264
+struct  EventFunction_1_t174  : public MulticastDelegate_t264
 {
 };

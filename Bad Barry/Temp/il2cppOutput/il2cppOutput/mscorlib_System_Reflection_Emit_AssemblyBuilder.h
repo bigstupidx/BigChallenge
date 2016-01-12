@@ -11,34 +11,34 @@
 #include <stdint.h>
 
 // System.Reflection.Emit.ModuleBuilder[]
-struct ModuleBuilderU5BU5D_t1329;
+struct ModuleBuilderU5BU5D_t1338;
 // System.String
 struct String_t;
 // System.Reflection.Emit.MonoResource[]
-struct MonoResourceU5BU5D_t1330;
+struct MonoResourceU5BU5D_t1339;
 // System.Reflection.Module[]
-struct ModuleU5BU5D_t1331;
+struct ModuleU5BU5D_t1340;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.Type
 struct Type_t;
 // Mono.Security.StrongName
-struct StrongName_t1235;
+struct StrongName_t1244;
 
 #include "mscorlib_System_Reflection_Assembly.h"
 #include "mscorlib_System_Reflection_Emit_PEFileKinds.h"
 
 // System.Reflection.Emit.AssemblyBuilder
-struct  AssemblyBuilder_t1328  : public Assembly_t1133
+struct  AssemblyBuilder_t1337  : public Assembly_t1133
 {
 	// System.Reflection.Emit.ModuleBuilder[] System.Reflection.Emit.AssemblyBuilder::modules
-	ModuleBuilderU5BU5D_t1329* ___modules_10;
+	ModuleBuilderU5BU5D_t1338* ___modules_10;
 	// System.String System.Reflection.Emit.AssemblyBuilder::name
 	String_t* ___name_11;
 	// System.String System.Reflection.Emit.AssemblyBuilder::dir
 	String_t* ___dir_12;
 	// System.Reflection.Emit.MonoResource[] System.Reflection.Emit.AssemblyBuilder::resources
-	MonoResourceU5BU5D_t1330* ___resources_13;
+	MonoResourceU5BU5D_t1339* ___resources_13;
 	// System.String System.Reflection.Emit.AssemblyBuilder::version
 	String_t* ___version_14;
 	// System.String System.Reflection.Emit.AssemblyBuilder::culture
@@ -50,7 +50,7 @@ struct  AssemblyBuilder_t1328  : public Assembly_t1133
 	// System.UInt32 System.Reflection.Emit.AssemblyBuilder::access
 	uint32_t ___access_18;
 	// System.Reflection.Module[] System.Reflection.Emit.AssemblyBuilder::loaded_modules
-	ModuleU5BU5D_t1331* ___loaded_modules_19;
+	ModuleU5BU5D_t1340* ___loaded_modules_19;
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::corlib_internal
 	bool ___corlib_internal_20;
 	// System.Byte[] System.Reflection.Emit.AssemblyBuilder::pktoken
@@ -68,7 +68,7 @@ struct  AssemblyBuilder_t1328  : public Assembly_t1133
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::is_module_only
 	bool ___is_module_only_27;
 	// Mono.Security.StrongName System.Reflection.Emit.AssemblyBuilder::sn
-	StrongName_t1235 * ___sn_28;
+	StrongName_t1244 * ___sn_28;
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::is_compiler_context
 	bool ___is_compiler_context_29;
 	// System.String System.Reflection.Emit.AssemblyBuilder::versioninfo_culture

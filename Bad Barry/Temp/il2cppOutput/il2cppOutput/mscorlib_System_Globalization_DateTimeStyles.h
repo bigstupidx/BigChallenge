@@ -15,7 +15,7 @@
 #include "mscorlib_System_Globalization_DateTimeStyles.h"
 
 // System.Globalization.DateTimeStyles
-struct  DateTimeStyles_t1282 
+struct  DateTimeStyles_t1291 
 {
 	// System.Int32 System.Globalization.DateTimeStyles::value__
 	int32_t ___value___1;

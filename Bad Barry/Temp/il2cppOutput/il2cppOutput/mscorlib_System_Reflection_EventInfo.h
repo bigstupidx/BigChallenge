@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Reflection.EventInfo/AddEventAdapter
-struct AddEventAdapter_t1402;
+struct AddEventAdapter_t1411;
 
 #include "mscorlib_System_Reflection_MemberInfo.h"
 
@@ -19,5 +19,5 @@ struct AddEventAdapter_t1402;
 struct  EventInfo_t  : public MemberInfo_t
 {
 	// System.Reflection.EventInfo/AddEventAdapter System.Reflection.EventInfo::cached_add_event
-	AddEventAdapter_t1402 * ___cached_add_event_0;
+	AddEventAdapter_t1411 * ___cached_add_event_0;
 };

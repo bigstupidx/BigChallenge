@@ -16,6 +16,8 @@ public class ListBank : MonoBehaviour
 	public int itemPrice;
 	public int itemID;
 
+	public RectTransform canvasRect;
+
 	private int[] contents = {
 		1, 2, 3, 4, 5
 	};
@@ -24,6 +26,7 @@ public class ListBank : MonoBehaviour
 
 		void Start(){
 
+			canvasRect = this.GetComponentInParent<Canvas> ().GetComponent<RectTransform>();
 			database = GetComponent<ItemDatabase> ();
 
 			for (int i = 0; i < database.getItemDataLength() ; i++) {

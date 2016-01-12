@@ -2,9 +2,10 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="GameBehavior">
 			<method name="GoToMap"/>
-			<method name="GoToInventoryScene"/>
 			<method name="GoToAtributesScreen"/>
+			<method name="GoToInventoryScene"/>
 			<method name="GoToStoreScene"/>
+			<method name="GoToLastScene"/>
 			<method name="GoToLastScene"/>
 			<method name="GoToMap"/>
 		</type>
@@ -23,14 +24,14 @@
 			<method name="ItemPressed"/>
 			<method name="ItemPressed"/>
 		</type>
-		<type fullname="HUDGame">
-			<method name="showMenu"/>
-		</type>
 		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
 			<method name="SetDownState"/>
 			<method name="SetUpState"/>
 			<method name="SetDownState"/>
 			<method name="SetUpState"/>
+		</type>
+		<type fullname="HUDGame">
+			<method name="showMenu"/>
 		</type>
 		<type fullname="Retry">
 			<method name="retry"/>

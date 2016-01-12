@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Contexts.Context
-struct Context_t1485;
+struct Context_t1494;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
-struct  ClientContextTerminatorSink_t1513  : public Object_t
+struct  ClientContextTerminatorSink_t1522  : public Object_t
 {
 	// System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.Messaging.ClientContextTerminatorSink::_context
-	Context_t1485 * ____context_0;
+	Context_t1494 * ____context_0;
 };

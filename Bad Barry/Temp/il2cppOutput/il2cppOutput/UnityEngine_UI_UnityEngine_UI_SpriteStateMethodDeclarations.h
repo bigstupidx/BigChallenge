@@ -19,14 +19,14 @@ struct Sprite_t67;
 #include "UnityEngine_UI_UnityEngine_UI_SpriteState.h"
 
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_highlightedSprite()
-extern "C" Sprite_t67 * SpriteState_get_highlightedSprite_m1730 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t67 * SpriteState_get_highlightedSprite_m1733 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_highlightedSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_highlightedSprite_m1731 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_highlightedSprite_m1734 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_pressedSprite()
-extern "C" Sprite_t67 * SpriteState_get_pressedSprite_m1732 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t67 * SpriteState_get_pressedSprite_m1735 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_pressedSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_pressedSprite_m1733 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_pressedSprite_m1736 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_disabledSprite()
-extern "C" Sprite_t67 * SpriteState_get_disabledSprite_m1734 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Sprite_t67 * SpriteState_get_disabledSprite_m1737 (SpriteState_t305 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.SpriteState::set_disabledSprite(UnityEngine.Sprite)
-extern "C" void SpriteState_set_disabledSprite_m1735 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SpriteState_set_disabledSprite_m1738 (SpriteState_t305 * __this, Sprite_t67 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

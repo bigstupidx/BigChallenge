@@ -20,7 +20,7 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_Object.h"
 
 // System.IO.FileStreamAsyncResult
-struct  FileStreamAsyncResult_t1306  : public Object_t
+struct  FileStreamAsyncResult_t1315  : public Object_t
 {
 	// System.Object System.IO.FileStreamAsyncResult::state
 	Object_t * ___state_0;

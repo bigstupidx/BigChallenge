@@ -17,7 +17,7 @@ struct List_1_t744;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>
-struct  Enumerator_t2395 
+struct  Enumerator_t2406 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,LitJson.JsonData>>::l
 	List_1_t744 * ___l_0;

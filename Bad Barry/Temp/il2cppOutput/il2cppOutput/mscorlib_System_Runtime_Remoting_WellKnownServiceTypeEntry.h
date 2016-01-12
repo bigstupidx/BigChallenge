@@ -19,7 +19,7 @@ struct String_t;
 #include "mscorlib_System_Runtime_Remoting_WellKnownObjectMode.h"
 
 // System.Runtime.Remoting.WellKnownServiceTypeEntry
-struct  WellKnownServiceTypeEntry_t1573  : public TypeEntry_t1548
+struct  WellKnownServiceTypeEntry_t1582  : public TypeEntry_t1557
 {
 	// System.Type System.Runtime.Remoting.WellKnownServiceTypeEntry::obj_type
 	Type_t * ___obj_type_2;

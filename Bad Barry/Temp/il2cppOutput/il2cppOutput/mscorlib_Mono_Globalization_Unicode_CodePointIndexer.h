@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange[]
-struct TableRangeU5BU5D_t1179;
+struct TableRangeU5BU5D_t1188;
 
 #include "mscorlib_System_Object.h"
 
 // Mono.Globalization.Unicode.CodePointIndexer
-struct  CodePointIndexer_t1178  : public Object_t
+struct  CodePointIndexer_t1187  : public Object_t
 {
 	// Mono.Globalization.Unicode.CodePointIndexer/TableRange[] Mono.Globalization.Unicode.CodePointIndexer::ranges
-	TableRangeU5BU5D_t1179* ___ranges_0;
+	TableRangeU5BU5D_t1188* ___ranges_0;
 	// System.Int32 Mono.Globalization.Unicode.CodePointIndexer::TotalCount
 	int32_t ___TotalCount_1;
 	// System.Int32 Mono.Globalization.Unicode.CodePointIndexer::defaultIndex

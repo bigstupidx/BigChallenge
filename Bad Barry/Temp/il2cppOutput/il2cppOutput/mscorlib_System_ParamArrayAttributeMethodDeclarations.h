@@ -18,4 +18,4 @@ struct ParamArrayAttribute_t1149;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.ParamArrayAttribute::.ctor()
-extern "C" void ParamArrayAttribute__ctor_m6745 (ParamArrayAttribute_t1149 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParamArrayAttribute__ctor_m6748 (ParamArrayAttribute_t1149 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -18,7 +18,7 @@ struct ByteU5BU5D_t772;
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.SHA1Internal
-struct  SHA1Internal_t1644  : public Object_t
+struct  SHA1Internal_t1653  : public Object_t
 {
 	// System.UInt32[] System.Security.Cryptography.SHA1Internal::_H
 	UInt32U5BU5D_t778* ____H_0;

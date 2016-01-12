@@ -14,6 +14,6 @@
 #include "mscorlib_System_TypeLoadException.h"
 
 // System.DllNotFoundException
-struct  DllNotFoundException_t1751  : public TypeLoadException_t1752
+struct  DllNotFoundException_t1761  : public TypeLoadException_t1762
 {
 };

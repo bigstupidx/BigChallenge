@@ -13,31 +13,31 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 // LitJson.ArrayMetadata[]
-struct ArrayMetadataU5BU5D_t2408;
+struct ArrayMetadataU5BU5D_t2419;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1910;
+struct IEqualityComparer_1_t1921;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,LitJson.ArrayMetadata,System.Collections.DictionaryEntry>
-struct Transform_1_t2412;
+struct Transform_1_t2423;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>
-struct  Dictionary_2_t2411  : public Object_t
+struct  Dictionary_2_t2422  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::keySlots
-	ObjectU5BU5D_t142* ___keySlots_6;
+	ObjectU5BU5D_t144* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::valueSlots
-	ArrayMetadataU5BU5D_t2408* ___valueSlots_7;
+	ArrayMetadataU5BU5D_t2419* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::emptySlot
@@ -53,7 +53,7 @@ struct  Dictionary_2_t2411  : public Object_t
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t2411_StaticFields{
+struct Dictionary_2_t2422_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>::<>f__am$cacheB
-	Transform_1_t2412 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t2423 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.MeshFilter>
-struct  InternalEnumerator_1_t1977 
+struct  InternalEnumerator_1_t1988 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityEngine.MeshFilter>::array
 	Array_t * ___array_0;

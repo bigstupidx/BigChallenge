@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // System.Math
-struct  Math_t1770  : public Object_t
+struct  Math_t1781  : public Object_t
 {
 };

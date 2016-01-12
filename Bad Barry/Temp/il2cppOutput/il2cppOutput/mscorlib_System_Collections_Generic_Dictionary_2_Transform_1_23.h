@@ -21,6 +21,6 @@ struct AsyncCallback_t266;
 #include "LitJson_LitJson_ObjectMetadata.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,LitJson.ObjectMetadata,LitJson.ObjectMetadata>
-struct  Transform_1_t2439  : public MulticastDelegate_t264
+struct  Transform_1_t2450  : public MulticastDelegate_t264
 {
 };

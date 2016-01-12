@@ -18,4 +18,4 @@ struct CLSCompliantAttribute_t1141;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.CLSCompliantAttribute::.ctor(System.Boolean)
-extern "C" void CLSCompliantAttribute__ctor_m6020 (CLSCompliantAttribute_t1141 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CLSCompliantAttribute__ctor_m6023 (CLSCompliantAttribute_t1141 * __this, bool ___isCompliant, const MethodInfo* method) IL2CPP_METHOD_ATTR;

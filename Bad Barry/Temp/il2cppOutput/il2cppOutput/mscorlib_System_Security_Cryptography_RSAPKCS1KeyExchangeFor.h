@@ -18,7 +18,7 @@ struct RandomNumberGenerator_t769;
 #include "mscorlib_System_Security_Cryptography_AsymmetricKeyExchangeF.h"
 
 // System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter
-struct  RSAPKCS1KeyExchangeFormatter_t970  : public AsymmetricKeyExchangeFormatter_t1621
+struct  RSAPKCS1KeyExchangeFormatter_t970  : public AsymmetricKeyExchangeFormatter_t1630
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter::rsa
 	RSA_t823 * ___rsa_0;

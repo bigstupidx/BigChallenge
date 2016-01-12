@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Threading.Thread
-struct Thread_t1495;
+struct Thread_t1504;
 // System.Globalization.NumberFormatInfo
 struct NumberFormatInfo_t722;
 // System.Char[]
 struct CharU5BU5D_t275;
 // System.NumberFormatter
-struct NumberFormatter_t1783;
+struct NumberFormatter_t1794;
 
 #include "mscorlib_System_Object.h"
 
 // System.NumberFormatter
-struct  NumberFormatter_t1783  : public Object_t
+struct  NumberFormatter_t1794  : public Object_t
 {
 	// System.Threading.Thread System.NumberFormatter::_thread
-	Thread_t1495 * ____thread_6;
+	Thread_t1504 * ____thread_6;
 	// System.Globalization.NumberFormatInfo System.NumberFormatter::_nfi
 	NumberFormatInfo_t722 * ____nfi_7;
 	// System.Boolean System.NumberFormatter::_NaN
@@ -63,7 +63,7 @@ struct  NumberFormatter_t1783  : public Object_t
 	// System.Int32 System.NumberFormatter::_ind
 	int32_t ____ind_24;
 };
-struct NumberFormatter_t1783_StaticFields{
+struct NumberFormatter_t1794_StaticFields{
 	// System.UInt64* System.NumberFormatter::MantissaBitsTable
 	uint64_t* ___MantissaBitsTable_0;
 	// System.Int32* System.NumberFormatter::TensExponentTable
@@ -77,7 +77,7 @@ struct NumberFormatter_t1783_StaticFields{
 	// System.Int32* System.NumberFormatter::DecHexDigits
 	int32_t* ___DecHexDigits_5;
 };
-struct NumberFormatter_t1783_ThreadStaticFields{
+struct NumberFormatter_t1794_ThreadStaticFields{
 	// System.NumberFormatter System.NumberFormatter::threadNumberFormatter
-	NumberFormatter_t1783 * ___threadNumberFormatter_25;
+	NumberFormatter_t1794 * ___threadNumberFormatter_25;
 };

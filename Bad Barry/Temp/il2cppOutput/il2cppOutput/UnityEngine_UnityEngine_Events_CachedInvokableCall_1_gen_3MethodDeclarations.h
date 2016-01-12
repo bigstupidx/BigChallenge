@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Events.CachedInvokableCall`1<System.Object>
-struct CachedInvokableCall_1_t2360;
+struct CachedInvokableCall_1_t2371;
 // UnityEngine.Object
 struct Object_t112;
 struct Object_t112_marshaled;
@@ -22,13 +22,13 @@ struct MethodInfo_t;
 // System.Object
 struct Object_t;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.Object>::.ctor(UnityEngine.Object,System.Reflection.MethodInfo,T)
-extern "C" void CachedInvokableCall_1__ctor_m17501_gshared (CachedInvokableCall_1_t2360 * __this, Object_t112 * ___target, MethodInfo_t * ___theFunction, Object_t * ___argument, const MethodInfo* method);
-#define CachedInvokableCall_1__ctor_m17501(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2360 *, Object_t112 *, MethodInfo_t *, Object_t *, const MethodInfo*))CachedInvokableCall_1__ctor_m17501_gshared)(__this, ___target, ___theFunction, ___argument, method)
+extern "C" void CachedInvokableCall_1__ctor_m17594_gshared (CachedInvokableCall_1_t2371 * __this, Object_t112 * ___target, MethodInfo_t * ___theFunction, Object_t * ___argument, const MethodInfo* method);
+#define CachedInvokableCall_1__ctor_m17594(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2371 *, Object_t112 *, MethodInfo_t *, Object_t *, const MethodInfo*))CachedInvokableCall_1__ctor_m17594_gshared)(__this, ___target, ___theFunction, ___argument, method)
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.Object>::Invoke(System.Object[])
-extern "C" void CachedInvokableCall_1_Invoke_m17502_gshared (CachedInvokableCall_1_t2360 * __this, ObjectU5BU5D_t142* ___args, const MethodInfo* method);
-#define CachedInvokableCall_1_Invoke_m17502(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2360 *, ObjectU5BU5D_t142*, const MethodInfo*))CachedInvokableCall_1_Invoke_m17502_gshared)(__this, ___args, method)
+extern "C" void CachedInvokableCall_1_Invoke_m17595_gshared (CachedInvokableCall_1_t2371 * __this, ObjectU5BU5D_t144* ___args, const MethodInfo* method);
+#define CachedInvokableCall_1_Invoke_m17595(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2371 *, ObjectU5BU5D_t144*, const MethodInfo*))CachedInvokableCall_1_Invoke_m17595_gshared)(__this, ___args, method)

@@ -18,7 +18,7 @@ struct Object_t;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.Collection`1<UnityEngine.UILineInfo>
-struct  Collection_1_t2335  : public Object_t
+struct  Collection_1_t2346  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<UnityEngine.UILineInfo>::list
 	Object_t* ___list_0;

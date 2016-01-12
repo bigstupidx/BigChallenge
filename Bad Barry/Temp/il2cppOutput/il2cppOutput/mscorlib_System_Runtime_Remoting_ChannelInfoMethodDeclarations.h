@@ -13,13 +13,13 @@
 #include <exception>
 
 // System.Runtime.Remoting.ChannelInfo
-struct ChannelInfo_t1478;
+struct ChannelInfo_t1487;
 // System.Object[]
-struct ObjectU5BU5D_t142;
+struct ObjectU5BU5D_t144;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.ChannelInfo::.ctor()
-extern "C" void ChannelInfo__ctor_m9029 (ChannelInfo_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ChannelInfo__ctor_m9111 (ChannelInfo_t1487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Runtime.Remoting.ChannelInfo::get_ChannelData()
-extern "C" ObjectU5BU5D_t142* ChannelInfo_get_ChannelData_m9030 (ChannelInfo_t1478 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t144* ChannelInfo_get_ChannelData_m9112 (ChannelInfo_t1487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

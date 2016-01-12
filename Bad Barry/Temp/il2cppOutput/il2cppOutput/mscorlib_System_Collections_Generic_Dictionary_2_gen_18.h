@@ -13,17 +13,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t46;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1904;
+struct LinkU5BU5D_t1915;
 // System.String[]
 struct StringU5BU5D_t85;
 // System.Boolean[]
 struct BooleanU5BU5D_t1014;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t1907;
+struct IEqualityComparer_1_t1918;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Boolean,System.Collections.DictionaryEntry>
-struct Transform_1_t2491;
+struct Transform_1_t2502;
 
 #include "mscorlib_System_Object.h"
 
@@ -33,7 +33,7 @@ struct  Dictionary_2_t1013  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::table
 	Int32U5BU5D_t46* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::linkSlots
-	LinkU5BU5D_t1904* ___linkSlots_5;
+	LinkU5BU5D_t1915* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::keySlots
 	StringU5BU5D_t85* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::valueSlots
@@ -55,5 +55,5 @@ struct  Dictionary_2_t1013  : public Object_t
 };
 struct Dictionary_2_t1013_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,System.Boolean>::<>f__am$cacheB
-	Transform_1_t2491 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t2502 * ___U3CU3Ef__amU24cacheB_15;
 };

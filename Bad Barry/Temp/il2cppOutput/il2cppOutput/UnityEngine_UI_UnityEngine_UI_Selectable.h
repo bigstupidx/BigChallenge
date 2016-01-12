@@ -13,9 +13,9 @@
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
 struct List_1_t307;
 // UnityEngine.UI.AnimationTriggers
-struct AnimationTriggers_t204;
+struct AnimationTriggers_t206;
 // UnityEngine.UI.Graphic
-struct Graphic_t232;
+struct Graphic_t233;
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
 struct List_1_t306;
 
@@ -27,22 +27,22 @@ struct List_1_t306;
 #include "UnityEngine_UI_UnityEngine_UI_Selectable_SelectionState.h"
 
 // UnityEngine.UI.Selectable
-struct  Selectable_t208  : public UIBehaviour_t146
+struct  Selectable_t210  : public UIBehaviour_t148
 {
 	// UnityEngine.UI.Navigation UnityEngine.UI.Selectable::m_Navigation
 	Navigation_t285  ___m_Navigation_3;
 	// UnityEngine.UI.Selectable/Transition UnityEngine.UI.Selectable::m_Transition
 	int32_t ___m_Transition_4;
 	// UnityEngine.UI.ColorBlock UnityEngine.UI.Selectable::m_Colors
-	ColorBlock_t213  ___m_Colors_5;
+	ColorBlock_t136  ___m_Colors_5;
 	// UnityEngine.UI.SpriteState UnityEngine.UI.Selectable::m_SpriteState
 	SpriteState_t305  ___m_SpriteState_6;
 	// UnityEngine.UI.AnimationTriggers UnityEngine.UI.Selectable::m_AnimationTriggers
-	AnimationTriggers_t204 * ___m_AnimationTriggers_7;
+	AnimationTriggers_t206 * ___m_AnimationTriggers_7;
 	// System.Boolean UnityEngine.UI.Selectable::m_Interactable
 	bool ___m_Interactable_8;
 	// UnityEngine.UI.Graphic UnityEngine.UI.Selectable::m_TargetGraphic
-	Graphic_t232 * ___m_TargetGraphic_9;
+	Graphic_t233 * ___m_TargetGraphic_9;
 	// System.Boolean UnityEngine.UI.Selectable::m_GroupsAllowInteraction
 	bool ___m_GroupsAllowInteraction_10;
 	// UnityEngine.UI.Selectable/SelectionState UnityEngine.UI.Selectable::m_CurrentSelectionState
@@ -56,7 +56,7 @@ struct  Selectable_t208  : public UIBehaviour_t146
 	// System.Boolean UnityEngine.UI.Selectable::<hasSelection>k__BackingField
 	bool ___U3ChasSelectionU3Ek__BackingField_15;
 };
-struct Selectable_t208_StaticFields{
+struct Selectable_t210_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.Selectable> UnityEngine.UI.Selectable::s_List
 	List_1_t307 * ___s_List_2;
 };

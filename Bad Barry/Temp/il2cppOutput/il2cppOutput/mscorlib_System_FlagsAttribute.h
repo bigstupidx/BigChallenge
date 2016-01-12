@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // System.FlagsAttribute
-struct  FlagsAttribute_t1765  : public Attribute_t510
+struct  FlagsAttribute_t1776  : public Attribute_t510
 {
 };

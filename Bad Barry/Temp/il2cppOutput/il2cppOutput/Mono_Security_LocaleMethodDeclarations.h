@@ -18,4 +18,4 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.String Locale::GetText(System.String)
-extern "C" String_t* Locale_GetText_m3919 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m3922 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

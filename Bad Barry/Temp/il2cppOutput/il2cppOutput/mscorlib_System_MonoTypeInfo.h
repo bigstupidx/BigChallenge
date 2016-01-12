@@ -18,7 +18,7 @@ struct ConstructorInfo_t683;
 #include "mscorlib_System_Object.h"
 
 // System.MonoTypeInfo
-struct  MonoTypeInfo_t1779  : public Object_t
+struct  MonoTypeInfo_t1790  : public Object_t
 {
 	// System.String System.MonoTypeInfo::full_name
 	String_t* ___full_name_0;

@@ -22,14 +22,14 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::.ctor()
-extern "C" void AsymmetricAlgorithm__ctor_m9754 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm__ctor_m9836 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::System.IDisposable.Dispose()
-extern "C" void AsymmetricAlgorithm_System_IDisposable_Dispose_m9755 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_System_IDisposable_Dispose_m9837 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.AsymmetricAlgorithm::get_KeySize()
-extern "C" int32_t AsymmetricAlgorithm_get_KeySize_m4836 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AsymmetricAlgorithm_get_KeySize_m4839 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::set_KeySize(System.Int32)
-extern "C" void AsymmetricAlgorithm_set_KeySize_m4835 (AsymmetricAlgorithm_t921 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_set_KeySize_m4838 (AsymmetricAlgorithm_t921 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AsymmetricAlgorithm::Clear()
-extern "C" void AsymmetricAlgorithm_Clear_m4926 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AsymmetricAlgorithm_Clear_m4929 (AsymmetricAlgorithm_t921 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.AsymmetricAlgorithm::GetNamedParam(System.String,System.String)
-extern "C" ByteU5BU5D_t772* AsymmetricAlgorithm_GetNamedParam_m9756 (Object_t * __this /* static, unused */, String_t* ___xml, String_t* ___param, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t772* AsymmetricAlgorithm_GetNamedParam_m9838 (Object_t * __this /* static, unused */, String_t* ___xml, String_t* ___param, const MethodInfo* method) IL2CPP_METHOD_ATTR;

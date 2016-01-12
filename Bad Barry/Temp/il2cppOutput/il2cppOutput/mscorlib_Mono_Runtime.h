@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Mono.Runtime
-struct  Runtime_t1242  : public Object_t
+struct  Runtime_t1251  : public Object_t
 {
 };

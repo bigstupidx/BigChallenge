@@ -17,10 +17,10 @@
 #include "UnityEngine_UnityEngine_Advertisements_UnityAdsDelegate_2_ge_0MethodDeclarations.h"
 
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>::.ctor(System.Object,System.IntPtr)
-#define UnityAdsDelegate_2__ctor_m16913(__this, ___object, ___method, method) (( void (*) (UnityAdsDelegate_2_t534 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAdsDelegate_2__ctor_m16914_gshared)(__this, ___object, ___method, method)
+#define UnityAdsDelegate_2__ctor_m17006(__this, ___object, ___method, method) (( void (*) (UnityAdsDelegate_2_t534 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAdsDelegate_2__ctor_m17007_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>::Invoke(T1,T2)
-#define UnityAdsDelegate_2_Invoke_m3565(__this, ___p1, ___p2, method) (( void (*) (UnityAdsDelegate_2_t534 *, String_t*, bool, const MethodInfo*))UnityAdsDelegate_2_Invoke_m16915_gshared)(__this, ___p1, ___p2, method)
+#define UnityAdsDelegate_2_Invoke_m3568(__this, ___p1, ___p2, method) (( void (*) (UnityAdsDelegate_2_t534 *, String_t*, bool, const MethodInfo*))UnityAdsDelegate_2_Invoke_m17008_gshared)(__this, ___p1, ___p2, method)
 // System.IAsyncResult UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-#define UnityAdsDelegate_2_BeginInvoke_m16916(__this, ___p1, ___p2, ___callback, ___object, method) (( Object_t * (*) (UnityAdsDelegate_2_t534 *, String_t*, bool, AsyncCallback_t266 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_BeginInvoke_m16917_gshared)(__this, ___p1, ___p2, ___callback, ___object, method)
+#define UnityAdsDelegate_2_BeginInvoke_m17009(__this, ___p1, ___p2, ___callback, ___object, method) (( Object_t * (*) (UnityAdsDelegate_2_t534 *, String_t*, bool, AsyncCallback_t266 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_BeginInvoke_m17010_gshared)(__this, ___p1, ___p2, ___callback, ___object, method)
 // System.Void UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>::EndInvoke(System.IAsyncResult)
-#define UnityAdsDelegate_2_EndInvoke_m16918(__this, ___result, method) (( void (*) (UnityAdsDelegate_2_t534 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_EndInvoke_m16919_gshared)(__this, ___result, method)
+#define UnityAdsDelegate_2_EndInvoke_m17011(__this, ___result, method) (( void (*) (UnityAdsDelegate_2_t534 *, Object_t *, const MethodInfo*))UnityAdsDelegate_2_EndInvoke_m17012_gshared)(__this, ___result, method)

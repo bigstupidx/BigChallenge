@@ -14,7 +14,7 @@
 #include "mscorlib_System_Object.h"
 
 // System.Security.Cryptography.ToBase64Transform
-struct  ToBase64Transform_t1657  : public Object_t
+struct  ToBase64Transform_t1666  : public Object_t
 {
 	// System.Boolean System.Security.Cryptography.ToBase64Transform::m_disposed
 	bool ___m_disposed_0;

@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Runtime.Remoting.Lifetime.LeaseSink
-struct LeaseSink_t1503;
+struct LeaseSink_t1512;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1488;
+struct IMessageSink_t1497;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Lifetime.LeaseSink::.ctor(System.Runtime.Remoting.Messaging.IMessageSink)
-extern "C" void LeaseSink__ctor_m9142 (LeaseSink_t1503 * __this, Object_t * ___nextSink, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LeaseSink__ctor_m9224 (LeaseSink_t1512 * __this, Object_t * ___nextSink, const MethodInfo* method) IL2CPP_METHOD_ATTR;

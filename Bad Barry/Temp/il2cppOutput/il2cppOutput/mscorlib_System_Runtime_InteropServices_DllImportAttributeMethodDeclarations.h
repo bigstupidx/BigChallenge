@@ -20,6 +20,6 @@ struct String_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.InteropServices.DllImportAttribute::.ctor(System.String)
-extern "C" void DllImportAttribute__ctor_m6750 (DllImportAttribute_t1152 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DllImportAttribute__ctor_m6753 (DllImportAttribute_t1152 * __this, String_t* ___dllName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.InteropServices.DllImportAttribute::get_Value()
-extern "C" String_t* DllImportAttribute_get_Value_m6751 (DllImportAttribute_t1152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DllImportAttribute_get_Value_m6754 (DllImportAttribute_t1152 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

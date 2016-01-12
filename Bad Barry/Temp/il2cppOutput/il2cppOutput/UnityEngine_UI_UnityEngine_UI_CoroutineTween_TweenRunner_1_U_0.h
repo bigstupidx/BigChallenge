@@ -17,10 +17,10 @@ struct Object_t;
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween.h"
 
 // UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>
-struct  U3CStartU3Ec__Iterator0_t2124  : public Object_t
+struct  U3CStartU3Ec__Iterator0_t2135  : public Object_t
 {
 	// T UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::tweenInfo
-	ColorTween_t200  ___tweenInfo_0;
+	ColorTween_t202  ___tweenInfo_0;
 	// System.Single UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::<elapsedTime>__0
 	float ___U3CelapsedTimeU3E__0_1;
 	// System.Single UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::<percentage>__1
@@ -30,5 +30,5 @@ struct  U3CStartU3Ec__Iterator0_t2124  : public Object_t
 	// System.Object UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::$current
 	Object_t * ___U24current_4;
 	// T UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.ColorTween>::<$>tweenInfo
-	ColorTween_t200  ___U3CU24U3EtweenInfo_5;
+	ColorTween_t202  ___U3CU24U3EtweenInfo_5;
 };

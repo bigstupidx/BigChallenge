@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Reflection.AssemblyTitleAttribute
-struct AssemblyTitleAttribute_t1391;
+struct AssemblyTitleAttribute_t1400;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Reflection.AssemblyTitleAttribute::.ctor(System.String)
-extern "C" void AssemblyTitleAttribute__ctor_m8625 (AssemblyTitleAttribute_t1391 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyTitleAttribute__ctor_m8707 (AssemblyTitleAttribute_t1400 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;

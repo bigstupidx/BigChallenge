@@ -19,7 +19,7 @@ struct CharU5BU5D_t275;
 // UnityEngine.UI.Text
 struct Text_t52;
 // UnityEngine.UI.Graphic
-struct Graphic_t232;
+struct Graphic_t233;
 // UnityEngine.UI.InputField/SubmitEvent
 struct SubmitEvent_t259;
 // UnityEngine.UI.InputField/OnChangeEvent
@@ -33,9 +33,9 @@ struct UIVertexU5BU5D_t271;
 // UnityEngine.TextGenerator
 struct TextGenerator_t272;
 // UnityEngine.CanvasRenderer
-struct CanvasRenderer_t234;
+struct CanvasRenderer_t235;
 // UnityEngine.Mesh
-struct Mesh_t141;
+struct Mesh_t143;
 // UnityEngine.Coroutine
 struct Coroutine_t273;
 struct Coroutine_t273_marshaled;
@@ -54,14 +54,14 @@ struct Dictionary_2_t276;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.UI.InputField
-struct  InputField_t268  : public Selectable_t208
+struct  InputField_t268  : public Selectable_t210
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.UI.InputField::m_Keyboard
 	TouchScreenKeyboard_t270 * ___m_Keyboard_19;
 	// UnityEngine.UI.Text UnityEngine.UI.InputField::m_TextComponent
 	Text_t52 * ___m_TextComponent_21;
 	// UnityEngine.UI.Graphic UnityEngine.UI.InputField::m_Placeholder
-	Graphic_t232 * ___m_Placeholder_22;
+	Graphic_t233 * ___m_Placeholder_22;
 	// UnityEngine.UI.InputField/ContentType UnityEngine.UI.InputField::m_ContentType
 	int32_t ___m_ContentType_23;
 	// UnityEngine.UI.InputField/InputType UnityEngine.UI.InputField::m_InputType
@@ -101,11 +101,11 @@ struct  InputField_t268  : public Selectable_t208
 	// UnityEngine.TextGenerator UnityEngine.UI.InputField::m_InputTextCache
 	TextGenerator_t272 * ___m_InputTextCache_41;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.InputField::m_CachedInputRenderer
-	CanvasRenderer_t234 * ___m_CachedInputRenderer_42;
+	CanvasRenderer_t235 * ___m_CachedInputRenderer_42;
 	// System.Boolean UnityEngine.UI.InputField::m_PreventFontCallback
 	bool ___m_PreventFontCallback_43;
 	// UnityEngine.Mesh UnityEngine.UI.InputField::m_Mesh
-	Mesh_t141 * ___m_Mesh_44;
+	Mesh_t143 * ___m_Mesh_44;
 	// System.Boolean UnityEngine.UI.InputField::m_AllowInput
 	bool ___m_AllowInput_45;
 	// System.Boolean UnityEngine.UI.InputField::m_ShouldActivateNextUpdate

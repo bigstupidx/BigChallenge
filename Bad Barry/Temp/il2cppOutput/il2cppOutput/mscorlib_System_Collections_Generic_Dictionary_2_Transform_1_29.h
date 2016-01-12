@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>,System.Collections.DictionaryEntry>
-struct  Transform_1_t2459  : public MulticastDelegate_t264
+struct  Transform_1_t2470  : public MulticastDelegate_t264
 {
 };

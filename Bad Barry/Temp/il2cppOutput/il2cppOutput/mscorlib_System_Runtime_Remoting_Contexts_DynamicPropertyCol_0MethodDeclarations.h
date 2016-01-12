@@ -13,25 +13,25 @@
 #include <exception>
 
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct DynamicPropertyCollection_t1486;
+struct DynamicPropertyCollection_t1495;
 // System.Runtime.Remoting.Contexts.IDynamicProperty
-struct IDynamicProperty_t1490;
+struct IDynamicProperty_t1499;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Messaging.IMessage
-struct IMessage_t1512;
+struct IMessage_t1521;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Contexts.DynamicPropertyCollection::.ctor()
-extern "C" void DynamicPropertyCollection__ctor_m9091 (DynamicPropertyCollection_t1486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DynamicPropertyCollection__ctor_m9173 (DynamicPropertyCollection_t1495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.DynamicPropertyCollection::get_HasProperties()
-extern "C" bool DynamicPropertyCollection_get_HasProperties_m9092 (DynamicPropertyCollection_t1486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DynamicPropertyCollection_get_HasProperties_m9174 (DynamicPropertyCollection_t1495 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.DynamicPropertyCollection::RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty)
-extern "C" bool DynamicPropertyCollection_RegisterDynamicProperty_m9093 (DynamicPropertyCollection_t1486 * __this, Object_t * ___prop, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DynamicPropertyCollection_RegisterDynamicProperty_m9175 (DynamicPropertyCollection_t1495 * __this, Object_t * ___prop, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Contexts.DynamicPropertyCollection::UnregisterDynamicProperty(System.String)
-extern "C" bool DynamicPropertyCollection_UnregisterDynamicProperty_m9094 (DynamicPropertyCollection_t1486 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DynamicPropertyCollection_UnregisterDynamicProperty_m9176 (DynamicPropertyCollection_t1495 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Contexts.DynamicPropertyCollection::NotifyMessage(System.Boolean,System.Runtime.Remoting.Messaging.IMessage,System.Boolean,System.Boolean)
-extern "C" void DynamicPropertyCollection_NotifyMessage_m9095 (DynamicPropertyCollection_t1486 * __this, bool ___start, Object_t * ___msg, bool ___client_site, bool ___async, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DynamicPropertyCollection_NotifyMessage_m9177 (DynamicPropertyCollection_t1495 * __this, bool ___start, Object_t * ___msg, bool ___client_site, bool ___async, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Contexts.DynamicPropertyCollection::FindProperty(System.String)
-extern "C" int32_t DynamicPropertyCollection_FindProperty_m9096 (DynamicPropertyCollection_t1486 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DynamicPropertyCollection_FindProperty_m9178 (DynamicPropertyCollection_t1495 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

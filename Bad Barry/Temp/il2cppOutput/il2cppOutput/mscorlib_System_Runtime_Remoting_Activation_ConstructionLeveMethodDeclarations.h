@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Runtime.Remoting.Activation.ConstructionLevelActivator
-struct ConstructionLevelActivator_t1473;
+struct ConstructionLevelActivator_t1482;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Activation.ConstructionLevelActivator::.ctor()
-extern "C" void ConstructionLevelActivator__ctor_m9021 (ConstructionLevelActivator_t1473 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConstructionLevelActivator__ctor_m9103 (ConstructionLevelActivator_t1482 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

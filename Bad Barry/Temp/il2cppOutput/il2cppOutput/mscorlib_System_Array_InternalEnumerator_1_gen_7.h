@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.Touch>
-struct  InternalEnumerator_1_t1934 
+struct  InternalEnumerator_1_t1945 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityEngine.Touch>::array
 	Array_t * ___array_0;

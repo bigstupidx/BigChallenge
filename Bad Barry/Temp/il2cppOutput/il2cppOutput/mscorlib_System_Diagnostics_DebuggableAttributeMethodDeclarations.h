@@ -13,10 +13,10 @@
 #include <exception>
 
 // System.Diagnostics.DebuggableAttribute
-struct DebuggableAttribute_t1270;
+struct DebuggableAttribute_t1279;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Diagnostics_DebuggableAttribute_DebuggingMod.h"
 
 // System.Void System.Diagnostics.DebuggableAttribute::.ctor(System.Diagnostics.DebuggableAttribute/DebuggingModes)
-extern "C" void DebuggableAttribute__ctor_m7640 (DebuggableAttribute_t1270 * __this, int32_t ___modes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggableAttribute__ctor_m7716 (DebuggableAttribute_t1279 * __this, int32_t ___modes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -15,7 +15,7 @@ struct String_t;
 // System.Globalization.CultureInfo
 struct CultureInfo_t670;
 // System.Reflection.StrongNameKeyPair
-struct StrongNameKeyPair_t1388;
+struct StrongNameKeyPair_t1397;
 // System.Byte[]
 struct ByteU5BU5D_t772;
 // System.Version
@@ -28,7 +28,7 @@ struct Version_t1007;
 #include "mscorlib_System_Reflection_ProcessorArchitecture.h"
 
 // System.Reflection.AssemblyName
-struct  AssemblyName_t1387  : public Object_t
+struct  AssemblyName_t1396  : public Object_t
 {
 	// System.String System.Reflection.AssemblyName::name
 	String_t* ___name_0;
@@ -49,7 +49,7 @@ struct  AssemblyName_t1387  : public Object_t
 	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
 	int32_t ___hashalg_8;
 	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
-	StrongNameKeyPair_t1388 * ___keypair_9;
+	StrongNameKeyPair_t1397 * ___keypair_9;
 	// System.Byte[] System.Reflection.AssemblyName::publicKey
 	ByteU5BU5D_t772* ___publicKey_10;
 	// System.Byte[] System.Reflection.AssemblyName::keyToken

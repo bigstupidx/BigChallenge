@@ -16,10 +16,10 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.UI.DefaultControls
-struct  DefaultControls_t215  : public Object_t
+struct  DefaultControls_t216  : public Object_t
 {
 };
-struct DefaultControls_t215_StaticFields{
+struct DefaultControls_t216_StaticFields{
 	// UnityEngine.Vector2 UnityEngine.UI.DefaultControls::s_ThickElementSize
 	Vector2_t25  ___s_ThickElementSize_3;
 	// UnityEngine.Vector2 UnityEngine.UI.DefaultControls::s_ThinElementSize

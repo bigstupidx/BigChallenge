@@ -16,7 +16,7 @@ struct Hashtable_t868;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.SoapServices/TypeInfo
-struct  TypeInfo_t1568  : public Object_t
+struct  TypeInfo_t1577  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices/TypeInfo::Attributes
 	Hashtable_t868 * ___Attributes_0;

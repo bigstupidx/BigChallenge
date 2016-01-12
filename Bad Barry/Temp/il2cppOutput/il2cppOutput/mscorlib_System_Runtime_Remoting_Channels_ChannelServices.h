@@ -13,7 +13,7 @@
 // System.Collections.ArrayList
 struct ArrayList_t803;
 // System.Runtime.Remoting.Contexts.CrossContextChannel
-struct CrossContextChannel_t1480;
+struct CrossContextChannel_t1489;
 // System.String
 struct String_t;
 // System.Collections.IList
@@ -22,16 +22,16 @@ struct IList_t733;
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Channels.ChannelServices
-struct  ChannelServices_t1479  : public Object_t
+struct  ChannelServices_t1488  : public Object_t
 {
 };
-struct ChannelServices_t1479_StaticFields{
+struct ChannelServices_t1488_StaticFields{
 	// System.Collections.ArrayList System.Runtime.Remoting.Channels.ChannelServices::registeredChannels
 	ArrayList_t803 * ___registeredChannels_0;
 	// System.Collections.ArrayList System.Runtime.Remoting.Channels.ChannelServices::delayedClientChannels
 	ArrayList_t803 * ___delayedClientChannels_1;
 	// System.Runtime.Remoting.Contexts.CrossContextChannel System.Runtime.Remoting.Channels.ChannelServices::_crossContextSink
-	CrossContextChannel_t1480 * ____crossContextSink_2;
+	CrossContextChannel_t1489 * ____crossContextSink_2;
 	// System.String System.Runtime.Remoting.Channels.ChannelServices::CrossContextUrl
 	String_t* ___CrossContextUrl_3;
 	// System.Collections.IList System.Runtime.Remoting.Channels.ChannelServices::oldStartModeTypes

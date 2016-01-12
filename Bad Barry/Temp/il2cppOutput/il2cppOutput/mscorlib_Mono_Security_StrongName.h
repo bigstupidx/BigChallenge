@@ -22,7 +22,7 @@ struct Object_t;
 #include "mscorlib_System_Object.h"
 
 // Mono.Security.StrongName
-struct  StrongName_t1235  : public Object_t
+struct  StrongName_t1244  : public Object_t
 {
 	// System.Security.Cryptography.RSA Mono.Security.StrongName::rsa
 	RSA_t823 * ___rsa_0;
@@ -33,7 +33,7 @@ struct  StrongName_t1235  : public Object_t
 	// System.String Mono.Security.StrongName::tokenAlgorithm
 	String_t* ___tokenAlgorithm_3;
 };
-struct StrongName_t1235_StaticFields{
+struct StrongName_t1244_StaticFields{
 	// System.Object Mono.Security.StrongName::lockObject
 	Object_t * ___lockObject_4;
 	// System.Boolean Mono.Security.StrongName::initialized

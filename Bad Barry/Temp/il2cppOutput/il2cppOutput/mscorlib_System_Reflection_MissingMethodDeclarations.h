@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Reflection.Missing
-struct Missing_t1408;
+struct Missing_t1417;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t653;
 
@@ -21,8 +21,8 @@ struct SerializationInfo_t653;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.Missing::.ctor()
-extern "C" void Missing__ctor_m8720 (Missing_t1408 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Missing__ctor_m8802 (Missing_t1417 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Missing::.cctor()
-extern "C" void Missing__cctor_m8721 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Missing__cctor_m8803 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Missing::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Missing_System_Runtime_Serialization_ISerializable_GetObjectData_m8722 (Missing_t1408 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Missing_System_Runtime_Serialization_ISerializable_GetObjectData_m8804 (Missing_t1417 * __this, SerializationInfo_t653 * ___info, StreamingContext_t654  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

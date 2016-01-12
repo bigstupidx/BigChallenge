@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Reflection.Emit.ILGenerator
-struct ILGenerator_t1334;
+struct ILGenerator_t1343;
 
 #include "mscorlib_System_Reflection_LocalVariableInfo.h"
 
 // System.Reflection.Emit.LocalBuilder
-struct  LocalBuilder_t1355  : public LocalVariableInfo_t1356
+struct  LocalBuilder_t1364  : public LocalVariableInfo_t1365
 {
 	// System.Reflection.Emit.ILGenerator System.Reflection.Emit.LocalBuilder::ilgen
-	ILGenerator_t1334 * ___ilgen_3;
+	ILGenerator_t1343 * ___ilgen_3;
 };

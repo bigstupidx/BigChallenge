@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UILineInfo.h"
 
 // System.Comparison`1<UnityEngine.UILineInfo>
-struct  Comparison_1_t2341  : public MulticastDelegate_t264
+struct  Comparison_1_t2352  : public MulticastDelegate_t264
 {
 };

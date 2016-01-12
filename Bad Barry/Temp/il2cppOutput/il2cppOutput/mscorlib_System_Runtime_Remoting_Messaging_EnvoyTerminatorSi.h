@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct EnvoyTerminatorSink_t1518;
+struct EnvoyTerminatorSink_t1527;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct  EnvoyTerminatorSink_t1518  : public Object_t
+struct  EnvoyTerminatorSink_t1527  : public Object_t
 {
 };
-struct EnvoyTerminatorSink_t1518_StaticFields{
+struct EnvoyTerminatorSink_t1527_StaticFields{
 	// System.Runtime.Remoting.Messaging.EnvoyTerminatorSink System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::Instance
-	EnvoyTerminatorSink_t1518 * ___Instance_0;
+	EnvoyTerminatorSink_t1527 * ___Instance_0;
 };

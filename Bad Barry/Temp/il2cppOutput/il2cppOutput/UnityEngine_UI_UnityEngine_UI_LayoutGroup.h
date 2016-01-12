@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.RectOffset
-struct RectOffset_t137;
+struct RectOffset_t139;
 // UnityEngine.RectTransform
 struct RectTransform_t71;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
@@ -23,10 +23,10 @@ struct List_1_t340;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.UI.LayoutGroup
-struct  LayoutGroup_t336  : public UIBehaviour_t146
+struct  LayoutGroup_t336  : public UIBehaviour_t148
 {
 	// UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::m_Padding
-	RectOffset_t137 * ___m_Padding_2;
+	RectOffset_t139 * ___m_Padding_2;
 	// UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::m_ChildAlignment
 	int32_t ___m_ChildAlignment_3;
 	// UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::m_Rect

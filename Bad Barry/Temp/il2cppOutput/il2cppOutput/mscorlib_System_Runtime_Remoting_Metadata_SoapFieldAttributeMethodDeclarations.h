@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Runtime.Remoting.Metadata.SoapFieldAttribute
-struct SoapFieldAttribute_t1538;
+struct SoapFieldAttribute_t1547;
 // System.String
 struct String_t;
 // System.Object
@@ -22,10 +22,10 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Runtime.Remoting.Metadata.SoapFieldAttribute::.ctor()
-extern "C" void SoapFieldAttribute__ctor_m9308 (SoapFieldAttribute_t1538 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SoapFieldAttribute__ctor_m9390 (SoapFieldAttribute_t1547 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Metadata.SoapFieldAttribute::get_XmlElementName()
-extern "C" String_t* SoapFieldAttribute_get_XmlElementName_m9309 (SoapFieldAttribute_t1538 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SoapFieldAttribute_get_XmlElementName_m9391 (SoapFieldAttribute_t1547 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Metadata.SoapFieldAttribute::IsInteropXmlElement()
-extern "C" bool SoapFieldAttribute_IsInteropXmlElement_m9310 (SoapFieldAttribute_t1538 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SoapFieldAttribute_IsInteropXmlElement_m9392 (SoapFieldAttribute_t1547 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Metadata.SoapFieldAttribute::SetReflectionObject(System.Object)
-extern "C" void SoapFieldAttribute_SetReflectionObject_m9311 (SoapFieldAttribute_t1538 * __this, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SoapFieldAttribute_SetReflectionObject_m9393 (SoapFieldAttribute_t1547 * __this, Object_t * ___reflectionObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;

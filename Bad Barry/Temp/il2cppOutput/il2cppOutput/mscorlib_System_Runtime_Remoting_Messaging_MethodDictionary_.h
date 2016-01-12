@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Runtime.Remoting.Messaging.MethodDictionary
-struct MethodDictionary_t1517;
+struct MethodDictionary_t1526;
 // System.Collections.IDictionaryEnumerator
 struct IDictionaryEnumerator_t730;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
-struct  DictionaryEnumerator_t1523  : public Object_t
+struct  DictionaryEnumerator_t1532  : public Object_t
 {
 	// System.Runtime.Remoting.Messaging.MethodDictionary System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_methodDictionary
-	MethodDictionary_t1517 * ____methodDictionary_0;
+	MethodDictionary_t1526 * ____methodDictionary_0;
 	// System.Collections.IDictionaryEnumerator System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_hashtableEnum
 	Object_t * ____hashtableEnum_1;
 	// System.Int32 System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::_posMethod

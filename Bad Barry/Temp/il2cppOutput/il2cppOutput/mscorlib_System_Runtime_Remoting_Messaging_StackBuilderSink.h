@@ -13,15 +13,15 @@
 // System.MarshalByRefObject
 struct MarshalByRefObject_t1017;
 // System.Runtime.Remoting.Proxies.RealProxy
-struct RealProxy_t1536;
+struct RealProxy_t1545;
 
 #include "mscorlib_System_Object.h"
 
 // System.Runtime.Remoting.Messaging.StackBuilderSink
-struct  StackBuilderSink_t1535  : public Object_t
+struct  StackBuilderSink_t1544  : public Object_t
 {
 	// System.MarshalByRefObject System.Runtime.Remoting.Messaging.StackBuilderSink::_target
 	MarshalByRefObject_t1017 * ____target_0;
 	// System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.Messaging.StackBuilderSink::_rp
-	RealProxy_t1536 * ____rp_1;
+	RealProxy_t1545 * ____rp_1;
 };

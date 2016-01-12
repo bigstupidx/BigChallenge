@@ -21,6 +21,6 @@ struct Object_t112_marshaled;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.ResourceRequest::.ctor()
-extern "C" void ResourceRequest__ctor_m2921 (ResourceRequest_t507 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResourceRequest__ctor_m2924 (ResourceRequest_t507 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.ResourceRequest::get_asset()
-extern "C" Object_t112 * ResourceRequest_get_asset_m2922 (ResourceRequest_t507 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t112 * ResourceRequest_get_asset_m2925 (ResourceRequest_t507 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

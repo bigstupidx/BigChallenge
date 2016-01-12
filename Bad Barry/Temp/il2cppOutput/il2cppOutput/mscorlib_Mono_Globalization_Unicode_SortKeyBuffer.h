@@ -19,7 +19,7 @@ struct String_t;
 #include "mscorlib_System_Globalization_CompareOptions.h"
 
 // Mono.Globalization.Unicode.SortKeyBuffer
-struct  SortKeyBuffer_t1197  : public Object_t
+struct  SortKeyBuffer_t1206  : public Object_t
 {
 	// System.Int32 Mono.Globalization.Unicode.SortKeyBuffer::l1
 	int32_t ___l1_0;

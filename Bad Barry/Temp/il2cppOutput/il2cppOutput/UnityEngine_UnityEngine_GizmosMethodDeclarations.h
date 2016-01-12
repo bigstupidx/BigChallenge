@@ -18,10 +18,10 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Gizmos::DrawLine(UnityEngine.Vector3,UnityEngine.Vector3)
-extern "C" void Gizmos_DrawLine_m658 (Object_t * __this /* static, unused */, Vector3_t12  ___from, Vector3_t12  ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Gizmos_DrawLine_m668 (Object_t * __this /* static, unused */, Vector3_t12  ___from, Vector3_t12  ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gizmos::INTERNAL_CALL_DrawLine(UnityEngine.Vector3&,UnityEngine.Vector3&)
-extern "C" void Gizmos_INTERNAL_CALL_DrawLine_m2780 (Object_t * __this /* static, unused */, Vector3_t12 * ___from, Vector3_t12 * ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Gizmos_INTERNAL_CALL_DrawLine_m2783 (Object_t * __this /* static, unused */, Vector3_t12 * ___from, Vector3_t12 * ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gizmos::set_color(UnityEngine.Color)
-extern "C" void Gizmos_set_color_m657 (Object_t * __this /* static, unused */, Color_t129  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Gizmos_set_color_m667 (Object_t * __this /* static, unused */, Color_t129  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gizmos::INTERNAL_set_color(UnityEngine.Color&)
-extern "C" void Gizmos_INTERNAL_set_color_m2781 (Object_t * __this /* static, unused */, Color_t129 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Gizmos_INTERNAL_set_color_m2784 (Object_t * __this /* static, unused */, Color_t129 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

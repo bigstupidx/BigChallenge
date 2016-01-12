@@ -11,20 +11,20 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Object,LitJson.ArrayMetadata>
-struct Dictionary_2_t2411;
+struct Dictionary_2_t2422;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_13.h"
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,LitJson.ArrayMetadata>
-struct  Enumerator_t2416 
+struct  Enumerator_t2427 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,LitJson.ArrayMetadata>::dictionary
-	Dictionary_2_t2411 * ___dictionary_0;
+	Dictionary_2_t2422 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,LitJson.ArrayMetadata>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,LitJson.ArrayMetadata>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,LitJson.ArrayMetadata>::current
-	KeyValuePair_2_t2403  ___current_3;
+	KeyValuePair_2_t2414  ___current_3;
 };

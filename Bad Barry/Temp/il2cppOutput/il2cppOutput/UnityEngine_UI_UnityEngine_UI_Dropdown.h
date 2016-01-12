@@ -17,20 +17,20 @@ struct Text_t52;
 // UnityEngine.UI.Image
 struct Image_t26;
 // UnityEngine.UI.Dropdown/OptionDataList
-struct OptionDataList_t219;
+struct OptionDataList_t220;
 // UnityEngine.UI.Dropdown/DropdownEvent
-struct DropdownEvent_t221;
+struct DropdownEvent_t222;
 // UnityEngine.GameObject
 struct GameObject_t40;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct List_1_t226;
+struct List_1_t227;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween>
-struct TweenRunner_1_t227;
+struct TweenRunner_1_t228;
 
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 
 // UnityEngine.UI.Dropdown
-struct  Dropdown_t224  : public Selectable_t208
+struct  Dropdown_t225  : public Selectable_t210
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Dropdown::m_Template
 	RectTransform_t71 * ___m_Template_16;
@@ -45,17 +45,17 @@ struct  Dropdown_t224  : public Selectable_t208
 	// System.Int32 UnityEngine.UI.Dropdown::m_Value
 	int32_t ___m_Value_21;
 	// UnityEngine.UI.Dropdown/OptionDataList UnityEngine.UI.Dropdown::m_Options
-	OptionDataList_t219 * ___m_Options_22;
+	OptionDataList_t220 * ___m_Options_22;
 	// UnityEngine.UI.Dropdown/DropdownEvent UnityEngine.UI.Dropdown::m_OnValueChanged
-	DropdownEvent_t221 * ___m_OnValueChanged_23;
+	DropdownEvent_t222 * ___m_OnValueChanged_23;
 	// UnityEngine.GameObject UnityEngine.UI.Dropdown::m_Dropdown
 	GameObject_t40 * ___m_Dropdown_24;
 	// UnityEngine.GameObject UnityEngine.UI.Dropdown::m_Blocker
 	GameObject_t40 * ___m_Blocker_25;
 	// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem> UnityEngine.UI.Dropdown::m_Items
-	List_1_t226 * ___m_Items_26;
+	List_1_t227 * ___m_Items_26;
 	// UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> UnityEngine.UI.Dropdown::m_AlphaTweenRunner
-	TweenRunner_1_t227 * ___m_AlphaTweenRunner_27;
+	TweenRunner_1_t228 * ___m_AlphaTweenRunner_27;
 	// System.Boolean UnityEngine.UI.Dropdown::validTemplate
 	bool ___validTemplate_28;
 };

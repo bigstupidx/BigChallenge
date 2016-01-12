@@ -14,6 +14,6 @@
 #include "mscorlib_System_Runtime_Remoting_Metadata_SoapAttribute.h"
 
 // System.Runtime.Remoting.Metadata.SoapParameterAttribute
-struct  SoapParameterAttribute_t1540  : public SoapAttribute_t1537
+struct  SoapParameterAttribute_t1549  : public SoapAttribute_t1546
 {
 };

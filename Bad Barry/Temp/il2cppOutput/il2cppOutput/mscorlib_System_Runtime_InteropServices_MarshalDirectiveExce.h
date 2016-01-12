@@ -14,6 +14,6 @@
 #include "mscorlib_System_SystemException.h"
 
 // System.Runtime.InteropServices.MarshalDirectiveException
-struct  MarshalDirectiveException_t1465  : public SystemException_t1134
+struct  MarshalDirectiveException_t1474  : public SystemException_t1134
 {
 };

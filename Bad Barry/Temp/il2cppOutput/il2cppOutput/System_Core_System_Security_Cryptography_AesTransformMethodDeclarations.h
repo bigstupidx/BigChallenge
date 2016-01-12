@@ -24,14 +24,14 @@ struct UInt32U5BU5D_t778;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Security.Cryptography.AesTransform::.ctor(System.Security.Cryptography.Aes,System.Boolean,System.Byte[],System.Byte[])
-extern "C" void AesTransform__ctor_m3893 (AesTransform_t777 * __this, Aes_t775 * ___algo, bool ___encryption, ByteU5BU5D_t772* ___key, ByteU5BU5D_t772* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AesTransform__ctor_m3896 (AesTransform_t777 * __this, Aes_t775 * ___algo, bool ___encryption, ByteU5BU5D_t772* ___key, ByteU5BU5D_t772* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AesTransform::.cctor()
-extern "C" void AesTransform__cctor_m3894 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AesTransform__cctor_m3897 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AesTransform::ECB(System.Byte[],System.Byte[])
-extern "C" void AesTransform_ECB_m3895 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AesTransform_ECB_m3898 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___input, ByteU5BU5D_t772* ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Security.Cryptography.AesTransform::SubByte(System.UInt32)
-extern "C" uint32_t AesTransform_SubByte_m3896 (AesTransform_t777 * __this, uint32_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint32_t AesTransform_SubByte_m3899 (AesTransform_t777 * __this, uint32_t ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AesTransform::Encrypt128(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void AesTransform_Encrypt128_m3897 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AesTransform_Encrypt128_m3900 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.AesTransform::Decrypt128(System.Byte[],System.Byte[],System.UInt32[])
-extern "C" void AesTransform_Decrypt128_m3898 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AesTransform_Decrypt128_m3901 (AesTransform_t777 * __this, ByteU5BU5D_t772* ___indata, ByteU5BU5D_t772* ___outdata, UInt32U5BU5D_t778* ___ekey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

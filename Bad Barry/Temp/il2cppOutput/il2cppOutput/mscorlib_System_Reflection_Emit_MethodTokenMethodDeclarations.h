@@ -19,12 +19,12 @@ struct Object_t;
 #include "mscorlib_System_Reflection_Emit_MethodToken.h"
 
 // System.Void System.Reflection.Emit.MethodToken::.ctor(System.Int32)
-extern "C" void MethodToken__ctor_m8438 (MethodToken_t1358 * __this, int32_t ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodToken__ctor_m8520 (MethodToken_t1367 * __this, int32_t ___val, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Emit.MethodToken::.cctor()
-extern "C" void MethodToken__cctor_m8439 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MethodToken__cctor_m8521 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodToken::Equals(System.Object)
-extern "C" bool MethodToken_Equals_m8440 (MethodToken_t1358 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodToken_Equals_m8522 (MethodToken_t1367 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.MethodToken::GetHashCode()
-extern "C" int32_t MethodToken_GetHashCode_m8441 (MethodToken_t1358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodToken_GetHashCode_m8523 (MethodToken_t1367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.MethodToken::get_Token()
-extern "C" int32_t MethodToken_get_Token_m8442 (MethodToken_t1358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodToken_get_Token_m8524 (MethodToken_t1367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

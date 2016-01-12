@@ -17,13 +17,13 @@
 #include "System_System_Text_RegularExpressions_Interpreter_IntStack.h"
 
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::Pop()
-extern "C" int32_t IntStack_Pop_m5523 (IntStack_t1080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_Pop_m5526 (IntStack_t1080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::Push(System.Int32)
-extern "C" void IntStack_Push_m5524 (IntStack_t1080 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_Push_m5527 (IntStack_t1080 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter/IntStack::get_Count()
-extern "C" int32_t IntStack_get_Count_m5525 (IntStack_t1080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t IntStack_get_Count_m5528 (IntStack_t1080 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter/IntStack::set_Count(System.Int32)
-extern "C" void IntStack_set_Count_m5526 (IntStack_t1080 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IntStack_set_Count_m5529 (IntStack_t1080 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void IntStack_t1080_marshal(const IntStack_t1080& unmarshaled, IntStack_t1080_marshaled& marshaled);
 extern "C" void IntStack_t1080_marshal_back(const IntStack_t1080_marshaled& marshaled, IntStack_t1080& unmarshaled);
 extern "C" void IntStack_t1080_marshal_cleanup(IntStack_t1080_marshaled& marshaled);

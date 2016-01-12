@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Threading.ThreadStart
-struct ThreadStart_t1805;
+struct ThreadStart_t1816;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -25,11 +25,11 @@ struct AsyncCallback_t266;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
-extern "C" void ThreadStart__ctor_m11372 (ThreadStart_t1805 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStart__ctor_m11465 (ThreadStart_t1816 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadStart::Invoke()
-extern "C" void ThreadStart_Invoke_m11373 (ThreadStart_t1805 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_ThreadStart_t1805(Il2CppObject* delegate);
+extern "C" void ThreadStart_Invoke_m11466 (ThreadStart_t1816 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_ThreadStart_t1816(Il2CppObject* delegate);
 // System.IAsyncResult System.Threading.ThreadStart::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * ThreadStart_BeginInvoke_m11374 (ThreadStart_t1805 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ThreadStart_BeginInvoke_m11467 (ThreadStart_t1816 * __this, AsyncCallback_t266 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadStart::EndInvoke(System.IAsyncResult)
-extern "C" void ThreadStart_EndInvoke_m11375 (ThreadStart_t1805 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStart_EndInvoke_m11468 (ThreadStart_t1816 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

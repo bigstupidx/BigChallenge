@@ -16,7 +16,7 @@ struct Encoding_t938;
 #include "mscorlib_System_Text_Decoder.h"
 
 // System.Text.Encoding/ForwardingDecoder
-struct  ForwardingDecoder_t1700  : public Decoder_t1291
+struct  ForwardingDecoder_t1710  : public Decoder_t1300
 {
 	// System.Text.Encoding System.Text.Encoding/ForwardingDecoder::encoding
 	Encoding_t938 * ___encoding_2;

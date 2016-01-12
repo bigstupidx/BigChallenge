@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UI.Dropdown/OptionData
-struct OptionData_t218;
+struct OptionData_t219;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.UI.Dropdown/OptionData>
-struct  Comparison_1_t2089  : public MulticastDelegate_t264
+struct  Comparison_1_t2100  : public MulticastDelegate_t264
 {
 };

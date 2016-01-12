@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Reflection.CustomAttributeTypedArgument[]
-struct CustomAttributeTypedArgumentU5BU5D_t1859;
+struct CustomAttributeTypedArgumentU5BU5D_t1870;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>
-struct  List_1_t2554  : public Object_t
+struct  List_1_t2565  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_items
-	CustomAttributeTypedArgumentU5BU5D_t1859* ____items_1;
+	CustomAttributeTypedArgumentU5BU5D_t1870* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::_version
 	int32_t ____version_3;
 };
-struct List_1_t2554_StaticFields{
+struct List_1_t2565_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Reflection.CustomAttributeTypedArgument>::EmptyArray
-	CustomAttributeTypedArgumentU5BU5D_t1859* ___EmptyArray_4;
+	CustomAttributeTypedArgumentU5BU5D_t1870* ___EmptyArray_4;
 };

@@ -20,15 +20,15 @@ struct String_t;
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainStatus::.ctor(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509ChainStatus__ctor_m5271 (X509ChainStatus_t1036 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainStatus__ctor_m5274 (X509ChainStatus_t1036 * __this, int32_t ___flag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509ChainStatus::get_Status()
-extern "C" int32_t X509ChainStatus_get_Status_m5272 (X509ChainStatus_t1036 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainStatus_get_Status_m5275 (X509ChainStatus_t1036 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainStatus::set_Status(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509ChainStatus_set_Status_m5273 (X509ChainStatus_t1036 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainStatus_set_Status_m5276 (X509ChainStatus_t1036 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainStatus::set_StatusInformation(System.String)
-extern "C" void X509ChainStatus_set_StatusInformation_m5274 (X509ChainStatus_t1036 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainStatus_set_StatusInformation_m5277 (X509ChainStatus_t1036 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509ChainStatus::GetInformation(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" String_t* X509ChainStatus_GetInformation_m5275 (Object_t * __this /* static, unused */, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509ChainStatus_GetInformation_m5278 (Object_t * __this /* static, unused */, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void X509ChainStatus_t1036_marshal(const X509ChainStatus_t1036& unmarshaled, X509ChainStatus_t1036_marshaled& marshaled);
 extern "C" void X509ChainStatus_t1036_marshal_back(const X509ChainStatus_t1036_marshaled& marshaled, X509ChainStatus_t1036& unmarshaled);
 extern "C" void X509ChainStatus_t1036_marshal_cleanup(X509ChainStatus_t1036_marshaled& marshaled);

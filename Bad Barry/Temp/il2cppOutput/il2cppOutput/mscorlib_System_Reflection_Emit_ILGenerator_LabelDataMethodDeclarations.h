@@ -17,4 +17,4 @@
 #include "mscorlib_System_Reflection_Emit_ILGenerator_LabelData.h"
 
 // System.Void System.Reflection.Emit.ILGenerator/LabelData::.ctor(System.Int32,System.Int32)
-extern "C" void LabelData__ctor_m8376 (LabelData_t1348 * __this, int32_t ___addr, int32_t ___maxStack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LabelData__ctor_m8458 (LabelData_t1357 * __this, int32_t ___addr, int32_t ___maxStack, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Canvas
-struct Canvas_t235;
+struct Canvas_t137;
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
 struct List_1_t242;
 // System.Comparison`1<UnityEngine.UI.Graphic>
@@ -22,16 +22,16 @@ struct Comparison_1_t243;
 #include "UnityEngine_UnityEngine_LayerMask.h"
 
 // UnityEngine.UI.GraphicRaycaster
-struct  GraphicRaycaster_t241  : public BaseRaycaster_t181
+struct  GraphicRaycaster_t241  : public BaseRaycaster_t183
 {
 	// System.Boolean UnityEngine.UI.GraphicRaycaster::m_IgnoreReversedGraphics
 	bool ___m_IgnoreReversedGraphics_3;
 	// UnityEngine.UI.GraphicRaycaster/BlockingObjects UnityEngine.UI.GraphicRaycaster::m_BlockingObjects
 	int32_t ___m_BlockingObjects_4;
 	// UnityEngine.LayerMask UnityEngine.UI.GraphicRaycaster::m_BlockingMask
-	LayerMask_t195  ___m_BlockingMask_5;
+	LayerMask_t197  ___m_BlockingMask_5;
 	// UnityEngine.Canvas UnityEngine.UI.GraphicRaycaster::m_Canvas
-	Canvas_t235 * ___m_Canvas_6;
+	Canvas_t137 * ___m_Canvas_6;
 	// System.Collections.Generic.List`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRaycaster::m_RaycastResults
 	List_1_t242 * ___m_RaycastResults_7;
 };

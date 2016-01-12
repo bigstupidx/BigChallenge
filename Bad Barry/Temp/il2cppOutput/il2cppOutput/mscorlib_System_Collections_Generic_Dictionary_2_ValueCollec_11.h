@@ -16,7 +16,7 @@ struct Dictionary_2_t420;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>
-struct  ValueCollection_t2148  : public Object_t
+struct  ValueCollection_t2159  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.Graphic,System.Int32>::dictionary
 	Dictionary_2_t420 * ___dictionary_0;

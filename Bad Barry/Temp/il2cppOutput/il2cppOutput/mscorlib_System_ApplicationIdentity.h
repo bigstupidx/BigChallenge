@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Object.h"
 
 // System.ApplicationIdentity
-struct  ApplicationIdentity_t1732  : public Object_t
+struct  ApplicationIdentity_t1742  : public Object_t
 {
 	// System.String System.ApplicationIdentity::_fullName
 	String_t* ____fullName_0;

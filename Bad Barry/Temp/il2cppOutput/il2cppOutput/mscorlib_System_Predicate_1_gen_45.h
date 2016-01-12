@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Security.Policy.StrongName
-struct StrongName_t1668;
+struct StrongName_t1677;
 // System.IAsyncResult
 struct IAsyncResult_t265;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<System.Security.Policy.StrongName>
-struct  Predicate_1_t2590  : public MulticastDelegate_t264
+struct  Predicate_1_t2601  : public MulticastDelegate_t264
 {
 };

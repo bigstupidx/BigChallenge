@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.EventSystems.TouchInputModule
-struct  TouchInputModule_t114  : public PointerInputModule_t190
+struct  TouchInputModule_t114  : public PointerInputModule_t192
 {
 	// UnityEngine.Vector2 UnityEngine.EventSystems.TouchInputModule::m_LastMousePosition
 	Vector2_t25  ___m_LastMousePosition_12;

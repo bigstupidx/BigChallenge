@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<LitJson.JsonData>
-struct  Comparison_1_t2400  : public MulticastDelegate_t264
+struct  Comparison_1_t2411  : public MulticastDelegate_t264
 {
 };

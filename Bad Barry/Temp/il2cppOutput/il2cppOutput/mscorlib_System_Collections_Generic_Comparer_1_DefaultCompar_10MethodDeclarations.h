@@ -13,14 +13,14 @@
 #include <exception>
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
-struct DefaultComparer_t2560;
+struct DefaultComparer_t2571;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::.ctor()
-extern "C" void DefaultComparer__ctor_m19802_gshared (DefaultComparer_t2560 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m19802(__this, method) (( void (*) (DefaultComparer_t2560 *, const MethodInfo*))DefaultComparer__ctor_m19802_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m19895_gshared (DefaultComparer_t2571 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m19895(__this, method) (( void (*) (DefaultComparer_t2571 *, const MethodInfo*))DefaultComparer__ctor_m19895_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m19803_gshared (DefaultComparer_t2560 * __this, CustomAttributeTypedArgument_t1400  ___x, CustomAttributeTypedArgument_t1400  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m19803(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2560 *, CustomAttributeTypedArgument_t1400 , CustomAttributeTypedArgument_t1400 , const MethodInfo*))DefaultComparer_Compare_m19803_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m19896_gshared (DefaultComparer_t2571 * __this, CustomAttributeTypedArgument_t1409  ___x, CustomAttributeTypedArgument_t1409  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m19896(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t2571 *, CustomAttributeTypedArgument_t1409 , CustomAttributeTypedArgument_t1409 , const MethodInfo*))DefaultComparer_Compare_m19896_gshared)(__this, ___x, ___y, method)

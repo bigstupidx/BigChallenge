@@ -24,7 +24,7 @@ struct Coroutine_t273_marshaled;
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 
 // UnityEngine.UI.Scrollbar
-struct  Scrollbar_t295  : public Selectable_t208
+struct  Scrollbar_t295  : public Selectable_t210
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Scrollbar::m_HandleRect
 	RectTransform_t71 * ___m_HandleRect_16;
