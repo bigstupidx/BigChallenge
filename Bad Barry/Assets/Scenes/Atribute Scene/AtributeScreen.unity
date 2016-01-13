@@ -124,6 +124,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8283384, guid: 3ce256dbdb9c44daa9dd61419b096d09, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4bf0c257b50e24d5ba7355fe6ddd0b3a, type: 3}
+    - target: {fileID: 8279790, guid: 3ce256dbdb9c44daa9dd61419b096d09, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6401f7cdda6b846bab59ea7cba2a1ec3, type: 3}
+    - target: {fileID: 8276218, guid: 3ce256dbdb9c44daa9dd61419b096d09, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: abe8e48a563264838bb2e24a438da7e3, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3ce256dbdb9c44daa9dd61419b096d09, type: 2}
   m_IsPrefabParent: 0

@@ -137,6 +137,26 @@ Prefab:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8227802, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 72b62c717fe854c609ada1bed351fd7b, type: 3}
+    - target: {fileID: 8228330, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 17abed9c5c74a424f9e2d1a394f78f0e, type: 3}
+    - target: {fileID: 8280254, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ff227a84edbc4097a3d718284f289f2, type: 3}
+    - target: {fileID: 8234228, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4aa5c70bf08b14a14a5c03ae42b8fe28, type: 3}
+    - target: {fileID: 8284694, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a25d0c2fe3ed475f9585c35613f382d, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b5b39b26489d4cbd98adc5838b30821, type: 2}
   m_IsPrefabParent: 0
