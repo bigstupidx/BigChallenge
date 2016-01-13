@@ -93,10 +93,10 @@ public class Enemy : MonoBehaviour {
 
 
 	void Shoot(){
-
+		var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 		var x = weapon.GetComponent<Weapon>().weapons[selectedWeapon];
 		fireRate = x.GetComponent<WeaponStats>().fireRate;
-		if (isShooting) {
+		if (isShooting && !player.dead) {
 			
 			
 			if (time > fireRate) {

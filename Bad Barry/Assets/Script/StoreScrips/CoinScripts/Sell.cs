@@ -14,7 +14,8 @@ public class Sell : MonoBehaviour {
 
 	void Start(){
 //		inv = GameObject.Find ("Inventory").GetComponent<Inventory> ();
-		coin = new Coin (200);
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		coin = new Coin (behave.coins);
 		button = GameObject.Find ("BuyButton").GetComponent<Button>();
 		CoinsPanel = GameObject.Find ("CoinAmount");
 		CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
@@ -59,6 +60,8 @@ public class Sell : MonoBehaviour {
 
 			var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 			behave.inventory[itemID]++;
+			behave.coins = coin.Coins;
+
 			//CHAMAR FUNCAO PARA ADICIONAR NO INVENTARIO
 //				inv.AddItem(itemID);
 
