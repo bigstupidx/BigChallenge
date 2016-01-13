@@ -3,6 +3,10 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
+	public int coinsWhenDie = 5;
+
+	private GameBehavior behave;
+
 	public GameObject[] bulletBox;
 
 
@@ -18,9 +22,7 @@ public class Enemy : MonoBehaviour {
 	private Animator bothAnimator;
 	private Animator torsoAnimator;
 	private Animator legAnimator;
-
-	Transform score;
-
+	
 	public bool isShooting = false;
 	
 	public bool dead = false;
@@ -77,13 +79,14 @@ public class Enemy : MonoBehaviour {
 		isShooting = false;
 		Destroy (transform.GetComponent<BoxCollider2D> ());
 
-		score = GameObject.FindWithTag("Score").transform;
-		score.GetComponent<Score> ().inc();
 		var player = GameObject.FindGameObjectWithTag("Player");
 		player.GetComponent<Player> ().IncrementXp (experience);
 		if(Random.Range(1,4) == 2){
 			Instantiate( bulletBox[Random.Range(0,(bulletBox.Length -1))],transform.position,transform.rotation);
 		}
+
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.incCoins (coinsWhenDie);
 
 	}
 

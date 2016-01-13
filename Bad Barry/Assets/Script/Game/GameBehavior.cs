@@ -48,7 +48,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public DateTime lastDateTime;
 
-
+	//score and coins
+	private int earnedCoins = 0;
 
 
 
@@ -97,6 +98,17 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 
+	public void LevelCleared(){
+		//adicionar moedas moedasDoJogador = earnedCoins;
+		earnedCoins = 0;
+
+	}
+
+	public void incCoins(int coins){
+
+		earnedCoins += coins;
+
+	}
 
 	public void incrementBullet(int weaponType,int maxBullets,int minBullets){
 
