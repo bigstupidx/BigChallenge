@@ -62,13 +62,15 @@ public class Player : MonoBehaviour {
 		maxLife = vitality * 10;
 		baseDamage = strength * 2;
 		speed = agility * 0.15f;
+		life = maxLife;
+		behave.life = life;
+		behave.maxLife = maxLife;
 
 
 		experience = behave.experience;
-		life = behave.life;
 		if(life <= 0){
 			life = maxLife;
-			behave.life = life;
+
 		}
 		neededExperience = behave.neededExperience;
 
@@ -323,7 +325,7 @@ public class Player : MonoBehaviour {
 
 		Transform retry = GameObject.FindWithTag("Retry").transform;
 		retry.GetComponent<Retry> ().activate();
-		yield return new WaitForSeconds (6);
+		yield return new WaitForSeconds (3);
 
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();

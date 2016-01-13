@@ -48,6 +48,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public DateTime lastDateTime;
 
+	public int coins;
+
 
 
 
@@ -380,6 +382,7 @@ public class GameBehavior : MonoBehaviour {
 		data.timer = timer;
 		data.lastDateTime = lastDateTime;
 		data.inventory = inventory;
+		data.coins = coins;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -416,6 +419,8 @@ public class GameBehavior : MonoBehaviour {
 			lastDateTime = data.lastDateTime;
 
 			inventory = data.inventory;
+
+			coins = data.coins;
 
 		}
 
@@ -460,6 +465,9 @@ class Data
 	public float timer;
 
 	public DateTime lastDateTime;
+
+	public int coins;
+
 
 
 

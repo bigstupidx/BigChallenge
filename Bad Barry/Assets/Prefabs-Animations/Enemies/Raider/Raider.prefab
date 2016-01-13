@@ -294,7 +294,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 926395d5f1c844e4491926d78d0bb492, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1fc3a1fa5d4c043449fd6f94cf445611, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -491,6 +491,10 @@ MonoBehaviour:
   - {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
   weaponsSounds:
   - {fileID: 8262922}
+  weaponsWithoutAmmo: []
+  weaponsUnlocking: []
+  consumableItem: {fileID: 0}
+  knifeSound: {fileID: 0}
   bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
 --- !u!114 &11483130
 MonoBehaviour:
@@ -691,6 +695,10 @@ Prefab:
       propertyPath: bulletBox.Array.data[0]
       value: 
       objectReference: {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1fc3a1fa5d4c043449fd6f94cf445611, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 191212}
