@@ -312,6 +312,15 @@ public class Player : MonoBehaviour {
 
 	}
 
+	public void PauseGoToMap(AudioSource audio)
+	{
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.GoToMapWithSound(audio);
+
+
+	}
+
 
 
 

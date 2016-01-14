@@ -46,6 +46,9 @@ public class GameBehavior : MonoBehaviour {
 
 	public float timer = 0;
 
+	public float timeToEnergy = 600;
+
+
 	public DateTime lastDateTime;
 
 	//score and coins
@@ -86,9 +89,9 @@ public class GameBehavior : MonoBehaviour {
 	
 
 		
-		if(timer >=60){
-			energy = energy + (int)(timer / 60);
-			timer = timer - ((int)(timer / 60) * 60);
+		if(timer >= timeToEnergy){
+			energy = energy + (int)(timer / timeToEnergy);
+			timer = timer - ((int)(timer / timeToEnergy) * timeToEnergy);
 	
 		}
 		if(energy >= 5)
@@ -221,8 +224,11 @@ public class GameBehavior : MonoBehaviour {
 				energy--;
 
 				loadingSound = true;
-				//StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
-				StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
+				if(missionNumber == 1)
+					StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
+
+				if(missionNumber == 2)
+					StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
 
 				//Play ();
 			}else{
