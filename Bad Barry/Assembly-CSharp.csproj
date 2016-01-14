@@ -73,8 +73,8 @@
      <Compile Include="Assets\Script\Game\Score.cs" />
      <Compile Include="Assets\Script\Game\menuPause.cs" />
      <Compile Include="Assets\Script\HUDScripts\HUDGame.cs" />
-     <Compile Include="Assets\Script\InventoryInMission.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Inventory.cs" />
+     <Compile Include="Assets\Script\InventoryScripts\InventoryInMission.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemData.cs" />
      <Compile Include="Assets\Script\InventoryScripts\ItemDatabase.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Pathing.cs" />

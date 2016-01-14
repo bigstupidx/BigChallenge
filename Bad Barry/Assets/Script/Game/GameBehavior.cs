@@ -103,15 +103,26 @@ public class GameBehavior : MonoBehaviour {
 
 	public void LevelCleared(){
 		//adicionar moedas moedasDoJogador = earnedCoins;
+		this.coins += earnedCoins;
 		earnedCoins = 0;
 
 	}
 
 	public void incCoins(int newCoins){
 
-		this.coins += newCoins;
+		earnedCoins += newCoins;
 
 	}
+
+
+
+	public void IncrementCoinHorde(){
+
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.LevelCleared ();
+
+	}
+
 
 	public void incrementBullet(int weaponType,int maxBullets,int minBullets){
 
@@ -177,7 +188,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMap(){
 
-
+		earnedCoins = 0;
 		pause = false;
 		print ("aqui");
 		life = maxLife;
@@ -191,6 +202,7 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToMapWithSound(AudioSource audio){
 		
 		if (!loadingSound) {
+			earnedCoins = 0;
 			pause = false;
 			print ("aqui");
 			life = maxLife;
@@ -209,7 +221,9 @@ public class GameBehavior : MonoBehaviour {
 				energy--;
 
 				loadingSound = true;
-				StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
+				//StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
+				StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
+
 				//Play ();
 			}else{
 				//colocar som do neves
@@ -238,7 +252,7 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 		//Application.LoadLevel("NewPrototype");
-		Application.LoadLevel("HordeMode");
+		//Application.LoadLevel("HordeMode");
 
 	}
 

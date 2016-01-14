@@ -20,6 +20,9 @@ TagManager:
   - Parede
   - ParedeSecondMap
   - GoToMap
+  - FinalScore
+  - PanelDeath
+  - DeathCanvas
   layers:
   - Default
   - TransparentFX
