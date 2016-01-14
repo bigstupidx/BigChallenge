@@ -6,11 +6,17 @@ public class MapSceneHandler : MonoBehaviour {
 
 
 	GameBehavior behave;
+	public Text coins;
+	public Slider energySlider;
+	public Text counter;
+
+
 
 	// Use this for initialization
 	void Start () {
 	
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		coins.text = behave.coins.ToString();
 
 
 	}
@@ -20,6 +26,7 @@ public class MapSceneHandler : MonoBehaviour {
 
 		var textEnergy =  gameObject.GetComponent<Text>();
 		textEnergy.text = behave.energy.ToString();
+		energySlider.value = behave.energy;
 
 	}
 

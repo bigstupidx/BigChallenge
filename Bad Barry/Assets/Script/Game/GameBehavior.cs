@@ -23,7 +23,7 @@ public class GameBehavior : MonoBehaviour {
 	public float neededExperience = 100;
 	public int life = 100;
 	public int maxLife = 100;
-	public int energy = 10;
+	public int energy = 5;
 
 
 
@@ -80,7 +80,7 @@ public class GameBehavior : MonoBehaviour {
 		TimeSpan ts = currentTime - lastDateTime;
 		lastDateTime = currentTime;
 
-		if(energy < 15){
+		if(energy < 5){
 			timer = timer + (float)ts.TotalSeconds;
 		}
 	
@@ -91,10 +91,10 @@ public class GameBehavior : MonoBehaviour {
 			timer = timer - ((int)(timer / 60) * 60);
 	
 		}
-		if(energy >= 15)
+		if(energy >= 5)
 		{
 			timer = 0;
-			energy = 15;
+			energy = 5;
 		}
 
 	
