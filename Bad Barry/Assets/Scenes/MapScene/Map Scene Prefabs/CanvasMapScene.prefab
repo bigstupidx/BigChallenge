@@ -937,7 +937,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8b003382f285e4972b5b06fcf42ae2f5, type: 3}
-    m_FontSize: 12
+    m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
@@ -1457,7 +1457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shop
+  m_Text: Store
 --- !u!114 &11484288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1504,7 +1504,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 44b3c66b7f0464cdaa6c29f2454b6dc1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c0a2956cd2f843abb9c0422cf89e140, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1851,10 +1851,10 @@ RectTransform:
   - {fileID: 22452670}
   m_Father: {fileID: 22480494}
   m_RootOrder: 7
-  m_AnchorMin: {x: .75378561, y: .396000028}
-  m_AnchorMax: {x: .91463089, y: .672000051}
-  m_AnchoredPosition: {x: .499969482, y: 1.5}
-  m_SizeDelta: {x: -6, y: 0}
+  m_AnchorMin: {x: .75378561, y: .350695193}
+  m_AnchorMax: {x: .910000026, y: .645326197}
+  m_AnchoredPosition: {x: -1.50003052, y: .783981323}
+  m_SizeDelta: {x: -3, y: -7}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22447080
 RectTransform:
@@ -1903,10 +1903,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22428060}
   m_RootOrder: 0
-  m_AnchorMin: {x: .236336544, y: .204740733}
-  m_AnchorMax: {x: .769884765, y: .673518538}
-  m_AnchoredPosition: {x: -.249985695, y: .500011444}
-  m_SizeDelta: {x: -6.5, y: -7.5}
+  m_AnchorMin: {x: .255294979, y: .34679085}
+  m_AnchorMax: {x: .751000047, y: .574000001}
+  m_AnchoredPosition: {x: -.249985695, y: 0}
+  m_SizeDelta: {x: -.5, y: -.199999809}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22452670
 RectTransform:
@@ -2025,10 +2025,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22447080}
   m_RootOrder: 0
-  m_AnchorMin: {x: .236336544, y: .204740733}
-  m_AnchorMax: {x: .769884765, y: .673518538}
-  m_AnchoredPosition: {x: -.249985695, y: .500011444}
-  m_SizeDelta: {x: -6.5, y: -7.5}
+  m_AnchorMin: {x: .261607766, y: .346871734}
+  m_AnchorMax: {x: .757276952, y: .64510262}
+  m_AnchoredPosition: {x: .5, y: -.500002384}
+  m_SizeDelta: {x: -.5, y: -1}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22477798
 RectTransform:
@@ -2120,10 +2120,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22427250}
   m_RootOrder: 0
-  m_AnchorMin: {x: .248871624, y: .447723299}
-  m_AnchorMax: {x: .760553956, y: .770106792}
-  m_AnchoredPosition: {x: -.481189728, y: 1.50000381}
-  m_SizeDelta: {x: 2.5999999, y: -4.39999962}
+  m_AnchorMin: {x: .210116386, y: .5}
+  m_AnchorMax: {x: .760553956, y: .750868559}
+  m_AnchoredPosition: {x: 1.10678089, y: -.049993515}
+  m_SizeDelta: {x: -2.21359992, y: -.0999969989}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22495630
 RectTransform:
