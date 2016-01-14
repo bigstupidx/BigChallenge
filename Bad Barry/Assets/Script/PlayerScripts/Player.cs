@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour {
 
 	public GameObject knifeRange;
 
+	private GameObject canvasDeath;
 
 
 
@@ -49,7 +51,6 @@ public class Player : MonoBehaviour {
 	void Start () {
 		Time.timeScale = 1;
 		CrossPlatformInputManager.SetButtonUp("Fire");
-
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		strength = behave.getStrength();
@@ -93,6 +94,9 @@ public class Player : MonoBehaviour {
 
 
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
+
+		canvasDeath = GameObject.FindGameObjectWithTag ("DeathCanvas") as GameObject;
+		canvasDeath.SetActive (false);
 
 		behave.pause = false;
 	}
@@ -255,7 +259,7 @@ public class Player : MonoBehaviour {
 			
 			life = 0;
 			StartCoroutine(Die());
-			
+
 			hudGame.playerDead();
 			
 		} else {
@@ -316,20 +320,29 @@ public class Player : MonoBehaviour {
 
 	//death animation function
 	IEnumerator Die(){
+		canvasDeath.SetActive (true);
 
 		dead = true;
 		bothAnimator.SetBool ("dead", true);
 		legAnimator.SetBool ("IsDead", true);
 		torsoAnimator.SetBool ("IsDead", true);
 
+//		var finalScore = GameObject.FindGameObjectWithTag("FinalScore");
+//		var score = GameObject.FindGameObjectWithTag("Score");
+//
+//		finalScore.GetComponent<Text> ().text = "Score: " + score.GetComponent<Text> ().text;
+
+
+		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
+		panelDeath.GetComponent<Animator> ().SetTrigger("Death");
 
 		Transform retry = GameObject.FindWithTag("Retry").transform;
 		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (3);
 
 
-		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-		behave.GoToMap();
+//		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+//		behave.GoToMap();
 
 
 

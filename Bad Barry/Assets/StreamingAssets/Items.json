@@ -1,7 +1,7 @@
 [
 	{
 		"id": 0,
-		"title": "pistola",
+		"title": "Revolver",
 		"value": 50,
 		"stats": {
 			"power": 2,
@@ -11,13 +11,13 @@
 			"minDamage": 10,
 			"maxDamage": 20
 		},
-		"description" : "pistola inicial com pouco poder de dano",
+		"description" : "Damage: 10 ~ 20\nRate: 20\nRange: 30",
 		"stackable" : false,
 		"slug" : "initial_pistol"
 	},
 	{
 		"id": 1,
-		"title": "agua",
+		"title": "Water",
 		"value": 10,
 		"stats": {
 			"power": 0,
@@ -27,14 +27,14 @@
 			"minDamage": 0,
 			"maxDamage": 0
 		},
-		"description" : "recupera um pouco da sua vida",
+		"description" : "Regain a little vitality ",
 		"stackable" : true,
 		"slug" : "water"
 
 	},
 	{
 		"id": 2,
-		"title": "metralhadora",
+		"title": "MP-9",
 		"value": 200,
 		"stats": {
 			"power": 4,
@@ -44,7 +44,7 @@
 			"minDamage": 13,
 			"maxDamage": 22
 		},
-		"description" : "metralhadora com dano baixo mas com velocidade de tiro alto",
+		"description" : "Damage: 13 ~ 22\nRate: 30\nRange: 25",
 		"stackable" : false,
 		"slug" : "sub_machine_gun"
 

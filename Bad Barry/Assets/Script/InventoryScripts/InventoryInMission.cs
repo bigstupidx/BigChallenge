@@ -9,27 +9,21 @@ public class InventoryInMission : MonoBehaviour {
 	private List<ItemData> inventoryItems = new List<ItemData>();
 	private Image[] itemsInGame;
 	private string count;
-
-
-
-
-	//INVENTORYITENS JA VEM COM O AMOUNT DO ITEM, SÓ FALTA DECREMENTAR ELE ATÉ Q ACABE, DESTRUIR O OBJETO INGAME, 
-	//DECREMENTAR NO INVENTARIO ORIGINAL. JÁ NO INVENTARIO FALTA QUANDO ADICIONAR UM ITEM CONSUMIVEL NO SLOTPANEL DE BAIXO,	
-	//APARECER UMA OPCAO DE QUANTOS ITENS DO MESMO QUER ADICIONAR DE UMA VEZ.
+	private RectTransform imageRect;
+	private float imageWidth;
+	
 
 
 	void Start(){
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		inventoryItems = behave.getInventoryItems();
-//		for (int i=0; i<inventoryItems.Count; i++) {
-//			if(inventoryItems[i].item != null){
-//				print (inventoryItems[i].item.Title);
-//			}
-//			else{
-//				print ("neves locao");
-//			}
-//		}
+
 		itemsInGame = gameObject.GetComponentsInChildren<Image>();
+		imageRect = this.GetComponent<RectTransform>();
+		imageWidth = imageRect.rect.width/3;
+		print ("nome da image = "+itemsInGame[0].transform.GetChild(0).name);
+		print ("width da imagem = "+this.GetComponent<RectTransform>().rect.width);
+//		print ("nome do text = "+itemsInGame[0].transform.GetChild(0).GetChild(0).GetComponent<Text>().GetComponent<RectTransform>().position = new Vector3);
 
 		if(inventoryItems != null){
 			int index = 0;
@@ -40,6 +34,10 @@ public class InventoryInMission : MonoBehaviour {
 							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].item.Sprite;
 
 							if(inventoryItems[index].item.Stackable){
+								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().localPosition = new Vector3(imageWidth/(float)3,-imageWidth/(float)2.89,0);
+								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2(imageWidth/(float)4,imageWidth/(float)3.7);
+								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().resizeTextForBestFit = true;
+
 								if(inventoryItems[index].amount > 1){
 									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
 								}
