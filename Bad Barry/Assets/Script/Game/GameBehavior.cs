@@ -105,9 +105,10 @@ public class GameBehavior : MonoBehaviour {
 
 
 	public void LevelCleared(){
-		//adicionar moedas moedasDoJogador = earnedCoins;
 		this.coins += earnedCoins;
 		earnedCoins = 0;
+
+		this.GoToMap();
 
 	}
 

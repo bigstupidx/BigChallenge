@@ -40,7 +40,7 @@ public class Player : MonoBehaviour {
 
 	public GameObject knifeRange;
 
-	private GameObject canvasDeath;
+	public GameObject canvasDeath;
 
 
 
@@ -95,8 +95,6 @@ public class Player : MonoBehaviour {
 
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
-		canvasDeath = GameObject.FindGameObjectWithTag ("DeathCanvas") as GameObject;
-		canvasDeath.SetActive (false);
 
 		behave.pause = false;
 	}
@@ -329,6 +327,7 @@ public class Player : MonoBehaviour {
 
 	//death animation function
 	IEnumerator Die(){
+
 		canvasDeath.SetActive (true);
 
 		dead = true;
