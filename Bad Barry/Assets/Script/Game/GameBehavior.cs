@@ -221,8 +221,8 @@ public class GameBehavior : MonoBehaviour {
 				energy--;
 
 				loadingSound = true;
-				StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
-				//StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
+				//StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
+				StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
 
 				//Play ();
 			}else{
