@@ -135,6 +135,8 @@ public class Player : MonoBehaviour {
 
 		}
 
+		hudGame.changeAmmoType(weapon);
+
 		torsoAnimator.SetInteger("Weapon",behave.selectedWeapon);
 
 	}
@@ -196,9 +198,7 @@ public class Player : MonoBehaviour {
 					torsoAnimator.SetBool("Shooting",true);
 				}else
 				{
-					//later change to false but before resolve aniamtion
-					print("resolve aniamtion :)))");
-					torsoAnimator.SetBool("Shooting",true);
+					torsoAnimator.SetBool("Shooting",false);
 
 				}
 

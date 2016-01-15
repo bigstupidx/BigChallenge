@@ -11,6 +11,8 @@ public class HUDGame: MonoBehaviour {
 	public GameObject xp;
 	public GameObject lvlUp;
 	public GameObject ammo;
+	public Sprite[] images;
+	public GameObject ammoImage;
 
 	public static bool isPaused = false;
 
@@ -39,6 +41,14 @@ public class HUDGame: MonoBehaviour {
 		health.transform.localScale = new Vector3(healthValue,1f,1f);
 		xp.transform.localScale = new Vector3(xpValue,1f,1f);
 
+
+
+	}
+
+	public void changeAmmoType(int type){
+
+		var imagem = ammoImage.GetComponent<Image>();
+		imagem.sprite = images[type];
 
 
 	}

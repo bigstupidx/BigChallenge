@@ -3918,6 +3918,11 @@ MonoBehaviour:
   xp: {fileID: 177750}
   lvlUp: {fileID: 149468}
   ammo: {fileID: 199532}
+  images:
+  - {fileID: 21300000, guid: 84df28c0729cd4c51ad2b8794a22d8b4, type: 3}
+  - {fileID: 21300000, guid: 84df28c0729cd4c51ad2b8794a22d8b4, type: 3}
+  - {fileID: 21300000, guid: addd8548d2aac4f53a36068dbb942a76, type: 3}
+  ammoImage: {fileID: 152656}
 --- !u!114 &11420248
 MonoBehaviour:
   m_ObjectHideFlags: 1
