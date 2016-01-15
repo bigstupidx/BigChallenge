@@ -48,6 +48,23 @@
 		"stackable" : false,
 		"slug" : "sub_machine_gun"
 
+	},
+	{
+		"id": 3,
+		"title": "Shotgun",
+		"value": 400,
+		"stats": {
+			"power": 4,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 20,
+			"minDamage": 5,
+			"maxDamage": 50
+		},
+		"description" : "Damage: 5 ~ 50\nRate: 20\nRange: 30",
+		"stackable" : false,
+		"slug" : "shotgun"
+
 	}
 
 ]

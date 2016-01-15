@@ -170,6 +170,7 @@ public class Player : MonoBehaviour {
 				
 				if (time > fireRate) {
 					time = 0;
+
 					
 					//checks if pistol or have sufficient ammo;
 					if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0){
@@ -192,9 +193,15 @@ public class Player : MonoBehaviour {
 
 
 					}
-					
+					torsoAnimator.SetBool("Shooting",true);
+				}else
+				{
+					//later change to false but before resolve aniamtion
+					print("resolve aniamtion :)))");
+					torsoAnimator.SetBool("Shooting",true);
+
 				}
-				torsoAnimator.SetBool("Shooting",true);
+
 				
 
 				

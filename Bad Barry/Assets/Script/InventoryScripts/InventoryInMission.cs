@@ -123,6 +123,8 @@ public class InventoryInMission : MonoBehaviour {
 					break;
 				case 2 : player.ChangeWeapon(1);
 					break;
+				case 3 : player.ChangeWeapon(2);
+					break;
 
 				}
 			}
