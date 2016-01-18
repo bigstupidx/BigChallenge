@@ -7,6 +7,7 @@ public class BulletScript : MonoBehaviour {
 	public int minDamage = 2;
 	public int baseDamage = 0;
 	public int direction = 0;
+	public int angle = 0;
 	public GameObject origin;
 	// Use this for initialization
 	void Start () {
@@ -50,37 +51,22 @@ public class BulletScript : MonoBehaviour {
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		if(!behave.pause){
+			//partial solution check when reworking classes
+			if(angle == 0){
 
-		//shoot up
-		if (direction == 0) {
+				transform.Translate(Vector3.right * (speed * Time.deltaTime));
 			
-			transform.Translate(Vector3.right * (speed * Time.deltaTime));
-
-		}
-		//shoot right
-		if (direction == 1) {
-			
-			transform.Translate(Vector3.right * (speed * Time.deltaTime));
 
 
-			
-		}
-		//shoot down
-		if (direction == 2) {
-			
-			transform.Translate(Vector3.right * (speed * Time.deltaTime));
+			}else{
+
+				transform.Translate(new Vector3(Mathf.Cos(angle  * (float)(Mathf.PI / 180.0)),Mathf.Sin(angle  * (float)(Mathf.PI / 180.0)),0) * (speed * Time.deltaTime));
 
 
-			
-		}
-		//shoot left
-		if (direction == 3) {
-			
-			transform.Translate(Vector3.right * (speed * Time.deltaTime));
+			}
 
 
-			
-		}
+
 		}
 	}
 

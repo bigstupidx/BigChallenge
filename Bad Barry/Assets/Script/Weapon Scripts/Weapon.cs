@@ -49,18 +49,46 @@ public class Weapon : MonoBehaviour {
 			yValue = selected.yValueLeft;
 		}
 
-		Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
-				if (bullet == null) {
-		
-			print ("null found");
+		//case necessary modify weapon stats put number of bullets fired and angle beetwen then
+		//partial solution:
+
+		if(weapon != 2){
+			Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
+			if (bullet == null) {
 			
-		} else {
-			bullet.GetComponent<BulletScript> ().direction = direction;
-			bullet.GetComponent<BulletScript> ().baseDamage = baseDamage;
-			bullet.GetComponent<BulletScript> ().minDamage = selected.minDamage;
-			bullet.GetComponent<BulletScript> ().maxDamage = selected.maxDamage;
-			bullet.GetComponent<BulletScript> ().speed = selected.bulletSpeed;
-			bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
+				print ("null found");
+				
+			} else {
+				bullet.GetComponent<BulletScript> ().direction = direction;
+				bullet.GetComponent<BulletScript> ().baseDamage = baseDamage;
+				bullet.GetComponent<BulletScript> ().minDamage = selected.minDamage;
+				bullet.GetComponent<BulletScript> ().maxDamage = selected.maxDamage;
+				bullet.GetComponent<BulletScript> ().speed = selected.bulletSpeed;
+				bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
+			}
+		}else{
+			for(int i = 15; i >= -15; i = i - 3){
+
+				Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
+				if (bullet == null) {
+					
+					print ("null found");
+					
+				} else {
+					bullet.GetComponent<BulletScript> ().direction = direction;
+					bullet.GetComponent<BulletScript> ().baseDamage = baseDamage;
+					bullet.GetComponent<BulletScript> ().minDamage = selected.minDamage;
+					bullet.GetComponent<BulletScript> ().maxDamage = selected.maxDamage;
+					bullet.GetComponent<BulletScript> ().speed = selected.bulletSpeed;
+					bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
+					bullet.GetComponent<BulletScript> ().angle = i;
+
+				}
+
+			}
+
+
+
 		}
 
 
