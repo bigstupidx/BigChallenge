@@ -67,7 +67,7 @@ public class Weapon : MonoBehaviour {
 				bullet.GetComponent<BulletScript> ().origin = transform.parent.gameObject;
 			}
 		}else{
-			for(int i = 15; i >= -15; i = i - 3){
+			for(int i = 15; i >= -15; i = i - 5){
 
 				Transform bullet =  Instantiate(bulletPrefab, new Vector3(firePoint.position.x + xValue, firePoint.position.y + yValue, firePoint.position.z), firePoint.rotation) as Transform;
 				if (bullet == null) {
