@@ -40,6 +40,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  abilityIDs: 000000000000000000000000
+  abilityIndex: 0
   levelingUp: 0
   levelsUp: 0
   pause: 0
@@ -54,6 +56,12 @@ MonoBehaviour:
   selectedWeapon: 0
   bullets: 000000000000000000000000
   timer: 0
+  timeToEnergy: 600
+  coins: 0
+  skillActivate: 0
+  timeToStopSkill: 5
+  skillTimer: 0
+  skill: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

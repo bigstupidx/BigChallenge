@@ -53,9 +53,10 @@ public class Sell : MonoBehaviour {
 
 		if (checkCoins(coin.Coins)) {
 
+			//FAZER LOGICA PARA RETIRAR ITEMS(!STACKABLE) DA LOJA DPS DE COMPRADOS
+
 			//som quando comprar item
 			audio.Play();
-
 
 			coin.Coins -= itemPrice;
 			CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
@@ -64,15 +65,14 @@ public class Sell : MonoBehaviour {
 			if(ability){
 				//SETAR HABILIDADE COMO DESBLOQUEADA, E HABILITAR ELA IN-GAME 4EVER
 
-				//VER SE TA CERTO
-				behave.abilityIDs[behave.abilityIDs.Length] = itemID;
+				//ADICIONANDO HABILIDADE DO ARRAY LA NO GAMEBEHAVIOR
+				behave.abilityIDs[behave.abilityIndex] = itemID;
+				behave.abilityIndex++;
 			}else{
 				behave.inventory[itemID]++;
 			}
 			behave.coins = coin.Coins;
 
-			//CHAMAR FUNCAO PARA ADICIONAR NO INVENTARIO
-//				inv.AddItem(itemID);
 
 		} else
 			print ("Coins insuficiente");
