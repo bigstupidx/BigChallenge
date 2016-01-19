@@ -13,6 +13,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public int[] inventory = new int[10];
 
+	public int[] abilityIDs = new int[3];
+
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -72,6 +74,11 @@ public class GameBehavior : MonoBehaviour {
 
 			inventory = new int[10];
 		
+		}
+		if(abilityIDs == null){
+			
+			abilityIDs = new int[3];
+			
 		}
 	
 	}
@@ -502,7 +509,7 @@ class Data
 
 	public int coins;
 
-
+	public int[] abilityIDs;
 
 
 

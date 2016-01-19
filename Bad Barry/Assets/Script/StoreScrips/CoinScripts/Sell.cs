@@ -7,6 +7,7 @@ public class Sell : MonoBehaviour {
 
 	public int itemPrice;
 	public int itemID;
+	public bool ability;
 	public Coin coin;
 	public Button button;
 	public GameObject CoinsPanel;
@@ -48,6 +49,7 @@ public class Sell : MonoBehaviour {
 
 		itemPrice = ListBank.Instance.itemPrice;
 		itemID = ListBank.Instance.itemID;
+		ability = ListBank.Instance.ability;
 
 		if (checkCoins(coin.Coins)) {
 
@@ -59,7 +61,14 @@ public class Sell : MonoBehaviour {
 			CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
 
 			var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-			behave.inventory[itemID]++;
+			if(ability){
+				//SETAR HABILIDADE COMO DESBLOQUEADA, E HABILITAR ELA IN-GAME 4EVER
+
+				//VER SE TA CERTO
+				behave.abilityIDs[behave.abilityIDs.Length] = itemID;
+			}else{
+				behave.inventory[itemID]++;
+			}
 			behave.coins = coin.Coins;
 
 			//CHAMAR FUNCAO PARA ADICIONAR NO INVENTARIO

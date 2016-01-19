@@ -13,6 +13,7 @@
 		},
 		"description" : "Damage: 10 ~ 20\nRate: 20\nRange: 30",
 		"stackable" : false,
+		"ability": false,
 		"slug" : "initial_pistol"
 	},
 	{
@@ -29,6 +30,7 @@
 		},
 		"description" : "Regain a little vitality ",
 		"stackable" : true,
+		"ability": false,
 		"slug" : "water"
 
 	},
@@ -46,6 +48,7 @@
 		},
 		"description" : "Damage: 13 ~ 22\nRate: 30\nRange: 25",
 		"stackable" : false,
+		"ability": false,
 		"slug" : "sub_machine_gun"
 
 	},
@@ -63,8 +66,26 @@
 		},
 		"description" : "Damage: 5 ~ 50\nRate: 20\nRange: 30",
 		"stackable" : false,
+		"ability": false,
 		"slug" : "shotgun"
 
-	}
+	},
+	{
+		"id": 4,
+		"title": "Survivor",
+		"value": 1000,
+		"stats": {
+			"power": 4,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Unlock the ability to not take damage for a while",
+		"stackable" : false,
+		"ability": true,
+		"slug" : "survivor"
 
+	}
 ]
