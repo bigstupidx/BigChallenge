@@ -268,11 +268,14 @@ public class Player : MonoBehaviour {
 			hudGame.playerDead();
 			
 		} else {
-			
-			life = life - trueDamage;	
-			
-			hudGame.takeDamage();
-			
+			var skills = GameObject.FindGameObjectWithTag("Skills").GetComponent<Skill>();
+
+			if(!skills.skillActivate){
+				life = life - trueDamage;	
+				hudGame.takeDamage();
+			}
+
+
 		}
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.life = life;

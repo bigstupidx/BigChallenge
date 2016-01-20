@@ -15,7 +15,7 @@ public class ListBank : MonoBehaviour
 	private ItemDatabase database;
 	public int itemPrice;
 	public int itemID;
-
+	public bool ability;
 	public RectTransform canvasRect;
 
 	private int[] contents = {
@@ -37,6 +37,7 @@ public class ListBank : MonoBehaviour
 			AddItem (1);
 			AddItem (2);
 			AddItem (3);
+			AddItem (4);
 		}
 
 		public void AddItem(int id){

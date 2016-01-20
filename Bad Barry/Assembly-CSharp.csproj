@@ -90,6 +90,7 @@
      <Compile Include="Assets\Script\Papyrus\goal.cs" />
      <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
      <Compile Include="Assets\Script\PlayerScripts\knifeVision.cs" />
+     <Compile Include="Assets\Script\SkillScripts\Skill.cs" />
      <Compile Include="Assets\Script\StoreScrips\CoinScripts\Coin.cs" />
      <Compile Include="Assets\Script\StoreScrips\CoinScripts\Sell.cs" />
      <Compile Include="Assets\Script\StoreScrips\Scripts\CircularScrollingList\ListBank.cs" />

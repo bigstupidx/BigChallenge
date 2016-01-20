@@ -21,8 +21,6 @@ public class InventoryInMission : MonoBehaviour {
 		itemsInGame = gameObject.GetComponentsInChildren<Image>();
 		imageRect = this.GetComponent<RectTransform>();
 		imageWidth = imageRect.rect.width/3;
-		print ("nome da image = "+itemsInGame[0].transform.GetChild(0).name);
-		print ("width da imagem = "+this.GetComponent<RectTransform>().rect.width);
 //		print ("nome do text = "+itemsInGame[0].transform.GetChild(0).GetChild(0).GetComponent<Text>().GetComponent<RectTransform>().position = new Vector3);
 
 		if(inventoryItems != null){

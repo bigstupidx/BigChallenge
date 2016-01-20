@@ -222,7 +222,7 @@ Animator:
   m_GameObject: {fileID: 144370}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 64466547a1a79487eb046001b6f1b6fc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 09ae1d966096942928923f1077b343c6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -244,6 +244,11 @@ MonoBehaviour:
   weapons:
   - {fileID: 127000, guid: 7abfdb8bf38d54224a2da258ca812908, type: 2}
   - {fileID: 192876, guid: 46ff3cf93222e4c7db14679b3c72c653, type: 2}
+  weaponsSounds: []
+  weaponsWithoutAmmo: []
+  weaponsUnlocking: []
+  consumableItem: {fileID: 0}
+  knifeSound: {fileID: 0}
   bulletPrefab: {fileID: 422682, guid: 77d661cf334964de599ebb76165789f9, type: 2}
 --- !u!114 &11423328
 MonoBehaviour:
@@ -273,6 +278,8 @@ MonoBehaviour:
   agility: 0
   inteligence: 0
   vitality: 0
+  knifeRange: {fileID: 0}
+  canvasDeath: {fileID: 0}
 --- !u!212 &21210836
 SpriteRenderer:
   m_ObjectHideFlags: 1
