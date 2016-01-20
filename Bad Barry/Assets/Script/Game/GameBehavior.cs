@@ -7,6 +7,7 @@ using System.IO;
 
 public class GameBehavior : MonoBehaviour {
 
+
 	private bool loadingSound=false; //assegura que tocará um audio por vez
 	
 
@@ -53,6 +54,9 @@ public class GameBehavior : MonoBehaviour {
 
 	//score and coins
 	private int earnedCoins = 0;
+	public int enemiesKilled = 0;
+	public int totalEnemies = 0;
+
 	public int coins;
 
 
@@ -107,8 +111,8 @@ public class GameBehavior : MonoBehaviour {
 	public void LevelCleared(){
 		this.coins += earnedCoins;
 		earnedCoins = 0;
-
-		this.GoToMap();
+		enemiesKilled = 0;
+		totalEnemies = 0;
 
 	}
 
@@ -193,6 +197,8 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToMap(){
 
 		earnedCoins = 0;
+		enemiesKilled = 0;
+		totalEnemies = 0;
 		pause = false;
 		print ("aqui");
 		life = maxLife;
@@ -203,10 +209,24 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
+	public void GoToScore(AudioSource audio){
+		if (!loadingSound) {
+			pause = false;
+			life = maxLife;
+			//Application.LoadLevel("ScoreScene");
+
+			//save ();
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "ScoreScene"));
+		}
+	}
+
 	public void GoToMapWithSound(AudioSource audio){
 		
 		if (!loadingSound) {
 			earnedCoins = 0;
+			enemiesKilled = 0;
+			totalEnemies = 0;
 			pause = false;
 			print ("aqui");
 			life = maxLife;
@@ -340,6 +360,11 @@ public class GameBehavior : MonoBehaviour {
 
 	public void setInventoryItems(List<ItemData> items){
 		inventoryItems = items;
+	}
+
+	//getter for score
+	public int getEarnedCoins(){
+		return earnedCoins;
 	}
 
 	//incrementers

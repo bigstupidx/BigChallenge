@@ -326,6 +326,15 @@ public class Player : MonoBehaviour {
 
 	}
 
+	public void PauseGoToScore(AudioSource audio)
+	{
+		
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.GoToScore(audio);
+		
+		
+	}
+
 
 
 
@@ -351,8 +360,8 @@ public class Player : MonoBehaviour {
 		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
 		panelDeath.GetComponent<Animator> ().SetTrigger("Death");
 
-		Transform retry = GameObject.FindWithTag("Retry").transform;
-		retry.GetComponent<Retry> ().activate();
+//		Transform retry = GameObject.FindWithTag("Retry").transform;
+//		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (3);
 
 

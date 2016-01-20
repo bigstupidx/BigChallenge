@@ -87,6 +87,7 @@ public class Enemy : MonoBehaviour {
 
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.incCoins (coinsWhenDie);
+		behave.enemiesKilled ++;
 
 	}
 

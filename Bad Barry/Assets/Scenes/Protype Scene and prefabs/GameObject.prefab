@@ -1553,7 +1553,6 @@ GameObject:
   - 224: {fileID: 22435458}
   - 222: {fileID: 22211674}
   - 114: {fileID: 11442548}
-  - 114: {fileID: 11431594}
   m_Layer: 5
   m_Name: Score
   m_TagString: Score
@@ -26160,17 +26159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 180a6f4a9e59d430dbe54ec42ff91ddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11431594
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 120654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6d7f6835164e4cf89b3c77651dbefa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11431596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29248,7 +29236,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11408582}
-        m_MethodName: PauseGoToMap
+        m_MethodName: PauseGoToScore
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8279948}
