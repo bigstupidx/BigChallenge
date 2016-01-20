@@ -75,9 +75,9 @@ public class BulletScript : MonoBehaviour {
 
 
 
-		maxDamage = maxDamage;// + baseDamage;
+		maxDamage = maxDamage + (int)(maxDamage * (baseDamage / 50.0));
 
-		minDamage = minDamage;// + baseDamage;
+		minDamage = maxDamage + (int)(minDamage * (baseDamage / 50.0));
 
 		if (col.gameObject.tag == "Player" && col.gameObject != origin) {
 

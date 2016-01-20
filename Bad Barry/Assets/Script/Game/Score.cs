@@ -10,7 +10,7 @@ public class Score : MonoBehaviour {
 	public Text totalEnimies;
 	public Text enemiesKilled;
 	public Text coinsEarned;
-	public AudioSource audio;
+	public AudioSource audioCoin;
 
 
 	public GameObject heads;
@@ -83,7 +83,7 @@ public class Score : MonoBehaviour {
 					//instanciar cabeca de inimigo;
 					var imageAux = GameBehavior.Instantiate(enemyImage);
 					imageAux.transform.SetParent(heads.transform);
-					audio.Play();
+					audioCoin.Play();
 
 					timer = 0;
 				}else{

@@ -87,7 +87,13 @@ public class Enemy : MonoBehaviour {
 
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.incCoins (coinsWhenDie);
-		behave.enemiesKilled ++;
+		behave.enemiesKilled++;
+
+		if(Application.loadedLevelName == "HordeMode"){
+
+			behave.hordeKills++;
+
+		}
 
 	}
 

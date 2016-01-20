@@ -294,9 +294,18 @@ Prefab:
       propertyPath: m_Name
       value: gold_coins
       objectReference: {fileID: 0}
+    - target: {fileID: 11442318, guid: fedd60e2945444f24b4d2874b4816b42, type: 2}
+      propertyPath: audioCoin
+      value: 
+      objectReference: {fileID: 1624340139}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fedd60e2945444f24b4d2874b4816b42, type: 2}
   m_IsPrefabParent: 0
+--- !u!82 &1624340139 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8252082, guid: fedd60e2945444f24b4d2874b4816b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624340138}
 --- !u!1 &2047327596
 GameObject:
   m_ObjectHideFlags: 0
