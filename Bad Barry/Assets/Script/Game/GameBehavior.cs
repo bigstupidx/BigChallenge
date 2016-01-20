@@ -132,10 +132,15 @@ public class GameBehavior : MonoBehaviour {
 		}
 
 		//LOGICA PARA RELOADING
-		if (reloading) 
+		if (reloading) {
+			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
 			reloadingTimer += (float)ts.TotalSeconds;
+			skills.amount.text = (reloadingTime - (int)reloadingTimer).ToString();
+		}
 
 		if (reloadingTimer >= reloadingTime) {
+			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+			skills.amount.text = "";
 
 			print ("ESTA CARREGADA A SKILL");
 			reloadingTimer = 0;
@@ -149,10 +154,8 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void SkillClicked(){
-		if (!reloading) {
 			skillActivate = true;
 			print ("ATIVEI A SKILL");
-		}
 	}
 
 

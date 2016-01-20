@@ -27881,15 +27881,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   behave: {fileID: 0}
-  buttonClicked: {fileID: 0}
   skillActivate: 0
-  colors:
+  amount: {fileID: 0}
+  slotButton: {fileID: 0}
+  slotColors:
     m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
     m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
     m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
     m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
     m_ColorMultiplier: 0
     m_FadeDuration: 0
+  iconImage: {fileID: 0}
+  iconColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &11457494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28726,8 +28729,8 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 5
+    m_MaxSize: 50
     m_Alignment: 4
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -35123,10 +35126,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22446068}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 19.2999992, y: -18}
-  m_SizeDelta: {x: 10.3999996, y: 16.1000004}
+  m_AnchorMin: {x: .278325588, y: .183189094}
+  m_AnchorMax: {x: .721000016, y: .816810906}
+  m_AnchoredPosition: {x: 1.43051147e-05, y: -1.90734863e-06}
+  m_SizeDelta: {x: .200000763, y: -.200000763}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22420812
 RectTransform:

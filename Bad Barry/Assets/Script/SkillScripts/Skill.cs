@@ -11,10 +11,14 @@ public class Skill : MonoBehaviour {
 	private Image[] skillsInGame;
 	private ItemDatabase database;
 	public List<Item> skills = new List<Item> ();
-	public Button buttonClicked;
 	public bool skillActivate = false;
-	public ColorBlock colors;
+	public Text amount;
 
+
+	public Button slotButton;
+	public ColorBlock slotColors;
+	public Image iconImage;
+	public Color iconColor;
 
 	void Start () {
 		behave = GameObject.FindGameObjectWithTag ("Behaviour").GetComponent<GameBehavior> ();
@@ -54,20 +58,22 @@ public class Skill : MonoBehaviour {
 
 	public void ItemPressed(int itemNumber){
 
-		if(itemNumber < behave.abilityIndex){
+		if(itemNumber < behave.abilityIndex && !behave.skillActivate){
 //			var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 			foreach (Image image in skillsInGame) {
 				if (image.name == "Skill"+(itemNumber+1)){
-					buttonClicked = GameObject.Find ("Skill"+(itemNumber+1)).GetComponent<Button>();
-//					print ("CLIQUEI NO BOTAO"+GameObject.Find ("Skill"+(itemNumber+1)).name);
+					slotButton = GameObject.Find ("Skill"+(itemNumber+1)).GetComponent<Button>();
+					slotColors = slotButton.colors;
 
-					colors = buttonClicked.colors;
+					iconImage = GameObject.Find ("Skill"+(itemNumber+1)).transform.GetChild(0).GetComponent<Image>();
+					iconColor = iconImage.color;
+
+					amount =  GameObject.Find ("Skill"+(itemNumber+1)).transform.GetChild(0).GetChild(0).GetComponent<Text>();
+
 					break;
 				}
 			}
-
-			skillActivate = true;
 
 
 			switch (skills [itemNumber].ID) {
@@ -75,7 +81,10 @@ public class Skill : MonoBehaviour {
 			case 4:
 //				print ("clicou na habilidade survivor");
 
-				behave.SkillClicked();
+				if(!behave.reloading){
+					skillActivate = true;
+					behave.SkillClicked();
+				}
 				break;
 			}
 		}
@@ -85,19 +94,28 @@ public class Skill : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (skillActivate) {
-			colors.normalColor = Color.clear;
-			colors.highlightedColor = Color.clear;
-			colors.disabledColor = Color.clear;
-			colors.pressedColor = Color.clear;
-			buttonClicked.colors = colors;
-		} else if(buttonClicked != null){
+		if (behave.reloading) {
+			Color newColor = new Color(0.231F, 0.231F, 0.231F, 0.89F);
+
+			slotColors.normalColor = newColor;
+			slotColors.highlightedColor = newColor;
+			slotColors.disabledColor = newColor;
+			slotColors.pressedColor = newColor;
+			slotButton.colors = slotColors;
+
+			iconImage.color = newColor;
+
+
+		} else if(slotButton != null){
 //			print ("entro else");
-			colors.normalColor = Color.white;
-			colors.highlightedColor = Color.white;
-			colors.disabledColor = Color.white;
-			colors.pressedColor = Color.white;
-			buttonClicked.colors = colors;
+			slotColors.normalColor = Color.white;
+			slotColors.highlightedColor = Color.white;
+			slotColors.disabledColor = Color.white;
+			slotColors.pressedColor = Color.white;
+			slotButton.colors = slotColors;
+
+			iconImage.color = iconColor;
+
 		}
 	}
 
