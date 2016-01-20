@@ -231,6 +231,7 @@ public class ListBox : MonoBehaviour
 			//PASSANDO PRA LOJA O VALOR E O ID DE CADA ITEM 
 			ListBank.Instance.itemPrice = content.Value;
 			ListBank.Instance.itemID = content.ID;
+			ListBank.Instance.ability = content.Ability;
 
 			c.a = 255;
 			contentImage.color = c;

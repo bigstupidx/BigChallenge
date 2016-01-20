@@ -23,6 +23,7 @@ TagManager:
   - FinalScore
   - PanelDeath
   - DeathCanvas
+  - Skills
   layers:
   - Default
   - TransparentFX

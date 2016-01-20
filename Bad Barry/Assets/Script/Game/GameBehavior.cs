@@ -20,6 +20,9 @@ public class GameBehavior : MonoBehaviour {
 
 	public int[] inventory = new int[10];
 
+	public int[] abilityIDs = new int[3];
+	public int abilityIndex = 0;
+
 	public bool levelingUp = false;
 	public int levelsUp = 0;
 	public bool pause = false;
@@ -75,6 +78,14 @@ public class GameBehavior : MonoBehaviour {
 
 
 
+	//skill
+	public bool skillActivate = false;
+	public float timeToStopSkill = 5;
+	public float reloadingTime = 10;
+	public float skillTimer = 0;
+
+	public bool reloading = false;
+	public float reloadingTimer = 0;
 
 
 	// Use this for initialization
@@ -105,6 +116,11 @@ public class GameBehavior : MonoBehaviour {
 
 			inventory = new int[10];
 		
+		}
+		if(abilityIDs == null){
+			
+			abilityIDs = new int[3];
+			
 		}
 	
 	}
@@ -161,24 +177,64 @@ public class GameBehavior : MonoBehaviour {
 		TimeSpan ts = currentTime - lastDateTime;
 		lastDateTime = currentTime;
 
-		if(energy < 5){
+		if (energy < 5) {
 			timer = timer + (float)ts.TotalSeconds;
 		}
 	
 
 		
-		if(timer >= timeToEnergy){
+		if (timer >= timeToEnergy) {
 			energy = energy + (int)(timer / timeToEnergy);
 			timer = timer - ((int)(timer / timeToEnergy) * timeToEnergy);
 	
 		}
-		if(energy >= 5)
-		{
+		if (energy >= 5) {
 			timer = 0;
 			energy = 5;
 		}
 
+		//LOGICA PARA TEMPO DA SKILL DPS DE CLICADA
+		if (skillActivate) 
+			skillTimer += (float)ts.TotalSeconds;
+
+		//PENSAR NA LOGICA DE QUANTO TEMPO A HABILIDADE FICARÁ EM USO BASEADA NOS PONTOS DE PERCEPCÃO
+		if (skillTimer >= timeToStopSkill ) {
+			skillTimer = 0;
+			skillActivate = !skillActivate;
+			print ("ACABOU O TEMPO DA SKILL");
+			reloading = !reloading;
+
+
+			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+			skills.skillActivate = false;
+
+		}
+
+		//LOGICA PARA RELOADING
+		if (reloading) {
+			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+			reloadingTimer += (float)ts.TotalSeconds;
+			skills.amount.text = (reloadingTime - (int)reloadingTimer).ToString();
+		}
+
+		if (reloadingTimer >= reloadingTime) {
+			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+			skills.amount.text = "";
+
+			print ("ESTA CARREGADA A SKILL");
+			reloadingTimer = 0;
+			reloading = !reloading;
+			//skillActivate = false;
+
+		}
+
+
 	
+	}
+
+	public void SkillClicked(){
+			skillActivate = true;
+			print ("ATIVEI A SKILL");
 	}
 
 
@@ -504,6 +560,8 @@ public class GameBehavior : MonoBehaviour {
 		data.timer = timer;
 		data.lastDateTime = lastDateTime;
 		data.inventory = inventory;
+		data.abilityIndex = abilityIndex;
+		data.abilityIDs = abilityIDs;
 		data.coins = coins;
 
 		data.totalCoins = totalCoins;
@@ -548,6 +606,8 @@ public class GameBehavior : MonoBehaviour {
 			lastDateTime = data.lastDateTime;
 
 			inventory = data.inventory;
+			abilityIDs = data.abilityIDs;
+			abilityIndex = data.abilityIndex;
 
 			coins = data.coins;
 
@@ -612,7 +672,9 @@ class Data
 	public int ammoSpent;
 	public float totalExperience;
 	public int knifeKills;
+	public int[] abilityIDs;
 
+	public int abilityIndex;
 
 
 
