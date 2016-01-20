@@ -61,8 +61,8 @@ public class Player : MonoBehaviour {
 
 
 		maxLife = vitality * 10;
-		baseDamage = strength * 2;
-		speed = agility * 0.15f;
+		baseDamage = strength;
+		speed = 1 + agility * 0.01f;
 		life = maxLife;
 		behave.life = life;
 		behave.maxLife = maxLife;
@@ -183,6 +183,7 @@ public class Player : MonoBehaviour {
 						if(behave.selectedWeapon != 0){
 							
 							behave.bullets[behave.selectedWeapon]--;
+							behave.ammoSpent++;
 							hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
 							
 							
@@ -213,10 +214,14 @@ public class Player : MonoBehaviour {
 				foreach(GameObject enemy in vision.enemies){
 					//facada
 					enemy.GetComponent<Enemy>().TakeDamage(100);
+					vision.enemies.Remove(enemy);
+					behave.knifeKills++;
+
 					break;
-					
+
+
 				}
-				vision.enemies.RemoveRange(0,vision.enemies.Count);
+
 				torsoAnimator.SetTrigger("Knife");
 				time = 0;
 				
@@ -283,6 +288,7 @@ public class Player : MonoBehaviour {
 	//so it is harder to level up on easier enemies or easier quests
 	public void IncrementXp(float receivedXp){
 
+
 		experience = experience + (receivedXp / (lvl + 1));
 
 
@@ -299,6 +305,7 @@ public class Player : MonoBehaviour {
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.experience = experience;
 		behave.neededExperience = neededExperience;
+		behave.totalExperience += receivedXp;
 
 
 	}
