@@ -73,7 +73,7 @@
 	{
 		"id": 4,
 		"title": "Survivor",
-		"value": 1000,
+		"value": 5,
 		"stats": {
 			"power": 4,
 			"defense": 0,

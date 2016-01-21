@@ -8,6 +8,8 @@ public class Skill : MonoBehaviour {
 	public static Skill Instance;
 
 	public GameBehavior behave;
+	public Player player;
+
 	private Image[] skillsInGame;
 	private ItemDatabase database;
 	public List<Item> skills = new List<Item> ();
@@ -22,8 +24,13 @@ public class Skill : MonoBehaviour {
 
 	void Start () {
 		behave = GameObject.FindGameObjectWithTag ("Behaviour").GetComponent<GameBehavior> ();
+		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+
 		skillsInGame = GameObject.Find ("SkillsInGame").GetComponentsInChildren<Image> ();
 		database = GetComponent<ItemDatabase> ();
+
+//		survivorImage = GameObject.FindGameObjectWithTag ("SkillSurvivor").GetComponent<Image> ();
+//		survivorAnimator = transform.GetComponent<Animator> ();
 
 		for (int i = 0; i < behave.abilityIndex ; i++) {
 			AddItem(behave.abilityIDs[i]);
@@ -39,10 +46,7 @@ public class Skill : MonoBehaviour {
 
 							var x = image.GetComponentInChildren<Image>();
 							x.color = Color.white;
-//						else{
-//							var x = image.GetComponentInChildren<Image>();
-//							x.color = Color.clear;
-//						}
+						print (x.color.a);
 						
 					}
 					index++;
@@ -58,7 +62,7 @@ public class Skill : MonoBehaviour {
 
 	public void ItemPressed(int itemNumber){
 
-		if(itemNumber < behave.abilityIndex && !behave.skillActivate){
+		if(itemNumber < behave.abilityIndex && !player.skillActivate){
 //			var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 			foreach (Image image in skillsInGame) {
@@ -81,9 +85,9 @@ public class Skill : MonoBehaviour {
 			case 4:
 //				print ("clicou na habilidade survivor");
 
-				if(!behave.reloading){
+				if(!player.reloading){
 					skillActivate = true;
-					behave.SkillClicked();
+					player.SkillClicked();
 				}
 				break;
 			}
@@ -94,7 +98,7 @@ public class Skill : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (behave.reloading) {
+		if (player.reloading) {
 			Color newColor = new Color(0.231F, 0.231F, 0.231F, 0.89F);
 
 			slotColors.normalColor = newColor;

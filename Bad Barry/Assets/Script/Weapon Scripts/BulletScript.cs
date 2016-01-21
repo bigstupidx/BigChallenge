@@ -86,17 +86,17 @@ public class BulletScript : MonoBehaviour {
 			Destroy (this.gameObject);
 
 		}
+		if (col.gameObject.tag == "Enemy" && col.gameObject.tag == origin.tag) {
+			
+			Destroy (this.gameObject);
+				
+		}
+
 		if (col.gameObject.tag == "Enemy" && col.gameObject != origin) {
 
 			col.gameObject.GetComponent<Enemy>().TakeDamage(Random.Range(minDamage,maxDamage));
 
 			Destroy (this.gameObject);
-		}
-		if (col.gameObject.tag == "Enemy" && col.gameObject.tag != origin.tag) {
-
-			Destroy (this.gameObject);
-
-
 		}
 
 
