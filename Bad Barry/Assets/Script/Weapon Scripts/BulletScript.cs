@@ -73,35 +73,40 @@ public class BulletScript : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D col){
 
 
+		var maxDamageCurrent = maxDamage + (int)(maxDamage * (float)(baseDamage / 50.0));
 
-
-		maxDamage = maxDamage + (int)(maxDamage * (baseDamage / 50.0));
-
-		minDamage = maxDamage + (int)(minDamage * (baseDamage / 50.0));
+		var minDamageCurrent = minDamage + (int)(minDamage * (float)(baseDamage / 50.0));
 
 		if (col.gameObject.tag == "Player" && col.gameObject != origin) {
 
 
-			col.gameObject.GetComponent<Player>().TakeDamage(Random.Range(minDamage,maxDamage));
+			col.gameObject.GetComponent<Player>().TakeDamage(Random.Range(minDamageCurrent,maxDamageCurrent));
 			Destroy (this.gameObject);
+			return;
 
 		}
 		if (col.gameObject.tag == "Enemy" && col.gameObject.tag == origin.tag) {
 			
 			Destroy (this.gameObject);
+			return;
+
 				
 		}
 
 		if (col.gameObject.tag == "Enemy" && col.gameObject != origin) {
 
-			col.gameObject.GetComponent<Enemy>().TakeDamage(Random.Range(minDamage,maxDamage));
+			col.gameObject.GetComponent<Enemy>().TakeDamage(Random.Range(minDamageCurrent,maxDamageCurrent));
 
 			Destroy (this.gameObject);
+			return;
+
 		}
 
 
 		if (col.gameObject.tag == "Wall") {
 			Destroy(this.gameObject);
+			return;
+
 		}
 
 
@@ -110,6 +115,8 @@ public class BulletScript : MonoBehaviour {
 			Destroy(GameObject.FindGameObjectsWithTag("ParedeSecondMap")[0]);
 			Destroy(col.gameObject);
 			col.gameObject.GetComponent<Appear>().AppearThing();
+			return;
+
 		}
 
 	}

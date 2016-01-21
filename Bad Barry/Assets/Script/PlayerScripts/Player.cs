@@ -409,7 +409,20 @@ public class Player : MonoBehaviour {
 	}
 
 
+	public void Win(){
 
+		canvasDeath.SetActive (true);
+
+		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
+		panelDeath.GetComponent<Image>().color = Color.white;
+		panelDeath.GetComponent<Animator> ().SetTrigger("Death");
+
+
+		var panelText = GameObject.FindGameObjectWithTag ("DeathText").GetComponent<Text>();
+		panelText.text = "Mission Completed";
+
+
+	}
 
 
 

@@ -46,7 +46,7 @@
 			"minDamage": 13,
 			"maxDamage": 22
 		},
-		"description" : "Damage: 13 ~ 22\nRate: 30\nRange: 25",
+		"description" : "Damage: 5 ~ 10\nRate: 50\nRange: 25",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "sub_machine_gun"
@@ -64,7 +64,7 @@
 			"minDamage": 5,
 			"maxDamage": 50
 		},
-		"description" : "Damage: 5 ~ 50\nRate: 20\nRange: 30",
+		"description" : "Damage: 13 ~ 91\nRate: 10\nRange: 30",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "shotgun"

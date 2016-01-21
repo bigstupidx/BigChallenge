@@ -24,6 +24,7 @@ TagManager:
   - PanelDeath
   - DeathCanvas
   - Skills
+  - DeathText
   layers:
   - Default
   - TransparentFX

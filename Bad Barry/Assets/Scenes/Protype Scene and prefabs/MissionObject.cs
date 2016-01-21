@@ -17,9 +17,12 @@ public class MissionObject : MonoBehaviour {
 		
 		
 		if(col.gameObject.tag == "Player"){
+
+			var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+			player.Win();
+
+
 			
-			var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-			behave.LevelCleared();
 		}
 		
 		
