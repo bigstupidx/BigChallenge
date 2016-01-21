@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System;
 
 public class Player : MonoBehaviour {
 
@@ -43,8 +45,16 @@ public class Player : MonoBehaviour {
 	public GameObject canvasDeath;
 
 
-
-
+	public DateTime lastDateTime;
+	//skill
+	public bool skillActivate = false;
+	public float timeToStopSkill = 5;
+	public float reloadingTime = 10;
+	public float skillTimer = 0;
+	
+	public bool reloading = false;
+	public float reloadingTimer = 0;
+	public DateTime currentTime;
 
 
 	// Use this for initialization
@@ -103,17 +113,68 @@ public class Player : MonoBehaviour {
 	void Update () {
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-		if(!behave.pause){
 
 
-		if (!dead) {
-			Move ();
-			Shoot ();
-		}
+		if (!behave.pause) {
 
-		time = time + Time.deltaTime;
-		}
 
+			if (!dead) {
+				Move ();
+				Shoot ();
+			}
+
+			time = time + Time.deltaTime;
+
+
+			//LOGICA PARA TEMPO DA SKILL DPS DE CLICADA
+			if (skillActivate) {
+				skillTimer += Time.deltaTime;
+				var PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
+				PanelSurvivor.GetComponent<Animator> ().SetBool ("SurvivorActivate", true);
+				
+				
+			}
+			
+			//PENSAR NA LOGICA DE QUANTO TEMPO A HABILIDADE FICARÁ EM USO BASEADA NOS PONTOS DE PERCEPCÃO
+			if (skillTimer >= timeToStopSkill) {
+				skillTimer = 0;
+				skillActivate = !skillActivate;
+//				print ("ACABOU O TEMPO DA SKILL");
+				reloading = !reloading;
+				
+				
+				var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+				skills.skillActivate = false;
+				
+				var PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
+				PanelSurvivor.GetComponent<Animator> ().SetBool ("SurvivorActivate", false);
+				
+				
+			}
+			
+			//LOGICA PARA RELOADING
+			if (reloading) {
+				var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+				reloadingTimer += Time.deltaTime;
+				skills.amount.text = (reloadingTime - (int)reloadingTimer).ToString ();
+			}
+			
+			if (reloadingTimer >= reloadingTime) {
+				var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
+				skills.amount.text = "";
+				
+//				print ("ESTA CARREGADA A SKILL");
+				reloadingTimer = 0;
+				reloading = !reloading;
+
+			}
+		} 
+
+	}
+
+	public void SkillClicked(){
+		skillActivate = true;
+//		print ("ATIVEI A SKILL");
 	}
 
 	public void ChangeWeapon(int weapon){

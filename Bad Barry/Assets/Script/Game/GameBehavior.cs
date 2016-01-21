@@ -58,19 +58,9 @@ public class GameBehavior : MonoBehaviour {
 	private int earnedCoins = 0;
 	public int coins;
 
-
-	//skill
-	public bool skillActivate = false;
-	public float timeToStopSkill = 5;
-	public float reloadingTime = 10;
-	public float skillTimer = 0;
-
-	public bool reloading = false;
-	public float reloadingTimer = 0;
-
-
 	// Use this for initialization
 	void Start () {
+//		PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
 		//on start get selected character points and get bullets
@@ -113,51 +103,7 @@ public class GameBehavior : MonoBehaviour {
 			timer = 0;
 			energy = 5;
 		}
-
-		//LOGICA PARA TEMPO DA SKILL DPS DE CLICADA
-		if (skillActivate) 
-			skillTimer += (float)ts.TotalSeconds;
-
-		//PENSAR NA LOGICA DE QUANTO TEMPO A HABILIDADE FICARÁ EM USO BASEADA NOS PONTOS DE PERCEPCÃO
-		if (skillTimer >= timeToStopSkill ) {
-			skillTimer = 0;
-			skillActivate = !skillActivate;
-			print ("ACABOU O TEMPO DA SKILL");
-			reloading = !reloading;
-
-
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			skills.skillActivate = false;
-
-		}
-
-		//LOGICA PARA RELOADING
-		if (reloading) {
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			reloadingTimer += (float)ts.TotalSeconds;
-			skills.amount.text = (reloadingTime - (int)reloadingTimer).ToString();
-		}
-
-		if (reloadingTimer >= reloadingTime) {
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			skills.amount.text = "";
-
-			print ("ESTA CARREGADA A SKILL");
-			reloadingTimer = 0;
-			reloading = !reloading;
-			//skillActivate = false;
-
-		}
-
-
-	
 	}
-
-	public void SkillClicked(){
-			skillActivate = true;
-			print ("ATIVEI A SKILL");
-	}
-
 
 	public void LevelCleared(){
 		this.coins += earnedCoins;
