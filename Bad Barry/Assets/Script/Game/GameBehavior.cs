@@ -4,11 +4,18 @@ using System.Collections.Generic;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine.SocialPlatforms;
+using UnityEngine.SocialPlatforms.GameCenter;
+using System.Runtime.InteropServices;
+
 
 public class GameBehavior : MonoBehaviour {
-
-	private bool loadingSound=false; //assegura que tocará um audio por vez
 	
+	[DllImport("__Internal")]
+	private static extern void _ReportAchievement( string achievementID, float progress );
+
+	private bool loadingSound = false; //assegura que tocará um audio por vez
+
 
 
 	public int[] inventory = new int[10];
@@ -56,12 +63,40 @@ public class GameBehavior : MonoBehaviour {
 
 	//score and coins
 	private int earnedCoins = 0;
+	public int enemiesKilled = 0;
+	public int totalEnemies = 0;
+
 	public int coins;
 
+
+	//statistics
+	public int totalCoins = 0;
+	public int hordeKills = 0;
+	public int ammoSpent = 0;
+	public float totalExperience = 0;
+	public int knifeKills = 0;
+
+
+	
 	// Use this for initialization
 	void Start () {
 //		PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
+
+		Social.localUser.Authenticate( success => {
+			if (success){
+				Debug.Log ("authenticated");
+				//showAchievements();
+
+
+			}else
+				Debug.Log ("Failed to authenticate");
+		});
+		GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+
+
+
+
 
 		//on start get selected character points and get bullets
 		load();
@@ -79,6 +114,51 @@ public class GameBehavior : MonoBehaviour {
 			
 		}
 	
+	}
+
+	void showAchievements(){
+		Social.LoadAchievements (achievements => {
+			if (achievements.Length > 0) {
+				Debug.Log ("Got " + achievements.Length + " achievement instances");
+				string myAchievements = "My achievements:\n";
+				foreach (IAchievement achievement in achievements)
+				{
+					myAchievements += "\t" + 
+						achievement.id + " " +
+							achievement.percentCompleted + " " +
+							achievement.completed + " " +
+							achievement.lastReportedDate + "\n";
+				}
+				Debug.Log (myAchievements);
+			}
+			else
+				Debug.Log ("No achievements returned");
+		});
+
+	}
+
+
+
+
+	void ReportAchievement() {
+
+
+		//use this when reporting achievment
+		//_ReportAchievement("123",100);
+		ReportScore(10,"board123");
+	
+		// Request loaded achievements, and register a callback for processing them
+
+
+		
+	}	
+
+
+	void ReportScore (long score, string leaderboardID) {
+		Debug.Log ("Reporting score " + score + " on leaderboard " + leaderboardID);
+		Social.ReportScore (score, leaderboardID, success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
 	}
 	
 	// Update is called once per frame
@@ -107,9 +187,10 @@ public class GameBehavior : MonoBehaviour {
 
 	public void LevelCleared(){
 		this.coins += earnedCoins;
+		totalCoins+= earnedCoins;
 		earnedCoins = 0;
-
-		this.GoToMap();
+		enemiesKilled = 0;
+		totalEnemies = 0;
 
 	}
 
@@ -194,6 +275,8 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToMap(){
 
 		earnedCoins = 0;
+		enemiesKilled = 0;
+		totalEnemies = 0;
 		pause = false;
 		print ("aqui");
 		life = maxLife;
@@ -204,10 +287,33 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
+	public void GoToScore(AudioSource audio){
+		if (!loadingSound) {
+			pause = false;
+			life = maxLife;
+			//Application.LoadLevel("ScoreScene");
+
+			//save ();
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "ScoreScene"));
+		}
+	}
+
 	public void GoToMapWithSound(AudioSource audio){
-		
+
+		Social.localUser.Authenticate( success => {
+			if (success)
+				ReportAchievement();
+			else
+				Debug.Log ("Failed to authenticate primeiro");
+		});
+		GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+
+
 		if (!loadingSound) {
 			earnedCoins = 0;
+			enemiesKilled = 0;
+			totalEnemies = 0;
 			pause = false;
 			print ("aqui");
 			life = maxLife;
@@ -343,6 +449,11 @@ public class GameBehavior : MonoBehaviour {
 		inventoryItems = items;
 	}
 
+	//getter for score
+	public int getEarnedCoins(){
+		return earnedCoins;
+	}
+
 	//incrementers
 
 	public void incrementStrength(){
@@ -421,6 +532,13 @@ public class GameBehavior : MonoBehaviour {
 		data.abilityIDs = abilityIDs;
 		data.coins = coins;
 
+		data.totalCoins = totalCoins;
+		data.hordeKills = hordeKills;
+		data.enemiesKilled = enemiesKilled;
+		data.ammoSpent = ammoSpent;
+		data.totalExperience = totalExperience;
+		data.knifeKills = knifeKills;
+
 		bf.Serialize(file,data);
 		file.Close();
 		print("save");
@@ -460,6 +578,14 @@ public class GameBehavior : MonoBehaviour {
 			abilityIndex = data.abilityIndex;
 
 			coins = data.coins;
+
+
+			totalCoins = data.totalCoins;
+			hordeKills = data.hordeKills;
+			enemiesKilled = data.enemiesKilled;
+			ammoSpent = data.ammoSpent;
+			totalExperience = data.totalExperience;
+			knifeKills = data.knifeKills;
 
 		}
 
@@ -507,6 +633,13 @@ class Data
 
 	public int coins;
 
+	//statistics
+	public int totalCoins;
+	public int hordeKills;
+	public int enemiesKilled;
+	public int ammoSpent;
+	public float totalExperience;
+	public int knifeKills;
 	public int[] abilityIDs;
 
 	public int abilityIndex;
