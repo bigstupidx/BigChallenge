@@ -184,6 +184,7 @@ public class Player : MonoBehaviour {
 							
 							behave.bullets[behave.selectedWeapon]--;
 							behave.ammoSpent++;
+							behave.CheckAmmoAchievements();
 							hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
 							
 							
@@ -216,6 +217,7 @@ public class Player : MonoBehaviour {
 					enemy.GetComponent<Enemy>().TakeDamage(100);
 					vision.enemies.Remove(enemy);
 					behave.knifeKills++;
+					behave.CheckKnifeAchievements();
 
 					break;
 
@@ -265,7 +267,7 @@ public class Player : MonoBehaviour {
 
 		int trueDamage = damage - armor;
 		
-		if (life <= trueDamage) {
+		if (life <= trueDamage && !dead) {
 			
 			life = 0;
 			StartCoroutine(Die());
@@ -365,7 +367,9 @@ public class Player : MonoBehaviour {
 //		var score = GameObject.FindGameObjectWithTag("Score");
 //
 //		finalScore.GetComponent<Text> ().text = "Score: " + score.GetComponent<Text> ().text;
-
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.totalDeaths++;
+		behave.CheckDeathAchievements();
 
 		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
 		panelDeath.GetComponent<Animator> ().SetTrigger("Death");
@@ -373,6 +377,7 @@ public class Player : MonoBehaviour {
 //		Transform retry = GameObject.FindWithTag("Retry").transform;
 //		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (3);
+
 
 
 //		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
