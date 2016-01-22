@@ -412,6 +412,8 @@ public class Player : MonoBehaviour {
 	public void Win(){
 
 		canvasDeath.SetActive (true);
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave.pause = true;
 
 		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
 		panelDeath.GetComponent<Image>().color = Color.white;
