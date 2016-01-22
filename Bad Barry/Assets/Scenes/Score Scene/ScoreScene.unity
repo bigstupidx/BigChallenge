@@ -298,6 +298,10 @@ Prefab:
       propertyPath: audioCoin
       value: 
       objectReference: {fileID: 1624340139}
+    - target: {fileID: 11479748, guid: fedd60e2945444f24b4d2874b4816b42, type: 2}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fedd60e2945444f24b4d2874b4816b42, type: 2}
   m_IsPrefabParent: 0

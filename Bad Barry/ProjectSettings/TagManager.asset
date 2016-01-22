@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - New Tag
+  - SkillSurvivor
   - Retry
   - Score
   - Destructable
@@ -24,6 +24,7 @@ TagManager:
   - PanelDeath
   - DeathCanvas
   - Skills
+  - DeathText
   layers:
   - Default
   - TransparentFX

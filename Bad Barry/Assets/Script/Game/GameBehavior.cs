@@ -10,7 +10,45 @@ using System.Runtime.InteropServices;
 
 
 public class GameBehavior : MonoBehaviour {
-	
+
+	private string hordeScoreBoardId = "hordeLeaderBoard";
+	//knife kills done
+	private string knifel100Id = "knifel100Achiev";
+	private string knifel500Id = "knifel500Achiev";
+	private string knifel2000Id = "knifel2000Achiev";
+	private string knifel10000Id = "knifel10000Achiev";
+	//horde levels done
+	private string horde10Id = "horde10Achiev";
+	private string horde25Id = "horde25Achiev";
+	private string horde50Id = "horde50Achiev";
+	private string horde100Id = "horde100Achiev";
+	//total earned coins done
+	private string coins500Id = "coins500Achiev";
+	private string coins1000Id = "coins1000Achiev";
+	private string coins10000Id = "coins10000Achiev";
+	private string coins100000Id = "coins100000Achiev";
+	//attributes  achievs done
+	private string agilityHighId = "agilityHighAchiev";
+	private string strenghtyHighId = "strengthHighAchiev";
+	private string inteligenceHighId = "inteligenceHighAchiev";
+	private string vitalityHighId = "vitalityHighAchiev";
+	//deaths achievs done
+	private string death10Id = "death10Achiev";
+	private string death100Id = "death100Achiev";
+	private string death1000Id = "death1000Achiev";
+	private string death10000Id = "death10000Achiev";
+
+	//ammo achievs done
+	private string ammo250Id = "ammo250Achiev";
+	private string ammo1000Id = "ammo1000Achiev";
+	private string ammo10000Id = "ammo10000Achiev";
+	private string ammo100000Id = "ammo100000Achiev";
+
+	//weapon achievs done
+	private string submachineAchievId = "submachineAchiev";
+	private string shotgunAchievId = "shotgunAchiev";
+
+
 	[DllImport("__Internal")]
 	private static extern void _ReportAchievement( string achievementID, float progress );
 
@@ -75,37 +113,28 @@ public class GameBehavior : MonoBehaviour {
 	public int ammoSpent = 0;
 	public float totalExperience = 0;
 	public int knifeKills = 0;
+	public int totalDeaths = 0;
 
 
-
-
-
-	//skill
-	public bool skillActivate = false;
-	public float timeToStopSkill = 5;
-	public float reloadingTime = 10;
-	public float skillTimer = 0;
-
-	public bool reloading = false;
-	public float reloadingTimer = 0;
-
-
+	
 	// Use this for initialization
 	void Start () {
+//		PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
-		Social.localUser.Authenticate( success => {
-			if (success){
-				Debug.Log ("authenticated");
-				//showAchievements();
-
-
-			}else
-				Debug.Log ("Failed to authenticate");
-		});
-		GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
-
-
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			
+			GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
+			Social.localUser.Authenticate( success => {
+				if (success){
+					Debug.Log ("authenticated");
+					
+				}else
+					Debug.Log ("Failed to authenticate");
+			});
+			
+			
+		}
 
 
 
@@ -127,51 +156,54 @@ public class GameBehavior : MonoBehaviour {
 	
 	}
 
-	void showAchievements(){
-		Social.LoadAchievements (achievements => {
-			if (achievements.Length > 0) {
-				Debug.Log ("Got " + achievements.Length + " achievement instances");
-				string myAchievements = "My achievements:\n";
-				foreach (IAchievement achievement in achievements)
-				{
-					myAchievements += "\t" + 
-						achievement.id + " " +
-							achievement.percentCompleted + " " +
-							achievement.completed + " " +
-							achievement.lastReportedDate + "\n";
-				}
-				Debug.Log (myAchievements);
-			}
-			else
-				Debug.Log ("No achievements returned");
-		});
-
-	}
-
-
-
-
-	void ReportAchievement() {
-
-
-		//use this when reporting achievment
-		//_ReportAchievement("123",100);
-		ReportScore(10,"board123");
 	
-		// Request loaded achievements, and register a callback for processing them
-
-
+	void ReportAchievement(string id,int percentage) {
 		
-	}	
-
-
-	void ReportScore (long score, string leaderboardID) {
-		Debug.Log ("Reporting score " + score + " on leaderboard " + leaderboardID);
-		Social.ReportScore (score, leaderboardID, success => {
-			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
-		});
+		
+		//use this when reporting achievment
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			
+			_ReportAchievement(id,percentage);
+			
+		}
+		
 	}
 	
+	void ReportScore(long score,string id){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			
+			ReportScoreDetailed(score,id);
+			
+		}
+		
+	}
+
+	public void finishedHordeMode(int wave)
+	{
+
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+
+
+			Social.localUser.Authenticate( success => {
+				if (success)
+					ReportScore(hordeKills,hordeScoreBoardId);
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});
+
+
+			
+			CheckHordeAchievements(wave);
+
+		}
+		
+	}
+
+
+
+
+
 	// Update is called once per frame
 	void Update () {
 
@@ -194,51 +226,7 @@ public class GameBehavior : MonoBehaviour {
 			timer = 0;
 			energy = 5;
 		}
-
-		//LOGICA PARA TEMPO DA SKILL DPS DE CLICADA
-		if (skillActivate) 
-			skillTimer += (float)ts.TotalSeconds;
-
-		//PENSAR NA LOGICA DE QUANTO TEMPO A HABILIDADE FICARÁ EM USO BASEADA NOS PONTOS DE PERCEPCÃO
-		if (skillTimer >= timeToStopSkill ) {
-			skillTimer = 0;
-			skillActivate = !skillActivate;
-			print ("ACABOU O TEMPO DA SKILL");
-			reloading = !reloading;
-
-
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			skills.skillActivate = false;
-
-		}
-
-		//LOGICA PARA RELOADING
-		if (reloading) {
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			reloadingTimer += (float)ts.TotalSeconds;
-			skills.amount.text = (reloadingTime - (int)reloadingTimer).ToString();
-		}
-
-		if (reloadingTimer >= reloadingTime) {
-			var skills = GameObject.FindGameObjectWithTag ("Skills").GetComponent<Skill> ();
-			skills.amount.text = "";
-
-			print ("ESTA CARREGADA A SKILL");
-			reloadingTimer = 0;
-			reloading = !reloading;
-			//skillActivate = false;
-
-		}
-
-
-	
 	}
-
-	public void SkillClicked(){
-			skillActivate = true;
-			print ("ATIVEI A SKILL");
-	}
-
 
 	public void LevelCleared(){
 		this.coins += earnedCoins;
@@ -247,20 +235,27 @@ public class GameBehavior : MonoBehaviour {
 		enemiesKilled = 0;
 		totalEnemies = 0;
 
+		CheckCoinsAchievements();
+
 	}
 
 	public void incCoins(int newCoins){
 
 		earnedCoins += newCoins;
+		CheckCoinsAchievements();
+
 
 	}
 
 
 
-	public void IncrementCoinHorde(){
+	public void IncrementCoinHorde(int wave){
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.LevelCleared ();
+
+		behave.finishedHordeMode(wave);
+
 
 	}
 
@@ -368,13 +363,6 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMapWithSound(AudioSource audio){
 
-		Social.localUser.Authenticate( success => {
-			if (success)
-				ReportAchievement();
-			else
-				Debug.Log ("Failed to authenticate primeiro");
-		});
-		GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
 
 
 		if (!loadingSound) {
@@ -529,6 +517,7 @@ public class GameBehavior : MonoBehaviour {
 
 			strength++;
 			expendPoints--;
+			CheckAtributesAchievements();
 		
 		}
 	}
@@ -539,6 +528,8 @@ public class GameBehavior : MonoBehaviour {
 			
 			agility++;
 			expendPoints--;
+			CheckAtributesAchievements();
+
 			
 		}
 	
@@ -550,6 +541,8 @@ public class GameBehavior : MonoBehaviour {
 			
 			inteligence++;
 			expendPoints--;
+			CheckAtributesAchievements();
+
 			
 		}
 
@@ -563,11 +556,257 @@ public class GameBehavior : MonoBehaviour {
 			
 			vitality++;
 			expendPoints--;
+			CheckAtributesAchievements();
+
 			
 		}
 
 
 	}
+
+
+	void ReportScoreDetailed (long score, string leaderboardID) {
+		Debug.Log ("Reporting score " + score + " on leaderboard " + leaderboardID);
+		Social.ReportScore (score, leaderboardID, success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
+	}
+
+	public void CheckWeaponAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					if(inventory[2] >= 1)
+					{
+						ReportAchievement(submachineAchievId,100);
+						
+					}
+					if(inventory[3] >= 1)
+					{
+						ReportAchievement(shotgunAchievId,100);
+						
+						
+					}
+					
+					
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	
+	
+	
+	
+	public void CheckAtributesAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					if(agility >= 50)
+					{
+						ReportAchievement(agilityHighId,100);
+						
+					}
+					if(strength >= 50)
+					{
+						ReportAchievement(strenghtyHighId,100);
+						
+						
+					}
+					if(inteligence >= 50)
+					{
+						
+						ReportAchievement(inteligenceHighId,100);
+						
+					}
+					if(vitality >= 50)
+					{
+						ReportAchievement(vitalityHighId,100);
+						
+						
+					}
+					
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	
+	
+	
+	
+	public void CheckAmmoAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					
+					if(ammoSpent >= 10){
+						ReportAchievement(ammo250Id,100);
+						
+						if(ammoSpent >= 100){
+							ReportAchievement(ammo1000Id,100);
+							
+							if(ammoSpent >= 1000){
+								
+								ReportAchievement(ammo10000Id,100);
+								
+								if(ammoSpent >= 10000){
+									ReportAchievement(ammo100000Id,100);
+									
+								}	
+							}
+						}
+						
+					}
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	public void CheckDeathAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					
+					if(totalDeaths >= 10){
+						ReportAchievement(death10Id,100);
+						
+						if(totalDeaths >= 100){
+							ReportAchievement(death100Id,100);
+							
+							if(totalDeaths >= 1000){
+								
+								ReportAchievement(death1000Id,100);
+								
+								if(totalDeaths >= 10000){
+									ReportAchievement(death10000Id,100);
+									
+								}	
+							}
+						}
+						
+					}
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	
+	
+	public void CheckCoinsAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					
+					if(totalCoins >= 500){
+						ReportAchievement(coins500Id,100);
+						
+						if(totalCoins >= 1000){
+							ReportAchievement(coins1000Id,100);
+							
+							if(totalCoins >= 10000){
+								
+								ReportAchievement(coins10000Id,100);
+								
+								if(totalCoins >= 100000){
+									ReportAchievement(coins100000Id,100);
+									
+								}	
+							}
+						}
+						
+					}
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	
+	
+	
+	
+	public void CheckKnifeAchievements(){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					
+					if(knifeKills >= 100){
+						ReportAchievement(knifel100Id,100);
+						
+						if(knifeKills >= 500){
+							ReportAchievement(knifel500Id,100);
+							
+							if(knifeKills >= 2000){
+								
+								ReportAchievement(knifel2000Id,100);
+								
+								if(knifeKills >= 10000){
+									ReportAchievement(knifel10000Id,100);
+									
+								}	
+							}
+						}
+						
+					}
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+	
+	
+	
+	
+	public void CheckHordeAchievements(int wave){
+		
+		if(Application.platform == RuntimePlatform.IPhonePlayer){
+			Social.localUser.Authenticate( success => {
+				if (success){
+					
+					if(wave >= 10){
+						ReportAchievement(horde10Id,100);
+						
+						if(wave >= 25){
+							ReportAchievement(horde25Id,100);
+							
+							if(wave >= 50){
+								
+								ReportAchievement(horde50Id,100);
+								
+								if(wave >= 100){
+									ReportAchievement(horde100Id,100);
+									
+								}	
+							}
+						}
+						
+					}
+				}
+				else
+					Debug.Log ("Failed to authenticate primeiro");
+			});	
+		}
+	}
+
+
+
 
 
 	public void save(){

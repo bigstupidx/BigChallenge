@@ -72,6 +72,7 @@ public class Sell : MonoBehaviour {
 				behave.inventory[itemID]++;
 			}
 			behave.coins = coin.Coins;
+			behave.CheckWeaponAchievements();
 
 
 		} else
