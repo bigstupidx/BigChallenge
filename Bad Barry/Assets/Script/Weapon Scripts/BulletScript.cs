@@ -110,14 +110,21 @@ public class BulletScript : MonoBehaviour {
 		}
 
 
-		if (col.gameObject.tag == "Destructable") {
-			Destroy(this.gameObject);
-			Destroy(GameObject.FindGameObjectsWithTag("ParedeSecondMap")[0]);
-			Destroy(col.gameObject);
+		if (col.gameObject.tag == "Destructable" && origin.tag == "Player") {
+
 			col.gameObject.GetComponent<Appear>().AppearThing();
+			Destroy(this.gameObject);
+			Destroy(col.gameObject);
 			return;
 
 		}
+		if (col.gameObject.tag == "Destructable" && origin.tag == "Enemy") {
+			
+			Destroy(this.gameObject);
+			return;
+			
+		}
+
 
 	}
 }
