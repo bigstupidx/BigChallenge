@@ -17,7 +17,7 @@ public class statistics : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		behave = GameObject.FindGameObjectWithTag("GameBehaviour").GetComponent<GameBehavior>();
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		totalCoinsText.text = behave.totalCoins.ToString();
 		hordeKillsText.text = behave.hordeKills.ToString();
 		enemiesKilledText.text = behave.enemiesKilled.ToString();
@@ -33,14 +33,7 @@ public class statistics : MonoBehaviour {
 	
 	}
 
-
-
-
-
-
-
-
-	void goToMap(AudioSource audio)
+	public void goToMap(AudioSource audio)
 	{
 
 		behave.GoToMapWithSound(audio);

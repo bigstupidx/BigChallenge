@@ -309,6 +309,18 @@ public class GameBehavior : MonoBehaviour {
 
 	}
 
+	public void GoToStatisticsScreen(AudioSource audio){
+		
+		if (!loadingSound) {
+			pause = false;
+			previousScene = Application.loadedLevel;			
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "Statistics"));
+			
+		}
+		
+	}
+
 	public void GoToStoreScene(AudioSource audio){
 
 		if (!loadingSound) {

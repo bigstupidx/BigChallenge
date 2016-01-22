@@ -58,6 +58,13 @@ public class MapSceneHandler : MonoBehaviour {
 		
 	}
 
+
+	public void goToStatisticsScreen(AudioSource audio){
+		
+		behave.GoToStatisticsScreen (audio);
+		
+	}
+
 	public void goToMission(AudioSource audio){
 		print ("GoToMission");
 		behave.GoToMission(audio,1);//passar dois parametros
