@@ -10,7 +10,7 @@ public class MapSceneHandler : MonoBehaviour {
 	public Slider energySlider;
 	public Text counter;
 
-
+	private int missionNumber = -1;
 
 	// Use this for initialization
 	void Start () {
@@ -42,6 +42,10 @@ public class MapSceneHandler : MonoBehaviour {
 
 	}
 
+	public void setMissionNumber(int number){
+		missionNumber = number;
+	}
+
 	public void goToStoreScene(AudioSource audio){
 		behave.GoToStoreScene (audio);
 	}
@@ -67,12 +71,12 @@ public class MapSceneHandler : MonoBehaviour {
 
 	public void goToMission(AudioSource audio){
 		print ("GoToMission");
-		behave.GoToMission(audio,1);//passar dois parametros
+		behave.GoToMission(audio,missionNumber);//passar dois parametros
 
 	}
 	public void goToHorde(AudioSource audio){
 		print ("GoToHorde");
-		behave.GoToMission(audio,2);//passar dois parametros
+		behave.GoToMission(audio,0);//passar dois parametros
 		
 	}
 

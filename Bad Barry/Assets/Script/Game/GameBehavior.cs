@@ -387,13 +387,39 @@ public class GameBehavior : MonoBehaviour {
 				energy--;
 
 				loadingSound = true;
-				if(missionNumber == 1)
-					StartCoroutine (PlayAudio (audio, "NewPrototype")); //mudar quando tiver mais missoes
 
-				if(missionNumber == 2)
-					StartCoroutine (PlayAudio (audio, "HordeMode")); //mudar quando tiver mais missoes
+				switch(missionNumber){
 
-				//Play ();
+				case 0:
+
+					StartCoroutine (PlayAudio (audio, "HordeMode")); 
+					break;
+
+				case 1:
+					StartCoroutine (PlayAudio (audio, "NewPrototype")); 
+					break;
+				case 2:
+					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					break;
+				case 3:
+					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					break;
+				case 4:
+					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					break;
+				case 5:
+					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					break;
+				case 6:
+					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					break;
+				default:
+					print("Numero de misssao invalido"); 
+					break;
+
+				}
+
+
 			}else{
 				//colocar som do neves
 			}
