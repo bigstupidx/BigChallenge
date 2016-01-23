@@ -108,6 +108,20 @@ public class Player : MonoBehaviour {
 
 		behave.pause = false;
 	}
+
+	void FixedUpdate(){
+		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		if (!behave.pause) {
+			
+			
+			if (!dead) {
+				Move ();
+			}
+		}
+
+	}
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -119,7 +133,7 @@ public class Player : MonoBehaviour {
 
 
 			if (!dead) {
-				Move ();
+				//Move ();
 				Shoot ();
 			}
 
@@ -514,6 +528,7 @@ public class Player : MonoBehaviour {
 			}
 
 		}
+		var rigidBody = GetComponent<Rigidbody2D>();
 
 
 		if (direction != -1) {
@@ -524,40 +539,48 @@ public class Player : MonoBehaviour {
 			legAnimator.SetInteger ("Direction", direction);
 			bothAnimator.SetInteger("direction",direction);
 
+			if(x > 0){
+
+				x = 1;
+			}
+			if(x < 0){
+				
+				x = -1;
+			}
+			if(y > 0){
+				
+				y = 1;
+			}
+			if(y < 0){
+				
+				y = -1;
+			}
+
+			if (direction == 1 || direction == 3) {
+				rigidBody.velocity = new Vector2(x * speed,0);// Vector2.right * speed;
+				
+				//transform.Translate(Vector3.right * (speed * Time.deltaTime));
+				
+			}else{
+
+				rigidBody.velocity = new Vector2(0,y * speed);
+
+			}
+
 
 		} else {
-		
+			rigidBody.velocity = new Vector2(0,y * speed);
+
  			legAnimator.SetBool ("IsRunning", false); 
 
 		}
 
-		//move up
-		if (direction == 0) {
 
-			transform.Translate(Vector3.up * (speed * Time.deltaTime));
-
-		}
-		//move right
-		if (direction == 1) {
-
-			transform.Translate(Vector3.right * (speed * Time.deltaTime));
-			
-		}
-		//move down
-		if (direction == 2) {
-
-			transform.Translate(Vector3.down * (speed * Time.deltaTime));
-
-		}
-		//move up
-		if (direction == 3) {
-
-			transform.Translate(Vector3.left * (speed * Time.deltaTime));
-
-		}
+	
 
 
 	}
+
 
 
 }
