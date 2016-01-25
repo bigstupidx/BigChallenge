@@ -402,16 +402,16 @@ public class GameBehavior : MonoBehaviour {
 					StartCoroutine (PlayAudio (audio, "Mission 2"));
 					break;
 				case 3:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 3"));
 					break;
 				case 4:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 4"));
 					break;
 				case 5:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 5"));
 					break;
 				case 6:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 6"));
 					break;
 				default:
 					print("Numero de misssao invalido"); 
