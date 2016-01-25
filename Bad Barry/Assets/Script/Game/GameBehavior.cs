@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 public class GameBehavior : MonoBehaviour {
 
-	private string hordeScoreBoardId = "hordeLeaderBoard";
+	private string hordeScoreBoardId = "hordeLeaderBoardBadBarry";
 	//knife kills done
 	private string knifel100Id = "knifel100Achiev";
 	private string knifel500Id = "knifel500Achiev";
