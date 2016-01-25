@@ -13,9 +13,7 @@ public class ListBank : MonoBehaviour
 
 	public List<Item> items = new List<Item> ();
 	private ItemDatabase database;
-	public int itemPrice;
-	public int itemID;
-	public bool ability;
+	public Item itemToBuy;
 	public RectTransform canvasRect;
 
 	private int[] contents = {
