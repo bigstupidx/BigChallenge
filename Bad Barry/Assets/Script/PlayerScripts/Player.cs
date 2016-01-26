@@ -285,22 +285,25 @@ public class Player : MonoBehaviour {
 				
 			}else{//if enemy is in rang for knife
 
-				weapon.GetComponent<Weapon> ().PlayKnifeSound();
+				if (time > fireRate) {
 
-				foreach(GameObject enemy in vision.enemies){
-					//facada
-					enemy.GetComponent<Enemy>().TakeDamage(100);
-					vision.enemies.Remove(enemy);
-					behave.knifeKills++;
-					behave.CheckKnifeAchievements();
+					weapon.GetComponent<Weapon> ().PlayKnifeSound();
 
-					break;
+					foreach(GameObject enemy in vision.enemies){
+						//facada
+						enemy.GetComponent<Enemy>().TakeDamage(100);
+						vision.enemies.Remove(enemy);
+						behave.knifeKills++;
+						behave.CheckKnifeAchievements();
+
+						break;
 
 
+					}
+
+					torsoAnimator.SetTrigger("Knife");
+					time = 0;
 				}
-
-				torsoAnimator.SetTrigger("Knife");
-				time = 0;
 				
 			}
 

@@ -58,6 +58,8 @@ public class hordeMode : MonoBehaviour {
 		{
 			if(timer > 2 && timer < 4){
 				if(go){
+					var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+					behave.CheckHordeAchievements((level - 1));
 					clearedText.GetComponent<Text>().text = "Horde " + level;
 					clearedText.GetComponent<Animator>().SetTrigger("cleared");
 					go = false;

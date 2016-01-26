@@ -114,6 +114,8 @@ public class GameBehavior : MonoBehaviour {
 	public float totalExperience = 0;
 	public int knifeKills = 0;
 	public int totalDeaths = 0;
+	public int totalEnemiesKilled = 0;
+
 
 
 	
@@ -179,7 +181,7 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
-	public void finishedHordeMode(int wave)
+	public void finishedHordeMode()
 	{
 
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
@@ -194,7 +196,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 			
-			CheckHordeAchievements(wave);
+
 
 		}
 		
@@ -232,6 +234,7 @@ public class GameBehavior : MonoBehaviour {
 		this.coins += earnedCoins;
 		totalCoins+= earnedCoins;
 		earnedCoins = 0;
+		totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 		enemiesKilled = 0;
 		totalEnemies = 0;
 
@@ -249,12 +252,12 @@ public class GameBehavior : MonoBehaviour {
 
 
 
-	public void IncrementCoinHorde(int wave){
+	public void IncrementCoinHorde(){
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.LevelCleared ();
 
-		behave.finishedHordeMode(wave);
+		behave.finishedHordeMode();
 
 
 	}
@@ -337,6 +340,7 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToMap(){
 
 		earnedCoins = 0;
+		totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 		enemiesKilled = 0;
 		totalEnemies = 0;
 		pause = false;
@@ -367,6 +371,7 @@ public class GameBehavior : MonoBehaviour {
 
 		if (!loadingSound) {
 			earnedCoins = 0;
+			totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 			enemiesKilled = 0;
 			totalEnemies = 0;
 			pause = false;
@@ -870,6 +875,8 @@ public class GameBehavior : MonoBehaviour {
 		data.ammoSpent = ammoSpent;
 		data.totalExperience = totalExperience;
 		data.knifeKills = knifeKills;
+		data.totalEnemiesKilled = totalEnemiesKilled;
+
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -918,6 +925,7 @@ public class GameBehavior : MonoBehaviour {
 			ammoSpent = data.ammoSpent;
 			totalExperience = data.totalExperience;
 			knifeKills = data.knifeKills;
+			totalEnemiesKilled = data.totalEnemiesKilled;
 
 		}
 
@@ -975,6 +983,9 @@ class Data
 	public int[] abilityIDs;
 
 	public int abilityIndex;
+
+	public int totalEnemiesKilled;
+
 
 
 
