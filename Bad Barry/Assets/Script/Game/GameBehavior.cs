@@ -181,7 +181,7 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
-	public void finishedHordeMode(int wave)
+	public void finishedHordeMode()
 	{
 
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
@@ -196,7 +196,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 			
-			CheckHordeAchievements(wave);
+
 
 		}
 		
@@ -252,12 +252,12 @@ public class GameBehavior : MonoBehaviour {
 
 
 
-	public void IncrementCoinHorde(int wave){
+	public void IncrementCoinHorde(){
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.LevelCleared ();
 
-		behave.finishedHordeMode(wave);
+		behave.finishedHordeMode();
 
 
 	}
