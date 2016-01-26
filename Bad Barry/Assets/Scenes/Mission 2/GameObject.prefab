@@ -74812,7 +74812,7 @@ MonoBehaviour:
   inteligence: 0
   vitality: 0
   knifeRange: {fileID: 112818}
-  canvasDeath: {fileID: 0}
+  canvasDeath: {fileID: 188526}
   skillActivate: 0
   timeToStopSkill: 5
   reloadingTime: 10
