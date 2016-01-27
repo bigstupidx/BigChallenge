@@ -301,22 +301,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &175728
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 417016}
-  - 68: {fileID: 6826890}
-  m_Layer: 0
-  m_Name: PolylineObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &181258
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +311,22 @@ GameObject:
   - 4: {fileID: 492930}
   m_Layer: 0
   m_Name: Objetos2_06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183720
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 496180}
+  - 68: {fileID: 6870266}
+  m_Layer: 0
+  m_Name: PolylineObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -489,8 +489,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 496180}
   - {fileID: 415212}
-  - {fileID: 417016}
   m_Father: {fileID: 405832}
   m_RootOrder: 10
 --- !u!4 &415212
@@ -500,11 +500,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.7343979, y: -53.907402, z: 0}
+  m_LocalPosition: {x: 21.0065994, y: -17.8388996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 413412}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &416290
 Transform:
   m_ObjectHideFlags: 1
@@ -517,18 +517,6 @@ Transform:
   m_Children:
   - {fileID: 439984}
   m_Father: {fileID: 405832}
-  m_RootOrder: 1
---- !u!4 &417016
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 175728}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.0065994, y: -17.8388996, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 413412}
   m_RootOrder: 1
 --- !u!4 &425034
 Transform:
@@ -703,6 +691,18 @@ Transform:
   - {fileID: 479520}
   m_Father: {fileID: 405832}
   m_RootOrder: 6
+--- !u!4 &496180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.7343979, y: -53.907402, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 413412}
+  m_RootOrder: 0
 --- !u!23 &2309450
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -1026,6 +1026,31 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+  - {x: 3.85536981, y: -.0104199005}
+  - {x: 3.86579013, y: 7.6794796}
+  - {x: -5.25163984, y: 7.68989992}
+  - {x: -5.26205969, y: .0312597975}
+  - {x: -.708554983, y: 0}
+  - {x: -.687714994, y: 1.03156996}
+  - {x: -4.90778017, y: 1.04198992}
+  - {x: -4.89735985, y: 6.63749027}
+  - {x: 3.49066973, y: 6.63749027}
+  - {x: 3.50109005, y: 1.04198992}
+  - {x: -.0104199005, y: 1.04198992}
+  - {x: -.0104199005, y: .0208398011}
+--- !u!68 &6870266
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183720}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
   - {x: 8.17526913, y: 0}
   - {x: 8.17526913, y: 9.76858997}
   - {x: 6.65780973, y: 9.78755951}
@@ -1127,31 +1152,6 @@ EdgeCollider2D:
   - {x: 1.72770989, y: 9.80776024}
   - {x: -.0212350003, y: 9.80776024}
   - {x: -.0212350003, y: .00992727932}
---- !u!68 &6826890
-EdgeCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 175728}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: 0, y: 0}
-  - {x: 3.85536981, y: -.0104199005}
-  - {x: 3.86579013, y: 7.6794796}
-  - {x: -5.25163984, y: 7.68989992}
-  - {x: -5.26205969, y: .0312597975}
-  - {x: -.708554983, y: 0}
-  - {x: -.687714994, y: 1.03156996}
-  - {x: -4.90778017, y: 1.04198992}
-  - {x: -4.89735985, y: 6.63749027}
-  - {x: 3.49066973, y: 6.63749027}
-  - {x: 3.50109005, y: 1.04198992}
-  - {x: -.0104199005, y: 1.04198992}
-  - {x: -.0104199005, y: .0208398011}
 --- !u!114 &11414472
 MonoBehaviour:
   m_ObjectHideFlags: 1

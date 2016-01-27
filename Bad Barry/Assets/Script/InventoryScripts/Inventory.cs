@@ -61,7 +61,8 @@ public class Inventory : MonoBehaviour {
 		for (int i = 50; i < slotAmount2; i++) {
 			items2.Add (new Item());
 			slots2.Add (Instantiate(inventorySlot));
-			slots2[i-50].GetComponent<Slot>().GetComponent<Image>().sprite = Resources.Load<Sprite> ("Sprites Inventory/UI/slotInGame");
+//			slots2[i-50].GetComponent<Slot>().GetComponent<Image>().sprite = Resources.Load<Sprite> ("Sprites Inventory/UI/slotInGame");
+			slots2[i-50].GetComponent<Slot>().GetComponent<Image>().color = new Color((float)(165.0/255.0),0,0 );
 			slots2[i-50].GetComponent<Slot>().id = i;
 			slots2[i-50].transform.SetParent (slotPanel2.transform);
 		}
