@@ -80,18 +80,17 @@ public class Sell : MonoBehaviour {
 		}
 
 		//LOGICA PARA DESATIVAR O ITEM SE ELE JA ESTIVER NO INVENTORY
-//		if (!item.Stackable && checkItemInInventory (item.ID)) {
-//			print ("DESATIVAR ESTE ITEM");
-//			buttonActivate = false;
-//
-//			//MUDAR A APARENCIA DO BUTTON OU DA STORE, INDICANDO QUE JA TEM ESTE ITEM
-//
-////			colors.normalColor = Color.gray;
-////			colors.highlightedColor = Color.gray;
-////			colors.disabledColor = Color.gray;
-////			colors.pressedColor = Color.gray;
-////			button.colors = colors;
-//		}
+		if (!item.Stackable && checkItemInInventory (item.ID)) {
+			buttonActivate = false;
+
+			//MUDAR A APARENCIA DO BUTTON OU DA STORE, INDICANDO QUE JA TEM ESTE ITEM
+
+			colors.normalColor = Color.red;
+			colors.highlightedColor = Color.red;
+			colors.disabledColor = Color.red;
+			colors.pressedColor = Color.red;
+			button.colors = colors;
+		}
 
 		//LOGICA DO TUTORIAL
 
@@ -225,6 +224,11 @@ public class Sell : MonoBehaviour {
 			if(behave.inventory[id] > 0){
 				return true;
 			}
+		}
+		
+		for (int i = 0; i < behave.abilityIDs.Length; i++) {
+			if(behave.abilityIDs[i] == id)
+				return true;
 		}
 		return false;
 	}
