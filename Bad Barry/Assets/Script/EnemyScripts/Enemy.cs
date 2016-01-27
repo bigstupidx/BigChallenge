@@ -47,6 +47,10 @@ public class Enemy : MonoBehaviour {
 
 		Shoot();
 		time = time + Time.deltaTime;
+		}else{
+
+			torsoAnimator.SetBool("Shooting",false);
+
 		}
 
 	}

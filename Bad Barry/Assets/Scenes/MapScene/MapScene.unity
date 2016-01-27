@@ -236,7 +236,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!82 &1198649206 stripped
 AudioSource:
-  m_PrefabParentObject: {fileID: 8228330, guid: 3b5b39b26489d4cbd98adc5838b30821,
+  m_PrefabParentObject: {fileID: 8227802, guid: 3b5b39b26489d4cbd98adc5838b30821,
     type: 2}
   m_PrefabInternal: {fileID: 1198649205}
 --- !u!82 &1198649207 stripped
@@ -247,6 +247,11 @@ AudioSource:
 --- !u!82 &1198649208 stripped
 AudioSource:
   m_PrefabParentObject: {fileID: 8255744, guid: 3b5b39b26489d4cbd98adc5838b30821,
+    type: 2}
+  m_PrefabInternal: {fileID: 1198649205}
+--- !u!82 &1198649209 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 8228330, guid: 3b5b39b26489d4cbd98adc5838b30821,
     type: 2}
   m_PrefabInternal: {fileID: 1198649205}
 --- !u!1001 &1373458721
@@ -335,17 +340,17 @@ Prefab:
     - target: {fileID: 11408782, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1198649206}
-    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      objectReference: {fileID: 1198649209}
+    - target: {fileID: 11454462, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1198649207}
-    - target: {fileID: 11428310, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      objectReference: {fileID: 647291844}
+    - target: {fileID: 11490346, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1898565302}
-    - target: {fileID: 11409364, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      objectReference: {fileID: 647291844}
+    - target: {fileID: 11435340, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 647291844}
     - target: {fileID: 11409332, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
@@ -374,16 +379,31 @@ Prefab:
       objectReference: {fileID: 823806873}
     - target: {fileID: 22477798, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11460736, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1198649207}
+    - target: {fileID: 11428310, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1198649206}
+    - target: {fileID: 11425758, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 647291844}
+    - target: {fileID: 11409364, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 647291844}
+    - target: {fileID: 11491166, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 647291844}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78c5ccf9210e34640823899bd115ca9e, type: 2}
   m_IsPrefabParent: 0
---- !u!82 &1898565302 stripped
-AudioSource:
-  m_PrefabParentObject: {fileID: 8227802, guid: 3b5b39b26489d4cbd98adc5838b30821,
-    type: 2}
-  m_PrefabInternal: {fileID: 1198649205}
 --- !u!1001 &2079347936
 Prefab:
   m_ObjectHideFlags: 0

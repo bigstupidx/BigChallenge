@@ -169,7 +169,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .769230783
   m_HasExitTime: 0
@@ -193,7 +193,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .400000036
   m_HasExitTime: 0
@@ -319,7 +319,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .400000036
   m_HasExitTime: 0
@@ -421,7 +421,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .400000036
   m_HasExitTime: 0
@@ -496,7 +496,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .769230783
   m_HasExitTime: 0
@@ -649,7 +649,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .400000036
   m_HasExitTime: 0
@@ -700,7 +700,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .769230783
   m_HasExitTime: 0
@@ -943,7 +943,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: .25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: .400000036
   m_HasExitTime: 0
@@ -1245,7 +1245,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110207308}
-    m_Position: {x: 934, y: 260, z: 0}
+    m_Position: {x: 1044, y: 312, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110298896}
     m_Position: {x: 384, y: 24, z: 0}

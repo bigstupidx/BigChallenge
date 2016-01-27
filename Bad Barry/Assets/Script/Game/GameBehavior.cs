@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 
 public class GameBehavior : MonoBehaviour {
 
-	private string hordeScoreBoardId = "hordeLeaderBoard";
+	private string hordeScoreBoardId = "hordeLeaderBoardBadBarry";
 	//knife kills done
 	private string knifel100Id = "knifel100Achiev";
 	private string knifel500Id = "knifel500Achiev";
@@ -114,6 +114,8 @@ public class GameBehavior : MonoBehaviour {
 	public float totalExperience = 0;
 	public int knifeKills = 0;
 	public int totalDeaths = 0;
+	public int totalEnemiesKilled = 0;
+
 
 	//tutorial
 	public bool showTutorial = true;
@@ -188,7 +190,7 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
-	public void finishedHordeMode(int wave)
+	public void finishedHordeMode()
 	{
 
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
@@ -203,7 +205,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 			
-			CheckHordeAchievements(wave);
+
 
 		}
 		
@@ -241,6 +243,7 @@ public class GameBehavior : MonoBehaviour {
 		this.coins += earnedCoins;
 		totalCoins+= earnedCoins;
 		earnedCoins = 0;
+		totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 		enemiesKilled = 0;
 		totalEnemies = 0;
 
@@ -258,12 +261,12 @@ public class GameBehavior : MonoBehaviour {
 
 
 
-	public void IncrementCoinHorde(int wave){
+	public void IncrementCoinHorde(){
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.LevelCleared ();
 
-		behave.finishedHordeMode(wave);
+		behave.finishedHordeMode();
 
 
 	}
@@ -346,6 +349,7 @@ public class GameBehavior : MonoBehaviour {
 	public void GoToMap(){
 
 		earnedCoins = 0;
+		totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 		enemiesKilled = 0;
 		totalEnemies = 0;
 		pause = false;
@@ -394,6 +398,7 @@ public class GameBehavior : MonoBehaviour {
 
 		if (!loadingSound && showMap) {
 			earnedCoins = 0;
+			totalEnemiesKilled = totalEnemiesKilled + enemiesKilled;
 			enemiesKilled = 0;
 			totalEnemies = 0;
 			pause = false;
@@ -433,16 +438,16 @@ public class GameBehavior : MonoBehaviour {
 					StartCoroutine (PlayAudio (audio, "Mission 2"));
 					break;
 				case 3:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 3"));
 					break;
 				case 4:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 4"));
 					break;
 				case 5:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 5"));
 					break;
 				case 6:
-					StartCoroutine (PlayAudio (audio, "Mission 2"));
+					StartCoroutine (PlayAudio (audio, "Mission 6"));
 					break;
 				default:
 					print("Numero de misssao invalido"); 
@@ -906,6 +911,8 @@ public class GameBehavior : MonoBehaviour {
 		data.ammoSpent = ammoSpent;
 		data.totalExperience = totalExperience;
 		data.knifeKills = knifeKills;
+		data.totalEnemiesKilled = totalEnemiesKilled;
+
 
 		data.showTutorial = showTutorial;
 
@@ -956,6 +963,7 @@ public class GameBehavior : MonoBehaviour {
 			ammoSpent = data.ammoSpent;
 			totalExperience = data.totalExperience;
 			knifeKills = data.knifeKills;
+			totalEnemiesKilled = data.totalEnemiesKilled;
 
 			showTutorial = data.showTutorial;
 
@@ -1018,6 +1026,8 @@ class Data
 
 	//tutorial
 	public bool showTutorial;
+	public int totalEnemiesKilled;
+
 
 
 

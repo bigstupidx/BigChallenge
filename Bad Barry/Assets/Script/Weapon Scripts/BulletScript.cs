@@ -85,7 +85,9 @@ public class BulletScript : MonoBehaviour {
 			return;
 
 		}
-		if (col.gameObject.tag == "Enemy" && col.gameObject.tag == origin.tag) {
+
+
+		if (col.gameObject.tag == "Enemy" && col.gameObject.tag == origin.tag && col.gameObject != origin) {
 			
 			Destroy (this.gameObject);
 			return;
