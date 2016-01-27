@@ -85,7 +85,7 @@ public class hordeMode : MonoBehaviour {
 		
 		//destroys enemies
 		foreach(GameObject enemy in enemiesInScene){
-			Destroy(enemy,3);
+			Destroy(enemy,1);
 			
 		}
 		//removes enemies from the list

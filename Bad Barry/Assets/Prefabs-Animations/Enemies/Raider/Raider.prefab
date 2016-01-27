@@ -1506,7 +1506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 127000, guid: 7abfdb8bf38d54224a2da258ca812908, type: 2}
+  - {fileID: 115618, guid: 9a1bc19c7da804ee1a1909bd74c38f28, type: 2}
   - {fileID: 192876, guid: 46ff3cf93222e4c7db14679b3c72c653, type: 2}
   - {fileID: 138818, guid: 2da1b199c5b8c4065a172efa1fe6d776, type: 2}
   weaponsSounds:
@@ -1700,7 +1700,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: weapons.Array.data[0]
       value: 
-      objectReference: {fileID: 136604, guid: 30b44b0e3f08a4b80b89f905e2d74eca, type: 2}
+      objectReference: {fileID: 115618, guid: 9a1bc19c7da804ee1a1909bd74c38f28, type: 2}
     - target: {fileID: 0}
       propertyPath: bulletPrefab
       value: 

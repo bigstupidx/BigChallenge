@@ -357,6 +357,11 @@ public class Player : MonoBehaviour {
 
 			if(!skills.skillActivate){
 				life = life - trueDamage;	
+				if(life < 0){
+
+					life = 0;
+
+				}
 				hudGame.takeDamage();
 			}
 
@@ -439,6 +444,19 @@ public class Player : MonoBehaviour {
 
 		var panelText = GameObject.FindGameObjectWithTag ("DeathText").GetComponent<Text>();
 		panelText.text = "Mission Completed";
+		StartCoroutine(WinCamera());
+
+
+
+	}
+
+
+	//death animation function
+	IEnumerator WinCamera(){
+
+		var camera = GameObject.FindGameObjectWithTag("MainCamera");
+		yield return new WaitForSeconds (3);
+		camera.SetActive(false);
 
 
 	}
@@ -446,10 +464,15 @@ public class Player : MonoBehaviour {
 
 
 
+
+
 	//death animation function
 	IEnumerator Die(){
 
+
 		canvasDeath.SetActive (true);
+
+		var camera = GameObject.FindGameObjectWithTag("MainCamera");
 
 		dead = true;
 		bothAnimator.SetBool ("dead", true);
@@ -470,6 +493,8 @@ public class Player : MonoBehaviour {
 //		Transform retry = GameObject.FindWithTag("Retry").transform;
 //		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (3);
+		camera.SetActive(false);
+
 
 
 
