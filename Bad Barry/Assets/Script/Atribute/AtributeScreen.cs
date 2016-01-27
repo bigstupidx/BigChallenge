@@ -5,6 +5,17 @@ using UnityEngine.UI;
 public class AtributeScreen : MonoBehaviour {
 
 	private GameBehavior script; 
+	public GameBehavior behave;
+
+	//tutorial
+	public GameObject AttributeTutorial;
+	public GameObject Strength;
+	public GameObject Agility;
+	public GameObject Perception;
+	public GameObject Vitality;
+	public GameObject backArrow;
+	public float height = 0;
+	public int index = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -12,8 +23,69 @@ public class AtributeScreen : MonoBehaviour {
 		var x = GameObject.FindGameObjectWithTag("Behaviour");
 		script = x.GetComponent<GameBehavior>();
 		UpdatePoints();
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		if (behave.showTutorial) {
+
+			//logica para pegar a altura de algum dos panels
+			height = GameObject.Find ("PanelStrength").GetComponent<RectTransform>().rect.height;
+
+			AttributeTutorial.SetActive(true);
+			Agility.SetActive(false);
+			Perception.SetActive(false);
+			Vitality.SetActive(false);
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "forca eh pra aumentar o poder de dano";
+
+		}
 
 	
+	}
+
+	public IEnumerator BlinkArrow(){
+		while(true){
+			
+			backArrow.SetActive(false);
+			yield return new WaitForSeconds(.5f);
+			backArrow.SetActive(true);
+			yield return new WaitForSeconds(.5f);
+		}
+	}
+
+	public void onClickAttributeScreen(){
+		print ("entrou no button");
+		index++;
+		if(index == 1){ // EXPLICANDO AGILTY
+			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y - height, 1 );
+			Agility.SetActive(true);
+			Strength.SetActive(false);
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "agility eh pra aumentar a velocidade do barry";
+
+		}else if(index == 2){// EXPLICANDO PERCEPTION
+			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y +(2* height), 1 );
+			Agility.SetActive(false);
+			Strength.SetActive(false);
+			Perception.SetActive(true);
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Perception eh pra aumentar o tempo de duracao das skills";
+
+		}else if(index == 3){// EXPLICANDO VITALITY
+			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y - height, 1 );
+			Agility.SetActive(false);
+			Strength.SetActive(false);
+			Perception.SetActive(false);
+			Vitality.SetActive(true);
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "vitality eh pra aumentar a % de vida do barry";
+
+		}else if(index == 4){// VAZANDO DO ATTRIBUTESCREEN
+			Agility.SetActive(true);
+			Strength.SetActive(true);
+			Perception.SetActive(true);
+			Vitality.SetActive(true);
+			backArrow.SetActive(true);
+			StartCoroutine(BlinkArrow());
+			AttributeTutorial.SetActive(false);
+			behave.showAttributes = false;
+			behave.showStore = true;
+		}
 	}
 	
 	// Update is called once per frame
@@ -58,6 +130,9 @@ public class AtributeScreen : MonoBehaviour {
 	}
 
 	public void GoToMap(AudioSource audio){
+		if (behave.showTutorial)
+			backArrow.SetActive (false);
+
 		script.GoToMapWithSound (audio);
 	}
 

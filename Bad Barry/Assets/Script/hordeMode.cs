@@ -16,17 +16,84 @@ public class hordeMode : MonoBehaviour {
 	public GameObject totalText;
 	public bool go = true;
 	public int count = 0;
-	
+
+	public GameBehavior behave;
+
+	//tutorial
+	public GameObject canvasTutorial;
+	public GameObject textTutorial;
+	public string[] tutoText; 
+	public int index = 0;
+	public float time = 0;
+	public bool startTime = false;
+
+	public GameObject[] arrows = new GameObject[7];
 	
 	
 	// Use this for initialization
 	void Start () {
-		
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		timer = -100;
+
+		if (behave.showTutorial) {
+			tutoText = new string[]{"hold and drag the joystick to move the character",
+				"click the red button to fire",
+				" three items that you chose to carry into your missions",
+				"shows the amount of bullets that your current weapon has",
+				"indicates how much life the character has",
+				"slot for skill, when you use it you had been unattainable for a while",
+				"pause button, you will be able to give up their mission and return to the map",
+				"Ready? Choose your weapon and GO"};
+			Time.timeScale = 1;
+			this.level = 20;
+			behave.pause = true;
+			canvasTutorial.SetActive (true);
+			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nGo taping to go to the next step";
+//			arrows [index].SetActive (true);
+		}
+
 	}
-	
+
+	public void onClickNext(){
+
+		if (index < tutoText.Length ) {
+			if(index > 0)
+				arrows[index-1].SetActive(false);
+
+			if(index < arrows.Length)
+				arrows [index].SetActive (true);
+
+			textTutorial.GetComponent<Text> ().text = tutoText [index];
+			index++;
+		} else {
+			behave.pause = false;
+			canvasTutorial.SetActive (false);
+			behave.showAttributes = true;
+
+			//se for usar time pra terminar o tutorial
+//			startTime = !startTime;
+		}
+
+	}
 	// Update is called once per frame
 	void Update () {
+
+
+		//logica do tutorial
+
+		//SE O GAMEPLAY TIVER TEMPO
+
+
+//		if (behave.showTutorial && startTime) {
+//			time += Time.deltaTime;
+//
+//			if(time >= 25){
+//				print ("ACABOU GAMEPLAY DO TUTORIAL");
+//				startTime = !startTime;
+//			}
+//
+//		}
+
 		
 		bool alive = false;
 		//checks if all enemies are dead

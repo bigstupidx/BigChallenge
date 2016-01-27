@@ -14,12 +14,43 @@ public class Sell : MonoBehaviour {
 	public bool buttonActivate = true;
 	public GameBehavior behave;
 
+	//tutorial
+	public bool activeBlink = true;
+	public bool blinkMessage = true;
+	public bool pistolPurchased = false;
+	public bool watersPurchased = false;
+	public int indexToBuy = 0;
+	public int waterCount = 5;
+	public GameObject leftBuyArrow;
+	public GameObject rightBuyArrow;
+	public GameObject storeCanvasTutorial;
+	public GameObject storeCanvasPanel;
+	public GameObject backArrow;
+	public GameObject canvasText;
+	public GameObject endTutoText;
+	public GameObject endTutoPanel;
+
 	void Start(){
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		coin = new Coin (behave.coins);
 		button = GameObject.Find ("BuyButton").GetComponent<Button>();
 		CoinsPanel = GameObject.Find ("CoinAmount");
 		CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
+
+		item = ListBank.Instance.itemToBuy;
+
+		//tutorial
+		if (behave.showTutorial) {
+			StartCoroutine(ShowMessage("buy the Revolver"));
+			StartCoroutine(BlinkArrow());
+			storeCanvasTutorial.SetActive(true);
+			StartCoroutine(BlinkArrow());
+			activeBlink = false;
+			buttonActivate = false;
+//			storeCanvasPanel.SetActive(true);
+//			StartCoroutine(ShowMessage("buy the Revolver"));
+//			StartCoroutine(Blink(true,false,true,"buy the Revolver"));
+		}
 
 	}
 
@@ -37,6 +68,7 @@ public class Sell : MonoBehaviour {
 			colors.disabledColor = Color.red;
 			colors.pressedColor = Color.red;
 			button.colors = colors;
+			buttonActivate = false;
 		}  else {
 			//button.enabled = true;
 			colors.normalColor = Color.white;
@@ -48,18 +80,142 @@ public class Sell : MonoBehaviour {
 		}
 
 		//LOGICA PARA DESATIVAR O ITEM SE ELE JA ESTIVER NO INVENTORY
-		if (!item.Stackable && checkItemInInventory (item.ID)) {
-			print ("DESATIVAR ESTE ITEM");
-			buttonActivate = false;
+//		if (!item.Stackable && checkItemInInventory (item.ID)) {
+//			print ("DESATIVAR ESTE ITEM");
+//			buttonActivate = false;
+//
+//			//MUDAR A APARENCIA DO BUTTON OU DA STORE, INDICANDO QUE JA TEM ESTE ITEM
+//
+////			colors.normalColor = Color.gray;
+////			colors.highlightedColor = Color.gray;
+////			colors.disabledColor = Color.gray;
+////			colors.pressedColor = Color.gray;
+////			button.colors = colors;
+//		}
 
-			//MUDAR A APARENCIA DO BUTTON OU DA STORE, INDICANDO QUE JA TEM ESTE ITEM
+		//LOGICA DO TUTORIAL
 
-//			colors.normalColor = Color.gray;
-//			colors.highlightedColor = Color.gray;
-//			colors.disabledColor = Color.gray;
-//			colors.pressedColor = Color.gray;
-//			button.colors = colors;
+		if (behave.showTutorial) {
+
+			if(pistolPurchased && watersPurchased){
+
+				if(blinkMessage){
+					leftBuyArrow.GetComponent<Image>().color = Color.clear;
+					rightBuyArrow.GetComponent<Image>().color = Color.clear;
+					
+					buttonActivate = false;
+					
+					colors.normalColor = Color.red;
+					colors.highlightedColor = Color.red;
+					colors.disabledColor = Color.red;
+					colors.pressedColor = Color.red;
+					button.colors = colors;
+
+					behave.showStore = false;
+					behave.showTutorial = false;
+
+					StartCoroutine(BlinkEndTutorial());
+
+					blinkMessage = false; // COMO TA NO UPDATE, ENTRAR UMA VEZ SOH AQUI
+				}
+
+
+			}
+
+			else{
+
+				if(item.ID == indexToBuy){ //TEM Q COMPRAR PRIMEIRO A PISTOLA
+					leftBuyArrow.GetComponent<Image>().color = Color.white;
+					rightBuyArrow.GetComponent<Image>().color = Color.white;
+					if(activeBlink){
+						print ("entro if do active");
+						activeBlink = false;
+						buttonActivate = true;
+
+						colors.normalColor = Color.white;
+						colors.highlightedColor = Color.white;
+						colors.disabledColor = Color.white;
+						colors.pressedColor = Color.white;
+						button.colors = colors;
+					}
+				}
+
+				else {
+					leftBuyArrow.GetComponent<Image>().color = Color.clear;
+					rightBuyArrow.GetComponent<Image>().color = Color.clear;
+					activeBlink = true;
+					buttonActivate = false;
+
+					colors.normalColor = Color.red;
+					colors.highlightedColor = Color.red;
+					colors.disabledColor = Color.red;
+					colors.pressedColor = Color.red;
+					button.colors = colors;
+				}
+			}
+
+
+			//checar se comprou tudo necessario p/ sair do tutorial
 		}
+
+	}
+
+	public IEnumerator BlinkEndTutorial(){
+		endTutoPanel.SetActive(true);
+		endTutoText.GetComponent<Text> ().text = "Now you are ready to start your journey, good luck!";
+		yield return new WaitForSeconds(3.5f);
+
+		endTutoText.GetComponent<Text> ().text = "Back to the Map to start!";
+		yield return new WaitForSeconds(2f);
+
+		endTutoPanel.SetActive (false);
+		while(true){
+			
+			backArrow.SetActive(true);
+			yield return new WaitForSeconds(.5f);
+			backArrow.SetActive(false);
+			yield return new WaitForSeconds(.5f);
+		}
+
+
+
+	}
+
+	public IEnumerator BlinkArrow(){
+		while(true){
+			
+			leftBuyArrow.SetActive(true);
+			rightBuyArrow.SetActive(true);
+			yield return new WaitForSeconds(.5f);
+			leftBuyArrow.SetActive(false);
+			rightBuyArrow.SetActive(false);
+			yield return new WaitForSeconds(.5f);
+		}
+	}
+
+	public IEnumerator BlinkBackArrow(){
+		while(true){
+			
+			backArrow.SetActive(true);
+			yield return new WaitForSeconds(.5f);
+			backArrow.SetActive(false);
+			yield return new WaitForSeconds(.5f);
+		}
+	}
+
+	public IEnumerator ShowMessage(string message){
+			
+			//acessar text do panel na store
+
+		storeCanvasPanel.SetActive(true);
+//		GameObject.Find ("storeCanvasText").GetComponent<Text> ().text = message;
+		canvasText.GetComponent<Text> ().text = message;
+		yield return new WaitForSeconds (1.5f);
+
+			buttonActivate = true;
+			storeCanvasPanel.SetActive (false);
+
+			yield return new WaitForSeconds(.5f);
 
 	}
 
@@ -76,7 +232,7 @@ public class Sell : MonoBehaviour {
 
 		item = ListBank.Instance.itemToBuy;
 
-		if (checkCoins(coin.Coins) && !buttonActivate) {
+		if (checkCoins(coin.Coins) && buttonActivate) {
 
 			//FAZER LOGICA PARA RETIRAR ITEMS(!STACKABLE) DA LOJA DPS DE COMPRADOS
 
@@ -96,6 +252,26 @@ public class Sell : MonoBehaviour {
 			}
 			behave.coins = coin.Coins;
 			behave.CheckWeaponAchievements();
+
+			if(behave.showTutorial){
+				if(item.ID == 0){
+					pistolPurchased = true;
+					indexToBuy = 1;
+//					storeCanvasPanel.SetActive(true);
+//					StopCoroutine(BlinkArrow());
+					StartCoroutine(ShowMessage("buy 5 waters"));
+					leftBuyArrow.GetComponent<Image>().color = Color.clear;
+					rightBuyArrow.GetComponent<Image>().color = Color.clear;
+//					StartCoroutine(Blink(false,false,true,"buy 5 waters"));
+				}
+				if(item.ID == 1){
+					waterCount--;
+					if(waterCount == 0){
+						watersPurchased = true;
+//						StopCoroutine(BlinkArrow());
+					}
+				}
+			}
 
 
 		} else

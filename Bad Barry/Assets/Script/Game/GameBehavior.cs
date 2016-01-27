@@ -115,6 +115,12 @@ public class GameBehavior : MonoBehaviour {
 	public int knifeKills = 0;
 	public int totalDeaths = 0;
 
+	//tutorial
+	public bool showTutorial = true;
+	public bool showMap = false;
+	public bool showAttributes = false;
+	public bool showStore = false;
+
 
 	
 	// Use this for initialization
@@ -139,7 +145,10 @@ public class GameBehavior : MonoBehaviour {
 
 
 		//on start get selected character points and get bullets
-		load();
+		if(!showTutorial)
+			load();
+
+
 		pause = false;
 		DontDestroyOnLoad (gameObject);
 		DontDestroyOnLoad (this);
@@ -342,7 +351,9 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 		print ("aqui");
 		life = maxLife;
-		save();
+
+		if(!showTutorial)
+			save();
 
 		Application.LoadLevel("MapScene");
 		
@@ -363,16 +374,35 @@ public class GameBehavior : MonoBehaviour {
 
 	public void GoToMapWithSound(AudioSource audio){
 
+		if (showTutorial && !showMap){
+			//colocando mp-9 e shotgun e 99 aguas no inventory
+			inventory[1] = 99;
+			inventory[2] = 1;
+			inventory[3] = 1;
+			abilityIDs[0] = 4;
+			abilityIndex = 1;
 
+			bullets[1] = 999; // balas da mp-9
+			bullets[2] = 999; //balas de shotgun
 
-		if (!loadingSound) {
+			//VAI PARA O INVENTORY, PARA ELE ARRASTAR OS ITENS P/ O SLOT E QND SAIR DO TUTORIAL VAI PARA O MODO HORDA
+			showMap = true;
+			GoToInventoryScene(audio);
+
+			//GoToMission (audio, 0);
+		}
+
+		if (!loadingSound && showMap) {
 			earnedCoins = 0;
 			enemiesKilled = 0;
 			totalEnemies = 0;
 			pause = false;
 			print ("aqui");
 			life = maxLife;
-			save ();
+
+			if(!showTutorial)
+				save ();
+
 			loadingSound = true;
 			StartCoroutine (PlayAudio (audio, "MapScene"));
 		}
@@ -384,7 +414,8 @@ public class GameBehavior : MonoBehaviour {
 		if (!loadingSound) {
 			pause = false;
 			if (energy > 0) {
-				energy--;
+				if(!showTutorial)
+					energy--;
 
 				loadingSound = true;
 
@@ -434,7 +465,12 @@ public class GameBehavior : MonoBehaviour {
 		pause = false;
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-		behave.save();
+
+		if (!showTutorial) {
+			behave.save ();
+			print ("entrou no saveee");
+		}
+
 
 		Application.LoadLevel("MapScene");
 		//Play();
@@ -871,6 +907,8 @@ public class GameBehavior : MonoBehaviour {
 		data.totalExperience = totalExperience;
 		data.knifeKills = knifeKills;
 
+		data.showTutorial = showTutorial;
+
 		bf.Serialize(file,data);
 		file.Close();
 		print("save");
@@ -918,6 +956,8 @@ public class GameBehavior : MonoBehaviour {
 			ammoSpent = data.ammoSpent;
 			totalExperience = data.totalExperience;
 			knifeKills = data.knifeKills;
+
+			showTutorial = data.showTutorial;
 
 		}
 
@@ -975,6 +1015,9 @@ class Data
 	public int[] abilityIDs;
 
 	public int abilityIndex;
+
+	//tutorial
+	public bool showTutorial;
 
 
 

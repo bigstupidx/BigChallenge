@@ -136,7 +136,18 @@ public class Slot : MonoBehaviour, IDropHandler {
 				
 			}
 		}
+		if (slots2Completed ()) 
+			inv.slots2Completed = true;
+		else
+			inv.slots2Completed = false;
+	}
 
+	public bool slots2Completed(){
+		for (int i = 0; i< inv.slots2.Count; i++) {
+			if(inv.items2[i].ID == -1)
+				return false;
+		}
+		return true;
 	}
 
 	public bool IsInPanel1(ItemData droppedItem){

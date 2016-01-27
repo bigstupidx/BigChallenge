@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
 
+	public GameBehavior behave;
 
 	GameObject inventoryPanel;
 	GameObject slotPanel;
@@ -28,8 +29,19 @@ public class Inventory : MonoBehaviour {
 
 	GridLayoutGroup gridLayoutGroup;
 
+	//tutorial
+	public bool slots2Completed = false;
+	public Button buttonBack;
+	public GameObject canvasTutorial;
+	public GameObject tutorialText;
+	public GameObject backArrow;
+	public bool teste = false;
+	public bool teste2 = false;
+
 	void Start(){
 		database = GetComponent<ItemDatabase> ();
+		buttonBack = GameObject.Find ("buttonBack").GetComponent<Button> ();
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 		slotAmount = 10;
 		slotAmount2 = 53;
@@ -58,7 +70,14 @@ public class Inventory : MonoBehaviour {
 
 
 
-		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+//		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		if (behave.showTutorial) {
+			buttonBack.interactable = false;
+			canvasTutorial.SetActive (true);
+			GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Arraste os 3 itens para os slots azuis";
+
+		}
 
 		for(int i = 0; i < behave.inventory.Length;i++){
 
@@ -72,6 +91,54 @@ public class Inventory : MonoBehaviour {
 
 
 
+
+
+	}
+
+	public IEnumerator BlinkArrow2(){
+		while(true){
+			
+			backArrow.SetActive(false);
+			yield return new WaitForSeconds(.5f);
+			backArrow.SetActive(true);
+			yield return new WaitForSeconds(.5f);
+		}
+	}
+
+	public IEnumerator Stop(){
+		yield return new WaitForSeconds(.1f);
+	
+	}
+
+//	public IEnumerator ShowMessage(){
+//		GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Clique no botao de voltar";
+//	}
+
+	void Update(){
+
+		if (behave.showTutorial) {
+			if (slots2Completed){
+				buttonBack.interactable = true;
+				backArrow.GetComponent<Image>().color = Color.white;
+
+				if(canvasTutorial.activeSelf)
+				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Clique em voltar";
+
+				if(!teste){
+					backArrow.SetActive(true);
+					print ("entrou no if");
+					StartCoroutine(BlinkArrow2());
+				}
+				teste=true;
+			}
+			else{
+
+				buttonBack.interactable = false;
+				backArrow.GetComponent<Image>().color = Color.clear;
+
+				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Arraste os 3 itens para os slots azuis";
+			}
+		}
 	}
 
 	public void AddItem(int id){
@@ -190,7 +257,7 @@ public class Inventory : MonoBehaviour {
 		}
 
 
-		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+//		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.setInventoryItems(content);
 	
 	
@@ -198,7 +265,14 @@ public class Inventory : MonoBehaviour {
 
 
 	public void GoToMap(AudioSource audio){
-		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+//		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+
+		if (behave.showTutorial) {
+			behave.GoToMission (audio, 0);
+			backArrow.SetActive (false);
+			canvasTutorial.SetActive(false);
+		}
+
 		behave.GoToMapWithSound (audio);
 	}
 

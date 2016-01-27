@@ -4615,7 +4615,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_RichText: 1
@@ -4679,7 +4679,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_RichText: 1
@@ -4763,7 +4763,7 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_RichText: 1
@@ -5081,6 +5081,28 @@ MonoBehaviour:
   totalText: {fileID: 164576}
   go: 1
   count: 0
+  behave: {fileID: 0}
+  canvasTutorial: {fileID: 0}
+  textTutorial: {fileID: 0}
+  tutoText:
+  - joystick
+  - botaodeatirar
+  - armas
+  - municao
+  - vida
+  - skills
+  - pausando
+  index: 0
+  time: 0
+  startTime: 0
+  arrows:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11462874
 MonoBehaviour:
   m_ObjectHideFlags: 1
