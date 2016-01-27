@@ -29,6 +29,15 @@ public class AtributeScreen : MonoBehaviour {
 
 			//logica para pegar a altura de algum dos panels
 			height = GameObject.Find ("PanelStrength").GetComponent<RectTransform>().rect.height;
+			behave.inventory[1] = 0;
+			behave.inventory[2] = 0;
+			behave.inventory[3] = 0;
+			behave.abilityIDs[0] = 0;
+			behave.abilityIndex = 0;
+			
+			behave.bullets[1] = 0; // balas da mp-9
+			behave.bullets[2] = 0; //balas de shotgun
+			behave.coins = 100;
 
 			AttributeTutorial.SetActive(true);
 			Agility.SetActive(false);

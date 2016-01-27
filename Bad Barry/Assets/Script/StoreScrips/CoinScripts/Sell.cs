@@ -113,6 +113,7 @@ public class Sell : MonoBehaviour {
 
 					behave.showStore = false;
 					behave.showTutorial = false;
+					behave.showMap = true;
 
 					StartCoroutine(BlinkEndTutorial());
 

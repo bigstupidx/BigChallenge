@@ -69,6 +69,8 @@ public class hordeMode : MonoBehaviour {
 			behave.pause = false;
 			canvasTutorial.SetActive (false);
 			behave.showAttributes = true;
+			var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+			player.ChangeWeapon(1);
 
 			//se for usar time pra terminar o tutorial
 //			startTime = !startTime;

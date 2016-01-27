@@ -118,10 +118,10 @@ public class GameBehavior : MonoBehaviour {
 
 
 	//tutorial
-	public bool showTutorial = true;
-	public bool showMap = false;
-	public bool showAttributes = false;
-	public bool showStore = false;
+	public bool showTutorial;
+	public bool showMap;
+	public bool showAttributes;
+	public bool showStore;
 
 
 	
@@ -377,6 +377,8 @@ public class GameBehavior : MonoBehaviour {
 	}
 
 	public void GoToMapWithSound(AudioSource audio){
+
+		print("ativado");
 
 		if (showTutorial && !showMap){
 			//colocando mp-9 e shotgun e 99 aguas no inventory
@@ -915,6 +917,9 @@ public class GameBehavior : MonoBehaviour {
 
 
 		data.showTutorial = showTutorial;
+		data.showMap = showMap;
+		data.showAttributes = showAttributes;
+		data.showStore = showStore;
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -966,6 +971,9 @@ public class GameBehavior : MonoBehaviour {
 			totalEnemiesKilled = data.totalEnemiesKilled;
 
 			showTutorial = data.showTutorial;
+			showMap = data.showMap;
+			showAttributes = data.showAttributes;
+			showStore = data.showStore;
 
 		}
 
@@ -1025,8 +1033,13 @@ class Data
 	public int abilityIndex;
 
 	//tutorial
-	public bool showTutorial;
 	public int totalEnemiesKilled;
+
+	public bool showTutorial = true;
+	public bool showMap = false;
+	public bool showAttributes = false;
+	public bool showStore = false;
+
 
 
 
