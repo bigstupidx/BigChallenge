@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Sell : MonoBehaviour {
 
 	public Item item;
-	public Coin coin;
+	public int coin;
 	public Button button;
 	public GameObject CoinsPanel;
 	private Inventory inv;
@@ -34,10 +34,10 @@ public class Sell : MonoBehaviour {
 
 	void Start(){
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-		coin = new Coin (behave.coins);
+		coin = behave.coins;
 		button = GameObject.Find ("BuyButton").GetComponent<Button>();
 		CoinsPanel = GameObject.Find ("CoinAmount");
-		CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
+		CoinsPanel.GetComponent<Text> ().text = "x "+coin.ToString ();
 
 		item = ListBank.Instance.itemToBuy;
 
@@ -59,7 +59,7 @@ public class Sell : MonoBehaviour {
 
 		var colors = button.colors;
 		
-		if (!checkCoins (coin.Coins)){
+		if (!checkCoins (coin)){
 			//button.enabled = false;
 			colors.normalColor = Color.red;
 			colors.highlightedColor = Color.red;
@@ -90,6 +90,7 @@ public class Sell : MonoBehaviour {
 //			bulletsAmount.SetActive(false);
 
 		//LOGICA PARA DESATIVAR O ITEM SE ELE JA ESTIVER NO INVENTORY
+
 		if (!item.Stackable && checkItemInInventory (item.ID)) {
 			buttonActivate = false;
 
@@ -114,6 +115,7 @@ public class Sell : MonoBehaviour {
 					rightBuyArrow.GetComponent<Image>().color = Color.clear;
 					
 					buttonActivate = false;
+
 					
 					colors.normalColor = Color.red;
 					colors.highlightedColor = Color.red;
@@ -156,6 +158,7 @@ public class Sell : MonoBehaviour {
 					activeBlink = true;
 					buttonActivate = false;
 
+
 					colors.normalColor = Color.red;
 					colors.highlightedColor = Color.red;
 					colors.disabledColor = Color.red;
@@ -170,9 +173,13 @@ public class Sell : MonoBehaviour {
 	public IEnumerator BlinkEndTutorial(){
 		endTutoPanel.SetActive(true);
 		endTutoText.GetComponent<Text> ().text = "Now you are ready to start your journey, good luck!";
+		endTutoText.GetComponent<TranslateText>().Refresh();
+
 		yield return new WaitForSeconds(3.5f);
 
 		endTutoText.GetComponent<Text> ().text = "Back to the Map to start!";
+		endTutoText.GetComponent<TranslateText>().Refresh();
+
 		yield return new WaitForSeconds(2f);
 
 		endTutoPanel.SetActive (false);
@@ -217,6 +224,7 @@ public class Sell : MonoBehaviour {
 		storeCanvasPanel.SetActive(true);
 //		GameObject.Find ("storeCanvasText").GetComponent<Text> ().text = message;
 		canvasText.GetComponent<Text> ().text = message;
+		canvasText.GetComponent<TranslateText>().Refresh();
 		yield return new WaitForSeconds (1.5f);
 
 			buttonActivate = true;
@@ -233,10 +241,13 @@ public class Sell : MonoBehaviour {
 				return true;
 			}
 		}
-		
+
+
 		for (int i = 0; i < behave.abilityIDs.Length; i++) {
-			if(behave.abilityIDs[i] == id)
+			if(behave.abilityIDs[i] == id && behave.abilityIndex > 0){
+
 				return true;
+			}
 		}
 		return false;
 	}
@@ -244,16 +255,15 @@ public class Sell : MonoBehaviour {
 	public void onBuyButtonClicked(AudioSource audio){
 
 		item = ListBank.Instance.itemToBuy;
-
-		if (checkCoins(coin.Coins) && buttonActivate) {
+		if (checkCoins(coin) && buttonActivate) {
 
 			//FAZER LOGICA PARA RETIRAR ITEMS(!STACKABLE) DA LOJA DPS DE COMPRADOS
 
 			//som quando comprar item
 			audio.Play();
 
-			coin.Coins -= item.Value;
-			CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
+			coin -= item.Value;
+			CoinsPanel.GetComponent<Text> ().text = "x "+coin.ToString ();
 
 			if(item.Ability){
 				behave.abilityIDs[behave.abilityIndex] = item.ID;
@@ -267,7 +277,7 @@ public class Sell : MonoBehaviour {
 			}else{
 				behave.inventory[item.ID]++;
 			}
-			behave.coins = coin.Coins;
+			behave.coins = coin;
 			behave.CheckWeaponAchievements();
 
 			if(behave.showTutorial){
@@ -292,7 +302,7 @@ public class Sell : MonoBehaviour {
 
 
 		} else
-			print ("NAO COMPROU");
+			print ("can't buy");
 
 	}
 

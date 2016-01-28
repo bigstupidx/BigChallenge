@@ -77,6 +77,8 @@ public class Inventory : MonoBehaviour {
 			buttonBack.interactable = false;
 			canvasTutorial.SetActive (true);
 			GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
+			GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+
 
 		}
 
@@ -122,8 +124,10 @@ public class Inventory : MonoBehaviour {
 				buttonBack.interactable = true;
 				backArrow.GetComponent<Image>().color = Color.white;
 
-				if(canvasTutorial.activeSelf)
-				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Click the arrow";
+				if(canvasTutorial.activeSelf){
+					GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Click the arrow";
+					GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+				}
 
 				if(!teste){
 					backArrow.SetActive(true);
@@ -137,6 +141,8 @@ public class Inventory : MonoBehaviour {
 				backArrow.GetComponent<Image>().color = Color.clear;
 
 				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
+				GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+
 			}
 		}
 	}
