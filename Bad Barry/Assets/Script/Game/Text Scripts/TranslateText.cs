@@ -17,8 +17,11 @@ public class TranslateText : MonoBehaviour {
 			text = textComponent.text;
 
 			//It will change this object's text to its corresponding translation
+			print(text);
 			if(LanguageDictionary.stringList.ContainsKey(text)){
 				textComponent.text = LanguageDictionary.stringList [text];
+				print(textComponent.text);
+
 			}
 
 		} 

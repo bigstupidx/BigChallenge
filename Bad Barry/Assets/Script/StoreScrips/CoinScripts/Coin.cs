@@ -8,6 +8,7 @@ public class Coin : MonoBehaviour {
 	public string Name { get; set; }
 
 	public Coin(int coins){
+		print(coins);
 		this.Coins = coins;
 		this.Sprite = Resources.Load<Sprite> ("Coin Sprite/coin");
 		this.Name = "Hyagold";

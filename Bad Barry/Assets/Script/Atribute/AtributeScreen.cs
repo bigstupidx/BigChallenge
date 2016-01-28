@@ -43,7 +43,8 @@ public class AtributeScreen : MonoBehaviour {
 			Agility.SetActive(false);
 			Perception.SetActive(false);
 			Vitality.SetActive(false);
-			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "forca eh pra aumentar o poder de dano";
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Strength increases damage";
+			GameObject.Find ("AttributeTutorialText").GetComponent<TranslateText>().Refresh();
 
 		}
 
@@ -67,14 +68,18 @@ public class AtributeScreen : MonoBehaviour {
 			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y - height, 1 );
 			Agility.SetActive(true);
 			Strength.SetActive(false);
-			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "agility eh pra aumentar a velocidade do barry";
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Agility increases movement speed";
+			GameObject.Find ("AttributeTutorialText").GetComponent<TranslateText>().Refresh();
+
 
 		}else if(index == 2){// EXPLICANDO PERCEPTION
 			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y +(2* height), 1 );
 			Agility.SetActive(false);
 			Strength.SetActive(false);
 			Perception.SetActive(true);
-			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Perception eh pra aumentar o tempo de duracao das skills";
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Perception increases skill duration";
+			GameObject.Find ("AttributeTutorialText").GetComponent<TranslateText>().Refresh();
+
 
 		}else if(index == 3){// EXPLICANDO VITALITY
 			GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position = new Vector3(GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.x, GameObject.Find ("AttributePanelText").GetComponent<RectTransform>().position.y - height, 1 );
@@ -82,7 +87,9 @@ public class AtributeScreen : MonoBehaviour {
 			Strength.SetActive(false);
 			Perception.SetActive(false);
 			Vitality.SetActive(true);
-			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "vitality eh pra aumentar a % de vida do barry";
+			GameObject.Find ("AttributeTutorialText").GetComponent<Text> ().text = "Vitality increases amount of life";
+			GameObject.Find ("AttributeTutorialText").GetComponent<TranslateText>().Refresh();
+
 
 		}else if(index == 4){// VAZANDO DO ATTRIBUTESCREEN
 			Agility.SetActive(true);
