@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -77,18 +77,6 @@ public class Sell : MonoBehaviour {
 			buttonActivate = true;
 		}
 
-//		if (item.ID == 5 || item.ID == 6) {
-//			bulletsAmount.SetActive(true);
-//			if(item.ID == 5)
-//				bulletsAmount.GetComponent<Text>().text = "You have "+behave.bullets[1]+" bullets for "+item.Title;
-//			else {
-//				bulletsAmount.GetComponent<Text>().text = "You have "+behave.bullets[2]+" bullets for "+item.Title;
-//			}
-//		}
-//
-//		else
-//			bulletsAmount.SetActive(false);
-
 		//LOGICA PARA DESATIVAR O ITEM SE ELE JA ESTIVER NO INVENTORY
 		if (!item.Stackable && checkItemInInventory (item.ID)) {
 			buttonActivate = false;
@@ -107,7 +95,7 @@ public class Sell : MonoBehaviour {
 
 		if (behave.showTutorial) {
 
-			if(pistolPurchased && watersPurchased){
+			if(pistolPurchased && watersPurchased){ // COMPROU A PISTOL E AS AGUAS, PRONTO PRA ACABAR O TUTORIAL
 
 				if(blinkMessage){
 					leftBuyArrow.GetComponent<Image>().color = Color.clear;
@@ -133,7 +121,7 @@ public class Sell : MonoBehaviour {
 
 			}
 
-			else{
+			else{ // AINDA N COMPROU OS ITENS NECESSARIOS
 
 				if(item.ID == indexToBuy){ //TEM Q COMPRAR PRIMEIRO A PISTOLA
 					leftBuyArrow.GetComponent<Image>().color = Color.white;
@@ -227,21 +215,25 @@ public class Sell : MonoBehaviour {
 	}
 
 	public bool checkItemInInventory(int id){
-		for(int i = 0; i < behave.inventory.Length;i++){
+		for (int i = 0; i < behave.inventory.Length; i++) {
 
-			if(behave.inventory[id] > 0){
+			if (behave.inventory [id] > 0) {
 				return true;
 			}
 		}
-		
-		for (int i = 0; i < behave.abilityIDs.Length; i++) {
-			if(behave.abilityIDs[i] == id)
-				return true;
+
+		if (item.Ability) {
+			for (int i = 0; i < behave.abilityIDs.Length; i++) {
+				if (behave.abilityIDs [i] == id)
+					return true;
+			}
 		}
 		return false;
 	}
 
 	public void onBuyButtonClicked(AudioSource audio){
+
+
 
 		item = ListBank.Instance.itemToBuy;
 
@@ -293,6 +285,16 @@ public class Sell : MonoBehaviour {
 
 		} else
 			print ("NAO COMPROU");
+
+
+		var x = GetComponentsInChildren<ListBox> ();
+		
+		foreach (ListBox box in x) {
+			print("buy");
+			box.updateSize();
+			
+		}
+
 
 	}
 

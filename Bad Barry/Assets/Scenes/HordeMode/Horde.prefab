@@ -4032,6 +4032,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 84df28c0729cd4c51ad2b8794a22d8b4, type: 3}
   - {fileID: 21300000, guid: addd8548d2aac4f53a36068dbb942a76, type: 3}
   ammoImage: {fileID: 152656}
+  behave: {fileID: 0}
 --- !u!114 &11420160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4388,7 +4389,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1149dfae0d3604f20a8a0d65d726a809, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 952e319f20919499999b219342fd911c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5138,7 +5139,6 @@ MonoBehaviour:
   go: 1
   count: 0
   behave: {fileID: 0}
-  infinity: {fileID: 140342}
   canvasTutorial: {fileID: 0}
   textTutorial: {fileID: 0}
   tutoText:
@@ -6082,6 +6082,7 @@ MonoBehaviour:
   vitality: 0
   knifeRange: {fileID: 108314}
   canvasDeath: {fileID: 133580}
+  infinityImage: {fileID: 140342}
   skillActivate: 0
   timeToStopSkill: 5
   reloadingTime: 10

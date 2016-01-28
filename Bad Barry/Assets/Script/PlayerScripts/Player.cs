@@ -43,6 +43,7 @@ public class Player : MonoBehaviour {
 	public GameObject knifeRange;
 
 	public GameObject canvasDeath;
+	public GameObject infinityImage;
 
 
 	public DateTime lastDateTime;
@@ -128,6 +129,10 @@ public class Player : MonoBehaviour {
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
+		if (behave.selectedWeapon == 0)
+			infinityImage.SetActive (true);
+		else
+			infinityImage.SetActive (false);
 
 		if (!behave.pause) {
 

@@ -100,7 +100,7 @@
 			"minDamage": 0,
 			"maxDamage": 0
 		},
-		"description" : "contains 30 bullets for MP-9",
+		"description" : "Contains 30 bullets for MP-9",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "mp9_ammo"
@@ -118,7 +118,7 @@
 			"minDamage": 0,
 			"maxDamage": 0
 		},
-		"description" : "cartridge with 8 bullets for shotgun",
+		"description" : "Cartridge with 8 bullets for shotgun",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "shotgun_ammo"

@@ -19,7 +19,7 @@ public class TextConfig : MonoBehaviour {
 
 			flashingText.text= "";
 			yield return new WaitForSeconds(.5f);
-			flashingText.text= "tap to play";
+			flashingText.text= "";
 			GetComponent<TranslateText>().Refresh();
 			yield return new WaitForSeconds(.5f);
 		}

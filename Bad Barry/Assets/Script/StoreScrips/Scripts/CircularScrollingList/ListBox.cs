@@ -41,6 +41,8 @@ public class ListBox : MonoBehaviour
 	private bool keepSliding = false;
 	private int slidingFrames;
 
+	public int bulletsAux;
+
 	void Start()
 	{
 		numOfListBox = ListPositionCtrl.Instance.listBoxes.Length;
@@ -114,6 +116,8 @@ public class ListBox : MonoBehaviour
 
 	void Update()
 	{
+
+
 		if ( keepSliding )
 		{
 			--slidingFrames;
@@ -197,7 +201,7 @@ public class ListBox : MonoBehaviour
 
 	/* Scale the size of listBox accroding to the Y position.
 	 */
-	void updateSize()
+	public void updateSize()
 	{
 		ListPositionCtrl.Instance.scaleFactor = (ListBank.Instance.canvasRect.rect.width / 20640);
 		
@@ -228,11 +232,11 @@ public class ListBox : MonoBehaviour
 			contentPrice.text = "Price: "+content.Value.ToString();
 
 			if(content.ID == 5){
-				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[1]+"\n"+ content.Description;
+				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[1]+".\n"+"  "+content.Description;
 			}
 
 			else if(content.ID == 6){
-				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[2]+"\n"+ content.Description;
+				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[2]+".\n"+"  "+ content.Description;
 			}
 			else{
 				contentDetails.text = content.Description;

@@ -18,7 +18,7 @@ public class hordeMode : MonoBehaviour {
 	public int count = 0;
 
 	public GameBehavior behave;
-	public GameObject infinity;
+//	public GameObject infinity;
 
 	//tutorial
 	public GameObject canvasTutorial;
@@ -97,10 +97,10 @@ public class hordeMode : MonoBehaviour {
 //
 //		}
 
-		if (behave.selectedWeapon == 0)
-			infinity.SetActive (true);
-		else
-			infinity.SetActive (false);
+//		if (behave.selectedWeapon == 0)
+//			infinity.SetActive (true);
+//		else
+//			infinity.SetActive (false);
 
 		
 		bool alive = false;
