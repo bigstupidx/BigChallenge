@@ -36,8 +36,8 @@ public class hordeMode : MonoBehaviour {
 		timer = -100;
 
 		if (behave.showTutorial) {
-			tutoText = new string[]{"hold and drag the joystick to move the character",
-				"click the red button to fire",
+			tutoText = new string[]{"hold and drag the joystick to move Barry",
+				"press or hold the red button to fire",
 				" three items that you chose to carry into your missions",
 				"shows the amount of bullets that your current weapon has",
 				"indicates how much life the character has",
@@ -48,7 +48,7 @@ public class hordeMode : MonoBehaviour {
 			this.level = 20;
 			behave.pause = true;
 			canvasTutorial.SetActive (true);
-			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nGo taping to go to the next step";
+			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nTap for the next step";
 //			arrows [index].SetActive (true);
 		}
 

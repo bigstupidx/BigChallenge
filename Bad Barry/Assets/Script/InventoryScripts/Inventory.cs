@@ -76,7 +76,7 @@ public class Inventory : MonoBehaviour {
 		if (behave.showTutorial) {
 			buttonBack.interactable = false;
 			canvasTutorial.SetActive (true);
-			GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Arraste os 3 itens para os slots azuis";
+			GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
 
 		}
 
@@ -123,11 +123,10 @@ public class Inventory : MonoBehaviour {
 				backArrow.GetComponent<Image>().color = Color.white;
 
 				if(canvasTutorial.activeSelf)
-				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Clique em voltar";
+				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Click the arrow";
 
 				if(!teste){
 					backArrow.SetActive(true);
-					print ("entrou no if");
 					StartCoroutine(BlinkArrow2());
 				}
 				teste=true;
@@ -137,7 +136,7 @@ public class Inventory : MonoBehaviour {
 				buttonBack.interactable = false;
 				backArrow.GetComponent<Image>().color = Color.clear;
 
-				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Arraste os 3 itens para os slots azuis";
+				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
 			}
 		}
 	}

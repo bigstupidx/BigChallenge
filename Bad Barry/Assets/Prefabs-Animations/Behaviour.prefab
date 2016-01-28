@@ -57,11 +57,20 @@ MonoBehaviour:
   bullets: 000000000000000000000000
   timer: 0
   timeToEnergy: 600
+  enemiesKilled: 0
+  totalEnemies: 0
   coins: 0
-  skillActivate: 0
-  timeToStopSkill: 5
-  skillTimer: 0
-  skill: {fileID: 0}
+  totalCoins: 0
+  hordeKills: 0
+  ammoSpent: 0
+  totalExperience: 0
+  knifeKills: 0
+  totalDeaths: 0
+  totalEnemiesKilled: 0
+  showTutorial: 1
+  showMap: 0
+  showAttributes: 0
+  showStore: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

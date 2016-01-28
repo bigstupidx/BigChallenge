@@ -128,7 +128,6 @@ public class Sell : MonoBehaviour {
 					leftBuyArrow.GetComponent<Image>().color = Color.white;
 					rightBuyArrow.GetComponent<Image>().color = Color.white;
 					if(activeBlink){
-						print ("entro if do active");
 						activeBlink = false;
 						buttonActivate = true;
 
