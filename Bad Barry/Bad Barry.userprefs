@@ -3,9 +3,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VideoFuntions.cs">
     <Files>
       <File FileName="Assets/MapSceneHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/VideoFuntions.cs" Line="16" Column="3" />
+      <File FileName="Assets/VideoFuntions.cs" Line="23" Column="3" />
       <File FileName="Assets/Script/Game/Score.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="437" Column="53" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="1057" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
