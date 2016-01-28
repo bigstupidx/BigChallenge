@@ -253,12 +253,12 @@ public class Player : MonoBehaviour {
 					if(behave.bullets[behave.selectedWeapon] > 0 || behave.selectedWeapon == 0){
 
 
+						behave.ammoSpent++;
 
 						weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,behave.selectedWeapon);
 						if(behave.selectedWeapon != 0){
 							
 							behave.bullets[behave.selectedWeapon]--;
-							behave.ammoSpent++;
 							behave.CheckAmmoAchievements();
 							hudGame.bullets("" + behave.bullets[behave.selectedWeapon]);
 							
