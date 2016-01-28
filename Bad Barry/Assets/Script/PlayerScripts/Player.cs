@@ -201,7 +201,7 @@ public class Player : MonoBehaviour {
 		behave.selectedWeapon = weapon;
 		if(weapon == 0){
 
-			hudGame.bullets("∞");
+			hudGame.bullets("");
 
 		}
 		else{
