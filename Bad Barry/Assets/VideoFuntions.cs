@@ -7,16 +7,16 @@ using UnityEngine.UI;
 
 public class VideoFuntions : MonoBehaviour {
 
-	private MovieTexture video;
-	private AudioSource music;
+//	private MovieTexture video;
+//	private AudioSource music;
 
 
 	void Start () {
-		video = GetComponent<RawImage> ().texture as MovieTexture;
-		music = GetComponent<AudioSource> ();
-		music.clip = video.audioClip;
-		video.Play ();
-		music.Play ();
+//		video = GetComponent<RawImage> ().texture as MovieTexture;
+//		music = GetComponent<AudioSource> ();
+//		music.clip = video.audioClip;
+//		video.Play ();
+//		music.Play ();
 	}
 
 }

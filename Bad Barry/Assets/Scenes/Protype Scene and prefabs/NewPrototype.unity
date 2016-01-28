@@ -22821,6 +22821,52 @@ EdgeCollider2D:
   - {x: 2.62900734, y: 2.74244308}
   - {x: -2.57181644, y: 2.72027206}
   - {x: -.0742731094, y: -.199100494}
+--- !u!1001 &1730010339
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1992497398}
+    m_Modifications:
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -54.0673676
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 30.8944702
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1730010340 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 493040, guid: d6b6ea55359bb481daa8cb82cc25eb69, type: 2}
+  m_PrefabInternal: {fileID: 1730010339}
 --- !u!1 &1730953051
 GameObject:
   m_ObjectHideFlags: 0
@@ -26374,6 +26420,7 @@ Transform:
   - {fileID: 1483859098}
   - {fileID: 1100302572}
   - {fileID: 1242014089}
+  - {fileID: 1730010340}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &1992497399
