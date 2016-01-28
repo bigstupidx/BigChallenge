@@ -79,7 +79,6 @@ public class ListPositionCtrl : MonoBehaviour
 			foreach ( Button button in buttons )
 				button.gameObject.SetActive( false );
 		toggleAnimation();
-		ListBank.Instance.updateDetail( selectedID );
 
 	}
 

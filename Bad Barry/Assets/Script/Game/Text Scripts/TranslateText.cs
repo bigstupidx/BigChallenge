@@ -17,17 +17,11 @@ public class TranslateText : MonoBehaviour {
 			text = textComponent.text;
 
 			//It will change this object's text to its corresponding translation
-			textComponent.text = LanguageDictionary.stringList [text];
+			if(LanguageDictionary.stringList.ContainsKey(text)){
+				textComponent.text = LanguageDictionary.stringList [text];
+			}
 
-		} else if (imageComponent = GetComponent<Image> ()) {
-			text = imageComponent.sprite.name;
-
-			//Load Image
-
-			Sprite newImage = Resources.Load <Sprite> (LanguageDictionary.stringList [text].ToString());
-			imageComponent.sprite = newImage;
-
-		}
+		} 
 
 
 	}

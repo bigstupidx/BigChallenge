@@ -18,6 +18,7 @@ public class hordeMode : MonoBehaviour {
 	public int count = 0;
 
 	public GameBehavior behave;
+	public GameObject infinity;
 
 	//tutorial
 	public GameObject canvasTutorial;
@@ -96,6 +97,11 @@ public class hordeMode : MonoBehaviour {
 //
 //		}
 
+		if (behave.selectedWeapon == 0)
+			infinity.SetActive (true);
+		else
+			infinity.SetActive (false);
+
 		
 		bool alive = false;
 		//checks if all enemies are dead
@@ -127,7 +133,7 @@ public class hordeMode : MonoBehaviour {
 		{
 			if(timer > 2 && timer < 4){
 				if(go){
-					var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+					behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 					behave.CheckHordeAchievements((level - 1));
 					clearedText.GetComponent<Text>().text = "Horde " + level;
 					clearedText.GetComponent<Animator>().SetTrigger("cleared");

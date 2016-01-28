@@ -16,7 +16,7 @@ public class ListBox : MonoBehaviour
 	public Text contentTitle;
 	public Text contentPrice;
 	public Text contentDetails;
-
+	
 
 	public ListBox lastListBox;
 	public ListBox nextListBox;
@@ -226,7 +226,18 @@ public class ListBox : MonoBehaviour
 			//PASSANDO OS DETALHES DOS ITENS PARA OS TEXTS 
 			contentTitle.text = content.Title;
 			contentPrice.text = "Price: "+content.Value.ToString();
-			contentDetails.text = content.Description;
+
+			if(content.ID == 5){
+				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[1]+"\n"+ content.Description;
+			}
+
+			else if(content.ID == 6){
+				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[2]+"\n"+ content.Description;
+			}
+			else{
+				contentDetails.text = content.Description;
+			}
+
 
 			//PASSANDO PRA LOJA O VALOR E O ID DE CADA ITEM 
 			ListBank.Instance.itemToBuy = content;
@@ -282,7 +293,6 @@ public class ListBox : MonoBehaviour
 		ListPositionCtrl.Instance.selectedID = contentID;
 		ListPositionCtrl.Instance.toggleAnimation();
 		animator.SetBool( "HighLight", true );
-		ListBank.Instance.updateDetail( contentID );
 	}
 	
 

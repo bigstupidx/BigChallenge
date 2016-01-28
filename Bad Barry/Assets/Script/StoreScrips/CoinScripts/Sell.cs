@@ -14,6 +14,8 @@ public class Sell : MonoBehaviour {
 	public bool buttonActivate = true;
 	public GameBehavior behave;
 
+
+
 	//tutorial
 	public bool activeBlink = true;
 	public bool blinkMessage = true;
@@ -47,16 +49,12 @@ public class Sell : MonoBehaviour {
 			StartCoroutine(BlinkArrow());
 			activeBlink = false;
 			buttonActivate = false;
-//			storeCanvasPanel.SetActive(true);
-//			StartCoroutine(ShowMessage("buy the Revolver"));
-//			StartCoroutine(Blink(true,false,true,"buy the Revolver"));
 		}
 
 	}
 
 	void Update(){
 
-		//TRATAR SE ELE JA COMPROU TAMBEM A SKILL, PQ PORENQUANTO EU CHECO SE O ITEM ESTA NO INVENTORY APENAS
 		item = ListBank.Instance.itemToBuy;
 
 		var colors = button.colors;
@@ -79,6 +77,18 @@ public class Sell : MonoBehaviour {
 			buttonActivate = true;
 		}
 
+//		if (item.ID == 5 || item.ID == 6) {
+//			bulletsAmount.SetActive(true);
+//			if(item.ID == 5)
+//				bulletsAmount.GetComponent<Text>().text = "You have "+behave.bullets[1]+" bullets for "+item.Title;
+//			else {
+//				bulletsAmount.GetComponent<Text>().text = "You have "+behave.bullets[2]+" bullets for "+item.Title;
+//			}
+//		}
+//
+//		else
+//			bulletsAmount.SetActive(false);
+
 		//LOGICA PARA DESATIVAR O ITEM SE ELE JA ESTIVER NO INVENTORY
 		if (!item.Stackable && checkItemInInventory (item.ID)) {
 			buttonActivate = false;
@@ -91,6 +101,7 @@ public class Sell : MonoBehaviour {
 			colors.pressedColor = Color.red;
 			button.colors = colors;
 		}
+
 
 		//LOGICA DO TUTORIAL
 
@@ -152,9 +163,6 @@ public class Sell : MonoBehaviour {
 					button.colors = colors;
 				}
 			}
-
-
-			//checar se comprou tudo necessario p/ sair do tutorial
 		}
 
 	}
@@ -220,6 +228,7 @@ public class Sell : MonoBehaviour {
 
 	public bool checkItemInInventory(int id){
 		for(int i = 0; i < behave.inventory.Length;i++){
+
 			if(behave.inventory[id] > 0){
 				return true;
 			}
@@ -247,10 +256,14 @@ public class Sell : MonoBehaviour {
 			CoinsPanel.GetComponent<Text> ().text = "x "+coin.Coins.ToString ();
 
 			if(item.Ability){
-				//SETAR HABILIDADE COMO DESBLOQUEADA, E HABILITAR ELA IN-GAME 4EVER
-				//ADICIONANDO HABILIDADE DO ARRAY LA NO GAMEBEHAVIOR
 				behave.abilityIDs[behave.abilityIndex] = item.ID;
 				behave.abilityIndex++;
+			}else if(item.ID == 5) { // BALAS DA MP9
+				behave.bullets[1] += 30;
+
+			}else if(item.ID == 6){ // BALAS DA SHOTGUN
+				behave.bullets[2] += 8;
+
 			}else{
 				behave.inventory[item.ID]++;
 			}
@@ -279,8 +292,7 @@ public class Sell : MonoBehaviour {
 
 
 		} else
-			print ("Coins insuficiente");
-			//LUCAS COLOCAR SOM REPRESENTANDO Q N TEM CASH
+			print ("NAO COMPROU");
 
 	}
 

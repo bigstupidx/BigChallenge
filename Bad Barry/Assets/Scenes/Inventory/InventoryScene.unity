@@ -168,10 +168,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 197592, guid: 1eb3d393ae6e54dfab890dd64ff92575, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1eb3d393ae6e54dfab890dd64ff92575, type: 2}
   m_IsPrefabParent: 0
@@ -254,14 +250,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11456636, guid: a0a9184c4fb3b430e944e500063d2b81, type: 2}
-      propertyPath: canvasTutorial
-      value: 
-      objectReference: {fileID: 349116044}
     - target: {fileID: 11451902, guid: a0a9184c4fb3b430e944e500063d2b81, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1654543027}
+    - target: {fileID: 11456636, guid: a0a9184c4fb3b430e944e500063d2b81, type: 2}
+      propertyPath: canvasTutorial
+      value: 
+      objectReference: {fileID: 349116044}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0a9184c4fb3b430e944e500063d2b81, type: 2}
   m_IsPrefabParent: 0

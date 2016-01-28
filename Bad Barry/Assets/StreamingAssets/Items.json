@@ -73,7 +73,7 @@
 	{
 		"id": 4,
 		"title": "Survivor",
-		"value": 5,
+		"value": 1500,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -87,5 +87,42 @@
 		"ability": true,
 		"slug" : "survivor"
 
+	},
+	{
+		"id": 5,
+		"title": "MP-9 Ammo",
+		"value": 15,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "contains 30 bullets for MP-9",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "mp9_ammo"
+
+	},
+	{
+		"id": 6,
+		"title": "Shotgun Ammo",
+		"value": 10,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "cartridge with 8 bullets for shotgun",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "shotgun_ammo"
+
 	}
+
 ]

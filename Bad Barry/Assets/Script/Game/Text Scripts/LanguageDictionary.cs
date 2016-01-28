@@ -70,7 +70,7 @@ public static class LanguageDictionary {
 
 			stringList.Add ("tap to play", "aperte para jogar");
 			stringList.Add ("Attributes", "Atributos");
-			stringList.Add ("Inventory", "Inventario");
+			stringList.Add ("Inventory", "Inventário");
 			stringList.Add ("Store", "Loja");
 			stringList.Add ("Statistics", "Estatísticas");
 			stringList.Add ("Horde Mode", "Modo Horda");

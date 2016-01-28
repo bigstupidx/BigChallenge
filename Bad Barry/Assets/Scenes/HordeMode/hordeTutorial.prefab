@@ -148,6 +148,7 @@ GameObject:
   - 224: {fileID: 22479696}
   - 222: {fileID: 22287960}
   - 114: {fileID: 11488690}
+  - 114: {fileID: 11406734}
   m_Layer: 0
   m_Name: textTutorial
   m_TagString: Untagged
@@ -172,6 +173,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!114 &11406734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c47b65f14624a058d33401e969fdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11423756
 MonoBehaviour:
   m_ObjectHideFlags: 1
