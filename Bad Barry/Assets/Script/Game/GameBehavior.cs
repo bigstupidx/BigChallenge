@@ -434,7 +434,7 @@ public class GameBehavior : MonoBehaviour {
 					break;
 
 				case 1:
-					StartCoroutine (PlayAudio (audio, "NewPrototype")); 
+					StartCoroutine (PlayAudio (audio, "Epilogue")); 
 					break;
 				case 2:
 					StartCoroutine (PlayAudio (audio, "Mission 2"));

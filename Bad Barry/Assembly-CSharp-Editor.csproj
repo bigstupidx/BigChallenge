@@ -63,19 +63,15 @@
      <None Include="Assets\Tiled2Unity\Imported\CenárioMina.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\CenarioPraia.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\CenárioDeserto.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\desert.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\CenárioArmazém.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\Mapa2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\Cópia de NovoMapa.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\NewMap.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\CenarioCasa.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Prefabs-Animations\Joystick\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\MapaTile.tiled2unity.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\CenarioHordeMode.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\HordeMode3.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\CenárioPrisão.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEngine.Analytics">
@@ -100,7 +96,11 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
+<<<<<<< HEAD
  <HintPath>/Users/guilhermebabugia/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+=======
+ <HintPath>/Users/Lucas/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>

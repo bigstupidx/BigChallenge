@@ -1,9 +1,19 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MapSceneHandler.cs">
     <Files>
       <File FileName="Assets/MapSceneHandler.cs" Line="8" Column="7" />
       <File FileName="Assets/Script/Main Scene/TextConfig.cs" Line="22" Column="24" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VideoFuntions.cs">
+    <Files>
+      <File FileName="Assets/MapSceneHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/VideoFuntions.cs" Line="23" Column="3" />
+      <File FileName="Assets/Script/Game/Score.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="1057" Column="1" />
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

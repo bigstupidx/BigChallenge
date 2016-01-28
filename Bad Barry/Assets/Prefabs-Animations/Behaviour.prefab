@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 401038}
   - 114: {fileID: 11473782}
+  - 114: {fileID: 11488580}
   m_Layer: 0
   m_Name: Behaviour
   m_TagString: Behaviour
@@ -67,10 +68,21 @@ MonoBehaviour:
   knifeKills: 0
   totalDeaths: 0
   totalEnemiesKilled: 0
-  showTutorial: 1
-  showMap: 0
+  showTutorial: 0
+  showMap: 1
   showAttributes: 0
   showStore: 0
+--- !u!114 &11488580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74a6ec0564f946fcae0e678b43c55c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

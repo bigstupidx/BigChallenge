@@ -42,14 +42,15 @@ public class hordeMode : MonoBehaviour {
 				" three items that you chose to carry into your missions",
 				"shows the amount of bullets that your current weapon has",
 				"indicates how much life the character has",
-				"slot for skill, when you use it you had been unattainable for a while",
-				"pause button, you will be able to give up their mission and return to the map",
+				"slot for skill, when you use it you become invincible for a amount of time",
+				"pause button, you will be able to give up this mission and return to the map",
 				"Ready? Choose your weapon and GO"};
 			Time.timeScale = 1;
 			this.level = 20;
 			behave.pause = true;
 			canvasTutorial.SetActive (true);
 			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nTap for the next step";
+			textTutorial.GetComponent<TranslateText>().Refresh();
 //			arrows [index].SetActive (true);
 		}
 
@@ -65,6 +66,7 @@ public class hordeMode : MonoBehaviour {
 				arrows [index].SetActive (true);
 
 			textTutorial.GetComponent<Text> ().text = tutoText [index];
+			textTutorial.GetComponent<TranslateText>().Refresh();
 			index++;
 		} else {
 			behave.pause = false;
@@ -125,6 +127,9 @@ public class hordeMode : MonoBehaviour {
 		{
 			timer = 8;
 			clearedText.GetComponent<Text>().text = "cleared";
+			print("concertar clique para ir para local");
+			//clearedText.GetComponent<TranslateText>().Refresh();
+
 			
 			clearedText.GetComponent<Animator>().SetTrigger("cleared");
 		}
