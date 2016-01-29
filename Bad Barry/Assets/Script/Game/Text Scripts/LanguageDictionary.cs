@@ -73,6 +73,8 @@ public static class LanguageDictionary {
 			stringList.Add ("Mission", "Mission");
 			stringList.Add ("Horde", "Horde");
 			stringList.Add ("Mode", "Mode");
+			stringList.Add("Mission Completed","Mission Completed");
+
 
 
 			
@@ -136,6 +138,7 @@ public static class LanguageDictionary {
 			stringList.Add ("Mission", "Missão");
 			stringList.Add ("Horde", "Modo");
 			stringList.Add ("Mode", "Horda");
+			stringList.Add("Mission Completed","Missão Completa");
 
 			
 			

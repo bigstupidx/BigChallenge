@@ -19,11 +19,20 @@ public class MapSceneHandler : MonoBehaviour {
 	public GameObject mapPanel;
 	public GameObject mapText;
 
+	public GameObject[] missions;
+
 	// Use this for initialization
 	void Start () {
 	
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		coins.text = behave.coins.ToString();
+
+		for(int i = 0;i < behave.currentMission; i++){
+
+			missions[i].SetActive(true);
+
+
+		}
 
 		//tutorial
 

@@ -57,6 +57,8 @@ public class Player : MonoBehaviour {
 	public float reloadingTimer = 0;
 	public DateTime currentTime;
 
+	public int mission;
+
 
 	// Use this for initialization
 	void Start () {
@@ -442,6 +444,13 @@ public class Player : MonoBehaviour {
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.pause = true;
 
+
+		if(mission == behave.currentMission){
+
+			behave.currentMission++;
+
+		}
+
 		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
 		panelDeath.GetComponent<Image>().color = Color.white;
 		panelDeath.GetComponent<Animator> ().SetTrigger("Death");
@@ -449,7 +458,7 @@ public class Player : MonoBehaviour {
 
 		var panelText = GameObject.FindGameObjectWithTag ("DeathText").GetComponent<Text>();
 		panelText.text = "Mission Completed";
-		StartCoroutine(WinCamera());
+		//StartCoroutine(WinCamera());
 
 
 
@@ -477,7 +486,7 @@ public class Player : MonoBehaviour {
 
 		canvasDeath.SetActive (true);
 
-		var camera = GameObject.FindGameObjectWithTag("MainCamera");
+		//var camera = GameObject.FindGameObjectWithTag("MainCamera");
 
 		dead = true;
 		bothAnimator.SetBool ("dead", true);
@@ -498,7 +507,7 @@ public class Player : MonoBehaviour {
 //		Transform retry = GameObject.FindWithTag("Retry").transform;
 //		retry.GetComponent<Retry> ().activate();
 		yield return new WaitForSeconds (3);
-		camera.SetActive(false);
+		//camera.SetActive(false);
 
 
 

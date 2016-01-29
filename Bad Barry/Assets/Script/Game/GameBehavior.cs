@@ -123,6 +123,10 @@ public class GameBehavior : MonoBehaviour {
 	public bool showAttributes;
 	public bool showStore;
 
+	//mission unlock
+	public int currentMission = 1;
+
+
 
 	
 	// Use this for initialization

@@ -168,12 +168,12 @@ GameObject:
   - 114: {fileID: 11412246}
   - 114: {fileID: 11438332}
   m_Layer: 5
-  m_Name: Mission1 (3)
+  m_Name: Mission4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &114086
 GameObject:
   m_ObjectHideFlags: 1
@@ -311,12 +311,12 @@ GameObject:
   - 114: {fileID: 11431326}
   - 114: {fileID: 11429982}
   m_Layer: 5
-  m_Name: Mission1 (1)
+  m_Name: Mission2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &123620
 GameObject:
   m_ObjectHideFlags: 1
@@ -405,7 +405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &143884
 GameObject:
   m_ObjectHideFlags: 1
@@ -555,12 +555,12 @@ GameObject:
   - 114: {fileID: 11470976}
   - 114: {fileID: 11488672}
   m_Layer: 5
-  m_Name: Mission1 (4)
+  m_Name: Mission5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &167240
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,12 +573,12 @@ GameObject:
   - 114: {fileID: 11467538}
   - 114: {fileID: 11452584}
   m_Layer: 5
-  m_Name: Mission1 (5)
+  m_Name: Mission6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &169738
 GameObject:
   m_ObjectHideFlags: 1
@@ -695,12 +695,12 @@ GameObject:
   - 114: {fileID: 11415248}
   - 114: {fileID: 11456690}
   m_Layer: 5
-  m_Name: Mission1 (2)
+  m_Name: Mission3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &183708
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +713,7 @@ GameObject:
   - 114: {fileID: 11463044}
   - 114: {fileID: 11483262}
   m_Layer: 5
-  m_Name: Mission1 (6)
+  m_Name: Horde Mode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1789,7 +1789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .235294104, g: .235294104, b: .235294104, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2507,6 +2507,13 @@ MonoBehaviour:
   - {fileID: 0}
   mapPanel: {fileID: 0}
   mapText: {fileID: 0}
+  missions:
+  - {fileID: 130300}
+  - {fileID: 122538}
+  - {fileID: 183542}
+  - {fileID: 111850}
+  - {fileID: 165210}
+  - {fileID: 167240}
 --- !u!114 &11471672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2551,7 +2558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .235294104, g: .235294104, b: .235294104, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2778,7 +2785,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3027,7 +3034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .235294104, g: .235294104, b: .235294104, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
