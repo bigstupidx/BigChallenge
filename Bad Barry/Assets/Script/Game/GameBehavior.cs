@@ -123,6 +123,10 @@ public class GameBehavior : MonoBehaviour {
 	public bool showAttributes;
 	public bool showStore;
 
+	//missions
+
+	public int currentMission;
+
 
 	
 	// Use this for initialization
@@ -496,7 +500,7 @@ public class GameBehavior : MonoBehaviour {
 
 	
 	//Inicia audio e troca de cena quando o audio acabar
-	IEnumerator PlayAudio(AudioSource currentAudio,string levelName){
+	 IEnumerator PlayAudio(AudioSource currentAudio,string levelName){
 		currentAudio.PlayOneShot (currentAudio.clip);
 		print ("comeca a tocar " + currentAudio.clip.length);
 		yield return new WaitForSeconds (currentAudio.clip.length);

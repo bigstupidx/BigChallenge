@@ -5645,6 +5645,8 @@ MonoBehaviour:
   level: 1
   enemies:
   - {fileID: 191212, guid: 41a9a77481a1d421fa5c469798ac3f90, type: 2}
+  - {fileID: 191212, guid: 6474e2341fbd5408c80dae61f3d046a0, type: 2}
+  - {fileID: 191212, guid: 89adb989e608c463e96d7423192d07fe, type: 2}
   respawnPoints:
   - {fileID: 497584}
   - {fileID: 405090}
