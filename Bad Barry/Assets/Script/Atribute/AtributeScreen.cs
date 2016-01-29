@@ -37,7 +37,7 @@ public class AtributeScreen : MonoBehaviour {
 			
 			behave.bullets[1] = 0; // balas da mp-9
 			behave.bullets[2] = 0; //balas de shotgun
-			behave.coins = 100;
+			behave.coins = 150;
 
 			AttributeTutorial.SetActive(true);
 			Agility.SetActive(false);

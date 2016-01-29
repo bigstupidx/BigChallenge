@@ -125,7 +125,7 @@ public class GameBehavior : MonoBehaviour {
 
 	//missions
 
-	public int currentMission;
+	public int currentMission = 1;
 
 
 	
@@ -134,6 +134,7 @@ public class GameBehavior : MonoBehaviour {
 //		PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
+		currentMission = 1;
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 			
 			GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
@@ -151,8 +152,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 		//on start get selected character points and get bullets
-		if(!showTutorial)
-			load();
+		load();
 
 
 		pause = false;
@@ -924,6 +924,8 @@ public class GameBehavior : MonoBehaviour {
 		data.showMap = showMap;
 		data.showAttributes = showAttributes;
 		data.showStore = showStore;
+		data.currentMission = currentMission;
+
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -933,7 +935,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void load(){
 
-//		File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
+		//File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
 
 		if(File.Exists(Application.persistentDataPath + "/BadBarryData.dat")){
 			print("load");
@@ -979,6 +981,8 @@ public class GameBehavior : MonoBehaviour {
 			showMap = data.showMap;
 			showAttributes = data.showAttributes;
 			showStore = data.showStore;
+			currentMission = data.currentMission;
+
 
 		}
 
@@ -1040,10 +1044,12 @@ class Data
 	//tutorial
 	public int totalEnemiesKilled;
 
-	public bool showTutorial = true;
-	public bool showMap = false;
-	public bool showAttributes = false;
-	public bool showStore = false;
+	public bool showTutorial;
+	public bool showMap;
+	public bool showAttributes;
+	public bool showStore;
+	public int currentMission;
+
 
 
 

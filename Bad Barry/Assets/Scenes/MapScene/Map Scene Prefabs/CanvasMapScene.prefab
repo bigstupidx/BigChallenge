@@ -2497,10 +2497,10 @@ MonoBehaviour:
   MapTutorialCanvas: {fileID: 0}
   buttons:
   - {fileID: 111600}
-  - {fileID: 0}
+  - {fileID: 130300}
   - {fileID: 107644}
   - {fileID: 118824}
-  - {fileID: 0}
+  - {fileID: 183708}
   - {fileID: 154652}
   arrows:
   - {fileID: 0}

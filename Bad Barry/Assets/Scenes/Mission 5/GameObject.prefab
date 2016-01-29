@@ -64169,7 +64169,7 @@ MonoBehaviour:
   skillTimer: 0
   reloading: 0
   reloadingTimer: 0
-  mission: 0
+  mission: 5
 --- !u!114 &11430416
 MonoBehaviour:
   m_ObjectHideFlags: 1

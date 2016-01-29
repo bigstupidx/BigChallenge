@@ -10,7 +10,7 @@ public class VideoFuntions : MonoBehaviour {
 
 
 	void Start () {
-		Handheld.PlayFullScreenMovie ("BadBarryProl2_480.mov",Color.black,FullScreenMovieControlMode.CancelOnInput);
+		Handheld.PlayFullScreenMovie ("BadBarryEp2_480.mov",Color.black,FullScreenMovieControlMode.CancelOnInput);
 		Application.LoadLevel ("NewPrototype");
 	}
 

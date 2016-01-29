@@ -68,10 +68,11 @@ MonoBehaviour:
   knifeKills: 0
   totalDeaths: 0
   totalEnemiesKilled: 0
-  showTutorial: 0
-  showMap: 1
+  showTutorial: 1
+  showMap: 0
   showAttributes: 0
   showStore: 0
+  currentMission: 0
 --- !u!114 &11488580
 MonoBehaviour:
   m_ObjectHideFlags: 1

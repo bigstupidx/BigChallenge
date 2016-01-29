@@ -48,6 +48,9 @@ public class hordeMode : MonoBehaviour {
 			Time.timeScale = 1;
 			this.level = 20;
 			behave.pause = true;
+
+			print(behave.pause);
+			print("pausado");
 			canvasTutorial.SetActive (true);
 			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nTap for the next step";
 			textTutorial.GetComponent<TranslateText>().Refresh();
@@ -107,7 +110,7 @@ public class hordeMode : MonoBehaviour {
 		
 		bool alive = false;
 		//checks if all enemies are dead
-		count = (level - 1) * 2;
+		count = enemiesInScene.Count;
 		foreach(GameObject enemy in enemiesInScene){
 			
 			if(!enemy.GetComponent<Enemy>().dead){
@@ -119,7 +122,7 @@ public class hordeMode : MonoBehaviour {
 			
 		}
 		countingText.GetComponent<Text>().text = "" + count;
-		totalText.GetComponent<Text>().text = "" + ((level - 1) * 2);
+		totalText.GetComponent<Text>().text = "" + enemiesInScene.Count;
 
 		//checks if alive
 		
