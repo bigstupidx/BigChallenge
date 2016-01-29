@@ -1,0 +1,164 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameBehavior">
+			<method name="GoToMapWithSound"/>
+		</type>
+		<type fullname="MapSceneHandler">
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="goToStoreScene"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="goToAtributes"/>
+			<method name="goToStatisticsScreen"/>
+			<method name="goToInventoryScreen"/>
+		</type>
+		<type fullname="ListPositionCtrl">
+			<method name="lastContent"/>
+			<method name="nextContent"/>
+		</type>
+		<type fullname="Sell">
+			<method name="onBuyButtonClicked"/>
+			<method name="goToMapScene"/>
+		</type>
+		<type fullname="Inventory">
+			<method name="GoToMap"/>
+		</type>
+		<type fullname="HUDGame">
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+			<method name="showMenu"/>
+		</type>
+		<type fullname="Retry">
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+			<method name="retry"/>
+		</type>
+		<type fullname="UnityStandardAssets.CrossPlatformInput.ButtonHandler">
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+			<method name="SetDownState"/>
+			<method name="SetUpState"/>
+		</type>
+		<type fullname="InventoryInMission">
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+		</type>
+		<type fullname="Player">
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+		</type>
+		<type fullname="Skill">
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+		</type>
+		<type fullname="AtributeScreen">
+			<method name="GoToMap"/>
+			<method name="incrementAgility"/>
+			<method name="incrementInteligence"/>
+			<method name="incrementStrength"/>
+			<method name="incrementVitality"/>
+			<method name="onClickAttributeScreen"/>
+		</type>
+		<type fullname="Score">
+			<method name="goToMap"/>
+		</type>
+		<type fullname="statistics">
+			<method name="goToMap"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+</linker>
