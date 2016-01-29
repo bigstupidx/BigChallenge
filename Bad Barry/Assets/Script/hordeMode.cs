@@ -48,6 +48,9 @@ public class hordeMode : MonoBehaviour {
 			Time.timeScale = 1;
 			this.level = 20;
 			behave.pause = true;
+
+			print(behave.pause);
+			print("pausado");
 			canvasTutorial.SetActive (true);
 			textTutorial.GetComponent<Text> ().text = "Now you will learn about the controls of the game and play a little!\nTap for the next step";
 			textTutorial.GetComponent<TranslateText>().Refresh();
@@ -59,6 +62,8 @@ public class hordeMode : MonoBehaviour {
 	public void onClickNext(){
 
 		if (index < tutoText.Length ) {
+
+
 			if(index > 0)
 				arrows[index-1].SetActive(false);
 
@@ -69,6 +74,7 @@ public class hordeMode : MonoBehaviour {
 			textTutorial.GetComponent<TranslateText>().Refresh();
 			index++;
 		} else {
+			print("despausei");
 			behave.pause = false;
 			canvasTutorial.SetActive (false);
 			behave.showAttributes = true;
@@ -83,6 +89,12 @@ public class hordeMode : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
+		if(canvasTutorial.activeSelf){
+
+			behave.pause = true;
+
+		}
 
 		//logica do tutorial
 
@@ -107,7 +119,7 @@ public class hordeMode : MonoBehaviour {
 		
 		bool alive = false;
 		//checks if all enemies are dead
-		count = (level - 1) * 2;
+		count = enemiesInScene.Count;
 		foreach(GameObject enemy in enemiesInScene){
 			
 			if(!enemy.GetComponent<Enemy>().dead){
@@ -119,7 +131,7 @@ public class hordeMode : MonoBehaviour {
 			
 		}
 		countingText.GetComponent<Text>().text = "" + count;
-		totalText.GetComponent<Text>().text = "" + ((level - 1) * 2);
+		totalText.GetComponent<Text>().text = "" + enemiesInScene.Count;
 
 		//checks if alive
 		
@@ -172,12 +184,14 @@ public class hordeMode : MonoBehaviour {
 		enemiesInScene.RemoveRange(0,enemiesInScene.Count);
 		
 		//puts random enemies in random positions on the game
-		for(int i = 0; i < (level * 2); i ++)
+		for(int i = 0; i < (level * 2); i = i + 1 + level/10)
 		{
 			
 			int random = Random.Range(0,Mathf.Min(level , (enemies.Length - 1)));
 			int randomLocation = Random.Range(0,(respawnPoints.Length - 1));
 			var x = Instantiate(enemies[random],respawnPoints[randomLocation].position,respawnPoints[randomLocation].rotation) as GameObject;
+			var enemyLevel = (level / 10) + 1;
+			x.GetComponent<Enemy>().incrementLifeByLevel(enemyLevel);
 			enemiesInScene.Add(x);
 			x.GetComponent<FollowPlayer>().active = true;
 

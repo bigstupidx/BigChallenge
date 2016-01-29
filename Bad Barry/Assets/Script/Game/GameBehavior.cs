@@ -123,6 +123,10 @@ public class GameBehavior : MonoBehaviour {
 	public bool showAttributes;
 	public bool showStore;
 
+	//missions
+
+	public int currentMission = 1;
+
 
 	
 	// Use this for initialization
@@ -130,6 +134,7 @@ public class GameBehavior : MonoBehaviour {
 //		PanelSurvivor = GameObject.FindGameObjectWithTag ("SkillSurvivor") as GameObject;
 		Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
+		currentMission = 1;
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 			
 			GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
@@ -147,8 +152,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 		//on start get selected character points and get bullets
-		if(!showTutorial)
-			load();
+		load();
 
 
 		pause = false;
@@ -416,6 +420,13 @@ public class GameBehavior : MonoBehaviour {
 		
 	}
 
+	public void GoToCredits(AudioSource audio){
+		if (!loadingSound) {
+			loadingSound = true;
+			StartCoroutine (PlayAudio (audio, "Credits"));
+		}
+	}
+
 	public void GoToMission(AudioSource audio, int missionNumber){
 		print ("Missao " + loadingSound);
 		if (!loadingSound) {
@@ -496,7 +507,7 @@ public class GameBehavior : MonoBehaviour {
 
 	
 	//Inicia audio e troca de cena quando o audio acabar
-	IEnumerator PlayAudio(AudioSource currentAudio,string levelName){
+	 IEnumerator PlayAudio(AudioSource currentAudio,string levelName){
 		currentAudio.PlayOneShot (currentAudio.clip);
 		print ("comeca a tocar " + currentAudio.clip.length);
 		yield return new WaitForSeconds (currentAudio.clip.length);
@@ -920,6 +931,8 @@ public class GameBehavior : MonoBehaviour {
 		data.showMap = showMap;
 		data.showAttributes = showAttributes;
 		data.showStore = showStore;
+		data.currentMission = currentMission;
+
 
 		bf.Serialize(file,data);
 		file.Close();
@@ -929,7 +942,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void load(){
 
-//		File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
+		//File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
 
 		if(File.Exists(Application.persistentDataPath + "/BadBarryData.dat")){
 			print("load");
@@ -975,6 +988,8 @@ public class GameBehavior : MonoBehaviour {
 			showMap = data.showMap;
 			showAttributes = data.showAttributes;
 			showStore = data.showStore;
+			currentMission = data.currentMission;
+
 
 		}
 
@@ -1036,10 +1051,12 @@ class Data
 	//tutorial
 	public int totalEnemiesKilled;
 
-	public bool showTutorial = true;
-	public bool showMap = false;
-	public bool showAttributes = false;
-	public bool showStore = false;
+	public bool showTutorial;
+	public bool showMap;
+	public bool showAttributes;
+	public bool showStore;
+	public int currentMission;
+
 
 
 

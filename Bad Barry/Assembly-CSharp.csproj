@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AutoScroll.cs" />
+     <Compile Include="Assets\Boss.cs" />
      <Compile Include="Assets\EnemiesManager.cs" />
      <Compile Include="Assets\MapSceneHandler.cs" />
      <Compile Include="Assets\MusicFunctions.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Script\Main Scene\TextConfig.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\MenuManager.cs" />
+     <Compile Include="Assets\Script\Mute.cs" />
      <Compile Include="Assets\Script\Papyrus\Papyrus.cs" />
      <Compile Include="Assets\Script\Papyrus\PapyrusWin.cs" />
      <Compile Include="Assets\Script\Papyrus\goal.cs" />
@@ -127,17 +129,11 @@
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
      <None Include="Assets\Tiled2Unity\Imported\CenárioPrisão.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
  <HintPath>/Users/Lucas/Desktop/BigChallenge/Bad Barry/Assets/Plugins/LitJson.dll</HintPath>

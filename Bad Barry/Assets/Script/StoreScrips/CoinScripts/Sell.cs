@@ -13,6 +13,7 @@ public class Sell : MonoBehaviour {
 
 	public bool buttonActivate = true;
 	public GameBehavior behave;
+	public GameObject soldImage;
 
 
 
@@ -89,7 +90,11 @@ public class Sell : MonoBehaviour {
 			colors.disabledColor = Color.red;
 			colors.pressedColor = Color.red;
 			button.colors = colors;
+
+			soldImage.GetComponent<Image>().color = Color.white;
 		}
+		else
+			soldImage.GetComponent<Image>().color = Color.clear;
 
 
 		//LOGICA DO TUTORIAL

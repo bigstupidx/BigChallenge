@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
 
 	public GameBehavior behave;
+	public GameObject missionButton;
 
 	GameObject inventoryPanel;
 	GameObject slotPanel;
@@ -31,7 +32,7 @@ public class Inventory : MonoBehaviour {
 
 	//tutorial
 	public bool slots2Completed = false;
-	public Button buttonBack;
+	public GameObject buttonBack;
 	public GameObject canvasTutorial;
 	public GameObject tutorialText;
 	public GameObject backArrow;
@@ -40,7 +41,6 @@ public class Inventory : MonoBehaviour {
 
 	void Start(){
 		database = GetComponent<ItemDatabase> ();
-		buttonBack = GameObject.Find ("buttonBack").GetComponent<Button> ();
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 		slotAmount = 10;
@@ -48,8 +48,6 @@ public class Inventory : MonoBehaviour {
 		inventoryPanel = GameObject.Find ("inventory Panel");
 		slotPanel = inventoryPanel.transform.FindChild ("slot Panel").gameObject;
 		slotPanel2 = inventoryPanel.transform.FindChild ("slot In Game Panel").gameObject;
-
-		//Options = GameObject.Find("Options");
 
 		for (int i = 0; i < slotAmount; i++) {
 			items.Add (new Item());
@@ -60,8 +58,7 @@ public class Inventory : MonoBehaviour {
 
 		for (int i = 50; i < slotAmount2; i++) {
 			items2.Add (new Item());
-			slots2.Add (Instantiate(inventorySlot));
-//			slots2[i-50].GetComponent<Slot>().GetComponent<Image>().sprite = Resources.Load<Sprite> ("Sprites Inventory/UI/slotInGame");
+			slots2.Add (Instantiate(inventorySlot));;
 			slots2[i-50].GetComponent<Slot>().GetComponent<Image>().color = new Color((float)(165.0/255.0),0,0 );
 			slots2[i-50].GetComponent<Slot>().id = i;
 			slots2[i-50].transform.SetParent (slotPanel2.transform);
@@ -74,29 +71,32 @@ public class Inventory : MonoBehaviour {
 //		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 		if (behave.showTutorial) {
-			buttonBack.interactable = false;
+			buttonBack.GetComponent<Button>().interactable = false;
 			canvasTutorial.SetActive (true);
-			GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
-			GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+			tutorialText.GetComponent<Text> ().text = "Drag the items to the red slots";
+			tutorialText.GetComponent<TranslateText>().Refresh();
 
 
 		}
 
-		for(int i = 0; i < behave.inventory.Length;i++){
-
-			for(int j = 0 ; j < behave.inventory[i]; j++){
-
+		for(int i = 0; i < behave.inventory.Length;i++)
+			for(int j = 0 ; j < behave.inventory[i]; j++)
 				AddItem(i);
 
-			}
-
-		}
-
-
-
-
-
 	}
+
+//	public void missionClicked(int missionNumber, AudioSource audio){
+//
+//
+//		if (missionNumber == -1) { 
+//			missionButton.SetActive (false);
+//
+//
+//		} else {
+//			missionButton.SetActive(true);
+//			buttonBack.GetComponent<Button>().interactable = false;
+//		}
+//	}
 
 	public IEnumerator BlinkArrow2(){
 		while(true){
@@ -113,20 +113,16 @@ public class Inventory : MonoBehaviour {
 	
 	}
 
-//	public IEnumerator ShowMessage(){
-//		GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Clique no botao de voltar";
-//	}
-
 	void Update(){
 
 		if (behave.showTutorial) {
 			if (slots2Completed){
-				buttonBack.interactable = true;
+				buttonBack.GetComponent<Button>().interactable = true;
 				backArrow.GetComponent<Image>().color = Color.white;
 
 				if(canvasTutorial.activeSelf){
-					GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Click the arrow";
-					GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+					tutorialText.GetComponent<Text> ().text = "Click the arrow";
+					tutorialText.GetComponent<TranslateText>().Refresh();
 				}
 
 				if(!teste){
@@ -137,11 +133,11 @@ public class Inventory : MonoBehaviour {
 			}
 			else{
 
-				buttonBack.interactable = false;
+				buttonBack.GetComponent<Button>().interactable = false;
 				backArrow.GetComponent<Image>().color = Color.clear;
 
-				GameObject.Find ("TutorialText").GetComponent<Text> ().text = "Drag the items to the red slots";
-				GameObject.Find ("TutorialText").GetComponent<TranslateText>().Refresh();
+				tutorialText.GetComponent<Text> ().text = "Drag the items to the red slots";
+				tutorialText.GetComponent<TranslateText>().Refresh();
 
 			}
 		}
@@ -166,8 +162,6 @@ public class Inventory : MonoBehaviour {
 					data.transform.GetChild (0).GetComponent<Text> ().GetComponent<RectTransform>().position = new Vector3(slotX/(float)2.35,-slotX/(float)2.35,0);
 
 					break;
-
-					//POSSIVELMENTE TER Q ARRUMAR O TAMANHO DA FONTE VIA CODIGO
 				}
 			}
 		} else if(!CheckIfItemIsInventory(itemToAdd)) {
@@ -191,21 +185,6 @@ public class Inventory : MonoBehaviour {
 			}
 		}
 	}
-
-	
-//	public void DecrementItem(int id){
-//		for (int i=0; i< items.Count; i++) {
-//			if (items [i].ID == id) {
-//				ItemData data = slots [i].transform.GetChild (0).GetComponent<ItemData> ();
-//				data.amount--;
-//				data.transform.GetChild (0).GetComponent<Text> ().text = data.amount.ToString ();
-//
-//				if (data.amount == 0) {
-//					//REMOVER ITEM DO SLOT 
-//				}
-//			}
-//		}
-//	}
 
 	public void RemoveItem(int id){
 		for (int i=0; i<items.Count; i++) {
@@ -274,6 +253,7 @@ public class Inventory : MonoBehaviour {
 //		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 		if (behave.showTutorial) {
+			behave.showAttributes = true;
 			behave.GoToMission (audio, 0);
 			backArrow.SetActive (false);
 			canvasTutorial.SetActive(false);
