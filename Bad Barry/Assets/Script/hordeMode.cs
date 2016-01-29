@@ -62,6 +62,8 @@ public class hordeMode : MonoBehaviour {
 	public void onClickNext(){
 
 		if (index < tutoText.Length ) {
+
+
 			if(index > 0)
 				arrows[index-1].SetActive(false);
 
@@ -72,6 +74,7 @@ public class hordeMode : MonoBehaviour {
 			textTutorial.GetComponent<TranslateText>().Refresh();
 			index++;
 		} else {
+			print("despausei");
 			behave.pause = false;
 			canvasTutorial.SetActive (false);
 			behave.showAttributes = true;
@@ -86,6 +89,12 @@ public class hordeMode : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
+		if(canvasTutorial.activeSelf){
+
+			behave.pause = true;
+
+		}
 
 		//logica do tutorial
 
