@@ -172,12 +172,14 @@ public class hordeMode : MonoBehaviour {
 		enemiesInScene.RemoveRange(0,enemiesInScene.Count);
 		
 		//puts random enemies in random positions on the game
-		for(int i = 0; i < (level * 2); i ++)
+		for(int i = 0; i < (level * 2); i = i + 1 + level/10)
 		{
 			
 			int random = Random.Range(0,Mathf.Min(level , (enemies.Length - 1)));
 			int randomLocation = Random.Range(0,(respawnPoints.Length - 1));
 			var x = Instantiate(enemies[random],respawnPoints[randomLocation].position,respawnPoints[randomLocation].rotation) as GameObject;
+			var enemyLevel = (level / 10) + 1;
+			x.GetComponent<Enemy>().incrementLifeByLevel(enemyLevel);
 			enemiesInScene.Add(x);
 			x.GetComponent<FollowPlayer>().active = true;
 

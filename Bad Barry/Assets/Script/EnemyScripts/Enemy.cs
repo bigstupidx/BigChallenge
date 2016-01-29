@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour {
 	public GameObject[] bulletBox;
 
 
+
+	public int lvl = 1;
+
 	public int life = 100;
 	public int baseDamage = 0;
 	public int shootDirection = 0;
@@ -36,7 +39,18 @@ public class Enemy : MonoBehaviour {
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
 		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();
+		incrementLifeByLevel(lvl);
+
+
 	
+	}
+
+
+	public void incrementLifeByLevel(int level){
+
+		life = life * lvl;
+		lvl = level;
+
 	}
 	
 	// Update is called once per frame
@@ -113,7 +127,7 @@ public class Enemy : MonoBehaviour {
 			
 			if (time > fireRate) {
 				time = 0;
-				weapon.GetComponent<Weapon> ().Shoot (shootDirection, baseDamage,selectedWeapon);
+				weapon.GetComponent<Weapon> ().Shoot (shootDirection, (lvl * 10),selectedWeapon);
 
 			}
 			torsoAnimator.SetBool("Shooting",true);
