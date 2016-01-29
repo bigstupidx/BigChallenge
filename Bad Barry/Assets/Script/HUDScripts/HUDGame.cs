@@ -16,17 +16,23 @@ public class HUDGame: MonoBehaviour {
 
 	public static bool isPaused = false;
 
+//	public GameObject infinity;
 
+	public GameBehavior behave;
 	
 	
 	void Start () {
-
+//		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 
 	}
 	
 	void Update () {
-		
+
+//		if (behave.selectedWeapon == 0)
+//			infinity.SetActive (true);
+//		else
+//			infinity.SetActive (false);
 	}
 	
 	public void initLife(){

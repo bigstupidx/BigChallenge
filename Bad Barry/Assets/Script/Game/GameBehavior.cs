@@ -434,7 +434,7 @@ public class GameBehavior : MonoBehaviour {
 					break;
 
 				case 1:
-					StartCoroutine (PlayAudio (audio, "NewPrototype")); 
+					StartCoroutine (PlayAudio (audio, "Epilogue")); 
 					break;
 				case 2:
 					StartCoroutine (PlayAudio (audio, "Mission 2"));
@@ -929,6 +929,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void load(){
 
+//		File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
 
 		if(File.Exists(Application.persistentDataPath + "/BadBarryData.dat")){
 			print("load");

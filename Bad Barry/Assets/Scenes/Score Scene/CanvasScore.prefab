@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 499708}
   - 82: {fileID: 8252082}
   m_Layer: 0
-  m_Name: gold_coins_pirate_treasure_drop_onto_hard_surface
+  m_Name: gold_coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,6 +60,7 @@ GameObject:
   - 224: {fileID: 22477538}
   - 222: {fileID: 22212322}
   - 114: {fileID: 11434912}
+  - 114: {fileID: 11471660}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -431,7 +432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 500
+  m_Text: 0
 --- !u!114 &11417824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -560,7 +561,7 @@ MonoBehaviour:
   totalEnimies: {fileID: 11455758}
   enemiesKilled: {fileID: 11479748}
   coinsEarned: {fileID: 11409492}
-  audio: {fileID: 8252082}
+  audioCoin: {fileID: 8252082}
   heads: {fileID: 192674}
   enemyImage: {fileID: 11403300, guid: 06a1151b04e0c4d0b980ecd3533db561, type: 2}
 --- !u!114 &11444334
@@ -664,6 +665,17 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &11471660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32c47b65f14624a058d33401e969fdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11471708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -774,7 +786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 50
+  m_Text: 0
 --- !u!114 &11487702
 MonoBehaviour:
   m_ObjectHideFlags: 1

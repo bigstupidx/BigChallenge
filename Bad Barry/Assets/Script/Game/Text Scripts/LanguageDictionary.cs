@@ -65,8 +65,20 @@ public static class LanguageDictionary {
 			stringList.Add ("Agility increases movement speed", "Agility increases movement speed");
 			stringList.Add ("Perception increases skill duration", "Perception increases skill duration");
 			stringList.Add ("Vitality increases amount of life", "Vitality increases amount of life");
+			stringList.Add ("Play", "Play");
+			stringList.Add ("Credits", "Credits");
+			stringList.Add ("Map", "Map");
+			stringList.Add ("You Are Dead !", "You Are Dead !");
+			stringList.Add ("Score", "Score");
+			stringList.Add ("Mission", "Mission");
+			stringList.Add ("Horde", "Horde");
+			stringList.Add ("Mode", "Mode");
 
 
+			
+			
+			
+			
 		}
 
 
@@ -116,7 +128,17 @@ public static class LanguageDictionary {
 			stringList.Add ("Agility increases movement speed", "Agilidade aumenta a velocidade");
 			stringList.Add ("Perception increases skill duration", "Percepção aumenta duração da habilidade");
 			stringList.Add ("Vitality increases amount of life", "Vitalidade aumenta quantidade de vida");
+			stringList.Add ("Play", "Jogar");
+			stringList.Add ("Credits", "Créditos");
+			stringList.Add ("Map", "Mapa");
+			stringList.Add ("You Are Dead !", "Voce está morto!");
+			stringList.Add ("Score", "Resultados");
+			stringList.Add ("Mission", "Missão");
+			stringList.Add ("Horde", "Modo");
+			stringList.Add ("Mode", "Horda");
 
+			
+			
 		}
 
 		//You can add as many new keys to the stringList as you need

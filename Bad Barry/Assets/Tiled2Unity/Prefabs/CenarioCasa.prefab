@@ -18,13 +18,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &106236
+=======
 --- !u!1 &101088
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 443218}
+  - 68: {fileID: 6821466}
+=======
   - 4: {fileID: 410710}
   m_Layer: 0
   m_Name: ColisaoSegundaSala
@@ -41,13 +49,50 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 489626}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
   m_Layer: 0
   m_Name: PisoSalaSecreta_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+--- !u!1 &104676
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 448240}
+  - 68: {fileID: 6825326}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &106886
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483286}
+  - 68: {fileID: 6868952}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!1 &107078
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +184,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &116504
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &125468
+=======
+--- !u!1 &110802
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -171,21 +223,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &123314
+--- !u!1 &111610
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 417480}
+  - 4: {fileID: 428778}
+  - 68: {fileID: 6836658}
   m_Layer: 0
-  m_Name: CamadaSegundaSala_07
+  m_Name: PolylineObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &126800
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,14 +257,31 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &127046
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &132866
+=======
+--- !u!1 &117434
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 460516}
   - 68: {fileID: 6819066}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 472258}
+  - 68: {fileID: 6888268}
+=======
+  - 4: {fileID: 428600}
+  - 68: {fileID: 6846646}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -217,47 +289,96 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &127508
+=======
+--- !u!1 &123314
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 471800}
   - 68: {fileID: 6805698}
+=======
+  - 4: {fileID: 417480}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
-  m_Name: PolylineObject
+  m_Name: CamadaSegundaSala_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &129520
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &138406
+=======
+--- !u!1 &126800
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 450270}
   - 68: {fileID: 6816604}
   m_Layer: 0
   m_Name: PolylineObject
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 403974}
+  - 33: {fileID: 3388660}
+  - 23: {fileID: 2307022}
+  - 114: {fileID: 11416756}
+  m_Layer: 0
+  m_Name: mesh_[00]_[01]
+=======
+  - 4: {fileID: 477936}
+  m_Layer: 0
+  m_Name: CamadaBordaPrimeiraSala_09
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &129988
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &139196
+=======
+--- !u!1 &128944
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 441646}
   - 68: {fileID: 6870678}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 475636}
+  - 68: {fileID: 6832932}
+=======
+  - 4: {fileID: 454374}
+  - 68: {fileID: 6851022}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -301,15 +422,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &136728
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &141894
+=======
+--- !u!1 &137090
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 469894}
   - 68: {fileID: 6816618}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 437170}
+  - 68: {fileID: 6807476}
+=======
+  - 4: {fileID: 451678}
+  - 33: {fileID: 3356552}
+  - 23: {fileID: 2375610}
+  - 114: {fileID: 11461918}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -334,6 +475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
 --- !u!1 &138312
 GameObject:
@@ -365,6 +507,8 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+=======
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_IsActive: 1
 --- !u!1 &147042
 GameObject:
@@ -417,7 +561,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &151360
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 467508}
+  - 68: {fileID: 6841040}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &152498
+=======
 --- !u!1 &151494
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -450,6 +614,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &153156
+=======
+--- !u!1 &161070
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 420014}
+  - 68: {fileID: 6803470}
+=======
+  - 4: {fileID: 433148}
+  - 68: {fileID: 6857640}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!1 &163226
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,7 +656,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!1 &163270
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,15 +676,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &170852
+=======
+--- !u!1 &168678
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 469722}
   - 68: {fileID: 6832372}
+=======
+  - 4: {fileID: 430312}
+  - 68: {fileID: 6883476}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -496,17 +701,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &172632
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &168804
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 438908}
   - 33: {fileID: 3318398}
   - 23: {fileID: 2383188}
   - 114: {fileID: 11424994}
+=======
+  - 4: {fileID: 436840}
+  - 68: {fileID: 6889846}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: mesh_[10]_[00]
   m_TagString: Untagged
@@ -514,17 +729,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &175960
+=======
+--- !u!1 &169340
+=======
+--- !u!1 &169112
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 459832}
   - 33: {fileID: 3343470}
   - 23: {fileID: 2317308}
   - 114: {fileID: 11482340}
+=======
+  - 4: {fileID: 483356}
+  - 68: {fileID: 6899444}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: mesh_[09]_[00]
   m_TagString: Untagged
@@ -532,16 +759,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &180272
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &169342
+=======
+--- !u!1 &172632
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 407072}
-  - 68: {fileID: 6898278}
-  - 114: {fileID: 11490704}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 407566}
+  - 68: {fileID: 6836214}
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -549,7 +783,88 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &174420
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+<<<<<<< HEAD
+  - 4: {fileID: 407072}
+  - 68: {fileID: 6898278}
+  - 114: {fileID: 11490704}
+  m_Layer: 0
+  m_Name: PolylineObject
+=======
+  - 4: {fileID: 466560}
+  - 68: {fileID: 6858648}
+  m_Layer: 0
+  m_Name: PolylineObject
+=======
+  - 4: {fileID: 438908}
+  - 33: {fileID: 3318398}
+  - 23: {fileID: 2383188}
+  - 114: {fileID: 11424994}
+  m_Layer: 0
+  m_Name: mesh_[10]_[00]
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &174456
+=======
+--- !u!1 &172860
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 438654}
+  - 68: {fileID: 6884682}
+=======
+  - 4: {fileID: 480532}
+  - 68: {fileID: 6825948}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &176608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 491078}
+  m_Layer: 0
+  m_Name: ColisaoPortaSegundaSala
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &182160
+=======
+--- !u!1 &178080
+=======
+--- !u!1 &175960
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -558,6 +873,43 @@ GameObject:
   m_Component:
   - 4: {fileID: 485762}
   - 68: {fileID: 6836238}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &177162
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 414688}
+  - 68: {fileID: 6851044}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+<<<<<<< HEAD
+  m_IsActive: 0
+--- !u!1 &184990
+=======
+  m_IsActive: 1
+--- !u!1 &181046
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 411016}
+  - 68: {fileID: 6872434}
   m_Layer: 0
   m_Name: PolylineObject
   m_TagString: Untagged
@@ -579,8 +931,13 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+--- !u!1 &191372
+=======
+  m_IsActive: 1
 --- !u!1 &184990
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -598,6 +955,9 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &192616
+=======
 --- !u!1 &189692
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,25 +965,46 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 404330}
+  m_Layer: 0
+  m_Name: ColisaoPrimeiraSala
+=======
   - 4: {fileID: 497374}
   m_Layer: 0
   m_Name: CamadaBordaSalaSecreta_04
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &185198
+=======
 --- !u!1 &191372
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
+  - 4: {fileID: 462074}
+  - 68: {fileID: 6898968}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 433546}
+  - 68: {fileID: 6845596}
+=======
   - 4: {fileID: 484548}
   - 33: {fileID: 3376546}
   - 23: {fileID: 2391684}
   - 114: {fileID: 11463082}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Layer: 0
   m_Name: mesh_[07]_[00]
   m_TagString: Untagged
@@ -631,37 +1012,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &192616
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 462074}
-  - 68: {fileID: 6898968}
-  m_Layer: 0
-  m_Name: PolylineObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &186194
+=======
 --- !u!1 &196146
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 442820}
+  - 33: {fileID: 3399274}
+  - 23: {fileID: 2312114}
+  - 114: {fileID: 11421400}
+  m_Layer: 0
+  m_Name: mesh_[00]_[02]
+=======
   - 4: {fileID: 470206}
   m_Layer: 0
   m_Name: CamadaPrimeiraSala_06
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &407072
 Transform:
   m_ObjectHideFlags: 1
@@ -674,6 +1053,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 453280}
   m_RootOrder: 0
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!1 &189178
+=======
+--- !u!1 &199568
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - 4: {fileID: 470944}
+  - 68: {fileID: 6837938}
+=======
+  - 4: {fileID: 452368}
+  - 68: {fileID: 6869894}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!4 &410710
 Transform:
   m_ObjectHideFlags: 1
@@ -684,6 +1090,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 469722}
   - {fileID: 441646}
   - {fileID: 485762}
@@ -692,11 +1099,37 @@ Transform:
   m_Father: {fileID: 493040}
   m_RootOrder: 13
 --- !u!4 &414928
+=======
+  - {fileID: 414688}
+  - {fileID: 448240}
+  - {fileID: 454374}
+  - {fileID: 483286}
+  - {fileID: 428600}
+  m_Father: {fileID: 493040}
+  m_RootOrder: 13
+--- !u!4 &411016
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.18105984, y: -54.2439003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464312}
+  m_RootOrder: 1
+--- !u!4 &414688
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 146426}
+=======
+  m_GameObject: {fileID: 177162}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.7173996, y: -51.0988998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -713,7 +1146,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 499818}
+=======
+  - {fileID: 433148}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Father: {fileID: 493040}
   m_RootOrder: 12
 --- !u!4 &416348
@@ -739,22 +1176,24 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {fileID: 475636}
+  - {fileID: 433546}
+  - {fileID: 437170}
+  - {fileID: 466560}
+  - {fileID: 407566}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 10
+--- !u!4 &404330
+=======
   - {fileID: 484548}
   m_Father: {fileID: 493040}
   m_RootOrder: 7
+<<<<<<< HEAD
 --- !u!4 &420266
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 119394}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.18105984, y: -54.2439003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 464312}
-  m_RootOrder: 1
+=======
 --- !u!4 &422264
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -764,10 +1203,114 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {fileID: 467508}
+  - {fileID: 436840}
+  - {fileID: 438654}
+  - {fileID: 443218}
+  - {fileID: 472258}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 8
+--- !u!4 &405548
+=======
+  - {fileID: 468494}
+  m_Father: {fileID: 493040}
+  m_RootOrder: 15
+--- !u!4 &428600
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.5599995, y: -22.7439976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 410710}
+  m_RootOrder: 4
+--- !u!4 &428778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.71, y: -51.1100006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 453280}
+  m_RootOrder: 0
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!4 &407566
+=======
+--- !u!4 &430312
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 119394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.18105984, y: -54.2439003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464312}
+  m_RootOrder: 1
+--- !u!4 &422264
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 169342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.5599995, y: -22.7439976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404210}
+  m_RootOrder: 4
+--- !u!4 &410430
+=======
+  m_GameObject: {fileID: 168678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.3599987, y: -59.8499985, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464312}
+  m_RootOrder: 3
+--- !u!4 &433148
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 164904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+  m_Children:
   - {fileID: 438954}
   m_Father: {fileID: 493040}
   m_RootOrder: 15
+=======
+  m_Children: []
+  m_Father: {fileID: 444646}
+  m_RootOrder: 0
+--- !u!4 &410778
+=======
+  m_GameObject: {fileID: 161070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.0799999, y: -50.0599976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 415422}
+  m_RootOrder: 0
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!4 &436548
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -776,6 +1319,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Children: []
+  m_Father: {fileID: 493244}
+  m_RootOrder: 2
+--- !u!4 &412644
+=======
   m_Children:
   - {fileID: 454800}
   m_Father: {fileID: 493040}
@@ -793,6 +1342,7 @@ Transform:
   m_Father: {fileID: 489626}
   m_RootOrder: 0
 --- !u!4 &438908
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -801,14 +1351,39 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Children:
+  - {fileID: 420014}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 9
+--- !u!4 &412826
+=======
   m_Children: []
   m_Father: {fileID: 480964}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!4 &438954
+=======
+--- !u!4 &448240
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.641201, y: -17.5564995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 410710}
+  m_RootOrder: 1
+--- !u!4 &451678
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 113660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.0100002, y: -57.3999977, z: 0}
@@ -817,10 +1392,34 @@ Transform:
   m_Father: {fileID: 422264}
   m_RootOrder: 0
 --- !u!4 &441646
+=======
+  m_GameObject: {fileID: 137090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 461200}
+  m_RootOrder: 0
+--- !u!4 &452368
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.7173996, y: -51.0988998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Father: {fileID: 420528}
+  m_RootOrder: 2
+--- !u!4 &420014
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 129988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 49.641201, y: -17.5564995, z: 0}
@@ -829,10 +1428,26 @@ Transform:
   m_Father: {fileID: 410710}
   m_RootOrder: 1
 --- !u!4 &450270
+=======
+  m_GameObject: {fileID: 153156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.0799999, y: -50.0599976, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412644}
+  m_RootOrder: 0
+--- !u!4 &420528
+=======
+  m_Father: {fileID: 464312}
+  m_RootOrder: 4
+--- !u!4 &453280
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 129520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 15.0599995, y: -53.5200005, z: 0}
@@ -841,35 +1456,69 @@ Transform:
   m_Father: {fileID: 464312}
   m_RootOrder: 2
 --- !u!4 &451678
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137090}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 461200}
-  m_RootOrder: 0
---- !u!4 &453280
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+=======
   m_GameObject: {fileID: 108658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 407072}
+  - {fileID: 428778}
   m_Father: {fileID: 493040}
   m_RootOrder: 14
---- !u!4 &454800
+--- !u!4 &454374
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.1145, y: -31.521101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Father: {fileID: 420528}
+  m_RootOrder: 3
+--- !u!4 &433546
+=======
+  m_Father: {fileID: 410710}
+  m_RootOrder: 2
+--- !u!4 &454800
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 185198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.641201, y: -17.5564995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+  m_Children:
+  - {fileID: 407072}
+  m_Father: {fileID: 493040}
+  m_RootOrder: 14
+--- !u!4 &454800
+=======
+  m_Children: []
+  m_Father: {fileID: 404210}
+  m_RootOrder: 1
+--- !u!4 &436840
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.18105984, y: -54.2439003, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404330}
+  m_RootOrder: 1
+--- !u!4 &437170
+=======
   m_GameObject: {fileID: 147042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -878,10 +1527,21 @@ Transform:
   m_Father: {fileID: 436548}
   m_RootOrder: 0
 --- !u!4 &455186
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 141894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.1145, y: -31.521101, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404210}
+  m_RootOrder: 2
+--- !u!4 &438654
+=======
   m_GameObject: {fileID: 148128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -890,10 +1550,21 @@ Transform:
   m_Father: {fileID: 470206}
   m_RootOrder: 0
 --- !u!4 &455740
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 174456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.0599995, y: -53.5200005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404330}
+  m_RootOrder: 2
+--- !u!4 &440986
+=======
   m_GameObject: {fileID: 163270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -903,6 +1574,7 @@ Transform:
   m_Father: {fileID: 493040}
   m_RootOrder: 1
 --- !u!4 &459832
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -914,27 +1586,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 477936}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!4 &460516
+=======
+--- !u!4 &461200
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 127046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.0993996, y: -30.466898, z: 0}
+=======
+  m_GameObject: {fileID: 150896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 410710}
   m_RootOrder: 3
 --- !u!4 &461200
+=======
+  m_Father: {fileID: 444646}
+  m_RootOrder: 2
+--- !u!4 &443218
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 150896}
+  m_GameObject: {fileID: 106236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 21.3599987, y: -59.8499985, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404330}
+  m_RootOrder: 3
+--- !u!4 &444646
+=======
   m_Children:
   - {fileID: 451678}
   m_Father: {fileID: 493040}
@@ -952,6 +1646,7 @@ Transform:
   m_Father: {fileID: 410710}
   m_RootOrder: 4
 --- !u!4 &464312
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -961,11 +1656,19 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 471800}
   - {fileID: 420266}
   - {fileID: 450270}
   - {fileID: 469894}
   - {fileID: 414928}
+=======
+  - {fileID: 480532}
+  - {fileID: 411016}
+  - {fileID: 483356}
+  - {fileID: 430312}
+  - {fileID: 452368}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Father: {fileID: 493040}
   m_RootOrder: 11
 --- !u!4 &465586
@@ -999,10 +1702,17 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 21.3430004, y: -57.3957977, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410710}
+=======
+  m_LocalPosition: {x: 21.0100002, y: -57.3999977, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422264}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_RootOrder: 0
 --- !u!4 &469894
 Transform:
@@ -1066,7 +1776,35 @@ Transform:
   - {fileID: 459832}
   m_Father: {fileID: 493040}
   m_RootOrder: 9
+--- !u!4 &480532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.708499, y: -52.5424004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464312}
+  m_RootOrder: 0
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!4 &466560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.0993996, y: -30.466898, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404210}
+  m_RootOrder: 3
+--- !u!4 &466994
+=======
 --- !u!4 &480964
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1076,10 +1814,31 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {fileID: 492108}
+  - {fileID: 446842}
+  - {fileID: 416260}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 3
+--- !u!4 &467508
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.708499, y: -52.5424004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404330}
+  m_RootOrder: 0
+--- !u!4 &469278
+=======
   - {fileID: 438908}
   m_Father: {fileID: 493040}
   m_RootOrder: 10
 --- !u!4 &482336
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1089,39 +1848,182 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {fileID: 470944}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 11
+--- !u!4 &469948
+=======
   - {fileID: 489390}
   m_Father: {fileID: 493040}
   m_RootOrder: 0
---- !u!4 &484548
+--- !u!4 &483286
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 191372}
+  m_GameObject: {fileID: 106886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 16.0993996, y: -30.466898, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 417480}
-  m_RootOrder: 0
---- !u!4 &485762
+  m_Father: {fileID: 410710}
+  m_RootOrder: 3
+--- !u!4 &483356
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.0599995, y: -53.5200005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Father: {fileID: 444646}
+  m_RootOrder: 3
+--- !u!4 &470944
+=======
+  m_Father: {fileID: 464312}
+  m_RootOrder: 2
+--- !u!4 &484548
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 189178}
+=======
+  m_GameObject: {fileID: 191372}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.71, y: -51.1100006, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_Father: {fileID: 469278}
+  m_RootOrder: 0
+--- !u!4 &472258
+=======
+  m_Father: {fileID: 417480}
+  m_RootOrder: 0
+<<<<<<< HEAD
+--- !u!4 &485762
+=======
+--- !u!4 &489390
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 182160}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 132866}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.1145, y: -31.521101, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 410710}
   m_RootOrder: 2
 --- !u!4 &489390
+=======
+  m_Father: {fileID: 404330}
+  m_RootOrder: 4
+--- !u!4 &475636
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.3430004, y: -57.3957977, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 404210}
+  m_RootOrder: 0
+--- !u!4 &476462
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 456708}
+  m_RootOrder: 0
+--- !u!4 &478348
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 446176}
+  - {fileID: 497490}
+  - {fileID: 440986}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 2
+--- !u!4 &480056
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 485060}
+  m_RootOrder: 0
+--- !u!4 &485060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480056}
+  - {fileID: 448754}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 6
+--- !u!4 &491078
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 406510}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 12
+--- !u!4 &492108
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195572}
+=======
   m_GameObject: {fileID: 151494}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1138,10 +2040,19 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {fileID: 405548}
+  - {fileID: 469948}
+  - {fileID: 410778}
+  m_Father: {fileID: 496624}
+  m_RootOrder: 1
+--- !u!4 &496624
+=======
   - {fileID: 438644}
   m_Father: {fileID: 493040}
   m_RootOrder: 2
 --- !u!4 &493040
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1533,20 +2444,51 @@ MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 186194}
+  m_Mesh: {fileID: 4300004, guid: 8172f71c519b44120ac661b6eb00a0d6, type: 3}
+--- !u!68 &6803470
+=======
   m_GameObject: {fileID: 191372}
   m_Mesh: {fileID: 4300014, guid: 6908fdc2b60e64b6a9a25926a6296d4a, type: 3}
+<<<<<<< HEAD
 --- !u!68 &6805698
+=======
+--- !u!68 &6818764
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127508}
+  m_GameObject: {fileID: 110200}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -1.39999998}
+  - {x: .329999983, y: -1.40999997}
+  - {x: .340000004, y: 0}
+  - {x: .00999999978, y: 0}
+--- !u!68 &6825326
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 127508}
+=======
+  m_GameObject: {fileID: 104676}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+<<<<<<< HEAD
   - {x: .815921783, y: .0479888916}
   - {x: -.0159988403, y: .0334625244}
   - {x: 0, y: -.667693973}
@@ -1563,11 +2505,92 @@ EdgeCollider2D:
   - {x: 6.29970837, y: -4.83450317}
   - {x: 6.98503399, y: -4.84526443}
 --- !u!68 &6805704
+=======
+  - {x: 0, y: 0}
+  - {x: -2.03046012, y: .0175039005}
+  - {x: -2.73060989, y: .752668977}
+  - {x: -2.73060989, y: 2.15298009}
+  - {x: -32.1021996, y: 2.15298009}
+  - {x: -32.8023987, y: 1.59285986}
+  - {x: -32.8199005, y: -2.73060989}
+  - {x: -33.5550003, y: -3.48327994}
+  - {x: -34.9203987, y: -3.48327994}
+  - {x: -35.6030006, y: -4.13092995}
+  - {x: -35.6380005, y: -15.333499}
+  - {x: -25.8708, y: -15.3509998}
+  - {x: -25.1707001, y: -16.0335999}
+  - {x: -25.1182003, y: -21.6523991}
+  - {x: -25.8708, y: -22.3349991}
+  - {x: -26.5360012, y: -22.3349991}
+  - {x: -27.2361012, y: -21.6173992}
+  - {x: -27.2536011, y: -20.2169991}
+  - {x: -27.9537983, y: -19.551899}
+  - {x: -33.5200005, y: -19.534399}
+  - {x: -34.1851997, y: -20.1994991}
+  - {x: -34.2201996, y: -26.5535011}
+  - {x: -27.2186012, y: -26.5535011}
+  - {x: -27.2186012, y: -24.4529991}
+  - {x: -26.5535011, y: -23.7702999}
+  - {x: -25.8008003, y: -23.7702999}
+  - {x: -25.1357002, y: -24.4354992}
+  - {x: -25.1707001, y: -39.1562996}
+  - {x: -25.8708, y: -39.8389969}
+  - {x: -28.3038979, y: -39.8564987}
+--- !u!68 &6825948
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 116504}
+=======
+  m_GameObject: {fileID: 172860}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -.667693973}
+  - {x: -4.22445011, y: -.674113989}
+  - {x: -4.89855957, y: -1.3546499}
+  - {x: -4.91139984, y: -5.5405798}
+  - {x: -4.23728991, y: -6.24678993}
+  - {x: -3.52464986, y: -6.26604986}
+  - {x: -2.80559993, y: -5.55341959}
+  - {x: -2.80559993, y: -4.14098978}
+  - {x: -2.11863995, y: -3.46687007}
+  - {x: 5.57909966, y: -3.48613}
+  - {x: 6.29172945, y: -4.15383005}
+  - {x: 6.29815006, y: -4.83436012}
+--- !u!68 &6836658
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111610}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -1.43999994}
+  - {x: .340000004, y: -1.40999997}
+  - {x: .340000004, y: 0}
+  - {x: .00999999978, y: 0}
+--- !u!68 &6846646
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 153156}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1594,12 +2617,23 @@ EdgeCollider2D:
   - {x: 1.06999993, y: -1.02999997}
   - {x: -.0299999993, y: -1.04999995}
   - {x: -.00999999978, y: -.00999999978}
+<<<<<<< HEAD
 --- !u!68 &6816604
+=======
+--- !u!68 &6807476
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 129520}
+=======
+  m_GameObject: {fileID: 141894}
+=======
+  m_GameObject: {fileID: 117434}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1607,6 +2641,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: 0, y: -.729999959}
   - {x: -4.55999994, y: -.709999979}
   - {x: -4.92000008, y: -1.06999993}
@@ -1620,11 +2655,55 @@ EdgeCollider2D:
   - {x: 6.28999996, y: -2.49000001}
   - {x: 6.29999971, y: -2.81999993}
 --- !u!68 &6816618
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {x: 23.0723, y: 0}
+  - {x: 23.7952003, y: .707830966}
+  - {x: 23.7952003, y: 3.52410007}
+  - {x: 34.9398003, y: 3.53915977}
+  - {x: 36.3252983, y: 2.12348986}
+  - {x: 39.1866989, y: 2.12348986}
+  - {x: 39.9095993, y: 2.86144972}
+  - {x: 39.8794975, y: 7.74096012}
+  - {x: 39.1866989, y: 8.40361023}
+  - {x: 34.2921982, y: 8.43373013}
+  - {x: 34.2921982, y: 11.9126997}
+  - {x: 33.5993996, y: 12.6054001}
+  - {x: 29.3674984, y: 12.6205006}
+  - {x: 29.3674984, y: 14.0360994}
+  - {x: 28.6746998, y: 14.7138996}
+  - {x: 2.81627011, y: 14.7138996}
+  - {x: 2.10842991, y: 14.0511999}
+  - {x: 2.07830977, y: 9.8042202}
+  - {x: 1.37048006, y: 9.14157009}
+  - {x: .0150601994, y: 9.12650967}
+  - {x: -.737951934, y: 8.4186697}
+  - {x: -.722891986, y: .707830966}
+  - {x: 0, y: -.0150601994}
+--- !u!68 &6821466
+=======
+  - {x: -.367999971, y: .0160000008}
+  - {x: -1.07199991, y: -.680000007}
+  - {x: -2.48799992, y: -.680000007}
+  - {x: -2.81599998, y: -1.02400005}
+  - {x: -2.82399988, y: -7.34399986}
+  - {x: -2.45600009, y: -7.72799969}
+--- !u!68 &6851022
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 136728}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 106236}
+=======
+  m_GameObject: {fileID: 128944}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1632,6 +2711,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   - {x: 0, y: -6.26999998}
   - {x: -9.78999996, y: -6.27999973}
   - {x: -9.80999947, y: -2.41999984}
@@ -1643,6 +2726,7 @@ EdgeCollider2D:
   - {x: -13.3099995, y: 5.25999975}
   - {x: -13.6599998, y: 5.61999989}
   - {x: -18.1800003, y: 5.60999966}
+<<<<<<< HEAD
 --- !u!68 &6819066
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -1675,11 +2759,48 @@ EdgeCollider2D:
   - {x: 2.4698801, y: 12.3343}
   - {x: 2.45481992, y: 7.72590017}
 --- !u!68 &6832372
+=======
+--- !u!68 &6832932
+=======
+  - {x: 23.0723, y: 0}
+  - {x: 23.7952003, y: .707830966}
+  - {x: 23.7952003, y: 3.52410007}
+  - {x: 34.9398003, y: 3.53915977}
+  - {x: 36.3252983, y: 2.12348986}
+  - {x: 39.1866989, y: 2.12348986}
+  - {x: 39.9095993, y: 2.86144972}
+  - {x: 39.8794975, y: 7.74096012}
+  - {x: 39.1866989, y: 8.40361023}
+  - {x: 34.2921982, y: 8.43373013}
+  - {x: 34.2921982, y: 11.9126997}
+  - {x: 33.5993996, y: 12.6054001}
+  - {x: 29.3674984, y: 12.6205006}
+  - {x: 29.3674984, y: 14.0360994}
+  - {x: 28.6746998, y: 14.7138996}
+  - {x: 2.81627011, y: 14.7138996}
+  - {x: 2.10842991, y: 14.0511999}
+  - {x: 2.07830977, y: 9.8042202}
+  - {x: 1.37048006, y: 9.14157009}
+  - {x: .0150601994, y: 9.12650967}
+  - {x: -.737951934, y: 8.4186697}
+  - {x: -.722891986, y: .707830966}
+  - {x: 0, y: -.0150601994}
+--- !u!68 &6851044
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 170852}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 139196}
+=======
+  m_GameObject: {fileID: 177162}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1795,12 +2916,21 @@ EdgeCollider2D:
   - {x: 40.2614975, y: 41.3047028}
   - {x: 29.7524986, y: 41.3222008}
   - {x: 28.3048992, y: 39.9018974}
+<<<<<<< HEAD
 --- !u!68 &6836238
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!68 &6836214
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 182160}
+=======
+  m_GameObject: {fileID: 169342}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1808,6 +2938,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: 23.0723, y: 0}
   - {x: 23.7952003, y: .707830966}
   - {x: 23.7952003, y: 3.52410007}
@@ -1832,11 +2963,69 @@ EdgeCollider2D:
   - {x: -.722891986, y: .707830966}
   - {x: 0, y: -.0150601994}
 --- !u!68 &6839426
+=======
+  - {x: -.367999971, y: .0160000008}
+  - {x: -1.07199991, y: -.680000007}
+  - {x: -2.48799992, y: -.680000007}
+  - {x: -2.81599998, y: -1.02400005}
+  - {x: -2.82399988, y: -7.34399986}
+  - {x: -2.45600009, y: -7.72799969}
+--- !u!68 &6837938
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 113660}
+=======
+  m_GameObject: {fileID: 189178}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -1.43999994}
+  - {x: .340000004, y: -1.40999997}
+  - {x: .340000004, y: 0}
+  - {x: .00999999978, y: 0}
+<<<<<<< HEAD
+--- !u!68 &6870232
+=======
+--- !u!68 &6841040
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151360}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -.667693973}
+  - {x: -4.22445011, y: -.674113989}
+  - {x: -4.89855957, y: -1.3546499}
+  - {x: -4.91139984, y: -5.5405798}
+  - {x: -4.23728991, y: -6.24678993}
+  - {x: -3.52464986, y: -6.26604986}
+  - {x: -2.80559993, y: -5.55341959}
+  - {x: -2.80559993, y: -4.14098978}
+  - {x: -2.11863995, y: -3.46687007}
+  - {x: 5.57909966, y: -3.48613}
+  - {x: 6.29172945, y: -4.15383005}
+  - {x: 6.29815006, y: -4.83436012}
+--- !u!68 &6842522
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100542}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1848,12 +3037,24 @@ EdgeCollider2D:
   - {x: .329999983, y: -1.40999997}
   - {x: .340000004, y: 0}
   - {x: .00999999978, y: 0}
---- !u!68 &6870232
+--- !u!68 &6845596
+=======
+--- !u!68 &6857640
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 119394}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 185198}
+=======
+  m_GameObject: {fileID: 161070}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1861,17 +3062,81 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: -.0452283993, y: 6.61841965}
   - {x: 1.04024994, y: 7.6888299}
   - {x: 10.8095989, y: 7.70389986}
   - {x: 11.8800001, y: 6.61841965}
   - {x: 11.8800001, y: 4.17608976}
 --- !u!68 &6870678
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {x: -2.03046012, y: .0175039005}
+  - {x: -2.73060989, y: .752668977}
+  - {x: -2.73060989, y: 2.15298009}
+  - {x: -32.1021996, y: 2.15298009}
+  - {x: -32.8023987, y: 1.59285986}
+  - {x: -32.8199005, y: -2.73060989}
+  - {x: -33.5550003, y: -3.48327994}
+  - {x: -34.9203987, y: -3.48327994}
+  - {x: -35.6030006, y: -4.13092995}
+  - {x: -35.6380005, y: -15.333499}
+  - {x: -25.8708, y: -15.3509998}
+  - {x: -25.1707001, y: -16.0335999}
+  - {x: -25.1182003, y: -21.6523991}
+  - {x: -25.8708, y: -22.3349991}
+  - {x: -26.5360012, y: -22.3349991}
+  - {x: -27.2361012, y: -21.6173992}
+  - {x: -27.2536011, y: -20.2169991}
+  - {x: -27.9537983, y: -19.551899}
+  - {x: -33.5200005, y: -19.534399}
+  - {x: -34.1851997, y: -20.1994991}
+  - {x: -34.2201996, y: -26.5535011}
+  - {x: -27.2186012, y: -26.5535011}
+  - {x: -27.2186012, y: -24.4529991}
+  - {x: -26.5535011, y: -23.7702999}
+  - {x: -25.8008003, y: -23.7702999}
+  - {x: -25.1357002, y: -24.4354992}
+  - {x: -25.1707001, y: -39.1562996}
+  - {x: -25.8708, y: -39.8389969}
+  - {x: -28.3038979, y: -39.8564987}
+--- !u!68 &6858648
+=======
+  - {x: .98999995, y: 0}
+  - {x: 1.37, y: .349999994}
+  - {x: 1.36000001, y: 2.08999991}
+  - {x: 6.96000004, y: 2.1099999}
+  - {x: 6.98000002, y: -4.17999983}
+  - {x: 1.73000002, y: -4.17999983}
+  - {x: 1.00999999, y: -3.47000003}
+  - {x: -.0199999996, y: -3.47000003}
+  - {x: -.0399999991, y: -2.45000005}
+  - {x: 1.00999999, y: -2.44000006}
+  - {x: 1.73000002, y: -3.14999986}
+  - {x: 6.62999964, y: -3.13999987}
+  - {x: 6.62999964, y: 1.05999994}
+  - {x: 1.71999991, y: 1.06999993}
+  - {x: 1.71999991, y: .370000005}
+  - {x: 1.73000002, y: -.340000004}
+  - {x: 1.06999993, y: -1.02999997}
+  - {x: -.0299999993, y: -1.04999995}
+  - {x: -.00999999978, y: -.00999999978}
+--- !u!68 &6868952
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 129988}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 174420}
+=======
+  m_GameObject: {fileID: 106886}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1879,6 +3144,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: -2.03046012, y: .0175039005}
   - {x: -2.73060989, y: .752668977}
   - {x: -2.73060989, y: 2.15298009}
@@ -1909,19 +3175,71 @@ EdgeCollider2D:
   - {x: -25.8708, y: -39.8389969}
   - {x: -28.3038979, y: -39.8564987}
 --- !u!68 &6880430
+=======
+  - {x: 23.0872993, y: .0301204976}
+  - {x: 23.4638977, y: .406626999}
+  - {x: 23.478899, y: 3.49397993}
+  - {x: 35.030098, y: 3.52410007}
+  - {x: 36.4006004, y: 2.12348986}
+  - {x: 39.2168999, y: 2.12348986}
+  - {x: 39.5783005, y: 2.51505995}
+  - {x: 39.5633011, y: 6.02409983}
+  - {x: 39.1565971, y: 6.35541964}
+  - {x: 33.9910011, y: 6.34036016}
+  - {x: 33.9758987, y: 10.2108002}
+  - {x: 33.5993996, y: 10.5723}
+  - {x: 29.0812988, y: 10.5421991}
+  - {x: 29.0662975, y: 12.2891998}
+  - {x: 28.6595993, y: 12.6506004}
+  - {x: 2.80119991, y: 12.6355}
+  - {x: 2.4698801, y: 12.3343}
+  - {x: 2.45481992, y: 7.72590017}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+--- !u!68 &6884682
+=======
+--- !u!68 &6869894
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 146426}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 174456}
+=======
+  m_GameObject: {fileID: 199568}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
+<<<<<<< HEAD
   - {x: .783924103, y: -3.81469727e-06}
   - {x: .0145530701, y: -.0181465149}
+=======
+  - {x: 0, y: 0}
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {x: 0, y: -.729999959}
+  - {x: -4.55999994, y: -.709999979}
+  - {x: -4.92000008, y: -1.06999993}
+  - {x: -4.9000001, y: -3.86999989}
+  - {x: -4.55999994, y: -4.23000002}
+  - {x: -3.8599999, y: -4.23000002}
+  - {x: -3.50999999, y: -3.88999987}
+  - {x: -3.51999998, y: -2.5}
+  - {x: -2.45000005, y: -1.41999996}
+  - {x: 5.23999977, y: -1.41999996}
+  - {x: 6.28999996, y: -2.49000001}
+  - {x: 6.29999971, y: -2.81999993}
+--- !u!68 &6888268
+=======
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   - {x: -.0130821997, y: 2.7995801}
   - {x: -.745682955, y: 3.49293995}
   - {x: -10.4787998, y: 3.50601983}
@@ -1937,14 +3255,28 @@ EdgeCollider2D:
   - {x: -2.82575011, y: -10.5181007}
   - {x: -2.81265974, y: -14.0109997}
   - {x: 6.27942991, y: -13.9979}
+<<<<<<< HEAD
   - {x: 6.2924614, y: -7.71478271}
   - {x: 6.97817802, y: -7.69398499}
 --- !u!68 &6898278
+=======
+  - {x: 6.29252005, y: -7.71846962}
+--- !u!68 &6872434
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 180272}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 132866}
+=======
+  m_GameObject: {fileID: 181046}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1952,16 +3284,53 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: 0, y: -1.43999994}
   - {x: .340000004, y: -1.40999997}
   - {x: .340000004, y: 0}
   - {x: .00999999978, y: 0}
 --- !u!68 &6898968
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {x: -.0130821997, y: 2.7995801}
+  - {x: -.745682955, y: 3.49293995}
+  - {x: -10.4787998, y: 3.50601983}
+  - {x: -11.2114, y: 2.86498976}
+  - {x: -11.2244997, y: -2.1454699}
+  - {x: -6.98586941, y: -2.1193099}
+  - {x: -6.33175993, y: -2.7995801}
+  - {x: -6.31867981, y: -15.3845997}
+  - {x: -4.90580988, y: -15.4238997}
+  - {x: -4.90580988, y: -10.5050001}
+  - {x: -4.21245003, y: -9.81161976}
+  - {x: -3.53217983, y: -9.81161976}
+  - {x: -2.82575011, y: -10.5181007}
+  - {x: -2.81265974, y: -14.0109997}
+  - {x: 6.27942991, y: -13.9979}
+  - {x: 6.29252005, y: -7.71846962}
+--- !u!68 &6889846
+=======
+  - {x: -.0452283993, y: 6.61841965}
+  - {x: 1.04024994, y: 7.6888299}
+  - {x: 10.8095989, y: 7.70389986}
+  - {x: 11.8800001, y: 6.61841965}
+  - {x: 11.8800001, y: 4.17608976}
+--- !u!68 &6883476
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 192616}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  m_GameObject: {fileID: 168804}
+=======
+  m_GameObject: {fileID: 168678}
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1969,12 +3338,160 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
   - {x: 0, y: 0}
+<<<<<<< HEAD
   - {x: -.367999971, y: .0160000008}
   - {x: -1.07199991, y: -.680000007}
   - {x: -2.48799992, y: -.680000007}
   - {x: -2.81599998, y: -1.02400005}
   - {x: -2.82399988, y: -7.34399986}
   - {x: -2.45600009, y: -7.72799969}
+=======
+<<<<<<< HEAD:Bad Barry/Assets/Tiled2Unity/Prefabs/Cópia de NovoMapa.prefab
+  - {x: -.0452283993, y: 6.61841965}
+  - {x: 1.04024994, y: 7.6888299}
+  - {x: 10.8095989, y: 7.70389986}
+  - {x: 11.8800001, y: 6.61841965}
+  - {x: 11.8800001, y: 4.17608976}
+--- !u!114 &11401332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11403926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11407064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11413772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11416104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11416756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11421400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11423942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11427066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a91095958ab447e4a0dd6384fc36d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11430654
+MonoBehaviour:
+=======
+  - {x: 0, y: -6.26999998}
+  - {x: -9.78999996, y: -6.27999973}
+  - {x: -9.80999947, y: -2.41999984}
+  - {x: -10.1499996, y: -2.08999991}
+  - {x: -10.8499994, y: -2.07999992}
+  - {x: -11.2199993, y: -2.42999983}
+  - {x: -11.1999998, y: -7.65999985}
+  - {x: -13.2999992, y: -7.67999983}
+  - {x: -13.3099995, y: 5.25999975}
+  - {x: -13.6599998, y: 5.61999989}
+  - {x: -18.1800003, y: 5.60999966}
+--- !u!68 &6899444
+EdgeCollider2D:
+>>>>>>> a87d048b871642270cc951993d968dd256ca240c:Bad Barry/Assets/Tiled2Unity/Prefabs/CenarioCasa.prefab
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169112}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: 0, y: 0}
+  - {x: 0, y: -.729999959}
+  - {x: -4.55999994, y: -.709999979}
+  - {x: -4.92000008, y: -1.06999993}
+  - {x: -4.9000001, y: -3.86999989}
+  - {x: -4.55999994, y: -4.23000002}
+  - {x: -3.8599999, y: -4.23000002}
+  - {x: -3.50999999, y: -3.88999987}
+  - {x: -3.51999998, y: -2.5}
+  - {x: -2.45000005, y: -1.41999996}
+  - {x: 5.23999977, y: -1.41999996}
+  - {x: 6.28999996, y: -2.49000001}
+  - {x: 6.29999971, y: -2.81999993}
+>>>>>>> 687e60f204e85de91fc93c98ca5269a11ab933b7
 --- !u!114 &11408536
 MonoBehaviour:
   m_ObjectHideFlags: 1
