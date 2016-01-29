@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"title": "Revolver",
-		"value": 50,
+		"value": 100,
 		"stats": {
 			"power": 2,
 			"defense": 0,
@@ -37,7 +37,7 @@
 	{
 		"id": 2,
 		"title": "MP-9",
-		"value": 200,
+		"value": 450,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -55,7 +55,7 @@
 	{
 		"id": 3,
 		"title": "Shotgun",
-		"value": 400,
+		"value": 700,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -73,7 +73,7 @@
 	{
 		"id": 4,
 		"title": "Survivor",
-		"value": 1500,
+		"value": 2000,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -109,7 +109,7 @@
 	{
 		"id": 6,
 		"title": "Shotgun Ammo",
-		"value": 10,
+		"value": 20,
 		"stats": {
 			"power": 0,
 			"defense": 0,
