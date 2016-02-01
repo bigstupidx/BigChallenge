@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/GameBehavior.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/loade.cs">
     <Files>
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="721" Column="2" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="377" Column="28" />
+      <File FileName="Assets/Script/EnemyScripts/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="71" Column="26" />
+      <File FileName="Assets/MapSceneHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/loade.cs" Line="24" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

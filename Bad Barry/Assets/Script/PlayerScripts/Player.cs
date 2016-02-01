@@ -103,7 +103,8 @@ public class Player : MonoBehaviour {
 		hudGame.takeDamage();
 		hudGame.incrementXp ();
 
-
+		direction = 0;
+		shootDirection = 0;
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
 		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();

@@ -131,6 +131,8 @@ public class GameBehavior : MonoBehaviour {
 
 	public int currentMission = 1;
 
+	public string toLoadScene = "";
+
 
 	
 	// Use this for initialization
@@ -317,7 +319,6 @@ public class GameBehavior : MonoBehaviour {
 			StartCoroutine (PlayAudio (audio, "AtributeScreen"));
 		}
 
-		//Application.LoadLevel("AtributeScreen");
 
 
 	}
@@ -333,7 +334,6 @@ public class GameBehavior : MonoBehaviour {
 
 		}
 
-		//Application.LoadLevel("InventoryScene");
 
 
 	}
@@ -359,7 +359,6 @@ public class GameBehavior : MonoBehaviour {
 			
 		}
 
-		//Application.LoadLevel("Store");
 
 	}
 
@@ -375,8 +374,8 @@ public class GameBehavior : MonoBehaviour {
 
 		if(!showTutorial)
 			save();
-
-		Application.LoadLevel("MapScene");
+		toLoadScene = "MapScene";
+		Application.LoadLevel("loadingScene");
 		
 		
 	}
@@ -385,7 +384,6 @@ public class GameBehavior : MonoBehaviour {
 		if (!loadingSound) {
 			pause = false;
 			life = maxLife;
-			//Application.LoadLevel("ScoreScene");
 
 			//save ();
 			loadingSound = true;
@@ -502,8 +500,9 @@ public class GameBehavior : MonoBehaviour {
 			print ("entrou no saveee");
 		}
 
+		behave.toLoadScene = "MapScene";
+		Application.LoadLevel("loadingScene");
 
-		Application.LoadLevel("MapScene");
 		//Play();
 
 	}
@@ -513,8 +512,6 @@ public class GameBehavior : MonoBehaviour {
 	public void Play(){
 		pause = false;
 
-		//Application.LoadLevel("NewPrototype");
-		//Application.LoadLevel("HordeMode");
 
 	}
 
@@ -526,7 +523,9 @@ public class GameBehavior : MonoBehaviour {
 		yield return new WaitForSeconds (currentAudio.clip.length);
 		//yield return new WaitForSeconds (1);
 		loadingSound = false;
-		Application.LoadLevel(levelName);
+
+		toLoadScene = levelName;
+		Application.LoadLevel("loadingScene");
 		
 	}
 
