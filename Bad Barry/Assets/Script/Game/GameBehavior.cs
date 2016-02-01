@@ -727,17 +727,17 @@ public class GameBehavior : MonoBehaviour {
 			Social.localUser.Authenticate( success => {
 				if (success){
 					
-					if(ammoSpent >= 10){
+					if(ammoSpent >= 250){
 						ReportAchievement(ammo250Id,100);
 						
-						if(ammoSpent >= 100){
+						if(ammoSpent >= 1000){
 							ReportAchievement(ammo1000Id,100);
 							
-							if(ammoSpent >= 1000){
+							if(ammoSpent >= 10000){
 								
 								ReportAchievement(ammo10000Id,100);
 								
-								if(ammoSpent >= 10000){
+								if(ammoSpent >= 100000){
 									ReportAchievement(ammo100000Id,100);
 									
 								}	
