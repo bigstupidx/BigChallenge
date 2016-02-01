@@ -955,7 +955,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public void load(){
 
-		//File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
+//		File.Delete (Application.persistentDataPath + "/BadBarryData.dat");
 
 		if(File.Exists(Application.persistentDataPath + "/BadBarryData.dat")){
 			print("load");

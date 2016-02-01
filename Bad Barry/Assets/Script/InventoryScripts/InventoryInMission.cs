@@ -59,18 +59,6 @@ public class InventoryInMission : MonoBehaviour {
 			}
 		}
 
-
-
-//		items [i] = itemToAdd;
-//		GameObject itemObj = Instantiate (inventoryItem);
-//		itemObj.GetComponent<ItemData>().item = itemToAdd;
-//		itemObj.GetComponent<ItemData>().slot = i;
-//		itemObj.transform.SetParent (slots [i].transform);
-//		itemObj.transform.position = Vector2.zero;
-//		itemObj.GetComponent<Image> ().sprite = itemToAdd.Sprite;
-//		itemObj.name = itemToAdd.Title;
-//		itemsList.Add(itemObj);
-
 	}
 
 
@@ -80,6 +68,11 @@ public class InventoryInMission : MonoBehaviour {
 			if(inventoryItems[itemNumber].item != null){
 				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
+			var color = itemsInGame[0].color;
+			if(!inventoryItems[itemNumber].item.Stackable){
+				itemsInGame[itemNumber].color = new Color(1,0,0);
+			}
+			var index = itemNumber;
 
 				switch(inventoryItems[itemNumber].item.ID){
 

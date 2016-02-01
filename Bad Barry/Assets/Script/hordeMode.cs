@@ -23,12 +23,14 @@ public class hordeMode : MonoBehaviour {
 	//tutorial
 	public GameObject canvasTutorial;
 	public GameObject textTutorial;
-	public string[] tutoText; 
 	public int index = 0;
 	public float time = 0;
 	public bool startTime = false;
-
-	public GameObject[] arrows = new GameObject[7];
+	
+	public GameObject joystickArrow;
+	public GameObject slotsArrow;
+	public GameObject skillArrow;
+	public GameObject fireButtonArrow;
 	
 	
 	// Use this for initialization
@@ -37,14 +39,6 @@ public class hordeMode : MonoBehaviour {
 		timer = -100;
 
 		if (behave.showTutorial) {
-			tutoText = new string[]{"hold and drag the joystick to move Barry",
-				"press or hold the red button to fire",
-				" three items that you chose to carry into your missions",
-				"shows the amount of bullets that your current weapon has",
-				"indicates how much life the character has",
-				"slot for skill, when you use it you become invincible for a amount of time",
-				"pause button, you will be able to give up this mission and return to the map",
-				"Ready? Choose your weapon and GO"};
 			Time.timeScale = 1;
 			this.level = 20;
 			behave.pause = true;
@@ -61,17 +55,39 @@ public class hordeMode : MonoBehaviour {
 
 	public void onClickNext(){
 
-		if (index < tutoText.Length ) {
+		if (index < 5) {
+
+			if(index == 0){
+				joystickArrow.SetActive(true);
+				textTutorial.GetComponent<Text> ().text = "hold and drag to move";
+//				textTutorial.GetComponent<TranslateText>().Refresh();
+			}
+			else if(index == 1){
+				joystickArrow.SetActive(false);
+				slotsArrow.SetActive(true);
+				textTutorial.GetComponent<Text> ().text = "press or hold to fire";
+//				textTutorial.GetComponent<TranslateText>().Refresh();
+			}
+			else if(index == 2){
+				slotsArrow.SetActive(false);
+				skillArrow.SetActive(true);
+				textTutorial.GetComponent<Text> ().text = "items to take on missions";
+//				textTutorial.GetComponent<TranslateText>().Refresh();
+			}
+			else if(index == 3){
+				skillArrow.SetActive(false);
+				fireButtonArrow.SetActive(true);
+				textTutorial.GetComponent<Text> ().text = "press to become invincible for a while";
+//				textTutorial.GetComponent<TranslateText>().Refresh();
+			}
+
+			else
+			{
+				textTutorial.GetComponent<Text> ().text = "Ready? Choose your weapon and GO!";
+//				textTutorial.GetComponent<TranslateText>().Refresh();
+			}
 
 
-			if(index > 0)
-				arrows[index-1].SetActive(false);
-
-			if(index < arrows.Length)
-				arrows [index].SetActive (true);
-
-			textTutorial.GetComponent<Text> ().text = tutoText [index];
-			textTutorial.GetComponent<TranslateText>().Refresh();
 			index++;
 		} else {
 			print("despausei");
