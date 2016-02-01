@@ -90,7 +90,7 @@ public class MapSceneHandler : MonoBehaviour {
 
 		var time = behave.timeToEnergy - behave.timer;
 
-		if(((int)(time - (int)(time/60) * 60)) > 10){
+		if(((int)(time - (int)(time/60) * 60)) >= 10){
 			counter.text = ((int)(time/60)).ToString() + ":" + ((int)(time - (int)(time/60) * 60)).ToString();
 
 		}else{

@@ -109,7 +109,11 @@ public class GameBehavior : MonoBehaviour {
 
 	//statistics
 	public int totalCoins = 0;
-	public int hordeKills = 0;
+	public int maxHordeKills = 0;
+
+	public int currentHordeKills = 0;
+
+	
 	public int ammoSpent = 0;
 	public float totalExperience = 0;
 	public int knifeKills = 0;
@@ -197,13 +201,20 @@ public class GameBehavior : MonoBehaviour {
 
 	public void finishedHordeMode()
 	{
+		if(currentHordeKills > maxHordeKills){
+
+			maxHordeKills = currentHordeKills;
+
+		}
+
+		currentHordeKills = 0;
 
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 
 
 			Social.localUser.Authenticate( success => {
 				if (success)
-					ReportScore(hordeKills,hordeScoreBoardId);
+					ReportScore(maxHordeKills,hordeScoreBoardId);
 				else
 					Debug.Log ("Failed to authenticate primeiro");
 			});
@@ -921,7 +932,7 @@ public class GameBehavior : MonoBehaviour {
 		data.coins = coins;
 
 		data.totalCoins = totalCoins;
-		data.hordeKills = hordeKills;
+		data.maxHordeKills = maxHordeKills;
 		data.enemiesKilled = enemiesKilled;
 		data.ammoSpent = ammoSpent;
 		data.totalExperience = totalExperience;
@@ -979,7 +990,7 @@ public class GameBehavior : MonoBehaviour {
 
 
 			totalCoins = data.totalCoins;
-			hordeKills = data.hordeKills;
+			maxHordeKills = data.maxHordeKills;
 			enemiesKilled = data.enemiesKilled;
 			ammoSpent = data.ammoSpent;
 			totalExperience = data.totalExperience;
@@ -1041,7 +1052,7 @@ class Data
 
 	//statistics
 	public int totalCoins;
-	public int hordeKills;
+	public int maxHordeKills;
 	public int enemiesKilled;
 	public int ammoSpent;
 	public float totalExperience;

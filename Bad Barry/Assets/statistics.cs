@@ -19,7 +19,7 @@ public class statistics : MonoBehaviour {
 	void Start () {
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		totalCoinsText.text = behave.totalCoins.ToString();
-		hordeKillsText.text = behave.hordeKills.ToString();
+		hordeKillsText.text = behave.maxHordeKills.ToString();
 		enemiesKilledText.text = behave.totalEnemiesKilled.ToString();
 		ammoSpentText.text = behave.ammoSpent.ToString();
 		totalExperienceText.text = behave.totalExperience.ToString();

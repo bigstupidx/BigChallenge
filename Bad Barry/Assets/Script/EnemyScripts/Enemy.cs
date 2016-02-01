@@ -109,7 +109,7 @@ public class Enemy : MonoBehaviour {
 
 		if(Application.loadedLevelName == "HordeMode"){
 
-			behave.hordeKills++;
+			behave.currentHordeKills++;
 
 		}
 

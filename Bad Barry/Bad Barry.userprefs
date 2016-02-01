@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/StoreScrips/CoinScripts/Sell.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/GameBehavior.cs">
     <Files>
-      <File FileName="Assets/MapSceneHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="124" Column="2" />
-      <File FileName="Assets/Script/StoreScrips/CoinScripts/Sell.cs" Line="109" Column="62" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="721" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
