@@ -85455,7 +85455,7 @@ MonoBehaviour:
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
-  direction: 2
+  direction: 0
   distanceY: 0
   distanceX: 0
   rangeShoot: 2.5
@@ -85599,7 +85599,7 @@ MonoBehaviour:
   currentMenu: {fileID: 11443394}
   health: {fileID: 103998}
   xp: {fileID: 190052}
-  lvlUp: {fileID: 0}
+  lvlUp: {fileID: 187034}
   ammo: {fileID: 128254}
   images:
   - {fileID: 21300000, guid: 84df28c0729cd4c51ad2b8794a22d8b4, type: 3}
@@ -89343,7 +89343,7 @@ MonoBehaviour:
   speed: .400000006
   rangeMin: .100000001
   rangeMax: 10
-  direction: 2
+  direction: 0
   distanceY: 0
   distanceX: 0
   rangeShoot: 2.5

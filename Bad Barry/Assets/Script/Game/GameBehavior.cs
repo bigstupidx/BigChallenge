@@ -185,7 +185,8 @@ public class GameBehavior : MonoBehaviour {
 	}
 	
 	void ReportScore(long score,string id){
-		
+
+	
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 			
 			ReportScoreDetailed(score,id);
@@ -269,6 +270,7 @@ public class GameBehavior : MonoBehaviour {
 
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.LevelCleared ();
+
 
 		behave.finishedHordeMode();
 

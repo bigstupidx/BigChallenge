@@ -32,6 +32,7 @@ public class Sell : MonoBehaviour {
 	public GameObject canvasText;
 	public GameObject endTutoText;
 	public GameObject endTutoPanel;
+	public GameObject backButton;
 
 	void Start(){
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
@@ -50,6 +51,7 @@ public class Sell : MonoBehaviour {
 			StartCoroutine(BlinkArrow());
 			activeBlink = false;
 			buttonActivate = false;
+			backButton.GetComponent<Button>().interactable = false;
 		}
 
 	}
@@ -108,7 +110,7 @@ public class Sell : MonoBehaviour {
 					rightBuyArrow.GetComponent<Image>().color = Color.clear;
 					
 					buttonActivate = false;
-
+					backButton.GetComponent<Button>().interactable = true;
 					
 					colors.normalColor = Color.red;
 					colors.highlightedColor = Color.red;

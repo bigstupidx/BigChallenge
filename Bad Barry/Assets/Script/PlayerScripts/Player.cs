@@ -25,7 +25,10 @@ public class Player : MonoBehaviour {
 
 
 	public float fireRate = 1f;
+	private float knifeRate = 2f;
 	private float time;
+	private float timeToKnife;
+
 
 	//normally will receive its base experience on load
 	public float experience = 0;
@@ -145,6 +148,8 @@ public class Player : MonoBehaviour {
 			}
 
 			time = time + Time.deltaTime;
+
+			timeToKnife = timeToKnife + Time.deltaTime;
 
 
 			//LOGICA PARA TEMPO DA SKILL DPS DE CLICADA
@@ -292,7 +297,7 @@ public class Player : MonoBehaviour {
 				
 			}else{//if enemy is in rang for knife
 
-				if (time > fireRate) {
+				if (timeToKnife > knifeRate) {
 
 					weapon.GetComponent<Weapon> ().PlayKnifeSound();
 
@@ -309,7 +314,7 @@ public class Player : MonoBehaviour {
 					}
 
 					torsoAnimator.SetTrigger("Knife");
-					time = 0;
+					timeToKnife = 0;
 				}
 				
 			}
@@ -458,6 +463,7 @@ public class Player : MonoBehaviour {
 
 		var panelText = GameObject.FindGameObjectWithTag ("DeathText").GetComponent<Text>();
 		panelText.text = "Mission Completed";
+		panelText.GetComponent<TranslateText> ().Refresh ();
 		//StartCoroutine(WinCamera());
 
 
@@ -492,6 +498,8 @@ public class Player : MonoBehaviour {
 		bothAnimator.SetBool ("dead", true);
 		legAnimator.SetBool ("IsDead", true);
 		torsoAnimator.SetBool ("IsDead", true);
+		var rigidBody = GetComponent<Rigidbody2D>();
+		rigidBody.velocity = new Vector2 (0, 0);
 
 //		var finalScore = GameObject.FindGameObjectWithTag("FinalScore");
 //		var score = GameObject.FindGameObjectWithTag("Score");
@@ -500,6 +508,14 @@ public class Player : MonoBehaviour {
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		behave.totalDeaths++;
 		behave.CheckDeathAchievements();
+
+
+		if (Application.loadedLevelName == "HordeMode") {
+
+			behave.finishedHordeMode();
+		}
+
+
 
 		var panelDeath = GameObject.FindGameObjectWithTag ("PanelDeath") as GameObject;
 		panelDeath.GetComponent<Animator> ().SetTrigger("Death");

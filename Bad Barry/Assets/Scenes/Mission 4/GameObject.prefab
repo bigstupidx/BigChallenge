@@ -73844,7 +73844,7 @@ MonoBehaviour:
   currentMenu: {fileID: 11474288}
   health: {fileID: 146766}
   xp: {fileID: 140428}
-  lvlUp: {fileID: 0}
+  lvlUp: {fileID: 166374}
   ammo: {fileID: 137666}
   images:
   - {fileID: 21300000, guid: 84df28c0729cd4c51ad2b8794a22d8b4, type: 3}

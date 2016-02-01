@@ -1733,6 +1733,7 @@ MonoBehaviour:
   canvasText: {fileID: 177514}
   endTutoText: {fileID: 113450}
   endTutoPanel: {fileID: 137278}
+  backButton: {fileID: 189316}
 --- !u!114 &11430690
 MonoBehaviour:
   m_ObjectHideFlags: 1

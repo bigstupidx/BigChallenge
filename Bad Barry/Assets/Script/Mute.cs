@@ -21,4 +21,19 @@ public class Mute : MonoBehaviour
 			this.GetComponent<Image>().sprite = Resources.Load<Sprite>("Images/Map Images/NoMute");
 		}
 	}
+
+	public void Update()
+	{
+		if (AudioListener.volume == 0.0f) {
+			isMute = true;
+			this.GetComponent<Image>().sprite = Resources.Load<Sprite>("Images/Map Images/Mute");
+		}
+		else{
+			isMute = false;
+
+			this.GetComponent<Image>().sprite = Resources.Load<Sprite>("Images/Map Images/NoMute");
+		}
+
+
+	}
 }
