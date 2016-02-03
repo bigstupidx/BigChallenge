@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class InventoryInMission : MonoBehaviour {
 
-	private List<ItemData> inventoryItems = new List<ItemData>();
-	private Image[] itemsInGame;
+	public List<ItemData> inventoryItems = new List<ItemData>();
+	public Image[] itemsInGame;
 	private string count;
 	private RectTransform imageRect;
 	private float imageWidth;
@@ -68,11 +68,11 @@ public class InventoryInMission : MonoBehaviour {
 			if(inventoryItems[itemNumber].item != null){
 				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-			var color = itemsInGame[0].color;
-			if(!inventoryItems[itemNumber].item.Stackable){
-				itemsInGame[itemNumber].color = new Color(1,0,0);
-			}
-			var index = itemNumber;
+//			var color = itemsInGame[0].color;
+//			if(!inventoryItems[itemNumber].item.Stackable){
+//				itemsInGame[itemNumber].color = new Color(1,0,0);
+//			}
+//			var index = itemNumber;
 
 				switch(inventoryItems[itemNumber].item.ID){
 

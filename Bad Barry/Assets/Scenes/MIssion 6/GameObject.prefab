@@ -19577,7 +19577,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190692}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19593,7 +19593,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194962}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19609,7 +19609,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147188}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19625,7 +19625,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112482}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19641,7 +19641,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139648}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19657,7 +19657,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115184}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19673,7 +19673,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128914}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19689,7 +19689,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149280}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19705,7 +19705,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127294}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19721,7 +19721,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142530}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19737,7 +19737,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 185586}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19753,7 +19753,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190374}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19769,7 +19769,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195938}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19801,7 +19801,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157052}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19817,7 +19817,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125876}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19833,7 +19833,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197198}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19849,7 +19849,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194956}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19865,7 +19865,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153838}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19881,7 +19881,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121370}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19897,7 +19897,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128264}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19913,7 +19913,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191162}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19929,7 +19929,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192220}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 1
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19961,7 +19961,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 196614}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19977,7 +19977,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165510}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -19993,7 +19993,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190120}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -20009,7 +20009,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157342}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -20025,7 +20025,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137154}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -20041,7 +20041,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113168}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -20057,7 +20057,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175240}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -20073,7 +20073,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165496}
-  m_Mass: 1
+  m_Mass: 1000
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -52136,6 +52136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6d50912d1124abcae3e1018bee66f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryItems: []
+  itemsInGame: []
 --- !u!114 &11458076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57860,10 +57862,10 @@ RectTransform:
   - {fileID: 22471002}
   m_Father: {fileID: 22405212}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -10, y: -86.3000031}
-  m_SizeDelta: {x: 196.100006, y: 57.2999992}
+  m_AnchorMin: {x: .35800001, y: .230584487}
+  m_AnchorMax: {x: .614703596, y: .366433829}
+  m_AnchoredPosition: {x: .5, y: 2.19999695}
+  m_SizeDelta: {x: -.899993896, y: -1.70000076}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22414782
 RectTransform:
@@ -58126,7 +58128,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 20.1316586, y: -6.0490818}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &22445020
