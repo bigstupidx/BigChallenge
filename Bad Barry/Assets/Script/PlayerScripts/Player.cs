@@ -25,7 +25,7 @@ public class Player : MonoBehaviour {
 
 
 	public float fireRate = 1f;
-	private float knifeRate = 2f;
+	private float knifeRate = 1f;
 	private float time;
 	private float timeToKnife;
 
@@ -256,7 +256,7 @@ public class Player : MonoBehaviour {
 			var vision = knifeRange.GetComponent<knifeVision>();
 			
 			//if there arent any enemies near player
-			if(vision.enemies.Count == 0){
+			if(vision.enemies.Count == 0 ||  !(timeToKnife > knifeRate)){
 				
 				if (time > fireRate) {
 					time = 0;
@@ -318,6 +318,7 @@ public class Player : MonoBehaviour {
 					}
 
 					torsoAnimator.SetTrigger("Knife");
+					time = 1;
 					timeToKnife = 0;
 				}
 				

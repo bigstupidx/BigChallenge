@@ -59,38 +59,38 @@ public class hordeMode : MonoBehaviour {
 
 			if(index == 0){
 				joystickArrow.SetActive(true);
-				textTutorial.GetComponent<Text> ().text = "hold and drag to move";
-//				textTutorial.GetComponent<TranslateText>().Refresh();
+				textTutorial.GetComponent<Text> ().text = "Hold and drag to move";
+				textTutorial.GetComponent<TranslateText>().Refresh();
 			}
 			else if(index == 1){
 				joystickArrow.SetActive(false);
 				slotsArrow.SetActive(true);
-				textTutorial.GetComponent<Text> ().text = "press or hold to fire";
-//				textTutorial.GetComponent<TranslateText>().Refresh();
+				textTutorial.GetComponent<Text> ().text = "Items to take on missions";
+				textTutorial.GetComponent<TranslateText>().Refresh();
 			}
 			else if(index == 2){
 				slotsArrow.SetActive(false);
 				skillArrow.SetActive(true);
-				textTutorial.GetComponent<Text> ().text = "items to take on missions";
-//				textTutorial.GetComponent<TranslateText>().Refresh();
+				textTutorial.GetComponent<Text> ().text = "Press to become invincible for a while";
+				textTutorial.GetComponent<TranslateText>().Refresh();
 			}
 			else if(index == 3){
 				skillArrow.SetActive(false);
 				fireButtonArrow.SetActive(true);
-				textTutorial.GetComponent<Text> ().text = "press to become invincible for a while";
-//				textTutorial.GetComponent<TranslateText>().Refresh();
+				textTutorial.GetComponent<Text> ().text = "Press or hold to fire";
+				textTutorial.GetComponent<TranslateText>().Refresh();
 			}
 
 			else
 			{
+				fireButtonArrow.SetActive(false);
 				textTutorial.GetComponent<Text> ().text = "Ready? Choose your weapon and GO!";
-//				textTutorial.GetComponent<TranslateText>().Refresh();
+				textTutorial.GetComponent<TranslateText>().Refresh();
 			}
 
 
 			index++;
 		} else {
-			print("despausei");
 			behave.pause = false;
 			canvasTutorial.SetActive (false);
 			behave.showAttributes = true;
