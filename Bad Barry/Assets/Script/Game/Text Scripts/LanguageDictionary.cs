@@ -55,7 +55,7 @@ public static class LanguageDictionary {
 			stringList.Add ("indicates how much life the character has", "indicates how much life the character has");
 			stringList.Add ("slot for skill, when you use it you become invincible for a amount of time", "slot for skill, when you use it you become invincible for a amount of time");
 			stringList.Add ("pause button, you will be able to give up this mission and return to the map", "pause button, you will be able to give up this mission and return to the map");
-			stringList.Add ("Ready? Choose your weapon and GO", "Ready? Choose your weapon and GO");
+			stringList.Add ("Ready? Choose your weapon and GO!", "Ready? Choose your weapon and GO!");
 			stringList.Add ("cleared", "cleared");
 			stringList.Add ("buy the Revolver", "buy the Revolver");
 			stringList.Add ("Now you are ready to start your journey, good luck!", "Now you are ready to start your journey, good luck!");
@@ -82,7 +82,11 @@ public static class LanguageDictionary {
 			stringList.Add ("Storage", "Storage");
 			stringList.Add ("Desert", "Desert");
 			stringList.Add ("Beach", "Beach");
-			stringList.Add ("Play", "Play");
+
+			stringList.Add ("Hold and drag to move", "Hold and drag to move");
+			stringList.Add ("Press or hold to fire", "Press or hold to fire");
+			stringList.Add ("Items to take on missions", "Items to take on missions");
+			stringList.Add ("Press to become invincible for a while", "Press to become invincible for a while");
 
 
 
@@ -131,7 +135,7 @@ public static class LanguageDictionary {
 			stringList.Add ("indicates how much life the character has", "indica quanto de vida seu personagem possui");
 			stringList.Add ("slot for skill, when you use it you become invincible for a amount of time", "espaço para skill, ao usar você fica invencível por um tempo");
 			stringList.Add ("pause button, you will be able to give up this mission and return to the map", "botão de pausa, você pode desistir da missão e voltar para o mapa");
-			stringList.Add ("Ready? Choose your weapon and GO", "Pronto? Escolha sua arma e VAI");
+			stringList.Add ("Ready? Choose your weapon and GO!", "Pronto? Escolha sua arma e VAI!");
 			stringList.Add ("cleared", "horda concluida");
 			stringList.Add ("buy the Revolver", "compre o Revolver");
 			stringList.Add ("Now you are ready to start your journey, good luck!", "Agora você está pronto para começar sua jornada, boa sorte!");
@@ -158,6 +162,11 @@ public static class LanguageDictionary {
 			stringList.Add ("Storage", "Armazém");
 			stringList.Add ("Desert", "Deserto");
 			stringList.Add ("Beach", "Praia");
+
+			stringList.Add ("Hold and drag to move", "Segure e arraste para mover");
+			stringList.Add ("Press or hold to fire", "Aperte ou segure para atirar");
+			stringList.Add ("Items to take on missions", "Itens para levar nas missões");
+			stringList.Add ("Press to become invincible for a while", "Aperte para se tornar invencível por um tempo");
 
 
 			

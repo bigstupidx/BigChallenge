@@ -68,13 +68,13 @@ public class Inventory : MonoBehaviour {
 
 
 
-//		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 
 		if (behave.showTutorial) {
 			buttonBack.GetComponent<Button>().interactable = false;
 			canvasTutorial.SetActive (true);
 			tutorialText.GetComponent<Text> ().text = "Drag the items to the red slots";
 			tutorialText.GetComponent<TranslateText>().Refresh();
+
 
 
 		}
@@ -254,10 +254,17 @@ public class Inventory : MonoBehaviour {
 
 		if (behave.showTutorial) {
 			behave.showAttributes = true;
-			behave.GoToMission (audio, 0);
+			behave.GoToMissionInventory(audio,0);
 			backArrow.SetActive (false);
 			canvasTutorial.SetActive(false);
 		}
+
+		if(behave.goingToMission){
+			behave.goingToMission = false;
+			behave.GoToMissionInventory(audio,behave.selectedMission);
+
+		}
+
 
 		behave.GoToMapWithSound (audio);
 	}

@@ -133,6 +133,9 @@ public class GameBehavior : MonoBehaviour {
 
 	public string toLoadScene = "";
 
+	public bool goingToMission = false;
+
+	public int selectedMission = 0;
 
 	
 	// Use this for initialization
@@ -449,23 +452,23 @@ public class GameBehavior : MonoBehaviour {
 		}
 	}
 
-	public void GoToMission(AudioSource audio, int missionNumber){
-		print ("Missao " + loadingSound);
+
+
+	public void GoToMissionInventory(AudioSource audio, int missionNumber){
 		if (!loadingSound) {
 			pause = false;
-			if (energy > 0) {
-				if(!showTutorial)
-					energy--;
-
-				loadingSound = true;
-
-				switch(missionNumber){
-
+		
+			if(!showTutorial)
+				energy--;
+				
+			loadingSound = true;
+				
+			switch(missionNumber){
+					
 				case 0:
-
 					StartCoroutine (PlayAudio (audio, "HordeMode")); 
 					break;
-
+					
 				case 1:
 					StartCoroutine (PlayAudio (audio, "Epilogue")); 
 					break;
@@ -487,8 +490,31 @@ public class GameBehavior : MonoBehaviour {
 				default:
 					print("Numero de misssao invalido"); 
 					break;
+					
+			}
+				
+		
+		}
+		
+		
+	}
 
-				}
+
+	public void GoToMission(AudioSource audio, int missionNumber){
+		if (!loadingSound) {
+			pause = false;
+			if (energy > 0) {
+				if(!showTutorial)
+					energy--;
+
+				loadingSound = true;
+
+				selectedMission = missionNumber;
+				goingToMission = true;
+
+				StartCoroutine (PlayAudio (audio, "InventoryScene")); 
+
+
 
 
 			}else{

@@ -2,9 +2,26 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/InventoryScripts/ItemDatabase.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets/Script/EnemyScripts/Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/Game/GameBehavior.cs" Line="948" Column="40" />
       <File FileName="Assets/Script/InventoryScripts/ItemDatabase.cs" Line="60" Column="36" />
+=======
+      <File FileName="Assets/Script/InventoryScripts/InventoryInMission.cs" Line="80" Column="12" />
+      <File FileName="Assets/Script/SkillScripts/Skill.cs" Line="1" Column="1" />
+<<<<<<< HEAD
+      <File FileName="Assets/Script/Atribute/AtributeScreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="90" Column="36" />
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/AutoScroll.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/InventoryScripts/InventoryInMission.cs" Line="31" Column="1" />
+      <File FileName="Assets/Script/Game/Text Scripts/LanguageDictionary.cs" Line="162" Column="1" />
+      <File FileName="Assets/Script/hordeMode.cs" Line="1" Column="1" />
+=======
+      <File FileName="Assets/Script/PlayerScripts/Player.cs" Line="441" Column="24" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="383" Column="20" />
+>>>>>>> f2a64d01e1dadaf4a1bbf454bdaf6be1e1dbe57d
+>>>>>>> 4f88938eff17f9a09c5692830d0be8a6a01b2e7a
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
