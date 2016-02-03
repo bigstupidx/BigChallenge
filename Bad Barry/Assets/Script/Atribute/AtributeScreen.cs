@@ -17,6 +17,8 @@ public class AtributeScreen : MonoBehaviour {
 	public float height = 0;
 	public int index = 0;
 
+	public InventoryInMission slots;
+
 	// Use this for initialization
 	void Start () {
 
@@ -35,6 +37,9 @@ public class AtributeScreen : MonoBehaviour {
 			behave.abilityIDs[0] = 0;
 			behave.abilityIndex = 0;
 			behave.selectedWeapon = 0;
+
+			//DELETAR INVENTORY IN MISSION
+//			slots = GameObject.Find
 
 			behave.bullets[1] = 0; // balas da mp-9
 			behave.bullets[2] = 0; //balas de shotgun

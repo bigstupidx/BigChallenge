@@ -51,9 +51,10 @@ public class Player : MonoBehaviour {
 
 	public DateTime lastDateTime;
 	//skill
+
 	public bool skillActivate = false;
 	public float timeToStopSkill = 5;
-	public float reloadingTime = 10;
+	public float reloadingTime = 35;
 	public float skillTimer = 0;
 	
 	public bool reloading = false;

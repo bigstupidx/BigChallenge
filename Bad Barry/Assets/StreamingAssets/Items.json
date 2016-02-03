@@ -37,7 +37,7 @@
 	{
 		"id": 2,
 		"title": "MP-9",
-		"value": 450,
+		"value": 1200,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -55,7 +55,7 @@
 	{
 		"id": 3,
 		"title": "Shotgun",
-		"value": 700,
+		"value": 1700,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -73,7 +73,7 @@
 	{
 		"id": 4,
 		"title": "Survivor",
-		"value": 2000,
+		"value": 3000,
 		"stats": {
 			"power": 4,
 			"defense": 0,
@@ -91,7 +91,7 @@
 	{
 		"id": 5,
 		"title": "MP-9 Ammo",
-		"value": 15,
+		"value": 50,
 		"stats": {
 			"power": 0,
 			"defense": 0,
@@ -109,7 +109,7 @@
 	{
 		"id": 6,
 		"title": "Shotgun Ammo",
-		"value": 20,
+		"value": 70,
 		"stats": {
 			"power": 0,
 			"defense": 0,

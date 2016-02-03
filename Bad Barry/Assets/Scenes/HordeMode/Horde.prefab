@@ -1974,7 +1974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &400760
 Transform:
   m_ObjectHideFlags: 1
@@ -6305,6 +6305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6d50912d1124abcae3e1018bee66f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryItems: []
+  itemsInGame: []
 --- !u!114 &11477138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8208,7 +8210,7 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -13.268343, y: 9.35091877}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &22477512
@@ -8439,10 +8441,10 @@ RectTransform:
   - {fileID: 22400192}
   m_Father: {fileID: 22428772}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -10, y: -86.3000031}
-  m_SizeDelta: {x: 196.100006, y: 57.2999992}
+  m_AnchorMin: {x: .35800001, y: .231867567}
+  m_AnchorMax: {x: .614000022, y: .361867636}
+  m_AnchoredPosition: {x: 1, y: 2.19999695}
+  m_SizeDelta: {x: .100006104, y: .299999237}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22492298
 RectTransform:
