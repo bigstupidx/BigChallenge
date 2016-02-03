@@ -34,7 +34,8 @@ public class AtributeScreen : MonoBehaviour {
 			behave.inventory[3] = 0;
 			behave.abilityIDs[0] = 0;
 			behave.abilityIndex = 0;
-			
+			behave.selectedWeapon = 0;
+
 			behave.bullets[1] = 0; // balas da mp-9
 			behave.bullets[2] = 0; //balas de shotgun
 			behave.coins = 150;

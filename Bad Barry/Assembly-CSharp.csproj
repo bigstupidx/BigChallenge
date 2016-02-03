@@ -87,6 +87,11 @@
      <Compile Include="Assets\Script\InventoryScripts\Pathing.cs" />
      <Compile Include="Assets\Script\InventoryScripts\Slot.cs" />
      <Compile Include="Assets\Script\InventoryScripts\constraintInventory.cs" />
+     <Compile Include="Assets\Script\LoadingScripts\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Script\LoadingScripts\FadeSprite.cs" />
+     <Compile Include="Assets\Script\LoadingScripts\LoadingSceneManager.cs" />
+     <Compile Include="Assets\Script\LoadingScripts\ScreenManager.cs" />
+     <Compile Include="Assets\Script\LoadingScripts\Singleton.cs" />
      <Compile Include="Assets\Script\Main Scene\TextConfig.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\MenuManager.cs" />

@@ -305,9 +305,12 @@ public class Player : MonoBehaviour {
 					foreach(GameObject enemy in vision.enemies){
 						//facada
 						enemy.GetComponent<Enemy>().TakeDamage(100);
-						vision.enemies.Remove(enemy);
-						behave.knifeKills++;
-						behave.CheckKnifeAchievements();
+						if(enemy.GetComponent<Enemy>().life <= 0){
+							vision.enemies.Remove(enemy);
+							behave.knifeKills++;
+							behave.CheckKnifeAchievements();
+						}
+
 
 						break;
 
@@ -355,7 +358,7 @@ public class Player : MonoBehaviour {
 	//take damage function damage is the damage taken wich will be affected by armor
 	public void TakeDamage(int damage){
 		
-
+		print(damage);
 		int trueDamage = damage - armor;
 		
 		if (life <= trueDamage && !dead) {

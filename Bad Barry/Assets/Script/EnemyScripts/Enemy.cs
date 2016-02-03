@@ -72,7 +72,6 @@ public class Enemy : MonoBehaviour {
 	//take damage function damage is the damage taken
 	public void TakeDamage(int damage){
 
-		print (damage);
 		var x = transform.GetComponent<FollowPlayer> ();
 		x.active = true;
 

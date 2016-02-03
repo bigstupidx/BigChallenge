@@ -2034,7 +2034,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &119770
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -5818,7 +5818,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &154438
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -5918,7 +5918,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &155040
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -7342,7 +7342,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &168030
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -7977,7 +7977,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &173452
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -11085,7 +11085,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &199466
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -11111,8 +11111,8 @@ Transform:
   m_LocalPosition: {x: 22.9375572, y: -18.1980553, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 28
+  m_Father: {fileID: 497984}
+  m_RootOrder: 11
 --- !u!4 &400732
 Transform:
   m_ObjectHideFlags: 1
@@ -11979,7 +11979,7 @@ Transform:
   - {fileID: 426760}
   - {fileID: 410460}
   m_Father: {fileID: 461642}
-  m_RootOrder: 35
+  m_RootOrder: 29
 --- !u!4 &411878
 Transform:
   m_ObjectHideFlags: 1
@@ -12286,7 +12286,7 @@ Transform:
   - {fileID: 430120}
   - {fileID: 479586}
   m_Father: {fileID: 461642}
-  m_RootOrder: 33
+  m_RootOrder: 27
 --- !u!4 &415380
 Transform:
   m_ObjectHideFlags: 1
@@ -12651,8 +12651,8 @@ Transform:
   m_LocalPosition: {x: 34.3635674, y: -26.1970062, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 14
+  m_Father: {fileID: 497984}
+  m_RootOrder: 6
 --- !u!4 &420472
 Transform:
   m_ObjectHideFlags: 1
@@ -12903,8 +12903,8 @@ Transform:
   m_LocalPosition: {x: 35.1293602, y: -26.2480583, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 15
+  m_Father: {fileID: 497984}
+  m_RootOrder: 7
 --- !u!4 &423638
 Transform:
   m_ObjectHideFlags: 1
@@ -13130,7 +13130,7 @@ Transform:
   - {fileID: 491604}
   - {fileID: 497782}
   m_Father: {fileID: 461642}
-  m_RootOrder: 18
+  m_RootOrder: 16
 --- !u!4 &426730
 Transform:
   m_ObjectHideFlags: 1
@@ -13194,7 +13194,7 @@ Transform:
   - {fileID: 403554}
   - {fileID: 490046}
   m_Father: {fileID: 461642}
-  m_RootOrder: 24
+  m_RootOrder: 22
 --- !u!4 &427648
 Transform:
   m_ObjectHideFlags: 1
@@ -13575,7 +13575,7 @@ Transform:
   - {fileID: 467874}
   - {fileID: 436798}
   m_Father: {fileID: 461642}
-  m_RootOrder: 16
+  m_RootOrder: 14
 --- !u!4 &432912
 Transform:
   m_ObjectHideFlags: 1
@@ -13840,8 +13840,8 @@ Transform:
   m_LocalPosition: {x: 24.3236599, y: -6.54005623, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 26
+  m_Father: {fileID: 497984}
+  m_RootOrder: 9
 --- !u!4 &435674
 Transform:
   m_ObjectHideFlags: 1
@@ -14240,7 +14240,7 @@ Transform:
   - {fileID: 490008}
   - {fileID: 480940}
   m_Father: {fileID: 461642}
-  m_RootOrder: 20
+  m_RootOrder: 18
 --- !u!4 &439702
 Transform:
   m_ObjectHideFlags: 1
@@ -14378,7 +14378,7 @@ Transform:
   - {fileID: 446324}
   - {fileID: 414742}
   m_Father: {fileID: 461642}
-  m_RootOrder: 22
+  m_RootOrder: 20
 --- !u!4 &441574
 Transform:
   m_ObjectHideFlags: 1
@@ -14634,7 +14634,7 @@ Transform:
   - {fileID: 483782}
   - {fileID: 469320}
   m_Father: {fileID: 461642}
-  m_RootOrder: 29
+  m_RootOrder: 23
 --- !u!4 &444408
 Transform:
   m_ObjectHideFlags: 1
@@ -14812,7 +14812,7 @@ Transform:
   - {fileID: 458830}
   - {fileID: 415380}
   m_Father: {fileID: 461642}
-  m_RootOrder: 19
+  m_RootOrder: 17
 --- !u!4 &446182
 Transform:
   m_ObjectHideFlags: 1
@@ -15124,8 +15124,8 @@ Transform:
   m_LocalPosition: {x: 23.7053604, y: -6.5047245, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 25
+  m_Father: {fileID: 497984}
+  m_RootOrder: 8
 --- !u!4 &450776
 Transform:
   m_ObjectHideFlags: 1
@@ -15297,7 +15297,7 @@ Transform:
   - {fileID: 451194}
   - {fileID: 434030}
   m_Father: {fileID: 461642}
-  m_RootOrder: 21
+  m_RootOrder: 19
 --- !u!4 &454152
 Transform:
   m_ObjectHideFlags: 1
@@ -15530,7 +15530,7 @@ Transform:
   - {fileID: 488042}
   - {fileID: 425276}
   m_Father: {fileID: 461642}
-  m_RootOrder: 34
+  m_RootOrder: 28
 --- !u!4 &457252
 Transform:
   m_ObjectHideFlags: 1
@@ -15571,7 +15571,7 @@ Transform:
   - {fileID: 436696}
   - {fileID: 457926}
   m_Father: {fileID: 461642}
-  m_RootOrder: 23
+  m_RootOrder: 21
 --- !u!4 &457718
 Transform:
   m_ObjectHideFlags: 1
@@ -15848,8 +15848,6 @@ Transform:
   - {fileID: 405194}
   - {fileID: 463870}
   - {fileID: 408946}
-  - {fileID: 420208}
-  - {fileID: 423618}
   - {fileID: 432614}
   - {fileID: 499552}
   - {fileID: 426658}
@@ -15859,10 +15857,6 @@ Transform:
   - {fileID: 441504}
   - {fileID: 457636}
   - {fileID: 427496}
-  - {fileID: 450656}
-  - {fileID: 435616}
-  - {fileID: 481170}
-  - {fileID: 400602}
   - {fileID: 444320}
   - {fileID: 473176}
   - {fileID: 466056}
@@ -15871,7 +15865,7 @@ Transform:
   - {fileID: 457226}
   - {fileID: 411830}
   m_Father: {fileID: 497984}
-  m_RootOrder: 6
+  m_RootOrder: 12
 --- !u!4 &461858
 Transform:
   m_ObjectHideFlags: 1
@@ -16193,7 +16187,7 @@ Transform:
   - {fileID: 402912}
   - {fileID: 456858}
   m_Father: {fileID: 461642}
-  m_RootOrder: 31
+  m_RootOrder: 25
 --- !u!4 &466070
 Transform:
   m_ObjectHideFlags: 1
@@ -16743,7 +16737,7 @@ Transform:
   - {fileID: 427832}
   - {fileID: 477724}
   m_Father: {fileID: 461642}
-  m_RootOrder: 30
+  m_RootOrder: 24
 --- !u!4 &473224
 Transform:
   m_ObjectHideFlags: 1
@@ -17628,8 +17622,8 @@ Transform:
   m_LocalPosition: {x: 21.9093437, y: -18.0838108, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 461642}
-  m_RootOrder: 27
+  m_Father: {fileID: 497984}
+  m_RootOrder: 10
 --- !u!4 &481302
 Transform:
   m_ObjectHideFlags: 1
@@ -18725,7 +18719,7 @@ Transform:
   - {fileID: 471740}
   - {fileID: 444996}
   m_Father: {fileID: 461642}
-  m_RootOrder: 32
+  m_RootOrder: 26
 --- !u!4 &494490
 Transform:
   m_ObjectHideFlags: 1
@@ -19024,6 +19018,12 @@ Transform:
   - {fileID: 465196}
   - {fileID: 429704}
   - {fileID: 22444392}
+  - {fileID: 420208}
+  - {fileID: 423618}
+  - {fileID: 450656}
+  - {fileID: 435616}
+  - {fileID: 481170}
+  - {fileID: 400602}
   - {fileID: 461642}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -19115,7 +19115,7 @@ Transform:
   - {fileID: 455718}
   - {fileID: 477620}
   m_Father: {fileID: 461642}
-  m_RootOrder: 17
+  m_RootOrder: 15
 --- !u!4 &499592
 Transform:
   m_ObjectHideFlags: 1
@@ -49548,11 +49548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -49923,11 +49923,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50003,11 +50003,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50060,11 +50060,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50148,11 +50148,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50249,11 +50249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50377,11 +50377,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50626,11 +50626,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50820,11 +50820,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50877,11 +50877,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -50976,11 +50976,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51112,11 +51112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51237,11 +51237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51262,11 +51262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51374,7 +51374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 127000, guid: 7abfdb8bf38d54224a2da258ca812908, type: 2}
+  - {fileID: 168430, guid: 6fd87349001184a7ea7b33b1b98a4700, type: 2}
   - {fileID: 192876, guid: 46ff3cf93222e4c7db14679b3c72c653, type: 2}
   - {fileID: 138818, guid: 2da1b199c5b8c4065a172efa1fe6d776, type: 2}
   weaponsSounds:
@@ -51403,11 +51403,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51524,11 +51524,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51593,11 +51593,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51789,11 +51789,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -51999,11 +51999,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -52035,11 +52035,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -52700,11 +52700,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -52736,11 +52736,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -52761,11 +52761,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -52813,11 +52813,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -53270,11 +53270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -53539,11 +53539,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 50
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 10
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -53619,11 +53619,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -53980,11 +53980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -54005,11 +54005,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -54100,11 +54100,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
-  lvl: 1
+  lvl: 6
   life: 100
   baseDamage: 0
   shootDirection: 0

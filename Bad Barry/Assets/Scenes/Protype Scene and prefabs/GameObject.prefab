@@ -1764,7 +1764,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &110064
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -7274,7 +7274,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &139012
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -19424,8 +19424,6 @@ Transform:
   - {fileID: 424844}
   - {fileID: 496674}
   - {fileID: 475310}
-  - {fileID: 413228}
-  - {fileID: 485112}
   - {fileID: 454234}
   - {fileID: 412054}
   - {fileID: 420190}
@@ -19444,7 +19442,7 @@ Transform:
   - {fileID: 481760}
   - {fileID: 465366}
   m_Father: {fileID: 478706}
-  m_RootOrder: 6
+  m_RootOrder: 8
 --- !u!4 &406104
 Transform:
   m_ObjectHideFlags: 1
@@ -20197,7 +20195,7 @@ Transform:
   - {fileID: 476714}
   - {fileID: 453902}
   m_Father: {fileID: 406002}
-  m_RootOrder: 39
+  m_RootOrder: 37
 --- !u!4 &412164
 Transform:
   m_ObjectHideFlags: 1
@@ -20249,7 +20247,7 @@ Transform:
   - {fileID: 421748}
   - {fileID: 444804}
   m_Father: {fileID: 406002}
-  m_RootOrder: 48
+  m_RootOrder: 46
 --- !u!4 &412218
 Transform:
   m_ObjectHideFlags: 1
@@ -20430,8 +20428,8 @@ Transform:
   m_LocalPosition: {x: 24.2531242, y: -36.9332848, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 406002}
-  m_RootOrder: 36
+  m_Father: {fileID: 478706}
+  m_RootOrder: 6
 --- !u!4 &413252
 Transform:
   m_ObjectHideFlags: 1
@@ -20813,7 +20811,7 @@ Transform:
   - {fileID: 458632}
   - {fileID: 430130}
   m_Father: {fileID: 406002}
-  m_RootOrder: 47
+  m_RootOrder: 45
 --- !u!4 &415650
 Transform:
   m_ObjectHideFlags: 1
@@ -21366,7 +21364,7 @@ Transform:
   - {fileID: 484078}
   - {fileID: 400706}
   m_Father: {fileID: 478706}
-  m_RootOrder: 7
+  m_RootOrder: 9
 --- !u!4 &420190
 Transform:
   m_ObjectHideFlags: 1
@@ -21382,7 +21380,7 @@ Transform:
   - {fileID: 401794}
   - {fileID: 469250}
   m_Father: {fileID: 406002}
-  m_RootOrder: 40
+  m_RootOrder: 38
 --- !u!4 &420242
 Transform:
   m_ObjectHideFlags: 1
@@ -22728,7 +22726,7 @@ Transform:
   - {fileID: 466926}
   - {fileID: 426982}
   m_Father: {fileID: 406002}
-  m_RootOrder: 51
+  m_RootOrder: 49
 --- !u!4 &429222
 Transform:
   m_ObjectHideFlags: 1
@@ -24155,7 +24153,7 @@ Transform:
   - {fileID: 482994}
   - {fileID: 475878}
   m_Father: {fileID: 406002}
-  m_RootOrder: 46
+  m_RootOrder: 44
 --- !u!4 &440650
 Transform:
   m_ObjectHideFlags: 1
@@ -24359,7 +24357,7 @@ Transform:
   - {fileID: 480272}
   - {fileID: 486620}
   m_Father: {fileID: 406002}
-  m_RootOrder: 45
+  m_RootOrder: 43
 --- !u!4 &441732
 Transform:
   m_ObjectHideFlags: 1
@@ -26119,7 +26117,7 @@ Transform:
   - {fileID: 452406}
   - {fileID: 444548}
   m_Father: {fileID: 406002}
-  m_RootOrder: 38
+  m_RootOrder: 36
 --- !u!4 &454668
 Transform:
   m_ObjectHideFlags: 1
@@ -26471,7 +26469,7 @@ Transform:
   - {fileID: 459616}
   - {fileID: 425998}
   m_Father: {fileID: 406002}
-  m_RootOrder: 49
+  m_RootOrder: 47
 --- !u!4 &457028
 Transform:
   m_ObjectHideFlags: 1
@@ -27667,7 +27665,7 @@ Transform:
   - {fileID: 487348}
   - {fileID: 453632}
   m_Father: {fileID: 406002}
-  m_RootOrder: 54
+  m_RootOrder: 52
 --- !u!4 &465564
 Transform:
   m_ObjectHideFlags: 1
@@ -28073,7 +28071,7 @@ Transform:
   - {fileID: 499098}
   - {fileID: 463564}
   m_Father: {fileID: 406002}
-  m_RootOrder: 41
+  m_RootOrder: 39
 --- !u!4 &468756
 Transform:
   m_ObjectHideFlags: 1
@@ -29600,6 +29598,8 @@ Transform:
   - {fileID: 22470730}
   - {fileID: 470502}
   - {fileID: 499808}
+  - {fileID: 413228}
+  - {fileID: 485112}
   - {fileID: 406002}
   - {fileID: 420168}
   m_Father: {fileID: 0}
@@ -29839,7 +29839,7 @@ Transform:
   - {fileID: 425546}
   - {fileID: 494236}
   m_Father: {fileID: 406002}
-  m_RootOrder: 53
+  m_RootOrder: 51
 --- !u!4 &481778
 Transform:
   m_ObjectHideFlags: 1
@@ -29951,7 +29951,7 @@ Transform:
   - {fileID: 421274}
   - {fileID: 465898}
   m_Father: {fileID: 406002}
-  m_RootOrder: 52
+  m_RootOrder: 50
 --- !u!4 &482382
 Transform:
   m_ObjectHideFlags: 1
@@ -30328,7 +30328,7 @@ Transform:
   - {fileID: 441572}
   - {fileID: 492994}
   m_Father: {fileID: 406002}
-  m_RootOrder: 44
+  m_RootOrder: 42
 --- !u!4 &484472
 Transform:
   m_ObjectHideFlags: 1
@@ -30423,8 +30423,8 @@ Transform:
   m_LocalPosition: {x: 13.9186144, y: -32.6129608, z: 0}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children: []
-  m_Father: {fileID: 406002}
-  m_RootOrder: 37
+  m_Father: {fileID: 478706}
+  m_RootOrder: 7
 --- !u!4 &485330
 Transform:
   m_ObjectHideFlags: 1
@@ -30918,7 +30918,7 @@ Transform:
   - {fileID: 471766}
   - {fileID: 423948}
   m_Father: {fileID: 406002}
-  m_RootOrder: 50
+  m_RootOrder: 48
 --- !u!4 &488980
 Transform:
   m_ObjectHideFlags: 1
@@ -31876,7 +31876,7 @@ Transform:
   - {fileID: 473322}
   - {fileID: 431878}
   m_Father: {fileID: 406002}
-  m_RootOrder: 42
+  m_RootOrder: 40
 --- !u!4 &495274
 Transform:
   m_ObjectHideFlags: 1
@@ -32232,7 +32232,7 @@ Transform:
   - {fileID: 471280}
   - {fileID: 493268}
   m_Father: {fileID: 406002}
-  m_RootOrder: 43
+  m_RootOrder: 41
 --- !u!4 &497426
 Transform:
   m_ObjectHideFlags: 1
@@ -84531,7 +84531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -84791,7 +84791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -84828,7 +84828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -84864,7 +84864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85187,7 +85187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85212,7 +85212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85426,7 +85426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85470,7 +85470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85618,7 +85618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85684,7 +85684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85829,7 +85829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -85986,7 +85986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86011,7 +86011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86229,7 +86229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86431,7 +86431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86717,7 +86717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86742,7 +86742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -86930,7 +86930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87027,7 +87027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons:
-  - {fileID: 127000, guid: 7abfdb8bf38d54224a2da258ca812908, type: 2}
+  - {fileID: 168430, guid: 6fd87349001184a7ea7b33b1b98a4700, type: 2}
   - {fileID: 192876, guid: 46ff3cf93222e4c7db14679b3c72c653, type: 2}
   - {fileID: 138818, guid: 2da1b199c5b8c4065a172efa1fe6d776, type: 2}
   weaponsSounds:
@@ -87201,7 +87201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87440,7 +87440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87465,7 +87465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87608,7 +87608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87674,7 +87674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87931,7 +87931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -87986,7 +87986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88128,7 +88128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88172,7 +88172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88249,7 +88249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88328,7 +88328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88739,7 +88739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88764,7 +88764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88840,7 +88840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88865,7 +88865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -88982,7 +88982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89039,7 +89039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89124,7 +89124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89179,7 +89179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89204,7 +89204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89229,7 +89229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89273,7 +89273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89432,7 +89432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89538,7 +89538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89574,7 +89574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89754,7 +89754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89923,7 +89923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89948,7 +89948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -89973,7 +89973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -90120,7 +90120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -90335,7 +90335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -90608,7 +90608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -90743,7 +90743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -90779,7 +90779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
@@ -91100,7 +91100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 25
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}

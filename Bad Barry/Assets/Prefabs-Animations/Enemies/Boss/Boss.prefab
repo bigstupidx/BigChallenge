@@ -1535,10 +1535,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce03c4f96b2ce4c3ba9d98b6508460fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsWhenDie: 5
+  coinsWhenDie: 100
   bulletBox:
   - {fileID: 132650, guid: 28536ff4f867e4880868d4d067c74641, type: 2}
   - {fileID: 179622, guid: 06b907e58282d4e85becff36a9047fa9, type: 2}
+  lvl: 1
   life: 100
   baseDamage: 0
   shootDirection: 0
@@ -1693,6 +1694,10 @@ Prefab:
       propertyPath: weapons.Array.data[0]
       value: 
       objectReference: {fileID: 186412, guid: 1468e5b64c72a4462956cbe9c80f50f9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinsWhenDie
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 190886}

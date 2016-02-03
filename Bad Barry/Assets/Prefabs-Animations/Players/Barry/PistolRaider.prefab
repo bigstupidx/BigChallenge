@@ -39,8 +39,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6307d4f6f5824ab1a914d8a01a006d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 10
-  maxDamage: 20
+  minDamage: 5
+  maxDamage: 10
   bulletSpeed: 5
   fireRate: .419999987
   xValueUp: .100000001
@@ -65,6 +65,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: xValueUp
       value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: minDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxDamage
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

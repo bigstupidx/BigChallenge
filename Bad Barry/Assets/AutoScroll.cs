@@ -30,5 +30,6 @@ public class AutoScroll : MonoBehaviour {
 
 	public void goToMap(AudioSource audio){
 		behave.GoToMapWithSound (audio);
+
 	}
 }

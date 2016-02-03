@@ -75,6 +75,17 @@ public static class LanguageDictionary {
 			stringList.Add ("Mode", "Mode");
 			stringList.Add("Mission Completed","Mission Completed");
 
+			stringList.Add ("Loading...", "Loading...");
+			stringList.Add ("Hideout", "Hideout");
+			stringList.Add ("Prison", "Prison");
+			stringList.Add ("Mine", "Mine");
+			stringList.Add ("Storage", "Storage");
+			stringList.Add ("Desert", "Desert");
+			stringList.Add ("Beach", "Beach");
+			stringList.Add ("Play", "Play");
+
+
+
 
 
 			
@@ -139,6 +150,18 @@ public static class LanguageDictionary {
 			stringList.Add ("Horde", "Modo");
 			stringList.Add ("Mode", "Horda");
 			stringList.Add("Mission Completed","Missão Completa");
+
+			stringList.Add ("Loading...", "Carregando...");
+			stringList.Add ("Hideout", "Esconderijo");
+			stringList.Add ("Prison", "Prisão");
+			stringList.Add ("Mine", "Mina");
+			stringList.Add ("Storage", "Armazém");
+			stringList.Add ("Desert", "Deserto");
+			stringList.Add ("Beach", "Praia");
+
+
+			
+
 
 			
 			
