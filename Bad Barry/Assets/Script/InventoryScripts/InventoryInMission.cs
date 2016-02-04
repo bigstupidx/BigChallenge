@@ -68,11 +68,6 @@ public class InventoryInMission : MonoBehaviour {
 			if(inventoryItems[itemNumber].item != null){
 				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 738d1276e47e7acf95d6ac3bd881b80dfcf5d536
-
 				switch(inventoryItems[itemNumber].item.ID){
 
 				case 0 : player.ChangeWeapon(0);
