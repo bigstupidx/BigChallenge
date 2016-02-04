@@ -68,15 +68,6 @@ public class InventoryInMission : MonoBehaviour {
 			if(inventoryItems[itemNumber].item != null){
 				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
-<<<<<<< HEAD
-		
-=======
-//			var color = itemsInGame[0].color;
-//			if(!inventoryItems[itemNumber].item.Stackable){
-//				itemsInGame[itemNumber].color = new Color(1,0,0);
-//			}
-//			var index = itemNumber;
->>>>>>> f2a64d01e1dadaf4a1bbf454bdaf6be1e1dbe57d
 
 				switch(inventoryItems[itemNumber].item.ID){
 

@@ -5,23 +5,46 @@ using UnityEngine.UI;
 public class loade : MonoBehaviour {
 
 	private string scene;
-	public string[] texts;
+	public string[] texts ;
 	public Text loadingText;
-	//public Text tip;
+	public Text tip;
+	public bool tapToPlay = true;
+	public GameObject barry;
+	public GameObject canvas;
 	
 
 	// Use this for initialization
 	void Start () {
-
+		texts = new string[]{ "Jogue o modo horda para conseguir mais experiencia e mais moedas!",
+							  "Refaça as missões anteriores para ficar mais forte para as próximas!",
+							  "A Shotgun é muito poderosa a curta distância!",
+							  "Uma facada, quase sempre, é fatal!",
+							  "Tente desviar das balas dos inimigos!",
+							  "Algumas missões podem ter passagens secretas... Fique esperto!",
+							  "Destribua seus pontos sabiamente...",
+							  "Tente sempre levar bastante itens de cura em suas missões!",
+							  "Não esquecer de sempre ter munição suficiente em suas armas!" };
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		scene = behave.toLoadScene;
-		//tip.text = texts[Random.Range(0,(int)texts.Length)]; 
+		if(scene == "Mission 2" || scene == "Mission 3" || scene == "Mission 4" || scene == "Mission 5" || scene == "Mission 6" || scene == "New Prototype" || scene == "HordeMode" ){
+//			ativar botao
+			canvas.GetComponent<Button>().interactable = true;
+			tapToPlay = false;
+		}
+
+		tip.text = texts[Random.Range(0,(int)texts.Length)]; 
 		//tip.GetComponent<TranslateText>().Refresh();
 		//loadingText.GetComponent<TranslateText>().Refresh();
 
 		StartCoroutine(LoadNewScene());
 
 
+	}
+
+	public void canvasClicked(){
+		print ("clicou no canvas");
+		tapToPlay = true;
+		canvas.GetComponent<Button> ().interactable = false;
 	}
 	
 	// Update is called once per frame
