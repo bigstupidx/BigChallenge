@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Sell : MonoBehaviour {
 
+	public static Dictionary<string, string> stringList = new Dictionary<string, string>();
+
+
 	public Item item;
 	public int coin;
 	public Button button;
