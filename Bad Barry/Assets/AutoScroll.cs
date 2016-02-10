@@ -19,7 +19,7 @@ public class AutoScroll : MonoBehaviour {
 	void Start () {
 		content = (RectTransform)gameObject.transform;
 		canvasRect = (RectTransform)canvas.transform;
-		//behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
 		distanceScrollable = content.rect.height - canvasRect.rect.height;
 		initialContentPosition = content.position.y;
 	}
