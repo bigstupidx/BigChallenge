@@ -144,7 +144,7 @@ public static class LanguageDictionary {
 			stringList.Add ("slot for skill, when you use it you become invincible for a amount of time", "espaço para skill, ao usar você fica invencível por um tempo");
 			stringList.Add ("pause button, you will be able to give up this mission and return to the map", "botão de pausa, você pode desistir da missão e voltar para o mapa");
 			stringList.Add ("Ready? Choose your weapon and GO!", "Pronto? Escolha sua arma e VAI!");
-			stringList.Add ("cleared", "Horda concluida");
+			stringList.Add ("cleared", "Horda concluída");
 			stringList.Add ("buy the Revolver", "compre o Revolver");
 			stringList.Add ("Now you are ready to start your journey, good luck!", "Agora você está pronto para começar sua jornada, boa sorte!");
 			stringList.Add ("Back to the Map to start!", "Voltar para o mapa para começar!");

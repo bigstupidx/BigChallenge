@@ -2,28 +2,41 @@
 using System.Collections;
 
 public class AutoScroll : MonoBehaviour {
-	private Transform content;
+	private RectTransform content;
 	private float timer=0;
-	private float speed=0.001f;
-	private bool enableScrool = true;
-	private float distanceToScrool = 1f;
+	private float speed=0.0001f;
+	private bool enableScroll = true;
+	private float distanceToScroll = 1f;
 	private GameBehavior behave;
+	public Canvas canvas;
+
+
+	public float distanceScrollable;
+	public RectTransform canvasRect;
+	public float initialContentPosition;
+
 	// Use this for initialization
 	void Start () {
-		content = gameObject.transform;
+		content = (RectTransform)gameObject.transform;
+		canvasRect = (RectTransform)canvas.transform;
 		behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
-
+		distanceScrollable = content.rect.height - canvasRect.rect.height;
+		initialContentPosition = content.position.y;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if (enableScrool){
+		if (enableScroll){
 			if (timer < speed) {
 				timer += Time.deltaTime;
 			} else {
 				timer = 0;
-				content.position = new Vector3 (transform.position.x, transform.position.y + distanceToScrool, transform.position.z);
+				print (content.position.y);
+				if(content.position.y < 790.0005){
+					content.position = new Vector3 (transform.position.x, transform.position.y + distanceToScroll, transform.position.z);
+				}
+
 			}
 		}
 	}

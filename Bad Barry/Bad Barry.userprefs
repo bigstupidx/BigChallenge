@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Game/Text Scripts/LanguageDictionary.cs">
     <Files>
-      <File FileName="Assets/Script/InventoryScripts/InventoryInMission.cs" Line="76" Column="2" />
-      <File FileName="Assets/loade.cs" Line="55" Column="28" />
-      <File FileName="Assets/Script/Game/Text Scripts/LanguageDictionary.cs" Line="58" Column="56" />
+      <File FileName="Assets/Script/Game/GameBehavior.cs" Line="258" Column="14" />
+      <File FileName="Assets/Script/MenuManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/MapSceneHandler.cs" Line="95" Column="22" />
+      <File FileName="Assets/Script/Game/Text Scripts/LanguageDictionary.cs" Line="173" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
