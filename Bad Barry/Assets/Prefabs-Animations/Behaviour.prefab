@@ -57,22 +57,26 @@ MonoBehaviour:
   selectedWeapon: 0
   bullets: 000000000000000000000000
   timer: 0
-  timeToEnergy: 600
+  timeToEnergy: 180
   enemiesKilled: 0
   totalEnemies: 0
   coins: 0
   totalCoins: 0
-  hordeKills: 0
+  maxHordeKills: 0
+  currentHordeKills: 0
   ammoSpent: 0
   totalExperience: 0
   knifeKills: 0
   totalDeaths: 0
   totalEnemiesKilled: 0
-  showTutorial: 1
-  showMap: 0
+  showTutorial: 0
+  showMap: 1
   showAttributes: 0
   showStore: 0
   currentMission: 0
+  toLoadScene: 
+  goingToMission: 0
+  selectedMission: 0
 --- !u!114 &11488580
 MonoBehaviour:
   m_ObjectHideFlags: 1

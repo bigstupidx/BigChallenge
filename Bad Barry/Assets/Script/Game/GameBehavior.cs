@@ -94,7 +94,7 @@ public class GameBehavior : MonoBehaviour {
 
 	public float timer = 0;
 
-	public float timeToEnergy = 600;
+	public float timeToEnergy = 180;
 
 
 	public DateTime lastDateTime;

@@ -226,20 +226,53 @@ public class ListBox : MonoBehaviour
 //
 //				print("Nenhuma musica instanciada no objeto");
 //			}
+			var lang = LanguageDictionary.GetLanguage();
+
 
 			//PASSANDO OS DETALHES DOS ITENS PARA OS TEXTS 
 			contentTitle.text = content.Title;
-			contentPrice.text = "Price: "+content.Value.ToString();
+
+			if (lang == SystemLanguage.English || lang == SystemLanguage.Unknown) {
+				contentPrice.text = "Price: "+content.Value.ToString();
+
+			}
+			if (lang == SystemLanguage.Portuguese) {
+				contentPrice.text = "Preço: "+content.Value.ToString();
+
+			}
+
+
 
 			if(content.ID == 5){
-				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[1]+".\n"+"  "+content.Description;
+				if (lang == SystemLanguage.English || lang == SystemLanguage.Unknown) {
+					contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[1]+".\n"+"  "+content.Description;
+
+				}
+				if (lang == SystemLanguage.Portuguese) {
+					contentDetails.text = "Balas: "+ListBank.Instance.behave.bullets[1]+".\n"+"  "+content.Description2;
+
+				}
 			}
 
 			else if(content.ID == 6){
-				contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[2]+".\n"+"  "+ content.Description;
+				if (lang == SystemLanguage.English || lang == SystemLanguage.Unknown) {
+					contentDetails.text = "Bullets: "+ListBank.Instance.behave.bullets[2]+".\n"+"  "+ content.Description;
+
+				}
+				if (lang == SystemLanguage.Portuguese) {
+					contentDetails.text = "Balas: "+ListBank.Instance.behave.bullets[2]+".\n"+"  "+ content.Description2;
+
+				}
 			}
 			else{
-				contentDetails.text = content.Description;
+				if (lang == SystemLanguage.English || lang == SystemLanguage.Unknown) {
+					contentDetails.text = content.Description;
+
+				}
+				if (lang == SystemLanguage.Portuguese) {
+					contentDetails.text = content.Description2;
+
+				}
 			}
 
 

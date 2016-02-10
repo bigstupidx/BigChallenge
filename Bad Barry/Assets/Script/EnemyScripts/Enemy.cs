@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour {
 
 	public int lvl = 1;
 
-	public int life = 100;
+	public int life = 50;
 	public int baseDamage = 0;
 	public int shootDirection = 0;
 	public GameObject weapon;
@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		life = 50;
 		bothAnimator = transform.GetComponent<Animator> ();
 		legAnimator = transform.Find("Legs").GetComponent<Animator>();
 		torsoAnimator = transform.Find("Torso").GetComponent<Animator>();

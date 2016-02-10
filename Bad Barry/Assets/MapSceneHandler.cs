@@ -90,14 +90,20 @@ public class MapSceneHandler : MonoBehaviour {
 
 		var time = behave.timeToEnergy - behave.timer;
 
-		if(((int)(time - (int)(time/60) * 60)) >= 10){
-			counter.text = ((int)(time/60)).ToString() + ":" + ((int)(time - (int)(time/60) * 60)).ToString();
+		if(behave.timer == 0){
 
+			counter.text = "";
 		}else{
-			counter.text = ((int)(time/60)).ToString() + ":0" + ((int)(time - (int)(time/60) * 60)).ToString();
+			if(((int)(time - (int)(time/60) * 60)) >= 10){
+				counter.text = ((int)(time/60)).ToString() + ":" + ((int)(time - (int)(time/60) * 60)).ToString();
+
+			}else{
+				counter.text = ((int)(time/60)).ToString() + ":0" + ((int)(time - (int)(time/60) * 60)).ToString();
 
 
+			}
 		}
+
 
 
 	}

@@ -22,7 +22,7 @@ public static class LanguageDictionary {
 		if (lang == SystemLanguage.English || lang == SystemLanguage.Unknown) {
 			//Set keys and values of the stringList, the key being the word
 			//in default language, and the value the corresponding translation
-			stringList.Add ("tap to play", "tap to play");
+			stringList.Add ("Tap to play", "Tap to play");
 			stringList.Add ("Attributes", "Attributes");
 			stringList.Add ("Inventory", "Inventory");
 			stringList.Add ("Store", "Store");
@@ -90,11 +90,19 @@ public static class LanguageDictionary {
 
 
 
+			stringList.Add ("Play horde mode to get more experience and coins!","Play horde mode to get more experience and coins!");
+			stringList.Add ("Replay previous missions to get stronger!","Replay previous missions to get stronger!");
+			stringList.Add ("Shotgun does massive damage at short distance!","Shotgun does massive damage at short distance!");
+			stringList.Add ("Stabbing enemies is risky, but it does tons of damage!","Stabbing enemies is risky, but it does tons of damage!");
+			stringList.Add ("Try to dodge enemy bullets!","Try to dodge enemy bullets!");
+			stringList.Add ("Some missions might have secret passages... Stay sharp","Some missions might have secret passages... Stay sharp");
+			stringList.Add ("Distribute your points wisely","Distribute your points wisely");
+			stringList.Add ("Try to take a lot of healing items to missions!","Try to take a lot of healing items to missions!");
+			stringList.Add ("Don’t forget to have enough ammo on your weapons!","Don’t forget to have enough ammo on your weapons!");
 
 
-			
-			
-			
+
+		
 			
 		}
 
@@ -102,7 +110,7 @@ public static class LanguageDictionary {
 		//To end, I will provide a bigger example, for portuguese translation
 		if (lang == SystemLanguage.Portuguese) {
 
-			stringList.Add ("tap to play", "aperte para jogar");
+			stringList.Add ("Tap to play", "Aperte para jogar");
 			stringList.Add ("Attributes", "Atributos");
 			stringList.Add ("Inventory", "Inventário");
 			stringList.Add ("Store", "Loja");
@@ -136,7 +144,7 @@ public static class LanguageDictionary {
 			stringList.Add ("slot for skill, when you use it you become invincible for a amount of time", "espaço para skill, ao usar você fica invencível por um tempo");
 			stringList.Add ("pause button, you will be able to give up this mission and return to the map", "botão de pausa, você pode desistir da missão e voltar para o mapa");
 			stringList.Add ("Ready? Choose your weapon and GO!", "Pronto? Escolha sua arma e VAI!");
-			stringList.Add ("cleared", "horda concluida");
+			stringList.Add ("cleared", "Horda concluida");
 			stringList.Add ("buy the Revolver", "compre o Revolver");
 			stringList.Add ("Now you are ready to start your journey, good luck!", "Agora você está pronto para começar sua jornada, boa sorte!");
 			stringList.Add ("Back to the Map to start!", "Voltar para o mapa para começar!");
@@ -156,7 +164,7 @@ public static class LanguageDictionary {
 			stringList.Add("Mission Completed","Missão Completa");
 
 			stringList.Add ("Loading...", "Carregando...");
-			stringList.Add ("Hideout", "Esconderijo");
+			stringList.Add ("Hideout", "Casarão");
 			stringList.Add ("Prison", "Prisão");
 			stringList.Add ("Mine", "Mina");
 			stringList.Add ("Storage", "Armazém");
@@ -169,7 +177,15 @@ public static class LanguageDictionary {
 			stringList.Add ("Press to become invincible for a while", "Aperte para se tornar invencível por um tempo");
 
 
-			
+			stringList.Add ("Play horde mode to get more experience and coins!","Jogue o modo horda para conseguir mais experiência e mais moedas!");
+			stringList.Add ("Replay previous missions to get stronger!","Refaça as missões anteriores para ficar mais forte para as próximas!");
+			stringList.Add ("Shotgun does massive damage at short distance!","A Shotgun é muito poderosa a curta distância!");
+			stringList.Add ("Stabbing enemies is risky, but it does tons of damage!","Uma facada é arriscada, mas dá muito dano!");
+			stringList.Add ("Try to dodge enemy bullets!","Tente desviar das balas dos inimigos!");
+			stringList.Add ("Some missions might have secret passages... Stay sharp","Algumas missões podem ter passagens secretas... Fique esperto!");
+			stringList.Add ("Distribute your points wisely","Destribua seus pontos sabiamente...");
+			stringList.Add ("Try to take a lot of healing items to missions!","Tente sempre levar bastante itens de cura em suas missões!");
+			stringList.Add ("Don’t forget to have enough ammo on your weapons!","Não esquecer de sempre ter munição suficiente em suas armas!");
 
 
 			

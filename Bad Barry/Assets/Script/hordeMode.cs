@@ -155,8 +155,7 @@ public class hordeMode : MonoBehaviour {
 		{
 			timer = 8;
 			clearedText.GetComponent<Text>().text = "cleared";
-			print("concertar clique para ir para local");
-			//clearedText.GetComponent<TranslateText>().Refresh();
+			clearedText.GetComponent<TranslateText>().Refresh();
 
 			
 			clearedText.GetComponent<Animator>().SetTrigger("cleared");

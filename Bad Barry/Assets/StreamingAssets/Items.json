@@ -11,8 +11,8 @@
 			"minDamage": 10,
 			"maxDamage": 20
 		},
-		"description" : "Damage: 10 ~ 20\nRate: 20\nRange: 30",
-		"description2" : "Dano: 10 ~ 20\nVelocidade: 20\nDistância: 30",
+		"description" : "Damage: 20 ~ 30\nRate: 20\nRange: 30",
+		"description2" : "Dano: 20 ~ 30\nVelocidade: 20\nDistância: 30",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "initial_pistol"
@@ -20,7 +20,7 @@
 	{
 		"id": 1,
 		"title": "Water",
-		"value": 10,
+		"value": 50,
 		"stats": {
 			"power": 0,
 			"defense": 0,
@@ -48,8 +48,8 @@
 			"minDamage": 13,
 			"maxDamage": 22
 		},
-		"description" : "Damage: 5 ~ 10\nRate: 50\nRange: 25",
-		"description2" : "Dano: 5 ~ 10\nVelocidade: 50\nDistância: 25",
+		"description" : "Damage: 10 ~ 20\nRate: 50\nRange: 25",
+		"description2" : "Dano: 10 ~ 20\nVelocidade: 50\nDistância: 25",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "sub_machine_gun"
@@ -67,8 +67,8 @@
 			"minDamage": 5,
 			"maxDamage": 50
 		},
-		"description" : "Damage: 13 ~ 91\nRate: 10\nRange: 15",
-		"description2" : "Dano: 13 ~ 91\nVelocidade: 10\nDistância: 15",
+		"description" : "Damage: 15 ~ 105\nRate: 10\nRange: 15",
+		"description2" : "Dano: 15 ~ 105\nVelocidade: 10\nDistância: 15",
 		"stackable" : false,
 		"ability": false,
 		"slug" : "shotgun"
