@@ -28041,7 +28041,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122992}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28057,7 +28057,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109400}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28089,7 +28089,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180560}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28105,7 +28105,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173288}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28121,7 +28121,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192632}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28137,7 +28137,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153490}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28153,7 +28153,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159652}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28169,7 +28169,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189112}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28185,7 +28185,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120610}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28201,7 +28201,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126402}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28217,7 +28217,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181246}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28233,7 +28233,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163488}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28249,7 +28249,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146626}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28265,7 +28265,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155028}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28281,7 +28281,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103828}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28297,7 +28297,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114162}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28313,7 +28313,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107194}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28329,7 +28329,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 143898}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28345,7 +28345,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129568}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28361,7 +28361,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174900}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28377,7 +28377,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142108}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28393,7 +28393,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100712}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28409,7 +28409,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122782}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28441,7 +28441,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199452}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28457,7 +28457,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 193180}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28473,7 +28473,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120406}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28489,7 +28489,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186610}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28505,7 +28505,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151848}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28521,7 +28521,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159016}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28537,7 +28537,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 124952}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28553,7 +28553,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 152928}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28569,7 +28569,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155614}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28585,7 +28585,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128328}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28601,7 +28601,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113584}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28617,7 +28617,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129004}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28633,7 +28633,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121598}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28665,7 +28665,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122278}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28681,7 +28681,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144782}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28697,7 +28697,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195574}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28713,7 +28713,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157280}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28729,7 +28729,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 130030}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28745,7 +28745,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153782}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28761,7 +28761,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165232}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28793,7 +28793,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144208}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
@@ -28809,7 +28809,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107496}
-  m_Mass: 1000
+  m_Mass: 10
   m_LinearDrag: 10
   m_AngularDrag: .5
   m_GravityScale: 0
