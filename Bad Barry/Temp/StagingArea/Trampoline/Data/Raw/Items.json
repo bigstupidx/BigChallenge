@@ -1,0 +1,135 @@
+[
+	{
+		"id": 0,
+		"title": "Revolver",
+		"value": 100,
+		"stats": {
+			"power": 2,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 20,
+			"minDamage": 10,
+			"maxDamage": 20
+		},
+		"description" : "Damage: 20 ~ 30\nRate: 20\nRange: 30",
+		"description2" : "Dano: 20 ~ 30\nVelocidade: 20\nDistância: 30",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "initial_pistol"
+	},
+	{
+		"id": 1,
+		"title": "Water",
+		"value": 50,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 10,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Regain a little vitality ",
+		"description2" : "Recupera um pouco da sua vida",
+		"stackable" : true,
+		"ability": false,
+		"slug" : "water"
+
+	},
+	{
+		"id": 2,
+		"title": "MP-9",
+		"value": 1200,
+		"stats": {
+			"power": 4,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 30,
+			"minDamage": 13,
+			"maxDamage": 22
+		},
+		"description" : "Damage: 10 ~ 20\nRate: 50\nRange: 25",
+		"description2" : "Dano: 10 ~ 20\nVelocidade: 50\nDistância: 25",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "sub_machine_gun"
+
+	},
+	{
+		"id": 3,
+		"title": "Shotgun",
+		"value": 1700,
+		"stats": {
+			"power": 4,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 20,
+			"minDamage": 5,
+			"maxDamage": 50
+		},
+		"description" : "Damage: 15 ~ 105\nRate: 10\nRange: 15",
+		"description2" : "Dano: 15 ~ 105\nVelocidade: 10\nDistância: 15",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "shotgun"
+
+	},
+	{
+		"id": 4,
+		"title": "Survivor",
+		"value": 3000,
+		"stats": {
+			"power": 4,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Unlock the ability to not take damage for a while",
+		"description2" : "Desbloqueia a habilidade de não tomar dano por um tempo",
+		"stackable" : false,
+		"ability": true,
+		"slug" : "survivor"
+
+	},
+	{
+		"id": 5,
+		"title": "MP-9 Ammo",
+		"value": 50,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Contains 30 bullets for MP-9",
+		"description2" : "Contém 30 balas para a MP-9",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "mp9_ammo"
+
+	},
+	{
+		"id": 6,
+		"title": "Shotgun Ammo",
+		"value": 70,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 0,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Cartridge with 8 bullets for Shotgun",
+		"description2" : "Cartucho com 8 balas para a Shotgun",
+		"stackable" : false,
+		"ability": false,
+		"slug" : "shotgun_ammo"
+
+	}
+
+]
