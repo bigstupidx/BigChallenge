@@ -38,6 +38,22 @@ public class InventoryInMission : MonoBehaviour {
 
 								if(inventoryItems[index].amount > 1){
 									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
+									//logica da posicao do amount
+//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().rectTransform.rect.width = image.rectTransform.rect.width / (float)2.78;
+//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().rectTransform.rect.height = image.rectTransform.rect.height / (float)2.20;
+
+									//LOGICA WIDTH AMOUNT
+									//width do item / 2.8
+//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2(image.GetComponentInChildren<Image>().GetComponent<RectTransform>().rect.width / (float)2.8,image.GetComponentInChildren<Image>().GetComponent<RectTransform>().rect.height / (float)2.2);
+								
+									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2((float)63/(float)2.8,(float)63/(float)2.2);
+									//LOGICA HEIGHT AMOUNT
+									//HEIGHT do item / 2.2
+
+
+
+
+									print (image.rectTransform.rect.position.x + "  " + image.rectTransform.rect.position.y);
 								}
 								else{
 									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";

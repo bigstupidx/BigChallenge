@@ -4971,8 +4971,8 @@ MonoBehaviour:
     m_Bottom: 6
   m_ChildAlignment: 4
   m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
 --- !u!114 &11430832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8487,10 +8487,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22482218}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 19.2999992, y: -18}
-  m_SizeDelta: {x: 10.3999996, y: 16.1000004}
+  m_AnchorMin: {x: .59523809, y: 0}
+  m_AnchorMax: {x: .944492102, y: .266795635}
+  m_AnchoredPosition: {x: 0, y: -.5}
+  m_SizeDelta: {x: 0, y: 3.10000038}
   m_Pivot: {x: .5, y: .5}
 --- !u!225 &22545388
 CanvasGroup:

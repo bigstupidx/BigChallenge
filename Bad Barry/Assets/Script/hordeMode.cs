@@ -18,7 +18,6 @@ public class hordeMode : MonoBehaviour {
 	public int count = 0;
 
 	public GameBehavior behave;
-//	public GameObject infinity;
 
 	//tutorial
 	public GameObject canvasTutorial;
