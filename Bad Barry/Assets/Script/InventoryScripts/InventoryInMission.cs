@@ -11,69 +11,89 @@ public class InventoryInMission : MonoBehaviour {
 	private string count;
 	private RectTransform imageRect;
 	private float imageWidth;
-	
 
+	//logica nova
+	public GameObject imageSlot1;
+	public GameObject imageSlot2;
+	public GameObject imageSlot3;
+
+	public GameObject amount1;
+	public GameObject amount2;
+	public GameObject amount3;
+
+	public enum items{
+		pistol = 0,
+		water = 1,
+		MP9 = 2,
+		shotgun = 3,
+		cerealBar = 7,
+	}
 
 	void Start(){
 		var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+		var player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
 		inventoryItems = behave.getInventoryItems();
 
-		itemsInGame = gameObject.GetComponentsInChildren<Image>();
-		imageRect = this.GetComponent<RectTransform>();
-		imageWidth = imageRect.rect.width/3;
-//		print ("nome do text = "+itemsInGame[0].transform.GetChild(0).GetChild(0).GetComponent<Text>().GetComponent<RectTransform>().position = new Vector3);
+		//logica p/ arma inicial do game ser a primeira dos slots
+		
+//		selectedWeapon = 0;
 
-		if(inventoryItems != null){
-			int index = 0;
-			foreach(Image image in itemsInGame){
-				if(image.name == "ImageSlot0" || image.name == "ImageSlot1" || image.name == "ImageSlot2"){
-					if(inventoryItems.Count > index){
-						if(inventoryItems[index].item != null){
-							image.GetComponentInChildren<Image>().sprite = inventoryItems[index].item.Sprite;
-
-							if(inventoryItems[index].item.Stackable){
-								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().localPosition = new Vector3(imageWidth/(float)3,-imageWidth/(float)2.89,0);
-								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2(imageWidth/(float)4,imageWidth/(float)3.7);
-								image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().resizeTextForBestFit = true;
-
-								if(inventoryItems[index].amount > 1){
-									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[index].amount.ToString();
-									//logica da posicao do amount
-//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().rectTransform.rect.width = image.rectTransform.rect.width / (float)2.78;
-//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().rectTransform.rect.height = image.rectTransform.rect.height / (float)2.20;
-
-									//LOGICA WIDTH AMOUNT
-									//width do item / 2.8
-//									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2(image.GetComponentInChildren<Image>().GetComponent<RectTransform>().rect.width / (float)2.8,image.GetComponentInChildren<Image>().GetComponent<RectTransform>().rect.height / (float)2.2);
-								
-									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().GetComponent<RectTransform>().sizeDelta = new Vector2((float)63/(float)2.8,(float)63/(float)2.2);
-									//LOGICA HEIGHT AMOUNT
-									//HEIGHT do item / 2.2
-
-
-
-
-									print (image.rectTransform.rect.position.x + "  " + image.rectTransform.rect.position.y);
-								}
-								else{
-									image.GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
-								}
-
-							}
-								var x = image.GetComponentInChildren<Image>();
-							x.color = Color.white;
-
-						}
-						else{
-							var x = image.GetComponentInChildren<Image>();
-							x.color = Color.clear;
-						}
-							
-					}
-					index++;
+		if (inventoryItems != null) {
+			for (int i = 0; i<inventoryItems.Count; i++) {
+				if (!inventoryItems [i].item.Stackable) {
+					if (inventoryItems [i].item.ID == 2)
+						player.ChangeWeapon (1);
+					else if (inventoryItems [i].item.ID == 3)
+						player.ChangeWeapon (2);
+					print ("entrou aqui e o selectedweapon ta = " + behave.selectedWeapon);
+					break;
 				}
 			}
 		}
+
+
+		//LOGICA NOVA
+
+	if (inventoryItems != null) {
+			if (inventoryItems [0].item != null) {
+				imageSlot1.GetComponent<Image> ().color = Color.white;
+				imageSlot1.GetComponent<Image> ().sprite = inventoryItems [0].item.Sprite;
+			} else
+				imageSlot1.GetComponent<Image> ().color = Color.clear;
+
+			if (inventoryItems [1].item != null) {
+				imageSlot2.GetComponent<Image> ().color = Color.white;
+				imageSlot2.GetComponent<Image> ().sprite = inventoryItems [1].item.Sprite;
+			} else
+				imageSlot2.GetComponent<Image> ().color = Color.clear;
+
+			if (inventoryItems [2].item != null) {
+				imageSlot3.GetComponent<Image> ().color = Color.white;
+				imageSlot3.GetComponent<Image> ().sprite = inventoryItems [2].item.Sprite;
+			} else
+				imageSlot3.GetComponent<Image> ().color = Color.clear;
+
+
+			if (inventoryItems [0].amount > 1) {
+				amount1.GetComponent<Text> ().text = inventoryItems [0].amount.ToString ();
+			} else
+				amount1.GetComponent<Text> ().text = "";
+
+			if (inventoryItems [1].amount > 1) {
+				amount2.GetComponent<Text> ().text = inventoryItems [1].amount.ToString ();
+			} else
+				amount2.GetComponent<Text> ().text = "";
+
+			if (inventoryItems [2].amount > 1) {
+				amount3.GetComponent<Text> ().text = inventoryItems [2].amount.ToString ();
+			} else
+				amount3.GetComponent<Text> ().text = "";
+	} else {
+			imageSlot1.GetComponent<Image> ().color = Color.clear;
+			imageSlot2.GetComponent<Image> ().color = Color.clear;
+			imageSlot3.GetComponent<Image> ().color = Color.clear;
+	}
+
 
 	}
 
@@ -81,56 +101,77 @@ public class InventoryInMission : MonoBehaviour {
 	//funcao para usar item
 	public void ItemPressed(int itemNumber){
 
-			if(inventoryItems[itemNumber].item != null){
-				var player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+		//FAZER LOGICA P/ ITEMPRESSED
+		if (inventoryItems != null) {
 
-				switch(inventoryItems[itemNumber].item.ID){
+			if (inventoryItems [itemNumber].item != null) {
+				var player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
+				var behave = GameObject.FindGameObjectWithTag ("Behaviour").GetComponent<GameBehavior> ();
 
-				case 0 : player.ChangeWeapon(0);
+				switch (inventoryItems [itemNumber].item.ID) {
+
+				case (int)items.pistol:
+					player.ChangeWeapon (0);
 					break;
 
-			case 1: player.Heal(inventoryItems[itemNumber].item.Vitality);
+				case (int)items.water:
+					player.Heal (inventoryItems [itemNumber].item.Vitality);
 
-				Image slotImage = itemsInGame[0];
-				inventoryItems[itemNumber].amount--;
-				var behave = GameObject.FindGameObjectWithTag("Behaviour").GetComponent<GameBehavior>();
+					inventoryItems [itemNumber].amount--;
+					behave.inventory [1]--;
+
 				
-				behave.inventory[1]--;
-
-				foreach(Image image in itemsInGame){
-					if(image.name == ("ImageSlot"+itemNumber)){
-						slotImage = image;
-					}
-
-				}
-
-				//	print(itemsInGame[itemNumber].transform.GetChild(0).GetComponent<Text>().name);
-
-				if(inventoryItems[itemNumber].amount > 1){
-					slotImage.GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString() ;
-
-//						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = inventoryItems[itemNumber].amount.ToString();
-					}
-					else{
-					slotImage.GetComponentInChildren<Text>().text = "";
-//						itemsInGame[itemNumber].GetComponentInChildren<Image>().GetComponentInChildren<Text>().text = "";
-					}
-
-					if(inventoryItems[itemNumber].amount <= 0){
-						inventoryItems[itemNumber].item = null;
-						slotImage.color = Color.clear;
-					}
-			
 					break;
-				case 2 : player.ChangeWeapon(1);
+				case (int)items.MP9:
+					player.ChangeWeapon (1);
 					break;
-				case 3 : player.ChangeWeapon(2);
+				case (int)items.shotgun:
+					player.ChangeWeapon (2);
+					break;
+
+				case (int)items.cerealBar:
+					player.Heal (inventoryItems [itemNumber].item.Vitality);
+				
+					inventoryItems [itemNumber].amount--;
+					behave.inventory [7]--;
 					break;
 
 				}
+
+				//VERIFICACOES
+				if (inventoryItems [itemNumber].item.Stackable) {
+					if (itemNumber == 0) {
+						if (inventoryItems [itemNumber].amount > 1)
+							amount1.GetComponent<Text> ().text = inventoryItems [itemNumber].amount.ToString ();
+						else
+							amount1.GetComponent<Text> ().text = "";
+					} else if (itemNumber == 1) {
+						if (inventoryItems [itemNumber].amount > 1)
+							amount2.GetComponent<Text> ().text = inventoryItems [itemNumber].amount.ToString ();
+						else
+							amount2.GetComponent<Text> ().text = "";
+					} else if (itemNumber == 2) {
+						if (inventoryItems [itemNumber].amount > 1)
+							amount3.GetComponent<Text> ().text = inventoryItems [itemNumber].amount.ToString ();
+						else
+							amount3.GetComponent<Text> ().text = "";
+					}
+
+					//VER SE ACABOU O ITEM
+					if (inventoryItems [itemNumber].amount <= 0) {
+						inventoryItems [itemNumber].item = null;
+						if (itemNumber == 0)
+							imageSlot1.GetComponent<Image> ().color = Color.clear;
+						else if (itemNumber == 1) 
+							imageSlot2.GetComponent<Image> ().color = Color.clear;
+						else if (itemNumber == 2) 
+							imageSlot3.GetComponent<Image> ().color = Color.clear;
+					}
+				
+				}
+
 			}
-
-//		}
+		}
 		return;
 	}
 }

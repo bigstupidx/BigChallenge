@@ -24,7 +24,7 @@
 		"stats": {
 			"power": 0,
 			"defense": 0,
-			"vitality": 10,
+			"vitality": 15,
 			"bulletSpeed": 0,
 			"minDamage": 0,
 			"maxDamage": 0
@@ -129,6 +129,25 @@
 		"stackable" : false,
 		"ability": false,
 		"slug" : "shotgun_ammo"
+
+	},
+	{
+		"id": 7,
+		"title": "Cereal bar",
+		"value": 150,
+		"stats": {
+			"power": 0,
+			"defense": 0,
+			"vitality": 40,
+			"bulletSpeed": 0,
+			"minDamage": 0,
+			"maxDamage": 0
+		},
+		"description" : "Recovers your life more than water ",
+		"description2" : "Recupera sua vida mais do que a water",
+		"stackable" : true,
+		"ability": false,
+		"slug" : "cereal_bar"
 
 	}
 

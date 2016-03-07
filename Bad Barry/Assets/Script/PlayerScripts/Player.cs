@@ -54,12 +54,13 @@ public class Player : MonoBehaviour {
 
 	public bool skillActivate = false;
 	public float timeToStopSkill = 5;
-	public float reloadingTime = 35;
+	public float reloadingTime = 20;
 	public float skillTimer = 0;
 	
 	public bool reloading = false;
 	public float reloadingTimer = 0;
 	public DateTime currentTime;
+	public float extraTime;
 
 	public int mission;
 
@@ -76,9 +77,26 @@ public class Player : MonoBehaviour {
 		vitality = behave.getVitality();
 		isShooting = false;
 
+		//NOVA LOGICA
+		if (vitality <= 10)
+			maxLife = vitality * 10;
+		else if (vitality > 10 && vitality <= 20)
+			maxLife = vitality * 12;
+		else if (vitality > 20 && vitality <= 30)
+			maxLife = vitality * 15;
+		else
+			maxLife = vitality * 17;
 
-		maxLife = vitality * 10;
-		baseDamage = strength;
+
+		if(strength <= 10)
+			baseDamage = strength + 2;
+		else if(strength > 10 && strength <=20)
+				baseDamage = strength + 4;
+		else if(strength > 20 && strength <=30)
+				baseDamage = strength + 6;
+		else
+			baseDamage = strength + 8;
+
 		speed = 1 + agility * 0.01f;
 		life = maxLife;
 		behave.life = life;
@@ -115,6 +133,10 @@ public class Player : MonoBehaviour {
 
 
 		behave.pause = false;
+
+		extraTime = (float)behave.getInteligence () / (float)4;
+		timeToStopSkill += extraTime;
+		reloadingTime = 20;
 	}
 
 	void FixedUpdate(){

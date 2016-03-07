@@ -155,7 +155,7 @@ public class GameBehavior : MonoBehaviour {
 					Debug.Log ("Failed to authenticate");
 			});
 			
-			
+
 		}
 
 
