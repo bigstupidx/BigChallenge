@@ -459,7 +459,7 @@ public class GameBehavior : MonoBehaviour {
 			pause = false;
 		
 			if(!showTutorial)
-				energy--;
+
 				
 			loadingSound = true;
 				

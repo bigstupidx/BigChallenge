@@ -33,6 +33,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &105794
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 438704}
+  - 68: {fileID: 6852380}
+  m_Layer: 0
+  m_Name: PolylineObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &105970
 GameObject:
   m_ObjectHideFlags: 1
@@ -361,22 +377,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &190866
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 434022}
-  - 68: {fileID: 6889068}
-  m_Layer: 0
-  m_Name: PolylineObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &191974
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,18 +489,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 476832}
   m_RootOrder: 0
---- !u!4 &434022
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190866}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49.7343979, y: -53.907402, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 474180}
-  m_RootOrder: 0
 --- !u!4 &437518
 Transform:
   m_ObjectHideFlags: 1
@@ -512,6 +500,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 475802}
+  m_RootOrder: 0
+--- !u!4 &438704
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.7343979, y: -53.907402, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474180}
   m_RootOrder: 0
 --- !u!4 &443960
 Transform:
@@ -636,7 +636,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 434022}
+  - {fileID: 438704}
   - {fileID: 456604}
   m_Father: {fileID: 412800}
   m_RootOrder: 10
@@ -1013,37 +1013,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165848}
   m_Mesh: {fileID: 4300012, guid: aedccf5ed909343838c9aab654de3fec, type: 3}
---- !u!68 &6854312
+--- !u!68 &6852380
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 128124}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: .0147080002, y: .0294161011}
-  - {x: 3.82594991, y: .0288015995}
-  - {x: 3.83147001, y: 7.6745801}
-  - {x: -5.24673986, y: 7.6751895}
-  - {x: -5.23754978, y: .0263570994}
-  - {x: -.713458002, y: .0294161011}
-  - {x: -.707325935, y: 1.03156996}
-  - {x: -4.90778017, y: 1.04198992}
-  - {x: -4.89735985, y: 6.63749027}
-  - {x: 3.49066973, y: 6.63749027}
-  - {x: 3.50109005, y: 1.04198992}
-  - {x: -.0104199005, y: 1.04198992}
-  - {x: -.0104199005, y: .0208398011}
---- !u!68 &6889068
-EdgeCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190866}
+  m_GameObject: {fileID: 105794}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1152,6 +1127,31 @@ EdgeCollider2D:
   - {x: 1.72770989, y: 9.80776024}
   - {x: -.0212350003, y: 9.80776024}
   - {x: -.0212350003, y: .00992727932}
+--- !u!68 &6854312
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128124}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: .0147080002, y: .0294161011}
+  - {x: 3.82594991, y: .0288015995}
+  - {x: 3.83147001, y: 7.6745801}
+  - {x: -5.24673986, y: 7.6751895}
+  - {x: -5.23754978, y: .0263570994}
+  - {x: -.713458002, y: .0294161011}
+  - {x: -.707325935, y: 1.03156996}
+  - {x: -4.90778017, y: 1.04198992}
+  - {x: -4.89735985, y: 6.63749027}
+  - {x: 3.49066973, y: 6.63749027}
+  - {x: 3.50109005, y: 1.04198992}
+  - {x: -.0104199005, y: 1.04198992}
+  - {x: -.0104199005, y: .0208398011}
 --- !u!114 &11402602
 MonoBehaviour:
   m_ObjectHideFlags: 1
