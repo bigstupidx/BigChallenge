@@ -538,7 +538,7 @@ public class Player : MonoBehaviour {
 		behave.CheckDeathAchievements();
 
 
-		if (Application.loadedLevelName == "HordeMode") {
+		if ( Application.loadedLevelName == "HordeMode") {
 
 			behave.finishedHordeMode();
 		}

@@ -1628,7 +1628,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7591] = 
+extern const int32_t g_FieldOffsetTable[7592] = 
 {
 	0,
 	0,
@@ -8790,6 +8790,7 @@ extern const int32_t g_FieldOffsetTable[7591] =
 	GameBehavior_t1830462596::get_offset_of_selectedMission_73(),
 	GameBehavior_t1830462596_StaticFields::get_offset_of_U3CU3Ef__amU24cache48_74(),
 	GameBehavior_t1830462596_StaticFields::get_offset_of_U3CU3Ef__amU24cache49_75(),
+	GameBehavior_t1830462596_StaticFields::get_offset_of_U3CU3Ef__amU24cache4A_76(),
 	U3CPlayAudioU3Ec__Iterator2_t195151385::get_offset_of_currentAudio_0(),
 	U3CPlayAudioU3Ec__Iterator2_t195151385::get_offset_of_levelName_1(),
 	U3CPlayAudioU3Ec__Iterator2_t195151385::get_offset_of_U24PC_2(),

@@ -29,8 +29,6 @@ struct List_1_t2038637174;
 
 // System.Void GameBehavior::.ctor()
 extern "C"  void GameBehavior__ctor_m977543831 (GameBehavior_t1830462596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameBehavior::_ReportAchievement(System.String,System.Single)
-extern "C"  void GameBehavior__ReportAchievement_m1786703454 (Il2CppObject * __this /* static, unused */, String_t* ___achievementID, float ___progress, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameBehavior::Start()
 extern "C"  void GameBehavior_Start_m4219648919 (GameBehavior_t1830462596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameBehavior::ReportAchievement(System.String,System.Int32)
@@ -132,7 +130,7 @@ extern "C"  void GameBehavior_load_m1124307731 (GameBehavior_t1830462596 * __thi
 // System.Void GameBehavior::<Start>m__0(System.Boolean)
 extern "C"  void GameBehavior_U3CStartU3Em__0_m227532743 (Il2CppObject * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameBehavior::<finishedHordeMode>m__1(System.Boolean)
-extern "C"  void GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725 (GameBehavior_t1830462596 * __this, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725 (Il2CppObject * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameBehavior::<ReportScoreDetailed>m__2(System.Boolean)
 extern "C"  void GameBehavior_U3CReportScoreDetailedU3Em__2_m2512038685 (Il2CppObject * __this /* static, unused */, bool ___success, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameBehavior::<CheckWeaponAchievements>m__3(System.Boolean)

@@ -77678,6 +77678,34 @@ void GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache
 		typeCache->attributeTypes[0] = CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
 	}
 }
+extern TypeInfo* CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
+extern const uint32_t GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4A_MetadataUsageId;
+void GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4A(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4A_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	if (cache)
+	{
+		cache->count = 1;
+		cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Il2CppObject *) * cache->count, 0);
+		{
+			CompilerGeneratedAttribute_t853953138 * tmp;
+			tmp = (CompilerGeneratedAttribute_t853953138 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var);
+			CompilerGeneratedAttribute__ctor_m2546676106(tmp, NULL);
+			cache->attributes[0] = (Il2CppObject*)tmp;
+		}
+	}
+	if (typeCache)
+	{
+		typeCache->count = 1;
+		typeCache->attributeTypes = (TypeInfo**)il2cpp_codegen_calloc(typeCache->count, sizeof(TypeInfo*));
+		typeCache->attributeTypes[0] = CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
+	}
+}
 extern TypeInfo* DebuggerHiddenAttribute_t2476753104_il2cpp_TypeInfo_var;
 extern const uint32_t GameBehavior_t1830462596_CustomAttributesCacheGenerator_GameBehavior_PlayAudio_m1136709221_MetadataUsageId;
 void GameBehavior_t1830462596_CustomAttributesCacheGenerator_GameBehavior_PlayAudio_m1136709221(CustomAttributesCache* cache, CustomAttributeTypeCache* typeCache)
@@ -82194,7 +82222,7 @@ void U3CPrivateImplementationDetailsU3E_t3053238938_CustomAttributesCacheGenerat
 		typeCache->attributeTypes[0] = CompilerGeneratedAttribute_t853953138_il2cpp_TypeInfo_var;
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[2752] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[2753] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -84787,6 +84815,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[2752] =
 	U3CBlinkArrowU3Ec__Iterator1_t2079604661_CustomAttributesCacheGenerator_U3CBlinkArrowU3Ec__Iterator1_Reset_m2634442254,
 	GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache48,
 	GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache49,
+	GameBehavior_t1830462596_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4A,
 	GameBehavior_t1830462596_CustomAttributesCacheGenerator_GameBehavior_PlayAudio_m1136709221,
 	GameBehavior_t1830462596_CustomAttributesCacheGenerator_GameBehavior_U3CStartU3Em__0_m227532743,
 	GameBehavior_t1830462596_CustomAttributesCacheGenerator_GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725,

@@ -11286,7 +11286,6 @@ extern "C" void FollowPlayer_Awake_m3833621036 ();
 extern "C" void FollowPlayer_Start_m2543153609 ();
 extern "C" void FollowPlayer_Update_m1534202724 ();
 extern "C" void GameBehavior__ctor_m977543831 ();
-extern "C" void GameBehavior__ReportAchievement_m1786703454 ();
 extern "C" void GameBehavior_Start_m4219648919 ();
 extern "C" void GameBehavior_ReportAchievement_m4281152869 ();
 extern "C" void GameBehavior_ReportScore_m605145793 ();
@@ -11833,7 +11832,7 @@ extern "C" void Weapon_PlayItemSound_m2884913637 ();
 extern "C" void WeaponStats__ctor_m3434633992 ();
 extern "C" void WeaponStats_Start_m2381771784 ();
 extern "C" void WeaponStats_Update_m826333445 ();
-extern const methodPointerType g_MethodPointers[11822] = 
+extern const methodPointerType g_MethodPointers[11821] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -23110,7 +23109,6 @@ extern const methodPointerType g_MethodPointers[11822] =
 	FollowPlayer_Start_m2543153609,
 	FollowPlayer_Update_m1534202724,
 	GameBehavior__ctor_m977543831,
-	GameBehavior__ReportAchievement_m1786703454,
 	GameBehavior_Start_m4219648919,
 	GameBehavior_ReportAchievement_m4281152869,
 	GameBehavior_ReportScore_m605145793,

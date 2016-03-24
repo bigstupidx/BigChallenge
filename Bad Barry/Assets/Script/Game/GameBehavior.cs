@@ -7,6 +7,7 @@ using System.IO;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
 using System.Runtime.InteropServices;
+using UnityEngine.SceneManagement;
 
 
 public class GameBehavior : MonoBehaviour {
@@ -49,8 +50,8 @@ public class GameBehavior : MonoBehaviour {
 	private string shotgunAchievId = "shotgunAchiev";
 
 
-	[DllImport("__Internal")]
-	private static extern void _ReportAchievement( string achievementID, float progress );
+	//DllImport("__Internal")]
+	//private static extern void ReportAchievement( string achievementID, float progress );
 
 	private bool loadingSound = false; //assegura que tocará um audio por vez
 
@@ -187,7 +188,7 @@ public class GameBehavior : MonoBehaviour {
 		//use this when reporting achievment
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 			
-			_ReportAchievement(id,percentage);
+			//ReportAchievement(id,percentage);
 			
 		}
 		
@@ -198,7 +199,7 @@ public class GameBehavior : MonoBehaviour {
 	
 		if(Application.platform == RuntimePlatform.IPhonePlayer){
 			
-			ReportScoreDetailed(score,id);
+			//ReportScoreDetailed(score,id);
 			
 		}
 		
@@ -219,7 +220,8 @@ public class GameBehavior : MonoBehaviour {
 
 			Social.localUser.Authenticate( success => {
 				if (success)
-					ReportScore(maxHordeKills,hordeScoreBoardId);
+					print("");
+					//ReportScore(maxHordeKills,hordeScoreBoardId);
 				else
 					Debug.Log ("Failed to authenticate primeiro");
 			});
@@ -378,6 +380,8 @@ public class GameBehavior : MonoBehaviour {
 		if(!showTutorial)
 			save();
 		toLoadScene = "MapScene";
+
+
 		Application.LoadLevel("loadingScene");
 		
 		
@@ -562,6 +566,7 @@ public class GameBehavior : MonoBehaviour {
 		loadingSound = false;
 
 		toLoadScene = levelName;
+
 		Application.LoadLevel("loadingScene");
 		
 	}

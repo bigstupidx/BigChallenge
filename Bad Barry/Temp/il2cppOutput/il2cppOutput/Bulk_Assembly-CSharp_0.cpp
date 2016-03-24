@@ -4900,38 +4900,6 @@ extern "C"  void GameBehavior__ctor_m977543831 (GameBehavior_t1830462596 * __thi
 		return;
 	}
 }
-// System.Void GameBehavior::_ReportAchievement(System.String,System.Single)
-extern "C" {void DEFAULT_CALL _ReportAchievement(char*, float);}
-extern "C"  void GameBehavior__ReportAchievement_m1786703454 (Il2CppObject * __this /* static, unused */, String_t* ___achievementID, float ___progress, const MethodInfo* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, float);
-	static PInvokeFunc _il2cpp_pinvoke_func;
-	if (!_il2cpp_pinvoke_func)
-	{
-		_il2cpp_pinvoke_func = (PInvokeFunc)_ReportAchievement;
-
-		if (_il2cpp_pinvoke_func == NULL)
-		{
-			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: '_ReportAchievement'"));
-		}
-	}
-
-	// Marshaling of parameter '___achievementID' to native representation
-	char* ____achievementID_marshaled = NULL;
-	____achievementID_marshaled = il2cpp_codegen_marshal_string(___achievementID);
-
-	// Marshaling of parameter '___progress' to native representation
-
-	// Native function invocation
-	_il2cpp_pinvoke_func(____achievementID_marshaled, ___progress);
-
-	// Marshaling cleanup of parameter '___achievementID' native representation
-	il2cpp_codegen_marshal_free(____achievementID_marshaled);
-	____achievementID_marshaled = NULL;
-
-	// Marshaling cleanup of parameter '___progress' native representation
-
-}
 // System.Void GameBehavior::Start()
 extern TypeInfo* GameCenterPlatform_t899915837_il2cpp_TypeInfo_var;
 extern TypeInfo* GameBehavior_t1830462596_il2cpp_TypeInfo_var;
@@ -5031,16 +4999,11 @@ extern "C"  void GameBehavior_ReportAchievement_m4281152869 (GameBehavior_t18304
 		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)8))))
 		{
-			goto IL_0013;
+			goto IL_000b;
 		}
 	}
-	{
-		String_t* L_1 = ___id;
-		int32_t L_2 = ___percentage;
-		GameBehavior__ReportAchievement_m1786703454(NULL /*static, unused*/, L_1, (((float)((float)L_2))), /*hidden argument*/NULL);
-	}
 
-IL_0013:
+IL_000b:
 	{
 		return;
 	}
@@ -5052,21 +5015,17 @@ extern "C"  void GameBehavior_ReportScore_m605145793 (GameBehavior_t1830462596 *
 		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)8))))
 		{
-			goto IL_0013;
+			goto IL_000b;
 		}
 	}
-	{
-		int64_t L_1 = ___score;
-		String_t* L_2 = ___id;
-		GameBehavior_ReportScoreDetailed_m3418200465(__this, L_1, L_2, /*hidden argument*/NULL);
-	}
 
-IL_0013:
+IL_000b:
 	{
 		return;
 	}
 }
 // System.Void GameBehavior::finishedHordeMode()
+extern TypeInfo* GameBehavior_t1830462596_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t359458046_il2cpp_TypeInfo_var;
 extern TypeInfo* ILocalUser_t198308673_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725_MethodInfo_var;
@@ -5080,6 +5039,8 @@ extern "C"  void GameBehavior_finishedHordeMode_m4265289746 (GameBehavior_t18304
 		il2cpp_codegen_initialize_method (GameBehavior_finishedHordeMode_m4265289746_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
+	Il2CppObject * G_B5_0 = NULL;
+	Il2CppObject * G_B4_0 = NULL;
 	{
 		int32_t L_0 = __this->get_currentHordeKills_60();
 		int32_t L_1 = __this->get_maxHordeKills_59();
@@ -5099,20 +5060,36 @@ IL_001d:
 		int32_t L_3 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
 		{
-			goto IL_0045;
+			goto IL_0056;
 		}
 	}
 	{
 		Il2CppObject * L_4 = Social_get_localUser_m2966161563(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IntPtr_t L_5;
-		L_5.set_m_value_0((void*)GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725_MethodInfo_var);
-		Action_1_t359458046 * L_6 = (Action_1_t359458046 *)il2cpp_codegen_object_new(Action_1_t359458046_il2cpp_TypeInfo_var);
-		Action_1__ctor_m377969142(L_6, __this, L_5, /*hidden argument*/Action_1__ctor_m377969142_MethodInfo_var);
-		NullCheck(L_4);
-		InterfaceActionInvoker1< Action_1_t359458046 * >::Invoke(0 /* System.Void UnityEngine.SocialPlatforms.ILocalUser::Authenticate(System.Action`1<System.Boolean>) */, ILocalUser_t198308673_il2cpp_TypeInfo_var, L_4, L_6);
+		Action_1_t359458046 * L_5 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache49_75();
+		G_B4_0 = L_4;
+		if (L_5)
+		{
+			G_B5_0 = L_4;
+			goto IL_004c;
+		}
+	}
+	{
+		IntPtr_t L_6;
+		L_6.set_m_value_0((void*)GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725_MethodInfo_var);
+		Action_1_t359458046 * L_7 = (Action_1_t359458046 *)il2cpp_codegen_object_new(Action_1_t359458046_il2cpp_TypeInfo_var);
+		Action_1__ctor_m377969142(L_7, NULL, L_6, /*hidden argument*/Action_1__ctor_m377969142_MethodInfo_var);
+		((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache49_75(L_7);
+		G_B5_0 = G_B4_0;
 	}
 
-IL_0045:
+IL_004c:
+	{
+		Action_1_t359458046 * L_8 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache49_75();
+		NullCheck(G_B5_0);
+		InterfaceActionInvoker1< Action_1_t359458046 * >::Invoke(0 /* System.Void UnityEngine.SocialPlatforms.ILocalUser::Authenticate(System.Action`1<System.Boolean>) */, ILocalUser_t198308673_il2cpp_TypeInfo_var, G_B5_0, L_8);
+	}
+
+IL_0056:
 	{
 		return;
 	}
@@ -6186,7 +6163,7 @@ extern "C"  void GameBehavior_ReportScoreDetailed_m3418200465 (GameBehavior_t183
 		Debug_Log_m1731103628(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		int64_t L_9 = ___score;
 		String_t* L_10 = ___leaderboardID;
-		Action_1_t359458046 * L_11 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache49_75();
+		Action_1_t359458046 * L_11 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4A_76();
 		G_B1_0 = L_10;
 		G_B1_1 = L_9;
 		if (L_11)
@@ -6201,14 +6178,14 @@ extern "C"  void GameBehavior_ReportScoreDetailed_m3418200465 (GameBehavior_t183
 		L_12.set_m_value_0((void*)GameBehavior_U3CReportScoreDetailedU3Em__2_m2512038685_MethodInfo_var);
 		Action_1_t359458046 * L_13 = (Action_1_t359458046 *)il2cpp_codegen_object_new(Action_1_t359458046_il2cpp_TypeInfo_var);
 		Action_1__ctor_m377969142(L_13, NULL, L_12, /*hidden argument*/Action_1__ctor_m377969142_MethodInfo_var);
-		((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache49_75(L_13);
+		((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache4A_76(L_13);
 		G_B2_0 = G_B1_0;
 		G_B2_1 = G_B1_1;
 	}
 
 IL_0047:
 	{
-		Action_1_t359458046 * L_14 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache49_75();
+		Action_1_t359458046 * L_14 = ((GameBehavior_t1830462596_StaticFields*)GameBehavior_t1830462596_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache4A_76();
 		Social_ReportScore_m2033004471(NULL /*static, unused*/, G_B2_1, G_B2_0, L_14, /*hidden argument*/NULL);
 		return;
 	}
@@ -6875,10 +6852,11 @@ IL_001f:
 	}
 }
 // System.Void GameBehavior::<finishedHordeMode>m__1(System.Boolean)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2565001456;
 extern const uint32_t GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725_MetadataUsageId;
-extern "C"  void GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725 (GameBehavior_t1830462596 * __this, bool ___success, const MethodInfo* method)
+extern "C"  void GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725 (Il2CppObject * __this /* static, unused */, bool ___success, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6890,23 +6868,23 @@ extern "C"  void GameBehavior_U3CfinishedHordeModeU3Em__1_m2617039725 (GameBehav
 		bool L_0 = ___success;
 		if (!L_0)
 		{
-			goto IL_001e;
+			goto IL_0015;
 		}
 	}
 	{
-		int32_t L_1 = __this->get_maxHordeKills_59();
-		String_t* L_2 = __this->get_hordeScoreBoardId_2();
-		GameBehavior_ReportScore_m605145793(__this, (((int64_t)((int64_t)L_1))), L_2, /*hidden argument*/NULL);
-		goto IL_0028;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		MonoBehaviour_print_m1497342762(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		goto IL_001f;
 	}
 
-IL_001e:
+IL_0015:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
 		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2565001456, /*hidden argument*/NULL);
 	}
 
-IL_0028:
+IL_001f:
 	{
 		return;
 	}
