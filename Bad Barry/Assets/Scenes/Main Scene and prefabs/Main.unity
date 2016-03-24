@@ -133,59 +133,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 04e2f4e64d37248488c339cac01ab1c9, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &257699521
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 16.4602699
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -6.35847759
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 467876, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 83ce0c776543a4121a34819d11757547, type: 2}
-  m_IsPrefabParent: 0
 --- !u!82 &339397001 stripped
 AudioSource:
   m_PrefabParentObject: {fileID: 8236312, guid: 04e2f4e64d37248488c339cac01ab1c9,
     type: 2}
   m_PrefabInternal: {fileID: 211558400}
---- !u!114 &535146119 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11471218, guid: 83ce0c776543a4121a34819d11757547,
-    type: 2}
-  m_PrefabInternal: {fileID: 257699521}
-  m_Script: {fileID: 11500000, guid: 305dd0fcde31b4900a643bc9f647a1ee, type: 3}
 --- !u!1001 &708038570
 Prefab:
   m_ObjectHideFlags: 0
@@ -280,7 +232,7 @@ Prefab:
     - target: {fileID: 11483510, guid: d1ac610c8193742e7a9b4cf4ba137469, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 535146119}
+      objectReference: {fileID: 0}
     - target: {fileID: 11452758, guid: d1ac610c8193742e7a9b4cf4ba137469, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

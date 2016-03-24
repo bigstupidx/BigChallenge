@@ -40,13 +40,15 @@ public class InventoryInMission : MonoBehaviour {
 
 		if (inventoryItems != null) {
 			for (int i = 0; i<inventoryItems.Count; i++) {
-				if (!inventoryItems [i].item.Stackable) {
-					if (inventoryItems [i].item.ID == 2)
-						player.ChangeWeapon (1);
-					else if (inventoryItems [i].item.ID == 3)
-						player.ChangeWeapon (2);
-					print ("entrou aqui e o selectedweapon ta = " + behave.selectedWeapon);
-					break;
+				if(inventoryItems[i].item != null){
+					if (!inventoryItems [i].item.Stackable) {
+						if (inventoryItems [i].item.ID == 2)
+							player.ChangeWeapon (1);
+						else if (inventoryItems [i].item.ID == 3)
+							player.ChangeWeapon (2);
+						print ("entrou aqui e o selectedweapon ta = " + behave.selectedWeapon);
+						break;
+					}
 				}
 			}
 		}
