@@ -14,17 +14,17 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen744596923MethodDeclarations.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::.ctor(System.Array)
-#define InternalEnumerator_1__ctor_m11798(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1960 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11787_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11799(__this, method) (( void (*) (InternalEnumerator_1_t1960 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m11789_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11800(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1960 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11791_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::Dispose()
-#define InternalEnumerator_1_Dispose_m11801(__this, method) (( void (*) (InternalEnumerator_1_t1960 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11793_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m11802(__this, method) (( bool (*) (InternalEnumerator_1_t1960 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11795_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityStandardAssets.CrossPlatformInput.AxisTouchButton>::get_Current()
-#define InternalEnumerator_1_get_Current_m11803(__this, method) (( AxisTouchButton_t27 * (*) (InternalEnumerator_1_t1960 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11797_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m3818991403(__this, ___array, method) ((  void (*) (InternalEnumerator_1_t1601579431 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m2616641763_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m4059419191(__this, method) ((  void (*) (InternalEnumerator_1_t1601579431 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2224260061_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2838454371(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t1601579431 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m390763987_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::Dispose()
+#define InternalEnumerator_1_Dispose_m2758657410(__this, method) ((  void (*) (InternalEnumerator_1_t1601579431 *, const MethodInfo*))InternalEnumerator_1_Dispose_m2760671866_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m2131574307(__this, method) ((  bool (*) (InternalEnumerator_1_t1601579431 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m3716548237_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::get_Current()
+#define InternalEnumerator_1_get_Current_m1672825778(__this, method) ((  BigInteger_t1694088928 * (*) (InternalEnumerator_1_t1601579431 *, const MethodInfo*))InternalEnumerator_1_get_Current_m2178852364_gshared)(__this, method)

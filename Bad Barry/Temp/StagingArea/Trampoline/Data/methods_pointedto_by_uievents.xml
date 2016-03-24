@@ -4,19 +4,7 @@
 			<method name="GoToMapWithSound"/>
 			<method name="GoToCredits"/>
 		</type>
-		<type fullname="Mute">
-			<method name="OnClick"/>
-		</type>
 		<type fullname="MapSceneHandler">
-			<method name="goToInventoryScreen"/>
-			<method name="goToStatisticsScreen"/>
-			<method name="goToAtributes"/>
-			<method name="setMissionNumber"/>
-			<method name="goToMission"/>
-			<method name="setMissionNumber"/>
-			<method name="goToMission"/>
-			<method name="setMissionNumber"/>
-			<method name="goToMission"/>
 			<method name="setMissionNumber"/>
 			<method name="goToMission"/>
 			<method name="setMissionNumber"/>
@@ -26,6 +14,18 @@
 			<method name="goToMission"/>
 			<method name="setMissionNumber"/>
 			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="setMissionNumber"/>
+			<method name="goToMission"/>
+			<method name="goToAtributes"/>
+			<method name="goToStatisticsScreen"/>
+			<method name="goToInventoryScreen"/>
+		</type>
+		<type fullname="Mute">
+			<method name="OnClick"/>
 		</type>
 		<type fullname="ListPositionCtrl">
 			<method name="lastContent"/>
@@ -38,54 +38,6 @@
 		<type fullname="Inventory">
 			<method name="GoToMap"/>
 		</type>
-		<type fullname="Player">
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToScore"/>
-			<method name="PauseGoToMap"/>
-		</type>
-		<type fullname="InventoryInMission">
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-		</type>
-		<type fullname="Skill">
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-			<method name="ItemPressed"/>
-		</type>
 		<type fullname="HUDGame">
 			<method name="showMenu"/>
 			<method name="showMenu"/>
@@ -94,6 +46,9 @@
 			<method name="showMenu"/>
 			<method name="showMenu"/>
 			<method name="showMenu"/>
+		</type>
+		<type fullname="hordeMode">
+			<method name="onClickNext"/>
 		</type>
 		<type fullname="Retry">
 			<method name="retry"/>
@@ -141,8 +96,53 @@
 			<method name="SetDownState"/>
 			<method name="SetUpState"/>
 		</type>
-		<type fullname="hordeMode">
-			<method name="onClickNext"/>
+		<type fullname="InventoryInMission">
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+		</type>
+		<type fullname="Player">
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+			<method name="PauseGoToMap"/>
+			<method name="PauseGoToScore"/>
+		</type>
+		<type fullname="Skill">
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
+			<method name="ItemPressed"/>
 		</type>
 		<type fullname="AtributeScreen">
 			<method name="GoToMap"/>

@@ -18,30 +18,30 @@
 #include "codegen/il2cpp-codegen.h"
 
 
-extern Il2CppGenericClass* s_Il2CppGenericTypes[];
-extern const Il2CppGenericInst* g_Il2CppGenericInstTable[];
-extern Il2CppGenericMethodFunctionsDefinitions s_Il2CppGenericMethodFunctions[];
+extern Il2CppGenericClass* const s_Il2CppGenericTypes[];
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[];
+extern const Il2CppGenericMethodFunctionsDefinitions s_Il2CppGenericMethodFunctions[];
 extern const Il2CppType* const  g_Il2CppTypeTable[];
 extern const Il2CppMethodSpec g_Il2CppMethodSpecTable[];
-extern const EncodedMethodIndex  g_Il2CppMethodReferenceTable[];
 extern const int32_t g_FieldOffsetTable[];
 extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[];
+extern void** const g_MetadataUsages[];
 extern const Il2CppMetadataRegistration g_MetadataRegistration = 
 {
-	2065,
+	2128,
 	s_Il2CppGenericTypes,
-	592,
+	611,
 	g_Il2CppGenericInstTable,
-	4584,
+	4591,
 	s_Il2CppGenericMethodFunctions,
-	7681,
+	7904,
 	g_Il2CppTypeTable,
-	4848,
+	4865,
 	g_Il2CppMethodSpecTable,
-	4481,
-	g_Il2CppMethodReferenceTable,
-	7420,
+	7591,
 	g_FieldOffsetTable,
-	1776,
+	1823,
 	g_Il2CppTypeDefinitionSizesTable,
+	9715,
+	g_MetadataUsages,
 };
